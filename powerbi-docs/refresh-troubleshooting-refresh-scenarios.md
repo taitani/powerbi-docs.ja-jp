@@ -1,0 +1,73 @@
+---
+title: "更新に関するトラブルシューティング シナリオ"
+description: "更新に関するトラブルシューティング シナリオ"
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/26/2017
+ms.author: davidi
+ms.openlocfilehash: e7f14ea9334ebaf3b1b42facf03f0ad8055e5bd7
+ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 11/13/2017
+---
+# <a name="troubleshooting-refresh-scenarios"></a>更新に関するトラブルシューティング シナリオ
+ここでは、Power BI サービス内のデータを更新するときに直面する可能性のあるさまざまなシナリオに関する情報を提供します。
+
+> [!NOTE]
+> 以下に記載されていないシナリオが発生し、問題を引き起こしている場合は、[コミュニティ サイト](http://community.powerbi.com/)でさらに支援を求めることや、[サポート チケット](https://powerbi.microsoft.com/support/)を作成することができます。
+> 
+> 
+
+## <a name="refresh-using-web-connector-doesnt-work-properly"></a>Web コネクタを使用した更新が正常に動作しない
+[**Web.Page**](https://msdn.microsoft.com/library/mt260924.aspx) 関数を使用している Web コネクタ スクリプトがあり、2016 年 11 月 18 日より後にデータセットまたはレポートを更新した場合は、更新が適切に機能するようにゲートウェイを使用する必要があります。
+
+## <a name="unsupported-data-source-for-refresh"></a>更新用にサポートされていないデータ ソース
+データセットを構成しているときに、データセットが更新用にサポートされていないデータ ソースを使用していることを示すエラーが発生する場合があります。 詳細については、[更新用にサポートされていないデータ ソースのトラブルシューティング](service-admin-troubleshoot-unsupported-data-source-for-refresh.md)を参照してください
+
+## <a name="dashboard-doesnt-reflect-changes-after-refresh"></a>更新後にダッシュボードに変更が反映されない
+ダッシュボードのタイルに更新が反映されるまで約 10 ～ 15 分お待ちください。  それでも表示されない場合は、視覚化をもう一度ダッシュボードにピン留めします。
+
+## <a name="gatewaynotreachable-when-setting-credentials"></a>資格情報を設定するときの GatewayNotReachable
+データ ソースの資格情報を設定するときに、GatewayNotReachable が発生する可能性があります。 これは、ゲートウェイが期限切れになった場合に発生する可能性があります。  最新のゲートウェイをインストールし、もう一度お試しください。
+
+## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>処理エラー: 次のシステム エラーが発生しました: 型が一致しません
+Power BI Desktop ファイルまたは Excel ブック内の M スクリプトに問題がある可能性があります。  Power BI Desktop のバージョンが古いことが原因である可能性もあります。
+
+## <a name="tile-refresh-errors"></a>タイルの更新エラー
+ダッシュボードのタイルで発生する可能性があるエラーの一覧とその説明については、「[タイルのエラーのトラブルシューティング](refresh-troubleshooting-tile-errors.md)」をご覧ください。
+
+## <a name="refresh-fails-when-updating-data-from-sources-that-use-aad-oauth"></a>AAD OAuth を使用するソースのデータを更新すると、更新に失敗する
+Azure Active Director (**AAD**) OAuth トークンはさまざまなデータ ソースで利用されていますが、約 1 時間で失効します。 データの読み込みにかかる時間が、トークンの有効期限 (1 時間) を超えてしまうという状況になる場合があります。データを読み込むとき、Power BI サービスが待機するのは最大 2 時間であるためです。 このような状況では、資格情報エラーでデータの読み込みプロセスに失敗することがあります。
+
+AAD OAuth を使用するデータ ソースには、**Microsoft Dynamics CRM Online** や **SharePoint Online** (SPO) などが含まれます。 このようなデータ ソースに接続するとき、データの読み込みに 1 時間以上かかり、資格情報エラーが表示される場合、これが理由として考えられます。
+
+Microsoft は、データの読み込みプロセスでトークンが更新され、続行されるソリューションを研究しています。 ただし、Dynamics CRM Online または SharePoint Online (あるいはその他の AAD OAuth データ ソース) インスタンスが非常に大きく、2 時間のデータ読み込みしきい値に達するようであれば、Power BI サービスでもデータ読み込みタイムアウトが発生する場合があります。
+
+また、更新が正常に動作するように、AAD OAuth を使って **SharePoint Online** データ ソースに接続するときは、**Power BI サービス**へのサインインに使ったものと同じアカウントを使う必要があることにも注意してください。
+
+## <a name="uncompressed-data-limits-for-refresh"></a>更新の際に適用される非圧縮データの制限
+**Power BI サービス**にインポートできるデータセットの最大サイズは 1 GB です。 このデータセットは圧縮されており、その圧縮率は、高いパフォーマンスを実現するためにかなり高くなっています。 また、共有された容量では、更新中に処理される非圧縮データ量が 10 GB に制限されます。 この制限は、圧縮を考慮しているため、1 GB をかなり上回っています。 Power BI Premium のデータセットには、この制限は適用されません。 この理由により Power BI サービスでの更新が失敗した場合は、Power BI にインポートするデータの量を減らしたうえで、もう一度やり直してください。
+
+## <a name="scheduled-refresh-timeout"></a>スケジュールされた更新のタイムアウト
+インポートされたデータセットに対してスケジュールされた更新の 2 時間後のタイムアウト。 **Premium** ワークスペースのデータセットの場合、このタイムアウトは 5 時間に延長されます。 この制限がある場合は、データセットのサイズまたは複雑さを軽減することを検討するか、データセットをより細かく分けることを検討できます。
+
+## <a name="next-steps"></a>次の手順
+[データ更新](refresh-data.md)  
+[オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
+[Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)  
+
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+
