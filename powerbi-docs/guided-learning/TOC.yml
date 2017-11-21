@@ -1,0 +1,16 @@
+- name: 作業の開始
+  href: 'gettingstarted.yml#step-0'
+- name: データの取得
+  href: 'gettingdata.yml#step-0'
+- name: モデリング
+  href: 'modeling.yml#step-0'
+- name: 視覚エフェクト
+  href: 'visualizations.yml#step-0'
+- name: データの探索
+  href: 'exploringdata.yml#step-0'
+- name: Power BI と Excel
+  href: 'powerbiandexcel.yml#step-0'
+- name: 発行と共有
+  href: 'publishingandsharing.yml#step-0'
+- name: DAX の概要
+  href: 'introductiontodax.yml#step-0'
