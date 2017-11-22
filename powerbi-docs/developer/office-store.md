@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/20/2017
 ms.author: asaxton
-ms.openlocfilehash: ab2d4518fbc16c857f6c2e4c3257f3b82e02e1c0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="publish-custom-visuals-to-the-office-store"></a>カスタム ビジュアルを Office ストアに発行する
 他のユーザーが探して使用できるように、Office ストアにカスタム ビジュアルを発行する方法について説明します。
@@ -133,7 +133,6 @@ Power BI チームからアプリ パッケージ XML を受け取った後は�
 
 ## <a name="next-steps"></a>次の手順
 [開発者ツールを使ってカスタム ビジュアルを作成する](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Office ストアからカスタム ビジュアルをダウンロードして使用する](../service-custom-visuals-office-store.md)  
 [Power BI での視覚化](../power-bi-report-visualizations.md)  
 [Power BI でのカスタム ビジュアル](../power-bi-custom-visuals.md)  
 [カスタム ビジュアルの*認定*を受ける](../power-bi-custom-visuals-certified.md)

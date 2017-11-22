@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: c3e8c4d110bccf1ed8a992b22bd1014a770d5bb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c48e7042f16ac43619a7a0a6708a54f0575d795f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="using-r-in-query-editor"></a>クエリ エディターで R を使用する
 Power BI Desktop **クエリ エディター**では、統計学者、データ科学者、データ分析官によって広く使用されているプログラミング言語、**R** を使用できます。 R と**クエリ エディター**を統合することで、R によるデータ クレンジングを実行したり、データセットで高度なデータ シェイプ/データ分析 (失ったデータを埋める、予測、クラスター化など) を実行したりできます。 **R** は高度な言語であり、**クエリ エディター**で使用し、データ モデルを用意したり、レポートを作成したりできます。
@@ -56,7 +56,7 @@ Power BI Desktop の**クエリ エディター**で **R** を実行するには
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-> 前のスクリプト コードを正しく動作させるためには、R 環境に *mice* ライブラリをインストールする必要があります。 mice をインストールするには、R のインストールで |      > install.packages('mice') を実行します。
+   > 前のスクリプト コードを正しく動作させるためには、R 環境に *mice* ライブラリをインストールする必要があります。 mice をインストールするには、R のインストールで |      > install.packages('mice') を実行します。
    > 
    > 
    
@@ -72,7 +72,6 @@ Power BI Desktop の**クエリ エディター**で **R** を実行するには
    
    パブリックに設定すると、**フィールド**に *completedValues* という新しい列が表示されます。 行 15 や行 18 行など、いくつかの行でデータ要素が不足しています。 次のセクションでは、R がデータ要素の不足を処理するしくみを確認します。
    
-   注意
 
 わずか 5 行の R スクリプトで、**クエリ エディター**は予測モデルで不足値を埋めました。
 

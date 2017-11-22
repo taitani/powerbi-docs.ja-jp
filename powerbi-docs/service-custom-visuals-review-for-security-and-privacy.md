@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 40c2c713615f6e9e5378d36b6b228dc864bcb57c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 20a697cbc4698e237f3ac09b031ea0c4cb734a52
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="review-custom-visuals-for-security-and-privacy"></a>カスタム ビジュアルのセキュリティとプライバシーを確認する
 カスタム ビジュアルを有効にする前に、セキュリティおよびプライバシーのビジュアルを確認し、組織の基準に適合することを確認してください。
@@ -102,9 +102,6 @@ pbiviz ファイルを抽出した後は、コードを評価できます。 ベ
 ## <a name="next-steps"></a>次の手順
 [Power BI での視覚化](power-bi-report-visualizations.md)  
 [Power BI でのカスタム ビジュアル](power-bi-custom-visuals.md)  
-[Office ストアからカスタム ビジュアルをダウンロードして使用する](service-custom-visuals-office-store.md)  
-[カスタム ビジュアルをレポートに追加する (Power BI Desktop)](power-bi-custom-visuals-use.md)  
-[カスタム ビジュアルをレポートに追加する (Power BI サービス)](power-bi-report-add-custom-visual.md)  
 [カスタム ビジュアルを Office ストアに発行する](developer/office-store.md)  
 [カスタム ビジュアル開発者ツールの概要](service-custom-visuals-getting-started-with-developer-tools.md)  
 [カスタム ビジュアルを証明する方法](power-bi-custom-visuals-certified.md)    

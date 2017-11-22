@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: 39de6173c88beb1b56092677887b71e603888143
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5b02f55a14592020e73005e44f8692cdb01693c7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Power BI Desktop で変数を視覚化する What-if パラメーターを作成して使用する
 2017 年 8 月リリースの **Power BI Desktop** 以降では、レポート用の **What-if** 変数を作成し、スライサーで変数を操作して、レポート内の異なるキー値を視覚化および定量化できます。
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 **What-if** パラメーターは、**Power BI Desktop** の **[モデリング]** タブにあります。 ダイアログが表示されてパラメーターを構成できます。
 
-### <a name="creating-a-what-if-parameter"></a>What-if パラメーターの作成
+## <a name="creating-a-what-if-parameter"></a>What-if パラメーターの作成
 **What-if** パラメーターを作成するには、**Power BI Desktop** の **[モデリング]** タブで **[What-If]** ボタンを選びます。 次の図では、*Discount percentage* という名前のパラメーターを作成し、データ型を "*10 進数*" に設定しています。 "*最小値*" は 0、"*最大値*" は 0.50 (50%) です。 また、"*増分*" を 0.05 (5%) に設定してあります。 これはレポートで操作したときのパラメーターの調整量です。
 
 ![](media/desktop-what-if/what-if_02.png)

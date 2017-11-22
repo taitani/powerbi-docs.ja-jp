@@ -18,14 +18,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/30/2017
 ms.author: mihart
-ms.openlocfilehash: 387f6bf9f9022fedf1266c32da3d61d3035e7d90
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow と Power BI
-## <a name="what-is-microsoft-flow"></a>Microsoft Flow とは
+
 [Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started) は、ビジネス ユーザーが使用するアプリケーションや SaaS サービスが増える中で、全体のワークフローを自動化する機能を提供する SaaS です。 Flow を使用すると、お気に入りのアプリとサービス (Power BI を含む) を統合して、通知の受信、ファイルの同期、データの収集などのタスクを自動化できます。 ワークフローを自動化すると、反復的なタスクが容易になります。
 
 [今すぐ Flow を使い始めましょう。](https://flow.microsoft.com/documentation/getting-started)
@@ -110,7 +110,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
    
     ![](media/service-flow-integration/power-bi-flow-notice.png)
 
-### <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次の手順
 * [Microsoft Flow の概要](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [Power BI サービスでのデータ アラートの設定](service-set-data-alerts.md)
 * [iPhone でデータ アラートを設定する](mobile-set-data-alerts-in-the-mobile-apps.md)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 336ae54d8c8d3226303a415729a7b02ceea6b680
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>開発者ツールを使ってカスタム ビジュアルを作成する
 カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。
@@ -382,7 +382,6 @@ Less の詳細については、[こちら](http://lesscss.org/)を参照して�
 [Power BI での視覚化](power-bi-report-visualizations.md)  
 [Power BI でのカスタム ビジュアル](power-bi-custom-visuals.md)  
 [カスタム ビジュアルを Office ストアに発行する](developer/office-store.md)  
-[Office ストアからカスタム ビジュアルをダウンロードして使用する](service-custom-visuals-office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  
 [Less CSS](http://lesscss.org/)  
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/01/2017
+ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: ee26744fe74fa536b7310ae0d1fbbc40d51e86a9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81a52b1810b2c35f67420741f3f89585626aa577
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -601,7 +601,6 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 **2015 年 5 月 7 日**
 
-* Power BI 用 **Visual Studio Online** コンテンツ パックを使用すると、Git と TFVC チーム プロジェクトに関する洞察を得ることができるようになりました。 詳細については、この[ドキュメント](service-connect-to-visual-studio.md)またはこの[ブログの投稿](http://blogs.msdn.com/b/powerbi/archive/2015/05/07/gain-understanding-and-insights-into-projects-in-visual-studio-online-with-power-bi.aspx)をご覧ください。
 * お客様にとって重要なことであるデータと洞察に重点を置きながら、外観を新しいモダンなデザイン、つまり斬新かつ特徴的なデザインに更新しました。
 
 **2015 年 4 月 28 日**
