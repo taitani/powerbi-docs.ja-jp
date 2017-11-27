@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: efbf5998bfc419dbcf5d7f685da128f26fcd70dd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: faaa96ad889b650d1902aa5916c0d9b35c7b49a5
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>チュートリアル: Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ
 このチュートリアルでは、**Analysis Services 表形式モデル**内に**行レベルのセキュリティ**を実装するために必要な手順と、Power BI レポートでのその使用方法を示します。 このチュートリアルの手順に従って、サンプル データセットを完了することで必要な手順を理解できるようになっています。

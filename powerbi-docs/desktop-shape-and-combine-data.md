@@ -17,18 +17,18 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b222addc2e72308e94a3d8836c8e9039c7208bae
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Power BI Desktop でのデータの整形と結合
 **Power BI Desktop** を使用すると、さまざまな種類のデータ ソースに接続してから、ニーズに合わせてデータを整形できます。 データの *整形* とは、データを変換することです。たとえば、列やテーブルの名前を変更したり、テキストを数値に変更したり、行を削除したり、最初の行をヘッダーとして設定したりします。 データの *結合* とは、複数のデータ ソースに接続して、必要に応じてそれらを整形してから、1 つの便利なクエリに統合することを意味します。
 
 このドキュメントでは、いくつかの最も一般的なタスクに注目しながら、Power BI Desktop を使用したクエリの整形方法を示します。 ここで使用するクエリは、クエリを最初から作成する方法も含めて、「[Power BI Desktop の概要](desktop-getting-started.md)」でより詳しく説明しています。
 
-Power BI Desktop の **クエリ エディター** では、リボンだけでなく右クリック メニューも広く使用することを知っておくと便利です。 **[変換]** リボンで選択できるほとんどの項目は、(列などの) 項目を右クリックし、表示されるメニューから選択して使用することもできます。
+Power BI Desktop の **クエリ エディター** では、リボンだけでなく右クリック メニューも広く使用することを知っておくと便利です。 **[変換]** リボンで選択できるほとんどの項目は、(列などの) 項目を右クリックし、表示されるメニューからクリックして使用することもできます。
 
 ## <a name="shape-data"></a>データの整形
 クエリ エディターでデータを整形する際は、(クエリ エディターが行う) 手順ごとの指示を与えて、クエリ エディターが読み込んで表示するデータを調整します。 元のデータ ソースに影響は及びません。この特定のデータ表示のみが調整または *整形* されます。
@@ -160,11 +160,11 @@ Power BI Desktop の **クエリ エディター** では、リボンだけで�
 
 ![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
-    >[!NOTE]
-    >This is a good time to point out that the *sequence* of applied steps in Query Editor is important, and can affect how the data is shaped. It’s also important to consider how one step may impact another subsequent step; if you remove a step from the Applied Steps, subsequent steps may not behave as originally intended, because of the impact of the query’s sequence of steps.
+>[!NOTE]
+>ここで、クエリ エディターにおいて適用される手順の*順番*は重要であり、データの整形方法に影響を与えることを指摘しておきます。 また、1 つの手順がこれ以降の別の手順にどのような影響を与える可能性があるかを検討することも重要です。適用される手順から手順を削除すると、クエリの手順の順番による影響のため、これ以降のステップは最初に意図したとおりに動作しない可能性があります。
 
-    >[!NOTE]
-    >When you resize the Query Editor window to make the width smaller, some ribbon items are condensed to make the best use of visible space. When you increase the width of the Query Editor window, the ribbon items expand to make the most use of the increased ribbon area.
+>[!NOTE]
+>クエリ エディター ウィンドウのサイズを変更して幅を狭くすると、表示スペースを最大限利用するようにリボン項目の一部が小さくなります。 クエリ エディター ウィンドウの幅を広げると、広くなったリボン領域を最大限活用するようにリボン項目が拡大されます。
 
 * 列およびテーブル自体の名前を変更する – 通常どおり、列の名前を変更するには 2 つの方法があります。まず列を選んでからリボンの **[変換]** タブで **[名前の変更]** を選ぶか、右クリックしてから表示されるメニューで **[名前の変更...]** を選びます。 次の図では両方のオプションに矢印が付いていますが、選択するのは一方だけです。
 

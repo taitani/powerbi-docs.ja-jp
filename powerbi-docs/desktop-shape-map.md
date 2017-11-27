@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4f3e8c0c8090eb8e5bba9f6058b579c843cfa79c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 772b1959433b3ba8a4d76ac04103f5a479546d0d
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
 Power BI Desktop では、**[マップのシェイプ]** のビジュアルを作成し、地図上のさまざまな地域にそれぞれ異なる色を適用することで地域間の相対比較を表示します。 **[マップ]** のビジュアルとは異なり、**[マップのシェイプ]** では、地図上にデータ ポイントの地理的場所を正確に表示することはできません。図形マップの主な目的は、地図上のさまざまな地域にそれぞれ異なる色を適用することで、地域間の相対比較を表示することにあります。
@@ -66,7 +66,7 @@ Power BI Desktop は、**[マップのシェイプ]** のビジュアルのデ�
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. また、カテゴリ データ列を **[凡例]** バケットに追加し、カテゴリに基づいて地図の地域を分類することもできます。
 
-## <a name="use-custom-maps"></a>カスタムのマップの使用
+## <a name="use-custom-maps"></a>カスタム マップの使用
 それが **TopoJSON** 形式であれば、**マップのシェイプ**でカスタム マップを使用できます。 マップが別の形式の場合、[**Map Shaper**](http://mapshaper.org/) などのオンライン ツールを使用し、*シェイプ ファイル*や *GeoJSON* マップを **TopoJSON** 形式に変換できます。
 
 **TopoJSON** マップ ファイルを使用するには、ShapeMap ビジュアルをレポートに追加し、データを *[場所]* バケットと *[値]* バケットに追加します。 その後、**[視覚化]** ウィンドウで **[形式]** セクションを選択し (次の画像の (1) のような絵筆型のアイコン)、**[図形]** セクションを展開し、**[+ マップの追加]** を選択します。

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 7f5b5114951265e2dd76dbbd8a33045d44e21989
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9bff028c0db75e4c0e4f3b2fe97b4ed19c0d1518
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop レポートのアクセシビリティ
 **Power BI Desktop** には、障碍を持つユーザーがより簡単に **Power BI Desktop** レポートを使用したり対話したりする機能が用意されています。 これらは、レポートでキーボードやスクリーンリーダーを使用したり、ページ上のさまざまなオブジェクトにフォーカスをタブ移動したり、マーカーを使用して気の利いた視覚化を実行するための機能です。
@@ -76,7 +76,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 アクセシビリティ機能には、次の一覧に示すように既知の問題と制限があります。
 
-* 埋め込みレポートを含む **Power BI サービス**で表示されるレポートでは、JAWS のみがサポートされています。 **Power BI Desktop** チームは、**Power BI Desktop** で表示されるレポートでも使用できるように取り組んでいます。
+* 埋め込みレポートを含む **Power BI サービス**で表示されるレポートでは、JAWS がサポートされています。 JAWS は **Power BI Desktop** でもサポートされていますが、画面読み上げを正しく機能させるには、**Power BI Desktop** ファイルを開く前にスクリーン リーダーを開く必要があります。
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI Desktop でレポートのテーマを使用する (プレビュー)](desktop-report-themes.md)

@@ -17,23 +17,23 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f7e7f0df4791fb4f9af67c4a5d885aa0e830f7df
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 06abac9ceba037769f9720dfbc4f0b32d5486686
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop での一般的なクエリ タスク
 Power BI Desktop の **クエリ エディター** ウィンドウで作業するとき、一般的に使用される多数のタスクがあります。 このドキュメントでは、それらの一般的なタスクについて説明し、追加情報へのリンクを示します。 
 
-ここでは、以下の一般的なタスクについて説明します。
+ここでは、以下の一般的なクエリ タスクについて説明します。
 
 * データへの接続
 * データの整形と結合
 * 行のグループ化
 * 列のピボット
 * カスタム列の作成
-* クエリ式
+* 数式のクエリ
 
 これらのタスクを完了するために、いくつかのデータ接続を使用します。 これらのタスクの手順をユーザー自身で実行することもできるように、データはダウンロードや接続が可能になっています。
 
@@ -137,7 +137,7 @@ Power BI Desktop では、列をピボットして、列内の一意の値ごと
 
 ![](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
 
-## <a name="query-formulas"></a>クエリ式
+## <a name="query-formulas"></a>数式のクエリ
 クエリ エディターによる生成手順を編集して、データの接続と整形を正確に制御するカスタムの数式を作成できます。 クエリ エディターがデータに対してアクションを実行するたびに、アクションに関連付けられた数式が **数式バー**に表示されます。 **数式バー**を表示するには、リボンの **[ビュー]** タブにある **数式バー** の横のチェックボックスを選択します。
 
 ![](media/desktop-common-query-tasks/queryformulas_formulabar.png)

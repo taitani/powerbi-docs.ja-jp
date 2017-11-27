@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: b425e7ea2cffeff31cc8cf49330ca3835d92165c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f82bcc9d9add1683f593da6457fde2a4bbce2e02
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Power BI Desktop で例から列を追加する
 2017 年 4 月リリース以降の **Power BI Desktop** では、**クエリ エディター**を使い、新しい列のサンプル値を指定するだけで、モデルに新しいデータ列を追加できます。 現在選択されているものから、または特定のテーブルのすべての (または選択されている) 列に基づいて入力を提供することで、新しい列の例を作成できます。
@@ -83,26 +83,29 @@ ms.lasthandoff: 11/15/2017
 
 * **参照**
   
-  * 特定の列の参照 (トリム、クリーン (2017 年 6 月時点)、および大文字小文字の変換を含みます)
+  * 特定の列の参照 (トリム、クリーン、および大文字小文字の変換を含みます)
+
 * **Text 変換**
   
   * 結合 (リテラル文字列と列全体の値の組み合わせをサポートしています)
   * 置換
   * 長さ
-  * 抽出
-    
+  * 抽出   
     * 最初の文字
     * 最後の文字
     * 範囲
     * 区切り記号の前のテキスト
     * 区切り記号の後のテキスト
     * 区切り記号の間のテキスト
-  * 次のサポート対象の **Text 変換**は、2017 年 6 月リリース以降の **Power BI Desktop** で使用できます。
-    
     * 長さ
 
+* 次のサポート対象の **Text 変換**は、2017 年 11 月リリース以降の **Power BI Desktop** で使用できます。
+    
+  * 文字の削除
+  * 文字の保持
+
 > [!NOTE]
-> すべての *Text* 変換では、列の値のトリミング、クリーン (2017 年 6 月時点)、または大文字小文字変換の適用の必要性が考慮されます。
+> すべての *Text* 変換では、列の値のトリミング、クリーン、または大文字小文字変換の適用の必要性が考慮されます。
 > 
 > 
 
@@ -118,8 +121,6 @@ ms.lasthandoff: 11/15/2017
   * 月の通算週
   * 年の通算週
   * 年
-* その他にも、次のサポート対象の **Date 変換**が 2017 年 6 月の **Power BI Desktop** のリリース以降で使用できます。
-  
   * 期間
   * 年の開始日
   * 年の最終日
@@ -133,13 +134,13 @@ ms.lasthandoff: 11/15/2017
   * 月の日付
   * 一日の開始時刻
   * 最終日
+
+
 * **Time 変換**
   
   * 時
   * 分
-  * 秒
-* **Date/Time/Timezone 変換** - 2017 年 7 月リリースの **Power BI Desktop** では、次のサポートされる変換を使用できます。
-  
+  * 秒  
   * 現地時刻への変換
 
 > [!NOTE]
@@ -147,7 +148,8 @@ ms.lasthandoff: 11/15/2017
 > 
 > 
 
-* **Number 変換** - 2017 年 7 月リリースの **Power BI Desktop** では、次のサポートされる変換を使用できます。
+* **Number 変換** 
+
   * 絶対値
   * アークコサイン
   * アークサイン
@@ -175,3 +177,10 @@ ms.lasthandoff: 11/15/2017
   * 合計
   * タンジェント
 
+* 次のサポート対象の **Number 変換**は、2017 年 11 月リリース以降の **Power BI Desktop** で使用できます。
+
+  * バケット/範囲
+
+* **全般**
+  
+  * 条件付きの列

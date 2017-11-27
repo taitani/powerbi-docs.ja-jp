@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 338f45ec7aa4564dfd17678b5c5296a08c078334
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の小売りの分析のサンプル: 使ってみる
-## <a name="about-the-retail-analysis-sample"></a>小売りの分析のサンプルについて
+
 この業界サンプル ダッシュボードと基になるレポートは、複数の店舗や地域で販売されたアイテムの小売店の売上データを分析したものです。 メトリックは、売上、出荷単位、粗利、差異、新店舗の分析に関して、本年度と昨年度の業績を比較します。 これは、obviEnce ([www.obvience.com](http://www.obvience.com)) が収集している匿名化された実データです。
 
 [このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529778)することもできます。
@@ -134,7 +134,7 @@ ms.lasthandoff: 11/13/2017
 
 これは、試してみるのに安全な環境です。 変更内容を保存しないようにいつでも選択できます。 一方、保存すると、常にこのサンプルの新しいコピーに対するデータの取り込みに進むことができます。
 
-## <a name="next-steps-connect-to-your-data"></a>次の手順: データへの接続
+## <a name="connect-to-your-data"></a>データへの接続
 この記事から、Power BI ダッシュボード、Q & A、レポートから小売店のデータへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータを接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、「[Power BI の概要](service-get-started.md)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: maggies
-ms.openlocfilehash: 9c88c70de013679ea27faae17a3672c0d172b2a9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>同僚や他のユーザーと自分の Power BI ダッシュボードを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の方法でダッシュボードで共同作業を行い](service-how-to-collaborate-distribute-dashboards-reports.md)、ダッシュボードを配布できますが、共有はその 1 つにすぎません。
@@ -63,7 +63,7 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
    
    組織外の受信者がリンクをクリックすると、ダッシュボードは表示されますが、通常の Power BI ポータルではありません。 詳しくは、後の「[組織外のユーザーとダッシュボードを共有する](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization)」をご覧ください。
 
-## <a name="who-has-access-to-a-dashboard-i-shared"></a>自分が共有したダッシュボードにアクセスできるユーザー
+## <a name="who-has-access-to-a-dashboard-you-shared"></a>自分が共有したダッシュボードにアクセスできるユーザー
 場合によっては、自分がダッシュボードを共有している相手や、その相手がダッシュボードを再共有しているユーザーを確認する必要があります。
 
 1. ダッシュボードの一覧またはダッシュボード自体で、**[共有]** ![共有アイコン](media/service-share-dashboards/power-bi-share-icon.png) を選びます。 
@@ -113,9 +113,7 @@ Power BI モバイル アプリから組織外のユーザーにリンクを送�
 * [ダッシュボード データの更新](refresh-data.md)はだれでも手動で行えます。
 * 電子メールに Office 365 を使用している場合は、配布グループに関連付けられた電子メール アドレスを入力することにより、配布グループのメンバーと共有できます。
 * 自分と同じ電子メール ドメインに属している同僚と、ドメインが異なっていても同じテナントに登録されている同僚は、ダッシュボードを他のユーザーと共有できます。 たとえば、ドメイン contoso.com と contoso2.com が同じテナント内に登録されているとします。 自分の電子メール アドレスが konrads@contoso.com の場合、ravali@contoso.com と gustav@contoso2.com は、共有のアクセス許可が付与されていれば、共有が可能です。
-* 同僚が既に特定のダッシュボードへのアクセスが可能な場合、自分がそのダッシュボードにいるときの URL をそのままコピーして、ダッシュボードへの直接リンクを送信できます。 例:   
-  
-    https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx
+* 同僚が既に特定のダッシュボードへのアクセスが可能な場合、自分がそのダッシュボードにいるときの URL をそのままコピーして、ダッシュボードへの直接リンクを送信できます。 例: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 同様に、同僚が特定のダッシュボードに既にアクセスできる場合は、[基になるレポートへの直接リンクを送信する](service-share-reports.md)ことができます。 
 
 ## <a name="next-steps"></a>次の手順

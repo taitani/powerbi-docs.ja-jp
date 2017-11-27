@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 71822f5d3e40eae4f43df5ab7129796e2a9d87b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da685cf95adb9d9f5bd4891f9447cbfe76759182
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop でのデータ型
 この記事では、Power BI Desktop と Data Analysis Expressions (DAX) でサポートされるデータ型について説明します。 
@@ -30,6 +30,7 @@ Power BI Desktop にデータを読み込むと、ソース列のデータ型は
 
 一部の DAX 関数はデータ型について特別な要件を持つため、どのデータ型に変換されるかは重要です。 多くの場合、DAX によってデータ型が暗黙的に変換されますが、データ型が変換されない場合もあります。  たとえば、日付データ型が必要な DAX 関数に対して、列のデータ型がテキストであると、DAX 関数は正しく機能しません。  そのため、列に適切なデータ型が設定されることは、重要であり、便利です。 暗黙的な変換については、この記事の後半で説明します。
 
+## <a name="determine-and-specify-a-columns-data-type"></a>列のデータ型を決定および指定する
 Power BI Desktop では、列のデータ型を、クエリ エディターで、あるいはデータ ビューまたはレポート ビューで確認し、指定できます。
 
 **クエリ エディターのデータ型**

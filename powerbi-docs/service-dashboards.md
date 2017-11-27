@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/31/2017
 ms.author: mihart
-ms.openlocfilehash: d810383c87dae59e3993cef638497e64fd398dc7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI サービスのダッシュボード
-## <a name="what-is-a-dashboard"></a>ダッシュボードとは
+
 Power BI の "***ダッシュボード***" は、視覚化を使ってストーリーを伝える単一のページであり、キャンバスと呼ばれることもよくあります。 ダッシュボードは 1 ページに制限されているため、適切に設計されたダッシュボードには、そのストーリーの最も重要な要素のみが含まれます。
 
 ![](media/service-dashboards/power-bi-dashboard2.png)
@@ -64,7 +64,7 @@ Power BI の "***ダッシュボード***" は、視覚化を使ってストー�
 | 視覚化の作成 |[タイルの追加] を使ってダッシュボードにウィジェットを追加ことだけできます |編集アクセス許可があれば、さまざまな種類のビジュアルの作成、カスタム ビジュアルの追加、ビジュアルの編集、その他が可能です |
 | カスタマイズ |視覚化 (タイル) の移動と配置、サイズ変更、リンクの追加、名前の変更、削除、全画面表示などを行うことができます。 ただし、データと視覚化自体は読み取り専用です。 |読み取りビューでは、発行、埋め込み、フィルター、エクスポート、.pbix としてのダウンロード、関連コンテンツの表示、QR コードの生成、Excel での分析、その他を行うことができます。  編集ビューでは、これまで説明したこと、およびさらに多くのことを実行できます。 |
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>ダッシュボードの "***作成者***" とダッシュボードの "***利用者***"
+## <a name="dashboard-creators-and-dashboard-consumers"></a>ダッシュボードの "作成者" とダッシュボードの "利用者"
 自分の役割に応じて、自分で使用するために、または同僚と共有するためにダッシュ ボードを作成する場合があります。 ダッシュボードを作成して共有する方法を覚えておく必要があります。 また、他のユーザーからダッシュボードを受け取る場合もあるため、 ダッシュボードを理解して操作する方法を理解する必要があります。
 
 役割別にダッシュボードを使い始めるときに役立つトピックを以下に示します。

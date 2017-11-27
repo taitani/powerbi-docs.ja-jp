@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/08/2017
 ms.author: davidi
-ms.openlocfilehash: b08cf6b2f01252773fdeec07b6a2e135e14101a5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a4a348d88bc9613c2d18766ff1ea398538088c9b
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Power BI Desktop の最新の更新プログラムの新機能
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/15/2017
 
 以下の更新は、今月の **Power BI Desktop** の新しい機能です。
 
-### <a name="reporting"></a>レポート:
+### <a name="reporting"></a>レポート
 
 -   テーブルとマトリックス ビジュアル向けのルール ベースの条件付き書式 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
 -   テーブルとマトリックス ビジュアル向けのセルの配置 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=4m16s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
@@ -54,17 +54,17 @@ ms.lasthandoff: 11/15/2017
 -   最近リリースされたカスタム ビジュアル [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>分析:
+### <a name="analytics"></a>分析
 
 -   複数の行カードに対する多次元 AS モデルのセル レベルの書式設定 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
 
 
-### <a name="data-connectivity"></a>データ接続:
+### <a name="data-connectivity"></a>データ接続
 
 -   Impala コネクタ - Windows 認証のサポート [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>その他:
+### <a name="other"></a>その他
 
 -   クエリの編集 - 例からの列の追加の改善 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 

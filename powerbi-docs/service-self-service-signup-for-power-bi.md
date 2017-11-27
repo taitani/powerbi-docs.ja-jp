@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
 ms.author: asaxton
-ms.openlocfilehash: dafd1d7891410818cc2c23031bf1a5f8c750438e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b09c497f04a59819f42e1841dd79912d19303041
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>個人として Power BI にサインアップする
 Power BI にサインアップして、個人用レポートおよび視覚エフェクトのニーズに応じて、Power BI の使用を開始する方法について説明します。
@@ -57,7 +57,7 @@ Power BI では、職場または学校用の電子メール アドレスを使�
 > 
 > 
 
-## <a name="which-one-do-i-need"></a>必要なオプション
+## <a name="which-one-do-you-need"></a>必要なライセンス
 各ライセンスの種類の内容を確認して、どれが必要かを判断してください。 無料ユーザーでも、サービスのほとんどの機能を利用できますが、共有およびコラボレーション機能は使用できません。 Power BI Pro ユーザーは、サービスのすべての機能を利用できますが、無料ではありません。 コンテンツを共有する必要がない場合は、無料が適切だと思われます。 詳しくは、[Power BI の料金ページ](https://powerbi.microsoft.com//pricing/)をご覧ください。
 
 この記事の残りの部分では、サインアップ方法をオプションごとに説明します。
@@ -93,7 +93,7 @@ Power BI にサインアップするには、次の操作を行うことがで�
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup7.png)
 
-### <a name="what-if-im-already-part-of-an-existing-organization"></a>既存の組織の一部である場合
+### <a name="what-if-youre-already-part-of-an-existing-organization"></a>既存の組織の一部である場合
 アカウントが既存の組織の一部である場合は、そのアカウントでサインインするように求めるメッセージが表示されます。 **[続行]** を選択し、Office 365 のログイン情報を使用してサインインします。
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup5.png)

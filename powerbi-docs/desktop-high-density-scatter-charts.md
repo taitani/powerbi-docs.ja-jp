@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 16c39e646c487789de62d0c030150475c8bb8292
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 12a9462a0594c6a52c7319073120cf323910d3e4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散布図の高密度サンプリング
 **Power BI Desktop** の 2017 年 9 月リリースおよび **Power BI サービス**の更新以降、新しいサンプリング アルゴリズムが使用可能です。これにより、散布図で高密度データを表す方法が改善されます。
@@ -73,7 +73,7 @@ ms.lasthandoff: 11/15/2017
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
-## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>散布図の **[高密度サンプリング]** を有効にする方法
+## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>散布図の [高密度サンプリング] を有効にする方法
 **高密度のサンプリング**を有効にするには、散布図を選択し、**[書式設定]** ウィンドウに移動して、**[全般]** カードを展開します。 そのカードの下部にある **[高密度サンプリング]** というトグル スライダーを使用できます。 これを有効にするは、**[オン]** にスライドします。
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)

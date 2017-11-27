@@ -17,53 +17,64 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 1ab68b945c078e554e7d33914ed447d056a6d190
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d1c247b1c01d87dd273c5a3caca19d4e84ac5392
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Power BI で R を利用したカスタム ビジュアルを使用する
-**Power BI Desktop** の 2016 年 10 月のリリースと、**Power BI サービス**では、R の知識がなく、R スクリプトを作成しなくても、R を利用したカスタム ビジュアルを作成できます。 これにより、自分で R を学習したりプログラミングを実行したりしなくても、R ビジュアルの分析や視覚機能に加え、R スクリプトを活用できます。
+**Power BI Desktop** および **Power BI サービス**では、R の知識がなく、R スクリプトを作成しなくても、R を利用したカスタム ビジュアルを使用できます。 これにより、自分で R を学習したりプログラミングを実行したりしなくても、R ビジュアルの分析や視覚機能に加え、R スクリプトを活用できます。
 
-R を利用したカスタム ビジュアルを使用するには、まず、使用したい R カスタム ビジュアルを、Power BI **カスタム ビジュアル** ギャラリーの **[R-powered visuals (R を利用したビジュアル)]** セクションで選択してダウンロードします。
+R を利用したカスタム ビジュアルを使用するには、まず、使用したい R カスタム ビジュアルを、Power BI **カスタム ビジュアル**の [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) ギャラリーで選択してダウンロードします。
 
-![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1.png)
+![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
 以下のセクションでは、R を利用したビジュアルを **Power BI Desktop** で選択して読み込み、使用する方法について説明します。
 
-### <a name="using-r-custom-visuals"></a>R カスタム ビジュアルの使用
-R を利用したカスタム ビジュアルを使用するには、各ビジュアルを**カスタム ビジュアル** ライブラリからダウンロードする必要があります。その後、このビジュアルは、**Power BI Desktop** で他の種類のビジュアルと同様に使用できます。 この手順を以下に示します。
+## <a name="use-r-custom-visuals"></a>R カスタム ビジュアルを使用する
+R を利用したカスタム ビジュアルを使用するには、各ビジュアルを**カスタム ビジュアル** ライブラリからダウンロードする必要があります。その後、このビジュアルは、**Power BI Desktop** で他の種類のビジュアルと同様に使用できます。 カスタム ビジュアルを取得する場合、オンラインの **AppSource** サイトからダウンロードする方法と、**Power BI Desktop** 内から取得する方法の 2 つがあります。 
 
-1. [http://app.powerbi.com/visuals](http://app.powerbi.com/visuals) にある[カスタム ビジュアル](http://app.powerbi.com/visuals) ライブラリに移動します。 ページの上部近くにある "*R-powered visuals (R を利用したビジュアル)*" リンクをクリックします。
+### <a name="get-custom-visuals-from-appsource"></a>AppSource からカスタム ビジュアルを取得する
+
+オンラインの **AppSource** サイトからビジュアルを参照して選択する手順を以下に示します。
+
+1. [https://appsource.microsoft.com](https://appsource.microsoft.com/) から、[Power BI visuals](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) ライブラリに移動します。*[製品で絞り込む]* にある *[Power BI apps]* チェックボックスを選択して、**[すべて表示]** リンクを選択します。
    
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2.png)
-2. ギャラリーから、使用したい **R を利用したビジュアル**を選択します。 詳細を表示するダイアログが表示されます。 **[Download Visual (ビジュアルのダウンロード)]** を選択してダウンロードします。
+   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
+
+2. 左側ウィンドウのアドインの一覧から、**[Power BI visual]** を選択します。 
+
+
+   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2b.png)
+
+3. 関心のある**ビジュアル**をギャラリーから選択すると、ビジュアルに関する説明のページに移動します。 **[今すぐ入手する]** ボタンを選択してダウンロードします。
    
    > [!NOTE]
 > **Power BI Desktop** で作成している場合は、ローカル コンピューターに R をインストールしておく必要があります。 ただし、ユーザーが R を利用したビジュアルを **Power BI サービス**に表示したい場合は、R をローカルにインストールしておく必要は "*ありません*"。
    > 
    > 
    
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3.png)
+   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
    
    R を利用したカスタム ビジュアルを **Power BI サービス**で使用するために R をインストールする必要はありませんが、**Power BI Desktop** で使用する場合は、ローカル コンピューターに R をインストールする "*必要があります*"。 R は、次の場所からダウンロードできます。
    
-   * [CRAN 3.3.1](https://cran.r-project.org/bin/windows/base/R-3.3.1-win.exe)
-   * [MRO 3.3.1](https://mran.microsoft.com/install/mro/3.3.1/microsoft-r-open-3.3.1.msi)
-3. ビジュアルがダウンロードされたら (ブラウザーから任意のファイルをダウンロードするのと似ています)、**Power BI Desktop** に移動し、**[視覚化]** ウィンドウの省略記号 ([...]) を右クリックして、**[カスタム ビジュアルのインポート]** を選択します。
+   * [CRAN](https://cran.r-project.org/)
+   * [MRO](https://mran.microsoft.com/)
+
+4. ビジュアルがダウンロードされたら (ブラウザーから任意のファイルをダウンロードするのと似ています)、**Power BI Desktop** に移動し、**[視覚化]** ウィンドウの省略記号 ([...]) を右クリックして、**[ファイルからインポートする]** を選択します。
    
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4.png)
-4. 次の図に示すように、カスタム ビジュアルのインポートに関する警告が表示されます。
+   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
+5. 次の図に示すように、カスタム ビジュアルのインポートに関する警告が表示されます。
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_5.png)
-5. ビジュアル ファイルが保存された場所に移動し、そのファイルを選択します。 **Power BI Desktop** のカスタム ビジュアルの拡張子は .pbiviz です。
+6. ビジュアル ファイルが保存された場所に移動し、そのファイルを選択します。 **Power BI Desktop** のカスタム ビジュアルの拡張子は .pbiviz です。
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
-6. Power BI Desktop に戻ると、**[視覚化]** ウィンドウに新しいビジュアルの種類が表示されます。
+7. Power BI Desktop に戻ると、**[視覚化]** ウィンドウに新しいビジュアルの種類が表示されます。
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_7.png)
-7. 新しいビジュアルをインストールする (または、R を利用したカスタム ビジュアルを含むレポートを開く) と、**Power BI Desktop** によって、必要な R パッケージがインストールされます。
+8. 新しいビジュアルをインストールする (または、R を利用したカスタム ビジュアルを含むレポートを開く) と、**Power BI Desktop** によって、必要な R パッケージがインストールされます。
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_8.png)
 
@@ -73,14 +84,24 @@ R を利用したカスタム ビジュアルを使用するには、各ビジ�
 
 他の **Power BI Desktop** ビジュアルと同様、その R を利用したビジュアルを含むこのレポートを **Power BI サービス**に発行し、他のユーザーと共有することができます。
 
-新しいビジュアルは常時追加されるため、[R を利用したカスタム ビジュアル](https://app.powerbi.com/visuals/R-powered)のライブラリをこまめに確認してください。
+新しいビジュアルが頻繁に追加されるため、ライブラリはこまめに確認してください。
 
-### <a name="contributing-r-powered-custom-visuals"></a>R を利用したカスタム ビジュアルの投稿
+### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>**Power BI Desktop** 内からカスタム ビジュアルを入手する
+
+**Power BI Desktop** 内からカスタム ビジュアルを入手することもできます。 **Power BI Desktop** の **[視覚化]** ウィンドウで省略記号 (...) を右クリックして、**[ストアからインポート]** を選択します。
+   
+   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
+
+これを行うと、**[Power BI カスタム ビジュアル]** ダイアログが表示され、ここから入手可能なカスタム ビジュアルをスクロールして選択することができます。 名前での検索やカテゴリの選択ができるだけでなく、単に入手可能なビジュアルをスクロールすることもできます。 準備ができたら、**[追加]** を選択してカスタム ビジュアルを **Power BI Desktop** に追加します。
+
+![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
+
+## <a name="contribute-r-powered-custom-visuals"></a>R を利用したカスタム ビジュアルを投稿する
 レポートに使用するために独自の R ビジュアルを作成した場合は、そのカスタム ビジュアルを**カスタム ビジュアル ギャラリー**に投稿することで、世界中に公開できます。 投稿は GitHub を通じて行われるため、その処理については次の場所で説明されています。
 
 * [R を利用したカスタム ビジュアル ギャラリーに投稿する](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
-### <a name="troubleshooting-r-powered-custom-visuals"></a>R を利用したカスタム ビジュアルのトラブルシューティング
+## <a name="troubleshoot-r-powered-custom-visuals"></a>R を利用したカスタム ビジュアルをトラブルシューティングする
 R を利用したカスタム ビジュアルには、ビジュアルが適切に機能するために満たす必要のある特定の依存関係があります。 R を利用したカスタム ビジュアルの実行や読み込みが正常に行われないときは、通常、次のいずれかの問題があります。
 
 * R エンジンがない
@@ -89,7 +110,7 @@ R を利用したカスタム ビジュアルには、ビジュアルが適切�
 
 以下のセクションでは、発生した問題に対処するために実行できるトラブルシューティング手順について説明します。
 
-#### <a name="missing-or-outdated-r-packages"></a>R パッケージが存在しないか期限が切れている
+### <a name="missing-or-outdated-r-packages"></a>R パッケージが存在しないか期限が切れている
 R パッケージが存在しないか、古くなっていると、R を利用したカスタム ビジュアルをインストールするときにエラーが発生します。これは通常、次のいずれかの理由によるものです。
 
 * R のインストールと R パッケージの間に互換性がありません
@@ -127,7 +148,7 @@ Power BI チームはこれらの問題の軽減に懸命に取り組んでお�
    
    b. 前の手順でうまくいかない場合は、**R Studio** で **[ツール] > [グローバル オプション] > [パッケージ]** に移動し、**[Use Internet Explorer library/proxy for HTTP]** (HTTP に Internet Explorer のライブラリ/プロキシを使用する) チェック ボックスをオンにして、上の手順の 3.b を 繰り返します。
 
-### <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次の手順
 Power BI での R については、次の追加情報を参照してください。
 
 * [Power BI カスタム ビジュアル ギャラリー](https://app.powerbi.com/visuals/)
