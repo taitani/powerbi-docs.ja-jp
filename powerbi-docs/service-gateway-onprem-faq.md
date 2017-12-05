@@ -17,13 +17,13 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 063fd92829c6b642fc33e578026d109d891b8fd5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bf814b03c4e973afce7115ae111da520af498347
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
-# <a name="on-premises-data-gateway-faq"></a>オンプレミス データ ゲートウェイに関するよく寄せられる質問 (FAQ)
+# <a name="on-premises-data-gateway-faq"></a>オンプレミス データ ゲートウェイに関してよく寄せられる質問 (FAQ)
 <!-- Shared FAQ shared Include -->
 [!INCLUDE [gateway-onprem-faq-shared-include](./includes/gateway-onprem-faq-shared-include.md)]
 

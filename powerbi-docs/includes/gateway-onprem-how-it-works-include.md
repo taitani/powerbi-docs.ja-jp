@@ -1,5 +1,5 @@
 ## <a name="how-the-gateway-works"></a>ゲートウェイのしくみ
-![on-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
+![On-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
 
 最初に、オンプレミスのデータ ソースに接続されたレポートを操作した場合に、どのような処理が行われるかを見てみましょう。 
 

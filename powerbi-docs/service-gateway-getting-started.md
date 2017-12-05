@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/25/2017
 ms.author: davidi
-ms.openlocfilehash: 617dcbf1d149966369aa0d1566094f6ce820a40a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a93f24dc621dc5b044473fd16cc635fdef987a62
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Power BI Gateway の概要
 **Power BI Gateway の概要**ガイドにようこそ。 この短いチュートリアルでは、ゲートウェイの機能、そのしくみ、独自のゲートウェイを設置、構成、実行する方法について説明します。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/15/2017
 幸い、Power BI には 2 つのゲートウェイがあります。いずれのシナリオにも最適です。 Power BI のその 2 つのゲートウェイ サービスは、次のとおりです。
 
 * **オンプレミス データ ゲートウェイ (個人用モード)** – 1 人のユーザーがソースに接続できます。他のユーザーと共有できません。 Power BI でのみ利用できます。
-* **オンプレミス データ ゲートウェイ** – 複数のユーザーが複数のオンプレミス データ ソースに接続できます。ゲートウェイを 1 つインストールすれば、Power BI、**PowerApps**、Flow、Azure Logic のすべてのアプリで利用できます。
+* **オンプレミス データ ゲートウェイ** – 複数のユーザーが複数のオンプレミス データ ソースに接続できます。ゲートウェイを 1 つインストールすれば、Power BI、PowerApps、Flow、Azure Logic のすべてのアプリで利用できます。
 
 いずれのゲートウェイも同じような機能を実行します。Power BI のようなクラウド ベースのサービスでデータを利用できるように、プライベートのオンプレミス ネットワークに置いているデータに簡単にアクセスできるようにします。 パーソナル ゲートウェイは 1 人のユーザーが Power BI のみで利用できます。**オンプレミス データ ゲートウェイ**は複数のユーザーがさまざまなサービスで利用できます。
 
@@ -162,7 +162,7 @@ Power BI サービス キャンバス内にページが表示されます。こ�
 [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
 [オンプレミス データ ゲートウェイの詳細](service-gateway-onprem-indepth.md)  
 [オンプレミス データ ゲートウェイ (個人用モード)](service-gateway-personal-mode.md)
-
 [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
+
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

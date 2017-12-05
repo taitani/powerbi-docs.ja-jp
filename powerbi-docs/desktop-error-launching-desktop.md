@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 80593c13adb54950efbf5ff6e12a962b557fe7a0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: cbc9c474056370ecde5c818d31a3a344b9b8fb8a
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Power BI Desktop が起動しない問題を解決する
 **Power BI Desktop** では、以前のバージョンの **Power BI オンプレミス データ ゲートウェイ**をインストールして実行していたユーザーが Power BI Desktop を起動できないことがあります。これは、Power BI オンプレミス データ ゲートウェイがローカル コンピューターの名前付きパイプに設定した管理ポリシー制限が原因で発生します。 
 
-## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>オンプレミス データ ゲートウェイと **Power BI Desktop** での問題を解決する
+## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>オンプレミス データ ゲートウェイと Power BI Desktop での問題を解決する
 オンプレミス データ ゲートウェイに関する問題を解決して、Power BI Desktop を起動できるようにするには、3 つのオプションがあります。
 
 ### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>解決方法 1: 最新バージョンの Power BI オンプレミス データ ゲートウェイをインストールする
@@ -38,7 +38,7 @@ Power BI オンプレミス データ ゲートウェイが不要になった場
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>解決方法 3: 管理者特権を使って Power BI Desktop を実行する
 別の方法として、Power BI Desktop を管理者として正常に起動できれば、Power BI Desktop も正常に起動できます。 この場合でも、前述のとおり Power BI オンプレミス データ ゲートウェイの最新バージョンをインストールすることを勧めします。
 
-## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>**Power BI Desktop** 起動時の他の問題に関するヘルプ
+## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Power BI Desktop 起動時の他の問題に関するヘルプ
 **Power BI Desktop** で発生するできる限り多くの問題に対応するように作業しています。 多くのお客様に影響を与える可能性がある問題を常に注視し、記事にしています。
 
 **Power BI Desktop** の起動時の問題がオンプレミス データ ゲートウェイと関係ない場合、または前記の解決方法で解決しないときは、[Power BI のサポート](https://support.powerbi.com) (https://support.powerbi.com) にサポート インシデントを送信して、問題の特定と解決を依頼できます。

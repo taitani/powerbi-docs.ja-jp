@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f9deff0161796e5c72c3b5819a2506432b6077f3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6bbe9242c724ae026e3b1a64bf8457b79072456d
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI サービスのデータ ソース
 データは Power BI の中核です。 データを探索したり、グラフとダッシュボードを作成したり、Q&A で質問したりする場合、表示されるすべての視覚エフェクトと回答は、データセットの基になるデータから取得されます。 しかし、そのデータセットはどこから得られるでしょうか。 データ ソースからです。

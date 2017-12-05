@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/14/2017
 ms.author: davidi
-ms.openlocfilehash: fd5c155df233024b8b8989c2a02ee786904d7749
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4162ebf02ad401242d724cb90b0f68920db435f6
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>オンプレミス データ ゲートウェイ (個人用モード)
 ゲートウェイを利用し、オンプレミス データ ソースを使用したり、Power BI のレポートやダッシュボードを作成したりできます。 **ゲートウェイ**は、プライベートのオンプレミス ネットワークに保存されているデータへのアクセスを促進し、**Power BI サービス**など、オンライン サービスでそのデータを使用することを可能にするソフトウェアです。 **オンプレミス データ ゲートウェイ (個人用モード)** は最近公開された、Power BI ゲートウェイの更新プログラムであり、個人が自分のコンピューターにゲートウェイをインストールし、オンプレミス データにアクセスすることを可能にします。
@@ -46,7 +46,7 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_02.png)
 
-ゲートウェイは[この場所](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409)からもダウンロードできます。 インストール手順に従います。インストール プロセスではいずれのバージョンのゲートウェイ (他のユーザーと共有可能な標準ゲートウェイまたは個人用モード) もインストールできるので、インストールするゲートウェイのバージョン選択を求められたら、**[オンプレミス データ ゲートウェイ]\(個人用モード)** を選択してください。
+ゲートウェイは[この場所](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409)からもダウンロードできます。 インストール手順に従います。インストール プロセスではいずれのバージョンのゲートウェイ (他のユーザーと共有可能な標準ゲートウェイまたは個人用モード) もインストールできるので、インストールするゲートウェイのバージョン選択を求められたら、**[オンプレミス データ ゲートウェイ] (個人用モード)** を選択してください。
 
 ### <a name="updating-from-the-previous-personal-gateway"></a>以前の個人ゲートウェイを更新する
 **Power BI Gateway - Personal** ゲートウェイを既にインストールしている場合、**Power BI サービス**の **[設定]** で **[データセット]** を表示すると、機能強化された新しいバージョンをインストールするように求められます。

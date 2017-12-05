@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
 ms.author: asaxton
-ms.openlocfilehash: 1f59bd4e0178b1fe1b67f57b085de69da1b06951
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI の埋め込みコンテンツで行レベルのセキュリティを使用する
 行レベル セキュリティ (RLS) を使うと、レポートまたはデータセット内のデータへのユーザー アクセスを制限でき、同じレポートで異なるユーザーに異なるデータを表示することができます。 Power BI からレポートを埋め込むときに、RLS を利用できます。

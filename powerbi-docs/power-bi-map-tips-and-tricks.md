@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/05/2017
 ms.author: mihart
-ms.openlocfilehash: 901193f396e38a7bce640db36a13dc0e7b998de6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f189ab5b195a945b6a21ea868cf29257e30c0d20
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI マップの視覚エフェクトに関するヒントとテクニック
 Power BI は Bing マップと統合されており、既定のマップ座標 (ジオコーディングと呼ばれるプロセス) が提供されているため、マップを作成できます。 正しい位置を特定するアルゴリズムも使用されますが、それが最適な推測の場合もあります。 Power BI の試行でマップの視覚化が自動的に作成されない場合は、Bing マップの機能を利用してください。  
@@ -76,7 +76,7 @@ Power BI では、使っているデータセットに経度と緯度のフィ�
 
 ![緯度と経度](media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
-## <a name="use-geo-hierarchies-so-you-can-drilldown-to-different-levels-of-location"></a>地理階層を使用してさまざまな場所の "レベル" をドリルダウンする
+## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>地理階層を使用し、場所のさまざまな "レベル" をドリルダウンする
 データセットに複数レベルの場所データが既にある場合、自分と同僚は Power BI を使用して*地理階層*を作成できます。 地理階層を作成するには、複数のフィールドを **[場所]** バケットにドラッグします。 このような操作で、フィールドは地理階層になります。 下の例では、国/地域、都道府県、市区町村の地理フィールドを追加しました。 Power BI では、自分と同僚がこの地理階層を使用してドリルアップ/ダウンすることができます。
 
   ![[場所] フィールド](media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)

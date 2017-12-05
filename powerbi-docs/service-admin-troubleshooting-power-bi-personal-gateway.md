@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bcb859fe6364f28a59607f28f675f89e1a562f8e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal のトラブルシューティング
 以下では、Power BI Gateway - Personal を使用する際に発生する一般的な問題について説明します。
@@ -86,7 +86,10 @@ ms.lasthandoff: 11/15/2017
 このエラーは、1 つのサイズが 4 MB を超える行がある場合に発生します。 データ ソースから行を特定し、その行をフィルターで除外するか、その行のサイズを減らす必要があります。
 
 ## <a name="data-sources"></a>データ ソース
-**データ プロバイダーがない** – パーソナル ゲートウェイは 64 ビット専用です。 つまり、パーソナル ゲートウェイのインストール先コンピューターに、64 ビット バージョンのデータ プロバイダーをインストールする必要があります。 たとえば、データセット内のデータ ソースが Microsoft Access の場合は、パーソナル ゲートウェイがインストールされているのと同じコンピューターに 64 ビットの ACE プロバイダーをインストールする必要があります。  **注:** 32 ビット Excel の場合には、同じコンピューターに 64 ビット ACE プロバイダーをインストールすることはできません。
+**データ プロバイダーがない** – パーソナル ゲートウェイは 64 ビット専用です。 つまり、パーソナル ゲートウェイのインストール先コンピューターに、64 ビット バージョンのデータ プロバイダーをインストールする必要があります。 たとえば、データセット内のデータ ソースが Microsoft Access の場合は、パーソナル ゲートウェイがインストールされているのと同じコンピューターに 64 ビットの ACE プロバイダーをインストールする必要があります。  
+
+>[!NOTE]
+>32 ビット Excel の場合には、同じコンピューターに 64 ビット ACE プロバイダーをインストールすることはできません。
 
 **Access データベースで Windows 認証がサポートされない** - 現在 Power BI がサポートしているのは Access データベースの匿名認証のみです。 Access データベースで Windows 認証を有効にするように取り組んでいるところです。
 

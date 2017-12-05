@@ -950,6 +950,10 @@
           href: developer/migrate-tool.md
         - name: 移行コード スニペット
           href: developer/migrate-code-snippets.md
+        - name: 埋め込みアプリケーションのトラブルシューティング
+          href: developer/embedded-troubleshoot.md
+        - name: よく寄せられる質問
+          href: developer/embedded-faq.md
     - name: カスタム ビジュアルの作成
       items:
         - name: 開発者ツールでカスタム ビジュアルを作成する

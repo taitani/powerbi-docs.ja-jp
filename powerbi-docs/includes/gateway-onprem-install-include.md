@@ -20,7 +20,7 @@ Power BI の場合、最初に選ぶ必要があるのは、ゲートウェイ�
 * 異なるコンピューターに複数のオンプレミス データ ゲートウェイをインストールし、すべて同じ Power BI ゲートウェイ管理インターフェイスから管理することができます。個人用は除きます。次の箇条書きをご覧ください。
 * Power BI ユーザーごとに 1 つの個人用モード ゲートウェイを実行できます。 同じユーザーに別の個人用モード ゲートウェイをインストールする場合、コンピューターが違っていても、一番新しいインストールが前のインストールに取って代わります。
 
-![on-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
+![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
 
 ゲートウェイをインストールする前に考慮する点を次に示します。
 
@@ -29,11 +29,11 @@ Power BI の場合、最初に選ぶ必要があるのは、ゲートウェイ�
 
 ゲートウェイがインストールされたら、職場または学校のアカウントでサインインする必要があります。
 
-![on-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
+![On-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
 
 サインインした後、新しいゲートウェイを構成するか、既存のゲートウェイを移行、復元、または継承するかを選択できます。
 
-![on-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
+![On-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
 
 ## <a name="configure-a-new-gateway"></a>新しいゲートウェイの構成
 1. ゲートウェイの**名前**を入力します。
@@ -45,7 +45,7 @@ Power BI の場合、最初に選ぶ必要があるのは、ゲートウェイ�
 > 
 > 
 
-![on-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
+![On-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
 
 ### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>既存のゲートウェイの移行、復元、または継承
 回復するゲートウェイを選択し、最初にゲートウェイを作成するときに使用した回復キーを指定する必要があります。

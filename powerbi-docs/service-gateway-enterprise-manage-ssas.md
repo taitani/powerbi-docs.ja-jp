@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: e03538061190290b251319a6919b918edc6c38fc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加する必要があります。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 Analysis Services データ ソースは、スケジュールされた更新とライブ接続のどちらにも使用できます。
@@ -192,7 +192,7 @@ AD 参照を実行するようにゲートウェイを構成する方法:
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard"></a>ワイルドカード (*) を使用する
+### <a name="using-wildcard-"></a>ワイルドカード (*) を使用する
 **\[置換前] \(元の名前)** の文字列でワイルドカードを使用できます。 ワイルドカードは単独でのみ使用でき、その他の文字列パーツと併用はできません。 そのため、すべてのユーザーを取得してデータ ソースに単一の値を渡すことができます。 これは、組織内のすべてのユーザーにローカル環境内の同じユーザーを割り当てる場合に便利です。
 
 ### <a name="test-a-mapping-rule"></a>マッピング規則をテストする
@@ -211,7 +211,7 @@ AD 参照を実行するようにゲートウェイを構成する方法:
 ## <a name="remove-a-data-source"></a>データ ソースの削除
 データ ソースを削除すると、そのデータ ソースに依存するすべてのダッシュボードやレポートが中断されます。  
 
-データ ソースを削除するには、[データ ソース] > **[削除]** をクリックします。
+データ ソースを削除するには、[データ ソース]、**[削除]** の順にクリックします。
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings6.png)
 

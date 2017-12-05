@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 62405898f06a75fdad9da1f635f01bebdb445d2e
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのトラブルシューティング
 この記事では、**オンプレミス データ ゲートウェイ**を使用するときに発生する一般的な問題について説明します。
@@ -114,7 +114,7 @@ Power BI サービスからの情報は、ゲートウェイで受信されま�
 
 **[詳細を表示する]**には、 **DM_GWPipeline_UnknownError**のエラー コードが表示されます。
 
-また、[イベント ログ] > **[アプリケーションとサービス ログ]** > **[On-premises Data Gateway Service]** (オンプレミス データ ゲートウェイ サービス) で、詳細を確認することができます。
+また、[イベント ログ]、**[アプリケーションとサービス ログ]** > **[On-premises Data Gateway Service]\(オンプレミス データ ゲートウェイ サービス\)** で、詳細を確認することができます。
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>エラー: <server> に接続しようとしているときにエラーが発生しました。 詳細: "data gateway に到達しましたが、ゲートウェイがオンプレミスのデータ ソースにアクセスできません。"
 指定したデータ ソースに接続できませんでした。 そのデータ ソースについて提供された情報を検証してください。
@@ -169,7 +169,6 @@ Analysis Service サーバーがユーザーとは異なるドメインにあり
 1. サーバーおよびデータベース名が、Power BI Desktop で入力されたものと、ゲートウェイに対して構成されているデータの間で、一致していません。 これらは同じ値である必要があります。 大文字と小文字は区別されません。
 2. ゲートウェイ構成内のデータ ソースの **[ユーザー]** タブに、自分のアカウントが表示されていません。 ゲートウェイの管理者に依頼して、そのリストに追加してもらう必要があります。
 3. Power BI Desktop ファイルに複数のデータ ソースがあり、ゲートウェイですべてのデータ ソースが構成されていません。 スケジュールされている更新にゲートウェイを表示させるには、ゲートウェイで各データ ソースを定義する必要があります。
-
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>エラー: ゲートウェイ クライアントで受信した非圧縮データが制限を超えています。
 テーブルごとの非圧縮データの上限は 10 GB です。 この問題か発生した場合、最適化してこの問題を回避することができる適切な選択肢があります。 特に、繰り返しが多い長い文字列値の使用を減らし、代わりに正規化されたキーを使用するか、(使用されていない列の場合は) 列を削除する方法があります。

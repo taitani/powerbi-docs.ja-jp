@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: ab8b9810029691c13e668710b651843e685006e4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 必ず最新のデータを取得することは、多くの場合、正しい意思決定をする上で重要です。 お客様は既に、Power BI の [データの取得] を使ってデータに接続してアップロードしたり、レポートとダッシュボードを作成したりしたことがあるでしょう。 ここで、データが本当に最新のもので、最も意味のあるものかを確認することができます。
@@ -243,7 +243,7 @@ SalesReport.xlsx という名前の Excel ブックがローカル コンピュ�
 > 
 > 
 
-詳しくは、[Power BI での Excel データ](service-excel-workbook-files.md)に関するページのほか、「[Power BI Gateway - Personal](personal-gateway.md)」、「[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)」、「[ローカル ドライブの Excel ブックから作成されたデータセットを更新する](refresh-excel-file-local-drive.md)」をご覧ください。
+詳細については、[Power BI での Excel データ](service-excel-workbook-files.md)に関するページのほか、「[Power BI Gateway - Personal](personal-gateway.md)」、「[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)」、「[ローカル ドライブの Excel ブックから作成されたデータセットを更新する](refresh-excel-file-local-drive.md)」をご覧ください。
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>OData フィードのデータを含む Power BI Desktop ファイル
 この場合は、Power BI Desktop の [データの取得] を使用して、OData フィードに接続して国勢調査データインポートします。  Power BI Desktop に複数のレポートを作成してから、ファイルに "WACensus” という名前を付けて、会社内の共有に保存します。 続いて、ファイルを Power BI サービスに発行します。

@@ -55,7 +55,7 @@
 
 *ServiceBusSystemConnectivityModeString* パラメーターの値は大文字小文字を区別します。 有効な値は、*AutoDetect* と *Https* です。
 
-代わりに、[2017 年 3 月](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/)のリリースから開始する、ゲートウェイのユーザー インターフェイスを使用して、ゲートウェイがこの動作を適用するように強制することができます。 ゲートウェイのユーザー インターフェイスで、**[ネットワーク]** を選択し、**[Azure Service Bus connectivity mode]** (Azure Service Bus 接続モード) を **[オン]** に切り替えます。
+代わりに、[2017 年 3 月](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/)のリリースから開始する、ゲートウェイのユーザー インターフェイスを使用して、ゲートウェイがこの動作を適用するように強制することができます。 ゲートウェイのユーザー インターフェイスで、**[ネットワーク]** を選択し、**[Azure Service Bus 接続モード]** を **[オン]** に切り替えます。
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
 
