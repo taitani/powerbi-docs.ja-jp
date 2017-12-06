@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 12/04/2017
 ms.author: asaxton
-ms.openlocfilehash: bec336dbc4b028f23acb9ba34f920a10b7869c23
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 03c19f34b9fab240a67cd8ed4d4b7ca3f66bb966
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI レポート サーバーのサポート タイムライン
 Power BI レポート サーバーは、1 年間に何回かリリースされます。 セキュリティ更新プログラムと重要な更新プログラムは、次のリリースが一般公開 (GA) になるまで使用できます。 次のリリースの後、前のリリースは、残りの 12 か月のリリース有効期間の間、セキュリティ更新プログラムを引き続き受け取ります。
@@ -31,7 +31,7 @@ Power BI レポート サーバーは、1 年間に何回かリリースされ�
 * セキュリティ更新プログラムと重要な更新プログラムの提供フェーズ - 現在の最新バージョンの Power BI レポート サーバーを実行すると、セキュリティ更新プログラムと重要な更新プログラムの両方を受け取ります。
 * セキュリティ更新プログラム (のみ) の提供フェーズ - 新しいバージョンがリリースされた後、古いバージョンのサポートは、残り 12 か月のサポート有効期間の間、セキュリティ更新プログラムのみに縮小されます (図 1 を参照)。
 
-    ![サポート期間を示すグラフ](media/support-timeline/reportserver-support-lifecycle.png)
+    ![サポート期間を示すグラフ](media/support-timeline/report-server-support-timeline.png)
 
 ## <a name="version-history"></a>バージョン履歴
 | **バージョン** | **可用性日付** | **サポート終了日** |

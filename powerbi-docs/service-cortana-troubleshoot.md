@@ -76,27 +76,27 @@ Cortana と Power BI の統合にまだ問題がある場合は、ここでそ�
    app.powerbi.com/cortana/test
    
    ![Cortana ツールを開く](media/service-cortana-troubleshoot/power-bi-cortana-tool2.png)
-3. レポートの問題を解決するには、**[Utterance]** (発話) フィールドに、Cortana 回答カードの名前を、***Power BI タブに表示されるとおり正確に***入力します。
+3. レポートの問題を解決するには、**[Utterance]**\ (発話) フィールドに、Cortana 回答カードの名前を、***Power BI タブに表示されるとおり正確に***入力します。
    
    ![回答カード](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
    
    </br>
    
    ![Power BI の [回答カード] タブ](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
-4. 初めて **[Utterance]** (発話) フィールドに何か入力したとき、何も起こらないことがあります。 その場合はシステムが準備中と考え、トラブルシューティング ツールが起動するまで待ってください。 **[Utterance]** (発話) フィールドの内容を切り取って貼り付けるか、再入力してください、 この例では、回答カードの名前は "**Cortana stores**" です。 **Cortana stores** をツールに貼り付けるか入力すると、**[Interpretations]** (解釈) フィールドに 1 つの結果が表示されます。 クリックすると、Cortana ウィンドウに回答カードが表示されます。この場合、**Cortana stores** です。
+4. 初めて **[Utterance]**\ (発話) フィールドに何か入力したとき、何も起こらないことがあります。 その場合はシステムが準備中と考え、トラブルシューティング ツールが起動するまで待ってください。 **[Utterance]** \(発話) フィールドの内容を切り取って貼り付けるか、再入力してください、 この例では、回答カードの名前は "**Cortana stores**" です。 **Cortana stores** をツールに貼り付けるか入力すると、**[Interpretations]** (解釈) フィールドに 1 つの結果が表示されます。 クリックすると、Cortana ウィンドウに回答カードが表示されます。この場合、**Cortana stores** です。
    
    ![発話フィールドの Cortana ストア](media/service-cortana-troubleshoot/power-bi-utterance.png)
    
    結果が得られたので、Cortana が Power BI で有効になって**いる**ことがわかります。 これにより、問題は Windows 側、Cortana 言語の設定、または Cortana に対して 100 を超えるデータセットの有効化に絞り込まれます。
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>ダッシュボードから回答を取得できませんか。
-共有しているダッシュボードをお探しですか?  Power BI を開き、**[共有アイテム]** に進み、ダッシュボードの名前を見つけます。  *[Utterance]** /(発話/) フィールドにその名前を入力します。
+共有しているダッシュボードをお探しですか?  Power BI を開き、**[共有アイテム]** に進み、ダッシュボードの名前を見つけます。  *[Utterance]** \(発話/) フィールドにその名前を入力します。
 
     ![Open Shared with me in Power BI](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 
 
 #### <a name="troubleshooting-tool-known-issues"></a>トラブルシューティング ツールの既知の問題
-* ツールを初めて利用し、結果が取得されない場合、代わりに [Utterance] (発話) テキスト ボックスにクエリを貼り付けてください。
+* ツールを初めて利用し、結果が取得されない場合、代わりに [Utterance] \(発話) テキスト ボックスにクエリを貼り付けてください。
 * 仕様により、クエリは 2 語以上にする必要があります。  クエリが短すぎる場合は、単語 "show" を追加します。
 * 前置詞を含むクエリ文字列は動作しない可能性があります (例: "sales by item")。 前置詞を含まず、意味があって一意の別のクエリ用語を使ってみてください。
 

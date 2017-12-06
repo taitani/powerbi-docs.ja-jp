@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。
-* または、このブラウザー ウィンドウの右下隅にある**問い合わせ**アイコン ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) をクリックしてください。
 
 ## <a name="what-is-microsoft-power-bi"></a>Microsoft Power BI とは何ですか?
 [Power BI](https://powerbi.microsoft.com/) はクラウドベースのビジネス分析サービスで、これを使えばだれでもデータの視覚化と分析の速度と効率を向上させ、理解を深めることができます。 使いやすいダッシュボード、対話形式のレポート、説得力のある視覚エフェクトによってデータを生き生きしたものにし、ユーザーが広範囲のデータを活用できるようにします。
@@ -156,5 +155,4 @@ Power BI for Office 365 のエクスペリエンスは廃止されました。
 ## <a name="next-steps"></a>次の手順
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。
-* または、このブラウザー ウィンドウの右下隅にある**問い合わせ**アイコン ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) をクリックしてください。
 

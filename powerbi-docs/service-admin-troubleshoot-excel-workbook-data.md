@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 77bd53a5bb54ff5bd982ba8e912c81ca520c5b8f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ee82669f37c33505615ed796ec9e258535ca89cd
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>エラー: Excel ブックにデータが見つかりませんでした。
 
@@ -59,7 +59,7 @@ Excel ブックをインポートするとき、Power BI はそれらのテー�
 3. **[挿入]** タブのリボンで、**[テーブル]** をクリックします  (または、ショートカットの **Ctrl + T** キーを押します)。
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
-4. 次のダイアログ ボックスが表示されます。 **[ 先頭行をテーブルの見出しとして使用する ]** にチェックマークが付いていることを確認して、**[ OK]** を選択します。
+4. 次のダイアログ ボックスが表示されます。 **[先頭行をテーブルの見出しとして使用する]** にチェックマークが付いていることを確認して、**[OK]** を選択します。
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
 5. これで、データはテーブルとして書式設定されました。

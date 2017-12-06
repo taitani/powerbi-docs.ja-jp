@@ -1,10 +1,6 @@
 ## <a name="define-roles-and-rules-within-power-bi-desktop"></a>Power BI Desktop 内でロールとルールを定義する
 Power BI Desktop 内でロールとルールを定義できます。 Power BI に発行するとき、ロールの定義も発行されます。
 
-動的セキュリティを最大限に利用する場合、プレビュー機能で DirectQuery の双方向のクロス フィルタリングを有効にする必要があります。 これにより、クロス フィルタリングが有効になり、セキュリティ フィルターが双方向で適用されます。
-
-![](./media/rls-desktop-define-roles/powerbi-desktop-preview-bi-directional-directquery.png)
-
 セキュリティ ロールは次のように定義できます。
 
 1. Power BI Desktop レポートにデータをインポートするか、DirectQuery 接続を構成します。

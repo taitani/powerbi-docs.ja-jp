@@ -120,7 +120,7 @@ ms.lasthandoff: 11/17/2017
    ![](media/sample-retail-analysis/retail15.png)
    
    タイルから明らかなとおり、今年度、Lindseys 店舗よりも Fashions Direct 店舗のほうが多く開店しました。
-2. [Sales Per Sq Ft by Name] (店舗名別平方フィート単位の売上) グラフに注目してください。
+2. [Sales Per Sq Ft by Name] \(店舗名別平方フィート単位の売上) グラフに注目してください。
    
    ![](media/sample-retail-analysis/retail14.png)
    
