@@ -252,8 +252,6 @@
           href: service-insight-types.md
         - name: Power BI クイック インサイト用のデータの最適化
           href: service-insights-optimize.md
-        - name: 全画面表示モード (テレビ モード) でダッシュボード タイルを表示する
-          href: service-tile-fullscreen-mode.md
         - name: Power BI のおすすめのダッシュボード
           href: service-dashboard-featured.md
         - name: ダッシュボードの Phone ビューを作成する
