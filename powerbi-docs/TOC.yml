@@ -784,8 +784,8 @@
           href: desktop-inline-hierarchy-labels.md
         - name: 数値範囲スライサーを使用
           href: desktop-slicer-numeric-range.md
-        - name: 相対日付スライサーの使用
-          href: desktop-slicer-filter-date-range.md
+        - name: サイズを変更することが可能なレスポンシブ スライサーの作成
+          href: power-bi-slicer-filter-responsive.md
         - name: Cortana 用にカスタムの Power BI 回答カードを作成する
           href: service-cortana-answer-cards.md
         - name: 行レベルのセキュリティ
