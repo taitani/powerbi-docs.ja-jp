@@ -92,6 +92,8 @@
           href: service-admin-premium-purchase.md
         - name: Power BI Premium の管理
           href: service-admin-premium-manage.md
+        - name: 大規模なデータセットのサポート
+          href: service-premium-large-datasets.md
         - name: Power BI Premium のよく寄せられる質問
           href: service-premium-faq.md
         - name: Power BI Premium リリース ノート
