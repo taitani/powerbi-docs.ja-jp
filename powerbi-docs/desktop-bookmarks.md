@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Power BI でブックマークを使用して詳細情報を共有し、ストーリーを作成する (プレビュー)
 Power BI の**ブックマーク**を使うと、フィルターの設定やビジュアルの状態など、レポート ページに現在構成されているビューをキャプチャし、後で保存されているブックマークを選ぶだけでその状態に戻すことができます。 
@@ -119,7 +119,7 @@ Power BI の**ブックマーク**を使うと、フィルターの設定やビ�
 
 **Spotlight** と**フォーカス** モードの違いを比較します。
 
-1. **[フォーカス モード]**アイコンを選ぶと、1 つのビジュアルをキャンバス全体に表示できます。
+1. **[フォーカス モード]****** アイコンを選ぶと、1 つのビジュアルをキャンバス全体に表示できます。
 2. **Spotlight** を使うと、1 つのビジュアルを元のサイズで強調できます。ページ上の他のすべてのビジュアルは透明に近くなります。 
 
 ![Spotlight とフォーカス モードの比較](media/desktop-bookmarks/bookmarks_11.png)
@@ -152,7 +152,8 @@ Power BI の**ブックマーク**を使うと、フィルターの設定やビ�
 * ブックマークを作成するとき、レポート ウィンドウのクロス強調表示の状態は "*保存されません*"。 
 * ブックマークを作成した後でレポート ページにビジュアルを追加した場合、ビジュアルは既定の状態で表示されます。 ブックマークを作成した後でページにスライサーを追加した場合も、スライサーは既定の状態で動作します。
 * ブックマークを作成した後でビジュアルを移動すると、ブックマークに反映されます。 
-* **Power BI サービス**でブックマークを使えるようにするには、サービスにレポートを発行する前に、レポートでブックマークを作成しておく*必要があります*。 これは、発行するレポートごとに必要です。
+* **Power BI サービス**でブックマークを使用できるようにするには、サービスにレポートを発行する際に、レポートで少なくとも 1 つのブックマークを作成しておく*必要があります*。 これは、発行するレポートごとに必要です。
+* ブックマークは現在プレビュー機能であるため、[**Report Server 向け Power BI Desktop**](report-server/quickstart-create-powerbi-report.md) ではまだ使用できません。
 
 ## <a name="next-steps"></a>次の手順
 ブックマークと似た機能またはブックマークと相互作用する機能の詳細については、次の記事をご覧ください。
