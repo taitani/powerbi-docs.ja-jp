@@ -7,7 +7,7 @@
 ## <a name="an-overview-of-power-bi-desktop"></a>Power BI Desktop の概要
 Power BI Desktop は、データを接続、クリーンアップ、視覚化するツールです。 Power BI Desktop を使用してデータに接続し、きさまざまな方法でデータをモデル化、視覚化できます。 Business Intelligence プロジェクトで作業しているユーザーの多くは、ほとんどの時間を Power BI Desktop の使用に費しています。
 
-Power BI Desktop は、[Web ](http://go.microsoft.com/fwlink/?LinkID=521662) または Power BI サービスからダウンロードできます。 Power BI の右上にある下向きの矢印ボタンを選択し、Power BI Desktop を選択するだけです。
+Power BI Desktop は [Web から](http://go.microsoft.com/fwlink/?LinkID=521662)ダウンロードできます。また、[**Windows ストア**](http://aka.ms/pbidesktopstore)からアプリとして **Power BI Desktop** をインストールすることもでき、Power BI サービスからダウンロードすることもできます。 サービスで **Power BI Desktop** を取得する場合は、Power BI の右上にある下矢印ボタンを選択し、Power BI Desktop を選択するだけです。
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_1.png)
 

@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "作業の開始"
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Power BI について、その構成要素の連携方法、およびデータへの洞察を得るために使用する方法について説明します。\n"
-  ms.openlocfilehash: 398c10dfbcd935276b98f3d50df172d6b0d2af48
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 79bcf9e9e40e89149bbb9c8ffcc584e160a89386
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "この**ガイド付き学習**の最初のセクションでは、Power BI について、その構成要素の連携方法、およびデータへの洞察を得るために使用する方法について説明します。\n"
 - title: "Power BI の紹介"
   durationInMinutes: 5
   content: >
@@ -48,4 +49,4 @@ items:
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "Microsoft Power BI ガイド付き学習の「**作業の開始**」セクションを完了しました。\0"
+- content: "Microsoft Power BI ガイド付き学習の「**作業の開始**」セクションを完了しました。 その調子です。 ガイド付き学習の次のパートの「**データの取得**」に進むことができます。 先に進む場合は、**[データの取得]** ボタンを選択してください。\0"

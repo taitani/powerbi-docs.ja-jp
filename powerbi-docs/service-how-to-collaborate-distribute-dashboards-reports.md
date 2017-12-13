@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1ee8cc60d5c18cb09915029088824ade89d2b39f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートの共同作業および共有を行う方法
 ダッシュボードとレポートを作成します。 ダッシュボードやレポートで同僚と共同作業することもあります。 その場合は、他の人に、アクセス許可を与える必要があります。 それらを配布する最善の方法は何でしょう。
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/15/2017
 
 ![アプリを公開する](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) で簡単に検索してインストールすることができます。 アプリへの直接リンクをビジネス ユーザーに送信したり、ユーザーが AppSource でアプリを検索しりすることができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 詳細については、[アプリの発行](service-create-distribute-apps.md#publish-your-app)に関するページを参照してください。 
+アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) で簡単に検索してインストールすることができます。 アプリへの直接リンクをビジネス ユーザーに送信したり、ユーザーが AppSource でアプリを検索しりすることができます。 詳細については、[アプリの発行](service-create-distribute-apps.md#publish-your-app)に関するページを参照してください。 
 
 インストールしたアプリは、ブラウザーまたはモバイル デバイスで表示できます。
 

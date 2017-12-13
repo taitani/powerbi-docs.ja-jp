@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: 3ee74e9a7f2f174b37e582089e0d9a1d6c433831
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="administering-power-bi-in-your-organization"></a>組織内の Power BI を管理する
 ユーザーは Microsoft Power BI を使用して、データの視覚化、発見の共有、および共同作業を、直感的な新しい方法で実行できます。 詳細については、「[Power BI の概要](service-get-started.md)」を参照してください。
@@ -60,6 +60,7 @@ Power BI サービス管理者の役割について詳しくは、「[Power BI �
 * [他に何か準備する必要があることはありますか。](#are-there-any-additional-things-i-should-be-prepared-for)
 * [無料ですか。ライセンスに料金はかかりますか。](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Power BI テナントの場所](#where-is-my-power-bi-tenant-located)
+* [Power BI SLA (サービス レベル アグリーメント) とは何ですか。](#what-is-the-power-bi-sla)
 
 **Power BI のセキュリティ**
 
@@ -255,6 +256,9 @@ Power BI にサインアップする必要がなくなったユーザーが Powe
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Power BI テナントの場所
 Power BI テナントがある場所 (データ領域とも呼ばれます) を調べる方法については、「[Power BI テナントの場所](service-admin-where-is-my-tenant-located.md)」をご覧ください。
+
+### <a name="what-is-the-power-bi-sla"></a>Power BI SLA とは何ですか。
+Power BI SLA (サービス レベル アグリーメント) の詳細については、Microsoft ライセンス Web サイトの「**Licensing**」 (ライセンス) セクションにある「[Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)」 (ライセンス条項とドキュメント) という記事を参照してください。
 
 ## <a name="security-in-power-bi"></a>Power BI のセキュリティ
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI は、国、地域、および業界固有のコンプライアンス要件を満たしていますか。

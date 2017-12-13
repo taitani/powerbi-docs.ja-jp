@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "DAX の概要"
 metadata:
@@ -10,16 +11,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
+  ms.openlocfilehash: 375f4144016121171f9e7449f2d664efe7cf3aa1
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: "接続されているエキスパートから DAX を作成して処理する方法について説明します。\n"
-  ms.openlocfilehash: 5723e4a56974ab25eb43f3130755f6bccb71214c
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: ja-JP
-  ms.lasthandoff: 11/15/2017
 - title: "DAX の概要"
   durationInMinutes: 9
   content: >
@@ -62,4 +63,4 @@ items:
 
 
     [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
-- content: "Microsoft Power BI ガイド付き学習の「**DAX の概要**」セクションを完了しました。\0"
+- content: "Power BI ガイド付き学習の「**DAX の概要**」セクションを完了しました。 お疲れ様でした。 チュートリアルを順に実行していれば、**ガイド付き学習**のすべてのセクションは終了です。 その調子です。 次は **Power BI** を使用して、ストーリーを伝える魅力的なレポートとダッシュボードを作成しましょう。\0"

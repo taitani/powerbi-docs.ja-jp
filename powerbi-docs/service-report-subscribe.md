@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 11/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfba13cca4152825e81d4be0f46a9cd26a48d157
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Power BI のレポートまたはダッシュボードを購読する
-最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールの受信頻度は日に 1 回から週に 1 回の範囲で選択できます。
+最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールの受信頻度は日に 1 回から週に 1 回の範囲で選択できます。 メールとスナップショットでは、Power BI の [設定] で設定されている言語が使用されます。 言語が定義されていない場合、Power BI では現在のブラウザー言語が使用されます。
+
+言語の優先順位を表示または設定するには、歯車アイコン ![](media/service-report-subscribe/power-bi-settings-icon.png) **、[設定]、[全般]、[言語]** の順に選択します。
+
+![](media/service-report-subscribe/power-bi-language.png)
 
 > [!NOTE]
 > サブスクリプションは、Power BI サービスでのみ作成できます。 受信したメールには、[レポートに移動]/[ダッシュボードに移動] リンクが含まれます。 Power BI アプリがインストールされたモバイル デバイスでこのリンクを選ぶと、アプリが起動します (Power BI Web サイトでレポートまたはダッシュボードを開く既定の操作とは異なります)。

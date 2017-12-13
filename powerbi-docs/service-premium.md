@@ -1,5 +1,5 @@
 ---
-title: "Power BI Pro コンテンツとは"
+title: "Power BI Premium とは"
 description: "Power BI Premium は、組織やチームの専用の容量であり、より信頼できるパフォーマンスとより大きなデータ ボリュームを提供します。ユーザーごとのライセンスを購入する必要はありません。"
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/10/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 816f1151b6f49ace8151f1c26aee18a8c746ff08
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium とは
 Power BI Premium には、組織やチームが Power BI サービスを実行するための専用のリソースが用意されており、より信頼できるパフォーマンスやより大きなデータ ボリュームが提供されます。 また、Premium ではコンテンツを広範囲に配布でき、ビューアーのユーザーごとのライセンスを購入する必要はありません。
@@ -69,9 +69,13 @@ Power BI Premium は、さまざまな v コア容量を含むノード構成で
 
 * P ノードは、埋め込み展開またはサービス展開で使用できます。
 * EM ノードは、埋め込み展開でのみ使用できます。
+* EM1 および EM2 
+* この表のリンクが正しく動作するのは、Office 365 の全体管理者の場合のみです。その他のユーザーの場合、404 エラーが表示されます。 
 
 | 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 | 使用できるかどうか |
 | --- | --- | --- | --- | --- | --- | --- |
+| [EM1 (月極め)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 v コア |0.5 コア、2.5 GB の RAM |0.5 コア |1 秒あたり 3.75 |150-300 |入手可能 |
+| [EM2 (月極め)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v コア |1 コア、5 GB の RAM |1 コア |1 秒あたり 7.5 |301-600 |入手可能 |
 | [EM3 (月極め)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v コア |2 コア、10 GB の RAM |2 コア | |601-1,200 |入手可能 |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v コア |4 コア、25 GB の RAM |4 コア |1 秒あたり 30 |1,201-2,400 |使用可能 ([月極め](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)も使用可能) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 v コア |8 コア、50 GB の RAM |8 コア |1 秒あたり 60 |2,401-4,800 |入手可能 |

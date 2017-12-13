@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: bdba3cb9a7dc64dbf71a48a7ae2223e74c302b70
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>開発者ツールを使ってカスタム ビジュアルを作成する
 カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。
@@ -347,8 +347,8 @@ Less の詳細については、[こちら](http://lesscss.org/)を参照して�
 ## <a name="debugging"></a>デバッグ
 カスタム ビジュアルのデバッグに関するヒントについては、[デバッグ ガイド](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md)を参照してください。
 
-## <a name="submit-your-visual-to-the-office-store"></a>ビジュアルを Office ストアに送信する
-ビジュアルを Office ストアに置くことができます。 このプロセスについて詳しくは、「[カスタム ビジュアルを Office ストアに発行する](developer/office-store.md)」をご覧ください。
+## <a name="submit-your-visual-to-appsource"></a>ビジュアルを AppSource に送信する
+他のユーザーが使用できるようにビジュアルをリストすることはできますが、その場合、AppSource に送信する必要があります。 このプロセスの詳細については、「[カスタム ビジュアルを Office ストアに発行する](developer/office-store.md)」を参照してください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 **Pbiviz コマンドが見つかりません (または類似のエラー)**

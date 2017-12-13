@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 6fbd9f56099e4053524a04680c0d4c0c366ce068
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal のトラブルシューティング
 以下では、Power BI Gateway - Personal を使用する際に発生する一般的な問題について説明します。
 
 > [!NOTE]
-> 以下に記載されていない問題が発生した場合は、[コミュニティ サイト](http://community.powerbi.com/)で支援を求めることや、[サポート チケット](https://powerbi.microsoft.com/support/)を作成することができます。
+> 個人用のゲートウェイの現在のバージョンは、**オンプレミス データ ゲートウェイ (個人用)** です。 このバージョンを使用する場合は、現在インストールしているバージョンを更新してください。
 > 
 > 
 

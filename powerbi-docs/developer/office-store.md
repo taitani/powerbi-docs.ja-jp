@@ -1,6 +1,6 @@
 ---
-title: "カスタム ビジュアルを Office ストアに発行する"
-description: "他のユーザーが探して使用できるように、Office ストアにカスタム ビジュアルを発行する方法について説明します。"
+title: "カスタム ビジュアルを AppSource に発行する"
+description: "AppSource にカスタム ビジュアルを発行して、他のユーザーが見つけたり使用したりすることができるようにする方法について説明します。"
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>カスタム ビジュアルを Office ストアに発行する
-他のユーザーが探して使用できるように、Office ストアにカスタム ビジュアルを発行する方法について説明します。
+# <a name="publish-custom-visuals-to-appsource"></a>カスタム ビジュアルを AppSource に発行する
+AppSource にカスタム ビジュアルを発行して、他のユーザーが見つけたり使用したりすることができるようにする方法について説明します。 Office
 
-カスタム ビジュアルを作成した後は、Office ストアに発行することで、他のユーザーがそれを探して使用できるようにすることができます。 発行する前に行う必要がある準備作業がいくつかあります。 カスタム ビジュアルの作成方法について詳しくは、「[開発者ツールを使ってカスタム ビジュアルを作成する](../service-custom-visuals-getting-started-with-developer-tools.md)」をご覧ください。
+カスタム ビジュアルを作成した後は、AppSource に発行することで、他のユーザーがそれを探して使用できるようにすることができます。 発行する前に行う必要がある準備作業がいくつかあります。 カスタム ビジュアルの作成方法について詳しくは、「[開発者ツールを使ってカスタム ビジュアルを作成する](../service-custom-visuals-getting-started-with-developer-tools.md)」をご覧ください。
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-Office ストアとは 簡単に言えば、Office 365 ソフトウェア用のアプリ (アドイン) を探す場所です。 [Office ストア](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)は、何百万人もの Office 365 ユーザーを、これまでより効率よく、洞察に裏付けられて、美しく仕事をするのに役立つソリューションに結び付けます。
+AppSource とは 簡単に言えば、Microsoft 製品とサービスの SaaS アプリとアドインを検索する場所です。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) は、Office 365、Dynamics 365、Cortana Intelligence などの何百万人ものユーザーを、これまでより効率よく、より洞察的で美しい仕事をするのに役立つソリューションに結び付けます。
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>カスタム ビジュアルを送信する準備
 カスタム ビジュアルのコーディングとテストが完了し、pbiviz ファイルにパッケージ化した後は、次のものも送信できる状態にする必要があります。
@@ -53,18 +53,18 @@ Office ストアとは 簡単に言えば、Office 365 ソフトウェア用の�
 メールには、.pbiviz ファイルとサンプル レポートの .pbix ファイルを添付します。 Power BI チームは、アップロードの説明とアプリ パッケージ XML ファイルを返信します。 Office デベロッパー センターを通じてビジュアルを送信するには、この XML アプリ パッケージが必要です。
 
 > [!NOTE]
-> 品質を高め、既存のレポートが壊れないことを確認するため、既存のビジュアルの更新が運用環境に提供されるには、ストアでの承認後さらに 2 週間かかります。
+> 品質を高め、既存のレポートが壊れていないことを確認するため、既存のビジュアルの更新が運用環境に提供されるには、ストアでの承認後さらに 2 週間かかります。
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Office ストアに送信する
-Power BI チームからアプリ パッケージ XML を受け取った後は、[Office デベロッパー センター](https://sellerdashboard.microsoft.com/Application/Summary)に移動して、Office ストアにビジュアルを送信します。
+## <a name="submitting-to-appsource"></a>AppSource への送信
+Power BI チームからアプリ パッケージ XML を受け取った後は、[デベロッパー センター](https://sellerdashboard.microsoft.com/Application/Summary)に移動して、AppSource にビジュアルを送信します。
 
 > [!NOTE]
 > [Office デベロッパー センター](https://dev.office.com/)にログインするには、有効な Office 開発者アカウントが必要です。 Office 開発者アカウントは、Microsoft アカウント (Live ID、hotmail.com、outlook.com など) である必要があります。
 > 
 > [!IMPORTANT]
-> Office ストアに送信する前に、.pbiviz ファイルと .pbix ファイルをメールで Power BI チームに送る必要があります。 これは、Power BI チームがパブリック共有サーバーにファイルをアップロードするためです。 そうしないと、Office ストアはファイルを取得できません。 新しいビジュアルの送信、既存のビジュアルの更新、および Office ストアによって拒否された送信に対する修正のたびに、ファイルを送信する必要があります。
+> AppSource に送信する前に、.pbiviz ファイルと .pbix ファイルをメールで Power BI チームに送る必要があります。 これにより、Power BI チームはパブリック共有サーバーにファイルをアップロードできるようになります。 それ以外の場合、ストアはファイルを取得できません。 新しいビジュアルの送信、既存のビジュアルの更新、および拒否された送信に対する修正を行うたびに、ファイルを送信する必要があります。
 > 
 > 
 

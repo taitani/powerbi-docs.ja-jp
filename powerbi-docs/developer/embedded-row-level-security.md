@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI の埋め込みコンテンツで行レベルのセキュリティを使用する
 行レベル セキュリティ (RLS) を使うと、レポートまたはデータセット内のデータへのユーザー アクセスを制限でき、同じレポートで異なるユーザーに異なるデータを表示することができます。 Power BI からレポートを埋め込むときに、RLS を利用できます。
@@ -141,11 +141,11 @@ REST API を呼び出すと、更新された API は、ユーザー名、ロー
 役割は、埋め込みトークンの ID で与えられます。 役割が与えられない場合、与えられたユーザー名を利用し、関連する役割が解決されます。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
-* Power BI サービス内でのロールへのユーザーの割り当ては、埋め込みトークンを使ったときの RLS には反映されません。
+* Power BI サービス内でのロールへのユーザーの割り当ては、埋め込みトークンを使用したときの RLS には反映されません。
 * Power BI サービスでは RLS の設定は管理者および編集アクセス許可を持つメンバーには適用されませんが、埋め込みトークンで ID を指定すると、データに適用されます。
 * GenerateToken を呼び出すときに ID 情報を渡すことができるのは、レポートの読み取り/書き込みの場合だけです。 他のリソースのサポートは将来的に追加されます。
 * オンプレミス サーバー向けの Analysis Services ライブ接続がサポートされています。
-* Azure Analysis Services のライブ接続はサポートされていません。
+* Azure Analysis Services ライブ接続ではロールによるフィルター処理はサポートされますが、ユーザー名で動的にフィルター処理することはできません。
 * 基になるデータセットで RLS が必要ない場合、GenerateToken 要求に有効な ID が含まれていては**なりません**。
 * 基になるデータセットがクラウド モデル (キャッシュされたモデルまたは DirectQuery) の場合は、有効な ID に少なくとも 1 つのロールが含まれている必要があります。 含まれていない場合、ロールの割り当ては行われません。
 * ID の一覧で指定できる ID は 1 つだけです。 将来的にはダッシュボードの埋め込みに対して複数 ID のトークンが有効になるため、今から一覧を使っています。

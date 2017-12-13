@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 022f085d12d7dc872052ca9205deca264b1c0418
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2a7b4cc652e600b9a368f6f7eda657c06e131da3
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="share-power-bi-reports-with-your-coworkers"></a>Power BI のレポートを同僚と共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI には、[レポートを使って共同作業を行ったりレポートを配布したりする方法が複数用意されており](service-how-to-collaborate-distribute-dashboards-reports.md)、共有はその 1 つにすぎません。
@@ -68,13 +68,14 @@ ms.lasthandoff: 11/15/2017
    
    この例では、テーブルの名前が **Store**、フィールドの名前が **Territory**、フィルター処理の対象の値が **NC** です。
    
-    ?filter=Store/Territory eq NC
+    ?filter=Store/Territory eq 'NC'
    
    ![フィルター処理されたレポートの URL](media/service-share-reports/power-bi-filter-url3.png)
    
-   スラッシュとスペースを正しく表すために、ブラウザーによって特殊文字が追加されるため、最終的に次のようになります。
+   スラッシュ、スペース、およびアポストロフィを表すために、ブラウザーによって特殊文字が追加されるため、最終的に次のようになります。
    
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20NC
+   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+
 3. この URL を同僚に送信します。 
    
    同僚がリンクを選ぶと、Power BI で読み取り専用バージョンのフィルター処理されたレポートが開きます。

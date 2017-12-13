@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI で使用する Azure Active Directory テナントを作成する
 Power BI REST API を使用して、カスタム アプリケーションで使用するために新しい Azure Active Directory (Azure AD) テナントを作成する方法を説明します。
@@ -33,7 +33,7 @@ Azure AD テナントを作成すると、アプリケーションを定義し�
 組織にはアプリケーションに使用できる Azure AD テナントが既にある場合があります。 アプリケーションのニーズのためにそのテナントを利用することも、アプリケーション専用の新しいテナントを作成することもできます。 この記事では、新しいテナントを作成する方法を考察します。
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory テナントを作成する
-カスタム アプリケーションに Power BI を統合するには、Azure AD 内でアプリケーションを定義する必要があります。 これを行うには、Azure AD 内にディレクトリが必要です。 これがテナントです。 組織が Power BI または Office 365 を使用していないためにまだテナントがない場合は、テナントを作成する必要があります。 アプリケーションを組織のテナントと混在させたくない場合にも、テナントを作成する必要があります。 これにより、分離させておくことができます。
+カスタム アプリケーションに Power BI を統合するには、Azure AD 内でアプリケーションを定義する必要があります。 これを行うには、Azure AD 内にディレクトリが必要です。 これがテナントです。 組織が Power BI または Office 365 を使用していないためにまだテナントがない場合は、[テナントを作成する必要があります](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。 アプリケーションを組織のテナントと混在させたくない場合にも、テナントを作成する必要があります。 これにより、分離させておくことができます。
 
 または、テスト目的でテナントを作成することもできます。
 

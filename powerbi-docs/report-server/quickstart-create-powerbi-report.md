@@ -15,32 +15,47 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: e492d31a8e1ed57a769c9a36f515d99369f6d6dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>クイックスタート: Power BI レポート サーバーの Power BI レポートの作成
 Power BI レポートは、Power BI サービス (https://powerbi.com) のクラウドに保存することができるほか、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで保存して管理できます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
 
 ![Web ポータル上の Power BI レポート](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
-Power BI Desktop で Power BI レポートを既に作成している場合は、Power BI レポート サーバーの Power BI レポートを作成する準備ができています。 そうでない場合は、始めるために次の 4 つの簡単な手順を実行します。
+作業を開始するには、次の 4 つの簡単な手順を実行します。
 
-## <a name="step-1-install-power-bi-desktop-report-server"></a>手順 1: Power BI Desktop をインストールする (Report Server)
-Power BI サービスのレポートを作成するために Power BI Desktop を既にインストールしている場合があります。 サーバーとアプリを常に同期させるため、Power BI レポート サーバー向けに最適化された Power BI Desktop のバージョンをインストールすることをお勧めします。同じコンピューターに Power BI Desktop の両方のバージョンを共存させることができます。
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>手順 1: Power BI Report Server 向けに最適化された Power BI Desktop のインストール
 
-1. Power BI Report Server の Web ポータルで **[新規]** > **[Power BI Report]\(Power BI レポート\)** の順に選択します。
+Power BI Desktop で Power BI レポートを既に作成している場合は、Power BI Report Server の Power BI レポートを作成する準備がほぼできています。 サーバーとアプリを常に同期させるため、Power BI レポート サーバー向けに最適化された Power BI Desktop のバージョンをインストールすることをお勧めします。同じコンピューターに Power BI Desktop の両方のバージョンを共存させることができます。
+
+1. レポート サーバーの Web ポータルで、**ダウンロード**の矢印、**[Power BI Desktop]** の順に選択します。
+
+    ![Web ポータルから Power BI Desktop をダウンロードする](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+
+    Microsoft ダウンロード センターの (Power BI Report Server (2017 年 10 月) 向けに最適化された) [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) に直接移動することもできます。
+
+2. ダウンロード センター ページで、**[ダウンロード]** を選択します。
+
+3. 使用しているコンピューターに適したものを以下から選択します。
+
+    - **PBIDesktopRS.msi** (32 ビット バージョン)
+
+    - **PBIDesktopRS_x64.msi** (64 ビット バージョン)
+
+4. インストーラーをダウンロードしたら、Power BI Desktop (2017 年 10 月) のセットアップ ウィザードを実行します。
+
+2. インストールの最後に、**[Start Power BI Desktop now]**\(今すぐ Power BI Desktop を起動する\) をオンにします。
    
-    ![新規の Power BI レポート](media/quickstart-create-powerbi-report/report-server-web-portal-new-powerbi-report.png)
-   
-    Power BI Report Server へのアクセスがない場合は、Microsoft ダウンロード センターにアクセスし、[Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=837581) (Power BI Report Server 向けに最適化 - 2017 年 6 月 GA) をダウンロードします。
-2. インストール プロセスの最後に、**[Start Power BI Desktop now]**\(今すぐ Power BI Desktop を起動始する\) をオンにします。
-   
-    Power BI Desktop が自動的に起動し、すぐに使えます。 適切なバージョンでは、タイトル バーに "Power BI Desktop (Report Server)" と表示されます。
+    Power BI Desktop が自動的に起動し、すぐに使えます。 適切なバージョンでは、タイトル バーに "Power BI Desktop (2017 年 10 月)" と表示されます。
+
+    ![Power BI Desktop 2017 年 10 月バージョン](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+
 3. Power BI Desktop に慣れていない場合は、[ようこそ] 画面のビデオをご覧になることをお勧めします。
    
     ![Power BI Desktop のスタート画面](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)

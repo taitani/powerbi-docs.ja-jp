@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: dcb262d110025f2c36c4029227b353132c4dafb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2c249cac17e8fe6da35634c78837e3ca16e70a5c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop で OneDrive for Business リンクを使用する
 多くの人は、Power BI Desktop と相性の良い OneDrive for Business ドライブに Excel ブックを格納しています。 **Power BI Desktop** を使用すると、**OneDrive for Business** に格納されている **Excel** ファイルのオンライン リンクを使用して、レポートやビジュアルを作成できます。 **OneDrive for Business** のグループ アカウントか、個人の **OneDrive for Business** アカウントを使用できます。
@@ -37,7 +37,7 @@ ms.lasthandoff: 11/15/2017
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. **Excel** で、**[ファイル] > [情報]** の順に選び、**[ブックの保護]** ボタンの上のリンクを選びます。 **[リンクをクリップボードにコピーする]** を選びます。
+2. **Excel** で、**[ファイル] > [情報]** の順に選び、**[ブックの保護]** ボタンの上のリンクを選びます。 **[リンクをクリップボードにコピーする]** (使用しているバージョンによっては、**[パスをクリップボードにコピー]** の場合があります) を選択します。
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 

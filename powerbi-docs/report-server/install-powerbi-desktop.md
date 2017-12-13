@@ -3,7 +3,7 @@ title: "Power BI レポート サーバー向けに最適化された Power BI D
 description: "Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール方法の詳細"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: maggiesMSFT
 manager: kfile
 backup: 
 editor: 
@@ -15,33 +15,49 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/20/2017
-ms.author: asaxton
-ms.openlocfilehash: 5fd5f41523ffcba03eb4749a9560922bcff42a7c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 12/05/2017
+ms.author: maggies
+ms.openlocfilehash: efae785bb063e1bfb1b8333e36447dcaa66a70b4
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
 Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール方法について説明します。
 
-Power BI レポート サーバー向けに最適化された Power BI Desktop をダウンロードしてインストールする必要があります。 これは、Power BI サービスで使用される Power BI Desktop とは別のリリースです。 これは、レポートとモデルの既知のバージョンと間接的にできるようにするために必要です。 
+Power BI Report Server の Power BI レポートを作成するには、Power BI Report Server 向けに最適化された Power BI Desktop をダウンロードしてインストールする必要があります。 このリリースは、Power BI サービスで使用される Power BI Desktop とは別のものです。 このリリースを使用すると、レポート サーバーが、既知のバージョンのレポートおよびモデルと対話できることを確認できます。 
 
 > [!NOTE]
-> Power BI Desktop と Power BI レポート サーバー向けに最適化された Power BI Desktop は、サイド バイ サイドでインストールできます。
-> 
-> 
+> Power BI Desktop と、Power BI Report Server 向けに最適化された Power BI Desktop は、同じコンピューターにサイド バイ サイドでインストールできます。
 
-## <a name="download-and-install"></a>ダウンロードとインストール
-Power BI Report Server 向けに最適化された Power BI Desktop は、[Microsoft ダウンロード センター](https://go.microsoft.com/fwlink/?linkid=837581)またはご使用のレポート サーバーの Web ポータル内からダウンロードできます。
+## <a name="download-and-install-power-bi-desktop"></a>Power BI Desktop のダウンロードおよびインストール
 
-インストーラーをダウンロードすると、Power BI Desktop をインストールできます。
+Power BI Report Server 向けに最適化された Power BI Desktop のバージョンが最新のものであることを確認するための最も簡単な方法は、レポート サーバーの Web ポータルから起動することです。
+
+1. レポート サーバーの Web ポータルで、**ダウンロード**の矢印、**[Power BI Desktop]** の順に選択します。
+
+    ![Web ポータルから Power BI Desktop をダウンロードする](media/install-powerbi-desktop/report-server-download-web-portal.png)
+
+    Microsoft ダウンロード センターの (Power BI Report Server (2017 年 10 月) 向けに最適化された) [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) に直接移動することもできます。
+
+2. ダウンロード センター ページで、**[ダウンロード]** を選択します。
+
+3. 使用しているコンピューターに適したものを以下から選択します。 
+
+    - **PBIDesktopRS.msi** (32 ビット バージョン)
+
+    - **PBIDesktopRS_x64.msi** (64 ビット バージョン)
+
+1. インストーラーをダウンロードしたら、Power BI Desktop (2017 年 10 月) のセットアップ ウィザードを実行します。
+2. インストールの最後に、**[Start Power BI Desktop now]**\(今すぐ Power BI Desktop を起動する\) をオンにします。
+   
+    Power BI Desktop が自動的に起動し、すぐに使えます。
 
 ## <a name="verify-you-are-using-the-correct-version"></a>正しいバージョンを使用していることを確認する
 Power BI Desktop の起動画面またはタイトル バーを見て、正しい Power BI Desktop を使用していることを確認できます。 タイトル バーには、リリースの月と年が示されます。
 
-![](media/install-powerbi-desktop/powerbi-desktop-rs-title-bar.png "Power BI Desktop のタイトル バー")
+![Power BI Report Server 向けに最適化された Power BI Desktop のタイトル バー](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
 Power BI サービスの Power BI Desktop バージョンの場合、タイトル バーに月と年は示されません。
 
