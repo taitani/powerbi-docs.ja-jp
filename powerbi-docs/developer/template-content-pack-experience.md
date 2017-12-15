@@ -26,7 +26,7 @@ ms.lasthandoff: 11/13/2017
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI でのテンプレート コンテンツ パックのエクスペリエンス
 このセクションでは、ISV [コンテンツ パック](../service-connect-to-services.md)に接続するユーザーの標準的なエクスペリエンスに注目します。 
 
-Https://app.powerbi.com/getdata/services でリリースされたコンテンツ パック (以下に説明されている [GitHub コンテンツ パック](https://app.powerbi.com/getdata/services/github)など) に接続して、自分で接続エクスペリエンスを試してみることができます。
+https://app.powerbi.com/getdata/services でリリースされたコンテンツ パック (以下に説明されている [GitHub コンテンツ パック](https://app.powerbi.com/getdata/services/github)など) に接続して、自分で接続エクスペリエンスを試してみることができます。
 
 ## <a name="connect"></a>接続
 使い始めるには、ユーザーはコンテンツ パック ギャラリーを参照し、接続するコンテンツ パックを選択します。 コンテンツ パック エントリは、名前、アイコン、およびユーザーに詳細を提供する説明テキストを提供します。
