@@ -4,13 +4,13 @@
 
 これはコースの最後のセクション (また、DAX を学習しない場合は、最後のトピック) ですので、これらのセクションのすべてを一巡していれば無事完了です。 お疲れ様でした。 これで次の**重要な概念**のすべてに精通しているはずです。
 
-* [Power BI](0-0-what-is-power-bi.md) の内容
-* Power BI の[構成要素](0-0b-building-blocks-power-bi.md)
-* データの[取得](1-2-connect-to-data-sources-in-power-bi-desktop.md)と[モデリング](2-1-intro-modeling-data.md)
-* [視覚エフェクト](3-1-intro-visualizations.md)
-* Power BI サービスでの[データの探索](4-0-intro-power-bi-service.md)
-* [Excel と Power BI](5-1-intro-excel-data.md) の併用
-* 作業の[発行と共有](6-0-intro-content-packs-groups.md)
+* [Power BI](../gettingstarted.yml#step-1) の内容
+* Power BI の[構成要素](../gettingstarted.yml#step-3)
+* データの[取得](../gettingdata.yml#step-3)と[モデリング](../modeling.yml#step-1)
+* [視覚エフェクト](../visualizations.yml#step-1)
+* Power BI サービスでの[データの探索](../exploringdata.yml#step-1)
+* [Excel と Power BI](../powerbiandexcel.yml#step-1) の併用
+* 作業の[発行と共有](../publishingandsharing.yml#step-1)
 
 これらの大量の知識がすべて頭に入ったので、あとは実践に備えるだけです。 こちらの**ダウンロード リンク**を使用するか、またはお使いのブラウザーから **Power BI サービスに接続**してください。
 
