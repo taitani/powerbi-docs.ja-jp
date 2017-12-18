@@ -5,7 +5,7 @@ Power BI へようこそ **DAX** の概要説明を目的とした**ガイド付
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX およびこのガイド付き学習ビデオ シリーズ
 この**ガイド付き学習**セクションの目的は、DAX の基本と基礎を説明することにあります。具体的には、DAX についての考え方、DAX のしくみ、最も便利な機能について、DAX エキスパートとして名高い [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 氏による説明 (および多くの経験から得られたこと) に基づいて紹介しています。
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Alberto Ferrari 氏のポートレート](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 **DAX** に関するこの**ガイド付き学習**セクションのビデオでは、DAX 式言語のしくみという観点で DAX の基礎について説明します。 このビデオは、DAX 式を一から作成する場合に役に立ちますが、**クエリ エディター**でクエリを作成するときに Power BI によってそれらの DAX 式がどのように作成されるのかを理解するのにも大いに役立ちます。
 
