@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: cff6a984f4c3d47bbf7dcd3df43253c318b2bf50
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 用の Power BI モバイル アプリの概要
 Windows 10 用 Power BI モバイル アプリを導入すると、タブレットやスマート フォンのタッチ対応画面で Power BI を使用でき、最新のビジネス情報に簡単にアクセスできるようになります。 どこにいても、[Windows のスタート画面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)から会社のダッシュボードを表示して操作できます。
@@ -35,10 +35,8 @@ Windows 10 用 Power BI モバイル アプリを導入すると、タブレッ�
 ## <a name="first-things-first"></a>最初に行うこと
 * Windows ストアから [**Windows 10 用の Power BI モバイル アプリ**](http://go.microsoft.com/fwlink/?LinkID=526478)を入手します。
   
-  > [!NOTE]
-  > デバイスで Windows 10 を実行している必要があります。 このアプリは、少なくとも 2 GB の RAM と 8 GB の内部記憶域を持つデバイスに適しています。 少なくとも 1 GB の RAM を持つデバイス上で実行できます。
-  > 
-  > 
+  デバイスで Windows 10 を実行している必要があります。 このアプリは、最低 3 GB RAM と 8 GB の内部記憶域を持つデバイスで実行できます。
+   
 * 「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」をご覧ください。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Web 上で Power BI サービスにサインアップする

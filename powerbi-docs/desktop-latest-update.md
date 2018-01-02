@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: a4a348d88bc9613c2d18766ff1ea398538088c9b
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 1eff7cbb6fd54993440d309cb14622295daa3d19
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Power BI Desktop の最新の更新プログラムの新機能
 
-## <a name="november-2017-update-2524921202"></a>2017 年 11 月の更新 (2.52.4921.202)
+## <a name="december-2017-update-2534954481-"></a>2017 年 12 月の更新 (2.53.4954.481)
 
 [最新バージョンの Power BI Desktop をダウンロード](https://powerbi.microsoft.com/desktop)できるようになりました。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 **Power BI Desktop** のインストール方法に関係なく、毎月リリースされるバージョンは同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
 
-今月は、**Power BI Desktop** の更新がすべて含まれています。 
+12 月には、すべてのビジネス インテリジェンス志向の子供 (と大人) が楽しめる機能がぎっしり詰まった **Power BI Desktop** 向けの多数の更新プログラムが提供されます。 簡単にインストールできます。
 
 各更新の横にあるリンクには、次の意味があります。
 
@@ -44,40 +44,39 @@ ms.lasthandoff: 11/17/2017
 
 ### <a name="reporting"></a>レポート
 
--   テーブルとマトリックス ビジュアル向けのルール ベースの条件付き書式 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
--   テーブルとマトリックス ビジュアル向けのセルの配置 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=4m16s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
--   選択ウィンドウで視覚順を制御する [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=6m21s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
--   レポートでオブジェクトをロックする [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=9m2s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
--   Esri Plus サブスクリプションが ArcGIS Maps for Power BI で利用可能 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=10m31s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
--   低速なデータ ソース向けのレポート オプション [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=16m11s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
--   フィルター処理のパフォーマンスの向上 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
--   最近リリースされたカスタム ビジュアル [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+-   レポート作成の Q&A [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
+-   ブックマークのクロス強調表示 [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=4m18s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
+-   ブックマークの柔軟性を高める [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=4m18s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
+-   フィールドのプロパティ ウィンドウとフィールドの説明 [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=13m19s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
+-   X 軸と Y 軸のグループ化からの散布ビジュアル [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=15m12s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
+-   緯度と経度に基づくマップの高密度サンプリング [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=17m3s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
+-   レスポンシブ スライサー [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
+-   最近リリースされたカスタム ビジュアル [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>分析
 
--   複数の行カードに対する多次元 AS モデルのセル レベルの書式設定 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
+-   他のビジュアルの詳細フィルター [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=28m53s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
 
 ### <a name="data-connectivity"></a>データ接続
 
--   Impala コネクタ - Windows 認証のサポート [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
-
-
-### <a name="other"></a>その他
-
--   クエリの編集 - 例からの列の追加の改善 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
+-   Adobe Analytics コネクタ [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=30m35s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
+-   HDInsight 対話型クエリ コネクタ [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=31m13s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
+-   Data.World コネクタ [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
+-   SAP BW コネクタの機能強化 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
+-   IBM Netezza コネクタの一般提供が開始 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
 
 
 
 > [!NOTE]
 > [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
 
-これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
 
 次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
 > 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。

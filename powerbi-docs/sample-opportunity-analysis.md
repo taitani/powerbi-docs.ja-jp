@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の営業案件の分析のサンプル: 使ってみる
 **営業案件の追跡のサンプル** には、 *直接* と *パートナー* という 2 つの販売チャネルを持つソフトウェア企業向けのダッシュボード (および関連するレポート) が含まれています。 地域、案件のサイズ、チャネル別に営業案件と売上を追跡するために、セールス マネージャーがこのダッシュボードを作成しました。
@@ -38,7 +38,8 @@ ms.lasthandoff: 11/13/2017
 
 このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、obviEnce ([www.obvience.com](http://www.obvience.com/)) が収集している匿名化された実データです。
 
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529782)することもできます。  
+>[!Note] 
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529782)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。  生データを表示するには、**[Power Pivot] > [管理]** を選択します。 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 

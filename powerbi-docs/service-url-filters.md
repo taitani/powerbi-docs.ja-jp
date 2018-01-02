@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/4/2017
 ms.author: mihart
-ms.openlocfilehash: 6858f85cb08c493f7a73dc888a4bb21f66c5f217
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 Power BI サービスでレポートを開くと、レポートの各ページに一意の URL があります。 そのレポート ページをフィルター処理するには、レポート キャンバスの [フィルター] ウィンドウを使うことができます。  または、クエリ文字列パラメーターを URL に追加して、レポートをフィルター処理できます。 同僚に見せるレポートに事前にフィルターを適用したい場合、 1 つの方法は、レポートの既定の URL にフィルター パラメーターを追加し、URL 全体をメールで同僚に送るというものです。
@@ -107,7 +107,7 @@ https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/R
 ## <a name="limitations-and-troubleshooting"></a>制限事項とトラブルシューティング
 クエリ文字列パラメーターを使う場合に注意すべき点が 2 つあります。
 
-* クエリ文字列のフィルター処理は、[[Web に公開](service-publish-to-web.md)] の URL では機能しません。
+* クエリ文字列のフィルター処理は、[[Web に公開]](service-publish-to-web.md) または Power BI Embedded では機能しません。   
 * フィールドの型は文字列である必要があります。
 * テーブルおよびフィールドの名前にスペースが含まれていてはなりません。
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/07/2017
 ms.author: asaxton
-ms.openlocfilehash: b16bae6cc8932a488920949815833def5980c1f3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -30,10 +30,7 @@ Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
-> 現在、この機能は Power BI モバイルでは使用できません。 
-> 
-> 
-
+> 現在、この機能は Power BI モバイル アプリでは使用できません。 モバイル デバイスでは、ブラウザーで Azure AD B2B を使用して共有されている Power BI コンテンツを表示できます。 
 
 ## <a name="invite-guest-users"></a>ゲスト ユーザーを招待する
 
@@ -99,6 +96,12 @@ Power BI Premium 容量にアプリ ワークスペースを割り当てると�
 ゲスト ユーザーは、そのテナント内で Power BI Pro ライセンスに既に割り当てられています。
 
 ![ゲスト ユーザーが独自のライセンスを使用する](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="limitations"></a>制限事項
+
+* 外部の B2B ゲストは、コンテンツのみの消費量に制限されます。 外部の B2B ゲストは、アプリ、ダッシュボード、レポートの表示、データのエクスポート、ダッシュボードとレポートの電子メール サブスクリプションの作成ができます。 ワークスペースにアクセスしたり、独自のコンテンツを公開することはできません。
+* 現在、この機能は Power BI モバイル アプリでは使用できません。 モバイル デバイスでは、ブラウザーで Azure AD B2B を使用して共有されている Power BI コンテンツを表示できます。
+* ソブリン クラウド (政府機関) 内では、Power BI でゲスト ユーザーの使用はサポートされません。
 
 ## <a name="next-steps"></a>次の手順
 

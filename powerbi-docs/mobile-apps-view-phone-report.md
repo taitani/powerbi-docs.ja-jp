@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/06/2017
 ms.author: maggies
-ms.openlocfilehash: 54a1b81cc4281db7a622668ba205c1c57d5e396d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
 Power BI Desktop で Power BI レポートを作成する際に、[電話の Power BI アプリで表示するために最適化されたレポート](desktop-create-phone-report.md)のバージョンも作成できます。
@@ -39,8 +39,8 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 * [iPhone でのレポート](mobile-reports-in-the-mobile-apps.md)。 
 * [Android フォンでのレポート](mobile-reports-in-the-mobile-apps.md)。
 
-## <a name="filter-the-report-page-on-an-iphone"></a>iPhone でレポート ページをフィルター処理する
-電話用に最適化されたレポートにフィルターが定義されている場合、iPhone でレポートを表示するときに、これらのフィルターを使うことができます。 
+## <a name="filter-the-report-page-on-a-phone"></a>電話でレポート ページをフィルター処理する
+電話用に最適化されたレポートにフィルターが定義されている場合、電話でレポートを表示するときに、これらのフィルターを使うことができます。 
 
 1. ページの下部にあるフィルター アイコン ![電話のフィルター アイコン](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) をタップします。 
 2. 基本的または詳細なフィルター処理を使って、関心がある結果を表示します。

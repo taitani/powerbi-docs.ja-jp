@@ -1,6 +1,6 @@
 ---
-title: "ダッシュボード、ダッシュボード タイル、レポート ページを全画面表示モードで表示する"
-description: "ダッシュボード、ダッシュボード タイル、レポート ページを全画面表示モード (別名 *テレビ モード*) で表示します。"
+title: "ダッシュボード、ダッシュボード タイル、レポート ページ、レポートの視覚化を全画面表示モードで表示する"
+description: "ダッシュボード、ダッシュボード タイル、レポート ビジュアル、レポート ページを全画面表示モード (別名 *テレビ モード*) で表示します。"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 87fbe780991969f5fe3e9a31af58e54015d13678
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Power BI の全画面表示モード
 ## <a name="what-is-full-screen-mode"></a>全画面表示モードの概要
@@ -46,7 +46,7 @@ ms.lasthandoff: 11/13/2017
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>全画面表示モードのダッシュボードとレポート ページ
-1. ダッシュボードやレポートの上部にある Power BI メニュー バーから **[全画面表示]** アイコン ![](media/service-fullscreen-mode/power-bi-full-screen-icon.png) を選択します。 ダッシュボード キャンバスまたはレポート ページが全画面に表示されます。 下はダッシュボードの例です。
+1. ダッシュボードやレポートの上部にある Power BI メニュー バーから **[全画面表示]** アイコン![ ](media/service-fullscreen-mode/power-bi-full-screen-icon.png) を選択します。 ダッシュボード キャンバスまたはレポート ページが全画面に表示されます。 下はダッシュボードの例です。
    
       ![ダッシュボードの全画面表示](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. 全画面表示モードには、メニュー オプションがいくつかあります。  マウスまたはカーソルを動かすと、メニューが表示されます。 
@@ -89,7 +89,7 @@ ms.lasthandoff: 11/13/2017
 
 ## <a name="next-steps"></a>次の手順
 [Power BI のダッシュボード](service-dashboards.md)  
-[ダッシュボードおよびダッシュボード タイルのフォーカス モード](service-focus-mode.md)    
+[フォーカス モード](service-focus-mode.md)    
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

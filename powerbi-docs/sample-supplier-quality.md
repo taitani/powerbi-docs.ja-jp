@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 190d3d256a28deaac2555847d49d61af2263d5a7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5be71c2cbe4acf36b0b315b30ddf5d65108882be
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI のサプライヤー クオリティ分析のサンプル: 使ってみる
 この業界サンプル ダッシュボードおよび基になるレポートは、典型的なサプライ チェーンの課題の 1 つである、サプライヤー クオリティ分析に焦点を合わせています。
@@ -33,8 +33,9 @@ ms.lasthandoff: 11/13/2017
 このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。
 これは、obviEnce ([www.obvience.com](http://www.obvience.com/)) が収集している匿名化された実データです。
 
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529779)することもできます。 
-
+> [!NOTE] 
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529779)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+ 
 ![](media/sample-supplier-quality/supplier1.png)
 
 ## <a name="downtime-caused-by-defective-materials"></a>欠陥のある素材によって発生するダウンタイム

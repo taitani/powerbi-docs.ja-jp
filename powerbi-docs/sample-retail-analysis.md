@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 09e245e625c9e0859f93837e56b564218e327926
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の小売りの分析のサンプル: 使ってみる
 
 この業界サンプル ダッシュボードと基になるレポートは、複数の店舗や地域で販売されたアイテムの小売店の売上データを分析したものです。 メトリックは、売上、出荷単位、粗利、差異、新店舗の分析に関して、本年度と昨年度の業績を比較します。 これは、obviEnce ([www.obvience.com](http://www.obvience.com)) が収集している匿名化された実データです。
 
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529778)することもできます。
+[!Note] [このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529778)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。  生データを表示するには、**[Power Pivot] > [管理]** を選択します。 
 
 ![](media/sample-retail-analysis/retail1.png)
 
@@ -120,7 +120,7 @@ ms.lasthandoff: 11/17/2017
    ![](media/sample-retail-analysis/retail15.png)
    
    タイルから明らかなとおり、今年度、Lindseys 店舗よりも Fashions Direct 店舗のほうが多く開店しました。
-2. [Sales Per Sq Ft by Name] \(店舗名別平方フィート単位の売上) グラフに注目してください。
+2. [Sales Per Sq Ft by Name] (店舗名別平方フィート単位の売上) グラフに注目してください。
    
    ![](media/sample-retail-analysis/retail14.png)
    

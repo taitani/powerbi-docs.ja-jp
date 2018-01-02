@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 7a32885efb0813cc430f37952ca4fc9c5e435121
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Power BI 電話アプリ用に最適化したレポートを作成する
-[Power BI Desktop でレポートを作成する](desktop-report-view.md)場合、電話専用のレポートのバージョンを作成して、電話のモバイル アプリでのレポートの操作性を向上させることができます。 ビジュアルを再配置およびサイズ変更し、それらのすべてを含めないようにするなど、最適な操作性のために、レポートを電話に適応させます。 さらに、電話上で適切にサイズ変更されて表示される["*レスポンシブ*" ビジュアルを作成](desktop-create-responsive-visuals.md)することもできます。 また、レポートにフィルターを追加した場合、iPhone ではこれらのフィルターが電話レポートに自動的に表示されます。 レポートの読者は、それを使ってレポートをフィルター処理することができます。
+[Power BI Desktop でレポートを作成する](desktop-report-view.md)場合、電話専用のレポートのバージョンを作成して、電話のモバイル アプリでのレポートの操作性を向上させることができます。 ビジュアルを再配置およびサイズ変更し、それらのすべてを含めないようにするなど、最適な操作性のために、レポートを電話に適応させます。 さらに、電話上で適切にサイズ変更されて表示される[*レスポンシブ* ビジュアル](#optimize-a-visual-for-any-size)と[レスポンシブ スライサー](#enhance-slicers-to-to-work-well-in-phone-reports)を作成することもできます。 また、レポートにフィルターを追加した場合、これらのフィルターが電話レポートに自動的に表示されます。 レポートの読者は、それを使ってレポートをフィルター処理することができます。
 
 ![電話に対して最適化されたレポート](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 11/13/2017
    ![ビジュアル サイズの変更](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>ビジュアルのサイズを最適化する
-ダッシュ ボードまたはレポート内のビジュアルを "*レスポンシブ*" に設定することができます。これにより、ビジュアルは画面のサイズに関係なく、最大量のデータとインサイトを表示できるように動的に変化します。
+ダッシュ ボードまたはレポート内のビジュアルを "*レスポンシブ*" に設定することができます。これにより、ビジュアルは画面のサイズに関係なく、最大量のデータとインサイトを表示できるように動的に変化します。 
 
 ビジュアルがサイズを変更するとき、Power BI はデータ ビューを優先します (たとえば、自動的に余白を削除し凡例をビジュアルの上部に移動します)。これにより、ビジュアルは小さくなっても引き続き有益な情報を提供できます。
 
@@ -82,10 +82,14 @@ ms.lasthandoff: 11/13/2017
 スライサーは、レポート データのキャンバス上のフィルター処理を行います。 通常のレポートの作成モードでスライサーを設計する場合、電話レポートそれらを使いやすくするために、いくつかのスライサー設定を変更できます。
 
 * レポートの閲覧者が、1 つだけの項目を選択できるか、または複数選択できるかを決定します。
-* スライサーを垂直または水平にします。 
 * レポートをスキャンしやすくなるように、スライサーの周りにボックスを配置します。
+* スライサーを垂直、水平、または*レスポンシブ*にします。 
 
-詳しくは、[Power BI サービスでのスライサーの作成](guided-learning/visualizations.yml#step-4)に関するページを参照してください。
+スライサーをレスポンシブにすると、スライサーのサイズとシェイプの変更に応じて表示されるオプションの数が増減します。 高さを変えたり、幅を変えたりできます。 非常に小さくすると、レポート ページにフィルターのアイコンだけが表示されるようになります。 
+
+![Power BI のレスポンシブ スライサー](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+
+詳細については、[レスポンシブ スライサーの作成](power-bi-slicer-filter-responsive.md)に関するページをお読みください。
 
 ## <a name="publish-a-phone-report"></a>電話レポートの発行
 * レポートの電話バージョンを発行するには、[Power BI Desktop から Power BI サービスにメイン レポートを発行](desktop-upload-desktop-files.md)し、同時に電話バージョンを発行します。

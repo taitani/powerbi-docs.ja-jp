@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>同僚や他のユーザーと自分の Power BI ダッシュボードを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の方法でダッシュボードで共同作業を行い](service-how-to-collaborate-distribute-dashboards-reports.md)、ダッシュボードを配布できますが、共有はその 1 つにすぎません。
@@ -91,6 +91,8 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
    * そのユーザーが他のユーザーと共有できないようにするには、**[読み取り]** を選びます。
    * そのユーザーがダッシュボードをまったく表示できないようにするには、**[アクセスの削除]** を選びます。
 
+4. **[アクセス許可の削除]** ダイアログ ボックスで、レポートやデータセットなど、関連するコンテンツへのアクセスを削除するかどうかを決定します。 警告アイコン ![Power BI の警告アイコン](media/service-share-dashboards/power-bi-warning-icon.png) が付いた項目を削除する場合、関連するコンテンツは正しく表示されなくなるため、削除することをお勧めします。
+
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>組織外のユーザーとダッシュボードを共有する
 組織外のユーザーと共有すると、共有相手は共有ダッシュボードへのリンクを含むメールを受け取ります。そのユーザーがダッシュボードを表示するには、Power BI にサインインする必要があります。 Power BI ライセンスがない共有相手は、リンクをクリックした後でサインアップできます。
 
@@ -115,6 +117,33 @@ Power BI モバイル アプリから組織外のユーザーにリンクを送�
 * 自分と同じ電子メール ドメインに属している同僚と、ドメインが異なっていても同じテナントに登録されている同僚は、ダッシュボードを他のユーザーと共有できます。 たとえば、ドメイン contoso.com と contoso2.com が同じテナント内に登録されているとします。 自分の電子メール アドレスが konrads@contoso.com の場合、ravali@contoso.com と gustav@contoso2.com は、共有のアクセス許可が付与されていれば、共有が可能です。
 * 同僚が既に特定のダッシュボードへのアクセスが可能な場合、自分がそのダッシュボードにいるときの URL をそのままコピーして、ダッシュボードへの直接リンクを送信できます。 例: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 同様に、同僚が特定のダッシュボードに既にアクセスできる場合は、[基になるレポートへの直接リンクを送信する](service-share-reports.md)ことができます。 
+
+## <a name="troubleshoot-sharing"></a>共有のトラブルシューティング
+
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>ダッシュボードの受信者に、タイルまたは「アクセス許可が必要」のメッセージにロック アイコンが表示される
+
+共有相手が、レポートを表示しようとしたときに、ダッシュボード内にロックされたタイルが表示される、または「アクセス許可が必要」のメッセージが表示される場合、その共有相手に基になるデータセットへのアクセス許可を付与する必要があります。 次にその方法を示します。
+
+1. コンテンツ リストの **[データセット]** タブに移動します。
+
+1. データセットの横にある省略記号 (**...**)、**[アクセス許可の管理]** の順に選択します。
+
+    ![アクセス許可の管理](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
+
+3. **[ユーザーの追加]** を選びます。
+
+    ![[ユーザーの追加] を選択](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
+
+1. 個々のユーザーの完全なメール アドレス、配布グループ、またはセキュリティ グループを入力します。 動的配布リストと共有することはできません。
+
+    ![メール アドレスの追加](media/service-share-dashboards/power-bi-add-user-dataset.png)
+
+5. **[追加]**を選択します。
+
+### <a name="i-cant-share-a-dashboard"></a>ダッシュボードを共有できない
+
+ダッシュボードを共有するには、基になるコンテンツ (関連するすべてのレポートやデータセット) を再共有するアクセス許可を持っている必要があります。 共有できませんというメッセージが表示された場合は、レポートの作成者にこれらのレポートおよびデータセットを再共有するアクセス許可を依頼してください。
+
 
 ## <a name="next-steps"></a>次の手順
 * ご意見およびご提案がある場合は、 [Power BI コミュニティ サイト](https://community.powerbi.com/)をご利用ください。

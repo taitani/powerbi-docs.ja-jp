@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: 576ddfbbf52a2738dd32597479ffd03d554a5256
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の調達の分析のサンプル: 使ってみる
 この業界サンプル ダッシュボードと基になるレポートは、製造会社のカテゴリと場所ごとのベンダー支出を分析します。 このサンプルでは、次の領域を調べます。
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/13/2017
 
 どうしたらよいでしょうか? [Power BI サービス](https://powerbi.com)で、**[データの取得] > [サンプル] > [調達の分析のサンプル] > [接続]** に移動し、自分用のサンプル コピーを取得します。
 
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529784)することもできます。
+[!Note] [このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529784)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
 
 ## <a name="spending-trends"></a>支出傾向
 まず、カテゴリと場所ごとの支出の傾向を見てみましょう。  

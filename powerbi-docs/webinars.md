@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 12/07/2017
 ms.author: maikelson
-ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -41,14 +41,11 @@ ms.lasthandoff: 11/27/2017
 
 - [Power BI Report Server の新機能とおすすめの機能 - 2017 年 11 月](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
 
-
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
 登録して Power BI の専門家の話を聞き、ライブ Q&A セッションに参加してください。
 
 >[Power BI コミュニティからの今後のウェビナーに参加する](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [製造業: 業界が経験しているデジタル変革 - 分析の活用によるリーダーシップの維持と収益の最大化 - 2017 年 12 月 5 日](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
 - [医療での収益の増加 - 2017 年 12 月 12 日](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
@@ -60,6 +57,8 @@ ms.lasthandoff: 11/27/2017
 
 - [組織のセキュリティを強化する適切なデータ ガバナンス戦略の実装方法](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 
+- [より優れたレポートに変換する](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
+
 - [パートナーに聞く: Power BI 用カスタム ビジュアルの開発](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
 - [Microsoft による Power BI のやり方](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
@@ -67,6 +66,8 @@ ms.lasthandoff: 11/27/2017
 - [セールスおよびサービスのインテリジェンスを適用する](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
 - [Power BI のセキュリティの詳細](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
+
+- [製造業: 業界が経験しているデジタル変革 - 分析の活用によるリーダーシップの維持と収益の最大化](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
 ## <a name="see-also"></a>参照
 

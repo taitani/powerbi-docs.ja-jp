@@ -380,6 +380,8 @@
           href: service-export-to-pbix.md
         - name: URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
           href: service-url-filters.md
+        - name: Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティス
+          href: power-bi-reports-performance.md
     - name: 視覚エフェクト
       items:
         - name: Power BI での視覚化
@@ -746,6 +748,8 @@
       items:
         - name: Power BI Desktop のレポート ビュー
           href: desktop-report-view.md
+        - name: Power BI Desktop の Q&A
+          href: desktop-qna-in-reports.md
         - name: 'Power BI Desktop の [分析] ウィンドウ'
           href: desktop-analytics-pane.md
         - name: Power BI Desktop でのインサイトの使用
