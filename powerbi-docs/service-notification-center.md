@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/26/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: f61ca9c4808cbcf180b60113eeade235b8d28f6d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="power-bi-notifications"></a>Power BI の通知
 通知センターは、Power BI の利用に関連する情報のシーケンシャルなフィードです。 これを開くと、共有されている新しいダッシュボードに関するメッセージ、グループ領域の変更、Power BI のイベントや会議、設定したアラートなどに関する情報が表示されます。 [Power BI サービスでアラートを設定](service-set-data-alerts.md)できます。Power BI モバイル アプリでもアラートを設定できます。

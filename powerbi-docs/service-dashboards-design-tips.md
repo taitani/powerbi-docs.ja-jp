@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 757415a2b0ddd8fa7f1d9799e31e4266bfc8076f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>優れた Power BI ダッシュボードのデザインに関するヒント
 ダッシュボードの作成が完了し、タイルもいくつか追加したので、ダッシュボードの外観をよくすることに加えて、機能的なものにする方法についても考えてみましょう。 通常、この改良は、最も重要な情報を目立つようにしたり、簡潔ですっきりとした外観にしたりすることです。
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/13/2017
 
 ただし、必ずその意味を示してください。  
 
-[数値だけのタイルを作成](power-bi-visualization-big-number.md)する方法についてご覧ください。
+[数値だけのタイルを作成](power-bi-visualization-card.md)する方法についてご覧ください。
 
 ### <a name="put-the-most-important-information-in-the-upper-corner"></a>最も重要な情報は、上部の隅に配置する
 たいていの人は上から下に向かって情報を読むため、概要の情報は上部に配置し、より詳しい情報は閲覧者が読み進む方向 (左から右、または右から左) で下に向かって配置していきます。

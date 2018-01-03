@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/26/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: d93b98b0a34a0a83efc00a066864709b771c5110
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d0a4a465442ed3a6750ce10ab9a3a40e17b88be1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Excel ブックから魅力的なレポートを即座に作成する
 最新の売上データを直前のキャンペーンの感触と組み合わせて、上司にレポートを今日中に提出しなければなりません。 しかし、最新のデータはさまざまなサード パーティ システムと、自分のノート PC 内のファイルに散在しています。 以前に、ビジュアルとレポート書式を作成するのに何時間もかかった経験があります。 次第に不安が募ります。

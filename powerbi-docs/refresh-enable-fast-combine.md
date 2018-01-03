@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a622c3f0402e0f8216f64a93cf687eaa63fd8067
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Power BI Gateway - Personal でプライバシー設定を無効にする
 > [!NOTE]
@@ -59,7 +59,8 @@ ms.lasthandoff: 12/06/2017
     管理者でない場合、場所は次になります。
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2. 構成ファイルに、true の値の **&lt;EnableFastCombine&gt;** 要素を追加します。 この要素を追加すると、 **高速結合** が有効になります。
+    
+2. config ファイルに、true の値の **&lt;EnableFastCombine&gt;** 要素を追加します。 この要素を追加すると、 **高速結合** が有効になります。
    
    <pre><code>&lt;EnableFastCombine&gt;true&lt;/EnableFastCombine&gt;</code></pre>
    
@@ -77,7 +78,8 @@ ms.lasthandoff: 12/06/2017
     管理者でない場合、場所は次になります。
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2. 構成ファイルから **&lt;EnableFastCombine&gt;** 要素を削除します。 この要素を削除すると、 **高速結合** が無効になります。
+
+2. config ファイルから **&lt;EnableFastCombine&gt;** 要素を削除します。 この要素を削除すると、 **高速結合** が無効になります。
 3. ゲートウェイの構成画面を修了して、再起動します。
 4. **高速結合** が有効であるという状態は示されなくなります。
 
