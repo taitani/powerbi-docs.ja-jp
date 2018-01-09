@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: d39fd80b834afc37fb1db43a083f9037a3b83ef1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI サービスのほとんどすべてのものの名前を変更する
 この記事では、Power BI サービスのダッシュボード、レポート、レポートのページ、ブック、データセット、アプリ、ワークスペースの名前を変更する方法について説明します。
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/13/2017
 | **[自分と共有]** のコンテンツ |いいえ |いいえ |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>ダッシュボード、レポート、ブックの名前を変更する
-1. ワークスペースで **[ダッシュボード]**、**[レポート]**、または **[ブック]** タブを選びます。名前を変更するアイテムをポイントし、歯車アイコン ![](media/service-rename/powerbi-cog-icon.png) を選びます。
+1. ワークスペースで **[ダッシュボード]**、**[レポート]**、または **[ブック]** タブを選びます。名前を変更するアイテムをポイントし、歯車アイコン ![](media/service-rename/powerbi-cog-icon.png) を選びます。 歯車アイコンが表示されない場合は、名前を変更するアクセス許可がありません。
    
    ![](media/service-rename/power-bi-workspace-dashboards.png)
 2. [設定] ページで、新しい名前を入力して **[保存]** を選びます。
@@ -67,7 +67,7 @@ ms.lasthandoff: 11/13/2017
 管理者アクセス許可を持つユーザーはアプリ ワークスペースの名前を変更できます。
 
 1. 名前を変更するワークスペースに移動します。
-2. 右上隅の省略記号 [...] を選び、**[ワークスペースの編集]** を選びます。  
+2. 右上隅の省略記号 [...] を選び、**[ワークスペースの編集]** を選びます。 このオプションが表示されない場合は、このワークスペースの名前を変更するアクセス許可がありません。 
    
     ![](media/service-rename/power-bi-edit-workspace.png)
 3. 新しいワークスペース名を入力し、**[保存]** を選びます。

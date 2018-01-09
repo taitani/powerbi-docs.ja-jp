@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: d1960ea42bee8b00cc6dd095e94ebf6f6303bce8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI のダッシュボードのタイル
 ダッシュボードおよびダッシュボード タイルは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードのタイルを作成またはピン留めすることはできませんが、[表示して共有する](mobile-tiles-in-the-mobile-apps.md)ことはできます。 また、Power BI モバイルでは、[iPhone アプリでダッシュボードに画像を追加する](mobile-iphone-app-get-started.md)ことができます。
@@ -100,9 +100,7 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 * タイルの作成に使った元の視覚エフェクトが変更された場合、タイルは変更されません。  たとえば、レポートからの折れ線グラフをピン留めし、折れ線グラフを横棒グラフに変更した場合でも、ダッシュボード タイルは引き続き折れ線グラフを表示します。 データは更新されますが、視覚化の種類は変更されません。
 
 ## <a name="next-steps"></a>次の手順
-[レポートから重要な数値のタイルを作成](power-bi-visualization-big-number-report.md)
-
-[Q&A から重要な数値のタイルを作成](power-bi-visualization-big-number.md)
+[ダッシュボードのカード (大きな数字のタイル) を作成する](power-bi-visualization-card.md)
 
 [Power BI のダッシュボード](service-dashboards.md)  
 

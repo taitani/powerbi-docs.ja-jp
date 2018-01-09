@@ -15,16 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7eea8b8299561b65a6af704489d4c69c33ca27b4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8b1efc64dc471bafa410f41c94f7e06d638fe9e0
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="copy-and-paste-a-visualization-in-power-bi"></a>Power BI での視覚化のコピーと貼り付け
-1. Power BI でレポートを[編集ビュー](service-reading-view-and-editing-view.md)で開きます。レポートに視覚化がまだない場合は、[視覚化を作成](power-bi-report-add-visualizations-i.md)します。 
+# <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop で視覚エフェクトをコピーして貼り付ける
+視覚エフェクトをコピーして貼り付けるには、レポートの編集アクセス許可が必要です。 Power BI サービスでは、レポートを[編集ビュー](service-reading-view-and-editing-view.md)で開きます。
+
+1. 少なくとも 1 つの視覚エフェクトが含まれるレポートを開きます。  
+
 2. 視覚化を選び、 **Ctrl キーを押しながら C** を押してコピーし、 **Ctrl キーを押しながら V** を押して貼り付けます。  
    ![](media/power-bi-visualization-copy-paste/copypasteviznew.gif)
 

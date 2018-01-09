@@ -454,10 +454,8 @@
           href: power-bi-visualization-treemaps.md
         - name: 'チュートリアル: Power BI でのウォーターフォール図'
           href: power-bi-visualization-waterfall-charts.md
-        - name: 質問をして Power BI ダッシュボードに重要な数値のタイルを作成
-          href: power-bi-visualization-big-number.md
-        - name: Power BI レポートから重要な数値のタイルを作成
-          href: power-bi-visualization-big-number-report.md
+        - name: 'チュートリアル: Power BI でのカード (大きな数字のタイル)'
+          href: power-bi-visualization-card.md
         - name: Power BI で R スクリプトを使用して高度な分析とビジュアルを作成する
           href: service-r-visuals.md
     - name: ファイルからのデータ
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: コンテンツをアプリケーションに統合する (ユーザーがデータを所有)
           href: developer/embed-sample-for-customers.md
+        - name: カスタム レイアウトをアプリに埋め込む
+          href: developer/embedded-custom-layout.md
         - name: Azure Active Directory テナントを作成する
           href: developer/create-an-azure-active-directory-tenant.md
         - name: アプリケーションを登録する

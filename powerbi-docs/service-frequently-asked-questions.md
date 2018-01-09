@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
@@ -125,7 +125,7 @@ Power BI Desktop のソフトウェア ライセンス条項には、"社内で�
 * [YouTube チャンネル](https://www.youtube.com/user/mspowerbi)の概要ビデオ
 * 記事「[Power BI の概要](service-get-started.md)」
 * [コミュニティに参加](https://community.powerbi.com/)して質問する
-* 他の推奨事項については、[「ヘルプを取得するための 10 のヒント」](service-tips-for-finding-help.md) を参照してください。
+* 他の推奨事項については、「[ヘルプを取得するための 10 のヒント](service-tips-for-finding-help.md)」をご覧ください。
 
 ## <a name="what-browsers-does-power-bi-support"></a>Power BI はどのブラウザーをサポートしていますか?
 [Power BI のサポートされているブラウザー](service-browser-support.md)の完全なリストをご覧ください。
@@ -137,6 +137,11 @@ Power BI Desktop のソフトウェア ライセンス条項には、"社内で�
 Power BI Pro のライセンスを直接購入する場合も、担当者とチャットする場合も、[www.powerbi.com](http://www.powerbi.com) にアクセスしてください。
 
 [Microsoft パートナー](https://partner.microsoft.com/)を探して、Power BI の実装を任せることもできます。
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro ライセンスの有効期限が切れるとどうなりますか?
+Power BI Pro ライセンスの有効期限が切れてから、30 日の猶予期間があります。
+
+Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳しくは、「[一般法人向け Office 365 のサブスクリプションが終了したとき、データとアクセスはどうなりますか?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)」をご覧ください。
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI は、国、地域、および業界固有のコンプライアンス要件を満たしていますか。
 Power BI のコンプライアンスの詳細については、[Microsoft セキュリティ センター](http://go.microsoft.com/fwlink/?LinkId=785324)を参照してください。

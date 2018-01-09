@@ -1,6 +1,6 @@
 ---
 title: "KPI ビジュアル (チュートリアル)"
-description: "Power BI で KPI を作成する"
+description: "Power BI サービスおよび Power BI Desktop で KPI を作成します"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 23b322c9fbc4c203a5b20aa45bb41c2cb6cb7f0f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f0efc9e18c5d23c6e52768b4c8e30233ff433356
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="kpi-visuals-tutorial"></a>KPI ビジュアル (チュートリアル)
 主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 KPI の詳細については、[Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050) を参照してください。
@@ -42,28 +42,32 @@ KPI は、次のような場合に最適です。
 > 
 
 ## <a name="how-to-create-a-kpi"></a>KPI を作成する方法
-先に進むには、Power BI にサインインして、**[データの取得] > [サンプル] > [小売りの分析のサンプル]** を選びます。 売上目標に対する進行状況を測定する KPI を作成します。
+先に進むには、Power BI サービスにサインインして、**[データの取得] > [サンプル] > [小売りの分析のサンプル]** を選びます。 売上目標に対する進行状況を測定する KPI を作成します。
 
 Will が単一のメトリック ビジュアル、ゲージ、カード、KPI を作成するところをご覧ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. **\[Sales] \(売上) > \[Total Units This Year] \(この年の合計単位)** を選択します。  これがインジケーターになります。
-2. **\[Time] \(時間) > \[Month] \(月)** を追加します。  これはトレンドを表します。
-3. 重要: **月**単位でグラフを並べ替えます。 ビジュアルを KPI に変換すると、並べ替えオプションはなくなります。
-4. [視覚化] ウィンドウから [KPI] アイコンを選択して、ビジュアルを KPI に変換します。
+1. [編集ビュー](service-reading-view-and-editing-view.md)でレポートを開き、[新しいページを追加](power-bi-report-add-page.md)します。    
+2. **\[Sales] \(売上) > \[Total Units This Year] \(この年の合計単位)** を選択します。  これがインジケーターになります。
+3. **\[Time] \(時間) > \[Month] \(月)** を追加します。  これはトレンドを表します。
+4. 重要: **月**単位でグラフを並べ替えます。 ビジュアルを KPI に変換すると、並べ替えオプションはなくなります。
+
+    ![](media/power-bi-visualization-kpi/power-bi-sort-by-month.png)
+5. [視覚化] ウィンドウから [KPI] アイコンを選択して、ビジュアルを KPI に変換します。
    
     ![](media/power-bi-visualization-kpi/power-bi-kpi-icon.png)
-5. 目標を追加します。 昨年の売上を目標として追加します。 **\[Total Units Last Year] \(昨年の合計単位)** を **[ターゲットにする目標]** にドラッグします。
+6. 目標を追加します。 昨年の売上を目標として追加します。 **\[Total Units Last Year] \(昨年の合計単位)** を **[ターゲットにする目標]** にドラッグします。
    
     ![](media/power-bi-visualization-kpi/power-bi-kpi.png)
-6. 必要に応じて、ペイント ローラー アイコンを選んで [形式] ウィンドウを開きます。
+7. 必要に応じて、ペイント ローラー アイコンを選んで [形式] ウィンドウを開きます。
    
    * **インジケーター** - インジケーターの表示単位と小数点以下の表示桁数を制御します。
    * **トレンド軸** - **[オン]** に設定すると、トレンド軸が KPI ビジュアルの背景として表示されます。  
    * **目標** - **[オン]** に設定すると、ビジュアルに目標、および目標からの距離がパーセンテージとして表示されます。
-   * **状態** - 一部の KPI では高い値が*良好な*値と見なされ、別の KPI では低い値が*良好な*値と見なされます。 たとえば、収益と 待機時間を考えることができます。 通常、収益では高い値が良好であり、待機時間では高い値が悪いと見なされます。 この切り替えにより、KPI の動作を選択できます。 状態の選択は、既定では **[高いと良好]** に設定されます。
-7. KPI を必要な形式に設定した後は、[ダッシュボードにピン留め](service-dashboard-pin-tile-from-report.md)します。
+   * **[色の設定] > [方向]** - 一部の KPI では高い値が "*良好な*" 値と見なされ、別の KPI では低い値が "*良好な*" 値と見なされます。 たとえば、前者の例としては収益があり、後者の例としては待機時間があります。 通常、収益では高い値が良好であり、待機時間の高い値は逆の意味です。 **[高いと良好]** を選び、必要に応じて色の設定を変更します。
+
+1. KPI を必要な形式に設定した後は、[ダッシュボードにピン留め](service-dashboard-pin-tile-from-report.md)します。
 
 KPI はモバイル デバイスでも使用できます。これにより、常にビジネスの心臓部とつながっていることができます。
 

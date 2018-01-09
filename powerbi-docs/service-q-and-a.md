@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 3f78d19a5a28f096279a4fe25881ae26ffbae3cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 44a825e548ae55fa0ce13ba6eed57b860be6fe8f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="qa-in-power-bi"></a>Power BI での Q&A
 自然言語を使用して質問するのが、データから回答を得る最も速い方法である場合があります。 たとえば、「昨年の総売り上げはいくらですか」という質問です。  Q&A を使用すると、直感的な自然言語の機能を使ってデータを調査し、チャートやグラフの形式で質問に対する回答を受け取ることができます。 Q&A は、検索エンジンとは異なります。Q&A は Power BI 内のデータに関する結果だけを提供します。
 
 > [!NOTE]
-> [iPad、iPhone、iPod Touch デバイスの iOS 用の Microsoft Power BI アプリ](mobile-apps-ios-qna.md)で Q&A も利用できます。
+> Q&A は、[iPad、iPhone、iPod Touch デバイスの iOS 用の Microsoft Power BI アプリ](mobile-apps-ios-qna.md)および [Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) でも利用できます。
 > 
 > 
 
@@ -51,11 +51,6 @@ ms.lasthandoff: 11/15/2017
 [チュートリアル: 小売売上高のサンプルによって Power BI Q&A を使用する](power-bi-visualization-introduction-to-q-and-a.md): 現実的な業界のチュートリアルで Q&A を使用します。
 
 [Q&A でご使用のデータをうまく動作させる](service-prepare-data-for-q-and-a.md): データセットとデータ モデルを作成するユーザーには、  このトピックが役立ちます。
-
-## <a name="next-steps"></a>次の手順
-[Power BI - 基本的な概念](service-basic-concepts.md)
-
-[Power BI の概要](service-get-started.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

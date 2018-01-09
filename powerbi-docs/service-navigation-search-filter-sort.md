@@ -15,36 +15,27 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 40528aa3401f690daed17fa9bf73cd6c90edcf62
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2dcf3b50b9019880a9a7a11c863bed88783214c7
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="searching-and-sorting-content-in-power-bi"></a>Power BI でコンテンツを検索したり並べ替える
-Power BI サービスでは、Power BI の自動での整理、ユーザーのタグ付け、検索、および並べ替えの組み合わせにより、必要なものをすばやく検索することができます。
+# <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>ナビゲーション: Power BI サービスでコンテンツの検索、探索、並べ替えを行う
+Power BI サービスでコンテンツ間を移動する方法はたくさんあります。 ワークスペース内のコンテンツは、種類 (ダッシュボード、レポート、ブック、データセット) ごとにまとめられています。  また、コンテンツは使用方法 (お気に入り、最近、アプリ、自分と共有、おすすめ) によっても整理されています。 コンテンツへのこれらの異なる経路により、Power BI サービス内で必要な情報をすばやく見つけることができます。  
 
-## <a name="how-power-bi-helps-you-navigate-your-content"></a>Power BI を利用してコンテンツ間を移動する方法
-Power BI サービスには、コンテンツを整理する方法がいくつかあります。  まず、コンテンツはダッシュボード、レポート、ブック、およびデータセットに分割されます。 この編成は Power BI の多数の画面で見られます。 次に、Power BI サービスはより簡単に必要なものを迅速に見つけることができる方法でコンテンツを分類します。 左ナビゲーションを見てください。
+>[!NOTE] 
+>この記事は Power BI サービス (app.powerbi.com) のみに適用され、Power BI Desktop には適用されません。
 
-![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+## <a name="navigation-within-workspaces"></a>ワークスペース内のナビゲーション
 
-自分で使用するためのコンテンツは **[マイ ワークスペース]** に、自分が作成してグループで共有するコンテンツは **[ワークスペース]** に、すばやくアクセスするコンテンツは **[お気に入り]** に、自分と共有するコンテンツは **[自分と共有]** に、最後に表示したコンテンツは **[最近]** にあります。
+Power BI サービスでは、コンテンツの種類 (ダッシュボード、レポート、ブック、データセット) によってワークスペースが分かれています。 ワークスペースを選ぶと、この編成方法で表示されます。 次の例では、アプリ ワークスペースの名前は "Sales and marketing app sample" であり、2 つのダッシュボード、6 つのレポート、1 つのブック、5 つのデータセットが含まれています。
 
-詳細については、「[Power BI - Power BI サービスの基本的な概念](service-basic-concepts.md)」を参照してください。
+![](media/service-navigation-search-filter-sort/workspaces.gif)
 
-> **注**: コンテンツを整理するもう 1 つの方法は、最も頻繁に参照すると思われるダッシュボードを選択し、それを*おすすめ*のダッシュボードとして設定することです。 Power BI サービスを開くたびに、このダッシュボードが最初に表示されます。 詳細については、「[Power BI のおすすめのダッシュボード](service-dashboard-featured.md)」を参照してください。
-> 
-> 
-
-## <a name="favorite-dashboards-and-apps"></a>おすすめのダッシュボードとアプリ
-頻繁に参照するダッシュボードとアプリがたくさんありますか? それらを[*お気に入り*に設定すると、](service-dashboard-favorite.md)常に左ナビゲーション バーから使用できます。
-
-![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png)
-
-お気に入りを使用する方法の詳細については、この記事の「[Power BI のお気に入りのダッシュボード](service-dashboard-favorite.md)」を参照してください。
+________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>ワークスペースでの検索および並べ替え
 ワークスペースには、ダッシュボード、レポート、ブックおよびデータセットの 4 つのコンテンツ タブがあります。  これらのタブにはそれぞれ、検索フィールドと並べ替えボタンがあります。  Power BI サービスを使用し始めたばかりの場合、タブごとにアイテムが 1 つか 2 つしかないので、これらはあまり役に立たないかもしれません。しかし、使用するうちに、コンテンツが多数表示されるようになる場合もあります。  並べ替えと検索を使用すると、必要なものを簡単に検索できます。
@@ -58,6 +49,20 @@ Power BI サービスには、コンテンツを整理する方法がいくつ�
   
    ![](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
 
+## <a name="navigation-using-the-left-navbar"></a>左ナビゲーションバーを使ったナビゲーション
+左ナビゲーション バーでは、さらに簡単に必要なものを迅速に見つけることができる方法でコンテンツが分類されています。  
+
+![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+
+
+
+自分で使うために作成したコンテンツは **[マイ ワークスペース]** に、自分が作成してグループで共有しているコンテンツは **[ワークスペース]** に、他のユーザーから共有されているコンテンツは **[自分と共有]** に、最後に表示したコンテンツは **[最近]** にあります。
+
+さらに、コンテンツに[お気に入り](service-dashboard-favorite.md)および[おすすめ](service-dashboard-featured.md)のタグを付けることができます。 最も頻繁に表示すると思われるダッシュボードを選び、それを*おすすめ*のダッシュボードとして設定します。 Power BI サービスを開くたびに、このダッシュボードが最初に表示されます。 頻繁に参照するダッシュボードとアプリがたくさんありますか? それらをお気に入りに設定すると、常に左ナビゲーション バーから使うことができます。
+
+![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png)
+
+
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 * データセットでは、所有者で **[並べ替え]** は使用できません。
 
@@ -65,4 +70,3 @@ Power BI サービスには、コンテンツを整理する方法がいくつ�
 [Power BI - 基本的な概念](service-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

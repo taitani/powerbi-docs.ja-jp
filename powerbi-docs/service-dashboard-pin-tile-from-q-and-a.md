@@ -1,5 +1,5 @@
 ---
-title: "Q&A から Power BI ダッシュボードにタイルをピン留めする"
+title: "Q&A からダッシュボードにタイルをピン留めする"
 description: "Q&A 質問ボックスから Power BI ダッシュボードにタイルをピン留めする方法についてのドキュメント"
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Q&A からダッシュボードにタイルをピン留めする
 ## <a name="how-to-pin-a-tile-from-qa"></a>Q&A からタイルをピン留めする方法
 Q&A は、Power BI のアドホック レポート作成ツールです。 特定の情報を検索する必要がありますか。 データについての質問を投稿し、視覚エフェクト形式で回答を受信します。
 
-> **注**: 作業を進めるために、[小売りの分析のサンプル](sample-retail-analysis.md)を開きます。
+Q&A はダッシュボードとレポートから利用できます。 この記事では、ダッシュボードから Q&A を開きます。 ダッシュボードは、Power BI サービスでは利用できますが、Power BI Desktop では利用できません。 作業を進めるために、[小売りの分析のサンプル ダッシュボード](sample-retail-analysis.md)を開きます。
 > 
 > 
 
@@ -40,7 +40,9 @@ Q&A は、Power BI のアドホック レポート作成ツールです。 特�
    入力と同時に [質問] ボックスに検索候補が表示されます。
 4. ダッシュボードにタイルとしてグラフを追加するには、質問ボックスの右側にあるピン ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) を選択します。
 5. タイルを既存のダッシュボードまたは新しいダッシュボードにピン留めします。 
-   
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
    * 既存のダッシュボード: ドロップダウンから、ダッシュボードの名前を選びます。 現在のワークスペース内のダッシュボードのみを選択できます。
    * 新しいダッシュボード: 新しいダッシュボードの名前を入力すると、現在のワークスペースに追加されます。
 6. **[Pin]**(ピン留め) を選択します。

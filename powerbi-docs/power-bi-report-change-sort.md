@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 37161fab1e19e6ce00eb0f02c96b6e5cbdd60f18
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI レポートでのグラフの並べ替え方法の変更
-Power BI では、カテゴリ名でアルファベット順にグラフを並べ替えたり、各カテゴリの数値を基準に並べ替えたりすることができます。 たとえば、このグラフは店舗名を基準に並べ替えられています。
+Power BI レポートのほとんどの視覚エフェクトは、グラフ内のカテゴリ名のアルファベット順や、各カテゴリの数値順に、並べ替えることができます。 たとえば、このグラフは店舗名を基準に並べ替えられています。
 
 ![](media/power-bi-report-change-sort/pbi_chartsortcategory.png)
 
-これを、1 平方フィートあたりの売上の高い順に簡単に並べ替えることができます。
+カテゴリ (店舗名) から値 (平方フィートごとの売上) に、並べ替えの基準を簡単に変更できます。
 
 1. 省略記号 ([...]) を選び、**[Sort by Sales Per Sq Ft]** (平方フィートごとの売上で並べ替え) を選びます。
 2. 必要に応じて、並べ替えアイコン ![](media/power-bi-report-change-sort/sorticon.png) を選んで、**[降順]** に変更します。

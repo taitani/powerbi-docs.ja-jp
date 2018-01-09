@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>画像、テキスト、ビデオ、その他をダッシュボードに追加する
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/13/2017
 ダッシュボードまたはその他のイメージに会社のロゴが必要だとしましょう。 イメージ ファイルをオンラインの場所に保存して、それにリンクする必要があります。 イメージ ファイルにアクセスするために特別な資格情報が必要ないことを確認します。 たとえば、OneDrive や SharePoint は認証が必要なので、そこに保存したイメージはこの方法でダッシュボードに追加できません。  
 
 1. **[イメージ]** > **[次へ]** を選択します。
-2. イメージ情報を **[タイルの詳細]** ウィンドウに追加します。
+2. イメージ情報を **[画像タイルの追加]** ウィンドウに追加します。
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,16 +56,16 @@ ms.lasthandoff: 11/13/2017
 ## <a name="add-a-text-box-or-dashboard-heading"></a>テキスト ボックスまたはダッシュボードの見出しを追加する
 1. **[テキスト ボックス] > [次へ]** を選択します。
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **注**: ダッシュボードの見出しを追加するには、テキスト ボックスに見出しを入力して、フォントを大きくします。
-   > 
    > 
 2. テキスト ボックスの書式を設定します。
    
    * テキスト ボックスの上のタイトルを表示するには、 **[タイトルとサブタイトルの表示]** を選び、タイトルやサブタイトルを入力します。
    * テキスト ボックスの内容を入力し、書式を設定します。  
-   * 必要に応じて、タイトルのカスタム リンクを設定します。  ただし、この例では、テキスト ボックス自体にハイパーリンクを追加しました。そのため、**[カスタム リンクの設定]** はオフのままにします。
+   * 必要に応じて、タイトルのカスタム リンクを設定します。 カスタム リンクは、外部のサイトでも、ワークスペース内のダッシュボードやレポートでもかまいません。 ただし、この例では、テキスト ボックス自体にハイパーリンクを追加しました。そのため、**[カスタム リンクの設定]** はオフのままにします。
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
 3. **[適用]**を選びます。  ダッシュボードで、必要に応じてテキスト ボックスのサイズを変更したり、移動したりします。
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/13/2017
 ダッシュボードに YouTube または Vimeo ビデオ タイルを追加すると、ダッシュボードでビデオが再生されます。
 
 1. **[ビデオ] > [次へ]** を選択します。
-2. ビデオ情報を **[タイルの詳細]** ウィンドウに追加します。
+2. ビデオ情報を **[ビデオ タイルの追加]** ウィンドウに追加します。
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ HTML コンテンツを貼り付けるか、入力します。  Power BI によ�
    
    * タイルの上にタイトルを表示するには、 *[タイトルとサブタイトルの表示]* をオンにし、タイトルやサブタイトルを入力します。
    * 埋め込みコードを入力します。 この例では、Twitter フィードをコピーして貼り付けています。
-   * **[適用]**を選びます。  ダッシュボードで、必要に応じて Web コンテンツのサイズを変更したり、移動したりします。
+3. **[適用]**を選びます。  ダッシュボードで、必要に応じて Web コンテンツのサイズを変更したり、移動したりします。
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 

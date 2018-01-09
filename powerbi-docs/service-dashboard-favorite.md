@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9dc9cb883e1d62c282501e628f52c13267d830b6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4c4c31f6289f6b3d12b619b7c6c297d861177fbf
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="favorite-dashboards-in-the-power-bi-service"></a>Power BI のお気に入りのダッシュボード
 ダッシュボードを *お気に入り* に登録すると、すべてのワークスペースからアクセスすることができます。  お気に入りは、通常、最も頻繁に利用するダッシュボードです。
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/13/2017
 > 
 > 
 
-1 つのダッシュボードを選択して、Power BI の[おすすめのダッシュボード](service-dashboard-featured.md)にすることもできます。
+Power BI サービスの[おすすめのダッシュボード](service-dashboard-featured.md)として、1 つのダッシュボードを選ぶこともできます。
 
 ## <a name="add-a-dashboard-as-a-favorite"></a>*お気に入り*としてダッシュボードを追加する
 Amanda がワークスペースにお気に入りを追加する様子を見てから、ビデオで説明されている手順に従って、ご自分でやってみてください。
@@ -40,7 +40,7 @@ Amanda がワークスペースにお気に入りを追加する様子を見て�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
-1. よく使用するダッシュボードを開きます。 他のユーザーによって共有を設定されたダッシュボードを*お気に入り*にすることもできます。
+1. よく使用するダッシュボードを開きます。 他のユーザーによって共有を設定されたダッシュボードを、"*お気に入り*" にすることもできます。
 2. Power BI サービスの右上にある **[お気に入り]** または星 ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) アイコンを選択します。
    
    ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
@@ -50,7 +50,7 @@ Amanda がワークスペースにお気に入りを追加する様子を見て�
    ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="working-with-favorites"></a>*お気に入り*の操作
-1. 任意のワークスペースから、最近使用したお気に入りを 5 つ表示するには、**[お気に入り]** の右にある矢印を選択します。  ここからは、お気に入りのダッシュボードを選んで開くことができます。 最近使用した 5 つのお気に入りのみが (アルファベット順に) 表示されます。 お気に入りが 6 つ以上ある場合は、**[すべて表示]** を選択すると、[お気に入り] 画面が開きます (以下の #2 を参照してください)。 
+1. お気に入りにアクセスするには、任意のワークスペースで、**[お気に入り]** の右にあるポップアップ矢印を選びます。  ここからは、お気に入りのダッシュボードを選んで開くことができます。 一覧に表示されるお気に入りは (アルファベット順に) 5 つだけです。 お気に入りが 6 つ以上ある場合は、**[すべて表示]** を選んで [お気に入り] 画面を開きます (以下の #2 を参照してください)。 
    
    ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
 2. お気に入りとして追加した**すべて**のダッシュボードを表示するには、左側のナビゲーション ウィンドウで **[お気に入り]** またはお気に入りアイコン ![](media/service-dashboard-favorite/power-bi-favorites-icon.png) を選択します。  
@@ -60,7 +60,7 @@ Amanda がワークスペースにお気に入りを追加する様子を見て�
    ここからダッシュボードを選択して開いたり、仕事仲間とダッシュボードを共有したりできます。
 
 ## <a name="unfavorite-a-dashboard"></a>ダッシュボードをお気に入りから外す
-あまり使用しなくなったダッシュボードは、  お気に入りから外すことができます。 ダッシュボードをお気に入りから外すと、お気に入りからは削除されますが、Power BI からは削除されません。
+あまり使用しなくなったダッシュボードは、  お気に入りから外すことができます。 ダッシュボードをお気に入りから外すと、お気に入りの一覧から削除されますが、Power BI からは削除されません。
 
 1. 左側のナビゲーション ウィンドウで **[お気に入り]** を選択し、**[お気に入り]** 画面を開きます。
    

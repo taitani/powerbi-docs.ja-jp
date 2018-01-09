@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: ff769be04c8fd45c2f7483fa370584b4aadff2d1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/15/2017
 ### <a name="cards-single-number"></a>カード: 単一数値
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
-詳しくは、「[質問をして Power BI ダッシュボードに重要な数値のタイルを作成](power-bi-visualization-big-number.md)」をご覧ください。
+詳しくは、[カードの作成 (大きな数字のタイル)](power-bi-visualization-card.md) に関するトピックをご覧ください。
 
 ### <a name="combo-charts"></a>複合グラフ
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)

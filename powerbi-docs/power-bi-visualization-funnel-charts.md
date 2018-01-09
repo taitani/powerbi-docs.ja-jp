@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 231bf7febb19583414d976cc612d06c2caa1e246
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="funnel-charts-tutorial"></a>じょうごグラフ (チュートリアル)
 じょうごグラフは、順番につながっている各段階がある線形プロセスを視覚化するために役立ちます。 たとえば、「潜在顧客」 \> 「見込みのある潜在顧客」 \> 「見込顧客」 \> 「契約」 \> 「契約の締結」という段階にわたって顧客を追跡する販売のじょうごグラフがあります。  じょうごの形状は、追跡しているプロセスの正常性がひとめでわかります。
@@ -59,15 +59,15 @@ ms.lasthandoff: 11/13/2017
 
 それでは、営業の各段階にある営業案件の数を示す独自のじょうごグラフを作成してみましょう。
 
-次の手順では、営業案件の分析のサンプルを使います。 先に進むには、[このサンプルをダウンロード](sample-datasets.md)し、Power BI にサインインしてから、**[データの取得] \> [サンプル] \> [営業案件の分析のサンプル] \> [接続]** を選択します。
+次の手順では、営業案件の分析のサンプルを使います。 作業を進めるために、Power BI サービス (app.powerbi.com) または Power BI Desktop の[サンプルをダウンロード](sample-datasets.md)します。   
 
-1. [空のレポート ページ](power-bi-report-add-page.md)を [[編集ビュー]](service-interact-with-a-report-in-editing-view.md) で開始し、**[SalesStage]** \> **\[Sales Stage] \(売上ステージ)** フィールドを選びます。  
+1. [空のレポート ページ](power-bi-report-add-page.md)を開始し、**[SalesStage]** \> **[Sales Stage]** フィールドを選びます。 Power BI サービスを使っている場合は、[編集ビュー](service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
    
     ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [グラフを変換](power-bi-report-change-visualization-type.md)してじょうごグラフにします。 **[Sales Stage]** (売上ステージ) が **[Group]** (グループ) に入っていることをご覧ください。 
 3. **[フィールド]** ウィンドウで、**[Fact]** \> **[Opportunity Count]** を選びます。
    
-    ![](media/power-bi-visualization-funnel-charts/funnelfinal_new.png)
+    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. 横棒の上にポインターを合わせると、以下の情報が表示されます。
    
    * 段階の名前
@@ -90,14 +90,13 @@ ms.lasthandoff: 11/13/2017
 2. ビジュアル相互間のクロスフィルター処理とクロス強調表示を設定するには、「[Power BI における視覚エフェクト](service-reports-visual-interactions.md)」を参照してください。
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Q&A でのじょうごグラフを作成する
-少なくとも 1 つの視覚化が「営業案件の追跡」データセットからピン留めされているダッシュボードを強調表示します。  Q&A に質問を入力すると、選択したダッシュボードに関連付けられている (タイルがピン留めされている) すべてのデータセット内で回答が検索されます。 詳しくは、「[Power BI - 基本的な概念](service-basic-concepts.md)」を参照してください。
+営業案件分析サンプルのダッシュボード、または営業案件分析サンプルのデータセットからピン留めされた視覚エフェクトを少なくとも 1 つ含む他のダッシュボードを開きます。  Q&A に質問を入力すると、選択したダッシュボードに関連付けられている (タイルがピン留めされている) すべてのデータセット内で回答が検索されます。 詳しくは、「[Power BI - 基本的な概念](service-basic-concepts.md)」を参照してください。
 
-1. 少なくとも 1 つのタイルが「営業案件の追跡」データセットからピン留めされているダッシュボードを強調表示します。
-2. Q&A 質問ボックスに質問を入力し始めます。
+1. 営業案件分析サンプルのダッシュボードで、Q&A の質問ボックスに質問の入力を開始します。
    
    ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
    
-   Power BI がユーザーの好みの視覚化の種類を認識できるように、必ず「じょうごグラフで」という語句を追加してください。
+2. Power BI がユーザーの好みの視覚化の種類を認識できるように、必ず「じょうごグラフで」という語句を追加してください。
 
 ## <a name="next-steps"></a>次の手順
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)

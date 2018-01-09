@@ -1,6 +1,6 @@
 ---
-title: "Power BI レポートのページ表示設定"
-description: "Power BI レポートのページ表示設定"
+title: "レポートのページ表示設定"
+description: "レポートのページ表示設定"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 1dd9c77d0af4c3f606f195c3f4199f774292d668
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI レポートのページ表示設定
 レポートのレイアウトをピクセル パーフェクトに保つことは重要です。 しかし場合によっては、自身や同僚が縦横比やサイズの異なる画面でレポートを表示しなければならないことがあります。 
@@ -32,21 +32,43 @@ ms.lasthandoff: 11/13/2017
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="page-view-settings"></a>ページ ビュー設定
-![](media/power-bi-report-display-settings/power-bi-change-page-view-new.png)
+## <a name="where-to-find-page-view-settings-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop でのページ ビュー設定の場所
+ページ ビュー設定は Power BI サービスと Power BI Desktop の両方で使うことができますが、インターフェイスは若干異なります。 次の 2 つのセクションでは、各 Power BI ツールでのビュー設定の場所について説明します。
 
-*[ページ ビュー]* の設定は、ブラウザー ウィンドウを基準として相対的にレポート ページの表示を制御します。  次の中から選びます。
+### <a name="in-power-bi-desktop"></a>Power BI Desktop の場合
+レポート ビューで、**[表示]** タブを選んで [ページ表示] 設定と [電話レイアウト] 設定を開きます。
+
+  ![選択ウィンドウ](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
+
+### <a name="in-power-bi-service-apppowerbicom"></a>Power BI サービス (app.powerbi.com) の場合
+Power BI サービスでは、レポートを開き、左上のメニュー バーから **[表示]** を選びます。
+
+![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
+
+[ページ表示] 設定は[読み取りビュー](service-interact-with-a-report-in-reading-view.md)でも[編集ビュー](service-interact-with-a-report-in-editing-view.md)でも使用できます。 編集ビューでは、レポート所有者が個々のレポート ページにページ表示設定を割り当てることができ、それらの設定はレポートとともに保存されます。 同僚が読み取りビューでそのレポートを開くと、所有者の設定を使用してレポート ページが表示されます。  読み取りビューでは、同僚は "*一部*" のページ表示設定を変更できますが、レポートを終了するときに変更は保存されません。
+
+##    <a name="page-view-settings"></a>ページ表示の設定
+*[ページ表示]* 設定の最初のセットは、ブラウザー ウィンドウを基準とした相対的なレポート ページの表示を制御します。  次の中から選びます。
 
 * **ページに合わせる** (既定値): ページに合わせて最適なサイズに内容が拡大/縮小されます。
 * **幅に合わせる**: ページの幅に収まるように内容が拡大/縮小されます。
 * **原寸大**: フル サイズで内容が表示されます。
 
-[ページ表示] 設定は[読み取りビュー](service-interact-with-a-report-in-reading-view.md)でも[編集ビュー](service-interact-with-a-report-in-editing-view.md)でも使用できます。 編集ビューでは、レポート所有者が個々のレポート ページに [ページ ビュー] 設定を割り当てることができ、それらの設定はレポートとともに保存されます。 同僚が読み取りビューでそのレポートを開くと、所有者の設定を使用してレポート ページが表示されます。  ただし、読み取りビューでレポートの作業を行っている間は、一時的に [ページ ビュー] 設定を変更できます。  レポートの作業を終了すると、[ページ ビュー] 設定は、レポート所有者が設定した内容に戻ります。
+*[ページ表示]* 設定の 2 番目のセットは、レポート キャンバス上のオブジェクトの位置を制御します
+
+* **グリッド線の表示**: レポート キャンバスにオブジェクトを配置するときに役立つグリッド線を表示します
+* **グリッドに合わせる**: **[グリッド線の表示]** と併用して、レポート キャンバス上のオブジェクトを正確に配置して整列させます 
+* **オブジェクトをロック**: 移動したりサイズが変わったりしないように、キャンバス上のすべてのオブジェクトをロックします
+* **選択ウィンドウ**: [選択] ウィンドウにはキャンバス上のすべてのオブジェクトが一覧表示され、オブジェクトの表示/非表示を決定できます
+
+    ![選択ウィンドウ](media/power-bi-report-display-settings/power-bi-selection-pane.png)
+
+
 
 ## <a name="page-size-settings"></a>ページ サイズ設定
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-*[ページ サイズ]* 設定では、表示比率と実際のサイズ (ピクセル単位) を制御します。  [ページ サイズ] 設定は、編集ビューでのみ利用できます。
+"*ページ サイズ*" の設定は、編集ビューでのみ利用できます。 Power BI サービス (app.powerbi.com) の場合は、レポートを[編集ビュー](service-reading-view-and-editing-view.md)で開けることを意味します。 これらの設定は、レポート キャンバスの表示比率と実際のサイズ (ピクセル単位) を制御します。   
 
 * 4:3 の縦横比
 * 16:9 の縦横比 (既定値)

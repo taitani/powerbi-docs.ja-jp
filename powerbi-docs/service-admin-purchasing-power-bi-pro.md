@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 83f143427ce74f593ea6e8d99f8a6b127ee4488d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro を購入する
 Power BI Pro は、レポートの公開や、ダッシュボードの共有のほか、ワークスペースで仕事仲間と共同作業したり、その他の関連アクティビティを行ったりするユーザーを対象としています。たとえば、次の作業を行うことができます。
@@ -118,6 +118,11 @@ Office 365 管理センターを通じて、組織用に Power BI Pro を購入�
 サービス内で Pro 版のアカウントがあることを確認するには、**歯車**アイコンをクリックして **[パーソナル ストレージの管理]** を選択します。
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro3.png)
+
+## <a name="grace-period"></a>猶予期間
+Power BI Pro ライセンスの有効期限が切れてから、30 日の猶予期間があります。 
+
+Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳しくは、「[一般法人向け Office 365 のサブスクリプションが終了したとき、データとアクセスはどうなりますか?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 [Power BI のセルフサービス サインアップ](service-self-service-signup-for-power-bi.md)  

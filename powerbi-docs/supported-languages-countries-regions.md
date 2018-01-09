@@ -15,15 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: e12b14a73ba63d64d39f296db602e57ceedc5523
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3d6c3f59611a515ea6a2188457cc80c31a7693ce
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI でサポートされる言語と国または地域
+
+この記事では、Power BI サービス、Power BI Desktop、および Power BI ドキュメントでサポートされている言語と国/地域の一覧を示します。
+
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Power BI が利用可能な国と地域
 Power BI が利用可能な国と地域の一覧については、[ご利用いただける国と地域の一覧](https://products.office.com/business/international-availability)をご覧ください。 
 
@@ -75,7 +78,7 @@ Power BI が利用可能な国と地域の一覧については、[ご利用い�
 * ウクライナ語 - українська
 * ベトナム語 - Tiếng Việt
 
-## <a name="whats-translated"></a>翻訳対象
+### <a name="whats-translated"></a>翻訳対象
 メニュー、ボタン、メッセージ、エクスペリエンスの他の要素がユーザーの言語に翻訳され、移動や Power BI との対話が容易になります。
 
 現時点では、一部の機能は英語でのみ使用可能です。
@@ -85,22 +88,22 @@ Power BI が利用可能な国と地域の一覧については、[ご利用い�
 
 追加の機能も他の言語に順次翻訳されています。時折ご確認ください。 
 
-## <a name="choose-your-language-in-the-power-bi-service"></a>Power BI サービスでの言語の選択
+### <a name="choose-your-language-in-the-power-bi-service"></a>Power BI サービスでの言語の選択
 1. Power BI サービスで、**[設定]** アイコン ![[設定] アイコン](media/supported-languages-countries-regions/pbi_settings_icon.png) > **[設定]** の順に選びます。
 2. **[全般]** タブ > **[言語]** で、。
 3. 言語を選択し、**[適用]** をクリックします。
 
-## <a name="choose-your-language-in-the-browser"></a>ブラウザーでの言語の選択
+### <a name="choose-your-language-in-the-browser"></a>ブラウザーでの言語の選択
 Power BI では、コンピューターの言語設定を基に言語を検出します。 これらの設定へのアクセス、および変更方法は、オペレーティング システムやブラウザーによって異なる場合があります。 次に、Internet Explorer および Google Chrome から設定にアクセスする方法を示します。
 
-### <a name="internet-explorer-version-11"></a>Internet Explorer (バージョン 11)
+#### <a name="internet-explorer-version-11"></a>Internet Explorer (バージョン 11)
 1. ブラウザー ウィンドウの右上隅にある **[ツール]** ボタンをクリックします。
    
    ![Internet Explorer の [ツール] ボタン](media/supported-languages-countries-regions/languages1.png)
 2. **インターネット オプション**をクリックします。
 3. [インターネット オプション] ダイアログの [全般] タブの [デザイン] の下の、 **[言語]** ボタンをクリックします。
 
-### <a name="google-chrome-version-42"></a>Google Chrome (バージョン 42)
+#### <a name="google-chrome-version-42"></a>Google Chrome (バージョン 42)
 1. ブラウザー ウィンドウの右上隅にある [メニュー] ボタンをクリックします。
    
    ![Chrome のメニュー ボタン](media/supported-languages-countries-regions/languages2.png)
@@ -144,7 +147,7 @@ Power BI Desktop で言語を選択すると、レポートでの数値と日付
 
 Power BI Desktop の言語を変更するには、ダウンロード ページに戻り、別の言語でダウンロードします。
 
-### <a name="choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop"></a>Power BI Desktop にデータをインポートするときに使用されるロケールを選択する
+### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Power BI Desktop にデータをインポートするためのロケールを選択する
 Power BI Desktop をダウンロードした場合でも Windows ストアからインストールした場合でも、特定のレポートのロケールとして、Power BI Desktop のバージョンのロケールとは異なるものを選ぶことができます。 このようにすると、データ ソースからインポートされるときのデータの解釈方法が変わります (たとえば、"3/4/2017" が 4 月 3 日と解釈されるか、3 月 4 日のどちらとして解釈されるか)。 
 
 1. Power BI Desktop で、**[ファイル]** > **[オプションと設定]** > **[オプション]** の順に移動します。
@@ -153,6 +156,22 @@ Power BI Desktop をダウンロードした場合でも Windows ストアから
    
    ![Power BI Desktop の [オプション] ダイアログ ボックス](media/supported-languages-countries-regions/pbi_supptdlangs_locale.png)
 4. **[OK]** を選択します。
+
+### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Power BI Desktop のモデルの言語を選択する
+
+Power BI Desktop アプリケーション用の言語を設定するだけでなく、モデルの言語を設定することもできます。 モデルの言語は、主に 2 つの部分に影響します。
+
+- 文字列の比較や並べ替えの方法。 たとえば、トルコ語には文字 i が 2 種類あるので、データベースの照合順序によっては、並べ替えたときに異なる順序になる場合があります。 
+- 日付フィールドから非表示の日付テーブルを作成するときに Power BI Desktop が使う言語。 たとえば、フィールドは Month/Monat/Mois などという名前になります。
+
+モデルの言語を設定する方法を次に示します。
+
+1. Power BI Desktop で、**[ファイル]** > **[オプションと設定]** > **[オプション]** の順に移動します。
+2. **[グローバル]** で **[地域の設定]** を選びます。
+3. **[モデルの言語]** ボックスで、別の言語を選びます。 
+
+    ![Power BI Desktop でモデルの言語を設定する](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
+
 
 ## <a name="languages-for-the-help-documentation"></a>ヘルプ ドキュメントの言語
 ヘルプは、次の 10 の言語にローカライズされています。 

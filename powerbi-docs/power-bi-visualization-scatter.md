@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI の散布図とバブル チャート (チュートリアル)
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
@@ -47,25 +47,30 @@ ms.lasthandoff: 11/13/2017
 * 象限 (四分円) を使用する。
 
 ## <a name="create-a-scatter-chart"></a>散布図を作成する
+このビデオで散布図の作成方法を確認した後、以下の手順に従って自分で作成してみてください。
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. [編集ビュー](service-interact-with-a-report-in-editing-view.md)で小売りの分析のサンプルを開き、[新しいレポート ページを追加](power-bi-report-add-page.md)します。
-2. [フィールド] ウィンドウから、**[Sales]** > **[Sales Per Sq Ft]** と **[Sales]** > **[Total Sales Variance %]** を選びます。
-3. [フィールド] ウィンドウから **[District]、[District]** の順に選択します。
+
+次の手順では、「Retail Analysis Sample」を使用します。 作業を進めるために、Power BI サービス (app.powerbi.com) または Power BI Desktop の[サンプルをダウンロード](sample-datasets.md)します。   
+
+1. [空のレポート ページ](power-bi-report-add-page.md)で始めて、**[Sales]** \> **[Sales Per Sq Ft]** フィールドおよび **[Sales]** > **[Total Sales Variance %]** フィールドを選びます。 Power BI サービスを使っている場合は、[編集ビュー](service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
+ 
+2. [フィールド] ウィンドウから **[District]、[District]** の順に選択します。
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. 散布図に変換します。 [視覚化] ウィンドウで、散布図アイコンを選びます。
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png)
 5. **[District] \(地域)** を **[詳細]** から **[凡例]**にドラッグします。
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 これで、総売上高の差異 % を Y 軸に、平方フィートあたりの売上高を X 軸にプロットした散布図ができあがりました。  データ点の色は地区を表しています。  次に、3 番目のディメンションを追加してみましょう。
 
 ## <a name="create-a-bubble-chart"></a>バブル チャートを作成する
 1. [フィールド] ウィンドウから、**[Sales]** > **[This Year Sales]** > **[値]** を **[サイズ]** 領域にドラッグします。 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. バブルの上にマウスを置きます。  バブルのサイズは、 **[This Year Sales]**の値を反映しています。
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)

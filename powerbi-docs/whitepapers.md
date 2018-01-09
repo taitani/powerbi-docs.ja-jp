@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: asaxton
-ms.openlocfilehash: e6821e20dbbb9b69ec4afa9ef48e1fb78bb8b3f5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
@@ -41,5 +41,5 @@ ms.lasthandoff: 11/15/2017
 | [セキュリティ](service-admin-power-bi-security.md) |Power BI でのセキュリティについて詳細に説明します。 |
 | [表形式の BI セマンティック モデルの保護](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |このホワイトペーパーでは、表形式の BI セマンティックおよび Power BI のセキュリティ モデルを紹介します。 説明する内容は、ロールの作成、動的セキュリティの実装、権限借用設定の構成、ロールの管理、ネットワーク セキュリティのコンテキストで動作するモデルへの接続方法の選択についてです。 |
 | [Power BI Report Server のキャパシティ プランニング ガイダンス](report-server/capacity-planning.md) |このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスを提供します。 |
-
+|[Power BI Premium の計画と展開](https://aka.ms/Premium-Capacity-Planning-Deployment) | Power BI Premium の計画、展開と操作の可能化に関するベスト プラクティスとガイダンスについての技術的なホワイトペーパーです。 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

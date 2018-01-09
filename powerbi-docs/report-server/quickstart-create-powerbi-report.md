@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c8b07e8c2370f7a1694b18a87b2704a7f164f79f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>クイックスタート: Power BI レポート サーバーの Power BI レポートの作成
 Power BI レポートは、Power BI サービス (https://powerbi.com) のクラウドに保存することができるほか、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで保存して管理できます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
@@ -112,6 +112,7 @@ Power BI レポート サーバーのレポートは、次をサポートしま�
 * R ビジュアル
 * ArcGIS マップ
 * 階層リンク
+* Power BI Desktop のプレビュー機能
 
 ### <a name="in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリ
 Power BI レポート サーバーのレポートは、次を含む [Power BI モバイル アプリ](../mobile-apps-for-mobile-devices.md)のすべての基本機能をサポートします。

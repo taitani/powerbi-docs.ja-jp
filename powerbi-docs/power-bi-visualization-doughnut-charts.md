@@ -15,32 +15,33 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 2f428095eb57c5358770f1d6d8572316d2b84c37
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Power BI でのドーナツ グラフ (チュートリアル)
 ドーナツ グラフは、全体に対する部分の関係が示される点で円グラフと似ています。 唯一の違いは、中央が空白で、ラベルまたはアイコン用の領域を確保できることです。
 
 ## <a name="create-a-doughnut-chart"></a>ドーナツ グラフの作成
-先に進むには、Power BI にサインインして、**[データの取得]** \> **[サンプル]** \> **[Retail Analysis Sample]** \> **[接続]** を選びます。 
+以下の手順では、小売りの分析のサンプルを使って、今年の売上をカテゴリ別に表示するドーナツ グラフを作成します。 作業を進めるために、Power BI サービス (app.powerbi.com) または Power BI Desktop の[サンプルをダウンロード](sample-datasets.md)します。
 
-1. ダッシュボードで、**[Total Stores]** タイルを選び、"Retail Analysis Sample" レポートを開きます。
-2. **[レポートの編集]** を選び、編集ビューでレポートを開きます。
-3. [新しいレポートのページを追加](power-bi-report-add-page.md)します。
-4. 今年度の売上がカテゴリ別に表示されるドーナツ グラフを作成します。
+1. [空のレポート ページ](power-bi-report-add-page.md)を開始し、**[SalesStage]** \> **[Sales Stage]** フィールドを選びます。 Power BI サービスを使っている場合は、[編集ビュー](service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
+
+2. [フィールド] ウィンドウで、**[Sales]** \> **[Last Year Sales]** を選びます。  
    
-   * **[フィールド]** ウィンドウで、**\[Sales] \(売上)** > \>**\[Last Year Sales] \(前年度の売上)** を選びます。
-   * ドーナツ グラフに変換します。 [Last Year Sales] が **[値]** 領域にない場合は、そこにドラッグします。
+3. [視覚化] ウィンドウで、ドーナツ グラフのアイコン ![ドーナツ グラフ アイコン]() を選んで、横棒グラフをドーナツ グラフに変換します。 **[Last Year Sales]** が **[値]** 領域にない場合は、そこにドラッグします。
      
-       ![](media/power-bi-visualization-doughnut-charts/convertdonut.png)
-   * **[Item]** \> **[Category]** を選び、それを **[凡例]** 領域に追加します。 
+   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+
+4. **[Item]** \> **[Category]** を選び、それを **[凡例]** 領域に追加します。 
      
-       ![](media/power-bi-visualization-doughnut-charts/doughnuttutorial.png)
+    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+
+5. 必要に応じて、[グラフのテキストの色とサイズを調整](power-bi-visualization-customize-title-background-and-legend.md)します。 
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 * ドーナツ グラフの各値の合計は、100% になる必要があります。

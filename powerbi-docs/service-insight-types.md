@@ -1,6 +1,6 @@
 ---
-title: "Power BI でサポートされているクイック インサイトの種類"
-description: "Power BI でクイック インサイトを使用します。"
+title: "Power BI でサポートされているインサイトの種類"
+description: "Power BI でのクイック インサイトと詳細情報の表示。"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Power BI でサポートされているクイック インサイトの種類
-## <a name="how-does-quick-insights-work"></a>クイック インサイトのしくみ
+# <a name="types-of-insights-supported-by-power-bi"></a>Power BI でサポートされているインサイトの種類
+## <a name="how-does-insights-work"></a>インサイトのしくみ
 Power BI は、興味がある可能性のある情報を検出するために一連の高度なアルゴリズムを適用しながら、データセットのさまざまなサブセットをすばやく検索します。 Power BI は、割り当てられた時間で、可能な限り多くのデータセットをスキャンします。
 
-データセットまたはタイルに対してクイック分析情報を実行できます (関連する詳細情報)。   
+データセットまたはダッシュボードのタイルに対して、インサイトを実行できます。   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>見つけることができるクイック分析情報の種類
+## <a name="what-types-of-insights-can-we-find"></a>見つけることができる情報の種類
 使用されているアルゴリズムの一部を以下に示します。
 
 ## <a name="category-outliers-topbottom"></a>カテゴリ外れ値 (上/下)
@@ -78,9 +78,9 @@ Power BI は、興味がある可能性のある情報を検出するために�
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>次の手順
-[Power BI クイック インサイト](service-insights.md)
+[Power BI のインサイト](service-insights.md)
 
-データセットを所有している場合は、[クイック分析情報用に最適化します](service-insights-optimize.md)。
+データセットを所有している場合は、[インサイト用に最適化します](service-insights-optimize.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

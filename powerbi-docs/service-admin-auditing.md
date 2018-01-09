@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>組織内での監査の使用
 
@@ -36,6 +36,16 @@ Power BI テナント内で、だれがどの項目にどのようなアクシ�
 > [!NOTE]
 > Power BI の監査機能はプレビュー段階にあり、すべてのデータ リージョンで利用できます。
 
+## <a name="requirements"></a>要件
+監査ログにアクセスするには、次の要件を満たしている必要があります。
+
+- Office 365 セキュリティ/コンプライアンス センターの監査セクションにアクセスするには、Exchange Online のライセンスが必要です (Office 365 Enterprise E3 および E5 サブスクリプションに含まれます)。
+- グローバル管理者であるか、監査ログへのアクセス権を持つ Exchange 管理ロールを持っている必要があります。 
+
+  Exchange 管理ロールは、Exchange 管理センターによって制御されます。 詳細については、「[Exchange Online のアクセス許可](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx)」をご覧ください。
+
+- 監査ログへのアクセス権はあっても、グローバル管理者または Power BI サービスの管理者ではない場合は、Power BI 管理ポータルにアクセスできません。 この場合、Office 365 セキュリティ/コンプライアンス センターへの直接リンクが必要です。
+
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Power BI 管理ポータルで監査機能を有効にする
 
 レポートを処理するには、組織に対する監査を有効にする必要があります。 管理ポータルのテナントの設定でこれを行うことができます。
@@ -46,7 +56,7 @@ Power BI テナント内で、だれがどの項目にどのようなアクシ�
    
    ![](media/service-admin-auditing/powerbi-admin.png)
 
-3. **[テナントの設定]** を選択します。
+3. **[テナント設定]** を選びます。
    
    ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
 
@@ -69,9 +79,9 @@ Power BI のログを監査するには、O365 セキュリティ/コンプラ�
    
    ![](media/service-admin-auditing/powerbi-admin.png)
 
-3. **[監査ログ]** を選択します。
-4. 
-5. **[O365 管理センターに移動]** を選択します。
+3. **[監査ログ]** を選びます。
+ 
+4. **[O365 管理センターに移動]** を選択します。
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 

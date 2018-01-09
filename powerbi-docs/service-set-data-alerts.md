@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/06/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfbd7d124784b15b432921554c8ac5bbe321846c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI サービスでのデータ アラート
-アラートを設定すると、ダッシュボード内のデータが設定した制限を超えて変更された場合に通知されます。 アラートは、レポートのビジュアルからピン留めされたタイルでのみ、ゲージ、KPI、カードに対してだけ設定できます。 アラートは、レポートからダッシュボードにピン留めしたストリーミング データセットから作成されるビジュアルに設定できますが、**[タイルの追加]** > **[カスタム ストリーミング データ]** でダッシュボードで直接作成したストリーミング タイルには設定できません。 ダッシュボードを共有している場合であっても、見ることができるのは自分で設定したアラートだけです。 データ アラートはプラットフォーム間で完全に同期されます。[Power BI モバイル アプリ](mobile-set-data-alerts-in-the-mobile-apps.md)および Power BI サービスで、データ アラートを設定して表示できます。 これらを Power BI Desktop で使用することはできません。 アラートを[自動化し、Microsoft Flow と統合することもできます。](https://flow.microsoft.com) - [お試しください](service-flow-integration.md)。
+アラートを設定すると、ダッシュボード内のデータが設定した制限を超えて変更された場合に通知されます。 
+
+アラートは、レポートのビジュアルからピン留めされたタイルでのみ、ゲージ、KPI、カードに対してだけ設定できます。 アラートは、レポートからダッシュボードにピン留めしたストリーミング データセットから作成されるビジュアルに設定できますが、**[タイルの追加]** > **[カスタム ストリーミング データ]** でダッシュボードで直接作成したストリーミング タイルには設定できません。 
+
+ダッシュボードを共有している場合であっても、見ることができるのは自分で設定したアラートだけです。 データ アラートはプラットフォーム間で完全に同期されます。[Power BI モバイル アプリ](mobile-set-data-alerts-in-the-mobile-apps.md)および Power BI サービスで、データ アラートを設定して表示できます。 これらを Power BI Desktop で使用することはできません。 アラートを[自動化し、Microsoft Flow と統合することもできます。](https://flow.microsoft.com) - [お試しください](service-flow-integration.md)。
 
 ![](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -46,13 +50,12 @@ Amanda がダッシュボードのタイルにアラートを追加するとこ�
    ![](media/service-set-data-alerts/powerbi-card.png)
 2. ベルのアイコン ![](media/service-set-data-alerts/power-bi-bell-icon.png) を選択して、**[Total stores]** に 1 つまたは複数のアラートを追加します。
    
-   ![](media/service-set-data-alerts/powerbi-set-alert.png)
-3. 最初に、スライダーが **[オン]** に設定されていることを確認し、アラートのタイトルを指定します。 タイトルは、アラートの内容を簡単に理解するために役立ちます。
+1. 最初に、**[+ アラート ルールの追加]** を選んで、スライダーが **[オン]** に設定されていることを確認し、アラートのタイトルを指定します。 タイトルは、アラートの内容を簡単に理解するために役立ちます。
    
    ![](media/service-set-data-alerts/powerbi-alert-title.png)
 4. 下にスクロールして、アラートの詳細を入力します。  この例では、"Total stores" の値が 100 を超えた場合に 1 日に 1 回通知するアラートを作成します。 アラートは通知センターに表示されます。 電子メールの送信も設定します。
    
-   ![](media/service-set-data-alerts/powerbi-set-alert-details.png)
+   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. **[保存]**を選択します。
 
 ## <a name="receiving-alerts"></a>アラートの受信
@@ -76,7 +79,7 @@ Amanda がダッシュボードのタイルにアラートを追加するとこ�
    > 
 
 ## <a name="managing-alerts"></a>アラートの管理
-アラートを管理するには 3 つの方法があります。ダッシュボードのタイル自体、Power BI の [設定] メニュー、そして [iPhone の Power BI モバイル アプリ](mobile-set-data-alerts-in-the-mobile-apps.md)または [Windows 10 用の Power BI モバイル アプリ](mobile-set-data-alerts-in-the-mobile-apps.md)の個別のタイルです。
+アラートを管理するには多くの方法があります。ダッシュボードのタイル自体、Power BI の [設定] メニュー、[iPhone の Power BI モバイル アプリ](mobile-set-data-alerts-in-the-mobile-apps.md)または[Windows 10 用の Power BI モバイル アプリ](mobile-set-data-alerts-in-the-mobile-apps.md)の個別のタイルなどで管理できます。
 
 ### <a name="from-the-tile-itself"></a>タイル自体から
 1. タイルのアラートを変更または削除する必要がある場合は、ベルのアイコン ![](media/service-set-data-alerts/power-bi-bell-icon.png) を選択して **[アラートの管理]** ウィンドウを再び開きます。 そのタイルに設定されているすべてのアラートが表示されます。

@@ -1,6 +1,6 @@
 ---
-title: "Power BI レポートでの視覚化の種類の変更"
-description: "Power BI レポートでの視覚化の種類の変更"
+title: "レポートの視覚化の種類を変更する"
+description: "Power BI サービスおよび Power BI Desktop でレポートの視覚化の種類を変更します"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 629163044a48e15cbd5b2412f4da886cd373c56d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Power BI レポートでの視覚化の種類の変更
-Power BI でさまざまな種類の視覚化を試して、データの最適な表示方法をお探しください。 
+Power BI サービスおよび Power BI Desktop では、さまざまな種類の視覚化を試して、データの最適な表示方法を探すことができます。 
 
-1. [編集ビューでレポート](service-reading-view-and-editing-view.md)を開きます。レポートに視覚化がまだない場合は、[作成](power-bi-report-add-visualizations-i.md)します。
+1. 少なくとも 1 つの視覚エフェクトが既に含まれるレポートを開きます。   
 2. [視覚化] ウィンドウで、新しい視覚化の種類を選びます。  
    
    ![](media/power-bi-report-change-visualization-type/changeviz.gif)

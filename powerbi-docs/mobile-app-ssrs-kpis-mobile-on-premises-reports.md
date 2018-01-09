@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 99fceab5904deaa510edd213c349dcfb2e38ac28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでオンプレミスのレポート サーバーのレポートと KPI を表示する
 適用対象:
@@ -63,7 +63,14 @@ Power BI モバイル アプリでオンプレミスの Power BI レポート、
 3. **[サーバーに接続]** をタップします。
    
     ![サーバーに接続する](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
-4. サーバーのアドレス、ユーザー名、パスワードを入力します。 サーバーのアドレスには次の形式を使用します。
+
+     モバイル アプリは、何らかの方法でサーバーにアクセスする必要があります。 これを行うには、いくつかの方法があります。
+
+    - 同じネットワークに接続して VPN を使うのが最も簡単な方法です。
+    - Web アプリケーション プロキシを使って組織の外から接続することができます。 詳しくは、「[OAuth を使って Reporting Services に接続する](mobile-oauth-ssrs.md)」をご覧ください。 
+    - ファイアウォールで接続 (ポート) を開きます。
+
+1. サーバーのアドレス、ユーザー名、パスワードを入力します。 サーバーのアドレスには次の形式を使用します。
    
      `http://<servername>/reports`
    
@@ -71,10 +78,7 @@ Power BI モバイル アプリでオンプレミスの Power BI レポート、
    
      `https://<servername>/reports`
    
-   > [!NOTE]
-   > 接続文字列の前に **http** または **https** を含めてください。
-   > 
-   > 
+   接続文字列の前に **http** または **https** を含めてください。
    
     ![[サーバーに接続] ダイアログ ボックス](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (省略可能) 必要に応じて、**[詳細オプション]** でサーバーのわかりやすい名前を指定できます。
@@ -100,7 +104,7 @@ KPI とレポートを Web ポータルでお気に入りとしてマークし�
 
 * **[お気に入り]** をタップします。
   
-   ![左側のナビゲーション ウィンドウの [お気に入り]](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server.png)
+   ![左側のナビゲーション ウィンドウの [お気に入り]](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    Web ポータルのお気に入りの KPI とレポートはすべて、Power BI サービスの Power BI ダッシュボードと共にこのページに表示されます。
   

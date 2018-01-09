@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/19/2017
 ms.author: mihart
-ms.openlocfilehash: fb40b2576176b772c841cea3347909aaf34af375
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="export-data-from-visualizations"></a>ビジュアルからデータをエクスポートする
 ビジュアルを作成するのに使うデータを確認したい場合は、[Power BI でデータを表示](service-reports-show-data.md)するか、またはデータを Excel に .xlsx または .csv ファイルとしてエクスポートします。   
@@ -84,7 +84,7 @@ Watch では、レポート内のビジュアルの 1 つからデータをエ�
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
-* **Power BI Desktop** から .csv にエクスポート可能な行の最大数は 30,000 行です。
+* **Power BI Desktop** および **Power BI サービス**から .csv にエクスポートできる最大行数は 30,000 行です。
 * **Power BI サービス**で .xlsx にエクスポートできる最大行数は、Pro ユーザーの場合は 150,000 行、無料版をお使いのユーザーの場合は 30,000 行です。
 * DirectQuery を使ってエクスポートできるデータの最大量は 16 MB です。 このため、すべての行をエクスポートできない可能性があります。列の数が多い場合、圧縮が困難なデータの場合、ファイル サイズが大きくなってエクスポートされる行数が減る他の要因がある場合は特にそうです。
 * Power BI は、基本的な集計を使うビジュアルでのエクスポートのみをサポートします。 モデルまたはレポート メジャーを使うビジュアルをエクスポートすることはできません。

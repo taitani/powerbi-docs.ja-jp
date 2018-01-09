@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>同僚や他のユーザーと自分の Power BI ダッシュボードを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の方法でダッシュボードで共同作業を行い](service-how-to-collaborate-distribute-dashboards-reports.md)、ダッシュボードを配布できますが、共有はその 1 つにすぎません。
@@ -122,7 +122,11 @@ Power BI モバイル アプリから組織外のユーザーにリンクを送�
 
 ### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>ダッシュボードの受信者に、タイルまたは「アクセス許可が必要」のメッセージにロック アイコンが表示される
 
-共有相手が、レポートを表示しようとしたときに、ダッシュボード内にロックされたタイルが表示される、または「アクセス許可が必要」のメッセージが表示される場合、その共有相手に基になるデータセットへのアクセス許可を付与する必要があります。 次にその方法を示します。
+共有相手がレポートを表示しようとしたときに、ダッシュボードにロックされたタイルが表示されたり、"アクセス許可が必要です" というメッセージが表示されたりすることがあります。
+
+![Power BI のロックされたタイル](media/service-share-dashboards/power-bi-locked_tile_small.png)
+
+その場合は、基になるデータセットへのアクセス許可を共有相手に付与する必要があります。 次にその方法を示します。
 
 1. コンテンツ リストの **[データセット]** タブに移動します。
 

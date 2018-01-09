@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 14d4954cd747e7c578c693212401f57806001228
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI ダッシュボード、レポート、およびタイルを埋め込む
 
@@ -140,9 +140,9 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
 | 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 v コア |0.5 コア、3 GB の RAM |0.5 コア | |1-300 |
-| A2 |2 v コア |1 コア、5 GB の RAM |1 コア | |301-600 |
-| A3 |4 v コア |2 コア、10 GB の RAM |2 コア | |601-1,200 |
+| A1 |1 v コア |0.5 コア、3 GB の RAM |0.5 コア | 1 秒あたり 5 |1-300 |
+| A2 |2 v コア |1 コア、5 GB の RAM |1 コア | 1 秒あたり 10 |301-600 |
+| A3 |4 v コア |2 コア、10 GB の RAM |2 コア | 1 秒あたり 15 |601-1,200 |
 | A4 |8 v コア |4 コア、25 GB の RAM |4 コア |1 秒あたり 30 |1,201-2,400 |
 | A5 |16 v コア |8 コア、50 GB の RAM |8 コア |1 秒あたり 60 |2,401-4,800 |
 | A6 |32 v コア |16 コア、100 GB の RAM |16 コア |1 秒あたり 120 |4,801-9600 |

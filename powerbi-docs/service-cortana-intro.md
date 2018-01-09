@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/13/2017
 ms.author: mihart
-ms.openlocfilehash: 458c6663697f8c968915c54dba1c80be422c0f80
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Cortana for Power BI を利用し、Power BI データをすばやく見つけ、表示する
 Windows 10 デバイスで Cortana を使って、ビジネスの重要な質問に対する回答を瞬時に取得できます。 Power BI と統合することにより、Cortana は Power BI のダッシュボードとレポートから重要な情報を直接取得できます。 必要なものは、Windows 10 の 2015 年 11 月以降のバージョン、Cortana、Power BI です。また、少なくとも 1 つのデータセットにアクセスできる必要があります。
@@ -85,13 +85,19 @@ Cortana で質問すると、Power BI は、Cortana のために特別に設計�
      ![](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 2. Cortana の準備ができたら、Cortana 検索バーに質問を入力するか、話しかけます。 Cortana が得られた結果を表示します。 質問に一致する Power BI ダッシュボードがある場合は、**[ベスト マッチ]** または **[Power BI]** の下に表示されます。
    
-     ![Cortana 検索が Power BI ダッシュボードを見つける](media/service-cortana-intro/power-bi-cortana-searching2.png "Cortana が Power BI ダッシュボードを見つける")
+     ![Cortana 検索が Power BI ダッシュボードを見つける](media/service-cortana-intro/power-bi-cortana-search-hr.png "Cortana が Power BI ダッシュボードを見つける")
    
    > [!NOTE]
    > 現在のところ、英語のみに対応しています。
    > 
    > 
-3. ダッシュボード名を選択し、Power BI でダッシュボードを開きます。 
+3. Cortana で開くダッシュボードを選びます。
+
+    ![Power BI ダッシュボードを選ぶ](media/service-cortana-intro/power-bi-cortana-dashboard.png "Power BI ダッシュボードを選ぶ")
+
+    [ダッシュボードの "*Phone ビュー*" を編集する](service-create-dashboard-mobile-phone-view.md)ことによって、レイアウトを変更できます。 
+
+1. Cortana からは、Power BI サービスまたは Power BI モバイルでダッシュボードを開くこともできます。 **[Web で開く]** を選ぶと、Power BI サービスでダッシュボードが開きます。 
    
    ![Cortana からダッシュボードを開く](media/service-cortana-intro/power-bi-dashboard-opens.png "Cortana からダッシュボードを開く")   
 4. それでは Cortana を利用し、レポートを検索しましょう。 [Cortana 回答カードのページを含むレポート](service-cortana-answer-cards.md)について知っている必要があります。 この例では、"Cortana-New-Stores" という名前のレポートに "cortana stores" という名前の Cortana 回答カードがあります。  

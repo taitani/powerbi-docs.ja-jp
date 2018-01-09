@@ -1,6 +1,6 @@
 ---
 title: "Power BI モバイル アプリでデータ アラートを設定する"
-description: "ユーザーが設定した制限を超えてダッシュボードのデータが変化したときにユーザーに通知するように、Power BI モバイル アプリおよび Power BI サービスでアラートを設定する方法を説明します。"
+description: "ユーザーが設定した制限を超えてダッシュボードのデータが変化したときにユーザーに通知するように、Power BI モバイル アプリでアラートを設定する方法を説明します。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 822285a38e08f173ff8cae69c8e7e8ad94957692
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータ アラートを設定する
 適用対象:
@@ -30,7 +30,9 @@ ms.lasthandoff: 11/13/2017
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
-ユーザーが設定した制限を超えてダッシュボードのデータが変化したときにユーザーに通知するように、Power BI モバイル アプリおよび Power BI サービスでアラートを設定できます。 アラートは、カードやゲージなどの単一の数値を含むタイルに対して動作しますが、ストリーミング データでは動作しません。 モバイル デバイスで設定したデータ アラートを Power BI サービスで見ることができます。また、その逆も可能です。 ダッシュボードやタイルのスナップショットを共有する場合でも、設定したデータ アラートのみを表示できます。
+アラートは、Power BI モバイル アプリと Power BI サービスのダッシュボードで設定できます。 アラートは、ユーザーが設定した制限を超えてタイルのデータが変化したことをユーザーに通知します。 アラートは、カードやゲージなどの単一の数値を含むタイルに対して動作しますが、ストリーミング データでは動作しません。 モバイル デバイスで設定したデータ アラートを Power BI サービスで見ることができます。また、その逆も可能です。 ダッシュボードやタイルのスナップショットを共有する場合でも、設定したデータ アラートのみを表示できます。
+
+Power BI Pro のライセンスがある場合、または無料の Power BI ライセンスがあり、共有ダッシュボードが Premium 容量である場合は、タイルにアラートを設定できます。 
 
 > [!WARNING]
 > データ ドリブン アラート通知は、データに関する情報を提供します。 デバイスが盗まれた場合、Power BI サービスに移動し、すべてのデータ ドリブン アラート ルールをオフにすることをお勧めします。 
