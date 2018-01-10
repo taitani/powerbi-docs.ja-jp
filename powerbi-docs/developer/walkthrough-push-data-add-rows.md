@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: d9fa2984eecfac026cf01a47d73ec6c5950e02d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02c0ac505f542d9c4a346ae7aee72533789d5599
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>手順 5: Power BI テーブルに行を追加する
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
-チュートリアル「データセットにデータをプッシュする」の**手順 4**「[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)」では、[データセットの取得](https://msdn.microsoft.com/library/mt203567.aspx)操作と Newtonsoft.Json を使ってデータセット ID を取得しました。この手順では、そのデータセット ID と[行の追加](https://msdn.microsoft.com/library/mt203561.aspx)操作を使って **Power BI** のデータセットに行を追加します。 Power BI REST API の使用例については、[Apiary での Power BI REST API](http://docs.powerbi.apiary.io/) に関するページを参照してください。
+チュートリアル「データセットにデータをプッシュする」の**手順 4**「[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)」では、[データセットの取得](https://msdn.microsoft.com/library/mt203567.aspx)操作と Newtonsoft.Json を使ってデータセット ID を取得しました。この手順では、そのデータセット ID と[行の追加](https://msdn.microsoft.com/library/mt203561.aspx)操作を使って **Power BI** のデータセットに行を追加します。 
 
 [行の追加](https://msdn.microsoft.com/library/mt203561.aspx)操作を呼び出すと、データセットに行が追加されます。
 
@@ -319,6 +319,5 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
 [Power BI ダッシュボードにデータをプッシュする](walkthrough-push-data.md)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 [Power BI REST API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)  
-[Apiary での Power BI REST API](http://docs.powerbi.apiary.io/)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

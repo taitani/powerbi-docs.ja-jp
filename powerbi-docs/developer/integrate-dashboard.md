@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: f3968fd9fb89e868754bb6025a23fdbd028a3965
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fdcefb11187e92063f239967cf4d245347f54683
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>ダッシュボードを組織向けのアプリに統合する
 REST API の呼び出しと Power BI JavaScript API を使って組織向けの Web アプリにダッシュボードを統合する (埋め込む) 方法を説明します。
@@ -56,7 +56,7 @@ REST API の呼び出しを行うには、Azure AD にアプリケーション�
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>アクセス トークンを使ってダッシュボードを取得する
-[ステップ 2](#step-2-get-an-access-token-from-azure-ad) で取得した**アクセス トークン**を使って、[ダッシュボード取得](https://msdn.microsoft.com/library/mt465739.aspx)操作を呼び出すことができます。 [ダッシュボードを取得する](https://msdn.microsoft.com/library/mt465739.aspx)操作によって、ダッシュボードの一覧が返されます。 ダッシュボードの一覧から 1 つのダッシュボードを取得できます。 ダッシュボードを取得するための完全な C# メソッドを以下に示します。 Power BI REST API の使用例については、[Apiary での Power BI REST API](http://docs.powerbi.apiary.io/) に関するページを参照してください。
+[ステップ 2](#step-2-get-an-access-token-from-azure-ad) で取得した**アクセス トークン**を使って、[ダッシュボード取得](https://msdn.microsoft.com/library/mt465739.aspx)操作を呼び出すことができます。 [ダッシュボードを取得する](https://msdn.microsoft.com/library/mt465739.aspx)操作によって、ダッシュボードの一覧が返されます。 ダッシュボードの一覧から 1 つのダッシュボードを取得できます。 ダッシュボードを取得するための完全な C# メソッドを以下に示します。 
 
 REST API 呼び出しを行うには、*Authorization* ヘッダーを "*ベアラー {アクセス トークン}*" の形式で含める必要があります。
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>タイルをアプリに統合する (ユーザーがデータを所有)
 REST API の呼び出しと Power BI JavaScript API を使って組織向けの Web アプリにタイルを統合する (埋め込む) 方法を説明します。
@@ -56,7 +56,7 @@ REST API の呼び出しを行うには、Azure AD にアプリケーション�
 タイルを取得する前に、ダッシュボード ID を取得する必要があります。 ダッシュボードを取得する方法については、「[ダッシュボードをアプリに統合する (ユーザーがデータを所有)](integrate-dashboard.md)」をご覧ください。
 
 ### <a name="get-tiles-using-an-access-token"></a>アクセス トークンを使ってタイルを取得する
-[ステップ 2](#step-2-get-an-access-token-from-azure-ad) で取得した**アクセス トークン**を使って、[タイル取得](https://msdn.microsoft.com/library/mt465741.aspx)操作を呼び出すことができます。 [タイル取得](https://msdn.microsoft.com/library/mt465741.aspx)操作は、タイルの一覧を返します。 タイルの一覧から 1 つのタイルを取得できます。 タイルを取得するための完全な C# メソッドを以下に示します。 Power BI REST API の使用例については、[Apiary での Power BI REST API](http://docs.powerbi.apiary.io/) に関するページを参照してください。
+[ステップ 2](#step-2-get-an-access-token-from-azure-ad) で取得した**アクセス トークン**を使って、[タイル取得](https://msdn.microsoft.com/library/mt465741.aspx)操作を呼び出すことができます。 [タイル取得](https://msdn.microsoft.com/library/mt465741.aspx)操作は、タイルの一覧を返します。 タイルの一覧から 1 つのタイルを取得できます。 タイルを取得するための完全な C# メソッドを以下に示します。 
 
 REST API 呼び出しを行うには、*Authorization* ヘッダーを "*ベアラー {アクセス トークン}*" の形式で含める必要があります。
 

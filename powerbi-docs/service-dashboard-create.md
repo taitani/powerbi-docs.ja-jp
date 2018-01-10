@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/09/2017
 ms.author: mihart
-ms.openlocfilehash: dac5628756898a20fe139447bc2d165ba804320c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67cc9508d71fa29303d09e8901294a2d6b7f8a56
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
 [Power BI のダッシュボード](service-dashboards.md)を読んで、次は自分のダッシュボードを作成しようと思われるでしょう。 ダッシュボードを作成するには、レポートから、何もない状態から、データセットから、既存のダッシュボードを複製して、それ以外の方法など、さまざまな方法があります。  このトピックとビデオでは、既存のレポートから視覚化をピン留めして新しいダッシュボードを作成する方法を示します。
@@ -64,7 +64,7 @@ Power BI サンプル データセットの 1 つをインポートし、それ�
 1. 同じワークスペースにとどまった状態で、**[レポート]** タブを選択します。新しくインポートしたレポートが、黄色のアスタリスク付きで表示されます。 レポート名を選択してレポートを開きます。
    
     ![](media/service-dashboard-create/power-bi-reports.png)
-2. [読み取りビュー](service-interact-with-a-report-in-reading-view.md)でレポートが開きます。 下部に 2 つのタブがあります。割引分析と支出概要です。 各タブはレポートのページを表します。
+2. [読み取りビュー](service-reading-view-and-editing-view.md)でレポートが開きます。 下部に 2 つのタブがあります。割引分析と支出概要です。 各タブはレポートのページを表します。
    
     ![](media/service-dashboard-create/power-bi-reading-view.png)
 3. 視覚化をポイントして、使用可能なオプションを表示します。 ダッシュボードに視覚化を追加するには、ピン ![](media/service-dashboard-create/power-bi-pin-icon.png) アイコンを選択します。

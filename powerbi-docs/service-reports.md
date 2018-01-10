@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d974fbac281fc8f1d74553d1342f7056fa8d7b03
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Power BI のレポート
 ## <a name="what-is-a-power-bi-report"></a>Power BI レポートとは
@@ -71,7 +71,7 @@ Power BI を初めて使うときは、「[Power BI - 基本的な概念](servic
 
 ### <a name="if-you-will-be-receiving-and-consuming-reports"></a>レポートを受け取って利用する場合
 * まず、[Power BI サービスのツアー](service-basic-concepts.md)を利用して、レポートとレポート ツールをどこで探せばよいかを理解します。
-* [レポートを開く](service-report-open-in-reading-view.md)方法と、[読み取りビュー](service-dashboard-tiles.md)で実行できるすべての対話的操作について学習します。
+* [レポートを開く](service-report-open.md)方法と、[読み取りビュー](service-reading-view-and-editing-view.md)で実行できるすべての対話的操作について学習します。
 * いずれかの[サンプル](sample-tutorial-connect-to-the-samples.md)のツアーを利用してレポートに慣れます。  
 * レポートが不要になりましたか? その場合は、[削除](service-delete.md)できます。
 * レポートでどのデータセットが使われているか、また、どのダッシュボードにレポートからタイルがピン留めされているかを確認するには、[関連するコンテンツを表示](service-related-content.md)します。

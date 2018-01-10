@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 01/05/2017
 ms.author: asaxton
-ms.openlocfilehash: e62b08614a38502fb79f48f369013d32fd538659
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aba135a0a790025f732379ecb07157f1150d999c
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
 Power BI API を使うと、Power BI データセットにデータをプッシュできます。 たとえば、既存のビジネス ワークフローを拡張して、主要なデータをデータセットにプッシュできます。 ここでは、Product テーブルを含む Sales Marketing データセットをデータセットにプッシュします。
@@ -38,7 +38,7 @@ Power BI API を使うと、Power BI データセットにデータをプッシ�
 次のセクションでは、データをプッシュする Power BI API 操作の概要を説明します。
 
 ## <a name="power-bi-api-operations-to-push-data"></a>データをプッシュする Power BI API の操作
-Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリがデータセットに行を追加すると、ダッシュボード上のタイルは自動的に最新データに更新されます。 データをプッシュするには、[データセットの作成](https://msdn.microsoft.com/library/mt203562.aspx)操作と[行の追加](https://msdn.microsoft.com/library/mt203561.aspx)操作を一緒に行います。 データセットを検索するには、[データセットの取得](https://msdn.microsoft.com/library/mt203567.aspx)操作を行います。 これらの操作のどれについても、グループ ID を渡すとグループを操作できます。 [グループの取得](https://msdn.microsoft.com/library/mt243842.aspx)操作を行うと、グループ ID の一覧を取得できます。 Power BI REST API の使用例については、[Apiary での Power BI REST API](http://docs.powerbi.apiary.io/) に関するページを参照してください。
+Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリがデータセットに行を追加すると、ダッシュボード上のタイルは自動的に最新データに更新されます。 データをプッシュするには、[データセットの作成](https://msdn.microsoft.com/library/mt203562.aspx)操作と[行の追加](https://msdn.microsoft.com/library/mt203561.aspx)操作を一緒に行います。 データセットを検索するには、[データセットの取得](https://msdn.microsoft.com/library/mt203567.aspx)操作を行います。 これらの操作のどれについても、グループ ID を渡すとグループを操作できます。 [グループの取得](https://msdn.microsoft.com/library/mt243842.aspx)操作を行うと、グループ ID の一覧を取得できます。
 
 データセットにデータをプッシュするための操作を次に示します。
 
@@ -126,6 +126,5 @@ Power BI のテーブル スキーマでは、次のデータ型を使うこと�
 [グループの取得](https://msdn.microsoft.com/library/mt243842.aspx)  
 [JSON の紹介](http://json.org/)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
-[Apiary での Power BI REST API](http://docs.powerbi.apiary.io/)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

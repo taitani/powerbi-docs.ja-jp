@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -589,10 +589,6 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * この[コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)を使用して、QuickBooks Online アカウントのデータに関する洞察をすばやく得ることができます。 接続および開始の方法の詳細については、Power BI 用 QuickBooks Online コンテンツ パックの[ドキュメント](service-connect-to-quickbooks-online.md)をご覧ください。
 
-**2015 年 5 月 19 日**
-
-* この更新で、[コンテンツ パックによって Twilio](service-connect-to-twilio.md) に接続できるようになりました。
-* Power BI API に新機能が追加されました。 [すべてのテーブルの一覧表示](http://docs.powerbi.apiary.io/#reference/datasets/tables-collection/list-all-tables)と[既存のテーブル スキーマの更新](http://docs.powerbi.apiary.io/#reference/datasets/table/update-an-existing-tables-schema)を行えるようになりました。
 
 **2015 年 5 月 13 日**
 

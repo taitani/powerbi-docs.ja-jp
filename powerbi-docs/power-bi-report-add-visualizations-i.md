@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: c8baa19eef8210a375e77acee379389ccd5dbade
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82519877ac9a9603d87f20fc3f1155af34421078
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>パート I、Power BI レポートへの視覚化の追加 (チュートリアル)
 この記事では、レポートで視覚化を作成する方法を簡単に説明します。  より高度な内容を調べるには、「[パート II](power-bi-report-add-visualizations-ii.md)」をご覧ください。 Amanda がレポート キャンバスでのビジュアルの作成、編集、書式設定についてさまざまな方法を示します。 このデモの後に、[売上およびマーケティングのサンプル](sample-datasets.md)を使用して、レポートを作成してみてください。
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/13/2017
    
    [パート 2: Power BI レポートへの視覚化の追加](power-bi-report-add-visualizations-ii.md)に進む
    
-   レポート内の[視覚化を操作する](service-interact-with-a-report-in-reading-view.md)
+   レポート内の[視覚化を操作する](service-reading-view-and-editing-view.md)
    
    [視覚化に対しその他の操作を実行する](power-bi-report-visualizations.md)
    

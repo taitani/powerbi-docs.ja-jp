@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>同僚や他のユーザーと自分の Power BI ダッシュボードを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の方法でダッシュボードで共同作業を行い](service-how-to-collaborate-distribute-dashboards-reports.md)、ダッシュボードを配布できますが、共有はその 1 つにすぎません。
@@ -110,7 +110,7 @@ Power BI モバイル アプリから組織外のユーザーにリンクを送�
 ダッシュボードの共有について留意すべき事項:
 
 * 一般に、自分と仕事仲間はダッシュボード内の同じデータを表示することになります。 そのため、自分の方がより多くのデータを表示できるアクセス許可を持っている場合、相手はこちらのダッシュボードのすべてのデータを表示できることになります。 ただし、ダッシュボードの基礎になるデータセットに[行レベル セキュリティ (RLS)](service-admin-rls.md) が適用されている場合は、各ユーザーの資格情報を使用して各々がアクセスできるデータが決定されます。
-* ダッシュボードのすべての共有相手は、[読み取りビュー](service-report-open-in-reading-view.md)であなたのダッシュボードを表示し、レポートを操作できます。 同僚はレポートを作成したり、既存のレポートへの変更を保存したりすることはできません。
+* ダッシュボードのすべての共有相手は、[読み取りビュー](service-reading-view-and-editing-view.md)であなたのダッシュボードを表示し、レポートを操作できます。 同僚はレポートを作成したり、既存のレポートへの変更を保存したりすることはできません。
 * どの共有相手も、データセットの表示やダウンロードは行えません。
 * [ダッシュボード データの更新](refresh-data.md)はだれでも手動で行えます。
 * 電子メールに Office 365 を使用している場合は、配布グループに関連付けられた電子メール アドレスを入力することにより、配布グループのメンバーと共有できます。
