@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 Power BI では、*アプリ*が関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。 組織内のユーザーは主要なビジネス情報でアプリを作成し、配布できます。 既にご利用中かもしれませんが、Google アナリティクスや Microsoft Dynamics CRM など、[外部サービス](service-connect-to-services.md)も Power BI アプリを提供します。 
@@ -63,7 +63,7 @@ Power BI では、*アプリ*が関連のあるダッシュボードやレポー
 3. **[Get it now (今すぐ取得)]** を選択して、[アプリ] ページにアプリを追加します。 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>アプリのダッシュボードとレポートを操作する
-これで、アプリのダッシュボードおよびレポートのデータを探索できます。 フィルター処理、強調表示、並べ替え、ドリル ダウンなど、Power BI の標準機能にすべてアクセスできます。 [Power BI でレポートを使用する方法](service-interact-with-a-report-in-reading-view.md)に関するページをご覧ください。 
+これで、アプリのダッシュボードおよびレポートのデータを探索できます。 フィルター処理、強調表示、並べ替え、ドリル ダウンなど、Power BI の標準機能にすべてアクセスできます。 [Power BI でレポートを使用する方法](service-reading-view-and-editing-view.md)に関するページをご覧ください。 
 
 変更内容を保存することはできませんが、レポート内のテーブルや他のビジュアルから [Excel にデータをエクスポートする](power-bi-visualization-export-data.md)ことはいつでも可能です。
 
