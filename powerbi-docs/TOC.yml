@@ -350,14 +350,10 @@
           href: service-analyze-in-excel.md
         - name: レポート内のビジュアルの相互作用を変更します。
           href: service-reports-visual-interactions.md
-        - name: Power BI レポートを読み取りビューで開く
-          href: service-report-open-in-reading-view.md
-        - name: Power BI で読み取りビューから編集ビューに切り替える
+        - name: Power BI レポートを読み取りビューまたは編集ビューで開く
           href: service-reading-view-and-editing-view.md
         - name: Power BI の編集ビューでレポートと対話する
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Power BI の読み取りビューでレポートと対話する
-          href: service-interact-with-a-report-in-reading-view.md
         - name: Power BI サービスにおけるレポート作成のヒントとテクニック
           href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: 分析ウィンドウ
@@ -1006,8 +1002,6 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: リソース
       items:
-        - name: Apiary
-          href: 'https://go.microsoft.com/fwlink/?linkid=848278'
         - name: JavaScript 埋め込みデモ
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: サンプル
@@ -1052,6 +1046,8 @@
           href: report-server/data-sources.md
         - name: データ ソースに接続する
           href: report-server/connect-data-sources.md
+        - name: 'OData フィードとして共有データセットにアクセスする '
+          href: report-server/access-dataset-odata.md
         - name: スケジュールされた更新の構成
           href: report-server/configure-scheduled-refresh.md
         - name: レポートにコメントを追加
