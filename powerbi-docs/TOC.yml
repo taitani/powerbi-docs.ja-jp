@@ -12,7 +12,7 @@
           href: service-free-vs-pro.md
         - name: Power BI のデータ ソース
           href: service-get-data.md
-        - name: 新しい Power BI ナビゲーション体験
+        - name: Power BI の操作概要 - ナビゲーション体験
           href: service-the-new-power-bi-experience.md
         - name: ヘルプを得るための 10 のヒント
           href: service-tips-for-finding-help.md
@@ -68,7 +68,7 @@
           href: sample-retail-analysis.md
     - name: 一般的なタスク
       items:
-        - name: Power BI のお気に入りのダッシュボード
+        - name: Power BI でのお気に入りのダッシュボード、レポート、アプリ
           href: service-dashboard-favorite.md
         - name: ダッシュボードの印刷、ダッシュボード タイルの印刷、レポートの印刷
           href: service-print.md
@@ -780,7 +780,7 @@
           href: desktop-add-custom-column.md
         - name: Power BI でのレスポンシブ ビジュアルの作成
           href: desktop-create-responsive-visuals.md
-        - name: Power BI Desktop でインライン階層ラベルを使用する (プレビュー)
+        - name: Power BI Desktop でのインライン階層ラベルの使用 (プレビュー)
           href: desktop-inline-hierarchy-labels.md
         - name: 数値範囲スライサーを使用
           href: desktop-slicer-numeric-range.md
