@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 57960c3ca46e48f399e0492192c10cba2cfa7ea9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0f81b0fa87af5af281b40224bac3b5815461cb9e
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Power BI レポートのフィルターと強調表示について
 ***フィルター処理***を実行すると、絞り込んだデータ以外のすべてのデータが削除されます。  ***強調表示***はフィルター処理ではありません。データが削除されることはなく、表示されるデータのサブセットが強調表示され、強調表示対象外のデータは淡色表示になります。
@@ -30,7 +30,7 @@ Power BI ではさまざまな方法でレポートをフィルター処理お�
 
 * フィルターと強調表示の概要 (この記事)
 * [編集ビューや独自レポートでフィルターと強調表示を作成して使用する](power-bi-report-add-filter.md)方法。 レポートの編集権限がある場合、レポートでフィルターと強調表示を作成、変更、削除できます。
-* [共有レポートまたはレポート読み取りビューでフィルターと強調表示を使用する](service-interact-with-a-report-in-reading-view.md)方法。 できることには限りがありますが、それでもさまざまなフィルター処理と強調表示のオプションを使用できます。  
+* [共有レポートまたはレポート読み取りビューでフィルターと強調表示を使用する](service-reading-view-and-editing-view.md)方法。 できることには限りがありますが、それでもさまざまなフィルター処理と強調表示のオプションを使用できます。  
 * [編集ビューで使用できるフィルターと強調表示のコントロールの詳細なツアー](power-bi-how-to-report-filter.md)。フィルターの種類の詳細 (例: 日付と時刻、数値、テキスト) や、基本オプションと詳細オプションの違いなどです。
 * フィルターと強調表示の既定の動作を理解した後は、[ページの視覚エフェクトが相互にフィルターおよび強調表示する方法を変更する方法を学習](service-reports-visual-interactions.md)してください。
 
@@ -50,7 +50,7 @@ Power BI ではさまざまな方法でレポートをフィルター処理お�
 > 
 
 ## <a name="filters-in-reading-view-versus-editing-view"></a>読み取りビューのフィルターと編集ビューのフィルター
-レポートとの対話には 2 つのモードがあります。[読み取りビュー](service-interact-with-a-report-in-reading-view.md)と[編集ビュー](service-interact-with-a-report-in-editing-view.md)です。  使用できるフィルター処理機能は、どのモードを使用しているかによって異なります。
+レポートとの対話には 2 つのモード ([読み取りビューと編集ビュー](service-reading-view-and-editing-view.md)) があります。  使用できるフィルター処理機能は、どのモードを使用しているかによって異なります。
 
 * 編集ビューでは、レポート フィルター、ページ フィルター、ビジュアル フィルターを追加できます。 レポートを保存すると、フィルターが一緒に保存されます。 読み取りビューでレポートを表示しているユーザーは、追加したフィルターと対話できますが、変更を保存することはできません。
 * 読み取りビューでは、レポートに既に存在しているページ フィルターおよびビジュアル フィルターと対話できますが、フィルターの変更を保存することはできません。
@@ -66,7 +66,7 @@ Power BI ではさまざまな方法でレポートをフィルター処理お�
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-読み取りビューでは、既存のフィルターを変更することによってデータを調べます。 詳細については、「[Power BI の読み取りビューでレポートと対話する](service-interact-with-a-report-in-reading-view.md)」をご覧ください。
+読み取りビューでは、既存のフィルターを変更することによってデータを調べます。 詳細については、「[Power BI の読み取りビューでレポートと対話する](service-reading-view-and-editing-view.md)」をご覧ください。
 
 ### <a name="the-filters-pane-in-editing-view"></a>編集ビューのフィルター ウィンドウ
 レポートに対する所有者権限を持つユーザーが編集ビューでレポートを開くと、**フィルター**は使用可能な複数の編集ウィンドウの 1 つとして表示されます。
@@ -83,7 +83,7 @@ Power BI ではさまざまな方法でレポートをフィルター処理お�
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 ## <a name="next-steps"></a>次の手順
-[フィルターとの対話と強調表示 (読み取りビュー)](service-interact-with-a-report-in-reading-view.md)
+[フィルターとの対話と強調表示 (読み取りビュー)](service-reading-view-and-editing-view.md)
 
 [レポートへのフィルターの追加 (編集ビュー)](power-bi-report-add-filter.md)
 

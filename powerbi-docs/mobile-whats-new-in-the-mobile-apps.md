@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: b96ea3b0de070bee292b1d59a5abd9b0739a656a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -30,24 +30,50 @@ ms.lasthandoff: 11/13/2017
 * [Power BI Desktop の新機能](desktop-latest-update.md)  
 * [Power BI サービスの新機能](service-whats-new.md)  
 
-## <a name="september-2017"></a>2017 年 9 月
-### <a name="filters-for-phone-reports-in-iphones"></a>iPhone の電話レポート用フィルター
+## <a name="december-2017"></a>2017 年 12 月
+### <a name="improved-permission-management"></a>アクセス許可の管理の強化
+
+データセット、ダッシュボード、レポートへのユーザー アクセス許可をより正確に管理できるようにするいくつかの変更を行いました。
+
+### <a name="auto-installed-apps"></a>自動インストール済みアプリ
+
+Power BI に一部のアプリをインストールする必要はまったくありません。 組織内の Power BI アプリ作成者は、ダッシュボードとレポートのコレクションを含む*アプリ* を作成することができます。 その後、アプリを発行し、Power BI サービスと Power BI モバイル アプリに自動的にインストールされるように設定できます。 アプリが自動的にインストールされるように設定している場合は、次のように **[アプリ]** メニューに自動的に表示されます。
+
+![Power BI モバイル アプリの [アプリ]](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
+
+## <a name="november-2017"></a>2017 年 11 月
+### <a name="iphone-x-optimization"></a>iPhone X 向けの最適化
+
+さまざまなデバイスで適切にデータを探索できるように、iPhone X 用のアプリのレイアウトを最適化しました。
+
+## <a name="october-2017"></a>2017 年 10 月
+### <a name="filters-for-phone-reports-in-android"></a>Android の電話レポート用フィルター
+
+Power BI Desktop で電話用に最適化されたページを使用してレポートを作成した場合で、そのレポートにフィルターがある場合、それらのフィルターを Android の電話レポートで適用できるようになりました。 詳細については、Android の Power BI レポート用フィルターに関する記事を参照してください。
+
+### <a name="show-data-in-reports"></a>レポートでのデータの表示
+
+レポート内の視覚エフェクトをテーブル ビューに切り替えて、データの背後にある数値を確認できるようになりました。 この機能を使用するには、レポートで視覚エフェクトの [...] メニューから [データの表示] をタップするか、展開された視覚エフェクトの操作メニューで新しいアイコンをタップします。
+
+## <a name="previous-months"></a>先月
+
+### <a name="september-2017"></a>2017 年 9 月
+#### <a name="filters-for-phone-reports-in-iphones"></a>iPhone の電話レポート用フィルター
 Power BI Desktop で電話用に最適化されたページを使ってレポートを作成した場合で、そのレポートにフィルターがある場合、それらのフィルターを iPhone の電話フィルターで適用できるようになりました。 詳細については、[iPhone の電話レポート用フィルター](https://powerbi.microsoft.com/blog/filters-coming-for-phone-reports-on-ios/)に関する記事を参照してください。
 
-## <a name="august-2017"></a>2017 年 8 月
-### <a name="ios-proxy-settings-support"></a>iOS のプロキシ設定のサポート
+### <a name="august-2017"></a>2017 年 8 月
+#### <a name="ios-proxy-settings-support"></a>iOS のプロキシ設定のサポート
 Power BI iOS モバイル アプリでプロキシ設定を使用できるようになりました。 これは、Power BI がモバイル デバイス上の VPN 接続を使用できるようになったため、より多くのユーザーや組織が外出先で安全に Power BI の機能を活用できるようになったことを意味します。
 
-## <a name="july-2017"></a>2017 年 7 月
+### <a name="july-2017"></a>2017 年 7 月
 「[Power BI Service and Mobile July Feature Summary](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)」 (Power BI サービスとモバイル 7 月の機能の概要) をお読みください。
 
-### <a name="ios-devices"></a>iOS デバイス
+#### <a name="ios-devices"></a>iOS デバイス
 **iOS での新しい Q&A エクスペリエンス (プレビュー)** 自分が問い合わせた質問の回答をただ受け取るのでなく、自然言語を使用して範囲指定したインサイトを取得できるようになりました。 お探しのものがよくわからない場合でも、Q&A が目的のデータに関連するインサイトを事前に抽出します。 モバイル上で動作する新しい Q&A エクスペリエンスは、Microsoft Research チームとの共同開発によるものであり、弊社製品内の強力なテクノロジを紹介します。 チュートリアル「[iOS モバイル アプリでデータについて質問する](mobile-apps-ios-qna.md)」を試してみてください。
 
 ### <a name="responsive-visuals"></a>レスポンシブ ビジュアル
 **電話レポートおよびダッシュボード用のレスポンシブ ビジュアル** ダッシュ ボードまたはレポート内のビジュアルを*レスポンシブ*に設定することができます。これにより、ビジュアルは画面のサイズに関係なく、最大量のデータとインサイトを表示できるように動的に変化します。 [レスポンシブ ビジュアルに関するブログ](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)を参照してください。
 
-## <a name="previous-months"></a>先月
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>すべてのデバイス
 **アプリをお気に入りに追加する** ダッシュ ボードは既にお気に入りに追加できるようになっています。 最近、[Power BI にアプリ追加され](service-install-use-apps.md)、アプリをお気に入りに追加できるようになりました。 

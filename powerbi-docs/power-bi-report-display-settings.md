@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI レポートのページ表示設定
 レポートのレイアウトをピクセル パーフェクトに保つことは重要です。 しかし場合によっては、自身や同僚が縦横比やサイズの異なる画面でレポートを表示しなければならないことがあります。 
@@ -45,7 +45,7 @@ Power BI サービスでは、レポートを開き、左上のメニュー バ�
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-[ページ表示] 設定は[読み取りビュー](service-interact-with-a-report-in-reading-view.md)でも[編集ビュー](service-interact-with-a-report-in-editing-view.md)でも使用できます。 編集ビューでは、レポート所有者が個々のレポート ページにページ表示設定を割り当てることができ、それらの設定はレポートとともに保存されます。 同僚が読み取りビューでそのレポートを開くと、所有者の設定を使用してレポート ページが表示されます。  読み取りビューでは、同僚は "*一部*" のページ表示設定を変更できますが、レポートを終了するときに変更は保存されません。
+[ページ表示] 設定は、[読み取りビューと編集ビュー](service-reading-view-and-editing-view.md)の両方で使用できます。 編集ビューでは、レポート所有者が個々のレポート ページにページ表示設定を割り当てることができ、それらの設定はレポートとともに保存されます。 同僚が読み取りビューでそのレポートを開くと、所有者の設定を使用してレポート ページが表示されます。  読み取りビューでは、同僚は "*一部*" のページ表示設定を変更できますが、レポートを終了するときに変更は保存されません。
 
 ##    <a name="page-view-settings"></a>ページ表示の設定
 *[ページ表示]* 設定の最初のセットは、ブラウザー ウィンドウを基準とした相対的なレポート ページの表示を制御します。  次の中から選びます。

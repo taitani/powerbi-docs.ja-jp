@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/29/2017
+ms.date: 01/02/2018
 ms.author: asaxton
-ms.openlocfilehash: 338921df57b77b1e79f9b71e814203734ab5971c
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: 10695e3a94d2dbc2e9ba2e7de85ef8c9298828e0
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI での行レベルのセキュリティ (RLS)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/67fK0GoVQ80?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -31,6 +31,13 @@ Power BI で行レベル セキュリティ (RLS) を使用すると、特定の
 Power BI Desktop で Power BI にインポートされたデータ モデルの RLS を構成できます。 SQL Server などの DirectQuery を使用しているデータセットに RLS を構成することもできます。 これまで、RLS を実装できるのは、Power BI の外部にあるオンプレミスの Analysis Services モデル内だけでした。 Analysis Services のライブ接続では、オンプレミスのモデルに行レベルのセキュリティを構成します。 このセキュリティ オプションは、ライブ接続データセットには表示されません。
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
+
+既定では、リレーションシップが一方向と双方向のいずれに設定されているかに関係なく、行レベルのセキュリティ フィルターで一方向のフィルターが使用されます。 行レベルのセキュリティで双方向のクロス フィルターを手動で有効にすることができます。その場合は、リレーションシップを選択して、**[両方向にセキュリティ フィルターを適用する]** チェック ボックスをオンにします。 [動的な行レベルのセキュリティ](https://docs.microsoft.com/en-us/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)を実装する場合は、このボックスをオンにする必要があります。そこで、ユーザー名またはログイン ID に基づいて行レベルのセキュリティを指定します。 
+
+詳細については、「[Power BI Desktop での DirectQuery を使用する双方向のクロス フィルタリング](desktop-bidirectional-filtering.md)」と「[表形式の BI セマンティック モデルの保護](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing the Tabular BI Semantic Model.docx)」の技術記事を参照してください。
+
+![セキュリティ フィルターの適用](media/service-admin-rls/rls-apply-security-filter.png)
+
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-view-as-roles.md)]
 

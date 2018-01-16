@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4a8ea2acfcfe41192b82addfe52dbe67a0df8088
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.date: 01/04/2018
+ms.author: maghan
+ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI サービスのコンテンツ パック プログラムの概要
 コンテンツ パックは、ユーザーがソースからすぐに洞察を得られるようにするための既定のコンテンツのセットです。 コンテンツ パックは、通常、役割、ドメイン、またはワークフローの洞察を提供する特定のビジネス シナリオに焦点を当てています。
@@ -49,6 +49,7 @@ ISV は、顧客が自分のアカウントで接続し、インスタンス化�
 * ビジネス ユーザーが使用する SaaS アプリケーションを用意しています。
 * SaaS アプリケーションには、Power BI で視覚化できるユーザー データが含まれています。
 * SaaS アプリケーションに、公共のインターネットからアクセスできる API が含まれています。 API は REST ベースの API か OData フィードであることが理由できます。 Power BI コンテンツ パックは、基本認証、OAuth 2.0、API キーのようなさまざまな種類の認証に対応しています。 
+* コンテンツ パックを公開するために SaaS アプリケーションが承認されます。 要求を pbiservicesapps@microsoft.com に送信してください。関連性と予定される使用量について、送信内容をそれぞれ弊社で確認します。 
 * 署名付きのパートナー契約。 これは[提出手順](template-content-pack-testing.md#submission)で行います。
 
 技術的な要件の詳細については、「[オーサリング](template-content-pack-authoring.md)」セクションを参照してください。

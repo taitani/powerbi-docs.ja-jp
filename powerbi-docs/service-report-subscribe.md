@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Power BI のレポートまたはダッシュボードを購読する
 最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールの受信頻度は日に 1 回から週に 1 回の範囲で選択できます。 メールとスナップショットでは、Power BI の [設定] で設定されている言語が使用されます。 言語が定義されていない場合、Power BI では現在のブラウザー言語が使用されます。
@@ -65,7 +65,7 @@ ms.lasthandoff: 12/02/2017
    ![](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>レポート ページをサブスクライブする
-1. [閲覧モード](service-report-open-in-reading-view.md)でレポートを開きます。
+1. [閲覧モード](service-reading-view-and-editing-view.md)でレポートを開きます。
 2. 上部のメニュー バーから、**[購読]** を選択します。
    
    ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
@@ -109,6 +109,7 @@ Pro ライセンスの有効期限が切れた場合、所有者がダッシュ�
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 * 現在のところ、コンテンツ パックまたは Power BI アプリから送られるダッシュボードまたはレポートについては、サブスクリプションを利用できません。 ただし、回避策があります。レポート/ダッシュボードのコピーを作成し、代わりにそのバージョンにサブスクリプションを追加します。
+* レポート ページのサブスクリプションは、レポート ページの名前に関連付けられています。 レポート ページにサブスクライブし、名前を変更する場合は、サブスクリプションを再作成する必要があります。
 * ライブ接続データセットでのメール サブスクリプションの場合、データが変更されたときにだけメールを受け取ります。 したがって、更新が発生してもデータが変わらない場合は、メールは送信されません。
 * メール サブスクリプションは、ほとんどの[カスタム ビジュアル](power-bi-custom-visuals.md)をサポートしていません。  例外は[認定](power-bi-custom-visuals-certified.md)されているカスタム ビジュアルです。  
 * メール サブスクリプションは、レポートの既定のフィルターとスライサーの状態で送信されます。 サブスクライブする前に既定値を変更しても、メールには反映されません。    

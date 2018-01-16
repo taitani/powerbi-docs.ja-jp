@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 Power BI サービスでレポートを開くと、レポートの各ページに一意の URL があります。 そのレポート ページをフィルター処理するには、レポート キャンバスの [フィルター] ウィンドウを使うことができます。  または、クエリ文字列パラメーターを URL に追加して、レポートをフィルター処理できます。 同僚に見せるレポートに事前にフィルターを適用したい場合、 1 つの方法は、レポートの既定の URL にフィルター パラメーターを追加し、URL 全体をメールで同僚に送るというものです。
@@ -41,7 +41,7 @@ URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
 * **テーブル**と**フィールド**の名前では大文字と小文字が区別され、**値**では区別されません。
 * レポート ビューに表示されないフィールドをフィルター処理することもできます。
 * **値**は一重引用符で囲む必要があります。
-* フィールドの型は文字列である必要があります。
+* フィールドの型は、数値または文字列にする必要があります。
 * テーブルおよびフィールドの名前にスペースが含まれていてはなりません。
 
 以下では構文についてさらに詳しく説明します。  
@@ -108,7 +108,7 @@ https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/R
 クエリ文字列パラメーターを使う場合に注意すべき点が 2 つあります。
 
 * クエリ文字列のフィルター処理は、[[Web に公開]](service-publish-to-web.md) または Power BI Embedded では機能しません。   
-* フィールドの型は文字列である必要があります。
+* フィールドの型は、数値または文字列にする必要があります。
 * テーブルおよびフィールドの名前にスペースが含まれていてはなりません。
 
 ## <a name="next-steps"></a>次の手順

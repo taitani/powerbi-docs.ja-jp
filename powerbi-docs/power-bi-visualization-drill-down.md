@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Power BI での視覚化のドリルダウン
 ## <a name="drill-down-requires-a-hierarchy"></a>ドリルダウンには階層が必要
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="method-1-for-drill-down"></a>ドリルダウンの 1 つ目の方法
 この方法では、視覚化自体の上部の隅に表示されるドリル アイコンを使います。
 
-1. Power BI の[読み取りビュー](service-report-open-in-reading-view.md)または[編集ビュー](service-reading-view-and-editing-view.md)でレポートを開きます。 階層のある視覚化でなければドリルダウンできません。 
+1. Power BI の[読み取りビューまたは編集ビュー](service-reading-view-and-editing-view.md)でレポートを開きます。 階層のある視覚化でなければドリルダウンできません。 
    
    階層は次のアニメーションのように表示されます。  この視覚化には、地域、都市、郵便番号、および都市名で構成された階層があります。 各地域には 1 つ以上の都市があり、各都市には 1 つ以上の郵便番号があります。リストの先頭が *Territory* なので、既定では、視覚化には地域のデータのみが表示されます。
    
@@ -75,7 +75,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="method-2-for-drill-down"></a>ドリルダウンの 2 つ目の方法
 この方法では、Power BI の上部にあるメニュー バーの **[探索]** ドロップダウンを使います。
 
-1. Power BI の[読み取りビュー](service-report-open-in-reading-view.md)または[編集ビュー](service-reading-view-and-editing-view.md)でレポートを開きます。 階層のある視覚化でなければドリルダウンできません。 
+1. Power BI の[読み取りビューまたは編集ビュー](service-reading-view-and-editing-view.md)でレポートを開きます。 階層のある視覚化でなければドリルダウンできません。 
    
    階層は次の図のように表示されます。  この視覚化には、地域、都市、郵便番号、および都市名で構成された階層があります。 各地域には 1 つ以上の都市があり、各都市には 1 つ以上の郵便番号があります。リストの先頭が *Territory* なので、既定では、視覚化には地域のデータのみが表示されます。
    

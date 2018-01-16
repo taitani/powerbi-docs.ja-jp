@@ -1,6 +1,6 @@
 ---
 title: "Power BI モバイル アプリでダッシュボード、レポート、アプリを探す"
-description: "Power BI モバイルアプリでダッシュボードまたはレポートやレポートを探す方法について説明します。ダッシュボードやレポートが置かれている場所はソースによって異なります。"
+description: "Power BI モバイル アプリでのダッシュボード、レポート、アプリの保存場所を、そのソースに応じて説明します。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでダッシュボード、レポート、アプリを探す
 適用対象:
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/13/2017
 ## <a name="3-apps"></a>3 アプリ
 アプリは迅速かつ簡単なデータ ドリブンの決定のための重要な指標を提供するための、組織専用のダッシュボードおよびレポートのコレクションです。 Power BI サービス ([https://powerbi.com](https://powerbi.com)) では、アプリを簡単に検索してインストールできます。 インストールしたアプリは、任意のデバイスから表示できます。 
 
-![Power BI の新しいナビゲーション](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Power BI の新しいナビゲーション](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 アプリでは、作成者によるすべての更新が自動的に取得され、作成者はデータの更新頻度も制御します。 最新の状態に維持することを心配する必要はありません。
 

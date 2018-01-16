@@ -18,17 +18,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/27/2017
 ms.author: mihart
-ms.openlocfilehash: 0fca4788c29f42390a286509acd0675292fc6684
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>ダッシュボードとレポートの利用状況の指標
 ダッシュボードとレポートを作成した場合、その効果を理解するために利用状況の指標が役立ちます。 ダッシュボード利用状況指標またはレポート利用状況指標を実行すると、そのダッシュボードやレポートが組織全体でどのように利用されているか、何が利用されているか、だれに利用されているか、何の目的で利用されているかわかります。  
 
 > [!NOTE]
-> 利用状況指標はダッシュボードおよびレポートを埋め込んだときの利用状況を取得しますが、[Web に公開](service-publish-to-web.md)を使用したときには取得しません
+> 利用状況指標は、SharePoint Online に埋め込まれているレポートの利用状況を追跡記録します。 "ユーザー所有資格情報" と "アプリ所有資格情報" フローの両方を介して、ダッシュボードとレポートの埋め込みも追跡記録します。 利用状況指標は、[Web に公開](service-publish-to-web.md)を介して埋め込まれるレポートの利用状況は追跡記録しません。
 > 
 > 
 

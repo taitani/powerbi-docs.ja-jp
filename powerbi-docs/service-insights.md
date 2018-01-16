@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: fb498f2b3320b96958467a9db851f119dba20ce7
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI を使用してデータ インサイトを自動的に生成する
 新しいデータセットがあるが、どこから始めたらよいかわからない場合。  ダッシュボードをすばやく構築する必要がある場合。  不足している情報を探したい場合。
@@ -71,7 +71,7 @@ Amanda がクイック インサイトをデータセットに対して実行し
     ![](media/service-insights/power-bi-insight-focus.png)
 3. フォーカス モードでは次のことができます。
    
-   * 視覚化を[フィルター処理](service-interact-with-a-report-in-reading-view.md)。  フィルターを表示するには、右上隅の矢印を選択し、[フィルター] ウィンドウを展開します。
+   * 視覚エフェクトをフィルター処理します。  フィルターを表示するには、右上隅の矢印を選択し、[フィルター] ウィンドウを展開します。
      
         ![](media/service-insights/power-bi-insights-filter-new.png)
    * ピン ![](media/service-insights/power-bi-pin-icon.png) アイコンまたは **[ビジュアルをピン留めする]** を選択して、分析情報カードをダッシュボードにピン留めします。

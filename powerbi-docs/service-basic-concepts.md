@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6e1e74f26ab1d0a0a59bc33b9d1068807918e18e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI サービスの基本的な概念
 
@@ -95,7 +95,7 @@ Power BI の 4 つの主要な構成要素は、"***ダッシュボード***"、
 ## <a name="reports"></a>レポート
 Power BI レポートは、1 ページまたは複数ページの視覚エフェクト (折れ線グラフ、円グラフ、ツリーマップその他多くのチャートやグラフ) です。 視覚エフェクトは***ビジュアル***とも呼ばれます。 レポートのすべての視覚エフェクトは 1 つのデータセットから取得されます。 レポートは、Power BI でゼロから作成することも、共同作業者から共有されたダッシュボードと共にインポートすることもできます。または、Excel、Power BI Desktop、データベース、SaaS アプリケーション、[アプリ](service-get-data.md)からのデータセットに接続するときに作成することもできます。  たとえば、Power View シートを含む Excel ブックに接続するとき、Power BI はそのシートに基づくレポートを作成します。 SaaS アプリケーションに接続すると、Power BI は構築済みのレポートをインポートします。
 
-レポートを表示して操作するための 2 つのモードがあります。[読み取りビュー](service-report-open-in-reading-view.md)と[編集ビュー](service-interact-with-a-report-in-editing-view.md)です。  レポートの作成者、共同所有者、アクセス許可を付与されたユーザーのみがそのレポートの***編集ビュー***のすべての探索、設計、構築、共有機能へのアクセス権を持ちます。 それらの人物がレポートを共有した相手のみ、***読み取りビュー***を使用してレポートを探索および操作できます。   
+レポートを表示して操作するための 2 つのモード ([読み取りビューと編集ビュー](service-reading-view-and-editing-view.md)) があります。  レポートの作成者、共同所有者、アクセス許可を付与されたユーザーのみがそのレポートの***編集ビュー***のすべての探索、設計、構築、共有機能へのアクセス権を持ちます。 それらの人物がレポートを共有した相手のみ、***読み取りビュー***を使用してレポートを探索および操作できます。   
 
 ワークスペースを開くと、関連付けられているレポートが **[レポート]** タブに一覧表示されます。リストされている各レポートは、基になるただ 1 つのデータセットに基づく、視覚エフェクトの 1 つ以上のページを表します。 レポートを開くには、単にそれを選択します。 
 

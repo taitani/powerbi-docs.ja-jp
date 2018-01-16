@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI での ArcGIS マップとの対話
 このトピックは、Power BI サービス、Desktop、またはモバイルで ArcGIS マップを "*使用する*" ユーザーを対象として書かれています。 作成者から ArcGIS マップを共有された場合、さまざまな方法でそのマップと対話できます。  ArcGIS マップの作成の詳細については、[Esri の ArcGIS マップのチュートリアル](power-bi-visualization-arcgis.md)をご覧ください。
@@ -62,7 +62,7 @@ Power BI の ArcGIS マップでは 3 つの選択モードを使用できます
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>ArcGIS マップとの対話
-使うことができる機能は、ユーザーが "*作成者*" (マップを作成したユーザー) か "*使用者*" (誰かから ArcGIS マップを共有されたユーザー) かによって異なります。 使用者 ([読み取りビュー](service-interact-with-a-report-in-reading-view.md)とも呼ばれます) として ArcGIS マップと対話する場合、以下の操作を使用できます。
+使うことができる機能は、ユーザーが "*作成者*" (マップを作成したユーザー) か "*使用者*" (誰かから ArcGIS マップを共有されたユーザー) かによって異なります。 コンシューマー ([読み取りビュー](service-reading-view-and-editing-view.md)とも呼ばれる) として ArcGIS マップと対話する場合、以下の操作を使用できます。
 
 * 他の視覚化の種類と同様に、[ダッシュボードへのピン留め](service-dashboard-pin-tile-from-report.md)、[表示](service-reports-show-data.md)、[基になるデータのエクスポート](power-bi-visualization-export-data.md)を行うことができ、[フォーカス モード](service-focus-mode.md)と[全画面表示](service-fullscreen-mode.md)でマップを表示することができます。    
 * **[フィルター]** ウィンドウを展開し、フィルターを使ってマップを調べることができます。 レポートを閉じるとき、適用したフィルターは保存されません。    

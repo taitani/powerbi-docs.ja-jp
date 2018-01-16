@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>レポート フィルター ウィンドウの使用方法
 この記事は、レポート フィルター ウィンドウについて詳しく説明します。 このウィンドウは、Power BI レポートの編集ビューと読み取りビューで表示されます。
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/15/2017
 Power BI でデータをフィルター処理するには、さまざまな方法があります。最初に「[フィルター処理と強調表示](power-bi-reports-filters-and-highlighting.md)」をお読みになることをおすすめします。
 
 ## <a name="working-with-filters"></a>フィルターの操作
-レポートは、[編集ビュー](service-interact-with-a-report-in-editing-view.md)または[読み取りビュー](service-interact-with-a-report-in-reading-view.md)で開くことができます。 編集ビューでは、レポート所有者は[レポートにフィルターを追加](power-bi-report-add-filter.md)できます。追加したフィルターはレポートとともに保存されます。 読み取りビューでレポートを表示しているユーザーは、フィルターを操作できますが、変更したフィルターをレポートに保存することはできません。
+レポートは、[編集ビューまたは読み取りビュー](service-reading-view-and-editing-view.md)で開くことができます。 編集ビューでは、レポート所有者は[レポートにフィルターを追加](power-bi-report-add-filter.md)できます。追加したフィルターはレポートとともに保存されます。 読み取りビューでレポートを表示しているユーザーは、フィルターを操作できますが、フィルターの変更をレポートに保存することはできません。
 
 ## <a name="filters-in-reading-view"></a>読み取りビューのフィルター
 レポートを読み取りビューで開くと、レポート キャンバスの右側にフィルター ウィンドウが表示されます。 ウィンドウが表示されない場合は、右上隅にある矢印を選択すると開きます。
@@ -122,7 +122,7 @@ Power BI でデータをフィルター処理するには、さまざまな方�
 
 ## <a name="next-steps"></a>次の手順
 [レポート内のフィルターと強調表示](power-bi-reports-filters-and-highlighting.md)  
-[レポートの読み取りビューでのフィルターとの対話と強調表示](service-interact-with-a-report-in-reading-view.md)  
+[レポートの読み取りビューでのフィルターとの対話と強調表示](service-reading-view-and-editing-view.md)  
 [レポートの編集ビューでのフィルターの作成](power-bi-report-add-filter.md)  
 [レポートのビジュアル相互間のクロスフィルター処理とクロス強調表示を変更する方法](service-reports-visual-interactions.md)
 

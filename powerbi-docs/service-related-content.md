@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI サービスで関連するコンテンツを表示する
 **[関連するコンテンツ]** ペインには、Power BI サービスのコンテンツ (ダッシュボード、レポート、データセット) がどのように相互接続されているかが示されます。  さらに、このペインからは、更新、名前の変更、詳細情報の生成など、一般的なタスクを実行できます。 関連するレポートやダッシュボードを選ぶと、Power BI ワークスペースに表示されます。   
@@ -74,7 +74,7 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 <br>
 **方法 2**
 
-[[読み取りビュー]](service-interact-with-a-report-in-reading-view.md) でレポートを開き、上部のメニュー バーから ![](media/service-related-content/power-bi-view-related-new.png) を選びます。
+[[読み取りビュー]](service-reading-view-and-editing-view.md) でレポートを開き、上部のメニュー バーから ![](media/service-related-content/power-bi-view-related-new.png) を選択します。
 
 **[関連するコンテンツ]** ペインが開きます。 関連付けられたデータセットと、レポートから少なくとも 1 つのタイルがピン留めされているすべてのダッシュボードが表示されます。 この例のレポートには、2 つの異なるダッシュボードにピン留めされた視覚化があります。
 
@@ -97,7 +97,7 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 
 ## <a name="limitations-and-troubleshooting"></a>制限事項とトラブルシューティング
 * ブラウザーに十分なスペースがない場合、**[関連の表示]** のオプションは表示されませんが、関連の表示アイコン ![](media/service-related-content/power-bi-view-related-icon-new.png) は表示されます。 アイコンを選び、**[関連するコンテンツ]** ペインを開きます。
-* レポートの関連するコンテンツを開くには、[[読み取りビュー]](service-interact-with-a-report-in-reading-view.md) を表示している必要があります。
+* レポートの関連するコンテンツを開くには、[[読み取りビュー]](service-reading-view-and-editing-view.md) を表示している必要があります。
 * 関連するコンテンツは、Power BI Desktop では使用できません。
 * 関連するコンテンツの機能は、ストリーミング データセットには機能しません。
 
