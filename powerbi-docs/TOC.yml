@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: データに関する質問
       items:
-        - name: Power BI での Q&A
-          href: service-q-and-a.md
-        - name: Power BI Q&A を使用する方法
-          href: service-how-to-q-and-a.md
-        - name: 'チュートリアル: Power BI の概要 Q&A'
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Power BI Gateway - Enterprise データでの Q&A の使用 (プレビュー)
-          href: service-q-and-a-direct-query.md
-        - name: データを Power BI Q&A に適合させる方法
-          href: service-prepare-data-for-q-and-a.md
-        - name: Power BI 用の Cortana の概要
-          href: service-cortana-intro.md
-        - name: Cortana を Power BI で使用可能にする
-          href: service-cortana-enable.md
-        - name: Power BI Q&A のおすすめの質問を作成する
-          href: service-q-and-a-create-featured-questions.md
-        - name: Power BI の Q&A で質問するヒントとテクニック
-          href: service-q-and-a-tips.md
-        - name: Cortana のトラブルシューティング
-          href: service-cortana-troubleshoot.md
+        - name: 概要
+          items:
+            - name: Power BI での Q&A
+              href: power-bi-q-and-a.md
+            - name: Power BI 用の Cortana の概要
+              href: service-cortana-intro.md
+        - name: クイックスタート
+          items:
+            - name: Power BI Q&A の概要
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: チュートリアル
+          items:
+            - name: Q&A を使用して視覚化およびレポートを作成する
+              href: power-bi-tutorial-q-and-a.md
+        - name: 方法
+          items:
+            - name: Power BI Gateway - Enterprise データでの Q&A の使用 (プレビュー)
+              href: service-q-and-a-direct-query.md
+            - name: データを Power BI Q&A に適合させる方法
+              href: service-prepare-data-for-q-and-a.md
+            - name: Cortana を Power BI で使用可能にする
+              href: service-cortana-enable.md
+            - name: Power BI Q&A のおすすめの質問を作成する
+              href: service-q-and-a-create-featured-questions.md
+        - name: リソース
+          items:
+            - name: Power BI の Q&A で質問するヒントとテクニック
+              href: service-q-and-a-tips.md
+            - name: Cortana のトラブルシューティング
+              href: service-cortana-troubleshoot.md
     - name: 作業の共有
       items:
         - name: ダッシュボードとレポートを共有する方法
