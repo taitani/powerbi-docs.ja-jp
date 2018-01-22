@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI の散布図とバブル チャート (チュートリアル)
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
@@ -75,6 +75,14 @@ ms.lasthandoff: 01/03/2018
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. 必要に応じて、[視覚化の色、ラベル、タイトル、背景などの書式を設定](service-getting-started-with-color-formatting-and-axis-properties.md)します。
+
+## <a name="accessibility"></a>アクセシビリティ
+
+*マーカーの図形*を利用し、障碍のあるユーザーにとって使いやすい散布図やバブル グラフを作成できます。 
+
+マーカーの図形を選択するには、**[視覚化]** ウィンドウの **[形式]** セクションを選択し、**[図形]** セクションを展開し、マーカーの図形を選択します。
+
+![マーカーの図形](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**散布図グラフにデータ ポイントが 1 つだけ表示される**

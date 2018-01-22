@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI サービスのほとんどすべてのものを削除する
 この記事では、Power BI サービスでダッシュボード、レポート、ブック、データセット、アプリ、視覚化、ワークスペースを削除する方法について説明します。
@@ -141,7 +141,7 @@ ms.lasthandoff: 12/21/2017
 この記事では、Power BI サービスの主な構成要素を削除する方法について説明します。 しかし、Power BI で削除できるものは他にも多数あります。  
 
 * [おすすめのダッシュボードを除去する](service-dashboard-featured.md#change-the-featured-dashboard)
-* [ダッシュボードをお気に入りから外す](service-dashboard-favorite.md#unfavorite-a-dashboard)
+* [ダッシュボードをお気に入りから外す](service-dashboard-favorite.md)
 * [レポート ページを削除する](service-delete.md)
 * [ダッシュボード タイルを削除する](service-dashboard-edit-tile.md)
 * [レポートの視覚化を削除する](service-delete.md)

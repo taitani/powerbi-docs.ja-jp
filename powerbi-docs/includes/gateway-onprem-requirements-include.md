@@ -1,7 +1,7 @@
 ## <a name="requirements"></a>要件
 **最小要件:**
 
-* .NET 4.5 Framework
+* .NET 4.6 Framework
 * 64 ビット版の Windows 7 または Windows Server 2008 R2 (またはそれ以降)
 
 **推奨:**

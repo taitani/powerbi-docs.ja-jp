@@ -46,7 +46,7 @@ IT 支出分析[コンテンツ パック](service-organizational-content-pack-i
 1. [Var Plan % by Sales Region (販売地域ごとの予算との差異 %)] グラフで [**Aus and NZ** (オーストラリアとニュージーランド)] を選択して、[Var Plan by IT Area (IT エリアごとの予算との差異)] グラフに注目します。 
    
    ![](media/sample-it-spend/it3.png)
-2. ここで \**[USA]** \(米国) を選択します。 オーストラリアが総支出に占める割合は米国と比べて非常に小さいことがこれでわかります。
+2. ここで **[USA]** \(米国) を選択します。 オーストラリアが総支出に占める割合は米国と比べて非常に小さいことがこれでわかります。
    
     それでは米国に絞り込むと何がわかるでしょうか。 米国内で差異の原因となっているのは、どのカテゴリかを見てみましょう。
 
@@ -56,7 +56,7 @@ IT 支出分析[コンテンツ パック](service-organizational-content-pack-i
    
    ![](media/sample-it-spend/it4.png) 
    
-   最初の IT エリア \**[Infrastructure]** \(インフラストラクチャ) で、初期予算との差異と、最新予測値との差異で割合が大幅に変化しました。
+   最初の IT エリア **[Infrastructure]** \(インフラストラクチャ) で、初期予算との差異と、最新予測値との差異で割合が大幅に変化しました。
 
 ## <a name="ytd-spend-by-cost-elements-page"></a>[YTD Spend by Cost Elements] \(コスト要素ごとの年初来支出) ページ
 ダッシュボードに戻り、**[Var Plan %, Var LE3%]**\(予算との差異 %、LE3 との差異 %) ダッシュボード タイルに目を向けます。

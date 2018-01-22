@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI サービスの基本的な概念
 
@@ -166,7 +166,7 @@ Power BI ではブックを編集できません。 しかし、変更を加え�
 * [Excel から Power BI に発行する](service-publish-from-excel.md)
 
 
-## <a name="my-workspace"></a>マイワークスペース
+## <a name="my-workspace"></a>マイ ワークスペース
 ここまで、ワークスペースと構成要素について説明してきました。 次に、Power BI インターフェイスの別の部分について説明し、Power BI サービスのランディング ページを構成する要素を見ていきます。
 
 ![](media/service-basic-concepts/completenewest.png)
@@ -238,7 +238,8 @@ Q&A では、質問の入力を開始するとすぐに Q&A ページが表示�
 
 ## <a name="next-steps"></a>次の手順
 [Power BI の概要](service-get-started.md)  
-[Power BI のビデオ](videos.md)  
+[ナビゲーション: Power BI サービス内の移動](service-the-new-power-bi-experience.md)
+[Power BI ビデオ](videos.md)  
 [レポート エディター...紹介を見る](service-the-report-editor-take-a-tour.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

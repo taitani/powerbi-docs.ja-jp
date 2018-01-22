@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/15/2018
 ms.author: asaxton
-ms.openlocfilehash: 5f884c9c45627ee3c129daca77e38d17f1223909
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: aa4401a6c913d38e471f83b88fec351308d25870
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -56,6 +56,10 @@ Power BI Embedded は、アプリケーションの開発にビジュアルの�
 
 ISV (通常、大規模な ISV) が P SK を利用し、事前パッケージ済みの Power BI サービスだけの機能を組織内に与えたり、アプリケーションに埋め込んだりする場合もあります。 もちろん、基幹業務アプリケーションを開発し、それに分析を埋め込みたいが、事前パッケージ済み Power BI サービスは必要としない企業が A SKU の利用を決める場合もあります。
 
+### <a name="how-many-embed-tokens-can-i-create"></a>埋め込みトークンはいくつ作成できますか?
+
+PRO ライセンスの埋め込みトークンは、開発と開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、生成できる埋め込みトークンの数には上限がありません。
+
 ### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Power BI Embedded は Azure でいつから利用できますか?
 
 Power BI Embedded は現在ご利用いただけます。
@@ -87,6 +91,12 @@ Power BI Embedded は一連の API であり、開発者はこれを利用し、
 |課金 |1 時間ごと |月単位 |月単位 |
 |コミットメント  |コミットメントなし |年単位  |月単位/年単位 |
 |差別化 |柔軟性に優れ、Azure Portal で、あるいは API 経由でリソースを拡大縮小したり、停止/再開したりできる  |SharePoint Online と Microsoft Teams にコンテンツを埋め込むために使用可能 |アプリケーションの埋め込みを結合し、同じ容量で Power BI Service を使用する |
+
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure で PBIE 容量を作成するための前提条件は何ですか?
+
+- 組織のディレクトリにサインインする必要があります (MSA アカウントはサポートされていません)。
+- Power BI テナントを用意する必要があります。すなわち、ディレクトリの少なくとも 1 名のユーザーを Power BI に登録している必要があります。 
+- 組織のディレクトリに Azure サブスクリプションを用意する必要があります。
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>容量の利用を監視する方法は?
 
@@ -130,7 +140,7 @@ Power BI Embedded には時間単位のメーターが用意されています�
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Power BI Embedded の使用状況は請求書にどのように表示されますか?
 
-Power BI Embedded は、デプロイしたノードの種類に基づき、予測可能な時間レートで課金されます。
+Power BI Embedded は、デプロイしたノードの種類に基づき、予測可能な時間レートで課金されます。 リソースが有効である限り、使用していなくても課金されることにご注意ください。 課金を停止するには、自発的にリソースを一時停止する必要があります。 Azure または ARM API から一時停止できます。
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Power BI Premium を既に購入しているとき、Azure で Power BI Embedded の機能を利用したいと考えた場合、どうなりますか?
 

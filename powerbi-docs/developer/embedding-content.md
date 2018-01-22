@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI ダッシュボード、レポート、およびタイルを埋め込む
 
@@ -138,6 +138,9 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 * 開発用に個別のテナントを使う場合は、アプリ ワークスペース、ダッシュボード、およびレポートが運用環境で利用可能であることを確認する必要があります。 また、運用テナントの Azure AD でアプリケーションを作成し、手順 1 のとおり、適切なアプリにアクセス許可を割り当てたことを確認します。
 * ニーズに合う容量を購入します。 以下の表を使って、必要になる可能性がある Power BI Embedded 容量の SKU を把握できます。 詳細については、「[Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper)」 (埋め込み分析の容量計画に関するホワイト ペーパー) を参照してください。 準備ができたら、[Microsoft Azure Portal](https://portal.azure.com) で購入できます。 Power BI Embedded 容量の作成方法の詳細については、「[Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)」(Azure Portal で Power BI Embedded 容量を作成する) をご覧ください。
 
+> [!IMPORTANT]
+> 埋め込みトークンは開発と開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。
+
 | 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
 | --- | --- | --- | --- | --- | --- |
 | A1 |1 v コア |0.5 コア、3 GB の RAM |0.5 コア | 1 秒あたり 5 |1-300 |
@@ -152,6 +155,8 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
     ![容量にアプリ ワークスペースを割り当てる](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * 更新されたアプリケーションを運用環境にデプロイし、Power BI ダッシュボードとレポートの埋め込みを始めます。
+
+
 
 ## <a name="admin-settings"></a>管理の設定
 

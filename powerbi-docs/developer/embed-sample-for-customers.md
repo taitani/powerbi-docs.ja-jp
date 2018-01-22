@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 8c703b93e87ad32ab3f730979292b85a86fd53c0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 86d7a7fae9437bca3c116fb12ccf439339c1f0c0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Power BI のダッシュボード、タイル、レポートをアプリケーションに埋め込む
 顧客向けのダッシュボード、タイル、またはレポートを、Power BI .NET SDK と Power BI JavaScript API を使って Web アプリに統合する (埋め込む) 方法を説明します。 通常、これは ISV のシナリオです。
@@ -125,6 +125,9 @@ Report report = reports.Value.FirstOrDefault();
 ### <a name="create-the-embed-token"></a>埋め込みトークンを作成する
 JavaScript API から使うことができる埋め込みトークンを生成する必要があります。 埋め込みトークンは、埋め込むアイテムに固有のものです。 つまり、Power BI コンテンツを埋め込むときは常に、そのための埋め込みトークンを新しく作成する必要があります。 使う **accessLevel** など詳しくは、「[GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)」をご覧ください。
 
+> [!IMPORTANT]
+> 埋め込みトークンは開発と開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。
+
 このサンプルは、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)の **Controllers\HomeController.cs** にあります。
 
 ここでは **EmbedConfig** および **TileEmbedConfig** のクラスを作成するものとします。 これらのサンプルは、**Models\EmbedConfig.cs** および **Models\TileEmbedConfig.cs** にあります。
@@ -186,6 +189,8 @@ var embedConfig = new EmbedConfig()
     Id = report.Id
 };
 ```
+
+
 
 ## <a name="step-4---load-an-item-using-javascript"></a>ステップ 4 - JavaScript を使ってアイテムを読み込む
 JavaScript を使用して、Web ページの div 要素にダッシュ ボードを読み込むことができます。 このサンプルでは、EmbedConfig/TileEmbedConfig モデルと、ダッシュボード、タイル、またはレポートのビューを使います。 JavaScript API の使用に関する完全なサンプルについては、「[Microsoft Power BI Embedded Sample](https://microsoft.github.io/PowerBI-JavaScript/demo)」(Microsoft Power BI Embedded のサンプル) をご覧ください。

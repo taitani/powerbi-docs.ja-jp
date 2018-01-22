@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>ビジュアルからデータをエクスポートする
 ビジュアルを作成するのに使うデータを確認したい場合は、[Power BI でデータを表示](service-reports-show-data.md)するか、またはデータを Excel に .xlsx または .csv ファイルとしてエクスポートします。   
@@ -46,7 +46,7 @@ Watch では、レポート内のビジュアルの 1 つからデータをエ�
 ## <a name="from-a-visualization-in-a-report"></a>レポート内のビジュアルから
 先に進む前に、[調達の分析サンプル レポート](sample-procurement.md)を[編集ビュー](service-reading-view-and-editing-view.md)で開いてください。 [新しい空のレポート ページを追加](power-bi-report-add-page.md)します。 その後、手順に従って、集計および視覚化レベルのフィルターを追加します。
 
-1. 新しい縦棒グラフを作成します。  フィールド ウィンドウで、**"Location" > "City"** および **"Invoice" > "Discount Percent"** を選びます。   
+1. 新しい縦棒グラフを作成します。  フィールド ウィンドウで、**"Location" > "City"** および **"Invoice" > "Discount Percent"** を選びます。  場合によっては、**"Discount Percent"** も値ウェルに移動する必要があります。 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. "**Discount Percent**" の集計を **[カウント]** から **[平均]** に変更します。 値ウェルで、"**Discount Percent**" ("**Count of Discount Percent**" になっているかもしれません) の右側の矢印を選び、**[平均]** を選びます。
