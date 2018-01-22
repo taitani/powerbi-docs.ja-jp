@@ -524,6 +524,8 @@
           href: service-gateway-onprem.md
         - name: オンプレミス データ ゲートウェイの詳細
           href: service-gateway-onprem-indepth.md
+        - name: オンプレミス データ ゲートウェイの高可用性クラスター
+          href: service-gateway-high-availability-clusters.md
         - name: オンプレミス データ ゲートウェイに関してよく寄せられる質問 (FAQ)
           href: service-gateway-onprem-faq.md
         - name: オンプレミス データ ゲートウェイ (個人用モード)
@@ -766,6 +768,10 @@
           href: desktop-quick-measures.md
         - name: What if パラメーターの使用
           href: desktop-what-if.md
+        - name: ドリルスルーの使用
+          href: desktop-drillthrough.md
+        - name: 相対日付のスライサーおよびフィルターを使用する
+          href: desktop-slicer-filter-date-range.md
         - name: Power BI レポート内のアクセス性
           href: desktop-accessibility.md
         - name: グループ化とビン分割を使用
