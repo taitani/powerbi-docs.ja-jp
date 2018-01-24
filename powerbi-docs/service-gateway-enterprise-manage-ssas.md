@@ -192,7 +192,7 @@ AD 参照を実行するようにゲートウェイを構成する方法:
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>ワイルドカード (*) を使用する
+### <a name="using-wildcard-"></a>ワイルドカード (\*) を使用する
 **\[置換前] \(元の名前)** の文字列でワイルドカードを使用できます。 ワイルドカードは単独でのみ使用でき、その他の文字列パーツと併用はできません。 そのため、すべてのユーザーを取得してデータ ソースに単一の値を渡すことができます。 これは、組織内のすべてのユーザーにローカル環境内の同じユーザーを割り当てる場合に便利です。
 
 ### <a name="test-a-mapping-rule"></a>マッピング規則をテストする
