@@ -298,7 +298,7 @@
               href: service-cortana-troubleshoot.md
     - name: 作業の共有
       items:
-        - name: ダッシュボードとレポートを共有する方法
+        - name: ダッシュボードとレポートで共同作業および共有を行う方法
           href: service-how-to-collaborate-distribute-dashboards-reports.md
         - name: ダッシュボードとレポートを含むアプリをインストールして使用する
           href: service-install-use-apps.md
@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: 組織のコンテンツ パックを作成して発行する (チュートリアル)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: 同僚や他のユーザーとダッシュボードを共有する
+        - name: ダッシュボードとレポートを共有する
           href: service-share-dashboards.md
-        - name: 同僚とレポートを共有する
+        - name: フィルター処理されたレポートを共有する
           href: service-share-reports.md
         - name: Power BI から Web への公開
           href: service-publish-to-web.md
