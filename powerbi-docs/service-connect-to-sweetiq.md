@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: df80e986a4ad42018c5ba036c2e47e684dba65d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: eff79e26549ee67482a6876dc7850d2a922a4586
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>Power BI で SweetIQ に接続する
 Power BI コンテンツ パックは、SweetIQ アカウントからデータを取得し、すぐに使えるコンテンツのセットを生成して、簡単にデータを探索できるようにします。 SweetIQ コンテンツ パックを使用して、場所、一覧、評価、およびレビューに関するデータを分析します。 データは、毎日更新されるように設定されているため、監視対象のデータが常に最新の状態に保たれています。
@@ -47,7 +47,7 @@ Power BI 用 [SweetIQ コンテンツ パック](https://app.powerbi.com/groups/
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](service-q-and-a.md)してみてください。
+* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
 * ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
 * [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
 * データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。

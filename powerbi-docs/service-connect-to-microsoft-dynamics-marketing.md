@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 5ef00013299be73b809a84bfbc977a3666d7e49c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2800dc496d32c099024db0960c87912afb3b79d7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Power BI で Microsoft Dynamics Marketing に接続する
 Power BI 用 Microsoft Dynamics Marketing コンテンツ パックを使用すると、Dynamics Marketing のデータに簡単にアクセスして分析することができます。 コンテンツ パックは、OData フィードに加えて記述モデルを使用します。その際、必要なすべてのエンティティやメジャーを使用します。たとえば、プログラム、キャンペーン、マーケティング取引先担当者およびマーケティング会社、潜在顧客、潜在顧客の相互作用と潜在顧客のスコアリング、電子メール マーケティング メッセージと Web サイト、動作の監視、予算、金融取引、パフォーマンス KPI などです。 
@@ -53,7 +53,7 @@ Power BI 用 [Dynamics Marketing コンテンツ パック](https://app.powerbi.
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](service-q-and-a.md)してみてください。
+* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
 * ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
 * [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
 * データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。

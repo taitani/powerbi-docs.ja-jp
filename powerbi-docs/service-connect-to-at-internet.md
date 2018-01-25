@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: a96e4b0f20eaea1a9f9e9fc71ea2724952f61fc3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67ed59961ca5bc4b382adf105bbc5c97ff470118
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Power BI で AT Internet Bridge に接続する
 AT Internet 社が提供する統合デジタル分析プラットフォーム Analytics Suite を使用すると、データからイミディエイト値を抽出できます。 Power BI 用 AT Internet Bridge コンテンツ パックには、ユーザーのサイトに関する、訪問者、ソース、ローカライズ、およびデバイスのデータが格納されます。
@@ -50,7 +50,7 @@ Power BI 用 [AT Internet Bridge コンテンツ パック](https://app.powerbi.
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](service-q-and-a.md)してみてください。
+* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
 * ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
 * [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
 * データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 8fb0b4a10d4cd1caefb9f3731be1c264e270b943
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5ed68a3ee64803fa895ad9837fe37351163d09af
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>Power BI で Stripe に接続する
 Power BI コンテンツ パックを使用して、Power BI 内の Stripe データを視覚化および探索します。 Power BI の Stripe コンテンツ パックでは、顧客、料金、イベント、請求書に関するデータを取得します。 データには、過去 30 日間での最新の 1 万件のイベントと 5000 件の料金が含まれています。 コンテンツは、ユーザーの管理するスケジュールに従って 1 日に 1 回、自動的に更新されます。 
@@ -47,7 +47,7 @@ Power BI コンテンツ パックを使用して、Power BI 内の Stripe デ�
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](service-q-and-a.md)してみてください。
+* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
 * ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
 * [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
 * データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。

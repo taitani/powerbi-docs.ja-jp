@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 822d38dc84ca4473bae64339b8dafc1414bc856b
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d506b45cf2a5c41ab1a6d05edb233c214606a316
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Power BI で Insightly に接続する
 Insightly コンテンツ パックを使うと、Insightly CRM データを Power BI で視覚化して共有できます。 Insightly API キーを使って Power BI に接続し、CRM データからレポートやダッシュボードを作成して表示します。 Power BI があれば、新しい方法でデータを分析できます。説得力のあるグラフやチャートを作成したり、地図上に連絡先、潜在顧客、組織を表示したりできます。
@@ -47,7 +47,7 @@ Power BI 用 [Insightly コンテンツ パック](https://app.powerbi.com/getda
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](service-q-and-a.md)してみてください。
+* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
 * ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
 * [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
 * データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。

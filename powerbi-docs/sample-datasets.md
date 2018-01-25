@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 2b5568020d3d99788d4fe2288fbc468d82d4e2bf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5087e69190372fe7303fb46254885f7a7a456f70
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI で使用できるサンプル データ
 Power BI を初めて試してみたくてもデータがない場合や、  データセットはあっても Power BI の動作が (まだ) よくわからないためデータセットが壊れるのではないかと心配になる場合があります。
@@ -167,7 +167,7 @@ ObviEnce は、Microsoft Business Intelligence に重点を置いた ISV およ�
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(省略可能) Excel 自体で Excel のサンプルを表示する
 Excel ブックのデータが Power BI のデータセットやレポートにどのように変換されるのかを確認したい場合は、 Excel のサンプルを ***Excel で***開いてワークシートを調べると、理解する役に立ちます。
 
-* 最初にサンプル Excel ブックを開くと、2 つの警告が表示されることがあります。 1 つ目は、ブックが保護ビューになっていることを示します。 **[ 編集を有効にする]** を選択してください。 2 つ目は、ブックに外部データ接続があることを示します。 **[ コンテンツの有効化]** を選択してください。
+* 最初にサンプル Excel ブックを開くと、2 つの警告が表示されることがあります。 1 つ目は、ブックが保護ビューになっていることを示します。 **[編集を有効にする]** を選択してください。 2 つ目は、ブックに外部データ接続があることを示します。 **[コンテンツの有効化]** を選択してください。
 * 各ブックには、複数のシートが含まれています。 すべての Excel サンプルには視覚化を含む Power View シートが少なくとも 1 つはあるので、Power BI に Excel ファイルをインポートすると、データセット**と**レポートが作成されます。
   
    [Power View アドインを有効にする](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957)ことが必要な場合があります。

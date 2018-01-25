@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: aeb22c23b0ef22afd44592c1ceb90537878042d9
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI レポートでのグラフの並べ替え方法の変更
 Power BI レポートのほとんどの視覚エフェクトは、グラフ内のカテゴリ名のアルファベット順や、各カテゴリの数値順に、並べ替えることができます。 たとえば、このグラフは店舗名を基準に並べ替えられています。
@@ -32,11 +32,12 @@ Power BI レポートのほとんどの視覚エフェクトは、グラフ内�
 
 1. 省略記号 ([...]) を選び、**[Sort by Sales Per Sq Ft]** (平方フィートごとの売上で並べ替え) を選びます。
 2. 必要に応じて、並べ替えアイコン ![](media/power-bi-report-change-sort/sorticon.png) を選んで、**[降順]** に変更します。
-   
+
    ![](media/power-bi-report-change-sort/sortby.gif)
-   
+
    **注**: すべての視覚化が並べ替え可能なわけではありません。  たとえば、以下の視覚化は並べ替えできません: ツリーマップ、マップ、塗り分け地図、散布図、ゲージ、カード、複数行のカード、ウォーターフォール。
 
+<a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>その他の条件を使用した並べ替え
 別のフィールドまたはその他の条件を使用して、ビジュアルを並べ替えたい場合があります。  たとえば、月のアルファベット順ではなく数字順に並べ替えることや、数値を桁ごとにではなく数値全体で比較して (たとえば、0、1、20、9 ではなく、0、1、9、20 の順序で) 並べ替えることができます。  
 
@@ -52,4 +53,3 @@ Power BI レポートのほとんどの視覚エフェクトは、グラフ内�
 [Power BI - 基本的な概念](service-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

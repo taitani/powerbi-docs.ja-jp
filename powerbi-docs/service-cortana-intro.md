@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/13/2017
+ms.date: 01/13/2018
 ms.author: mihart
-ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 648880925f343032c24cda612da58ef2fdadcf80
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Cortana for Power BI を利用し、Power BI データをすばやく見つけ、表示する
 Windows 10 デバイスで Cortana を使って、ビジネスの重要な質問に対する回答を瞬時に取得できます。 Power BI と統合することにより、Cortana は Power BI のダッシュボードとレポートから重要な情報を直接取得できます。 必要なものは、Windows 10 の 2015 年 11 月以降のバージョン、Cortana、Power BI です。また、少なくとも 1 つのデータセットにアクセスできる必要があります。
@@ -70,7 +70,7 @@ Cortana に回答を見つけてもらうには、少なくとも 2 つの単語
 ### <a name="cortana-and-reports"></a>Cortana とレポート
  Cortana は、[Cortana で表示するために特別に設計されたページ](service-cortana-answer-cards.md)を含むレポートで回答を検索できます。 このような特別なレポート ページからは、単純にタイトルやキーワードで質問します。  
 
-レポートの基礎となっている技術は、[Microsoft の Power BI Q&A](service-q-and-a.md) の利用です。
+レポートの基礎となっている技術は、[Microsoft の Power BI Q&A](power-bi-q-and-a.md) の利用です。
 
 Cortana で質問すると、Power BI は、Cortana のために特別に設計されたページから回答します。 可能性のある回答は、Power BI で既に作成されている Cortana *回答カード* から、Cortana によってその場で直接決定されます。  Power BI で結果を開くだけで、回答をさらに調査できます。
 

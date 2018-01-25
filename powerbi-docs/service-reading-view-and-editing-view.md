@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI サービスのレポートの読み取りビューと編集ビュー
 Power BI サービスには、レポートを表示および操作するためのモードとして、読み取りビューと編集ビューの 2 つがあります (Power BI Desktop にはありません)。 読み取りビューはすべてのユーザーが利用でき、特にデータの*コンシューマー*向けに設計されていますが、編集ビューはレポートの*作成者*と所有者のみが利用できます。 
@@ -56,7 +56,7 @@ Power BI サービスには、レポートを表示および操作するため�
 | [レポートの**表示**オプション](power-bi-report-display-settings.md) | はい。ただし、例外がいくつかあります。 | はい、グリッド線、スナップ、ロックを含むすべてを使用できます。 |
 | [更新スケジュールの作成](refresh-data.md) | いいえ  | はい |
 | [レポートへのサブスクライブ](service-report-subscribe.md) | はい | いいえ |
-| [Q&A - レポートでの質問](service-q-and-a.md) | いいえ  | はい |
+| [Q&A - レポートでの質問](power-bi-q-and-a.md) | いいえ  | はい |
 | [利用状況指標の表示](service-usage-metrics.md) | はい、レポート キャンバスで表示できます。 | はい、レポート リスト (コンテンツ ビュー) に表示できます。 |
 | [関連の表示](service-related-content.md) | はい、レポート キャンバスで表示できます。 | はい、レポート リスト (コンテンツ ビュー) に表示できます。 |
 | [レポートの保存](service-report-save.md) | はい。ただし、**[名前を付けて保存]** を使用する場合に限ります。 | はい |

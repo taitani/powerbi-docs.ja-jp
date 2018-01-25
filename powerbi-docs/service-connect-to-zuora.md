@@ -17,40 +17,40 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 22d490a58fd522b805d9709a1e697d1d2e89df6c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 408f41e1a50b895166308fcba129d86f5c05d0e7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Power BI で Zuora に接続する
-Power BI 用 Zuora を使用すると、重要な売上、請求、およびサブスクリプションのデータを視覚化できます。 既定のダッシュボードとレポートを使用して、使用傾向の分析、請求と支払の追跡、経常収益の監視を行えます。さらに、ダッシュボードとレポートの独自のニーズに応じるためのカスタマイズも可能です。 
+Power BI 用 Zuora を使用すると、重要な売上、請求、およびサブスクリプションのデータを視覚化できます。 既定のダッシュボードとレポートを使用して、使用傾向の分析、請求と支払の追跡、経常収益の監視を行えます。さらに、ダッシュボードとレポートの独自のニーズに応じるためのカスタマイズも可能です。
 
 Power BI 用 [Zuora](https://app.powerbi.com/getdata/services/Zuora) に接続します。
 
 ## <a name="how-to-connect"></a>接続する方法
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
-   
+
    ![](media/service-connect-to-zuora/getdata.png)
 2. **[サービス]** ボックスで、 **[取得]**を選択します。
-   
+
    ![](media/service-connect-to-zuora/services.png)
 3. **[Zuora]** \> **[取得]** の順に選択します。
-   
+
    ![](media/service-connect-to-zuora/zuora.png)
 4. Zuora URL を指定します。 通常は、"https://www.zuora.com" です。[これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
-   
+
    ![](media/service-connect-to-zuora/params.png)
 5. **[認証方式]**で、 **[基本]** を選択し、ユーザー名とパスワード (大文字小文字を区別) を入力し、 **[サインイン]**を選択します。
-   
+
     ![](media/service-connect-to-zuora/creds.png)
 6. 承諾後、インポート処理が自動的に開始されます。 完了すると、ナビゲーション ウィンドウに、新しいダッシュ ボード、レポート、モデルが表示されます。 インポートされたデータを表示するダッシュボードを選択します。
-   
+
      ![](media/service-connect-to-zuora/dashboard.png)
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](service-q-and-a.md)してみてください。
+* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
 * ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
 * [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
 * データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
@@ -111,4 +111,3 @@ Zuora コンテンツ パックは、ご使用の Zuora アカウントの多数
 [Power BI の概要](service-get-started.md)
 
 [Power BI でデータを取得する](service-get-data.md)
-
