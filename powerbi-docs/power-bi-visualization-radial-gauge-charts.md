@@ -1,5 +1,5 @@
 ---
-title: "Power BI の放射状ゲージ グラフ (チュートリアル)"
+title: "チュートリアル: Power BI の放射状ゲージ グラフ"
 description: "チュートリアル: Power BI の放射状ゲージ グラフ"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Power BI の放射状ゲージ グラフ (チュートリアル)
 放射状ゲージ グラフには、1 つの円弧があり、目標/KPI に向けた進行状況を測定した 1 つの値が表示されます。  目標 (ターゲット値) は、線 (指針) で示されます。 その目標への進行状況は、網掛け表示で示されます。  また、進行状況を表す値は、円弧の内側に太字で表示されます。考えられるすべての値は、最小値 (左端の値) から最大値 (右端の値) に向けて、円弧に沿って均等に割り振られます。
@@ -39,17 +39,25 @@ ms.lasthandoff: 11/15/2017
 * 1 つの測定基準の正常性を示す。
 * ひとめでわかるように情報を表示する。
 
+### <a name="prerequisites"></a>前提条件
+ - Power BI サービスまたは Power BI Desktop
+ - 財務データのサンプル Excel ブック: [こちらから直接ダウンロードします](http://go.microsoft.com/fwlink/?LinkID=521962)。
+
 ## <a name="create-a-basic-radial-gauge"></a>基本的な放射状ゲージを作成する
-この手順について、財務サンプルを使用して説明します。 作業を進めるために、[サンプルをコンピューターにダウンロード](http://go.microsoft.com/fwlink/?LinkID=521962)し、Power BI にサインインして、**[データの取得] \> [ファイル] \> [ローカル ファイル] > [開く]** を選びます。 
+これらの手順では、Power BI サービスを使用します。 作業を進めるために、Power BI にサインインし、財務サンプルの Excel ファイルを開きます。  
 
 Will が単一のメトリック ビジュアル、ゲージ、カード、KPI を作成するところをご覧ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>手順 1: 財務サンプルの Excel ファイルを開く。
-1. [サンプルの財務 Excel ファイルをダウンロード](sample-financial-download.md)します。
-2. **[データの取得] \> [ファイル]** を選び、ファイルが保存されている場所を選んで、Power BI でファイルを開きます。 **[インポート]** を選択します。 [財務サンプル] がデータセットとしてワークスペースに追加されます。
-3. **[財務サンプル]** を選択して、探索モードで開きます。
+### <a name="step-1-open-the-financial-sample-excel-file"></a>手順 1: 財務サンプルの Excel ファイルを開く
+1. まだお持ちでない場合は、[サンプルの財務 Excel ファイルをダウンロード](sample-financial-download.md)します。 ファイルを保存した場所を忘れないようにします。
+
+2. **[データの取得] \> [ファイル]** を選択し、ファイルが保存されている場所を選んで、***Power BI サービス***でファイルを開きます。 **[インポート]** を選択します。 [財務サンプル] がデータセットとしてワークスペースに追加されます。
+
+3. **[データセット]** コンテンツ一覧から、**[財務サンプル]** を選択して、探索モードで開きます。
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>手順 2: 総売上を追跡するためにゲージを作成する
 1. **[フィールド]** ペインで、 **[総売上]**を選択します。

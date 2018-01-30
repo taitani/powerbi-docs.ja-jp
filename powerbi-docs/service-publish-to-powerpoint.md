@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: ec5d5de3d29ccbe857f6fd40320353c357e6539e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Power BI から PowerPoint にレポートをエクスポートする (プレビュー)
 Power BI では、レポートを **Microsoft PowerPoint** に発行して、Power BI レポートに基づくスライド デッキを簡単に作成できるようになりました。 **PowerPoint にエクスポート**すると、次のようになります。
 
 * Power BI レポートの各ページは、PowerPoint では個別のスライドになります
-* Power BI レポートの各ビジュアルは、PowerPoint の高解像度のイメージとしてエクスポートされます
+* Power BI レポートの各ページは、単一の高解像度のイメージとして PowerPoint にエクスポートされます
 * Power BI レポートのテキスト ボックスは、PowerPoint では編集可能なテキスト ボックスになります
 * PowerPoint に、Power BI レポートへのリンクが作成されます
 
@@ -65,7 +65,11 @@ Power BI でエクスポートした PowerPoint ファイルを開くと、便�
 2. レポートに関する有用な情報も表示されます。エクスポートされたレポートの基になっている *前回のデータ更新* 日時や、Power BI レポートを PowerPoint ファイルにエクスポートした日時を示す *ダウンロード* 日時などです。
 3. 左側のナビゲーション ウィンドウを見るとわかるように、各レポート ページは異なるスライドになっています。
 
-個々のスライドを見ると、前述のように、各ビジュアルが独立した画像になっていることがわかります。 画像をコピーし、別のスライドや他の場所に貼り付けることができます。
+個々のスライドを見ると、各ビジュアルが独立した画像になっていることがわかります。
+
+>[!NOTE]
+> レポート ページごとにビジュアルを 1 つ含める動作は、新しい動作となります。 ビジュアルごとに独立したイメージを指定していた以前の動作は、現在実装されていません。 
+ 
 
 ![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_6.png)
 
@@ -85,6 +89,7 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 * PowerPoint のページは、Power BI レポートの元のページのサイズまたは寸法に関係なく、常に標準の 9:16 サイズで作成されます。
 * Power BI テナント ドメイン外のユーザーによって所有されているレポート (組織外のユーザーが所有していて、そのユーザーから共有されているレポートなど) は、PowerPoint に発行できません。
 * 組織外の人 (つまり、Power BI テナント内にいないユーザー) とダッシュボードを共有している場合、そのユーザーは共有されたダッシュ ボードに関連付けられているレポートを PowerPoint にエクスポートできません。 たとえば、ユーザー aaron@contoso.com は david@cohowinery.com と共有することができます。しかし、david@cohowinery.com は関連付けられたレポートを PowerPoint にエクスポートできません。
+* 前述のように、各レポート ページは、PowerPoint ファイルに単一のイメージとしてエクスポートされます。 
 
 ## <a name="next-steps"></a>次の手順
 [Excel で分析](service-analyze-in-excel.md)

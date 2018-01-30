@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/12/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 955435ee526c6acae8f478539641529515e2e0a8
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 90449f79da8aed3d992b9ac8bf83ac2ac4c0f83c
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
 ## <a name="what-is-meant-by-certified"></a>*認定* とは
@@ -89,12 +89,12 @@ ms.lasthandoff: 01/17/2018
 | [強化された散布図](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | |
 | [Enlighten Aquarium](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112?src=office&tab=Overview) | |
 | [Enlighten バブル スタック](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380868) | |
+| [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960?tab=Overview) | |
 | [Enlighten スタック シャッフル](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten ワッフル グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Enlighten ワールド フラグ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
-| [フライホイール]() | |
 | [予測 TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
-| [ガント](https://store.office.com/gantt-WA104380765.aspx) |[ビデオ](https://youtu.be/qJ7s_KrGiUU) |
+| [じょうごとソース]() | || [ガント](https://store.office.com/gantt-WA104380765.aspx) |[ビデオ](https://youtu.be/qJ7s_KrGiUU) |
 | [Akvelon による階層グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
 | [ヒストグラム](https://store.office.com/histogram-chart-WA104380776.aspx) | |
 | [水平じょうご](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) |[ビデオ](https://youtu.be/SudZei68PPo) |
@@ -125,7 +125,6 @@ ms.lasthandoff: 01/17/2018
 | [トルネード チャート](https://store.office.com/tornado-chart-WA104380768.aspx) |[ビデオ](https://youtu.be/AQvd2FhRyCI) |
 | [Klaus Birringer による Ultimate Variance グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140?src=office) | |
 | [Ultimate Waterfall (無料)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | |
-| [MAQ Software による Venn ダイアグラム](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381231) | |
 | [VitaraCharts - MicroChart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381165) | |
 | [ワッフル グラフ](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049?src=office&tab=Overview) |[ビデオ](https://youtu.be/1vRqYUsm3Vk) |
 | [ワード クラウド](https://store.office.com/word-cloud-WA104380752.aspx?) |[ビデオ](https://www.youtube.com/watch?v=AblTenl9fqo) |

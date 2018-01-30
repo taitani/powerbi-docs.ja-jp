@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>ライブ接続で Q&A を有効にする
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>オンプレミス データ ゲートウェイとは  ライブ接続とは
@@ -39,9 +39,9 @@ Power BI Q&A は、データ ソースのテキスト値とスキーマ値を使
 詳細については、次のトピックを参照してください。
 
 * [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)とは
-* [Power BI Q&A の概要](service-q-and-a.md)
+* [Power BI Q&A の概要](power-bi-q-and-a.md)
 
-## <a name="enable-qa"></a>Q&A を有効する
+## <a name="enable-qa"></a>Q&A を有効にする
 データ ゲートウェイをセットアップした後、Power BI からデータに接続します。  ダッシュボードを作成します。オンプレミス データを使用するか、オンプレミス データを使用する .pbix ファイルをアップロードします。  共有されているダッシュボード、レポート、およびデータセットに、オンプレミス データが既に存在する場合もあります。
 
 1. Power BI の右上隅の歯車アイコン ![](media/service-q-and-a-direct-query/power-bi-cog.png) を選択し、**[設定]** を選択します。
@@ -55,22 +55,20 @@ Power BI Q&A は、データ ソースのテキスト値とスキーマ値を使
     ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>キャッシュされるデータとプライバシーの保護方法
-オンプレミス データに対して Q&A を有効にすると、データのサブセットがサービスにキャッシュされます。 これは、Q&A が適切なパフォーマンスで実行されることを保証するために行われます。 24 文字を超える値はキャッシュ処理から除外されます。 キャッシュは、**[Turn on Q&A for this dataset (このデータセットで Q&A を有効にする)]** をオフにして Q&A を無効にするか、データセットを削除した後、数時間以内に削除されます。
+オンプレミス データに対して Q&A を有効にすると、データのサブセットがサービスにキャッシュされます。 これは、Q&A が適切なパフォーマンスで実行されることを保証するために行われます。 24 文字を超える値は、Power BI によりキャッシュ処理から除外されます。 キャッシュは、**[Turn on Q&A for this dataset (このデータセットで Q&A を有効にする)]** をオフにして Q&A を無効にするか、データセットを削除した後、数時間以内に削除されます。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 この機能のプレビュー段階では、いくつかの制限があります。
 
-* この機能は、最初は SQL Server 2016 Analysis Services の表形式のデータ ソースでのみ使用できます。 この機能は、表形式のデータで動作するように最適化されています。 一部の機能は、多次元データ ソースでも使用できますが、この多次元に対する Q&A の完全なエクスペリエンスはまだサポートされていません。 オンプレミス データ ゲートウェイによってサポートされる他のデータ ソースは、パブリック プレビュー中に追加される予定です。
+* この機能は、最初は SQL Server 2016 Analysis Services の表形式のデータ ソースでのみ使用できます。 この機能は、表形式のデータで動作するように最適化されています。 一部の機能は、多次元データ ソースでも使用できますが、この多次元に対する Q&A の完全なエクスペリエンスはまだサポートされていません。 オンプレミス データ ゲートウェイによってサポートされる他のデータ ソースは、徐々に追加される予定です。
 * SQL Server Analysis Services で定義される行レベルのセキュリティに対する完全サポートは、パブリック プレビューの初期段階では使用できません。 Q&A で質問するときに、入力中の質問の「オート コンプリート」で、ユーザーがアクセスしたことがない文字列値が表示される可能性があります。 ただし、レポートとグラフのビジュアルではモデルに定義されている RLS が適用されるため、基になる数値データが開示されることはありません。 この動作を制御するためのオプションが、今後の更新でリリースされる予定です。
 * ライブ接続は、オンプレミス データ ゲートウェイでのみサポートされています。 結果として、これをパーソナル ゲートウェイで使用することはできません。
 
 ## <a name="next-steps"></a>次の手順
 [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
 [データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Power BI クイック インサイト](service-insights.md)  
-[Power BI クイック インサイト用のデータの最適化](service-insights-optimize.md)  
 [Power BI - 基本的な概念](service-basic-concepts.md)  
-[Power BI のダッシュボード](service-dashboards.md)  
+[Power BI Q&A の概要](power-bi-q-and-a.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

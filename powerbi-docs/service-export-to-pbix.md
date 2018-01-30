@@ -1,5 +1,5 @@
 ---
-title: "Power BI サービスからデスクトップにレポートをエクスポートする (プレビュー)"
+title: "Power BI サービスから Power BI Desktop にレポートをエクスポートする (プレビュー)"
 description: "Power BI サービスから Power BI Desktop ファイルへのレポートのダウンロード"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 30975e9192633043aed7e4196820ef34044b8fcb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI サービスからデスクトップにレポートをエクスポートする (プレビュー)
-Power BI Desktop では、レポートを保存して **[発行]** を選ぶことにより、レポートを Power BI サービスにエクスポートできます (*ダウンロード* ともいいます)。 反対の方向にもエクスポートでき、Power BI サービスから Desktop にレポートをダウンロードできます。 どちらの方向でも、エクスポートされたファイルのファイル拡張子は *.pbix* です。
+Power BI Desktop では、レポートを保存して **[発行]** を選ぶことにより、レポートを Power BI サービスにエクスポートできます (*ダウンロード* ともいいます)。 反対の方向にもエクスポートでき、Power BI サービスから Desktop にレポートをダウンロードできます。 どちらの方向でも、エクスポートされたファイルの拡張子は *.pbix* です。
 
 この記事の後半では、注意する必要のあるいくつかの制限事項と考慮事項について説明します。
 
@@ -45,14 +45,15 @@ Power BI Desktop では、レポートを保存して **[発行]** を選ぶこ�
     ![](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     Power BI サービス (app.powerbi.com) または Power BI Desktop で .pbix ファイルを開くオプションが表示されるようになります。     
-4. レポートを Desktop ですぐ開くには、**[開く]** を選びます。  まだ行っていない場合は、[Power BI Desktop をインストール](desktop-get-the-desktop.md)します。
+4. レポートを Desktop ですぐ開くには、**[開く]** を選びます。 特定の場所にファイルを保存するには、**[保存] > [名前を付けて保存]** の順に選択します。 まだ行っていない場合は、[Power BI Desktop をインストール](desktop-get-the-desktop.md)します。
    
     レポートを Desktop で開くとき、Power BI サービスのレポートで使用できる一部の機能が Desktop では使用できないという警告メッセージが表示されることがあります。
    
     ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
-5. Power BI サービスでレポートを開くには、**[保存]** を選んだ後、**[データの取得]** を使って .pbix ファイルを保存した場所に移動します。
+
+5. Power BI Desktop のレポート エディターと Power BI サービスのレポート エディターは、よく似ています。  
    
-    ![](media/service-export-to-pbix/power-bi-get-data.png)
+    ![](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 Power BI サービスからの *.pbix* ファイルのダウンロード (エクスポート) に関しては、重要な考慮事項と制限事項がいくつかあります。

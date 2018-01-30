@@ -16,18 +16,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 5ab075ede78ad5c08858878d6652e9b102a87fca
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI マップの視覚エフェクトに関するヒントとテクニック
-Power BI は Bing マップと統合されており、既定のマップ座標 (ジオコーディングと呼ばれるプロセス) が提供されているため、マップを作成できます。 正しい位置を特定するアルゴリズムも使用されますが、それが最適な推測の場合もあります。 Power BI の試行でマップの視覚化が自動的に作成されない場合は、Bing マップの機能を利用してください。  
+Power BI は Bing マップと統合されており、既定のマップ座標 (ジオコーディングと呼ばれるプロセス) が提供されているため、マップを作成できます。 正しい位置を特定するアルゴリズムも使用されますが、それが最適な推測の場合もあります。 Power BI の試行でマップの視覚化が自動的に作成されない場合は、Bing マップの機能を利用してください。 
 
-ジオコーディングの正確性を高めるために、次のヒントを使用してください。 最初の一連のヒントは、データセット自体へのアクセス権がある場合に使うものです。 次の一連のヒントは、データセットにアクセスできない場合に Power BI で実行できることです。
+ユーザーまたは管理者は、Bing がジオコーディングに使う URL へのアクセスを許可するように、ファイアウォールを更新することが必要な場合があります。  以下の URL です。
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
+
+ジオコーディングの正確性を高めるために、次のヒントを使用してください。 最初の一連のヒントは、データセット自体へのアクセス権がある場合に使うものです。 次の一連のヒントは、データセットにアクセスできない場合に Power BI で実行できることです。 最後のセットは URL の一覧です。
 
 ## <a name="what-is-sent-to-bing-maps"></a>Bing マップへの送信内容
 Power BI サービスと Power BI Desktop は、マップの視覚化を作成する必要がある地理データを Bing に送信します。 **[場所]**、**[緯度]**、**[経度]** バケットのデータ、**レポート レベル**、**ページ レベル**、**ビジュアル レベル** フィルター バケットの地理フィールドなどがあります。 厳密な送信内容はマップの種類によって異なります。 詳細については、「[Microsoft のプライバシーに関する声明](https://go.microsoft.com/fwlink/?LinkID=248686)」を参照してください。

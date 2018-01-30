@@ -15,17 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 1/17/2018
 ms.author: asaxton
-ms.openlocfilehash: f6ffc56f524da84e865d17981faddef58534c785
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: b9917b515971d16cb54a09deff1202c382eb7ef0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
 この記事では、Power BI からコンテンツを埋め込むときに発生する一般的な問題について説明します。
+
+## <a name="tools-for-troubleshooting"></a>トラブルシューティングするためのツール
+
+### <a name="fiddler-trace"></a>Fiddler のトレース
+
+[Fiddler](http://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。  クライアント コンピューターから Power BI API によるやり取りを確認できます。 これにより、エラーとその他の関連する情報が表示される場合があります。
+
+![Fiddler のトレース](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+
+### <a name="f12-in-browser-for-front-end-debugging"></a>フロント エンド デバッグにはブラウザーで F12
+
+F12 を押すと、ブラウザー内で開発者ウィンドウが起動します。 これでネットワーク トラフィックやその他の情報を見ることができます。
+
+![F12 ブラウザー デバッグ](media/embedded-troubleshoot/browser-f12.png)
+
+### <a name="extracting-error-details-from-power-bi-response"></a>Power BI 応答からエラーの詳細を抽出する
+
+このコード スニペットは、HTTP 例外からエラーの詳細を抽出する方法を示しています。
+
+```
+public static string GetExceptionText(this HttpOperationException exc)
+{
+    var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
+    exc.Request.Content, exc.Response.StatusCode, (int)exc.Response.StatusCode, exc.Response.Content);
+    if (exc.Response.Headers.ContainsKey("RequestId"))
+    {
+        var requestId = exc.Response.Headers["RequestId"].FirstOrDefault();
+        errorText += string.Format("\r\nRequestId: {0}", requestId);
+    }
+
+    return errorText;
+}
+```
+要求 ID (およびエラーの詳細をトラブルシューティングのために) をログに記録することをお勧めします。
+Microsoft サポートに連絡する際に、要求 ID を指定してください。
 
 ## <a name="app-registration"></a>アプリの登録
 
@@ -105,19 +140,6 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 Power BI Desktop から、あるいは powerbi.com 内でファイルを開き、パフォーマンスがアプリケーションまたは埋め込み API の問題として除外できる範囲であることを確認します。
 
-## <a name="tools-for-troubleshooting"></a>トラブルシューティングするためのツール
-
-### <a name="fiddler-trace"></a>Fiddler のトレース
-
-[Fiddler](http://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。  クライアント コンピューターから Power BI API によるやり取りを確認できます。 これにより、エラーとその他の関連する情報が表示される場合があります。
-
-![Fiddler のトレース](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
-
-### <a name="f12-in-browser-for-front-end-debugging"></a>フロント エンド デバッグにはブラウザーで F12
-
-F12 を押すと、ブラウザー内で開発者ウィンドウが起動します。 これでネットワーク トラフィックやその他の情報を見ることができます。
-
-![F12 ブラウザー デバッグ](media/embedded-troubleshoot/browser-f12.png)
 
 よく寄せられる質問の答えは、「[Power BI Embedded FAQ](embedded-faq.md)」でご確認いただけます。
 

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI の散布図とバブル チャート (チュートリアル)
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
@@ -30,6 +30,8 @@ ms.lasthandoff: 01/17/2018
 バブル チャートは、データ ポイントをバブルに置き換えます。バブルの*サイズ*は、データの追加のディメンションを表します。
 
 ![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+データ ポイントの数を設定することができます。  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>散布図とバブル チャートの使い分けについて
 ### <a name="scatter-charts-are-a-great-choice"></a>散布図は、次のような場合に最適な選択肢になります。
@@ -39,7 +41,7 @@ ms.lasthandoff: 01/17/2018
 * 水平軸を対数スケールに変更する。
 * ペアまたはグループになった値のセットを含むワークシート データを表示する。 散布図では、2 つの軸のスケールを独立して調整し、グループ化された値についてより多くの情報を引き出すことができます。
 * 大きなデータ セットからパターンを表示する。たとえば、線形の傾向や非線形の傾向、クラスター、外れ値を見つけることができます。
-* 時間に関係なく大量のデータ点を比較する。散布図に含めるデータが多いほど、より適切な比較を行うことができます。
+* 時間に関係なく、大量のデータ ポイントを比較する。  散布図に含めるデータが多いほど、正確に比較を行うことができます。
 
 ### <a name="bubble-charts-are-a-great-choice"></a>バブル チャートは、次のような場合に最適な選択肢になります。
 * それぞれ値のセットを含む 3 つのデータ系列で構成されたデータがある。
@@ -76,13 +78,20 @@ ms.lasthandoff: 01/17/2018
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. 必要に応じて、[視覚化の色、ラベル、タイトル、背景などの書式を設定](service-getting-started-with-color-formatting-and-axis-properties.md)します。
 
-## <a name="accessibility"></a>アクセシビリティ
+   マーカーの形をひし形、三角形、または正方形に変更することもできます。
 
-*マーカーの図形*を利用し、障碍のあるユーザーにとって使いやすい散布図やバブル グラフを作成できます。 
+   ![正方形のマーカー](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-マーカーの図形を選択するには、**[視覚化]** ウィンドウの **[形式]** セクションを選択し、**[図形]** セクションを展開し、マーカーの図形を選択します。
+4. バブル チャートに表示するデータ ポイントの数を設定する必要がある場合は、**[視覚化]** ウィンドウの **[形式]** セクションで、**[全般]** カードを展開し、**[データ ボリューム]** を調整します。 既定値は 3500 です。 
+ 
+    ![データ ボリューム](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-![マーカーの図形](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+   > [!NOTE]
+   > データ ポイントが多いほど読み込み時間が長くなるので、スケールの上限に制限のあるレポートを発行する場合は、Web とモバイルでレポートをテストし、ユーザーが望むパフォーマンスが得られることを確認する必要があります。
+
+5.   マーカーの形状を選ぶ必要がある場合は、**[図形]** カードを展開し、マーカーの形状を選びます。
+
+      ![マーカーの図形](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**散布図グラフにデータ ポイントが 1 つだけ表示される**

@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 7d9869c16b88cb410073644bdae94173b9cea023
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
 新しい視覚化が追加されます。お待ちください。
 
-また、[Office ストア](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)を参照してください。このサイトには、カスタムの視覚化が追加されており、ダウンロードしてダッシュボードやレポートに使用することができます。 自分でカスタマイズする場合は、 [独自の視覚エフェクトを作成する方法を学習し、コミュニティ サイトに追加してみてください](developer/office-store.md)。  
+また、[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) を参照してください。このサイトには、[カスタム ビジュアル](power-bi-custom-visuals.md)が追加されており、ダウンロードしてダッシュボードやレポートに使用することができます。 自分でカスタマイズする場合は、 [独自の視覚エフェクトを作成する方法を学習し、このコミュニティ サイトに追加してみてください](developer/office-store.md)。  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI で利用可能な視覚化の一覧
 これらすべての視覚化は、Power BI レポートに追加し、Q&A で指定し、ダッシュボードにピン留めできます。

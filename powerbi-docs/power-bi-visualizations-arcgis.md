@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 797b22ed6f07e64d7e4970f8f0dfe5e93a7c0ec4
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI での ArcGIS マップとの対話
 このトピックは、Power BI サービス、Desktop、またはモバイルで ArcGIS マップを "*使用する*" ユーザーを対象として書かれています。 作成者から ArcGIS マップを共有された場合、さまざまな方法でそのマップと対話できます。  ArcGIS マップの作成の詳細については、[Esri の ArcGIS マップのチュートリアル](power-bi-visualization-arcgis.md)をご覧ください。
@@ -31,7 +31,6 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 
 > [!TIP]
 > GIS は Geographic Information Science (地理情報科学) の略です。
-> 
 > 
 
 ここで使用している例は、[Esri の ArcGIS マップのチュートリアル](power-bi-visualization-arcgis.md)で作成されるものと同じ ArcGIS マップです。 このチュートリアルでは、都市別の前年の売上を調べ、ストリート ベースマップとバブル シンボルを使って、サイズと平均世帯年収の参照レイヤーを表します。 マップには、3 つのピンと 1 つのドライブ時間半径 (紫) が含まれています。
@@ -99,7 +98,7 @@ ArcGIS Maps for Power BI は、次のサービスとアプリケーションで�
 <td>はい</td>
 </tr>
 <tr>
-<td>Power BI サービス (PowerBI.com)</td>
+<td>Power BI サービス (app.powerbi.com)</td>
 <td>はい</td>
 </tr>
 <tr>

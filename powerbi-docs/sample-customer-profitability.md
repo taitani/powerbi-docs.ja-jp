@@ -15,23 +15,55 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 9a100b7d13c11a8bd066b72a570f45d0c2bc08be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82e909962a0ed1db50f2ba3729988fd7aacadc80
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI のお客様の収益性のサンプル: 使ってみる
 「お客様の収益性のサンプル」のコンテンツ パックには、マーケティング資料を製作する会社向けのダッシュボード、レポート、データセットが含まれています。 このダッシュボードは、5 つの事業部のマネージャー (経営陣とも言う)、製品、顧客、粗利益 (GM) に関する主要なメトリックを確認するために、CFO によって作成されました。 どの要因が収益性に影響を与えているかが一目で確認できます。
 
 このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、obviEnce ([www.obvience.com](http://www.obvience.com/)) が収集している匿名化された実データです。
 
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529781)することもできます。  
-![](media/sample-customer-profitability/power-bi-dash.png)
+## <a name="prerequisites"></a>前提条件
+
+このサンプルを使用するには、事前にサンプルをコンテンツ パック、.pbix ファイル、または Excel ブックとしてダウンロードしておく必要があります。
+
+### <a name="get-the-content-pack-for-this-sample"></a>このサンプルのコンテンツ パックを入手する
+
+1. Power BI サービス (app.powerbi.com) を開いてログインします。
+2. 左下隅にある **[データの取得]** を選びます。
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. **[お客様の収益性のサンプル]** を選び、**[接続]** を選びます。  
+   
+   ![データを取得](media/sample-customer-profitability/get-supplier-sample.png)
+5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 サンプルを使って Power BI を試してみます。  
+   
+   ![アスタリスク](media/sample-customer-profitability/supplier-sample-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>このサンプルの .pbix ファイルを取得する
+
+あるいは、Power BI Desktop で使用するために設計された .pbix ファイルとして、サンプルをダウンロードすることもできます。 
+
+- [お客様の収益性のサンプル](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
+
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529781)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>ダッシュボードからわかること
+
+お客様の収益性のサンプルのダッシュボードは、**[マイ ワークスペース]** の下にあります。
+
+![お客様の収益性のサンプルのダッシュボード](media/sample-customer-profitability/power-bi-dash.png)
+
 ### <a name="company-wide-dashboard-tiles"></a>会社全体のダッシュボードのタイル
 これらのタイルは、CFO にとって重要な会社メトリックの概要を提供します。  何か興味深いものがある場合は、タイルを選んで詳しいデータを確認できます。
 
@@ -94,7 +126,7 @@ Annelie の GM% は最低ですが、3 月以降、安定的に増加してい�
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Q&A で質問をすることによるデータの詳しい考察
 どの業界が Valery の最大の収益を生み出すかを判別することは分析に役立つ場合があります。 Q&A を利用してみましょう
 
-1. 上部のナビゲーション バーで **[ Power BI ]** を選択して、ダッシュボードに戻ります。
+1. 上部のナビゲーション バーで **[Power BI]** を選択して、ダッシュボードに戻ります。
 2. ダッシュボードの上部にある Q&A 質問ボックスを選択します。
    
     ![](media/sample-customer-profitability/customer4.png)
@@ -123,6 +155,8 @@ Annelie の GM% は最低ですが、3 月以降、安定的に増加してい�
 同様に他の業界を調査して、視覚化に顧客を追加し、Valery の業績の原因を理解することもできます。
 
 これは、試してみるのに安全な環境です。 変更内容を保存しないようにいつでも選択できます。 一方、保存すると、常にこのサンプルの新しいコピーに対する **データの取り込み** に進むことができます。
+
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529781)することもできます。
 
 ## <a name="next-steps-connect-to-your-data"></a>次の手順: データへの接続
 この記事から、Power BI ダッシュボード、Q&A、レポートから顧客データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータを接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、「[Power BI の概要](service-get-started.md)」をご覧ください。

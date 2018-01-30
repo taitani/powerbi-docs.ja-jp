@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -50,7 +50,7 @@ Power BI レポートは、入手した場所に応じてモバイル アプリ�
   ![横向きモードで開いている電話レポート](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>スマートフォン用に最適化されたレポートを表示する
-Power BI レポート作成者は、スマートフォン用に最適化されたレポート レイアウトを作成することができます。 レポートの一覧では、最適化されているレポートに特別なアイコンが付きます。 ![電話レポート アイコン](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Power BI レポート作成者は、スマートフォン用に最適化されたレポート レイアウトを作成することができます。 スマート フォン用に最適化されたレポート ページには機能が追加されました。たとえば、ドリルダウンしてフォーカス モードでビジュアルでの並べ替えを行ったり、[レポート ページに追加されたレポート作成者のフィルター処理](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)を行ったりできます。 レポートの一覧では、最適化されているレポートに特別なアイコン ![[電話レポート アイコン]](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png) が付きます。
 
 ![電話レポートを開く](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ Power BI レポート作成者は、スマートフォン用に最適化され�
 
 ![縦向き表示のレポート](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-レポートには、スマートフォン用に最適化されたページと最適化されていないページが混在している可能性があります。 その場合、レポートのページをめくると、ページごとに表示が縦向きから横向きに切り替わります。
+ レポートには、スマートフォン用に最適化されたページと最適化されていないページが混在している可能性があります。 その場合、レポートのページをめくると、ページごとに表示が縦向きから横向きに切り替わります。
 
 詳しくは、「[電話用に最適化されたレポートを表示して使用する](mobile-apps-view-phone-report.md)」をご覧ください。
 

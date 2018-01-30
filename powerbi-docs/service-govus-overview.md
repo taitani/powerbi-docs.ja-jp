@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/23/2018
 ms.author: davidi
-ms.openlocfilehash: 78bac79fc440f0a4efe19947ca7a6e9c53866b0a
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 2832849d887795c2af0750f01e929045f75c12fe
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -45,11 +45,24 @@ ms.lasthandoff: 12/06/2017
 * すべてのデータは、Azure SQL と Power BI 用 Blob Storage の両方で暗号化されます
 * [コンテンツ パック](service-connect-to-services.md)でのサービスへの接続
 
+## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>行政機関向けおよびパブリックの Azure Cloud Services 間の接続 
+
+Azure は複数のクラウドに分散されます。 既定では、テナントにはクラウド固有のインスタンスに対するファイアウォール規則を開くことが許可されていますが、クラウド間ネットワーキングの場合は異なり、サービス間で通信するために特定のファイアウォール規則を開く必要があります。 Power BI のお客様で、アクセスする必要があるパブリック クラウドに既存の SQL インスタンスをお持ちのお客様の場合、次のデータセンターについては Azure Government Cloud IP 空間に対する特定のファイアウォール規則を SQL で開く必要があります。
+
+* 米国政府アイオワ
+* 米国政府バージニア州
+* 米国政府テキサス
+* 米国政府アリゾナ
+
+パブリック クラウドの場合、IP 空間を使用できますが、政府機関向けクラウドの場合は、Azure サポート チケットを開いて、上記に一覧したデータ センターの IP 範囲を要求する必要があります。 
+
+
 ## <a name="limitations-of-power-bi-us-government"></a>米国政府向け Power BI の制限事項
 **Power BI サービス** の市販バージョンで利用できる機能の一部は、 **Power BI サービス** の米国政府顧客バージョンでは利用 *できません* 。 Power BI チームは米国政府顧客がこれらの機能を使用できるようにする作業を行っており、これらの機能が利用できるようになった時点でこの記事を更新します。
 
 * **米国政府向け Power BI** は **Pro** ライセンスとしてのみ利用できます。 管理ポータルで (あるいは、ユーザーとして) Power BI (無償版) ライセンスを参照するとき、それは商用 Power BI サービス クラウドで実行されます。
 * **監査** - Office 365 のセキュリティとコンプライアンス ポータルでは、監査を使用できません。
+* **Cortana の Power BI コンテンツ** - Power BI の結果は Cortana の検索結果に表示されません。たとえば、Power BI コンテンツ (ダッシュボード、レポート、アプリ) の結果や、特定のキーワードに対して Cortana 最適化レポート ページを表示する結果は表示されません。
 
 **Power BI** 無償版ライセンスがアカウントに割り当てられている場合、そのアカウントは **Power BI** サービスの商用バージョンで実行されます。**米国政府向け Power BI** サービスには含まれません。 無償版アカウントの場合、次の問題が発生することがあります。
 

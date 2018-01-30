@@ -15,15 +15,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: f349f5f987b779c33dfe1a3a93ee8bc69487110a
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の調達の分析のサンプル: 使ってみる
+
+## <a name="overview-of-the-procurement-analysis-sample"></a>調達の分析のサンプルの概要
 この業界サンプル ダッシュボードと基になるレポートは、製造会社のカテゴリと場所ごとのベンダー支出を分析します。 このサンプルでは、次の領域を調べます。
 
 * 売上が最も高いベンダー
@@ -34,16 +36,43 @@ ms.lasthandoff: 12/08/2017
 
 ![](media/sample-procurement/procurement1.png)
 
-どうしたらよいでしょうか? [Power BI サービス](https://powerbi.com)で、**[データの取得] > [サンプル] > [調達の分析のサンプル] > [接続]** に移動し、自分用のサンプル コピーを取得します。
+## <a name="prerequisites"></a>前提条件
 
-[!Note] [このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529784)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+ このサンプルを使用するには、事前にサンプルをコンテンツ パック、.pbix ファイル、または Excel ブックとしてダウンロードしておく必要があります。
+
+### <a name="get-the-content-pack-for-this-sample"></a>このサンプルのコンテンツ パックを入手する
+
+1. Power BI サービス (app.powerbi.com) を開いてログインします。
+2. 左下隅にある **[データの取得]** を選びます。
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. **[調達の分析のサンプル]** を選択し、**[接続]** を選択します。  
+  
+   ![データを取得](media/sample-procurement/procurement1a.png)
+   
+5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 
+   
+   ![アスタリスク](media/sample-procurement/procurement1b.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>このサンプルの .pbix ファイルを取得する
+
+あるいは、Power BI Desktop で使用するために設計された .pbix ファイルとして、サンプルをダウンロードすることもできます。 
+
+ * [調達の分析のサンプル](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529784)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+
 
 ## <a name="spending-trends"></a>支出傾向
 まず、カテゴリと場所ごとの支出の傾向を見てみましょう。  
 
 1. ワークスペースから **[ダッシュボード]** タブを開き、調達の分析ダッシュボードを選択します。
 2. ダッシュボード タイル **[Total Invoice by Country/Region]**(国または地域別の合計請求) を選びます。 「調達の分析のサンプル」レポートの「支出概要」ページが開きます。
-   
+
     ![](media/sample-procurement/procurement2.png)
 
 以下の点にご注意ください。
@@ -57,18 +86,18 @@ ms.lasthandoff: 12/08/2017
 メキシコでの支出分野を見てみましょう。
 
 1. グラフで、マップ内の **[Mexico]** (メキシコ) バブルを選びます。 \[Total Invoice by Sub Category] \(サブ カテゴリ別の合計請求) 縦棒グラフで、ほとんどは **\[Indirect Goods & Services]** \(間接的な商品およびサービス) サブ カテゴリに含まれることにご注意ください。
-   
+
    ![](media/sample-procurement/pbi_procsample_spendmexico.png)
 2. **[Indirect Goods & Services]** (間接的な商品およびサービス) 列にドリルダウンします。
-   
+
    * グラフの右上隅にあるドリルダウン矢印 ![](media/sample-procurement/pbi_drilldown_icon.png) を選びます。
    * **[Indirect Goods & Services]** (間接的な商品およびサービス) 列を選びます。
-     
+
       このカテゴリ全体で最も大きな支出は \[Sales & Marketing] \(営業およびマーケティング) です。
    * マップで **[Mexico]** (メキシコ) をもう一度選びます。
-     
+
       メキシコのこのカテゴリで最も大きな支出は、\[Maintenance & Repair] \(保守および修復) です。
-     
+
       ![](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. グラフの左上隅にある上向きの矢印を選んで、ドリルダウン前の状態に戻ります。
 4. もう一度矢印を選んで、ドリルダウンをオフにします。  
@@ -79,11 +108,11 @@ ms.lasthandoff: 12/08/2017
 
 1. ダッシュボード タイル **[Total Invoice, Discount % By Month]**(月別の合計請求、割引率) を選びます。 レポートが開き、「割引分析」ページが表示されます。
 2. **[Total Invoice by City]** (市区町村ごとの合計請求) ツリーマップで異なる複数の市区町村を選んで比較します。 マイアミのほとんどすべての請求は、第 1 層のベンダーからです。
-   
+
    ![](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>ベンダーの割引
-ベンダーから利用可能な割引と、最大の割引を得られる期間も見てみましょう。 
+ベンダーから利用可能な割引と、最大の割引を得られる期間も見てみましょう。
 
 ![](media/sample-procurement/procurement4.png)
 
@@ -99,7 +128,7 @@ ms.lasthandoff: 12/08/2017
 ![](media/sample-procurement/procurement5.png)
 
 ### <a name="discount-by-city"></a>市区町村ごとの割引
-探索するもう 1 つの領域は、市区町村ごとの割引です。 ツリーマップ内の各市区町村を選び、他のグラフがどのように変化するかをご確認ください。 
+探索するもう 1 つの領域は、市区町村ごとの割引です。 ツリーマップ内の各市区町村を選び、他のグラフがどのように変化するかをご確認ください。
 
 * ミズーリ州セントルイスは、2 月に合計請求の大きなスパイクがあり、4 月に割引額で大きな落ち込みがあります。
 * メキシコのメキシコシティの割引率が最高で (11.05%)、ジョージア州アトランタの割引率 (0.08%) が最低です。
@@ -118,4 +147,3 @@ ms.lasthandoff: 12/08/2017
 
 ## <a name="next-steps-connect-to-your-data"></a>次の手順: データへの接続
 この記事から、Power BI ダッシュボードおよびレポートから調達データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータに接続してください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、「[Power BI の概要](service-get-started.md)」をご覧ください。
-
