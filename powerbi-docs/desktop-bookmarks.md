@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: d09dcf28989f19fa901cb5f829e1149b9b64567f
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Power BI でブックマークを使用して詳細情報を共有し、ストーリーを作成する (プレビュー)
 Power BI の**ブックマーク**を使うと、フィルターの設定やビジュアルの状態など、レポート ページに現在構成されているビューをキャプチャし、後で保存されているブックマークを選ぶだけでその状態に戻すことができます。 
@@ -119,7 +119,7 @@ Power BI の**ブックマーク**を使うと、フィルターの設定やビ�
 
 **Spotlight** と**フォーカス** モードの違いを比較します。
 
-1. **[フォーカス モード]****** アイコンを選ぶと、1 つのビジュアルをキャンバス全体に表示できます。
+1. **フォーカス**モードでは、**フォーカスモード**アイコンを選択すると、1つのビジュアルにキャンバス全体を塗りつぶすことができます。
 2. **Spotlight** を使うと、1 つのビジュアルを元のサイズで強調できます。ページ上の他のすべてのビジュアルは透明に近くなります。 
 
 ![Spotlight とフォーカス モードの比較](media/desktop-bookmarks/bookmarks_11.png)
