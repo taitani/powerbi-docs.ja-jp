@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 713497c8c684b34cbaaeafab84a7db1fc7d14c2a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: cee6cd859507105b7fc0c7e7075478d3a876f7bb
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop で数値範囲スライサーを使用する
 **数値範囲スライサー**を使用して、データ モデルの数値列にあらゆるフィルターを適用することができます。 フィルターの種類は、数値の**範囲**、数値**以下**、数値**以上**から選択できます。 これは単純なようですが、データをフィルターするには非常に強力な方法です。

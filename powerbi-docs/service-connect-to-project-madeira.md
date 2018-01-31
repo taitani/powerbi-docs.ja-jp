@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 449f6a9363a40895a2b53c7a778ee02129facb7f
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI で Project "Madeira" に接続する
 Power BI と Project “Madeira” コンテンツ パックを使用すると、Project “Madeira” データの洞察を簡単に取得できます。 Power BI は、売上と財務の両方のデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
@@ -63,7 +63,8 @@ Power BI 用 [Project "Madeira" Analytics コンテンツ パック](https://app
 
 ## <a name="system-requirements"></a>システム要件
 Project “Madeira” データを Power BI にインポートするには、売上データと財務データの取得元であるテーブルへのアクセス許可が必要です。 コンテンツ パックに必要なすべてのテーブルは次のとおりです (大文字と小文字の区別があります)。  
-
+ 
+    ´´´ 
     - ItemSalesAndProfit  
     - ItemSalesByCustomer  
     - powerbifinance  
@@ -71,6 +72,7 @@ Project “Madeira” データを Power BI にインポートするには、売
     - SalesOpportunities  
     - SalesOrdersBySalesPerson  
     - TopCustomerOverview  
+    ´´´ 
 
 <a name="FindingParams"></a>
 

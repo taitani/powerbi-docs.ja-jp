@@ -3,7 +3,7 @@ title: "Power BI アカウントを削除する"
 description: "Power BI アカウントを削除する"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: b28ec5478ead2c2e6952f2b2a0e9e4476321440b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 2e3e7257e60cfcd92bd5091f67fb1acccb865fdf
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="closing-your-power-bi-account"></a>Power BI アカウントを削除する
 Power BI を使用しなくなった場合は、Power BI アカウントの削除を依頼することができます。  アカウントを削除すると、Power BI にサインインできなくなります。  また、Power BI にアップロード または Power BI で作成したすべての顧客データは、Power BI サービス利用規約のデータ保持ポリシーに従って削除されます。

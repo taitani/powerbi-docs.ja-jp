@@ -3,7 +3,7 @@ title: "Power BI のパスワードを忘れた場合"
 description: "Power BI のパスワードを忘れた場合"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: db51e8784e099963d8c9185bd6555d4f2637d891
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 55855d8ecfaacd9134a37e3be2e95caa13a070e3
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Power BI のパスワードを忘れた場合
 パスワードをお忘れになった場合は、次のリンクを使用してパスワードのリセットを要求することができます。

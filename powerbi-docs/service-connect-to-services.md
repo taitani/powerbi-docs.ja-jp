@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: 
 editor: 
 tags: 
 qualityfocus: no
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/29/2018
 ms.author: maggies
-ms.openlocfilehash: 484545b0c240f54e2efe73ff16ba24ebe77d247c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: caf18362c0793d0a501ced2cd3160acc8f891516
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI で使用するサービスに接続する
 Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用するさまざまなサービスに接続できます。 Power BI は最初に資格情報でサービスに接続し、それからダッシュボードと一連の Power BI レポートで Power BI アプリを作成します。Power BI レポートにはデータが自動的に表示され、ビジネスに関する洞察が視覚的に提示されます。 

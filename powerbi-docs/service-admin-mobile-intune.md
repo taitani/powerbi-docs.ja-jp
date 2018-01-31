@@ -3,7 +3,7 @@ title: "Microsoft Intune でモバイル アプリを構成する"
 description: "Microsoft Intune で Power BI モバイル アプリを構成する方法。 これには、アプリケーションを追加する方法と、展開する方法が含まれます。 また、セキュリティを管理するためにモバイル アプリケーション ポリシーを作成する方法も含まれます。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 793734acf8e5d5a11747ec850cdf0faeda8448dd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: 97f28a845be24baa7633f0cf4fcac29d4d1e74e9
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune でモバイル アプリを構成する
 Microsoft Intune を使うと、組織でデバイスとアプリケーションを管理できます。 iOS 用と Android 用の Power BI モバイル アプリケーションを Intune と統合すれば、デバイス上のアプリケーションを管理し、セキュリティを制御できるようになります。 構成ポリシーを利用すると、アクセスに暗証番号 (PIN) を必要とする項目を管理したり、アプリケーションでデータを処理する方法を制御したり、さらには、アプリが使用されていないときにアプリのデータを暗号化したりできます。

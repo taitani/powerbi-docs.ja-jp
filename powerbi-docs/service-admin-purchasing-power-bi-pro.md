@@ -3,7 +3,7 @@ title: "Power BI Pro を購入する"
 description: "Power BI Pro は、レポートの公開、ダッシュボードの共有、ワークスペースでの仕事仲間と共同作業、およびその他の関連アクティビティを行うユーザーを対象としています。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
-ms.author: asaxton
-ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.author: maghan
+ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro を購入する
 Power BI Pro は、レポートの公開や、ダッシュボードの共有のほか、ワークスペースで仕事仲間と共同作業したり、その他の関連アクティビティを行ったりするユーザーを対象としています。たとえば、次の作業を行うことができます。

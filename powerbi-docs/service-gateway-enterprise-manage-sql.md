@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 95fccd70b536a26baf93bf4735750e5599e3021f
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 8f8a090714a7dabcc189304428f03161f3d47abc
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>データ ソースの管理 - SQL Server
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加することができます。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 スケジュールされた更新または DirectQuery のどちらに対しても SQL Server データ ソースを使用できます。

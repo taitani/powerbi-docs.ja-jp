@@ -3,7 +3,7 @@ title: "SharePoint Online にレポート Web パーツを埋め込む"
 description: "Power BI の新しい SharePoint Online 用レポート Web パーツでは、対話型の Power BI レポートを SharePoint Online のページに簡単に埋め込むことができます。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,12 +17,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
-ms.author: asaxton
-ms.openlocfilehash: a60682f9da2befe5f87b11749c089f72949a8f6f
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.author: maghan
+ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 

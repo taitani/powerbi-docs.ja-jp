@@ -3,7 +3,7 @@ title: "Power BI Desktop での行レベルのセキュリティ (RLS) を理解
 description: "Power BI Desktop 内にインポートしたデータセットと DirectQuery の行レベルのセキュリティを構成する方法。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/12/2017
-ms.author: asaxton
-ms.openlocfilehash: e6b6efb976de8df6064f2eb1156237d1a1250807
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: fccb2094158ed2dffaa0a80cc5609dfbf382be30
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Power BI Desktop での行レベルのセキュリティ (RLS)
 Power BI Desktop で行レベル セキュリティ (RLS) を使用すると、特定のユーザーのデータ アクセスを制限できます。 フィルターは、行レベルでデータを制限します。 役割内でフィルターを定義できます。

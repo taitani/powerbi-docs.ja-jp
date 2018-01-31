@@ -3,7 +3,7 @@ title: "顧客向けのアプリケーションに Power BI コンテンツを�
 description: "Power BI API を使って、Web アプリに顧客向けのダッシュボード、タイル、またはレポートを統合する (埋め込む) 方法を説明します。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
-ms.author: asaxton
-ms.openlocfilehash: 86d7a7fae9437bca3c116fb12ccf439339c1f0c0
-ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
+ms.author: maghan
+ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Power BI のダッシュボード、タイル、レポートをアプリケーションに埋め込む
 顧客向けのダッシュボード、タイル、またはレポートを、Power BI .NET SDK と Power BI JavaScript API を使って Web アプリに統合する (埋め込む) 方法を説明します。 通常、これは ISV のシナリオです。

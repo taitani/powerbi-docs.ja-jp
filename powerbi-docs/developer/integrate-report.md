@@ -3,7 +3,7 @@ title: "Power BI レポートを組織向けのアプリに統合する"
 description: "Power BI API を使って Web アプリにレポートを統合する (埋め込む) 方法を説明します。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: 9ed341eb4428795bb4714ae8f1a34fd11c1bcbcd
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>レポートを組織向けのアプリに統合する
 REST API の呼び出しと Power BI JavaScript API を使って組織向けの Web アプリにレポートを統合する (埋め込む) 方法を説明します。

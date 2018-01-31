@@ -3,7 +3,7 @@ title: "Power BI 用のテンプレート コンテンツ パックをテスト�
 description: "テンプレート コンテンツ パックのテスト"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: e21d90b297687a54a2a7f1895571f56fe824b5db
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: d777dcf1b10f45a000819445e65a557be7cdd28f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Power BI 用のテンプレート コンテンツ パックをテストする
 送信して発行する前に、コンテンツ パックをテストするための複数の方法があります。  

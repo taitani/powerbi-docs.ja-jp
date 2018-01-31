@@ -3,7 +3,7 @@ title: "完全なコード リスト"
 description: "データをプッシュするチュートリアル - 完全なコード リスト"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: 137ff1157d15b5a62ab7a66f30b1ba043747f75d
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: ce495ac4089f471686b34a2d6963ba85a7cdd53d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>データセットにデータをプッシュする処理の完全なコード リスト
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。

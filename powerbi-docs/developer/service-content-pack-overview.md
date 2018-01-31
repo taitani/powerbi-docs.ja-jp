@@ -3,7 +3,7 @@ title: "Power BI サービスのコンテンツ パック プログラムの概�
 description: "コンテンツ パック認定プログラム"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maghan
-ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI サービスのコンテンツ パック プログラムの概要
 コンテンツ パックは、ユーザーがソースからすぐに洞察を得られるようにするための既定のコンテンツのセットです。 コンテンツ パックは、通常、役割、ドメイン、またはワークフローの洞察を提供する特定のビジネス シナリオに焦点を当てています。

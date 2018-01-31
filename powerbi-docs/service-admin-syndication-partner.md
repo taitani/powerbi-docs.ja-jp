@@ -3,7 +3,7 @@ title: "Power BI を O365 パートナーに追加できない"
 description: "Power BI を Office 365 シンジケート パートナーに追加できない シンジケート モデルは Office 365 で使用される購入モデルです。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: e5b2540461464e64acac4bc3b2be2e6ac5ee3f1d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 69d069ebb1620aebb90fa1a9325ab4b73726d909
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI を Office 365 パートナー サブスクリプションに追加できない
 Office 365 では、企業が独自のソリューションとバンドルおよび統合した Office 365 を再販することが可能です。購入、請求、サポートを一本化したサービスをエンド カスタマーに提供できます。

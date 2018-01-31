@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: cf69d4955e466e44cec8a081d34f2ce2f36febc2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b7b32bf24734210bda02fab9d716a15cc185c1dc
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>”Excel で分析” に関するトラブルシューティング
 ”Excel で分析” の使用中に、予期しない結果が出る場合や、機能が期待どおりに動作しない場合があります。 このページでは、”Excel で分析” の使用中に発生する一般的な問題の解決方法を説明します。

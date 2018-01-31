@@ -3,7 +3,7 @@ title: "組織内の Power BI を管理する"
 description: "組織内の Power BI を管理する"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.author: maghan
+ms.openlocfilehash: 0fd6226ca14a4b48c94e13eaae8b085381a5f9a6
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>組織内の Power BI を管理する
 ユーザーは Microsoft Power BI を使用して、データの視覚化、発見の共有、および共同作業を、直感的な新しい方法で実行できます。 詳細については、「[Power BI の概要](service-get-started.md)」を参照してください。
