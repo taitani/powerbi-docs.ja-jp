@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル: Excel と OData フィードの売上データを分析する
 **Power BI Desktop** では、あらゆる種類のデータ ソースに接続でき、さまざまに結合したり整形したりすることができます。これにより、興味深く説得力のあるデータ分析と視覚化を簡単に実現できます。 このチュートリアルでは、2 つのデータ ソースのデータを結合する方法について取り上げます。 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-このチュートリアルの手順を実行するには、製品のブックをダウンロード**:**[する必要があります。](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[ここ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[をクリックすると、](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[.](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) をダウンロードできます。
+このチュートリアルの手順を実行するには、製品のブックをダウンロード****[する必要があります。](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[ここ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[をクリックすると、](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)** をダウンロードできます[。](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
 
 **[名前を付けて保存]** ダイアログ ボックスで、ファイルに **Products.xlsx**という名前を指定します。
 
@@ -140,7 +140,7 @@ Power BI Desktop を使用すると、インポートする列に基づいて計
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>手順 5: LineTotal フィールドのデータ型を設定する
 1. **LineTotal** 列を右クリックします。
-2. **[型の変更]** を選択した後、**[10 進数] を選択します。
+2. **[型の変更]** を選択した後、**[10 進数]** を選択します。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -229,6 +229,5 @@ Power BI Desktop を使用すると、相互に強調表示したり、フィル
 * [Power BI Desktop のビデオを見る](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI フォーラムにアクセスする](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI ブログを読む](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 
