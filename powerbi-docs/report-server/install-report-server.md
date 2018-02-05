@@ -3,7 +3,7 @@ title: "Power BI レポート サーバーのインストール"
 description: "Power BI レポート サーバーのインストール方法について説明します。 "
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 01/29/2018
 ms.author: maghan
-ms.openlocfilehash: 93a91ae70a43281f9a30292adb8bcdffb3033223
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
@@ -29,7 +29,9 @@ Power BI レポート サーバーのインストール方法について説明�
 
  **ダウンロード** ![ダウンロード](media/install-report-server/download.png "ダウンロード")
 
-Power BI Report Server をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」に移動します。 Power BI Report Server 向けに最適化された Power BI Desktop については、[Microsoft ダウンロード センター](https://go.microsoft.com/fwlink/?linkid=837581)を参照してください。
+Power BI Report Server をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」に移動します。 
+
+Microsoft ダウンロード センターに移動して [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Power BI Report Server 向けに最適化 - 2017 年 10 月) をダウンロードします。
 
 ![ヒント](media/install-report-server/fyi-tip.png "ヒント") 最新のリリース ノートについては、「[Power BI Report Server - Release notes](release-notes.md)」 (Power BI レポート サーバー - リリース ノート) をご覧ください。
 

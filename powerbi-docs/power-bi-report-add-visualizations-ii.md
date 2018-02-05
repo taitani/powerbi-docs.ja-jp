@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>パート 2、Power BI レポートへの視覚化の追加 (チュートリアル)
 [パート 1](power-bi-report-add-visualizations-ii.md) では、フィールド名の横にあるチェックボックスを選んで、基本的な視覚化を作成しました。  パート 2 では、ドラッグ アンド ドロップを使用し、 **[フィールド]** ウィンドウと **[視覚化]** をウィンドウを最大限活用して、視覚化を作成および変更する方法について説明します。
+
+### <a name="prerequisites"></a>前提条件
+- [パート 1](power-bi-report-add-visualizations-ii.md)
+- Power BI サービス - 視覚エフェクトは、Power BI サービスまたは Power BI Desktop を使ってレポートに追加できます。 このチュートリアルでは Power BI サービスを使用します。 
+- 小売の分析のサンプル
 
 ## <a name="create-a-new-visualization"></a>視覚化の新規作成
 このチュートリアルでは、小売りの分析のデータセットを詳しく調べ、いくつかの主要な視覚化を作成します。
@@ -64,7 +69,6 @@ ms.lasthandoff: 11/13/2017
 ## <a name="next-steps"></a>次の手順
 * フィールド ウィンドウについて詳しくは、「[レポート エディター...紹介を見る](service-the-report-editor-take-a-tour.md)」をご覧ください。   
 * 視覚化のフィルター処理と強調表示の方法については、「[Power BI レポートのフィルターと強調表示](power-bi-reports-filters-and-highlighting.md)」をご覧ください。  
-* 集計を使用および変更する方法については、「[レポートでの集計](service-aggregates.md)」をご覧ください。  
 * 「[Power BI での視覚化](power-bi-report-visualizations.md)」をご覧ください。  
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

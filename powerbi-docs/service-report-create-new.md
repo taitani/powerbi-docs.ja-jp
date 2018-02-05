@@ -1,5 +1,5 @@
 ---
-title: "データセットから新しいレポートを作成 "
+title: "チュートリアル - データセットから新しいレポートを作成する "
 description: "データセットから新しい Power BI レポートを作成します。"
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>データセットをインポートすることによって新しい Power BI レポートを作成する
 [Power BI のレポート](service-reports.md)を読んで、次は自分のレポートを作成しようと思われるでしょう。 レポートを作成するには、さまざまな方法があります。この記事ではまず、Excel データセットからごく基本的なレポートを作成します。 レポート作成の基本を理解した後、その下にある「**次の手順**」で、より高度なレポートに関するトピックを示します。  
 
 > **ヒント**: 既存のレポートをコピーしてレポートを作成するには、「[Copy a report](power-bi-report-copy.md)」 (レポートをコピーする) を参照してください。
 > 
-> 
+### <a name="prerequisites"></a>前提条件
+- Power BI サービス (Power BI Desktop を使用したレポート作成については、[Desktop のレポート ビュー](desktop-report-view.md)に関するページをご覧ください。)   
+- 小売りの分析のサンプルのデータセット
 
 ## <a name="import-the-dataset"></a>データセットをインポートする
 この方法でのレポート作成は、データセットと空白のレポート キャンバスから始まります。 作業を進めるには、[小売の分析のサンプル Excel データセットをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529778)し、OneDrive for Business (推奨) またはローカルに保存します。
@@ -36,7 +38,7 @@ ms.lasthandoff: 11/13/2017
 1. Power BI サービスのワークスペースでレポートを作成するので、既存のワークスペースを選択するか、新しいワークスペースを作成します。
    
    ![](media/service-report-create-new/power-bi-workspaces2.png)
-2. 左側のナビゲーション バーの下部にある **[データの取得]** を選択します。
+2. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-report-create-new/power-bi-get-data3.png)
 3. **[ファイル]** を選択し、小売りの分析のサンプルを保存した場所に移動します。
@@ -83,7 +85,7 @@ CMO に対して、その他いくつかの質問に応える必要がありま�
 4. **[Time (時間)]** > **[Period (期間)]** を選択して、[Period (期間)] を **[軸]** に追加します。
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. 視覚化を並べ替えるには、省略記号を選んで、**[Sort by Period]\(期間別に並べ替え\)** を選びます。
+5. 視覚化を期間で並べ替えるには、省略記号を選んで、**[Sort by Period]\(期間別に並べ替え\)** を選びます。
 6. 次にスライサーを追加しましょう。 キャンバスの空いている領域を選択して、スライサー ![](media/service-report-create-new/power-bi-slicer-icon.png) テンプレートを選択します。 これにより、キャンバスに空のスライサーが追加されます。
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -93,12 +95,11 @@ CMO に対して、その他いくつかの質問に応える必要がありま�
 8. スライサーを使用して地区ごとのパターンや洞察を探します。
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. 視覚化の追加を続けることもできます。
+
+データの調査と視覚エフェクトの追加を続けます。 特に興味深い分析情報が見つかったら、[ダッシュボードにピン留め](service-dashboard-pin-tile-from-report.md)します。
 
 ## <a name="next-steps"></a>次の手順
-* [レポートのコピーを作成](power-bi-report-copy.md)
-* [レポートを保存](service-report-save.md)    
 * [レポートに新しいページを追加する](power-bi-report-add-page.md)  
-* [視覚化をダッシュボードにピン留めする](service-dashboard-pin-tile-from-report.md)方法の詳細    
+* [視覚化をダッシュボードにピン留めする](service-dashboard-pin-tile-from-report.md)方法の詳細   
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

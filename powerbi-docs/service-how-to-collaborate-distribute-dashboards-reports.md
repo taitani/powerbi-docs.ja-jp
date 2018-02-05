@@ -1,11 +1,11 @@
 ---
-title: "Power BI でダッシュボードとレポートの共同作業および共有を行う方法"
+title: "Power BI で共同作業および共有を行う方法"
 description: "Power BI でダッシュボード、レポート、タイルを共同作業および共有するには、いくつかの方法があります。 それぞれに利点があります。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 qualityfocus: monitoring
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/18
 ms.author: maggies
-ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートの共同作業および共有を行う方法
-ダッシュボードとレポートを作成します。 ダッシュボードやレポートで同僚と共同作業することもあります。 その場合は、他の人に、アクセス許可を与える必要があります。 それらを配布する最善の方法は何でしょう。
+ダッシュボードとレポートを作成しました。 ダッシュボードやレポートで同僚と共同作業することもあります。 その場合は、他の人に、アクセス許可を与える必要があります。 それらを配布する最善の方法は何でしょう。
 
 この記事では、Power BI で共同作業および共有を行うための以下のオプションについて比較します。 
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/06/2017
 * 誰でも表示して操作できるように Web に公開します。
 * 印刷。 
 
-どのオプションでも、ダッシュボードを共有するには [Power BI Pro](service-free-vs-pro.md) のライセンスが必要です。あるいは、コンテンツを [Premium 容量](service-premium.md)に格納する必要があります。 ライセンスの要件は、選んだオプションに応じて、ダッシュボードを表示する同僚では異なります。 次のセクションでは、詳細を説明します。 Power BI チームへのご提案は、 [Power BI コミュニティ サイト](https://community.powerbi.com/)でフィードバックをお送りください。
+どのオプションでも、ダッシュボードを共有するには [Power BI Pro](service-free-vs-pro.md) のライセンスが必要です。あるいは、コンテンツを [Premium 容量](service-premium.md)に格納する必要があります。 ライセンスの要件は、選んだオプションに応じて、ダッシュボードを表示する同僚では異なります。 次のセクションでは、詳細を説明します。 
 
 ![Power BI サービスでのアプリ](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 12/06/2017
 
 ![アプリを公開する](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) で簡単に検索してインストールすることができます。 アプリへの直接リンクをビジネス ユーザーに送信したり、ユーザーが AppSource でアプリを検索しりすることができます。 詳細については、[アプリの発行](service-create-distribute-apps.md#publish-your-app)に関するページを参照してください。 
+アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) で簡単に検索してインストールすることができます。 アプリへの直接リンクをビジネス ユーザーに送信したり、ユーザーが AppSource でアプリを検索しりすることができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 詳細については、[アプリの発行](service-create-distribute-apps.md#publish-your-app)に関するページを参照してください。 
 
 インストールしたアプリは、ブラウザーまたはモバイル デバイスで表示できます。
 
@@ -69,9 +69,7 @@ ms.lasthandoff: 12/06/2017
 
 組織外のユーザーと共有することもできます。 組織外のユーザーは、ダッシュボードを表示し、対話操作を行うことはできますが、共有することはできません。 
 
-[Power BI サービスからのダッシュ ボードの共有](service-share-dashboards.md)について、詳細を確認してください。
-
-[レポートへの直接リンクを共有](service-share-reports.md)して、ダッシュボードをバイパスすることもできます。 フィルター処理されたレポート ビューが受信者に表示されるようにリンクにフィルターを追加することができます。
+Power BI サービスからの[ダッシュボードとレポートの共有](service-share-dashboards.md)について、詳細を確認してください。 リンクにフィルターを追加して、[レポートのフィルター処理されたビューを共有](service-share-reports.md)することもできます。
 
 ## <a name="annotate-and-share-from-the-power-bi-mobile-apps"></a>Power BI モバイル アプリから注釈を付けて共有する
 iOS および Android デバイス用 Power BI モバイル アプリでは、タイル、レポート、またはビジュアルに注釈を付けて、電子メール経由で他のユーザーと共有できます。 

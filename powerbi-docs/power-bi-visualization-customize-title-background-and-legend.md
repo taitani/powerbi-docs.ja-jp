@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>視覚化のタイトル、凡例、背景をカスタマイズする (チュートリアル)
 このチュートリアルでは、視覚化をカスタマイズする、さまざまな方法について説明します。   視覚化をカスタマイズするオプションはとても多いので、そのすべてを学習する最善の方法は、[書式設定] ウィンドウ (ペイントローラー アイコンを選択) を調べることです。  その手始めとして、この記事では視覚化のタイトル、凡例、背景をカスタマイズする方法を説明します。  
@@ -33,9 +33,12 @@ Amanda が自分のレポートの視覚エフェクトをカスタマイズす�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>前提条件
+- Power BI サービスまたは Power BI Desktop
+- 小売の分析のサンプル
 
 ## <a name="customize-visualization-titles-in-reports"></a>レポートの視覚エフェクトのタイトルをカスタマイズする
-まず、app.powerbi にサインインし、[小売りの分析のサンプル](sample-datasets.md) レポートを[編集ビュー](service-interact-with-a-report-in-editing-view.md)で開きます。
+まず、Power BI サービス (app.powerbi.com) にサインインし、[小売りの分析のサンプル](sample-datasets.md) レポートを[編集ビュー](service-interact-with-a-report-in-editing-view.md)で開きます。
 
 > [!NOTE]
 > 視覚エフェクトをダッシュボードにピン留めすると、その視覚エフェクトはダッシュボード タイルになります。  それらのタイル自体も、[新しいタイトルとサブタイトル、ハイパーリンク、およびサイズの変更](service-dashboard-edit-tile.md)でカスタマイズできます。
@@ -120,7 +123,6 @@ Amanda が自分のレポートの視覚エフェクトをカスタマイズす�
 | ウォーターフォール |はい |はい |はい |
 
 ## <a name="next-steps"></a>次の手順
-[Power BI レポートでの視覚化](power-bi-report-visualizations.md)についての詳細を参照する  
 [X 軸と Y 軸のカスタマイズ](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [色と軸のプロパティのカスタマイズ](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI - 基本的な概念](service-basic-concepts.md)  

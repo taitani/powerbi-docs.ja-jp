@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI サービスからデスクトップにレポートをエクスポートする (プレビュー)
 Power BI Desktop では、レポートを保存して **[発行]** を選ぶことにより、レポートを Power BI サービスにエクスポートできます (*ダウンロード* ともいいます)。 反対の方向にもエクスポートでき、Power BI サービスから Desktop にレポートをダウンロードできます。 どちらの方向でも、エクスポートされたファイルの拡張子は *.pbix* です。
@@ -37,7 +37,7 @@ Power BI Desktop では、レポートを保存して **[発行]** を選ぶこ�
 2. メニュー バーから、**[ファイル]、[レポートのダウンロード]** の順に選択します。
    
    > [!NOTE]
-   > レポートをダウンロードするためには、レポートが 2016 年 11 月 23 日以降に [Power BI Desktop で作成されている](guided-learning/publishingandsharing.yml#step-2)か、それ以降に更新されている必要があります。 これに該当しない場合、Power BI サービスの *[レポートのダウンロード (プレビュー)]* メニュー オプションは淡色表示されます。
+   > レポートをダウンロードするには、レポートが 2016 年 11 月 23 日以降に [Power BI Desktop で作成されていて](guided-learning/publishingandsharing.yml#step-2)、かつそれ以降に更新されている必要があります。 これに該当しない場合、Power BI サービスの *[レポートのダウンロード (プレビュー)]* メニュー オプションは淡色表示されます。
    > 
    > 
 3. .pbix ファイルが作成されている間、進行状況が状態バナーに表示されます。 .pbix ファイルの準備ができると、開くか保存するように求められます。 ファイルの名前はレポートのタイトルと同じです。
@@ -59,7 +59,7 @@ Power BI Desktop では、レポートを保存して **[発行]** を選ぶこ�
 Power BI サービスからの *.pbix* ファイルのダウンロード (エクスポート) に関しては、重要な考慮事項と制限事項がいくつかあります。
 
 * ファイルをダウンロードするには、レポートの編集アクセス権限が必要です。
-* レポートが **Power BI Desktop** で作成され、 **Power BI サービス** に *発行* されているか、.pbix ファイルがサービスに *アップロード* されている必要があります。
+* レポートが **Power BI Desktop** を使って作成され、**Power BI サービス**に*発行*されているか、.pbix ファイルがサービスに*アップロード*されている必要があります。
 * レポートは、2016 年 11 月 23 日以降に更新または発行されている必要があります。 この日より前に発行されたレポートはダウンロードできません。
 * この機能は、**Power BI サービス** (コンテンツ パックを含みます) でもともと作成されたレポートには使用できません。
 * ダウンロードしたファイルを開くときは常に、最新バージョンの **Power BI Desktop** を使用する必要があります。 最新バージョンではない **Power BI Desktop** では、ダウンロードした *.pbix* ファイルを開くことができない場合があります。

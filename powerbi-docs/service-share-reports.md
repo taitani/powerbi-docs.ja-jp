@@ -1,11 +1,11 @@
 ---
-title: "Power BI のレポートを同僚と共有する"
-description: "Power BI レポートおよびフィルター処理されたレポートを組織内の同僚と共有する方法を説明します。"
+title: "Power BI のレポートをフィルター処理して同僚と共有する"
+description: "フィルター処理された Power BI レポートを組織内の同僚と共有する方法を説明します。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 featuredvideoid: 0tUwn8DHo3s
@@ -16,43 +16,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/18/2018
 ms.author: maggies
-ms.openlocfilehash: 2a7b4cc652e600b9a368f6f7eda657c06e131da3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: fff70dc8e0fa1eaafd68d5995881b2c416d4e29d
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
-# <a name="share-power-bi-reports-with-your-coworkers"></a>Power BI のレポートを同僚と共有する
-"*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI には、[レポートを使って共同作業を行ったりレポートを配布したりする方法が複数用意されており](service-how-to-collaborate-distribute-dashboards-reports.md)、共有はその 1 つにすぎません。
+# <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>フィルター処理された Power BI レポートを同僚と共有する
+"*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[レポートを使って共同作業を行ったりレポートを配布したりする方法も他にいくつか](service-how-to-collaborate-distribute-dashboards-reports.md)用意されています。
 
 共有する際、共有元と共有先の双方に [Power BI Pro ライセンス](service-free-vs-pro.md)が必要です。または、コンテンツを [Premium 容量](service-premium.md)に格納する必要があります。 Power BI チームへのご提案は、 [Power BI コミュニティ サイト](https://community.powerbi.com/)でフィードバックをお送りください。
 
-共有元のユーザーは、自分のマイ ワークスペースまたはアプリ ワークスペースから、自分と同じメール ドメインの同僚とレポートを共有できます。 同僚とレポートを共有した場合、共有先のユーザーはレポートを表示して操作することはできますが、レポートを編集することはできません。 [行レベル セキュリティ (RLS)](service-admin-rls.md) が適用されていない限り、自分のレポートに表示されるものと同じデータが同僚にも表示されます。 
+Power BI サービスのほとんどの場所から、自分と同じメール ドメインの同僚とレポートを共有できます。たとえば、[お気に入り]、[最近]、[自分と共有] (所有者が許可していれば)、[マイ ワークスペース]、または他のワークスペースから共有できます。 同僚とレポートを共有した場合、共有先のユーザーはレポートを表示して操作することはできますが、レポートを編集することはできません。 [行レベル セキュリティ (RLS)](service-admin-rls.md) が適用されていない限り、自分のレポートに表示されるものと同じデータが同僚にも表示されます。 
 
-## <a name="share-a-power-bi-report"></a>Power BI レポートを共有する
-1. Power BI サービスで、共有するレポートにリンクする少なくとも 1 つのタイルを使用して[ダッシュボードを作成します](service-dashboard-create.md)。 
-   
-    レポートだけを共有したい場合でも、最初に、レポートにリンクするダッシュボードを作成して共有する必要があります。 
-
-1. ダッシュボードの右上で、**[共有]** を選択します。
-
-     ![[共有] を選択します。](media/service-share-reports/power-bi-share-upper-right.png)
-  
-2. 目的の受信者のアドレスを指定します。 ダッシュボードについてメールを送信しない場合は、**[電子メール通知を受信者に送信する]**チェック ボックスをオフにします。
-
-     ![[電子メール通知の送信] チェック ボックスをオフにする](media/service-share-reports/power-bi-share-dont-send-mail.png)
-
-4. **[共有]**を選択します。
-
-      ダッシュボードを共有されたユーザーは、基になるレポートを表示するアクセス許可を持つようになります。 
-
-1. Power BI サービスでレポートを開き、レポート ページの URL をコピーして同僚に送信します。 
-   
-    同僚がリンクを選ぶと、Power BI で読み取り専用バージョンのレポートが開きます。
-
-## <a name="share-a-filtered-version-of-a-report"></a>フィルター処理されたバージョンのレポートを共有する
+## <a name="filter-and-share-a-report"></a>レポートのフィルター処理と共有
 フィルター処理されたバージョンのレポートを共有したい場合は、どうすればよいでしょうか。 たとえば、特定の都市や販売員、または特定の年のデータだけを表示するレポートを共有したい場合があります。 そのような場合はカスタム URL を作成します。
 
 1. [編集ビュー](service-reading-view-and-editing-view.md)でレポートを開き、フィルターを適用して、レポートを保存します。
@@ -74,11 +53,13 @@ ms.lasthandoff: 12/06/2017
    
    スラッシュ、スペース、およびアポストロフィを表すために、ブラウザーによって特殊文字が追加されるため、最終的に次のようになります。
    
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
 
-3. この URL を同僚に送信します。 
-   
-   同僚がリンクを選ぶと、Power BI で読み取り専用バージョンのフィルター処理されたレポートが開きます。
+3. [レポートを共有](service-share-dashboards.md)しますが、**[受信者に電子メールの通知を送信する]** チェック ボックスはオフにします。 
+
+    ![[レポートの共有] ダイアログ ボックス](media/service-share-reports/power-bi-share-report-dialog.png)
+
+4. 先ほど作成したフィルターを使用して、リンクを送信します。
 
 ## <a name="next-steps"></a>次の手順
 * ご意見およびご提案がある場合は、 [Power BI コミュニティ サイト](https://community.powerbi.com/)をご利用ください。

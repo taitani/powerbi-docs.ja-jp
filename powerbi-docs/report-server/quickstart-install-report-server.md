@@ -3,7 +3,7 @@ title: "クイックスタート: Power BI レポート サーバーをインス
 description: "Power BI レポート サーバー自体のインストールはすぐに終わります。 ダウンロードし、インストールして構成し、実行できるようになるまで、数分で終わります。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,22 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/28/2017
+ms.date: 01/29/2018
 ms.author: maghan
-ms.openlocfilehash: 934b4d3f2da44a161cd76d14c9f042aaf697f26d
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>クイックスタート: Power BI レポート サーバーをインストールする
 Power BI レポート サーバー自体のインストールはすぐに終わります。 ダウンロードし、インストールして構成し、実行できるようになるまで、数分で終わります。
 
-ここでは、新しいサーバーで Report Server を稼働させる場合のインストール方法について簡単に説明します。 Report Server のインストールの詳細については、「[Install Power BI Report Server](install-report-server.md)」 (Power BI レポート サーバーをインストールする) を参照してください。
+ここでは、新しいサーバーで Report Server を稼働させる場合のインストール方法について簡単に説明します。 レポート サーバーのインストールの詳細については、「[Power BI レポート サーバーのインストール](install-report-server.md)」をご覧ください。
 
  **ダウンロード** ![ダウンロード](media/quickstart-install-report-server/download.png "ダウンロード")
 
-Power BI Report Server をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」に移動します。 Power BI Report Server 向けに最適化された Power BI Desktop については、[Microsoft ダウンロード センター](https://go.microsoft.com/fwlink/?linkid=837581)を参照してください。
+Power BI Report Server をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」に移動します。 
+
+Microsoft ダウンロード センターに移動して [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Power BI Report Server 向けに最適化 - 2017 年 10 月) をダウンロードします。
 
 ![ヒント](media/quickstart-install-report-server/fyi-tip.png "ヒント") 最新のリリース ノートについては、「[Power BI Report Server - Release notes](release-notes.md)」 (Power BI レポート サーバー - リリース ノート) をご覧ください。
 

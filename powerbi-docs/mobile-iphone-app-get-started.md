@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 3e0e06f36bfd229cf482428aa983e7211dbf897c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone または iPod Touch で Power BI モバイル アプリの使用を開始する
 iPhone または iPod Touch 上の Microsoft Power BI for iOS アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
@@ -41,7 +41,7 @@ iPhone 用の Power BI アプリで、オンプレミスまたはクラウドの
 Apple App Store から iPhone または iPod Touch に [iOS アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone アプリをダウンロード")します。
 
 > [!NOTE]
-> Power BI for iOS アプリは、iOS 9.0 以降を搭載した iPhone 5 以降で実行できます。 iOS 9.0 以降を搭載した iPod Touch でも実行できます。
+> Power BI for iOS アプリは、iOS 10 以降を搭載した iPhone 5 以降で実行できます。 iOS 10 以降を搭載した iPod Touch でも実行できます。
 > 
 > 
 

@@ -1,6 +1,6 @@
 ---
-title: "Power BI のレポートとダッシュボードでのテーブルの視覚化 (チュートリアル)"
-description: "列の幅の変更など、Power BI のレポートとダッシュボードでテーブルの視覚化を使うときのヒントです。"
+title: "チュートリアル - Power BI のレポートとダッシュボードでのテーブルの視覚化 (チュートリアル)"
+description: "列の幅の変更など、Power BI のレポートとダッシュボードでテーブルの視覚化を使うときのチュートリアルです。"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Power BI のレポートとダッシュボードでのテーブルの使用 (チュートリアル)
 テーブルは、関連性のあるデータが論理的な一連の行と列に格納されたグリッドです。 ヘッダーと合計行が含まれる場合もあります。 テーブルは、1 つのカテゴリの多くの値を調べるときの定量的な比較で役に立ちます。 たとえば、次の表には**カテゴリ**に対する 5 つの異なるメジャーが表示されています。
@@ -40,11 +40,16 @@ ms.lasthandoff: 11/13/2017
 > テーブルの値が多すぎる場合は、マトリックスに変換したり、ドリルダウンを使うことを検討してください。
 > 
 > 
+## <a name="prerequisites"></a>前提条件
+ - Power BI サービスまたは Power BI Desktop
+ - 小売の分析のサンプル
+
 
 ## <a name="create-a-table"></a>テーブルを作成する
-先に進むには、Power BI にサインインして、**[データの取得] > [サンプル] > [小売りの分析のサンプル]** を選びます。 上の図のようなテーブルを作成し、品目カテゴリ別に売上高の値を表示するテーブルを作成します。
+上の図のようなテーブルを作成し、品目カテゴリ別に売上高の値を表示するテーブルを作成します。 先に進むには、Power BI サービスにサインインして、**[データの取得] \> [サンプル] \> [小売りの分析のサンプル] > [接続]** を選んでから、**[ダッシュボードに移動] を選びます。 視覚エフェクトを作成するには、データセットとレポートへの編集アクセス許可が必要です。 Power BI のサンプルはすべて編集できます。 他のユーザーから共有を受けているレポートの場合は、レポートで視覚エフェクトを作成できません。
 
-1. **[マイ ワークスペース]** で [データセット] タブを選択し、追加した小売りの分析のサンプル データセットまでスクロールします。  **レポートの作成**アイコンを選択します。
+1. 左側のナビゲーション ウィンドウから **[ワークスペース] > [マイ ワークスペース]** を選択します。    
+2. [データセット] タブを選択し、追加した小売りの分析のサンプル データセットまでスクロールします。  **レポートの作成**アイコンを選択します。
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. レポート エディターで **[項目]** > **[カテゴリ]** を選択します。  すべてのカテゴリを一覧表示するテーブルが自動的に作成されます。

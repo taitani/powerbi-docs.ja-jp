@@ -3,7 +3,7 @@ title: "Power BI に Power BI Embedded ワークスペース コレクション 
 description: "Power BI Embedded から Power BI サービスに移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 430f1d1a49e510bac66c448b2dceaad1f2537073
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 08/24/2018
+ms.author: maghan
+ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Power BI に Power BI Embedded ワークスペース コレクション コンテンツを移行する方法
 Power BI Embedded から Power BI サービスに移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。
@@ -174,14 +174,11 @@ Power BI Embedded Azure サービスから移行したコンテンツに加え�
 運用環境に移行する準備ができたら、以下の手順を実行する必要があります。
 
 * 開発用に個別のテナントを使用する場合は、アプリ ワークスペース、ダッシュボードおよびレポートが運用環境で利用可能であることを確認する必要があります。 また、運用テナントの Azure AD でアプリケーションを作成し、手順 1. のとおり、適切なアプリにアクセス許可を割り当てたことを確認する必要があります。
-* ニーズに合う容量を購入します。 その場合、「[Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper)」 (埋め込み分析の容量計画に関するホワイト ペーパー) を使用できます。これは、必要になる可能性があるものを把握するのに役立ちます。 購入する準備ができたら、[Office 365 管理センター](https://portal.office.com/adminportal/home#/catalog)内で購入できます。
-  
-  > [AZURE.INFORMATION] Power BI Premium の購入方法については、「[Power BI Premium の購入方法](../service-admin-premium-purchase.md)」を参照してください。
-  > 
-  > 
+* ニーズに合う容量を購入します。 ニーズに合った容量の大きさと種類については、[埋め込み分析の容量計画に関するホワイト ペーパー](https://aka.ms/pbiewhitepaper)をご覧ください。 Azure で[容量を購入](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)できます。
 * アプリ ワークスペースを編集し、[詳細] で Premium 容量にそれを割り当てます。
-  
+ 
     ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    
 * 更新されたアプリケーションを運用環境にデプロイし、Power BI サービスからのレポートの埋め込みを開始します。
 
 ## <a name="after-migration"></a>移行後

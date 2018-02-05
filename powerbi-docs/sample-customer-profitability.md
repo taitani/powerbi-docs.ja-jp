@@ -1,5 +1,5 @@
 ---
-title: "Power BI のお客様の収益性のサンプル: 使ってみる"
+title: "チュートリアル - Power BI のお客様の収益性のサンプル: 使ってみる"
 description: "Power BI のお客様の収益性のサンプル: 使ってみる"
 services: powerbi
 documentationcenter: 
@@ -17,20 +17,23 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 82e909962a0ed1db50f2ba3729988fd7aacadc80
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1e53fd4b22710909e300a61b4c03aae01cff8973
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI のお客様の収益性のサンプル: 使ってみる
+
+## <a name="overview-of-the-customer-profitability-sample"></a>お客様の収益性のサンプルの概要
 「お客様の収益性のサンプル」のコンテンツ パックには、マーケティング資料を製作する会社向けのダッシュボード、レポート、データセットが含まれています。 このダッシュボードは、5 つの事業部のマネージャー (経営陣とも言う)、製品、顧客、粗利益 (GM) に関する主要なメトリックを確認するために、CFO によって作成されました。 どの要因が収益性に影響を与えているかが一目で確認できます。
 
-このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、obviEnce ([www.obvience.com](http://www.obvience.com/)) が収集している匿名化された実データです。
+<<<<<<< HEAD ![](media/sample-customer-profitability/power-bi-dash.png)
+
+このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、obviEnce ([www.obvience.com](http://www.obvience.com/)) が収集している匿名化された実データです。 データは次の複数の形式で使用できます: コンテンツ パック/コンテンツ アプリ、Excel ブック、.pbix Power BI Desktop ファイル。 [サンプル データセット](sample-datasets.md)をご覧ください。
 
 ## <a name="prerequisites"></a>前提条件
-
-このサンプルを使用するには、事前にサンプルをコンテンツ パック、.pbix ファイル、または Excel ブックとしてダウンロードしておく必要があります。
+どうしたらよいでしょうか? このチュートリアルでは、Power BI サービスと "お客様の収益性" のサンプル コンテンツ パックを使用します。  これは、レポートの作業がよく似ているので、Power BI Desktop とサンプルの PBIX ファイルを使用する場合でも作業を進められるためです。 コンテンツ パックと PBIX ファイルに接続する手順については以下の通りです。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>このサンプルのコンテンツ パックを入手する
 
@@ -50,13 +53,19 @@ ms.lasthandoff: 01/24/2018
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>このサンプルの .pbix ファイルを取得する
 
-あるいは、Power BI Desktop で使用するために設計された .pbix ファイルとして、サンプルをダウンロードすることもできます。 
-
-- [お客様の収益性のサンプル](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+あるいは、Power BI Desktop で使用するために設計された .pbix ファイルとして、サンプルをダウンロードすることもできます。 [お客様の収益性のサンプル](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> 収益性のサンプル PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529781)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+<a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>このサンプルのデータソースについて詳しく調べたい場合は、[(Excel ブック)](http://go.microsoft.com/fwlink/?LinkId=529781) として使用することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+=======
+
+このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、obviEnce ([www.obvience.com](http://www.obvience.com/)) が収集している匿名化された実データです。 データは次の複数の形式で使用できます: コンテンツ パック/コンテンツ アプリ、Excel ブック、.pbix Power BI Desktop ファイル。 [サンプル データセット](sample-datasets.md)をご覧ください。
+
+### <a name="prerequisites"></a>前提条件
+どうしたらよいでしょうか? [Power BI サービス](https://powerbi.com)で、**[データの取得] > [サンプル] > [顧客収益性] > [接続]** に移動し、自分用のサンプル コピーを取得します。
+>>>>>>> def2c8e086d65b6a3fb92247175730746226ae3e
+
 
 ## <a name="what-is-our-dashboard-telling-us"></a>ダッシュボードからわかること
 
@@ -65,26 +74,64 @@ ms.lasthandoff: 01/24/2018
 ![お客様の収益性のサンプルのダッシュボード](media/sample-customer-profitability/power-bi-dash.png)
 
 ### <a name="company-wide-dashboard-tiles"></a>会社全体のダッシュボードのタイル
-これらのタイルは、CFO にとって重要な会社メトリックの概要を提供します。  何か興味深いものがある場合は、タイルを選んで詳しいデータを確認できます。
+1. Power BI サービスで、ダッシュボードを開きます。 CFO はこのダッシュボードのタイルから、自身にとって重要な、会社の高水準なメトリックに関する概要を得ることができます。  何か興味深いものがある場合は、タイルを選んで詳しいデータを確認できます。
 
-1. 粗利益は 42.5% です。
-2. 80 の顧客が存在します。
-3. 5 つの異なる製品を販売しています。
-4. 予算に対する収益差異 % が最低だったのは 2 月で、その後の 3 月は最高でした。
-5. 収益のほとんどは東部および北部の地域からです。 粗利益が予算を超えたことはなく、ER-0 と MA-0 はさらに調査を必要とします。
-6. 年間の総収益はほぼ予算どおりです。
+2. 左側にあるダッシュボードのタイルを確認します。
+
+    ![](media/sample-customer-profitability/power-bi-manager.png)
+
+- 粗利益は 42.5% です。
+- 80 の顧客が存在します。
+- 5 つの異なる製品を販売しています。
+- 予算に対する収益差異 % が最低だったのは 2 月で、その後の 3 月は最高でした。
+- 収益のほとんどは東部および北部の地域からです。 粗利益が予算を超えたことはなく、ER-0 と MA-0 はさらに調査を必要とします。
+- 年間の総収益はほぼ予算どおりです。
+
 
 ### <a name="manager-specific-dashboard-tiles"></a>マネージャー固有のダッシュボード タイル
-これらのタイルはチームのスコアカードを提供します。 CFO はマネージャーについて把握しておく必要があり、これらのタイルは GM% を使用して利益の概要を説明します。 いずれかのマネージャーに関して予期しない GM% の傾向が見られる場合は、さらに調査できます。
+ダッシュボードの右側にあるタイルには、チームのスコアカードが表示されます。 CFO はマネージャーについて把握しておく必要があり、これらのタイルは GM% を使用して利益の概要を説明します。 いずれかのマネージャーに関して予期しない GM% の傾向が見られる場合は、さらに調査できます。
 
-Annelie の GM% は最低ですが、3 月以降、安定的に増加しているのがわかります。 その一方で、Valery は GM% が大幅に低下しています。 また、Andrew は不安定な 1 年でした。 マネージャー固有のタイルのいずれかをクリックして、基になっているレポートを開きます。 レポートに含まれる 3 ページのうち、"業界の利益分析" というページが表示されます。
+![](media/sample-customer-profitability/power-bi-manager2.png)
 
-## <a name="explore-the-pages-in-the-report"></a>レポート内のページの調査
-レポートに含まれる 3 ページ:
+- Carlos を除いた経営陣全員が、既に売上目標を上回っています。 ただし、Carlos の売上実績はもっとも高い値です。 
+- Annelie の GM% は最低ですが、3 月以降、安定的に増加しているのがわかります。
+- その一方で、Valery は GM% が大幅に低下しています。 
+- また、Andrew は不安定な 1 年でした。 
 
-* "チーム スコアカード" では、5 人のマネージャーの業績とその "顧客管理手法" に焦点を合わせます。
-* "業界の利益分析" では、業界全体の状況と比較して収益性を分析する方法が提供されます。
-* "役員スコアカード" では、Cortana での表示用に書式設定されたマネージャーのそれぞれのビューが提供されます。
+## <a name="explore-the-dashboards-underlying-data"></a>ダッシュボードの基になるデータの調査
+このダッシュボードのタイルはレポートと Excel ブックにリンクされています。 
+
+### <a name="open-the-excel-online-data-source"></a>Excel Online のデータ ソースを開く
+ダッシュボード上の [Target vs Actual]\(目標と実績\)、[Year Over Year Revenue Growth]\(前年比の収益成長率\) の 2 つのタイルは、Excel ブックからピン留めされたものです。 そのためこのタイルのどちらを選択しても、Power BI によってデータ ソース、この場合は Excel Online が開かれます。
+
+![](media/sample-customer-profitability/power-bi-excel-online.png)
+
+1. Excel からピン留めされたこれらのタイルのいずれかを選択します。 Excel Online が Power BI サービス内で開かれます。
+2. ブックにはタブ 3 つ分のデータがあることに注意してください。 [収益] を開きます。
+3. Carlos がまだ目標に達していない理由を見てみましょう。  
+    a. [エグゼクティブ] のスライダーから、**[Carlos Grilo]** を選択します。   
+    b. 最初のピボットテーブルからは、Carlos がもっとも高い収益を上げている [製品] である [Primus] が、昨年と比べて 152% の減益となっていることがわかります。 また、前年比のグラフでは、ほとんどの月で予算以下になっています。  
+
+    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+
+    ![](media/sample-customer-profitability/power-bi-carlos.png)
+
+4. 調査を続けて興味のあるものが見つかったら右上隅にある **[ピン留め]**![](media/sample-customer-profitability/power-bi-excel-pin.png) を選択して、[ダッシュボードにピン留め](service-dashboard-pin-tile-from-excel.md)します。
+
+5. ダッシュボードに戻るには、ブラウザーの戻る矢印を使用します。 
+
+### <a name="open-the-underlying-power-bi-report"></a>基になる Power BI レポートを開く
+お客様の収益性サンプルのタイルは、その大部分が、基になっているお客様の収益性サンプルのレポートからピン留めされたものです。 
+
+1. これらのタイルのいずれかを選択して、読み取りビューでレポートを開きます。 
+
+2. レポートは 3 ページからなります。 レポートの下部にあるタブは、それぞれページを表します。 
+
+    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+
+    * "チーム スコアカード" では、5 人のマネージャーの業績とその "顧客管理手法" に焦点を合わせます。
+    * "業界の利益分析" では、業界全体の状況と比較して収益性を分析する方法が提供されます。
+    * "役員スコアカード" では、Cortana での表示用に書式設定されたマネージャーのそれぞれのビューが提供されます。
 
 ### <a name="team-scorecard-page"></a>「チーム スコアカード」ページ
 ![](media/sample-customer-profitability/customer2.png)
@@ -126,33 +173,35 @@ Annelie の GM% は最低ですが、3 月以降、安定的に増加してい�
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Q&A で質問をすることによるデータの詳しい考察
 どの業界が Valery の最大の収益を生み出すかを判別することは分析に役立つ場合があります。 Q&A を利用してみましょう
 
-1. 上部のナビゲーション バーで **[Power BI]** を選択して、ダッシュボードに戻ります。
-2. ダッシュボードの上部にある Q&A 質問ボックスを選択します。
-   
-    ![](media/sample-customer-profitability/customer4.png)
+1. **[レポートの編集]** を選択して、レポートを編集ビューで開きます。 編集ビューは、レポートを "所有" している場合にのみ使用できます。これは**作成者**モードと呼ばれることもあります。 もしこのレポートが所有しているものではなく、共有されているものである場合は、編集ビューで開くことはできません。
+
+2.  上部のメニューバーから、**[質問する]** を選択して Q&A 質問ボックスを開きます。
+
+    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+
 3. **「total revenue by industry for Valery (Valery の業界別合計売上)」**と入力します。 質問を入力するに従って視覚化が更新されることにご注意ください。
    
-    ![](media/sample-customer-profitability/customer5.png)
+    ![](media/sample-customer-profitability/power-bi-qna.png)
    
    流通は Valery にとって最大の売上領域です。
 
 ### <a name="dig-deeper-by-adding-filters"></a>フィルターの追加による詳しい調査
 *流通* 業界を見てみましょう。  
 
-1. ダッシュボードに戻り、Andrew の粗利益の傾向を示す面グラフを選びます。 「業界の利益分析」ページのレポートが表示されます。
-2. レポート ページで可視化が選択されていない状態で、右側のフィルター ウィンドウを展開します。 フィルター ウィンドウには、ページ レベル フィルターのみが表示されます。  
+1. [Industry Margin Analysis]\(業界の利益分析\) レポートのページを開きます。
+2. レポート ページで視覚エフェクトが選択されていない状態で、(まだ展開されていない場合は) 右側のフィルター ウィンドウを展開します。 フィルター ウィンドウには、ページ レベル フィルターのみが表示されます。  
    
    ![](media/sample-customer-profitability/power-bi-filters.png)
-3. **[Industry]** フィルターを選択し、矢印を選択して一覧を展開します。 流通業界のページ フィルターを追加してみましょう。 まず **[Select All]** チェックボックスをオフにして、すべての選択を解除します。 次に **[Distribution]** を選択します。  
+3. **[Industry]** フィルターを選択し、矢印を選択して一覧を展開します。 流通業界のページ フィルターを追加してみましょう。 まず **[Select All]** チェックボックスをオフにして、すべての選択を解除します。 次に **[運輸/物流]** だけを選択します。  
    
    ![](media/sample-customer-profitability/customer7.png)
 4. 「月および役員名別の粗利益」面グラフから、この業種の顧客を担当しているのは Valery と Tina だけで、Valery がこの業種を担当していたのは 6 月から 11 月までの間だけであることがわかります。   
 5. 「月および役員名別の粗利益」面グラフの凡例で、**[Tina]**、**[Valery]** の順に選びます。 「製品別の合計売上」の Tina の部分は、Valery と比較して非常に小さい点にご注意ください。 
-6. 実売上を確認するには、ダッシュボードに戻り、Q&A を使用して、**役員のシナリオ別の流通業の合計売上**を尋ねます。  
+6. 実売上を確認するには、Q&A を使用して、**役員のシナリオ別の流通業の合計売上**を尋ねます。  
    
-   ![](media/sample-customer-profitability/customer8.png)
+     ![](media/sample-customer-profitability/power-bi-qna2.png)
 
-同様に他の業界を調査して、視覚化に顧客を追加し、Valery の業績の原因を理解することもできます。
+    同様に他の業界を調査して、視覚化に顧客を追加し、Valery の業績の原因を理解することもできます。
 
 これは、試してみるのに安全な環境です。 変更内容を保存しないようにいつでも選択できます。 一方、保存すると、常にこのサンプルの新しいコピーに対する **データの取り込み** に進むことができます。
 

@@ -16,25 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: f2edc291c28b865eb956361cf0f9b4740f59c77c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e5435af7441a1e9b706ac4dc58b544c44a94410a
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI レポートの静的コンテンツ
-編集ビューで、Power BI サービスのレポートにテキスト ボックスおよび図形を追加します。 
+Power BI サービスと Power BI Desktop を使用すると、レポートにテキスト ボックスや図形を追加できます。 どちらの場合もレポートの編集アクセス許可が必要です。 他のユーザーからレポートの共有を受けている場合、編集ビューにアクセスすることはできません。 
 
-> **注**: Power BI Desktop で、このビデオに示すように、[静的な画像をレポートに追加](guided-learning/visualizations.yml#step-11)することもできます。
+Will が Power BI Desktop を使用して[静的な画像をレポートに追加](guided-learning/visualizations.yml#step-11)する様子をご覧ください。視聴後は下記の手順に従い、ご自身で Power BI サービスをお試しください。
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 
-> 
 
 ## <a name="add-a-text-box-to-a-report"></a>レポートにテキスト ボックスを追加する
-1. レポート キャンバス内の任意の位置にカーソルを置いて、 **[テキスト ボックス]**を選びます。
+1. レポートを編集ビューで開きます。
+
+2. レポート キャンバス内の任意の空白の位置にカーソルを置いて、**[テキスト ボックス]**を選びます。
    
    ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
 2. テキスト ボックスにテキストを入力し、必要に応じて、フォント、色、テキストの配置を書式設定します。 
@@ -43,7 +44,13 @@ ms.lasthandoff: 11/13/2017
 3. テキスト ボックスを配置するには、上部にある灰色の領域を選んでドラッグします。 また、テキスト ボックスのサイズを変更するには、アウトライン ハンドルのいずれかを選んでドラッグします。 
    
    ![](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
-4. テキスト ボックスを閉じるには、レポート キャンバス上の任意の空白領域を選びます。
+
+4. テキスト ボックスを選択したまま、[視覚化] ウィンドウでさらに書式設定を追加します。 この例では背景や罫線を書式設定しました。 サイズと位置を厳密に指定したテキスト ボックスを作成することもできます。  
+
+   ![](media/power-bi-reports-add-text-and-shapes/power-bi-borders.png)
+
+5. テキスト ボックスを閉じるには、レポート キャンバス上の任意の空白領域を選びます。 
+
 5. テキスト ボックスをダッシュボードにピン留めするには、ピン アイコン ![](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) を選びます。 
 
 ## <a name="add-a-shape-to-a-report"></a>レポートに図形を追加する
@@ -55,20 +62,15 @@ ms.lasthandoff: 11/13/2017
    **[図形の書式設定]** ウィンドウで、図形をカスタマイズします。 この例では、90° 回転された暗い赤い境界線付きの赤い矢印を作成しました。
    
    ![](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
-3. 図形を配置するには、上部にある灰色の領域を選んでドラッグします。 また、図形のサイズを変更するには、アウトライン ハンドルのいずれかを選んでドラッグします。 
+3. 図形を配置するには、上部にある灰色の領域を選んでドラッグします。 また、図形のサイズを変更するには、アウトライン ハンドルのいずれかを選んでドラッグします。 テキスト ボックスと同様に、サイズと位置を厳密に指定した図形を作成することもできます。
 
-> **注**: 図形はダッシュボードに固定表示することはできません。 
+> **注**: 図形をダッシュボードにピン留めすることはできませんが、[ライブ ページをピン留め](service-dashboard-pin-live-tile-from-report.md)するときに図形をビジュアルの 1 つにすることはできます。 
 > 
 > 
 
 ### <a name="next-steps"></a>次の手順
 [テキスト ボックスへのハイパーリンクの追加](service-add-hyperlink-to-text-box.md)
 
-[Power BI のレポート](service-reports.md)
-
-[Power BI レポートでの視覚化](power-bi-report-visualizations.md)
-
 [Power BI - 基本的な概念](service-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

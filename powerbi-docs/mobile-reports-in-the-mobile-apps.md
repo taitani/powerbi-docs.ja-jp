@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -63,7 +63,7 @@ Power BI レポート作成者は、スマートフォン用に最適化され�
 詳しくは、「[電話用に最適化されたレポートを表示して使用する](mobile-apps-view-phone-report.md)」をご覧ください。
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>スライサーを使ったレポート ページのフィルター処理
-Power BI サービス [(https://powerbi.com)](https://powerbi.com) でレポートをデザインする場合、スマートフォンでは [フィルター] ウィンドウが表示されませんが、[レポート ページにはスライサーが表示](power-bi-visualization-slicers.md)されます。 スライサーをレポートに追加すると、自分と同僚がスライサーを使用して、スマートフォンのページをフィルターすることができます。
+Power BI Desktop または Power BI サービスでレポートをデザインする際に、[レポート ページにスライサーを追加](power-bi-visualization-slicers.md)することもできます。 自分と同僚とでスライサーを使って、ブラウザーおよびモバイル アプリでページをフィルター処理できます。 スマートフォンでレポートを表示する際は、横向きモードでもスマートフォンの縦向きモードに最適化されたページでもスライサーを使って表示および操作できます。
 
 * レポート ページのスライサーで値を選択すると、ページ上の他のビジュアルがフィルターされます。
   

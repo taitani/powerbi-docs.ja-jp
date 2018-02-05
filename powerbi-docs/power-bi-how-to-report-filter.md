@@ -1,6 +1,6 @@
 ---
-title: "Power BI フィルター ウィンドウの使用方法"
-description: "レポート フィルターの使用方法"
+title: "Power BI フィルター ウィンドウの概要"
+description: "Power BI サービスと Power BI ダッシュボードのレポート フィルター ウィンドウの概要"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 14aa2a2813484c3af814332736906c2aae0e0230
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>レポート フィルター ウィンドウの使用方法
-この記事は、レポート フィルター ウィンドウについて詳しく説明します。 このウィンドウは、Power BI レポートの編集ビューと読み取りビューで表示されます。
+この記事は、レポート フィルター ウィンドウについて詳しく説明します。 [Power BI サービスの編集ビューと読み取りビュー](service-reading-view-and-editing-view.md)および [Power BI Desktop のレポート ビュー](desktop-report-view.md)にウィンドウが表示されます。
 
 Power BI でデータをフィルター処理するには、さまざまな方法があります。最初に「[フィルター処理と強調表示](power-bi-reports-filters-and-highlighting.md)」をお読みになることをおすすめします。
 
@@ -75,9 +75,9 @@ Power BI でデータをフィルター処理するには、さまざまな方�
  フィルター モードが詳細であっても基本であっても、消しゴム アイコン ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) を選択するとフィルターがリセットされます。 
 
 ## <a name="add-a-filter"></a>フィルターの追加
-* ビジュアル、ページ、ドリルスルー、またはレポートにフィルターを追加するには、編集ビューの [フィールド] ウィンドウでフィールドを選び、適切なフィルター ウェル (**[Drag fields here]\(フィールドをここにドラッグ\)** と表示されています) にドラッグします。 フィルターとしてフィールドを追加した後は、[基本フィルター] および [高度なフィルター処理] のコントロール (後述) を使用して微調整します。
+* ビジュアル、ページ、ドリルスルー、またはレポートにフィルターを追加するには、編集ビューの [フィールド] ウィンドウでフィールドを選び、適切なフィルター (**[Drag fields here]\(フィールドをここにドラッグ\)** と表示されています) にドラッグします。 フィルターとしてフィールドを追加した後は、[基本フィルター] および [高度なフィルター処理] のコントロール (後述) を使用して微調整します。
 
-新しいフィールドをビジュアル レベル フィルター領域にドラッグしてもビジュアルにフィールドは追加されませんが、この新しいフィールドでビジュアルをフィルター処理できます。 次の例では、**Chain** が新しいフィルターとしてビジュアルに追加されます。 フィルターとして **Chain** を追加しただけでは、基本フィルターまたは高度なフィルターのコントロールを使用するまでビジュアルは変化しないことに注意してください。
+- **新しいフィールドをビジュアル レベル フィルター領域にドラッグしてもビジュアルにフィールドは追加されません**が、この新しいフィールドでビジュアルをフィルター処理できます。 次の例では、**Chain** が新しいフィルターとしてビジュアルに追加されます。 フィルターとして **Chain** を追加しただけでは、基本フィルターまたは高度なフィルターのコントロールを使用するまでビジュアルは変化しないことに注意してください。
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

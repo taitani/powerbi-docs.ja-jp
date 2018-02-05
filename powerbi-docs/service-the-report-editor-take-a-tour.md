@@ -1,5 +1,5 @@
 ---
-title: "レポート エディター...紹介を見る"
+title: "クイック スタート - レポート エディター...使ってみる"
 description: "レポート エディター...紹介を見る。"
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>レポート エディター...紹介を見る
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop でのレポートの編集
 Power BI サービスのレポート エディターと Power BI Desktop のレポート エディターは、よく似ています。 ビデオでは Power BI Desktop のレポート エディターを、この記事では Power BI サービスのレポート エディターを説明します。 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>レポート*作成者*とレポート *コンシューマー*の違い
+レポートを作成し編集できるのは、レポートの所有者 (別名 "*作成者*") に限られます。 共有されたレポートを "*使用*" している場合、[読み取りビューでのみ](service-reading-view-and-editing-view.md) Power BI サービス内のレポートを開いて操作できますが、レポートの作成者が利用できるような、信頼性が高く幅広い機能のすべてを利用できるわけではありません。  
+
+レポートの読み取りビューについての詳細は、[Power BI サービスの読み取りビューと編集ビュー](service-reading-view-and-editing-view.md)に関するページをご覧ください。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Power BI サービスでは、*レポート エディター*は[編集ビュー](service-reading-view-and-editing-view.md)でのみ使用できます。 編集ビューでレポートを開くには、レポートの所有者である必要があります。
+Power BI サービスでは、*レポート エディター*は[編集ビュー](service-reading-view-and-editing-view.md)でのみ使用できます。 編集ビューでレポートを開くには、レポートの所有者、つまり作成者である必要があります。
 
 Power BI レポート エディターは、3 つのセクションで構成されています。  
 
@@ -87,7 +93,9 @@ Power BI サービスの分析ウィンドウでは、視覚化に動的な基�
 
 - - -
 ## <a name="the-filters-pane"></a>フィルター ウィンドウ
-ページ、レポート、ドリルスルー、ビジュアル レベルのフィルターを表示、設定、変更します。
+フィルター ウィンドウを使うと、ページ、レポート、ドリルスルーおよびビジュアルの各レベルでレポートの固定フィルターの閲覧、設定、変更ができます。 そうです。ビジュアルの要素を選ぶか、スライサーのようなツールを使うと、レポート ページとビジュアルに対してアドホック フィルター処理ができますが、フィルター ウィンドウを使うと、フィルターの状態はレポートとともに保存されます。 
+
+フィルター ウィンドウにはもう 1 つ強力な機能があります。それは***レポート内のビジュアルでまだ使われていない***フィールドを使ったフィルター処理の機能です。 説明しましょう。 レポート ページを作成するときに、Power BI は視覚エフェクトで使用しているすべてのフィールドを、フィルター ウィンドウのビジュアル レベル フィルター領域に自動的に追加します。  ただし、視覚エフェクトで現在使用されていないフィールドを使うビジュアル フィルター、ページ フィルター、ドリルスルー フィルター、レポート フィルターを設定する場合は、フィルター バケットの 1 つにそれをドラッグします。   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -125,11 +133,7 @@ Power BI サービスの分析ウィンドウでは、視覚化に動的な基�
 ## <a name="next-steps"></a>次の手順:
 [レポートの作成](service-report-create-new.md)
 
-[レポートの編集](service-interact-with-a-report-in-editing-view.md)
-
-[Power BI のレポート](service-reports.md)で詳細を確認する
-
-[Power BI の概要](service-get-started.md)
+[Power BI サービス](service-reports.md)、[Power BI Desktop](desktop-report-view.md)、[Power BI Mobile](mobile-apps-view-phone-report.md) の各レポートについての詳細をご覧ください。
 
 [Power BI - 基本的な概念](service-basic-concepts.md)
 

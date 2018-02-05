@@ -17,8 +17,8 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 19795cc3dd04fbba8db9c154631751f7dbe6a2ef
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1c9be142c7d72950052b152cf7db1aaee54fe453
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/24/2018
@@ -34,7 +34,7 @@ ms.lasthandoff: 01/24/2018
 
 ![](media/sample-human-resources/hr1.png)
 
-このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、obviEnce ([www.obvience.com](http://www.obvience.com/)) が収集している匿名化された実データです。
+このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、obviEnce ([www.obvience.com](http://www.obvience.com/)) が収集している匿名化された実データです。 データは次の複数の形式で使用できます: コンテンツ パック/コンテンツ アプリ、Excel ブック、.pbix Power BI Desktop ファイル。 詳細については、[サンプル データセット](sample-datasets.md)をご覧ください。
 
 ## <a name="prerequisites"></a>前提条件
 

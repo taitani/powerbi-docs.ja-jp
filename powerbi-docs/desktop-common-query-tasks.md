@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a707a7b590804d24d60d17590408afbdf8f81f4c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: ef2e89ba2bac451ce0230829bbf4aa0b60713899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop での一般的なクエリ タスク
 Power BI Desktop の **クエリ エディター** ウィンドウで作業するとき、一般的に使用される多数のタスクがあります。 このドキュメントでは、それらの一般的なタスクについて説明し、追加情報へのリンクを示します。 
@@ -69,7 +69,7 @@ Power BI Desktop のデータに接続するには、リボンの **[ホーム]*
 Power BI Desktop 内のデータに接続する方法を示すステップごとの実例については、「[Power BI Desktop におけるデータへの接続](https://powerbi.uservoice.com/knowledgebase/articles/471635)」をご覧ください。
 
 ## <a name="shape-and-combine-data"></a>データの整形と結合
-クエリ エディターを使用すると、データの整形と結合を簡単に行うことができます。 このセクションでは、データを整形する方法を示すいくつかの例を示します。 データを整形および結合する方法を示す、より詳しい実例は、[Power BI Desktop でのデータの整形と結合](https://powerbi.uservoice.com/knowledgebase/articles/471644)」を参照してください。
+クエリ エディターを使用すると、データの整形と結合を簡単に行うことができます。 このセクションでは、データを整形する方法を示すいくつかの例を示します。 データを整形および結合する方法を示す、より詳しい実例は、「**[Power BI Desktop でのデータの整形と結合](https://powerbi.uservoice.com/knowledgebase/articles/471644)**」をご覧ください。
 
 前のセクションでは、Excel ブックと Web リソースという 2 組のデータに接続しました。 クエリ エディターに読み込まれると、選択した Web ページから ([クエリ エディター] ウィンドウの左側の **[クエリ]** ウィンドウにある使用可能なクエリの一覧から)、クエリに関して以下が表示されます。
 

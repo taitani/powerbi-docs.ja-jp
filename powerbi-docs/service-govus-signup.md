@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: b2750766e46ad0be2ec455f7c74cfa5adb9bd17e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8ff1d5be4e360aa5afb8b6bd704f3426957466ef
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI サービスに米国政府組織を登録する
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -111,7 +111,7 @@ Power BI **無償版**ライセンスから **米国政府向け Power BI** に�
 
 無償版ライセンスと米国政府 Pro ライセンスが混在しているとき、*ホワイトリストに登録する*と、次のことが予想されます。
 
-***ホワイトリスト*に登録する前**:
+*** ホワイトリスト * に登録する前 **:
 
 * 無償版ライセンスのユーザーは商用クラウドで実行されます
 * 米国政府 Pro ライセンスがポータルに表示され、管理者はそのライセンスをユーザーに割り当てることができます。 管理者が米国政府 Pro ライセンスを割り当てた後、米国政府 Pro ライセンス ユーザーが無償版ライセンスのデータを失うことはありません。 ライセンスが割り当てられたユーザーは米国政府顧客向け Power BI Pro の機能にアクセスできますが、テナントが*ホワイトリストに登録される*まで、次の一覧にあるように機能が制限されます。
@@ -121,7 +121,7 @@ Power BI **無償版**ライセンスから **米国政府向け Power BI** に�
   * PBIX ファイルを商用 Power BI サービスから手動でアップロードする必要があります
   * Power BI モバイル アプリを使用できません
 
-***ホワイトリスト*に登録した後**:
+*** ホワイトリスト * に登録した後 **:
 
 * 商用 Power BI サービスで実行されている無償版ユーザーはそのまま実行を続行できますが、想定どおり認証は停止されます。
 * 米国政府クラウドで実行されている Pro ユーザーは**米国政府顧客向け Power BI** サービスを想定どおり使用できます。

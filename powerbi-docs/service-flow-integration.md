@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: edae145e8eef6dfe7a2c4cea3a7f467f6f7961a9
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow と Power BI
 
@@ -35,7 +35,9 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Power BI データ アラートでトリガーされるフローを作成する
-このチュートリアルでは、フローをテンプレートから作成する方法とゼロから作成する方法について説明します。 この手順を実行するには、[Power BI でデータ アラートを作成し](service-set-data-alerts.md)、[Microsoft Flow にサインアップしてください](https://flow.microsoft.com/en-us/#home-signup) (サインアップは無料です)。
+
+### <a name="prerequisites"></a>前提条件
+このチュートリアルでは、フローをテンプレートから作成する方法とゼロから作成する方法について説明します。 この手順を実行するには、[Power BI でデータ アラートを作成し](service-set-data-alerts.md)、無料の Slack アカウントを作成してから [Microsoft Flow にサインアップしてください](https://flow.microsoft.com/en-us/#home-signup) (サインアップは無料です)。
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Power BI を使用するフローをテンプレートから作成する
 このタスクでは、テンプレートを使用して、Power BI データ アラート (通知) でトリガーされる単純なフローを作成します。
@@ -47,39 +49,40 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
 3. **[テンプレートから作成]** を選択します。
    
     ![](media/service-flow-integration/power-bi-template.png)
-4. [検索] ボックスを使用して Power BI テンプレートを検索し、**[Post a message to a Slack channel when a Power BI data alert is triggered]** (Power BI データ アラートがトリガーされた場合にメッセージを Slack チャネルに投稿する) を選択します。
+4. [検索] ボックスを使用して Power BI テンプレートを検索し、**[Power BI データ アラートがトリガーされたときに対象ユーザーにメールを送信する] > [続行]** の順に選択します。
    
-    ![](media/service-flow-integration/power-bi-template2.png)
-5. **[このテンプレートを使用]** を選択します。
-   
-   ![](media/service-flow-integration/power-bi-use-template.png)
-6. メッセージが表示されたら **[サインイン]** を選択して Slack と Power BI に接続し、画面の指示に従います。 サインインすると、緑色のチェックマークが表示されます。  接続を確認したら、**[続行]** を選択します。
-   
-   ![](media/service-flow-integration/power-bi-flow-signin.png)
+    ![](media/service-flow-integration/power-bi-flow-alert.png)
+
 
 ### <a name="build-the-flow"></a>フローを構築する
-このテンプレートには、1 つのトリガー (アイルランドが新しいオリンピック メダルを獲得するとトリガーされる Power BI データ アラート) と、1 つのアクション (メッセージを Slack に投稿する) が含まれています。 Flow でフィールドを選択すると、含めることができる動的なコンテンツが表示されます。  この例では、メッセージの本文にタイル値とタイル URL を含めています。
+このテンプレートには、1 つのトリガー (アイルランドが新しいオリンピック メダルを獲得するとトリガーされる Power BI データ アラート) と、1 つのアクション (メールを送信する) が含まれています。 Flow でフィールドを選択すると、含めることができる動的なコンテンツが表示されます。  この例では、メッセージの本文にタイル値とタイル URL を含めています。
 
-![](media/service-flow-integration/power-bi-flow-template.png)
+![](media/service-flow-integration/power-bi-template1.png)
 
 1. トリガーのドロップダウンから Power BI データ アラートを選択します。 **[アイルランドが新しいメダルを獲得]** を選びます。 アラートの作成方法については、「[Data alerts in Power BI](service-set-data-alerts.md)」(Power BI のデータ アラート) を参照してください。
    
    ![](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Slack に投稿するには、チャネルの名前とメッセージ テキストを入力します (Flow が作成する既定のメッセージを選ぶこともできます)。 メッセージ テキスト フィールドに追加した動的コンテンツを確認します。
+2. 1 つまたは複数の有効なメール アドレスを入力し、**[編集]** (下図参照) または **[動的なコンテンツの追加]** を選択します。 
    
-   > [!NOTE]
-   > チャネル名の先頭に "@" を追加します。  たとえば、Slack チャネルの名前が "channelA" の場合、Flow で「@channelA」と入力します。
-   > 
-   > 
-   
-   ![](media/service-flow-integration/power-bi-flow-slacker.png)
-3. 終わったら、**[フローの作成]** または **[フローの保存]** を選びます。  フローが作成され、評価されます。  Flow でエラーが検出されると、通知されます。
-4. エラーが検出された場合、**[フローの編集]** を選択して修正するか、**[完了]** を選択して新しいフローを実行します。
+   ![](media/service-flow-integration/power-bi-flow-email.png)
+
+3. Flow では保持や変更が可能なタイトルとメッセージを作成します。 Power BI でアラートを作成するときに設定したすべての値を使用できます。やり方は、グレーの強調表示されている領域にカーソルを合わせ、選択するだけです。 
+
+   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+
+1.  たとえば、Power BI で**さらにメダルを獲得**というタイトルのアラートを作成した場合、**[アラートのタイトル]** を選択すると、そのテキストをメールの件名フィールドに追加できます。
+
+    ![](media/service-flow-integration/power-bi-flow-message.png)
+
+    また、既定のメールの本文をそのまま使うことも、独自に作成することもできます。 上記の例には、メッセージにいくつかの変更が含まれています。
+
+1. 終わったら、**[フローの作成]** または **[フローの保存]** を選びます。  フローが作成され、評価されます。  Flow でエラーが検出されると、通知されます。
+2. エラーが検出された場合、**[フローの編集]** を選択して修正するか、**[完了]** を選択して新しいフローを実行します。
    
    ![](media/service-flow-integration/power-bi-flow-running.png)
-5. Slack アカウントを開いてメッセージを確認します。  
+5. データ アラートがトリガーされると、指定したアドレスにメールが送信されます。  
    
-   ![](media/service-flow-integration/power-bi-slack-message.png)
+   ![](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Power BI を使用するフローを最初 (ゼロ) から作成する
 このタスクでは、Power BI データ アラート (通知) でトリガーされる単純なフローをゼロから作成します。
@@ -88,12 +91,12 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
 2. **[マイ フロー]** > **[一から作成]** の順に選びます。
    
    ![](media/service-flow-integration/power-bi-my-flows.png)
-3. [検索] ボックスを使って Power BI トリガーを探し、**[Power BI データドリブン アラートでフローをトリガーする]** を選びます。
+3. [検索] ボックスを使用して Power BI トリガーを検索し、**[Power BI - When a data driven alert is triggered]\(Power BI - データ ドリブン アラートがトリガーされた場合\)** を選択します。
 
 ### <a name="build-your-flow"></a>フローを構築する
 1. ドロップダウンからアラート名を選択します。  アラートの作成方法については、「[Data alerts in Power BI](service-set-data-alerts.md)」(Power BI のデータ アラート) を参照してください。
    
-    ![](media/service-flow-integration/power-bi-totalstores.png)
+    ![](media/service-flow-integration/power-bi-totalstores2.png)
 2. **[新しいステップ]** > **[アクションの追加]** を選択します。
    
    ![](media/service-flow-integration/power-bi-new-step.png)

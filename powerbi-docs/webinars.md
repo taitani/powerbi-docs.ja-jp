@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 01/24/2018
 ms.author: maikelson
-ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.openlocfilehash: 91a629699c782914ec542a2b7a668cf25e47ec27
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -47,13 +47,15 @@ ms.lasthandoff: 12/18/2017
 
 >[Power BI コミュニティからの今後のウェビナーに参加する](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-- [医療での収益の増加 - 2017 年 12 月 12 日](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
+まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
 
 ## <a name="on-demand-webinars"></a>オンデマンド ウェビナー
 
 録画されたセッションをいつでもご覧ください
 
 >[コミュニティの専門家による Power BI オンデマンド ウェビナーを参照する](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+
+- [医療での収益の増加](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
 - [組織のセキュリティを強化する適切なデータ ガバナンス戦略の実装方法](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 
