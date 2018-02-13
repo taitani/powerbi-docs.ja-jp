@@ -398,6 +398,8 @@
           href: power-bi-visualization-best-practices.md
         - name: Power BI でのカスタム ビジュアル
           href: power-bi-custom-visuals.md
+        - name: Power BI での組織のカスタム ビジュアル
+          href: power-bi-custom-visuals-organization.md
         - name: 'チュートリアル: パート I、Power BI レポートへの視覚化の追加'
           href: power-bi-report-add-visualizations-i.md
         - name: 'チュートリアル: パート 2、Power BI レポートへの視覚化の追加'
@@ -730,6 +732,8 @@
       items:
         - name: Power BI Desktop のデータ ビュー
           href: desktop-data-view.md
+        - name: Power BI Desktop のデータ テーブル
+          href: desktop-date-tables.md
         - name: Power BI Desktop のリレーションシップ ビュー
           href: desktop-relationship-view.md
         - name: Power BI Desktop でのリレーションシップの作成と管理
@@ -758,8 +762,12 @@
           href: desktop-qna-in-reports.md
         - name: 'Power BI Desktop の [分析] ウィンドウ'
           href: desktop-analytics-pane.md
+        - name: Power BI での複数選択
+          href: desktop-multi-select.md
         - name: Power BI Desktop でのインサイトの使用
           href: desktop-insights.md
+        - name: Power BI Desktop でのスライサー
+          href: desktop-slicers.md
         - name: Power BI のブックマーク
           href: desktop-bookmarks.md
         - name: レポートのテーマの使用
