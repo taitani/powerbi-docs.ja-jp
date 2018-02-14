@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 02/06/2018
 ms.author: yshoukry
-ms.openlocfilehash: 9a00183a81e549f873fab53807072b1beeaec7c2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: e71b8d16407dccd559037cfe0aecd8079f62175e
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI で Azure 監査ログに接続する
 Azure 監査ログのコンテンツ パックを利用して、監査ログに格納されている情報を分析したり、視覚化したりすることができます。 Power BI は、データを取得し、そのまま使えるダッシュボードをビルドし、取得したデータに基づくレポートを作成します。
@@ -59,7 +59,7 @@ Azure 監査ログのコンテンツ パックを利用して、監査ログに�
 * データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
 ## <a name="system-requirements"></a>システム要件
-Azure 監査ログのコンテンツ パックには、Azure Portal の監査ログへのアクセスが必要です。 詳しくは、[ここ](https://azure.microsoft.com/en-us/documentation/articles/insights-debugging-with-events/)をご覧ください。
+Azure 監査ログのコンテンツ パックには、Azure Portal の監査ログへのアクセスが必要です。 詳しくは、[ここ](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/)をご覧ください。
 
 <a name="FindingParams"></a>
 
