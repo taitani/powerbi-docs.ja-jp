@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加する必要があります。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 Analysis Services データ ソースは、スケジュールされた更新とライブ接続のどちらにも使用できます。
@@ -89,17 +89,6 @@ ms.lasthandoff: 01/25/2018
 データ ソースのプライバシー レベルを構成できます。 データを加工できる方法を制御します。 これは、スケジュールされた更新にのみ使用します。 ライブ接続には適用されません。 [詳細情報](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Power BI サイトでの Analysis Services の [データの取得] エクスペリエンス
-Analysis Services には、Power BI サービス内で直接データを取得するためのオプションがあります。 Power BI Desktop がなくても、ゲートウェイ内で構成されているライブの Analysis Services データ ソースに接続することができます。 自分のアカウントがゲートウェイのデータソースの **[ユーザー]** タブの一覧に表示されている必要があります。 データ ソースに接続するには、次の操作を行います。
-
-1. Power BI サービス内で **[データの取得]** を選択します。
-2. **[データベース]** を選択します。
-3. **[SQL Server Analysis Services]** > **[接続]** を選択します。
-4. 一覧からデータ ソースを選択します。 アクセスできるすべての Analysis Services データ ソースがここに表示されます。
-5. 接続するモデルを選択し、 **[接続]** を選択します。
-
-データセットがサーバーの名前と一緒に表示されます。 このデータセットを選択して、レポートの作成を開始できます。 レポートは、ライブ データに対して実行されます。
 
 ## <a name="usernames-with-analysis-services"></a>Analysis Services でのユーザー名
 Analysis Services に接続されているレポートをユーザーが操作するたびに、有効なユーザー名がゲートウェイに渡され、次にオンプレミスの Analysis Services サーバーに渡されます。 Power BI にサインインするときに使用する電子メール アドレスは、私たちが有効なユーザーとして Analysis Services に渡すものです。 これは、接続プロパティ [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth) に渡されます。 この電子メール アドレスは、ローカルの Active Directory ドメイン内で定義されている UPN と一致する必要があります。 UPN は、Active Directory アカウントのプロパティです。 その Windows アカウントは、Analysis Services ロールに存在する必要があります。 Active Directory での一致を検出できない場合は、ログインは正常に実行されません。 [詳細情報](https://msdn.microsoft.com/library/ms677605.aspx)

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
@@ -98,12 +98,6 @@ Power BI サービスでレポートへのアクセスを許可するには 2 �
 
 2. レポートへのアクセスを必要とするユーザーとダッシュボードを共有します。 詳しくは、「[同僚や他のユーザーとダッシュボードやレポートを共有する](service-share-dashboards.md)」をご覧ください。
 
-## <a name="allowing-free-users-access-to-reports"></a>無料ユーザーにレポートへのアクセスを許可する
-
-無料ユーザーは、SharePoint Online の Power BI Web パーツで埋め込まれているレポートを表示できます。 上の「[レポートへのアクセスを許可する](#granting-access-to-reports)」で説明されているように、Pro ユーザーの場合と同じ方法で無料ユーザーにアクセスを付与します。 レポートが保存されるワークスペースにも、Power BI Premium 容量が必要です。 
-
-たとえば、アプリのワークスペースにレポートがある場合、アプリのワークスペースを Power BI Premium 容量に割り当てる必要があります。 無料ユーザーを、そのアプリのワークスペースのメンバー一覧に追加する必要もあります。
-
 ## <a name="web-part-settings"></a>Web パーツの設定
 
 以下では、SharePoint Online 用の Power BI Web パーツに対して調整できる設定について説明します。
@@ -160,5 +154,5 @@ Power BI 環境で多要素認証を使ったサインインが必要な場合�
 [同僚や他のユーザーとダッシュボードやレポートを共有する](service-share-dashboards.md)  
 [Power BI Premium とは](service-premium.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。 
 

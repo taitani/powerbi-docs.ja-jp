@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Power BI Gateway - Personal でプライバシー設定を無効にする
 > [!NOTE]
@@ -45,7 +45,7 @@ ms.lasthandoff: 12/22/2017
 > 
 
 ## <a name="what-is-fast-combine"></a>高速結合とは
-プライバシー レベルと高速結合について詳しくは、「[プライバシー レベル](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)」をご覧ください。 既定では、プライバシー レベルは、上記で説明したエラーが発生する可能性のあるプライベートに設定されます。 これは、プライベートの設定がデータ ソースを別のソースと分離するためです。 これが問題となる例は、別のデータ ソースからの入力を取得するパラメーター化されたクエリ値になります。
+プライバシー レベルと高速結合について詳しくは、「[プライバシー レベル](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)」をご覧ください。 既定では、プライバシー レベルは、上記で説明したエラーが発生する可能性のあるプライベートに設定されます。 これは、プライベートの設定がデータ ソースを別のソースと分離するためです。 これが問題となる例は、別のデータ ソースからの入力を取得するパラメーター化されたクエリ値になります。
 
 高速結合を有効にした場合、プライベート設定は無視され、実行が発生します。
 
@@ -85,7 +85,7 @@ ms.lasthandoff: 12/22/2017
 
 ## <a name="next-steps"></a>次の手順
 [オンプレミス データ ゲートウェイ (個人用モード) - 新しいバージョンのパーソナル ゲートウェイ](service-gateway-personal-mode.md)
-[プライバシーのレベル](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[プライバシーのレベル](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Power BI Desktop での一般的なクエリ タスク](desktop-common-query-tasks.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 53d367d0dc76b338659283215855f4b55a2679fd
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
@@ -141,7 +141,7 @@ Power BI Pro のライセンスを直接購入する場合も、担当者とチ�
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro ライセンスの有効期限が切れるとどうなりますか?
 Power BI Pro ライセンスの有効期限が切れてから、30 日の猶予期間があります。
 
-Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳しくは、「[一般法人向け Office 365 のサブスクリプションが終了したとき、データとアクセスはどうなりますか?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)」をご覧ください。
+Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳しくは、「[一般法人向け Office 365 のサブスクリプションが終了したとき、データとアクセスはどうなりますか?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)」をご覧ください。
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI は、国、地域、および業界固有のコンプライアンス要件を満たしていますか。
 Power BI のコンプライアンスの詳細については、[Microsoft セキュリティ センター](http://go.microsoft.com/fwlink/?LinkId=785324)を参照してください。

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
-ms.openlocfilehash: 251503064cca2c0365df74ed0c21b296fb30a7a8
-ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+ms.openlocfilehash: 99267fa0ffa1910f9dab920f939082aadb55d6aa
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI のパフォーマンスのベスト プラクティス 
 この記事では、Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティスについて説明します。  
@@ -142,7 +142,7 @@ SQL Profiler を使用すると、パフォーマンスのボトルネックと�
 
 [Azure Speed Test](http://azurespeedtest.azurewebsites.net/) などのツールは、クライアントと Azure リージョン間のネットワーク待機時間の表示を提供できます。 一般に、ネットワーク待機時間の影響を最小限に抑えるには、データ ソース、ゲートウェイ、および Power BI クラスターをできるだけ近くに配置するようにします。 ネットワーク待機時間が問題の場合は、ゲートウェイとデータ ソースを仮想マシンに配置することで、Power BI クラスターにより近い位置に配置することができます。 
 
-ネットワークの待機時間をさらに改善するには、[Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/) の使用を検討してください。これは、クライアントと Azure データ センター間により高速でより信頼性の高い接続を作成することができます。 
+ネットワークの待機時間をさらに改善するには、[Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) の使用を検討してください。これは、クライアントと Azure データ センター間により高速でより信頼性の高い接続を作成することができます。 
 
 ## <a name="next-steps"></a>次の手順
 - Power BI の大規模なデプロイに関する総合的なガイダンスを使用して、[Power BI Enterprise のデプロイを計画する](https://aka.ms/pbienterprisedeploy) 
