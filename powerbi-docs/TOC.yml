@@ -852,51 +852,51 @@
       items:
         - name: モバイル デバイス用の Power BI アプリ
           href: mobile-apps-for-mobile-devices.md
-        - name: ダッシュボードやレポートをモバイル デバイスで探す
+        - name: ダッシュボード、レポート、アプリをモバイル デバイスで探す
           href: mobile-apps-find-content-mobile-devices.md
-        - name: Power BI 用モバイル アプリの新機能
+        - name: モバイル アプリの新機能
           href: mobile-whats-new-in-the-mobile-apps.md
     - name: すべてのモバイル アプリ
       items:
         - name: Power BI for iOS アプリ
           href: mobile-ios-ipad-iphone-apps.md
-        - name: Power BI モバイル アプリでオンプレミス レポートと KPI を表示する
+        - name: モバイル アプリでオンプレミス レポートと KPI を表示する
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-        - name: モバイル Power BI 用のダッシュボード
+        - name: モバイル アプリでのダッシュボード
           href: mobile-apps-view-dashboard.md
-        - name: Power BI モバイル アプリのレポート
+        - name: モバイル アプリでのレポート
           href: mobile-reports-in-the-mobile-apps.md
         - name: モバイル アプリのタイルを操作する
           href: mobile-tiles-in-the-mobile-apps.md
         - name: Power BI モバイル アプリからダッシュボードを共有する
           href: mobile-share-dashboard-from-the-mobile-apps.md
-        - name: Power BI モバイル アプリのお気に入りアイテム
+        - name: モバイル アプリでのお気に入り
           href: mobile-apps-favorites.md
-        - name: モバイル アプリで現実世界から Power BI データを取得する
+        - name: モバイル アプリで現実世界の Power BI データを取得する
           href: mobile-apps-data-in-real-world-context.md
-        - name: 電話からの Power BI QR コードのスキャン
+        - name: 電話からの QR コードのスキャン
           href: mobile-apps-qr-code.md
-        - name: Power BI モバイル アプリで通知を受け取る
+        - name: モバイル アプリで通知を受け取る
           href: mobile-apps-notification-center.md
-        - name: モバイル アプリのタイル、レポート、ビジュアルの注釈付けと共有
+        - name: 注釈とモバイル アプリでの共有
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-        - name: Power BI モバイル アプリでデータ アラートを設定する
+        - name: モバイル アプリでデータ アラートを設定する
           href: mobile-set-data-alerts-in-the-mobile-apps.md
-        - name: Power BI モバイル アプリで場所によるレポートをフィルターする
+        - name: モバイル アプリで場所によるレポートをフィルターする
           href: mobile-apps-geographic-filtering.md
         - name: iOS モバイル アプリでデータについて質問する (チュートリアル)
           href: mobile-apps-ios-qna.md
         - name: 特定の場所に移動するディープ リンクを作成する
           href: mobile-apps-deep-link-specific-location.md
-        - name: Power BI モバイル アプリでデータをオフライン表示する
+        - name: モバイル アプリでデータをオフライン表示する
           href: mobile-apps-offline-data.md
-        - name: 電話用に最適化された Power BI レポートの表示と対話
+        - name: 電話用に最適化されたレポートの表示と対話
           href: mobile-apps-view-phone-report.md
         - name: Intune でモバイル アプリを構成する
           href: service-admin-mobile-intune.md
         - name: OAuth を使って Reporting Services に接続する
           href: mobile-oauth-ssrs.md
-        - name: Power BI モバイル アプリでサポートされる言語
+        - name: モバイル アプリでサポートされる言語
           href: mobile-apps-supported-languages.md
     - name: iPad アプリ (Power BI for iOS)
       items:
@@ -908,7 +908,7 @@
           href: mobile-iphone-app-get-started.md
         - name: Power BI Apple Watch アプリ
           href: mobile-apple-watch.md
-        - name: iPhone の Power BI アプリからバーコードをスキャンする
+        - name: iPhone のモバイル アプリからバーコードをスキャンする
           href: mobile-apps-scan-barcode-iphone.md
     - name: Android 電話用 Power BI アプリ
       items:
@@ -924,7 +924,7 @@
       items:
         - name: Windows 10 用の Power BI モバイル アプリの概要
           href: mobile-windows-10-phone-app-get-started.md
-        - name: Windows 10 用 Power BI モバイル アプリで、Reporting Services のモバイル レポートと KPI を表示する
+        - name: Windows 10 用 モバイル アプリで、Reporting Services のモバイル レポートと KPI を表示する
           href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
         - name: スタート画面に Power BI タイルまたはダッシュボードをピン留めする
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
