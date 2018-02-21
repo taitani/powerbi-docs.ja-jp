@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 1750fc9bec6de6caf17ff3ae6f514efe050f48f1
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 5ae0ef1ec5b13699f3ae5c502d29529841a7a726
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop のレポート ビュー
 Power BI を操作したことがあるユーザーは、レポートを作成して動的なパースペクティブとデータへの洞察を得ることがいかに簡単であるかをご存知でしょう。 Power BI では、Power BI Desktop にさらに多くの高度な機能を備えています。 Power BI Desktop を使用すると、高度なクエリの作成、複数のソースからのデータのマッシュアップ、テーブル間のリレーションシップの作成などを行えます。
@@ -62,6 +62,24 @@ Power BI Desktop には、**[レポート] ビュー**が含まれています�
 
 > [!NOTE]
 > レポートと視覚化は、Power BI Desktop からダッシュボードにピン留めすることはできません。 これを行うには、Power BI サイトに [[Power BI Desktop からの発行]](desktop-upload-desktop-files.md) を行う必要があります。
-> 
-> 
+
+## <a name="hide-report-pages"></a>レポート ページを非表示にする
+
+レポートを作成するとき、レポートからページを非表示にすることもできます。 これは、レポートで基になるデータやビジュアルを作成する必要があるが、そのページを他のユーザーに見せたくない場合に便利です。他のレポート ページで使用されているテーブルや補助ビジュアルを作成するときなどです。 その他にも、制作上のさまざまな理由から、レポート ページを作成しても、公開するレポートではそれを非表示にすることがあります。 
+
+レポート ページは簡単に非表示にできます。 レポート ページ タブを右クリックし、表示されたメニューから **[非表示]** を選択するだけです。
+
+![](media/desktop-report-view/report-view_05.png)
+
+レポート ページを非表示にするとき、注意すべきことがいくつかあります。
+
+* ページのタイトルが淡色表示になっていても、**Power BI Desktop** の使用中、非表示レポート ページを見ることができます。次の画像ではページ 4 が非表示です。
+
+    ![](media/desktop-report-view/report-view_06.png)
+
+* **Power BI サービス**でレポートを表示するとき、非表示レポート ページを表示することは*できません*。
+
+* レポート ページを非表示にすることは、セキュリティ対策では*ありません*。 ユーザーはこの非表示ページにアクセスできます。ドリルスルーやその他の手段でページのコンテンツにアクセスできます。
+
+* ページが非表示のときは、表示モードでも表示モード ナビゲーションの矢印が表示されません。
 

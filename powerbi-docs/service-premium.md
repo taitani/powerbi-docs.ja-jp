@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium とは
 Power BI Premium には、組織やチームが Power BI サービスを実行するための専用のリソースが用意されており、より信頼できるパフォーマンスやより大きなデータ ボリュームが提供されます。 また、Premium ではコンテンツを広範囲に配布でき、ビューアーのユーザーごとのライセンスを購入する必要はありません。
@@ -46,7 +46,7 @@ Power BI 内には 2 種類の容量があります。 共有された容量と 
 | 埋め込み API とコントロール |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能")<sup>2</sup> |
 | **Power BI レポートのオンプレミスでの発行** |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能") |
 
-*<sup>1</sup> アプリの無料ユーザーの使用量には、Web およびモバイルでのコンテンツ表示、Q&A、クイック分析情報、Cortana、CSV へのエクスポート、Excel および PowerPoint の使用が含まれます。*  
+*<sup>1</sup> アプリの無料ユーザーの使用量には、Web およびモバイルでのコンテンツ表示、Q&A、クイック分析情報、Cortana、CSV へのエクスポート、Excel および PowerPoint の使用が含まれます。Pro ライセンスは一覧にないその他の操作に必要です。共有データセットのレポート作成や Excel の分析機能などです。詳細については、[Power BI 無料版と Power BI Pro の機能比較](service-free-vs-pro.md)ページを参照してください。*  
 *<sup>2</sup> Power BI Premium は GA 後にさらに機能が拡張されます。*
 
 ### <a name="premium-capacity"></a>Premium 容量

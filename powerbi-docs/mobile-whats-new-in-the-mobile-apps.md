@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -29,6 +29,24 @@ ms.lasthandoff: 01/17/2018
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](desktop-latest-update.md)  
 * [Power BI サービスの新機能](service-whats-new.md)  
+
+## <a name="january-2018"></a>2018 年 1 月
+
+### <a name="report-favorites"></a>レポートのお気に入り
+
+レポートにお気に入りのタグを付け、**[お気に入り]** ページに表示します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
+
+### <a name="view-shared-reports"></a>共有レポートを表示する
+
+誰かとレポートを共有すると、ダッシュボードの他に、**[共有アイテム]** ページにレポートが一覧表示されます。
+
+### <a name="improved-hyperlink-support"></a>ハイパーリンク サポートの改善
+
+カスタム ビジュアルのリンクをタップし、モバイル ブラウザーで開くことができるようになりました。
+
+### <a name="intune-integration-android"></a>Intune 統合 (Android)
+
+Intune モバイル デバイス管理を利用した、条件付きアクセスのサポート。
 
 ## <a name="december-2017"></a>2017 年 12 月
 

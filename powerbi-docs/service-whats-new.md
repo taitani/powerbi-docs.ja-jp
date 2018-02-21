@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
-ms.author: sirsu
-ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.date: 02/07/2018
+ms.author: nikhilga
+ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -35,6 +35,23 @@ ms.lasthandoff: 01/19/2018
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+## <a name="january-2018"></a>2018 年 1 月
+*   Power BI レポートを共有し、お気に入りに追加する。
+*   Azure SQL Database と Data Warehouse で OAuth2 と DirectQuery シングル サインオン (SSO) サポート。
+*   領域内監査: 監査ログがテナントと同じ Office 365 領域に保存されるようになりました。
+*   SharePoint Online [Power BI レポート Web パーツ](https://go.microsoft.com/fwlink/p/?LinkId=825698) の GA。
+*   あるテナントのすべてのユーザーに対して、カスタム ビジュアルの表示をオフにする管理者制御。
+*   Azure Analysis Services (AAS) でスケジュールされた更新をサポート。
+
+## <a name="previous-months-2017"></a>先月 (2017)
+## <a name="october-and-november-2017"></a>2017 年 10 月と 11 月
+*   [Power BI アプリ](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)でコンテンツを選択して公開。
+*   [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) による外部ユーザー ディストリビューション。
+* AI を活用したアプリ推奨。
+* ダッシュボード オンタイル UI 更新。
+* アプリの電子メール サブスクリプション サポート。 
+* [Web への公開](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings)を管理者が細かく制御。
+
 ## <a name="september-2017"></a>2017 年 9 月
 * Premium で無料ユーザーとダッシュボードを共有します。
 * 仮想コア プールでビジネス ニーズに合わせて容量を割り当てます。
@@ -42,7 +59,6 @@ ms.lasthandoff: 01/19/2018
 * REST API に簡単にデータをプッシュするための [PubNub ブロック](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards)
 * [利用状況の指標](service-usage-metrics.md)の読み込みパフォーマンスの向上。
 
-## <a name="previous-months-2017"></a>先月 (2017)
 ### <a name="august-2017"></a>2017 年 8 月
 * [ユーザーごとの利用状況の指標](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)で対象者を把握します。
 * オンライン サービス用の [Power BI サービス](service-connect-to-services.md) アプリが始まります。

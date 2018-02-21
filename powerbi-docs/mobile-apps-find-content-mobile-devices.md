@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでダッシュボード、レポート、アプリを探す
 適用対象:
@@ -41,7 +41,11 @@ ms.lasthandoff: 01/05/2018
 5. [ワークスペース](mobile-apps-find-content-mobile-devices.md#5-workspaces)
 
 ## <a name="1-favorites"></a>1 お気に入り
-お気に入りのタグを付けて、最も頻繁に表示するダッシュボードとアプリを収集します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
+お気に入りのタグを付けて、最も頻繁に表示するダッシュボード、レポート、アプリを収集します。 
+
+![Power BI モバイル アプリのお気に入り](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
+
+[Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 
 ## <a name="2-report-servers"></a>2 レポート サーバー
 オンプレミスの Power BI レポート サーバーまたは SQL Server Reporting Services サーバーに、1 台でも複数台でも接続することができます。 接続すると、そのサーバーの KPI、Power BI レポート、およびページ分割されたレポートがここに表示されます。 サーバーでお気に入りに設定している場合、お気に入り一覧にも表示されます。 Power BI モバイル アプリのオンプレミスの KPI とレポートの表示については[ここ](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)をご覧ください。
@@ -65,9 +69,9 @@ Power BI モバイル アプリでは、既にインストールしているす�
 Power BI サービスでは、Microsoft AppSource に移動し、他のアプリを検索できますが、Power BI モバイル アプリからはできません。 
 
 ## <a name="4-shared-with-me"></a>4 自分と共有
-ここには、自分を対象として同僚が共有を指定したダッシュボードが表示されます。 ダッシュボードの所有者でフィルター処理したり、検索したりできます。 頻繁にアクセスする共有コンテンツの場合、省略記号 [...] をタップして **[自分と共有]** からお気に入りに登録できます。
+ここには、自分を対象として同僚が共有を指定したダッシュボードとレポートが表示されます。 所有者でフィルター処理したり、検索したりできます。 頻繁にアクセスする共有コンテンツの場合、省略記号 **[...]** をタップして **[自分と共有]** からお気に入りに登録できます。
 
-![Power BI の新しいナビゲーション](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-shared-with-me-fave.png)
+![Power BI 自分と共有](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 ワークスペース
 同僚と共同作業し、ダッシュボードとレポートのコレクションを作成できる Power BI サービス ([https://powerbi.com](https://powerbi.com)) 内のステージング環境です。*アプリ ワークスペース*とも呼ばれます。 作成後、*アプリ*としてコレクションを配布します。 

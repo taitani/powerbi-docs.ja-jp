@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI で Project "Madeira" に接続する
 Power BI と Project “Madeira” コンテンツ パックを使用すると、Project “Madeira” データの洞察を簡単に取得できます。 Power BI は、売上と財務の両方のデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
@@ -47,7 +47,7 @@ Power BI 用 [Project "Madeira" Analytics コンテンツ パック](https://app
     >[!NOTE]
     >Project “Madeira” のスーパーユーザーでなければなりません。
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. 接続されると、ダッシュボード、レポート、およびデータセットが自動的に読み込まれます。 完了すると、タイルがユーザーのアカウントのデータで更新されます。  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Web サービス アクセス キーの使用を開始するときに、この�
 ## <a name="troubleshooting"></a>トラブルシューティング
 Power BI ダッシュボードは、上に示された公開済み Web サービスに依存して、デモ会社のデータを表示します。現在の財務ソリューションからデータをインポートする場合は、自社のデータを表示します。 ただし、うまくいかない場合は、このセクションで説明する最も一般的な問題の回避策を使用して対応してください。
 
-**"パラメーターの検証でエラーが発生しました。すべてのパラメーターが有効であることを確認してください"**: Project "Madeira" の URL を入力した後でこのエラーが発生した場合は、次の要件が満たされていることを確認してください。  
+**"パラメーターの検証でエラーが発生しました。すべてのパラメーターが有効であることを確認してください。"**
 
-    - URL が次のパターンと完全に一致している: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-    - かっこで囲まれた会社名の後ろにあるすべてのテキストが削されている。  
-    - URL の末尾にスラッシュ (/) がない。  
-    - URL がセキュリティで保護された接続を使用している (URL が https で始まっている)。  
+Project "Madeira" の URL を入力した後でこのエラーが発生した場合は、次の要件が満たされていることを確認してください。  
+
+   - URL が次のパターンと完全に一致している: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
+   - かっこで囲まれた会社名の後ろにあるすべてのテキストが削除されている。  
+   - URL の末尾にスラッシュ (/) がない。  
+   - URL がセキュリティで保護された接続を使用している (URL が https で始まっている)。  
 
 **「ログインに失敗しました」**: Project “Madeira” の資格情報を使用してダッシュボードにログインしたときに「ログインに失敗しました」エラーが発生した場合は、次の問題のいずれかが原因である可能性があります。  
 

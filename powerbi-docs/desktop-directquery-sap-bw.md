@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 10557146b0b640450779049a30dd8f394686f57a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 8abb327181af031df508f0629cbc09053a9a7927
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery と SAP Business Warehouse (BW)
 **SAP Business Warehouse (BW)** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP BW は OLAP/多次元的な性質があるため、SAP BW での DirectQuery と SQL Server などのリレーショナル ソース間では多数の重要な違いがあります。 これらの相違点は次のとおりです。
@@ -74,13 +74,9 @@ Power BI で DirectQuery を使用して SAP BW に接続する場合の視覚�
 | 属性 |Power BI 内で指標の属性にアクセスすることはできません。 |
 | エンドユーザーの言語設定 |SAP BW への接続に使用されるロケールは、接続の詳細の一部として設定されるもので、レポートの最終コンシューマーのロケールとは一致しません。 |
 | テキストの変数 |SAP BW では、("$YEAR$ Actuals" など) 変数のプレースホルダーをフィールド名に含めることができます。これは、その後、選択した値で置き換えられます。 たとえば、変数に 2016 年を選択した場合、BEX ツールでは、フィールドに "2016 Actuals" と表示されます。 <br/> <br/> Power BI の列名は、変数の値によっては変わらず、したがって "$YEAR$ Actuals" と表示されます。  ただし、Power BI で列名を変更することはできます。 |
+| Customer Exit 変数 | Customer Exit 変数はパブリック API では公開されず、Power BI では使用できません。 |
+| 特性構造 | 基礎となる SAP BW ソースの特性構造の結果として、Power BI にはメジャーの ‘エクスプロージョン’ が公開されます。 たとえば、Sales と Costs という 2 つのメジャーと、Budget と Actual を含む 1 つの特性構造がある場合、Sales.Budget、Sales.Actual、Costs.Budget、Costs.Actual という 4 つのメジャーが公開されます。 |
 
-## <a name="limitations-and-considerations"></a>制限事項と考慮事項
-次の表に、SAP BW コネクタのベータ リリースの制限事項を一覧表示します。
-
-| 制限事項 | 説明 |
-| --- | --- |
-| 更新がない |[更新] ボタンは無効で、ビジュアル/メタデータは更新できません。 |
 
 ## <a name="next-steps"></a>次の手順
 DirectQuery の詳細については、次のリソースを参照してください。

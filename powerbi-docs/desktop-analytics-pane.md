@@ -15,26 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop の [分析] ウィンドウを使用する
-**Power BI Desktop** の **[分析]** ウィンドウによって、動的な*参照線*をビジュアルに追加して、重要な傾向や情報に注目させることができます。 次のように、**[分析]** ウィンドウは 2016 年 8 月リリース以降 (バージョン 2.37.4464.321 以降) の Power BI Desktop の **[視覚化]** 領域にあります。
+**Power BI Desktop** の **[分析]** ウィンドウによって、動的な*参照線*をビジュアルに追加して、重要な傾向や情報に注目させることができます。 **[分析]** ウィンドウは Power BI Desktop の **[視覚化]** 領域にあります。
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > **[分析]** ウィンドウは、Power BI Desktop キャンバスでビジュアルを選択した場合にのみ表示されます。
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>予測の有効化 (プレビュー)
-さらに、**Power BI Desktop** (バージョン 2.39.4526.362 以降) の 2016年 9 月リリースでは、**[分析]** ウィンドウから*予測*を実行できます。 **[ファイル]、[オプションと設定]、[オプション]** の順に移動し、左側のウィンドウから **[プレビュー機能]** を選択して、このプレビュー機能を有効にする必要があります。 次の図に示すように、**[Forecasting]** (予測) の横のチェック ボックスをオンにして機能を有効にします。 変更内容を有効にするには、**Power BI Desktop** を再起動する必要があります。
+## <a name="search-within-the-analytics-pane"></a>[分析] ウィンドウ内で検索する
+**Power BI Desktop** の 2018 年 2 月リリースより (バージョン 2.55.5010.201 以降)、**[視覚化]** ウィンドウの下位セクションである **[分析]** ウィンドウ内で検索できます。 下の画像のように、**[分析]** ウィンドウが選択されると、検索ボックスが表示されます。
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 
