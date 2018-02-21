@@ -3,7 +3,7 @@ title: "Power BI で UserVoice に接続する"
 description: "Power BI 用 UserVoice"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 5dfd8c154b402f305e7de0c255040347b7fd4193
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: e6924a168651678c2da97b1f433f2142775dfd1a
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Power BI で UserVoice に接続する
 UserVoice データの追跡と探索は、Power BI と UserVoice コンテンツ パックを使えば簡単に行えます。 Power BI は、チケット、提案と満足度の評価などのデータを取得してから、そのデータに基づいて、すぐに使えるダッシュボードとレポートを作成します。

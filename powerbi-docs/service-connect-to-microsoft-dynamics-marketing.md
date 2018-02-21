@@ -3,7 +3,7 @@ title: "Power BI で Microsoft Dynamics Marketing に接続する"
 description: "Power BI 用 Microsoft Dynamics Marketing"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 2800dc496d32c099024db0960c87912afb3b79d7
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 3b05064265e951e64d1f34d801555e837fc4d8fb
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Power BI で Microsoft Dynamics Marketing に接続する
 Power BI 用 Microsoft Dynamics Marketing コンテンツ パックを使用すると、Dynamics Marketing のデータに簡単にアクセスして分析することができます。 コンテンツ パックは、OData フィードに加えて記述モデルを使用します。その際、必要なすべてのエンティティやメジャーを使用します。たとえば、プログラム、キャンペーン、マーケティング取引先担当者およびマーケティング会社、潜在顧客、潜在顧客の相互作用と潜在顧客のスコアリング、電子メール マーケティング メッセージと Web サイト、動作の監視、予算、金融取引、パフォーマンス KPI などです。 

@@ -3,7 +3,7 @@ title: "Power BI で Circuit ID に接続する"
 description: "Power BI 用 Circuit ID"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 295d8dbd24c9ae6bce84cb76f6a5e23e7474b893
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: b108bfaff61842b8ec6a7139e55558b16b7c56ac
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Power BI で Circuit ID に接続する
 Circuit ID からの通信データの分析は、Power BI を使えば簡単に行えます。 Power BI は、データを取得し、そのデータに基づいて既定のダッシュボードと関連レポートを作成します。 接続すると、データの探索や、必要に応じたダッシュボードのカスタマイズを行えます。 データは毎日自動的に更新されます。

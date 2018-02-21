@@ -3,7 +3,7 @@ title: "Power BI で Lithium に接続する"
 description: "Power BI 用 Lithium"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cac92465e36b87d2a59420f5a6265c219371ceba
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: b41c66c6d3af628d4f2c7e433e399c53f5e31d69
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Power BI で Lithium に接続する
 Lithium は、人々が回答を得たり、エクスペリエンスを共有したりするのを手助けして、世界最高のブランドと顧客との間に信頼関係を築きます。 Lithium コンテンツ パックを Power BI に接続してオンライン コミュニティに関する主要指標を測定すると、販売の促進、サービス コストの削減、ロイヤルティの向上に役立ちます。 

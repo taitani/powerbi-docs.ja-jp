@@ -3,7 +3,7 @@ title: "Power BI で AT Internet Bridge に接続する"
 description: "Power BI 用 AT Internet Bridge"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 67ed59961ca5bc4b382adf105bbc5c97ff470118
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: eb9546009d2b3ddff729beb05e5d29f74d9b1518
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Power BI で AT Internet Bridge に接続する
 AT Internet 社が提供する統合デジタル分析プラットフォーム Analytics Suite を使用すると、データからイミディエイト値を抽出できます。 Power BI 用 AT Internet Bridge コンテンツ パックには、ユーザーのサイトに関する、訪問者、ソース、ローカライズ、およびデバイスのデータが格納されます。

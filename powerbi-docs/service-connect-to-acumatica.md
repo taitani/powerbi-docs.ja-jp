@@ -3,7 +3,7 @@ title: "Power BI で Acumatica に接続する"
 description: "Power BI 用 Acumatica"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 66d1544797008b4ed4c0ce2c7acd041aa60b967b
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: f03bc074c398796ddf0435662e7ee928799116d0
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI で Acumatica に接続する
 Power BI Acumatica コンテンツ パックを使用すると、短時間で営業案件に関するデータについての洞察が得られます。 Power BI は、営業案件、アカウント、顧客などのデータを取得し、そのデータに基づいて既定のダッシュボードと関連レポートを作成します。

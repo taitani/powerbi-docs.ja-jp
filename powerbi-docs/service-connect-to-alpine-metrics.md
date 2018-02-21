@@ -3,7 +3,7 @@ title: "Power BI で Alpine Metrics Sales Predictions に接続する"
 description: "Power BI 用 Alpine Metrics Sales Predictions"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: efb0bde571926d2e3e671aeca36ac148d1dd6710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 8f821ce7081f341f0614ea7c8e3a006adabf3e4f
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Power BI で Alpine Metrics Sales Predictions に接続する
 Alpine Metrics は、さまざまな規模の販売組織が利用できる、最新の予測販売プロセス最適化をクラウドやオンデマンドで提供します。 Power BI 用 Alpine Metrics Sales Predictions コンテンツ パックには、売上予測や潜在的リスクなどのメトリックが含まれています。これらのメトリックを使用して、ビジネスの将来に関する深い洞察を得ることができます。 

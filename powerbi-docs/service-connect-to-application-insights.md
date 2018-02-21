@@ -3,7 +3,7 @@ title: "Power BI で Application Insights に接続する"
 description: "Power BI 用 Application Insights"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 0bbbbccefedd437204e1981cb1cc88493373330b
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.author: sarinas
+ms.openlocfilehash: d2a58de38c15599556419a6ebd219dd3a522c27a
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Power BI で Application Insights に接続する
 Power BI を使用して、[Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) テレメトリから強力なカスタム ダッシュボードを作成できます。 新しい方法でアプリのテレメトリを視覚化します。 複数のアプリまたはコンポーネント サービスからのメトリックを単一のダッシュボードに統合します。 この Application Insights 用 Power BI コンテンツ パックの最初のリリースには、アクティブなユーザー、ページ ビュー、セッション、ブラウザーと OS のバージョン、マップ内でのユーザーの地理的分布など、一般的な使用関連メトリックのためのウィジェットが含まれています。

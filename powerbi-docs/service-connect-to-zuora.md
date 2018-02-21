@@ -3,7 +3,7 @@ title: "Power BI で Zuora に接続する"
 description: "Power BI 用 Zuora"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 408f41e1a50b895166308fcba129d86f5c05d0e7
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 293aa4d990d919c2c53e73de0733c720bdb0c9b8
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Power BI で Zuora に接続する
 Power BI 用 Zuora を使用すると、重要な売上、請求、およびサブスクリプションのデータを視覚化できます。 既定のダッシュボードとレポートを使用して、使用傾向の分析、請求と支払の追跡、経常収益の監視を行えます。さらに、ダッシュボードとレポートの独自のニーズに応じるためのカスタマイズも可能です。

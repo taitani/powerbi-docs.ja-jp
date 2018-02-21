@@ -3,7 +3,7 @@ title: "Power BI で Webtrends に接続する"
 description: "Power BI 用 Webtrends"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 23bfef9442aa334dd7b141fd470ab9176a17f91e
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 6ac4a361c5c265b06e1f869d9858afe9101f6e69
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Power BI で Webtrends に接続する
 Power BI 用 Webtrends コンテンツ パックには、[合計ページ] ビューやトラフィック ソースごとのアクセス数などのすぐに使用できるさまざまなメトリックスが含まれています。 Power BI 内の Webtrends データの視覚化は、Webtrends アカウントに接続することで開始します。 提供されるダッシュボードとレポートをそのまま使用することもできますし、最も関心のある情報を強調表示するためにカスタマイズすることができます。  データは、1 日 1 回自動的に更新されることになります。

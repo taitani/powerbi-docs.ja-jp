@@ -3,7 +3,7 @@ title: "Power BI で Projectplace に接続する"
 description: "Power BI 用 Projectplace"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: aec56a34194d9ed6217384d8d05cbe2ce64080b2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 67e172bf69789b9d671a5bae93856ccb534327ad
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>Power BI で Projectplace by Planview に接続する
 Projectplace by Planview コンテンツ パックを使用すると、Power BI で直接、共同作業プロジェクト データをまったく新しい方法で視覚化できます。 Projectplace のサインイン資格情報を使用して、プロジェクトの重要な統計情報を対話形式で表示し、最も活動的で生産性の高いチーム メンバーを確認し、Projectplace アカウント内のプロジェクトで問題が生じているカードとアクティビティを明らかにできます。 また、既定のダッシュボードやレポートを拡張して最も重要な情報を入手することもできます。

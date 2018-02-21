@@ -3,7 +3,7 @@ title: "Power BI で Project Madeira に接続する"
 description: "Power BI 用 Project Madeira"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.author: sarinas
+ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI で Project "Madeira" に接続する
 Power BI と Project “Madeira” コンテンツ パックを使用すると、Project “Madeira” データの洞察を簡単に取得できます。 Power BI は、売上と財務の両方のデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
@@ -100,7 +100,7 @@ Power BI ダッシュボードは、上に示された公開済み Web サービ
 Project "Madeira" の URL を入力した後でこのエラーが発生した場合は、次の要件が満たされていることを確認してください。  
 
    - URL が次のパターンと完全に一致している: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-   - かっこで囲まれた会社名の後ろにあるすべてのテキストが削除されている。  
+   - かっこで囲まれた会社名の後ろにあるすべてのテキストが削されている。  
    - URL の末尾にスラッシュ (/) がない。  
    - URL がセキュリティで保護された接続を使用している (URL が https で始まっている)。  
 

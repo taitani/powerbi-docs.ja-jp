@@ -3,7 +3,7 @@ title: "Power BI で tyGraph に接続する"
 description: "Power BI 用 tyGraph"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 113d635469130a85486db4bccb555d4aa599f961
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 200438c1c7a488f963b44040324374905d643b6e
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Power BI で tyGraph に接続する
 Power BI コンテンツ パックを使用して、Power BI 内の tyGraph データを視覚化および探索します。 まず tyGraph アカウントに接続し、ダッシュボード、レポート、データセットを読み込みます。 すぐに使えるコンテンツには、Measure of Active Engagement (MAE スコア) や上位投稿者などの情報があります。 最も関心がある情報を強調表示するには、さらにカスタマイズします。  データは、設定したスケジュールに従って自動的に更新されます。

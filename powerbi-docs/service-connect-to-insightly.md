@@ -3,7 +3,7 @@ title: "Power BI で Insightly に接続する"
 description: "Power BI 用 Insightly"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: d506b45cf2a5c41ab1a6d05edb233c214606a316
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 259c278d0df12d504af11ea22e95496312ef7fc0
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Power BI で Insightly に接続する
 Insightly コンテンツ パックを使うと、Insightly CRM データを Power BI で視覚化して共有できます。 Insightly API キーを使って Power BI に接続し、CRM データからレポートやダッシュボードを作成して表示します。 Power BI があれば、新しい方法でデータを分析できます。説得力のあるグラフやチャートを作成したり、地図上に連絡先、潜在顧客、組織を表示したりできます。
