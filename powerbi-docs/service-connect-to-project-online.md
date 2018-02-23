@@ -3,7 +3,7 @@ title: "Power BI で Project Online に接続する"
 description: "Power BI 用 Project Online"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 778453840e5ab311f635fd20228186ac3f3fc39c
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: fd48ed25d2599cfa16c1b3ed1f7c49cadd7304f5
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>Power BI で Project Online に接続する
 Microsoft Project Online は、プロジェクト ポートフォリオ管理 (PPM) および日常の作業用の柔軟なオンライン ソリューションです。 Project Online を使用すると、プロジェクト ポートフォリオの投資を開始して優先順位を設定し、意図したとおりのビジネス価値を提供できます。 Power BI 用 Project Online コンテンツ パックでは、ポートフォリオの状態やプロジェクトへの準拠などの既定のメトリックで、プロジェクトのデータを調べることができます。

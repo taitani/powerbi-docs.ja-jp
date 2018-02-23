@@ -3,7 +3,7 @@ title: "Power BI で Office365Mon に接続する"
 description: "Power BI 用 Office365Mon"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 6096af57228257506dc37c51566bc62b22867a17
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: ffff9747e9c24efd51c3ae3d10714de590170523
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI で Office365Mon に接続する
 Office 365 の障害および正常性のパフォーマンス データの分析は、Power BI や Office365Mon コンテンツ パックを使用すると簡単に行えます。 Power BI は、障害および正常性 プローブを含むデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
