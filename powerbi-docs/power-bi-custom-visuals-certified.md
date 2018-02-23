@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: e73d0378e9e94bc8fc10402e3e7f4a524f93e5fb
-ms.sourcegitcommit: 433a5625f1d4557c09a7a7382416e2bbdb40c797
+ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
+ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 02/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
 ## <a name="what-is-meant-by-certified"></a>*認定* とは
@@ -63,6 +63,7 @@ ms.lasthandoff: 02/14/2018
 | [Beyondsoft カレンダー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ Software による Bowtie Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [ビデオ](https://youtu.be/So5xKMSpVJI) |
 | [箱ひげ図](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380831) | |
+| [MAQ Software による箱ひげ図](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381351) | [ビデオ](https://youtu.be/JoHaFLfhXdo) |
 | [MAQ Software によるブリック グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | [ビデオ](https://youtu.be/hA3DOsvn2xY) |
 | [Akvelon によるバブル グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340) | |
 | [箇条書きのグラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380755) | [ビデオ](https://youtu.be/AOlsFYkfkcw) |
@@ -102,10 +103,12 @@ ms.lasthandoff: 02/14/2018
 | [地球データ バー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
 | [Akvelon による階層グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [ビデオ](https://youtu.be/0ZGzJaq_KT4) |
 | [ヒストグラム グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
+| [MAQ Software によるポイント付きヒストグラム](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [ビデオ](https://youtu.be/-ILF--wExrw) |
 | [MAQ Software による水平方向のじょうご](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) | [ビデオ](https://youtu.be/SudZei68PPo) |
 | [CloudScope によるイメージ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) | |
 | [イメージ グリッド](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
 | [インフォグラフィック デザイナー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
+| [Akvelon による KPI グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [KPI インジケーター](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [MAQ Software による KPI ティッカー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [ビデオ](https://youtu.be/cudG4gsZ2V8) |
 | [MAQ Software による線形ゲージ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [ビデオ](https://youtu.be/7_jFaM30dkc) |
