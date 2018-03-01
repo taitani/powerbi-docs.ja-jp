@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Get started
+ms.openlocfilehash: ca03513bd79925c9ed927945b54d545450bff35b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI サービスで関連するコンテンツを表示する
 **[関連するコンテンツ]** ペインには、Power BI サービスのコンテンツ (ダッシュボード、レポート、データセット) がどのように相互接続されているかが示されます。  さらに、このペインからは、更新、名前の変更、詳細情報の生成など、一般的なタスクを実行できます。 関連するレポートやダッシュボードを選ぶと、Power BI ワークスペースに表示されます。   

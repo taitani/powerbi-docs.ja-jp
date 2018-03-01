@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 5087e69190372fe7303fb46254885f7a7a456f70
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Samples
+ms.openlocfilehash: 8ff3470f45ec84798c9fe7302b31a8fe364f18c9
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI で使用できるサンプル データ
 Power BI を初めて試してみたくてもデータがない場合や、  データセットはあっても Power BI の動作が (まだ) よくわからないためデータセットが壊れるのではないかと心配になる場合があります。
