@@ -15,17 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
-ms.author: v-mamcge
-ms.openlocfilehash: 82ac4382fe80d83b60705f135b50738718f28876
-ms.sourcegitcommit: 7eb15c813a0d14322cb1316bb7aab23cbc13aae6
+ms.date: 02/27/2018
+ms.author: jocaplan
+LocalizationGroup: Premium
+ms.openlocfilehash: def06965692644c0328dae7a1d0ade8d13cc0d6c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>大規模なデータセットに対する Power BI Premium のサポート
 
-Power BI Premium は、最大 10 GB のサイズの Power BI Desktop ファイル (.pbix) のアップロードをサポートします。 大規模なデータセットを使用するには、そのデータセットを Premium 容量に割り当てられているワークスペースに発行します。
+Power BI Premium は、最大 10 GB のサイズの Power BI Desktop ファイル (.pbix) のアップロードをサポートします。 アップロードが完了すると、データセットのサイズは最大 12 GB まで更新できます。 大規模なデータセットを使用するには、そのデータセットを Premium 容量に割り当てられているワークスペースに発行します。
  
 ## <a name="best-practices"></a>ベスト プラクティス
 

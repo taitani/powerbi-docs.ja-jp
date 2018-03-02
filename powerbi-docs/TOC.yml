@@ -128,8 +128,6 @@
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure Search
           href: service-connect-to-azure-search.md
-        - name: Azure Security Center
-          href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
         - name: サーキット ID
@@ -868,7 +866,7 @@
           href: mobile-reports-in-the-mobile-apps.md
         - name: モバイル アプリのタイルを操作する
           href: mobile-tiles-in-the-mobile-apps.md
-        - name: Power BI モバイル アプリからダッシュボードを共有する
+        - name: モバイル アプリからダッシュボードまたはレポートを共有する
           href: mobile-share-dashboard-from-the-mobile-apps.md
         - name: モバイル アプリでのお気に入り
           href: mobile-apps-favorites.md
@@ -980,8 +978,6 @@
       items:
         - name: 開発者ツールでカスタム ビジュアルを作成する
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: カスタム ビジュアルのセキュリティとプライバシーを確認する
-          href: service-custom-visuals-review-for-security-and-privacy.md
         - name: カスタム ビジュアルの認定を受ける
           href: power-bi-custom-visuals-certified.md
     - name: ダッシュボードにデータをプッシュする

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/07/2018
 ms.author: nikhilga
-ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Get started
+ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -633,7 +634,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * **GitHub** ダッシュボードに、コミュニティの構築、計算の改良、およびレイアウトの改良に的を絞った新しいビジュアルが追加されました。
 * **SendGrid** ダッシュボードに、さらに深い洞察を得るために役立つ新しいビジュアルと新しいレイアウトが追加されました。
-* クエリの最後に「as treemap」という語句を使用すれば、**Q&A でツリーマップ**を使用できるようになりました。
+* クエリの最後に「as treemap」という語句を使用すれば、**Q&A のツリーマップ**を使用できるようになりました。
 * Q&A とレポートからの**ツリーマップをピン留め**できるようになりました。 
 * 多数のバグ修正。
 

@@ -1,6 +1,6 @@
 ---
 title: "ダッシュボード、ダッシュボード タイル、レポート ページ、レポートの視覚化を全画面表示モードで表示する"
-description: "ダッシュボード、ダッシュボード タイル、レポート ビジュアル、レポート ページを全画面表示モード (別名 *テレビ モード*) で表示します。"
+description: "ダッシュボード、ダッシュボード タイル、レポート ビジュアル、レポート ページを全画面表示モード (別名 \"*テレビ モード*\") で表示します。"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Common tasks
+ms.openlocfilehash: bef91085c23ec1aeaea18f6624ea37cb12a374a1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Power BI の全画面表示モード
 ## <a name="what-is-full-screen-mode"></a>全画面表示モードの概要
