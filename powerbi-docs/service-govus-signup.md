@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/27/2017
 ms.author: davidi
-ms.openlocfilehash: 8ff1d5be4e360aa5afb8b6bd704f3426957466ef
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Get started
+ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI サービスに米国政府組織を登録する
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -45,12 +46,14 @@ ms.lasthandoff: 01/25/2018
 
 > [!NOTE]
 > 以下の手順は、ポータル管理者が行う必要があります。
-> 
-> 
+>
 
-1. [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government) にアクセスします。 
-    >[!NOTE]
-    >今はまだ Office Government Cloud にサインアップしたくない場合は、営業担当者にご相談ください。
+1. [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government) にアクセスします。
+
+>[!NOTE]
+>今はまだ Office Government Cloud にサインアップしたくない場合は、営業担当者にご相談ください。
+>
+
 2. Office G3 を選び、Office 試用版のフォームに入力します
 3. Office Cloud の顧客になったら、以下の「既存の Office Government Cloud 顧客」の手順に従います。
 

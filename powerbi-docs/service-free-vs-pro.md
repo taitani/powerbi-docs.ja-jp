@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: a666099d55b70f088a101738e3ffea8fcf218659
-ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
+LocalizationGroup: Get started
+ms.openlocfilehash: 0d6282f1b0e89fbe1deb4fbea6a578b831fafd98
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI 無料版対 Power BI Pro
 Power BI のユーザーは、Power BI 無料版ユーザーまたは Power BI Pro ユーザーのいずれかとなります。 この 2 種類のユーザーの違いを理解すると役に立ちます。
