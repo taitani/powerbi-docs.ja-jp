@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI で Marketo に接続する
 Power BI 用 Marketo コンテンツ パックを使用すると、Marketo アカウントに関する情報 (潜在顧客とそのアクティビティに関するデータを含む) を入手できます。この接続を作成すると、データが取得され、そのデータに基づいて自動的にダッシュボードおよび関連するレポートが提供されます。
@@ -78,7 +79,7 @@ Power BI は、本日から過去 1 年間のアクティビティーに関し�
 
 **API の制限の詳細**
 
-Marketo からのインポートには Marketo API を使用します。 Marketo の API 呼び出しの上限は、顧客あたり 1 日に合計 10,000 回です。これは、Marketo API を使用するすべてのアプリケーションの間で共有されます。 Power BI の統合だけでなく、他の統合でも API を使用する可能性があります。 API の詳細については、<http://developers.marketo.com/documentation/rest/> を参照してください。
+Marketo からのインポートには Marketo API を使用します。 Marketo の API 呼び出しの上限は、顧客あたり 1 日に合計 10,000 回です。これは、Marketo API を使用するすべてのアプリケーションの間で共有されます。 Power BI の統合だけでなく、他の統合でも API を使用する可能性があります。 API の詳細については、「<http://developers.marketo.com/documentation/rest/>」を参照してください。
 
 Power BI が Marketo に対して行う API 呼び出しの量は Marketo アカウント内のデータの量に依存します。 Power BI は過去 1 年間のすべての潜在顧客とアクティビティをインポートします。 Marketo からのデータと、インポートするときに Power BI で使用される API 呼び出しの量に関する例を次に示します。  
 

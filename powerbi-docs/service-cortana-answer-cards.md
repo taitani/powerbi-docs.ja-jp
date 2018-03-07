@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Create reports
+ms.openlocfilehash: c4816ede1ea5364e5db2156af747a3d05231d02a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI サービスまたは Power BI Desktop を使用して Cortana のカスタム回答ページを作成する
 Power BI のすべての機能を使って、Cortana の質問に回答するために特別に設計された *Cortana 回答ページ* ("Cortana 回答カード" と呼ばれることもあります) と呼ばれる特別なレポート ページを作成できます。

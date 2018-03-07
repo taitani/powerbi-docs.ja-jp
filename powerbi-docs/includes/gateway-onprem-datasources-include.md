@@ -7,6 +7,7 @@
 | フォルダー |いいえ |はい |
 | IBM DB2 |いいえ |はい |
 | IBM Informix データベース |いいえ |はい |
+| IBM Netezza |はい |はい |
 | Impala |はい |はい |
 | MySQL |いいえ |はい |
 | OData |いいえ |はい |

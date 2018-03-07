@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 200438c1c7a488f963b44040324374905d643b6e
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 3ff0a65d32a95a6926e2c808af119e31effd7e05
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Power BI で tyGraph に接続する
 Power BI コンテンツ パックを使用して、Power BI 内の tyGraph データを視覚化および探索します。 まず tyGraph アカウントに接続し、ダッシュボード、レポート、データセットを読み込みます。 すぐに使えるコンテンツには、Measure of Active Engagement (MAE スコア) や上位投稿者などの情報があります。 最も関心がある情報を強調表示するには、さらにカスタマイズします。  データは、設定したスケジュールに従って自動的に更新されます。
@@ -48,7 +49,7 @@ Power BI コンテンツ パックを使用して、Power BI 内の tyGraph デ�
    
     **ユーザーが Yammer 認証管理者でない場合**
    
-    tyGraph コンテンツ パックには、Yammer 認証管理者が作成した tyGraph アカウントが必要です。 作成されると、補足のキーが同じ組織内のユーザーに発行されます。 認証管理者が tyGraph アカウントをまだ作成していない場合は、作成してもらうように問い合わせてください。 tyGraph アカウントが既に作成されている場合は、<mailto:support@unlimitedviz.com> にメールを送信してキーを要求できます。
+    tyGraph コンテンツ パックには、Yammer 認証管理者が作成した tyGraph アカウントが必要です。 作成されると、補足のキーが同じ組織内のユーザーに発行されます。 認証管理者が tyGraph アカウントをまだ作成していない場合は、作成してもらうように問い合わせてください。 tyGraph アカウントがすでに作成されている場合は、<mailto:support@unlimitedviz.com> に電子メールを送信してキーを要求できます。
    
     ![](media/service-connect-to-tygraph/creds.png)
 6. 認証が成功すると、インポート処理が自動的に開始されます。 完了すると、ナビゲーション ウィンドウに、新しいダッシュ ボード、レポート、モデルが表示されます。 インポートされたデータを表示するダッシュボードを選択します。

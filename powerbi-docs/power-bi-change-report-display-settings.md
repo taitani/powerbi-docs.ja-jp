@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: a1affeff46b67d89939b41ca76b4693cbc4ede33
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 9ec589655a3dc9b3e19def76cee2f20c48a512b2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="change-the-size-of-a-report-page-tutorial"></a>レポート ページのサイズを変更する (チュートリアル)
 [前の記事とビデオ](power-bi-report-display-settings.md)では、Power BI レポートでページ表示を制御するための **[表示]** と **[ページ サイズ]** という 2 つの異なる方法について説明しました。 ページ表示とページ サイズは Power BI サービスと Power BI Desktop の両方で使うことができ、見た目と機能はほとんど同じですが、このチュートリアルでは Power BI サービスを使います。

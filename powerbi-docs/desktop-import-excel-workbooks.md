@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ea68f787fc59b2f672767fcf49c30761ee4db8cb
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 316272f77b55fa7a803bffb596b7bad6da93cced
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Power BI Desktop に Excel ブックをインポートする
 **Power BI Desktop** を使用すると、Power Query のクエリ、Power Pivot のモデル、Power View ワークシートが格納されている Excel ブックを Power BI Desktop に簡単にインポートすることができます。 レポートと視覚化は Excel ブックに基づいて自動的に作成されます。一度インポートしたら、Power BI Desktop を使用してこれらのレポートを引き続き改良して調整でき、その際には既存の機能や、Power BI Desktop の毎月の更新でリリースされる新機能を利用することができます。

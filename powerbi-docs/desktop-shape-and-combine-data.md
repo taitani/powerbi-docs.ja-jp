@@ -1,7 +1,28 @@
--- タイトル: Power BI Desktop でのデータの整形と結合の説明: Power BI Desktop サービスでのデータの整形と結合: powerbi documentationcenter: ''作成者: davidiseminger マネージャー: kfile バックアップ: ''エディター: ''タグ: ''qualityfocus: no qualitydate: ''
-
-ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
-
+---
+title: "Power BI Desktop でのデータの整形と結合"
+description: "Power BI Desktop でのデータの整形と結合"
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 01/30/2018
+ms.author: davidi
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: c8f2419ae2898a59907763392eb86b4877b4fd75
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Power BI Desktop でのデータの整形と結合
 **Power BI Desktop** を使用すると、さまざまな種類のデータ ソースに接続してから、ニーズに合わせてデータを整形できます。 データの *整形* とは、データを変換することです。たとえば、列やテーブルの名前を変更したり、テキストを数値に変更したり、行を削除したり、最初の行をヘッダーとして設定したりします。 データの *結合* とは、複数のデータ ソースに接続して、必要に応じてそれらを整形してから、1 つの便利なクエリに統合することを意味します。
