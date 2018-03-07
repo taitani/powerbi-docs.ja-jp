@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ea93980a095ca4e626b6f8071d044448af59635
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>チュートリアル: Power BI Desktop で計算列を作成する
 ときどき、分析しているデータに、必要とする結果の取得に必要な特定のフィールドが含まれていないことがあります。 これが、計算列が入る場所です。 計算列は、列の値を定義するのに Data Analysis Expressions (DAX) 数式を使用します。 この値は、ほとんど何でも可能です。モデル内にある異なるいくつかの列のテキスト値をまとめたものでも、他の値からの数値の計算でも可能です。 たとえば、データに ([フィールド] の一覧のフィールドとして) [市区町村] 列と [都道府県] 列があるとします。しかし、単一値として両方を持つ [地域] フィールドを 1 つ必要としています (「Miami、FL」 など)。 これこそまさに計算列の目的です。

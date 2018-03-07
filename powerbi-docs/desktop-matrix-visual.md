@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Create reports
+ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Power BI Desktop でのマトリックス ビジュアルの使用
 **マトリックス** ビジュアルを使って、**Power BI Desktop** レポートでマトリックス ビジュアル ( *テーブル* ともいう) を作成し、他のビジュアルでマトリックス内の要素をクロス強調表示することができます。 また、行、列、さらには個々のセルを選択して、クロス強調表示することができます。 最終的に、レイアウト スペースをより有効に利用するために、マトリックス ビジュアルでは階段状レイアウトがサポートされます。

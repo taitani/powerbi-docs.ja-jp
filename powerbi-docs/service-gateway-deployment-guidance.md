@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: dee83471e0c8e2506902ac5bdb163163430bbb9a
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI のデータ ゲートウェイを展開するためのガイダンス
 この記事では、ネットワーク環境にデータ ゲートウェイを展開するためのガイダンスと考慮事項について説明します。 **ゲートウェイ**は、Power PI のようなクラウド サービスで後で利用するためにプライベートのオンプレミス ネットワークに置いたデータに簡単にアクセスするためのソフトウェアです。 この記事では、展開の手順を説明し、**オンプレミス データ ゲートウェイ**のセットアップに関するガイダンスを提供します。

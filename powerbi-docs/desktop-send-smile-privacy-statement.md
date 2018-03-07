@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ac0dc4919eb8eee2bb4ae4b7d2e3a466dba26bd9
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop "気に入った機能の報告" のプライバシーに関する声明
 Microsoft は、お客様のニーズを満たすパフォーマンス、性能、利便性を備えた製品をお届けするにあたり、プライバシーの保護に精力的に取り組んでいます。 このプライバシーに関する声明では、Microsoft Power BI Desktop のフィードバック機能 "*気に入った機能の報告*" によるデータの収集と、同機能の利用について、多くの事項を説明します。 ここで説明した内容は、(オンライン、オフラインを問わず) Microsoft の他のサイト、製品、サービスには適用しません。

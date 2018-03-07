@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: bd9d3e57955c643f42844275128890ecb850d438
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: e7bfb936bdff4ba7ddd5097c3f59003d48c70347
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI で Microsoft Dynamics CRM に接続する
 Power BI 用 Microsoft Dynamics CRM Online を利用すれば、簡単にデータにアクセスし、分析できます。 Power BI は、OData フィードを使用して記述モデルを作成します。その際、必要なすべてのエンティティやメジャー (取引先企業、活動、営業案件、製品、潜在顧客、ユーザーなど) を含めます。 アプリをインストールすると、Power BI サービス ([https://powerbi.com](https://powerbi.com)) と Power BI モバイル アプリでダッシュボードとレポートを表示できます。 

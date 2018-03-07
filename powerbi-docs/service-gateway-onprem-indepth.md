@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: fbb1b22b930a00fa9e090b3ebc5ab9fd1ffc88c0
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>オンプレミス データ ゲートウェイの詳細
 組織のユーザーはオンプレミス データ (アクセス認証を取得済みの) にアクセスできますが、オンプレミス データ ソースに接続するには、事前にオンプレミス データ ゲートウェイをインストールし、設定しておく必要があります。 このゲートウェイにより、クラウドのユーザーとオンプレミス データ ソースの間のバックグラウンドの通信が迅速かつ安全な方法で確立されます。

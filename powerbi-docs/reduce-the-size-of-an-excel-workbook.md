@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ee4dba473cf757f23a757c44d5c3ebdd887fdfc
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data from files
+ms.openlocfilehash: ff05fb9a80e9e4efff066eb71173db78a856bf2c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Power BI で表示する Excel ブックのサイズを減らす
 1 GB 未満のすべての Excel ブックを Power BI にアップロードできます。 Excel ブックは 2 つの部分で構成されていることがあります。つまり、データ モデルと、レポートの残りの部分 (コアなワークシート コンテンツ) です。 レポートが次のサイズの制限を満たしている場合は、**OneDrive for Business** に保存して、Power BI からこれに接続し、Excel Online で表示できます。

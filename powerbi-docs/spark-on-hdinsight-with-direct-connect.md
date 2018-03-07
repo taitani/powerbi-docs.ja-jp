@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: c2b0f2fab2b9ccd2540ad45d6156ce9547513deb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Data from databases
+ms.openlocfilehash: 0eade5942b65985cf704709ea88870a2352b07c0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery を使用する HDInsight 上の Spark
 DirectQuery を使用する Azure HDInsight 上の Spark を使えば、Spark クラスターにすでに保持してあるデータとメトリックに基づいて、動的なレポートを作成できます。 DirectQuery があれば、レポート ビューでデータを探索するときに、Azure HDInsight Spark クラスターにクエリが送り返されます。 この操作は、接続先のエンティティに精通しているユーザーにお勧めします。

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 33b6cec4222947695fc3c5b822ff97bf1ef45670
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data refresh
+ms.openlocfilehash: c20ba2a33a88ba8c6ab27cf60b02babf3ebb4cad
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online の Excel ブックから作成されたデータセットを更新する
 ローカル コンピューターに、または OneDrive for Business や SharePoint Online のようなクラウド ストレージに、Excel ブックをインポートできます。 Excel ファイル用にクラウド ストレージを使用する利点を紹介します。 Power BI に Excel ファイルをインポートする方法の詳細については、「[Excel ブック ファイルからデータを取得する](service-excel-workbook-files.md)」を参照してください。

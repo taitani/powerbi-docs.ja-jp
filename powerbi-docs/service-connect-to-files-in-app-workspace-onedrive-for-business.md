@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: fae3fb4e9ca6b6013538d0cb223909aea6c88271
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 8a078475bc01dec37d49f654d1fa90162a9d8366
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Power BI アプリ ワークスペースの OneDrive に保存されているファイルに接続する
 [Power BI にアプリ ワークスペースを作成](service-create-distribute-apps.md)した後、Excel、CSV、Power BI Desktop などのファイルを Power BI アプリ ワークスペースの OneDrive for Business に保存できるようになりました。 OneDrive に保存したファイルは引き続き更新可能で、それらのファイルに基づく Power BI レポートやダッシュボードに更新が自動的に適用されます。 

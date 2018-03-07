@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 808f8b12a0deda90b74eac2ca45748e16315988f
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: cb23034c207bd272f716e8074bb3702ea30e893a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop での列による並べ替え
 **Power BI Desktop** と **Power BI サービス**では、さまざまなデータ フィールドを並べ替えることで視覚効果を変更できます。 並べ替えで視覚効果を変更することで、伝えたい情報を強調できます。伝えたい傾向 (あるいは、重要な点) を視覚的に示すことができます。

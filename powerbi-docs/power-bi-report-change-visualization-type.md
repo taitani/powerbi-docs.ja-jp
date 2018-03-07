@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: c6a5759be3df141e2a93fe8c969a45cdc0b004be
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Power BI レポートでの視覚化の種類の変更
 Power BI サービスおよび Power BI Desktop では、さまざまな種類の視覚化を試して、データの最適な表示方法を探すことができます。 

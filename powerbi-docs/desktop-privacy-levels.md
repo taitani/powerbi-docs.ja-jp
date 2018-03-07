@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
-ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 3cf6875fcb0756bfa9f5622a8d49f5b645b13c24
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop のプライバシー レベル
 **Power BI Desktop** では、プライバシー レベルにより、あるデータ ソースが他のデータ ソースから分離している程度を定義する分離レベルを指定します。 制限の厳しい分離レベルは、データ ソース間で交換される情報を妨げますが、機能性とパフォーマンスに与える影響を軽減できます。

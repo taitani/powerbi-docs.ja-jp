@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI で Project "Madeira" に接続する
 Power BI と Project “Madeira” コンテンツ パックを使用すると、Project “Madeira” データの洞察を簡単に取得できます。 Power BI は、売上と財務の両方のデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
@@ -106,8 +107,8 @@ Project "Madeira" の URL を入力した後でこのエラーが発生した場
 
 **「ログインに失敗しました」**: Project “Madeira” の資格情報を使用してダッシュボードにログインしたときに「ログインに失敗しました」エラーが発生した場合は、次の問題のいずれかが原因である可能性があります。  
 
-    - 使用しているアカウントが Project “Madeira” からデータを読み取るアクセス許可がない。 Project "Madeira" で自分のユーザー アカウントを調べ、パスワードとして正しい Web サービス アクセス キーを使用していることを確認してからやり直してください。  
-    - 接続しようとしている Project "Madeira" インスタンスが有効な SSL 証明書を持っていない。 この場合は、さらに詳細なエラー メッセージが表示されます (「SSL の信頼関係を確立できません」)。 自己署名証明書はサポートされていないことに注意してください。  
+   - 使用しているアカウントが Project “Madeira” からデータを読み取るアクセス許可がない。 Project "Madeira" で自分のユーザー アカウントを調べ、パスワードとして正しい Web サービス アクセス キーを使用していることを確認してからやり直してください。  
+   - 接続しようとしている Project "Madeira" インスタンスが有効な SSL 証明書を持っていない。 この場合は、さらに詳細なエラー メッセージが表示されます (「SSL の信頼関係を確立できません」)。 自己署名証明書はサポートされていないことに注意してください。  
 
 **「問題が発生しました」**: 認証ダイアログ ボックスを通過した後で「問題が発生しました」エラー ダイアログが表示された場合、最も多い原因は、コンテンツ パックのデータに接続できないことです。 URL が、既に説明した次のパターンに従っていることを確認します。  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 56e60f0484d5819bfe514281c86e6fb39efa75e8
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Model your data
+ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop で計算列を使用する
 計算列を使うと、既にモデル内に存在するテーブルに新しいデータを追加できます。 しかし、値のクエリを実行してデータ ソースから新しい列に読み込む代わりに、列の値を定義する Data Analysis Expressions (DAX) 数式を作成します。 Power BI Desktop では、レポート ビューの [新しい列] 機能を使用して計算列を作成します

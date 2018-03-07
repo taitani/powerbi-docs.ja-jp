@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 447f400136f9678cad068f215ee82522253fc0d5
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 52adef9d30ec269e6e3a954632a54814b241623d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Power BI で Zendesk に接続する
 Zendesk コンテンツ パックは、Power BI ダッシュボードと一連の Power BI レポートを提供し、お客様のチケット ボリュームとエージェント パフォーマンスに関する詳細情報を示します。 提供されるダッシュボードとレポートをそのまま使用することもできますし、最も関心のある情報を強調表示するためにカスタマイズすることができます。  データは、1 日 1 回自動的に更新されます。 

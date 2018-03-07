@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: 2c249cac17e8fe6da35634c78837e3ca16e70a5c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop で OneDrive for Business リンクを使用する
 多くの人は、Power BI Desktop と相性の良い OneDrive for Business ドライブに Excel ブックを格納しています。 **Power BI Desktop** を使用すると、**OneDrive for Business** に格納されている **Excel** ファイルのオンライン リンクを使用して、レポートやビジュアルを作成できます。 **OneDrive for Business** のグループ アカウントか、個人の **OneDrive for Business** アカウントを使用できます。

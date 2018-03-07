@@ -14,11 +14,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 3c137c55f5f8326ff1281d4be00fabac2f14347b
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 44501e5447248164f6f04d4463213939975e18ae
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>チュートリアル: Q&A を使用して視覚エフェクトおよびレポートを作成する方法
 [Q&A の概要](power-bi-q-and-a.md)に関する記事では、Power BI Q&A について紹介し、"*利用者*" (ダッシュボードとレポートの共有を受けているユーザー) と "*作成者*" (基になるレポートとデータセットを所有しているユーザー) の違いを説明しました。 このチュートリアルの前半は、主に Power BI サービスを使ってダッシュボードを利用するユーザー向けに書かれています。 後半は、Power BI サービスまたは Power BI Desktop を使ってレポートを作成するユーザーを対象にしています。 [Q&A と Power BI モバイル](mobile-apps-ios-qna.md)および [Q&A と Power BI Embedded](developer/qanda.md) については、別の記事で説明します。

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: d3643ae398c037c375c8e67360794047a6f66ed7
-ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+LocalizationGroup: Connect to data
+ms.openlocfilehash: ec124ef4ae34b064e217b3ce646a329d538e4214
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 **Power BI Desktop** を利用すれば、データ ソースに接続するとき、常にデータのコピーを **Power BI Desktop** にインポートできます。 データ ソースによっては、代替手法を利用できます。**DirectQuery** でデータ ソースに直接接続する方法です。
@@ -75,7 +76,7 @@ ms.lasthandoff: 02/01/2018
       The resultset of a query to external data source has exceeded
       the maximum allowed size of '1000000' rows.
   
-  このような状況は、カーディナリティが非常に高い列を含む簡単なグラフで集計オプションが *[Don’t Summarize]* (集計しない) に設定されている場合に発生します。 ビジュアルの場合、列のカーディナリティは 100 万未満にする必要があります。あるいは、適切なフィルターを適用する必要があります。
+  このような状況は、基数が非常に高い列を含む簡単なグラフで集計オプションが *[Don’t Summarize]* (集計しない) に設定されている場合に発生します。 ビジュアルの場合、列の基数は 100 万未満にする必要があります。あるいは、適切なフィルターを適用する必要があります。
 * **セキュリティ** - 公開されたレポートを利用するユーザーは全員、Power BI サービスに公開した後に入力された資格情報を利用し、バックエンド データ ソースに接続します。 これはインポートされたデータと同じ状況になります。バックエンド ソースに定義されているセキュリティ ルールに関係なく、すべてのユーザーに同じデータが表示されます。 ユーザーごとのセキュリティを希望のお客様は、DirectQuery ソースを実装し、RLS を使います。 [RLS についての詳細情報](service-admin-rls.md)。
 * **サポートされている機能** - **Power BI Desktop** の一部の機能は **DirectQuery** モードでサポートされていないか、制限があります。 また、Power BI サービスには、**DirectQuery** 使用時のデータセットで利用できない機能もあります (*クイック分析情報*など)。 そのため、**DirectQuery** を利用するかどうかを判断するとき、以上のような **DirectQuery** 利用時の機能制約を考慮する必要があります。   
 

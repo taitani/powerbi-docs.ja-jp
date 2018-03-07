@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 7a76cc071a114a7bbd4ccc8ade61ff10b7b2e4c5
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Visualizations
+ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="treemaps-in-power-bi-tutorial"></a>Power BI のツリーマップ (チュートリアル)
 ツリーマップでは、入れ子になった一連の四角形で階層データが表示されます。  階層の各レベルは、色付きの四角形 (「ブランチ (枝)」) で表され、ブランチには他の四角形 (「リーフ (葉)」) が含まれます。  各四角形内の面積は、測定される量的な値に基づいて割り当てられ、各四角形は大きさの順に左上 (最大) から右下 (最小) に向かって配置されます。

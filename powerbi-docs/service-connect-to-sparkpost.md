@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 11cfb3b02c37ab839726c7fe87079afafb35f3b1
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 0d477906b64c2d106a08a284bda9a4898f4a5298
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Power BI で SparkPost に接続する
 SparkPost 用 Power BI コンテンツ パックを使用すると、SparkPost アカウントから貴重なデータセットを 1 つの優れた洞察力のダッシュボードに抽出できます。 SparkPost コンテンツ パックを使用することで、ドメイン、キャンペーン、ISP によるエンゲージメントなどの電子メールの全体的な統計情報を視覚化できます。
