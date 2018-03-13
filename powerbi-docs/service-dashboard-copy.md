@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Power BI サービスでダッシュボードのコピーを作成する
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![ダッシュボード](media/service-dashboard-copy/power-bi-dashboard.png)
 
  ダッシュボードをコピーするにはさまざまな理由があります。 ダッシュボードを変更し、元のダッシュボードとパフォーマンスを比較する場合や、少しずつ異なるバージョンを作成して同僚、リージョン、チームに配布する場合などです。 ダッシュボードのデザインを気に入った同僚は、マネージャーへのレポートにそれを使いたいと思うかもしれません。 または、データ構造とデータ型が同じ新しいデータベースがあり、既に作成してあるダッシュボードを再利用したい場合もコピーしますが、Power BI Desktop で何らかの作業が必要になる場合があります。 
 
@@ -36,13 +37,13 @@ ms.lasthandoff: 01/23/2018
 1. ダッシュボードを開きます。
 2. 右上隅の省略記号 [...] を選び、**[ダッシュボードの複製]** を選びます。
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![省略記号メニュー](media/service-dashboard-copy/power-bi-dulicate.png)
 3. ダッシュボードの名前を指定し、**[複製]** を選びます。 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![[ダッシュボードの複製] ダイアログ](media/service-dashboard-copy/power-bi-name.png)
 4. 新しいダッシュボードがオリジナルと同じワークスペースに保存されます。 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![[ダッシュボード] タブ](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    新しいダッシュボードを開き、必要に応じて編集します。 たとえば次の動作として以下のようなことができます。    
     a. [タイルの移動、名前変更、サイズ変更、または削除](service-dashboard-edit-tile.md)を行います。  

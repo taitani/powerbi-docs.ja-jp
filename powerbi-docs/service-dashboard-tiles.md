@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI のダッシュボードのタイル
 ダッシュボードおよびダッシュボード タイルは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードのタイルを作成またはピン留めすることはできませんが、[表示して共有する](mobile-tiles-in-the-mobile-apps.md)ことはできます。 また、Power BI モバイルでは、[iPhone アプリでダッシュボードに画像を追加する](mobile-iphone-app-get-started.md)ことができます。
 
 ## <a name="dashboard-tiles"></a>ダッシュボードのタイル
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Power BI ダッシュボード](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 タイルは、ダッシュボードにピン留めされた、データのスナップショットです。 タイルは、レポート、データセット、ダッシュボード、Q&A ボックス、Excel、SQL Server Reporting Services (SSRS) などから作成できます。  次のスクリーンショットは、ダッシュボードにピン留めされているさまざまなタイルを示しています。
 
@@ -53,34 +54,34 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 
 また、[[タイルの追加]](service-dashboard-add-widget.md) を使って、画像、テキスト ボックス、ビデオ、ストリーミング データ、Web コンテンツ用のスタンドアロン タイルをダッシュボードに直接作成できます。
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![タイルの追加アイコン](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>ダッシュボードのタイルと対話する
 ### <a name="move-and-resize-a-tile"></a>タイルの移動とサイズ変更
-タイルをつかんで、[ダッシュボード上を移動](service-dashboard-edit-tile.md)できます。 ハンドル ![](media/service-dashboard-tiles/resize-handle.jpg) にマウス カーソルを置いて選ぶと、タイルのサイズを変更できます。
+タイルをつかんで、[ダッシュボード上を移動](service-dashboard-edit-tile.md)できます。 ハンドル ![ハンドル](media/service-dashboard-tiles/resize-handle.jpg) にマウス カーソルを置いて選ぶと、タイルのサイズを変更できます。
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>タイルにカーソルを置いて動作と外観を変更する
 1. タイルにマウス カーソルを置き、省略記号を表示します。
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![タイルの省略記号](media/service-dashboard-tiles/ellipses_new.png)
 2. 省略記号を選んで、タイルの操作メニューを開きます。
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![省略記号アイコン](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     ここでは、次の操作を実行できます。
    
-   * [このタイルの作成に使われたレポートを開く](service-reports.md) ![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [このタイルの作成に使われたレポートを開く](service-reports.md) ![レポート アイコン](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [このタイルの作成に使われたワークシートを開く](service-reports.md) ![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [このタイルの作成に使われたワークシートを開く](service-reports.md) ![ワークシート アイコン](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [フォーカス モードで表示する](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [タイルで使われているデータをエクスポートする](power-bi-visualization-export-data.md) ![](media/service-dashboard-tiles/export-icon.png)
-     * [タイトルとサブタイトルの編集、ハイパーリンクの追加、最終更新日時の表示](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [インサイトを実行する](service-insights.md) ![](media/service-dashboard-tiles/power-bi-insights.png)
+     * [フォーカス モードで表示する](service-focus-mode.md) ![フォーカス アイコン](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [タイルで使われているデータをエクスポートする](power-bi-visualization-export-data.md) ![データのエクスポート アイコン](media/service-dashboard-tiles/export-icon.png)
+     * [タイトルとサブタイトルの編集、ハイパーリンクの追加、最終更新日時の表示](service-dashboard-edit-tile.md) ![編集アイコン](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [インサイトを実行する](service-insights.md) ![インサイト アイコン](media/service-dashboard-tiles/power-bi-insights.png)
      * [別のダッシュボードにタイルをピン留めする](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [タイルの削除](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+       ![ピン留めアイコン](media/service-dashboard-tiles/pin-icon.jpg)
+     * [タイルの削除](service-dashboard-edit-tile.md)
+     ![削除アイコン](media/service-dashboard-tiles/trash-icon.png)
 3. 操作メニューを閉じるには、キャンバスの空白領域を選びます。
 
 ### <a name="select-click-a-tile"></a>タイルの選択 (クリック)

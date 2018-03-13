@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI サービスのレポートの読み取りビューと編集ビュー
 Power BI サービスには、レポートを表示および操作するためのモードとして、読み取りビューと編集ビューの 2 つがあります (Power BI Desktop にはありません)。 読み取りビューはすべてのユーザーが利用でき、特にデータの*コンシューマー*向けに設計されていますが、編集ビューはレポートの*作成者*と所有者のみが利用できます。 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![レポート作成者とレポート コンシューマーのアートワーク](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>レポートの読み取りビュー
 
@@ -83,17 +84,17 @@ Power BI サービスには、レポートを表示および操作するため�
 
 1. 通常、既定ではレポートは読み取りビューで開かれます。 **[レポートの編集]** オプションが表示されていれば、読み取りビューで開いていることになります。 **[レポートの編集]** が淡色表示の場合は、レポートを編集ビューで開くアクセス許可がありません。
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![単色表示の [レポートの編集]](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. **[レポートの編集]** が淡色表示になっていない場合は、それを選ぶとレポートが編集ビューで開きます。 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![[レポートの編集] オプション](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    これでレポートが編集ビューに切り替わり、読み取りビューで最後に使用したものと同じ[表示設定](power-bi-report-display-settings.md)が使用されます。
 
 2. 読み取りビューに戻るには、上部のナビゲーション バーにある **[読み取りビュー]** を選びます。
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![[読み取りビュー] オプション](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

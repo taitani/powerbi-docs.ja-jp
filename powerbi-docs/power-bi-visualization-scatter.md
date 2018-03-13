@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI の散布図とバブル チャート (チュートリアル)
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
@@ -56,44 +57,55 @@ ms.lasthandoff: 01/19/2018
 
 次の手順では、「Retail Analysis Sample」を使用します。 作業を進めるために、Power BI サービス (app.powerbi.com) または Power BI Desktop の[サンプルをダウンロード](sample-datasets.md)します。   
 
-1. [空のレポート ページ](power-bi-report-add-page.md)で始めて、**[Sales]** \> **[Sales Per Sq Ft]** フィールドおよび **[Sales]** > **[Total Sales Variance %]** フィールドを選びます。 Power BI サービスを使っている場合は、[編集ビュー](service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
+1. 黄色のプラスアイコンを選んで、[空のレポート ページ](power-bi-report-add-page.md)を作成します。
  
-2. [フィールド] ウィンドウから **[District]、[District]** の順に選択します。
-   
+2. [フィールド] ウィンドウで、次のフィールドを選びます。
+   - **[Sales]** > **[Sales Per Sq Ft]**
+   - **[Sales]** > **[Total Sales Variance %]**
+   - **[District]** > **[District]**
+
     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
-4. 散布図に変換します。 [視覚化] ウィンドウで、散布図アイコンを選びます。
+
+    Power BI サービスを使っている場合は、[編集ビュー](service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
+
+3. 散布図に変換します。 [視覚化] ウィンドウで、散布図アイコンを選びます。
+
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png)
-5. **[District] \(地域)** を **[詳細]** から **[凡例]**にドラッグします。
-   
+
+4. **[District] \(地域)** を **[詳細]** から **[凡例]**にドラッグします。 これで、**Total Sales Variance %** を Y 軸に、**Sales Per Square Feet** を X 軸にプロットした散布図が作成されます。 データ ポイントの色は地区を表しています。
+
     ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
-これで、総売上高の差異 % を Y 軸に、平方フィートあたりの売上高を X 軸にプロットした散布図ができあがりました。  データ点の色は地区を表しています。  次に、3 番目のディメンションを追加してみましょう。
+次に、3 番目のディメンションを追加してみましょう。
 
 ## <a name="create-a-bubble-chart"></a>バブル チャートを作成する
-1. [フィールド] ウィンドウから、**[Sales]** > **[This Year Sales]** > **[値]** を **[サイズ]** 領域にドラッグします。 
+
+1. **[フィールド]** ウィンドウから、**[Sales]** > **[This Year Sales]** > **[値]** を **[サイズ]** 領域にドラッグします。 データ ポイントは、売り上げ高の値に比例してボリュームに展開します。
    
    ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
-2. バブルの上にマウスを置きます。  バブルのサイズは、 **[This Year Sales]**の値を反映しています。
+
+2. バブルの上にマウスを置きます。 バブルのサイズは、 **[This Year Sales]**の値を反映しています。
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
-3. 必要に応じて、[視覚化の色、ラベル、タイトル、背景などの書式を設定](service-getting-started-with-color-formatting-and-axis-properties.md)します。
+
+3. バブル チャートに表示するデータ ポイントの数を設定するには、**[視覚化]** ウィンドウの **[形式]** セクションで、**[全般]** カードを展開し、**[データ ボリューム]** を調整します。 10,000 までの任意の値に最大データ量を設定することができます (既定値は 3500)。
+
+    ![データ ボリューム](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+
+   > [!NOTE]
+   > データ ポイントが多いほど読み込み時間が長くなるので、スケールの上限に制限のあるレポートを発行する場合は、Web とモバイルでレポートをテストし、ユーザーが望むパフォーマンスが得られることを確認する必要があります。 データ ポイントの数が多いときは、異なるフォーム ファクターで結果をテストしてパフォーマンスを確認する必要があります。
+
+4. [視覚化の色、ラベル、タイトル、背景などの書式を設定する](service-getting-started-with-color-formatting-and-axis-properties.md)ことができます。 [アクセシビリティを向上させる](desktop-accessibility.md)には、行ごとにマーカー図形を追加することを検討します。 各線に別のマーカーの図形を使用すると、レポートの使用者は個々の線 (または領域) を区別するのが容易になります。 マーカーの形状を選ぶには、**[図形]** カードを展開し、マーカーの形状を選びます。
+
+      ![マーカーの図形](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    マーカーの形をひし形、三角形、または正方形に変更することもできます。
 
    ![正方形のマーカー](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-4. バブル チャートに表示するデータ ポイントの数を設定する必要がある場合は、**[視覚化]** ウィンドウの **[形式]** セクションで、**[全般]** カードを展開し、**[データ ボリューム]** を調整します。 既定値は 3500 です。 
- 
-    ![データ ボリューム](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
-
-   > [!NOTE]
-   > データ ポイントが多いほど読み込み時間が長くなるので、スケールの上限に制限のあるレポートを発行する場合は、Web とモバイルでレポートをテストし、ユーザーが望むパフォーマンスが得られることを確認する必要があります。
-
-5.   マーカーの形状を選ぶ必要がある場合は、**[図形]** カードを展開し、マーカーの形状を選びます。
-
-      ![マーカーの図形](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
+
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**散布図グラフにデータ ポイントが 1 つだけ表示される**
 散布図に、X 軸上と Y 軸上のすべての値を集計した 1 つのデータ ポイントのみが表示されていますか?  あるいは、1 本の横線または縦線に沿ってすべての値が集計されていますか?
 

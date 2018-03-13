@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 38cb04269937aa0b56589e4831eb7a3b027986d0
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Q&A のおすすめの質問を作成する
 データセットがある場合、そのデータセットにおすすめの質問を追加できます。  Power BI Q&A では、データセットを使用する ("*消費する*") 同僚におすすめの質問が表示されます。  同僚は、データセットについて確認できる質問の種類についておすすめの質問をヒントにすることができます。 任意のおすすめの質問を追加できます。よくある質問、興味深い結果が表示される質問、表現しづらい質問などを追加してください。
@@ -39,18 +40,18 @@ Will がおすすめの質問をいくつか Power BI Q&A に追加した後、�
 
 1. ダッシュボードで Q&A 質問ボックスを選びます。   Q&A には、データセットに出現する用語の一覧が表示されるので、既定のままでも便利です。
 2. この一覧に追加するには、Power BI の右上にある歯車アイコンを選択します。  
-   ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
+   ![歯車アイコン](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. **[設定]** &gt; **[データセット]** &gt; **[小売りの分析のサンプル]** &gt; **[おすすめの Q&A 質問]** を選びます。  
 4. **[質問の追加]**を選択します。
    
-   ![](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
+   ![[設定] メニュー](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
 5. テキスト ボックスに質問を入力し、 **[適用]**を選択します。   必要に応じて、 **[質問の追加]**を選択して別の質問を追加します。  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
+   ![[おすすめの Q&A 質問] ウィンドウ](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. Power BI ダッシュボードに戻って小売りの分析のサンプルを表示し、Q&A の質問ボックスにカーソルを置きます。   
-   ![](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
+   ![Q&A 質問ボックス](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
 7. 追加したおすすめの質問の **[Sales by territory as a map]** (担当地域別の売上の地図) が一覧の最初に表示されます。 その質問を選択します。  
 8. 塗り分け地図の視覚化として答えが表示されます。  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
+   ![マップの視覚エフェクト](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>次の手順
 [Power BI での Q&A](power-bi-q-and-a.md)  

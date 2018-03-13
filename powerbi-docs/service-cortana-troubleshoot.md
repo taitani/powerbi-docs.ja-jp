@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI 用 Cortana のトラブルシューティング
 この記事はシリーズの一部です。 次の 3 つの記事をまだ読んでいない場合は、読むことをお勧めします。
@@ -95,7 +96,7 @@ Cortana と Power BI の統合にまだ問題がある場合は、ここでそ�
    結果が得られたので、Cortana が Power BI で有効になって**いる**ことがわかります。 これにより、問題は Windows 側、Cortana 言語の設定、または Cortana に対して 100 を超えるデータセットの有効化に絞り込まれます。
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>ダッシュボードから回答を取得できませんか。
-共有しているダッシュボードをお探しですか?  Power BI を開き、**[共有アイテム]** に進み、ダッシュボードの名前を見つけます。  *[Utterance]** /(発話/) フィールドにその名前を入力します。
+共有しているダッシュボードをお探しですか?  Power BI を開き、**[共有アイテム]** に進み、ダッシュボードの名前を見つけます。  **[Utterance]\(発話\)** フィールドにその名前を入力します。
 
 ![Power BI で共有アイテムを開く](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

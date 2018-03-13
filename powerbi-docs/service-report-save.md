@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 50fd10596ea7ebba1284f78b4056f7afbd0e3400
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: b31ad6f31404b563f6a5fe3805e77027671a5870
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop でレポートを保存する
 Power BI でレポートを変更した後、そのレポートを保存したり、新しい名前を付けて保存したり、変更を保存せずに閉じたりできます。 たとえば、レポートを開き、視覚化を作成し、それをダッシュボードにピン留めしたとします。 変更を保存せずにレポートをすぐに閉じた場合、タイルはダッシュボードに残りますが、視覚化はレポートに保存されていません。 ダッシュボードでそのタイルをクリックすると、レポートが開きますが、視覚エフェクトはレポートに存在しなくなっています。
@@ -34,13 +35,13 @@ Power BI でレポートを変更した後、そのレポートを保存した�
 ### <a name="to-save-a-report"></a>レポートを保存するには:
 1. レポートを変更した後、レポートから別の場所に移動しようとすると、レポートを保存するかどうか確認するメッセージが表示されます。
    
-   ![](media/service-report-save/power-bi-unsaved.png)
+   ![変更の保存](media/service-report-save/power-bi-unsaved.png)
 2. レポートを保存するもう 1 つの方法としては、**[ファイル]** \> **[保存]** または **[名前を付けて保存]** を選びます。 読み取りビューの場合は、[[名前を付けて保存]](service-reading-view-and-editing-view.md) のみが表示されます。 
    
-   ![](media/service-report-save/power-bi-save-new.png)
+   ![レポートの保存](media/service-report-save/power-bi-save-new.png)
 3. 新しいレポート ([保存]) または既存のレポートの新しいバージョン ([名前を付けて保存]) の場合は、わかりやすい名前を付けます。  **レポートは、アクティブなワークスペースに追加されます**。
    
-    ![](media/service-report-save/power-bi-save-dialog.png)
+    ![レポート名の設定](media/service-report-save/power-bi-save-dialog.png)
 
 ### <a name="next-steps"></a>次の手順
 [Power BI のレポート](service-reports.md)で詳細を確認する

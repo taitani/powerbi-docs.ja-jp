@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI サービスのコンテンツ パック プログラムの概要
 コンテンツ パックは、ユーザーがソースからすぐに洞察を得られるようにするための既定のコンテンツのセットです。 コンテンツ パックは、通常、役割、ドメイン、またはワークフローの洞察を提供する特定のビジネス シナリオに焦点を当てています。
@@ -64,9 +64,9 @@ ISV は、顧客が自分のアカウントで接続し、インスタンス化�
 * 独立した固有のシナリオのために複数のコンテンツ パックの提供を考慮する  
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
-**自分で所有していないサードパーティ製 SaaS アプリケーションに対して Power BI サービス コンテンツ パックを構築できますか。**
+**サードパーティは、自分で所有していない SaaS アプリケーションに対して Power BI サービス コンテンツ パックを構築できますか。**
 
-いいえ。現在のところ、サービスでコンテンツ パックを公開する前に、SaaS アプリケーションの所有者がパートナー契約に署名する必要があります。
+サービスでコンテンツ パックを公開する前に、SaaS アプリケーションの所有者がパートナー契約に署名する必要があります。 サードパーティは、SaaS アプリケーション所有者とのパートナー契約の署名を簡素化する必要があります。
 
 **サービスのために公共開発者 API を用意できません。データ ストレージからデータを直接引き出す Power BI コンテンツ パックをそれでも構築できますか。**
 
@@ -76,9 +76,13 @@ ISV は、顧客が自分のアカウントで接続し、インスタンス化�
 
 Power BI サービス コンテンツ パックはあらゆる REST API または OData フィードに対応しています。 Power BI では、基本認証、OAuth2.0、Web API キーなど、さまざまな種類の認証を利用できます。 記述的な要件の詳細は「[オーサリング](template-content-pack-authoring.md#dashboard)」という記事にあります。
 
+**Power BI で公開したコンテンツ パックがあります。更新する方法を教えてください。**
+
+公開済みのコンテンツ パックは、1 か月に 1 回更新できます。 現在の月の最終日より前に [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) に送信された更新要求は、次の月の最初の週に公開されます。
+
 **サービス コンテンツ パックについて他にも質問があります。問い合わせ方法は何ですか。**
 
-メールでお気軽にお問い合わせください。アドレスは pbiservicesapps@microsoft.com です。
+[pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) までメールでお気軽にお問い合わせください。
 
 ## <a name="support"></a>サポート
 開発中のサポートのために、[https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) を使用してください。 これは積極的に監視および管理されています。 顧客のインシデントは、すみやかに該当するチームに伝わります。

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 187ca632ad947e5cb657f3a5d19e1d62262259b4
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI サービスでのデータ アラート
 アラートを設定すると、ダッシュボード内のデータが設定した制限を超えて変更された場合に通知されます。 
@@ -31,7 +32,7 @@ ms.lasthandoff: 12/21/2017
 
 ダッシュボードを共有している場合であっても、見ることができるのは自分で設定したアラートだけです。 データ アラートはプラットフォーム間で完全に同期されます。[Power BI モバイル アプリ](mobile-set-data-alerts-in-the-mobile-apps.md)および Power BI サービスで、データ アラートを設定して表示できます。 これらを Power BI Desktop で使用することはできません。 アラートを[自動化し、Microsoft Flow と統合することもできます。](https://flow.microsoft.com) - [お試しください](service-flow-integration.md)。
 
-![](media/service-set-data-alerts/powerbi-alert-types-new.png)
+![タイル](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
 > [!WARNING]
 > データ ドリブン アラート通知は、データに関する情報を提供します。 モバイル デバイスで Power BI データを表示し、そのデバイスが盗まれた場合、Power BI サービスを使用して、すべてのデータ ドリブン アラート ルールをオフにすることをお勧めします。
@@ -47,16 +48,16 @@ Amanda がダッシュボードのタイルにアラートを追加するとこ�
 
 1. ダッシュボードで開始します。 ダッシュボードのゲージ、KPI、またはカード タイルで、省略記号を選びます。
    
-   ![](media/service-set-data-alerts/powerbi-card.png)
-2. ベルのアイコン ![](media/service-set-data-alerts/power-bi-bell-icon.png) を選択して、**[Total stores]** に 1 つまたは複数のアラートを追加します。
+   ![[Total Stores] タイル](media/service-set-data-alerts/powerbi-card.png)
+2. ベルのアイコン ![アラート アイコン](media/service-set-data-alerts/power-bi-bell-icon.png) を選択して、**[Total stores]** に 1 つまたは複数のアラートを追加します。
    
 1. 最初に、**[+ アラート ルールの追加]** を選んで、スライダーが **[オン]** に設定されていることを確認し、アラートのタイトルを指定します。 タイトルは、アラートの内容を簡単に理解するために役立ちます。
    
-   ![](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![アラート管理ウィンドウ](media/service-set-data-alerts/powerbi-alert-title.png)
 4. 下にスクロールして、アラートの詳細を入力します。  この例では、"Total stores" の値が 100 を超えた場合に 1 日に 1 回通知するアラートを作成します。 アラートは通知センターに表示されます。 電子メールの送信も設定します。
    
-   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. **[保存]**を選択します。
+   ![アラート管理ウィンドウ、しきい値の設定](media/service-set-data-alerts/power-bi-set-alert-details.png)
+5. **[保存]** を選択します。
 
 ## <a name="receiving-alerts"></a>アラートの受信
 追跡対象データがユーザー設定のしきい値のいずれかに達した場合は、いくつかの処理が行われます。 最初に、最後のアラートが送信されてから 1 時間以上または 24 時間以上 (選択したオプションによって異なる) 経過しているかどうかが確認されます。 データがしきい値を超えている場合に限り、アラートを受け取ります。
@@ -65,13 +66,13 @@ Amanda がダッシュボードのタイルにアラートを追加するとこ�
 
 1. 電子メールを送信するようにアラートを設定した場合は、次のようなメールを受信します。
    
-   ![](media/service-set-data-alerts/powerbi-alerts-email.png)
+   ![アラート メール](media/service-set-data-alerts/powerbi-alerts-email.png)
 2. Power BI は、メッセージを**通知センター**に追加し、新しいアラート アイコンを該当するタイルに追加します。
    
-   ![](media/service-set-data-alerts/powerbi-alert-notifications.png)
+   ![Power BI サービスの通知アイコン](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. アラートの詳細を見るには通知センターを開きます。
    
-    ![](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![アラートを読む](media/service-set-data-alerts/powerbi-alert-notfication.png)
    
    > [!NOTE]
    > アラートは更新されたデータでのみ動作します。 データが更新されると、Power BI はそのデータにアラートが設定されているかどうかを確認します。 データがアラートのしきい値に達した場合、アラートがトリガーされます。
@@ -82,23 +83,23 @@ Amanda がダッシュボードのタイルにアラートを追加するとこ�
 アラートを管理するには多くの方法があります。ダッシュボードのタイル自体、Power BI の [設定] メニュー、[iPhone の Power BI モバイル アプリ](mobile-set-data-alerts-in-the-mobile-apps.md)または[Windows 10 用の Power BI モバイル アプリ](mobile-set-data-alerts-in-the-mobile-apps.md)の個別のタイルなどで管理できます。
 
 ### <a name="from-the-tile-itself"></a>タイル自体から
-1. タイルのアラートを変更または削除する必要がある場合は、ベルのアイコン ![](media/service-set-data-alerts/power-bi-bell-icon.png) を選択して **[アラートの管理]** ウィンドウを再び開きます。 そのタイルに設定されているすべてのアラートが表示されます。
+1. タイルのアラートを変更または削除する必要がある場合は、ベルのアイコン ![アラート アイコン](media/service-set-data-alerts/power-bi-bell-icon.png) を選択して **[アラートの管理]** ウィンドウを再び開きます。 そのタイルに設定されているすべてのアラートが表示されます。
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts.png)
+    ![アラート管理ウィンドウ](media/service-set-data-alerts/powerbi-see-alerts.png).
 2. アラートを変更するには、アラート名の左側にある矢印を選択します。
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts-arrow.png)
+    ![アラート名の横の矢印](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
 3. アラートを削除するには、アラート名の右側にあるごみ箱を選択します。
    
-      ![](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
+      ![選択されたごみ箱アイコン](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
 
 ### <a name="from-the-power-bi-settings-menu"></a>Power BI の [設定] メニューから
 1. Power BI のメニュー バーで歯車アイコンを選択します。
    
-    ![](media/service-set-data-alerts/powerbi-gear-icon.png)
+    ![歯車アイコン](media/service-set-data-alerts/powerbi-gear-icon.png).
 2. **[設定]** の **[アラート]** を選択します。
    
-    ![](media/service-set-data-alerts/powerbi-alert-settings.png)
+    ![[設定] ウィンドウの [アラート] タブ](media/service-set-data-alerts/powerbi-alert-settings.png)
 3. ここからは、アラートをオンまたはオフにしたり、**[アラートの管理]** ウィンドウを開いて変更を行ったり、アラートを削除したりできます。
 
 ## <a name="tips-and-troubleshooting"></a>ヒントとトラブルシューティング

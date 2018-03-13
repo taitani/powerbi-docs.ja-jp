@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: eb6c5c5c6ff010e8ed117c643e9763acfa73cfee
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 33e003c4e45cf851dbdf2bc602807a57d1ba49af
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
 [Power BI のダッシュボード](service-dashboards.md)を読んで、次は自分のダッシュボードを作成しようと思われるでしょう。 ダッシュボードを作成するには、レポートから、何もない状態から、データセットから、既存のダッシュボードを複製して、それ以外の方法など、さまざまな方法があります。  
@@ -36,7 +36,7 @@ ms.lasthandoff: 01/29/2018
 >
 > 
 
-![](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![ダッシュボード](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>ビデオ: レポートからビジュアルとイメージをピン留めすることでダッシュボードを作成する
 レポートからの視覚化をピン留めして、新しいダッシュボードを作成する手順をご覧ください。 その後は、ビデオで説明されている手順に従い、調達の分析のサンプルを使ってご自身でお試しください。
@@ -54,62 +54,62 @@ Power BI サンプル データセットの 1 つをインポートし、それ�
 3. **[マイ ワークスペース]** を選択します。
 4. 左のナビゲーションから **[データの取得]** を選択します。
 
-    ![](media/service-dashboard-create/power-bi-get-data3.png)
+    ![左ナビゲーション ウィンドウ](media/service-dashboard-create/power-bi-get-data3.png)
 5. **[ファイル]**を選択します。
 
-   ![](media/service-dashboard-create/power-bi-select-files.png)
+   ![ファイルの取得](media/service-dashboard-create/power-bi-select-files.png)
 6. 調達の分析のサンプルの Excel ファイルを保存した場所に移動します。 ファイルを選び、**[接続]** を選択します。
 
-   ![](media/service-dashboard-create/power-bi-connectnew.png)
+   ![ファイルへの接続](media/service-dashboard-create/power-bi-connectnew.png)
 7. この演習では、**[インポート]** を選択します。
 
-    ![](media/service-dashboard-create/power-bi-import.png)
+    ![OneDrive for Business ウィンドウ](media/service-dashboard-create/power-bi-import.png)
 8. 成功メッセージが表示されたら、**[x]** を選択して閉じます。
 
-   ![](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![成功メッセージ](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 ### <a name="open-the-report-and-pin-some-tiles-to-a-dashboard"></a>レポートを開いてダッシュボードにタイルをピン留めする
 1. 同じワークスペースにとどまった状態で、**[レポート]** タブを選択します。新しくインポートしたレポートが、黄色のアスタリスク付きで表示されます。 レポート名を選択してレポートを開きます。
 
-    ![](media/service-dashboard-create/power-bi-reports.png)
+    ![レポート タブ](media/service-dashboard-create/power-bi-reports.png)
 2. [読み取りビュー](service-reading-view-and-editing-view.md)でレポートが開きます。 下部に 2 つのタブがあります。割引分析と支出概要です。 各タブはレポートのページを表します。
     **[レポートの編集]** を選んで、編集ビューでレポートを開きます。
 
-    ![](media/service-dashboard-create/power-bi-reading-view.png)
+    ![読み取りビューのレポート](media/service-dashboard-create/power-bi-reading-view.png)
 3. 視覚化をポイントして、使用可能なオプションを表示します。 ダッシュボードに視覚化を追加するには、ピン ![](media/service-dashboard-create/power-bi-pin-icon.png) アイコンを選択します。
 
-    ![](media/service-dashboard-create/power-bi-hover.png)
+    ![タイルのポイント](media/service-dashboard-create/power-bi-hover.png)
 4. ここでは新しいダッシュボードを作成しているので、**[新しいダッシュボード]** オプションを選択して名前を指定します。
 
-   ![](media/service-dashboard-create/power-bi-pin-tile.png)
+   ![ダッシュボードにピン留めダイアログ](media/service-dashboard-create/power-bi-pin-tile.png)
 5. **[ピン留め]** を選択すると、現在のワークスペースに新しいダッシュボードが作成されます。 **[ダッシュボードにピン留めしました]** というメッセージが表示されたら、**[ダッシュボードへ移動]** を選択します。 レポートの保存を求めるメッセージが表示されたら、**[保存]** を選択します。
 
-     ![](media/service-dashboard-create/power-bi-pin-success.png)
+     ![成功メッセージ](media/service-dashboard-create/power-bi-pin-success.png)
 6. 新しいダッシュボードが開き、1 つのタイル (ピン留めしたばかりの視覚エフェクト) が表示されます。
 
-   ![](media/service-dashboard-create/power-bi-pinned.png)
+   ![1 つのタイルを含むダッシュボード](media/service-dashboard-create/power-bi-pinned.png)
 7. レポートに戻るには、タイルを選びます。 新しいダッシュボードにさらにいくつかタイルをピン留めします。 今度は、**[ダッシュボードにピン留めする]** ウィンドウが表示されたら、**[既存のダッシュボード]** を選択します。  
 
-   ![](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![ダッシュボードにピン留めダイアログ](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>レポート ページ全体をダッシュボードにピン留めする
 1 度に 1 つのビジュアルをピン留めするのではなく、[レポート ページ全体を*ライブ タイル*としてピン留め](service-dashboard-pin-live-tile-from-report.md)できます。 やってみましょう。
 
 1. レポート エディターで、**[Spend Overview]\(支出の概要\)** タブを選択して、レポートの 2 ページ目を開きます。
 
-   ![](media/service-dashboard-create/power-bi-page-tab.png)
+   ![レポート タブ](media/service-dashboard-create/power-bi-page-tab.png)
 
 2. そのすべてのビジュアルをダッシュボードに表示したいと考えます。  メニューバーの右上隅で、**[ライブ ページをピン留めする]** を選択します。 ダッシュボードではページが更新されるたびに、ライブ ページのタイルが更新されます。
 
-   ![](media/service-dashboard-create/power-bi-pin-live.png)
+   ![レポート エディターの右上](media/service-dashboard-create/power-bi-pin-live.png)
 
 3. **[ダッシュボードにピン留めする]** ウィンドウが表示されたら、**[既存のダッシュボード]** を選択します。
 
-   ![](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![ダッシュボードにピン留めダイアログ](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. 成功メッセージが表示されたら、**[ダッシュボードに移動]** を選択します。 そこに、レポートからピン留めされたタイルが表示されています。 次の例では、レポートの 1 ページ目から 2 つのタイルを、レポートの 2 ページ目から 1 つのライブ タイルをピン留めしています。
 
-   ![](media/service-dashboard-create/power-bi-dashboard.png)
+   ![ダッシュボード](media/service-dashboard-create/power-bi-dashboard.png)
 
 これで初めてのダッシュボードを作成できました。 作成したダッシュボードでは、さらに多くの処理を行うことができます。  下に示した**次のステップ**のいずれかを試すか、自由に遊んだり調べたりしてみてください。   
 

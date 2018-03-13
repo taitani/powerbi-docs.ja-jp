@@ -16,21 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/03/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9a8f4e330ea2188b23f3730b18ee56d7c7f72de2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 11e9a2ba499c6db2c75434d13c62bc53704a7cb3
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Power BI のレポートまたはダッシュボードを購読する
 最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールの受信頻度は日に 1 回から週に 1 回の範囲で選択できます。 
 
-メールとスナップショットでは、Power BI 設定で指定されている言語が使用されます (「[Power BI でサポートされる言語と国/地域](supported-languages-countries-regions.md)」参照)。 言語が定義されていない場合、Power BI では現在のブラウザーのロケール設定に基づいて言語を使用します。 言語の優先順位を表示または設定するには、歯車アイコン ![](media/service-report-subscribe/power-bi-settings-icon.png) **、[設定]、[全般]、[言語]** の順に選択します。 
+メールとスナップショットでは、Power BI 設定で指定されている言語が使用されます (「[Power BI でサポートされる言語と国/地域](supported-languages-countries-regions.md)」参照)。 言語が定義されていない場合、Power BI では現在のブラウザーのロケール設定に基づいて言語を使用します。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](media/service-report-subscribe/power-bi-settings-icon.png)  **> [設定] > [全般] > [言語]** の順に選択します。 
 
-![](media/service-report-subscribe/power-bi-language.png)
+![言語ドロップダウン](media/service-report-subscribe/power-bi-language.png)
 
 > [!NOTE]
 > サブスクリプションは、Power BI サービスでのみ作成できます。 受信したメールには、[レポートに移動]/[ダッシュボードに移動] リンクが含まれます。 Power BI アプリがインストールされたモバイル デバイスでこのリンクを選ぶと、アプリが起動します (Power BI Web サイトでレポートまたはダッシュボードを開く既定の操作とは異なります)。
@@ -45,47 +45,47 @@ ms.lasthandoff: 02/24/2018
 サブスクリプションの**作成**は Power BI Pro の機能であり、コンテンツ (ダッシュボードまたはレポート) の表示または編集アクセス許可が必要です。
 
 ## <a name="subscribe-to-a-dashboard"></a>ダッシュボードを購読する
-![](media/service-report-subscribe/power-bi-subscribe-orientation.png)
+![サブスクライブ アイコンの選択](media/service-report-subscribe/power-bi-subscribe-orientation.png)
 
 1. ダッシュボードを開きます。
-2. 上部のメニュー バーで **[受信登録する]** または封筒アイコン ![](media/service-report-subscribe/power-bi-icon-envelope.png) を選びます。
+2. 上部のメニュー バーで **[受信登録する]** または封筒アイコン ![サブスクライブ アイコン](media/service-report-subscribe/power-bi-icon-envelope.png) を選びます。
    
-   ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
+   ![サブスクライブ アイコン](media/service-report-subscribe/power-bi-subscribe-icon.png)
 3. 黄色のスライダーを使うと、サブスクリプションのオン/オフを切り替えることができます。  スライダーをオフにしても、サブスクリプションが削除されることはありません。 サブスクリプションを削除するには、ごみ箱アイコンを選択します。
    
-   ![](media/service-report-subscribe/power-bi-subscribe-dashboard-new.png)
+   ![サブスクライブ ウィンドウ](media/service-report-subscribe/power-bi-subscribe-dashboard-new.png)
 4. サブスクリプションを保存するには、**[保存して閉じる]** を選択します。 基になるデータセットのいずれかが変わるたびに、ダッシュボードのスナップショットがメールで送信されます。 ダッシュボードが 1 日に複数回更新されても、スナップショット メールが届くのは最初の更新後の 1 回だけです。
    
-   ![](media/service-report-subscribe/power-bi-dashboard-email-new.png)
+   ![ダッシュボードのメール スナップショット](media/service-report-subscribe/power-bi-dashboard-email-new.png)
    
    > [!TIP]
-   > メールをすぐに見たい場合は、 ダッシュボードに関連付けられているデータセットの 1 つを更新することで、メールをトリガーします (データセットの編集アクセス許可を持っていない場合は、アクセス許可を持っているユーザーに頼む必要があります)。ダッシュボードの作成に使われているデータセットを調べるには、ダッシュボードから **[関連の表示]** アイコン ![](media/service-report-subscribe/power-bi-view-related.png) を選択し、**[関連コンテンツ]** を開いて更新アイコン ![](media/service-report-subscribe/power-bi-refresh.png) を選択します。 
+   > メールをすぐに見たい場合は、 ダッシュボードに関連付けられているデータセットの 1 つを更新することで、メールをトリガーします (データセットの編集アクセス許可を持っていない場合は、アクセス許可を持っているユーザーに頼む必要があります)。ダッシュボードの作成に使われているデータセットを調べるには、ダッシュボードから **[関連の表示]** アイコン ![[関連の表示] アイコン](media/service-report-subscribe/power-bi-view-related.png) を選択し、**[関連コンテンツ]** を開いて更新アイコン ![更新アイコン](media/service-report-subscribe/power-bi-refresh.png) を選択します。 
    > 
    > 
    
-   ![](media/service-report-subscribe/power-bi-view-related-screen.png)
+   ![関連データセット](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>レポート ページをサブスクライブする
 1. [閲覧モード](service-reading-view-and-editing-view.md)でレポートを開きます。
 2. 上部のメニュー バーから、**[購読]** を選択します。
    
-   ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
+   ![サブスクライブ アイコン](media/service-report-subscribe/power-bi-subscribe-icon.png)
 3. 一度にサブスクライブできるレポート ページは 1 件に限られます。 ドロップダウンからレポート ページを選択してください。
    
-   ![](media/service-report-subscribe/power-bi-subscribe-dialog.png)
+   ![サブスクリプション ウィンドウ](media/service-report-subscribe/power-bi-subscribe-dialog.png)
    
    レポート ページを追加します。
 4. 黄色のスライダーを使用すると、各ページのサブスクリプションのオン/オフを切り替えることができます。  スライダーをオフにしても、サブスクリプションが削除されることはありません。 サブスクリプションを削除するには、ごみ箱アイコンを選択します。
    
-   ![](media/service-report-subscribe/power-bi-slider.png)
+   ![サブスクリプションの有効化](media/service-report-subscribe/power-bi-slider.png)
 5. サブスクリプションを保存するには、**[保存して閉じる]** を選択します。 レポートが更新されると、各レポート ページのスナップショットがメールで届きます。 レポートが更新されなかった場合、その日はスナップショット メールが届きません。  レポートが 1 日に複数回更新されても、スナップショット メールが届くのは最初の更新後の 1 回だけです。
    
-   ![](media/service-report-subscribe/power-bi-subscription-email.png)
+   ![ダッシュボードのメール スナップショット](media/service-report-subscribe/power-bi-subscription-email.png)
    
    > [!TIP]
    > メールをすぐに見たい場合は、 データセットを開いて **[今すぐ更新]** を選ぶことで、メールをトリガーします。 データセットの編集アクセス許可を持っていない場合は、アクセス許可を持っているユーザーに頼む必要があります。
    > 
-   > ![](media/service-report-subscribe/power-bi-refresh-now.png)
+   > ![[データセット] タブの [今すぐ更新] アイコン](media/service-report-subscribe/power-bi-refresh-now.png)
    > 
    > 
 
@@ -98,13 +98,13 @@ ms.lasthandoff: 02/24/2018
 | **サブスクリプション メールのスケジュールをユーザーが制御できる範囲** |オプション: 毎日または毎週 |オプションなし: レポートが更新されるとメールが送信されます。ただし、最高 1 日 1 回です。 |更新スケジュールが毎日の場合、オプションは毎日および毎週です。  更新スケジュールが毎週の場合、オプションは毎週だけです。 |オプションなし: データセットが更新されるたびにメールが送信されます。ただし、最高 1 日 1 回です。 |
 
 ## <a name="manage-your-subscriptions"></a>サブスクリプションを管理する
-サブスクリプションの管理画面には、2 とおりの方法でアクセスできます。  最初の方法は、**[メールを受信登録する]** ダイアログから **[すべてのサブスクリプションを管理]** を選択することです (上記の手順 3 参照)。 2 つ目の方法は、上部のメニュー バーから Power BI 歯車アイコン ![](media/service-report-subscribe/power-bi-settings-icon.png) を選択し、**[設定]** を選択することです。
+サブスクリプションの管理画面には、2 とおりの方法でアクセスできます。  最初の方法は、**[メールを受信登録する]** ダイアログから **[すべてのサブスクリプションを管理]** を選択することです (上記の手順 3 参照)。 2 つ目の方法は、上部のメニュー バーから Power BI 歯車アイコン ![歯車アイコン](media/service-report-subscribe/power-bi-settings-icon.png) を選択し、**[設定]** を選択することです。
 
-![](media/service-report-subscribe/power-bi-subscribe-settings.png)
+![[設定] の選択](media/service-report-subscribe/power-bi-subscribe-settings.png)
 
 表示されるサブスクリプションは、現在アクティブになっているワークスペースによって変わります。  すべてのワークスペースのすべてのサブスクリプションを一度に表示するには、**[マイ ワークスペース]** をアクティブにします。 ワークスペースの概要については、「[Workspaces in Power BI](service-create-distribute-apps.md)」 (Power BI のワークスペース) を参照してください。
 
-![](media/service-report-subscribe/power-bi-subscriptions.png)
+![マイ ワークスペース内のすべてのサブスクリプションの表示](media/service-report-subscribe/power-bi-subscriptions.png)
 
 Pro ライセンスの有効期限が切れた場合、所有者がダッシュボードまたはレポートを削除した場合、またはサブスクリプションの作成に使われたユーザー アカウントが削除された場合、サブスクリプションは終了します。
 
@@ -120,7 +120,7 @@ Pro ライセンスの有効期限が切れた場合、所有者がダッシュ�
 * メールのサイズ制限のため、ダッシュボードまたはレポートに非常に大きい画像が含まれると、サブスクリプションが失敗する場合があります。    
 * Power BI は、2 か月より長くアクセスされていないダッシュボードおよびレポートに関連付けられているデータセットの更新を自動的に一時停止します。  ただし、ダッシュボードまたはレポートにサブスクリプションを追加した場合は、アクセスがなくても一時停止されません。    
 * サブスクリプション メールが送られてこない場合は、ユーザー プリンシパル名 (UPN) でメールを受信できることを確認してください。 [Power BI チームはこの要件を緩和する作業を行っている](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163)ので、お待ちください。 
-* 送信されるレポートやダッシュボードは、ユーザーの Power BI の言語設定を使用します。 既定の言語は英語です。 言語の優先順位を表示または設定するには、歯車アイコン ![](media/service-report-subscribe/power-bi-settings-icon.png) **、[設定]、[全般]、[言語]** の順に選択します。
+* 送信されるレポートやダッシュボードは、ユーザーの Power BI の言語設定を使用します。 既定の言語は英語です。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](media/service-report-subscribe/power-bi-settings-icon.png)  **> [設定] > [全般] > [言語]** の順に選択します。
 
 ## <a name="next-steps"></a>次の手順
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。    

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
+ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI の埋め込みコンテンツで行レベルのセキュリティを使用する
 行レベルのセキュリティ (RLS) を使って、ダッシュボード、タイル、レポート、データセット内のデータへのユーザー アクセスを制限できます。 複数の異なるユーザーが、同じアーティファクトで作業しながら別のデータを見ることができます。 埋め込みでは RLS がサポートされています。
@@ -140,6 +140,47 @@ REST API を呼び出すと、更新された API は、ユーザー名、ロー
 
 役割は、埋め込みトークンの ID で与えられます。 役割が与えられない場合、与えられたユーザー名を利用し、関連する役割が解決されます。
 
+**CustomData 機能の使用**
+
+CustomData 機能を使うと、CustomData 接続文字列プロパティを使って、AS によって (CUSTOMDATA() 関数を介して) 使われる値であるフリー テキスト (文字列) を渡すことができます。
+これは、データ消費をカスタマイズする別の方法として使うことができます。
+ロール DAX クエリの内部で、およびメジャー DAX クエリ内でロールなしに、使うことができます。
+CustomData 機能は、ダッシュボード、レポート、タイルの各アーティファクトたのためのトークン生成機能の一部です。 ダッシュボードは複数の CustomData ID (タイル/モデルごとに 1 つ) を持つことができます。
+
+> [!NOTE]
+> CustomData 機能は、Azure Analysis Services に存在するモデルに対してのみ、ライブ モードのみで動作します。 ユーザーおよびロールとは異なり、カスタム データ機能は .pbix ファイル内では設定できません。 カスタム データ機能を使ってトークンを生成するときは、ユーザー名が必要です。
+>
+>
+
+**CustomData SDK の追加**
+
+CustomData 文字列プロパティが、トークン生成のシナリオの有効な ID に追加されました。
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+ID は、次の呼び出しを使ってカスタム データで作成できます。
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**CustomData SDK の使用方法**
+
+REST API を呼び出す場合は、次の例のように各 ID の内部にカスタム データを追加できます。
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 * Power BI サービス内でのロールへのユーザーの割り当ては、埋め込みトークンを使用したときの RLS には反映されません。
 * Power BI サービスでは RLS の設定は管理者および編集アクセス許可を持つメンバーには適用されませんが、埋め込みトークンで ID を指定すると、データに適用されます。
@@ -150,4 +191,3 @@ REST API を呼び出すと、更新された API は、ユーザー名、ロー
 * ID のリストを使うと、ダッシュボードの埋め込みに複数の ID トークンを使うことができます。 他のすべてのアーティファクトでは、リストには単一の ID が含まれます。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

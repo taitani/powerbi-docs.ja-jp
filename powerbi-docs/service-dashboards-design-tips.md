@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>優れた Power BI ダッシュボードのデザインに関するヒント
 ダッシュボードの作成が完了し、タイルもいくつか追加したので、ダッシュボードの外観をよくすることに加えて、機能的なものにする方法についても考えてみましょう。 通常、この改良は、最も重要な情報を目立つようにしたり、簡潔ですっきりとした外観にしたりすることです。
@@ -50,7 +51,7 @@ ms.lasthandoff: 01/03/2018
 
 ### <a name="make-the-most-important-information-biggest"></a>最も重要な情報を最も大きくする
 ダッシュボード上のテキストと視覚化がすべて同じサイズの場合、閲覧者は最も重要なことを見つけるのに苦労します。 たとえば、次のようなカードの視覚化は、重要な数値を目立つように表示するための優れた方法です。  
-![](media/service-dashboards-design-tips/pbi_card.png)
+![カード視覚エフェクト](media/service-dashboards-design-tips/pbi_card.png)
 
 ただし、必ずその意味を示してください。  
 

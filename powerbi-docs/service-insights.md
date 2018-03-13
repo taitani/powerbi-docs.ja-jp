@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI を使用してデータ インサイトを自動的に生成する
 新しいデータセットがあるが、どこから始めたらよいかわからない場合。  ダッシュボードをすばやく構築する必要がある場合。  不足している情報を探したい場合。
@@ -45,43 +46,42 @@ Amanda がクイック インサイトをデータセットに対して実行し
 
 1. **[データセット]** タブから省略記号 [...] を選び、**[詳細情報の取得]** を選びます。
    
-    ![](media/service-insights/power-bi-ellipses.png)
+    ![[データセット] タブ](media/service-insights/power-bi-ellipses.png)
    
-    ![](media/service-insights/power-bi-tab.png)
+    ![省略記号メニュー](media/service-insights/power-bi-tab.png)
 2. Power BI は[さまざまなアルゴリズム](service-insight-types.md)を使用して、データセット内の傾向を検索します。
    
-    ![](media/service-insights/pbi_autoinsightssearching.png)
+    ![詳細情報の検索ダイアログ](media/service-insights/pbi_autoinsightssearching.png)
 3. 数秒で、情報を取得する準備が整います。  **[詳細情報の表示]** を選択して、視覚化を表示します。
    
-    ![](media/service-insights/pbi_autoinsightsuccess.png)
+    ![成功メッセージ](media/service-insights/pbi_autoinsightsuccess.png)
    
    > **注**: データが統計的に有意でないためにインサイトを生成できないデータセットもあります。  詳細については、「[Power BI クイック インサイト用のデータの最適化](service-insights-optimize.md)」を参照してください。
    > 
    > 
 1. 視覚化は、最大 32 個の個別のインサイト カードとともに特別な **[クイック分析情報]** キャンバスに表示されます。 各カードには、グラフまたはグラフと簡単な説明が含まれます。
    
-    ![](media/service-insights/power-bi-insights.png)
+    ![クイック分析キャンバス](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>インサイト カードとの対話
-  ![](media/service-insights/pbi_hover.png)
+  ![ピン留めアイコン](media/service-insights/pbi_hover.png)
 
 1. ダッシュボードに視覚化を追加するには、カードの上にポインターを移動してピン アイコンを選択します。
 2. カードをポイントし、省略記号 (...) を選択し、**[詳細情報の表示]** を選択します。 詳細情報が全画面表示で開きます。
    
-    ![](media/service-insights/power-bi-insight-focus.png)
+    ![詳細情報の全画面表示](media/service-insights/power-bi-insight-focus.png)
 3. フォーカス モードでは次のことができます。
    
    * 視覚エフェクトをフィルター処理します。  フィルターを表示するには、右上隅の矢印を選択し、[フィルター] ウィンドウを展開します。
+        ![[フィルター] メニューが展開された詳細情報](media/service-insights/power-bi-insights-filter-new.png)
+   * ピン ![ピン アイコン](media/service-insights/power-bi-pin-icon.png) アイコンまたは **[ビジュアルをピン留めする]** を選択して、分析情報カードをダッシュボードにピン留めします。
+   * カード自体に対してインサイトを実行します。 これは**範囲指定インサイト**と呼ばれることがよくあります。 右上隅にある電球アイコン ![[詳細情報の取得] アイコン](media/service-insights/power-bi-bulb-icon.png) または **[詳細情報の取得]** を選択します。
      
-        ![](media/service-insights/power-bi-insights-filter-new.png)
-   * ピン ![](media/service-insights/power-bi-pin-icon.png) アイコンまたは **[ビジュアルをピン留めする]** を選択して、分析情報カードをダッシュボードにピン留めします。
-   * カード自体に対してインサイトを実行します。 これは**範囲指定インサイト**と呼ばれることがよくあります。 右上隅にある電球アイコン ![](media/service-insights/power-bi-bulb-icon.png) または **[詳細情報の取得]** を選択します。
-     
-       ![](media/service-insights/pbi-autoinsights-tile.png)
+       ![[詳細情報の取得] アイコンが表示されたメニュー バー](media/service-insights/pbi-autoinsights-tile.png)
      
      インサイトが左側に表示され、右側には、その単一の情報に含まれるデータのみに基づく新しいカードが表示されます。
      
-       ![](media/service-insights/power-bi-insights-on-insights-new.png)
+       ![詳細情報についての詳細情報](media/service-insights/power-bi-insights-on-insights-new.png)
 4. 元のインサイト キャンバスに戻るには、左上隅にある **[フォーカス モードの終了]** を選択します。
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>ダッシュボード タイルへのインサイトの実行
@@ -90,7 +90,7 @@ Amanda がクイック インサイトをデータセットに対して実行し
 1. ダッシュボードを開きます。
 2. タイルの上にマウスを置きます。 省略記号 [...] を選び、**[詳細情報の表示]** を選びます。 タイルが[フォーカス モード](service-focus-mode.md)で開き、インサイト カードが右側に表示されます。    
    
-    ![](media/service-insights/pbi-insights-tile.png)    
+    ![フォーカス モード](media/service-insights/pbi-insights-tile.png)    
 4. 興味をそそる情報がありましたか? 詳細に確認するには、その分析情報カードを選択します。 選択した分析情報が左側に表示され、右側には、その単一の分析情報に含まれるデータのみに基づく新しい分析情報カードが表示されます。    
 6. 引き続きデータを掘り下げ、興味がある情報が見つかったら、右上隅から **[ビジュアルをピン留めする]** を選んで、それをダッシュボードにピン留めします。
 

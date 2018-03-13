@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 Power BI サービスでレポートを開くと、レポートの各ページに一意の URL があります。 そのレポート ページをフィルター処理するには、レポート キャンバスの [フィルター] ウィンドウを使うことができます。  または、クエリ文字列パラメーターを URL に追加して、レポートをフィルター処理できます。 同僚に見せるレポートに事前にフィルターを適用したい場合、 1 つの方法は、レポートの既定の URL にフィルター パラメーターを追加し、URL 全体をメールで同僚に送るというものです。
 
-![](media/service-url-filters/power-bi-report2.png)
+![サービスでの Power BI のレポート](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ Power BI サービスでレポートを開くと、レポートの各ページ�
 
 URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![フィルターを含む URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **テーブル**と**フィールド**の名前では大文字と小文字が区別され、**値**では区別されません。
 * レポート ビューに表示されないフィールドをフィルター処理することもできます。
@@ -49,7 +50,7 @@ URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
 ## <a name="filter-on-a-field"></a>フィールドをフィルター処理する
 次のようなレポートの URL があるものとします。
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![URL の開始](media/service-url-filters/power-bi-filter-urls6.png)
 
 そして、ノースカロライナ州の店舗に関するマップの視覚化 (上図) を表示します。
 
@@ -61,7 +62,7 @@ URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
 
 ?filter=Store/Territory eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![フィルターを含む URL](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >*NC* は、**Store** テーブルの **Territory** フィールドに格納されている値です。

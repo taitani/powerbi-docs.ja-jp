@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>ライブ接続で Q&A を有効にする
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>オンプレミス データ ゲートウェイとは  ライブ接続とは
@@ -41,18 +42,18 @@ Power BI Q&A は、データ ソースのテキスト値とスキーマ値を使
 * [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)とは
 * [Power BI Q&A の概要](power-bi-q-and-a.md)
 
-## <a name="enable-qa"></a>Q&A を有効にする
+## <a name="enable-qa"></a>Q&A を有効する
 データ ゲートウェイをセットアップした後、Power BI からデータに接続します。  ダッシュボードを作成します。オンプレミス データを使用するか、オンプレミス データを使用する .pbix ファイルをアップロードします。  共有されているダッシュボード、レポート、およびデータセットに、オンプレミス データが既に存在する場合もあります。
 
-1. Power BI の右上隅の歯車アイコン ![](media/service-q-and-a-direct-query/power-bi-cog.png) を選択し、**[設定]** を選択します。
+1. Power BI の右上隅の歯車アイコン ![歯車アイコン](media/service-q-and-a-direct-query/power-bi-cog.png) を選択し、**[設定]** を選択します。
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![[設定] メニュー](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. **[データセット]** を選択し、Q&A を有効にするデータセットを選択します
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![[設定] メニューの [データセット] 画面](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. **[Q&A と Cortana]** を展開し、**[Turn on Q&A for this dataset (このデータセットで Q&A を有効にする)]** チェックボックスをオンにし、**[適用]** を選択します。
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![展開された Q&A 領域](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>キャッシュされるデータとプライバシーの保護方法
 オンプレミス データに対して Q&A を有効にすると、データのサブセットがサービスにキャッシュされます。 これは、Q&A が適切なパフォーマンスで実行されることを保証するために行われます。 24 文字を超える値は、Power BI によりキャッシュ処理から除外されます。 キャッシュは、**[Turn on Q&A for this dataset (このデータセットで Q&A を有効にする)]** をオフにして Q&A を無効にするか、データセットを削除した後、数時間以内に削除されます。
