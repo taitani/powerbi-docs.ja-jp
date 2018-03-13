@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reports-in-power-bi"></a>Power BI のレポート
 ## <a name="what-is-a-power-bi-report"></a>Power BI レポートとは
 Power BI ***レポート***は、データセットのマルチパースペクティブ表示で、視覚化によってデータセットからのさまざまな発見や洞察を表します。  レポートでは、単独の視覚化を使用することも、各ページでさまざまな視覚化を使用することもできます。 職務に応じて、レポートの*作成者*になる場合と、レポートの*コンシューマー*、つまり使用者になる場合があります。
 
-![](media/service-reports/reportview.png)
+![レポート ページ](media/service-reports/reportview.png)
 
 このレポートには 3 つのページ (またはタブ) があり、現在表示されているのは [Store Sales Overview (店舗売上の概要)] ページです。 このページには 6 つの異なる視覚化とページ タイトルがあります。 視覚化をダッシュボードに*ピン留め*し、ピン留めした視覚化が選択されたときに、その視覚化を使用している元のレポートを開くことができます。
 

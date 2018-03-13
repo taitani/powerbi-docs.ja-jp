@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
-ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
+ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
 ## <a name="what-is-meant-by-certified"></a>*認定* とは
@@ -50,7 +50,9 @@ ms.lasthandoff: 02/21/2018
    * 件名: ビジュアル認定の要求    
    * ビジュアルのソース コードがホストされている GitHub リポジトリへのリンク    
    * 要件 (上記参照) の遵守    
-   * コードとセキュリティ レビューの提出    2. カスタム ビジュアルが認定され、認定リスト (下記) に追加された場合、または修正する必要がある問題のレポートで拒否された場合は、マイクロソフトのカスタム ビジュアル チームによって通知されます。 マイクロソフトとの連絡手段を維持し、必要に応じて認定済みのビジュアルを更新するのは、開発者の責任です。
+   * コードとセキュリティ レビューの提出    
+
+2. カスタム ビジュアルが認定され、認定リスト (下記) に追加された場合、または修正する必要がある問題のレポートで拒否された場合は、マイクロソフトのカスタム ビジュアル チームによって通知されます。 マイクロソフトとの連絡手段を維持し、必要に応じて認定済みのビジュアルを更新するのは、開発者の責任です。
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI の認定済みのカスタム ビジュアルの削除
 マイクロソフトは独自の裁量で認定リストからビジュアルを削除できます。  
@@ -117,6 +119,7 @@ ms.lasthandoff: 02/21/2018
 | [Play Axis (動的スライサー)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [ビデオ](https://youtu.be/IvfIP3E6-1Q) |
 | [累乗 KPI マトリックス](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [ビデオ](https://youtu.be/1enze8pcGzY) |
+| [MAQ Software による四分割グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [ビデオ](https://youtu.be/ppBnyhqWNC0) |
 | [Radar chart (レーダー チャート)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [MAQ Software によるリング グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [ビデオ](https://youtu.be/pDToHDFHnq8) |
 | [MAQ Software による回転グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [ビデオ](https://youtu.be/d5xBCMmb3hU) |
@@ -129,6 +132,7 @@ ms.lasthandoff: 02/21/2018
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [テーブル ヒートマップ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [回転速度計](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [ビデオ](https://youtu.be/C3OXdETbS9o) |
+| [テキスト フィルター](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ ソフトウェアによるテキスト ラッパー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [温度計](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
 | [時系列分解グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |

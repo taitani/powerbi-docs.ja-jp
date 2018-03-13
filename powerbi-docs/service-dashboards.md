@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 223df3a898c925d2a8ffc6d004a26c1a67807fc2
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI サービスのダッシュボード
 
 Power BI の "***ダッシュボード***" は、視覚化を使ってストーリーを伝える単一のページであり、キャンバスと呼ばれることもよくあります。 ダッシュボードは 1 ページに制限されているため、適切に設計されたダッシュボードには、そのストーリーの最も重要な要素のみが含まれます。
 
-![](media/service-dashboards/power-bi-dashboard2.png)
+![ダッシュボード](media/service-dashboards/power-bi-dashboard2.png)
 
 ダッシュボードに表示される視覚化は "*タイル*" と呼ばれ、レポートからダッシュボードに "*ピン留め*" されます。 Power BI を初めて使うときは、[Power BI の基本的な概念](service-basic-concepts.md)に関するページを読むと基礎がよくわかります。
 
@@ -38,7 +39,7 @@ Power BI の "***ダッシュボード***" は、視覚化を使ってストー�
 
 ダッシュボード上の視覚化はレポートから取得され、各レポートは 1 つのデータセットが基になっています。 実際、ダッシュボードは基になっているレポートとデータセットへの入り口と考えることもできます。 視覚化を選ぶと、その作成に使われたレポート (およびデータセット) に行き着きます。
 
-![](media/service-dashboards/power-bi-diagram.png)
+![ダッシュボード、レポート、データセット間の関係を示す図](media/service-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>ダッシュボードの利点
 ダッシュボードは、ビジネスを注視し、答えを探し、すべての最も重要なメトリックを一目で見るための、素晴らしい手段です。 ダッシュボード上の視覚化は、1 つまたは複数の基になっているデータセット、および 1 つまたは複数の基になっているレポートから取得できます。 ダッシュボードは、オンプレミスのデータとクラウドで生成されたデータを結合し、データの存在する場所に関係なく統合された表示を提供します。

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>データセットをインポートすることによって新しい Power BI レポートを作成する
 [Power BI のレポート](service-reports.md)を読んで、次は自分のレポートを作成しようと思われるでしょう。 レポートを作成するには、さまざまな方法があります。この記事ではまず、Excel データセットからごく基本的なレポートを作成します。 レポート作成の基本を理解した後、その下にある「**次の手順**」で、より高度なレポートに関するトピックを示します。  
@@ -37,22 +38,22 @@ ms.lasthandoff: 01/29/2018
 
 1. Power BI サービスのワークスペースでレポートを作成するので、既存のワークスペースを選択するか、新しいワークスペースを作成します。
    
-   ![](media/service-report-create-new/power-bi-workspaces2.png)
+   ![アプリ ワークスペースのリスト](media/service-report-create-new/power-bi-workspaces2.png)
 2. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
-   ![](media/service-report-create-new/power-bi-get-data3.png)
+   ![データの取得](media/service-report-create-new/power-bi-get-data3.png)
 3. **[ファイル]** を選択し、小売りの分析のサンプルを保存した場所に移動します。
    
-    ![](media/service-report-create-new/power-bi-select-files.png)
+    ![[ファイル] の選択](media/service-report-create-new/power-bi-select-files.png)
 4. この演習では、**[インポート]** を選択します。
    
-   ![](media/service-report-create-new/power-bi-import.png)
+   ![[インポート] の選択](media/service-report-create-new/power-bi-import.png)
 5. データセットをインポートしたら、**[データセットの表示]** を選択します。
    
-   ![](media/service-report-create-new/power-bi-view-dataset.png)
+   ![[データセットの表示] の選択](media/service-report-create-new/power-bi-view-dataset.png)
 6. データセットを表示すると、実際にはレポート エディターが開きます。  空白のキャンバスとレポート編集ツールが表示されます。
    
-   ![](media/service-report-create-new/power-bi-blank-report.png)
+   ![レポート エディター](media/service-report-create-new/power-bi-blank-report.png)
 
 > **ヒント**: レポート編集キャンバスに慣れていない場合や、使い方を思い出す必要がある場合は、作業を進める前に[レポート エディターのツアー](service-the-report-editor-take-a-tour.md)を実行してください。
 > 
@@ -63,16 +64,16 @@ ms.lasthandoff: 01/29/2018
 
 1. [フィールド] ウィンドウで、**[Sales (売上)]** > **[This Year Sales (今年の売上)]** > **[値]** を選びます。
    
-    ![](media/service-report-create-new/power-bi-report-step1.png)
-2. ゲージのテンプレート ![](media/service-report-create-new/powerbi-gauge-icon.png) を **[視覚化]** ウィンドウから選択して、ビジュアルをゲージに変換します。
+    ![レポート エディターでの縦棒グラフ](media/service-report-create-new/power-bi-report-step1.png)
+2. ゲージのテンプレート ![ゲージ アイコン](media/service-report-create-new/powerbi-gauge-icon.png) を **[視覚化]** ウィンドウから選択して、ビジュアルをゲージに変換します。
    
-    ![](media/service-report-create-new/power-bi-report-step2.png)
+    ![レポート エディターのゲージ ビジュアル](media/service-report-create-new/power-bi-report-step2.png)
 3. **\[Sales] \(売上)** > **\[This Year Sales] \(今年の売上)** > **[目標]** を **[目標値]** にドラッグします。 目標に非常に近づいているようです。
    
-    ![](media/service-report-create-new/power-bi-report-step3.png)
+    ![ゲージ ビジュアルとターゲット値としての目標](media/service-report-create-new/power-bi-report-step3.png)
 4. このあたりで[レポートを保存](service-report-save.md)するとよいでしょう。
    
-   ![](media/service-report-create-new/powerbi-save.png)
+   ![[ファイル] メニュー](media/service-report-create-new/powerbi-save.png)
 
 ## <a name="add-an-area-chart-and-slicer-to-the-report"></a>面グラフとスライサーをレポートに追加する
 CMO に対して、その他いくつかの質問に応える必要があります。 CMO は、昨年と比較して今年の売上がどうであるかを知りたいと考えています。 また、地区ごとの調査結果を見たいと言っています。
@@ -80,21 +81,21 @@ CMO に対して、その他いくつかの質問に応える必要がありま�
 1. まず、キャンバスに空き領域を作りましょう。 ゲージを選択し、右上隅に移動します。 次に、四隅のいずれかをつかんでドラッグし、サイズを小さくします。
 2. ゲージの選択を解除します。 [フィールド] ウィンドウで、**[Sales (売上)]** > **[This Year Sales (今年の売上)]** > **[値]** を選択し、**[Sales (売上)]** > **[Last Year Sales (昨年の売上)]** を選択します。
    
-    ![](media/service-report-create-new/power-bi-report-step4.png)
-3. 面グラフのテンプレート ![](media/service-report-create-new/power-bi-areachart-icon.png) を **[視覚化]** ウィンドウから選択し、ビジュアルを面グラフに変換します。
+    ![レポート エディターとゲージと横棒グラフ](media/service-report-create-new/power-bi-report-step4.png)
+3. 面グラフのテンプレート ![グラフ アイコン](media/service-report-create-new/power-bi-areachart-icon.png) を **[視覚化]** ウィンドウから選択し、ビジュアルを面グラフに変換します。
 4. **[Time (時間)]** > **[Period (期間)]** を選択して、[Period (期間)] を **[軸]** に追加します。
    
-    ![](media/service-report-create-new/power-bi-report-step5.png)
+    ![面グラフがアクティブなレポート エディター](media/service-report-create-new/power-bi-report-step5.png)
 5. 視覚化を期間で並べ替えるには、省略記号を選んで、**[Sort by Period]\(期間別に並べ替え\)** を選びます。
-6. 次にスライサーを追加しましょう。 キャンバスの空いている領域を選択して、スライサー ![](media/service-report-create-new/power-bi-slicer-icon.png) テンプレートを選択します。 これにより、キャンバスに空のスライサーが追加されます。
+6. 次にスライサーを追加しましょう。 キャンバスの空いている領域を選択して、スライサー ![スライサー アイコン](media/service-report-create-new/power-bi-slicer-icon.png)    テンプレートを選択します。 これにより、キャンバスに空のスライサーが追加されます。
    
-    ![](media/service-report-create-new/power-bi-report-step6.png)    
+    ![レポート キャンバス](media/service-report-create-new/power-bi-report-step6.png)    
 7. [フィールド] ウィンドウから **[District (地区)]** > **[District (地区)]** の順に選択します。 スライサーを移動し、サイズを変更します。
    
-    ![](media/service-report-create-new/power-bi-report-step7.png)  
+    ![レポート エディター、District の追加](media/service-report-create-new/power-bi-report-step7.png)  
 8. スライサーを使用して地区ごとのパターンや洞察を探します。
    
-   ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
+   ![スライサー使用のビデオ](media/service-report-create-new/power-bi-slicer-video2.gif)  
 
 データの調査と視覚エフェクトの追加を続けます。 特に興味深い分析情報が見つかったら、[ダッシュボードにピン留め](service-dashboard-pin-tile-from-report.md)します。
 

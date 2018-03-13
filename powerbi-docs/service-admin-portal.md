@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/23/2018
 ms.author: maghan
-ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Administration
+ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -192,6 +193,19 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 ### <a name="create-template-organizational-content-packs"></a>テンプレートの組織のコンテンツ パックを作成する
 
 組織内のユーザーは、Power BI Desktop 内の 1 つのデータ ソース上に構築されたデータセットを使用する、テンプレート コンテンツ パックを作成できます。
+
+### <a name="push-apps-to-end-users"></a>アプリをエンド ユーザーにプッシュする
+
+テナント管理者が **[テナント設定]** でアプリをプッシュする機能を有効にします。
+
+   ![アプリのプッシュを有効にする](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
+
+設定を **[有効]** に切り替えた後、この機能を利用できるユーザーを指定できます (組織全体または特定のセキュリティ グループ)。
+
+> [!NOTE]
+> テナント設定の変更が有効になるまで時間がかかることに注意してください。
+
+アプリのプッシュの詳細については、[こちら](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users)をご覧ください。
 
 ## <a name="integration-settings"></a>統合の設定
 

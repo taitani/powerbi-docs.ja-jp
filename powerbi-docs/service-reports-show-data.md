@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: b85fe5cf70c915a3355c80a61f01a32216450f03
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>ビジュアルの作成に使用されたデータを表示する
 ## <a name="show-data"></a>データの表示
@@ -38,16 +39,16 @@ Power BI のビジュアルは、データセットからのデータを使用�
 1. Power BI サービスの[読み取りビューまたは編集ビュー](service-reading-view-and-editing-view.md)でレポートを開き、ビジュアルを選択します。  Power BI Desktop でレポート ビューを開きます。
 2. ビジュアルの背後にあるデータを表示するには、**[探索]** > **[データの表示]** の順に選択します。
    
-   ![](media/service-reports-show-data/power-bi-show-data.png)
+   ![[データの表示] の選択](media/service-reports-show-data/power-bi-show-data.png)
 3. 既定では、データはビジュアルの下に表示されます。
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data.png)
+   ![ビジュアルとデータの縦表示](media/service-reports-show-data/power-bi-explore-show-data.png)
 4. 向きを変更するには、ビジュアルの右上隅にある縦レイアウト ![](media/service-reports-show-data/power-bi-vertical-icon-new.png) を選びます。
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![ビジュアルとデータの横表示](media/service-reports-show-data/power-bi-explore-show-data2.png)
 5. データを .csv ファイルにエクスポートするには、省略記号を選択し、**[データのエクスポート]** を選択します。
    
-    ![](media/service-reports-show-data/power-bi-export-data-new.png)
+    ![[データのエクスポート] の選択](media/service-reports-show-data/power-bi-export-data-new.png)
    
     Excel へのデータのエクスポートの詳細については、「[Power BI ビジュアルからデータをエクスポートする](power-bi-visualization-export-data.md)」を参照してください。
 6. データを非表示にするには、**[探索]** > **[データの表示]** の選択を解除します。

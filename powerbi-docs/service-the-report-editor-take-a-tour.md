@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Reports
+ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>レポート エディター...紹介を見る
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop でのレポートの編集
@@ -46,7 +47,7 @@ Power BI レポート エディターは、3 つのセクションで構成さ�
 ![](media/service-the-report-editor-take-a-tour/power-bi-report-canvas.png)
 
 ## <a name="1-the-report-editor-panes"></a>1.レポート エディターのウィンドウ
-![](media/service-the-report-editor-take-a-tour/power-bi-report-panes.png)
+![Power BI レポート エディター](media/service-the-report-editor-take-a-tour/power-bi-report-panes.png)
 
 レポートを開くと、最初に視覚化、フィルター、フィールドという 3 つのウィンドウが表示されます。 左側にある視覚化ウィンドウとフィルター ウィンドウは、視覚化がどのように表示されるか (種類、色、フィルター、書式) を制御します。  右側にあるフィールド ウィンドウは、視覚化の際に使用される基になるデータを管理します。 
 
@@ -54,30 +55,30 @@ Power BI レポート エディターは、3 つのセクションで構成さ�
 
 |  |  |
 | --- | --- |
-| ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>視覚化ウィンドウの上部に、使用中のビジュアルの種類が識別されます。この例では、集合縦棒グラフです。<br><br></li> <li>視覚化ウィンドウの下部に、ビジュアルに使用されているフィールドが表示されます (表示されない場合、下にスクロールしてください)。 このグラフでは FiscalMonth、DistrictManager、Total Sales Variance が使用されています。 <br><br></li><li>フィルター ウィンドウには、適用されているすべてのフィルターが表示されます (表示されない場合、下にスクロールしてください)。 <br><br></li><li>フィールド ウィンドウには、使用可能なテーブルが表示されます。テーブル名を展開すると、そのテーブルを構成しているフィールドが表示されます。 黄色のフォントは、そのテーブルの少なくとも 1 つのフィールドが視覚エフェクトで使用されていることを示します。<br><br></li><li>![](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 選択した視覚化の書式ウィンドウを表示するには、ペイント ローラーのアイコンを選択します。<br><br></li><li>![](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 分析ウィンドウを表示するには、拡大鏡アイコンを選択します。</ul> |
+| ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>視覚化ウィンドウの上部に、使用中のビジュアルの種類が識別されます。この例では、集合縦棒グラフです。<br><br></li> <li>視覚化ウィンドウの下部に、ビジュアルに使用されているフィールドが表示されます (表示されない場合、下にスクロールしてください)。 このグラフでは FiscalMonth、DistrictManager、Total Sales Variance が使用されています。 <br><br></li><li>フィルター ウィンドウには、適用されているすべてのフィルターが表示されます (表示されない場合、下にスクロールしてください)。 <br><br></li><li>フィールド ウィンドウには、使用可能なテーブルが表示されます。テーブル名を展開すると、そのテーブルを構成しているフィールドが表示されます。 黄色のフォントは、そのテーブルの少なくとも 1 つのフィールドが視覚エフェクトで使用されていることを示します。<br><br></li><li>![ペイント ローラー アイコン](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 選択した視覚化の書式ウィンドウを表示するには、ペイント ローラーのアイコンを選択します。<br><br></li><li>![拡大鏡アイコン](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 分析ウィンドウを表示するには、拡大鏡アイコンを選択します。</ul> |
 |  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>視覚化ウィンドウ (上から下)
-![](media/service-the-report-editor-take-a-tour/selectviz.png)
+![[視覚化] ウィンドウの上部](media/service-the-report-editor-take-a-tour/selectviz.png)
 
 ここで視覚化の種類を選択します。 小さい画像は*テンプレート*と呼ばれます。 上の画像では集合縦棒グラフが選択されています。 最初に視覚化の種類を選択しないで、フィールドを選択して視覚化の作成を始めた場合、Power BI によって視覚化の種類が自動的に選択されます。 Power BI による選択をそのまま使用することも、別のテンプレートを選んで種類を変更することもできます。 必要なだけ何度でも種類を切り替えて、データを最も的確に表現できる視覚化の種類を見つけてください。
 
 ### <a name="manage-the-fields-used-in-your-visual"></a>ビジュアルで使用されているフィールドを管理する。
-![](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
+![[視覚化] ウィンドウの中央部](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
 
 このウィンドウに表示されるバケット (*ウェル*と呼ばれることもあります) は、どの種類の視覚化を選択したかによって異なります。  たとえば、横棒グラフを選択した場合は、値、軸、および凡例のバケットが表示されます。 フィールドを選択するか、または、キャンバス上にドラッグすると、Power BI はバケットのいずれかにそのフィールドを追加します。  フィールドの一覧からバケットにフィールドを直接ドラッグすることもできます。  いくつかのバケットは、特定の種類のデータにしか使用できません。  たとえば、 **値** は数値以外のフィールドを受け付けません。 つまり、 **employeename** フィールドを **値** バケットにドラッグすると、Power BI によって **employeename の数**に変更されます。
 
 ### <a name="remove-a-field"></a>フィールドの削除
 視覚化からフィールドを削除するには、フィールド名の右にある **[X]** を選択します。
 
-![](media/service-the-report-editor-take-a-tour/deletefield.png)
+![凡例から StoreType を削除する](media/service-the-report-editor-take-a-tour/deletefield.png)
 
 詳細については、「[Power BI レポートへの視覚化の追加](power-bi-report-add-visualizations-i.md)」を参照してください。
 
 ### <a name="format-your-visuals"></a>ビジュアルの書式設定
 ペイント ローラー アイコンを選択して書式ウィンドウを表示します。 使用可能なオプションは、選んだ視覚化の種類によって異なります。
 
-![](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
+![書式設定ウィンドウ](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
 書式設定の可能性は、ほぼ無限です。  詳しくは、実際に使ってみるか、次の記事を参照してください。
 
@@ -97,7 +98,7 @@ Power BI サービスの分析ウィンドウでは、視覚化に動的な基�
 
 フィルター ウィンドウにはもう 1 つ強力な機能があります。それは***レポート内のビジュアルでまだ使われていない***フィールドを使ったフィルター処理の機能です。 説明しましょう。 レポート ページを作成するときに、Power BI は視覚エフェクトで使用しているすべてのフィールドを、フィルター ウィンドウのビジュアル レベル フィルター領域に自動的に追加します。  ただし、視覚エフェクトで現在使用されていないフィールドを使うビジュアル フィルター、ページ フィルター、ドリルスルー フィルター、レポート フィルターを設定する場合は、フィルター バケットの 1 つにそれをドラッグします。   
 
-![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
+![フィルター ウィンドウ](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 詳細については、「[レポートへのフィルターの追加](power-bi-report-add-filter.md)」を参照してください。
 
@@ -107,20 +108,20 @@ Power BI サービスの分析ウィンドウでは、視覚化に動的な基�
 
 |  |  |
 | --- | --- |
-| ![](media/service-the-report-editor-take-a-tour/reportfields.png) |<ul><li>ページにフィールドをドラッグして、新しい視覚化を作成します。  既存の視覚化にフィールドをドラッグし、その視覚化にフィールドを追加することもできます。<br><br></li> <li>フィールドの横にチェックマークを追加すると、そのフィールドがアクティブな (または新しい) 視覚化に追加されます。 また、そのフィールドをどのバケットに配置するかも決定されます。  たとえば、フィールドを凡例、軸、値のいずれに使用するかについて決定されます。 Power BI で最良の判断が行われますが、配置されたフィールドを必要に応じて別のバケットに移動できます。 <br><br></li><li>どちらの方法でも、選択された各フィールドは、レポート エディターの視覚化ウィンドウに追加されます。</li></ul> |
+| ![フィールド ウィンドウ](media/service-the-report-editor-take-a-tour/reportfields.png) |<ul><li>ページにフィールドをドラッグして、新しい視覚化を作成します。  既存の視覚化にフィールドをドラッグし、その視覚化にフィールドを追加することもできます。<br><br></li> <li>フィールドの横にチェックマークを追加すると、そのフィールドがアクティブな (または新しい) 視覚化に追加されます。 また、そのフィールドをどのバケットに配置するかも決定されます。  たとえば、フィールドを凡例、軸、値のいずれに使用するかについて決定されます。 Power BI で最良の判断が行われますが、配置されたフィールドを必要に応じて別のバケットに移動できます。 <br><br></li><li>どちらの方法でも、選択された各フィールドは、レポート エディターの視覚化ウィンドウに追加されます。</li></ul> |
 
 **注**: Power BI Desktop を使用している場合は、フィールドの表示/非表示、計算の追加などのオプションも使用できます。
 
 ### <a name="what-do-the-field-icons-mean"></a>フィールドのアイコンの意味
 * **∑ 集計** 集計とは、合計や平均などが計算される数値です。 集計は、データと一緒にインポートされます (レポートの基となるデータ モデルで定義されます)。
   詳細については、「[Power BI レポートの集計](service-aggregates.md)」を参照してください。
-* ![](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **計算メジャー (計算フィールドとも呼ばれています)**  
+* ![計算機アイコン](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **計算メジャー (計算フィールドとも呼ばれています)**  
    それぞれの計算フィールドには、独自のハードコーディングされた式があります。 計算を変更することはできません、たとえば、合計であれば、合計のままにしかできません。 詳細については、「[メジャーについて](desktop-measures.md)」を参照してください。
-* ![](media/service-the-report-editor-take-a-tour/icon.png) **一意のフィールド**  
+* ![一意フィールドのアイコン](media/service-the-report-editor-take-a-tour/icon.png) **一意フィールド**  
    このアイコンのフィールドは、Excel からインポートされ、重複するものがあっても、すべての値が表示されるように設定されています。 たとえば、データに 'John Smith' という名前のユーザーのためのレコードが 2 つあったとしても、それぞれが一意として扱われ、合計が計算されることはありません。  
-* **![](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) 地理フィールド**  
+* **![geography アイコン](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)geography フィールド**  
    地図の視覚化を作成するために使用できる場所フィールドです。 
-* **![](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) 階層**  
+* **![階層アイコン](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png)階層**  
    方向キーを選択し、階層を構成するフィールドを表示します。 
 
 - - -

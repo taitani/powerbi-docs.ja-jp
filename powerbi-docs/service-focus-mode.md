@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>フォーカス モードでダッシュボード タイルまたはレポート ビジュアルを表示する
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ ms.lasthandoff: 02/24/2018
 > フォーカスは[全画面表示モード](service-fullscreen-mode.md)とは異なります。
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>ダッシュボード タイルのフォーカス モード
-1. タイルの視覚化をポイントし、省略記号 (...) を選び、**[フォーカス モードで開く]** ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png) を選びます。  
+1. タイルの視覚化をポイントし、省略記号 (...) を選び、**[フォーカス モードで開く]** を選びます。 
+
+    ![タイルの省略記号メニュー](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. タイルが開き、レポート キャンバス全体に拡張されます。 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![タイルをレポート キャンバス全体に拡張する](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. [フィルター] ウィンドウを展開すると、このビジュアルに適用されているすべてのフィルターが表示されます。
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![[フィルター] ウィンドウのフォーカス モード](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. さらに探索するにはフィルターを変更し、もし興味深いものを発見したなら、ダッシュボードにビジュアルをピン留めします。
 
 5. フォーカス モードを閉じ、ダッシュボードに戻るには、**[フォーカス モードの終了]** (ビジュアルの左上隅) を選択します。
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![フォーカス モードの終了](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>レポートの視覚化のフォーカス モード
 
-1. レポートの視覚化をポイントし、**フォーカス モード** アイコン ![](media/service-focus-mode/pbi_popout.jpg) を選びます。  
+1. レポートの視覚化をポイントし、**フォーカス モード** アイコン ![フォーカス モード アイコン](media/service-focus-mode/pbi_popout.jpg) を選びます。  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![タイルにフォーカス アイコンを表示する](media/service-focus-mode/power-bi-hover-focus.png)
 2. 視覚化が開き、キャンバス全体に拡張されます。 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![フォーカス モードのビジュアル](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. [フィルター] ウィンドウを展開すると、このビジュアルに適用されているすべてのフィルターが表示されます。
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![[フィルター] 画面のフォーカス モード](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. さらに探索するにはフィルターを変更し、もし興味深いものを発見したなら、ダッシュボードにビジュアルをピン留めします。   
 5. フォーカス モードを閉じ、レポートに戻るには、**[レポートに戻る]** (ビジュアルの左上隅) を選択します。 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![フォーカス モードの終了](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>フォーカス モードから全画面表示モードへ移動する
 いったんフォーカス モードにすると、タイルまたはビジュアルは[全画面表示 (テレビ モード) で表示する](service-fullscreen-mode.md)ことができます。全画面表示モードは、メニューおよびナビゲーション ボタンなしで表示されます。

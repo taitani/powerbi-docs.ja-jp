@@ -15,20 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI サービスからデスクトップにレポートをエクスポートする (プレビュー)
 Power BI Desktop では、レポートを保存して **[発行]** を選ぶことにより、レポートを Power BI サービスにエクスポートできます (*ダウンロード* ともいいます)。 反対の方向にもエクスポートでき、Power BI サービスから Desktop にレポートをダウンロードできます。 どちらの方向でも、エクスポートされたファイルの拡張子は *.pbix* です。
 
 この記事の後半では、注意する必要のあるいくつかの制限事項と考慮事項について説明します。
 
-![](media/service-export-to-pbix/power-bi-file-export.png)
+![[ファイル] ドロップダウン](media/service-export-to-pbix/power-bi-file-export.png)
 
 ## <a name="download-the-report-as-a-pbix"></a>レポートを .pbix としてダウンロードする
 .pbix ファイルをダウンロードするには、次の手順に従います。
@@ -42,18 +43,18 @@ Power BI Desktop では、レポートを保存して **[発行]** を選ぶこ�
    > 
 3. .pbix ファイルが作成されている間、進行状況が状態バナーに表示されます。 .pbix ファイルの準備ができると、開くか保存するように求められます。 ファイルの名前はレポートのタイトルと同じです。
    
-    ![](media/service-export-to-pbix/power-bi-save-pbix.png)
+    ![[開く]、[保存]、[キャンセル]](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     Power BI サービス (app.powerbi.com) または Power BI Desktop で .pbix ファイルを開くオプションが表示されるようになります。     
 4. レポートを Desktop ですぐ開くには、**[開く]** を選びます。 特定の場所にファイルを保存するには、**[保存] > [名前を付けて保存]** の順に選択します。 まだ行っていない場合は、[Power BI Desktop をインストール](desktop-get-the-desktop.md)します。
    
     レポートを Desktop で開くとき、Power BI サービスのレポートで使用できる一部の機能が Desktop では使用できないという警告メッセージが表示されることがあります。
    
-    ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
+    ![警告ダイアログ](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
 
 5. Power BI Desktop のレポート エディターと Power BI サービスのレポート エディターは、よく似ています。  
    
-    ![](media/service-export-to-pbix/power-bi-desktop.png)
+    ![デスクトップ レポート エディター](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 Power BI サービスからの *.pbix* ファイルのダウンロード (エクスポート) に関しては、重要な考慮事項と制限事項がいくつかあります。

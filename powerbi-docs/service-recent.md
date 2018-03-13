@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 103edc93dafb9615e08692965258ffc61905baf1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 972e816dcd833b6ae0e7bd26b760952066aa5ac8
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI サービスの **[最近]** のコンテンツ
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="what-is-recent-content"></a>最近のコンテンツとは
 最近のコンテンツは、最近表示した最大 20 個の項目です。  これには、すべてのワークスペースのダッシュボード、レポート、アプリ、およびブックが含まれます。
 
-![](media/service-recent/power-bi-recent-screen.png)
+![最近のコンテンツ ウィンドウ](media/service-recent/power-bi-recent-screen.png)
 
 Amanda による **[最近]** コンテンツの一覧の入力方法のデモンストレーションを見たら、下のビデオの手順に従ってご自分で試してください。
 
@@ -40,11 +40,11 @@ Amanda による **[最近]** コンテンツの一覧の入力方法のデモ�
 ## <a name="display-recent-content"></a>最近のコンテンツを表示する
 最近アクセスした 5 つのアイテムを確認するには、左ナビゲーションの **[最近]** の右の矢印を選択します。  ここからは、最近のコンテンツを選んで開くことができます。 最近の 5 つのアイテムのみが一覧表示されます。
 
-![](media/service-recent/power-bi-recent-flyout-new.png)
+![最近のコンテンツ ポップアップ](media/service-recent/power-bi-recent-flyout-new.png)
 
-最近アクセスしたアイテムが 5 つを超える場合、**[See all (すべて表示)]** を選択して [最近] 画面 (下記参照) を開きます。 **[最近]** を選択することも、左ナビゲーションから [最近] ![](media/service-recent/power-bi-recent-icon.png) アイコンを選択することも可能です。
+最近アクセスしたアイテムが 5 つを超える場合、**[See all (すべて表示)]** を選択して [最近] 画面 (下記参照) を開きます。 左ナビゲーションから **[最近]** または [最近] ![[最近] アイコン](media/service-recent/power-bi-recent-icon.png) アイコンを選ぶことでもきます。
 
-![](media/service-recent/power-bi-recent-list.png)
+![最近のコンテンツをすべて表示する](media/service-recent/power-bi-recent-list.png)
 
 ここからは、[**[ダッシュボード]**](service-dashboards.md)、[**[レポート]**](service-reports.md)、および **[ブック]** タブ、および [**[アプリ]**](service-install-use-apps.md) 画面と同様にそれぞれコンテンツを扱うことができます。
 

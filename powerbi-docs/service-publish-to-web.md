@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
-ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -135,7 +136,7 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 **[Web に公開]** は Power BI サービスの大半のデータ ソースおよびレポートでサポートされていますが、現時点で以下のものは [Web に公開] でサポートされていないか、使用できません。
 
 1. 行レベルのセキュリティを使用するレポート
-2. オンプレミスでホストされている Analysis Services 表形式を使用するレポート
+2. ライブ接続データ ソースを使うレポート (Analysis Services 表形式でホストされたオンプレミスの Analysis Service 多次元、Azure Analysis Services、Power BI Service など)。
 3. 直接共有されているか、組織のコンテンツ パックを経由して共有されているレポート
 4. 編集メンバーではないグループ内のレポート
 5. 現時点では、[Web に公開] レポートで "R" ビジュアルはサポートされていません。

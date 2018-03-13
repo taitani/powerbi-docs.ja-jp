@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードにタイルをピン留め
 ## <a name="pinning-tiles-from-a-report"></a>レポートからタイルをピン留め
@@ -45,7 +46,7 @@ Amanda が Power BI レポートからビジュアルとイメージを固定す
 
 1. ピン留めする視覚化にポインターを合わせ、ピン ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png) アイコンを選びます。 Power BI で **[ダッシュボードにピン留め]** 画面が開きます。
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![[ダッシュボードにピン留め] ウィンドウ](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. 既存のダッシュボードと新規のダッシュボードのどちらにピン留めするかを決定します。
    
    * 既存のダッシュボード: ドロップダウンから、ダッシュボードの名前を選びます。 共有してもらったダッシュボードはドロップダウンに表示されません。
@@ -55,7 +56,7 @@ Amanda が Power BI レポートからビジュアルとイメージを固定す
    
    右上隅の近くに成功メッセージが表示されたら、視覚エフェクトがダッシュボードにタイルとして追加されたことがわかります。
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![成功メッセージ](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. ナビゲーション ウィンドウから、新しいタイルを持つダッシュボードを選びます。 タイルを選んで、レポートに戻ります。 または、[タイルの表示と動作を編集](service-dashboard-edit-tile.md)します。
 
 ## <a name="pin-an-entire-report-page"></a>レポート ページ全体をピン留めする

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>レポートとビジュアルのデザインに関するベスト プラクティス
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ Power BI サービスの上部メニュー バーから、**[テキスト ボッ
 
 芸術作品ではなく機能を備えたレポートを作成しているのです。 レポートの要素が読みやすく目立つような色を選びます。  
 
-Web ページでの色と視覚化の使用の研究では、色の間のコントラストが高いほど理解の速度が速くなるという結果が得られています ("*Web ページの視覚的検索でのテキストと背景の色の効果*" および "*Web ページの見た目の複雑さと美的特性のユーザーの認知の特定*")。
+Web ページでの色と視覚化の使用の研究では、色の間のコントラストが高いほど理解の速度が速くなるという結果が得られています (Web ページの視覚的検索でのテキストと背景の色の効果および **Web ページの見た目の複雑さと美的特性のユーザーの認知の特定**)。
 
 次のレポート例 (図 20 と 21) には、色のベスト プラクティスをいくつか適用してあります。 最も重要なのは、背景の色を黒に変更したことです。  黄色は明るすぎて目が疲れました。  また、"Count of athlete name by year and class" グラフでは、棒の黄色い部分が黄色の背景にとけ込んで見えなくなっていました。  黒 (または白) の背景を使うことで、コントラストが最大になり、ビジュアルに注目が集まります。
 

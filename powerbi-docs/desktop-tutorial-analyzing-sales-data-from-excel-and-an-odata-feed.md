@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Learn more
+ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル: Excel と OData フィードの売上データを分析する
 **Power BI Desktop** では、あらゆる種類のデータ ソースに接続でき、さまざまに結合したり整形したりすることができます。これにより、興味深く説得力のあるデータ分析と視覚化を簡単に実現できます。 このチュートリアルでは、2 つのデータ ソースのデータを結合する方法について取り上げます。 
@@ -34,7 +35,7 @@ ms.lasthandoff: 01/30/2018
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-このチュートリアルの手順を実行するには、製品のブックをダウンロード****[する必要があります。](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[ここ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[をクリックすると、](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)** をダウンロードできます[。](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+このチュートリアルの手順を実行するには、製品のブックをダウンロードする必要があります。**[Products.xlsx をダウンロードするにはここをクリックしてください](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**
 
 **[名前を付けて保存]** ダイアログ ボックスで、ファイルに **Products.xlsx**という名前を指定します。
 
@@ -82,7 +83,7 @@ Power BI Desktop にはクエリ エディターが組み込まれており、�
 | データ型を変更する |Changed Type |Table.TransformColumnTypes(\#"Removed Other Columns",{{"UnitsInStock", Int64.Type}}) |
 
 ## <a name="task-2-import-order-data-from-an-odata-feed"></a>タスク 2: OData フィードから注文データをインポートする
-このタスクでは、注文データを取り込みます。 この手順では、販売システムに接続します。 下記の URL にあるサンプルの Northwind OData フィードからデータを Power BI Desktop にインポートし、下記の手順でコピーし (貼り付け) ます。<http://services.odata.org/V3/Northwind/Northwind.svc/> 
+このタスクでは、注文データを取り込みます。 この手順では、販売システムに接続します。 <http://services.odata.org/V3/Northwind/Northwind.svc/> からサンプルの Northwind OData フィードを Power BI Desktop にインポートし、下記の手順でコピーし (貼り付け) ます。 
 
 ### <a name="step-1-connect-to-an-odata-feed"></a>手順 1: OData フィードに接続する
 1. クエリ エディターの **[ホーム]** リボンで、**[データの取得]** を選択します。

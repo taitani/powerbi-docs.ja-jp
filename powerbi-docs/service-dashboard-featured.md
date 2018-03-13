@@ -16,19 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI サービスのおすすめのダッシュボード
 ## <a name="create-a-featured-dashboard"></a>おすすめのダッシュボードを作成する
 多くのユーザーには、他のダッシュボードより頻繁にアクセスする 1 つのダッシュボードがあります。  それはビジネスの運営に使用するダッシュボードかもしれません。また、多くの異なるダッシュボードとレポートから取られたタイルの集合体が含まれるダッシュボードであることもあります。
 
-![](media/service-dashboard-featured/power-bi-feature-nav.png)
+![おすすめに設定アイコン](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 ダッシュボードを*おすすめ*に選択すると、Power BI サービスを開くたびに、そのダッシュボードが表示され開きます。  
 
@@ -47,22 +48,22 @@ Amanda がおすすめのダッシュボードを作成するビデオを参照�
 
 
 1. *おすすめ*に設定するダッシュボードを開きます。 
-2. 上部のナビゲーション バーに、**[おすすめに設定]** またはおすすめ ![](media/service-dashboard-featured/power-bi-featured-icon.png) アイコンが表示されます。 いずれかを選択します。
+2. 上部のナビゲーション バーに、**[おすすめに設定]** またはおすすめ ![[おすすめに設定] アイコン](media/service-dashboard-featured/power-bi-featured-icon.png) アイコンが表示されます。 いずれかを選択します。
    
-    ![](media/service-dashboard-featured/power-bi-set-as-featured.png)
+    ![おすすめに設定アイコン](media/service-dashboard-featured/power-bi-set-as-featured.png)
 3. 選択内容を確認します。
    
-    ![](media/service-dashboard-featured/power-bi-create-featured.png)
+    ![おすすめに設定ダッシュボード](media/service-dashboard-featured/power-bi-create-featured.png)
 
 ## <a name="change-the-featured-dashboard"></a>おすすめのダッシュボードを変更する
 もちろん、後で考えが変わった場合、新しいダッシュボードをおすすめのダッシュボードとして設定できます。
 
 1. 前述の手順 1 と 2 を実行します。
    
-    ![](media/service-dashboard-featured/power-bi-change-feature.png)
+    ![おすすめのダッシュボードの変更ウィンドウ](media/service-dashboard-featured/power-bi-change-feature.png)
 2. **[おすすめに設定]** を選択します。 ダッシュボードをおすすめにしない場合、ダッシュボードはワークスペースから削除されません。  
    
-    ![](media/service-dashboard-featured/power-bi-success.png)
+    ![成功メッセージ](media/service-dashboard-featured/power-bi-success.png)
 
 ## <a name="remove-the-featured-dashboard"></a>おすすめのダッシュボードを削除する
 おすすめのダッシュボードを 1 つも設定しない場合に、ダッシュボードのおすすめを解除する方法を次に示します。
@@ -70,7 +71,7 @@ Amanda がおすすめのダッシュボードを作成するビデオを参照�
 1. 現在おすすめに設定しているダッシュボードを開きます。
 2. 上部のメニュー バーで **[おすすめをオフにする]** を選択します。
    
-    ![](media/service-dashboard-featured/power-bi-unfeature.png)
+    ![おすすめの削除](media/service-dashboard-featured/power-bi-unfeature.png)
 
 最後に使ったダッシュボードが Power BI により開かれるようになります。  
 

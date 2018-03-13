@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/01/2018
 ms.author: maikelson
-ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -39,6 +39,10 @@ ms.lasthandoff: 02/09/2018
 <br>作成者: Miranda Li
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
 
+**20 分で学ぶ Power BI ダッシュボードの使い方**
+<br>作成者: Miguel Martinez
+<br>[登録して今すぐ見る](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
 **組み合わせて、もっと便利に: Excel ユーザーが Power BI を使用することで得られる 5 つのメリット**
 <br>作成者: Carlos Otero/Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
@@ -49,36 +53,14 @@ ms.lasthandoff: 02/09/2018
 
 登録して Power BI の専門家の話を聞き、ライブ Q&A セッションに参加してください。
 
-**Office 365 金融専門家ウェビナー シリーズ - エピソード 2: 自動で繰り返すレポートとセルフサービス分析の有効化**
-<br>作成者: Mark Traverso、Miguel Martinez
-<br>*2 月 15 日、午後 12 時 (太平洋標準時)、午後 3 時 (東部標準時)*
+**Power BI 導入フレームワーク ウェビナー シリーズ: パート 1 — 導入: データ ドリブン カルチャを導入する**
+<br>作成者: Manu Kanwarpal
+<br>*3 月 8 日午前 9:00 PST、午後 0:00 EST*
 
-使い方、便利な機能、ベスト プラクティスを紹介します。Office 365 を使用する日常業務がさらに効率的になります。
+組織の考え方をデータ ドリブン カルチャにシフトし、Microsoft から Power BI の導入フレームワークを提供するウェビナー シリーズに登録します。 セルフサービス ビジネス インテリジェンス (BI) の導入は困難で、ツールの入手はその手始めに過ぎません。 導入の成功には、人、プロセス、テクノロジの変革が必要です。
+このウェビナーは、組織の Power BI の潜在力を解放する 5 部構成シリーズの最初のものです。
 
-[2 月 15 日に視聴できるように登録する](https://aka.ms/Office365FinanceProsPBI)
-
-**Microsoft で BI ソリューションを販売する**
-<br>作成者: Tamer Farag
-<br>*2 月 15 日、午前 8 時 (太平洋標準時)、午前 11 時 (東部標準時)*
-
-このウェビナーに参加し、Microsoft との業務提携を成功させ、ビジネス インテリジェンス市場で事業機会を得る方法をご確認ください。 ビジネスの構築と育成に役立つ最新のトレーニング リソース、マーケティング資材、インセンティブ、プランについて説明します。 また、PowerBI.com と AppSource.com で披露される方法も紹介します。Microsoft の顧客や販売者と並んで御社のソリューションやサービスが中心にされます。
-
-[2 月 15 日に視聴できるように登録する](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
-
-**20 分で学ぶ Power BI ダッシュボードの使い方**
-<br>作成者: Miguel Martinez
-<br>*2 月 21 日、午前 10 時 (太平洋標準時)、午後 1 時 (東部標準時)*
-
-今までに Power BI ダッシュボードを開いたことはありますか?  自分にとって重要なデータを見つけるにはどのようにダッシュボードを使えばいいでしょうか? '何かが壊れる' ことを恐れてフィルターやスライサーの使用を制限していますか?  恐れることはありません。一緒に Power BI ダッシュボードの使い方を学びましょう。 他の管理者が使用している、必要なときに必要なデータをドリルダウンするための一般的な機能を説明します。
-
-[2 月 21 日に視聴できるように登録する](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
-
-**新しい Power BI と data.world コネクタでパブリックまたはプライベートのデータセットを視覚化する**
-<br>*2 月 22 日、午前 10 時 (太平洋標準時)、午後 1 時 (東部標準時)*
-
-data.world との共同事業で、Microsoft は新しいデータ コネクタを発表しました。このコネクタを利用すると、data.world データセットを Power BI Desktop にインポートできます。 ウェビナーに登録し、この優れた新しいコネクタと data.world コミュニティの力を最大限に活用する方法をご確認ください。自社のデータ ストーリーを外部と共有したり共同作業を行ったりすることができます。
-
-[2 月 22 日に視聴できるように登録する](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+[3 月 8 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
 
 >[Power BI コミュニティからの今後のウェビナーに参加する](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -110,7 +92,15 @@ data.world との共同事業で、Microsoft は新しいデータ コネクタ�
 <br>作成者: Jon Thompson (Blue Margin)/Jim Pastor (Elgin Fastener Group)
 <br>[登録して今すぐ見る](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
+**新しい Power BI と data.world コネクタでパブリックまたはプライベートのデータセットを視覚化する**
+<br>作成者: Patrick McGarry、Miguel Martinez
+<br>[登録して今すぐ見る](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
 ### <a name="advanced-topics"></a>高度なトピック ###
+
+**Office 365 金融専門家ウェビナー シリーズ - エピソード 2: 自動で繰り返すレポートとセルフサービス分析の有効化**
+<br>作成者: Mark Traverso、Miguel Martinez
+<br>[登録して今すぐ見る](https://aka.ms/Office365FinanceProsPBI)
 
 **組織のセキュリティを強化する適切なデータ ガバナンス戦略の実装方法**
 <br>作成者: Ajay Anandan

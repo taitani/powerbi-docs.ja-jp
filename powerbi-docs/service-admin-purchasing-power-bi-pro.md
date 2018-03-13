@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro を購入する
 Power BI Pro は、レポートの公開や、ダッシュボードの共有のほか、ワークスペースで仕事仲間と共同作業したり、その他の関連アクティビティを行ったりするユーザーを対象としています。たとえば、次の作業を行うことができます。
@@ -63,7 +64,7 @@ Power BI Pro の最新の料金および含まれる機能の一覧表につい�
 > Power BI Premium が利用可能になり、2017 年 6 月 1 日に Power BI 無料プランが変更されたことで、Extended Pro Trial の対象となる可能性があります。 詳しくは、「[Extended Pro Trial activation](service-extended-pro-trial.md)」 (Extended Pro Trial のアクティブ化) をご覧ください。
 
 ### <a name="what-this-looks-like-within-the-service"></a>サービス内での表示例
-サービス内で Pro 版の試用アカウントがあることを確認するには、**歯車*アイコンをクリックして **[パーソナル ストレージの管理]** を選択します。
+サービス内で Pro 版の試用アカウントがあることを確認するには、**歯車**アイコンをクリックして **[パーソナル ストレージの管理]** を選択します。
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

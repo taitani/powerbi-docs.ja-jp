@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>自分と共有の Power BI ダッシュボードを表示する
 ## <a name="shared-with-me"></a>自分と共有
-![](media/service-shared-with-me/power-bi-share-dash.png)
+![[共有] アイコン](media/service-shared-with-me/power-bi-share-dash.png)
 
 同僚がダッシュボードを自分と共有した場合、そのタイトルは **[自分と共有]** の一覧に追加されます。 このダッシュボードは **[自分と共有]** からのみ使用でき、ワークスペースや**アプリ**からは使用できません。
 
@@ -38,8 +39,8 @@ Amanda による**自分と共有**コンテンツの一覧の説明と、一覧
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>**[自分と共有]** 画面から使用できるアクション
 * 星のアイコンを選択して[ダッシュボードをお気に入り](service-dashboard-favorite.md)にします。
-* [ダッシュボードを削除します](service-delete.md)  ![](media/service-shared-with-me/power-bi-delete-icon.png)
-* 一部のダッシュボードは再共有できます![](media/service-shared-with-me/power-bi-share-icon-new.png)
+* [ダッシュボードの除去](service-delete.md)  ![ごみ箱アイコン](media/service-shared-with-me/power-bi-delete-icon.png)
+* 一部のダッシュボードは再共有できます  ![共有アイコン](media/service-shared-with-me/power-bi-share-icon-new.png)
 * また、ダッシュボードが多数ある場合、[検索フィールドと並べ替えを使用して検索することも](service-navigation-search-filter-sort.md)できます。
   
   > [!NOTE]
@@ -51,7 +52,7 @@ Amanda による**自分と共有**コンテンツの一覧の説明と、一覧
 ## <a name="filter-shared-dashboards-by-owner"></a>所有者で共有ダッシュボードをフィルター処理する
 **[自分と共有]** 画面内のコンテンツは、コンテンツ所有者でさらにフィルター処理できます。 たとえば、**[Amanda]** を選択した場合、Amanda が自分と共有するダッシュボードのみを表示できます。
 
-![](media/service-shared-with-me/power-bi-owner.png)
+![所有者によってフィルター処理されたダッシュボード](media/service-shared-with-me/power-bi-owner.png)
 
 ## <a name="next-steps"></a>次の手順
 [Power BI - 基本的な概念](service-basic-concepts.md)  

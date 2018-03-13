@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/21/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 36a79b6ec984ee663868c5f20efaa8cd5b596d2a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>ダッシュボードとレポートの利用状況の指標
 ダッシュボードとレポートを作成した場合、その効果を理解するために利用状況の指標が役立ちます。 ダッシュボード利用状況指標またはレポート利用状況指標を実行すると、そのダッシュボードやレポートが組織全体でどのように利用されているか、何が利用されているか、だれに利用されているか、何の目的で利用されているかわかります。  
@@ -32,7 +33,7 @@ ms.lasthandoff: 01/23/2018
 
 このような利用状況指標レポートは読み取り専用です。 ただし、"名前を付けて保存" を利用し、利用状況指標レポートを自分用にカスタマイズできます。 それによりまったく新しいデータセットが作成され、読み取り専用レポートがすべての機能を備えた、編集可能な Power BI レポートに変換されます。 個人用にカスタマイズしたレポートに選択したダッシュボードまたはレポートの指標が含まれるだけでなく、既定のフィルターを削除することで、選択したワークスペースのあらゆるダッシュボードまたはレポートの利用状況指標にアクセスできるようになりました。
 
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![利用状況の指標レポート](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ## <a name="why-are-usage-metrics-important-to-me"></a>利用状況の指標が重要となる理由
 コンテンツの利用状況を知ることで、効果を証明し、労力に優先順を付けることができます。 利用状況の指標からは、たとえば、組織の大部分がレポートの 1 つを毎日利用しており、作成したダッシュボードがまったく閲覧されていないことなどがわかります。 このような情報は、仕事に労力を正しく使う上で非常に重要です。
@@ -48,7 +49,7 @@ ms.lasthandoff: 01/23/2018
 ## <a name="about-the-usage-metrics-report"></a>利用状況の指標レポートについて
 
 
-**[利用状況の指標]** またはアイコン ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) を選択すると、Power BI によって過去 90 日間のそのコンテンツの利用状況の指標が含まれる事前に作成されたレポートが生成されます。  このレポートは、使い慣れている Power BI レポートと似ていますが、そのデザインは対話形式でなく、情報提供を目的としています。 アクセス手段 (Web やモバイル アプリなど) に関係なく、エンド ユーザーがアクセスを受け取った方法に基づいてスライスできます。ダッシュボードやレポートが変わると利用状況指標レポートも変わります。新しいデータで毎日更新されます。  
+**[利用状況の指標]** またはアイコン ![利用状況の指標アイコン](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) を選択すると、Power BI によって過去 90 日間のそのコンテンツの利用状況の指標が含まれる事前に作成されたレポートが生成されます。  このレポートは、使い慣れている Power BI レポートと似ていますが、そのデザインは対話形式でなく、情報提供を目的としています。 アクセス手段 (Web やモバイル アプリなど) に関係なく、エンド ユーザーがアクセスを受け取った方法に基づいてスライスできます。ダッシュボードやレポートが変わると利用状況指標レポートも変わります。新しいデータで毎日更新されます。  
 
 利用状況の指標レポートは、**[最近]**、**[ワークスペース]**、**[お気に入り]**、その他のコンテンツ一覧には表示されません。 アプリに追加できません。 利用状況指標レポートからダッシュボードにタイルを固定すると、そのダッシュボードはアプリやコンテンツ パックに追加できません。
 
@@ -56,14 +57,14 @@ ms.lasthandoff: 01/23/2018
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>ダッシュボードまたはレポートの利用状況の指標レポートを開く
 1. ダッシュボードまたはレポートを含んでいるワークスペースで起動します。
-2. ワークスペース コンテンツの一覧から、またはダッシュボードまたはレポート自体から、**[利用状況の指標]** アイコン ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) を選択します。
+2. ワークスペース コンテンツの一覧から、またはダッシュボードまたはレポート自体から、**[利用状況の指標]** アイコン ![利用状況の指標アイコン](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) を選択します。
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
+    ![ダッシュボード タブ](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
+    ![利用状況の指標の選択](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
 3. これを初めて実行すると、Power BI によって利用状況指標レポートが作成され、準備できると知らされます。
    
-    ![](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
+    ![指標の準備完了](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. 結果を開くには、**[使用状況メトリックの表示]** を選択します。
    
     Power BI のダッシュボードやレポートを展開したり、保守管理したりするとき、利用状況指標は強力なツールとなります。 レポートの中で最も役に立つページはどれか、削除するべきページはどれかわかりますか。 **レポート ページ**別にスライスすると見つかります。ダッシュボードにモバイル レイアウトを構築するかどうか迷っていますか。 **プラットフォーム**でスライスすると、モバイル アプリまた Web ブラウザーを使ってコンテンツにアクセスしているユーザーの数がわかります。
@@ -94,14 +95,14 @@ ms.lasthandoff: 01/23/2018
 | Rank: Total shares (ランク: 合計共有数) |はい |いいえ |過去 90 日間の組織内のすべてのダッシュボードの合計共有回数。これにより、このダッシュボードまたはレポートがランク付けされます。 |
 
 ### <a name="dashboard-usage-metrics-report"></a>ダッシュボードの利用状況の指標レポート
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![ダッシュボードの利用状況の指標レポート](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ### <a name="report-usage-metrics-report"></a>レポートの利用状況の指標レポート
-![](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
+![レポートの利用状況の指標レポート](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
 ## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>利用状況の指標レポートをフル機能の Power BI レポートとして保存する (カスタマイズ)
 
-![](media/service-usage-metrics/power-bi-save-as.png)
+![名前を付けて保存](media/service-usage-metrics/power-bi-save-as.png)
 
 **[名前を付けて保存]** を使用して、利用状況の指標レポートをカスタマイズおよび共有できるフル機能の Power BI レポートに変換します。 個人用に設定したコピーを作成した後は、基になるデータセットに完全にアクセスし、特定のニーズに合わせて利用状況の指標レポートをカスタマイズできます。 Power BI Desktop を利用し、[Power BI サービス機能にライブ接続し](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop)、利用状況指標レポートをカスタマイズすることもできます。
 
@@ -116,16 +117,16 @@ Power BI でフル機能のレポートを作成すると、過去 90 日間で�
 
 1. 既に構築されていた利用状況指標レポートで、**[ファイル] > [名前を付けて保存]** の順に選択します。 利用状況の指標レポートがフル機能の Power BI レポートに変換されます。 これが*個人に合わせてカスタマイズされた*利用状況指標レポートです。 個人用に設定された利用状況レポートとデータセットは、**mihart* という名前の現在のワークスペースに保存されます。
    
-    ![](media/service-usage-metrics/power-bi-save-as.png)
+    ![名前を付けて保存](media/service-usage-metrics/power-bi-save-as.png)
 2. 編集ビューでレポートを開き、[他の Power BI レポートと同様に操作します](service-interact-with-a-report-in-editing-view.md)。 たとえば、新しいページの追加、新しい視覚エフェクトの構築、フィルターの追加、フォントや色の書式設定などを行うことができます。
    
-    ![](media/service-usage-metrics/power-vi-editing-view.png)
+    ![レポートを編集ビューで開く](media/service-usage-metrics/power-vi-editing-view.png)
 3. あるいは、新しいデータセットから始めて、一からレポートを構築します。
    
-    ![](media/service-usage-metrics/power-bi-new-dataset.png)
+    ![[データセット] タブ](media/service-usage-metrics/power-bi-new-dataset.png)
 4. 新しいレポートが現在のワークスペース (mihart) に保存され、**[最近]** コンテンツの一覧にも追加されます。
    
-    ![](media/service-usage-metrics/power-bi-new-report.png)
+    ![[レポート] タブ](media/service-usage-metrics/power-bi-new-report.png)
 
 ### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>フィルターを削除し、ワークスペースの***すべての***利用状況指標データを表示する
 ワークスペースのすべてのダッシュボードまたはすべてのレポートの指標を表示するには、フィルターを削除する必要があります。 既定では、カスタマイズしたレポートにはフィルターが適用され、その作成に利用されたダッシュボードまたはレポートのみの指標が表示されます。
@@ -134,10 +135,10 @@ Power BI でフル機能のレポートを作成すると、過去 90 日間で�
 
 1. 個人用にカスタマイズしたレポートを編集ビューで開きます。
    
-    ![](media/service-usage-metrics/power-bi-editing-view.png)
+    ![[レポートの編集] の選択](media/service-usage-metrics/power-bi-editing-view.png)
 2. **[フィルター]** ペインで、[レポート レベル フィルター] バケットを見つけ、"x" を選択してフィルターを削除します。
    
-    ![](media/service-usage-metrics/power-bi-report-level-filter2.png)
+    ![フィルターの削除](media/service-usage-metrics/power-bi-report-level-filter2.png)
    
     これで、個人用にカスタマイズしたレポートには、ワークスペース全体の指標が表示されます。
 
@@ -146,13 +147,13 @@ Power BI でフル機能のレポートを作成すると、過去 90 日間で�
 
 1. Power BI サービスの上部の右にある歯車アイコンを選択し、**[管理ポータル]** を選択します。
    
-    ![](media/service-usage-metrics/power-bi-admin-portal-new.png)
+    ![歯車アイコンの選択](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. 管理ポータルで、**[テナント設定]** を選択し、**[コンテンツ作成者用の使用状況メトリック]** を選択します。
    
-    ![](media/service-usage-metrics/power-bi-usage-settings.png)
+    ![管理ポータル](media/service-usage-metrics/power-bi-usage-settings.png)
 3. 利用状況の指標を有効 (または無効) にして、**[適用]** を選択します。
    
-    ![](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+    ![有効になった利用状況指標](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
 組織全体の使用状況指標を無効にすると、管理者は**既存の使用状況指標コンテンツをすべて削除する**オプションを利用し、使用状況指標のレポートとデータセットを利用して構築された既存のレポートとダッシュボード タイルをすべて削除できます。 このオプションで、組織の全ユーザーを対象に、既に利用している場合でも、使用状況指標データの全アクセスが削除されます。 削除した使用状況指標コンテンツは元に戻せないので注意が必要です。
 
