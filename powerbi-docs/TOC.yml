@@ -664,11 +664,13 @@
           href: desktop-ssas-multidimensional.md
         - name: Power BI Desktop で CSV に接続する
           href: desktop-connect-csv.md
-        - name: Power BI Desktop で Impala データベースに接続する (プレビュー)
+        - name: Power BI Desktop で Adobe Analytics に接続する (プレビュー)
+          href: desktop-connect-csv.md
+        - name: Power BI Desktop で Impala データベースに接続する
           href: desktop-connect-impala.md
-        - name: Power BI Desktop における OData フィードへの接続
+        - name: Power BI Desktop で OData フィードに接続する
           href: desktop-connect-odata.md
-        - name: Power BI Desktop における Amazon Redshift データベースへの接続 (プレビュー)
+        - name: Power BI Desktop で Amazon Redshift データベースに接続する
           href: desktop-connect-redshift.md
         - name: Power BI Desktop から Web ページに接続する
           href: desktop-connect-to-web.md
@@ -768,6 +770,8 @@
           href: desktop-slicers.md
         - name: Power BI のブックマーク
           href: desktop-bookmarks.md
+        - name: カスタム レポート ツールヒントの作成 (プレビュー)
+          href: desktop-tooltips.md
         - name: レポートのテーマの使用
           href: desktop-report-themes.md
         - name: クイック メジャーの使用
