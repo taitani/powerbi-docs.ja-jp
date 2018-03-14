@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 ms.openlocfilehash: 519f8b56b5086292addf577d969a707a6d6efcc8
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="how-administrators-can-manage-the-power-bi-desktop-sign-in-form"></a>管理者が Power BI Desktop のサインイン フォームを管理する方法
 Power BI Desktop を初めて起動したときは、サインイン フォームが表示されます。 情報を入力するか、Power BI にサインインして続行できます。 管理者は、レジストリ キーを使ってこのフォームを管理できます。 
