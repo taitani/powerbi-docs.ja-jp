@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6803c8aa2898c9ab27b515c04d7db813e7d44ea4
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 7285e15b6f63cc53b9221a46e0a524313c413cda
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="take-power-bi-anywhere-in-mobile-apps-for-your-mobile-device"></a>モバイル デバイス用のモバイル アプリでどこにでも持って行ける Power BI
 Power BI ダッシュボードとレポートを Power BI サービス ([https://powerbi.com](https://powerbi.com)) で表示し、オンプレミスの Power BI レポートを [Power BI Report Server](report-server/get-started.md) に表示します。 これで Power BI モバイル アプリから、オンプレミスおよびクラウドのデータに接続できます。 モバイル デバイスで Power BI ダッシュボードおよびレポートを表示し操作してみてください。この場合のモバイル デバイスは、iOS (iPad、iPhone、iPod Touch、または Apple Watch)、Android フォンやタブレット、または Windows 10 デバイスです。
@@ -51,4 +51,5 @@ Microsoft Intune では、アクセスに暗証番号 (PIN) を必要とする�
 ## <a name="next-steps"></a>次の手順
 * [Power BI 無料版ライセンス対Power BI Pro ライセンス](service-free-vs-pro.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+
 
