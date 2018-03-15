@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: c94cbdbeaf6c7186b21a22c318a4195dbc509da3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium および Power BI Embedded の容量を管理する
 コンテンツ用の専用リソースを提供する Power BI Premium および Power BI Embedded の容量を管理する方法について説明します。
@@ -44,7 +44,7 @@ ms.lasthandoff: 02/24/2018
 専用容量を利用するには、Office 365 管理センター内で Power BI Premium のサブスクリプションを購入するか、Microsoft Azure Portal 内に Power BI Embedded リソースを作成する必要があります。 詳しくは、以下のトピックをご覧ください。
 
 * **Power BI Premium:** [Power BI Premium の購入方法](service-admin-premium-purchase.md)
-* **Power BI Embedded:** 近日公開予定。
+* **Power BI Embedded:** [Azure Portal での Power BI Embedded 容量の作成](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 Power BI Premium の SKU を購入すると、テナントは、実行している容量で使うために、対応する数の仮想コアを受け取ります。 たとえば、Power BI Premium P3 SKU を購入すると、32 個の仮想コアがテナントに提供されます。
 
