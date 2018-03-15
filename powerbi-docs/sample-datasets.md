@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8ff3470f45ec84798c9fe7302b31a8fe364f18c9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI で使用できるサンプル データ
 Power BI を初めて試してみたくてもデータがない場合や、  データセットはあっても Power BI の動作が (まだ) よくわからないためデータセットが壊れるのではないかと心配になる場合があります。
@@ -106,16 +106,16 @@ ObviEnce は、Microsoft Business Intelligence に重点を置いた ISV およ�
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Power BI サービスでサンプルのコンテンツ パックを取得して開く
 1. Power BI サービス (app.powerbi.com) を開いてログインします。
 2. 左下隅にある **[データの取得]** を選びます。
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. サンプルの 1 つを選び、そのサンプルの説明を開きます。 次に、**[接続]** を選びます。  
-   
+
    ![](media/sample-datasets/power-bi-connect.png)
 5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 サンプルを使って Power BI を試してみます。  
-   
+
    ![](media/sample-datasets/power-bi-asterisk.png)
 
 データが用意できたので、それを使ってみてください。  サンプルのコンテンツ パックを使ってチュートリアルを試したり、単に Power BI サービスを開いて調べたりできます。
@@ -124,7 +124,7 @@ ObviEnce は、Microsoft Business Intelligence に重点を置いた ISV およ�
 各サンプル コンテンツ パックは、Excel ブックでも入手できます。 Excel ブックは、Power BI サービスで使うように設計されています。  
 
 1. 以下のリンクを使ってファイルを個別にダウンロードするか、[すべてのサンプル ファイルを 1 つにまとめた zip ファイルをダウンロードしてください](http://go.microsoft.com/fwlink/?LinkId=535020)。 経験のあるユーザーは、Excel ブックをダウンロードしてデータ モデルを自由に調査したり編集したりしてかまいません。
-   
+
    * [小売の分析のサンプル](http://go.microsoft.com/fwlink/?LinkId=529778)
    * [サプライヤー クオリティ分析サンプル](http://go.microsoft.com/fwlink/?LinkId=529779)
    * [人事のサンプル](http://go.microsoft.com/fwlink/?LinkId=529780)
@@ -134,35 +134,35 @@ ObviEnce は、Microsoft Business Intelligence に重点を置いた ISV およ�
    * [調達の分析のサンプル](http://go.microsoft.com/fwlink/?LinkId=529784)
    * [売上およびマーケティングのサンプル](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. ダウンロードしたファイルを保存します。 どこにファイルを保存するかによって違いがあります。
-   
+
    * ![](media/sample-datasets/power-bi-local-file2.png)  **ローカル** - コンピューターのローカル ドライブまたは組織内の別の場所にファイルを保存した場合、ファイルを Power BI にインポートできます。 実際はファイルがローカル ドライブに残ったままになるため、本当にファイル全体が Power BI にインポートされるわけではありません。 実際には、Power BI サイトに新しいデータセットが作成され、データ (場合によってはデータ モデル) がデータセットに読み込まれるという処理が発生しています。 ファイルにレポートが含まれている場合、これらのレポートは Power BI サイトの [レポート] に表示されます。
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - ビジネス用** - OneDrive for Business を利用していて、Power BI にサインインするときと同じアカウントを使ってサインインした場合、Excel、Power BI、または .CSV ファイル内の作業内容と Power BI のデータセット、レポート、およびダッシュボードとを最も効果的に同期できます。 Power BI と OneDrive はどちらもクラウドにあるため、Power BI は約 1 時間ごとに OneDrive 上のファイルに接続します。 なんらかの変更が見つかった場合には、データセット、レポート、およびダッシュボードが Power BI で自動的に更新されます。
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 個人用** – OneDrive アカウントにファイルを保存すると、OneDrive for Business の場合と同じメリットが多数得られます。 最も大きな違いは、([データの取得]、[ファイル]、[OneDrive - 個人用] の順に選択して) ファイルに初めて接続するときに、Microsoft アカウントを使って OneDrive にサインインする必要があるという点です (このアカウントは通常、Power BI へのサインインに使うものとは異なります)。 Microsoft アカウントを使って OneDrive にサインインするときは、[サインインしたままにする] オプションを必ず選択してください。 これにより、Power BI は、約 1 時間ごとにファイルに接続して、Power BI のデータセットの同期を保つことができます。
    * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint チーム サイト** – Power BI のファイルを SharePoint – チーム サイトに保存することは、OneDrive for Business に保存することとほぼ同じです。 最も大きな違いは、Power BI からファイルに接続する方法にあります。 URL を指定したり、ルート フォルダーに接続したりできます。
 3. Power BI サービス (app.powerbi.com) を開いてログインします。
-   
+
    > [!TIP]
    > この時点で、新しいダッシュボードを作成し、インポートするファイルにちなんだ名前を付けることができます。  そうしないで Excel データセットをインポートすると、Power BI はサンプルにちなんだ名前の新しいダッシュボードを作成するのではなく、現在開いているダッシュボードにタイルを追加します。 そのタイルを選ぶと、データセットのレポートが表示されます。 後でいつでも新しいダッシュボードを作成できるのでこれは大きな問題ではありませんが、新しいダッシュボードで始めれば手間が少し減ります。
-   > 
-   > 
+   >
+   >
 4. 左下隅にある **[データの取得]** を選びます。
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 5. 表示される [データの取得] ページで、**[ファイル] > [取得]** を選びます。
-   
+
      ![](media/sample-datasets/power-bi-files.png)
 6. サンプルをダウンロードして保存した場所に移動します。
-   
+
    ![](media/sample-datasets/power-bi-files3.png)
 7. ファイルを選び (この例では、OneDrive for Business に保存した **Procurement Analysis Sample.xlsx**)、**[接続]** を選びます。
-   
+
    ![](media/sample-datasets/power-bi-connect2.png)
 8. データをインポートするか、またはブックを Power BI に取り込んで Excel Online とまったく同じように表示するかを選びます。
-   
+
     ![](media/sample-datasets/power-bi-import.png)
 9. **[インポート]** を選んだ場合、Power BI はサンプル ブックをインポートし、"**調達の分析のサンプル**" という名前の新しいデータセットとして追加します。  ブックに Power View のシート、テーブル、または範囲や、データ モデルがある場合、Power BI でも (同じ名前の) レポートが作成されます。 そして、ダッシュボードをまだ開いていない場合は、新しいダッシュボードが自動的に作成されます  (**[データの取得]** をクリックするときにダッシュボードを開いてあった場合は、ダッシュボードに新しい空のタイルが表示されて、  そのタイルをクリックすると、追加したデータセットのレポートに移動します)。 新しいコンテンツにはサンプルにちなんだ名前が付けられ、黄色いアスタリスクで示されます。
 10. **[データセットの準備ができました]**  画面が表示されたら、**[データセットの表示]** または **[クイック分析情報を入手する]** を選ぶか、単に Power BI の左側のナビゲーション バーを使って関連するレポートまたはダッシュボードを探して開きます。  
-    
+
      ![](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(省略可能) Excel 自体で Excel のサンプルを表示する
@@ -170,18 +170,18 @@ Excel ブックのデータが Power BI のデータセットやレポートに�
 
 * 最初にサンプル Excel ブックを開くと、2 つの警告が表示されることがあります。 1 つ目は、ブックが保護ビューになっていることを示します。 **[編集を有効にする]** を選択してください。 2 つ目は、ブックに外部データ接続があることを示します。 **[コンテンツの有効化]** を選択してください。
 * 各ブックには、複数のシートが含まれています。 すべての Excel サンプルには視覚化を含む Power View シートが少なくとも 1 つはあるので、Power BI に Excel ファイルをインポートすると、データセット**と**レポートが作成されます。
-  
+
    [Power View アドインを有効にする](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957)ことが必要な場合があります。
 * 実際のデータは、 Power Pivot データ モデルに存在しています。 データを表示するには、 **[PowerPivot]** タブで **[データ モデルの管理]**を選びます。
-  
-    [PowerPivot] タブが表示されない場合は、以下を行います。 [Power Pivot のアドインを有効にします](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8)。 
+
+    [PowerPivot] タブが表示されない場合は、以下を行います。 [Power Pivot のアドインを有効にします](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8)。
 * [Info] タブには obviEnce (サンプルを作成した会社) に関する情報が示されています。
 
 ## <a name="the-power-bi-samples-as-pbix-files"></a>.pbix ファイルの Power BI サンプル
 各サンプル コンテンツ パックは、Power BI .pbix ファイルでも入手できます。 .pbix ファイルは、Power BI Desktop で使うように設計されています。  
 
 1. 下のリンクを使って、ファイルを個別にダウンロードします。
-   
+
    * [小売の分析のサンプル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail Analysis Sample PBIX.pbix)
    * [サプライヤー クオリティ分析サンプル](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    * [人事のサンプル](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
@@ -192,7 +192,7 @@ Excel ブックのデータが Power BI のデータセットやレポートに�
    * [売上およびマーケティングのサンプル](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix)
 2. ダウンロードしたファイルを保存します。
 3. Desktop で **[ファイル] > [開く]** を選び、サンプル .pbix を保存した場所に移動します。
-   
+
    ![](media/sample-datasets/power-bi-desktop-open.png)
 4. .pbix ファイルを選び、Desktop で開きます。
 
@@ -204,4 +204,3 @@ Excel ブックのデータが Power BI のデータセットやレポートに�
 [Power BI のデータ ソース](service-get-data.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

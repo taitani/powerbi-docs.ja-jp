@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 26308afc86ce83a24a40b078770db35213f600e0
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 8a98780e0854b997e00a88f1ab3a5002e8c2fb10
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>ナビゲーション: Power BI サービスでコンテンツの検索、探索、並べ替えを行う
 Power BI サービスでコンテンツ間を移動する方法はたくさんあります。 ワークスペース内のコンテンツは、種類 (ダッシュボード、レポート、ブック、データセット) ごとにまとめられています。  また、コンテンツは使用方法 (お気に入り、最近、アプリ、自分と共有、おすすめ) によっても整理されています。 コンテンツへのこれらの異なる経路により、Power BI サービス内で必要な情報をすばやく見つけることができます。  
