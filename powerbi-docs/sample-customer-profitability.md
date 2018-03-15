@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI のお客様の収益性のサンプル: 使ってみる
 
@@ -40,21 +40,22 @@ ms.lasthandoff: 03/01/2018
 
 1. Power BI サービス (app.powerbi.com) を開いてログインします。
 2. 左下隅にある **[データの取得]** を選びます。
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. **[お客様の収益性のサンプル]** を選び、**[接続]** を選びます。  
-   
+
    ![データを取得](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 サンプルを使って Power BI を試してみます。  
-   
+
    ![アスタリスク](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>このサンプルの .pbix ファイルを取得する
 
-あるいは、Power BI Desktop で使用するために設計された .pbix ファイルとして、サンプルをダウンロードすることもできます。 [お客様の収益性のサンプル](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
+あるいは、Power BI Desktop で使用するために設計された .pbix ファイルとして、サンプルをダウンロードすることもできます。
+[お客様の収益性のサンプル](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
@@ -87,13 +88,13 @@ ms.lasthandoff: 03/01/2018
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- Carlos を除いた経営陣全員が、既に売上目標を上回っています。 ただし、Carlos の売上実績はもっとも高い値です。 
+- Carlos を除いた経営陣全員が、既に売上目標を上回っています。 ただし、Carlos の売上実績はもっとも高い値です。
 - Annelie の GM% は最低ですが、3 月以降、安定的に増加しているのがわかります。
-- その一方で、Valery は GM% が大幅に低下しています。 
-- また、Andrew は不安定な 1 年でした。 
+- その一方で、Valery は GM% が大幅に低下しています。
+- また、Andrew は不安定な 1 年でした。
 
 ## <a name="explore-the-dashboards-underlying-data"></a>ダッシュボードの基になるデータの調査
-このダッシュボードのタイルはレポートと Excel ブックにリンクされています。 
+このダッシュボードのタイルはレポートと Excel ブックにリンクされています。
 
 ### <a name="open-the-excel-online-data-source"></a>Excel Online のデータ ソースを開く
 ダッシュボード上の [Target vs Actual]\(目標と実績\)、[Year Over Year Revenue Growth]\(前年比の収益成長率\) の 2 つのタイルは、Excel ブックからピン留めされたものです。 そのためこのタイルのどちらを選択しても、Power BI によってデータ ソース、この場合は Excel Online が開かれます。
@@ -112,14 +113,14 @@ ms.lasthandoff: 03/01/2018
 
 4. 調査を続けて興味のあるものが見つかったら右上隅にある **[ピン留め]**![](media/sample-customer-profitability/power-bi-excel-pin.png) を選択して、[ダッシュボードにピン留め](service-dashboard-pin-tile-from-excel.md)します。
 
-5. ダッシュボードに戻るには、ブラウザーの戻る矢印を使用します。 
+5. ダッシュボードに戻るには、ブラウザーの戻る矢印を使用します。
 
 ### <a name="open-the-underlying-power-bi-report"></a>基になる Power BI レポートを開く
-お客様の収益性サンプルのタイルは、その大部分が、基になっているお客様の収益性サンプルのレポートからピン留めされたものです。 
+お客様の収益性サンプルのタイルは、その大部分が、基になっているお客様の収益性サンプルのレポートからピン留めされたものです。
 
-1. これらのタイルのいずれかを選択して、読み取りビューでレポートを開きます。 
+1. これらのタイルのいずれかを選択して、読み取りビューでレポートを開きます。
 
-2. レポートは 3 ページからなります。 レポートの下部にあるタブは、それぞれページを表します。 
+2. レポートは 3 ページからなります。 レポートの下部にあるタブは、それぞれページを表します。
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ ms.lasthandoff: 03/01/2018
 
 バブル チャートで、CFO は最大のバブルを検索します。これらが収益に最も大きく影響するものだからです。 面グラフ内のマネージャー名をクリックし、マネージャーごとにページをフィルター処理すると、業界セグメント別の各マネージャーの影響を確認しやすくなります。
 
-* Andrew が影響を与える領域は多数のさまざまな業界セグメントにまたがり、GM% (ほとんどの正の側) と Var% は大きく異なります。 
-* Annelie のグラフは似ていますが、少数の業界セグメントにのみ集中し、連邦政府セグメントと Gladius 製品に焦点を合わせています。 
-* Carlos は明らかにサービスのセグメントに重点を置き、良好な収益を得ています。 Carlos はハイテク セグメントで差異 % を大幅に向上させ、彼にとっての新しいセグメントである製造業では、業界では、予算に対して特に優れた業績を上げています。 
-* Tina がいくつかのセグメントを担当し、最高の GM% を実現していますが、バブルのほとんどが小さいことは、企業の最終的な収益への影響が最小限であることを示しています。 
+* Andrew が影響を与える領域は多数のさまざまな業界セグメントにまたがり、GM% (ほとんどの正の側) と Var% は大きく異なります。
+* Annelie のグラフは似ていますが、少数の業界セグメントにのみ集中し、連邦政府セグメントと Gladius 製品に焦点を合わせています。
+* Carlos は明らかにサービスのセグメントに重点を置き、良好な収益を得ています。 Carlos はハイテク セグメントで差異 % を大幅に向上させ、彼にとっての新しいセグメントである製造業では、業界では、予算に対して特に優れた業績を上げています。
+* Tina がいくつかのセグメントを担当し、最高の GM% を実現していますが、バブルのほとんどが小さいことは、企業の最終的な収益への影響が最小限であることを示しています。
 * Valery が扱っている製品は 1 つのみで、担当の業界セグメントはわずかに 5 つです。 Valery の業界への影響は季節的ですが常に大きなバブルを生み出すことは、会社の最終的な収益に大きな影響を与えていることを示します。 業界は彼女の業績が悪いことの説明になりますか。
 
 ### <a name="executive-scorecard"></a>役員スコアカード
@@ -174,9 +175,9 @@ ms.lasthandoff: 03/01/2018
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. **「total revenue by industry for Valery (Valery の業界別合計売上)」**と入力します。 質問を入力するに従って視覚化が更新されることにご注意ください。
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    流通は Valery にとって最大の売上領域です。
 
 ### <a name="dig-deeper-by-adding-filters"></a>フィルターの追加による詳しい調査
@@ -184,15 +185,15 @@ ms.lasthandoff: 03/01/2018
 
 1. [Industry Margin Analysis]\(業界の利益分析\) レポートのページを開きます。
 2. レポート ページで視覚エフェクトが選択されていない状態で、(まだ展開されていない場合は) 右側のフィルター ウィンドウを展開します。 フィルター ウィンドウには、ページ レベル フィルターのみが表示されます。  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. **[Industry]** フィルターを選択し、矢印を選択して一覧を展開します。 流通業界のページ フィルターを追加してみましょう。 まず **[Select All]** チェックボックスをオフにして、すべての選択を解除します。 次に **[運輸/物流]** だけを選択します。  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. 「月および役員名別の粗利益」面グラフから、この業種の顧客を担当しているのは Valery と Tina だけで、Valery がこの業種を担当していたのは 6 月から 11 月までの間だけであることがわかります。   
-5. 「月および役員名別の粗利益」面グラフの凡例で、**[Tina]**、**[Valery]** の順に選びます。 「製品別の合計売上」の Tina の部分は、Valery と比較して非常に小さい点にご注意ください。 
+5. 「月および役員名別の粗利益」面グラフの凡例で、**[Tina]**、**[Valery]** の順に選びます。 「製品別の合計売上」の Tina の部分は、Valery と比較して非常に小さい点にご注意ください。
 6. 実売上を確認するには、Q&A を使用して、**役員のシナリオ別の流通業の合計売上**を尋ねます。  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     同様に他の業界を調査して、視覚化に顧客を追加し、Valery の業績の原因を理解することもできます。
@@ -205,4 +206,3 @@ ms.lasthandoff: 03/01/2018
 この記事から、Power BI ダッシュボード、Q&A、レポートから顧客データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータを接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、「[Power BI の概要](service-get-started.md)」をご覧ください。
 
 [Power BI のサンプルに戻る](sample-datasets.md)  
-
