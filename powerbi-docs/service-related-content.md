@@ -20,10 +20,10 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 43dffab862173779068f1180f83bc6c92bf98013
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI サービスで関連するコンテンツを表示する
 **[関連するコンテンツ]** ペインには、Power BI サービスのコンテンツ (ダッシュボード、レポート、データセット) がどのように相互接続されているかが示されます。  さらに、このペインからは、更新、名前の変更、詳細情報の生成など、一般的なタスクを実行できます。 関連するレポートやダッシュボードを選ぶと、Power BI ワークスペースに表示されます。   
@@ -89,7 +89,7 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 
 ワークスペースで **[データセット]** タブを選び、**[関連の表示]** アイコン ![[関連の表示] アイコン](media/service-related-content/power-bi-view-related-icon-new.png) を探します。
 
-![[データセット] タブ](media/service-related-content/power-bi-view-related-dataset-newer.png)
+![データセット タブ](media/service-related-content/power-bi-view-related-dataset-newer.png)
 
 アイコンを選び、**[関連するコンテンツ]** ペインを開きます。
 

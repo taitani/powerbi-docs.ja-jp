@@ -19,10 +19,10 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4784a5d07cab1f637afa6cf6622ea00fd264d501
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>ダッシュボードから別のダッシュボードにタイルをピン留め
 新しい[ダッシュボード タイル](service-dashboard-tiles.md)を追加する 1 つの方法は、別のダッシュボードからコピーすることです。 これらの各タイルは、Q&A とレポートのどちらであれ、クリックすると作成元に戻るリンクです。 

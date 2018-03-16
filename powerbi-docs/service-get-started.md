@@ -20,10 +20,10 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: cbb7697e3d3dbc92c2917b0a80deadfc0b9fd5a0
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>Power BI サービスの概要 (app.powerbi.com)
 このチュートリアルは、初めて ***Power BI サービス***を使うときに役立ちます。 Power BI サービスと他の Power BI 製品の関係を理解するため、最初に「[Power BI とは?](guided-learning/gettingstarted.yml#step-1)」を読むことを強くお勧めします。
@@ -78,7 +78,7 @@ CSV ファイルからデータを取得する例を次に示します。 この
 
 6. 上部のメニュー バーに **[読み取りビュー]** というオプションがあることを確認してください。 [読み取りビュー] オプションが表示されていれば、現在**編集ビュー**を開いていることを意味します。 
 
-    ![読み取りビュー オプション](media/service-get-started/power-bi-editing-view.png)
+    ![[読み取りビュー] オプション](media/service-get-started/power-bi-editing-view.png)
 
     編集ビューが表示されるユーザーはレポートの "*所有者*" なのでレポートを編集できます。このようなユーザーは "*作成者*" でもあります。 同僚とレポートを共有している場合、同僚は読み取りビューでレポートを操作することだけができます。このようなユーザーは "*コンシューマー*" です。 詳しくは、[読み取りビューと編集ビュー](service-reading-view-and-editing-view.md)に関するトピックをご覧ください。
     
@@ -99,7 +99,7 @@ CSV ファイルからデータを取得する例を次に示します。 この
 
 3. 役に立ちそうなので、グラフをダッシュボードに "*ピン留め*" します。 視覚エフェクトをポイントし、**[ピン留め]** アイコンを選びます。  この視覚エフェクトをピン留めすると、最新の値がひとめでわかるようにダッシュボードに保存されて最新の様態に維持されます。
    
-   ![ピン アイコン](media/service-get-started/pinnew.png)
+   ![ピン留めアイコン](media/service-get-started/pinnew.png)
 
 5. これは新しいレポートであるため、視覚エフェクトをダッシュボードにピン留めする前に、レポートを保存するよう要求されます。 レポートに名前を付け (たとえば、"*一定期間内の売上*" など)、**[保存してから続ける]** を選びます。 
    

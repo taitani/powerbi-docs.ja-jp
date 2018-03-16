@@ -20,10 +20,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 3638c99b0dfafa8a90a6c911051e203f3e6037c4
-ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Power BI ダッシュボードにレポート ページ全体をライブ タイルとしてピン留めする
 新しい[ダッシュボード タイル](service-dashboard-tiles.md)を追加する別の方法は、レポート ページ全体をピン留めする方法です。 これは、複数の視覚化を一度にピン留めする簡単な方法です。  さらに、ページ全体をピン留めする場合、タイルは *ライブ* であり、ダッシュボードで直接それらのタイルと対話できます。 レポート エディターで視覚化に加えるすべての変更 (フィルターの追加、またはチャートで使用されるフィールドの変更など) は、ダッシュボード タイルにも反映されます。  

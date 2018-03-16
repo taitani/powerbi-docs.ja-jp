@@ -19,10 +19,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 3d20b27b24851872b05a9c7dccb383032e1d65b8
-ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI サービスのほとんどすべてのものを削除する
 この記事では、Power BI サービスでダッシュボード、レポート、ブック、データセット、アプリ、視覚化、ワークスペースを削除する方法について説明します。
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/05/2018
 
 ### <a name="to-delete-a-dashboard"></a>ダッシュボードを削除するには
 1. ワークスペースで、**[ダッシュボード]** タブを選択します。
-2. 削除するダッシュボードを見つけて、削除アイコン ![削除アイコン](media/service-delete/power-bi-delete-icon.png)を選択します。
+2. 削除するダッシュボードを見つけて、削除アイコン ![削除アイコン](media/service-delete/power-bi-delete-icon.png).
 
     ![ビデオ](media/service-delete/power-bi-delete-dash.gif)
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 03/05/2018
 
 ### <a name="to-delete-a-report"></a>レポートを削除するには
 1. ワークスペースで、**[レポート]** タブを選択します。
-2. 削除するレポートを見つけて、削除アイコン   ![削除アイコン](media/service-delete/power-bi-delete-icon.png)を選択します。   
+2. 削除するレポートを見つけて、削除アイコン   ![削除アイコン](media/service-delete/power-bi-delete-icon.png).   
 
     ![ワークスペースのレポート タブ](media/service-delete/power-bi-delete-reportnew.png)
 3. 削除を確認します。
