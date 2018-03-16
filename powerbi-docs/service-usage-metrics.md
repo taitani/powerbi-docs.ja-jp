@@ -20,10 +20,10 @@ ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>ダッシュボードとレポートの利用状況の指標
 ダッシュボードとレポートを作成した場合、その効果を理解するために利用状況の指標が役立ちます。 ダッシュボード利用状況指標またはレポート利用状況指標を実行すると、そのダッシュボードやレポートが組織全体でどのように利用されているか、何が利用されているか、だれに利用されているか、何の目的で利用されているかわかります。  
@@ -123,7 +123,7 @@ Power BI でフル機能のレポートを作成すると、過去 90 日間で�
     ![レポートを編集ビューで開く](media/service-usage-metrics/power-vi-editing-view.png)
 3. あるいは、新しいデータセットから始めて、一からレポートを構築します。
    
-    ![[データセット] タブ](media/service-usage-metrics/power-bi-new-dataset.png)
+    ![データセット タブ](media/service-usage-metrics/power-bi-new-dataset.png)
 4. 新しいレポートが現在のワークスペース (mihart) に保存され、**[最近]** コンテンツの一覧にも追加されます。
    
     ![[レポート] タブ](media/service-usage-metrics/power-bi-new-report.png)
