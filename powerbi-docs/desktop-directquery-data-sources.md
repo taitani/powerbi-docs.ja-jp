@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI の DirectQuery でサポートされるデータ ソース
 **Power BI Desktop** と **Power BI サービス**には、接続してデータへのアクセスを可能にする多数のデータ ソースがあります。 この記事では、Power BI のどのデータ ソースが **DirectQuery** と呼ばれる接続方法をサポートしているかを説明します。 DirectQuery の詳細については、「[**Power BI での DirectQuery**](desktop-directquery-about.md)」を参照してください。
@@ -37,7 +37,8 @@ ms.lasthandoff: 02/24/2018
 * IBM Netezza (ベータ)
 * Impala (バージョン 2.x)
 * Oracle データベース (バージョン 12 以降)
-* SAP Business Warehouse (ベータ)
+* SAP Business Warehouse Application サーバー
+* SAP Business Warehouse メッセージ サーバー (Beta)
 * SAP HANA
 * Snowflake
 * Spark (ベータ) (バージョン 0.9 以降)
@@ -52,7 +53,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="on-premises-gateway-requirements"></a>オンプレミス ゲートウェイの要件
 次の表では、**Power BI サービス**にレポートを発行した後に、指定したデータ ソースに接続するために、**オンプレミス データ ゲートウェイ**が必要かを示します。
 
-| ソース | ゲートウェイが必要 |
+| Source | ゲートウェイが必要 |
 | --- | --- |
 | SQL Server |はい |
 | Azure SQL Database |いいえ |
@@ -62,11 +63,14 @@ ms.lasthandoff: 02/24/2018
 | Teradata データベース |はい |
 | Amazon Redshift |いいえ |
 | Impala (バージョン 2.x) |はい |
-| Snowflake (プレビュー) |現時点では、**Power BI サービス**でサポート対象外 |
+| Snowflake |はい |
 | Spark (ベータ) バージョン 0.9 以降 |現時点では、**Power BI サービス**でサポート対象外 |
-| Azure HDInsight Spark (Beta) |現時点では、**Power BI サービス**でサポート対象外 |
-| IBM Netezza (ベータ) |現時点では、**Power BI サービス**でサポート対象外 |
-| SAP Business Warehouse (ベータ) |現時点では、**Power BI サービス**でサポート対象外 |
+| Azure HDInsight Spark (Beta) |いいえ |
+| IBM Netezza |はい |
+| SAP Business Warehouse Application サーバー |はい |
+| SAP Business Warehouse メッセージ サーバー |現時点では、**Power BI サービス**でサポート対象外 |
+| Google BigQuery |いいえ |
+
 
 ## <a name="next-steps"></a>次の手順
 DirectQuery の詳細については、次のリソースを参照してください。

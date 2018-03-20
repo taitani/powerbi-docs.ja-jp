@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop から Power BI サービスのデータセットに接続する
 Power BI サービスの共有データセットへのライブ接続を確立し、同じデータセットから多数の異なるレポートを作成できます。 つまり、Power BI Desktop で完全なデータ モデルを作成し、それを Power BI サービスに発行した後、その同じ共通のデータ モデルから複数の異なるレポート (異なる .pbix ファイル) を作成できます。 この機能は、**Power BI サービス ライブ接続**と呼ばれます。
@@ -116,8 +116,8 @@ Power BI にサインインしていない場合は、サインインするよ�
 * これはライブ接続のため、**SQL Server Analysis Services** に接続するときの動作と同様に、左側のナビゲーションおよびモデリングは無効になります。
 * これはライブ接続のため、**SQL Server Analysis Services** に接続するときと同様に、RLS (行レベルとロール レベルのセキュリティ)、OneDrive for Business、および他のそのような接続動作が適用されます。
 * **Power BI サービス**で接続するデータセットを選ぶとき、検索ボックスは展開されているワークスペースにのみ適用されます。
-* 元の共有 .pbix ファイルを変更すると、**Power BI サービス**で共有されているデータセットおよびレポートが上書きされます。
-* もともと共有されていたレポートを置き換えることはできません。 置き換えようとすると、ファイルの名前を変更して発行するよう求める警告が表示されます。
+* 所有者が元の共有 .pbix ファイルを変更すると、**Power BI サービス**で共有されているデータセットおよびレポートが上書きされます。
+* ワークスペースのメンバーは、もともと共有されていたレポートを置き換えることはできません。 置き換えようとすると、ファイルの名前を変更して発行するよう求める警告が表示されます。
 * **Power BI サービス**で共有データセットを削除した場合、他の **Power BI Desktop** (.pbix ファイル) は正常に動作しないか、ビジュアルが表示されなくなります。
 * コンテンツ パックの場合は、**Power BI サービス**に .pbix レポートおよびデータセットを共有するための基礎として使う前に、コンテンツ パックのコピーを作成しておく必要があります。
 * "*自分の所属組織*" からのコンテンツ パックの場合、コピーした後は、サービスで作成されたレポートや、ライブ接続でのコンテンツ パックのコピーの一部として作成されたレポートを、置き換えることはできません。 置き換えようとすると、ファイルの名前を変更して発行するよう求める警告が表示されます。 このような状況では、発行されたライブ接続されているレポートのみを置換できます。

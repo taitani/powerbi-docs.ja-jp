@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 173093cd7b8601357c893e2299031f331c440a75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>Android フォンでの Power BI モバイル アプリの概要
 Microsoft Power BI 用 Android アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 
@@ -31,7 +31,7 @@ Microsoft Power BI 用 Android アプリは、Power BI、Power BI レポート �
 Power BI Desktop で Power BI レポートを作成して、それらを公開します。
 
 * [それらを Power BI サービスに公開し](service-get-started.md)、ダッシュボードを作成します。
-* [それらをオンプレミスから Power BI レポート サーバーに公開します](report-server/quickstart-create-powerbi-report.md)。
+* [それらをオンプレミスから Power BI Report Server に公開します](report-server/quickstart-create-powerbi-report.md)。
 
 Android フォンの Power BI アプリで、オンプレミスまたはクラウドのダッシュボードやレポートを操作します。
 
@@ -142,4 +142,5 @@ Power BI 用の Android フォン アプリ、Power BI のダッシュボード�
 * Android アプリ ストアから [Android アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkID=544867)する。
 * [Power BI の概要](service-get-started.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+
 

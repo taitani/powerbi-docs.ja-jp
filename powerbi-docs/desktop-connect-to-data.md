@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop におけるデータへの接続
 Power BI Desktop があれば、拡張し続けるデータの世界に簡単につながることができます。 Power BI Desktop をお持ちでない場合は、[ダウンロード](http://go.microsoft.com/fwlink/?LinkID=521662)してインストールできます。
@@ -80,7 +80,7 @@ Power BI Desktop を使用すると、さまざまなことを行えます。 �
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop での一般的なクエリ タスク](desktop-common-query-tasks.md)   
 
-弊社に対するフィードバックを歓迎いたします。 フィードバックをご希望の場合は Power BI Desktop の **[フィードバックの送信]** メニュー項目をご利用ください。 皆さまからのご意見をお待ちしています。
+弊社に対するフィードバックを歓迎いたします。 Power BI Desktop の **[コメントを送信する]** を使うか、[Community Feedback](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) にアクセスしてください。 皆さまからのご意見をお待ちしています。
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

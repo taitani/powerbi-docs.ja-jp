@@ -1,6 +1,6 @@
 ---
-title: "Power BI に Power BI Embedded ワークスペース コレクション コンテンツを移行する方法"
-description: "Power BI Embedded から Power BI サービスに移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。"
+title: "Power BI に Power BI ワークスペース コレクション コンテンツを移行する方法"
+description: "Power BI ワークスペース コレクションから Power BI Embedded に移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。"
 services: powerbi
 documentationcenter: 
 author: markingmyname
@@ -10,41 +10,41 @@ editor:
 tags: 
 qualityfocus: no
 qualitydate: 
-ms.service: powerbi
+ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/24/2018
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Power BI に Power BI Embedded ワークスペース コレクション コンテンツを移行する方法
-Power BI Embedded から Power BI サービスに移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。
+# <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法
+Power BI ワークスペース コレクションから Power BI Embedded に移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。
 
-最近、Microsoft は [Power BI Premium を発表](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/)しました。この新しい容量ベースのライセンス モデルは、ユーザーによるコンテンツのアクセス、共有および配布方法の柔軟性を高めます。 また、Power BI サービスのスケーラビリティとパフォーマンスが向上します。
+最近、Microsoft は [Power BI Embedded を発表](https://powerbi.microsoft.com/en-us/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/)しました。この新しい容量ベースのライセンス モデルは、ユーザーによるコンテンツのアクセス、共有および配布方法の柔軟性を高めます。 また、スケーラビリティとパフォーマンスが向上します。
 
-Power BI Premium の導入に伴い、Power BI Embedded および Power BI サービスが統合され、Power BI コンテンツをアプリにより迅速に埋め込むことができるようになります。 これは、1 つの API サーフェスで一貫性のある一連の機能を利用でき、コンテンツを埋め込む際にダッシュボード、ゲートウェイ、アプリ ワークスペースなどの最新の Power BI 機能にアクセスできることを意味します。 今後は、Power BI Desktop で作業を開始し、Power BI Premium でデプロイできるようになります。Power BI Premium は 2017 年の第 2 四半期の終わりに一般提供される予定です。
+Power BI Embedded では、1 つの API サーフェスで一貫性のある一連の機能を利用でき、コンテンツを埋め込む際にダッシュボード、ゲートウェイ、アプリ ワークスペースなどの最新の Power BI 機能にアクセスできます。 今後は、Power BI Desktop で作業を開始し、Power BI Embedded でデプロイできるようになります。
 
-現在の Power BI Embedded サービスは、統合版が一般提供された後、期間限定で引き続き利用可能です。エンタープライズ契約されたお客様は現在の契約が満了するまでご利用いただけます。ダイレクト チャネルまたは CSP チャネル経由で Power BI Embedded を入手されたお客様は、Power BI Premium が一般提供されてから 1 年間はご利用いただけます。  この記事では、Azure サービスから Power BI サービスに移行するためのいくつかのガイダンスと、アプリケーションの変更について予想されることを示します。
+現在の Power BI ワークスペース コレクションは、期間限定で引き続き利用できます。 マイクロソフト エンタープライズ契約を結ばれたお客様は、現在の契約が満了するまでご利用いただけます。ダイレクト チャネルまたは CSP チャネル経由で Power BI ワークスペース コレクションを入手されたお客様は、Power BI Embedded が一般提供されてから 1 年間ご利用いただけます。  この記事では、Power BI ワークスペース コレクションから新しい Power BI Embedded エクスペリエンスに移行するためのいくつかのガイダンスと、アプリケーションの変更について予想されることを説明します。
 
 > [!IMPORTANT]
-> 移行操作と Power BI サービスに依存関係がある場合でも、**埋め込みトークン**を使用すれば、アプリケーションのユーザーは Power BI に依存することはありません。 ユーザーは、アプリケーションに埋め込まれたコンテンツを表示するために Power BI にサインアップする必要はありません。 この埋め込み方法を使用して、Power BI 以外のユーザーにサービスを提供することができます。
+> 移行作業は Power BI Embedded に依存しますが、アプリケーションのユーザーが**埋め込みトークン**を使うときに Power BI に依存することはありません。 ユーザーは、アプリケーションに埋め込まれたコンテンツを表示するために Power BI にサインアップする必要はありません。 この埋め込み方法を使って、Power BI 以外の Embedded ユーザーにサービスを提供することができます。
 > 
 > 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
 ## <a name="prepare-for-the-migration"></a>移行の準備をする
-Power BI Embedded Azure サービスから Power BI サービスへの移行の準備のために行う必要がある作業がいくつかあります。 使用可能なテナントと、Power BI Pro ライセンスを持つユーザーが必要になります。
+Power BI ワークスペース コレクションから Power BI Embedded への移行の準備として、いくつかの作業を行う必要があります。 使用可能なテナントと、Power BI Pro ライセンスを持つユーザーが必要になります。
 
 1. Azure Active Directory (Azure AD) テナントにアクセスできることを確認します。
    
-    使用するテナントのセットアップを判別する必要があります。
+    使うテナントのセットアップを決める必要があります。
    
    * 既存の企業の Power BI テナントを使用しますか。
    * アプリケーションで個別のテナントを使用しますか。
@@ -67,7 +67,7 @@ Power BI Embedded Azure サービスから Power BI サービスへの移行の�
 2. コンテンツを作成するアナリストのアカウント。
    
     これらのユーザーは、必要に応じて、アプリ ワークスペースに割り当てる必要があります。
-3. アプリケーション *マスター* ユーザー アカウント、またはサービス アカウント。
+3. アプリケーション "*マスター*" ユーザー アカウント、または Embedded アカウント。
    
     アプリケーション バックエンドにはこのアカウントの資格情報が格納され、Power BI REST API で使用する Azure AD トークンを取得するために使用されます。 このアカウントは、アプリケーションの埋め込みトークンを生成するために使用されます。 また、このアカウントは、埋め込むために作成されたアプリ ワークスペースの管理者にする必要があります。
    
@@ -100,16 +100,16 @@ Power BI 内でアプリ ワークスペースを作成するには、Pro ライ
 > 
 
 ## <a name="content-migration"></a>コンテンツの移行
-ワークスペース コレクションから Power BI サービスへのコンテンツの移行は、現在のソリューションと並行して行うことができ、ダウンタイムを必要としません。
+ワークスペース コレクションから Power BI Embedded へのコンテンツの移行は、現在のソリューションと並行して行うことができ、ダウンタイムを必要としません。
 
-Power BI Embedded から Power BI サービスにコンテンツをコピーする際に役立つ**移行ツール**を使用することができます。 これは特に、多くのコンテンツがある場合に役立ちます。 詳細については、「[Power BI Embedded 移行ツール](migrate-tool.md)」を参照してください。
+Power BI ワークスペース コレクションから Power BI Embedded にコンテンツをコピーするときに役立つ**移行ツール**を利用できます。 これは特に、多くのコンテンツがある場合に役立ちます。 詳細については、「[Power BI Embedded 移行ツール](migrate-tool.md)」を参照してください。
 
 コンテンツの移行は主に 2 つの API に依存します。
 
 1. .pbix のダウンロード - この API では、2016 年 10 月以降に Power BI にアップロードされた PBIX ファイルをダウンロードできます。
 2. .pbix のインポート - この API では Power BI に PBIX をアップロードします。
 
-いくつかの関連するコード スニペットについては、「[Code snippets for migrating content from Power BI Embedded](migrate-code-snippets.md)」 (Power BI Embedded からコンテンツを移行するためのコード スニペット) を参照してください。
+いくつかの関連するコード スニペットについては、「[Power BI ワークスペース コレクションからコンテンツを移行するためのコード スニペット](migrate-code-snippets.md)」をご覧ください。
 
 ### <a name="report-types"></a>レポートの種類
 レポートにはいくつかの種類があり、それぞれ若干異なる移行フローが必要になります。
@@ -160,7 +160,7 @@ Power BI Embedded から Power BI サービスにコンテンツをコピーす�
 6. プッシュ API データセットにレポートを再バインドします。
 
 ## <a name="create-and-upload-new-reports"></a>新しいレポートを作成してアップロードする
-Power BI Embedded Azure サービスから移行したコンテンツに加え、Power BI Desktop を使用してレポートとデータセットを作成してから、アプリ ワークスペースにそれらのレポートを発行することができます。 レポートを発行するエンド ユーザーには、アプリ ワークスペースに発行するための Power BI Pro ライセンスが必要です。
+Power BI ワークスペース コレクションから移行したコンテンツに加え、Power BI Desktop を使用してレポートとデータセットを作成してから、アプリ ワークスペースにそれらのレポートを発行することができます。 レポートを発行するエンド ユーザーには、アプリ ワークスペースに発行するための Power BI Pro ライセンスが必要です。
 
 ## <a name="rebuild-your-application"></a>アプリケーションを再構築する
 1. powerbi.com 内のレポートの場所と Power BI REST API を使用するには、アプリケーションを変更する必要があります。
@@ -174,30 +174,29 @@ Power BI Embedded Azure サービスから移行したコンテンツに加え�
 運用環境に移行する準備ができたら、以下の手順を実行する必要があります。
 
 * 開発用に個別のテナントを使用する場合は、アプリ ワークスペース、ダッシュボードおよびレポートが運用環境で利用可能であることを確認する必要があります。 また、運用テナントの Azure AD でアプリケーションを作成し、手順 1. のとおり、適切なアプリにアクセス許可を割り当てたことを確認する必要があります。
-* ニーズに合う容量を購入します。 ニーズに合った容量の大きさと種類については、[埋め込み分析の容量計画に関するホワイト ペーパー](https://aka.ms/pbiewhitepaper)をご覧ください。 Azure で[容量を購入](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)できます。
+* ニーズに合う容量を購入します。 ニーズに合った容量の大きさと種類については、[Power BI Embedded の分析の容量計画に関するホワイト ペーパー](https://aka.ms/pbiewhitepaper)をご覧ください。 Azure で[容量を購入](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)できます。
 * アプリ ワークスペースを編集し、[詳細] で Premium 容量にそれを割り当てます。
  
-    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
     
-* 更新されたアプリケーションを運用環境にデプロイし、Power BI サービスからのレポートの埋め込みを開始します。
+* 更新されたアプリケーションを運用環境にデプロイし、Power BI Embedded からのレポートの埋め込みを開始します。
 
 ## <a name="after-migration"></a>移行後
 Azure 内でいくつかのクリーンアップを行う必要があります。
 
-* Power BI Embedded の Azure サービス内にデプロイ済みのソリューションからすべてのワークスペースを除去します。
+* Power BI ワークスペース コレクションの Azure Embedded 内にデプロイ済みのソリューションからすべてのワークスペースを除去します。
 * Azure 内に存在するすべてのワークスペース コレクションを削除します。
 
 ## <a name="next-steps"></a>次の手順
 [Power BI で埋め込み](embedding.md)  
-[Power BI Embedded 移行ツール](migrate-tool.md)  
-[Power BI Embedded からコンテンツを移行するためのコード スニペット](migrate-code-snippets.md)  
+[Power BI ワークスペース コレクション移行ツール](migrate-tool.md)  
+[Power BI ワークスペース コレクションからコンテンツを移行するためのコード スニペット](migrate-code-snippets.md)  
 [Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embedding-content.md)  
 [Power BI Premium とは](../service-premium.md)  
 [JavaScript API Git リポジトリ](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git リポジトリ](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[埋め込み分析の容量計画に関するホワイト ペーパー](https://aka.ms/pbiewhitepaper)  
+[ワークスペース コレクションの分析の容量計画に関するホワイト ペーパー](https://aka.ms/pbiewhitepaper)  
 [Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-

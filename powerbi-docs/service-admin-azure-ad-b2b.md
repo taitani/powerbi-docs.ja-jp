@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 09bd3064c7a694355255cb3cca29ade02986d42e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 55394392de78bcd1a2c38ecf92dd3218c8660132
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -31,7 +31,14 @@ Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
+> ゲスト ユーザーを招待する前に、Power BI 管理ポータルのテナント設定で、[エクスポートと共有の設定](service-admin-portal.md#export-and-sharing-settings)の機能を**有効にする**必要があります。
+
+> [!NOTE]
 > 現在、この機能は Power BI モバイル アプリでは使用できません。 モバイル デバイスでは、ブラウザーで Azure AD B2B を使用して共有されている Power BI コンテンツを表示できます。 
+
+## <a name="who-can-you-invite"></a>招待できるユーザー
+
+gmail.com、outlook.com、hotmail.com などの個人アカウントも含めて、任意のメール アドレスを使うゲスト ユーザーを招待することができます。Azure B2B では、これらは "ソーシャル ID" と呼ばれます。 詳細については、[Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) に関するページをご覧ください。
 
 ## <a name="invite-guest-users"></a>ゲスト ユーザーを招待する
 
@@ -63,8 +70,9 @@ Power BI テナントにゲスト ユーザーを招待するには、計画的�
 
 ### <a name="ad-hoc-invites"></a>アドホック招待
 
-招待を随時実行するには、アプリを発行するときに該当するアプリのアクセス リストに外部ユーザーを追加します。
+いつでも招待を実行できるようにするには、共有 UI を使ってダッシュボードやレポートに、またはアクセス ページを使ってアプリに、外部ユーザーを追加します。
 
+アプリを使うよう外部ユーザーを招待するときに行うことの例を次に示します。
 ![アプリのアクセス リストに追加された外部ユーザー](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 ゲスト ユーザーには、アプリがそのゲスト ユーザーと共有されたことを示す電子メールが届きます。
@@ -98,8 +106,9 @@ Power BI Premium 容量にアプリ ワークスペースを割り当てると�
 
 ![ゲスト ユーザーが独自のライセンスを使用する](media/service-admin-azure-ad-b2b/license-approach3.png)
 
-## <a name="limitations"></a>制限事項
+## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
+* gmail.com、outlook.com、hotmail.com などの個人用メール アカウントを使っているゲスト ユーザーを招待するときに、ユーザーがサインアップする方法の例については、こちらの[埋め込み動画](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience)をご覧ください。
 * 外部の B2B ゲストは、コンテンツのみの消費量に制限されます。 外部の B2B ゲストは、アプリ、ダッシュボード、レポートの表示、データのエクスポート、ダッシュボードとレポートの電子メール サブスクリプションの作成ができます。 ワークスペースにアクセスしたり、独自のコンテンツを公開することはできません。
 * 現在、この機能は Power BI モバイル アプリでは使用できません。 モバイル デバイスでは、ブラウザーで Azure AD B2B を使用して共有されている Power BI コンテンツを表示できます。
 * ソブリン クラウド (政府機関) 内では、Power BI でゲスト ユーザーの使用はサポートされません。

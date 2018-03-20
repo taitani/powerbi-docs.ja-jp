@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/15/2018
+ms.date: 03/07/2018
 ms.author: maghan
-ms.openlocfilehash: 9d387208b1ace0b0f0fd700b471e07e3b2584883
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -66,7 +66,7 @@ Power BI Embedded は現在ご利用いただけます。
 
 ## <a name="technical"></a>技術的な質問
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-em-skus-in-office-365"></a>Azure の A SKU と Office 365 の EM SKU の違いは何ですか?
+### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure の A SKU と Office 365 の EM SKU の違いは何ですか?
 
 PowerBI.com は、ソーシャル コラボレーションや電子メール サブスクリプションなど、多彩な機能が SaaS サービスに含まれる企業向けソリューションです。
 
@@ -128,6 +128,10 @@ PowerBI.com を利用し、Power BI Embedded 容量のワークスペースの�
 
 オーストラリア南東部、ブラジル南部、カナダ中央、米国東部 2、インド西部、東日本、米国中北部、北ヨーロッパ、米国中南部、東南アジア、英国南部、西ヨーロッパ、米国西部、米国西部 2 です。
 
+### <a name="what-type-of-content-pack-data-can-be-embedded"></a>どのような種類のコンテンツ パック データを埋め込むことができますか?
+
+コンテンツ パックのデータセットから構築された**ダッシュボード**と**タイル**を埋め込むことは "*できません*" が、コンテンツ パックのデータセットから構築された**レポート**を埋め込むことは "*できます*"。
+
 ## <a name="licensing"></a>ライセンス
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>Power BI Embedded の購入方法は?
@@ -170,7 +174,7 @@ Power BI Embedded は Azure の一部であるため、[Azure 登録時に受け
 
 ### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Power BI Embedded はどこで利用できますか? 米国政府は? ドイツは? 中国は? いつ利用できますか?
 
-Power BI Embedded は GA の Azure 商用クラウドで利用できるようになります。  ソブリン クラウドは将来的に追加される予定です。
+Power BI Embedded は、Azure 商用クラウドおよび米国政府機関向けクラウドで利用できます。  ドイツおよび中国向けのソブリン クラウドは、将来的に利用可能になる予定です。
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>非営利団体や教育機関は Power BI Embedded を利用できますか?
 

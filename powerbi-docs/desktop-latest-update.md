@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e68f581e735619a85024cb9582bbc88b8f9aca79
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8dda30e988b4ab47eb32a85d746aeed38d565f2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Power BI Desktop の最新の更新プログラムの新機能
 
-## <a name="february-2018-update-2555010521"></a>2018 年 2 月更新 (2.55.5010.521)
+## <a name="march-2018-update-2565023861"></a>2018 年 3 月更新 (2.56.5023.861)
 
 [最新バージョンの Power BI Desktop をダウンロード](https://powerbi.microsoft.com/desktop)できるようになりました。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 **Power BI Desktop** のインストール方法に関係なく、毎月リリースされるバージョンは同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
 
-今月は **Power BI Desktop** の更新があるのでワクワクしています。皆様にとっても、チョコレートの箱のような存在になることを願っています。
+**Power BI Desktop** の今月の更新を発表できることを嬉しく思います。
 
 各更新の横にあるリンクには、次の意味があります。
 
@@ -45,46 +45,39 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="reporting"></a>レポート
 
-* 複数のページにまたがってデータ ポイントを複数選択する [[動画]](https://youtu.be/KeVB5RwMzJo?t=23s) [[記事]](desktop-multi-select.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* あるレポートの複数のページにまたがってスライサーを同期する [[動画]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[記事]](desktop-slicers.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
-* 数値範囲のスライサーの改善 - 整数スナッピング (プレビュー) [[動画]](https://youtu.be/KeVB5RwMzJo?t=8m44s) [[記事]](desktop-slicer-numeric-range.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
-* Bing マップの高速ジオコーディング (Web プレビュー) - 最大 6 倍の速さ [[動画]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
-* 横棒グラフ ビジュアルと縦棒グラフ ビジュアルのオーバーフロー データ ラベル [[動画]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
-* [書式設定] ウィンドウと [分析] ウィンドウで検索する [[動画]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[記事]](desktop-analytics-pane.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
-
+* レポート ページのヒント [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=16s) [[記事]]() [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* ブックマークの一般公開 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[記事]](desktop-bookmarks.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
+* テーブルとマトリックスの列の表示単位と精度のコントロール [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[記事]](desktop-slicer-numeric-range.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
+* レポートの読み取りモードでビジュアル ヘッダーをオフにする [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
+* 強化された既定のビジュアル配置 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
 ### <a name="custom-visuals"></a>カスタム ビジュアル
 
-* 組織のカスタム ビジュアル (プレビュー) [[動画]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[記事]](power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
-
-
-### <a name="analytics"></a>分析
-
-* カスタム日付テーブルを設定する [[動画]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[記事]](desktop-date-tables.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
-* クイック メジャーを一般的に利用可能 [[動画]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[記事]](desktop-quick-measures.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+* さまざまな新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[記事]](power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>データ接続
 
-* SAP HANA での DirectQuery の改善 (プレビュー) [[動画]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[記事]](desktop-directquery-sap-hana.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+* Visual Studio Team Services コネクタの機能強化 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=32m) [[記事]](desktop-multi-select.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
+* SAP HANA コネクタの機能強化 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[記事]](desktop-directquery-sap-hana.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
+  * DirectQuery 多次元サポートが一般公開されました
+  * SSL 証明書の検証のサポート
+* SAP BW DirectQuery の一般公開 [[動画]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[記事]](desktop-directquery-sap-hana.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
+* Azure Analysis Services コネクタの一般公開 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[記事]](desktop-directquery-sap-hana.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
 ### <a name="other"></a>その他
 
-* DirectQuery のパフォーマンス改善 [[動画]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[記事]](desktop-directquery-about.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
-* 開く動作と保存のパフォーマンス向上 [[動画]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
-* *データのない項目を表示する* の改善 [[動画]](https://youtu.be/KeVB5RwMzJo?t=34m6s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
-* 今後予定されている **Power BI サービス**機能の永続的フィルター制御 [[動画]](https://youtu.be/KeVB5RwMzJo?t=34m56s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
-
-
+* エラー報告機能の強化 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[記事]](desktop-directquery-about.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
+* 以前に発生したエラーの表示 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
 
 > [!NOTE]
 > [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
 
-これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
 
 
 次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 > [!NOTE]

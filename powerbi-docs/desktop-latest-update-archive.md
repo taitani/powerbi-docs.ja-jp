@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b0d7dc85b9795b432b461d48894404417850b9bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4997c29941608c12a89598b6e9cb1b1ad3aa2fe8
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -31,6 +31,69 @@ ms.lasthandoff: 02/24/2018
 次のセクションでは、**Power BI Desktop** の以前の月の更新について説明します。
 
 いつでも[最新バージョンの Power BI Desktop をダウンロード](https://powerbi.microsoft.com/desktop)できます。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 **Power BI Desktop** のインストール方法に関係なく、毎月リリースされるバージョンは同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
+
+
+## <a name="february-2018-update-2555010521"></a>2018 年 2 月更新 (2.55.5010.521)
+
+2 月は **Power BI Desktop** の更新があるのでワクワクしています。皆様にとっても、チョコレートの箱のような存在になることを願っています。
+
+各更新の横にあるリンクには、次の意味があります。
+
+* 機能について説明されているとき、**[ビデオ]** 抜粋が新しいブラウザー タブで再生されます。
+* 一部の機能には **[記事]** があり、それに詳細が記載されています。
+* ほとんどの機能は、毎月更新される **[ブログ]** 投稿で説明しています。
+* 最後になりましたが、一部の機能は説明を必要としないため、記事やビデオは用意されていません。
+
+この記事にある今月の **[最新の更新プログラム]** ビデオを、最初から視聴することもできます。ビデオを見るには、更新一覧の下にあるビデオ画像の**再生**アイコンをクリックします。
+
+以下の更新は、2018 年 2 月の **Power BI Desktop** の新しい機能です。
+
+### <a name="reporting"></a>レポート
+
+* 複数のページにまたがってデータ ポイントを複数選択する [[動画]](https://youtu.be/KeVB5RwMzJo?t=23s) [[記事]](desktop-multi-select.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
+* あるレポートの複数のページにまたがってスライサーを同期する [[動画]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[記事]](desktop-slicers.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* 数値範囲のスライサーの改善 - 整数スナッピング (プレビュー) [[動画]](https://youtu.be/KeVB5RwMzJo?t=8m44s) [[記事]](desktop-slicer-numeric-range.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
+* Bing マップの高速ジオコーディング (Web プレビュー) - 最大 6 倍の速さ [[動画]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
+* 横棒グラフ ビジュアルと縦棒グラフ ビジュアルのオーバーフロー データ ラベル [[動画]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
+* [書式設定] ウィンドウと [分析] ウィンドウで検索する [[動画]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[記事]](desktop-analytics-pane.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
+
+
+### <a name="custom-visuals"></a>カスタム ビジュアル
+
+* 組織のカスタム ビジュアル (プレビュー) [[動画]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[記事]](power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+
+
+### <a name="analytics"></a>分析
+
+* カスタム日付テーブルを設定する [[動画]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[記事]](desktop-date-tables.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+* クイック メジャーを一般的に利用可能 [[動画]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[記事]](desktop-quick-measures.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+### <a name="data-connectivity"></a>データ接続
+
+* SAP HANA での DirectQuery の改善 (プレビュー) [[動画]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[記事]](desktop-directquery-sap-hana.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+
+### <a name="other"></a>その他
+
+* DirectQuery のパフォーマンス改善 [[動画]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[記事]](desktop-directquery-about.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
+* 開く動作と保存のパフォーマンス向上 [[動画]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
+* *データのない項目を表示する* の改善 [[動画]](https://youtu.be/KeVB5RwMzJo?t=34m6s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
+* 今後予定されている **Power BI サービス**機能の永続的フィルター制御 [[動画]](https://youtu.be/KeVB5RwMzJo?t=34m56s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
+
+
+
+> [!NOTE]
+> [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
+
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+
+
+次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="january-2018-update-2544970761"></a>2018 年 1 月更新 (2.54.4970.761)
@@ -44,7 +107,7 @@ ms.lasthandoff: 02/24/2018
 * ほとんどの機能は、毎月更新される **[ブログ]** 投稿で説明しています。
 -   最後になりましたが、一部の機能は説明を必要としないため、記事やビデオは用意されていません。
 
-この記事にある **[最新の更新プログラム]** ビデオを最初から視聴することもできます。ビデオを見るには、更新一覧の下にあるビデオ画像の**再生**アイコンをクリックします。
+この記事にある今月の **[最新の更新プログラム]** ビデオを、最初から視聴することもできます。ビデオを見るには、更新一覧の下にあるビデオ画像の**再生**アイコンをクリックします。
 
 以下の更新は、1 月の **Power BI Desktop** の新しい機能です。
 
@@ -83,7 +146,7 @@ ms.lasthandoff: 02/24/2018
 
 
 
-## <a name="december-2017-update-2534954481-"></a>2017 年 12 月の更新 (2.53.4954.481)
+## <a name="december-2017-update-2534954481"></a>2017 年 12 月の更新 (2.53.4954.481)
 
 12 月には、すべてのビジネス インテリジェンス志向の子供 (と大人) が楽しめる機能がぎっしり詰まった **Power BI Desktop** 向けの多数の更新プログラムが提供されました。
 
@@ -1038,7 +1101,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 -   テーブル、マトリックス、複数行カードの追加のスタイル
 -   1 つのビジュアルの傾向線
--   新しいドリル アクション – **「レコード」を参照**
+-   新しいドリル アクション - **「レコード」を参照**
 -   ドリル/フィルター中のマップの自動ズーム
 -   展開ビューのインライン階層ラベル (プレビュー - [記事を参照](desktop-inline-hierarchy-labels.md))
 
@@ -1141,7 +1204,7 @@ Power BI Desktop の新機能を完全に利用できます。
 ### <a name="report-view"></a>レポートの表示:
 
 -   ビジュアルの背後にあるデータを表示する ( *CSV へのデータのエクスポート* など)
--   マップの改良: 緯度/経度のみを含むプロット マップ
+-   マップの改良 - 緯度/経度のみを含むプロット マップ
 -   KPI 消費リリース サポート (ナビゲーション階層のサポートおよび SSAS MD の KPI 傾向など)
 -   SSAS 探索モード: **フィールド** ウィンドウでの **表示** フォルダーのサポート
 -   リボンのレイアウト改良: **レポート ツール**のコンテキスト依存リボン タブ
@@ -1159,18 +1222,18 @@ Power BI Desktop の新機能を完全に利用できます。
 ### <a name="data-connectivity"></a>データ接続:
 
 -   Oracle データベースと Teradata データベースの **DirectQuery** サポート
--   **DirectQuery** – 計算列の作成サポート
+-   **DirectQuery** - 計算列の作成サポート
 -   Analysis Services ライブ レポートのパブリッシュのサポート
 -   JSON ファイル コネクタ
 -   SQL Sentry コネクタ
 -   ジャグ配列の CSV ファイルのサポート
--   Exchange コネクタ – OAuth サポート
--   SharePoint リスト コネクタ – URL の検証
--   データベース コネクタ – クエリのプレビューでナビゲーション列を無効にする機能 (パフォーマンスの最適化)
--   Web コネクタ – 資格情報の詳細な範囲設定
+-   Exchange コネクタ - OAuth サポート
+-   SharePoint リスト コネクタ - URL の検証
+-   データベース コネクタ - クエリのプレビューでナビゲーション列を無効にする機能 (パフォーマンスの最適化)
+-   Web コネクタ - 資格情報の詳細な範囲設定
 -   **[データの入力]** ダイアログ UX の機能強化
--   SAP HANA – Windows 認証でのシングル サインオンのサポート (Power BI Desktop のみ)
--   SAP HANA – **フィールド** ラベルのサポート
+-   SAP HANA - Windows 認証でのシングル サインオンのサポート (Power BI Desktop のみ)
+-   SAP HANA - **フィールド** ラベルのサポート
 -   **[列の選択]** ビルダー内の列のアルファベッド順での並べ替え
 -   列の名前の変更/削除/並べ替えのパフォーマンス向上
 -   **クエリ エディター**の仮想化プレビュー
@@ -1294,7 +1357,7 @@ Power BI Desktop の新機能を完全に利用できます。
 -   スライサー選択動作 (単一選択と複数選択)
 -   Z 軸順序の制御
 -   スライドの背景色
--   ビジュアル間の相互作用 – サブビュー (タイル)
+-   ビジュアル間の相互作用 - サブビュー (タイル)
 -   ページの複製
 -   テーブル、マトリックス、カードの KPI とイメージのサポート
 -   面グラフと折れ線グラフのヒントの改善
@@ -1363,8 +1426,8 @@ Power BI Desktop の新機能を完全に利用できます。
 
 
 ### <a name="data-transformations"></a>データ変換:
--   「最早/最新日付ではない」を基準にするフィルター処理
--   「前の N 分/時間/秒内」を基準とするフィルター処理
+-   "最早/最新日付ではない" を基準にするフィルター処理
+-   "前の N 分/時間/秒内" を基準とするフィルター処理
 -   Power BI Desktop と Excel の間でクエリをコピーする/貼り付ける
 -   分割列の特殊文字のサポート
 -   [クエリの結合] ダイアログ ボックスのプレビューを更新する
@@ -1396,7 +1459,7 @@ Power BI Desktop の新機能を完全に利用できます。
 - レポート キャンバスへの図形の挿入のサポート
 - [フィールド] ウィンドウの改良
     - 検索ボックスを使用すると、名前でフィールドを検索しやすくなります
-    - 「すべて展開/すべて折りたたむ」を使用すると、[フィールド] ウィンドウに複数のテーブルが存在するときのナビゲーションが改善されます
+    - "すべて展開/すべて折りたたむ" を使用すると、[フィールド] ウィンドウに複数のテーブルが存在するときのナビゲーションが改善されます
     - フィールドの基数のサポート、バケットをドラッグして 1 つのアイテムに置換
     - 追加のデータ ラベルの書式設定オプション
     - デカルト座標の軸の改良:
@@ -1426,7 +1489,7 @@ Power BI Desktop の新機能を完全に利用できます。
 - オンプレミスの Spark ディストリビューションのサポート
 - 英語以外のサイトからの SharePoint リストのサポート
 - Exchange コネクタ - 拡張機能のサポート、複数のメールボックスに接続できるようになりました
-- Excel ブックのコネクタ – .XLS ファイルをインポートするときに、列の型を自動検出します
+- Excel ブックのコネクタ - .XLS ファイルをインポートするときに、列の型を自動検出します
 - データベース ソースに接続するときの [関連テーブルの選択] オプション
 - Active Directory コネクタの資格情報の拡張、別の Windows 資格情報を使用できます
 - データ ソース (データベースなど) から関数を読み込むときの関数の呼び出しのエクスペリエンスの改良

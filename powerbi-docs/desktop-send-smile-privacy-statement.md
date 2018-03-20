@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop "気に入った機能の報告" のプライバシーに関する声明
+
+**Power BI Desktop** の 2018 年 3 月バージョン以降では、エラーの報告には、"*気に入った機能の報告*" 機能または "*問題点、改善点の報告*" 機能ではなく、Windows エラー報告プラットフォームが使われるようになります。 Windows エラー報告プラットフォームについては、[Windows プライバシーのブログ](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/)をご覧ください。 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>2018 年 3 月より前のバージョンの Power BI Desktop の場合
+
 Microsoft は、お客様のニーズを満たすパフォーマンス、性能、利便性を備えた製品をお届けするにあたり、プライバシーの保護に精力的に取り組んでいます。 このプライバシーに関する声明では、Microsoft Power BI Desktop のフィードバック機能 "*気に入った機能の報告*" によるデータの収集と、同機能の利用について、多くの事項を説明します。 ここで説明した内容は、(オンライン、オフラインを問わず) Microsoft の他のサイト、製品、サービスには適用しません。
 
 この声明に明記されている場合を除き、*気に入った機能の報告*によって Microsoft に個人情報が送信されることはありません。 Microsoft に送信される情報は、お客様による許可がない限り、Microsoft、その子会社、および関連会社以外の個人または団体と共有することはありません。

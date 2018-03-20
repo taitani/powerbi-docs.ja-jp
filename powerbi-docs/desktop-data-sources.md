@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -78,13 +78,14 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Oracle データベース
 * IBM DB2 データベース
 * IBM Informix データベース (Beta)
-* IBM Netezza (ベータ)
+* IBM Netezza
 * MySQL データベース
 * PostgreSQL データベース
 * Sybase データベース
 * Teradata データベース
 * SAP HANA データベース
-* SAP Business Warehouse サーバー
+* SAP Business Warehouse Application サーバー
+* SAP Business Warehouse メッセージ サーバー (Beta)
 * Amazon Redshift
 * Impala
 * Google BigQuery (ベータ版)
@@ -103,13 +104,14 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 * Azure SQL Database
 * Azure SQL Data Warehouse
-* Azure Analysis Services データベース (ベータ版)
+* Azure Analysis Services データベース
 * Azure BLOB ストレージ
 * Azure テーブル ストレージ
 * Azure Cosmos DB (ベータ版)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (Beta)
+* HDInsight 対話型クエリ (Beta)
 
 次の図は、 **[Azure]** の **[データの取得]**ウィンドウを示しています。
 
@@ -121,6 +123,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * SharePoint Online リスト
 * Microsoft Exchange Online
 * Dynamics 365 (オンライン)
+* Dynamics NAV (Beta)
 * Dynamics 365 for Financials (Beta)
 * Common Data Service (Beta)
 * Microsoft Azure Consumption Insights (Beta)
@@ -128,23 +131,24 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Salesforce オブジェクト
 * Salesforce レポート
 * Google アナリティクス
+* Adobe Analytics
 * appFigures (Beta)
 * comScore Digital Analytix (Beta)
 * Dynamics 365 for Customer Insights (ベータ)
+* Data.World - データセットの取得 (Beta)
 * Facebook
 * GitHub (Beta)
-* Kusto (Beta)
 * MailChimp (Beta)
+* Marketo (Beta)
 * Mixpanel (Beta)
-* Planview Enterprise (Beta)
-* Projectplace (Beta)
+* Planview Enterprise One - PRM (Beta)
+* Planview Projectplace (Beta)
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
-* SQL Sentry
 * Stripe (Beta)
 * SweetIQ (Beta)
-* Troux (Beta)
+* Planview Enterprise One - CMT (Beta)
 * Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
@@ -157,6 +161,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 **[その他]** カテゴリには、次のデータ接続があります。
 
 * Vertica (Beta)
+* Kusto (Beta)
 * Web
 * SharePoint リスト
 * OData フィード
@@ -203,4 +208,3 @@ Power BI Desktop を使用すると、さまざまなことを行えます。 �
 * [Power BI Desktop でのデータ型](desktop-data-types.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop での一般的なクエリ タスク](desktop-common-query-tasks.md)    
-

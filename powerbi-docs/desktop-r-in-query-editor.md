@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d4358be705de4908de6a9aedb0dbd78e2ef9e17f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ab6d935eb955dea5e2362a1cc52cf30657f4f8df
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-r-in-query-editor"></a>クエリ エディターで R を使用する
 Power BI Desktop **クエリ エディター**では、統計学者、データ科学者、データ分析官によって広く使用されているプログラミング言語、**R** を使用できます。 R と**クエリ エディター**を統合することで、R によるデータ クレンジングを実行したり、データセットで高度なデータ シェイプ/データ分析 (失ったデータを埋める、予測、クラスター化など) を実行したりできます。 **R** は高度な言語であり、**クエリ エディター**で使用し、データ モデルを用意したり、レポートを作成したりできます。
@@ -33,7 +33,7 @@ Power BI Desktop の**クエリ エディター**で **R** を実行するには
 ## <a name="using-r-in-query-editor"></a>クエリ エディターで R を使用する
 **クエリ エディター**で **R** を使用する方法を示すために、ある株式市場のデータセットを例として使用します。これは .CSV ファイル形式であり、[ここからダウンロード](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)し、ご利用いただけます。 この例の手順は次のようになります。
 
-1. 最初に、**Power BI Desktop** にデータを読み込みます。 この例では、*EuStockMarkets_NA.csv* ファイルを読み込みます。 **Power BI Desktop** の **[ホーム]** リボンで **[データの取得]、[CSV]** の順に選択します。
+1. 最初に、**Power BI Desktop** にデータを読み込みます。 この例では、*EuStockMarkets_NA.csv* ファイルを読み込み、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得] > [CSV]** を選択します。
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
 2. ファイルを選択し、**[開く]** を選択します。CSV が **[CSV ファイル]** ダイアログに表示されます。
@@ -57,7 +57,7 @@ Power BI Desktop の**クエリ エディター**で **R** を実行するには
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-   > 前のスクリプト コードを正しく動作させるためには、R 環境に *mice* ライブラリをインストールする必要があります。 mice をインストールするには、R のインストールで |      > install.packages('mice') を実行します。
+   > 前のスクリプト コードを正しく動作させるためには、R 環境に *mice* ライブラリをインストールする必要があります。 mice をインストールするには、R のインストールで |      > install.packages('mice') コマンドを実行します。
    > 
    > 
    
@@ -71,7 +71,7 @@ Power BI Desktop の**クエリ エディター**で **R** を実行するには
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
    
-   パブリックに設定すると、**フィールド**に *completedValues* という新しい列が表示されます。 行 15 や行 18 行など、いくつかの行でデータ要素が不足しています。 次のセクションでは、R がデータ要素の不足を処理するしくみを確認します。
+   **[フィールド]** ウィンドウに *completedValues* という新しい列が表示されます。 行 15 や行 18 行など、いくつかの行でデータ要素が不足しています。 次のセクションでは、R がデータ要素の不足を処理するしくみを確認します。
    
 
 わずか 5 行の R スクリプトで、**クエリ エディター**は予測モデルで不足値を埋めました。
@@ -100,7 +100,7 @@ Power BI Desktop の**クエリ エディター**で **R** を実行するには
   
   ![](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
   
-  **[データ ソース設定]** ダイアログで、データ ソースを選択し、**[アクセス許可の編集...]** を選択し、**[プライバシー レベル]** が *[パブリック]* に設定されていることを確認します。
+  **[データ ソース設定]** ダイアログで、データ ソースを選択し、**[アクセス許可の編集]** を選択し、**[プライバシー レベル]** が *[パブリック]* に設定されていることを確認します。
   
   ![](media/desktop-r-in-query-editor/r-in-query-editor_10.png)    
 * R のビジュアルやデータセットの定期更新を有効にするには、**スケジュール更新**を有効にし、ブックが置かれ、R をインストールしているコンピューターに **Personal Gateway** をインストールする必要があります。 それぞれの詳細な情報については、この記事の前のセクションにリンクがあります。
