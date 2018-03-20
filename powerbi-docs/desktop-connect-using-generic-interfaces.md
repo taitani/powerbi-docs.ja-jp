@@ -18,21 +18,21 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e4415f4315400e7ff11c356badee19eebace82b7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c28a53f4421c88bfc6237813ce6fdb76cc160cd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Power BI Desktop でジェネリック インターフェイスを使用してデータに接続する
-**Power BI Desktop** では、**[データの取得]** ウィンドウに表示されるように、**Access データベース**から **Zendesk** まで広範にカバーする組み込みデータ接続を使用して、さまざまな異なるデータ ソースに接続できます。 また、**Power BI Desktop** に組み込まれているジェネリック インターフェイス (**ODBC** や **REST API** など) を使うことで、*その他*のあらゆる種類のデータ ソースに接続でき、接続オプションの範囲が大きく広がります。
+**Power BI Desktop** では、**[データの取得]** ウィンドウに表示されるように、**Access データベース**から **Zendesk** まで広範にカバーする組み込みデータ接続を使用して、さまざまな異なるデータ ソースに接続できます。 また、**Power BI Desktop** に組み込まれているジェネリック インターフェイス (**ODBC** や **REST API** など) を使うことで、"*その他*" のあらゆる種類のデータ ソースに接続でき、接続オプションの範囲が大きく広がります。
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Power BI Desktop のデータ インターフェイス
 **Power BI Desktop** に含まれる、特定のデータ ソースに接続するために作成されたデータ コネクタのコレクションは増え続けています。 たとえば、**SharePoint リスト**のデータ コネクタは、**SharePoint リスト**向けに設計された接続シーケンスの間に特定のフィールドとサポート情報を提供します。**[データの取得] > [その他]** を選択すると表示されるウィンドウの他のデータ ソースについても同様です (上図を参照)。
 
-さらに、**Power BI Desktop** では、以下のジェネリック データ インターフェイスのいずれかを使うことで、**[データの取得]** の一覧には具体的に示されていないデータ ソースにも接続できます。
+さらに、**Power BI Desktop** では、以下のジェネリック データ インターフェイスのいずれかを使うことで、**[データの取得]** の一覧には示されていないデータ ソースにも接続できます。
 
 * **ODBC**
 * **OLE DB**
@@ -44,7 +44,7 @@ ms.lasthandoff: 02/24/2018
 
 以下のセクションでは、これらのジェネリック インターフェイスでアクセスできるデータ ソースの一覧を示します。
 
-**Power BI Desktop** で使いたいデータ ソースが見つからない場合は、 [ご連絡](https://ideas.powerbi.com/)をいただければ、アイデアとご要望の一覧に追加します。
+**Power BI Desktop** で使いたいデータ ソースが見つからない場合は、 Power BI チームの[アイデアと要求の一覧](https://ideas.powerbi.com/)に自分のアイデアを提出してください。
 
 ## <a name="data-sources-accessible-through-odbc"></a>ODBC でアクセスできるデータ ソース
 **Power BI Desktop** の **ODBC** コネクタを使うと、**データ ソース名 (DSN)** または*接続文字列*を指定するだけで、任意のサードパーティ製 ODBC ドライバーから簡単にデータをインポートできます。 必要であれば、ODBC ドライバーに対して SQL ステートメントを実行することもできます。
@@ -114,7 +114,7 @@ ms.lasthandoff: 02/24/2018
 | R スクリプト |R 統計ファイル |[CRAN からの R スクリプトのガイダンス](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>次の手順
-Power BI Desktop を使用して接続できるデータ ソースの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
+**Power BI Desktop** を使用して接続できるデータ ソースの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
 * [Power BI Desktop の概要](desktop-getting-started.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)

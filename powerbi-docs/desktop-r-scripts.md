@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b8b6dc3932ec4bc1eddd24c91a81a0eaafae479
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e756a661ec580e2c0eea8fc53378566eccf305
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Power BI Desktop での R スクリプトの実行
 **Power BI Desktop** で R スクリプトを直接実行し、生成されたデータセットを Power BI Desktop データ モデルにインポートできます。
@@ -48,7 +48,7 @@ Power BI Desktop で R スクリプトを準備し、実行するとき、いく
 * R スクリプト内で作業ディレクトリを設定する場合は、作業ディレクトリへの相対パスではなく、完全パスを定義する *必要* があります。
 
 ### <a name="run-your-r-script-and-import-data"></a>R スクリプトを実行し、データをインポートする
-1. Power BI Desktop では、R スクリプトのデータ コネクタは **[データの取得]**にあります。 R スクリプトを実行するには、**[データの取得]&gt;[詳細...]** の順に選び、次の図に示すように **[その他]&gt;[R スクリプト]** の順に選びます。
+1. Power BI Desktop では、R スクリプトのデータ コネクタは **[データの取得]**にあります。 R スクリプトを実行するには、**[データの取得]&gt;[詳細]** の順に選び、次の図に示すように **[その他]&gt;[R スクリプト]** の順に選びます。
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
 2. R がローカル コンピューターにインストールされている場合、最近インストールしたバージョンが R エンジンとして選択されます。 スクリプトをスクリプト ウィンドウにコピーし、 **[OK]**を選択します。

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>iPad で Power BI モバイル アプリの使用を開始する
 iPad 上の Microsoft Power BI for iOS は、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 
@@ -31,7 +31,7 @@ iPad 上の Microsoft Power BI for iOS は、Power BI、Power BI レポート �
 Power BI Desktop で Power BI レポートを作成して、それらを公開します。
 
 * [それらを Power BI サービスに公開し](service-get-started.md)、ダッシュボードを作成します。
-* [それらをオンプレミスから Power BI レポート サーバーに公開します](report-server/quickstart-create-powerbi-report.md)。
+* [それらをオンプレミスから Power BI Report Server に公開します](report-server/quickstart-create-powerbi-report.md)。
 
 iPad 用の Power BI アプリで、オンプレミスまたはクラウドのダッシュボードとレポートを操作します。
 
@@ -138,4 +138,5 @@ Power BI のダッシュボードとレポートを持つ iPad アプリ、Power
 ### <a name="see-also"></a>参照
 * [Power BI の概要](service-get-started.md)  
 * わからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)で質問してみてください。
+
 

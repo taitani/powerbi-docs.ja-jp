@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0863b41ecc0f7053ae0d958d25c756c8597880ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop で SAP BW Connector を使用する
 Power BI Desktop で、**SAP BusinessWarehouse (BW)** のデータにアクセスできます。
@@ -33,12 +33,16 @@ Power BI Desktop で、**SAP BusinessWarehouse (BW)** のデータにアクセ�
 1. ローカル コンピューターに **SAP NetWeaver** ライブラリをインストールします。 **SAP NetWeaver** ライブラリは、SAP の管理者から入手するか、[SAP Software Download Center](https://support.sap.com/swdc) から直接入手してください。 **SAP Software Download Center** は構成が頻繁に変更されるので、サイトのナビゲーションに関する具体的なガイダンスはありません。 通常、**SAP NetWeaver** ライブラリは、SAP クライアント ツールのインストールにも含まれます。
    
    最新バージョンをダウンロードできる可能性がある場所は、*SAP Note #1025361* に記載されています。 **SAP NetWeaver** ライブラリのアーキテクチャ (32 ビットまたは 64 ビット) がインストールされている **Power BI Desktop** と一致することを確認した後、SAP Note に従って **SAP NetWeaver RFC SDK** に含まれるすべてのファイルをインストールします。
-2. **[データの取得]** ダイアログの **[データベース]** カテゴリに **SAP Business Warehouse Server** エントリが含まれるようになります。
+2. **[データの取得]** ダイアログの **[データベース]** カテゴリに **[SAP Business Warehouse Application サーバー]** と **[SAP Business Warehouse メッセージ サーバー]** のエントリが含まれるようになります。
    
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>SAP BW Connector の機能
-Power BI Desktop で **SAP BW Connector** のプレビュー版を使うと、**SAP Business Warehouse サーバー**のキューブからデータをインポートできます。 DirectQuery を **SAP BW Connector** と一緒に使用することもできます。 接続を確立するには、*[サーバー]*、*[システム番号]*、*[クライアント ID]* を指定する必要があります。
+Power BI Desktop で **SAP BW コネクタ**を使って **SAP Business Warehouse サーバー** キューブからデータをインポートすること、または **SAP BW コネクタ**で DirectQuery を使うことができます。 
+
+**SAP BW コネクタ**の詳細および DirectQuery でそれを使う方法については、「[DirectQuery と SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)」をご覧ください。
+
+接続するときは、*[サーバー]*、*[システム番号]*、*[クライアント ID]* を指定して接続を確立する必要があります。
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -105,3 +109,9 @@ Power BI Desktop では **SAP BW** のキューブから情報をインポート
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
+## <a name="next-steps"></a>次の手順
+SAP HANA と DirectQuery については、次のリソースをご覧ください。
+
+* [DirectQuery と SAP HANA](desktop-directquery-sap-hana.md)
+* [Power BI の DirectQuery](desktop-directquery-about.md)
+* [DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)

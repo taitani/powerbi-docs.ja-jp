@@ -1,0 +1,65 @@
+---
+title: "Power BI Desktop で Adobe Analytics に接続する (プレビュー)"
+description: "Power BI Desktop で Adobe Analytics に簡単に接続して使用します"
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 03/09/2018
+ms.author: davidi
+LocalizationGroup: Connect to data
+ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/12/2018
+---
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>Power BI Desktop で Adobe Analytics に接続する (プレビュー)
+**Power BI Desktop** では、**Adobe Analytics** に接続し、Power BI Desktop の他のデータ ソースと同じように基になっているデータを使用できます。 
+
+![Adobe Analytics からデータを取得する](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
+
+## <a name="enable-the-adobe-analytics-connector-preview"></a>Adobe Analytics コネクタ (プレビュー) を有効にする 
+**Adobe Analytics** コネクタは現在プレビューなので、**[データの取得]** ウィンドウでコネクタを使用するには、プレビュー機能を有効にする必要があります。 コネクタ プレビューを有効にするには、Power BI Desktop で **[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能]** の順に選択し、**[レポート ページのヒント]** のチェック ボックスをオンにします。 
+
+![[オプション] で Adobe Analytics コネクタ プレビューを有効にする](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
+
+選択を行った後、Adobe Analytics コネクタ プレビューを有効にするには、**Power BI Desktop** を再起動する必要があります。
+
+## <a name="connect-to-adobe-analytics-data"></a>Adobe Analytics データに接続する
+**Adobe Analytics** データに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリで **[オンライン サービス]** を選択すると、**[Adobe Analytics コネクタ]** が表示されます。
+
+![Adobe Analytics からデータを取得する](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
+
+表示される **[Adobe Analytics]** ウィンドウで、**[サインイン]** ボタンをクリックし、Adobe Analytics アカウントへのサインイン資格情報を指定します。 次の図のように、Adobe のサインイン ウィンドウが表示されます。
+
+![Adobe Analytics にサインインする](media/desktop-connect-adobe-analytics/connect-adobe-analytics_03.png)
+
+プロンプトが表示されたら、ユーザー名とパスワードを入力します。 接続が確立されたら、Power BI の **[ナビゲーター]** ダイアログで複数のディメンションとメジャーをプレビューして選択し、1 つの表形式の出力を作成できます。 選択した項目に必要な入力パラメーターを指定することもできます。 
+
+![ナビゲーターを使用してデータを選択する](media/desktop-connect-adobe-analytics/connect-adobe-analytics_04.png)
+
+選択したテーブルを**読み込んで**、テーブル全体を **Power BI Desktop** に取り込むことができます。またはクエリを**編集**して**クエリ エディター**を開き、使用するデータのセットをフィルターし、絞り込んでから、その絞り込んだデータのセットを **Power BI Desktop** に取り込むこともできます。
+
+![ナビゲーターでデータを読み込んで編集する](media/desktop-connect-adobe-analytics/connect-adobe-analytics_05.png)
+
+
+## <a name="next-steps"></a>次の手順
+Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
+
+* [Power BI Desktop の概要](desktop-getting-started.md)
+* [Power BI Desktop のデータ ソース](desktop-data-sources.md)
+* [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
+* [Power BI Desktop で Excel ブックに接続する](desktop-connect-excel.md)   
+* [Power BI Desktop にデータを直接入力する](desktop-enter-data-directly-into-desktop.md)   
+

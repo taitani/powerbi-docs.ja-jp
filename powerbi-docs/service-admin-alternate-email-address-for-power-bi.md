@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/08/2018
 ms.author: maghan
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c97f60e39d68060c8eb3396bac4eb7725dab9c86
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: adc78cceb8a6b6edd06896e53a1a64cf0d28b2b8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-an-alternate-email-address"></a>代替メール アドレスの使用
 既定では、Power BI へのサインアップに使用するメール アドレスを使用して、Power BI のアクティビティに関する更新情報をユーザーに送信します。  たとえば、他のユーザーから送信される共有の招待は、このアドレスに配信されます。
@@ -45,6 +45,19 @@ ms.lasthandoff: 02/24/2018
 > この設定を変更しても、サービスの更新情報、ニュースレター、およびその他のプロモーション用通信の送信に使用されるメール アドレスは変わりません。  これらのメールは常に、最初に Power BI に登録したときに使用したメール アドレスに送信されます。
 > 
 > 
+
+## <a name="updating-through-azure-active-directory"></a>Azure Active Directory からの更新
+Power BI の Azure Active Directory (AAD) 埋め込みトークンをキャプチャするときは、3 種類のメールを使うことができます。 次の 3 種類です。
+
+* ユーザーの AAD アカウントに関連付けられている主なメール アドレス
+* UserPrincipalName (UPN) メール アドレス
+* "その他" のメール アドレス配列属性
+
+Power BI は、次の条件に基づいて、使うメール アドレスを選びます。
+1.  AAD テナントのユーザー オブジェクトにメール属性が存在する場合、Power BI はそのメール属性をメール アドレスに使います
+2.  UPN メールが **\*.onmicrosoft.com** ドメイン メール アドレス ("@" 記号の後の情報) では "*ない*" 場合、Power BI はそのメール属性をメール アドレスに使います
+3.  AAD ユーザー オブジェクトに "他の" メール配列属性が存在する場合、そのリストの最初のメール (この属性にはメールのリストが存在する可能性があるため) が使われます
+4. 上記のどの条件も存在しない場合は、UPN アドレスが使われます
 
 ## <a name="updating-with-powershell"></a>PowerShell での更新
 もう 1 つの方法として、Azure Active Directory の PowerShell を使って代替メール アドレスを更新することもできます。 それには [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) コマンドを使います。

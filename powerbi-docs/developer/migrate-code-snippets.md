@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c868c039e8edfe218c2a578402690a40ed1f3030
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>Power BI Embedded からコンテンツを移行するためのコード スニペット
-ここでは、コンテンツの移行に必要な基本処理のコード スニペットを紹介します。 各レポートの種類に関連するフローについては、「[Power BI に Power BI Embedded ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md#content-migration)」を参照してください。
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI ワークスペース コレクションからコンテンツを移行するためのコード スニペット
+ここでは、コンテンツの移行に必要な基本処理のコード スニペットを紹介します。 各レポートの種類に関連するフローについては、「[Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md#content-migration)」をご覧ください。
 
 Power BI Embedded (PaaS) から Power BI サービス (SaaS) にコンテンツをコピーする際に役立つ**移行ツール**を使用することができます。 これは特に、多くのコンテンツがある場合に役立ちます。 詳細については、「[Power BI Embedded 移行ツール](migrate-tool.md)」を参照してください。
 

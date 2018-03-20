@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4e8c4def5defc32ef7ba6414c3d76ac778564b66
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3697928986c5e579407e227911c5beab71c6a08d
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery と SAP Business Warehouse (BW)
 **SAP Business Warehouse (BW)** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP BW は OLAP/多次元的な性質があるため、SAP BW での DirectQuery と SQL Server などのリレーショナル ソース間では多数の重要な違いがあります。 これらの相違点は次のとおりです。
@@ -32,6 +32,9 @@ ms.lasthandoff: 02/24/2018
 * OLAP ソースには、DirectQuery の通常の制限のみでなく、この他にも、それ固有の性質ゆえにある (モデリングと視覚エフェクトの両方の) 制限があります。 これらの制限については、この記事の後半で説明します。
 
 また、Power BI ではサポートされない SAP BW の機能が多数あり、SAP BW へのパブリック インターフェイスの性質のため、Power BI で表示される結果が SAP ツールを使用した場合の結果と一致しない重要なケースがあることを理解しておくことが*非常に重要*です。 これらの制限については、この記事の後半で説明します。 これらの制限と動作の違いには慎重になり、SAP のパブリック インターフェイスによって返される Power BI に表示される結果が、正しく解釈されることを確認する必要があります。  
+
+> [!NOTE]
+> SAP BW で DirectQuery を使う機能は、Power BI Desktop の 2018 年 3 月の更新までプレビューでした。 プレビュー期間中のフィードバックや改善提案を基に、そのプレビュー バージョンを使って作成されるレポートに影響を与える変更が行われました。 SAP BW での DirectQuery が一般公開 (GA) されたことで、GA 前バージョンで作成された、SAP BW での DirectQuery を使う既存の (プレビュー ベースの) レポートをすべて破棄する "*必要があります*"。 SAP BW での DirectQuery の GA 前バージョンで作成されたレポートでは、更新を呼び出すと、基になっている SAP BW キューブに変更のあるメタデータを更新しようとするため、エラーが発生します。 このようなレポートは、SAP BW での DirectQuery の GA バージョンを使って、空のレポートから作り直してください。 
 
 ## <a name="additional-modelling-restrictions"></a>その他のモデリングの制限
 Power BI で DirectQuery を使用して SAP BW に接続する場合のモデリング上のその他の主要な制限は次のとおりです。
