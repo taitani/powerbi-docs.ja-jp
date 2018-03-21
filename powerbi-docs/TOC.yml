@@ -1042,8 +1042,6 @@
           href: report-server/get-started.md
         - name: 新着情報
           href: report-server/whats-new.md
-        - name: リリース ノート
-          href: report-server/release-notes.md
         - name: ログを変更する
           href: report-server/changelog.md
         - name: サポート タイムライン
