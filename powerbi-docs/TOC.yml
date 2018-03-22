@@ -698,8 +698,6 @@
           href: desktop-assume-referential-integrity.md
         - name: 'チュートリアル: Analysis Services 表形式モデルを使用した動的な行レベルのセキュリティ'
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: Oracle データベースと Teradata データベースの DirectQuery
-          href: desktop-directquery-for-oracle-teradata.md
         - name: Power BI Desktop で SAP BW Connector を使用する (プレビュー)
           href: desktop-sap-bw-connector.md
         - name: Power BI Desktop で OneDrive for Business リンクを使用する
