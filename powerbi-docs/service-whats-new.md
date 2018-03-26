@@ -1,28 +1,29 @@
 ---
-title: "Power BI サービスの新機能"
-description: "Power BI サービスの新機能"
+title: Power BI サービスの新機能
+description: Power BI サービスの新機能
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: sirsu
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/22/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/23/2018
+---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -36,7 +37,17 @@ ms.lasthandoff: 02/27/2018
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="january-2018"></a>2018 年 1 月
+## <a name="march-2018"></a>2018 年 3 月
+* Power BI サービスの[永続的フィルター](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)。
+* 個人用の電子メール アカウントを使用したユーザーとのコンテンツの共有。 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) の拡張機能。
+
+## <a name="previous-months-2018"></a>前の月 (2018)
+### <a name="february-2018"></a>2018 年 2 月
+* エンド ユーザーに対する [Power BI Apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) の自動インストール。
+* Power BI Premium での P4 および P5 の容量
+* [組織のカスタム ビジュアル](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization)のプレビュー。
+
+### <a name="january-2018"></a>2018 年 1 月
 *   Power BI レポートを共有し、お気に入りに追加する。
 *   Azure SQL Database と Data Warehouse で OAuth2 と DirectQuery シングル サインオン (SSO) サポート。
 *   領域内監査: 監査ログがテナントと同じ Office 365 領域に保存されるようになりました。

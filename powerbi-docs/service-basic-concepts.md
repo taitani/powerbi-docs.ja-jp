@@ -1,16 +1,16 @@
 ---
-title: "Power BI サービス - 基本的な概念"
-description: "Power BI サービスのワークスペース、ダッシュボード、レポート、データセット、ブックについて説明します。"
+title: Power BI サービス - 基本的な概念
+description: Power BI サービスのワークスペース、ダッシュボード、レポート、データセット、ブックについて説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: B2vd4MQrz4M
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f0f296f402bf1c2bcb1b12e11bd2998bfeec5bc5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5898b0615aa18fdd4ea3df65d557587f94eb732d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI サービスの基本的な概念
 
@@ -133,7 +133,7 @@ Power BI レポートは、1 ページまたは複数ページの視覚エフェ
 
 ワークスペースを開くと、関連付けられているダッシュボードが **[ダッシュボード]** タブに一覧表示されます。ダッシュボードを開くには、単にそれを選びます。 アプリを開くと、ダッシュボードが表示されます。  各ダッシュボードは、基になるデータセットの一部のサブセットのカスタマイズしたビューを表します。  ダッシュボードを所有している場合は、基になるデータセットとレポートの編集アクセス権限もあります。  他のユーザーからダッシュボードを共有されている場合、ダッシュボードおよび基になっているレポートを操作することはできますが、変更を保存することはできません。
 
-さまざまな方法で[ダッシュボードを共有する](service-share-dashboards.md)ことができます。 ダッシュボードを共有するには Power BI Pro が必要であり、共有ダッシュボードを表示するときも必要になる場合があります。
+ユーザーまたは同僚が[ダッシュボードを共有する](service-share-dashboards.md)には、さまざまな方法があります。 ダッシュボードを共有するには Power BI Pro が必要であり、共有ダッシュボードを表示するときも必要になる場合があります。
 
 
 > [!NOTE]
