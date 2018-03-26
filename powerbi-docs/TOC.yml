@@ -556,6 +556,10 @@
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI Pro を購入する
           href: service-admin-purchasing-power-bi-pro.md
+        - name: Power BI Pro を割り当てる
+          href: service-admin-assigning-power-bi-pro-licenses.md
+        - name: 組織内の Power BI Pro
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Power BI の管理と展開のアプローチ
           href: service-admin-governance.md
         - name: Power BI のセキュリティ
