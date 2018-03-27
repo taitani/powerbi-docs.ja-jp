@@ -1,16 +1,16 @@
 ---
-title: "認定済みの Power BI カスタム ビジュアル"
-description: "認定のためにカスタム ビジュアルを送信する場合の要件とプロセス。 認定済みのカスタム ビジュアルの一覧。"
+title: 認定済みの Power BI カスタム ビジュアル
+description: 認定のためにカスタム ビジュアルを送信する場合の要件とプロセス。 認定済みのカスタム ビジュアルの一覧。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d768756c8c7ede792c547f03779396f11e6e4f85
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
 ## <a name="what-is-meant-by-certified"></a>*認定* とは
@@ -60,7 +60,6 @@ ms.lasthandoff: 02/28/2018
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>認定されているカスタム ビジュアルの一覧
 | AppSource へのリンク | 動画のリンク |
 | --- | --- |
-| [関連付けルール](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
 | [アスター プロット](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft カレンダー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ Software による Bowtie Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [ビデオ](https://youtu.be/So5xKMSpVJI) |
@@ -77,11 +76,7 @@ ms.lasthandoff: 02/28/2018
 | [弦](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [ビデオ](https://youtu.be/AQvd2FhRyCI) |
 | [MAQ Software による円形ゲージ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [ビデオ](https://youtu.be/9NHXALkBXuY) |
 | [クラスター マップ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
-| [クラスタリング](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) | |
-| [Clustering with Outliers (外れ値のクラスタリング)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) | |
-| [相関プロット](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) | |
 | [MAQ Software による円筒ゲージ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [ビデオ](https://youtu.be/DgdoWi7Gcxo) |
-| [デシジョン ツリー グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) | |
 | [ダイヤル ゲージ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
 | [ドット プロット](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
 | [Dot Plot by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [ビデオ](https://youtu.be/By16pX9KT40) |
@@ -97,8 +92,6 @@ ms.lasthandoff: 02/28/2018
 | [Enlighten スタック シャッフル](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten ワッフル グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [力指向グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [ビデオ](https://youtu.be/YsTa7uyJ4sg) |
-| [予測 TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) | |
-| [Forecasting with ARIMA (ARIMA による予測)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
 | [MAQ Softwareによるソースでのじょうご](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [ビデオ](https://youtu.be/R_EcimsLI8U) |
 | [ガント](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [ビデオ](https://youtu.be/qJ7s_KrGiUU) |
 | [MAQ Software による Gantt Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [ビデオ](https://youtu.be/vJLV9JRCpI8) |
@@ -119,6 +112,7 @@ ms.lasthandoff: 02/28/2018
 | [Play Axis (動的スライサー)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [ビデオ](https://youtu.be/IvfIP3E6-1Q) |
 | [累乗 KPI マトリックス](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [ビデオ](https://youtu.be/1enze8pcGzY) |
+| [パルス グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | [ビデオ](https://youtu.be/DQWdcQtjDVw) |
 | [MAQ Software による四分割グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [ビデオ](https://youtu.be/ppBnyhqWNC0) |
 | [Radar chart (レーダー チャート)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [MAQ Software によるリング グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [ビデオ](https://youtu.be/pDToHDFHnq8) |
@@ -127,7 +121,6 @@ ms.lasthandoff: 02/28/2018
 | [スクローラー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [Smart Filter by OKViz (OKViz でのスマート フィルター)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [ビデオ](https://youtu.be/gcJsDDRQq28) |
 | [OKViz によるスパークライン](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [ビデオ](https://youtu.be/0m3Vnvso9tY) |
-| [スプライン グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) | |
 | [ストリーム グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [テーブル ヒートマップ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
@@ -135,8 +128,6 @@ ms.lasthandoff: 02/28/2018
 | [テキスト フィルター](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ ソフトウェアによるテキスト ラッパー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [温度計](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
-| [時系列分解グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
-| [時系列予測グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) | |
 | [タイムライン スライサー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [ビデオ](https://youtu.be/ozMtZ4_NZ10) |
 | [トルネード チャート](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [ビデオ](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [MAQ Software による取引グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [ビデオ](https://youtu.be/xhTR6y6J9Ko) |

@@ -1,27 +1,27 @@
 ---
-title: "Power BI のホワイト ペーパー"
-description: "ホワイト ペーパーを読めば、Power BI のトピックの詳細がわかります。"
+title: Power BI のホワイト ペーパー
+description: ホワイト ペーパーを読めば、Power BI のトピックの詳細がわかります。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
@@ -42,5 +42,6 @@ ms.lasthandoff: 01/30/2018
 | [表形式の BI セマンティック モデルの保護](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |このホワイトペーパーでは、表形式の BI セマンティックおよび Power BI のセキュリティ モデルを紹介します。 説明する内容は、ロールの作成、動的セキュリティの実装、権限借用設定の構成、ロールの管理、ネットワーク セキュリティのコンテキストで動作するモデルへの接続方法の選択についてです。 |
 | [Power BI Report Server のキャパシティ プランニング ガイダンス](report-server/capacity-planning.md) |このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスを提供します。 |
 | [Power BI Premium の計画と展開](https://aka.ms/Premium-Capacity-Planning-Deployment)| このホワイト ペーパーでは、適切に定義されたワークロードの Premium 容量を計画して展開するためのガイダンスとベスト プラクティスを提供します。|
+| [Power BI と SAP BW](https://aka.ms/powerbiandsapbw)| このドキュメントでは、SAP のお客様が既存の SAP Business Warehouse (BW) システムに Power BI を接続することで得られる利点について説明します。|
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

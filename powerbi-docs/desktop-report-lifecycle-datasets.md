@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop から Power BI サービスのデータセットに接続する"
-description: "複数の Power BI Desktop レポートに共通のデータセットを使い、レポートのライフサイクルを管理します"
+title: Power BI Desktop から Power BI サービスのデータセットに接続する
+description: 複数の Power BI Desktop レポートに共通のデータセットを使い、レポートのライフサイクルを管理します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop から Power BI サービスのデータセットに接続する
 Power BI サービスの共有データセットへのライブ接続を確立し、同じデータセットから多数の異なるレポートを作成できます。 つまり、Power BI Desktop で完全なデータ モデルを作成し、それを Power BI サービスに発行した後、その同じ共通のデータ モデルから複数の異なるレポート (異なる .pbix ファイル) を作成できます。 この機能は、**Power BI サービス ライブ接続**と呼ばれます。
@@ -59,7 +59,7 @@ Anna が自分のレポート (および、その基になるデータセット)
 **Power BI サービス ライブ接続**の有用性と、レポート ライフサイクル管理のベスト プラクティス手法としてそれを使う方法はわかったので、Anna の優れたレポート (およびデータセット) を Power BI ワークスペースのチームメートが使用できる共有データセットに発行する手順を見ていきます。
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Power BI レポートとデータセットを発行する
-**Power BI サービス ライブ接続**を使ってレポートのライフサイクルを管理する最初の手順は、チームメートが使いたくなるレポート (とデータセット) を用意することです。 したがって最初に、Anna は **Power BI Destkop** からレポートを**発行**する必要があります。 それには、Power BI Desktop の **[ホーム]** リボンで **[発行]** を選びます。
+**Power BI サービス ライブ接続**を使ってレポートのライフサイクルを管理する最初の手順は、チームメートが使いたくなるレポート (とデータセット) を用意することです。 したがって、まず、Anna は **Power BI Desktop** からレポートを**発行**する必要があります。 それには、Power BI Desktop の **[ホーム]** リボンで **[発行]** を選びます。
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 

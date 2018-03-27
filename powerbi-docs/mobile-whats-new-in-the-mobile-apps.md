@@ -1,27 +1,27 @@
 ---
-title: "Power BI 用モバイル アプリの新機能"
-description: "Power BI 用モバイル アプリの新機能"
+title: Power BI 用モバイル アプリの新機能
+description: Power BI 用モバイル アプリの新機能
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -30,11 +30,21 @@ ms.lasthandoff: 02/27/2018
 * [Power BI Desktop の新機能](desktop-latest-update.md)  
 * [Power BI サービスの新機能](service-whats-new.md)  
 
+## <a name="march-2018"></a>2018 年 3 月
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality アプリ (プレビュー)
+
+最新のデータ傾向に応じて、Power BI for Mixed Reality アプリが作成されました。 仮想世界に専念した状態でダッシュボードとレポートを表示するか、あるいは使用環境のコンテキストで特定の場所にダッシュボードとレポートを配置して表示します。 詳細については、新しい [Power BI for Mixed Reality アプリ](mobile-mixed-reality-app.md)に関するページを参照してください。
+
 ## <a name="february-2018"></a>2018 年 2 月
 
 ### <a name="share-reports"></a>レポートの共有
 
 モバイル アプリからレポートを直接共有できるようになりました。 [モバイル アプリからのダッシュボードとレポートの共有](mobile-share-dashboard-from-the-mobile-apps.md)について、詳細を確認してください。
+
+### <a name="improved-tooltips"></a>改善されたツールヒント
+
+レポート ビジュアルでタップを長押ししてツールヒントにアクセスする際に、ビジュアル上で指をドラッグし、途中で各データ ポイントに関する詳細を調べられるようになりました。
 
 ## <a name="january-2018"></a>2018 年 1 月
 

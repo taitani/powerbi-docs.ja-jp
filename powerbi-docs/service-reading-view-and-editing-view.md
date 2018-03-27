@@ -1,39 +1,39 @@
 ---
-title: "Power BI サービスのレポートの読み取りビューと編集ビュー"
-description: "Power BI サービスのレポートの読み取りビューと編集ビューの違いの概要について説明します"
+title: Power BI サービスのレポートの読み取りビューと編集ビュー
+description: Power BI サービスのレポートの読み取りビューと編集ビューの違いの概要について説明します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI サービスのレポートの読み取りビューと編集ビュー
-Power BI サービスには、レポートを表示および操作するためのモードとして、読み取りビューと編集ビューの 2 つがあります (Power BI Desktop にはありません)。 読み取りビューはすべてのユーザーが利用でき、特にデータの*コンシューマー*向けに設計されていますが、編集ビューはレポートの*作成者*と所有者のみが利用できます。 
+Power BI サービスには、レポートを表示および操作するためのモードとして、読み取りビューと編集ビューの 2 つがあります (Power BI Desktop にはありません)。 読み取りビューはすべてのユーザーが利用でき、特にデータの*コンシューマー*向けに設計されていますが、編集ビューはレポートの*作成者*と所有者のみが利用できます。
 
 ![レポート作成者とレポート コンシューマーのアートワーク](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>レポートの読み取りビュー
 
- 読み取りビューではレポートを探索し、レポートと対話することができます。楽しく安全に、データについてさまざまなことを試したりよく理解したりすることができます。 読み取りビューは、アプリからレポートを開くユーザーや、レポートを[他のユーザーと共有](service-share-dashboards.md)しているユーザーなど、レポートの*コンシューマー*向けに設計されています。 読み取りビューでは、すべてのコンシューマーに対して、同じフィルターが適用された、同じ視覚エフェクトを含む、同じレポートが表示されます。  コンシューマーはレポートを操作できますが、変更を保存することはできません。
+ 読み取りビューではレポートを探索し、レポートと対話することができます。楽しく安全に、データについてさまざまなことを試したりよく理解したりすることができます。 読み取りビューは、アプリからレポートを開くユーザーや、レポートを[他のユーザーと共有](service-share-dashboards.md)しているユーザーなど、レポートの*コンシューマー*向けに設計されています。 読み取りビューでは、特定のレポートのすべてのコンシューマーに対して、同じ視覚エフェクトを含む、(必要に応じて同じフィルターが適用された) 同じレポートが表示されます。  コンシューマーはレポートと対話したり、既存のフィルターを変更したりできますが (その変更内容はレポートと共に保存されます)、新しいフィルターを追加することはできません。
 
->**注**: 行レベルのセキュリティとデータ アクセス許可のため、特定の状況では、レポートのコンシューマーによってデータの表示が異なる場合があります。 
+>**注**: 行レベルのセキュリティとデータ アクセス許可のため、特定の状況では、レポートのコンシューマーによってデータの表示が異なる場合があります。
 
 ## <a name="report-editing-view"></a>レポートの編集ビュー
 
@@ -42,7 +42,7 @@ Power BI サービスには、レポートを表示および操作するため�
 編集ビューはレポートの*作成者*向けに設計されています。 ここでは、作成者がデータセットのインポートや接続、データの探索、レポートとダッシュボードのビルドを行います。 編集ビューでは、*作成者*はデータをより詳しく調査できます。その場合、フィールドを追加/削除したり、視覚エフェクトの種類を変更したり、視覚エフェクトを新規作成したり、レポートから視覚エフェクトやページを追加/削除したりします。 その後、作成したレポートを同僚と共有することができます。
 
 ## <a name="reading-view-versus-editing-view"></a>読み取りビューと編集ビュー
-このグラフには、Power BI サービスのすべてのレポート機能がリストされているわけではありません。 読み取りビューと編集ビューの**両方**では使用できないレポート タスクのみがリストされています。 
+このグラフには、Power BI サービスのすべてのレポート機能がリストされているわけではありません。 読み取りビューと編集ビューの**両方**では使用できないレポート タスクのみがリストされています。
 
 
 |タスク  | 読み取りビュー  | 編集ビュー |
@@ -52,7 +52,7 @@ Power BI サービスには、レポートを表示および操作するため�
 | [レポートの作成または編集](service-report-create-new.md) | いいえ  | はい |
 | [レポートの共有](service-share-reports.md)| はい | はい。他のユーザーへの*所有者*アクセス許可の付与など、アクセス許可を管理することもできます。 |
 | [フィルター ウィンドウからの永続的な (固定) ビジュアル レベル、ドリルスルー、ページ レベル、レポート レベルのフィルターの作成](power-bi-report-add-filter.md) | いいえ  | はい |
-| [レポートのフィルター ウィンドウの使用](power-bi-how-to-report-filter.md) | はい、既存のフィルターを使用できます。ただし、変更はレポートには保存されません。 | はい |
+| [レポートのフィルター ウィンドウの使用](power-bi-how-to-report-filter.md) | はい。既存のフィルターを使用でき、変更内容をレポートと共に保存できますが、新しいフィルターを追加することはできません。 | はい |
 | [レポートの分析ウィンドウの使用](service-analytics-pane.md) | いいえ | はい |
 | [レポートの**表示**オプション](power-bi-report-display-settings.md) | はい。ただし、例外がいくつかあります。 | はい、グリッド線、スナップ、ロックを含むすべてを使用できます。 |
 | [更新スケジュールの作成](refresh-data.md) | いいえ  | はい |
@@ -86,14 +86,14 @@ Power BI サービスには、レポートを表示および操作するため�
 
    ![単色表示の [レポートの編集]](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
-2. **[レポートの編集]** が淡色表示になっていない場合は、それを選ぶとレポートが編集ビューで開きます。 
-   
+2. **[レポートの編集]** が淡色表示になっていない場合は、それを選ぶとレポートが編集ビューで開きます。
+
    ![[レポートの編集] オプション](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
-   
+
    これでレポートが編集ビューに切り替わり、読み取りビューで最後に使用したものと同じ[表示設定](power-bi-report-display-settings.md)が使用されます。
 
 2. 読み取りビューに戻るには、上部のナビゲーション バーにある **[読み取りビュー]** を選びます。
-   
+
     ![[読み取りビュー] オプション](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
@@ -101,5 +101,4 @@ Power BI サービスには、レポートを表示および操作するため�
 ### <a name="next-steps"></a>次の手順
 読み取りビューにはレポートを編集するさまざまな手段があり、データを細かく切り分けて洞察を発見し、質問に対する回答を得ることができます。  次のトピックの「[Power BI の読み取りビューでレポートと対話する](service-interact-with-a-report-in-editing-view.md)」では、これらのいくつかについて詳しく説明されています。    
 「[Power BI のレポート](service-reports.md)」に戻る    
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。 
-
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

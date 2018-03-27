@@ -1,15 +1,15 @@
 ---
-title: "Power BI Report Server の変更ログ"
-description: "この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。"
+title: Power BI Report Server の変更ログ
+description: この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: jtarquino
 manager: jonhp
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,17 +17,35 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
 この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
 
-新機能の詳細については、「[Power BI レポート サーバーの新機能](whats-new.md)」を参照してください。
+新機能の詳細については、「[Power BI レポート サーバーの新機能](whats-new.md)」を参照してください。 
+
+## <a name="march-2018"></a>2018 年 3 月
+- **Power BI Report Server**
+    - *バージョン 1.2.6648.38132 (ビルド 15.0.2.378)、リリース日: 2018 年 3 月 19 日*
+        - セキュリティ更新プログラム
+        - アクセシビリティの機能強化
+        - バグの修正
+            - ページ分割されたレポート (RDL) で、プロパティの編集後に元に戻されるリンク レポートのパラメーターの可視性を修正
+            - Web ポータルでのカスタム フォーム認証の際にスライド式有効期限の Cookie が無視される問題を修正
+            - 行の内容が空である場合に、Word にエクスポートすると高さが等しくない行が作成される問題を修正
+            - ページ分割されたレポート (RDL) で、データ ソースの資格情報を変更する際に、式ベースの接続文字列が削除される問題を修正
+            - テキスト値を持つ KPI を使用するように機能を修正
+            - ページ分割されたレポート (RDL) で、既存のページ分割されたレポート (RDL) に新しいデータセットを割り当てるように機能を修正
+            - その他の安定性と使いやすさの修正
+
+- **Power BI Desktop (Power BI Report Server 用に最適化)**
+    - バージョン: 2.56.5023.1043 (2018 年 3 月)、リリース日: 2018 年 3 月 19 日
+        - Power BI Report Server (2018 年 3 月) との接続に必要な変更が含まれます。
 
 ## <a name="october-2017"></a>2017 年 10 月
 

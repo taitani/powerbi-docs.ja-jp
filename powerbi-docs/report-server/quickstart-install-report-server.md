@@ -1,48 +1,45 @@
 ---
-title: "クイックスタート: Power BI レポート サーバーをインストールする"
-description: "Power BI レポート サーバー自体のインストールはすぐに終わります。 ダウンロードし、インストールして構成し、実行できるようになるまで、数分で終わります。"
+title: 'クイックスタート: Power BI レポート サーバーをインストールする'
+description: Power BI レポート サーバー自体のインストールはすぐに終わります。 ダウンロードし、インストールして構成し、実行できるようになるまで、数分で終わります。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>クイックスタート: Power BI レポート サーバーをインストールする
 Power BI レポート サーバー自体のインストールはすぐに終わります。 ダウンロードし、インストールして構成し、実行できるようになるまで、数分で終わります。
 
 ここでは、新しいサーバーで Report Server を稼働させる場合のインストール方法について簡単に説明します。 レポート サーバーのインストールの詳細については、「[Power BI レポート サーバーのインストール](install-report-server.md)」をご覧ください。
 
- **ダウンロード** ![ダウンロード](media/quickstart-install-report-server/download.png "ダウンロード")
-
-Power BI Report Server をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」に移動します。 
-
-Microsoft ダウンロード センターに移動して [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Power BI Report Server 向けに最適化 - 2017 年 10 月) をダウンロードします。
-
-![ヒント](media/quickstart-install-report-server/fyi-tip.png "ヒント") 最新のリリース ノートについては、「[Power BI Report Server - Release notes](release-notes.md)」 (Power BI レポート サーバー - リリース ノート) をご覧ください。
+## <a name="video-install-power-bi-report-server"></a>ビデオ: Power BI Report Server のインストール
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>始める前に
-Power BI レポート サーバーをインストールする前に、「[Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件](system-requirements.md)」を確認することをお勧めします。
+Power BI Report Server をインストールする前に、「[Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件](system-requirements.md)」を確認することをお勧めします。
 
 ## <a name="step-1-download"></a>手順 1: ダウンロードする
-Power BI レポート サーバーのインストール ファイルをローカルにダウンロードします。 Power BI レポート サーバーをダウンロードするには、[Microsoft ダウンロード センター](https://go.microsoft.com/fwlink/?linkid=839351)にアクセスします。
+
+Power BI Report Server および Power BI Report Server 向けに最適化された Power BI Desktop をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」に移動して、**[無料試用版をダウンロードする]** を選択します。
+
+手順に従って、Power BI Report Server のインストール ファイルをローカルにダウンロードします。 
 
 ![Power BI レポート サーバーのダウンロード](media/quickstart-install-report-server/download-pbireportserver.png)
 

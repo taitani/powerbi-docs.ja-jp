@@ -1,39 +1,41 @@
 ---
-title: "Power BI フィルター ウィンドウの概要"
-description: "Power BI サービスと Power BI ダッシュボードのレポート フィルター ウィンドウの概要"
+title: Power BI フィルター ウィンドウの概要
+description: Power BI サービスと Power BI ダッシュボードのレポート フィルター ウィンドウの概要
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83aed39c8a652ed5b38c18b67f1cdccfc7884240
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>レポート フィルター ウィンドウの使用方法
 この記事は、レポート フィルター ウィンドウについて詳しく説明します。 [Power BI サービスの編集ビューと読み取りビュー](service-reading-view-and-editing-view.md)および [Power BI Desktop のレポート ビュー](desktop-report-view.md)にウィンドウが表示されます。
 
 Power BI でデータをフィルター処理するには、さまざまな方法があります。最初に「[フィルター処理と強調表示](power-bi-reports-filters-and-highlighting.md)」をお読みになることをおすすめします。
 
-## <a name="working-with-filters"></a>フィルターの操作
-レポートは、[編集ビューまたは読み取りビュー](service-reading-view-and-editing-view.md)で開くことができます。 編集ビューでは、レポート所有者は[レポートにフィルターを追加](power-bi-report-add-filter.md)できます。追加したフィルターはレポートとともに保存されます。 読み取りビューでレポートを表示しているユーザーは、フィルターを操作できますが、フィルターの変更をレポートに保存することはできません。
+## <a name="working-with-the-report-filters-pane"></a>レポート フィルター ウィンドウの操作
+Power BI Desktop では、レポートはレポート ビューで開かれます。 Power BI サービスでは、レポートは[編集ビューまたは読み取りビュー](service-reading-view-and-editing-view.md)で開くことができます。 編集ビュー、および Desktop のレポート ビューでは、レポート所有者は[レポートにフィルターを追加](power-bi-report-add-filter.md)できます。そのフィルターはレポートと共に保存されます。 読み取りビューでレポートを表示するユーザーは、フィルターを編集できますが、新しいフィルターをレポートに追加することはできません。
 
-## <a name="filters-in-reading-view"></a>読み取りビューのフィルター
-レポートを読み取りビューで開くと、レポート キャンバスの右側にフィルター ウィンドウが表示されます。 ウィンドウが表示されない場合は、右上隅にある矢印を選択すると開きます。
+Power BI サービスでは、フィルター ウィンドウで行う変更がすべてレポートで保持され、その変更はモバイル バージョンのレポートに反映されます。 フィルター ウィンドウを作成者の既定値にリセットするには、上部のメニューバーから **[既定値にリセット]** を選択します。     
+
+## <a name="open-the-filters-pane"></a>フィルター ウィンドウを開く
+レポートを開くと、レポート キャンバスの右側にフィルター ウィンドウが表示されます。 ウィンドウが表示されない場合は、右上隅にある矢印を選択すると開きます。 Power BI サービスの読み取りビューの場合、右側に表示されるのはフィルター ウィンドウのみです。
 
 この例で選択したビジュアルには 6 個のフィルターがあります。 レポート ページにもフィルターが適用されていて、**[ページ レベル フィルター]** という見出しの下に表示されています。 [ドリルスルー フィルター](power-bi-report-add-filter.md)が 1 つあり、レポート全体にも "**FiscalYear** is 2013 or 2014" というフィルターがあります。
 
@@ -43,20 +45,24 @@ Power BI でデータをフィルター処理するには、さまざまな方�
 
 このレポートを表示するユーザーは、だれでもこれらのフィルターを操作できます。
 
-* フィルターの詳細を表示するには、フィルターの横にある矢印の上にカーソルを置き、選択します。
+* フィルターの詳細を表示するには、フィルターの横にある矢印の上にカーソルを置いて選択します。
   
    ![](media/power-bi-how-to-report-filter/power-bi-expan-filter.png)
 * フィルターを変更します。たとえば、**[Lindseys]** を **[Fashions Direct]** に変更します。
   
      ![](media/power-bi-how-to-report-filter/power-bi-filter-chain.png)
+
+* 上部のメニューバーから **[既定値にリセット]** を選択して、フィルターを元の状態にリセットします。    
+    ![](media/power-bi-how-to-report-filter/power-bi-reset-to-default.png)
+    
 * フィルター名の横の **[x]** を選択してフィルターを削除します。
   
-  フィルターを削除すると一覧に表示されなくなりますが、レポートからデータが削除されることはありません。  たとえば、"**FiscalYear is 2013 or 2014**" フィルターを削除すると、会計年度のデータはレポートにまだ残っていますが、2013 年と 2014 年だけ表示されるようにフィルター処理されることはなくなります。データに含まれるすべての会計年度が表示されます。  ただし、フィルターを削除すると、一覧から削除されるので再び変更することはできません。 もっとよい方法は、消しゴム アイコン ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png) を選択してフィルターをクリアすることです。
+  フィルターを削除すると一覧に表示されなくなりますが、レポートからデータが削除されることはありません。  たとえば、**FiscalYear is 2013 or 2014** フィルターを削除すると、会計年度のデータはレポートにまだ残っていますが、2013 年と 2014 年だけ表示されるようにフィルター処理されることはなくなります。データに含まれるすべての会計年度が表示されます。  ただし、フィルターを削除すると、一覧から削除されるので再び変更することはできません。 もっとよい方法は、消しゴム アイコン ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png) を選択してフィルターをクリアすることです。
   
   ![](media/power-bi-how-to-report-filter/power-bi-delete-filter.png)
 
 ## <a name="filters-in-editing-view"></a>編集ビューでのフィルター
-レポートを編集ビューで開くと、レポート キャンバス右側の**視覚化ウィンドウ**の下半分にフィルター ウィンドウが表示されます。 ウィンドウが表示されない場合は、右上隅にある矢印を選択すると開きます。
+レポートを Desktop または Power BI サービスの編集ビューで開くと、レポート キャンバス右側の**視覚化ウィンドウ**の下半分にフィルター ウィンドウが表示されます。 ウィンドウが表示されない場合は、右上隅にある矢印を選択すると開きます。
 
 ![](media/power-bi-how-to-report-filter/power-bi-all-filters.png)  
 
@@ -73,16 +79,16 @@ Power BI でデータをフィルター処理するには、さまざまな方�
 ![](media/power-bi-how-to-report-filter/pbi_filterlistdropdown.jpg)
 
 ## <a name="clear-a-filter"></a>フィルターのクリア
- フィルター モードが詳細であっても基本であっても、消しゴム アイコン ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) を選択するとフィルターがリセットされます。 
+ フィルター モードが詳細であっても基本であっても、消しゴム アイコン ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) を選択するとフィルターがクリアされます。 
 
 ## <a name="add-a-filter"></a>フィルターの追加
-* ビジュアル、ページ、ドリルスルー、またはレポートにフィルターを追加するには、編集ビューの [フィールド] ウィンドウでフィールドを選び、適切なフィルター (**[Drag fields here]\(フィールドをここにドラッグ\)** と表示されています) にドラッグします。 フィルターとしてフィールドを追加した後は、[基本フィルター] および [高度なフィルター処理] のコントロール (後述) を使用して微調整します。
+* Desktop、および Power BI サービスの編集ビューでビジュアル、ページ、ドリルスルー、またはレポートにフィルターを追加するには、フィールド ウィンドウからフィールドを選択し、適切なフィルター (**[Drag fields here]\(フィールドをここにドラッグ\)** と表示されています) にドラッグします。 フィルターとしてフィールドを追加した後は、[基本フィルター] および [高度なフィルター処理] のコントロール (後述) を使用して微調整します。
 
 - **新しいフィールドをビジュアル レベル フィルター領域にドラッグしてもビジュアルにフィールドは追加されません**が、この新しいフィールドでビジュアルをフィルター処理できます。 次の例では、**Chain** が新しいフィルターとしてビジュアルに追加されます。 フィルターとして **Chain** を追加しただけでは、基本フィルターまたは高度なフィルターのコントロールを使用するまでビジュアルは変化しないことに注意してください。
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 
-* 視覚化の作成に使われているフィールドはすべて、フィルターとしても使うことができます。 最初に、ビジュアルを選んでアクティブにします。 ビジュアルで使われているフィールドが、視覚化ウィンドウ (編集ビューの場合) と、[フィルター] ウィンドウの **[ビジュアル レベル フィルター]** の見出しの下に一覧表示されます。
+* 視覚化の作成に使われているフィールドはすべて、フィルターとしても使うことができます。 最初に、ビジュアルを選んでアクティブにします。 ビジュアルで使用されているフィールドが、視覚化ウィンドウと、[フィルター] ウィンドウの **[ビジュアル レベル フィルター]** の見出しの下に一覧表示されます。
   
    ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.png)  
   

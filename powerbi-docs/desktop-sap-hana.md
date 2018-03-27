@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で SAP HANA を使用する"
-description: "Power BI Desktop で SAP HANA を使用する"
+title: Power BI Desktop で SAP HANA を使用する
+description: Power BI Desktop で SAP HANA を使用する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1c8f3bfc64c6ab895d62749d4d4bc0d2d70d0a9b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop で SAP HANA を使用する
 Power BI Desktop を利用し、 **SAP HANA** データベースにアクセスできるようになりました。 **SAP HANA**を使用するには、Power BI Desktop **SAP HANA** データ接続が機能するように、SAP HANA ODBC ドライバーをローカルのクライアント コンピューターにインストールする必要があります。 SAP HANA ODBC ドライバーは、[SAP Software Download Center](https://support.sap.com/swdc) からダウンロードできます。 SAP Software Download Center で、Windows コンピューター用の SAP HANA CLIENT を検索します。 **SAP Software Download Center** は構成が頻繁に変更されるので、サイトのナビゲーションに関する具体的なガイダンスはありません。
 
-**SAP HANA** データベースに接続するには、次の画像のように、**[データの取得] > [データベース] > [SAP HANA データベース]** を選びます。
+**SAP HANA** データベースに接続するには、次の画像のように、**[データの取得]、[データベース]、[SAP HANA データベース]** の順に選択します。
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
@@ -40,7 +40,7 @@ SAP HANA データベースに接続するとき、*server:port* の形式でサ
 ### <a name="supported-features-for-sap-hana"></a>SAP HANA でサポートされる機能
 このリリースでは、次の一覧に示すように **SAP HANA**向けに多くの機能が用意されています。
 
-* **SAP HANA** 用 Power BI コネクタでは SAP ODBC ドライバーを使用し、優れた使いやすさを実現
+* **SAP HANA** 向け Power BI コネクタでは SAP ODBC ドライバーを使用し、最適なユーザー エクスペリエンスを提供
 * **SAP HANA** では DirectQuery およびインポート オプションの両方をサポート
 * Power BI では HANA 情報モデル (分析ビューや計算ビューなど) をサポートし、ナビゲーションを最適化
 * **SAP HANA** では、ダイレクト SQL 機能を使用して行および列テーブルへの接続も可能

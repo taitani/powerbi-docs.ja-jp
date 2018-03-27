@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop の Analysis Services 多次元データ"
-description: "Power BI Desktop の Analysis Services 多次元データ"
+title: Power BI Desktop の Analysis Services 多次元データ
+description: Power BI Desktop の Analysis Services 多次元データ
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop で SSAS 多次元モデルに接続する
 Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも呼ばれる) にアクセスできます。
 
-**SSAS MD** データベースに接続するには、次の画像のように、**[データの取得] &gt; [データベース] &gt; [SQL Server Analysis Services Database]** を選びます。
+**SSAS MD** データベースに接続するには、次の画像のように、**[データの取得] &gt; [データベース] &gt; [SQL Server Analysis Services Database]** の順に選択します。
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -43,7 +43,7 @@ Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも�
 | --- | --- |
 | キューブ |モデル |
 | キューブ ディメンション |テーブル |
-| ディメンション属性 (Keys)、Name) |列 |
+| ディメンション属性 (Keys)、Name |列 |
 | メジャー グループ |テーブル |
 | メジャー |メジャー |
 | 関連付けられたメジャー グループのないメジャー |*メジャー*という名前のテーブル内 |
@@ -58,7 +58,7 @@ Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも�
 多次元モデルでは、キューブ内の一連のメジャーまたは KPI を定義して*表示フォルダー*内に配置することができます。これにより、複雑なモデルを簡素化できます。 Power BI は、表形式のメタデータの表示フォルダーを認識し、表示フォルダー内にメジャーと KPI を表示します。 多次元データベースの KPI は*値*、*目標*、*状態マーク*、および*傾向マーク*をサポートします。
 
 ### <a name="dimension-attribute-type"></a>ディメンション属性の種類
-多次元モデルでは、ディメンション属性と特定ディメンション属性の種類の関連付けもサポートしています。 たとえば、 **Geography** ディメンションで、 *City*、 *State-Province*、 *Country* 、および *Postal Code* ディメンション属性に適切な地理の種類が関連付けられている場合、ディメンションは表形式のメタデータで公開されます。 Power BI はメタデータを認識し、マップの視覚エフェクトを作成できるようにします。 これらの関連は、Power BI の *[フィールド]* ウィンドウで、要素の隣にある **[マップ]** アイコンより識別できます。
+多次元モデルでは、ディメンション属性と特定ディメンション属性の種類の関連付けもサポートしています。 たとえば、**Geography** ディメンションで、*City*、*State-Province*、*Country*、および *Postal Code* ディメンション属性に適切な地理の種類が関連付けられている場合、ディメンションは表形式のメタデータで公開されます。 Power BI はメタデータを認識し、マップの視覚エフェクトを作成できるようにします。 これらの関連は、Power BI の *[フィールド]* ウィンドウで、要素の隣にある **[マップ]** アイコンより識別できます。
 
 Power BI は、イメージの URL (Uniform Resource Locator) を含むフィールドを指定すると、イメージのレンダリングも行うことができます。 これらのフィールドは SQL Server Data Tools で (またはその後の Power BI で) *ImageURL* 型として指定でき、その型の情報は表形式のメタデータで Power BI に提供されます。 その後 Power BI は、URL からこれらのイメージを取得し、ビジュアルに表示します。
 
@@ -71,7 +71,7 @@ Power BI は、イメージの URL (Uniform Resource Locator) を含むフィー
 * 属性階層の計算されるメンバーであり、*いずれ*の兄弟でもない
 * ユーザー階層の計算されるメンバー
 
-多次元モデルは列の値として *属性階層の計算されるメンバー* を公開します。 この種類の計算されるメンバーを公開するときは、他にいくつかのオプションと制約があります。
+多次元モデルは列の値として、*属性階層の計算されるメンバー* を公開します。 この種類の計算されるメンバーを公開するときは、他にいくつかのオプションと制約があります。
 
 * *UnknownMember* がディメンション属性のオプションとなる場合があります。
 * ディメンションの唯一の属性である場合を除き、計算されるメンバーを含む属性をディメンションのキー属性にすることはできません

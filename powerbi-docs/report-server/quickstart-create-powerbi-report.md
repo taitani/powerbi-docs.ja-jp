@@ -1,30 +1,30 @@
 ---
-title: "クイックスタート: Power BI レポート サーバーの Power BI レポートの作成"
-description: "Power BI レポート サーバーの Power BI レポートをいくつかの簡単な手順で作成する方法について説明します。"
+title: 'クイックスタート: Power BI レポート サーバーの Power BI レポートの作成'
+description: Power BI レポート サーバーの Power BI レポートをいくつかの簡単な手順で作成する方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 3/5/2018
+ms.date: 3/19/2018
 ms.author: maggies
-ms.openlocfilehash: 0f0e8422edd2f8c1a34d82be065ffde554c96400
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5295a62897c740872480b905f3aef4af37ca0942
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>クイックスタート: Power BI レポート サーバーの Power BI レポートの作成
-Power BI レポートは、Power BI サービス (https://powerbi.com) のクラウドに保存することができるほか、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで保存して管理できます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
+Power BI サービス (https://powerbi.com)) のクラウドで Power BI レポートを格納する場合と同じように、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで格納して管理することができます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
 
 ![Web ポータル上の Power BI レポート](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
@@ -38,7 +38,7 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
 
     ![Web ポータルから Power BI Desktop をダウンロードする](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Microsoft ダウンロード センターの (Power BI Report Server (2017 年 10 月) 向けに最適化された) [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) に直接移動することもできます。
+    または、Microsoft ダウンロード センターの (Power BI Report Server (2018 年 3 月) 向けに最適化された) [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) に直接移動します。
 
 2. ダウンロード センター ページで、**[ダウンロード]** を選択します。
 
@@ -48,13 +48,13 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
 
     - **PBIDesktopRS_x64.msi** (64 ビット バージョン)
 
-4. インストーラーをダウンロードしたら、Power BI Desktop (2017 年 10 月) のセットアップ ウィザードを実行します。
+4. インストーラーをダウンロードしたら、Power BI Desktop (2018 年 3 月) のセットアップ ウィザードを実行します。
 
 2. インストールの最後に、**[Start Power BI Desktop now]**\(今すぐ Power BI Desktop を起動する\) をオンにします。
    
-    Power BI Desktop が自動的に起動し、すぐに使えます。 適切なバージョンでは、タイトル バーに "Power BI Desktop (2017 年 10 月)" と表示されます。
+    Power BI Desktop が自動的に起動し、すぐに使えます。 適切なバージョンでは、タイトル バーに "Power BI Desktop (2018 年 3 月)" と表示されます。
 
-    ![Power BI Desktop 2017 年 10 月バージョン](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+    ![Power BI Desktop 2018 年 3 月バージョン](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
 3. Power BI Desktop に慣れていない場合は、[ようこそ] 画面のビデオをご覧になることをお勧めします。
    
@@ -100,7 +100,7 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
     ![Web ポータルで Power BI レポートを表示](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
-Power BI レポート サーバーと Power BI サービス (http://powerbi.com) のレポートは、ほぼ同じように機能しますが、いくつかの機能は異なります。
+Power BI Report Server と Power BI サービス (http://powerbi.com)) のレポートは、ほぼ同じように機能しますが、いくつかの機能は異なります。
 
 ### <a name="in-a-browser"></a>ブラウザー
 Power BI レポート サーバーのレポートは、次を含むすべての視覚エフェクトをサポートします。
@@ -135,6 +135,7 @@ Power BI Desktop でのレポートを作成するために役立つ多くの優
 
 * [Power BI Desktop の概要](../desktop-getting-started.md)
 * ガイド付き学習: [Power BI Desktop の概要](../guided-learning/gettingdata.yml#step-2)
+
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 * [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  
