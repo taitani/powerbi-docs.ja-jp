@@ -1,50 +1,58 @@
 ---
-title: "レポートに視覚化、ページ、ドリルスルー、またはレポートのフィルターを追加する"
-description: "Power BI でレポートにページ フィルター、視覚化フィルター、またはレポート フィルターを追加する"
+title: レポートに視覚化、ページ、ドリルスルー、またはレポートのフィルターを追加する
+description: Power BI でレポートにページ フィルター、視覚化フィルター、またはレポート フィルターを追加する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d30941e49915122864976868d36418d53844b927
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e222b9bddc3e7c204a728e207b8969cdf13d605f
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
-# <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Power BI レポートへのフィルターの追加 (編集ビュー)
+# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Power BI サービス レポートへのフィルターの追加 (編集ビュー)
 > [!TIP]
 > 最初に「[Power BI レポートのフィルターと強調表示について](power-bi-reports-filters-and-highlighting.md)」を読むことをお勧めします。
+
+この記事では、Power BI サービスの場合の例を示します。 ただし、手順は Power BI Desktop の場合とほぼ同じです。
 > 
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>編集ビューと読み取りビューでのレポート フィルターの違い
 レポートとの対話には 2 つのモードがあります。[読み取りビュー](service-reading-view-and-editing-view.md)と[編集ビュー](service-interact-with-a-report-in-editing-view.md)です。  使用できるフィルター処理機能は、どのモードを使用しているかによって異なります。
 
-* 編集ビューでは、レポート フィルター、ページ フィルター、ビジュアル フィルターを追加できます。 レポートを保存すると、フィルターが一緒に保存されます。 読み取りビューでレポートを表示しているユーザーは、追加したフィルターと対話できますが、変更を保存することはできません。
-* 読み取りビューでは、レポートに既に存在しているレポート フィルター、ページ フィルター、ビジュアル フィルターと対話できますが、フィルターの変更を保存することはできません。
+* 編集ビューでは、レポート フィルター、ページ フィルター、ビジュアル フィルターを追加できます。 レポートを保存すると、フィルターが一緒に保存されます。 読み取りビューでレポートを表示しているユーザーは、追加したフィルターと対話することができます。
+* 読み取りビューでは、レポートに既に存在しているレポート、ドリルスルー、ページ、ビジュアルの各フィルターと対話できますが、新しいフィルターを追加することはできません。 モバイル アプリでレポートを表示する場合でも、フィルター ウィンドウで行う変更の内容はレポートと共に保存されます。  
 
 > [!NOTE]
-> この記事では、レポートの**編集ビュー**でフィルターを作成する方法について説明します。  読み取りビューでのフィルターについて詳しくは、「[Power BI の読み取りビューでレポートと対話する](service-reading-view-and-editing-view.md)」をご覧ください。
-> 
-> 
+> この記事では、レポートの**編集ビュー**でフィルターを作成する方法について説明します。  読み取りビューのフィルターの詳細については、[レポートの読み取りビューのフィルターとの対話](service-reading-view-and-editing-view.md)に関するページを参照してください。
 
-## <a name="visual-filters-page-filters-drillthrough-filters-and-report-filters"></a>ビジュアル フィルター、ページ フィルター、ドリルスルー フィルター、レポート フィルター
-**ページ フィルター**は、レポート ページ上のすべてのビジュアルに適用されます。 **ビジュアル フィルター**は、レポート ページ上の単一のビジュアルに適用されます。 そして、 **レポート フィルター** は、レポート内のすべてのページに適用されます。
 
-![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+## <a name="filters-available-in-the-power-bi-filters-pane"></a>Power BI の *[フィルター]* ウィンドウで使用できるフィルター
+Desktop と Power BI サービスのどちらを使用しているかに関係なく、フィルター ウィンドウはレポート キャンバスの右側に表示されます。 フィルター ウィンドウが表示されない場合は、右上隅にある ">" アイコンを選択して展開してください。
+
+フィルターには次の 4 つの種類があります。
+
+- **ページ フィルター**は、レポート ページ上のすべてのビジュアルに適用されます。     
+- **ビジュアル フィルター**は、レポート ページ上の単一のビジュアルに適用されます。    
+- **ドリルスルー フィルター**は、レポート内の単一のエンティティーに適用されます。    
+- **レポート フィルター**は、レポート内のすべてのページに適用されます。    
+
+    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>特定の視覚化へのフィルター (ビジュアル フィルター) の追加
 これを行うには、次の 2 つの方法があります。 
@@ -130,11 +138,11 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
 3. [フィールド] ウィンドウで新しいレポート レベル フィルターとして追加するフィールドを選び、**[レポート レベル フィルター]** 領域までドラッグします。  
 4. フィルターを適用する値を選びます (「[レポート フィルターの使用方法](power-bi-how-to-report-filter.md)」をご覧ください)。
 
-アクティブ ページおよびレポート内のすべてのページ上のビジュアルに、新しいフィルターが反映されます。 レポートをフィルターとともに保存すると、レポート閲覧者が読み取りビューでフィルターと対話でき、値を選んだりクリアしたりすることができます。
+    アクティブ ページおよびレポート内のすべてのページ上のビジュアルに、新しいフィルターが反映されます。 レポートをフィルターとともに保存すると、レポート閲覧者が読み取りビューでフィルターと対話でき、値を選んだりクリアしたりすることができます。
 
 1. 戻る矢印を選んで、前のレポート ページに戻ります。
 
-## <a name="troubleshooting"></a>トラブルシューティング
+## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 ### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>ビジュアル レベル フィルターとページ レベル フィルターが異なる結果を返す場合があるのはなぜですか。
 ビジュアル レベル フィルターを追加すると、Power BI は集計結果をフィルター処理します。  既定の集計は合計ですが、[集計の種類を変更](service-aggregates.md)することもできます。  
 

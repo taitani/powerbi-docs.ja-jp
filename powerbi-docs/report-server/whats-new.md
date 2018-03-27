@@ -1,34 +1,32 @@
 ---
-title: "Power BI レポート サーバーの新機能"
-description: "Power BI レポート サーバーの新機能について説明します。 これは主要な機能領域を網羅しており、新しいアイテムがリリースされるたびに更新されます。"
+title: Power BI レポート サーバーの新機能
+description: Power BI レポート サーバーの新機能について説明します。 これは主要な機能領域を網羅しており、新しいアイテムがリリースされるたびに更新されます。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/31/2017
-ms.author: maghan
-ms.openlocfilehash: 2ac4efa4e1eff5099fa3732b0fa753b04941979e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 Power BI レポート サーバーの新機能について説明します。 これは主要な機能領域を網羅しており、新しいアイテムがリリースされるたびに更新されます。
 
 Power BI Report Server および Power BI Report Server 向けに最適化された Power BI Desktop をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」を参照してください。
-
-![ヒント](media/whats-new/fyi-tip.png "ヒント") 最新のリリース ノートについては、「[Power BI Report Server - Release notes](release-notes.md)」 (Power BI レポート サーバー - リリース ノート) をご覧ください。
 
 関連する最新情報については、次の資料を参照してください。
 
@@ -37,6 +35,103 @@ Power BI Report Server および Power BI Report Server 向けに最適化され
 * [Power BI 用モバイル アプリの新機能](../mobile-whats-new-in-the-mobile-apps.md)
 * [Power BI チーム ブログ](https://powerbi.microsoft.com/blog/)
 
+## <a name="march-2018-release"></a>2018 年 3 月リリース
+
+2018 年 3 月に、Power BI Report Server 向けに最適化された Power BI Desktop のバージョンに数多くの新しい機能が追加されます。 それらは次の領域に分類されます。 
+- [ビジュアル](#visuals-updates)
+- [レポート](#reporting)
+- [分析](#analytics)
+- [パフォーマンス](#performance)
+- [レポート サーバー](#report-server)
+- [その他](#other-improvements)
+
+### <a name="highlights-of-this-release"></a>このリリースの重要なポイント
+
+ここでは、新しい全機能の長いリストの中で特に興味深いものを紹介します。
+
+#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[テーブルとマトリックス用のルール ベースの条件付き書式](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+ 
+テーブルまたはマトリックスの特定のビジネス ロジックに基づいて、列の背景またはフォントの色を条件付きで色付けするルールを作成します。
+
+#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[ページの表示と非表示](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+
+閲覧者がレポートにアクセスできるようにしたいが、一部のページが完全に完成していない場合があります。 そのページの準備ができるまで非表示にできるようになりました。 通常のナビゲーションからページを非表示にすることもできます。その場合、閲覧者はブックマークやドリルスルーを使用してページにアクセスできます。
+
+#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[ブックマーク](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+
+ブックマークと言えば、レポートのデータでストーリーを伝えるブックマークを作成します。
+
+- [ブックマークのクロス強調表示](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): ブックマークには、ブックマークを作成した時点のレポート ページのクロス強調表示状態が維持され、表示されます。
+- [ブックマークの柔軟性の向上](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): ブックマークはレポートで設定したプロパティを反映し、選択したビジュアルのみに影響します。
+
+#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[複数のグラフにまたがってデータ ポイントを複数選択する](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+
+複数のグラフの複数のデータ ポイントを選択し、クロスフィルター処理をページ全体に適用します。
+
+#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[レポートの複数のページにまたがってスライサーを同期する](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+
+スライサーは、レポート内の 1 ページ、2 ページ、またはそれ以上のページに適用できます。
+
+#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[クイック メジャー](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+テーブル内の既存のメジャーと数値列に基づいて新しいメジャーを作成します。
+
+#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[他のビジュアルに詳細なフィルターを適用する](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+
+1 つのビジュアルの特定のカテゴリをドリルダウンする場合、同じカテゴリでページのすべてのビジュアルをフィルター処理することができます。
+
+### <a name="visuals-updates"></a>ビジュアルの更新
+
+- [テーブルとマトリックスのセルの配置](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment)
+- [テーブルとマトリックスの列の表示単位と精度のコントロール](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits)
+- [横棒グラフと縦棒グラフのオーバーフロー データ ラベル](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow)
+- [デカルトのデータ ラベルの背景色を制御し、ビジュアルをマッピングする](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground)
+- [棒/列の余白を調整する](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding)
+- [グラフの軸ラベルに使用される領域を増やす](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize)
+- [X 軸と Y 軸のグループ化からの散布ビジュアル](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart)
+- [緯度と経度に基づくマップの高密度サンプリング](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps)
+- [レスポンシブ スライサー](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive)
+- [相対日付スライサーのアンカー日付を追加する](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate)
+
+### <a name="reporting"></a>レポート
+
+- [レポートの読み取りモードでビジュアル ヘッダーをオフにする](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader)
+- [低速なデータ ソース向けのレポート オプション](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource)
+- [強化された既定のビジュアル配置](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement)
+- [選択ウィンドウで視覚順を制御する](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane)
+- [レポートでオブジェクトをロックする](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock)
+- [書式設定および分析ウィンドウで検索する](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
+- [フィールドのプロパティ ウィンドウとフィールドの説明](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
+
+### <a name="analytics"></a>分析
+
+- [UTCNOW() と UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
+- [カスタム日付テーブルのマーキング](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+- [他のビジュアルの詳細フィルター](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+- [複数の行カードに対する多次元 AS モデルのセル レベルの書式設定](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
+ 
+### <a name="performance"></a>パフォーマンス
+
+- [フィルター処理のパフォーマンスの向上](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
+- [DirectQuery のパフォーマンスの向上](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
+- [開く動作と保存のパフォーマンス向上](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf)
+- [[データのない項目を表示する] の改善](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData)
+ 
+### <a name="report-server"></a>レポート サーバー 
+
+#### <a name="export-to-accessible-pdf"></a>アクセス可能な PDF へのエクスポート
+
+ページ分割された (RDL) レポートを PDF にエクスポートする際に、アクセス可能な/タグ付けされた PDF ファイルを取得できるようになりました。 サイズは大きくなりますが、スクリーン リーダーやその他の支援技術による読み取りや移動が容易になります。 アクセス可能な PDF を有効にするには、**AccessiblePDF** デバイス情報の設定を **True** に指定します。 「[PDF デバイス情報の設定](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings)」と「[デバイス情報設定の変更](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)」を参照してください。
+
+
+### <a name="other-improvements"></a>その他の改良
+
+- [[例から列を追加する] の改善](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples)
+- [[コンサルティング サービス] クイック リンク](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#consultingServices)
+- [エラー レポートの改善](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors)
+- [以前に発生したエラーの表示](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors)
+
+ 
 ## <a name="october-2017-release"></a>2017 年 10 月リリース
 ### <a name="power-bi-report-data-sources"></a>Power BI レポート データ ソース
 Power BI Report Server の Power BI レポートは、さまざまなデータ ソースに接続できます。 データをインポートしてデータ更新スケジュールを設定したり、DirectQuery または SQL Server Analysis Services へのライブ接続を使って直接クエリを実行したりできます。 スケジュールされた更新および DirectQuery をサポートするデータ ソースの一覧については、「Power BI Report Server での Power BI レポート データ ソース」をご覧ください。
@@ -111,7 +206,6 @@ Power BI Report Server は、Power BI の新しいテーブル ビジュアル�
 * レポートにコメントを含めてコラボレーションを強化
 
 ## <a name="next-steps"></a>次の手順
-[Power BI レポート サーバーのリリース ノート](release-notes.md)  
 [ユーザー向けハンドブック](user-handbook-overview.md)  
 [管理者向けハンドブック](admin-handbook-overview.md)  
 [クイックスタート: Power BI レポート サーバーをインストールする](quickstart-install-report-server.md)  

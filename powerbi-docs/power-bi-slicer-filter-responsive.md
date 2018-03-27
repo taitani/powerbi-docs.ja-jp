@@ -1,15 +1,15 @@
 ---
-title: "Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成"
-description: "レポートに合わせてサイズを変更できるレスポンシブ スライサーの作成方法について説明します。"
+title: Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成
+description: レポートに合わせてサイズを変更できるレスポンシブ スライサーの作成方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: feba171d6a81f7e9760df2d9fabecce2cc544dc2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ab907dd15e43892147967902fbb94d09ef4125b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Power BI (プレビュー) でサイズを変更することが可能なレスポンシブ スライサーの作成
 
@@ -78,7 +78,7 @@ Power BI Desktop では、レポートのページごとに電話レイアウト
 
 ## <a name="make-a-time-or-range-slicer-responsive"></a>時間スライサーまたは範囲スライサーをレスポンシブにする
 
-同じ手順を使用して、時間スライサーまたは範囲スライサーをレスポンシブにすることができます。 **[レスポンシブ]** を **[オン]** に設定した後、次のことに注意してください。
+同じ手順に従って、時間スライサーまたは範囲スライサーをレスポンシブにすることができます。 **[レスポンシブ]** を **[オン]** に設定した後、次のことに注意してください。
 
 - ビジュアルは、キャンバスで許容されるサイズに応じて、入力ボックスの順序を最適化します。 
 - データ要素の表示は、スライサーをできるだけ使用できるようにするため、キャンバスで許容されるサイズに基づいて最適化されます。 

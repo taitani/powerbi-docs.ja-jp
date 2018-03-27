@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で図形マップを使用する (プレビュー)"
-description: "Power BI Desktop で図形マップを使用して領域間の相対比較を作成する"
+title: Power BI Desktop で図形マップを使用する (プレビュー)
+description: Power BI Desktop で図形マップを使用して領域間の相対比較を作成する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
 Power BI Desktop では、**[マップのシェイプ]** のビジュアルを作成し、地図上のさまざまな地域にそれぞれ異なる色を適用することで地域間の相対比較を表示します。 **[マップ]** のビジュアルとは異なり、**[マップのシェイプ]** では、地図上にデータ ポイントの地理的場所を正確に表示することはできません。図形マップの主な目的は、地図上のさまざまな地域にそれぞれ異なる色を適用することで、地域間の相対比較を表示することにあります。
@@ -73,6 +73,23 @@ Power BI Desktop は、**[マップのシェイプ]** のビジュアルのデ�
 **TopoJSON** マップ ファイルを使用するには、ShapeMap ビジュアルをレポートに追加し、データを *[場所]* バケットと *[値]* バケットに追加します。 その後、**[視覚化]** ウィンドウで **[形式]** セクションを選択し (次の画像の (1) のような絵筆型のアイコン)、**[図形]** セクションを展開し、**[+ マップの追加]** を選択します。
 
 ![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="sample-custom-map"></a>サンプル カスタム マップ
+*米国連邦地検* は、訴訟および取扱件数データに関する年次会計報告を公表しました。  これらすべてのレポートは以下のリンクで確認できます。
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+州は複数の区に分けられるため、カスタム シェイプ マップを使用する必要があります。  米国司法管轄区の **TopoJSON** マップを **Power BI Desktop** にインポートすることで、地区検事長の年次会計報告データを視覚化できます。  次の画像はこのマップの例を示しています。
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+個々の州マップについても、含まれる区に基づいて詳細を表示することができます。 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+このデータセットと視覚エフェクトを試したい場合は、以下のリンクを使用して、このレポートの生成に使用された元の PBIX ファイルをダウンロードできます。
+
+* [カスタム シェイプ マップのデモ .PBIX ファイル](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>マップ データの取得
 **[マップのシェイプ]** をテストできるようにモデルに迅速にデータを入力するには、**[ホーム]** リボンから **[データの入力]** を選択します。

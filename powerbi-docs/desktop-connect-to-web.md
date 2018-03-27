@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop から Web ページに接続する"
-description: "Power BI Desktop で Web ページのデータに簡単に接続して使用します"
+title: Power BI Desktop から Web ページに接続する
+description: Power BI Desktop で Web ページのデータに簡単に接続して使用します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0ee3ff3b3ca33ea4760f9f08b4e05cbd65e2ab34
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Power BI Desktop から Web ページに接続する
 Web ページに接続し、そのデータを Power BI Desktop にインポートして、表示やデータ モデルで使用できます。
@@ -47,7 +47,7 @@ Power BI Desktop にデータをインポートする前に、**[編集]** ボ�
 
 Web ページへの接続と Power BI Desktop へのデータの取り込みは以上です。
 
-この後は、これらのフィールドをレポート キャンバスにドラッグして、必要なすべての表示を作成できます。 他のデータと同じように Web ページのデータを処理できます。データを調整したり、データとモデルの他のデータ ソースとの間にリレーションシップを作成したり、必要な Power BI レポートを作成するための処理を行ったりできます。
+この後は、これらのフィールドをレポート キャンバスにドラッグして、必要なすべての表示を作成できます。 他のデータと同じように Web ページのデータを使用することもできます。データを調整したり、データとモデルの他のデータ ソースとの間にリレーションシップを作成したり、必要な Power BI レポートを作成するための処理を行ったりできます。
 
 Web ページへの接続の詳細については、「[Power BI Desktop 概要ガイド](desktop-getting-started.md)」を参照してください。
 

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で Analysis Services の表形式データを使用する"
-description: "Power BI Desktop の Analysis Services の表形式データ"
+title: Power BI Desktop で Analysis Services の表形式データを使用する
+description: Power BI Desktop の Analysis Services の表形式データ
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 02ce801db4eb6f5040c1d0e31ee0746a475c0bbb
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop で Analysis Services の表形式データを使用する
 Power BI Desktop では、2 つの方法で SQL Server Analysis Services 表形式モデルに接続し、データを取得することができます。ライブ接続を使用して探索するか、項目を選択して Power BI Desktop にインポートします。
@@ -54,7 +54,7 @@ Power BI Desktop で動的なレポートを作成したら、Power BI サイト
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
 * 項目を選択してデータを取得する場合は、ナビゲーターで表形式モデルまたはパースペクティブを選択します。 さらに、特定のテーブルまたは列だけを読み込むよう選択できます。 読み込み前にデータを整形するには、[編集] をクリックしてクエリ エディターを開きます。 準備ができたら、[読み込み] をクリックして、Power BI Desktop にデータをインポートします。
 
-![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
+  ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 **質問:** オンプレミス データ ゲートウェイが必要ですか?

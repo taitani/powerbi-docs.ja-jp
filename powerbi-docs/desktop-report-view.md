@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop のレポート ビュー"
-description: "Power BI Desktop のレポート ビュー"
+title: Power BI Desktop のレポート ビュー
+description: Power BI Desktop のレポート ビュー
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e68a819325e601f869b34c4ccbe3e873fe9408b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af10699ea30b9d8e8dd8e3495860c43387a7e0be
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop のレポート ビュー
 Power BI を操作したことがあるユーザーは、レポートを作成して動的なパースペクティブとデータへの洞察を得ることがいかに簡単であるかをご存知でしょう。 Power BI では、Power BI Desktop にさらに多くの高度な機能を備えています。 Power BI Desktop を使用すると、高度なクエリの作成、複数のソースからのデータのマッシュアップ、テーブル間のリレーションシップの作成などを行えます。
 
-Power BI Desktop には、**[レポート] ビュー**が含まれています。ここでは、視覚化を含む任意の数のレポート ページを作成することができます。 [レポート] ビューには、Power BI サービスのレポートの [編集] ビューとほとんど同じデザイン機能が用意されています。 視覚化の移動、コピーと貼り付け、マージなどを行えます。
+Power BI Desktop には、**[レポート] ビュー**が含まれています。ここでは、視覚化を含む任意の数のレポート ページを作成することができます。 [レポート] ビューには、Power BI サービスのレポートの [編集] ビューとほとんど同じデザイン機能が用意されています。 視覚化の移動、コピーと貼り付け、マージなどを行うことができます。
 
 これらの相違点は、Power BI Desktop を使用すると、データのクエリとモデルを操作して、レポートでの最適な分析を支えるデータが確実に得られるようになることです。 その後、Power BI Desktop のファイルは、ローカルのドライブまたはクラウドに関係なく、お好みの場所に保存することができます。
 
@@ -36,7 +36,7 @@ Power BI Desktop には、**[レポート] ビュー**が含まれています�
 
 ![](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-左側のナビゲーション バーのアイコンを選んで、**[レポート] ビュー**、**[データ] ビュー**、**[リレーションシップ] ビュー**の間で切り替えることができます。
+左側のナビゲーション バーのアイコンを選択して、**[レポート] ビュー**、**[データ] ビュー**、**[リレーションシップ] ビュー**の間で切り替えることができます。
 
 ![](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
@@ -44,7 +44,7 @@ Power BI Desktop には、**[レポート] ビュー**が含まれています�
 
 ![](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-視覚化の種類を変更するには、リボンの **[視覚化]** グループから視覚化を選ぶか、右クリックして **[視覚化の種類を変更]** アイコンから別の視覚化を選びます。
+視覚化の種類を変更するには、リボンの **[視覚化]** グループから視覚化を選択するか、右クリックして **[視覚化の種類を変更]** アイコンから別の視覚化を選択します。
 
 ![](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -53,7 +53,7 @@ Power BI Desktop には、**[レポート] ビュー**が含まれています�
 > 
 > 
 
-レポートは、1 つ以上の空白ページから開始します。 ページは、キャンバスの左側にある [ナビゲーター] ウィンドウに表示されます。 あらゆる種類の視覚化をページに追加できますが、過剰にならないように注意します。 ページに視覚化が多すぎると、込み入った表示になり、適切な情報を見つけにくくなります。 リボンで **[新しいページ]** をクリックするだけで、レポートに新しいページを追加できます。
+レポートは、1 つ以上の空白ページから開始します。 ページは、キャンバスの左側にある [ナビゲーター] ウィンドウに表示されます。 あらゆる種類の視覚化をページに追加できますが、過剰にならないように注意します。 ページに視覚化が多すぎると、込み入った表示になり、適切な情報を見つけにくくなります。 レポートには新しいページを追加することができます。 リボンの **[新しいページ]** をクリックするだけです。
 
 ![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 

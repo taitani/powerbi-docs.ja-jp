@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop の [分析] ウィンドウを使用する"
-description: "Power BI Desktop でビジュアルの動的な参照線を作成します"
+title: Power BI Desktop の [分析] ウィンドウを使用する
+description: Power BI Desktop でビジュアルの動的な参照線を作成します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 24f6f9037937049d24321791046aaf7a14e9fb6f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 369d99406cd286be7cf1afb3c02c98c1711531ae
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop の [分析] ウィンドウを使用する
 **Power BI Desktop** の **[分析]** ウィンドウによって、動的な*参照線*をビジュアルに追加して、重要な傾向や情報に注目させることができます。 **[分析]** ウィンドウは Power BI Desktop の **[視覚化]** 領域にあります。
@@ -60,7 +60,7 @@ ms.lasthandoff: 02/24/2018
    ![](media/desktop-analytics-pane/analytics-pane_3.png)
 3. 新しい線を作成するには、**[+ 追加]** を選択します。 テキスト ボックスをダブルクリックして名前を入力し、線の名前を指定できます。
    
-   *色* 、 *透明度* 、 *スタイル* 、 *位置*  (ビジュアルのデータ要素を基準にして)、ラベルを表示するかどうかなど、線についてのあらゆる種類のオプションがあります。 重要なのは、**[メジャー]** ドロップダウンを選択することで線の基になるビジュアルの**メジャー**を選択できることです。[メジャー] ドロップダウンにはビジュアルのデータ要素が自動的に設定されます。 この例では、メジャーとして *Weather* を選択し、*Average Weather* というラベルを付けて、他のいくつかのオプションを次のようにカスタマイズします。
+   *色* 、 *透明度* 、 *スタイル* 、 *位置*  (ビジュアルのデータ要素を基準にして)、ラベルを表示するかどうかなど、線についてのあらゆる種類のオプションがあります。 重要なのは、**[メジャー]** ドロップダウンを選択することで線の基になるビジュアルの**メジャー**を選択できることです。このドロップダウンにはビジュアルのデータ要素が自動的に設定されます。 この例では、メジャーとして *Weather* を選択し、*Average Weather* というラベルを付けて、他のいくつかのオプションを次のようにカスタマイズします。
    
    ![](media/desktop-analytics-pane/analytics-pane_4.png)
 4. データ ラベルを表示する場合は、**[データ ラベル]** スライダーをオンにします。 このスライダーをオンにすると、次の図のようにデータ ラベルの他のオプションが表示されます。

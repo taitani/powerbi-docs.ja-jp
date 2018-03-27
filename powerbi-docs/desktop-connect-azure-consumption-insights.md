@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop での Azure Consumption Insights データへの接続 (Beda)"
-description: "Power BI Desktop を使用して、Azure に簡単に接続し、使用状況を把握できます"
+title: Power BI Desktop での Azure Consumption Insights データへの接続 (Beda)
+description: Power BI Desktop を使用して、Azure に簡単に接続し、使用状況を把握できます
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop での Azure Consumption Insights への接続 (Beda)
 **Azure Consumption Insights** コネクタを使用すれば、**Power BI Desktop** で Azure に接続して、組織における Azure サービスの使用状況に関する詳細なデータと情報を得ることができます。 また、メジャー、カスタム列、およびビジュアルを作成して、組織での Azure の使用状況についてレポートを作成し、共有することができます。 このリリースの **Azure Consumption Insights** コネクタはベータ版であり、変更される可能性があります。
@@ -61,7 +61,7 @@ ms.lasthandoff: 02/24/2018
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> *Summary と *PriceSheet* テーブルを使用できるのは、登録レベルの API キーの場合のみです。 また、これらのテーブル内のデータには、既定で *Usage* と *PriceSheet* の現在の月のデータが含まれます。 *Summary* と *MarketPlace* テーブルは現在の月に制限されません。
+> *Summary* と *PriceSheet* テーブルを使用できるのは、登録レベルの API キーの場合のみです。 また、これらのテーブル内のデータには、既定で *Usage* と *PriceSheet* の現在の月のデータが含まれます。 *Summary* と *MarketPlace* テーブルは現在の月に制限されません。
 > 
 > 
 
@@ -90,10 +90,10 @@ Azure には、空のクエリを使用して取得できる、サンプルの�
 
 レポートを操作する場合やクエリを作成する場合は、次のようにします。
 
-* 現在の日付を起点として月数を定義するには、*noOfMonths* を使用します。
+* 現在の日付を起点として月数を定義するには、*numberOfMonth* を使用します。
   * 現在の日付を起点として、インポートする月数を表す 1 から 36 までの値を使用します。 インポートの制約と Power BI のクエリで許容されるデータ量のしきい値を回避するため、12 か月を超えるデータを取得しないようにしてください。
 * 過去の期間の月数を定義するには、*startBillingDataWindow* と *endBillingDataWindow* を使用します。
-* *noOfMonths* は、*startBillingDataWindow* や *endBillingDataWindow* と併用*しない*でください。
+* *numberOfMonth* は、*startBillingDataWindow* や *endBillingDataWindow* と併用*しない*でください。
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Azure Enterprise Connector からの移行
 一部の顧客は *Azure Enterprise Connector (Beta)* を使用してビジュアルを作成しています。このベータ版は最終的には廃止され、**Azure Consumption Insights** コネクタと置き換えられます。 **Azure Consumption Insights** コネクタでは、以下のような機能および拡張機能が提供されます。
@@ -127,11 +127,11 @@ Azure には、空のクエリを使用して取得できる、サンプルの�
 次に、新しい詳細テーブルに、作成したカスタム列またはメジャーを移動する必要があります。 この手順を以下に示します。
 
 1. メモ帳 (または他のテキスト エディター) を開きます。
-2. 移動するメジャーを選択し、*[数値]* フィールドからテキストをコピーして、メモ帳に貼り付けます。
+2. 移動するメジャーを選択し、*[数値]* フィールドからテキストをコピーして、メモ帳に配置します。
    
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. *Query1* を元の詳細テーブルの名前に変更します。
-4. テーブルを右クリックし、**[新しいメジャー]** を選択して、テーブルに新しいメジャーとカスタム列を作成します。次にストアのメジャーと列を切り取って貼り付けます (すべてのメジャーと列に対して繰り返します)。
+4. テーブルを右クリックし、**[新しいメジャー]** を選択して、テーブルに新しいメジャーとカスタム列を作成します。次に格納されているメジャーと列を切り取って貼り付けます (すべてのメジャーと列に対して繰り返します)。
 
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>手順 4: リレーションシップを持つテーブルを再リンクする
 多くのダッシュボードには、日付テーブルやカスタム プロジェクトで使用されるテーブルなど、検索またはフィルタリングに使用されるテーブルが追加されています。 これらのリレーションシップを再確立することで、未解決のほとんどの問題が解決されます。 その方法を次に示します。

@@ -1,27 +1,27 @@
 ---
-title: "Power BI レポート サーバーのインストール"
-description: "Power BI レポート サーバーのインストール方法について説明します。 "
+title: Power BI レポート サーバーのインストール
+description: Power BI レポート サーバーのインストール方法について説明します。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 8b8bb3867ec1630dc5163148e4aa20e10c0504b7
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
@@ -29,18 +29,17 @@ Power BI レポート サーバーのインストール方法について説明�
 
  **ダウンロード** ![ダウンロード](media/install-report-server/download.png "ダウンロード")
 
-Power BI Report Server をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」に移動します。 
+Power BI Report Server をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」に移動して、**[無料試用版をダウンロードする]** を選択します。 
 
-Microsoft ダウンロード センターに移動して [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Power BI Report Server 向けに最適化 - 2017 年 10 月) をダウンロードします。
-
-![ヒント](media/install-report-server/fyi-tip.png "ヒント") 最新のリリース ノートについては、「[Power BI Report Server - Release notes](release-notes.md)」 (Power BI レポート サーバー - リリース ノート) をご覧ください。
+## <a name="video-install-power-bi-report-server"></a>ビデオ: Power BI Report Server のインストール
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>始める前に
-Power BI レポート サーバーをインストールする前に、「[Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件](system-requirements.md)」を確認することをお勧めします。
+Power BI Report Server をインストールする前に、「[Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件](system-requirements.md)」を確認することをお勧めします。
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Report Server のプロダクト キー
+
 #### <a name="power-bi-premium"></a>Power BI Premium
 Power BI Premium を購入した場合は、Power BI 管理者ポータルの **[Premium 設定]** タブ内で、Power BI Report Server のプロダクト キーにアクセスできます。 これが可能なのは、グローバル管理者、または Power BI サービス管理者ロールが割り当てられているユーザーのみです。
 
@@ -54,12 +53,9 @@ Power BI Premium を購入した場合は、Power BI 管理者ポータルの **
 SQL Server Enterprise SA 契約がある場合は、[ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からプロダクト キーを取得できます。
 
 ## <a name="install-your-report-server"></a>レポート サーバーのインストール
-Power BI レポート サーバーのインストールは簡単です。 ファイルのインストールはわずかな手順だけです。
+Power BI Report Server のインストールは簡単です。 ファイルのインストールはわずかな手順だけです。
 
-> [!NOTE]
-> インストール時に SQL Server データベース エンジン サーバーが使用可能になっている必要はありません。 インストール後に Reporting Services を構成する必要があります。
-> 
-> 
+インストール時に SQL Server データベース エンジン サーバーが使用可能になっている必要はありません。 インストール後に Reporting Services を構成する必要があります。
 
 1. PowerBIReportServer.exe の場所を検索し、インストーラーを起動します。
 2. **[Install Power BI Report Server]**\(Power BI レポート サーバーのインストール\) を選択します。
@@ -84,15 +80,14 @@ Power BI レポート サーバーのインストールは簡単です。 ファ
    
     ![インストール先のパスを指定する](media/install-report-server/pbireportserver-install-file-path.png)
    
-   > [!NOTE]
-   > 既定のパスは、C:\Program Files\Microsoft Power BI Report Server です。
-   > 
-   > 
-7. 正常にセットアップした後で、**[Configure Report Server]**\(レポート サーバーの構成\) を選択し、Reporting Services 構成マネージャーを起動します。
+    既定のパスは、C:\Program Files\Microsoft Power BI Report Server です。
+
+1. 正常にセットアップした後で、**[Configure Report Server]**\(レポート サーバーの構成\) を選択し、Reporting Services 構成マネージャーを起動します。
    
     ![レポート サーバーを構成する](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuration-your-report-server"></a>レポート サーバーを構成する
+## <a name="configuring-your-report-server"></a>レポート サーバーを構成する
+
 セットアップで **[Configure Report Server]**\(レポート サーバーの構成\) を選択した後で、Reporting Services 構成マネージャーが表示されます。 詳細については、「[Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)」(Reporting Services 構成マネージャー) を参照してください。
 
 Reporting Services の初期構成を完了するには、[レポート サーバー データベースを作成する](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)必要があります。 この手順を完了するには、SQL Server データベース サーバーが必要です。

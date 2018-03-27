@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で Snowflake Computing ウェアハウスに接続する"
-description: "Power BI Desktop で Snowflake Computing ウェアハウスに簡単に接続して使用する"
+title: Power BI Desktop で Snowflake Computing ウェアハウスに接続する
+description: Power BI Desktop で Snowflake Computing ウェアハウスに簡単に接続して使用する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8e4ad8d1780684ee122565dee29c0cea78dc8131
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 762a8bebfa757b41bfeafb54b278eca41a57f35d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Power BI Desktop で Snowflake に接続する
 Power BI Desktop では、**Snowflake** Computing ウェアハウスに接続し、Power BI Desktop の他のデータ ソースの場合と同様に基になっているデータを使用できます。 
@@ -33,7 +33,7 @@ Power BI Desktop では、**Snowflake** Computing ウェアハウスに接続し
 > 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Snowflake Computing ウェアハウスに接続する
-**Snowflake** Computing ウェアハウスに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選びます。 左側のカテゴリから **[データベース]** を選ぶと、**[Snowflake]** が表示されます。
+**Snowflake** Computing ウェアハウスに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリから **[データベース]** を選ぶと、**[Snowflake]** が表示されます。
 
 ![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
 
