@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 9951137ac10752a39f0e4ad555a36e2935faf327
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
 Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール方法について説明します。
@@ -56,7 +56,7 @@ Power BI Report Server 向けに最適化された Power BI Desktop のバージ
 ## <a name="verify-you-are-using-the-correct-version"></a>正しいバージョンを使用していることを確認する
 Power BI Desktop の起動画面またはタイトル バーを見て、正しい Power BI Desktop を使用していることを確認できます。 タイトル バーには、リリースの月と年が示されます。
 
-![Power BI Report Server 向けに最適化された Power BI Desktop のタイトル バー](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+![Power BI Report Server 向けに最適化された Power BI Desktop のタイトル バー](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
 
 Power BI サービスの Power BI Desktop バージョンの場合、タイトル バーに月と年は示されません。
 
