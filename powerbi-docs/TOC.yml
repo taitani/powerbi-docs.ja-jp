@@ -668,8 +668,8 @@
           href: desktop-ssas-multidimensional.md
         - name: Power BI Desktop で CSV に接続する
           href: desktop-connect-csv.md
-        - name: Power BI Desktop で Adobe Analytics に接続する (プレビュー)
-          href: desktop-connect-csv.md
+        - name: Power BI Desktop で Adobe Analytics に接続する
+          href: desktop-connect-adobe-analytics.md
         - name: Power BI Desktop で Impala データベースに接続する
           href: desktop-connect-impala.md
         - name: Power BI Desktop で OData フィードに接続する
@@ -960,6 +960,8 @@
           href: developer/integrate-report.md
         - name: コンテンツをアプリケーションに統合する (ユーザーがデータを所有)
           href: developer/embed-sample-for-customers.md
+        - name: ソブリン クラウド顧客向けのアプリケーションに Power BI コンテンツを埋め込む
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: カスタム レイアウトをアプリに埋め込む
           href: developer/embedded-custom-layout.md
         - name: Azure Active Directory テナントを作成する
