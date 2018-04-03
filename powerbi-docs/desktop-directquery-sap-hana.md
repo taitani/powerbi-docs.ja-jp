@@ -1,15 +1,15 @@
 ---
-title: "Power BI での SAP HANA 用 DirectQuery"
-description: "SAP HANA で DirectQuery を使用する場合の考慮事項"
+title: Power BI での SAP HANA 用 DirectQuery
+description: SAP HANA で DirectQuery を使用する場合の考慮事項
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery と SAP HANA
 **SAP HANA** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP HANA には 2 つの方法で接続できます。
@@ -43,7 +43,7 @@ SAP HANA をリレーショナル ソースとして扱うオプションは、S
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>SAP HANA を多次元ソースとして扱う (既定)
 
-SAP HANA に対するすべての新規接続では、この接続方法が既定で使われ、SAP HANA を多次元ソースとして扱います。 SAP HANA への接続をリレーショナル ソースとして扱うには、**[ファイル] > [オプションと設定] > [直接クエリ]** の順に選択し、**[SAP HANA をリレーショナル ソースとして扱う]** チェック ボックスをオンにします。 この機能が**プレビュー**段階の間は、多次元手法で作成されたレポートは Power BI サービスに公開*できません*。公開すると、Power BI サービス内でレポートを開いたとき、エラーが発生します。  
+SAP HANA に対するすべての新規接続では、この接続方法が既定で使われ、SAP HANA を多次元ソースとして扱います。 SAP HANA への接続をリレーショナル ソースとして扱うには、**[ファイル] > [オプションと設定] > [オプション] > [直接クエリ]** の順に選択し、**[SAP HANA をリレーショナル ソースとして扱う]** チェック ボックスをオンにします。 この機能が**プレビュー**段階の間は、多次元手法で作成されたレポートは Power BI サービスに公開*できません*。公開すると、Power BI サービス内でレポートを開いたとき、エラーが発生します。  
 
 多次元ソースとして SAP HANA に接続しているときは、次のようになります。
 
@@ -63,11 +63,11 @@ SAP HANA を多次元ソースとして扱うと、もう 1 つの "*リレー�
 
 * SAP HANA では、そのラベルとして別の属性を使用するように属性を定義できます。 たとえば、**Product** (値は 1、2、3...) では、そのラベルとして **ProductName** (値は Bike、Shirt、Gloves など) を使用できます。 この場合、**Product** という 1 つのフィールドがフィールド一覧に表示されます。その値は Bike、Shirt、Gloves などのラベルになりますが、並べ替えと一意性の決定はキー値 1、2、3 で行われます。 非表示列の **Product.Key** も作成されます。必要であれば、基礎となるキー値にアクセスできます。 
 
-基になる SAP HANA ビューで定義されている変数が接続時に表示されて、必要な値を入力できます。 この値は後で変更できます。リボンから **[クエリを編集]** を選択し、表示されたドロップダウン メニューから **[変数を編集]** を選択してください。 
+基になる SAP HANA ビューで定義されている変数が接続時に表示されて、必要な値を入力できます。 この値は後で変更できます。リボンから **[クエリを編集]** を選択し、表示されたドロップダウン メニューから **[パラメーターの管理]** を選択します。 
 
 許可されるモデリング操作には、DirectQuery 使用時の一般的なケースよりも制約が多くなります。SAP HANA から常に正しい集計データが得られるようにする必要があるためです。 ただし、さまざまな追加や変更が可能です。たとえば、メジャーを定義したり、フィールドの名前を変更したり、フィールドを非表示にしたり、表示形式を定義したりできます。 このような変更はすべて更新時に保存され、SAP HANA ビューに行われた競合しない変更が適用されます。 
 
-### <a name="additional-modelling-restrictions"></a>その他のモデリングの制限
+### <a name="additional-modeling-restrictions"></a>その他のモデリングの制限
 
 DirectQuery を使用して SAP HANA に接続する (多次元ソースとして扱う) 場合のモデリング上のその他の主要な制限は次のとおりです。 
 
@@ -80,7 +80,7 @@ DirectQuery を使用して SAP HANA に接続する (多次元ソースとし�
 
 ### <a name="additional-visualization-restrictions"></a>視覚エフェクトのその他の制限
 
-DirectQuery を使用して SAP HANA に接続する (多次元ソースとして扱う) とき、ビジュアルにいくつかの制約があります。 
+DirectQuery を使用して SAP HANA に接続する (多次元ソースとして扱う) とき、ビジュアルには制約があります。 
 * **列集計ができない:** ビジュアルでは列の集計を変更できません。常に *[集計しない]* です。
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>SAP HANA をリレーショナル ソースとして扱う 
@@ -138,7 +138,7 @@ SAP HANA に接続するためのいずれの手法でも、DirectQuery の使�
 * **その他の階層メタデータ** - 階層の基本構造が Power BI に表示されますが、一部の階層メタデータ (不均衡階層の動作制御など) には効力がありません。
 繰り返しになりますが、これは SQL インターフェイスによって課される制限に起因します。
 * **SSL で接続する** - SSL を使用するように構成されている SAP HANA インスタンスには接続できません。
-属性ビューのサポート - Power BI は分析ビューと計算ビューに接続できるが、属性ビューには直接接続できません。
+* **属性ビューのサポート** - Power BI は分析ビューと計算ビューに接続できるが、属性ビューには直接接続できません。
 * **カタログ オブジェクトのサポート** - Power BI はカタログ オブジェクトに接続できません。
 * **公開後、変数に変更する** - レポートの公開後、Power BI で直接、SAP HANA 変数の値を変更することはできません。 
  

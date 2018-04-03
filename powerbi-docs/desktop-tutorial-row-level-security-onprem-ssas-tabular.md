@@ -1,15 +1,15 @@
 ---
-title: "チュートリアル: Power BI での Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ"
-description: "チュートリアル: Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ"
+title: 'チュートリアル: Power BI での Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ'
+description: 'チュートリアル: Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: selvarms
 manager: amitaro
 backup: davidi
 editor: davidi
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>チュートリアル: Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ
 このチュートリアルでは、**Analysis Services 表形式モデル**内に**行レベルのセキュリティ**を実装するために必要な手順と、Power BI レポートでのその使用方法を示します。 このチュートリアルの手順に従って、サンプル データセットを完了することで必要な手順を理解できるようになっています。
@@ -38,31 +38,31 @@ ms.lasthandoff: 03/12/2018
 * レポートに基づいて新しいダッシュ ボードを作成し、最後に、
 * 同僚とダッシュボードを共有する
 
-このチュートリアルの手順に従うには、**AdventureworksDW2012** データベース (**[こちら](http://msftdbprodsamples.codeplex.com/releases/view/55330)**からダウンロードできます) が必要です。
+このチュートリアルの手順に従うには、**AdventureworksDW2012** データベース (**[リポジトリ](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**からダウンロードできます) が必要です。
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>タスク 1: ユーザーのセキュリティ テーブルを作成し、データのリレーションシップを定義する
-**SQL Server Analysis Services (SSAS) 表形式**モデルを使用して行レベルの動的なセキュリティを定義する方法を説明する記事は多数あります。 [サンプルでは、この記事に従います。](https://msdn.microsoft.com/library/hh479759.aspx) 以下の手順では、このチュートリアルの最初のタスクについて説明します。
+**SQL Server Analysis Services (SSAS) 表形式**モデルを使用して行レベルの動的なセキュリティを定義する方法を説明する記事は多数あります。 サンプルについては、記事「[行フィルターを使用した動的なセキュリティの実装](https://msdn.microsoft.com/library/hh479759.aspx)」を参照してください。 以下の手順では、このチュートリアルの最初のタスクについて説明します。
 
 1. サンプルでは、**AdventureworksDW2012** リレーショナル データベースを使用します。 そのデータベースで、次の図のように、**DimUserSecurity** テーブルを作成します。 このサンプルでは、SQL Server Management Studio (SSMS) を使用してテーブルを作成します。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
-2. テーブルが作成され、保存されたら、次の図のように、**DimUserSecurity** テーブルの **SalesTerritoryID** 列と **DimSalesTerritory** テーブルの **SalesTerritoryKey** 列の間にリレーションシップを作成する必要があります。 この作業は **SSMS** から行うことができます。その場合、**DimUserSecurity** テーブルを右クリックして、**[編集]** を選択します。
+2. テーブルが作成され、保存されたら、次の図のように、**DimUserSecurity** テーブルの **SalesTerritoryID** 列と **DimSalesTerritory** テーブルの **SalesTerritoryKey** 列の間にリレーションシップを作成する必要があります。 この作業は **SSMS** から行うことができます。その場合、**DimUserSecurity** テーブルを右クリックして、**[デザイン]** を選択します。 メニューから、**[テーブル デザイナー]、[リレーションシップ]** の順に選択します。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
-3. テーブルを保存し、もう一度 **DimUserSecurity** テーブルを右クリックしてから **[Edit top 200 rows]** (上位 200 行の編集) を選択して、テーブルにユーザー情報の行をいくつか追加します。 これらのユーザーを追加すると、**DimUserSecurity** テーブルの行は次の図のようになります。
+3. テーブルを保存し、もう一度 **DimUserSecurity** テーブルを右クリックしてから **[上位 200 行の編集]** を選択して、テーブルにユーザー情報の行をいくつか追加します。 これらのユーザーを追加すると、**DimUserSecurity** テーブルの行は次の図のようになります。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
    これらのユーザーは以降のタスクで使用します。
 4. 次に、**DimSalesTerritory** テーブルで*内部結合*を行います。このテーブルには、ユーザーに関連付けられている地域の詳細が示されます。 以下のコードで*内部結合*を実行します。*内部結合*が正常に行われると、テーブルはその下の図のようになります。
    
-       **select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeKey, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryKey]**
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. 上の図に販売地域ごとの担当ユーザーなどの情報が示されていることに注目してください。 **手順 2.** でリレーションシップを作成したため、このようなデータが表示されます。 また、ユーザー **Jon Doe がオーストラリアの販売地域に含まれている**ことにも注目してください。 Jon Doe は以降の手順とタスクでも使用します。
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>タスク 2: ファクト テーブルとディメンション テーブルを持つ表形式モデルを作成する
-1. リレーショナル データ ウェアハウスが準備できたら、表形式モデルを定義します。 モデルは **SQL Server Data Tools (SSDT)** を使用して作成できます。 表形式モデルを定義する方法の詳細については、[この記事を参照](https://msdn.microsoft.com/library/hh231689.aspx)してください。
+1. リレーショナル データ ウェアハウスが準備できたら、表形式モデルを定義します。 モデルは **SQL Server Data Tools (SSDT)** を使用して作成できます。 表形式モデルを定義する方法の詳細については、[Create a New Tabular Model Project](https://msdn.microsoft.com/library/hh231689.aspx) (新しい表形式モデル プロジェクトの作成) してください。
 2. 次に示すように、モデルに必要なすべてのテーブルをインポートします。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
@@ -76,14 +76,15 @@ ms.lasthandoff: 03/12/2018
 6. この手順では、**LOOKUPVALUE** 関数を使用して、Windows ユーザー名が **USERNAME** 関数によって返されるユーザー名と同じである列の値を返すようにします。 これで、**LOOKUPVALUE** によって返される値が同じテーブルまたは関連テーブルの値と一致した場合に、クエリを制限できます。 **[DAX フィルター]** 列に、次の数式を入力します。
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-7. この数式では、**LOOKUPVALUE** 関数は、**DimUserSecurity[UserName]** が現在ログオンしている Windows ユーザー名と同じで、**DimUserSecurity[SalesTerritoryID]** が **DimSalesTerritory[SalesTerritoryKey]** と同じである場合に、**DimUserSecurity[SalesTerritoryID]** 列のすべての値を返します。
+    この数式では、**LOOKUPVALUE** 関数は、**DimUserSecurity[UserName]** が現在ログオンしている Windows ユーザー名と同じで、**DimUserSecurity[SalesTerritoryID]** が **DimSalesTerritory[SalesTerritoryKey]** と同じである場合に、**DimUserSecurity[SalesTerritoryID]** 列のすべての値を返します。
    
    次に、**LOOKUPVALUE** によって返される Sales セットの SalesTerritoryKey を使用して、**DimSalesTerritory** に示される行が制限されます。 行の **SalesTerritoryKey** が **LOOKUPVALUE** 関数によって返される ID セット内にある行のみが表示されます。
 8. **DimUserSecurity** テーブルについては、**[DAX フィルター]** 列に、次の数式を入力します。
    
        =FALSE()
-9. この数式は、すべての列が false ブール条件に解決されるように指定します。したがって、**DimUserSecurity** テーブルの列をクエリすることはできません。
-10. この時点で、モデルを処理してデプロイする必要があります。 モデルのデプロイの際に支援が必要な場合は、[この記事](https://msdn.microsoft.com/library/hh231693.aspx)を参照してください。
+
+    この数式は、すべての列が false ブール条件に解決されるように指定します。したがって、**DimUserSecurity** テーブルの列をクエリすることはできません。
+1. この時点で、モデルを処理してデプロイする必要があります。 モデルのデプロイの際に支援が必要な場合は、[デプロイに関する記事](https://msdn.microsoft.com/library/hh231693.aspx)を参照してください。
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>タスク 3: オンプレミス データ ゲートウェイ内のデータ ソースを追加する
 1. 表形式モデルをデプロイし、使用できるようになったら、Power BI ポータルでオンプレミスの Analysis Services 表形式サーバーへのデータ ソース接続を追加する必要があります。
@@ -98,7 +99,7 @@ ms.lasthandoff: 03/12/2018
 2. データ ソースのリストから、**[SQL Server Analysis Services データベース]** を選択して、**[接続]** を選択します。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
-3. **Analysis Services** 表形式インスタンスの詳細を入力して、**[ライブ接続]** を選択します。 [OK] を選択します。 **Power BI** では、動的セキュリティは**ライブ接続**でのみ機能します。
+3. **Analysis Services** 表形式インスタンスの詳細を入力して、**[ライブ接続]** を選択します。 **[OK]** を選択します。 **Power BI** では、動的セキュリティは**ライブ接続**でのみ機能します。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 4. **Analysis Services** インスタンスにデプロイされたモデルが表示されます。 該当するモデルを選択して、**[OK]** を選択します。
@@ -106,7 +107,7 @@ ms.lasthandoff: 03/12/2018
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 5. これで、**Power BI Desktop** では、**[フィールド]** ウィンドウのキャンバスの右側に使用可能なフィールドがすべて表示されます。
 6. 右側の **[フィールド]** ウィンドウで、**FactInternetSales** テーブルからは **SalesAmount** メジャーを、**SalesTerritory** テーブルからは **SalesTerritoryRegion** ディメンションを選択します。
-7. このレポートをシンプルなものにしておくために、この時点では列を追加しません。 データをよりわかりやすくするために、**ドーナツ グラフ**表示に切り替えます。
+7. このレポートをシンプルなものにしておくために、この時点では列を追加しません。 データをよりわかりやすくするために、視覚エフェクトを**ドーナツ グラフ**表示に切り替えます。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 8. レポートの準備ができたら、Power BI ポータルに直接発行できます。 **Power BI Desktop** の **[ホーム]** リボンで、**[発行]** を選択します。
@@ -168,5 +169,5 @@ ms.lasthandoff: 03/12/2018
 行レベルのセキュリティ、SSAS、および Power BI を使用する場合に留意すべき考慮事項がいくつかあります。
 
 1. Power BI でオンプレミスの行レベル セキュリティを使用できるのは、ライブ接続の場合のみです。
-2. モデル処理後のデータでの変更は、Power BI サービスからの**ライブ接続**に基づくレポートにアクセスするユーザーに対してすぐに有効になります。
+2. モデル処理後のデータでの変更は、Power BI サービスからの**ライブ接続**に関するレポートにアクセスするユーザーに対してすぐに有効になります。
 

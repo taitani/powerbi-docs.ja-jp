@@ -1,15 +1,15 @@
 ---
-title: "Power BI サービスの読み取りビューまたは編集ビューでレポートを開く"
-description: "Power BI レポートを読み取りビューまたは編集ビューで開く"
+title: Power BI サービスの読み取りビューまたは編集ビューでレポートを開く
+description: Power BI レポートを読み取りビューまたは編集ビューで開く
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

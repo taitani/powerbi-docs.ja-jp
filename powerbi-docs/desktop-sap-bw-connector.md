@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で SAP BW Connector を使用する"
-description: "Power BI Desktop で SAP BW Connector を使用する"
+title: Power BI Desktop で SAP BW Connector を使用する
+description: Power BI Desktop で SAP BW Connector を使用する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop で SAP BW Connector を使用する
 Power BI Desktop で、**SAP BusinessWarehouse (BW)** のデータにアクセスできます。
@@ -38,7 +38,7 @@ Power BI Desktop で、**SAP BusinessWarehouse (BW)** のデータにアクセ�
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>SAP BW Connector の機能
-Power BI Desktop で **SAP BW コネクタ**を使って **SAP Business Warehouse サーバー** キューブからデータをインポートすること、または **SAP BW コネクタ**で DirectQuery を使うことができます。 
+Power BI Desktop で **SAP BW コネクタ**を使って **SAP Business Warehouse サーバー** キューブからデータをインポートすること、または DirectQuery を使うことができます。 
 
 **SAP BW コネクタ**の詳細および DirectQuery でそれを使う方法については、「[DirectQuery と SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)」をご覧ください。
 

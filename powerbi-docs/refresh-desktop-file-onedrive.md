@@ -1,15 +1,15 @@
 ---
-title: "OneDrive または SharePoint Online の Power BI Desktop ファイルから作成されたデータセットを更新する"
-description: "OneDrive または SharePoint Online の Power BI Desktop ファイルから作成されたデータセットを更新する"
+title: OneDrive または SharePoint Online の Power BI Desktop ファイルから作成されたデータセットを更新する
+description: OneDrive または SharePoint Online の Power BI Desktop ファイルから作成されたデータセットを更新する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 851b8bc2c05aad87749c0fd6af14ba4f810ecbe2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cf773de0744ca67df9d13cb934efdc6bbc4991f9
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online に格納されているデータセットを更新する
 OneDrive または SharePoint Online から Power BI サービスへのファイルのインポートは、**Power BI Desktop** で実行している作業と Power BI サービスとの同期を確実に維持するための優れた方法です。
