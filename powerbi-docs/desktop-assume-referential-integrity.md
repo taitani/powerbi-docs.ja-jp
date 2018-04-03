@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で参照整合性設定を想定する"
-description: "DirectQuery を使用するとき、Power BI Desktop に参照整合性を想定させる方法を学習します。"
+title: Power BI Desktop で参照整合性設定を想定する
+description: DirectQuery を使用するとき、Power BI Desktop に参照整合性を想定させる方法を学習します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0d92fc16a6bde09f3783c2035a4a6b5c97e7b933
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9494b7774c8ba7d91398b14fb6ae2f21649050fa
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop で参照整合性設定を想定する
 **DirectQuery** を利用し、データ ソースに接続するとき、**[参照整合性を想定]** 選択を使用し、より効率的なクエリをデータ ソースに対して実行します。 この機能には基礎となるデータに関していくつかの要件があり、**DirectQuery** の利用時にのみ利用できます。

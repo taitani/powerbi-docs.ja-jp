@@ -1,15 +1,15 @@
 ---
-title: "Power BI のデータ ゲートウェイを展開するためのガイダンス"
-description: "Power BI のゲートウェイの展開に関するベスト プラクティスと考慮事項について説明します。"
+title: Power BI のデータ ゲートウェイを展開するためのガイダンス
+description: Power BI のゲートウェイの展開に関するベスト プラクティスと考慮事項について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI のデータ ゲートウェイを展開するためのガイダンス
 この記事では、ネットワーク環境にデータ ゲートウェイを展開するためのガイダンスと考慮事項について説明します。 **ゲートウェイ**は、Power PI のようなクラウド サービスで後で利用するためにプライベートのオンプレミス ネットワークに置いたデータに簡単にアクセスするためのソフトウェアです。 この記事では、展開の手順を説明し、**オンプレミス データ ゲートウェイ**のセットアップに関するガイダンスを提供します。
@@ -86,7 +86,7 @@ ms.lasthandoff: 02/24/2018
 
 これらのカウンターは、**Windows パフォーマンス モニター**からアクセス可能であり、この目的で使用する任意のレポート作成ツールで利用できます。 Power BI でゲートウェイ パフォーマンス モニターを使用する方法の詳細については、次のコミュニティで作成されたブログの投稿を参照してください。
 
-* [Monitor on-premises data gateways (オンプレミス データ ゲートウェイの監視)](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
+* [オンプレミス データ ゲートウェイの監視](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
 
 #### <a name="logs"></a>ログ
 構成ログとサービス ログは、ゲートウェイで何が起こっているかについての別の次元の情報を提供します。 Power BI サービスにすべてのエラー メッセージが表示されるわけではないので、接続が正常に機能していない場合は、ゲートウェイ ログを常に確認してください。

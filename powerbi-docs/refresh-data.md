@@ -1,15 +1,15 @@
 ---
-title: "Power BI でのデータの更新"
-description: "Power BI でのデータの更新"
+title: Power BI でのデータの更新
+description: Power BI でのデータの更新
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 23709342f522d029e01cf7192627e179d260fa8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: decd8a072ba644c9d67a7a0005b752423d32984a
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 必ず最新のデータを取得することは、多くの場合、正しい意思決定をする上で重要です。 お客様は既に、Power BI の [データの取得] を使ってデータに接続してアップロードしたり、レポートとダッシュボードを作成したりしたことがあるでしょう。 ここで、データが本当に最新のもので、最も意味のあるものかを確認することができます。

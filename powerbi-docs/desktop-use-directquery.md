@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop の DirectQuery"
-description: "Power BI Desktop の DirectQuery (ライブ接続とも呼ばれます) を使用します"
+title: Power BI Desktop の DirectQuery
+description: Power BI Desktop の DirectQuery (ライブ接続とも呼ばれます) を使用します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 83726531a3ef82f59efb6e12c0ea0dbcd4bf5d7c
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 **Power BI Desktop** を利用すれば、データ ソースに接続するとき、常にデータのコピーを **Power BI Desktop** にインポートできます。 データ ソースによっては、代替手法を利用できます。**DirectQuery** でデータ ソースに直接接続する方法です。
@@ -62,7 +62,7 @@ ms.lasthandoff: 03/12/2018
 * 既定では、メジャーで許可される DAX 式に制約があります。詳しくは、次の段落 (この箇条書きリストの後) をご覧ください。
 * **DirectQuery** を使用した場合の返されるデータには 100 万行の制限があります。 これは **DirectQuery** を使用して返されるデータセットの作成に使用される集計や計算には影響せず、返される行のみに影響します。 たとえば、データ ソースに対して実行すクエリで 1,000 万行を集計し、その集計の結果のデータが 100 万行未満であれば、**DirectQuery** を使用して、Power BI に正確に返すことができます。 **DirectQuery** から 100 万行を超える行が返された場合、Power BI はエラーを返します。
 
-基になるデータ ソースに送信されるクエリが許容範囲のパフォーマンスを発揮できるよう、既定ではメジャーに制限が課されています。 詳しい知識のあるユーザーなら、**[ファイル] > [オプション]**、次に **[設定] > [オプションと設定] > [DirectQuery]** の順に選んでから、オプション *[DirectQuery モードで無制限のメジャーを許可する]* を選べば、この制限を回避できます。 このオプションを選ぶと、メジャーに使用できる DAX 式ならどれでも使用できるようになります。 しかし、ユーザーが注意すべき点として、データのインポート時のパフォーマンスが非常に良好な式の中には、DirectQuery モードでバックエンド ソースにクエリを実行する際に非常に低速になるものがあります。
+基になるデータ ソースに送信されるクエリが許容範囲のパフォーマンスを発揮できるよう、既定ではメジャーに制限が課されています。 詳しい知識のあるユーザーなら、**[ファイル] > [オプションと設定] > [オプション]**、次に **[DirectQuery]** の順に選んでから、オプション *[DirectQuery モードで無制限のメジャーを許可する]* を選べば、この制限を回避できます。 このオプションを選ぶと、メジャーに使用できる DAX 式ならどれでも使用できるようになります。 しかし、ユーザーが注意すべき点として、データのインポート時のパフォーマンスが非常に良好な式の中には、DirectQuery モードでバックエンド ソースにクエリを実行する際に非常に低速になるものがあります。
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery を使用する場合の重要な考慮事項
 **DirectQuery** の使用時には次の 3 点を考慮してください。
@@ -77,7 +77,7 @@ ms.lasthandoff: 03/12/2018
       the maximum allowed size of '1000000' rows.
   
   このような状況は、基数が非常に高い列を含む簡単なグラフで集計オプションが *[Don’t Summarize]* (集計しない) に設定されている場合に発生します。 ビジュアルの場合、列の基数は 100 万未満にする必要があります。あるいは、適切なフィルターを適用する必要があります。
-* **セキュリティ** - 公開されたレポートを利用するユーザーは全員、Power BI サービスに公開した後に入力された資格情報を利用し、バックエンド データ ソースに接続します。 これはインポートされたデータと同じ状況になります。バックエンド ソースに定義されているセキュリティ ルールに関係なく、すべてのユーザーに同じデータが表示されます。 ユーザーごとのセキュリティを希望のお客様は、DirectQuery ソースを実装し、RLS を使います。 [RLS についての詳細情報](service-admin-rls.md)。
+* **セキュリティ** - 公開されたレポートを利用するユーザーは全員、Power BI サービスに公開した後に入力された資格情報を利用し、バックエンド データ ソースに接続します。 これはインポートされたデータと同じ状況になります。バックエンド ソースに定義されているセキュリティ ルールに関係なく、すべてのユーザーに同じデータが表示されます。 ユーザーごとのセキュリティを希望のお客様は、DirectQuery ソースを実装し、RLS を使用する必要があります。 [RLS についての詳細情報](service-admin-rls.md)。
 * **サポートされている機能** - **Power BI Desktop** の一部の機能は **DirectQuery** モードでサポートされていないか、制限があります。 また、Power BI サービスには、**DirectQuery** 使用時のデータセットで利用できない機能もあります (*クイック分析情報*など)。 そのため、**DirectQuery** を利用するかどうかを判断するとき、以上のような **DirectQuery** 利用時の機能制約を考慮する必要があります。   
 
 ## <a name="publish-to-the-power-bi-service"></a>Power BI サービスに公開する

@@ -1,28 +1,28 @@
 ---
-title: "Azure SQL Data Warehouse と DirectQuery"
-description: "Azure SQL Data Warehouse と DirectQuery"
+title: Azure SQL Data Warehouse と DirectQuery
+description: Azure SQL Data Warehouse と DirectQuery
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 6d7cb2161702b844866af66896dbadb35ad801ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 87b49833b5c0d1d634d440e947659a12ac87b66c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse と DirectQuery
 Azure SQL Data Warehouse と DirectQuery を使用すると、Azure SQL Data Warehouse に既に含まれているデータとメトリックに基づいて動的なレポートを作成できます。 DirectQuery を使用すると、データを探索するときにクエリが Azure SQL Data Warehouse に送り返されます。 これを SQL Data Warehouse のスケールと組み合わせることで、ユーザーはテラバイトのデータに対し、分単位で動的なレポートを作成することができます。 さらに、 **[Power BI で開く]** ボタンを使用すると、ユーザーは手動で情報を指定しなくても、Power BI を SQL Data Warehouse に直接接続することができます。
@@ -84,9 +84,13 @@ SQL Data Warehouse は、Power BI の [データの取得] ページにも表示
 
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
+> [!NOTE]
+> Power BI テナントが Azure SQL Data Warehouse と同じリージョン内にある場合、送信料は発生しません。 Power BI テナントが置かれている場所を確認するには、[こちらの手順](https://docs.microsoft.com/en-us/power-bi/service-admin-where-is-my-tenant-located)を使用してください。
+>
+
 ## <a name="next-steps"></a>次の手順
 [Power BI の概要](service-get-started.md)  
 [Power BI のデータの取得](service-get-data.md)  
 [Azure SQL Data Warehouse](https://azure.microsoft.com/en-us/documentation/services/sql-data-warehouse/)  
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

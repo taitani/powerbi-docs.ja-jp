@@ -1,15 +1,15 @@
 ---
-title: "Project Online: Power BI Desktop 経由でデータに接続する"
-description: "Project Online: Power BI Desktop 経由でデータに接続する"
+title: 'Project Online: Power BI Desktop 経由でデータに接続する'
+description: 'Project Online: Power BI Desktop 経由でデータに接続する'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f5fa21845167d2d9d419f163429fd1f025c1749
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0577c6e3ce89e51c767273b634f6d3d88875eead
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: Power BI Desktop 経由でデータに接続する
 Power BI Desktop を経由して Project Online のデータに接続することができます。
@@ -38,10 +38,12 @@ Power BI Desktop を経由して Project Online のデータに接続するこ�
    
    Project Web App サイトのアドレスが https://\<tenantname\>.sharepoint.com/sites/pwa である場合、OData フィードに入力するアドレスは https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata になります。
    
-   この例では、https://contoso.sharepoint.com/sites/pwa/default.aspx を使用します
+   この例では、https://contoso.sharepoint.com/sites/pwa/default.aspx を使用します。
 5. Power BI Desktop により、Office 365 アカウントを使用して認証するよう求められます。 組織アカウントを選択し、資格情報を入力します。
    
    ![](media/desktop-project-online-connect-to-data/image.png)
+
+OData フィードへの接続に使用するアカウントは、少なくとも Project Web App サイトにアクセスするためのポートフォリオ閲覧者権限を有する必要があります。 
 
 ここから、接続してクエリを作成するテーブルを選択できます。  作業の開始方法について  次のブログの投稿では、Project Online のデータからバーンダウン グラフを作成する方法を示します。  ブログの投稿では、Power Query を使用して Project Online に接続する方法について言及していますが、これは Power BI Desktop にも適用されます。
 

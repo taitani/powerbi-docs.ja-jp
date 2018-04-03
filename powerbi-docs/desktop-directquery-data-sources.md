@@ -1,15 +1,15 @@
 ---
-title: "Power BI の DirectQuery でサポートされるデータ ソース"
-description: "DirectQuery を使用できるデータ ソースの一覧を取得します。"
+title: Power BI の DirectQuery でサポートされるデータ ソース
+description: DirectQuery を使用できるデータ ソースの一覧を取得します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: fcd8e4705fe5ee3a3a567c0e7a44a5a4d1a73e76
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI の DirectQuery でサポートされるデータ ソース
 **Power BI Desktop** と **Power BI サービス**には、接続してデータへのアクセスを可能にする多数のデータ ソースがあります。 この記事では、Power BI のどのデータ ソースが **DirectQuery** と呼ばれる接続方法をサポートしているかを説明します。 DirectQuery の詳細については、「[**Power BI での DirectQuery**](desktop-directquery-about.md)」を参照してください。
@@ -48,7 +48,7 @@ ms.lasthandoff: 03/12/2018
 
 名前の後に **(ベータ)** または **(プレビュー)** と書かれているデータ ソースには、変更される可能性があり、運用での使用はサポートされていません。 **Power BI サービス**にレポートを発行した後はサポートされない可能性もあるので、発行されたレポートを開いたり、データセットを探したりした場合にエラーが発生することがあります。
 
-**(ベータ)** と **(プレビュー)** のデータ ソースの唯一の違いは、使用可能になる前に、**(プレビュー)** のソースはプレビュー機能として有効にする必要があるという点です。 **(プレビュー)** データ コネクタを有効にするには、**Power BI Desktop** で **[ファイル]、[オプションと設定]、****[設定]、[オプション]、[プレビュー機能]** に進みます。
+**(ベータ)** と **(プレビュー)** のデータ ソースの唯一の違いは、使用可能になる前に、**(プレビュー)** のソースはプレビュー機能として有効にする必要があるという点です。 **(プレビュー)** データ コネクタを有効にするには、**Power BI Desktop** で **[ファイル]、[オプションと設定]、** の順に進み、**[プレビュー機能]** を選択します。
 
 ## <a name="on-premises-gateway-requirements"></a>オンプレミス ゲートウェイの要件
 次の表では、**Power BI サービス**にレポートを発行した後に、指定したデータ ソースに接続するために、**オンプレミス データ ゲートウェイ**が必要かを示します。

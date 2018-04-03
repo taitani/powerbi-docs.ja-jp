@@ -1,15 +1,15 @@
 ---
-title: "タイルのエラーのトラブルシューティング"
-description: "タイルの更新時に発生する一般的なエラー"
+title: タイルのエラーのトラブルシューティング
+description: タイルの更新時に発生する一般的なエラー
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 26f92ee511b3a03f8e08aae0a33bb6f60c12908b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0901860a190e29489b9c940231607d9fc63109ab
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshooting-tile-errors"></a>タイルのエラーのトラブルシューティング
 次に、タイルで発生する可能性がある一般的なエラーとその説明を示します。

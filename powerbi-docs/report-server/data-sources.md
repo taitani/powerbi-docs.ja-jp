@@ -1,27 +1,27 @@
 ---
-title: "Power BI Report Server での Power BI レポート データ ソース"
-description: "Power BI レポートは、さまざまなデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。"
+title: Power BI Report Server での Power BI レポート データ ソース
+description: Power BI レポートは、さまざまなデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 03/21/2018
 ms.author: maghan
-ms.openlocfilehash: caa45aab2c31974abb041a82eb2216ebee2eb148
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、さまざまなデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。
@@ -34,6 +34,7 @@ Power BI レポートは、さまざまなデータ ソースに接続できま�
 > 
 
 ## <a name="list-of-supported-data-sources"></a>サポートされているデータ ソースの一覧
+
 サポート対象の一覧に記載されていない他のデータ ソースであっても、動作する可能性があります。
 
 | **データ ソース** | **キャッシュされたデータ** | **スケジュールされた更新** | **Live/DirectQuery** |
@@ -48,7 +49,7 @@ Power BI レポートは、さまざまなデータ ソースに接続できま�
 | Amazon Redshift |はい |いいえ |いいえ |
 | Azure BLOB ストレージ |はい |はい |いいえ |
 | Azure Data Lake Store |はい |いいえ |いいえ |
-| Azure HDInsight (HDFS) |はい |はい |いいえ |
+| Azure HDInsight (HDFS) |はい |いいえ |いいえ |
 | Azure HDInsight (Spark) |はい |はい |いいえ |
 | Azure テーブル ストレージ |はい |はい |いいえ |
 | Dynamics 365 (オンライン) |はい |いいえ |いいえ |
@@ -119,6 +120,100 @@ Power BI レポートは、さまざまなデータ ソースに接続できま�
 > 環境内で Kerberos が正しく構成されている場合は、データ ソースで構成されている行レベルのセキュリティが、特定の DirectQuery (SQL Server、Azure SQL Database、Oracle、Teradata) およびライブ接続に対して機能します。
 > 
 > 
+
+## <a name="list-of-supported-authentication-methods-for-model-refresh"></a>モデル更新でサポートされている認証方法の一覧
+
+Power BI Report Server では、モデル更新のための認証方法として、OAuth ベースの認証をサポートしていません。 Excel または Access データベースなどの一部のデータ ソースでは、ファイルまたは Web などの個別の手順を利用してデータに接続します。
+
+| **データ ソース** | **匿名認証** | **キー認証** | **ユーザー名とパスワード** | **Windows 認証** |
+| --- | --- | --- | --- | --- |
+| SQL Server データベース |いいえ |いいえ |はい |はい |
+| SQL Server Analysis Services |いいえ |いいえ |はい |はい |
+| Web |はい |いいえ |はい |はい |
+| Azure SQL Database |いいえ |いいえ |はい |いいえ |
+| Azure SQL Data Warehouse |いいえ |いいえ |はい |いいえ |
+| Active Directory |いいえ |いいえ |はい |はい |
+| Amazon Redshift |いいえ |いいえ |いいえ |いいえ |
+| Azure BLOB ストレージ |はい |はい |いいえ |いいえ |
+| Azure Data Lake Store |いいえ |いいえ |いいえ |いいえ |
+| Azure HDInsight (HDFS) |いいえ |いいえ |いいえ |いいえ |
+| Azure HDInsight (Spark) |はい |はい |いいえ |いいえ |
+| Azure テーブル ストレージ |いいえ |はい |いいえ |いいえ |
+| Dynamics 365 (オンライン) |いいえ |いいえ |いいえ |いいえ |
+| Facebook |いいえ |いいえ |いいえ |いいえ |
+| フォルダー |いいえ |いいえ |いいえ |はい |
+| Google アナリティクス |いいえ |いいえ |いいえ |いいえ |
+| Hadoop ファイル (HDFS) |いいえ |いいえ |いいえ |いいえ |
+| IBM DB2 データベース |いいえ |いいえ |はい |はい |
+| Impala |いいえ |いいえ |いいえ |いいえ |
+| Microsoft Exchange |いいえ |いいえ |いいえ |いいえ |
+| Microsoft Exchange Online |いいえ |いいえ |いいえ |いいえ |
+| MySQL データベース |いいえ |いいえ |はい |はい |
+| OData フィード |はい |はい |はい |はい |
+| ODBC |はい |いいえ |はい |はい |
+| OLE DB |はい |いいえ |はい |はい |
+| Oracle データベース |いいえ |いいえ |はい |はい |
+| PostgreSQL データベース |いいえ |いいえ |はい |いいえ |
+| Power BI サービス |いいえ |いいえ |いいえ |いいえ |
+| R スクリプト |いいえ |いいえ |いいえ |いいえ |
+| Salesforce オブジェクト |いいえ |いいえ |いいえ |いいえ |
+| Salesforce レポート |いいえ |いいえ |いいえ |いいえ |
+| SAP Business Warehouse サーバー |いいえ |いいえ |はい |いいえ |
+| SAP HANA データベース |いいえ |いいえ |はい |はい |
+| SharePoint フォルダー (オンプレミス) |はい |いいえ |いいえ |はい |
+| SharePoint リスト (オンプレミス) |はい |いいえ |いいえ |はい |
+| SharePoint Online リスト |いいえ |いいえ |いいえ |いいえ |
+| Snowflake |いいえ |いいえ |いいえ |いいえ |
+| Sybase データベース |いいえ |いいえ |はい |はい |
+| Teradata データベース |いいえ |いいえ |はい |はい |
+| appFigures (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Azure Analysis Services データベース (ベータ版) |いいえ |いいえ |いいえ |いいえ |
+| Azure Cosmos DB (ベータ版) |いいえ |いいえ |いいえ |いいえ |
+| Azure HDInsight Spark (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Common Data Service (Beta) |いいえ |いいえ |いいえ |いいえ |
+| comScore Digital Analytix (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Dynamics 365 for Customer Insights (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| Dynamics 365 for Financials (Beta) |いいえ |いいえ |いいえ |いいえ |
+| GitHub (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Google BigQuery (ベータ版) |いいえ |いいえ |いいえ |いいえ |
+| IBM Informix データベース (Beta) |いいえ |いいえ |いいえ |いいえ |
+| IBM Netezza (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| Kusto (Beta) |いいえ |いいえ |いいえ |いいえ |
+| MailChimp (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Microsoft Azure Consumption Insights (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Mixpanel (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Planview Enterprise (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Projectplace (Beta) |いいえ |いいえ |いいえ |いいえ |
+| QuickBooks Online (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Smartsheet |いいえ |いいえ |いいえ |いいえ |
+| Spark (Beta) |いいえ |いいえ |いいえ |いいえ |
+| SparkPost (Beta) |いいえ |いいえ |いいえ |いいえ |
+| SQL Sentry |いいえ |いいえ |いいえ |いいえ |
+| Stripe (Beta) |いいえ |いいえ |いいえ |いいえ |
+| SweetIQ (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Troux (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Twilio (Beta) |いいえ |いいえ |いいえ |いいえ |
+| tyGraph (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Vertica (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Visual Studio Team Services (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Webtrends (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Zendesk (Beta) |いいえ |いいえ |いいえ |いいえ |
+
+## <a name="list-of-supported-authentication-methods-for-directquery"></a>DirectQuery でサポートされている認証方法の一覧
+
+Power BI Report Server では、DirectQuery 用の認証方法として、OAuth ベースの認証をサポートしていません。
+
+| **データ ソース** | **匿名認証** | **キー認証** | **ユーザー名とパスワード** | **Windows 認証** | **統合 Windows 認証** |
+| --- | --- | --- | --- | --- | --- |
+| SQL Server データベース |いいえ |いいえ |はい |はい |はい |
+| SQL Server Analysis Services |いいえ |いいえ |はい |はい |はい |
+| Azure SQL Database |いいえ |いいえ |はい |いいえ |いいえ |
+| Azure SQL Data Warehouse |いいえ |いいえ |はい |いいえ |いいえ |
+| Oracle データベース |いいえ |いいえ |はい |はい |はい |
+| SAP Business Warehouse サーバー |いいえ |いいえ |はい |いいえ |はい |
+| SAP HANA データベース |いいえ |いいえ |はい |はい |いいえ |
+| Teradata データベース |いいえ |いいえ |はい |はい |はい |
+
 
 ## <a name="next-steps"></a>次の手順
 データ ソースを選んだ後は、そのデータ ソースからのデータを使って[レポートを作成](quickstart-create-powerbi-report.md)します。
