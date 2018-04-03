@@ -1,15 +1,15 @@
 ---
-title: "代替メール アドレスの使用"
-description: "代替メール アドレスの使用"
+title: 代替メール アドレスの使用
+description: 代替メール アドレスの使用
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -55,7 +55,7 @@ Power BI の Azure Active Directory (AAD) 埋め込みトークンをキャプ�
 
 Power BI は、次の条件に基づいて、使うメール アドレスを選びます。
 1.  AAD テナントのユーザー オブジェクトにメール属性が存在する場合、Power BI はそのメール属性をメール アドレスに使います
-2.  UPN メールが **\*.onmicrosoft.com** ドメイン メール アドレス ("@" 記号の後の情報) では "*ない*" 場合、Power BI はそのメール属性をメール アドレスに使います
+2.  UPN メールが **\*.onmicrosoft.com** ドメイン メール アドレス ("\@" 記号の後の情報) では "*ない*" 場合、Power BI はそのメール属性をメール アドレスに使います
 3.  AAD ユーザー オブジェクトに "他の" メール配列属性が存在する場合、そのリストの最初のメール (この属性にはメールのリストが存在する可能性があるため) が使われます
 4. 上記のどの条件も存在しない場合は、UPN アドレスが使われます
 
