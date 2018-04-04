@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kfile
-backup: sirsu
+backup: ''
 editor: ''
 tags: ''
 qualityfocus: no
@@ -15,22 +15,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
 
-* [Power BI Desktop の新機能](desktop-latest-update.md)  
-* [Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)  
-* [Power BI チーム ブログ](https://powerbi.microsoft.com/blog/)
+- [Power BI Desktop の新機能](desktop-latest-update.md)  
+- [Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)  
+- [Power BI チーム ブログ](https://powerbi.microsoft.com/blog/)
+- Dynamics 365 の [2018 年春のビジネス アプリケーション リリース ノート](https://aka.ms/bagspring2018releasenotes_internal): ビジネス アプリケーションの最新の更新、およびプラットフォーム上でアプリケーションと拡張機能を構築するための新機能。 
 
 "新機能" および機能に関する情報を、YouTube チャンネルで確認することもできます。
 

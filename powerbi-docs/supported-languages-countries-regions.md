@@ -1,28 +1,28 @@
 ---
-title: "Power BI でサポートされる言語と国または地域"
-description: "Power BI サービス、Power BI Desktop、および Power BI ドキュメントでサポートされている言語と国/地域の一覧を示します。"
+title: Power BI でサポートされる言語と国または地域
+description: Power BI サービス、Power BI Desktop、および Power BI ドキュメントでサポートされている言語と国/地域の一覧を示します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 03/20/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c007202bc6526872ea3469ccc5e46b71a8e6dcb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI でサポートされる言語と国または地域
 
@@ -32,14 +32,14 @@ ms.lasthandoff: 02/24/2018
 Power BI が利用可能な国と地域の一覧については、[ご利用いただける国と地域の一覧](https://products.office.com/business/international-availability)をご覧ください。 
 
 ## <a name="languages-for-the-power-bi-service"></a>Power BI サービスの言語
-ブラウザーでの Power BI サービスは、次の 42 の言語で提供されています。
+ブラウザーでの Power BI サービスは、次の 44 の言語で提供されています。
 
 * アラビア語
 * バスク語 - Basque
 * ブルガリア語 - Български
 * カタルニア語 - català
-* 簡体字中国語 - 中文 (简体)
-* 繁体字中国語 - 中文 (繁體)
+* 簡体字中国語 - 中文(简体)
+* 繁体字中国語 - 中文(繁體)
 * クロアチア語 - hrvatski
 * チェコ語 - čeština
 * デンマーク語 - dansk

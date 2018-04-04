@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -35,6 +35,18 @@ ms.lasthandoff: 03/15/2018
 ### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality アプリ (プレビュー)
 
 最新のデータ傾向に応じて、Power BI for Mixed Reality アプリが作成されました。 仮想世界に専念した状態でダッシュボードとレポートを表示するか、あるいは使用環境のコンテキストで特定の場所にダッシュボードとレポートを配置して表示します。 詳細については、新しい [Power BI for Mixed Reality アプリ](mobile-mixed-reality-app.md)に関するページを参照してください。
+
+### <a name="share-reports-and-dashboards-externally"></a>レポートおよびダッシュボードを外部と共有する
+
+ダッシュボードおよびレポートを、組織の外部にいるユーザーと、アプリから直接共有します。 外部共有は、組織とソーシャル アカウントの両方に対して有効です。 
+
+### <a name="persistent-filters"></a>永続的フィルター
+
+Web 上の Power BI でフィルターおよびスライサーを設定すると、フィルターの選択はモバイル アプリにも保存されるので、中断したところから再開できます。
+
+### <a name="refresh-reports-on-the-ipad"></a>iPad でレポートを更新する
+
+iPad アプリの Power BI レポートに更新ボタンが追加されました。
 
 ## <a name="february-2018"></a>2018 年 2 月
 
