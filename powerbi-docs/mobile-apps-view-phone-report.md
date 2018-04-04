@@ -1,27 +1,27 @@
 ---
-title: "電話用に最適化された Power BI レポートを表示する"
-description: "Power BI 電話アプリで表示するように最適化されたレポート ページとの対話について説明しています。"
+title: 電話用に最適化された Power BI レポートを表示する
+description: Power BI 電話アプリで表示するように最適化されたレポート ページとの対話について説明しています。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 275dc9fff2f87dd4811eb1a3fe3db944a2965b58
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
 
@@ -47,7 +47,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 * [Android フォンでのレポート](mobile-reports-in-the-mobile-apps.md)。
 
 ## <a name="filter-the-report-page-on-a-phone"></a>電話でレポート ページをフィルター処理する
-電話用に最適化されたレポートにフィルターが定義されている場合、電話でレポートを表示するときに、これらのフィルターを使うことができます。 
+電話用に最適化されたレポートにフィルターが定義されている場合、電話でレポートを表示するときに、これらのフィルターを使うことができます。 スマートフォンで開かれるレポートは、Web 上のレポートでフィルター処理に使われているのと同じ値でフィルター処理され、ページにアクティブなフィルターがあることを示すメッセージが表示されます。 スマートフォンでフィルターを変更できます。
 
 1. ページの下部にあるフィルター アイコン ![電話のフィルター アイコン](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) をタップします。 
 2. 基本的または詳細なフィルター処理を使って、関心がある結果を表示します。
