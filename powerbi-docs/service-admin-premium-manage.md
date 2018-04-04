@@ -1,15 +1,15 @@
 ---
-title: "Power BI Premium および Power BI Embedded の容量を管理する"
-description: "Power BI Premium を管理し、組織全体にコンテンツへのアクセスを可能する方法について説明します。"
+title: Power BI Premium および Power BI Embedded の容量を管理する
+description: Power BI Premium を管理し、組織全体にコンテンツへのアクセスを可能する方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 556f91464e8a08b5cb149648be2b097578964af9
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium および Power BI Embedded の容量を管理する
 コンテンツ用の専用リソースを提供する Power BI Premium および Power BI Embedded の容量を管理する方法について説明します。
@@ -47,6 +47,10 @@ ms.lasthandoff: 03/15/2018
 * **Power BI Embedded:** [Azure Portal での Power BI Embedded 容量の作成](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 Power BI Premium の SKU を購入すると、テナントは、実行している容量で使うために、対応する数の仮想コアを受け取ります。 たとえば、Power BI Premium P3 SKU を購入すると、32 個の仮想コアがテナントに提供されます。
+
+> [!NOTE]
+> サブスクリプションの終了後、30 日間はフル アクセスが可能ですが、その後はコンテンツが共有の容量に戻ります。 1 GB を超えるモデルは正規の共有ライセンスではサポートされません。
+>
 
 ## <a name="capacity-admins"></a>容量管理者
 > [!NOTE]

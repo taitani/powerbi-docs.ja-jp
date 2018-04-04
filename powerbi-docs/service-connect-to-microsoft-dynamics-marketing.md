@@ -1,15 +1,15 @@
 ---
-title: "Power BI で Microsoft Dynamics Marketing に接続する"
-description: "Power BI 用 Microsoft Dynamics Marketing"
+title: Power BI で Microsoft Dynamics Marketing に接続する
+description: Power BI 用 Microsoft Dynamics Marketing
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -48,7 +48,7 @@ Power BI 用 [Dynamics Marketing コンテンツ パック](https://app.powerbi.
 5. メッセージが表示されたら、資格情報を指定します (ブラウザーで既にサインインしている場合、この手順は省略される可能性があります)。 認証方式として、「 **oAuth2** 」と入力し、 **[サインイン]**をクリックします。
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynammktgoauth2.png)
-6. 接続すると、独自のデータを示した Dynamics Marketing ダッシュボードが表示されます。 新しい項目は、左側のナビゲーション ウィンドウで黄色のアスタリスク * でマークされます。
+6. 接続すると、独自のデータを示した Dynamics Marketing ダッシュボードが表示されます。 新しい項目は、左側のナビゲーション ウィンドウで黄色のアスタリスク でマークされます。
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynammktgnewdash.png)
 
