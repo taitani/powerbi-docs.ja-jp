@@ -210,7 +210,7 @@
           href: service-connect-to-ziosk.md
         - name: Zuora
           href: service-connect-to-zuora.md
-    - name: ダッシュボード
+    - name: Dashboards
       items:
         - name: Power BI のダッシュボード
           href: service-dashboards.md
@@ -232,7 +232,7 @@
           href: service-dashboard-pin-tile-from-q-and-a.md
         - name: レポート ページ全体を Power BI ダッシュボードにピン留めする
           href: service-dashboard-pin-live-tile-from-report.md
-        - name: 自分と共有
+        - name: 共有アイテム
           href: service-shared-with-me.md
         - name: ダッシュボード用の利用状況の指標
           href: service-usage-metrics.md
@@ -386,7 +386,7 @@
           href: service-url-filters.md
         - name: Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティス
           href: power-bi-reports-performance.md
-    - name: 視覚エフェクト
+    - name: 視覚化
       items:
         - name: Power BI での視覚化
           href: power-bi-report-visualizations.md
@@ -728,7 +728,7 @@
           href: desktop-common-query-tasks.md
         - name: Power BI Desktop で図形マップを使用する (プレビュー)
           href: desktop-shape-map.md
-        - name: バイナリの結合
+        - name: ファイルの結合 (バイナリ)
           href: desktop-combine-binaries.md
     - name: データのモデル化
       items:
