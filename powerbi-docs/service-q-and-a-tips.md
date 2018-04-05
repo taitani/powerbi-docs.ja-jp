@@ -1,15 +1,15 @@
 ---
-title: "Power BI の Q&A で質問するヒントとテクニック"
-description: "Power BI の Q&A で質問するヒントとテクニック"
+title: Power BI の Q&A で質問するヒントとテクニック
+description: Power BI の Q&A で質問するヒントとテクニック
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A で質問するためのヒント
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A で認識される語句と用語
@@ -94,9 +94,6 @@ Q&A は、質問の内容を正確に反映した回答を返すために、で�
 * カーソルを質問ボックスに戻すと、基になるデータセットから用語の置換が自動的に提案されます。
 * 基になるデータセット内のデータに基づいて質問を言い換えます。 このとき、Q&A はユーザーが使用した語を基になるデータセットからの同意語に置き換えるため、Q&A が質問を適切に理解する助けになります。
 * 理解できない語は灰色表示になります。
-
-## <a name="combine-results-from-more-than-one-dataset"></a>複数のデータセットの結果を結合する
-Power BI の最も強力な機能の 1 つは、さまざまなデータセットのデータを結合する機能です。  質問の対象を 1 つのデータセットに限定する必要はありません。複数のデータセットからデータを取得する質問を行うことができます。 たとえば、自分のダッシュボードに小売りの分析のサンプルと州の人口のデータセットがある場合は、*show count of stores by state population as bar chart descending* (店舗数を州の人口別に棒グラフに降順で表示) と質問できます。
 
 ## <a name="dont-stop-now"></a>これで終わりではありません
 Q&A の結果が表示された後も、対話を続けてください。 視覚化と Q&A の対話型の機能を使用して、さらに洞察を得られます。

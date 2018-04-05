@@ -1,15 +1,15 @@
 ---
-title: "美しいレポートを作成するためのヒント"
-description: "Power BI サービスにおけるレポート作成のヒントとテクニック"
+title: 美しいレポートを作成するためのヒント
+description: Power BI サービスにおけるレポート作成のヒントとテクニック
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d19cc60ea23f87e14e78db9e896a4b17c19aeb66
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>美しいレポートを作成するためのヒント
 Power BI と Power BI Desktop では、レポートの作成方法と使用方法がとても似ています。ここに記載するリンクのほとんどは、いずれの場合にも参照できます。
@@ -45,7 +45,7 @@ Microsoft Principal Program Manager と Power BI ダッシュボード エキス
 * [ブログを読む](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
 * [ウェビナーを見る](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次の手順 
 [Power BI - 基本的な概念](service-basic-concepts.md)
 
 [Power BI のレポート](service-reports.md)

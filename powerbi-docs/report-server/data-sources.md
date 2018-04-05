@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/21/2018
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、さまざまなデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。
@@ -84,7 +84,7 @@ Power BI レポートは、さまざまなデータ ソースに接続できま�
 | Web |はい |はい |いいえ |
 | XML |はい |はい |いいえ |
 | appFigures (Beta) |はい |いいえ |いいえ |
-| Azure Analysis Services データベース (ベータ版) |はい |いいえ |いいえ |
+| Azure Analysis Services データベース |はい |いいえ |はい |
 | Azure Cosmos DB (ベータ版) |はい |いいえ |いいえ |
 | Azure HDInsight Spark (Beta) |はい |いいえ |いいえ |
 | Common Data Service (Beta) |はい |いいえ |いいえ |
