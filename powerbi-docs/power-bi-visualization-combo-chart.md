@@ -1,16 +1,16 @@
 ---
-title: "チュートリアル: 複合グラフ"
-description: "複合グラフに関するこのチュートリアルでは、複合グラフを使用する状況と、Power BI サービスおよび Power BI Desktop.で複合グラフを作成する方法について説明します。"
+title: 'チュートリアル: 複合グラフ'
+description: 複合グラフに関するこのチュートリアルでは、複合グラフを使用する状況と、Power BI サービスおよび Power BI Desktop.で複合グラフを作成する方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lnv66cTZ5ho
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a52a50b647e743bfd29eecd970c1f381098bd344
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: b5e89a9a1f2e88ed793dff6457b58fd9ac609ef5
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="combo-chart-in-power--tutorial"></a>Power BI での複合グラフ (チュートリアル)
 Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み合わせた 1 つの視覚化です。 2 つのグラフを 1 つに組み合わせると、データの比較をよりすばやく行うことができます。
@@ -46,7 +46,7 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
 ## <a name="create-a-basic-single-axis-combo-chart"></a>基本的な 1 つの軸の複合グラフを作成する
 このビデオでは、売上およびマーケティングのサンプルを使って複合グラフを作成する様子をご覧いただけます。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
 <a name="create"></a> 独自の複合グラフを作成するには、Power BI サービスにサインインして、**[データの取得] \> [サンプル] \> [小売りの分析のサンプル] > [接続] > [ダッシュボードへ移動]** を選択します。
 
