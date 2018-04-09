@@ -1,15 +1,15 @@
 ---
-title: "追加の診断情報のキャプチャ"
-description: "追加の診断情報のキャプチャ"
+title: 追加の診断情報のキャプチャ
+description: 追加の診断情報のキャプチャ
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -28,8 +28,8 @@ ms.lasthandoff: 02/24/2018
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Power BI 用に追加の診断情報をキャプチャする
 次の手順では、Power BI Web クライアントから追加の診断情報を手動で収集するために可能性のある 2 つのオプションを提供します。  いずれかのオプションを実行すれば十分です。
 
-## <a name="network-capture---edge--internet-explorer"></a>ネットワーク キャプチャ - Edge および Internet Explorer
-1. Edge または Internet Explorer で [Power BI](https://app.powerbi.com) を参照します。
+## <a name="network-capture---edge--internet-explorer"></a>ネットワーク キャプチャ - Microsoft Edge および Internet Explorer
+1. Microsoft Edge または Internet Explorer で [Power BI](https://app.powerbi.com) を参照します。
 2. F12 キーを押して Edge 開発者ツールを開きます。
 3. 開発者ツール ウィンドウが表示されます。 
    
