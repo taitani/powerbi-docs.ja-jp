@@ -992,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: カスタム ビジュアルの認定を受ける
           href: power-bi-custom-visuals-certified.md
+        - name: カスタム ビジュアルを AppSource に発行する
+          href: developer/office-store.md
     - name: ダッシュボードにデータをプッシュする
       items:
         - name: ダッシュボードにデータをプッシュする
