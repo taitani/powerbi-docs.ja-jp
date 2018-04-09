@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Power BI Desktop でのスライサー
           href: desktop-slicers.md
+        - name: Power BI でボタンの使用
+          href: desktop-buttons.md
         - name: Power BI のブックマーク
           href: desktop-bookmarks.md
         - name: カスタム レポート ツールヒントの作成 (プレビュー)
