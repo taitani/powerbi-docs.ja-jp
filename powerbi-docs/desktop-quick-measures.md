@@ -1,15 +1,15 @@
 ---
-title: "Power BI でクイック メジャーを使用して一般的で強力な計算を簡単に実行する"
-description: "クイック メジャーは、一般的な計算をすばやく実行する既製の DAX 式を提供します"
+title: Power BI でクイック メジャーを使用して一般的で強力な計算を簡単に実行する
+description: クイック メジャーは、一般的な計算をすばやく実行する既製の DAX 式を提供します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>クイック メジャーを使用して一般的で強力な計算を簡単に実行する
 **クイック メジャー**を使用し、一般的で強力な計算を簡単に実行できます。 **クイック メジャー**は、ダイアログ ボックスで指定された入力に基づいて、一連の DAX コマンドをバックグラウンドで実行し (DAX は自動的に作成されるので、自分で記述する必要はありません)、レポートで使える結果を提供します。 何より、クイック メジャーによって実行される DAX を参照でき、すぐに始めたり、自分の DAX の知識を広げたりすることができます。
@@ -59,14 +59,14 @@ SQL Server Analysis Services (SSAS) ライブ接続を使っているときは�
 クイック メジャーの計算タイプには 5 つのグループがあり、それぞれに計算のコレクションが含まれます。 これらのグループおよび計算は次のとおりです。
 
 * **カテゴリごとの集計**
-  * カテゴリ内の平均
-  * カテゴリ内の分散
-  * カテゴリ内の最大値
-  * カテゴリ内の最小値
+  * カテゴリごとの平均
+  * カテゴリごとの差異
+  * カテゴリごとの最大値
+  * カテゴリごとの最小値
   * カテゴリごとの加重平均
 * **フィルター**
   * フィルターされた値
-  * 基準との差異
+  * フィルターされた値との差異
   * フィルターされた値に対する差異の比率
   * 新しいカテゴリからの売上高
 * **タイム インテリジェンス**
@@ -101,7 +101,7 @@ SQL Server Analysis Services (SSAS) ライブ接続を使っているときは�
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-**[値]** フィールド ウェルを右クリックして **[クイック メジャー]** を選び、*[計算]* として *[カテゴリ内の平均]* を選び、*[基準値]* として *[Sum of SalesAmount]* を選び、右側のペインの *[フィールド]* ボックスから左側の *[カテゴリ]* セクションにフィールドをドラッグして *[SalesAmount]* を指定します。
+**[値]** フィールド ウェルを右クリックして **[クイック メジャー]** を選び、*[計算]* として *[カテゴリごとの平均]* を選び、*[基準値]* として *[Sum of SalesAmount]* を選び、右側のペインの *[フィールド]* ボックスから左側の *[カテゴリ]* セクションにフィールドをドラッグして *[SalesAmount]* を指定します。
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 
