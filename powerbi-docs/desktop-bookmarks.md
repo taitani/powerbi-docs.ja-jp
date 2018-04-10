@@ -1,15 +1,15 @@
 ---
-title: "Power BI でのブックマークの使用"
-description: "Power BI Desktop のブックマークを使うと、レポートのビューと設定を保存し、ストーリーのあるプレゼンテーションを作成できます"
+title: Power BI でのブックマークの使用
+description: Power BI Desktop のブックマークを使うと、レポートのビューと設定を保存し、ストーリーのあるプレゼンテーションを作成できます
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI でブックマークを使用して詳細情報を共有し、ストーリーを作成する 
 Power BI の**ブックマーク**を使うと、フィルターの設定やビジュアルの状態など、レポート ページに現在構成されているビューをキャプチャし、後で保存されているブックマークを選ぶだけでその状態に戻すことができます。 
