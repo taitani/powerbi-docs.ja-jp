@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 369d99406cd286be7cf1afb3c02c98c1711531ae
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: d0386f384698e0e66ce927466975eca7f25656db
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop の [分析] ウィンドウを使用する
 **Power BI Desktop** の **[分析]** ウィンドウによって、動的な*参照線*をビジュアルに追加して、重要な傾向や情報に注目させることができます。 **[分析]** ウィンドウは Power BI Desktop の **[視覚化]** 領域にあります。
@@ -113,6 +113,8 @@ ms.lasthandoff: 03/21/2018
 * 円グラフ
 * ドーナツ
 * テーブル
+
+百分位線を使用できるのは、**Power BI Desktop** でインポートされたデータを使用している場合、または **Analysis Services 2016** 以降を実行しているサーバー上のモデル、**Azure Analysis Services**、または Power BI サービス上のデータセットにライブ接続している場合のみです。 
 
 ## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。

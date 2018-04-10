@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop でレポートのテーマを使用する (プレビュー)
-**レポートのテーマ**では、企業の色、季節の色、またはレポートへの適用が必要になる可能性がある他の色のテーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。
+**レポートのテーマ**では、企業の色、季節の色、または適用する可能性がある他の色のテーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。
 
 ![](media/desktop-report-themes/report-themes_1.png)
 
@@ -100,7 +100,7 @@ JSON ファイルを作成する利点はさまざまです。 たとえば、�
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>レポートでレポート テーマの色が維持されない場合
 ビジュアルの特定のデータ ポイントにユーザー設定の色 (または独自の色) を適用した場合、レポート テーマを適用しても、カスタマイズされたデータ ポイントの色は上書き *されません* 。
 
-さらに、色パレットのテーマの色セクションを使用してデータ ポイントの色を手動で設定した場合、新しいレポート テーマを適用しても、その色は更新 *されません* 。 既定の色に戻す (新しいレポート テーマの適用時に更新する) 場合は、**[テーマの色]** パレットで **[既定値に戻す]** を選択できます。
+さらに、色パレットのテーマの色セクションを使用してデータ ポイントの色を手動で設定した場合、新しいレポート テーマを適用しても、その色は更新*されません*。 既定の色に戻す (新しいレポート テーマの適用時に更新する) 場合は、**[テーマの色]** パレットで **[既定値に戻す]** を選択できます。
 
 ![](media/desktop-report-themes/report-themes_9.png)
 

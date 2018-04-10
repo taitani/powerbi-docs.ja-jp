@@ -1,15 +1,15 @@
 ---
-title: "チュートリアル: Power BI Desktop で Excel と OData フィードの売上データを分析する"
-description: "チュートリアル: Excel と OData フィードの売上データを分析する"
+title: 'チュートリアル: Power BI Desktop で Excel と OData フィードの売上データを分析する'
+description: 'チュートリアル: Excel と OData フィードの売上データを分析する'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル: Excel と OData フィードの売上データを分析する
 **Power BI Desktop** では、あらゆる種類のデータ ソースに接続でき、さまざまに結合したり整形したりすることができます。これにより、興味深く説得力のあるデータ分析と視覚化を簡単に実現できます。 このチュートリアルでは、2 つのデータ ソースのデータを結合する方法について取り上げます。 
@@ -133,7 +133,7 @@ Power BI Desktop を使用すると、インポートする列に基づいて計
 1. **[列の追加]** リボン タブで、 **[カスタム列の** **追加**] をクリックします。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. **[カスタム列の追加]** ダイアログ ボックスの **[カスタム列の数式]** テキスト ボックスに、**[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]** と入力します。
+2. **[カスタム列の追加]** ダイアログ ボックスの **[カスタム列の数式]** テキストボックスに「**[Order\_Details.UnitPrice]** \* **[Order\_Details.Quantity]**」と入力します。
 3. **[新しい列名]** テキスト ボックスに、 **LineTotal**と入力します。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)

@@ -1,15 +1,15 @@
 ---
-title: "オンプレミス データ ゲートウェイ (個人用モード)"
-description: "オンプレミス データに接続するために個人が利用できる Power BI 用のデータ ゲートウェイ"
+title: オンプレミス データ ゲートウェイ (個人用モード)
+description: オンプレミス データに接続するために個人が利用できる Power BI 用のデータ ゲートウェイ
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 777e5f27954890fe842096c0f2633f6803ebf319
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>オンプレミス データ ゲートウェイ (個人用モード)
 ゲートウェイを利用し、オンプレミス データ ソースを使用したり、Power BI のレポートやダッシュボードを作成したりできます。 **ゲートウェイ**は、プライベートのオンプレミス ネットワークに保存されているデータへのアクセスを促進し、**Power BI サービス**など、オンライン サービスでそのデータを使用することを可能にするソフトウェアです。 **オンプレミス データ ゲートウェイ (個人用モード)** は最近公開された、Power BI ゲートウェイの更新プログラムであり、個人が自分のコンピューターにゲートウェイをインストールし、オンプレミス データにアクセスすることを可能にします。
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_02.png)
 
-ゲートウェイは[この場所](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409)からもダウンロードできます。 インストール手順に従います。インストール プロセスではいずれのバージョンのゲートウェイ (他のユーザーと共有可能な標準ゲートウェイまたは個人用モード) もインストールできるので、インストールするゲートウェイのバージョン選択を求められたら、**[オンプレミス データ ゲートウェイ] (個人用モード)** を選択してください。
+ゲートウェイは[この場所](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409)からもダウンロードできます。 インストール手順に従います。インストール プロセスではいずれのバージョンのゲートウェイ (他のユーザーと共有可能な標準ゲートウェイまたは個人用モード) もインストールできるので、インストールするゲートウェイのバージョン選択を求められたら、**[オンプレミス データ ゲートウェイ]\(個人用モード)** を選択してください。
 
 ### <a name="updating-from-the-previous-personal-gateway"></a>以前の個人ゲートウェイを更新する
 **Power BI Gateway - Personal** ゲートウェイを既にインストールしている場合、**Power BI サービス**の **[設定]** で **[データセット]** を表示すると、機能強化された新しいバージョンをインストールするように求められます。
@@ -89,7 +89,7 @@ ms.lasthandoff: 02/24/2018
 1. エクスプローラーを利用し、次のファイルを開きます。
    
    ```
-   %localappdata%\Microsoft\on-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+   %localappdata%\Microsoft\On-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
    ```
 2. ファイルの下部に次のテキストを追加します。
    
