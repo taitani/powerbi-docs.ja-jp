@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Power BI サービス (app.powerbi.com) でレポートを開く
 レポートは Power BI サービス、Power BI Desktop、Power BI モバイルで使用でき、Power BI Embedded でも使用できます。 この記事は、***Power BI サービス***でレポートを開く場合に適用されます。
@@ -78,7 +78,7 @@ Power BI サービスには、レポートを表示および操作するため�
 
 ##  <a name="still-more-ways-to-open-a-report"></a>レポートを開く他の方法
 Power BI サービスのナビゲーションに慣れてくると、最適なワークフローを見つけ出すことができます。 レポートにアクセスする他の方法をいくつか以下に示します。
-- 左側のナビゲーション ウィンドウから、**[お気に入り]**、**[最近使った項目]**、**[アプリ]*、**[自分と共有]** を使用する。 
+- 左側のナビゲーション ウィンドウから、**[お気に入り]**、**[最近使った項目]**、**[アプリ]**、**[自分と共有]** を使用する。 
 - [[関連の表示]](service-related-content.md) を使用する
 - メールで (他のユーザーに[共有してもらう](service-share-reports.md)場合、または自分で[アラートを設定する](service-set-data-alerts.md)場合)。    
 - [通知センター](service-notification-center.md)から    

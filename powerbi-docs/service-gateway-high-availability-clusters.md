@@ -1,15 +1,15 @@
 ---
-title: "オンプレミス データ ゲートウェイの高可用性クラスター"
-description: "オンプレミス データ ゲートウェイのクラスターを作成して、エンタープライズの高可用性を提供することができます。"
+title: オンプレミス データ ゲートウェイの高可用性クラスター
+description: オンプレミス データ ゲートウェイのクラスターを作成して、エンタープライズの高可用性を提供することができます。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9ad1d4288184368dbb294bfafa69fe005780b322
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイの高可用性クラスター
 **オンプレミス データ ゲートウェイ** インストールの**高可用性クラスター**を作成すると、組織は Power BI レポートとダッシュボードで使用されるオンプレミス データ リソースにアクセスできるようになります。 このようなクラスターでは、管理者はゲートウェイをグループ化して、オンプレミス データ リソースへのアクセス時に単一障害点を回避できます。 この記事では、オンプレミス データ ゲートウェイの高可用性クラスターを作成するために実行できる手順について説明し、クラスターのセットアップ時のベスト プラクティスを共有します。 高可用性ゲートウェイ クラスターには、オンプレミス データ ゲートウェイの 2017 年 11 月以降の更新プログラムが必要です。

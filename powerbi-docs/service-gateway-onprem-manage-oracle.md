@@ -1,15 +1,15 @@
 ---
-title: "データ ソースの管理 - Oracle"
-description: "オンプレミス データ ゲートウェイとそのゲートウェイに属しているデータ ソースを管理する方法。"
+title: データ ソースの管理 - Oracle
+description: オンプレミス データ ゲートウェイとそのゲートウェイに属しているデータ ソースを管理する方法。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 538904ea8ddb64d530daade143cc290046994464
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2e0e786d043466e5620f0faedfb1761014144164
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>データ ソースの管理 - Oracle
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加する必要があります。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 スケジュールされた更新または DirectQuery のどちらに対しても Oracle データ ソースを使用できます。

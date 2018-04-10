@@ -1,28 +1,28 @@
 ---
-title: "オンプレミス データ ゲートウェイのトラブルシューティング"
-description: "この記事では、オンプレミス データ ゲートウェイに関する問題を解決するための方法を紹介します。 既知の問題を解決できる可能性がある回避策と便利なツールを紹介します。"
+title: オンプレミス データ ゲートウェイのトラブルシューティング
+description: この記事では、オンプレミス データ ゲートウェイに関する問題を解決するための方法を紹介します。 既知の問題を解決できる可能性がある回避策と便利なツールを紹介します。
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのトラブルシューティング
 この記事では、**オンプレミス データ ゲートウェイ**を使用するときに発生する一般的な問題について説明します。
@@ -78,7 +78,7 @@ Power BI サービスからの情報は、ゲートウェイで受信されま�
 1. ゲートウェイをアンインストールします。
 2. 次のフォルダーを削除します。
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. ゲートウェイを再インストールします。
 4. 必要に応じて、回復キーを適用して既存のゲートウェイを復元します。
 
@@ -193,7 +193,7 @@ Analysis Service サーバーがユーザーとは異なるドメインにあり
 
 必要に応じて、Azure Active Directory から Power BI が取得した内容を確認できます。
 
-1. [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net) を参照します。
+1. [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net) にアクセスします。
 2. 右上の **[サインイン]** を選択します。
 3. 次のクエリを実行します。 かなり大きな JSON 応答が表示されます。
    
@@ -314,11 +314,13 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-*Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* ファイル内で `TraceVerbosity` 値を `4` から `5` に変更します。 このファイルは、既定では *C:\Program Files\On-premises data gateway* にあります。 この設定を変更すると、詳細なエントリがゲートウェイ ログに記録されます。 期間を示すエントリが含まれます。
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+*Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* ファイル内で `TracingVerbosity` 値を `4` から `5` に変更します。 このファイルは、既定では *C:\Program Files\On-premises data gateway* にあります。 この設定を変更すると、詳細なエントリがゲートウェイ ログに記録されます。 期間を示すエントリが含まれます。 オンプレミス ゲートウェイ アプリケーションの [追加ログ] ボタンを有効にして、エントリの詳細表示を有効にすることもできます。
+
+   ![追加ログ](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> `5` に対して TraceVerbosity を有効にすると、ゲートウェイの使用状況によっては、ログのサイズが大幅に増える可能性があります。 ログの確認が終了した後は、TraceVerbosity を `4` に設定する必要があります。 この設定を長期間有効のままにすることは推奨されません。
+> `5` に対して TracingVerbosity を有効にすると、ゲートウェイの使用状況によっては、ログのサイズが大幅に増える可能性があります。 ログの確認が終了した後は、TraceVerbosity を `4` に設定する必要があります。 この設定を長期間有効のままにすることは推奨されません。
 > 
 > 
 
@@ -352,6 +354,72 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+基になるデータベース サーバーとオンプレミス データ ゲートウェイが [Kerberos の制約付き委任](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)用に正しく構成されていない場合は、ゲートウェイで[詳細なログ](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)を有効にし、トラブルシューティングの出発点としてゲートウェイのログ ファイルのエラー/トレースに基づいて調査します。
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+ImpersonationLevel は、SPN の設定またはローカル ポリシーの設定に関連しています。
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**解決方法**
+
+問題を解決するには、次の手順を実行します。
+1. オンプレミス ゲートウェイ用に SPN を設定します
+2. Active Directory (AD) で制約付きの委任を設定します
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: ユーザーの userid の Windows ID を作成できませんでした
+
+FailedToImpersonateUserException は、別のユーザーを偽装できない場合に発生します。 この問題は、偽装しようとしているアカウントが、ゲートウェイ サービス ドメインとは別のドメインのアカウントの場合にも発生する可能性があります (これは制限です)。
+
+**解決方法**
+* 前述の ImpersonationLevel に関するセクションの手順に従って構成が正しいことを確認します
+* 偽装しようとしている userid が有効な AD アカウントであることを確認します
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>一般的なエラー: プロトコルの解析中の 1033 エラー
+
+ユーザーが UPN (alias@domain.com) を使用して偽装されていると、SAP HANA で構成された外部 ID がログインと一致しない場合に 1033 エラーが発生します。 ログには、次のように "Original UPN 'alias@domain.com' replaced with a new UPN 'alias@domain.com' at the top of the error logs as seen below" と表示されます。
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**解決方法**
+* SAP HANA では、偽装されるユーザーが AD (ユーザー エイリアス) で sAMAccountName 属性を使用する必要があります。 これが正しくない場合は、1033 エラーが表示されます。
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* ログには、UPN ではなく sAMAccountName (エイリアス) が表示されます。このエイリアスの後にドメイン (alias@doimain.com) が続きます。
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Communication link failure;-10709 Connection failed (RTE:[-1] Kerberos エラー。 メジャー: "Miscellaneous failure [851968]"、マイナー: "No credentials are available in the security package"
+
+AD で委任が正しく構成されていない場合は、-10709 Connection failed エラー メッセージが表示されます。
+
+**解決方法**
+* AD のゲートウェイ サービス アカウントの [委任] タブに SAP Hana サーバーがあることを確認します
+
+   ![[委任] タブ](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
@@ -378,4 +446,3 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 [データ ソースの管理 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [データ ソースの管理 - インポート/スケジュールされた更新](service-gateway-enterprise-manage-scheduled-refresh.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

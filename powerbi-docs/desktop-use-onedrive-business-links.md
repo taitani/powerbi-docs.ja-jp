@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で OneDrive for Business リンクを使用する"
-description: "Power BI Desktop で OneDrive for Business リンクを使用する"
+title: Power BI Desktop で OneDrive for Business リンクを使用する
+description: Power BI Desktop で OneDrive for Business リンクを使用する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad83703b77907488f47f9b5f419e8e4d5145ae97
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop で OneDrive for Business リンクを使用する
 多くの人は、Power BI Desktop と相性の良い OneDrive for Business ドライブに Excel ブックを格納しています。 **Power BI Desktop** を使用すると、**OneDrive for Business** に格納されている **Excel** ファイルのオンライン リンクを使用して、レポートやビジュアルを作成できます。 **OneDrive for Business** のグループ アカウントか、個人の **OneDrive for Business** アカウントを使用できます。
@@ -59,7 +59,7 @@ ms.lasthandoff: 02/24/2018
 **[ナビゲーター]** ウィンドウが表示され、Excel ブックにあるテーブル、シート、範囲を一覧から選ぶことができます。 そこから、他のすべての Excel ファイルと同様に OneDrive for Business ファイルを使用して、レポートを作成し、他のデータ ソースでするのと同じようにデータセットで使用できます。
 
 > [!NOTE]
-> Power BI サービスのデータ ソースとして **OneDrive for Business** ファイルを使うには、そのファイルに対して **[Service Refresh]\(サービスの更新\)** を有効にし、更新の設定を構成するときに **[認証方法]** として **[OAuth2]** を選びます。 このようにしないと、接続または更新しようとしたときに、エラー ("*データ ソースの資格情報の更新に失敗しました*" など) が発生する可能性があります。 認証方法として **OAuth2** を選ぶと、資格情報エラーは発生しません。
+> Power BI サービスのデータ ソースとして **OneDrive for Business** ファイルを使うには、そのファイルに対して **[Service Refresh]\(サービスの更新\)** を有効にし、更新の設定を構成するときに **[認証方法]** として **[OAuth2]** を選択します。 このようにしないと、接続または更新しようとしたときに、エラー ("*データ ソースの資格情報の更新に失敗しました*" など) が発生する可能性があります。 認証方法として **OAuth2** を選ぶと、資格情報エラーは発生しません。
 > 
 > 
 

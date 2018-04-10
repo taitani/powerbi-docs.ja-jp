@@ -1,13 +1,13 @@
 ---
-title: "Power BI Desktop の取得"
-description: "Power BI Desktop のダウンロードおよびインストール"
+title: Power BI Desktop の取得
+description: Power BI Desktop のダウンロードおよびインストール
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/15/2017
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0a0ffc46feadc5868b8e7a4bd273b7d8acc8bfb5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 **Power BI Desktop** では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 **Power BI Desktop** を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。  **Power BI Desktop** は無料でダウンロードできます。
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/24/2018
 **Power BI Desktop** は 2 つの方法で取得でき、次のセクションではそれぞれについて説明します。
 
 * 直接**ダウンロード**する (MSI パッケージをダウンロードしてコンピューターにインストール)
-* **Windows ストア**からアプリとしてインストールする
+* **Microsoft ストア**からアプリとしてインストールする
 
 どちらの方法でも最新バージョンの **Power BI Desktop** がコンピューターにインストールされますが、注目すべきいくつかの違いがあります。これについては以下のセクションで説明します。
 
@@ -54,31 +54,32 @@ ms.lasthandoff: 02/24/2018
 ![](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> 同じコンピューターに **Power BI Desktop** のダウンロード (MSI) バージョンと **Windows ストア** バージョンをインストールすること (*サイド バイ サイド* インストールとも呼ばれます) はサポートされていません。
+> 同じコンピューターに **Power BI Desktop** のダウンロード (MSI) バージョンと **Microsoft ストア** バージョンをインストールすること (*サイド バイ サイド* インストールとも呼ばれます) はサポートされていません。
 > 
 > 
 
-## <a name="install-as-an-app-from-the-windows-store"></a>Windows ストアからアプリとしてインストールする
-次のリンクを使って、Windows ストアから **Power BI Desktop** を取得することもできます。
+## <a name="install-as-an-app-from-the-microsoft-store"></a>Microsoft ストアからアプリとしてインストールする
+次のリンクを使って、Microsoft ストアから **Power BI Desktop** を取得することもできます。
 
-* [**Power BI Desktop** を **Windows ストア**からインストールする](http://aka.ms/pbidesktopstore)
+* [**Microsoft ストア**から **Power BI Desktop** をインストールする](http://aka.ms/pbidesktopstore)
 
 ![](media/desktop-get-the-desktop/getpbid_04.png)
 
-Windows ストアから **Power BI Desktop** を入手するといくつかの利点があります。
+Microsoft ストアから **Power BI Desktop** を入手するといくつかの利点があります。
 
 * **自動更新** - Windows は最新バージョンが入手できるようになるとすぐ自動的にダウンロードするので、バージョンは常に最新の状態です。
-* **ダウンロード量が少なくなる** - **Windows ストア**では、各更新で変更されたコンポーネントのみがコンピューターにダウンロードされるようになっています。結果的に、各更新のダウンロード量が少なくなります。
-* **管理者特権が必要ない** - MSI を直接ダウンロードしてインストールする場合は、インストールが正常に完了するには管理者が行う必要があります。 Windows ストアから **Power BI Desktop** を入手するときは、管理者特権は必要*ありません*。
-* **IT のロールアウトが可能** - **Windows ストア** バージョンの方が組織内の全ユーザーへのデプロイ ("*ロールアウト*") が簡単であり、**ビジネス向け Microsoft ストア**から **Power BI Desktop** を入手できるようにすることができます。
-* **言語検出** - **Windows ストア** バージョンにはサポート対象のすべての言語が含まれ、コンピューターを起動するたびに使われている言語が確認されます。 これは、**Power BI Desktop** で作成されるモデルのローカライズにも影響します。たとえば、組み込みの日付階層は、.pbix ファイルが作成されたときに **Power BI Desktop** で使われていた言語と一致します。
+* **ダウンロード量が少なくなる** - **Microsoft ストア**では、各更新で変更されたコンポーネントのみがコンピューターにダウンロードされるようになっています。結果的に、各更新のダウンロード量が少なくなります。
+* **管理者特権が必要ない** - MSI を直接ダウンロードしてインストールする場合は、インストールが正常に完了するには管理者が行う必要があります。 Microsoft ストアから **Power BI Desktop** を入手するときは、管理者特権は必要*ありません*。
+* **IT のロールアウトが可能** - **Microsoft ストア** バージョンの方が組織内の全ユーザーへのデプロイ ("*ロールアウト*") が簡単であり、**ビジネス向け Microsoft ストア**から **Power BI Desktop** を入手できるようにすることができます。
+* **言語検出** - **Microsoft ストア** バージョンにはサポート対象のすべての言語が含まれ、コンピューターを起動するたびに使われている言語が確認されます。 これは、**Power BI Desktop** で作成されるモデルのローカライズにも影響します。たとえば、組み込みの日付階層は、.pbix ファイルが作成されたときに **Power BI Desktop** で使われていた言語と一致します。
 
-Windows ストアからの **Power BI Desktop** のインストールには、以下で示すようないくつかの考慮事項と制限があります。
+Microsoft ストアからの **Power BI Desktop** のインストールには、以下で示すようないくつかの考慮事項と制限があります。
 
 * SAP コネクタを使う場合、SAP ドライバー ファイルを *Windows\System32* フォルダーに移動することが必要な場合があります。
+* Microsoft ストアから **Power BI Desktop** をインストールしても、MSI バージョンのユーザー設定はコピーされません。 必要に応じて、最近使ったデータ ソースに再接続し、データ ソースの資格情報を再入力します。 
 
 > [!NOTE]
-> 同じコンピューターに **Power BI Desktop** のダウンロード (MSI) バージョンと **Windows ストア** バージョンをインストールすること (*サイド バイ サイド* インストールとも呼ばれます) はサポートされていません。
+> 同じコンピューターに **Power BI Desktop** のダウンロード (MSI) バージョンと **Microsoft ストア** バージョンをインストールすること (*サイド バイ サイド* インストールとも呼ばれます) はサポートされていません。 手動で **Power BI Desktop** をアンインストールしてから、**Microsoft ストア**から Power BI Desktop をダウンロードする必要があります。
 > 
 > [!NOTE]
 > **Power BI Desktop** の Power BI Report Server バージョンは、この記事で説明されているバージョンとは異なるものであり、別途インストールします。 **Power BI Desktop** の Report Server バージョンについては、「[クイックスタート: Power BI Report Server の Power BI レポートの作成](report-server/quickstart-create-powerbi-report.md)」をご覧ください。

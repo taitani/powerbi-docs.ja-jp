@@ -1,28 +1,28 @@
 ---
-title: "Power BI 管理ポータル"
-description: "管理ポータルを使用して、組織内の Power BI のテナントを管理できます。 利用状況の指標、Office 365 管理センターへのアクセス、設定などの項目があります。"
+title: Power BI 管理ポータル
+description: 管理ポータルを使用して、組織内の Power BI のテナントを管理できます。 利用状況の指標、Office 365 管理センターへのアクセス、設定などの項目があります。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -53,7 +53,7 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
-## <a name="usage-metrics"></a>利用状況の指標
+## <a name="usage-metrics"></a>使用状況メトリック
 管理ポータルの最初のタブは、**[利用状況の指標ク]** です。 利用状況の指標レポートを使用して、組織の Power BI の利用状況を監視できます。 また、組織のどのユーザーやグループが Power BI を最もアクティブに使用しているかを確認することもできます。
 
 > [!NOTE]
@@ -163,7 +163,7 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 |管理ポータル内の **[埋め込みコード]**|状態には次のいずれかが反映されます。<br>* アクティブ<br>* サポートされていません<br>* ブロック|状態は **[無効]** と表示|状態には次のいずれかが反映されます。<br>* アクティブ<br>* サポートされていません<br>* ブロック<br><br>ユーザーがテナント設定に基づいて承認されていない場合、状態は **[侵害]** となります。|
 |既存の公開済みレポート|すべて有効|すべて無効|すべてのユーザーに対して、レポートの表示が続行されます。|
 
-### <a name="export-data"></a>データをエクスポートする
+### <a name="export-data"></a>データのエクスポート
 
 組織内のユーザーは、タイルや視覚エフェクトからデータをエクスポートできます。 [詳細情報](power-bi-visualization-export-data.md)
 
@@ -326,8 +326,8 @@ Premium の設定の管理について詳しくは、「[Manage Power BI Premium
  
 ### <a name="how-to-update-a-visual"></a>ビジュアルを更新する方法
 
-新しいバージョンのビジュアルがあるため (バグの修正や新しい機能など)、リポジトリのビジュアルを更新する場合、一覧の新しいエントリとして新しいファイルをアップロードします (Visual ID が変更されないようにします)。タイトルと説明は正しく入力してください ("My Visual v2.0" など)。 次回ユーザーが Power BI Desktop から組織のリポジトリに入ると、新しいバージョンをインポートできます。レポートに入っている現在のバージョンを置換するように求められます。
- 
+新しいバージョンのビジュアル (バグ修正、新機能など) があるため、リポジトリ内のビジュアルを更新する場合は、**更新**アイコンを選択し、新しいファイルをアップロードします。 ビジュアル ID が変わらないことを確認します。 新しいファイルで、組織全体のすべてのレポートの以前のファイルが置き換えられます。 ただし、ビジュアルの新しいバージョンのためにビジュアルの以前のバージョンを使用できなくなったり、データ構造が破損されたりする可能性がある場合は、以前のバージョンを置き換えないでください。 代わりに、新しいバージョンのビジュアル用に新しく登録することをお勧めします。 たとえば、新しいバージョン番号 (バージョン X.X) を新しく登録されたビジュアルのタイトルに追加します。 こうすると、バージョン番号が更新されているだけで同じビジュアルであることがわかるので、既存のレポートの機能は中断されません。 この場合も、ビジュアル ID が変わらないことを確認します。 次回ユーザーが Power BI Desktop から組織のリポジトリに入ると、新しいバージョンをインポートできます。レポートに入っている現在のバージョンを置換するように求められます。
+
 ## <a name="next-steps"></a>次の手順
 
 [Power BI 管理者の役割について](service-admin-role.md)  

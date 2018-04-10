@@ -1,15 +1,15 @@
 ---
-title: "データ ソースの管理 - Analysis Services"
-description: "オンプレミス データ ゲートウェイとそのゲートウェイに属しているデータ ソースを管理する方法。 これは Analysis Services での多次元および表形式モードの両方に当てはまります。"
+title: データ ソースの管理 - Analysis Services
+description: オンプレミス データ ゲートウェイとそのゲートウェイに属しているデータ ソースを管理する方法。 これは Analysis Services での多次元および表形式モードの両方に当てはまります。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 59fc3db101de246aaf4ab08c7916b25497b74fd2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加する必要があります。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 Analysis Services データ ソースは、スケジュールされた更新とライブ接続のどちらにも使用できます。

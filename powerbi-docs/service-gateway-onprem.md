@@ -1,28 +1,28 @@
 ---
-title: "オンプレミス データ ゲートウェイ"
-description: "これは Power BI のオンプレミス データ ゲートウェイの概要です。 このゲートウェイを使用し、DirectQuery データ ソースを操作できます。 また、このゲートウェイを使用し、オンプレミス データでクラウド データセットを更新できます。"
+title: オンプレミス データ ゲートウェイ
+description: これは Power BI のオンプレミス データ ゲートウェイの概要です。 このゲートウェイを使用し、DirectQuery データ ソースを操作できます。 また、このゲートウェイを使用し、オンプレミス データでクラウド データセットを更新できます。
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 02/22/2018
-ms.author: davidi
+ms.date: 03/26/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: c9025194ebe8ce6b1829aacd9d74bff5d9c55e3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway"></a>オンプレミス データ ゲートウェイ
 オンプレミス データ ゲートウェイはブリッジとして機能します。オンプレミス データ (クラウドにないデータ) と Power BI、Microsoft Flow、Logic Apps、PowerApps サービスの間で迅速かつ安全にデータを転送します。
@@ -90,6 +90,11 @@ Power BI にサインインし、クラウド サービスにゲートウェイ�
 
 <!-- How the gateway works -->
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
+
+## <a name="limitations-and-considerations"></a>制限事項と考慮事項
+* [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+) は現在サポートされていません
+* [Access Online](https://products.office.com/en-us/access) は現在サポートされていません。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 ゲートウェイをインストールおよび構成するときに問題が発生する場合は、「[オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)」をご覧ください。 ファイアウォールで問題が発生していると思われる場合は、トラブルシューティング記事の[ファイアウォールまたはプロキシ](service-gateway-onprem-tshoot.md#firewall-or-proxy)に関するセクションを参照してください。
