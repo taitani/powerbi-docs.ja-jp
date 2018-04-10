@@ -1,15 +1,15 @@
 ---
-title: "Power BI で Project Online に接続する"
-description: "Power BI 用 Project Online"
+title: Power BI で Project Online に接続する
+description: Power BI 用 Project Online
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6272b3f175d7da851e5d8086c574a91f0f00c933
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1d0cb4531dca1f200adbb21514fb49df8c872ecc
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>Power BI で Project Online に接続する
 Microsoft Project Online は、プロジェクト ポートフォリオ管理 (PPM) および日常の作業用の柔軟なオンライン ソリューションです。 Project Online を使用すると、プロジェクト ポートフォリオの投資を開始して優先順位を設定し、意図したとおりのビジネス価値を提供できます。 Power BI 用 Project Online コンテンツ パックでは、ポートフォリオの状態やプロジェクトへの準拠などの既定のメトリックで、プロジェクトのデータを調べることができます。
@@ -45,6 +45,9 @@ Power BI 用 [Project Online コンテンツ パック](https://app.powerbi.com/
 5. [認証方法] として **[oAuth2]** を選択し、**[サイン イン]** をクリックします。 プロンプトが表示されたら、Project Online の資格情報を入力し、認証プロセスに従います。
    
     ![](media/service-connect-to-project-online/creds.png)
+    
+接続先の Project Web App のポートフォリオ閲覧者、ポートフォリオ マネージャー、または管理者のアクセス許可が必要です。
+
 6. データを読み込んでいることを示す通知が表示されます。 アカウントの大きさによっては時間がかかる可能性があります。 Power BI によるデータのインポート後、新しいダッシュ ボード、レポート、データセットが左側のナビゲーション ウィンドウに表示されます。 これは、データを表示するために Power BI によって作成された既定のダッシュボードです。 このダッシュボードを変更し、希望する方法でデータを表示できます。
    
    ![](media/service-connect-to-project-online/dashboard2.png)
