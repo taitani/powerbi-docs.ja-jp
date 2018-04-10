@@ -1,15 +1,15 @@
 ---
-title: "Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) にオンプレミス ゲートウェイの Kerberos を使用する"
-description: "Power BI からオンプレミス データ ソースへの SSO を有効にするようにゲートウェイの Kerberos を構成します"
+title: Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) にオンプレミス ゲートウェイの Kerberos を使用する
+description: Power BI からオンプレミス データ ソースへの SSO を有効にするようにゲートウェイの Kerberos を構成します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: f60709e45e844ff7ab1a9c6bf3cb669c567dfcc8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する
 オンプレミスのデータ ゲートウェイと Kerberos を構成することにより、シームレスなシングル サインオン接続を確立して、Power BI のレポートとダッシュボードをオンプレミスのデータで更新することができます。 オンプレミス データ ゲートウェイにより、DirectQuery を使うシングル サインオン (SSO) が容易になります。この場合、オンプレミスのデータ ソースへの接続に使われます。

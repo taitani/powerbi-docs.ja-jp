@@ -1,15 +1,15 @@
 ---
-title: "Power BI Gateway の概要"
-description: "Power BI のデータ ゲートウェイに関する基本を説明します。"
+title: Power BI Gateway の概要
+description: Power BI のデータ ゲートウェイに関する基本を説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: e56af5ae1c59afc7d7aef01450bb1c778eb70b14
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bf01bb7764db09d6afe24e520f2d185c191ef56c
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Power BI Gateway の概要
 **Power BI Gateway の概要**ガイドにようこそ。 この短いチュートリアルでは、ゲートウェイの機能、そのしくみ、独自のゲートウェイを設置、構成、実行する方法について説明します。  

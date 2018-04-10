@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b0b49e5c628f5e01bb2368d9bc471acc5342f97
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 685091cff071676da050d1a042a487fdadc77407
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro を購入する
 
@@ -70,6 +70,10 @@ Office IT 管理者である場合は、以下の手順に従って Power BI Pro
 ## <a name="pricing"></a>料金
 
 最新の料金については、[Power BI の料金](https://powerbi.microsoft.com/en-us/pricing/)に関するページを参照してください。
+
+> [!NOTE]
+> Pro ライセンスが割り当てられているユーザーには、サブスクリプションが終了してから 30 日間は完全なアクセス権があります。 この状態になると、管理ポータルのサブスクリプションには "期限切れ" と表示されます。
+>
 
 ## <a name="next-steps"></a>次の手順
 [Power BI のセルフサービス サインアップ](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)

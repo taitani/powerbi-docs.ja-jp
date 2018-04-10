@@ -1,28 +1,28 @@
 ---
-title: "Power BI から Web への公開"
-description: "Power BI で Web に公開すると、対話型の Power BI の視覚化をブログ投稿記事、Web サイト、メールやソーシャル メディアなどにオンラインで簡単に埋め込むことができます。"
+title: Power BI から Web への公開
+description: Power BI で Web に公開すると、対話型の Power BI の視覚化をブログ投稿記事、Web サイト、メールやソーシャル メディアなどにオンラインで簡単に埋め込むことができます。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -133,13 +133,16 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 
 ## <a name="limitations"></a>制限事項
 
-**[Web に公開]** は Power BI サービスの大半のデータ ソースおよびレポートでサポートされていますが、現時点で以下のものは [Web に公開] でサポートされていないか、使用できません。
+**[Web に公開]** は Power BI サービスの大半のデータ ソースおよびレポートでサポートされていますが、現時点で以下のものは [Web に公開] で**サポートされていないか、使用できません**。
 
 1. 行レベルのセキュリティを使用するレポート
-2. ライブ接続データ ソースを使うレポート (Analysis Services 表形式でホストされたオンプレミスの Analysis Service 多次元、Azure Analysis Services、Power BI Service など)。
+2. ライブ接続データ ソースを使うレポート (Analysis Services 表形式でホストされたオンプレミスの Analysis Service 多次元、Azure Analysis Services など)。
 3. 直接共有されているか、組織のコンテンツ パックを経由して共有されているレポート
 4. 編集メンバーではないグループ内のレポート
 5. 現時点では、[Web に公開] レポートで "R" ビジュアルはサポートされていません。
+6. Web に公開されたレポートのビジュアルからのデータのエクスポート
+7. ArcGIS Maps for Power BI のビジュアル
+8. [機密情報をセキュリティで保護する](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>テナントの設定
 
@@ -177,7 +180,7 @@ Web サイトまたはブログに埋め込まれた **[Web に公開]** コン�
 
 ## <a name="how-it-works-technical-details"></a>機能方法 (技術的な詳細)
 
-**[Web に公開]** を使用して埋め込みコードを作成すると、インターネット上のユーザーがレポートを見られるようになります。 公開であるため、閲覧者は今後ソーシャル メディアを通してレポートを簡単に共有できます。 直接パブリック URL を開くか、Web ページやブログに埋め込まれているレポートを表示して、ユーザーがレポートを表示すると、Power BI はレポート定義と、レポートを表示するために必要なクエリの結果をキャッシュします。 この方法によって、パフォーマンスに影響を及ぼすことなく大勢のユーザーが同時にレポートを表示することができます。  
+**[Web に公開]** を使用して埋め込みコードを作成すると、インターネット上のユーザーがレポートを見られるようになります。 公開であるため、閲覧者は今後ソーシャル メディアを通してレポートを簡単に共有できます。 直接パブリック URL を開くか、Web ページやブログに埋め込まれているレポートを表示して、ユーザーがレポートを表示すると、Power BI はレポート定義と、レポートを表示するために必要なクエリの結果をキャッシュします。 この方法によって、パフォーマンスに影響を及ぼすことなく大勢のユーザーが同時にレポートを表示することができます。
 
 キャッシュは長期間存在します。そのため、レポート定義を更新する (たとえば、その表示モードを変更する場合)、またはレポート データを更新する場合、ユーザーが表示するレポートのバージョンに変更が反映されるまで、約 1 時間かかる場合があります。 したがって、作業を前もって計画的に行い、設定に問題がないことを十分に確認してから、**Web に公開**される埋め込みコードを作成するようお勧めします。
 

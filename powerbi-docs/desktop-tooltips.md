@@ -1,15 +1,15 @@
 ---
-title: "Power BI のレポートでのヒント ページの使用"
-description: "Power BI Desktop のヒント ページでは、レポートのビジュアルをマウス ポインターでポイントすると表示されるさまざまなヒントを作成できます。"
+title: Power BI のレポートでのヒント ページの使用
+description: Power BI Desktop のヒント ページでは、レポートのビジュアルをマウス ポインターでポイントすると表示されるさまざまなヒントを作成できます。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Power BI Desktop のレポート ページを基にしてヒントを作成する (プレビュー)
 **Power BI Desktop** で作成したレポート ページを基にして、ビジュアルをマウス ポインターでポイントすると表示されるさまざまな視覚的**レポート ヒント**を作成できます。 ヒントとして機能するレポート ページを作成することにより、レポート ページで作成したビジュアル、イメージ、その他の項目のコレクションを、カスタム ヒントに含めることができます。 
 
 ![Power BI Desktop のレポート ヒント](media/desktop-tooltips/desktop-tooltips_00a.png)
 
-必要なだけいくつでもヒント ページを作成することができます。 各ヒント ページをレポート内の 1 つ以上のフィールドと関連付けることにより、選択したフィールドを含むビジュアルをマウス ポインターでポイントすると、ヒント ページで作成したヒントが、ポイントしたデータポイントに基づいてフィルター処理されて表示されます。 
+必要なだけいくつでもヒント ページを作成することができます。 各ヒント ページをレポート内の 1 つ以上のフィールドと関連付けることにより、選択したフィールドを含むビジュアルをマウス ポインターでポイントすると、ヒント ページで作成したヒントが、ポイントしたデータポイントでフィルター処理されて表示されます。 
 
 レポート ヒントではさまざまなことができます。 以下では、ヒントを作成する方法と、それを構成するために行う必要があることを説明します。
 
