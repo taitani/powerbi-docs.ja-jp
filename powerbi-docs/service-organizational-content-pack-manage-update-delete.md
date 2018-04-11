@@ -1,15 +1,15 @@
 ---
-title: "組織のコンテンツ パック: 管理および更新する"
-description: "Power BI での組織のコンテンツ パックの管理、更新、削除について説明します。"
+title: '組織のコンテンツ パック: 管理および更新する'
+description: Power BI での組織のコンテンツ パックの管理、更新、削除について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

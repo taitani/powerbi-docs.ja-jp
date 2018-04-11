@@ -1,15 +1,15 @@
 ---
-title: "Power BI で Ziosk Survey Analytics に接続する"
-description: "Power BI 用 Ziosk"
+title: Power BI で Ziosk Survey Analytics に接続する
+description: Power BI 用 Ziosk
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

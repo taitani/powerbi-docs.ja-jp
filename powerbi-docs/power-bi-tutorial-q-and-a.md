@@ -1,12 +1,12 @@
 ---
-title: "チュートリアル - ダッシュボードまたはレポートでの Q&A の使用"
-description: "Power BI Q&A を使ってダッシュボードとレポートに新しい視覚エフェクトを作成する方法についてのチュートリアルです。"
+title: チュートリアル - ダッシュボードまたはレポートでの Q&A の使用
+description: Power BI Q&A を使ってダッシュボードとレポートに新しい視覚エフェクトを作成する方法についてのチュートリアルです。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

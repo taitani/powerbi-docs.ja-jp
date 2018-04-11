@@ -1,15 +1,15 @@
 ---
-title: "組織のコンテンツ パックを作成して発行する - Power BI"
-description: "このチュートリアルでは、組織のコンテンツ パックを作成して、特定のグループにアクセスを制限し、そのコンテンツ パックを Power BI の組織のコンテンツ パック ライブラリに発行します。"
+title: 組織のコンテンツ パックを作成して発行する - Power BI
+description: このチュートリアルでは、組織のコンテンツ パックを作成して、特定のグループにアクセスを制限し、そのコンテンツ パックを Power BI の組織のコンテンツ パック ライブラリに発行します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

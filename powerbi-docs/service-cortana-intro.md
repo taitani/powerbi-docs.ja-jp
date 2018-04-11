@@ -1,11 +1,11 @@
 ---
-title: "Cortana を利用し、Power BI のレポートとダッシュボードをすばやく見つけ、表示する"
-description: "Cortana を Power BI で使用して、データから回答を得ることができます。 現在のところ、レポートとダッシュボードで機能します。"
+title: Cortana を利用し、Power BI のレポートとダッシュボードをすばやく見つけ、表示する
+description: Cortana を Power BI で使用して、データから回答を得ることができます。 現在のところ、レポートとダッシュボードで機能します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

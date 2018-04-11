@@ -1,15 +1,15 @@
 ---
-title: "組織のコンテンツ パックから切断する - Power BI"
-description: "Power BI でデータセットを削除して組織のコンテンツ パックに対する接続を削除する方法について説明します。"
+title: 組織のコンテンツ パックから切断する - Power BI
+description: Power BI でデータセットを削除して組織のコンテンツ パックに対する接続を削除する方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Power BI で tyGraph に接続する"
-description: "Power BI 用 tyGraph"
+title: Power BI で tyGraph に接続する
+description: Power BI 用 tyGraph
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Power BI で Windows デベロッパー センターに接続する"
-description: "Power BI 用 Windows デベロッパー センター"
+title: Power BI で Windows デベロッパー センターに接続する
+description: Power BI 用 Windows デベロッパー センター
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

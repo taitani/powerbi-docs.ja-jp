@@ -1,15 +1,15 @@
 ---
-title: "Power BI アプリ ワークスペースの OneDrive のファイルに接続する"
-description: "Power BI アプリ ワークスペースの OneDrive への Excel、CSV、Power BI Desktop などのファイルの保存とファイルへの接続について説明します。"
+title: Power BI アプリ ワークスペースの OneDrive のファイルに接続する
+description: Power BI アプリ ワークスペースの OneDrive への Excel、CSV、Power BI Desktop などのファイルの保存とファイルへの接続について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

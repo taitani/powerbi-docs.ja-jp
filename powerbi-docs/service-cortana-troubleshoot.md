@@ -1,16 +1,16 @@
 ---
-title: "Power BI 用 Cortana のトラブルシューティング"
-description: "Power BI で Cortana を使っていて問題がある場合は、この記事のトラブルシューティングを試してください。"
+title: Power BI 用 Cortana のトラブルシューティング
+description: Power BI で Cortana を使っていて問題がある場合は、この記事のトラブルシューティングを試してください。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

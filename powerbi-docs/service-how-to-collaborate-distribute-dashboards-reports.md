@@ -1,13 +1,13 @@
 ---
-title: "Power BI で共同作業および共有を行う方法"
-description: "Power BI では、ダッシュボード、レポート、タイル、アプリに対してさまざまな方法で共同作業を行い、共有できます。 それぞれに利点があります。"
+title: Power BI で共同作業および共有を行う方法
+description: Power BI では、ダッシュボード、レポート、タイル、アプリに対してさまざまな方法で共同作業を行い、共有できます。 それぞれに利点があります。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi

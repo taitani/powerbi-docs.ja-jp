@@ -1,15 +1,15 @@
 ---
-title: "組織のコンテンツ パック: アクセスしてコピーする"
-description: "Power BI で組織のコンテンツ パックのコピーを作成する方法、および Power BI のコンテンツ パックへのアクセスをトラブルシューティングする方法について説明します"
+title: '組織のコンテンツ パック: アクセスしてコピーする'
+description: Power BI で組織のコンテンツ パックのコピーを作成する方法、および Power BI のコンテンツ パックへのアクセスをトラブルシューティングする方法について説明します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

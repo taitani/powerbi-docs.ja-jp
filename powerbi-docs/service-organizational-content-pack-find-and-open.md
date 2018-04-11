@@ -1,15 +1,15 @@
 ---
-title: "組織のコンテンツ パックを検索して接続する - Power BI"
-description: "Power BI で組織のコンテンツ パックを検索して開く"
+title: 組織のコンテンツ パックを検索して接続する - Power BI
+description: Power BI で組織のコンテンツ パックを検索して開く
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

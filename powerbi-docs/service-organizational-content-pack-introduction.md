@@ -1,15 +1,15 @@
 ---
-title: "Power BI での組織のコンテンツ パックの概要"
-description: "同僚と共有できる組織のコンテンツ パックにダッシュボード、レポート、Excel ブック、データセットをパッケージ化する方法について説明します。"
+title: Power BI での組織のコンテンツ パックの概要
+description: 同僚と共有できる組織のコンテンツ パックにダッシュボード、レポート、Excel ブック、データセットをパッケージ化する方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
