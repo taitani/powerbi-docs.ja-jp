@@ -1,15 +1,15 @@
 ---
-title: "Power BI で Microsoft Dynamics AX コンテンツ パックに接続する"
-description: "Power BI 用 Microsoft Dynamics AX コンテンツ パック"
+title: Power BI で Microsoft Dynamics AX コンテンツ パックに接続する
+description: Power BI 用 Microsoft Dynamics AX コンテンツ パック
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

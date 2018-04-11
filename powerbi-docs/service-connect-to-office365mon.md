@@ -1,15 +1,15 @@
 ---
-title: "Power BI で Office365Mon に接続する"
-description: "Power BI 用 Office365Mon"
+title: Power BI で Office365Mon に接続する
+description: Power BI 用 Office365Mon
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

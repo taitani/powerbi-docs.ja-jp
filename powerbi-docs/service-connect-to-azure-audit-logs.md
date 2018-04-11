@@ -1,15 +1,15 @@
 ---
-title: "Power BI で Azure 監査ログに接続する"
-description: "Power BI 用 Azure Audit Logs"
+title: Power BI で Azure 監査ログに接続する
+description: Power BI 用 Azure Audit Logs
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

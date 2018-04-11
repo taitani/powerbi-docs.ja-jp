@@ -1,40 +1,33 @@
 ---
-title: "Power BI Desktop で Adobe Analytics に接続する (プレビュー)"
-description: "Power BI Desktop で Adobe Analytics に簡単に接続して使用します"
+title: Power BI Desktop で Adobe Analytics に接続する
+description: Power BI Desktop で Adobe Analytics に簡単に接続して使用します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>Power BI Desktop で Adobe Analytics に接続する (プレビュー)
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Power BI Desktop で Adobe Analytics に接続する 
 **Power BI Desktop** では、**Adobe Analytics** に接続し、Power BI Desktop の他のデータ ソースと同じように基になっているデータを使用できます。 
 
 ![Adobe Analytics からデータを取得する](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>Adobe Analytics コネクタ (プレビュー) を有効にする 
-**Adobe Analytics** コネクタは現在プレビューなので、**[データの取得]** ウィンドウでコネクタを使用するには、プレビュー機能を有効にする必要があります。 コネクタ プレビューを有効にするには、Power BI Desktop で **[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能]** の順に選択し、**[レポート ページのヒント]** のチェック ボックスをオンにします。 
-
-![[オプション] で Adobe Analytics コネクタ プレビューを有効にする](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-選択を行った後、Adobe Analytics コネクタ プレビューを有効にするには、**Power BI Desktop** を再起動する必要があります。
 
 ## <a name="connect-to-adobe-analytics-data"></a>Adobe Analytics データに接続する
 **Adobe Analytics** データに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリで **[オンライン サービス]** を選択すると、**[Adobe Analytics コネクタ]** が表示されます。
