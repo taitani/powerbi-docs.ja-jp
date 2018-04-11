@@ -1,15 +1,15 @@
 ---
-title: "Power BI で Adobe Analytics に接続する"
-description: "ダッシュボードやレポートにアカウント データを表示するアプリのために Power BI から Adobe Analytics に接続します。"
+title: Power BI で Adobe Analytics に接続する
+description: ダッシュボードやレポートにアカウント データを表示するアプリのために Power BI から Adobe Analytics に接続します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

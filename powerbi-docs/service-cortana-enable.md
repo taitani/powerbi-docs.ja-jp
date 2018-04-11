@@ -1,11 +1,11 @@
 ---
-title: "Power BI 用に Cortana をアクティブ化する"
-description: "Cortana を Power BI で使用して、データから回答を得ることができます。 Power BI のデータセットごとに Cortana をアクティブ化した後、Windows デバイスから Cortana がデータセットにアクセスできるようにします。"
+title: Power BI 用に Cortana をアクティブ化する
+description: Cortana を Power BI で使用して、データから回答を得ることができます。 Power BI のデータセットごとに Cortana をアクティブ化した後、Windows デバイスから Cortana がデータセットにアクセスできるようにします。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

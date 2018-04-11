@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: 4faf32419c0b02ceadb495832ed90d312b823773
-ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
+ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/29/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Power BI のダッシュボード、タイル、レポートをソブリン クラウド向けアプリケーションに埋め込む
 顧客向けのダッシュボード、タイル、またはレポートを、Power BI .NET SDK と Power BI JavaScript API を使って Web アプリに統合する (埋め込む) 方法を説明します。 通常、これは ISV のシナリオです。
@@ -54,7 +54,7 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
     2. Web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
     3. 次のように、web.config ファイルに GCC パラメーターを追加します。
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
@@ -69,7 +69,7 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
     2. Web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
     3. 次のように、web.config ファイルに DoDCON パラメーターを追加します。
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
@@ -84,7 +84,7 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
     2. Web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
     3. 次のように、web.config ファイルに DoDCON パラメーターを追加します。
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
@@ -99,7 +99,7 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
     2. Web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
     3. 次のように、web.config ファイルに Germany Cloud 向け Power BI のパラメーターを追加します。
 
-```
+```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
@@ -142,7 +142,7 @@ Power BI コンテンツを正しく埋め込むは、2 つのことを行う必
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>アクセス トークンを使って Power BI クライアントを作成する
 Power BI API と対話できる Power BI クライアント オブジェクトを、アクセス トークンで作成します。 そのためには、AccessToken を *Microsoft.Rest.TokenCredentials* オブジェクトでラップします。
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.Rest;
 using Microsoft.PowerBI.Api.V2;
@@ -163,7 +163,7 @@ Power BI クライアント オブジェクトを使って、埋め込むアイ�
 
 **ダッシュボード**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -176,7 +176,7 @@ Dashboard dashboard = dashboards.Value.FirstOrDefault();
 
 **タイル**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -197,7 +197,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 **レポート**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -220,7 +220,7 @@ JavaScript API から使うことができる埋め込みトークンを生成�
 
 **ダッシュボード**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -239,7 +239,7 @@ var embedConfig = new EmbedConfig()
 
 **タイル**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -259,7 +259,7 @@ var embedConfig = new TileEmbedConfig()
 
 **レポート**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -282,7 +282,7 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 
 **Views\Home\EmbedDashboard.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="dashboardContainer"></div>
 <script>
@@ -320,7 +320,7 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 
 **Views\Home\EmbedTile.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="tileContainer"></div>
 <script>
@@ -362,7 +362,7 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 
 **Views\Home\EmbedReport.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="reportContainer"></div>
 <script>

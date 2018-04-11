@@ -1,12 +1,12 @@
 ---
-title: "Power BI でダッシュボードとレポートを含むアプリをインストールして使用する"
-description: "Power BI では、アプリが関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。"
+title: Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
+description: Power BI では、アプリが関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi
