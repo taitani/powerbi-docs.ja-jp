@@ -1,13 +1,13 @@
 ---
-title: "Power BI のレポートをフィルター処理して同僚と共有する"
-description: "フィルター処理された Power BI レポートを組織内の同僚と共有する方法を説明します。"
+title: Power BI のレポートをフィルター処理して同僚と共有する
+description: フィルター処理された Power BI レポートを組織内の同僚と共有する方法を説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: complete
 qualitydate: 06/22/2016

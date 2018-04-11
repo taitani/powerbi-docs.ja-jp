@@ -1,15 +1,15 @@
 ---
-title: "Power BI サービスと Power BI Desktop での Q&A の概要"
-description: "Power BI Q&A 自然言語クエリに関するドキュメントの概要トピックです。"
+title: Power BI サービスと Power BI Desktop での Q&A の概要
+description: Power BI Q&A 自然言語クエリに関するドキュメントの概要トピックです。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Power BI で使用するサービスに接続する"
-description: "Salesforce、Microsoft Dynamics CRM、Google Analytics など、ビジネスに使用するさまざまなサービスに接続します。"
+title: Power BI で使用するサービスに接続する
+description: Salesforce、Microsoft Dynamics CRM、Google Analytics など、ビジネスに使用するさまざまなサービスに接続します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

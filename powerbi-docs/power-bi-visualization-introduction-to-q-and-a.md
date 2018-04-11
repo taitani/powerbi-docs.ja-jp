@@ -1,15 +1,15 @@
 ---
-title: "クイック スタート - Power BI Q&A の使用を始める"
-description: "クイック スタート: 小売りの分析のサンプルを使用した Power BI サービスでの Q&A の概要"
+title: クイック スタート - Power BI Q&A の使用を始める
+description: 'クイック スタート: 小売りの分析のサンプルを使用した Power BI サービスでの Q&A の概要'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

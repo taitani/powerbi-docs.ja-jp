@@ -1,15 +1,15 @@
 ---
-title: "Power BI アプリ ワークスペースでの共同作業"
-description: "OneDrive for Business でのファイルの共有、Exchange での会話、予定表、タスクなど、Office 365 のサービスを使って、Power BI アプリ ワークスペース内の Power BI Desktop ファイルに対して共同作業を行う方法を説明します。"
+title: Power BI アプリ ワークスペースでの共同作業
+description: OneDrive for Business でのファイルの共有、Exchange での会話、予定表、タスクなど、Office 365 のサービスを使って、Power BI アプリ ワークスペース内の Power BI Desktop ファイルに対して共同作業を行う方法を説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

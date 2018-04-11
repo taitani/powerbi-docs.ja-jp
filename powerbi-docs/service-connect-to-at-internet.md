@@ -1,15 +1,15 @@
 ---
-title: "Power BI で AT Internet Bridge に接続する"
-description: "Power BI 用 AT Internet Bridge"
+title: Power BI で AT Internet Bridge に接続する
+description: Power BI 用 AT Internet Bridge
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

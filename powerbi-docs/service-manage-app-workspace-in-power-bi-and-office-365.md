@@ -1,15 +1,15 @@
 ---
-title: "Power BI と Office 365 でアプリ ワークスペースを管理する"
-description: "Power BI のアプリ ワークスペースは、Office 365 グループ上に構築されたコラボレーション エクスペリエンスです。 Power BI および Office 365 でアプリ ワークスペースを管理します。"
+title: Power BI と Office 365 でアプリ ワークスペースを管理する
+description: Power BI のアプリ ワークスペースは、Office 365 グループ上に構築されたコラボレーション エクスペリエンスです。 Power BI および Office 365 でアプリ ワークスペースを管理します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

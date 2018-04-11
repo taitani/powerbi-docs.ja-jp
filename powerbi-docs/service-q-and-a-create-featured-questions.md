@@ -1,16 +1,16 @@
 ---
-title: "Power BI Q&A のおすすめの質問を作成する方法"
-description: "Power BI Q&A のおすすめの質問を作成する方法についてのドキュメント"
+title: Power BI Q&A のおすすめの質問を作成する方法
+description: Power BI Q&A のおすすめの質問を作成する方法についてのドキュメント
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: E1mIAyEXuF4
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -20,10 +20,10 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 38cb04269937aa0b56589e4831eb7a3b027986d0
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Q&A のおすすめの質問を作成する
 データセットがある場合、そのデータセットにおすすめの質問を追加できます。  Power BI Q&A では、データセットを使用する ("*消費する*") 同僚におすすめの質問が表示されます。  同僚は、データセットについて確認できる質問の種類についておすすめの質問をヒントにすることができます。 任意のおすすめの質問を追加できます。よくある質問、興味深い結果が表示される質問、表現しづらい質問などを追加してください。

@@ -1,15 +1,15 @@
 ---
-title: "SQL Database Auditing コンテンツ パック"
-description: "Power BI 用 SQL Database Auditing コンテンツ パック"
+title: SQL Database Auditing コンテンツ パック
+description: Power BI 用 SQL Database Auditing コンテンツ パック
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

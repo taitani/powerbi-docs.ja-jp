@@ -1,15 +1,15 @@
 ---
-title: "Power BI から PowerPoint にレポートをエクスポートする (プレビュー)"
-description: "Power BI レポートを PowerPoint にエクスポートする方法について説明します。"
+title: Power BI から PowerPoint にレポートをエクスポートする (プレビュー)
+description: Power BI レポートを PowerPoint にエクスポートする方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

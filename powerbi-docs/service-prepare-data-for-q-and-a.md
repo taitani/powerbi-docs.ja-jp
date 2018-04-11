@@ -1,15 +1,15 @@
 ---
-title: "Excel のデータを Power BI Q&A に適合させる方法"
-description: "データを Power BI Q&A に適合させる方法"
+title: Excel のデータを Power BI Q&A に適合させる方法
+description: データを Power BI Q&A に適合させる方法
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

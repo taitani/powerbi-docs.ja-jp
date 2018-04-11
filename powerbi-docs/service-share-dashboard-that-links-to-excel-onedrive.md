@@ -1,15 +1,15 @@
 ---
-title: "OneDrive の Excel ファイルにリンクされたダッシュボードを共有する - Power BI"
-description: "OneDrive for Business 上の Excel ブックに接続されていて、そのブックからタイルがピン留めされているダッシュボードの共有について説明します。"
+title: OneDrive の Excel ファイルにリンクされたダッシュボードを共有する - Power BI
+description: OneDrive for Business 上の Excel ブックに接続されていて、そのブックからタイルがピン留めされているダッシュボードの共有について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

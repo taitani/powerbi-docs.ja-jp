@@ -34,5 +34,5 @@
 
 Power BI でワークスペースが作成され、開きます。 メンバーであるワークスペースの一覧が表示されます。 管理者は、省略記号 (...) を選択すると、前の画面に戻って新しいメンバーの追加やアクセス許可の変更などの変更を加えることができます。
 
-![ワークスペースを編集する](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![ワークスペースの編集](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
 

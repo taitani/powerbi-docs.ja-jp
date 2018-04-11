@@ -1,15 +1,15 @@
 ---
-title: "Power BI で Alpine Metrics Sales Predictions に接続する"
-description: "Power BI 用 Alpine Metrics Sales Predictions"
+title: Power BI で Alpine Metrics Sales Predictions に接続する
+description: Power BI 用 Alpine Metrics Sales Predictions
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

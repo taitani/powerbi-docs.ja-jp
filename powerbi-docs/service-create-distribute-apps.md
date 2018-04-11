@@ -1,14 +1,14 @@
 ---
-title: "Power BI でダッシュボードとレポートを含むアプリを作成して発行する"
-description: "組織に主要な指標を提供するためにビルドされたダッシュボードとレポートのコレクションであるアプリを作成して発行する方法について説明します。"
+title: Power BI でダッシュボードとレポートを含むアプリを作成して発行する
+description: 組織に主要な指標を提供するためにビルドされたダッシュボードとレポートのコレクションであるアプリを作成して発行する方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -107,7 +107,7 @@ Power BI で、関連のあるダッシュボードやレポートをまとめ�
 
 2. 右上の **[アプリの発行]** ボタンを選択して、ワークスペースのすべてのコンテンツを共有するプロセスを開始します。
    
-     ![アプリを発行する](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+     ![アプリの発行](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. **[詳細]** で、ユーザーがアプリを検索する際に役立つ説明を入力します。 背景色を設定してカスタマイズすることができます。
    
