@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で日付テーブルを設定し、使用する"
-description: "Power BI Desktop でテーブルを日付テーブルとして設定する方法とその意味について説明します。"
+title: Power BI Desktop で日付テーブルを設定し、使用する
+description: Power BI Desktop でテーブルを日付テーブルとして設定する方法とその意味について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 76b979b39aae5a403f84bde1971c47f0127fc3ef
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d87f56e8e16c9d60a6ba74a25772b604c6a7fa3d
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Power BI Desktop で日付テーブルを設定し、使用する
 
 **Power BI Desktop** は裏側で動作し、テーブルを**日付テーブル**として自動的に識別します。それから、ユーザーの代わりに、モデルの日付階層やその他の有効化メタデータを作成します。 ビジュアル、テーブル、クイック メジャー、スライサーなど、レポート機能を作成するとき、内蔵されているこれらの階層を利用できます。 Power BI Desktop では、非表示テーブルを自動作成することでこれを行います。その後、ユーザーは自分のレポートや DAX 式でテーブルを利用できます。
 
-データ アナリストの多くは独自の日付テーブルを作成することを好みます。それには何の問題もありません。 **Power BI Desktop** では、モデルに**日付テーブル**として使用させるテーブルを指定し、その後、そのテーブルの日付データを利用し、日付関連のビジュアル、テーブル、クイック メジャーなどを作成できます。 独自の日付テーブルを指定すると、モデルで作成した日付階層を制御し、**クイック メジャー**やモデルの日付テーブルを利用するその他の操作で利用できます。 
+データ アナリストの多くは、独自の日付テーブルを作成することを好みます。それには何の問題もありません。 **Power BI Desktop** では、モデルに**日付テーブル**として使用させるテーブルを指定し、その後、そのテーブルの日付データを利用し、日付関連のビジュアル、テーブル、クイック メジャーなどを作成できます。 独自の日付テーブルを指定すると、モデルで作成した日付階層を制御し、**クイック メジャー**やモデルの日付テーブルを利用するその他の操作で利用できます。 
 
 ![](media/desktop-date-tables/date-tables_01.png)
 

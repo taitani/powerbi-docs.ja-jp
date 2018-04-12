@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/14/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7128c36d8d6c592d8f49797adf5be4927b240e3c
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: 50dd3dcf791cd3f2e366957ad37c830b7f4c35f2
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -31,6 +31,61 @@ ms.lasthandoff: 04/03/2018
 次のセクションでは、**Power BI Desktop** の以前の月の更新について説明します。
 
 いつでも[最新バージョンの Power BI Desktop をダウンロード](https://powerbi.microsoft.com/desktop)できます。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 **Power BI Desktop** のインストール方法に関係なく、毎月リリースされるバージョンは同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
+
+
+**Power BI Desktop** の 3 月の更新を発表できることを嬉しく思います。
+
+各更新の横にあるリンクには、次の意味があります。
+
+* 機能について説明されているとき、**[ビデオ]** 抜粋が新しいブラウザー タブで再生されます。
+* 一部の機能には **[記事]** があり、それに詳細が記載されています。
+* ほとんどの機能は、毎月更新される **[ブログ]** 投稿で説明しています。
+* 最後になりましたが、一部の機能は説明を必要としないため、記事やビデオは用意されていません。
+
+この記事にある **[最新の更新プログラム]** ビデオを最初から視聴することもできます。ビデオを見るには、更新一覧の下にあるビデオ画像の**再生**アイコンをクリックします。
+
+以下の更新は、今月の **Power BI Desktop** の新しい機能です。
+
+### <a name="reporting"></a>レポート
+
+* レポート ページのヒント [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=16s) [[記事]]() [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* ブックマークの一般公開 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[記事]](desktop-bookmarks.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
+* テーブルとマトリックスの列の表示単位と精度のコントロール [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[記事]](desktop-slicer-numeric-range.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
+* レポートの読み取りモードでビジュアル ヘッダーをオフにする [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
+* 強化された既定のビジュアル配置 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
+
+### <a name="custom-visuals"></a>カスタム ビジュアル
+
+* さまざまな新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[記事]](power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>データ接続
+
+* Visual Studio Team Services コネクタの機能強化 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=32m) [[記事]](desktop-multi-select.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
+* SAP HANA コネクタの機能強化 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[記事]](desktop-directquery-sap-hana.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
+  * DirectQuery 多次元サポートが一般公開されました
+  * SSL 証明書の検証のサポート
+* SAP BW DirectQuery の一般公開 [[動画]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[記事]](desktop-directquery-sap-hana.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
+* Azure Analysis Services コネクタの一般公開 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[記事]](desktop-directquery-sap-hana.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
+
+### <a name="other"></a>その他
+
+* エラー報告機能の強化 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[記事]](desktop-directquery-about.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
+* 以前に発生したエラーの表示 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
+
+> [!NOTE]
+> [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
+
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+
+
+次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+
 
 
 ## <a name="february-2018-update-2555010521"></a>2018 年 2 月更新 (2.55.5010.521)
@@ -367,7 +422,7 @@ ms.lasthandoff: 04/03/2018
 -   線のスタイルと凡例のオプション  [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=6m54s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#lineStyles)
 -   散布図のパフォーマンスの向上  [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=13m59s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#scatterChartPerformance)
 -   新しいカスタム ビジュアル  [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=14m32s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customVisuals)
-    -   MAQ ソフトウェアによるドット プロット  [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=14m45s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#dotPlot)
+    -   MAQ Software によるドット プロット  [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=14m45s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#dotPlot)
     -   Power KPI  [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=19m11s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#powerKPI)
     -   じょうごプロット [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=21m55s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#funnelPlot)
     -   Beyondsoft カレンダー  [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=23m23s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#beyondsoftCalendar)
@@ -1460,7 +1515,7 @@ Power BI Desktop の新機能を完全に利用できます。
 - [フィールド] ウィンドウの改良
     - 検索ボックスを使用すると、名前でフィールドを検索しやすくなります
     - "すべて展開/すべて折りたたむ" を使用すると、[フィールド] ウィンドウに複数のテーブルが存在するときのナビゲーションが改善されます
-    - フィールドの基数のサポート、バケットをドラッグして 1 つのアイテムに置換
+    - フィールドのカーディナリティのサポート、バケットをドラッグして 1 つのアイテムに置換
     - 追加のデータ ラベルの書式設定オプション
     - デカルト座標の軸の改良:
         - X 軸ラベルの方向 (水平/斜め)

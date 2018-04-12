@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop でのデータ分類"
-description: "Power BI Desktop でのデータ分類"
+title: Power BI Desktop でのデータ分類
+description: Power BI Desktop でのデータ分類
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 00b70b6e56d11d0d7dda959f1983cc4631f53ff9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cc66655e49860160b43afa5d1acb688c37468212
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop でのデータ分類
 **Power BI Desktop** では、ユーザーが列に対してデータ カテゴリを指定すれば、Power BI Desktop が視覚化するときにその列の値をどのように扱うべきかを自動的に見極めます。
@@ -40,7 +40,7 @@ Power BI Desktop は GeoCode 列に含まれるコードを、国の省略形と
 **データ カテゴリを指定するには**
 
 1. レポート ビューまたはデータ ビューの **[フィールド]** リストの一覧で、異なる分類でソートしたいフィールドを選択します。
-2. リボンの **[データ ツール] の [モデリング]** タブで、 **[データ カテゴリ]** ドロップダウン リストをクリックします。  このリストには、列に対して選択可能なデータ カテゴリが表示されます。  列の現在のデータ型には使えない項目は選べなくなっています。  たとえば、列がバイナリ データ型である場合、Power BI Desktop で地理的なデータ カテゴリを選べなくなります。 
+2. リボンの **[モデリング]** タブで、**[データ カテゴリ]** ドロップダウン リストをクリックします。  このリストには、列に対して選択可能なデータ カテゴリが表示されます。  列の現在のデータ型には使えない項目は選べなくなっています。  たとえば、列がバイナリ データ型である場合、Power BI Desktop で地理的なデータ カテゴリを選べなくなります。 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

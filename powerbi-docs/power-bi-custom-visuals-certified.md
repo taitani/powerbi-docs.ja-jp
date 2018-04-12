@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 7e75eacac61779a1ecd714d009a61fe4306e2885
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: ceb101d02fcacecacb8410052b2d9eaba01d46fd
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
 ## <a name="what-is-meant-by-certified"></a>*認定* とは
@@ -86,7 +86,7 @@ ms.lasthandoff: 04/03/2018
 | [時間基準データのドリルダウン縦棒グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | [ビデオ](https://youtu.be/T_mRou18vx0) |
 | [ドリルダウン ドーナツ グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | [ビデオ](https://youtu.be/AUVFrSHmPeo) |
 | [デュアル KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380774) | |
-| [MAQ ソフトウェアによる動的なツールヒント](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380983) | [ビデオ](https://youtu.be/Z-tl97BpEr0) |
+| [MAQ Software による動的なツールヒント](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380983) | [ビデオ](https://youtu.be/Z-tl97BpEr0) |
 | [強化された散布図](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | [ビデオ](https://youtu.be/xCfM0cjM4do) |
 | [Enlighten Aquarium](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381112) | |
 | [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) | |
@@ -128,8 +128,8 @@ ms.lasthandoff: 04/03/2018
 | [テーブル ヒートマップ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [回転速度計](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [ビデオ](https://youtu.be/C3OXdETbS9o) |
 | [テキスト フィルター](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
-| [MAQ ソフトウェアによるテキスト ラッパー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
-| [温度計](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
+| [MAQ Software によるテキスト ラッパー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
+| [MAQ Software による温度計](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [ビデオ](https://youtu.be/SPX9mgrAdBc) |
 | [タイムライン スライサー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [ビデオ](https://youtu.be/ozMtZ4_NZ10) |
 | [トルネード チャート](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [ビデオ](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [MAQ Software による取引グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [ビデオ](https://youtu.be/xhTR6y6J9Ko) |
