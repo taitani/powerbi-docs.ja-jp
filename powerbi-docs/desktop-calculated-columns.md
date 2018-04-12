@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で計算列を使用する"
-description: "Power BI Desktop の計算列"
+title: Power BI Desktop で計算列を使用する
+description: Power BI Desktop の計算列
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop で計算列を使用する
 計算列を使うと、既にモデル内に存在するテーブルに新しいデータを追加できます。 しかし、値のクエリを実行してデータ ソースから新しい列に読み込む代わりに、列の値を定義する Data Analysis Expressions (DAX) 数式を作成します。 Power BI Desktop では、レポート ビューの [新しい列] 機能を使用して計算列を作成します
 
-クエリ エディターの [カスタム列の追加] を使用してクエリの一部として作成するカスタム列とは異なり、レポート ビューまたはデータ ビューで作成する計算列は、モデルに既に読み込まれているデータに基づいて作成されます。 たとえば、2 つの異なる (しかし関連する) テーブルの 2 つの異なる列の値を連結して、加算を実行したり、サブ文字列を抽出したりできます。
+クエリ エディターの [カスタム列の追加] を使用してクエリの一部として作成するカスタム列とは異なり、レポート ビューまたはデータ ビューで作成する計算列は、モデルに既に読み込まれているデータに基づいて作成されます。 たとえば、2 つの異なる (しかし関連する) テーブルの 2 つの異なる列の値を連結して、加算を実行したり、サブ文字列を抽出したりすることができます。
 
 作成した計算列は、他のフィールドと同じように [フィールド] の一覧に表示されますが、その値が数式の結果であることを示す特別なアイコンが表示されます。 列に好きな名前を付けたり、列を他のフィールドと同じようにレポートのビジュアルに追加したりできます。
 
@@ -54,7 +54,7 @@ Jeff は、Geography テーブルを右クリックした後、[新しい列] �
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-配送の数と一緒にこのフィールドをレポートのキャンバスに追加することができます。 非常に手早く、最小限の労力で、[市区町村] フィールドと [都道府県] フィールドを作成できました。 Jeff はあらゆる種類の視覚化を追加することができます。 さらに、地図のビジュアルを作成する際、Power BI Desktop は、この新しい列の [市区町村, 都道府県] の値を読み取る方法を把握しています。
+配送の数と一緒にこのフィールドをレポートのキャンバスに追加することができます。 すばやく最小限の作業で、Jeff はほぼすべての種類の視覚化に追加できる [市区町村, 都道府県] フィールドを取得しました。 Jeff は地図の視覚化を作成するときに、Power BI Desktop がこの新しい列の [市区町村, 都道府県] の値を読み取る方法を把握していることを理解しています。
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 

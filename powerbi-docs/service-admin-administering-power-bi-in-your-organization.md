@@ -1,28 +1,28 @@
 ---
-title: "組織内の Power BI を管理する"
-description: "組織内の Power BI を管理する"
+title: 組織内の Power BI を管理する
+description: 組織内の Power BI を管理する
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b42be834822b4363c58bc4454c38f7973336c7dc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>組織内の Power BI を管理する
 ユーザーは Microsoft Power BI を使用して、データの視覚化、発見の共有、および共同作業を、直感的な新しい方法で実行できます。 詳細については、「[Power BI の概要](service-get-started.md)」を参照してください。
@@ -206,7 +206,7 @@ Power BI には、使用状況の統計を表示でき、ユーザーとグル�
 1. 管理するテナントのドメインに対応する電子メール アドレスのドメインを使用して Power BI にサインアップすることで、テナントに参加します。 たとえば、Microsoft によって contoso.com テナントが作成されている場合は、@contoso.com で終わる電子メール アドレスを使用してテナントに参加する必要があります。
 2. ドメインの所有権を確認することで、管理権を要求します。テナントに参加した後、ドメインの所有権を確認することで、自分自身を *[グローバル管理者]* ロールに昇格させることができます。 これを行うには、次の手順に従います。
    
-   1. [https://portal.office.com](https://portal.office.com) にアクセスします。
+   1. [https://portal.office.com](https://portal.office.com) に移動します。
    2. 左上のアプリケーション ランチャー アイコンを選択し、**[管理者]** を選択します。
    3. **[Become the admin (管理者になる)]** ページ指示を確認した後、**[Yes, I want to be the admin (はい、管理者になります)]** を選択します。
       

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop における DAX の基本事項"
-description: "Power BI Desktop における DAX の基本事項"
+title: Power BI Desktop における DAX の基本事項
+description: Power BI Desktop における DAX の基本事項
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop における DAX の基本事項
 この記事は、Power BI Desktop を初めて使用するユーザー向けです。 さまざまな基本的な計算とデータ分析の問題を解決するために Data Analysis Expressions (DAX) を使用する方法を、手早く簡単に説明します。 いくつかの概念について説明した後、一連のタスクを実行します。学んだ内容をテストするクイズも含まれています。 この記事を完了すると、DAX で最も重要な基本概念をよく理解できるようになります。
@@ -40,7 +40,7 @@ Microsoft Excel で数式を作成する操作に慣れていれば、その知�
 
 **ブックの例**
 
-DAX について学習する最善の方法は、基本的な数式を作成し、それを実際のデータに対して使用して、その結果を自分で見ることです。 この記事で取り上げる例とタスクでは、Contoso Sales Sample for Power BI Desktop Preview ファイルを使用します。 これは、「チュートリアル: Power BI Desktop で独自のメジャーを作成する」の記事で使用しているのと同じサンプル ファイルです。 ダウンロードするには[こちら](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)をクリックしてください。
+DAX について学習する最善の方法は、基本的な数式を作成し、それを実際のデータに対して使用して、その結果を自分で見ることです。 この記事で取り上げる例とタスクでは、Contoso Sales Sample for Power BI Desktop Preview ファイルを使用します。 これは、「[チュートリアル: Power BI Desktop で独自のメジャーを作成する](desktop-tutorial-create-measures.md)」の記事で使用しているのと同じサンプル ファイルです。 ここから[サンプル ファイル](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)をダウンロードできます。
 
 ## <a name="lets-begin"></a>さあ始めましょう!
 DAX について説明するにあたり、この記事では、 *構文*、 *関数*、および *コンテキスト*という 3 つの基本的な概念を土台にします。 もちろん、DAX にはこれ以外にも重要な概念がありますが、これら 3 つの概念を理解することは、DAX のスキルを構築するための最適な土台を提供します。
@@ -111,7 +111,6 @@ DAX の数式を解釈するときは、数式の各要素を分割し、日常�
 7.  PREVIOUSQUARTER 関数のかっこ **()** の間に、「**Calendar[DateKey]**」と入力します。
     
     PREVIOUSQUARTER 関数には、1 つの引数として、連続した日付範囲を含む列を指定します。
-    >
     
 8.  PREVIOUSQUARTER 関数および CALCULATE 関数に渡された両方の引数が、2 つの閉じかっこ **))** で閉じられていることを確認してください。
     
@@ -125,7 +124,7 @@ DAX の数式を解釈するときは、数式の各要素を分割し、日常�
 
 ![](media/desktop-quickstart-learn-dax-basics/qsdax_3_chart.png)
 
-ここまでで、DAX 数式のいくつかの重要な側面を紹介しました。 まず、この式には 2 つの関数が含まれています。 また、[PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx) タイム インテリジェンス関数が [CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx) フィルター関数に渡される引数として入れ子になっていることに注目してください。 DAX 数式には、最大 64 個の入れ子になった関数を含めることができます。 もっとも、そこまで多くの入れ子にした関数を含む数式はほとんど使われないはずです。 実際、そのような数式を作成し、デバッグするのは非常に困難ですし、おそらく計算時間も長くなるでしょう。
+ここまでで、DAX 数式のいくつかの重要な側面を紹介しました。 まず、この式には 2 つの関数が含まれています。 また、[PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx) タイム インテリジェンス関数が、[CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx) フィルター関数に渡される引数として入れ子になっていることに注目してください。 DAX 数式には、最大 64 個の入れ子になった関数を含めることができます。 もっとも、そこまで多くの入れ子にした関数を含む数式はほとんど使われないはずです。 実際、そのような数式を作成し、デバッグするのは非常に困難ですし、おそらく計算時間も長くなるでしょう。
 
 この数式では、フィルターも使用しました。 フィルターは、計算する対象を絞り込みます。 その場合、引数として 1 つのフィルターを選択します。実際には、フィルターは別の関数の結果です。 フィルターについては、後で詳しく説明します。
 
@@ -144,7 +143,7 @@ DAX の数式を解釈するときは、数式の各要素を分割し、日常�
 ### <a name="functions"></a>関数
 関数は、特定の順序または構造で並んだ特定の値 (引数と呼びます) を使用して計算を実行する、定義済みの数式です。 引数として指定できるのは、別の関数、別の数式、式、列参照、数値、テキスト、TRUE または FALSE などの論理値、または定数です。
 
-DAX に含まれる関数のカテゴリは次のとおりです: [日付と時刻](https://msdn.microsoft.com/library/ee634786.aspx)、[タイム インテリジェンス](https://msdn.microsoft.com/library/ee634763.aspx)[、](https://msdn.microsoft.com/library/ee634552.aspx)[情報](https://msdn.microsoft.com/library/ee634552.aspx)、[論理](https://msdn.microsoft.com/library/ee634365.aspx)[、](https://msdn.microsoft.com/library/ee634365.aspx)[数学](https://msdn.microsoft.com/library/ee634241.aspx)、[統計](https://msdn.microsoft.com/library/ee634822.aspx)、[テキスト](https://msdn.microsoft.com/library/ee634938.aspx)、[親子](https://msdn.microsoft.com/library/mt150102.aspx)、および[その他](https://msdn.microsoft.com/library/mt150101.aspx)の関数。 Excel の数式の関数に慣れている読者は、DAX 関数の多くが Excel 関数に似ていると感じるかもしれません。ただし、DAX 関数は、次のような点が特有です。
+DAX に含まれる関数のカテゴリは次のとおりです: [日付と時刻](https://msdn.microsoft.com/library/ee634786.aspx)、[タイム インテリジェンス](https://msdn.microsoft.com/library/ee634763.aspx)、[情報](https://msdn.microsoft.com/library/ee634552.aspx)、[論理](https://msdn.microsoft.com/library/ee634365.aspx)、[数学](https://msdn.microsoft.com/library/ee634241.aspx)、[統計](https://msdn.microsoft.com/library/ee634822.aspx)、[テキスト](https://msdn.microsoft.com/library/ee634938.aspx)、[親子](https://msdn.microsoft.com/library/mt150102.aspx)、および[その他](https://msdn.microsoft.com/library/mt150101.aspx)の関数。 Excel の数式の関数に慣れている読者は、DAX 関数の多くが Excel 関数に似ていると感じるかもしれません。ただし、DAX 関数は、次のような点が特有です。
 
 * DAX 関数は、常に、列全体またはテーブルを参照します。 テーブルまたは列の特定の値だけを使用する場合は、数式にフィルターを追加します。
 * 行ごとに計算をカスタマイズする必要がある場合、DAX は、現在の行の値または関連する値を一種の引数として使用し、コンテキストによって異なる計算を実行する機能を提供しています。 コンテキストについては、後で詳しく説明します。
