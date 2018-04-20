@@ -38,7 +38,7 @@ ms.lasthandoff: 04/08/2018
 [!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-requirements-include.md)]
 
 ### <a name="limitations-of-analysis-services-live-connections"></a>Analysis Services のライブ接続の制限事項
-表形式または多次元インスタンスに対してライブ接続を使用することはできません。
+表形式または多次元インスタンスに対してライブ接続を使用することができます。
 
 | **サーバーのバージョン** | **必要な SKU** |
 | --- | --- |
