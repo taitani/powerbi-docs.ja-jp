@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>組織内の Power BI を管理する
 ユーザーは Microsoft Power BI を使用して、データの視覚化、発見の共有、および共同作業を、直感的な新しい方法で実行できます。 詳細については、「[Power BI の概要](service-get-started.md)」を参照してください。
@@ -186,8 +186,6 @@ Power BI を利用するために組織が行う必要がある管理操作は�
 
 組織に既存の Office 365 環境は既に存在するが、組織内の一部のユーザーのみが Office 365 アカウントを持っている場合は、テナント内にユーザーが作成され、ユーザーの職場または学校の電子メール アドレスに基づいてライセンスが割り当てられます。 つまり、組織内のユーザーがサービスにサインアップすると、その時点で管理しているユーザーの数が増加します。
 
-ディレクトリをオンプレミスで管理し、Active Directory Federation Services (AD FS) を使用している場合、Microsoft はテナントにユーザーを追加しません。テナントに参加しようとしたユーザーには、組織の管理者に連絡することを指示するメッセージが表示されます。
-
 組織に電子メール ドメインに接続されている Office 365 環境がない場合、ID を管理する方法は変更されません。 ユーザーは新しいクラウド専用のユーザー ディレクトリに追加され、管理者はテナント管理者としてユーザーの管理を引き継ぐことを選択できます。
 
 ### <a name="how-do-we-manage-power-bi"></a>Power BI を管理するにはどうすればよいですか。
@@ -235,7 +233,7 @@ Power BI にサインアップする必要がなくなったユーザーが Powe
 3. ライセンスを削除するユーザーを見つけ、その名前を選択し、**[編集]** を選択します。
 4. [ユーザーの詳細] ページで、左側のナビゲーション バーの **[ライセンス]** を選択します。
 5. アカウントに適用されているライセンスに応じて、**[Power BI (無料)]** または **[Power BI Pro]** をオフにします。
-6. **[保存]**を選択します。
+6. **[保存]** を選択します。
 
 > [!NOTE]
 > ユーザーのライセンスは、一括管理することもできます。 これを実行するには、複数のユーザーを選択し、**[編集]** を選択します。

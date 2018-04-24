@@ -1,32 +1,32 @@
 ---
-title: "レポートのテキスト ボックスへのハイパーリンクの追加"
-description: "Power BI サービスおよび Power BI Desktop のテキスト ボックスにハイパーリンクを追加します"
+title: レポートのテキスト ボックスへのハイパーリンクの追加
+description: Power BI サービスおよび Power BI Desktop のテキスト ボックスにハイパーリンクを追加します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 13edfd3f6968af66f96e3690f2509ba8a7158bbe
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>レポートのテキスト ボックスへのハイパーリンクの追加
-テキスト ボックスは、レポートに追加したり、レポートからダッシュボードにピン留めしたり、ダッシュボードに直接追加したりできます。 テキスト ボックスが存在する場所に関係なく、テキスト ボックスにハイパーリンクを追加することができます。 **このトピックでは、(Power BI Desktop ではなく) Power BI サービスのレポートのテキスト ボックスについて説明します。**
+テキスト ボックスは、レポートに追加したり、レポートからダッシュボードにピン留めしたり、ダッシュボードに直接追加したりできます。 テキスト ボックスが存在する場所に関係なく、テキスト ボックスにハイパーリンクを追加することができます。  
 
 > **注**: Power BI のテーブル内およびマトリックス内のハイパーリンクについては、「[テーブル内のハイパーリンク](power-bi-hyperlinks-in-tables.md)」をご覧ください。 **ダッシュボード**にテキスト ボックスを追加する方法ついては、「[ダッシュボードからタイルを直接追加する](service-dashboard-add-widget.md)」をご覧ください。 
 > 
@@ -41,7 +41,7 @@ ms.lasthandoff: 02/24/2018
    
    ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
 3. ハイパーリンク アイコン ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png) を選びます。
-4. ハイパーリンク フィールドに URL を入力するか貼り付け、 **[完了]**を選びます。
+4. ハイパーリンク フィールドに URL を入力するか貼り付け、 **[完了]** を選びます。
    
    ![](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
 5. リンクをテストします。  
@@ -61,8 +61,6 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="next-steps"></a>次の手順
 [Power BI レポート内のテキスト ボックス](power-bi-reports-add-text-and-shapes.md)
-
-[ダッシュボードへのテキスト ボックスの追加](service-dashboard-add-widget.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

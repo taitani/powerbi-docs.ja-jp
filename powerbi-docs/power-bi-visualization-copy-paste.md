@@ -1,28 +1,28 @@
 ---
-title: "Power BI での視覚化のコピーと貼り付け"
-description: "Power BI での視覚化のコピーと貼り付け"
+title: Power BI での視覚化のコピーと貼り付け
+description: Power BI での視覚化のコピーと貼り付け
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8074845fc2f48ba8b06134cfefcbf8f15ace5350
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8e00bb4ca2e39462624a489dd96bbd2b266aa6c3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop で視覚エフェクトをコピーして貼り付ける
 視覚エフェクトをコピーして貼り付けるには、レポートの編集アクセス許可が必要です。 Power BI サービスでは、レポートを[編集ビュー](service-reading-view-and-editing-view.md)で開きます。
@@ -34,8 +34,6 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="next-steps"></a>次の手順
 [Power BI レポートでの視覚化](power-bi-report-visualizations.md)についての詳細を参照する
-
-[Power BI - 基本的な概念](service-basic-concepts.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

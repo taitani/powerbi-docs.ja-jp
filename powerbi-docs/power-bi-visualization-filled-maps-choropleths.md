@@ -1,29 +1,29 @@
 ---
-title: "Power BI の塗り分け地図 (コロプレス) (チュートリアル)"
-description: "ドキュメント - Power BI で塗り分け地図 (コロプレス) を作成するチュートリアル"
+title: Power BI の塗り分け地図 (コロプレス) (チュートリアル)
+description: ドキュメント - Power BI で塗り分け地図 (コロプレス) を作成するチュートリアル
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/19/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0d4e1cd766cf5f1b35b5d0a6ca0946820efe9f3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Power BI の塗り分け地図 (コロプレス) (チュートリアル)
 塗り分け地図では、網掛け、着色またはパターンを使用して、値の違いを割合に応じて、地理的または地域的に表示します。  こうした相対的な違いは、薄い色の網掛け (頻度が低い/量が少ない) から、濃い色の網掛け (頻度が高い/量が多い) を使用して、すぐにわかるように表示されます。    
@@ -100,7 +100,7 @@ Bing に送信されているデータの詳細、およびジオコーディン
 
 1. 塗り分け地図で、1 つの州を選択します。  これにより、ページ上の他の視覚化が強調表示されます。 たとえば、**テキサス**を選択すると、センチメントが 74 であること、テキサスが中心地区 \#23 にあること、モデレーションおよび利便性のセグメントが売上高のほとんどを占めていることが示されます。   
    ![](media/power-bi-visualization-filled-maps-choropleths/img008.png)
-2. 折れ線グラフでは、 **[いいえ]** と **[はい]**の切り替えができます。 これにより、塗り分けマップをフィルター処理して、VanArsdel と VanArsdel の競合他社のセンチメントを示すことができます。  
+2. 折れ線グラフでは、 **[いいえ]** と **[はい]** の切り替えができます。 これにより、塗り分けマップをフィルター処理して、VanArsdel と VanArsdel の競合他社のセンチメントを示すことができます。  
    ![](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング

@@ -1,28 +1,28 @@
 ---
-title: "エラー: Excel ブックにデータが見つかりませんでした。"
-description: "エラー: Excel ブックにデータが見つかりませんでした。"
+title: 'エラー: Excel ブックにデータが見つかりませんでした。'
+description: 'エラー: Excel ブックにデータが見つかりませんでした。'
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a58af88d23c04c0afd2fa71cab7824b657451b33
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 42db20a316ee11b11d6b39f69f315853750c6ca7
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>エラー: Excel ブックにデータが見つかりませんでした。
 
@@ -70,7 +70,7 @@ Excel ブックをインポートするとき、Power BI はそれらのテー�
 7. Power BI に戻ります。 左側のナビゲーション ウィンドウの下部にある [データの取得] を選択します。
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
-8. **[ファイル]** ボックスで、 **[取得]**を選択します。
+8. **[ファイル]** ボックスで、 **[取得]** を選択します。
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
 9. Excel ブックを再度インポートします。 今回は、インポートでテーブルが見つかり、成功するはずです。

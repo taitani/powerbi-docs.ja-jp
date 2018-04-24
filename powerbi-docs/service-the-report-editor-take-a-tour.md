@@ -1,29 +1,29 @@
 ---
-title: "クイック スタート - レポート エディター...使ってみる"
-description: "レポート エディター...紹介を見る。"
+title: クイック スタート - レポート エディター...使ってみる
+description: レポート エディター...紹介を見る。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>レポート エディター...紹介を見る
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop でのレポートの編集
@@ -56,7 +56,6 @@ Power BI レポート エディターは、3 つのセクションで構成さ�
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>視覚化ウィンドウの上部に、使用中のビジュアルの種類が識別されます。この例では、集合縦棒グラフです。<br><br></li> <li>視覚化ウィンドウの下部に、ビジュアルに使用されているフィールドが表示されます (表示されない場合、下にスクロールしてください)。 このグラフでは FiscalMonth、DistrictManager、Total Sales Variance が使用されています。 <br><br></li><li>フィルター ウィンドウには、適用されているすべてのフィルターが表示されます (表示されない場合、下にスクロールしてください)。 <br><br></li><li>フィールド ウィンドウには、使用可能なテーブルが表示されます。テーブル名を展開すると、そのテーブルを構成しているフィールドが表示されます。 黄色のフォントは、そのテーブルの少なくとも 1 つのフィールドが視覚エフェクトで使用されていることを示します。<br><br></li><li>![ペイント ローラー アイコン](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 選択した視覚化の書式ウィンドウを表示するには、ペイント ローラーのアイコンを選択します。<br><br></li><li>![拡大鏡アイコン](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 分析ウィンドウを表示するには、拡大鏡アイコンを選択します。</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>視覚化ウィンドウ (上から下)
 ![[視覚化] ウィンドウの上部](media/service-the-report-editor-take-a-tour/selectviz.png)

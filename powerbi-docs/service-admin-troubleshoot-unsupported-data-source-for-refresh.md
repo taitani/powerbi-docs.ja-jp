@@ -3,7 +3,7 @@ title: 更新がサポートされていないデータ ソースのトラブル
 description: 更新がサポートされていないデータ ソースのトラブルシューティング
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d09d75350cbffbab78c1a44252f18d2216c2505f
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 802ed2f13d9965833f8862bda05796ac5b1dec5c
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>更新がサポートされていないデータ ソースのトラブルシューティング
 スケジュールされた更新用にデータセットを構成しようとすると、エラーが発生する場合があります。
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/22/2018
    ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
 2. リボン バーから **[クエリの編集]** を選択します。  
    ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
-3. **[詳細設定エディター]**を選択します。  
+3. **[詳細設定エディター]** を選択します。  
    ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. ソース用に一覧で示されているプロバイダーをメモしておきます。  この例では、プロバイダーは ActiveDirectory です。  
    ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)

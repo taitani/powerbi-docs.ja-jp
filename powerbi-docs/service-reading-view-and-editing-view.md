@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI サービスのレポートの読み取りビューと編集ビュー
 Power BI サービスには、レポートを表示および操作するためのモードとして、読み取りビューと編集ビューの 2 つがあります (Power BI Desktop にはありません)。 読み取りビューはすべてのユーザーが利用でき、特にデータの*コンシューマー*向けに設計されていますが、編集ビューはレポートの*作成者*と所有者のみが利用できます。
@@ -48,7 +48,6 @@ Power BI サービスには、レポートを表示および操作するため�
 |タスク  | 読み取りビュー  | 編集ビュー |
 |-------------------------|-------|-------|
 |**レポート (全体として)**  |
-||||
 | [レポートの作成または編集](service-report-create-new.md) | いいえ  | はい |
 | [レポートの共有](service-share-reports.md)| はい | はい。他のユーザーへの*所有者*アクセス許可の付与など、アクセス許可を管理することもできます。 |
 | [フィルター ウィンドウからの永続的な (固定) ビジュアル レベル、ドリルスルー、ページ レベル、レポート レベルのフィルターの作成](power-bi-report-add-filter.md) | いいえ  | はい |
@@ -63,12 +62,10 @@ Power BI サービスには、レポートを表示および操作するため�
 | [レポートの保存](service-report-save.md) | はい。ただし、**[名前を付けて保存]** を使用する場合に限ります。 | はい |
 | [レポートの削除](service-delete.md) | いいえ  | はい |
 |**レポート ページ** |
-||||
 | [レポート ページの追加または名前変更](power-bi-report-add-page.md)  | いいえ  | はい  |
 | [レポート ページの複製](power-bi-report-copy-paste-page.md) | いいえ  | はい |
 | [レポート ページの削除](service-delete.md) | いいえ | はい |
 |**レポートの視覚エフェクトの操作**|
-||||
 | [レポートへの視覚エフェクトの追加](power-bi-report-add-visualizations-i.md) | いいえ  | はい |
 | [レポートへのテキスト ボックスと図形の追加](power-bi-reports-add-text-and-shapes.md) | いいえ  | はい |
 | [レポートの書式設定ウィンドウの使用](service-the-report-editor-take-a-tour.md) | いいえ | はい |
