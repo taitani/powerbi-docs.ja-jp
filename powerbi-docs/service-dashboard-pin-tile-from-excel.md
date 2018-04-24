@@ -1,16 +1,16 @@
 ---
-title: "Excel から Power BI ダッシュボードにタイルをピン留めする方法"
-description: "OneDrive for Business 上の Excel から Power BI ダッシュボードにタイルをピン留めします。 範囲、グラフ、テーブルのピン留め"
+title: Excel から Power BI ダッシュボードにタイルをピン留めする方法
+description: OneDrive for Business 上の Excel から Power BI ダッシュボードにタイルをピン留めします。 範囲、グラフ、テーブルのピン留め
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: l8JoB7w0zJA
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel から Power BI ダッシュボードにタイルをピン留めする
 Excel ブックからタイルをピン留めするには、その前にブックを Power BI サービス (app.powerbi.com) に接続する必要があります。 ブックを接続すると、基本的に、そのブックのリンクされた読み取り専用バージョンが Power BI サービスに取り込まれて、範囲をダッシュボードにピン留めできるようになります。 ワークシート全体をダッシュボードにピン留めすることもできます。  
@@ -41,20 +41,19 @@ Excel ブックからデータをインポートしたり、Excel ブックに�
 Power BI ではブックを編集できません。 ただし、変更を加える必要がある場合は、ワークスペースの **[ブック]** タブから鉛筆アイコンを選択して、Excel Online でブックを編集するか、自分のコンピューターの Excel で開くかを選択できます。 ブックに加えたすべての変更は、OneDrive 上のブックに保存されます。
 
 1. ブックを OneDrive for Business にアップロードします。
+
 2. Power BI から、**[データの取得] > [ファイル] > [OneDrive - Business]** を選択して Excel ファイルを保存した場所に移動し、[そのブックに接続](service-excel-workbook-files.md)します。 ファイルを選択して、**[接続] > [接続]** を選択します。
 
-   ![OneDrive for Business ダイアログ](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+    ![OneDrive for Business ダイアログ](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
 3. Power BI で、ブックはワークスペースの **[ブック]** タブに追加されます。  ![ブック アイコン](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) アイコンはこれが Excel ブックであることを示し、黄色のアスタリスクはそれが新しいものであることを示します。
-   
     
-   ![ブック タブ](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+    ![ブック タブ](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. ブック名を選んで、Power BI でブックを開きます。
 
     Power BI でブックに加えた変更は保存されず、OneDrive for Business にある元のブックには影響を与えません。 Power BI 内でデータの並べ替え、フィルター処理、または値の変更を行った場合、これらの変更を保存またはピン留めすることはできません。 変更を保存する場合、右上隅から **[編集]** を選択して Excel Online または Excel で編集できるようにブックを開きます。 この方法で加えられた変更は、ダッシュボードでタイルを更新するのに数分かかる場合があります。
    
-   
-   ![Power BI での Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+    ![Power BI での Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>セルの範囲をダッシュボードにピン留めする
 新しい[ダッシュボード タイル](service-dashboard-tiles.md)を追加する方法の 1 つは、Power BI で Excel ブックから追加することです。 OneDrive for Business または別のグループ共有ドキュメント ライブラリに保存されている Excel ブックから範囲をピン留めすることができます。 範囲には、データ、グラフ、テーブル、ピボットテーブル、ピボットグラフなどの Excel パーツを含めることができます。

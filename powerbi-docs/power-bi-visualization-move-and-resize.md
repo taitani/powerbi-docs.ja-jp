@@ -1,28 +1,28 @@
 ---
-title: "視覚化の移動、サイズ変更、ポップアウト"
-description: "Power BI サービスや Power BI Desktop のレポートに含まれる視覚エフェクトの移動やサイズ変更を行います"
+title: 視覚化の移動、サイズ変更、ポップアウト
+description: Power BI サービスや Power BI Desktop のレポートに含まれる視覚エフェクトの移動やサイズ変更を行います
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a46df6e225a5546f58e4f111d9cd3920a128614c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 66df86d0db9767f29a1fdca637b95bb66cd9252d
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスや Power BI Desktop のレポートに含まれる視覚エフェクトの移動やサイズ変更を行う
 視覚エフェクトの移動やサイズ変更を行うことができるのは、レポートの作成者と所有者のみです。 Power BI サービス (app.powerbi.com) の場合は、レポートを[編集ビュー](service-reading-view-and-editing-view.md)で開きます。
@@ -43,9 +43,5 @@ Power BI の場合は、少なくとも 1 つの視覚エフェクトを含む�
 
 ## <a name="next-steps"></a>次の手順
 [ダッシュボード上の視覚化をサイズ変更する](service-dashboard-edit-tile.md)  
-
-[Power BI レポートでの視覚化](power-bi-report-visualizations.md)  
-
-[Power BI - 基本的な概念](service-basic-concepts.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

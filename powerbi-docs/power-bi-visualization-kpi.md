@@ -1,29 +1,29 @@
 ---
-title: "KPI ビジュアル (チュートリアル)"
-description: "Power BI サービスおよび Power BI Desktop で KPI を作成します"
+title: KPI ビジュアル (チュートリアル)
+description: Power BI サービスおよび Power BI Desktop で KPI を作成します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6EpqaO0
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1a937b77135d6ad7843a6e0be779c235a1073f46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="kpi-visuals-tutorial"></a>KPI ビジュアル (チュートリアル)
 主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 KPI の詳細については、[Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050) を参照してください。
@@ -76,11 +76,8 @@ KPI はモバイル デバイスでも使用できます。これにより、常
 * KPI が上記のようにならない場合、月単位で並べ替える必要がある場合もあります。 KPI には並べ替えオプションがないため、ビジュアルを KPI に変換する*前*に月単位で並べ替える必要があります。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のレポート](service-reports.md)
 
 [Power BI レポートでの視覚化](power-bi-report-visualizations.md)
-
-[Power BI - 基本的な概念](service-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

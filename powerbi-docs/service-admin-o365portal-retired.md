@@ -1,28 +1,28 @@
 ---
-title: "Power BI for Office 365 は使用中止となりました"
-description: "Power BI for Office 365 は使用中止となりました。現行の Power BI の使用および管理方法について説明します。"
+title: Power BI for Office 365 は使用中止となりました
+description: Power BI for Office 365 は使用中止となりました。現行の Power BI の使用および管理方法について説明します。
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
 backup: amandacofsky
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c83ae371153443f48fa6996e4024119ca3d94d04
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e739ef47207b2f3fe3f9d5536c7941164bae98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Power BI for Office 365 は使用中止となりました
 Power BI の前のバージョンである Power BI for Office 365 は現行の [Power BI](https://powerbi.microsoft.com) に移行されています。 **Power BI for Office 365** を使用済みのユーザーは現行の Power BI を使用できます。 Power BI について詳しくは、[こちら](service-get-started.md)をご覧ください。
