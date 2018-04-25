@@ -184,15 +184,15 @@ JSON ファイルを作成する利点はさまざまです。 たとえば、�
 | areaChart |
 | barChart |
 | basicShape |
-| カード |
+| card |
 | clusteredBarChart |
 | clusteredColumnChart |
 | columnChart |
 | comboChart |
 | donutChart |
 | filledMap |
-| じょうご |
-| ゲージ |
+| funnel |
+| gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
 | image |
@@ -200,17 +200,17 @@ JSON ファイルを作成する利点はさまざまです。 たとえば、�
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| マップ |
+| map |
 | multiRowCard |
 | pieChart |
 | pivotTable |
 | ribbonChart |
 | scatterChart |
 | shapeMap |
-| スライサー |
+| slicer |
 | stackedAreaChart |
 | tableEx |
-| ツリーマップ |
+| treemap |
 | waterfallChart |
 
 次の表では、*cardName* 値を定義します。 各セルの最初の値は JSON ファイル用語であり、2 つ目の値は **Power BI Desktop** ユーザー インターフェイスで表示されるカードの名前です。
