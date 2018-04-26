@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 4ca8e0b634cc2b47d562d535506fdc1fae6e527e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop で Analysis Services の表形式データを使用する
 Power BI Desktop では、2 つの方法で SQL Server Analysis Services 表形式モデルに接続し、データを取得することができます。ライブ接続を使用して探索するか、項目を選択して Power BI Desktop にインポートします。
@@ -38,10 +38,10 @@ Power BI Desktop で動的なレポートを作成したら、Power BI サイト
 **項目を選択して Power BI Desktop にインポートする** – このオプションで接続すると、表形式モデルまたはパースペクティブのテーブル、列、メジャーなどの項目を選択して、Power BI Desktop モデルに読み込ませることができます。 Power BI Desktop の高度なクエリ エディターを使用して、必要な整形を施すことができます。 Power BI Desktop のモデリング機能を使用して、データをさらにモデル化することができます。 Power BI Desktop と表形式モデルの間のライブ接続は維持されません。 Power BI Desktop のモデルをオフラインで探索したり、Power BI サイトに発行したりできます。
 
 ## <a name="to-connect-to-a-tabular-model"></a>表形式モデルに接続するには
-1. Power BI Desktop の **[ホーム]** タブで、 **[データの取得]**をクリックします。
+1. Power BI Desktop の **[ホーム]** タブで、 **[データの取得]** をクリックします。
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata.png)
-2. **[SQL Server Analysis Services データベース]**をクリックして、 **[接続]**をクリックします。
+2. **[SQL Server Analysis Services データベース]** をクリックして、 **[接続]** をクリックします。
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as.png)
 3. サーバー名を入力し、接続モードを選択します。 

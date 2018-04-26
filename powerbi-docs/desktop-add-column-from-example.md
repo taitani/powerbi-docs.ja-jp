@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop で例から列を追加する"
-description: "Power BI Desktop で既存の列を例として使って新しい列を簡単に作成します"
+title: Power BI Desktop で例から列を追加する
+description: Power BI Desktop で既存の列を例として使って新しい列を簡単に作成します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1fcdd2d8b1eff61e3e53ca919e082afb4ec8e835
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Power BI Desktop で例から列を追加する
 2017 年 4 月リリース以降の **Power BI Desktop** では、**クエリ エディター**を使い、新しい列のサンプル値を指定するだけで、モデルに新しいデータ列を追加できます。 現在選択されているものから、または特定のテーブルのすべての (または選択されている) 列に基づいて入力を提供することで、新しい列の例を作成できます。
@@ -68,7 +68,7 @@ ms.lasthandoff: 02/24/2018
 
 新しい列に例を入力すると、Power BI は検出された変換に基づいて、作成している列のプレビューを表示します。 たとえば、テーブルの最初の列の *Alabama* という値に対応する「*Alabama*」を最初の行に入力します。 *Enter* キーを押すとすぐに、Power BI はその値に基づいて列を設定します。
 
-しかし、*Massachusetts[E]* を含む行に移動して最後の *[E]*部分を (必要ないので) 削除すると、Power BI は変更を検出し、例を使って変換を作成します。 上の中央のペインに表示される変換の説明に注意してください。
+しかし、*Massachusetts[E]* を含む行に移動して最後の *[E]* 部分を (必要ないので) 削除すると、Power BI は変更を検出し、例を使って変換を作成します。 上の中央のペインに表示される変換の説明に注意してください。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 

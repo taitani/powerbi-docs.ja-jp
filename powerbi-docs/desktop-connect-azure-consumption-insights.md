@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1f1eeda618c54def9e756f727161d5bc7d541218
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop での Azure Consumption Insights への接続 (Beda)
 **Azure Consumption Insights** コネクタを使用すれば、**Power BI Desktop** で Azure に接続して、組織における Azure サービスの使用状況に関する詳細なデータと情報を得ることができます。 また、メジャー、カスタム列、およびビジュアルを作成して、組織での Azure の使用状況についてレポートを作成し、共有することができます。 このリリースの **Azure Consumption Insights** コネクタはベータ版であり、変更される可能性があります。
@@ -151,7 +151,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 
 | ACI コネクタ / ContentPack ColumnName | ACI API の列名 | EA の列名 | 古い / 旧バージョンとの互換性のために存在する |
 | --- | --- | --- | --- |
-| AccountName |accountName |Account Name |いいえ |
+| AccountName |accountName |アカウント名 |いいえ |
 | AccountId |accountId | |はい |
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |いいえ |
 | AdditionalInfo |additionalInfo |AdditionalInfo |いいえ |
@@ -161,7 +161,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | ConsumedServiceId |consumedServiceId | |はい |
 | Cost |cost |ExtendedCost |いいえ |
 | Cost Center |costCenter |Cost Center |いいえ |
-| Date |date |Date |いいえ |
+| 日付 |date |日付 |いいえ |
 | 日 | |日 |いいえ |
 | DepartmentName |departmentName |Department Name |いいえ |
 | DepartmentID |departmentId | |はい |
@@ -177,7 +177,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | Month | |Month |いいえ |
 | 製品 |product |製品 |いいえ |
 | ProductId |productId | |はい |
-| Resource Group |resourceGroup |Resource Group |いいえ |
+| リソース グループ |resourceGroup |リソース グループ |いいえ |
 | Resource Location |resourceLocation |Resource Location |いいえ |
 | ResourceGroupId | | |はい |
 | ResourceLocationId |resourceLocationId | |はい |
@@ -189,7 +189,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | ServiceInfo2Id | | |はい |
 | Store Service Identifier |storeServiceIdentifier |Store Service Identifier |いいえ |
 | StoreServiceIdentifierId | | |はい |
-| Subscription Name |subscriptionName |Subscription Name |いいえ |
+| サブスクリプション名 |subscriptionName |サブスクリプション名 |いいえ |
 | タグ |tags |タグ |いいえ |
 | TagsId | | |はい |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |いいえ |

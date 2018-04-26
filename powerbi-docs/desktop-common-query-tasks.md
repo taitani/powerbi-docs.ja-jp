@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 37c5e55d426d308fe8ea7de5c6604a9c66f81896
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: f144ed747fc28565a9bbd3a167f9af45725bf0d7
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop での一般的なクエリ タスク
 Power BI Desktop の **クエリ エディター** ウィンドウで作業するとき、一般的に使用される多数のタスクがあります。 このドキュメントでは、それらの一般的なタスクについて説明し、追加情報へのリンクを示します。 
@@ -53,7 +53,7 @@ Power BI Desktop のデータに接続するには、リボンの **[ホーム]*
 
 ![](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
 
-データを Power BI Desktop に読み込む前に、 **[編集]** をクリックしてデータを調整したり、 *整形* したりできます。 読み込みの前にクエリを編集することは、読み込む前にサイズを縮小する予定の大規模なデータ セットを使用する際に特に役立ちます。 これを行うため、 **[編集]**を選択します。
+データを Power BI Desktop に読み込む前に、 **[編集]** をクリックしてデータを調整したり、 *整形* したりできます。 読み込みの前にクエリを編集することは、読み込む前にサイズを縮小する予定の大規模なデータ セットを使用する際に特に役立ちます。 これを行うため、 **[編集]** を選択します。
 
 さまざまな種類のデータに接続することは、とても簡単です。 また、Web リソースに接続することもできます。 **[データの取得] \> [その他]** の順に選んでから、**[その他] \> [Web]** の順に選びます。
 
@@ -63,7 +63,7 @@ Power BI Desktop のデータに接続するには、リボンの **[ホーム]*
 
 ![](media/desktop-common-query-tasks/datasources_fromwebbox.png)
 
-**[OK]**を選択すると、以前と同様に、Power BI Desktop はブックを検査して検出されたデータを **[ナビゲーター]** ウィンドウに表示します。
+**[OK]** を選択すると、以前と同様に、Power BI Desktop はブックを検査して検出されたデータを **[ナビゲーター]** ウィンドウに表示します。
 
 その他のデータ接続も類似しています。 データ接続に認証が必要な場合、Power BI Desktop は適切なユーザーが資格情報を入力するように求めるダイアログを表示します。
 
@@ -121,7 +121,7 @@ Power BI Desktop では、列をピボットして、列内の一意の値ごと
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 
-**[OK]**を選択すると、クエリは **[列のピボット]** ウィンドウで指定された変換の指示に従ってテーブルを表示します。
+**[OK]** を選択すると、クエリは **[列のピボット]** ウィンドウで指定された変換の指示に従ってテーブルを表示します。
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
 
@@ -145,7 +145,7 @@ Power BI Desktop では、列をピボットして、列内の一意の値ごと
 
 ![](media/desktop-common-query-tasks/queryformulas_formulabar.png)
 
-クエリ エディターは、各クエリに適用されているすべてのステップを、表示や変更が可能なテキストとして保持します。 クエリのテキストは、リボンの **[ビュー]**タブで **[詳細設定エディター]** を選択すると表示される、 **詳細設定エディター** を使用して表示または変更できます。
+クエリ エディターは、各クエリに適用されているすべてのステップを、表示や変更が可能なテキストとして保持します。 クエリのテキストは、リボンの **[ビュー]** タブで **[詳細設定エディター]** を選択すると表示される、 **詳細設定エディター** を使用して表示または変更できます。
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
