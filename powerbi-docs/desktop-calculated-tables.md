@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 3b7e3204d918c84acaff1b98bbab0fc09c6f0b87
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop で計算テーブルを使用する
 計算テーブルを使うと、モデルに新しいテーブルを追加できます。 しかし、値のクエリを実行してデータ ソースから新しいテーブルの列に値を読み込む代わりに、テーブルの値を定義する Data Analysis Expressions (DAX) 数式を作成することができます。 Power BI Desktop では、レポート ビューまたはデータ ビューの [新しいテーブル] 機能を使用して計算テーブルを作成します。
@@ -48,7 +48,7 @@ Contoso 社のプロジェクト マネージャー Jeff は、北西部の従�
 
 この 2 つのテーブルを合わせて 1 つの計算テーブルにする操作は非常に簡単です。 計算テーブルはレポート ビューとデータ ビューのどちらでも作成できますが、新しい計算テーブルをすぐに確認できるので、データ ビューで操作すると少し簡単になります。
 
-**データ ビュー**の **[モデリング]** タブで **[新しいテーブル]**をクリックします。 数式バーが表示されます。
+**データ ビュー**の **[モデリング]** タブで **[新しいテーブル]** をクリックします。 数式バーが表示されます。
 
  ![](media/desktop-calculated-tables/calctables_formulabarempty.png)
 
