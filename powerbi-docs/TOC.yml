@@ -148,7 +148,7 @@
           href: service-connect-to-mailchimp.md
         - name: Mandrill
           href: service-connect-to-mandrill.md
-        - name: Microsoft Azure Enterprise
+        - name: Microsoft Azure エンタープライズ
           href: service-connect-to-azure-enterprise.md
         - name: Microsoft Dynamics AX
           href: service-connect-to-microsoft-dynamics-ax.md
@@ -174,7 +174,7 @@
           href: service-connect-to-quickbooks-online.md
         - name: SendGrid
           href: service-connect-to-sendgrid.md
-        - name: ServiceNow Incidents
+        - name: ServiceNow のインシデント
           href: service-connect-to-servicenow.md
         - name: Smartsheet
           href: service-connect-to-smartsheet.md
@@ -210,7 +210,7 @@
           href: service-connect-to-ziosk.md
         - name: Zuora
           href: service-connect-to-zuora.md
-    - name: Dashboards
+    - name: ダッシュボード
       items:
         - name: Power BI のダッシュボード
           href: service-dashboards.md
@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: トラブルシューティング
       items:
-        - name: Power BI Desktop と Power Query での Access データベースと Excel スプレッドシートのインポート問題を解決する
-          href: desktop-access-database-errors.md
+        - name: Power BI Desktop のサインイン時の問題を解決する
+          href: desktop-troubleshooting-sign-in.md
         - name: Power BI Desktop の起動時の問題を解決する
           href: desktop-error-launching-desktop.md
+        - name: Power BI Desktop と Power Query での Access データベースと Excel スプレッドシートのインポート問題を解決する
+          href: desktop-access-database-errors.md
 - name: Power BI モバイル アプリ
   items:
     - name: 作業の開始
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: KPI の操作
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: サポートされているデータ ソース
+        - name: Power BI レポート (.pbix) データ ソース
           href: report-server/data-sources.md
-        - name: データ ソースに接続する
+        - name: ページ分割されたレポート (.rdl) データ ソース
           href: report-server/connect-data-sources.md
         - name: 'OData フィードとして共有データセットにアクセスする '
           href: report-server/access-dataset-odata.md
