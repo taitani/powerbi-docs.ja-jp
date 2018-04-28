@@ -1,15 +1,15 @@
 ---
-title: "Power BI Report Server でスケジュールされた更新をトラブルシューティングする"
-description: "この記事では、Power BI Report Server でスケジュールされた更新に関する問題のトラブルシューティングに利用できるリソースについて説明します。"
+title: Power BI Report Server でスケジュールされた更新をトラブルシューティングする
+description: この記事では、Power BI Report Server でスケジュールされた更新に関する問題のトラブルシューティングに利用できるリソースについて説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 466505ae2c4050629e8bbcc4ff90cde520d31375
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server でスケジュールされた更新をトラブルシューティングする
 この記事では、Power BI Report Server でスケジュールされた更新に関する問題のトラブルシューティングに利用できるリソースについて説明します。
@@ -60,7 +60,6 @@ Windows 資格情報でデータ ソースに正常に接続するには、Kerbe
 
 | 設定 | 説明 |
 | --- | --- |
-| EnablePowerBIReportEmbeddedModels |インポートされたデータをレポート内で使う機能を有効または無効にします。 有効な値は True または False です。 |
 | MaxFileSizeMb |アップロードされるレポートの最大ファイル サイズです。 既定値は 1000 MB (1 GB) です。 最大値は 2000 MB (2 GB) です。 |
 | ModelCleanupCycleMinutes |モデルをメモリから削除するかどうかを確認する頻度を定義します。 既定値は 15 分です。 |
 | ModelExpirationMinutes |モデルが最後に使われてから期限切れになって削除されるまでの時間を定義します。 既定値は 60 分です。 |
