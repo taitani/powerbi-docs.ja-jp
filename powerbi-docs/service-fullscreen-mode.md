@@ -1,35 +1,39 @@
 ---
-title: "ダッシュボード、ダッシュボード タイル、レポート ページ、レポートの視覚化を全画面表示モードで表示する"
-description: "ダッシュボード、ダッシュボード タイル、レポート ビジュアル、レポート ページを全画面表示モード (別名 \"*テレビ モード*\") で表示します。"
+title: ダッシュボード、タイル、レポート ページ、視覚エフェクトを全画面表示モードで表示する
+description: ダッシュボード、ダッシュボード タイル、レポート ビジュアル、レポート ページを全画面表示モード (別名 "*テレビ モード*") で表示します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>Power BI の全画面表示モード
+# <a name="full-screen-mode-in-power-bi-service"></a>Power BI サービスの全画面表示モード
 ## <a name="what-is-full-screen-mode"></a>全画面表示モードの概要
 ![ダッシュボードの全画面表示モードの前後](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-メニューやナビゲーション バーを表示せずに、コンテンツ (ダッシュボード、レポート ページ、タイル、視覚エフェクト) を表示します。  いつでもひと目でコンテンツの全体図のみを把握できます。 このモードはテレビ モードとも呼ばれます。 全画面表示モードで利用できる機能はコンテンツにより異なります。  
+メニューやナビゲーション バーを表示せずに、Power BI コンテンツ (ダッシュボード、レポート ページ、タイル、視覚エフェクト) を表示します。  いつでもひと目でコンテンツの全体図のみを把握できます。 このモードはテレビ モードとも呼ばれます。 全画面表示モードで利用できる機能はコンテンツにより異なります。 
+
+Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile アプリで使用できます](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop にはレポートや視覚エフェクトの全画面表示モードはありませんが、[リレーションシップ ビュー](desktop-report-view.md)および[レポート ビジュアルのフォーカス モード](service-focus-mode.md)ではページに合わせることができます。
+
+ 
 
 全画面表示モードの使用例:
 

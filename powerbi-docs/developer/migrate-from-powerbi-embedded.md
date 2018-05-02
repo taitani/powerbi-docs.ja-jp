@@ -1,15 +1,15 @@
 ---
-title: "Power BI に Power BI ワークスペース コレクション コンテンツを移行する方法"
-description: "Power BI ワークスペース コレクションから Power BI Embedded に移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。"
+title: Power BI に Power BI ワークスペース コレクション コンテンツを移行する方法
+description: Power BI ワークスペース コレクションから Power BI Embedded に移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法
 Power BI ワークスペース コレクションから Power BI Embedded に移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。
@@ -58,8 +58,7 @@ Power BI ワークスペース コレクションから Power BI Embedded への
 
 > [!NOTE]
 > これらのアカウントでは、アプリ ワークスペースを使用するために、Power BI Pro ライセンスが必要になります。
-> 
-> 
+>
 
 1. テナント管理者ユーザー。
    
@@ -71,10 +70,13 @@ Power BI ワークスペース コレクションから Power BI Embedded への
    
     アプリケーション バックエンドにはこのアカウントの資格情報が格納され、Power BI REST API で使用する Azure AD トークンを取得するために使用されます。 このアカウントは、アプリケーションの埋め込みトークンを生成するために使用されます。 また、このアカウントは、埋め込むために作成されたアプリ ワークスペースの管理者にする必要があります。
    
-   > [!NOTE]
-   > これは、埋め込みの目的で使用される組織内の通常のユーザー アカウントです。
-   > 
-   > 
+> [!NOTE]
+> これは、埋め込みの目的で使用される組織内の通常のユーザー アカウントです。
+>
+
+> [!NOTE]
+> App-Only トークン認証がアプリケーションに必要な場合は、[ここ](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement)をクリックしてご連絡ください。
+>
 
 ## <a name="app-registration-and-permissions"></a>アプリの登録とアクセス許可
 Azure AD 内でアプリケーションを登録し、特定のアクセス許可を付与する必要があります。
@@ -130,9 +132,9 @@ Power BI ワークスペース コレクションから Power BI Embedded にコ
 2. PaaS ワークスペースからの .pbix のダウンロード API の呼び出しを行います。
 3. PBIX を保存します。
 4. SaaS ワークスペースへの .pbix のインポートの呼び出しを行います。
-5. POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections を呼び出して、接続文字列を更新します。
-6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources を呼び出して、GW ID とデータ ソースを取得します。
-7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} を呼び出して、ユーザーの資格情報を更新します。
+5. POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections を呼び出して接続文字列を更新します
+6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources を呼び出して GW ID とデータソース ID を取得します
+7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} を呼び出してユーザーの資格情報を更新します
 
 #### <a name="old-dataset--reports"></a>古いデータセットとレポート
 これらは、2016 年 10 月より前に作成されたデータセット/レポートです。 .pbix のダウンロードでは、2016 年 10 月より前にアップロードされた PBIX はサポートされません。

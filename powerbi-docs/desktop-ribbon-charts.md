@@ -1,15 +1,15 @@
 ---
-title: "Power BI のリボン グラフを使用する"
-description: "Power BI サービスと Power BI Desktop でリボン グラフを作成し、使用する"
+title: Power BI のリボン グラフを使用する
+description: Power BI サービスと Power BI Desktop でリボン グラフを作成し、使用する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3dab818c863f00c97635d00ba07e75eb3c8e5b37
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fb1c85e8c7b4a9c8e92019e4917af16b83ae580c
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Power BI のリボン グラフを使用する
-**Power BI** の**リボン グラフ**を利用してデータを視覚化し、ランクが最も高い (最大値の) データ カテゴリをすばやく判断できます。 リボン グラフでは、ランクの変化を効果的に確認できます。各期間を対象に、最高位のランク (値) が常に一番上に表示されます。 リボン グラフは 2017 年 9 月リリース以降の **Power BI Desktop** と **Power BI サービス**の後続更新プログラムで利用できます。
+**Power BI** のリボン グラフを利用してデータを視覚化し、ランクが最も高い (最大値の) データ カテゴリをすばやく判断できます。 リボン グラフでは、ランクの変化を効果的に確認できます。各期間を対象に、最高位の範囲 (値) が常に一番上に表示されます。 リボン グラフは 2017 年 9 月リリース以降の **Power BI Desktop** と **Power BI サービス**の後続更新プログラムで利用できます。
 
 ![](media/desktop-ribbon-charts/ribbon-charts_01.png)
 

@@ -1,32 +1,32 @@
 ---
-title: "Power BI レポート内のテキスト ボックスと図形"
-description: "Microsoft Power BI サービスを使用したレポートでのテキスト ボックスと図形の追加と作成に関するドキュメント"
+title: Power BI レポート内のテキスト ボックスと図形
+description: Microsoft Power BI サービスを使用したレポートでのテキスト ボックスと図形の追加と作成に関するドキュメント
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: _3q6VEBhGew
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ce10e5d7b0ea2247655a9f93bfc3534086106f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI レポートの静的コンテンツ
-Power BI サービスと Power BI Desktop を使用すると、レポートにテキスト ボックスや図形を追加できます。 どちらの場合もレポートの編集アクセス許可が必要です。 他のユーザーからレポートの共有を受けている場合、編集ビューにアクセスすることはできません。 
+Power BI サービスと Power BI Desktop を使用すると、レポートにテキスト ボックスや図形を追加できます。 どちらの場合もレポートの編集アクセス許可が必要です。 Power BI サービスでレポートが自分と共有されている場合、編集アクセス許可はありません。 
 
 Will が Power BI Desktop を使用して[静的な画像をレポートに追加](guided-learning/visualizations.yml#step-11)する様子をご覧ください。視聴後は下記の手順に従い、ご自身で Power BI サービスをお試しください。
 > 
@@ -36,7 +36,7 @@ Will が Power BI Desktop を使用して[静的な画像をレポートに追�
 ## <a name="add-a-text-box-to-a-report"></a>レポートにテキスト ボックスを追加する
 1. レポートを編集ビューで開きます。
 
-2. レポート キャンバス内の任意の空白の位置にカーソルを置いて、**[テキスト ボックス]**を選びます。
+2. レポート キャンバス内の任意の空白の位置にカーソルを置いて、**[テキスト ボックス]** を選びます。
    
    ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
 2. テキスト ボックスにテキストを入力し、必要に応じて、フォント、色、テキストの配置を書式設定します。 

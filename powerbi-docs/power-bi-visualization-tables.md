@@ -1,29 +1,29 @@
 ---
-title: "チュートリアル - Power BI のレポートとダッシュボードでのテーブルの視覚化 (チュートリアル)"
-description: "列の幅の変更など、Power BI のレポートとダッシュボードでテーブルの視覚化を使うときのチュートリアルです。"
+title: Power BI のレポートとダッシュボードでのテーブルの視覚化 (チュートリアル)
+description: 列の幅の変更など、Power BI のレポートとダッシュボードでテーブルの視覚化を使うときのチュートリアルです。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Power BI のレポートとダッシュボードでのテーブルの使用 (チュートリアル)
 テーブルは、関連性のあるデータが論理的な一連の行と列に格納されたグリッドです。 ヘッダーと合計行が含まれる場合もあります。 テーブルは、1 つのカテゴリの多くの値を調べるときの定量的な比較で役に立ちます。 たとえば、次の表には**カテゴリ**に対する 5 つの異なるメジャーが表示されています。
@@ -69,15 +69,21 @@ ms.lasthandoff: 02/24/2018
 
 * テーブル グリッドの書式を設定してみましょう。 ここでは、青色の垂直グリッドを追加し、行にスペースを追加し、アウトラインとテキスト サイズを少し増やしました。
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * 列ヘッダーについては、背景色を変更し、アウトラインを追加し、フォント サイズを増やしました。 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* その他の書式をいくつか設定すると、次のようなテーブルが完成します。 書式設定オプションは多数あるため、使い方を学ぶには、まず簡単なテーブルを作成し、[書式設定] ウィンドウ ![](media/power-bi-visualization-tables/power-bi-format.png) を開き、調べてみることをお勧めします。 
+
+* 個々の列および列ヘッダーに書式設定を適用することもできます。 最初に **[フィールドの書式]** を展開し、ドロップダウン リストから書式を設定する列を選びます。 列の値に応じて、[フィールドの書式] では表示単位、フォントの色、小数点以下の桁数、背景、配置などを設定できます。 設定を調整した後は、同じ設定をヘッダーや合計行にも適用するかどうかを決定します。
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* その他の書式をいくつか設定すると、次のようなテーブルが完成します。 書式設定オプションは多数あるため、使い方を学ぶには、既定の書式設定から始めて、[書式設定] ウィンドウ ![](media/power-bi-visualization-tables/power-bi-format.png) を開き、調べてみることをお勧めします。 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

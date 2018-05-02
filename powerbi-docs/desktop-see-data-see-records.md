@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop ビジュアルでのデータの確認とレコードの確認"
-description: "Power BI Desktop のデータの確認機能とレコードの確認機能を使用して、詳細情報にドリルダウンします"
+title: Power BI Desktop ビジュアルでのデータの確認とレコードの確認
+description: Power BI Desktop のデータの確認機能とレコードの確認機能を使用して、詳細情報にドリルダウンします
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,78 +18,81 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 507c2e5e6d9f41e3342019cc8f051dd1e11954cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Power BI Desktop のデータの確認とレコードの確認を使用する
-**Power BI Desktop** では、ビジュアルの詳細にドリルダウンして、データのテキスト表現または選択したビジュアルの個々のデータ要素を見ることができます。 これらの機能は、*クリックスルー*、*ドリルスルー*、*詳細情報へのドリルスルー*などとも呼ばれます。
+**Power BI Desktop** では、視覚エフェクトの詳細にドリルダウンして、基になるデータのテキスト表現または選択したビジュアルの個々のデータ レコードを見ることができます。 これらの機能は、"*クリックスルー*"、"*ドリルスルー*"、"*詳細情報へのドリルスルー*" などとも呼ばれます。
 
-**[レコードの確認]** を使うとビジュアルから選んだ 1 つのデータ要素の基になっている行を表示でき、**[データの確認]** を使うとビジュアルで使われている値のテキスト版を表示できます。 **[データの確認]** と **[レコードの確認]** の使用についてはいくつかの制限があり、この記事の最後で説明します。
+**[データの確認]** を使うと選択した視覚エフェクトで使われている値のテキスト版を表示でき、**[レコードの確認]** を使うと選択した 1 つのレコードまたはデータ ポイントのすべてのデータを表示できます。 
 
-![](media/desktop-see-data-see-records/see-data-see-records_1.png)
+![[データの確認] と [レコードの確認]](media/desktop-see-data-see-records/see-data-record.png)
 
-## <a name="using-see-data-in-power-bi-desktop"></a>Power BI Desktop でのデータの確認の使用
-**[データの確認]** ボタンは、リボンの **[ビジュアル ツール]** セクションの **[データ/ドリル]** タブにあります。
+>[!IMPORTANT]
+>**[データの確認]**  と **[レコードの確認]** では、次の視覚エフェクトの種類のみがサポートされます。
+>  - 横棒グラフ
+>  - 縦棒グラフ
+>  - ドーナツ グラフ
+>  - 塗り分け地図
+>  - じょうごグラフ
+>  - マップ
+>  - 円グラフ
+>  - ツリーマップ
 
-![](media/desktop-see-data-see-records/see-data-see-records_2.png)
+## <a name="use-see-data-in-power-bi-desktop"></a>Power BI Desktop での [データの確認] の使用
 
-ビジュアルを右クリックし、表示されるメニューから **[データの確認]** を選択して、**データを確認する**こともできます。
+**[データの確認]** では、視覚エフェクトの基になるデータが表示されます。 **[データの確認]** は、視覚エフェクトを選択したときにリボンの **[ビジュアル ツール]** セクションの **[データ/ドリル]** タブに表示されます。
 
-![](media/desktop-see-data-see-records/see-data-see-records_3.png)
+![リボンの [データの確認]](media/desktop-see-data-see-records/see-data1.png)
+
+データは、視覚エフェクトを右クリックし、表示されるメニューから **[データの表示]** を選択するか、視覚エフェクトの右上隅で **その他のオプション**の省略記号 (...) を選択し、**[データの表示]** を選択することでも表示できます。
+
+![右クリックの [データの表示]](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![その他のオプションの [データの表示]](media/desktop-see-data-see-records/see-data3.png)
 
 > [!NOTE]
 > 右クリック メニューを使うには、ビジュアル内のデータ ポイントの上にマウス ポインターを移動する必要があります。
-> 
-> 
 
-**[データの確認]** を選ぶと、**Power BI Desktop** は選んだビジュアルとデータにフォーカスし、そのビジュアルとデータのテキスト表現だけをキャンバス領域に表示します。 次の図のよう、ビジュアルがキャンバスの上部に表示され、データが下部に表示されます。 これは*横*表示です。
+**[データの確認]** または **[データの表示]** を選択すると、Power BI Desktop キャンバスに、データのビジュアル表現とテキスト表現の両方が表示されます。 "*横表示*" では、ビジュアルがキャンバスの上部に表示され、データが下部に表示されます。 
 
-![](media/desktop-see-data-see-records/see-data-see-records_4.png)
+![横表示](media/desktop-see-data-see-records/see-data4a.png)
 
-右上隅のアイコンを選ぶことで、*縦表示*に切り替えることが (または、*横表示*に戻すことが) できます。
+キャンバスの右上隅のアイコンを選ぶことで、横表示と "*縦表示*" の間を切り替えることができます。
 
-![](media/desktop-see-data-see-records/see-data-see-records_5.png)
+![縦表示の切り替え](media/desktop-see-data-see-records/see-data4.png)
 
 レポートに戻るには、キャンバスの左上隅にある **[< レポートに戻る]** を選びます。
 
-![](media/desktop-see-data-see-records/see-data-see-records_6.png)
+![レポートに戻る](media/desktop-see-data-see-records/see-data5.png)
 
-## <a name="using-see-records-in-power-bi-desktop"></a>Power BI Desktop でのレコードの確認の使用
-ビジュアル内の 1 つのデータ要素に注目して、その背後にあるデータにドリルダウンできます。 ビジュアルを選んだ後、**[レコードの確認]** を使うには 2 つの方法があります。**[データ/ドリル]** リボンで **[レコードの確認]** トグルボタンを有効にしてから、データ要素をクリックします。または、データ要素を右クリックし、表示されるメニューから **[レコードの確認]** を選びます。
+## <a name="use-see-records-in-power-bi-desktop"></a>Power BI Desktop での [レコードの確認] の使用
 
-![](media/desktop-see-data-see-records/see-data-see-records_7.png)
+視覚エフェクト内の 1 つのデータ レコードに注目して、その背後にあるデータにドリルダウンできます。 **[レコードの確認]** を使用するには、視覚エフェクトを選択し、リボンの **[ビジュアル ツール]** セクションの **[データ/ドリル]** タブで **[レコードの確認]** を選択し、視覚エフェクト上のデータ ポイントまたは行を選択します。 
 
-> [!NOTE]
-> 選んだビジュアルが **[レコードの確認]** をサポートしていない場合、リボンのボタンは淡色になります。
-> 
-> 
-
-**[レコードの確認]** を選ぶと、**Power BI Desktop** は個別のデータ要素にフォーカスし、その要素のデータだけをキャンバス領域に表示します (次の図を参照)。
-
-![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+![リボンの [レコードの確認]](media/desktop-see-data-see-records/see-record1.png)
 
 > [!NOTE]
-> **[レコードの確認]** ビューで表示した (またはユーザーによって変更された) データの変更を、レポートに保存することはできません。
+> リボンで **[レコードの確認]** が無効になってグレー表示されている場合は、選択した視覚エフェクトで **[レコードの確認]** がサポートされていないことを意味します。
 
-レポートに戻るには、キャンバスの左上隅にある **[レポートに戻る]** ボタンを選びます。
+データ要素を右クリックし、表示されるメニューから **[レコードの確認]** を選択することもできます。
 
-## <a name="limitations"></a>制限事項
-**[データの確認]** または **[レコードの確認]** を使用するときに考慮すべき制限事項がいくつかあります。
+![右クリックによる [レコードの確認]](media/desktop-see-data-see-records/see-record2.png)
 
-* 次のビジュアルの種類のみがサポートされています。
-  * **横棒**
-  * **列**
-  * **マップ**
-  * **ツリー マップ**
-  * **塗り分け地図**
-  * **円**
-  * **ドーナツ**
-  * **じょうご**
-* 計算されるメジャーがビジュアルで使われている場合は、**[レコードの確認]** を使用できません
-* ライブ多次元 (MD) モデルに接続されている場合は、**[レコードの確認]** を使用できません
+データ要素に対して **[レコードの確認]** を選択すると、Power BI Desktop キャンバスに、選択した要素に関連付けられているすべてのデータが表示されます。 
+
+![](media/desktop-see-data-see-records/see-record3.png)
+
+レポートに戻るには、キャンバスの左上隅にある **[< レポートに戻る]** を選びます。
+
+![](media/desktop-see-data-see-records/see-record4.png)
+
+> [!NOTE]
+>**[レコードの確認]** には次の制限事項があります。
+> - **[レコードの確認]** ビュー内のデータを変更してレポートに保存することはできません。
+> - 計算されるメジャーがビジュアルで使われている場合は、**[レコードの確認]** を使用できません。
+> - ライブ多次元 (MD) モデルに接続されている場合は、**[レコードの確認]** を使用できません。
 
 ## <a name="next-steps"></a>次の手順
 **Power BI Desktop** には、あらゆる種類のレポートの書式指定とデータ管理機能があります。 例については、次のリソースをご覧ください。

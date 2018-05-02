@@ -1,5 +1,5 @@
 ---
-title: Cortana を利用し、Power BI のレポートとダッシュボードをすばやく見つけ、表示する
+title: Cortana を使用してレポートとダッシュボードをすばやく見つけて表示する
 description: Cortana を Power BI で使用して、データから回答を得ることができます。 現在のところ、レポートとダッシュボードで機能します。
 services: powerbi
 documentationcenter: ''
@@ -14,11 +14,11 @@ ms.workload: powerbi
 ms.date: 01/13/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 11bba0ec026650e59b8757b207f5f6d596499f0a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 46be9e170b0bdfb1aa18cfcdb126a16b78c9aa9d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Cortana for Power BI を利用し、Power BI データをすばやく見つけ、表示する
 Windows 10 デバイスで Cortana を使って、ビジネスの重要な質問に対する回答を瞬時に取得できます。 Power BI と統合することにより、Cortana は Power BI のダッシュボードとレポートから重要な情報を直接取得できます。 必要なものは、Windows 10 の 2015 年 11 月以降のバージョン、Cortana、Power BI です。また、少なくとも 1 つのデータセットにアクセスできる必要があります。

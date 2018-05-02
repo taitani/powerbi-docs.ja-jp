@@ -1,28 +1,28 @@
 ---
-title: "カード視覚エフェクト (別名: 大きな数字のタイル)"
-description: "Power BI でカード視覚エフェクトを作成します"
+title: 'カード視覚エフェクト (別名: 大きな数字のタイル)'
+description: Power BI でカード視覚エフェクトを作成します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>カード視覚エフェクト
 Power BI のダッシュボードまたはレポートで追跡すべき最重要の項目が 1 つの数値だけという場合もあります。たとえば、総売上高、対前年比の市場シェア、営業案件の総数などがこれに該当します。 この種の視覚エフェクトは、"*カード*" と呼ばれます。 他のほとんどのネイティブな Power BI 視覚エフェクトと同様に、カードもレポート エディターまたは Q&A を使って作成できます。
@@ -91,6 +91,25 @@ Q&A の質問ボックスは、カードを作成する最も簡単な方法で�
 - 質問ボックスがまったく表示されない場合は、システム管理者またはテナント管理者に問い合わせてください。    
 - Desktop を使っていて、レポートの空き領域をダブルクリックしても Q&A が開かない場合は、Q&A を有効にする必要がある場合があります。  **[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能] > [Q&A]** の順に選んでから、Desktop を再起動します。
 
+## <a name="format-a-card"></a>カードの書式設定
+ラベル、テキスト、色などを変更するオプションは多数あります。 最善の学習方法は、カードを作成し、[書式設定] ウィンドウを探索することです。 利用可能な書式設定オプションのほんの一部を次に示します。 
+
+1. 最初にペイントブラシのアイコンを選んで、[書式設定] ウィンドウを開きます。 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. **[データ ラベル]** を展開し、色、サイズ、フォント ファミリを変更します。 数千の店舗がある場合は、**[表示単位]** を使用して、店舗の数を千単位で表示でき、小数点以下の桁数も制御できます。 たとえば、125,832.00 ではなく 125.8 K のようになります。
+
+3.  **[カテゴリ ラベル]** を展開し、色とサイズを変更します。
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. **[背景]** を展開し、スライダーを [オン] に移動します。  これで、背景色と透明度を変更できます。
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. カードが希望どおりになるまで書式設定オプションの探索を続けます。 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>次の手順
 [Power BI のダッシュボードのタイル](service-dashboard-tiles.md)

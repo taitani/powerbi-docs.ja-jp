@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop レポートのアクセシビリティ"
-description: "アクセス可能な Power BI Desktop レポートを作成するための機能と推奨事項"
+title: Power BI Desktop レポートのアクセシビリティ
+description: アクセス可能な Power BI Desktop レポートを作成するための機能と推奨事項
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c0e11a46e6e228da2f2ca8ac3f7be63ae20c1d92
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9cf89867185487ab6ddec68bc6abf557b2fc929f
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop レポートのアクセシビリティ
 **Power BI Desktop** には、障碍を持つユーザーがより簡単に **Power BI Desktop** レポートを使用したり対話したりする機能が用意されています。 これらは、レポートでキーボードやスクリーンリーダーを使用したり、ページ上のさまざまなオブジェクトにフォーカスをタブ移動したり、マーカーを使用して気の利いた視覚化を実行するための機能です。
@@ -41,7 +41,7 @@ ms.lasthandoff: 02/24/2018
 
 アクセシビリティ機能の強化により、次の方法で **Power BI Desktop** のレポートを、キーボードまたはスクリーン リーダーで使用できるようになりました。
 
-**Ctrl + F6** キーを使用して、特定のレポート ページ上のレポート ページ タブまたはオブジェクトの**フォーカスを切り替える**ことが可能です。
+**Ctrl + F6** キーを使用して、特定のレポート ページ上のレポート ページ タブまたはオブジェクトのフォーカスを切り替えることが可能です。
 
 * フォーカスが*レポート ページ タブ*上にある場合、*Tab* または*矢印*キーを使用して、1 つのレポート ページから次のレポート ページへフォーカスを移動します。 レポート ページのタイトルおよびそれが現在選択されているかどうかがスクリーン リーダーによって読み上げられます。 現在フォーカスがあたっているレポート ページを読み込むには、*Enter* キーまたは*スペース* キーを使用します。
 * フォーカスが読み込まれている*レポート ページ*にある場合、*Tab* キーを使用してページのすべてのテキスト ボックス、画像、図形、およびグラフなどの各オブジェクトにフォーカスを移動します。 スクリーン リーダーによってオブジェクトの種類とその作成者が提供するオブジェクトの説明が読み上げられます。 

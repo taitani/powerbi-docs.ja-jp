@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>オンプレミス データ ゲートウェイの詳細
 組織のユーザーはオンプレミス データ (アクセス認証を取得済みの) にアクセスできますが、オンプレミス データ ソースに接続するには、事前にオンプレミス データ ゲートウェイをインストールし、設定しておく必要があります。 このゲートウェイにより、クラウドのユーザーとオンプレミス データ ソースの間のバックグラウンドの通信が迅速かつ安全な方法で確立されます。
@@ -87,10 +87,7 @@ Analysis Services ライブ接続を使用する場合、ローカル Active Dir
    Azure ポータルで、あるいは Office 365 Admin ポータル内でアカウントを作成できます。アカウント名はローカル Active Directory アカウントの UPN と一致します。
 2. [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) ツールを使用し、ローカル アカウントと Azure Active Directory テナントを同期させることができます。
    
-   Azure AD Connect ツールには、ディレクトリとパスワードの同期オプションがあります。 テナント管理者またはローカル ドメイン管理者ではない場合、IT 管理者に問い合わせ、これを構成してもらう必要があります。
-3. Active Directory Federation Services (ADFS) を構成できます。
-   
-   [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) ツールを使用し、ADFS サーバーを AAD テナントに関連付けることができます。 ADFS では、上記のディレクトリ同期が利用されますが、シングル サインオン (SSO) が可能です。 たとえば、職場のネットワークにいる場合、クラウド サービスにアクセスし、サインインに進むとき、ユーザー名またはパスワードの入力が求められません。 組織でこれが利用できる場合、IT 管理者と話し合う必要があります。
+   Azure AD Connect ツールでは、パスワード ハッシュ同期、パススルー認証、フェデレーションなど、ディレクトリ同期と認証設定のオプションが提供されます。 テナント管理者またはローカル ドメイン管理者ではない場合、IT 管理者に問い合わせ、これを構成してもらう必要があります。
 
 Azure AD Connect を利用すると、UPN は AAD とローカル Active Directory 間で一致します。
 

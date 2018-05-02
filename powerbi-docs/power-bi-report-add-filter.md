@@ -1,5 +1,5 @@
 ---
-title: レポートに視覚化、ページ、ドリルスルー、またはレポートのフィルターを追加する
+title: レポートに視覚エフェクト、ページ、ドリルスルー、またはレポートのフィルターを追加する
 description: Power BI でレポートにページ フィルター、視覚化フィルター、またはレポート フィルターを追加する
 services: powerbi
 documentationcenter: ''
@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e222b9bddc3e7c204a728e207b8969cdf13d605f
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: e6cf99ab981bb16e4d423733972798b5ca5f53e6
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Power BI サービス レポートへのフィルターの追加 (編集ビュー)
 > [!TIP]

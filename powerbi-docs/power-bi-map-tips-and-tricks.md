@@ -1,29 +1,29 @@
 ---
-title: "マップの視覚エフェクトに関するヒントとテクニック (Bing マップとの統合を含む)"
-description: "Power BI マップの視覚化、ビジュアル、場所、緯度と経度、Bing マップとの連動に関するヒントとテクニック。 "
+title: マップに関するヒントとテクニック (Bing マップの統合を含む)
+description: 'Power BI マップの視覚化、ビジュアル、場所、緯度と経度、Bing マップとの連動に関するヒントとテクニック。 '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: ajTPGNpthcg
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a78481376d679025fe3ac8929dff8756eb61257
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 031d977adbeb0697bcdd1bb6b19ebf21ec16e516
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI マップの視覚エフェクトに関するヒントとテクニック
 Power BI は Bing マップと統合されており、既定のマップ座標 (ジオコーディングと呼ばれるプロセス) が提供されているため、マップを作成できます。 正しい位置を特定するアルゴリズムも使用されますが、それが最適な推測の場合もあります。 Power BI の試行でマップの視覚化が自動的に作成されない場合は、Bing マップの機能を利用してください。 

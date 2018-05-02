@@ -1,35 +1,35 @@
 ---
-title: "チュートリアル - Power BI のお客様の収益性のサンプル: 使ってみる"
-description: "Power BI のお客様の収益性のサンプル: 使ってみる"
+title: 'チュートリアル - Power BI のお客様の収益性のサンプル: 使ってみる'
+description: 'Power BI のお客様の収益性のサンプル: 使ってみる'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 8c6d01cf1a89ea8e61506cc28344c77fe0276e47
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI のお客様の収益性のサンプル: 使ってみる
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>お客様の収益性のサンプルの概要
 「お客様の収益性のサンプル」のコンテンツ パックには、マーケティング資料を製作する会社向けのダッシュボード、レポート、データセットが含まれています。 このダッシュボードは、5 つの事業部のマネージャー (経営陣とも言う)、製品、顧客、粗利益 (GM) に関する主要なメトリックを確認するために、CFO によって作成されました。 どの要因が収益性に影響を与えているかが一目で確認できます。
 
-![](media/sample-customer-profitability/power-bi-dash.png)
+![Power BI ダッシュボード](media/sample-customer-profitability/power-bi-dash.png)
 
 このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、obviEnce ([www.obvience.com](http://www.obvience.com/)) が収集している匿名化された実データです。 データは次の複数の形式で使用できます: コンテンツ パック/コンテンツ アプリ、Excel ブック、.pbix Power BI Desktop ファイル。 [サンプル データセット](sample-datasets.md)をご覧ください。
 
@@ -41,10 +41,10 @@ ms.lasthandoff: 03/15/2018
 1. Power BI サービス (app.powerbi.com) を開いてログインします。
 2. 左下隅にある **[データの取得]** を選びます。
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![データの取得](media/sample-datasets/power-bi-get-data.png)
 3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
 
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+   ![サンプル アイコン](media/sample-datasets/power-bi-samples-icon.png)
 4. **[お客様の収益性のサンプル]** を選び、**[接続]** を選びます。  
 
    ![データを取得](media/sample-customer-profitability/get-supplier-sample.png)
@@ -73,7 +73,7 @@ ms.lasthandoff: 03/15/2018
 
 2. 左側にあるダッシュボードのタイルを確認します。
 
-    ![](media/sample-customer-profitability/power-bi-manager.png)
+    ![マネージャーのタイル](media/sample-customer-profitability/power-bi-manager.png)
 
 - 粗利益は 42.5% です。
 - 80 の顧客が存在します。
@@ -86,7 +86,7 @@ ms.lasthandoff: 03/15/2018
 ### <a name="manager-specific-dashboard-tiles"></a>マネージャー固有のダッシュボード タイル
 ダッシュボードの右側にあるタイルには、チームのスコアカードが表示されます。 CFO はマネージャーについて把握しておく必要があり、これらのタイルは GM% を使用して利益の概要を説明します。 いずれかのマネージャーに関して予期しない GM% の傾向が見られる場合は、さらに調査できます。
 
-![](media/sample-customer-profitability/power-bi-manager2.png)
+![マネージャーの GM%](media/sample-customer-profitability/power-bi-manager2.png)
 
 - Carlos を除いた経営陣全員が、既に売上目標を上回っています。 ただし、Carlos の売上実績はもっとも高い値です。
 - Annelie の GM% は最低ですが、3 月以降、安定的に増加しているのがわかります。
@@ -99,7 +99,7 @@ ms.lasthandoff: 03/15/2018
 ### <a name="open-the-excel-online-data-source"></a>Excel Online のデータ ソースを開く
 ダッシュボード上の [Target vs Actual]\(目標と実績\)、[Year Over Year Revenue Growth]\(前年比の収益成長率\) の 2 つのタイルは、Excel ブックからピン留めされたものです。 そのためこのタイルのどちらを選択しても、Power BI によってデータ ソース、この場合は Excel Online が開かれます。
 
-![](media/sample-customer-profitability/power-bi-excel-online.png)
+![Excel Online](media/sample-customer-profitability/power-bi-excel-online.png)
 
 1. Excel からピン留めされたこれらのタイルのいずれかを選択します。 Excel Online が Power BI サービス内で開かれます。
 2. ブックにはタブ 3 つ分のデータがあることに注意してください。 [収益] を開きます。
@@ -107,11 +107,11 @@ ms.lasthandoff: 03/15/2018
     a. [エグゼクティブ] のスライダーから、**[Carlos Grilo]** を選択します。   
     b. 最初のピボットテーブルからは、Carlos がもっとも高い収益を上げている [製品] である [Primus] が、昨年と比べて 152% の減益となっていることがわかります。 また、前年比のグラフでは、ほとんどの月で予算以下になっています。  
 
-    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+    ![ピボットテーブル](media/sample-customer-profitability/power-bi-pivotchart.png)
 
-    ![](media/sample-customer-profitability/power-bi-carlos.png)
+    ![Carlos の結果](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. 調査を続けて興味のあるものが見つかったら右上隅にある **[ピン留め]**![](media/sample-customer-profitability/power-bi-excel-pin.png) を選択して、[ダッシュボードにピン留め](service-dashboard-pin-tile-from-excel.md)します。
+4. 調査を続けて興味のあるものが見つかったら右上隅にある **[ピン留め]** ![[ピン留め] アイコン](media/sample-customer-profitability/power-bi-excel-pin.png) を選択して、[ダッシュボードにピン留め](service-dashboard-pin-tile-from-excel.md)します。
 
 5. ダッシュボードに戻るには、ブラウザーの戻る矢印を使用します。
 
@@ -122,14 +122,14 @@ ms.lasthandoff: 03/15/2018
 
 2. レポートは 3 ページからなります。 レポートの下部にあるタブは、それぞれページを表します。
 
-    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+    ![下部にある 3 つのタブ](media/sample-customer-profitability/power-bi-report-tabs.png)
 
     * "チーム スコアカード" では、5 人のマネージャーの業績とその "顧客管理手法" に焦点を合わせます。
     * "業界の利益分析" では、業界全体の状況と比較して収益性を分析する方法が提供されます。
     * "役員スコアカード" では、Cortana での表示用に書式設定されたマネージャーのそれぞれのビューが提供されます。
 
 ### <a name="team-scorecard-page"></a>「チーム スコアカード」ページ
-![](media/sample-customer-profitability/customer2.png)
+![チーム スコアカード レポート ページ](media/sample-customer-profitability/customer2.png)
 
 2 人のチーム メンバーを詳しく考察し、どのような洞察が得られるかを確認してみましょう。 左側のスライサーで Andrew の名前を選んで、Andrew のデータのみが表示されるようにレポート ページをフィルター処理します。
 
@@ -138,7 +138,7 @@ ms.lasthandoff: 03/15/2018
 * 「月別の RevenueTY と予算に対する収益差異 %」には、安定した一様の収益履歴が示されています。ところが、地域ツリーマップ内の **[Central]** (中部) の四角形をクリックしてフィルター処理すると、Andrew は 3 月にインディアナ州でのみ売上があることがわかります。 これは計画的なものでしょうか、それとも検討する必要があるでしょうか。
 
 次は Valery です。 スライサーで Valery の名前を選んで、Valery のデータのみを表示するようにレポート ページをフィルター処理します。  
-![](media/sample-customer-profitability/customer3.png)
+![Executive を Vaery Ushalov でスライスする](media/sample-customer-profitability/customer3.png)
 
 * **[RevenueTY Status]**(RevenueTY の状態) の赤の KPI にご注意ください。 これは明らかにさらなる調査が必要です。
 * Valery の収益差異は懸念点を示しています。Valery は収益マージンを満たしていません。
@@ -150,7 +150,7 @@ ms.lasthandoff: 03/15/2018
 
 ### <a name="industry-margin-analysis"></a>業界の利益分析
 このレポート ページでは、データの別のスライスを提供します。 これは、セグメントごとに分割した、業界全体の粗利益を考察します。 CFO はこのページを利用して、会社と事業部のメトリックを業界のメトリックと比較し、傾向と収益性の説明に役立てます。 「月と役員名別の粗利益」面グラフはチーム固有であるにもかかわらず、なぜこのページ上にあるのか不思議に思われるかもしれません。 ここに表示することで、事業部のマネージャー別にページをフィルター処理することができます。  
-![](media/sample-customer-profitability/customer6.png)
+![[Industry Margin Analysis] レポート ページ](media/sample-customer-profitability/customer6.png)
 
 業界によって収益性はどのように異なるでしょうか。 製品と顧客は業界別にどのように分類されるでしょうか。 左上から、1 つまたは複数の業界を選びます。 (CPG 業界から開始) フィルターを消去するには、消しゴムのアイコンを選びます。
 
@@ -172,11 +172,11 @@ ms.lasthandoff: 03/15/2018
 
 2.  上部のメニューバーから、**[質問する]** を選択して Q&A 質問ボックスを開きます。
 
-    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![データについて質問する](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. **「total revenue by industry for Valery (Valery の業界別合計売上)」**と入力します。 質問を入力するに従って視覚化が更新されることにご注意ください。
 
-    ![](media/sample-customer-profitability/power-bi-qna.png)
+    ![質問ボックスに質問を入力する](media/sample-customer-profitability/power-bi-qna.png)
 
    流通は Valery にとって最大の売上領域です。
 
@@ -186,15 +186,15 @@ ms.lasthandoff: 03/15/2018
 1. [Industry Margin Analysis]\(業界の利益分析\) レポートのページを開きます。
 2. レポート ページで視覚エフェクトが選択されていない状態で、(まだ展開されていない場合は) 右側のフィルター ウィンドウを展開します。 フィルター ウィンドウには、ページ レベル フィルターのみが表示されます。  
 
-   ![](media/sample-customer-profitability/power-bi-filters.png)
+   ![ページ レベル フィルター](media/sample-customer-profitability/power-bi-filters.png)
 3. **[Industry]** フィルターを選択し、矢印を選択して一覧を展開します。 流通業界のページ フィルターを追加してみましょう。 まず **[Select All]** チェックボックスをオフにして、すべての選択を解除します。 次に **[運輸/物流]** だけを選択します。  
 
-   ![](media/sample-customer-profitability/customer7.png)
+   ![Distribution のフィルター](media/sample-customer-profitability/customer7.png)
 4. 「月および役員名別の粗利益」面グラフから、この業種の顧客を担当しているのは Valery と Tina だけで、Valery がこの業種を担当していたのは 6 月から 11 月までの間だけであることがわかります。   
 5. 「月および役員名別の粗利益」面グラフの凡例で、**[Tina]**、**[Valery]** の順に選びます。 「製品別の合計売上」の Tina の部分は、Valery と比較して非常に小さい点にご注意ください。
 6. 実売上を確認するには、Q&A を使用して、**役員のシナリオ別の流通業の合計売上**を尋ねます。  
 
-     ![](media/sample-customer-profitability/power-bi-qna2.png)
+     ![質問ボックスに質問を入力して横棒グラフを表示する](media/sample-customer-profitability/power-bi-qna2.png)
 
     同様に他の業界を調査して、視覚化に顧客を追加し、Valery の業績の原因を理解することもできます。
 

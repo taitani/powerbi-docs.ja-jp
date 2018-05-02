@@ -1,36 +1,36 @@
 ---
-title: "チュートリアル - データセットから新しいレポートを作成する "
-description: "データセットから新しい Power BI レポートを作成します。"
+title: 'チュートリアル - データセットから新しいレポートを作成する '
+description: データセットから新しい Power BI レポートを作成します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>データセットをインポートすることによって新しい Power BI レポートを作成する
-[Power BI のレポート](service-reports.md)を読んで、次は自分のレポートを作成しようと思われるでしょう。 レポートを作成するには、さまざまな方法があります。この記事ではまず、Excel データセットからごく基本的なレポートを作成します。 レポート作成の基本を理解した後、その下にある「**次の手順**」で、より高度なレポートに関するトピックを示します。  
+# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>データセットをインポートすることで Power BI サービス内で新しいレポートを作成する
+[Power BI のレポート](service-reports.md)を読んで、次は自分のレポートを作成しようと思われるでしょう。 レポートを作成するには、さまざまな方法があります。この記事ではまず、Power BI サービスを使用して Excel データセットからごく基本的なレポートを作成します。 レポート作成の基本を理解した後、その下にある「**次の手順**」で、より高度なレポートに関するトピックを示します。  
 
 > **ヒント**: 既存のレポートをコピーしてレポートを作成するには、「[Copy a report](power-bi-report-copy.md)」 (レポートをコピーする) を参照してください。
 > 
 ### <a name="prerequisites"></a>前提条件
-- Power BI サービス (Power BI Desktop を使用したレポート作成については、[Desktop のレポート ビュー](desktop-report-view.md)に関するページをご覧ください。)   
+- Power BI サービス (Power BI Desktop を使用したレポート作成については、[Desktop のレポート ビュー](desktop-report-view.md)に関するページをご覧ください)  
 - 小売りの分析のサンプルのデータセット
 
 ## <a name="import-the-dataset"></a>データセットをインポートする

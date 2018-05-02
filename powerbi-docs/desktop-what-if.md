@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で変数を視覚化する What-if パラメーターを使用する"
-description: "独自の What-if 変数を作成し、Power BI レポートの変数を想定して視覚化します"
+title: Power BI Desktop で変数を視覚化する What-if パラメーターを使用する
+description: 独自の What-if 変数を作成し、Power BI レポートの変数を想定して視覚化します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c6aa2639b8991cd7a9e1527c780bdbe21ad64b9
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Power BI Desktop で変数を視覚化する What-if パラメーターを作成して使用する
 2017 年 8 月リリースの **Power BI Desktop** 以降では、レポート用の **What-if** 変数を作成し、スライサーで変数を操作して、レポート内の異なるキー値を視覚化および定量化できます。
 
 ![](media/desktop-what-if/what-if_01.png)
 
-**What-if** パラメーターは、**Power BI Desktop** の **[モデリング]** タブにあります。 ダイアログが表示されてパラメーターを構成できます。
+**What-if** パラメーターは、**Power BI Desktop** の **[モデリング]** タブにあります。 これを選択すると、パラメーターを構成できるダイアログが表示されます。
 
 ## <a name="creating-a-what-if-parameter"></a>What-if パラメーターの作成
 **What-if** パラメーターを作成するには、**Power BI Desktop** の **[モデリング]** タブで **[What-If]** ボタンを選びます。 次の図では、*Discount percentage* という名前のパラメーターを作成し、データ型を "*10 進数*" に設定しています。 "*最小値*" は 0、"*最大値*" は 0.50 (50%) です。 また、"*増分*" を 0.05 (5%) に設定してあります。 これはレポートで操作したときのパラメーターの調整量です。
@@ -49,7 +49,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-what-if/what-if_04.png)
 
-**What-if** パラメーターを作成すると、パラメーターとメジャーの両方がモデルの一部になるということは重要であり、覚えておくと役に立ちます。 したがって、パラメーターとメジャーをレポート全体および他のレポート ページで使うことができます。 また、モデルに含まれるので、レポート ページから削除したスライサーを元に戻したい場合は、**What-if** パラメーターを **[フィールド]** リストからキャンバスにドラッグしてビジュアルをスライサーに変更するだけで、**What-if** パラメーターをレポートに簡単に戻すことができます。
+**What-if** パラメーターを作成すると、パラメーターとメジャーの両方がモデルの一部になるということは重要であり、覚えておくと役に立ちます。 したがって、これらをレポート全体および他のレポート ページで使うことができます。 また、モデルに含まれるので、レポート ページからスライサーを削除できます。また、削除したスライサーを元に戻したい場合は、**What-if** パラメーターを **[フィールド]** リストからキャンバスにドラッグしてビジュアルをスライサーに変更するだけで、パラメーターをレポートに簡単に戻すことができます。
 
 ## <a name="using-a-what-if-parameter"></a>What-if パラメーターの使用
 **What-if** パラメーターを使う簡単な例を作成します。 前のセクションでは **What-if** パラメーターを作成しました。ここでは、スライダーで値を調整する新しいメジャーを作成することにより What-if パラメーターを使います。 そのためには、新しいメジャーを作成します。
@@ -62,7 +62,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-what-if/what-if_06.png)
 
-その後、*OrderDate* を軸にし、*SalesAmount* と作成した *Sales after Discount* メジャーを値にして、縦棒グラフ ビジュアルを作成します。
+その後、*SalesAmount* と作成した *Sales after Discount* メジャーを値にして、軸上に *OrderDate* がある縦棒グラフ ビジュアルを作成します。
 
 ![](media/desktop-what-if/what-if_07.png)
 

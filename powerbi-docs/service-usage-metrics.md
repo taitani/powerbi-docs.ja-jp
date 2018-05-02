@@ -1,29 +1,29 @@
 ---
-title: "ダッシュボードとレポートの利用状況の指標"
-description: "Power BI のダッシュボードとレポートの利用状況の指標を表示、保存、使用する方法。 効果的なコンテンツを作成するために利用状況指標を測定します。"
+title: ダッシュボードとレポートの利用状況の指標
+description: Power BI のダッシュボードとレポートの利用状況の指標を表示、保存、使用する方法。 効果的なコンテンツを作成するために利用状況指標を測定します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>ダッシュボードとレポートの利用状況の指標
 ダッシュボードとレポートを作成した場合、その効果を理解するために利用状況の指標が役立ちます。 ダッシュボード利用状況指標またはレポート利用状況指標を実行すると、そのダッシュボードやレポートが組織全体でどのように利用されているか、何が利用されているか、だれに利用されているか、何の目的で利用されているかわかります。  
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/09/2018
 
 利用状況の指標レポートは、**[最近]**、**[ワークスペース]**、**[お気に入り]**、その他のコンテンツ一覧には表示されません。 アプリに追加できません。 利用状況指標レポートからダッシュボードにタイルを固定すると、そのダッシュボードはアプリやコンテンツ パックに追加できません。
 
-レポート データを掘り下げて調べたり、データセットに対して独自のレポートを構築したりするには、**[名前を付けて保存]** を利用します (「[利用状況の指標レポートをフル機能の Power BI レポートとして保存する](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report)」を参照してください)。
+レポート データを掘り下げて調べたり、データセットに対して独自のレポートを構築したりするには、**[名前を付けて保存]** を利用します (「[利用状況の指標レポートをフル機能の Power BI レポートとして保存する](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))」を参照してください)。
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>ダッシュボードまたはレポートの利用状況の指標レポートを開く
 1. ダッシュボードまたはレポートを含んでいるワークスペースで起動します。
@@ -86,7 +86,7 @@ ms.lasthandoff: 03/09/2018
 | Views per day (1 日あたりの表示) |はい |はい |1 日の表示の合計数 ‐ 表示はユーザーによるレポート ページまたはダッシュボードの読み込みとして定義されます。 |
 | Unique viewers per day (1 日あたりの固有の表示) |はい |はい |ダッシュボードまたはレポートを表示した*異なる*ユーザーの数 (AAD ユーザー アカウントに基づく)。 |
 | Views per user (ユーザーあたりの表示) |はい |はい |過去 90 日間の表示数をユーザー別に分類したもの。 |
-| Shares per day (1 日あたりの共有) |はい |いいえ |ダッシュボードが別のユーザーまたはグループと共有された回数。 |
+| 1 日あたりの共有 |はい |いいえ |ダッシュボードが別のユーザーまたはグループと共有された回数。 |
 | Total views (総表示数) |はい |はい |過去 90 日間の表示の数。 |
 | Total viewers (閲覧者合計) |はい |はい |過去 90 日間の固有の閲覧者の数。 |
 | Total shares (合計共有数) |はい |いいえ |過去 90 日以内にダッシュボードまたはレポートが共有された回数。 |

@@ -1,28 +1,28 @@
 ---
-title: "優れた Power BI ダッシュボードのデザインに関するヒント"
-description: "優れた Power BI ダッシュボードのデザインに関するヒント"
+title: 優れた Power BI ダッシュボードのデザインに関するヒント
+description: 優れた Power BI ダッシュボードのデザインに関するヒント
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>優れた Power BI ダッシュボードのデザインに関するヒント
 ダッシュボードの作成が完了し、タイルもいくつか追加したので、ダッシュボードの外観をよくすることに加えて、機能的なものにする方法についても考えてみましょう。 通常、この改良は、最も重要な情報を目立つようにしたり、簡潔ですっきりとした外観にしたりすることです。
@@ -31,25 +31,28 @@ ms.lasthandoff: 03/09/2018
 
 > [!TIP]
 > レポートの多くのデザイン原則は、ダッシュボードにも適用されます。  「[Best design principles for reports and visualizations](power-bi-visualization-best-practices.md)」 (レポートとビジュアルのデザインに関するベスト プラクティス) のホワイトペーパーをご覧ください。
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>閲覧者をよく考える
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>[ダッシュボード作り直しウェビナー](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)を見る
+Microsoft Principal Program Manager と Power BI ダッシュボード エキスパート Marc Reguera による[ダッシュボードの改造](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)をご覧ください。
+
+## <a name="consider-your-audience"></a>閲覧者をよく考える
 閲覧者の意思決定に役立つ重要なメトリックは何でしょうか。 ダッシュボードは、どのように使用されるでしょうか。 学習された (つまり文化的な) どんな前提が、デザインの選択に影響を与える可能性がありますか。 閲覧者が成功するためにどのような情報が必要ですか。
 
 ダッシュボードとは、データの現在の状態を監視するための 1 つの場所、つまり概要であることにご留意ください。 ダッシュボードは、基となるレポートとデータセットに依存しており、それらは大量の詳しい情報を含むことができます。 閲覧者は、ダッシュボードから各種レポートをドリルダウンできます。 このため、閲覧者が監視する必要がある情報でない限り、ダッシュボードには詳しい情報を含めないでください。
 
 ダッシュボードをどのようなデバイスに表示する予定ですか。 大型のモニターの場合、より多くのコンテンツを配置できます。 閲覧者がタブレットに表示する場合は、タイルの数を少なくする方が読みやすくなります。
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>ストーリーを持たせ、それを 1 つの画面に収める
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>ストーリーを持たせ、それを 1 つの画面に収める
 ダッシュボードでは、重要な情報をひと目で示す必要があるため、すべてのタイルを 1 つの画面に入れるのがベストです。 スクロール バーがダッシュボードに表示されないようにできますか。
 
 ダッシュボードに情報を詰め込みすぎて雑然としていませんか。  不可欠な情報以外のすべてを削除して、読みやすく、分かりやすいものにします。
 
-### <a name="make-use-of-full-screen-mode"></a>全画面表示モードの使用
+## <a name="make-use-of-full-screen-mode"></a>全画面表示モードの使用
 余計なものに気を取られることなく、ダッシュボードを[全画面表示](service-fullscreen-mode.md)で表示します。
 
-### <a name="make-the-most-important-information-biggest"></a>最も重要な情報を最も大きくする
+## <a name="make-the-most-important-information-biggest"></a>最も重要な情報を最も大きくする
 ダッシュボード上のテキストと視覚化がすべて同じサイズの場合、閲覧者は最も重要なことを見つけるのに苦労します。 たとえば、次のようなカードの視覚化は、重要な数値を目立つように表示するための優れた方法です。  
 ![カード視覚エフェクト](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -57,10 +60,10 @@ ms.lasthandoff: 03/09/2018
 
 [数値だけのタイルを作成](power-bi-visualization-card.md)する方法についてご覧ください。
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>最も重要な情報は、上部の隅に配置する
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>最も重要な情報は、上部の隅に配置する
 たいていの人は上から下に向かって情報を読むため、概要の情報は上部に配置し、より詳しい情報は閲覧者が読み進む方向 (左から右、または右から左) で下に向かって配置していきます。
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>データに適した視覚エフェクトを使用し、見やすく書式設定する
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>データに適した視覚エフェクトを使用し、見やすく書式設定する
 趣向を変えて変化をつけるためだけにさまざまな視覚化を使用することは避けてください。  視覚化は絵を描くように作成し、しかも読みやすく分かりやすいものにしてください。  データや視覚化によっては、シンプルなグラフの視覚化で十分です。 ただし、データの中にはより複雑な視覚化が必要になるものもあります。その場合は、必ずタイトル、ラベル、およびその他のカスタマイズを活用して、閲覧者に理解しやすいようにしてください。  
 
 * [適切なデータ視覚化を選びます](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx)。 事実を歪曲するグラフ、つまり 3-D グラフの使用にはご注意ください。 人間の脳は円形のものを解読することが困難であることにご留意ください。 円グラフ、ドーナツ グラフ、ゲージ、およびその他の円形の種類のグラフは見栄えはよいですが、データの視覚化のベスト プラクティスではありません。
@@ -84,7 +87,6 @@ ms.lasthandoff: 03/09/2018
 * *Advanced Presentations* by Design Andrew Abela 著   
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のダッシュボード](service-dashboards.md)  
+[レポートからダッシュボードを作成する](service-dashboard-create.md)  
 [Power BI - 基本的な概念](service-basic-concepts.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

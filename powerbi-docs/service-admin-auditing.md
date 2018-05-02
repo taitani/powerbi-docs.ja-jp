@@ -15,27 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 46f8d11d45423a9f7df96ac4d1e59c5d805304a7
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 23fa4ea28631e7545a1d68cd1f631eb087c56b98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>組織内での監査の使用
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Power BI で監査を使用して実行されたアクションを監視および調査する方法を説明します。 セキュリティ/コンプライアンス センターまたは PowerShell を使用できます。
 
 Power BI テナント内で、だれがどの項目にどのようなアクションを実行しているかを把握することは、組織が法令順守やレコード管理などの要件を満たすうえで非常に重要です。
 
 監査データは、日付範囲、ユーザー、ダッシュボード、レポート、データセット、アクティビティの種類によってフィルター処理できます。 アクティビティを csv (コンマ区切り値) ファイルとしてダウンロードし、オフラインで分析することもできます。
-
-> [!NOTE]
-> Power BI の監査機能はプレビュー段階にあり、すべてのデータ リージョンで利用できます。
 
 ## <a name="requirements"></a>要件
 監査ログにアクセスするには、次の要件を満たしている必要があります。
@@ -47,28 +42,8 @@ Power BI テナント内で、だれがどの項目にどのようなアクシ�
 
 - 監査ログへのアクセス権はあっても、グローバル管理者または Power BI サービスの管理者ではない場合は、Power BI 管理ポータルにアクセスできません。 この場合、Office 365 セキュリティ/コンプライアンス センターへの直接リンクが必要です。
 
-## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Power BI 管理ポータルで監査機能を有効にする
-
-レポートを処理するには、組織に対する監査を有効にする必要があります。 管理ポータルのテナントの設定でこれを行うことができます。
-
-1. 右上の**歯車アイコン**を選択します。
-
-2. **[管理ポータル]** を選択します。
-   
-   ![](media/service-admin-auditing/powerbi-admin.png)
-
-3. **[テナント設定]** を選びます。
-   
-   ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
-
-4. **[内部アクティビティの監査とコンプライアンスのための監査ログの作成]** をオンにします。
-
-5. **[適用]**を選びます。
-
-Power BI でユーザーが実行するさまざまなアクティビティのログ記録が開始されます。 ログが O365 セキュリティ/コンプライアンス センターに表示されるまで 48 時間ほどかかる場合があります。 記録される活動内容の詳細については、「[Power BI の監査対象アクティビティの一覧](#list-of-activities-audited-by-power-bi)」を参照してください。
-
 > [!NOTE]
-> テナント内で Power BI の監査を有効にするには、テナント内に少なくとも 1 つの Exchange メールボックス ライセンスが必要です。
+> テナント内で Power BI の監査ログを表示するには、テナント内に少なくとも 1 つの Exchange メールボックス ライセンスが必要です。
 
 ## <a name="accessing-your-audit-logs"></a>監査ログへのアクセス
 

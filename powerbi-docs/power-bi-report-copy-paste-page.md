@@ -1,32 +1,32 @@
 ---
-title: "Power BI でのレポート ページの複製"
-description: "Power BI でレポート ページをコピーして貼り付ける"
+title: Power BI でのレポート ページの複製
+description: Power BI でレポート ページをコピーして貼り付ける
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: UOKbxTXZrWw
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39d33965c45efe9ca063e658b42c00dcaea8ef26
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 08ac9c2be324109e12287de445038941ec0c7d00
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Power BI でのレポート ページの複製
-レポート ページを複製するには、レポート編集のアクセス許可が必要です。 Power BI サービスでは、レポートを[編集ビュー](service-reading-view-and-editing-view.md)で開きます。 
+Power BI サービスまたは Power BI Desktop でレポート ページを複製するには、レポートの編集権限が必要です。 Power BI サービスでは、レポートを[編集ビュー](service-reading-view-and-editing-view.md)で開きます。 
 
 
 1. Power BI では、少なくとも 1 つのページが含まれるレポートを開きます。 
@@ -41,10 +41,9 @@ ms.lasthandoff: 02/24/2018
    <iframe width="560" height="315" src="https://www.youtube.com/embed/UOKbxTXZrWw?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="next-steps"></a>次の手順
-詳細: [Power BI での視覚エフェクト](power-bi-report-visualizations.md)、
-[レポートへの新しいページの追加](power-bi-report-add-page.md) 
-
-[Power BI - 基本的な概念](service-basic-concepts.md) 
+[Power BI レポートでの視覚化](power-bi-report-visualizations.md)  についての詳細を参照する  
+[レポートに新しいページを追加する](power-bi-report-add-page.md)    
+[Power BI - 基本的な概念](service-basic-concepts.md)    
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

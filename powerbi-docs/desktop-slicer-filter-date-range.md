@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop で相対日付のスライサーまたはフィルターを使用する"
-description: "Power BI Desktop で相対的な日付範囲を制限するスライサーまたはフィルターを使う方法について説明します"
+title: Power BI Desktop で相対日付のスライサーまたはフィルターを使用する
+description: Power BI Desktop で相対的な日付範囲を制限するスライサーまたはフィルターを使う方法について説明します
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0432998e44cdb1bf95a41225b73d805ec2a2379f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 668c26cb2c2f6cda669280b2541fb5ccf8a44f27
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Power BI Desktop で相対日付のスライサーおよびフィルターを使用する
 **相対日付スライサー**または**相対日付フィルター**では、データ モデルの任意の日付列に時間ベースのフィルターを適用することができます。 たとえば、**相対日付スライサー**を使って、過去 30 日間 (または、1 か月、カレンダー月など) に発生した販売データのみを表示できます。 データを更新すると、相対期間が適切な相対日付制約を自動的に適用します。
@@ -40,7 +40,7 @@ ms.lasthandoff: 02/24/2018
 
 相対日付スライサーの場合は、"*相対*" を選びます。
 
-その後、設定を選択できます。 "*相対日付のスライサー*" の最初のドロップダウンで、次のいずれかを選択できます。
+その後、設定を選択できます。 "*相対日付スライサー*" の最初のドロップダウンには、次の選択肢があります。
 
 * 最後
 * 次へ
@@ -52,7 +52,7 @@ ms.lasthandoff: 02/24/2018
 
 "*相対日付スライサー*" の次の (中央) 設定では、数字を入力して、相対的な日付範囲を定義できます。
 
-3 番目の設定では日付の測定を選択でき、次のいずれかを選択できます。
+3 番目の設定では、日付の測定値を選択できます。 次の選択肢があります。
 
 * 日
 * 週
@@ -66,7 +66,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_05.png)
 
-一覧から "*月*" を選択して中間の設定に 2 を入力した場合、 次のようになります。今日が 7 月 20 日の場合、スライサーによって制約されるビジュアルのデータは、5 月 20 日から年 7 月 20 日 (今日の日付) までの過去 2 か月間が表示されます。
+そのリストから "*月*" を選択し、中央の設定に 2 を入力すると、次のようになります: 今日が 7 月 20 日の場合、スライサーによって制約されるビジュアルのデータは、5 月 20 日から 7 月 20 日 (今日の日付) までの過去 2 か月間が表示されます。
 
 一方、"*間 (暦)*" を選択すると、5 月 1 日から 6 月 30 日 (カレンダーで完全な過去 2 か月) のデータが表示されます。
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_06.png)
 
-その後は、**相対日付スライサー**のカスタマイズと同様の方法で、相対的な日付範囲を変更できます。 **[フィルターの種類]** ドロップダウンから **[相対日付フィルター]** を選びます。
+その後は、**相対日付スライサー**のカスタマイズと同様の方法で、相対日付範囲を変更できます。 **[フィルターの種類]** ドロップダウンから **[相対日付フィルター]** を選びます。
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_07.png)
 

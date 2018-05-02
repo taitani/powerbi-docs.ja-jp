@@ -1,36 +1,36 @@
 ---
-title: "プレビュー機能のオプトイン"
-description: "プレビュー段階の Power BI の機能を有効および無効にする方法です。"
+title: プレビュー機能のオプトイン
+description: プレビュー段階の Power BI の機能を有効および無効にする方法です。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="opt-in-for-power-bi-preview-features"></a>Power BI プレビュー機能のオプトイン
+# <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI サービスのプレビュー機能のオプトイン
 ## <a name="what-are-preview-features"></a>*プレビュー機能* とは
-Power BI の機能向上を行ったときは、新しい機能を *プレビュー機能* としてリリースします。 プレビュー機能を有効および無効にして、試すことができます。
+Power BI サービスの機能向上を行ったときは、新しい機能を "*プレビュー機能*" としてリリースします。 プレビュー機能を有効および無効にして、試すことができます。
 
 > [!TIP]
-> 質問やフィードバックがある場合は、 [Power BI のコミュニティ フォーラムを利用してください](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)。
+> プレビュー機能は Power BI Desktop でも使用できます。詳しくは、[Power BI Desktop のコミュニティ フォーラム](https://community.powerbi.com/t5/Desktop/bd-p/power-bi-designer)をご覧ください。
 > 
 > 
 

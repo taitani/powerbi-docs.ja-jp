@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI で Salesforce に接続する
 Power BI を使用すると、簡単に Salesforce.com アカウントに接続できます。 この接続を作成すると、データが取得され、そのデータに基づいて自動的にダッシュボードおよび関連するレポートが提供されます。
@@ -33,7 +33,7 @@ Power BI 用の [Salesforce コンテンツ パック](https://app.powerbi.com/g
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-salesforce/pbi_getdata.png) 
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-salesforce/pbi_getservices.png) 
 3. **[Salesforce]** をクリックし、**[取得]** を選択します。  
@@ -72,11 +72,13 @@ Power BI 用の [Salesforce コンテンツ パック](https://app.powerbi.com/g
 * [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
 * データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
-## <a name="system-requirements"></a>システム要件
-* API アクセスが有効な、Salesforce の正式アカウントに接続している。
-* ログイン時に Power BI アプリに対するアクセス許可が付与される。
-* データのプルと更新に使用できる十分な API 呼び出しがアカウントにある。
-* 最新の情報に更新するには、有効な認証トークンが必要です。 インポートする Salesforce データ セットは 5 個以下にしてください。Salesforce では、1 つのアプリケーションにつき許可される認証トークンが 5 個までだからです。
+## <a name="system-requirements-and-considerations"></a>システム要件と考慮事項
+- API アクセスが有効な、Salesforce の正式アカウントに接続している。
+- ログイン時に Power BI アプリに対するアクセス許可が付与される。
+- データのプルと更新に使用できる十分な API 呼び出しがアカウントにある。
+- 最新の情報に更新するには、有効な認証トークンが必要です。 インポートする Salesforce データ セットは 5 個以下にしてください。Salesforce では、1 つのアプリケーションにつき許可される認証トークンが 5 個までだからです。
+- Salesforce Reports API でサポートされるデータは、最大 2,000 行に制限されています。
+
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 エラーが発生した場合は、上記の要件を確認してください。 また、現在のところ、カスタム ドメインやサンドボックス ドメインへのログインはサポートされていないことにご注意ください。

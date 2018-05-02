@@ -1,28 +1,28 @@
 ---
-title: "レポートとビジュアルのデザインに関するベスト プラクティス (ホワイトペーパー)"
-description: "ホワイトペーパー: Power BI でレポートをデザインするためのベスト プラクティス"
+title: レポートとビジュアルのデザインに関するベスト プラクティス (ホワイトペーパー)
+description: 'ホワイトペーパー: Power BI でレポートをデザインするためのベスト プラクティス'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>レポートとビジュアルのデザインに関するベスト プラクティス
 <!-- Shared newnav Include -->
@@ -655,7 +655,7 @@ Power BI では、多くのビジュアルの種類が既定で提供されて�
 
 横棒グラフと縦棒グラフの詳細については以下を参照してください。
 
-* [横棒グラフ 101](http://blog.newscred.com/article/data-visualization-101-bar-charts/3c53044d4add7c31e79a3f80128771f4?page=thankyou)
+* [横棒グラフ 101](http://blog.newscred.com/article/data-visualization-101-bar-charts)
 * [データ視覚化カタログ: 横棒グラフ](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
 * [データ視覚化カタログ: 複数セット横棒グラフ](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 
@@ -750,7 +750,7 @@ Power BI では、縦棒グラフと折れ線グラフを複合グラフに組�
 
 **図 62: バブル チャートで表した南アメリカの GDP と人口**
 
-再生軸を追加すれば、Hans Rosling のように時間経過のあるストーリーを伝えることができます (https://www.youtube.com/watch?v=PbaDBJWCeD4)。 再生軸を追加するには、日時フィールドを **[再生軸]** にドラッグします。
+再生軸を追加すれば、Hans Rosling のように時間経過のあるストーリーを伝えることができます (https://www.youtube.com/watch?v=PbaDBJWCeD4))。 再生軸を追加するには、日時フィールドを **[再生軸]** にドラッグします。
 
 #### <a name="best-practices"></a>ベスト プラクティス
 * 散布図とバブル チャートは、ストーリーを伝えるのに優れています。 データを探索しようとするとそれほど有用ではありません。  Stephen Few はこれを次のように説明しています。*この方法が優れているのは、ストーリーを伝えるために使う場合です。バブルが移動して値が変化するグラフで起きていることを Rosling が説明し、見て欲しい場所を指し示すと、情報が生き生きしてきます。ただし、アニメーション化されたバブル チャートは、自力でデータを探索して理解するにはそれほど有効ではありません。Rosling はこの方法をストーリーの発見に使用しているのではなく、既に知られているストーリーを伝えているだけなのです。動き回る複数のバブルに対して一度に注意を払うことは不可能であり、何度もアニメーションを実行して何が起きているのかを理解する必要があります。選択したバブルの痕跡は追加することができ、それによってバブルがたどった完全な経路を確認することは可能ですが、痕跡を使用するバブルが数個より多くなると、バブル チャートはたちまち乱雑になります。基本的に、何を言いたいかというと、探索と分析を目的としてこの情報を表示するには、この方法は最善ではないということです。*
