@@ -1,27 +1,27 @@
 ---
-title: "アプリを登録して Power BI コンテンツを埋め込む"
-description: "埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory 内にアプリケーションを登録する方法を説明します。"
+title: アプリを登録して Power BI コンテンツを埋め込む
+description: 埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory 内にアプリケーションを登録する方法を説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD アプリを登録して Power BI コンテンツを埋め込む
 埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory (Azure AD) 内にアプリケーションを登録する方法を説明します。
@@ -59,6 +59,22 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
    
     **クライアント ID** が提供されます。 **[サーバー側の Web アプリ]** を選択した場合は、**クライアント シークレット**も受け取ります。 **クライアント ID** は必要に応じて後で Azure Portal から取得できます。 **クライアント シークレット**をなくした場合、Azure Portal で新しく作成する必要があります。
 
+8. Azure に移動して、**[アクセス許可の付与]** を選ぶ必要があります。
+> [!Note]
+    > これを行うには、Azure テナントの全体管理者である必要があります
+>
+
+* Azure に移動します。
+* **[アプリの登録]** を探して選びます。
+* アプリを選びます。
+* **[設定]** を選択します。
+* **[必要なアクセス許可]** を選びます。
+* **[Power BI サービス]** を選んで、アプリ登録サイトから選んだアクセス許可を確認します。
+* **[アクセス許可の付与]** を選びます。
+
+
+
+
 カスタム アプリケーションの一部として登録済みのアプリケーションを使用して Power BI サービスと対話できるようになりました。
 
 > [!IMPORTANT]
@@ -78,7 +94,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 5. 画面の指示に従って、新しいアプリケーションを作成します。
    
    * Web アプリケーションの場合は、アプリのベース URL となるサインオン URL を指定します。これは http://localhost:13526 のようにユーザーがサインインできる場所です。
-   * ネイティブ アプリケーションの場合は、Azure AD がトークンの応答を返すために使用するリダイレクト URI を指定します。 アプリケーション固有の値を入力します (例: http://myapplication/redirect)。
+   * ネイティブ アプリケーションの場合は、Azure AD がトークンの応答を返すために使用するリダイレクト URI を指定します。 アプリケーション固有の値を入力します (例: http://myapplication/redirect)
 
 Azure Active Directory でアプリケーションを登録する方法の詳細については、「[Azure Active Directory とアプリケーションの統合](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)」を参照してください。
 
@@ -190,4 +206,5 @@ Azure Active Directory でアプリケーションを登録する方法の詳細
 Azure AD でアプリケーションを登録したので、アプリケーションでユーザーを認証する必要があります。 詳細については、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+
 

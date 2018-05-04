@@ -1,28 +1,28 @@
 ---
-title: "Oracle データベースへの接続"
-description: "Oracle を Power BI Desktop に接続するために必要な手順とダウンロード"
+title: Oracle データベースへの接続
+description: Oracle を Power BI Desktop に接続するために必要な手順とダウンロード
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: e898fb3f7024b4041616770d6fe1d8e8469878dd
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle データベースへの接続
 **Power BI Desktop** を使用して Oracle データベースに接続するには、Power BI Desktop を実行しているコンピューター上に適切な Oracle クライアント ソフトウェアをインストールする必要があります。 使用する Oracle クライアント ソフトウェアは、インストールした Power BI Desktop のバージョン ( **32 ビット**バージョンか **64 ビット**バージョン) によって異なります。
@@ -49,7 +49,7 @@ Power BI Desktop の **64 ビット** バージョンの場合、次のリンク
 1. [データの取得] ウィンドウから、**[データベース] > [Oracle データベース]** を選択します。
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. 表示される **[Oracle データベース]** ダイアログでサーバーの名前を指定し、**[接続]** を選択します。 SID が必要な場合、*サーバー名/SID* の形式で指定します。
+2. 表示される **[Oracle データベース]** ダイアログでサーバーの名前を指定し、**[接続]** を選択します。 SID が必要な場合、"*サーバー名/SID*" の形式で指定します。SID はデータベースの一意名です。 "*サーバー名/SID*" の形式でうまくいかない場合は、"*サーバー名/サービス名*" を試してください。サービス名は接続時に使用した別名です。
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. ネイティブ データベース クエリを使用してデータをインポートする場合、**[Oracle データベース]** ダイアログで **[詳細オプション]** セクションを展開して **[SQL ステートメント]** ボックスを開き、クエリを入力します。

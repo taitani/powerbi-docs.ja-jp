@@ -1,6 +1,6 @@
 ---
 title: Power BI モバイル アプリのレポートを調べる
-description: 'スマートフォンまたはタブレット上の Power BI モバイル アプリでレポートを表示および操作する方法について説明します。 Power BI サービスまたは Power BI Desktop でレポートを作成し、モバイル アプリで操作します。 '
+description: スマートフォンまたはタブレット上の Power BI モバイル アプリでレポートを表示および操作する方法について説明します。 Power BI サービスまたは Power BI Desktop でレポートを作成し、モバイル アプリで操作します。
 services: powerbi
 documentationcenter: ''
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -50,7 +50,7 @@ Power BI レポートは、入手した場所に応じてモバイル アプリ�
   ![横向きモードで開いている電話レポート](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>スマートフォン用に最適化されたレポートを表示する
-Power BI レポート作成者は、スマートフォン用に最適化されたレポート レイアウトを作成することができます。 スマート フォン用に最適化されたレポート ページには機能が追加されました。たとえば、ドリルダウンしてフォーカス モードでビジュアルでの並べ替えを行ったり、[レポート ページに追加されたレポート作成者のフィルター処理](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)を行ったりできます。 スマートフォンで開かれるレポートは、Web 上のレポートでフィルター処理に使われているのと同じ値でフィルター処理され、ページにアクティブなフィルターがあることを示すメッセージが表示されます。 スマートフォンでフィルターを変更できます。
+Power BI レポート作成者は、スマートフォン用に最適化されたレポート レイアウトを作成することができます。 スマート フォン用に最適化されたレポート ページには機能が追加されました。たとえば、ドリルダウンしてビジュアルでの並べ替えを行ったり、[レポート ページに追加されたレポート作成者のフィルター処理](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)を行ったりできます。 スマートフォンで開かれるレポートは、Web 上のレポートでフィルター処理に使われているのと同じ値でフィルター処理され、ページにアクティブなフィルターがあることを示すメッセージが表示されます。 スマートフォンでフィルターを変更できます。
 
 レポートの一覧では、最適化されているレポートに特別なアイコンが付きます。 ![電話レポート アイコン](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
@@ -64,7 +64,7 @@ Power BI レポート作成者は、スマートフォン用に最適化され�
 
 詳しくは、「[電話用に最適化されたレポートを表示して使用する](mobile-apps-view-phone-report.md)」をご覧ください。
 
-## <a name="use-slicers-to-filter-a-report-page"></a>スライサーを使ったレポート ページのフィルター処理
+## <a name="use-slicers-to-filter-a-report"></a>スライサーを使ったレポートのフィルター処理
 Power BI Desktop または Power BI サービスでレポートをデザインする際に、[レポート ページにスライサーを追加](power-bi-visualization-slicers.md)することもできます。 自分と同僚とでスライサーを使って、ブラウザーおよびモバイル アプリでページをフィルター処理できます。 スマートフォンでレポートを表示する際は、横向きモードでもスマートフォンの縦向きモードに最適化されたページでもスライサーを使って表示および操作できます。 ブラウザーのスライサーまたはフィルターで値を選ぶと、モバイル アプリでページを表示するときもその値が選ばれます。 ページにアクティブなフィルターがあることを示すメッセージが表示されます。  
 
 * レポート ページのスライサーで値を選択すると、ページ上の他のビジュアルがフィルターされます。
@@ -73,7 +73,7 @@ Power BI Desktop または Power BI サービスでレポートをデザイン�
   
   この図では、スライサーによって縦棒グラフがフィルターされ、7 月の値のみが表示されています。
 
-## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>Power BI レポート ページのクロス フィルター処理と強調表示
+## <a name="cross-filter-and-highlight-a-report"></a>レポートのクロス フィルター処理と強調表示
 ビジュアルの値を選択しても、他のビジュアルはフィルターされません。 他のビジュアルに含まれる関連する値が強調表示されます。
 
 * ビジュアルの値をタップします。
@@ -88,8 +88,8 @@ Power BI Desktop または Power BI サービスでレポートをデザイン�
    ![ビジュアルの並べ替え](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * 並べ替え順序を逆にするには、省略記号 (**...**) をもう一度タップし、同じフィールド名をタップします。
 
-## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>iPad またはタブレットでビジュアルをドリルダウン/ドリルアップする
-レポート作成者がこの機能をビジュアルに追加した場合、iPad またはタブレットでビジュアルをドリルダウンして、含まれる値を表示することができます。 [ビジュアルへのドリルダウンの追加](power-bi-visualization-drill-down.md)は、Power BI Desktop または Power BI サービスで行います。 
+## <a name="drill-down-on-an-ipad-or-a-tablet"></a>iPad またはタブレットでドリルダウンする
+レポート作成者がドリルダウン機能をビジュアルに追加した場合、iPad またはタブレットでビジュアルをドリルダウンして、含まれる値を表示することができます。 [ビジュアルへのドリルダウンの追加](power-bi-visualization-drill-down.md)は、Power BI Desktop または Power BI サービスで行います。 
 
 > [!NOTE]
 > 現在、iPad またはタブレット内のマップではドリルダウンが機能しません。

@@ -1,28 +1,28 @@
 ---
-title: "米国政府顧客向け Power BI へのサインアップ"
-description: "米国政府の顧客向けに、Power BI 米国政府サービスに米国政府組織をサインアップする方法について説明します。"
+title: 米国政府顧客向け Power BI へのサインアップ
+description: 米国政府の顧客向けに、Power BI 米国政府サービスに米国政府組織をサインアップする方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI サービスに米国政府組織を登録する
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -48,7 +48,7 @@ ms.lasthandoff: 02/27/2018
 > 以下の手順は、ポータル管理者が行う必要があります。
 >
 
-1. [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government) にアクセスします。
+1. [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government) に移動します。
 
 >[!NOTE]
 >今はまだ Office Government Cloud にサインアップしたくない場合は、営業担当者にご相談ください。
@@ -97,12 +97,7 @@ ms.lasthandoff: 02/27/2018
 ### <a name="whitelisting-instructions"></a>ホワイトリストの手順
 *ホワイトリスト*とは、Power BI のエンジニアリング チームが商用クラウド環境から、セキュリティが強化された政府向けクラウド環境にお客様を移動する場合に使用するプロセスです。 これにより、米国政府向けクラウドで使用可能な機能が期待どおりに動作するようになります。 米国政府向け **Power BI** サービスを初めて購入するすべての既存 (または新規) 米国政府顧客は、以下のホワイトリスティング プロセスを開始する*必要があります*。 米国政府向け **Power BI** サービスのセットアップまたはサービスへの移行を行う前に、プロセスを完了する必要があります。 
 
-テナントを米国政府向けクラウドの "*ホワイトリストに登録する*" には、次のリンクからサポート チケットに記入します。このチケットが登録依頼となります。 この依頼ができるのは管理者だけです。
-
-* [*ホワイトリスト* オンライン サポート依頼](https://powerbi.microsoft.com/clouds/)
-* *ホワイトリストに登録する*ドメインと、このプロセスで使用する Microsoft の代表の電子メールを必ず含めてください。
-
-*ホワイトリストに登録する*プロセスには約 3 週間かかります。その間、テナントが米国政府向けクラウドで正しく動作するように Power BI のエンジニアリング チームが変更を行います。
+テナントを米国政府向けクラウドの "*ホワイトリストに登録*" するには、Microsoft アカウント チームにお問い合わせください。 この依頼ができるのは管理者だけです。 *ホワイトリストに登録する*プロセスには約 3 週間かかります。その間、テナントが米国政府向けクラウドで正しく動作するように Power BI のエンジニアリング チームが変更を行います。
 
 Power BI **無償版**ライセンスから **米国政府向け Power BI** に移行する場合 (また、定義上、この記事で先に説明した関連 **Pro** ライセンス機能に移行する場合)、Power BI エンジニアリング チームがテナントを*ホワイトリストに登録する*までこの記事の次のセクションで説明する問題が発生します。
 

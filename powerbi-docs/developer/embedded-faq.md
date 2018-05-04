@@ -1,27 +1,27 @@
 ---
-title: "Power BI Embedded に関してよく寄せられる質問"
-description: "Power BI Embedded についてよく寄せられる質問とその回答の一覧です。"
+title: Power BI Embedded に関してよく寄せられる質問
+description: Power BI Embedded についてよく寄せられる質問とその回答の一覧です。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/07/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -60,10 +60,6 @@ ISV (通常、大規模な ISV) が P SK を利用し、事前パッケージ済
 
 PRO ライセンスの埋め込みトークンは、開発と開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、生成できる埋め込みトークンの数には上限がありません。
 
-### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Power BI Embedded は Azure でいつから利用できますか?
-
-Power BI Embedded は現在ご利用いただけます。
-
 ## <a name="technical"></a>技術的な質問
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure の A SKU と Office 365 の EM SKU の違いは何ですか?
@@ -74,7 +70,7 @@ Power BI Embedded は一連の API であり、開発者はこれを利用し、
 
 それぞれを利用する場合の違いについて、部分的にまとめたものが次の一覧です。
 
-|おすすめ  |Power BI Embedded<br>(A SKU) |Power BI Premium 容量<br>(EM SKU)  |
+|おすすめ  |Power BI Embedded<br>(A SKU) |Power BI Premium 容量<br>(EM SKU)  | 
 |---------|---------|---------|
 |Power BI アプリ ワークスペースからアーティファクトを埋め込む     |Azure 容量 |Office 365 容量 |
 |レポートの利用に必要な Power BI ライセンス |いいえ  |はい |
@@ -138,14 +134,6 @@ PowerBI.com を利用し、Power BI Embedded 容量のワークスペースの�
 
 Power BI Embedded は Azure からお買い求めいただけます。
 
-### <a name="how-power-bi-embedded-be-metered"></a>Power BI Embedded の課金方法は?
-
-Power BI Embedded には時間単位のメーターが用意されています。
-
-### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Power BI Embedded の使用状況は請求書にどのように表示されますか?
-
-Power BI Embedded は、デプロイしたノードの種類に基づき、予測可能な時間レートで課金されます。 リソースが有効である限り、使用していなくても課金されることにご注意ください。 課金を停止するには、自発的にリソースを一時停止する必要があります。 Azure または ARM API から一時停止できます。
-
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Power BI Premium を既に購入しているとき、Azure で Power BI Embedded の機能を利用したいと考えた場合、どうなりますか?
 
 購入した既存の Power BI Premium に対して現在の契約期間終了まで引き続き支払い、終了時点で必要に応じて、購入した他のサービスに切り替えることができます。
@@ -153,6 +141,14 @@ Power BI Embedded は、デプロイしたノードの種類に基づき、予�
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>Power BI Embedded にアクセスするには Power BI Premium を購入する必要がありますか?
 
 いいえ。Power BI Embedded には、デプロイし、ソリューションを顧客に配信するために必要な Azure ベースの容量が含まれています。
+
+### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Power BI Embedded の購入コミットメントは何ですか? 
+
+顧客は時間単位で使用方法を変更できます。 Power BI Embedded サービスには、月または年単位のコミットメントはありません。
+
+### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Power BI Embedded の使用状況は請求書にどのように表示されますか?
+
+Power BI Embedded は、デプロイしたノードの種類に基づき、予測可能な時間レートで課金されます。 リソースが有効である限り、使用していなくても課金されることにご注意ください。 課金を停止するには、自発的にリソースを一時停止する必要があります。
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Power BI Embedded に Power BI Pro のライセンスを必要とするのはどのようなユーザーですか? また、その理由は?
 
@@ -168,16 +164,21 @@ Power BI Embedded では、埋め込みコンテンツの管理と検証に Powe
 
 Power BI Embedded は Azure の一部であるため、[Azure 登録時に受け取った $200 のクレジット](https://azure.microsoft.com/free/)でこのサービスを利用できます。
 
-### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Power BI Embedded の購入コミットメントは何ですか? 
+### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Power BI マスター アカウントで生成できる埋め込みトークンの数に制限はありますか? 
 
-顧客は時間単位で使用方法を変更できます。 Power BI Embedded サービスには、月または年単位のコミットメントはありません。
+はい、これらの埋め込みトークンは開発テスト専用なので、制限されています。 運用環境で埋め込む場合、[容量を購入する](#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。 「[Get Available Features](https://msdn.microsoft.com/en-us/library/mt846473.aspx)」(使用可能な機能の入手) に移動して、使用されている無料埋め込みトークンの数を確認してください。
 
-### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Power BI Embedded はどこで利用できますか? 米国政府は? ドイツは? 中国は? いつ利用できますか?
+### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Power BI Embedded はソブリン クラウド (米国政府、ドイツ、中国) に利用できますか?
 
-Power BI Embedded は、Azure 商用クラウドおよび米国政府機関向けクラウドで利用できます。  ドイツおよび中国向けのソブリン クラウドは、将来的に利用可能になる予定です。
+Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-customers-sovereign-clouds.md)で利用できます。 中国クラウドではまだ利用**できません**。
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>非営利団体や教育機関は Power BI Embedded を利用できますか?
 
 非営利団体や教育機関は Azure を購入できます。 Azure では、非営利団体や教育機関に特別料金は設定されていません。
 
+詳しくは、「[埋め込みアプリケーションのトラブルシューティング](embedded-troubleshoot.md)」をご覧ください
+
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+
+
+

@@ -1,39 +1,32 @@
 ---
-title: "Office Online Server (OOS) を利用し、Excel ブックをホストするようにレポート サーバーを構成する"
-description: "Web ポータルで Power BI レポートを表示することに加え、Power BI Report Server では、ビジネス ユーザーは Excel ブックで同じことができるようになりました。"
+title: Office Online Server (OOS) を使用して Excel ブックをホストする - Power BI Report Server
+description: Web ポータルで Power BI レポートを表示することに加え、Power BI Report Server は Office Online Server (OOS) を使用して Excel ブックをホストすることができます。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) を利用し、Excel ブックをホストするようにレポート サーバーを構成する
-Web ポータルで Power BI レポートを表示することに加え、Power BI Report Server では、ビジネス ユーザーは Excel ブックで同じことができるようになりました。セルフサービスの Microsoft BI コンテンツを 1 か所で公開し、表示します。
+Web ポータルで Power BI レポートを表示することに加え、Power BI Report Server は [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) を使用して Excel ブックをホストすることができます。 レポート サーバーで一元的に、セルフサービスの Microsoft BI コンテンツの公開と表示を行うことができます。
 
-> [!NOTE]
-> これは 2017 年 8 月のプレビュー リリースに含まれるプレビュー機能です。 詳細については、「[Power BI Report Server の新機能](whats-new.md)」を参照してください。
-> 
-> 
-
-![レポート サーバー Web ポータルから表示している Excel レポート](media/excel-oos/excel-in-pbirs.png)
-
-これは [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS) を利用することで実行できます。
+![レポート サーバー Web ポータルから表示される Excel レポート](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Office Online Server を実行するサーバーを用意する
 Office Online Server を実行するサーバーで以下の手順を実行します。 このサーバーは、Windows Server 2012 R2 または Windows Server 2016 である必要があります。 Windows Server 2016 には、2017 年 4 月以降の Office Online Server が必要です。

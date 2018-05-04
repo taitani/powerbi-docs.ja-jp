@@ -1,43 +1,34 @@
 ---
-title: "データ ソースへの接続"
-description: "Power BI レポート サーバー内で接続できるデータ ソースについて説明します。"
+title: Power BI Report Server でのページ分割されたレポート (.rdl) のデータ ソース
+description: ページ分割されたレポート (.rdl) が Power BI Report Server で接続できるデータ ソースについて説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 35312fcf4301a7655893c1824b93b7718d6ae97f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 189e5c2900fedf8403df75f0eb371830f28f7281
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="connecting-to-data-sources"></a>データ ソースへの接続
-Power BI レポート サーバー内で接続できるデータ ソースについて説明します。
-
-## <a name="power-bi-reports"></a>Power BI レポート
-Power BI レポートは、インポートされたデータ、または Analysis Services ライブ接続と DirectQuery を使っているデータで動作します。 2017 年 10 月リリースには、Analysis Services ライブ接続以外の接続のサポートが含まれています。 これには、インポートされたデータが含まれます。 2017 年 10 月リリースは、[powerbi.com](https://powerbi.microsoft.com/report-server/) でダウンロードできます。
-
-サポートされているデータ ソースについては、「[Power BI Report Server での Power BI レポート データ ソース](data-sources.md)」をご覧ください。
-
-## <a name="other-reports"></a>その他のレポート
-その他のレポートの種類では、SQL Server Reporting Services 内に存在するものと同じデータ ソースをサポートします。 詳細については、「[Data sources supported by Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)」 (Reporting Services でサポートされるデータ ソース) を参照してください。
+# <a name="paginated-report-rdl-data-sources"></a>ページ分割されたレポート (.rdl) データ ソース
+Power BI Report Server での Reporting Services のページ分割されたレポートは、SQL Server Reporting Services でサポートされているものと同じデータ ソースをサポートします。 「[Reporting Services でサポートされるデータ ソース (SSRS)](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)」の一覧をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
-[ユーザー向けハンドブック](user-handbook-overview.md)  
-[クイックスタート: ページ分割されたレポート](quickstart-create-paginated-report.md)  
-[クイックスタート: Power BI レポート](quickstart-create-powerbi-report.md)
+データ ソースに接続したので、[ページ分割されたレポートを作成](quickstart-create-paginated-report.md)します。  
+
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

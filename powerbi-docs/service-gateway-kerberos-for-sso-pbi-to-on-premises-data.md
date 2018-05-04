@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: bb0800dc6a61efe1d7b331a6049460275b4412a3
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 344e6ecc31748d58f0803f95aed53badfa6be4f2
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する
 オンプレミスのデータ ゲートウェイと Kerberos を構成することにより、シームレスなシングル サインオン接続を確立して、Power BI のレポートとダッシュボードをオンプレミスのデータで更新することができます。 オンプレミス データ ゲートウェイにより、DirectQuery を使うシングル サインオン (SSO) が容易になります。この場合、オンプレミスのデータ ソースへの接続に使われます。
@@ -64,19 +64,18 @@ SSO を使ったクエリ実行は、次の図に示す 3 つのステップで�
 
 
 > [!NOTE]
-> SAP HANA で SSO を有効にするには、SAP で次の SAP HANA 固有の構成を満たす必要があります。
-> 1. SAP HANA サーバーが必要な最小バージョンを実行していることを確認します。これは、SAP Hana サーバー プラットフォームのレベルによって異なります。
-> * [HANA 2 SPS 01 改訂 012.03](https://launchpad.support.sap.com/#/notes/2557386)
-> * [HANA 2 SPS 02 改訂 22](https://launchpad.support.sap.com/#/notes/2547324)
-> * [HANA 1 SP 12 改訂 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+> SAP HANA で SSO を有効にするには:
 >
-> 2. ゲートウェイ マシンに、SAP の最新の HANA ODBC ドライバーをインストールする。  最小バージョンは 2017 年 8 月の HANA ODBC バージョン 2.00.020.00 です。
+> - SAP HANA サーバーが必要な最小バージョンを実行していることを確認します。これは、SAP Hana サーバー プラットフォームのレベルによって異なります。
+>     - [HANA 2 SPS 01 改訂 012.03](https://launchpad.support.sap.com/#/notes/2557386)
+>     - [HANA 2 SPS 02 改訂 22](https://launchpad.support.sap.com/#/notes/2547324)
+>     - [HANA 1 SP 12 改訂 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 >
-> SAP が提供する次のパッチ/アップグレード リンクが役に立つことがあります。 SAP サポート アカウントを利用して次のリソースにログインする必要があることと、SAP がこれらのリンクを変更または更新する可能性があることにご注意ください。
-> 
-> * [HANA 2 SPS 01 改訂 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
-> * [HANA 2 SPS 02 改訂 22](https://launchpad.support.sap.com/#/notes/2547324) 
-> * [HANA 1 SP 12 改訂 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+> - ゲートウェイ マシンに、SAP の最新の HANA ODBC ドライバーをインストールする。  最小バージョンは 2017 年 8 月の HANA ODBC バージョン 2.00.020.00 です。
+>
+> Kerberos を使って SAP HANA に対するシングル サインオンのセットアップと構成を行う方法について詳しくは、SAP HANA セキュリティ ガイドのトピック「[Single Sign-on Using Kerberos](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.03/en-US/1885fad82df943c2a1974f5da0eed66d.html)」(Kerberos を用いたシングル サインオン) とそのページからのリンク (特に SAP Note 1837331 – HOWTO HANA DBSSO Kerberos/Active Directory) をご覧ください。 
+>
+>
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Kerberos の不適切な構成によるエラー
@@ -168,7 +167,7 @@ AAD が既に (AAD DirSync/Connect を使って) ローカルの Active Director
 7. 新しいダイアログで、**[ユーザーまたはコンピューター]** を選択します。
 8. SQL Server データベース サービスのサービス アカウント (**PBIEgwTest\SQLService**) を入力し、**[OK]** を選びます。
 9. データベース サーバー用に作成した SPN を選びます。 この例では、SPN は **MSSQLSvc** で始まります。 データベース サービスに FQDN と NetBIOS 両方の SPN を追加した場合は、両方とも選びます。 1 つだけしか表示されない場合があります。
-10. **[OK]**を選択します。 リストに SPN が表示されます。
+10. **[OK]** を選択します。 リストに SPN が表示されます。
 11. 必要に応じて、**[展開済み]** を選んで FQDN SPN と NetBIOS SPN を両方表示できます。
 12. **[展開済み]** をオンにした場合、ダイアログの表示は次のようになります。
     
