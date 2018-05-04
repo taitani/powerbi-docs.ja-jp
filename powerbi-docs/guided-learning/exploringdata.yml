@@ -1,95 +1,96 @@
 ### YamlMime:Tutorial
-title: "データの探索"
+title: データの探索
 metadata:
-  title: "データの探索 | Microsoft Power BI"
-  description: "Power BI でのデータの検索、接続、操作を行う方法について説明します。"
+  title: データの探索 | Microsoft Power BI
+  description: Power BI でのデータの検索、接続、操作を行う方法について説明します。
   audience: Business User
   level: Beginner
-  nextTutorialHref: powerbiandexcel
-  nextTutorialTitle: "Power BI と Excel"
+  nextTutorialHref: powerbiandexcel.yml
+  nextTutorialTitle: Power BI と Excel
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: aa974a0f3448efde8a4410fabcf0e4f78a5050fd
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 2d5e4f060aa342e7ce86af699032f7fa2256543e
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "**データの探索**チュートリアルへようこそ。 ここでは、Power BI でデータの検索、接続、操作を行う方法について説明します。\n"
-- title: "Power BI サービスの概要"
+  content: >
+    **データの探索**チュートリアルへようこそ。 ここでは、Power BI でデータの検索、接続、操作を行う方法について説明します。
+- title: Power BI サービスの概要
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/B2vd4MQrz4M?rel=0]
 
 
     [!INCLUDE [](includes/4-0-intro-power-bi-service.md)]
-- title: "Power BI のクイック分析情報"
+- title: Power BI のクイック分析情報
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
 
 
     [!INCLUDE [](includes/4-1a-quick-insights.md)]
-- title: "ダッシュボードの作成と構成"
+- title: ダッシュボードの作成と構成
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/lJKgWnvl6bQ?rel=0]
 
 
     [!INCLUDE [](includes/4-2-create-configure-dashboards.md)]
-- title: "自然言語を使用してデータに関する質問をする"
+- title: 自然言語を使用してデータに関する質問をする
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/qMf7OLJfCz8?rel=0]
 
 
     [!INCLUDE [](includes/4-3-asking-questions-natural-language.md)]
-- title: "カスタム Q&A 候補の作成"
+- title: カスタム Q&A 候補の作成
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/E1mIAyEXuF4?rel=0]
 
 
     [!INCLUDE [](includes/4-3a-suggested-questions.md)]
-- title: "ダッシュボードを組織で共有する"
+- title: ダッシュボードを組織で共有する
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/0tUwn8DHo3s?rel=0]
 
 
     [!INCLUDE [](includes/4-4-share-dashboards.md)]
-- title: "ビジュアルおよびタイルの全画面表示"
+- title: ビジュアルおよびタイルの全画面表示
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/LoApjhwTse0?rel=0]
 
 
     [!INCLUDE [](includes/4-4b-display-visuals-tiles-fullscreen.md)]
-- title: "タイルの詳細を編集してウィジェットを追加する"
+- title: タイルの詳細を編集してウィジェットを追加する
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/XhqVbHqd5jQ?rel=0]
 
 
     [!INCLUDE [](includes/4-4d-change-tile-details.md)]
-- title: "ダッシュボードに空きスペースを作る"
+- title: ダッシュボードに空きスペースを作る
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/c31gZkyvC54?rel=0]
 
 
     [!INCLUDE [](includes/4-4e-get-more-dashboard-space.md)]
-- title: "Personal Gateway のインストールと構成"
+- title: Personal Gateway のインストールと構成
   durationInMinutes: 11
   content: >
     > [!Video https://www.youtube.com/embed/xjcO5tNvjGs?rel=0]
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "ガイド付き学習のこの「**データの探索**」セクションは、あらゆる種類の異なるデータ型を操作するために準備されています。 次のチュートリアルでは、一般的なデータ ソース (Excel) を使用する方法を学習します。\0"
+- content: ガイド付き学習のこの「**データの探索**」セクションは、あらゆる種類の異なるデータ型を操作するために準備されています。 次のチュートリアルでは、一般的なデータ ソース (Excel) を使用する方法を学習します。
