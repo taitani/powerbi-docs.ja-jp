@@ -33,7 +33,7 @@ Power BI 用 Webtrends コンテンツ パックには、[合計ページ] ビ�
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-webtrends/getdata3.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-webtrends/services.png)
 3. **[Webtrends]** \> **[取得]** の順に選びます。

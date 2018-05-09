@@ -1,14 +1,14 @@
 ---
-title: "Power BI サービスのダッシュボードのタイル"
-description: "Power BI のダッシュボードのタイルの概要 これには、SQL Server Reporting Services (SSRS) から作成されるタイルが含まれます。"
+title: Power BI サービスのダッシュボードのタイル
+description: Power BI のダッシュボードのタイルの概要 これには、SQL Server Reporting Services (SSRS) から作成されるタイルが含まれます。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
 qualitydate: 03/15/2016
 ms.service: powerbi
 ms.devlang: NA

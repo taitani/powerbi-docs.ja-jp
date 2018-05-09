@@ -33,7 +33,7 @@ Power BI 用 [Circuit ID コンテンツ パック](https://app.powerbi.com/getd
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
     ![](media/service-connect-to-circuit-id/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
     ![](media/service-connect-to-circuit-id/services.png)
 3. **[Circuit ID]** \> **[接続]** の順に選択します。

@@ -1,16 +1,16 @@
 ---
-title: "Power BI ダッシュボードに画像を追加する"
-description: "画像を Power BI ダッシュボードに追加する方法に関するドキュメントです。"
+title: Power BI ダッシュボードに画像を追加する
+description: 画像を Power BI ダッシュボードに追加する方法に関するドキュメントです。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

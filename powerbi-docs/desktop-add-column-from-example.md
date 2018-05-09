@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Power BI Desktop で例から列を追加する
 2017 年 4 月リリース以降の **Power BI Desktop** では、**クエリ エディター**を使い、新しい列のサンプル値を指定するだけで、モデルに新しいデータ列を追加できます。 現在選択されているものから、または特定のテーブルのすべての (または選択されている) 列に基づいて入力を提供することで、新しい列の例を作成できます。
@@ -42,7 +42,7 @@ ms.lasthandoff: 04/26/2018
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-この記事では、次の Wikipedia 記事からのデータを使います (リンクになっているので、クリックしてデータを取得し、自分で試してみることができます)。
+Web ページからデータを取得するには、**[ホーム]** タブに移動し、**[データの取得] > [Web]** をクリックして、表示されるダイアログに URL を貼り付けます。 この記事では、Wikipedia の記事からのデータを使います。 次のリンクをクリックして、自分のデータを取得して使用できます。
 
 * [**米国の州と地域の一覧**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 04/26/2018
 ## <a name="the-add-column-from-examples-pane"></a>[例から列を追加する] ペイン
 例から新しい列を追加する選択を行うと、現在のテーブルの列が新しいウィンドウに表示されます (すべてを表示するにはスクロールが必要な場合があります)。 新しい **[列 1]** も右側に表示されます。**Power BI Desktop** は例を基にしてこの列を作成します。 新しい **[列 1]** ヘッダーの下には空白のセルがあります。ここに例を入力すると、Power BI はそれを使って例と一致するようにルールと変換を作成します。
 
-これは **[クエリの設定]** ペインの **[適用したステップ]** であることにも注意してください。 **クエリ エディター**は変換ステップを記録し、それを順番にクエリに適用します。
+これは **[クエリの設定]** ペインの **[適用したステップ]** であることに注意してください。 **クエリ エディター**は変換ステップを記録し、それを順番にクエリに適用します。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
@@ -68,7 +68,7 @@ ms.lasthandoff: 04/26/2018
 
 新しい列に例を入力すると、Power BI は検出された変換に基づいて、作成している列のプレビューを表示します。 たとえば、テーブルの最初の列の *Alabama* という値に対応する「*Alabama*」を最初の行に入力します。 *Enter* キーを押すとすぐに、Power BI はその値に基づいて列を設定します。
 
-しかし、*Massachusetts[E]* を含む行に移動して最後の *[E]* 部分を (必要ないので) 削除すると、Power BI は変更を検出し、例を使って変換を作成します。 上の中央のペインに表示される変換の説明に注意してください。
+しかし、*Massachusetts[E]* を含む行に移動し、最後の *[E]* を削除します (必要ないため)。 Power BI は変更を検出し、例を使って変換を作成します。 上の中央のペインに表示される変換の説明に注意してください。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
@@ -80,7 +80,7 @@ ms.lasthandoff: 04/26/2018
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
-**[例から列を追加する]** では多くの変換を使うことができますが、すべてではありません。 次の一覧は、サポートされて "*いる*" すべての変換を示したものです。
+**[例から列を追加する]** では多くの変換を使うことができますが、すべてではありません。 次の一覧では、サポートされているすべての変換を示します。
 
 * **参照**
   

@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -29,6 +29,17 @@ ms.lasthandoff: 03/28/2018
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](desktop-latest-update.md)  
 * [Power BI サービスの新機能](service-whats-new.md)  
+
+## <a name="april-2018"></a>2018 年 4 月
+
+### <a name="mobile-drill-down-and-drill-up"></a>モバイルでのドリルダウンとドリルアップ
+
+モバイル デバイスでドリルダウンとドリルアップを行って、レポートのビジュアルを調べることができます。 この新しい機能にアクセスするには、レポートのビジュアルを長押ししてツールヒント メニューを開いた後、データを掘り下げるためのドリル ボタンをタップします。 詳細については、[モバイル アプリのドリルアップとドリルダウン](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/)に関するページをご覧ください。
+
+### <a name="persistent-filters"></a>永続的フィルター
+
+レポートのフィルターとスライサーが最近更新され、Web 上の Power BI からPower BI モバイル アプリに自動的に保存されるようになりました。 現在、モバイル アプリで設定したフィルターとスライサーは、Web 上の Power BI に自動的に保存されます。
+
 
 ## <a name="march-2018"></a>2018 年 3 月
 
@@ -381,13 +392,13 @@ Power BI モバイル アプリの通知センターには、自分と共有さ�
 * レポート スライサーで複数のオプションを選択します。
 
 #### <a name="android-mobile-app"></a>Android モバイル アプリ
-* Android フォンで **SQL Server 2016 [Reporting Services モバイル レポート](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)**が使用できるようになりました。
+* Android フォンで **SQL Server 2016 [Reporting Services モバイル レポート](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)** が使用できるようになりました。
 * **レポート ギャラリー** レポート ギャラリーで直接、レポートを開きます。
 * **NTLM 認証**は、SQL Server 2016 Reporting Services のモバイル レポートをサポートします。
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Windows 10 デバイス用の Power BI アプリ
 * **プレゼンテーション モード** Power BI アプリからプレゼンテーション モードで Power BI ダッシュボードとレポートを表示します。
-* Windows 10 デバイスで **SQL Server 2016 [Reporting Services モバイル レポート](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)**が使用できるようになりました。
+* Windows 10 デバイスで **SQL Server 2016 [Reporting Services モバイル レポート](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)** が使用できるようになりました。
 * ダッシュボード タイルにマウスを移動すると、**データ ツールヒント**が表示されます。
 
 ### <a name="march-2016"></a>2016 年 3 月

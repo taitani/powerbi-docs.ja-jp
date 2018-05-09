@@ -1,15 +1,15 @@
 ---
-title: "Azure SQL Database と DirectQuery"
-description: "Azure SQL Database と DirectQuery"
+title: Azure SQL Database と DirectQuery
+description: Azure SQL Database と DirectQuery
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

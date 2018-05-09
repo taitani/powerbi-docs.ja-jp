@@ -33,7 +33,7 @@ Power BI 用 [Xero コンテンツ パック](https://app.powerbi.com/getdata/se
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-xero/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-xero/services.png)
 3. **[Xero]** \> **[取得]** を選択します。

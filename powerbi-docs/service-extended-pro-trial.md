@@ -1,15 +1,15 @@
 ---
-title: "Extended Pro Trial のアクティブ化"
-description: "2017 年 6 月 1 日より、すべての対象ユーザーは Power BI サービスの Extended Pro Trial を選択できます。"
+title: Extended Pro Trial のアクティブ化
+description: 2017 年 6 月 1 日より、すべての対象ユーザーは Power BI サービスの Extended Pro Trial を選択できます。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

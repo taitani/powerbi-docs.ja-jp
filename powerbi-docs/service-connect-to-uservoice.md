@@ -36,7 +36,7 @@ Power BI 用 [UserVoice コンテンツ パック](https://app.powerbi.com/getda
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-uservoice/pbi_getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-uservoice/pbi_getservices.png) 
 3. **[UserVoice]**、**[接続]** の順に選びます。

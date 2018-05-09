@@ -33,13 +33,13 @@ Power BI 用 [Insightly コンテンツ パック](https://app.powerbi.com/getda
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-insightly/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-insightly/services.png)
 3. **[Insightly]** \> **[取得]** の順に選択します。
    
    ![](media/service-connect-to-insightly/insightly.png)
-4. 認証の種類として **[キー]** を選び、Insight API キーを入力し、 **[サインイン]**を選びます。 この値を見つけるには、この後の「[パラメーターの見つけ方](#FindingParams)」をご覧ください。
+4. 認証の種類として **[キー]** を選び、Insight API キーを入力し、 **[サインイン]** を選びます。 この値を見つけるには、この後の「[パラメーターの見つけ方](#FindingParams)」をご覧ください。
    
    ![](media/service-connect-to-insightly/creds.png)
 5. 承諾後、インポート処理が自動的に開始されます。 完了すると、ナビゲーション ウィンドウに、新しいダッシュ ボード、レポート、モデルが表示されます。 インポートされたデータを表示するダッシュボードを選択します。

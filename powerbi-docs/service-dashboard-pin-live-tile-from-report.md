@@ -1,16 +1,16 @@
 ---
-title: "レポート ページ全体を Power BI ダッシュボードにピン留めする方法 "
-description: "ライブ レポート ページ全体をレポートから Power BI ダッシュボードにピン留めする方法についてのドキュメント"
+title: 'レポート ページ全体を Power BI ダッシュボードにピン留めする方法 '
+description: ライブ レポート ページ全体をレポートから Power BI ダッシュボードにピン留めする方法についてのドキュメント
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/09/2018
    * 新しいダッシュボード: 新しいダッシュボードの名前を入力します。
      
      ![ダッシュボードにピン留めダイアログ](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
-4. **[ライブをピン留めする]**を選びます。 右上隅の近くに成功メッセージが表示されたら、ページがダッシュボードにタイルとして追加されたことがわかります。
+4. **[ライブをピン留めする]** を選びます。 右上隅の近くに成功メッセージが表示されたら、ページがダッシュボードにタイルとして追加されたことがわかります。
 
 ## <a name="open-the-dashboard-to-see-the-pinned-live-tile"></a>ダッシュボードを開いてピン留めされたライブ タイルを表示する
 1. ナビゲーション ウィンドウから、新しいライブ タイルを持つダッシュボードを選びます。 ピン留めされたレポート ページの[名前変更、サイズ変更、リンク、移動](service-dashboard-edit-tile.md)などをそこで行うことができます。  

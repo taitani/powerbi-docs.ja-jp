@@ -33,7 +33,7 @@ Power BI 用 [AT Internet Bridge コンテンツ パック](https://app.powerbi.
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-at-internet/pbi_getdata.png) 
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-at-internet/pbi_getservices.png) 
 3. **[AT Internet Bridge]** \> **[取得]** の順に選択します。
@@ -42,7 +42,7 @@ Power BI 用 [AT Internet Bridge コンテンツ パック](https://app.powerbi.
 4. 接続先の AT Internet Web サイト番号を指定します。
    
    ![](media/service-connect-to-at-internet/params.png)
-5. 認証メカニズムとして **[Basic]** を選択し、AT Internet のユーザー名とパスワードを入力して、 **[サインイン]**をクリックします。
+5. 認証メカニズムとして **[Basic]** を選択し、AT Internet のユーザー名とパスワードを入力して、 **[サインイン]** をクリックします。
    
    ![](media/service-connect-to-at-internet/creds.png)
 6. **[接続]** をクリックしてインポート プロセスを開始します。 完了すると、ナビゲーション ウィンドウに、新しいダッシュ ボード、レポート、モデルが表示されます。 インポートされたデータを表示するダッシュボードを選択します。

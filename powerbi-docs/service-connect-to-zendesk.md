@@ -36,7 +36,7 @@ Zendesk コンテンツ パックは、Power BI ダッシュボードと一連�
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-zendesk/pbi_getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-zendesk/pbi_getservices.png) 
 3. **[Zendesk]** \> **[接続]** の順に選びます。

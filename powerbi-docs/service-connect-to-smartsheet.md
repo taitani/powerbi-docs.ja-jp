@@ -36,7 +36,7 @@ Power BI 用 [Smartsheet コンテンツ パック](https://app.powerbi.com/grou
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-smartsheet/pbi_getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-smartsheet/pbi_getservices.png) 
 3. **[Smartsheet] \> [取得]** の順に選びます。

@@ -33,7 +33,7 @@ Power BI 用 [Zuora](https://app.powerbi.com/getdata/services/Zuora) に接続�
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
 
    ![](media/service-connect-to-zuora/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
 
    ![](media/service-connect-to-zuora/services.png)
 3. **[Zuora]** \> **[取得]** の順に選択します。
@@ -42,7 +42,7 @@ Power BI 用 [Zuora](https://app.powerbi.com/getdata/services/Zuora) に接続�
 4. Zuora URL を指定します。 通常は、"https://www.zuora.com" です。[これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
 
    ![](media/service-connect-to-zuora/params.png)
-5. **[認証方式]**で、 **[基本]** を選択し、ユーザー名とパスワード (大文字小文字を区別) を入力し、 **[サインイン]**を選択します。
+5. **[認証方式]** で、 **[基本]** を選択し、ユーザー名とパスワード (大文字小文字を区別) を入力し、 **[サインイン]** を選択します。
 
     ![](media/service-connect-to-zuora/creds.png)
 6. 承諾後、インポート処理が自動的に開始されます。 完了すると、ナビゲーション ウィンドウに、新しいダッシュ ボード、レポート、モデルが表示されます。 インポートされたデータを表示するダッシュボードを選択します。

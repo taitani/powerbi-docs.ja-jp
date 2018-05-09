@@ -1,15 +1,15 @@
 ---
-title: "Power BI サービスから Power BI Desktop にレポートをエクスポートする (プレビュー)"
-description: "Power BI サービスから Power BI Desktop ファイルへのレポートのダウンロード"
+title: Power BI サービスから Power BI Desktop にレポートをエクスポートする (プレビュー)
+description: Power BI サービスから Power BI Desktop ファイルへのレポートのダウンロード
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

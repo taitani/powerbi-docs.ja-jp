@@ -33,7 +33,7 @@ Power BI 用 [Azure Mobile Engagement コンテンツ パック](https://app.pow
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
     ![](media/service-connect-to-azure-mobile/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
     ![](media/service-connect-to-azure-mobile/services.png)
 3. **[Azure Mobile Engagement]** \> **[取得]** を選択します。

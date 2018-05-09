@@ -1,13 +1,13 @@
 ---
-title: "Power BI ダッシュボードとは"
-description: "ダッシュボードは、Power BI サービスの主要な機能です。"
+title: Power BI ダッシュボードとは
+description: ダッシュボードは、Power BI サービスの主要な機能です。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 04/05/2017
 ms.service: powerbi

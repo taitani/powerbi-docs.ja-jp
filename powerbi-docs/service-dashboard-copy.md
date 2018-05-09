@@ -1,16 +1,16 @@
 ---
-title: "Power BI ダッシュボードのコピーを作成する"
-description: "Power BI ダッシュボードを複製する方法 "
+title: Power BI ダッシュボードのコピーを作成する
+description: 'Power BI ダッシュボードを複製する方法 '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

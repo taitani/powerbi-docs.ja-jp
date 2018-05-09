@@ -38,7 +38,7 @@ Power BI 用 [Bing コンテンツ パック](https://app.powerbi.com/groups/me/
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
     ![](media/service-connect-to-bing/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
     ![](media/service-connect-to-bing/services.png)
 3. **[Bing]** > **[取得]** の順に選択します。

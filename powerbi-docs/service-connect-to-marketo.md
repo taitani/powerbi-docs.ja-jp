@@ -33,7 +33,7 @@ Power BI 用の [Marketo コンテンツ パック](https://app.powerbi.com/getd
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-marketo/pbi_getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-marketo/pbi_getservices.png) 
 3. **[Marketo]** \> **[取得]** の順に選択します。
@@ -44,7 +44,7 @@ Power BI 用の [Marketo コンテンツ パック](https://app.powerbi.com/getd
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
    Marketo REST エンドポイントについて詳しくは、[http://developers.marketo.com/documentation/rest/endpoint-url/](http://developers.marketo.com/documentation/rest/endpoint-url/) をお読みください。
-5. **[Basic]** 認証メソッドを使用する場合、クライアント ID を **[ユーザー名]** として入力し、クライアント シークレットを **[パスワード]**として入力します。 クライアント ID およびクライアント シークレットは Marketo または Marketo 管理者から入手できます ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/))。 
+5. **[Basic]** 認証メソッドを使用する場合、クライアント ID を **[ユーザー名]** として入力し、クライアント シークレットを **[パスワード]** として入力します。 クライアント ID およびクライアント シークレットは Marketo または Marketo 管理者から入手できます ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/))。 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

@@ -44,10 +44,10 @@ ms.lasthandoff: 02/24/2018
 2. **[ファイル]** を選択し、Office 365 のアプリ ワークスペースの OneDrive for Business を開きます。
    
    > [!NOTE]
-   > アプリ ワークスペース メニューに **[ファイル]** が表示されない場合は、**[メンバー]** を選択してアプリ ワークスペースの OneDrive for Business を開きます。 そこで、 **[ファイル]**を選びます。 Office 365 で、アプリのグループ ワークスペース ファイルの OneDrive ストレージの場所が作成されます。 この処理には時間がかかる場合があります。 
+   > アプリ ワークスペース メニューに **[ファイル]** が表示されない場合は、**[メンバー]** を選択してアプリ ワークスペースの OneDrive for Business を開きます。 そこで、 **[ファイル]** を選びます。 Office 365 で、アプリのグループ ワークスペース ファイルの OneDrive ストレージの場所が作成されます。 この処理には時間がかかる場合があります。 
    > 
    > 
-3. ここで、アプリ ワークスペースの OneDrive for Business にファイルをアップロードすることができます。 **[アップロード]**を選び、ファイルに移動します。
+3. ここで、アプリ ワークスペースの OneDrive for Business にファイルをアップロードすることができます。 **[アップロード]** を選び、ファイルに移動します。
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 02/24/2018
 2. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
-3. **[ファイル]** ボックスで、 **[取得]**を選択します。
+3. **[ファイル]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
 4. **[OneDrive]** - *[<アプリ ワークスペース名>]* を選択します。
@@ -71,7 +71,7 @@ ms.lasthandoff: 02/24/2018
 5. 必要なファイルを選び、**接続**します。
    
     ここで、[Excel ブックからデータをインポートする](service-get-data-from-files.md)か、[Excel ブック全体に接続する](service-excel-workbook-files.md)かどうかを決定します。
-6. **[インポート]** または **[接続]**を選びます。
+6. **[インポート]** または **[接続]** を選びます。
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
 7. **[インポート]** を選択した場合、**[データセット]** タブにブックが表示されます。 

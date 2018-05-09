@@ -1,15 +1,15 @@
 ---
-title: "Q&A からダッシュボードにタイルをピン留めする方法"
-description: "Q&A 質問ボックスから Power BI ダッシュボードにタイルをピン留めする方法についてのドキュメント"
+title: Q&A からダッシュボードにタイルをピン留めする方法
+description: Q&A 質問ボックスから Power BI ダッシュボードにタイルをピン留めする方法についてのドキュメント
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

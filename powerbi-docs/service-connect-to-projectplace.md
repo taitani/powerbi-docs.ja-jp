@@ -36,7 +36,7 @@ Projectplace by Planview コンテンツ パックを使用すると、Power BI 
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
     ![](media/service-connect-to-projectplace/get.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
     ![](media/service-connect-to-projectplace/services.png)
 3. Power BI ページで **[Projectplace by Planview]** を選択し、**[取得]** を選択します。  

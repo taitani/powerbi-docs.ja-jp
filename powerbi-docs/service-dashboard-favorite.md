@@ -1,16 +1,16 @@
 ---
-title: "Power BI サービスのお気に入り (ダッシュボード、レポート、アプリ)"
-description: "Power BI サービスでダッシュボード、レポート、アプリをお気に入りとして設定する方法についてのドキュメント"
+title: Power BI サービスのお気に入り (ダッシュボード、レポート、アプリ)
+description: Power BI サービスでダッシュボード、レポート、アプリをお気に入りとして設定する方法についてのドキュメント
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: G26dr2PsEpk
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

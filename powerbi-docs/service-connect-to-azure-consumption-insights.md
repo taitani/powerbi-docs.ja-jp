@@ -33,7 +33,7 @@ Power BI コンテンツ パックを使用すると Power BI で Microsoft Azur
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
     ![](media/service-connect-to-azure-consumption-insights/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-azure-consumption-insights/services.png)
 3. **[Microsoft Azure Consumption Insights]**、**[取得]** の順に選択します。 

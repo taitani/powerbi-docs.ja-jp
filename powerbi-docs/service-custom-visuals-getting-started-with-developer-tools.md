@@ -1,15 +1,15 @@
 ---
-title: "開発者ツールを使ってカスタム ビジュアルを作成する"
-description: "カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。"
+title: 開発者ツールを使ってカスタム ビジュアルを作成する
+description: カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -110,10 +110,10 @@ ms.lasthandoff: 03/09/2018
    
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. **[証明書をすべて次のストアに配置する]** を選択し、**[参照]** を選択します。
-4. **[信頼されたルート証明機関]** を選択し、**[OK]** を選択します。 **[次へ]**を選びます。
+4. **[信頼されたルート証明機関]** を選択し、**[OK]** を選択します。 **[次へ]** を選びます。
    
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
-5. **[完了]**を選びます。
+5. **[完了]** を選びます。
    
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. セキュリティの警告ダイアログ ボックスで、**[はい]** を選択します。

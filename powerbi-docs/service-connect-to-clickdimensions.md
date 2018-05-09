@@ -33,7 +33,7 @@ Power BI 用 [ClickDimensions コンテンツ パック](https://app.powerbi.com
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-clickdimensions/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-clickdimensions/services.png)
 3. **[ClickDimensions]** \> **[取得]** の順に選択します。

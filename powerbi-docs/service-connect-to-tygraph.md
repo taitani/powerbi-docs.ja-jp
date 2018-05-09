@@ -33,7 +33,7 @@ Power BI コンテンツ パックを使用して、Power BI 内の tyGraph デ�
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-tygraph/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-tygraph/services.png)
 3. **[tyGraph]** \> **[取得]** の順に選択します。

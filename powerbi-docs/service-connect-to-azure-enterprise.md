@@ -33,7 +33,7 @@ Power BI 用 [Microsoft Azure Enterprise コンテンツ パック](https://app.
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
     ![](media/service-connect-to-azure-enterprise/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-azure-enterprise/services.png)
 3. **[Microsoft Azure Enterprise]** \> **[取得]** の順に選択します。

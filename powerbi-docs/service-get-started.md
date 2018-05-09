@@ -1,16 +1,16 @@
 ---
-title: "Power BI サービスの概要"
-description: "Power BI サービスの概要"
+title: Power BI サービスの概要
+description: Power BI サービスの概要
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: adamw
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: B2vd4MQrz4M
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -59,7 +59,7 @@ CSV ファイルからデータを取得する例を次に示します。 この
 2. Power BI がブラウザーで開きます。 左ナビゲーション バーの下部にある **[データの取得]** を選びます。
    
    ![データの取得](media/service-get-started/getdata3.png)
-3. **[ファイル]**を選択します。 
+3. **[ファイル]** を選択します。 
    
    ![ファイルの取得](media/service-get-started/gs1.png)
 4. コンピューター上のファイルに移動し、**[開く]** を選びます。 OneDrive for Business に保存してある場合は、そのオプションを選びます。 ローカルに保存してある場合は、**[ローカル ファイル]** を選びます。 

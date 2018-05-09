@@ -33,7 +33,7 @@ Power BI コンテンツ パックを使用して、Power BI 内の Stripe デ�
 1. 左側のナビゲーション ウィンドウの下部にある [データの取得] を選択します。  
    
     ![](media/service-connect-to-stripe/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。  
+2. **[サービス]** ボックスで、 **[取得]** を選択します。  
    
     ![](media/service-connect-to-stripe/services.png)  
 3. **[Stripe]** &gt; **[取得]** を選びます。  

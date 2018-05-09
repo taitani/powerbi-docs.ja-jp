@@ -36,13 +36,13 @@ Power BI を使用して、[Application Insights](https://azure.microsoft.com/do
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
     ![[データの取得] ボタン](media/service-connect-to-application-insights/pbi_getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
     ![[サービスの取得] ボタン](media/service-connect-to-application-insights/pbi_getservices.png)
 3. **[Application Insights]** > **[取得]** の順に選択します。
    
     ![Application Insights コンテンツ パック](media/service-connect-to-application-insights/appinsights.png)
-4. **[Application Insights リソース名]**、 **[リソース グループ]**、 **[サブスクリプション ID]**など、接続するアプリケーションの詳細を入力します。 詳細については、後の「[Application Insights のパラメーター](#FindingAppInsightsParams)」を参照してください。
+4. **[Application Insights リソース名]**、 **[リソース グループ]**、 **[サブスクリプション ID]** など、接続するアプリケーションの詳細を入力します。 詳細については、後の「[Application Insights のパラメーター](#FindingAppInsightsParams)」を参照してください。
    
     ![Application Insights 接続ダイアログ ボックス](media/service-connect-to-application-insights/pbi_contpkappinsitconnectndialog.png)    
 5. **[サイン イン]** を選択し、画面の指示に従って接続します。

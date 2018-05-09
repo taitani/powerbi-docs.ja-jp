@@ -1,15 +1,15 @@
 ---
-title: "サード パーティのサービス: Power BI Desktop の Facebook コネクタ"
-description: "サード パーティのサービス: Power BI Desktop の Facebook コネクタ"
+title: 'サード パーティのサービス: Power BI Desktop の Facebook コネクタ'
+description: 'サード パーティのサービス: Power BI Desktop の Facebook コネクタ'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

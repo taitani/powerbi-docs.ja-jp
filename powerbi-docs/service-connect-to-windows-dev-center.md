@@ -33,7 +33,7 @@ Power BI 用 [Windows デベロッパー センター コンテンツ パック]
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-windows-dev-center/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-windows-dev-center/services.png)
 3. **[Windows デベロッパー センター]** \> **[接続]** を選びます。
@@ -42,7 +42,7 @@ Power BI 用 [Windows デベロッパー センター コンテンツ パック]
 4. 所有するアプリのアプリケーション ID を入力し、[次へ] をクリックします。 [これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
    
    ![](media/service-connect-to-windows-dev-center/params.png)
-5. **[認証方法]** として**[oAuth2]** \> **[サインイン]** の順に選びます。 Windows デベロッパー センター アカウントに関連付けられている Azure Active Directory 資格情報の入力を求められたら、入力します (詳細については、「[システム要件](#Requirements)」をご参照ください)。
+5. **[認証方法]** として **[oAuth2]** \> **[サインイン]** の順に選びます。 Windows デベロッパー センター アカウントに関連付けられている Azure Active Directory 資格情報の入力を求められたら、入力します (詳細については、「[システム要件](#Requirements)」をご参照ください)。
    
     ![](media/service-connect-to-windows-dev-center/creds.png)
    

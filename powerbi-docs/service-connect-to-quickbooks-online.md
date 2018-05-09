@@ -36,13 +36,13 @@ Power BI 用 [QuickBooks Online コンテンツ パック](https://dxt.powerbi.c
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-quickbooks-online/pbi_getdata.png) 
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-quickbooks-online/pbi_getservices.png) 
 3. **[QuickBooks Online]** を選択し、**[取得]** を選択します。
    
    ![](media/service-connect-to-quickbooks-online/qbo.png)
-4. 認証の方式として **[oAuth2]** を選択してから、 **[サインイン]**を選びます。 
+4. 認証の方式として **[oAuth2]** を選択してから、 **[サインイン]** を選びます。 
 5. プロンプトが表示されたら、QuickBooks Online 資格情報を入力し、QuickBooks Online 認証プロセスに従います。 ブラウザーで既に QuickBooks Online にサインインした場合には、資格情報を求めるプロンプトが表示されないことがあります。
    >[!NOTE]
    >QuickBooks Online アカウントの管理者資格情報が必要です。
@@ -70,7 +70,7 @@ Power BI 用 [QuickBooks Online コンテンツ パック](https://dxt.powerbi.c
 ## <a name="troubleshooting"></a>トラブルシューティング
 **「問題が発生しました。」**
 
-**[承認]**を選択した後に、次のメッセージが表示されることがあります。
+**[承認]** を選択した後に、次のメッセージが表示されることがあります。
 
 「 問題が発生しました。」 このウィンドウを閉じて、もう一度やり直してください。
 

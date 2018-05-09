@@ -1,15 +1,15 @@
 ---
-title: "Power BI での視覚化の種類"
-description: "Power BI での視覚化の種類"
+title: Power BI での視覚化の種類
+description: Power BI での視覚化の種類
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -61,7 +61,7 @@ ms.lasthandoff: 02/24/2018
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->複合グラフは、縦棒グラフと折れ線グラフを組み合わせたものです。 *[折れ線グラフおよび積み上げ縦棒グラフ]* と *[折れ線グラフおよび集合縦棒グラフ]*から選びます。
+>複合グラフは、縦棒グラフと折れ線グラフを組み合わせたものです。 *[折れ線グラフおよび積み上げ縦棒グラフ]* と *[折れ線グラフおよび集合縦棒グラフ]* から選びます。
 
 詳しくは、「[チュートリアル: Power BI での複合グラフ](power-bi-visualization-combo-chart.md)」をご覧ください。
 

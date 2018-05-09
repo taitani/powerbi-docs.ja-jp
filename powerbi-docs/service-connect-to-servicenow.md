@@ -33,7 +33,7 @@ ServiceNow からは、ビジネスをよりよいものにするため、ビジ
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-servicenow/pbi_getdata.png) 
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-servicenow/pbi_getservices.png) 
 3. **[ServiceNow Incidents]** \> **[取得]** の順に選択します。

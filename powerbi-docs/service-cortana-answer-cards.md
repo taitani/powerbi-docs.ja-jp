@@ -1,15 +1,15 @@
 ---
-title: "Cortana 用にカスタムの Power BI 回答ページを作成する"
-description: "Power BI で Cortana 用のカスタム回答ページを作成する"
+title: Cortana 用にカスタムの Power BI 回答ページを作成する
+description: Power BI で Cortana 用のカスタム回答ページを作成する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: yaron
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

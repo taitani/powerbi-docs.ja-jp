@@ -36,14 +36,14 @@ Planview Enterprise コンテンツ パックを使用すると、Power BI で�
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
     ![](media/service-connect-to-planview/get.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
     ![](media/service-connect-to-planview/services.png)
 3. Power BI ページで **[Planview Enterprise]** を選択し、**[取得]** を選択します。  
     ![](media/service-connect-to-planview/planview.png)
 4. [Planview Enterprise URL] テキスト ボックスに、使用する Planview Enterprise サーバーの URL を入力します。 [Planview Enterprise データベース] テキスト ボックスに Planview Enterprise データベースの名前を入力して、[次へ] をクリックします。  
     ![](media/service-connect-to-planview/params.png)
-5. [認証方法] ボックスの一覧で、 **[基本]** を選択します。 アカウントの **[ユーザー名]** と **[パスワード]** を入力し、 **[サインイン]**を選択します。  
+5. [認証方法] ボックスの一覧で、 **[基本]** を選択します。 アカウントの **[ユーザー名]** と **[パスワード]** を入力し、 **[サインイン]** を選択します。  
    ![](media/service-connect-to-planview/creds.png)
 6. 左側のウィンドウで、ダッシュボードの一覧から Planview Enterprise を選択します。  
      ダッシュボードに Planview Enterprise のデータがインポートされます。 データの読み込みには時間がかかる場合があります。  

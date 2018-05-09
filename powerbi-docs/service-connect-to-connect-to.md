@@ -36,7 +36,7 @@ Power BI コンテンツ パックを使用して、Power BI 内の comScore Dig
 1. 左側のナビゲーション ウィンドウの下部にある [データの取得] を選択します。
    
    ![](media/service-connect-to-connect-to/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-connect-to/services.png)
 3. **[comScore Digital Analytix]** \> **[取得]** の順に選択します。

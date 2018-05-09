@@ -1,31 +1,57 @@
 ---
-title: "Power BI ウェビナー"
-description: "Power BI ウェビナー"
+title: Power BI ウェビナー
+description: Power BI ウェビナー
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/26/2018
 ms.author: maikelson
-ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
 今後のウェビナーに登録するか、記録されたオンデマンド セッションをご覧ください。
+
+## <a name="upcoming-webinars"></a>今後のウェビナー
+
+登録して Power BI の専門家の話を聞き、ライブ Q&A セッションに参加してください。
+
+**[Power BI 導入フレームワーク ウェビナー シリーズ](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>作成者: Manu Kanwarpal と Paul Henwood
+<br>*2018 年 3 月、4 月、5 月午前 9:00 PST、午後 12:00 EST*
+
+組織に有効な Power BI のロールアウトを計画し、効果的なサービスとしてのソフトウェア (SaaS) の意味を探ります。 これは、組織の Power BI の潜在力を解放する 5 部構成シリーズの最初のものです。
+
+[5 月 1 日に視聴できるように登録する - 第 5 部 - ロールアウト: Power BI の上手なロールアウト](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[登録して今すぐ見る - 第 4 部 - セキュリティ: Power BI を使ってデータをセキュリティで保護する](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[登録して今すぐ見る - 第 3 部 - サービス管理: Power BI サービス管理インサイト](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[登録して今すぐ見る - 第 2 部 - ガバナンス: Power BI 使用量の管理](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[登録して今すぐ見る - 第 1 部 - 導入: データドリブン カルチャの導入](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+
+**Power BI Embedded を 20 分で学習する**
+<br>講師: Megan Asarrane、Colin Murphy
+<br>*2018 年 5 月 23 日、午前 10 時 (太平洋標準時)、午後 1 時 (東部標準時)*
+
+このウェビナーでは、Power BI Embedded の概要を説明します。 このウェビナーを最後まで見ると、ユーザーは Power BI Embedded の概要、製品を使い始める次の手順、ヘルプ/リソースの場所を理解することができます。
+
+[5 月 23 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
+>[Power BI コミュニティからの今後のウェビナーに参加する](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
 ## <a name="featured-webinars"></a>おすすめのウェビナー
 
@@ -35,34 +61,23 @@ ms.lasthandoff: 03/02/2018
 <br>作成者: Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**卓越した説得力 - 視覚デザイン向上のための 7 つのヒント**
-<br>作成者: Miranda Li
-<br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
+**PowerBI.Tips の所有者による Power BI のテクニック、ヒント、およびツール**
+<br>作成者: Mike Carlo と Seth Bauer
+<br>[今すぐ見る](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **20 分で学ぶ Power BI ダッシュボードの使い方**
 <br>作成者: Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**卓越した説得力 - 視覚デザイン向上のためのヒント**
+<br>作成者: Miranda Li
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
 **組み合わせて、もっと便利に: Excel ユーザーが Power BI を使用することで得られる 5 つのメリット**
 <br>作成者: Carlos Otero/Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 >[コミュニティの専門家による Power BI オンデマンド ウェビナーを参照する](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-## <a name="upcoming-webinars"></a>今後のウェビナー
-
-登録して Power BI の専門家の話を聞き、ライブ Q&A セッションに参加してください。
-
-**Power BI 導入フレームワーク ウェビナー シリーズ: パート 1 — 導入: データ ドリブン カルチャを導入する**
-<br>作成者: Manu Kanwarpal
-<br>*3 月 8 日午前 9:00 PST、午後 0:00 EST*
-
-組織の考え方をデータ ドリブン カルチャにシフトし、Microsoft から Power BI の導入フレームワークを提供するウェビナー シリーズに登録します。 セルフサービス ビジネス インテリジェンス (BI) の導入は困難で、ツールの入手はその手始めに過ぎません。 導入の成功には、人、プロセス、テクノロジの変革が必要です。
-このウェビナーは、組織の Power BI の潜在力を解放する 5 部構成シリーズの最初のものです。
-
-[3 月 8 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
-
->[Power BI コミュニティからの今後のウェビナーに参加する](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
 ## <a name="on-demand-webinars"></a>オンデマンド ウェビナー
 
@@ -96,27 +111,51 @@ ms.lasthandoff: 03/02/2018
 <br>作成者: Patrick McGarry、Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
-### <a name="advanced-topics"></a>高度なトピック ###
+### <a name="community"></a>コミュニティ ###
 
-**Office 365 金融専門家ウェビナー シリーズ - エピソード 2: 自動で繰り返すレポートとセルフサービス分析の有効化**
-<br>作成者: Mark Traverso、Miguel Martinez
-<br>[登録して今すぐ見る](https://aka.ms/Office365FinanceProsPBI)
+**データと Power BI でのストーリーテリング**
+<br>作成者: Tristan Malherbe
+<br>[今すぐ見る](https://www.youtube.com/watch?v=egk0suekwHo)
 
-**組織のセキュリティを強化する適切なデータ ガバナンス戦略の実装方法**
-<br>作成者: Ajay Anandan
-<br>[登録して今すぐ見る](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+**Power BI の実践的な DAX**
+<br>作成者: Phil Seamark
+<br>[今すぐ見る](https://www.youtube.com/watch?v=1fGfqzS37qs)
+
+**Power BI の埋め込みによる開発 – 2018 年 4 月更新**
+<br>作成者: Ted Pattison
+<br>[今すぐ見る](https://www.youtube.com/watch?v=swnGlrRy588)
 
 **Power BI のセキュリティの詳細**
 <br>作成者: Kasper de Jonge
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**Power BI Premium を使用してより迅速に最新の BI を導入する**
-<br>作成者: Sirui Sun/Miguel Martinez
-<br>[登録して今すぐ見る](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
 **パートナーに聞く: Power BI 用カスタム ビジュアルの開発**
 <br>作成者: Ted Pattison
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
+
+### <a name="advanced-topics"></a>高度なトピック ###
+
+**Excel と Power BI を使用した高度な分析**
+<br>作成者: Nagasaikiran Kambhampati と Miguel Martinez
+<br>[登録して見る](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
+<br>[Advanced Analytics Starter Kit をダウンロードして使用する](https://aka.ms/pbiaawebinar)
+
+**Office 365 金融専門家ウェビナー シリーズ**
+<br>講師: Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky、Miguel Martinez
+<br>使い方、便利な機能、ベスト プラクティスを紹介します。Office 365 を使用する日常業務がさらに効率的になります。
+<br>[登録して今すぐ見る](https://aka.ms/Office365FinanceProsPBI)
+
+**フル スタック Power BI のジェダイになる – Star Wars データを使用した Power BI の最も高度な機能のチュートリアル**
+<br>作成者: Gil Raviv
+<br>[今すぐ見る](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
+
+**組織のセキュリティを強化する適切なデータ ガバナンス戦略の実装方法**
+<br>作成者: Ajay Anandan
+<br>[登録して今すぐ見る](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+
+**Power BI Premium を使用してより迅速に最新の BI を導入する**
+<br>作成者: Sirui Sun/Miguel Martinez
+<br>[登録して今すぐ見る](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
 
 **Power BI Report Server の新機能とおすすめの機能**
 <br>作成者: Riccardo Muti/Chris Finlan/Chinmay Joshi

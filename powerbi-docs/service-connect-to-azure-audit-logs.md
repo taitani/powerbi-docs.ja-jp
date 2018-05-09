@@ -33,7 +33,7 @@ Azure 監査ログのコンテンツ パックを利用して、監査ログに�
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。  
    
     ![](media/service-connect-to-azure-audit-logs/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。  
+2. **[サービス]** ボックスで、 **[取得]** を選択します。  
    
     ![](media/service-connect-to-azure-audit-logs/services.png) 
 3. **[Azure 監査ログ]** > **[取得]** の順に選択します。  
@@ -42,7 +42,7 @@ Azure 監査ログのコンテンツ パックを利用して、監査ログに�
 4. プロンプトが表示されたら、 **Azure サブスクリプション ID**を入力します。 [サブスクリプション ID](#FindingParams) を確認する方法について詳しくは、以下をご覧ください。   
    
     ![](media/service-connect-to-azure-audit-logs/parameters.png)
-5. **[認証方法]** として**[oAuth2]** を選択し、**[サイン イン]** をクリックします。
+5. **[認証方法]** として **[oAuth2]** を選択し、**[サイン イン]** をクリックします。
    
     ![](media/service-connect-to-azure-audit-logs/creds.png)
 6. アカウントの資格情報を入力して、サインイン プロセスを終了します。

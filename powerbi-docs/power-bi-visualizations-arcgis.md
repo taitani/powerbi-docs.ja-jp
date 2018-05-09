@@ -1,14 +1,14 @@
 ---
-title: "他のユーザーから共有された ArcGIS マップとの対話"
-description: "読み取りビューで ArcGis マップを使用します "
+title: 他のユーザーから共有された ArcGIS マップとの対話
+description: '読み取りビューで ArcGis マップを使用します '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 tags: power bi, service, desktop, mobile
-featuredvideoid: 
+featuredvideoid: ''
 qualityfocus: monitoring
 qualitydate: 06/23/2017
 ms.service: powerbi

@@ -33,16 +33,16 @@ Power BI 用 Microsoft Dynamics AX の[リテール チャネル実績コンテ�
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/services.png)
-3. Dynamics AX コンテンツ パックのいずれかを選択して、**[取得]**を選択します。
+3. Dynamics AX コンテンツ パックのいずれかを選択して、**[取得]** を選択します。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/mdax.png)
 4. Dynamics AX 7 環境の URL を指定します。 [これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/params.png)
-5. **[認証方法]** として**[oAuth2]** を選択し、**[サイン イン]** をクリックします。 メッセージが表示されたら、Dynamics AX の資格情報を入力します。
+5. **[認証方法]** として **[oAuth2]** を選択し、**[サイン イン]** をクリックします。 メッセージが表示されたら、Dynamics AX の資格情報を入力します。
    
     ![](media/service-connect-to-microsoft-dynamics-ax/creds.png)
    

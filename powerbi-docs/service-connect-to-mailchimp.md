@@ -33,7 +33,7 @@ Power BI 用 [MailChimp コンテンツ パック](https://app.powerbi.com/getda
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
     ![](media/service-connect-to-mailchimp/pbi_getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-mailchimp/pbi_getservices.png)
 3. **[MailChimp]** \> **[取得]** の順に選択します。

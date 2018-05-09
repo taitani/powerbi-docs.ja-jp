@@ -1,16 +1,16 @@
 ---
-title: "レポートから Power BI ダッシュボードにタイルをピン留め"
-description: "レポートから Power BI ダッシュボードにタイルをピン留めします。"
+title: レポートから Power BI ダッシュボードにタイルをピン留め
+description: レポートから Power BI ダッシュボードにタイルをピン留めします。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lJKgWnvl6bQ
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
