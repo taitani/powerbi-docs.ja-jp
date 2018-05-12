@@ -1,13 +1,13 @@
 ---
-title: "Power BI Desktop での列による並べ替え"
-description: "Power BI Desktop での列による並べ替え"
+title: Power BI Desktop での列による並べ替え
+description: Power BI Desktop での列による並べ替え
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 05/01/2017
 ms.service: powerbi
@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: cb23034c207bd272f716e8074bb3702ea30e893a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: acd621a1763e29fc66a017294cc4d63008900a4f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop での列による並べ替え
 **Power BI Desktop** と **Power BI サービス**では、さまざまなデータ フィールドを並べ替えることで視覚効果を変更できます。 並べ替えで視覚効果を変更することで、伝えたい情報を強調できます。伝えたい傾向 (あるいは、重要な点) を視覚的に示すことができます。
@@ -45,7 +45,7 @@ ms.lasthandoff: 02/24/2018
 省略記号を選ぶと表示されるメニューには、注目に値するいくつかの項目があります。
 
 * **生活費**の横に黄色のバーがあり、**生活費**の項目は太字で表示されています。
-* **[並べ替え条件]**という語の横に、**Z/A** (A の上に Z があります) と下向きの矢印が表示されている小さなアイコンがあります。
+* **[並べ替え条件]** という語の横に、**Z/A** (A の上に Z があります) と下向きの矢印が表示されている小さなアイコンがあります。
 
 次の 2 つのセクションでは、それらの各々について個別に紹介します。
 
