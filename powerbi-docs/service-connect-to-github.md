@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb37cb0551a613cf85d5b5dd2608b018a3a05250
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 83eb0f534a7aa98746e04a63d5474138159393f8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI で GitHub に接続する
 Power BI 用の GitHub コンテンツ パックでは、GitHub リポジトリに関する情報を入手します。これには、投稿、問題、プル要求、アクティブなユーザーなどに関するデータが含まれます。
@@ -36,7 +36,7 @@ Power BI 用の GitHub コンテンツ パックでは、GitHub リポジトリ�
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-github/pbi_getdata.png) 
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-github/pbi_get_services.png) 
 3. **[GitHub]** \> **[取得]** の順に選択します。
@@ -46,7 +46,7 @@ Power BI 用の GitHub コンテンツ パックでは、GitHub リポジトリ�
    
    ![](media/service-connect-to-github/pbi_github1.png)
 5. GitHub の資格情報を入力します (ブラウザーで既にサインインしている場合、この手順は省略される可能性があります)。 
-6. **[認証方法]** として**[oAuth2]** を選択し、**[サイン イン]** をクリックします。 
+6. **[認証方法]** として **[oAuth2]** を選択し、**[サイン イン]** をクリックします。 
 7. Github の認証画面に従ってください。 GitHub データへのアクセス許可を GitHub for Power BI コンテンツ パックに付与します。
    
    ![](media/service-connect-to-github/github_authorize.png)
@@ -100,10 +100,9 @@ GitHub 自体のリポジトリを見ることで、所有者とリポジトリ�
 必要に応じて、GitHub の資格情報を確認することができます。  
 
 1. 別のブラウザー ウィンドウで、GitHub の web サイトに移動して GitHub にログインします。 GitHub サイトの右上隅でログイン状態を確認できます。    
-2. GitHub で、Power BI でアクセスしようとしているリポジトリの URL に移動します。 例: https://github.com/dotnet/corefx。  
+2. GitHub で、Power BI でアクセスしようとしているリポジトリの URL に移動します。 たとえば、https://github.com/dotnet/corefx です。  
 3. Power BI に戻って GitHub に接続します。 [GitHub の構成] ダイアログ ボックスで、その同じリポジトリの名前と所有者を使用します。  
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI の概要](service-get-started.md)
 * [データの取得](service-get-data.md)
-
