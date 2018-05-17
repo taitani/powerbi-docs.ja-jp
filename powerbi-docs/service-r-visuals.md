@@ -1,28 +1,28 @@
 ---
-title: "Power BI で R スクリプトを使用して高度な分析とビジュアルを作成する"
-description: "Power BI で R スクリプトを使用して高度な分析と高度なビジュアルを作成する"
+title: Power BI で R スクリプトを使用して高度な分析とビジュアルを作成する
+description: Power BI で R スクリプトを使用して高度な分析と高度なビジュアルを作成する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e921da07809757de02a9b0d00065a0946edb7e51
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0eb100a37a6267530d00b8293be63510c02bb4d9
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI サービスで R ビジュアルを作成する
 Power BI サービスでは、R スクリプトで作成したビジュアルの表示と操作がサポートされています。 R スクリプトで作成したビジュアルは一般的に *R ビジュアル*と呼ばれ、R の豊富な分析と視覚化の機能を使用した高度なデータ整形と予測などの分析に使用できます。

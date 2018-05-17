@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/25/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 83726531a3ef82f59efb6e12c0ea0dbcd4bf5d7c
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: bc6407b83a11fe3d609eedb7324cf93c62eab951
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 **Power BI Desktop** を利用すれば、データ ソースに接続するとき、常にデータのコピーを **Power BI Desktop** にインポートできます。 データ ソースによっては、代替手法を利用できます。**DirectQuery** でデータ ソースに直接接続する方法です。
@@ -76,7 +76,7 @@ ms.lasthandoff: 03/22/2018
       The resultset of a query to external data source has exceeded
       the maximum allowed size of '1000000' rows.
   
-  このような状況は、基数が非常に高い列を含む簡単なグラフで集計オプションが *[Don’t Summarize]* (集計しない) に設定されている場合に発生します。 ビジュアルの場合、列の基数は 100 万未満にする必要があります。あるいは、適切なフィルターを適用する必要があります。
+  このような状況は、カーディナリティが非常に高い列を含む簡単なグラフで集計オプションが *[Don’t Summarize]* (集計しない) に設定されている場合に発生します。 ビジュアルの場合、列のカーディナリティは 100 万未満にする必要があります。あるいは、適切なフィルターを適用する必要があります。
 * **セキュリティ** - 公開されたレポートを利用するユーザーは全員、Power BI サービスに公開した後に入力された資格情報を利用し、バックエンド データ ソースに接続します。 これはインポートされたデータと同じ状況になります。バックエンド ソースに定義されているセキュリティ ルールに関係なく、すべてのユーザーに同じデータが表示されます。 ユーザーごとのセキュリティを希望のお客様は、DirectQuery ソースを実装し、RLS を使用する必要があります。 [RLS についての詳細情報](service-admin-rls.md)。
 * **サポートされている機能** - **Power BI Desktop** の一部の機能は **DirectQuery** モードでサポートされていないか、制限があります。 また、Power BI サービスには、**DirectQuery** 使用時のデータセットで利用できない機能もあります (*クイック分析情報*など)。 そのため、**DirectQuery** を利用するかどうかを判断するとき、以上のような **DirectQuery** 利用時の機能制約を考慮する必要があります。   
 
@@ -85,11 +85,11 @@ ms.lasthandoff: 03/22/2018
 
 使用されるデータ ソースが**オンプレミス データ ゲートウェイ**を必要としていない場合 (**Azure SQL Database**、**Azure SQL Data Warehouse**、または **Redshift**)、公開したレポートを Power BI サービスに表示する前に資格情報を入力する必要があります。
 
-資格情報を入力するには、Power BI の **[設定]** 歯車アイコンを選択し、 **[設定]**を選択します。
+資格情報を入力するには、Power BI の **[設定]** 歯車アイコンを選択し、 **[設定]** を選択します。
 
 ![](media/desktop-use-directquery/directquery_3.png)
 
-Power BI に **[設定]** ウィンドウが表示されます。 そこから、 **[データセット]** タブを選択し、 **DirectQuery**を使用するデータセットを選択し、 **[資格情報を編集]**を選択します。
+Power BI に **[設定]** ウィンドウが表示されます。 そこから、 **[データセット]** タブを選択し、 **DirectQuery**を使用するデータセットを選択し、 **[資格情報を編集]** を選択します。
 
 ![](media/desktop-use-directquery/directquery_4.png)
 

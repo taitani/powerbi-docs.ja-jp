@@ -1,58 +1,49 @@
 ---
-title: "Power BI サービス内の移動"
-description: "Power BI のナビゲーション環境の概要です"
+title: Power BI サービス内の移動
+description: Power BI のナビゲーション環境の概要です
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
 featuredvideoid: G26dr2PsEpk
-tags: 
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: quickstart
+ms.component: powerbi-service
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 05/07/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 58b1125a894ff064942e61534db990587bdf9f2a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="getting-around-in-power-bi-service"></a>Power BI サービス内の移動
-## <a name="the-left-navigation-pane"></a>左側のナビゲーション ウィンドウ
+# <a name="quickstart---getting-around-in-power-bi-service"></a>クイック スタート - Power BI サービス内の移動
 
-![左ナビゲーション ウィンドウ](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+Power BI の基本を理解したので、**Power BI サービス**の操作について説明します。 前に説明したように、ユーザーによっては、**Power BI Desktop** だけを使って、データを組み合わせたり、他のユーザーのためのレポートを作成したりすることがあります。 一方で、Power BI サービスだけを使って、他のユーザーが作成したコンテンツを表示および操作したり (エクスペリエンスの**消費**)、データを取得して独自のレポートやダッシュボードを作成する (エクスペリエンスの**作成**) ユーザーもいます。 このクイック スタートでは、サンプル データをインポートし、そのデータを使って Power BI サービスの操作方法を説明します。 
+ 
+## <a name="prerequisites"></a>前提条件
 
-**クイック リファレンス ガイド**
+- Power BI にサインアップしていない場合は、[無料の試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
 
-| 操作 | 新しい (現在) のパス |
-| --- | --- | --- |
-| ダッシュボードまたはレポートをお気に入りに追加する |ワークスペースからダッシュボードまたはレポートに移動し、星型アイコンを選んで黄色にする |
-| アプリをお気に入りに追加する | 左側のナビゲーション ウィンドウから **[アプリ]** を選び、アプリ名の隣にある星を選ぶ
-| お気に入りの一覧を表示する |左側のナビゲーションで **[お気に入り]** を選ぶ |
-| 最近表示したダッシュボードとレポートの一覧を表示する |左側のナビゲーションで **[最近]** を選ぶ |
-| 他のユーザーから共有を受けているダッシュボードの一覧を表示する |左側のナビゲーションで **[自分と共有]** を選ぶ |
-| ダッシュボードの共有 |ダッシュボードを開いて **[共有]** を選ぶか、アプリを作成して発行する |
-| ダッシュボードの削除 |[マイ ワークスペース] > [ダッシュボード] > ごみ箱アイコン |
-| レポートの削除 |[マイ ワークスペース] > [レポート] > ごみ箱アイコン |
-| データセットの削除 |[マイ ワークスペース] > [データセット] > ... > [削除] |
-| ダッシュボードを開く |[ワークスペース] > [ダッシュボード] > ダッシュボードの名前を選ぶ |
-| レポートを開く |[ワークスペース] > [レポート] > レポートの名前を選ぶ |
-| データセットを開く |[ワークスペース] > [データセット] > データセットの名前を選ぶ |
-| ダッシュボードの作成 |上部ナビゲーション バーから [作成] > [ダッシュボード] を選ぶ |
-| レポートの作成 |上部ナビゲーション バーから [作成] > [レポート] を選ぶ |
-| データセットの作成 |上部ナビゲーション バーから [作成] > [データセット] を選ぶ |
-| アプリの作成 |[ワークスペース] > [アプリのワークスペースの作成] |
-| 自分が所有するすべてのダッシュボード、レポート、データセットの一覧を表示する |[ワークスペース] > [マイ ワークスペース] |
+- [Power BI サービスの基本概念](service-basic-concepts.md)についてお読みください
 
-## <a name="common-tasks"></a>一般的なタスク
+## <a name="open-power-bi-service-and-get-some-data"></a>Power BI サービスを開いてデータを取得する
+この Power BI サービスのツアーに使用するサンプル データを取得します。 調査用にあらゆる種類のサンプル データが提供されていますが、今回は小売り店に関するデータを使います。    
+1. app.powerbi.com を開き、**[サンプル]** のリンクを選びます。 
+
+    ![Power BI サービスを初めて開く](media/service-the-new-power-bi-experience/power-bi-new-user.png)
+
+2. **[小売りの分析のサンプル] > [接続]** を選びます。
+
+    ![サンプルを選ぶ](media/service-the-new-power-bi-experience/power-bi-retail-sample.png)
+
+    Power BI サービスがサンプルをインポートしてダッシュボードを表示します。 ダッシュボードは、Power BI サービスが Power BI Desktop と異なる点です。 サンプルにはレポートとデータセットも含まれます。これには後でアクセスします。
+
+    ![](media/service-the-new-power-bi-experience/power-bi-dashboard.png)
 
 Amanda が Power BI サービスのナビゲーション操作を説明するツアーのビデオをご覧ください。  その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
 
@@ -60,16 +51,28 @@ Amanda が Power BI サービスのナビゲーション操作を説明するツ
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>コンテンツの表示 (ダッシュボード、レポート、ワークスペース、データセット、ワークスペース、アプリ)
-最初に、基本コンテンツ (ダッシュボード、レポート、データセット、ブック) がどのようにまとめられるか確認してみましょう。 これ以前は、すべてのコンテンツは左側のナビゲーション ウィンドウに一覧表示されていました。 そのオプションは現在でもありますが、既定ではワークスペースのコンテキストでコンテンツの種類が表示されます。 左側のナビゲーション ウィンドウでワークスペースを選ぶと、関連するコンテンツのタブ (ダッシュボード、レポート、ブック、データセット) が右側の Power BI キャンバスに表示されます。
+最初に、基本コンテンツ (ダッシュボード、レポート、データセット、ブック) がどのようにまとめられるか確認してみましょう。 コンテンツはワークスペースのコンテキスト内で表示されます。 この時点では、**[マイ ワークスペース]** という名前のワークスペースが 1 つだけあります。 [マイ ワークスペース] には、ユーザーが所有しているすべてのコンテンツが格納されます。 これは、個人用サンドボックスまたはユーザーのコンテンツの作業領域と考えることができます。 [マイ ワークスペース] のコンテンツは同僚と共有できます。 [マイ ワークスペース] でコンテンツは、ダッシュボード、レポート、ブックおよびデータセットの 4 つのタブにまとめられます。
 
-Power BI Free を所有している場合は、1 つのワークスペース (**[マイ ワークスペース]**) のみが表示されます。
+![[マイ ワークスペース] 画面](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
-![ワークスペースの短いビデオ](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+左側のナビゲーション ウィンドウでワークスペースを選ぶと、関連するコンテンツのタブ (ダッシュボード、レポート、ブック、データセット) が右側の Power BI キャンバスに表示されます。
 
-### <a name="favorite-dashboards-reports-and-apps"></a>ダッシュボード、レポート、アプリをお気に入りに追加する
+新しいユーザーの場合は、1 つのワークスペース (**[マイ ワークスペース]**) のみが表示されます。
+
+![ワークスペースの短いビデオ](media/service-the-new-power-bi-experience/nav.gif)
+
+これらのタブには ("*コンテンツ ビュー*" とも呼ばれます)、コンテンツについての情報と、そのコンテンツで実行できるアクションが表示されます。  たとえば、[ダッシュボード] タブからは、ダッシュボードを開いたり、コンテンツを共有、削除、検索、新規作成したり、並べ替えたりすることができます。
+
+![[ダッシュボード] タブ](media/service-the-new-power-bi-experience/power-bi-dashboard-tab.png)
+
+ダッシュボードの名前を選択してダッシュボードを開きます。
+
+![ダッシュボードが開く](media/service-the-new-power-bi-experience/power-bi-open-dashboard.png)
+
+## <a name="favorite-a-dashboard-and-a-report"></a>ダッシュボードやレポートをお気に入りに追加する
 **[お気に入り]** を使用すると、最も重要なコンテンツに簡単にアクセスできます。  
 
-1. ダッシュボードまたはレポートを開いた状態で、右上隅から **[お気に入り]** を選びます。
+1. ダッシュボードを開き、右上隅の **[お気に入り]** を選びます。
    
    ![お気に入りの追加](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
@@ -77,78 +80,49 @@ Power BI Free を所有している場合は、1 つのワークスペース (**
    
    ![お気に入りの削除](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
-2. アプリの場合、左側のナビゲーション ウィンドウから **[アプリ]** を選び、アプリの上にカーソルを合わせ、星を選んでお気に入りとして設定します。
-
 2. お気に入りとして追加したすべてのコンテンツの一覧を表示するには、左側のナビゲーション ウィンドウで、**[お気に入り]** の右にある矢印を選びます。 左側のナビゲーション ウィンドウは Power BI サービスの固定機能であるため、Power BI サービス内のどこからでもこの一覧にアクセスできます。
    
-    ![お気に入りポップアップ](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![お気に入りポップアップ](media/service-the-new-power-bi-experience/power-bi-favorite.png)
    
-    ここから、ダッシュボード、レポート、またはアプリを選んで開くことができます。
+    現在は、お気に入りは 1 つだけです。 ダッシュボード、レポート、またはアプリをお気に入りに指定できます。  
 
-3. **[お気に入り]** ウィンドウを開くには、左ナビゲーション ウィンドウで、**[お気に入り]** を選ぶか、[お気に入り] アイコン ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png) を選びます。
+1. ワークスペース タブの **[ダッシュボード]** と **[レポート]** からダッシュボードまたはレポートをお気に入りとして設定することもできます。**[レポート]** タブを開き、レポート名の左側の星形アイコンを選びます。
    
-   ![[お気に入り] 画面を開く](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
-   
-   ここから、コンテンツを開いたり、探したり、お気に入りから削除したり、同僚と共有したりできます。
+   ![お気に入りにする](media/service-the-new-power-bi-experience/power-bi-report-favorite.png)
 
-1. ワークスペース タブの **[ダッシュボード]** と **[レポート]** からダッシュボードまたはレポートをお気に入りとして設定することもできます。ワークスペースを開き、コンテンツ ビューを表示し、名前の左にある星型アイコンを選びます。
+3. 左側のナビゲーション ウィンドウで **[お気に入り]** を選ぶか、星形アイコン ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png) を選んで、**[お気に入り]** *ウィンドウ*を開きます。
    
-   ![お気に入りにする](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![[お気に入り] 画面を開く](media/service-the-new-power-bi-experience/power-bi-favorite-pane.png)
+   
+   お気に入りがダッシュボードとレポートの 2 つになっています。 ここからは、コンテンツを開いたり、探したり、お気に入りから削除したり、同僚と共有したりできます。
+
+4. レポート名を選び、レポート エディターで開きます。
+
+    ![レポートを開く](media/service-the-new-power-bi-experience/power-bi-report-open.png)
+
 
 詳細については、[お気に入り](service-dashboard-favorite.md)に関するページを参照してください。
 
-### <a name="recents"></a>最近
-最後にアクセスしたコンテンツにすばやくアクセスするには、**[最近]** ウィンドウを使います。 すべてのワークスペースのコンテンツが含まれます。
+## <a name="locate-your-most-recent-content"></a>最新のコンテンツを探す
 
-  ![[最近] ウィンドウ](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+1. [お気に入り] と同様に、左側のナビゲーション ウィンドウの **[最近]** の矢印を選んで、Power BI サービス内のどこからでも最近アクセスしたコンテンツをすぐに見ることができます。
 
-[お気に入り] と同様に、左側のナビゲーション ウィンドウの **[最近]** の矢印を選んで、Power BI サービス内のどこからでも最近使ったものにすばやくアクセスできます。
+   ![[最近] ポップアップ](media/service-the-new-power-bi-experience/power-bi-recent-flyout.png)
 
-  ![[最近] ポップアップ](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+    フライアウトから、開くコンテンツを選びます。
+
+2. 最近のコンテンツを開かずに、情報を見たり、共有、分析の実行、Excel へのエクスポートなどの他のアクションを実行したりしたい場合があります。 そのような場合は、左側のナビゲーション ウィンドウで **[最近]** またはそのアイコンを選んで、**[最近]** ウィンドウを開きます。 複数のワークスペースがある場合、この一覧にはすべてのワークスペースのコンテンツが含まれます。
+
+   ![[最近] ウィンドウ](media/service-the-new-power-bi-experience/power-bi-recent.png)
 
 詳しくは、「[Power BI サービスの [最近] のコンテンツ](service-recent.md)」をご覧ください。
-
-### <a name="apps"></a>アプリ
-アプリは、主要な指標を全部 1 か所で提供するために作成されたダッシュボードとレポートの集まりです。 組織内部用のアプリと、Google アナリティクスや Microsoft Dynamics CRM など、[外部サービス用アプリ](service-connect-to-services.md)を用意できます。 
-
-![[アプリ] ウィンドウ](media/service-the-new-power-bi-experience/power-bi-apps.png)
-
-詳細については、後の「**アプリ ワークスペース**」および「[Power BI のアプリについて](service-install-use-apps.md)」をご覧ください。
-
-### <a name="shared-with-me"></a>自分と共有
-**[自分と共有]** には、同僚から共有されているすべてのコンテンツが表示されます。  ダッシュボードの所有者でフィルター処理し、検索フィールドを使って関連するものを検索し、日付でアイテムを並べ替えます。  頻繁にアクセスする共有コンテンツの場合、**[自分と共有]** ビューからお気に入りにした方が簡単です。
-
-![[自分と共有] ウィンドウ](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
-
-詳しくは、[自分と共有](service-shared-with-me.md)に関するページをご覧ください。
-
-### <a name="working-with-workspaces"></a>ワークスペースの使用
-次の左ナビゲーションに*ワークスペース*があります。 ワークスペースは、Power BI コンテンツの "*コンテナー*" のようなものです。 ワークスペースには、**マイ ワークスペース**とアプリ ワークスペースの 2 種類があります。
-
-アプリ ワークスペースのメンバーまたは管理者ではない場合、アプリ ワークスペースが左ナビゲーションに表示されない場合があります。 また、Power BI 無料ユーザーの場合は、どのアプリ ワークスペースも表示されません。
-
-#### <a name="my-workspace"></a>マイワークスペース
-**[マイ ワークスペース]** には、ユーザーが所有しているすべてのコンテンツが格納されます。 これは、個人用サンドボックスまたはユーザーのコンテンツの作業領域と考えることができます。 [マイ ワークスペース] のコンテンツは同僚と共有できます。 [マイ ワークスペース] でコンテンツは、ダッシュボード、レポート、ブックおよびデータセットの 4 つのタブにまとめられます。
-
-![[マイ ワークスペース] 画面](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
-
-#### <a name="app-workspaces"></a>アプリ ワークスペース
-アプリとアプリ ワークスペースは、Power BI Pro の機能です。 他のユーザー向けにダッシュボードとレポートを作成する場合は、それはアプリ ワークスペースで行います。 アプリ ワークスペースは、アプリを作成する場所です。そのため、アプリを作成するには、最初にアプリ ワークスペースを作成する必要があります。 アプリ ワークスペースはグループ ワークスペースが進化したもので、アプリのコンテンツのステージング領域とコンテナーが含まれています。  ユーザーと同僚は、より多くの対象ユーザー、場合によっては組織全体への配布を計画しているダッシュボード、レポート、その他のコンテンツを共同で作業することができます。
-
-詳しくは、「[Power BI でのアプリの作成および配布](service-create-distribute-apps.md#app-workspaces)」をご覧ください。
-
-**[マイ ワークスペース]** と同様、コンテンツは、ダッシュボード、レポート、ブックおよびデータセットの 4 つのタブにまとめられます。
-
-![アプリ ワークスペース](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
-
-左側のナビゲーション ウィンドウで **[ワークスペース]** を選ぶと、ワークスペースを切り替えることができます。
-
-![ワークスペースの選択](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>コンテンツの検索と並べ替え
 コンテンツ ビューでは、コンテンツを簡単に検索、フィルター処理、並べ替えできます。 ダッシュボード、レポート、またはブックを検索するには、検索領域に入力します。 名前の一部に検索文字列が含まれるコンテンツだけが表示されます。
 
-![ダッシュボードの検索](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+サンプルは 1 つだけなので、検索や並べ替えの必要はありません。  ただし、ダッシュボード、レポート、ブック、データセットのリストが長い場合は、検索や並べ替えが非常に役立ちます。
+
+![ダッシュボードの検索](media/service-the-new-power-bi-experience/power-bi-search-sort.png)
 
 コンテンツは、名前または所有者で並べ替えることもできます。  
 
@@ -157,7 +131,6 @@ Power BI Free を所有している場合は、1 つのワークスペース (**
 詳しくは、「[Power BI でコンテンツを検索したり並べ替える](service-navigation-search-filter-sort.md)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
-Power BI サービス [基本的な概念](service-basic-concepts.md)    
 
-質問やフィードバックがある場合は、 [Power BI のコミュニティ フォーラムを利用してください](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)。
-
+> [!div class="nextstepaction"]
+> [Power BI サービスの読み取りビューと編集ビュー](./service-reading-view-and-editing-view.md)

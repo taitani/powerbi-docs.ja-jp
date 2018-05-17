@@ -1,28 +1,28 @@
 ---
-title: "Power BI での R スクリプトの使用および作成をサポートしている R パッケージを理解する"
-description: "Power BI でのサポート対象およびサポート非対象の R パッケージ"
+title: Power BI での R スクリプトの使用および作成をサポートしている R パッケージを理解する
+description: Power BI でのサポート対象およびサポート非対象の R パッケージ
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: c4ff69bff3c65fa64f90184668d34fac5a82815f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI サービスの R パッケージ
 Power BI サービスでビジュアルを作成するには、強力な [R プログラミング言語](https://www.r-project.org/)を使用できます。 多くの R パッケージが Power BI サービスでサポートされています (また、常にサポート対象は増えています) が、一部のパッケージはサポートされていません。
@@ -247,7 +247,7 @@ R パッケージにはいくつかの要件と制限があります。
 | maptree |1.4-7 |https://cran.r-project.org/web/packages/maptree/index.html |
 | MASS |7.3-45 |https://cran.r-project.org/web/packages/MASS/index.html |
 | MasterBayes |2.52 |https://cran.r-project.org/web/packages/MasterBayes/index.html |
-| Matrix |1.2-4 |https://cran.r-project.org/web/packages/Matrix/index.html |
+| マトリックス |1.2-4 |https://cran.r-project.org/web/packages/Matrix/index.html |
 | matrixcalc |1.0-3 |https://cran.r-project.org/web/packages/matrixcalc/index.html |
 | MatrixModels |0.4-1 |https://cran.r-project.org/web/packages/MatrixModels/index.html |
 | maxent |1.3.3.1 |https://cran.r-project.org/web/packages/maxent/index.html |
@@ -364,7 +364,7 @@ R パッケージにはいくつかの要件と制限があります。
 | snowFT |1.4-0 |https://cran.r-project.org/web/packages/snowFT/index.html |
 | sp |1.2-2 |https://cran.r-project.org/web/packages/sp/index.html |
 | spacetime |1.1-5 |https://cran.r-project.org/web/packages/spacetime/index.html |
-| spam |1.3-0 |https://cran.r-project.org/web/packages/spam/index.html |
+| スパム |1.3-0 |https://cran.r-project.org/web/packages/spam/index.html |
 | SparseM |1.7 |https://cran.r-project.org/web/packages/SparseM/index.html |
 | spatial |7.3-11 |https://cran.r-project.org/web/packages/spatial/index.html |
 | spBayes |0.3-9 |https://cran.r-project.org/web/packages/spBayes/index.html |
@@ -396,7 +396,7 @@ R パッケージにはいくつかの要件と制限があります。
 | tm |0.6-2 |https://cran.r-project.org/web/packages/tm/index.html |
 | topicmodels |0.2-3 |https://cran.r-project.org/web/packages/topicmodels/index.html |
 | tree |1.0-37 |https://cran.r-project.org/web/packages/tree/index.html |
-| ツリーマップ |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
+| treemap |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
 | tseries |0.10-34 |https://cran.r-project.org/web/packages/tseries/index.html |
 | tsfa |2014.10-1 |https://cran.r-project.org/web/packages/tsfa/index.html |
 | tsoutliers |0.6 |https://cran.r-project.org/web/packages/tsoutliers/index.html |

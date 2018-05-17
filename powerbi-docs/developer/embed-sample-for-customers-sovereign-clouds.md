@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Power BI のダッシュボード、タイル、レポートをソブリン クラウド向けアプリケーションに埋め込む
 顧客向けのダッシュボード、タイル、またはレポートを、Power BI .NET SDK と Power BI JavaScript API を使って Web アプリに統合する (埋め込む) 方法を説明します。 通常、これは ISV のシナリオです。
@@ -38,7 +38,7 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
 
 ![埋め込まれたダッシュボード](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-このチュートリアルを開始するには、**Power BI** アカウントが必要です。 アカウントを設定していない場合は、政府機関の種類に応じて、[U. S. Government Power BI アカウント](../service-govus-signup.md)または [Germany Cloud 向け Power BI アカウント](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)にサインアップすることができます。
+このチュートリアルを開始するには、**Power BI** アカウントが必要です。 アカウントを設定していない場合は、政府機関の種類に応じて、[U. S. Government Power BI アカウント](../service-govus-signup.md)または [Germany Cloud 向け Power BI アカウント](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)にサインアップすることができます。
 
 > [!NOTE]
 > 代わりに組織向けのダッシュボードを埋め込む場合は、 「[ダッシュボードを組織のアプリに統合する](integrate-dashboard.md)」をご覧ください。
@@ -407,7 +407,7 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 
 * GitHub でサンプル アプリケーションを入手して確認できます。 上の例はそのサンプルに基づいています。 詳細については、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をご覧ください。
 * JavaScript API の詳細については、[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) のページを参照してください。
-* Germany Cloud 向け Power BI の詳細については、「[ドイツ クラウド顧客向け Power BI のよく寄せられる質問](https://docs.microsoft.com/en-us/power-bi/service-govde-faq)」を参照してください。
+* Germany Cloud 向け Power BI の詳細については、「[ドイツ クラウド顧客向け Power BI のよく寄せられる質問](https://docs.microsoft.com/power-bi/service-govde-faq)」を参照してください。
 * [Power BI に Power BI ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md)
 
 制限事項と考慮事項

@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop の概要"
-description: "Power BI Desktop の概要"
+title: Power BI Desktop の概要
+description: Power BI Desktop の概要
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 33908283e567cadc5ef8d4ffe2389ac8fef54b65
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop の概要
 「**Power BI Desktop 概要ガイド**」へようこそ。 この短いツアーでは、Power BI Desktop の機能を説明し、その動作の実例を示します。これにより、強力なデータ モデルと優れたレポートをより迅速に作成できるようになり、ビジネス インテリジェンスの作業を拡張できます。 
@@ -101,13 +101,13 @@ Power BI Desktop をインストールすると、拡大を続けるデータの
 
  ![](media/desktop-getting-started/gettingstarted_8.png)
 
-**[OK]**をクリックすると、Power BI Desktop の **クエリ** 機能が動作します。 クエリは Web リソースにアクセスし、 **[ナビゲーター]** ウィンドウは、その Web ページでの検出内容を返します。 このケースでは、テーブル (*Table 0*) と Web ドキュメント全体が見つかりました。 テーブルに興味があるので、一覧からテーブルを選択します。 **[ナビゲーター]** ウィンドウにプレビューが表示されます。
+**[OK]** をクリックすると、Power BI Desktop の **クエリ** 機能が動作します。 クエリは Web リソースにアクセスし、 **[ナビゲーター]** ウィンドウは、その Web ページでの検出内容を返します。 このケースでは、テーブル (*Table 0*) と Web ドキュメント全体が見つかりました。 テーブルに興味があるので、一覧からテーブルを選択します。 **[ナビゲーター]** ウィンドウにプレビューが表示されます。
 
  ![](media/desktop-getting-started/datasources_fromnavigatordialog.png)
 
 この時点で、ウィンドウの下部にある **[編集]** をクリックしてテーブルを読み込む前にクエリを編集するか、テーブルを読み込みます。
 
-**[編集]**を選択すると、クエリ エディターが起動し、テーブルを表すビューが表示されます。 **[クエリの設定]** ウィンドウが表示されます (表示されない場合は、リボンにある **[表示]** をクリックしてから、**[表示] \> [クエリの設定]** の順にクリックすると **[クエリの設定]** ウィンドウが表示されます)。 表示は次のようになります。
+**[編集]** を選択すると、クエリ エディターが起動し、テーブルを表すビューが表示されます。 **[クエリの設定]** ウィンドウが表示されます (表示されない場合は、リボンにある **[表示]** をクリックしてから、**[表示] \> [クエリの設定]** の順にクリックすると **[クエリの設定]** ウィンドウが表示されます)。 表示は次のようになります。
 
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
@@ -139,7 +139,7 @@ Web のデータ ソースに接続して検索した退職者関係のデータ
 
  ![](media/desktop-getting-started/shapecombine_changetype.png)
 
-**[クエリの設定]**では、 **適用される手順** が、加えられたすべての変更を反映することに注意してください。 整形プロセスからいずれかの手順を削除する場合は、その手順を選択してから、手順の左側にある **[X]** を選択します。
+**[クエリの設定]** では、 **適用される手順** が、加えられたすべての変更を反映することに注意してください。 整形プロセスからいずれかの手順を削除する場合は、その手順を選択してから、手順の左側にある **[X]** を選択します。
 
  ![](media/desktop-getting-started/designer_gsg_appliedsteps_changedtype.png)
 
@@ -242,7 +242,7 @@ Web のデータ ソースに接続して検索した退職者関係のデータ
 
  ![](media/desktop-getting-started/designer_gsg_collapsepanes.png)
 
-**[フィールド]** リストから **レポート** ビューにフィールドをドラッグするだけで、視覚エフェクトを作成できます。 このケースでは、 *[州]* フィールドを *[RetirementStats]*からドラッグして、その結果を観察します。
+**[フィールド]** リストから **レポート** ビューにフィールドをドラッグするだけで、視覚エフェクトを作成できます。 このケースでは、 *[州]* フィールドを *[RetirementStats]* からドラッグして、その結果を観察します。
 
  ![](media/desktop-getting-started/designer_gsg_reportfirstdrag.png)
 
@@ -254,7 +254,7 @@ Web のデータ ソースに接続して検索した退職者関係のデータ
 
 少し話を早く進めて、いくつかの視覚エフェクトを追加した後の **レポート** ビューと新しいレポート ページがどのようになるかを見てみます。 レポートについて詳しくは、「[Power BI Desktop のレポート ビュー](desktop-report-view.md)」をご覧ください。
 
-最初のレポート ページには、 *全体的なランク付け*に基づくデータのパースペクティブが示されています。 視覚エフェクトのいずれかを選択すると、 **[フィールドとフィルター]** ウィンドウには、どのフィールドが選択されたか、および視覚エフェクトの構造 (どのフィールドが **[共有の軸]**、 **[列の値]**、および **[行の値]**に適用されるか) が表示されます。
+最初のレポート ページには、 *全体的なランク付け*に基づくデータのパースペクティブが示されています。 視覚エフェクトのいずれかを選択すると、 **[フィールドとフィルター]** ウィンドウには、どのフィールドが選択されたか、および視覚エフェクトの構造 (どのフィールドが **[共有の軸]**、 **[列の値]**、および **[行の値]** に適用されるか) が表示されます。
 
  ![](media/desktop-getting-started/designer_gsg_report1.png)
 
@@ -276,7 +276,7 @@ Web のデータ ソースに接続して検索した退職者関係のデータ
 ## <a name="share-your-work"></a>作業の共有
 Power BI Desktop レポートがある程度完成したので、それを **Power BI** サービスで他のユーザーと共有できます。 Power BI Desktop で作業を共有する方法はいくつかあります。 **Power BI** サービスに発行できます。Power BI サービスから直接 .pbix ファイルをアップロードしたり、.pbix ファイルを保存し、他のすべてのファイルと同様に送信したりできます。
 
-まず、Power BI Desktop から直接 **Power BI** サービスに発行する様子を見てみましょう。 **[ホーム]** リボンで、 **[発行]**をクリックします。
+まず、Power BI Desktop から直接 **Power BI** サービスに発行する様子を見てみましょう。 **[ホーム]** リボンで、 **[発行]** をクリックします。
 
 ![](media/desktop-getting-started/gsg_syw_1.png)
 
@@ -302,7 +302,7 @@ Power BI にサインインすると、サービスの **ダッシュボード**
 
 ![](media/desktop-getting-started/pbi_gsg_getdata2.png)
 
-**ファイル** ビューが表示されます。 このケースでは、 **[ローカル ファイル]**を選択します。
+**ファイル** ビューが表示されます。 このケースでは、 **[ローカル ファイル]** を選択します。
 
 ![](media/desktop-getting-started/pbi_gsg_getdata3.png)
 

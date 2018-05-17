@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ff5a13e842473f276b183f524b2ee5c17e173c96
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 9c5d6faec5826391c25056c2c7eb43ad9c2cc70c
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online の Excel ブックから作成されたデータセットを更新する
 ローカル コンピューターに、または OneDrive for Business や SharePoint Online のようなクラウド ストレージに、Excel ブックをインポートできます。 Excel ファイル用にクラウド ストレージを使用する利点を紹介します。 Power BI に Excel ファイルをインポートする方法の詳細については、「[Excel ブック ファイルからデータを取得する](service-excel-workbook-files.md)」を参照してください。
@@ -84,7 +84,7 @@ OneDrive for Business または SharePoint Online 内の Excel ブックに接�
 または、ナビゲーターの **[編集]** をクリックすると、クエリ エディターが開きます。 そこで **[閉じて次に読み込む...]** をクリックします。  
     ![](media/refresh-excel-file-onedrive/refresh_loadtodm_2.png)
 
-その後 **[読み込み先]**で **[このデータをデータ モデルに追加する]**を選択します。  
+その後 **[読み込み先]** で **[このデータをデータ モデルに追加する]** を選択します。  
     ![](media/refresh-excel-file-onedrive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Power Pivot での [外部データの取り込み] の使用
@@ -98,7 +98,7 @@ OneDrive for Business または SharePoint Online 内の Excel ブックに接�
 ## <a name="when-things-go-wrong"></a>問題が発生した場合
 問題が生じた場合は通常、Power BI がデータ ソースにサインインできないか、データセットがオンプレミスのデータ ソースに接続している場合にゲートウェイがオフラインになっているためです。 Power BI がデータ ソースにサインインできることを確認してください。 データ ソースへのサインインに使用するパスワードが変更された場合、または Power BI がデータ ソースからサインアウトした場合は、必ず [データ ソースの資格情報] で再度データ ソースへのサインインを試行してください。
 
-**[更新が失敗したらメールで通知する]**はオンのままにしてください。 スケジュールの更新が失敗した場合、すぐに通知されます。
+**[更新が失敗したらメールで通知する]** はオンのままにしてください。 スケジュールの更新が失敗した場合、すぐに通知されます。
 
 ## <a name="important-notes"></a>重要な注意事項
 \*Power Pivot に接続されている、問い合わせ先の OData フィードでは更新はサポートされていません。 データ ソースとして OData フィードを使用する場合は、Power Query を使用してください。

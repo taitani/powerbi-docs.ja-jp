@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop でのデータ型"
-description: "Power BI Desktop でのデータ型"
+title: Power BI Desktop でのデータ型
+description: Power BI Desktop でのデータ型
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: d651e03e1483daae3411aa84d2fd8a08927dbbdf
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop でのデータ型
 この記事では、Power BI Desktop と Data Analysis Expressions (DAX) でサポートされるデータ型について説明します。 
@@ -86,7 +86,7 @@ DAX では、集計やタイム インテリジェンス計算など、多くの
 * 日付を文字列型にすることができます。その場合、DAX によって文字列が解析され、Windows の日付や時刻の形式のいずれかとしてキャストが行われます。
 * TRUE に 1 を加算することができます。その結果は 2 です。TRUE は暗黙的に数値 1 に変換され、1+1 という演算が行われます。
 * 2 つの列に含まれる値を加算する場合に、1 つの値がテキスト ("12")、もう 1 つの値が数値 (12) として表現されている場合、DAX によって文字列が数値に暗黙的に変換され、数値の結果に対して加算が行われます。 式 "22" + 22 は、44 という結果を返します。
-* 2 つの数値を連結しようとすると、Excel によってそれらの数値が文字列表現に変換されてから、連結されます。 式 12 &34;は、"1234" という結果を返します。
+* 2 つの数値を連結しようとすると、Excel によってそれらの数値が文字列表現に変換されてから、連結されます。 式 12 & 34 は、"1234" という結果を返します。
 
 ### <a name="table-of-implicit-data-conversions"></a>暗黙的なデータ変換のテーブル
 実行される変換の種類は、演算子によって決まります。要求された演算を実行する前に、演算子に必要な値へのキャストが行われます。 以下の表に、演算子の一覧と、各列のデータ型を交差する行のデータ型と組み合わせた場合に実行される変換を示します。

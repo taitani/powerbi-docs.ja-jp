@@ -1,6 +1,6 @@
 ---
-title: クイック スタート - Power BI Q&A の使用を始める
-description: 'クイック スタート: 小売りの分析のサンプルを使用した Power BI サービスでの Q&A の概要'
+title: Power BI Q&A の概要
+description: 小売りの分析のサンプルを使用して Power BI サービスの Q&A を使い始めます
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>Power BI Q&A の使用を始める (クイック スタート)
+# <a name="get-started-with-power-bi-qa"></a>Power BI Q&A の概要
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>小売りの分析のサンプルで Power BI Q&A を使用する
 自然言語を使用して質問するのが、データから回答を得る最も速い方法である場合があります。  このクイック スタートでは、同じ視覚エフェクトを作成するための 2 つの異なる方法として、1 つ目はレポートでビルドする方法、2 つ目は Q&A で質問する方法を説明します。 Power BI サービスを使いますが、手順は Power BI Desktop を使う場合とほぼ同様です。
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 02/24/2018
    
    * このタイルが Q&A を使用して作成された場合、タイルを選択すると Q&A が開きます。 
    * しかし、このタイルがレポートで作成された場合は、この視覚化が含まれたページにレポートが表示されます。
-3. **[レポートの編集]**を選択して、レポートを編集ビューで開きます。  レポートの所有者でない場合は、編集ビューでレポートを開くオプションはありません。
+3. **[レポートの編集]** を選択して、レポートを編集ビューで開きます。  レポートの所有者でない場合は、編集ビューでレポートを開くオプションはありません。
    
     ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
 4. 面グラフを選択して、 **[フィールド]** ウィンドウで設定を確認します。  レポートの作成者は、これらの 3 つの値 \(**\[時間] > \[FiscalMonth]**、**\[Sales] \(売上) > \[This Year Sales] \(今年の売上高)**、**\[Sales] \(売上) > \[Last Year Sales] \(前年の売上高) > \[Value] \(値)**) を選択して、それらを **\[ビジュアル]** と **\[軸]** に編成して、このグラフを作成しました。

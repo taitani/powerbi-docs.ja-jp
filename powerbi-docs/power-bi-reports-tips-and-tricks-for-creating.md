@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d9500f2c3d385e96b9133a3b634fe06f9769936e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop と Power BI サービスでのレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop、Power BI サービス、"*および*" Power Pivot のアドインを有効にし、Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションで、レポートを作成する場合に役立つヒントとテクニックをまとめました。
@@ -166,7 +166,7 @@ Power BI Desktop では、多くの場合、複数の列のデータを 1 つの
 ### <a name="using-dax-for-the-first-time"></a>DAX を初めて使用する場合
 DAX は、Power BI Desktop で使用される計算式言語です。  それは BI の分析のために最適化されています。  これまでに使ったことがある言語が SQL のようなクエリ言語のみの場合、使用感が若干異なります。 DAX を学習するための非常に優れたリソースがオンラインにも出版物としても存在します。
 
-[クイック スタート: Power BI Desktop における DAX の基本事項](desktop-quickstart-learn-dax-basics.md)
+[Power BI Desktop における DAX の基本事項を学習する](desktop-quickstart-learn-dax-basics.md)
 
 [Data Analysis Expressions (DAX) リファレンス](https://msdn.microsoft.com/library/gg413422.aspx)
 

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f3a58d8acc7d8eb24954e9db0c0db91eacad2f9a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 99b02d0225dec670b3f4600e2436e9094a97b91f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>チュートリアル: Power BI Desktop で独自のメジャーを作成する
 Power BI Desktop でメジャーを使用すると、強力なデータ分析ソリューションを作成できます。 メジャーは、ユーザーがレポートで操作するデータに対して計算を実行するために役立ちます。 このチュートリアルでは、メジャーの基本について説明し、独自のメジャーを Power BI Desktop で作成する手順を紹介します。
@@ -61,7 +61,7 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
 独自のメジャーを作成すると、選択したテーブルの [フィールド] リストに追加されます。これは*モデル* メジャーと呼ばれます。 メジャー モデルの利点として、任意の必要なものに名前を付けて識別しやすくすることができる、他の DAX 式の引数として使用できる、複雑な計算を非常に高速に実行できるなどがあります。
 
 >[!TIP]
->Power BI Desktop の 2018 年 2 月のリリースから、ダイアログ ボックスへの入力に基づいて DAX 式が自動的に入力される**クイック メジャー**で、利用できる一般的な計算が多数増えました。 迅速で強力な計算なので、DAX の学習や、独自のカスタマイズしたメジャーのシード処理にも役立ちます。 クイック メジャーを作成または探索するには、テーブルの**[その他のオプション]** リスト、またはリボンの [ホーム] タブの **[計算]** にある **[新しいクイック メジャー]** を選択します。 クイック メジャーの作成と使用の詳細については、「[クイック メジャーを使用して一般的で強力な計算を簡単に実行する](desktop-quick-measures.md)」を参照してください。
+>Power BI Desktop の 2018 年 2 月のリリースから、ダイアログ ボックスへの入力に基づいて DAX 式が自動的に入力される**クイック メジャー**で、利用できる一般的な計算が多数増えました。 迅速で強力な計算なので、DAX の学習や、独自のカスタマイズしたメジャーのシード処理にも役立ちます。 クイック メジャーを作成または探索するには、テーブルの **[その他のオプション]** リスト、またはリボンの [ホーム] タブの **[計算]** にある **[新しいクイック メジャー]** を選択します。 クイック メジャーの作成と使用の詳細については、「[クイック メジャーを使用して一般的で強力な計算を簡単に実行する](desktop-quick-measures.md)」を参照してください。
 
 ### <a name="create-a-measure"></a>メジャーを作成する
 
@@ -167,7 +167,7 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
 
 1.  **Net Sales per Unit** という名前の新しいメジャーを、Sales テーブルに作成します。
     
-2.  数式バーに「**Net Sales**」と入力します。 追加できる項目が候補リストに表示されます。 **[Net Sales]**を選択します。
+2.  数式バーに「**Net Sales**」と入力します。 追加できる項目が候補リストに表示されます。 **[Net Sales]** を選択します。
     
     ![Net Sales を使用する数式](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     

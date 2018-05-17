@@ -1,37 +1,37 @@
 ---
-title: "ヒストグラム"
-description: "ヒストグラム"
+title: ヒストグラム
+description: ヒストグラム
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 94c1e23fc012e40763247a28e8930a9abdd81425
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7e4419afd4264b96d8f7fc60b72c7e276c014da4
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="histograms"></a>ヒストグラム
 Power BI では複数の方法でヒストグラムを構築できます。 最初に最も単純なものから説明します。
 
 ## <a name="simple-histograms"></a>単純なヒストグラム
-最初に、ヒストグラム作成の基準とするフィールドが含まれているクエリを判別します。  クエリの *[参照]* オプションを使用して、新しいクエリを作成し、 *"FieldName Histogram"*という名前を付けます。 **[変換]** リボンの **[グループ化]** オプションを使用し、 **[行のカウント]** 集計を選択します。 結果の集計列のデータ型が数値であることを確認してください。 その後、このデータをレポート ページで視覚化できます。 このアプローチでは短時間で簡単に作成できますが、データ ポイントの数が多い場合はうまく機能せず、ビジュアル間でのブラッシングは許可されません。
+最初に、ヒストグラム作成の基準とするフィールドが含まれているクエリを判別します。  クエリの *[参照]* オプションを使用して、新しいクエリを作成し、 *"FieldName Histogram"* という名前を付けます。 **[変換]** リボンの **[グループ化]** オプションを使用し、 **[行のカウント]** 集計を選択します。 結果の集計列のデータ型が数値であることを確認してください。 その後、このデータをレポート ページで視覚化できます。 このアプローチでは短時間で簡単に作成できますが、データ ポイントの数が多い場合はうまく機能せず、ビジュアル間でのブラッシングは許可されません。
 
 ## <a name="defining-buckets-to-build-a-histogram"></a>ヒストグラムを作成するバケットの定義
-ヒストグラム作成の基準とするフィールドが含まれているクエリを判別します。 クエリの *[参照]* オプションを使用して、新しいクエリを作成し、 *"FieldName"*という名前を付けます。  ルールを使用してバケットを定義します。 **[列の追加]** リボンの **[カスタム列の追加]** オプションを使用し、カスタム ルールを作成します。
+ヒストグラム作成の基準とするフィールドが含まれているクエリを判別します。 クエリの *[参照]* オプションを使用して、新しいクエリを作成し、 *"FieldName"* という名前を付けます。  ルールを使用してバケットを定義します。 **[列の追加]** リボンの **[カスタム列の追加]** オプションを使用し、カスタム ルールを作成します。
 
 ![](media/service-histograms/powerbi-service-histograms_1.png)
 

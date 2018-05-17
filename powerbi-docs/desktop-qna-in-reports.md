@@ -15,19 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>自然言語クエリに Power BI Desktop で Q&A を使用する
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 データが回答になる場合にはさらに効果的です。**Power BI Desktop** の Q&A ではこれが可能です。
 
 Q&A が回答可能な質問の大規模なコレクションを正常に解釈できるようにするには、Q&A がモデルについてさまざまな推測をする必要があります。 ご利用のモデルの構造がこれらの推測に 1 つ以上当てはまらない場合は、モデルを調整する必要があります。 Q&A のこれらの調整は、Q&A を使用するかどうかに関係なく、Power BI のどのモデルに対しても同じ最適化のベスト プラクティスです。 
+
+> [!NOTE]
+> Q&A は、**インポートされた**データを含むモデルを処理するときにのみ使用可能です。 SSAS へのライブ接続および DirectQuery モデルはサポートされていません。
+>
+>
 
 次のセクションでは、Power BI の Q&A でうまく機能するためにモデルを調整する方法について説明します。
 

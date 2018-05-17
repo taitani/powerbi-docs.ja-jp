@@ -1,16 +1,16 @@
 ---
-title: "クイックスタート - レポートから Power BI ダッシュボードを作成する"
-description: "レポートから Power BI ダッシュボードを作成する"
+title: レポートから Power BI ダッシュボードを作成する
+description: レポートから Power BI ダッシュボードを作成する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 33e003c4e45cf851dbdf2bc602807a57d1ba49af
-ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
+ms.openlocfilehash: e995795496612d8eb8561cacd8bb4d31e1db394b
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
 [Power BI のダッシュボード](service-dashboards.md)を読んで、次は自分のダッシュボードを作成しようと思われるでしょう。 ダッシュボードを作成するには、レポートから、何もない状態から、データセットから、既存のダッシュボードを複製して、それ以外の方法など、さまざまな方法があります。  
@@ -55,7 +55,7 @@ Power BI サンプル データセットの 1 つをインポートし、それ�
 4. 左のナビゲーションから **[データの取得]** を選択します。
 
     ![左ナビゲーション ウィンドウ](media/service-dashboard-create/power-bi-get-data3.png)
-5. **[ファイル]**を選択します。
+5. **[ファイル]** を選択します。
 
    ![ファイルの取得](media/service-dashboard-create/power-bi-select-files.png)
 6. 調達の分析のサンプルの Excel ファイルを保存した場所に移動します。 ファイルを選び、**[接続]** を選択します。

@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop の \"Excel で分析\" に関するトラブルシューティング"
-description: "”Excel で分析” に関する一般的な問題の解決方法"
+title: Power BI Desktop の "Excel で分析" に関するトラブルシューティング
+description: ”Excel で分析” に関する一般的な問題の解決方法
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1760828290846b9ee7601ad4aa313ee3e9cbdf8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 102eb23ad17e9669d9cd9f5176aafd3b6e2eec08
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>”Excel で分析” に関するトラブルシューティング
 ”Excel で分析” の使用中に、予期しない結果が出る場合や、機能が期待どおりに動作しない場合があります。 このページでは、”Excel で分析” の使用中に発生する一般的な問題の解決方法を説明します。

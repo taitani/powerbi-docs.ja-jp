@@ -29,7 +29,7 @@ Power BI Desktop 内でロールとルールを定義できます。 Power BI �
 8. DAX 式を作成した後、式ボックスの上にあるチェックを選択し、式を評価できます。
    
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
-9. **[保存]**を選択します。
+9. **[保存]** を選択します。
 
 Power BI Desktop 内のロールにユーザーを割り当てることはできません。 割り当ては Power BI サービス内で行われます。 *username()* または *userprincipalname()* DAX 関数を使用し、適切な関係を構成することで、Power BI Desktop 内で動的セキュリティを有効にできます。
 

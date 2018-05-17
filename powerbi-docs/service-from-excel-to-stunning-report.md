@@ -1,15 +1,15 @@
 ---
-title: "チュートリアル: Excel ブックから魅力的なレポートを即座に作成する"
-description: "チュートリアル: Excel ブックから魅力的なレポートを即座に作成する"
+title: Excel ブックから魅力的なレポートを即座に作成する
+description: Excel ブックから魅力的なレポートを即座に作成する
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 64872b94d13f30cbab08d67530cc6ae0ccbe8fc3
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 849511476200d401432fdcc2ad88ec2930448bf9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Excel ブックから魅力的なレポートを即座に作成する
 最新の売上データを直前のキャンペーンの感触と組み合わせて、上司にレポートを今日中に提出しなければなりません。 しかし、最新のデータはさまざまなサード パーティ システムと、自分のノート PC 内のファイルに散在しています。 以前に、ビジュアルとレポート書式を作成するのに何時間もかかった経験があります。 次第に不安が募ります。
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/02/2018
 
 ![Excel で整理されたデータ](media/service-from-excel-to-stunning-report/pbi_excel_file.png)
 
-次に、データをテーブルとして書式設定します。 Excel で [ホーム] タブの [スタイル] グループから **[テーブルとして書式設定]**を選びます。 ワークシートに適用するテーブルのスタイルを選んでください。 これで、Excel ワークシートを Power BI に読み込む準備ができました。
+次に、データをテーブルとして書式設定します。 Excel で [ホーム] タブの [スタイル] グループから **[テーブルとして書式設定]** を選びます。 ワークシートに適用するテーブルのスタイルを選んでください。 これで、Excel ワークシートを Power BI に読み込む準備ができました。
 
 ![テーブルとして書式設定されたデータ](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
@@ -51,11 +51,11 @@ Power BI は、多くのデータ ソースに接続できます。自分のコ�
 
 ![[作成] ドロップダウン](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
 
-左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。 [データを取得] ページの [データのインポートまたは接続] の [ファイル] ボックス内にある **[取得]**を選びます
+左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。 [データを取得] ページの [データのインポートまたは接続] の [ファイル] ボックス内にある **[取得]** を選びます
 
 ![ファイルからデータを取得](media/service-from-excel-to-stunning-report/pbi_get_files.png)
 
-[ファイル] ページで、 **[ローカル ファイル]**を選びます。 ご使用のコンピューター上の Excel ブック ファイルに移動し、それを選んで Power BI に読み込みます。 **[インポート]** を選択します。
+[ファイル] ページで、 **[ローカル ファイル]** を選びます。 ご使用のコンピューター上の Excel ブック ファイルに移動し、それを選んで Power BI に読み込みます。 **[インポート]** を選択します。
 
 > **注**: このチュートリアルの残りの部分で作業を進めるために、[財務サンプル ブック](sample-financial-download.md)を使用してください。
 > 
@@ -93,11 +93,11 @@ Power BI に Excel ファイルがインポートされたら、レポートの�
 ## <a name="share-your-dashboard"></a>ダッシュボードを共有する
 作成したダッシュボードを上司の Paula と共有することにします。 ダッシュボードと基になるレポートは、Power BI アカウントを持つ仕事仲間と共有できます。 仕事仲間はレポートを操作できますが、変更は変更できません。
 
-レポートを共有するには、ダッシュボードの上部にある **[共有]**を選択します。
+レポートを共有するには、ダッシュボードの上部にある **[共有]** を選択します。
 
 ![[共有] アイコン](media/service-from-excel-to-stunning-report/power-bi-share.png)
 
-Power BI に、[ダッシュボードの共有] ページが表示されます。 上部の領域で、受信者のメール アドレスを入力します。 その下のフィールドにメッセージを追加します。 受信者がこのダッシュボードを他のユーザーと共有できるようにするため、 **[受信者がダッシュボードを共有できるようにする]**を選びます。 **[共有]**を選択します。
+Power BI に、[ダッシュボードの共有] ページが表示されます。 上部の領域で、受信者のメール アドレスを入力します。 その下のフィールドにメッセージを追加します。 受信者がこのダッシュボードを他のユーザーと共有できるようにするため、 **[受信者がダッシュボードを共有できるようにする]** を選びます。 **[共有]** を選択します。
 
 ![[ダッシュボードの共有] ウィンドウ](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
 

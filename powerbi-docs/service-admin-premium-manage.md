@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 4a96582eb8864cd41b5b307d05be890fc3bbff34
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 611a8cd1f2ff3da16d700f8d2b9f15787dda8475
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium および Power BI Embedded の容量を管理する
 コンテンツ用の専用リソースを提供する Power BI Premium および Power BI Embedded の容量を管理する方法について説明します。
@@ -55,8 +55,8 @@ Power BI Premium の SKU を購入すると、テナントは、実行してい�
 ## <a name="capacity-admins"></a>容量管理者
 > [!NOTE]
 > Power BI Embedded 容量の容量管理者は、Microsoft Azure Portal 内で定義します。
-> 
-> 
+>
+>
 
 容量の容量管理者として割り当てられたユーザーは、容量とその管理機能を完全に制御できます。 Power BI 管理ポータルでは、さらに容量管理者を追加したり (Power BI Premium のみ)、ユーザーに容量割り当てのアクセス許可を付与したりできます。 容量にワークスペースを一括して割り当て、容量の使用状況の指標を表示できます。
 
@@ -81,14 +81,14 @@ Office 365 で容量ノードを購入した後は、新しい容量を設定す
 1. **[新しい容量をセットアップする]** を選択します。
 2. 容量に**名前**を付けます。
 3. この容量に容量管理者を定義します。
-   
+
     容量管理者は、Power BI 管理者または Office 365 グローバル管理者である必要はありません。詳しくは、[Power BI Premium の容量管理者](#capacity-admins)を参照してください。
 4. 容量のサイズを選びます。 指定できるオプションは、利用可能な仮想コアの数によって異なります。 利用可能な数より多いオプションは選ぶことができません。
-   
+
     ![利用可能な Premium 容量のサイズ](media/service-admin-premium-manage/premium-capacity-size.png)
 5. **[セットアップ]** を選択します。
 
-![新しい容量の設定](media/service-admin-premium-manage/set-up-capacity.png)
+    ![新しい容量の設定](media/service-admin-premium-manage/set-up-capacity.png)
 
 容量管理者、および Power BI 管理者と Office 365 グローバル管理者は、管理ポータル内に一覧表示される容量を確認できます。
 
@@ -103,15 +103,15 @@ Premium 容量管理の画面で、[アクション] の下の**歯車アイコ�
 
 > [!NOTE]
 > Power BI Embedded の容量の設定は、Microsoft Azure Portal で管理します。
-> 
-> 
+>
+>
 
 ### <a name="change-capacity-size-power-bi-premium"></a>容量サイズの変更 (Power BI Premium)
 Power BI 管理者および Office 365 グローバル管理者は、**[容量サイズを変更します]** を選んで Power BI Premium の容量サイズを変更します。 Power BI 管理者または Office 365 グローバル管理者ではない容量管理者は、これを行うことはできません。
 
 ![Power BI Premium の容量サイズの変更](media/service-admin-premium-manage/change-capacity-size.png)
 
-**[容量サイズを変更します]** 画面では、利用可能なリソースがある場合は、容量サイズのアップグレードまたはダウングレードを行うことができます。 管理者は、必要な数の仮想コアがある限り、ノードの作成、サイズ変更、削除を自由に行うことができます。 
+**[容量サイズを変更します]** 画面では、利用可能なリソースがある場合は、容量サイズのアップグレードまたはダウングレードを行うことができます。 管理者は、必要な数の仮想コアがある限り、ノードの作成、サイズ変更、削除を自由に行うことができます。
 
 P SKU を EM SKU にダウングレードすることはできません。 無効なオプションをポイントすると説明が表示されます。
 
@@ -129,31 +129,41 @@ Power BI Premium 容量用に追加の**容量管理者**を割り当てるこ�
 
 > [!NOTE]
 > Power BI Embedded 容量の場合、容量管理者は Microsoft Azure Portal で定義します。
-> 
-> 
+>
+>
 
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
 
 ## <a name="usage-measurements-power-bi-premium"></a>使用状況測定 (Power BI Premium)
-各容量について、CPU、メモリ、直接クエリの使用状況測定を使用することができます。 各 KPI には、**良 (緑)**、**中 (黄)**、**重大 (赤)** の 3 つの表示があります。 ユーザーが Premium コンテンツの使用中に良好なパフォーマンスが得られるようにするため、これらの指標を監視することをお勧めします。
+各容量について、CPU、メモリ使用量、メモリ スラッシング、直接クエリの使用状況測定を見ることができます。 ユーザーが容量で良好なパフォーマンスを得られるよう、これらのメトリックを監視することをお勧めします。
 
-**Power BI Embedded の容量の使用状況は、Azure Portal で監視します。**
+![過去 7 日間の使用量](media/service-admin-premium-manage/premium-dashboard-tiles.png)
 
-![](media/service-admin-premium-manage/usage-metrics-critical.png "容量の使用状況の指標 - 重大")
+> [!NOTE]
+> Power BI Embedded の容量の使用状況は、Azure Portal で監視します。
 
 | 指標 | 説明 |
 | --- | --- |
-| CPU |コアの CPU 使用率。 |
-| メモリ |バックエンド コアのメモリ負荷を表します。 具体的には、これは、複数のモデルの使用によるメモリ負荷により、モデルがメモリから締め出される頻度の指標です。 |
-| DQ/秒 |* DirectQuery の合計数と 1 秒あたりのライブ接続クエリの数を制限しています。<br/>* 制限は、P1 で 30/秒、P2 で 60/秒、 P3 で 120/秒です。<br/>* DirectQuery とライブ接続クエリの数は、上記のスロットルと等しくなります。 たとえば、15 の DirectQueries と 1 秒あたり 15 のライブ接続がある場合、スロットルに達しています。<br/>* これはオンプレミスおよびクラウドの接続にも等しく適用されます。 |
+| CPU |CPU 使用率が 80% を超えた回数です。 |
+| メモリ スラッシング |バックエンド コアのメモリ負荷を表します。 具体的には、これは、複数のデータセットの使用によるメモリ負荷により、データセットがメモリから締め出された回数のメトリックです。 |
+| メモリ使用量 |平均メモリ使用量です (ギガバイト (GB) 単位)。 |
+| DQ/秒 | 直接クエリとライブ接続の数が上限の 80% を超えた回数です。 <br> <br> * DirectQuery の合計数と 1 秒あたりのライブ接続クエリの数を制限しています。<br><br>* 制限は、P1 で 30/秒、P2 で 60/秒、 P3 で 120/秒です。<br><br> * 直接クエリとライブ接続クエリの数は、上記のスロットルに追加されます。 たとえば、15 の DirectQueries と 1 秒あたり 15 のライブ接続がある場合、スロットルに達しています。<br/><br>* これはオンプレミスおよびクラウドの接続にも等しく適用されます。 |
 
-これらの指標が中/重大の場合、特にピーク負荷時にユーザーが、レポートおよび更新のパフォーマンス低下を感じる場合があります。
+メトリックは、過去 1 週間の使用状況を反映します。  メトリックをさらに詳細に見たい場合は、概要タイルのいずれかをクリックします。  Premium 容量の各メトリックの詳細グラフが表示されます。  これらのグラフは、過去 1 週間について 1 時間ごとに集計され、Premium 容量で特定のパフォーマンス関連イベントが発生した可能性があるときを特定するのに役立ちます。  
 
-指標は過去 1 週間の使用状況を反映し、容量がオーバーロードになったときにインスタンスをカウントするよう設計されているため、ユーザーに最善ではないパフォーマンスが提供されます。
+![CPU の詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
 
-*使用率が 80% を超える*たび、パフォーマンスの低下が発生する可能性を考慮する必要があります。 あまりに多く発生する場合は、ユーザーに重大なパフォーマンス問題があることの指標となります。
+![メモリ スラッシングの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![メモリ サイズの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![メモリ スラッシングの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+いずれかのメトリックの基になっているデータを、csv ファイルにエクスポートすることもできます。  エクスポートすると、過去 1 週間の詳細情報を 3 分間隔で見ることができます。
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>容量にワークスペースを割り当てる
 容量にワークスペースを割り当てるには、いくつかの方法があります。
@@ -165,12 +175,12 @@ Power BI Premium 容量用に追加の**容量管理者**を割り当てるこ�
 
 1. **[ワークスペースの割り当て]** を選択します。 これは複数の場所に表示され、すべてが同じタスクを実行します。
 2. **組織全体のワークスペース**または**ユーザーごとの特定のワークスペース**のいずれかを選択します。
-   
+
    | 選択 | 説明 |
    | --- | --- |
    | **組織全体のワークスペース** |組織全体のワークスペースを Premium 容量に割り当てると、組織内のすべてのアプリ ワークスペースとマイワークスペースがこの Premium 容量に割り当てられます。 さらに、現在および将来のすべてのユーザーに、この容量に再割り当てされた個々のワークスペースに対するアクセス許可が与えられます。 |
    | **ユーザーごとの特定のワークスペース** |ユーザーまたはグループごとのワークスペースを割り当てると、これらのユーザーが所有するすべてのワークスペース (ユーザーの個人用ワークスペースを含む) が Premium 容量に割り当てられます。 これらのユーザーには、ワークスペースの割り当てアクセス許可が自動的に与えられます。<br>これには、別の容量に既に割り当てられているワークスペースが含まれます。 |
-3. **[適用]**を選びます。
+3. **[適用]** を選びます。
 
 このオプションでは、特定のワークスペースを容量に割り当てることはできません。
 
@@ -180,19 +190,19 @@ Power BI Premium 容量用に追加の**容量管理者**を割り当てるこ�
 ワークスペースを容量に移動するには、そのワークスペースの管理者権限とその容量に対する容量の割り当てアクセス許可が必要です。 ワークスペース管理者は、Premium 容量からワークスペースをいつでも削除できることに注意してください。
 
 1. アプリ ワークスペースを編集するには、**省略記号 (...)**、**[ワークスペースの編集]** を選択します。
-   
+
     ![省略記号コンテキスト メニューからのワークスペース編集](media/service-admin-premium-manage/edit-app-workspace.png)
 2. **[ワークスペースの編集]** で、**[詳細]** を展開します。
 3. いずれかの容量に対して容量の割り当てアクセス許可が付与されている場合は、このワークスペースに対して **[Premium]** をオンにすることができます。
 4. このアプリ ワークスペースを割り当てる容量を選択します。
-   
+
     ![容量選択ドロップダウン](media/service-admin-premium-manage/app-workspace-advanced.png)
 5. **[保存]** を選択します。
 
 保存すると、ワークスペース、およびそのすべてのコンテンツが Premium 容量に移動されます。エンド ユーザーのエクスペリエンスが中断されることはありません。
 
 ## <a name="what-premium-looks-like-for-users"></a>ユーザーに表示される Premium
-ほとんどの場合、ユーザーが Premium 容量を使用しているかを認識する必要はありません。 ユーザーのダッシュボードとレポートは機能します。 視覚的ヒントとして、Premium 容量内のワークスペースの横にひし形のアイコンが表示されます。 
+ほとんどの場合、ユーザーが Premium 容量を使用しているかを認識する必要はありません。 ユーザーのダッシュボードとレポートは機能します。 視覚的ヒントとして、Premium 容量内のワークスペースの横にひし形のアイコンが表示されます。
 
 ![ワークスペースが Premium 容量によってバックアップされていることを示すダイヤモンド](media/service-admin-premium-manage/premium-workspace.png)
 
@@ -211,4 +221,3 @@ Power BI 管理者ポータルの **[容量の設定]** タブでは、Power BI 
 Premium 容量にワークスペースを割り当てるときに、発行されたアプリを無料ユーザーと共有します。 詳細については、「[Power BI でのアプリの作成および配布](service-create-distribute-apps.md)」を参照してください。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-

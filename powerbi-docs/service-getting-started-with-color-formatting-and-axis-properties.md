@@ -1,40 +1,40 @@
 ---
-title: "色の書式設定と軸のプロパティの概要"
-description: "色の書式設定と軸のプロパティの概要"
+title: 色の書式設定と軸のプロパティの概要
+description: 色の書式設定と軸のプロパティの概要
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1c6698f4e85dcbf41b79bf4289890b2e60365254
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 38f7a59bcc34ff404c26d178f4fb16ffe4da70d7
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>色の書式設定と軸のプロパティの概要
 **Power BI** では、データ系列、データ ポイント、そして視覚化の背景の色も変更できます。 また X 軸と Y 軸の表示方法を変更することもでき、ダッシュボードとレポートの表示方法を完全に制御できます。
 
-開始するには、 **[マイ ワークスペース]** ウィンドウの **[レポート]** を選択します。 次に、上部のメニュー領域にある **[レポートの編集]**を選択します。  
+開始するには、 **[マイ ワークスペース]** ウィンドウの **[レポート]** を選択します。 次に、上部のメニュー領域にある **[レポートの編集]** を選択します。  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
 レポートの編集中に視覚化を選択すると、 **[視覚化]** ウィンドウが表示され、そこで視覚化を追加したり変更したりできます。 使用できる視覚化のすぐ下には、**[フィールド]** アイコン (横並びの縦棒)、**[書式]** アイコン (ペイント ブラシ)、**[分析]** アイコン (虫眼鏡) という 3 つのアイコンがあります。 次の図では、 **[フィールド]** アイコンが選択されていることが、アイコンの下に黄色のバーによって示されています。
 
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
-**[書式]**を選択すると、アイコンの下の領域に、現在選択されている視覚化に対して設定できる色と軸のカスタマイズが表示されます。  
+**[書式]** を選択すると、アイコンの下の領域に、現在選択されている視覚化に対して設定できる色と軸のカスタマイズが表示されます。  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
 
 それぞれ視覚化のさまざまな要素をカスタマイズすることができます:
@@ -70,14 +70,14 @@ ms.lasthandoff: 02/24/2018
 4. **[データの色]** を下に展開すると、設定できるカスタマイズが表示されます。  
    ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_4a.png)
 
-いくつかの変更を加えてみましょう。 対象の色の隣にある下矢印を選択して、利用できる各データ系列に変更を加えることができます。 **[生活費]** を黄色に、**[天気]** をオレンジ色に、 **[地域社会の福祉]** を緑色にします。 次の画面は、最後の手順、つまり **[生活費]**を変更しているところです。  
+いくつかの変更を加えてみましょう。 対象の色の隣にある下矢印を選択して、利用できる各データ系列に変更を加えることができます。 **[生活費]** を黄色に、**[天気]** をオレンジ色に、 **[地域社会の福祉]** を緑色にします。 次の画面は、最後の手順、つまり **[生活費]** を変更しているところです。  
 
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_5a.png)
 
 以下のイメージは変更後を示しています。 明るいグラフになりました。 色を扱う際に注意すべきいくつかの要素があります。 次のリストにある番号は以下の画面にも示されていて、こうした役立つ要素にアクセスしたり変更したりできる場所を示しています。
 
 1. 色が気に入りませんか? 問題ありません。**[既定値に戻す]** を選択するだけで、選択箇所が既定の設定に戻ります。 この操作は 1 色にも、視覚化全体にも行えます。
-2. パレットにない色を使いたいですか? **[ユーザー設定の色]**を選択し、スペクトルからを選択します。  
+2. パレットにない色を使いたいですか? **[ユーザー設定の色]** を選択し、スペクトルからを選択します。  
    ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_6a.png)
 
 直前に行った変更が気に入りませんか? いつものように **CTRL + Z** を使用すると、元に戻すことができます。
@@ -86,9 +86,9 @@ ms.lasthandoff: 02/24/2018
 X 軸または Y 軸を変更すると役立つ場合がよくあります。 色を扱う場合と同様、次のイメージに示されているように、変更対象の軸の左にある下矢印を選択して軸を変更できます。  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
-**[X 軸]** オプションを折りたたむ場合、 **[X 軸]**の横にある上矢印アイコンを選択します。
+**[X 軸]** オプションを折りたたむ場合、 **[X 軸]** の横にある上矢印アイコンを選択します。
 
-X 軸ラベルを完全に削除するには、 **[X 軸]** の横にあるラジオ ボタンを切り替えます。 また、 **[タイトル]**の横にあるラジオ ボタンを選択して、軸タイトルのオン/オフを切り替えることができます。  
+X 軸ラベルを完全に削除するには、 **[X 軸]** の横にあるラジオ ボタンを切り替えます。 また、 **[タイトル]** の横にあるラジオ ボタンを選択して、軸タイトルのオン/オフを切り替えることができます。  
 
 あらゆる種類の色から選ぶことができ、さらに多くのカスタマイズをPower BI レポートとダッシュボードに適用することができます。
 

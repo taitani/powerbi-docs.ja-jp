@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop での R スクリプトの実行"
-description: "Power BI Desktop での R スクリプトの実行"
+title: Power BI Desktop での R スクリプトの実行
+description: Power BI Desktop での R スクリプトの実行
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34e756a661ec580e2c0eea8fc53378566eccf305
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78102beae41c1ef1f6a1d1b82e945fc3eff04a0f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Power BI Desktop での R スクリプトの実行
 **Power BI Desktop** で R スクリプトを直接実行し、生成されたデータセットを Power BI Desktop データ モデルにインポートできます。
@@ -48,17 +48,17 @@ Power BI Desktop で R スクリプトを準備し、実行するとき、いく
 * R スクリプト内で作業ディレクトリを設定する場合は、作業ディレクトリへの相対パスではなく、完全パスを定義する *必要* があります。
 
 ### <a name="run-your-r-script-and-import-data"></a>R スクリプトを実行し、データをインポートする
-1. Power BI Desktop では、R スクリプトのデータ コネクタは **[データの取得]**にあります。 R スクリプトを実行するには、**[データの取得]&gt;[詳細]** の順に選び、次の図に示すように **[その他]&gt;[R スクリプト]** の順に選びます。
+1. Power BI Desktop では、R スクリプトのデータ コネクタは **[データの取得]** にあります。 R スクリプトを実行するには、**[データの取得]&gt;[詳細]** の順に選び、次の図に示すように **[その他]&gt;[R スクリプト]** の順に選びます。
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
-2. R がローカル コンピューターにインストールされている場合、最近インストールしたバージョンが R エンジンとして選択されます。 スクリプトをスクリプト ウィンドウにコピーし、 **[OK]**を選択します。
+2. R がローカル コンピューターにインストールされている場合、最近インストールしたバージョンが R エンジンとして選択されます。 スクリプトをスクリプト ウィンドウにコピーし、 **[OK]** を選択します。
    
    ![](media/desktop-r-scripts/r-scripts-2.png)
 3. R がインストールされていないか、識別されない場合、あるいはローカル コンピューターに複数のインストールが存在する場合、 **[R インストール設定]** を展開してインストール オプションを表示するか、R スクリプトを実行するインストールを選択します。
    
    ![](media/desktop-r-scripts/r-scripts-3.png)
    
-   R がインストールされているが、識別されない場合、 **[R インストール設定]**を展開するとき、テキスト ボックスにその場所を明示的に指定できます。 上の画像では、パス *C:\Program Files\R\R-3.2.0* がテキスト ボックスに明示的に指定されています。
+   R がインストールされているが、識別されない場合、 **[R インストール設定]** を展開するとき、テキスト ボックスにその場所を明示的に指定できます。 上の画像では、パス *C:\Program Files\R\R-3.2.0* がテキスト ボックスに明示的に指定されています。
    
    R インストール設定は、[オプション] ダイアログの [R スクリプト] セクションの中央に配置されています。 R インストール設定を指定するには、**[ファイル] > [オプションと設定]** を選んでから、**[オプション] > [R スクリプト]** を選びます。 R の複数のインストールを使用できる場合、ドロップダウン メニューが表示され、使用するインストールを選べます。
    

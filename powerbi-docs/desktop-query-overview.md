@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop でのクエリの概要"
-description: "Power BI Desktop でのクエリの概要"
+title: Power BI Desktop でのクエリの概要
+description: Power BI Desktop でのクエリの概要
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 937cbf39d08bd830c16e9b2634f3d5a747689f54
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 706d510b14f72874fbc00c6c8929ab8ba9a925ca
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop でのクエリの概要
 **Power BI Desktop** を使用すると、データの世界への接続、説得力のある基本的なレポートの作成、他のユーザーとの成果の共有を行えます。他のユーザーは、その成果を足場としてビジネス インテリジェンスの成果を拡大することができます。
@@ -124,7 +124,7 @@ Power BI Desktop には **クエリ エディター**も付属しており、1 �
 ![](media/desktop-query-overview/queryoverview_querysettings_rename.png)
 
 ## <a name="the-advanced-editor"></a>詳細設定エディター
-クエリ エディターが各手順で作成しているコードを表示する場合や、独自の整形コードを作成する場合は、 **詳細設定エディター**を使用できます。 詳細設定エディターを起動するには、リボンから **[表示]** をクリックした後、 **[詳細設定エディター]**をクリックします。 既存のクエリのコードを示すウィンドウが表示されます。  
+クエリ エディターが各手順で作成しているコードを表示する場合や、独自の整形コードを作成する場合は、 **詳細設定エディター**を使用できます。 詳細設定エディターを起動するには、リボンから **[表示]** をクリックした後、 **[詳細設定エディター]** をクリックします。 既存のクエリのコードを示すウィンドウが表示されます。  
 ![](media/desktop-query-overview/queryoverview_advancededitor.png)
 
 **[詳細設定エディター]** ウィンドウでは直接コードを編集できます。 ウィンドウを閉じるには、 **[完了]** ボタンまたは **[キャンセル]** ボタンを選びます。  

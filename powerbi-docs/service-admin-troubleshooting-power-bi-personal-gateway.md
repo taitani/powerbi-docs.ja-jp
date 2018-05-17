@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal のトラブルシューティング
 以下では、Power BI Gateway - Personal を使用する際に発生する一般的な問題について説明します。
@@ -76,11 +76,11 @@ ms.lasthandoff: 04/16/2018
 
 **エラー: [データを結合できません] &lt;query part&gt;/&lt;…&gt;/&lt;…&gt; が、同時に使用できないプライバシー レベルの複数のデータ ソースにアクセスしています。このデータの組み合わせを再構築してください。**
 
-**解決策**: このエラーは、プライバシー レベルの制限と、使用しているデータ ソースの種類によって発生します。 [詳細情報](refresh-enable-fast-combine.md)
+**解決策**: このエラーは、プライバシー レベルの制限と、使用しているデータ ソースの種類によって発生します。
 
 **エラー: データ ソース エラー: 値 "\[Table\]" を型 Table に変換できません。**
 
-**解決策**: このエラーは、プライバシー レベルの制限と、使用しているデータ ソースの種類によって発生します。 [詳細情報](refresh-enable-fast-combine.md)
+**解決策**: このエラーは、プライバシー レベルの制限と、使用しているデータ ソースの種類によって発生します。
 
 **エラー: There is not enough space for this row. (この行に十分な領域がありません。)**
 

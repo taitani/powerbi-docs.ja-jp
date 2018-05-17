@@ -1,28 +1,28 @@
 ---
-title: "Power BI における色の書式設定に関するヒントとコツ"
-description: "Power BI における色の書式設定に関するヒントとコツ"
+title: Power BI における色の書式設定に関するヒントとコツ
+description: Power BI における色の書式設定に関するヒントとコツ
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 795a7bcc2a6885f0608acfc9ed5a1f8dd0e1f34b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4fa5cc0dd35139c26686bbe7a9017a48c411c90d
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI における色の書式設定に関するヒントとコツ
 Power BI は、ダッシュボードとレポートをカスタマイズするためのさまざまな方法を提供しています。 この記事では、Power BI の視覚化を、説得力のある興味をひくものにして、お客様のニーズに合わせてカスタマイズできる各種ヒントについて詳しく説明しています。
@@ -57,7 +57,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_4.png)
 
-**[すべて表示]** を **[オン]**に設定します。 これにより、視覚化内の各データ要素の色が表示されます。 データ ポイントにポインターを合わせるとスクロールが有効になり、任意のデータ ポイントを変更できるようになります。
+**[すべて表示]** を **[オン]** に設定します。 これにより、視覚化内の各データ要素の色が表示されます。 データ ポイントにポインターを合わせるとスクロールが有効になり、任意のデータ ポイントを変更できるようになります。
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_5.png)
 
@@ -83,7 +83,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 次のセクションでは、ある数値に基づいて色を決めるためのさまざまな方法を示します。
 
 ## <a name="base-the-color-of-data-points-on-a-value"></a>データ ポイントの色を 1 つの値に基づいて決める
-1 つの値に基づいて色を変更するには、色の基準となるフィールドを、 **[フィールド]** ウィンドウの **\[Color Saturation] \(色の彩度)** 領域にドラッグします。 次の図では、 **Profit before tax (税引き前利益)** が **\[Color Saturation] \(色の彩度)**にドラッグされています。 グラフを見れば分かるように、 **Velo** の方が **Gross Sales (総売上)** は高い (縦棒がより高い) ものの、 **Amarilla** の方が **Profit before tax (税引き前利益)** はより大きくなっています (縦棒の色の彩度が高い)。
+1 つの値に基づいて色を変更するには、色の基準となるフィールドを、 **[フィールド]** ウィンドウの **\[Color Saturation] \(色の彩度)** 領域にドラッグします。 次の図では、 **Profit before tax (税引き前利益)** が **\[Color Saturation] \(色の彩度)** にドラッグされています。 グラフを見れば分かるように、 **Velo** の方が **Gross Sales (総売上)** は高い (縦棒がより高い) ものの、 **Amarilla** の方が **Profit before tax (税引き前利益)** はより大きくなっています (縦棒の色の彩度が高い)。
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_9.png)
 
@@ -94,7 +94,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_10.png)
 
-異なる範囲の色を使用するためにスケールを変更するには、 **[最小]** または **[最大]**の横にある色のドロップダウンを選んでから、色を選びます。 次の図では、黒に変更された **[最大]** の色が示され、グラデーション バーには、**[最小]** と **[最大]** の間に新しい色のスペクトルが示されています。
+異なる範囲の色を使用するためにスケールを変更するには、 **[最小]** または **[最大]** の横にある色のドロップダウンを選んでから、色を選びます。 次の図では、黒に変更された **[最大]** の色が示され、グラデーション バーには、**[最小]** と **[最大]** の間に新しい色のスペクトルが示されています。
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_11.png)
 
@@ -113,7 +113,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 ## <a name="use-diverging-color-scales"></a>[左右逆方向] のカラー スケールを使用する
 データに、もともと左右逆方向の尺度がある場合があります。 たとえば、温度の範囲には氷点に中央があり、収益性スコアには中間点 (ゼロ) があります。
 
-左右逆方向のカラー スケールを使用するには、 **[左右逆方向]** スライダーを **[オン]**にスライドさせます。 **[左右逆方向]** がオンの場合、追加のカラー セレクターと値ボックス (ともに **[中央]**という) が次の図のように表示されます。
+左右逆方向のカラー スケールを使用するには、 **[左右逆方向]** スライダーを **[オン]** にスライドさせます。 **[左右逆方向]** がオンの場合、追加のカラー セレクターと値ボックス (ともに **[中央]** という) が次の図のように表示されます。
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_14.png)
 

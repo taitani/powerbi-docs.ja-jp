@@ -1,15 +1,15 @@
 ---
-title: "Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件"
-description: "ここでは、Power BI レポート サーバーをインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。"
+title: Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件
+description: ここでは、Power BI レポート サーバーをインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 44a1af1553aaa28a5f4abab13bad1fafa040003a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 26710c6a19ea4f9389718bea51ffff82dfadd3eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件
 ここでは、Power BI レポート サーバーをインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。
@@ -65,7 +65,7 @@ Power BI レポート サーバーは、既定値をインストールして、�
  レポート サーバーは読み取り専用ドメイン コント ローラー (RODC) が存在する環境にインストールできますが、Reporting Services が正常に機能するには、読み取り/書き込み可能なドメイン コントローラーへのアクセスが必要です。 Reporting Services が RODC にしかアクセスできない場合は、サービスを管理しようとするとエラーが発生する可能性があります。
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI レポートおよび Analysis Services のライブ接続
-表形式または多次元インスタンスに対してライブ接続を使用することができます。 Analysis Services サーバーが正常に動作するには、適切なバージョンとエディションを満たす必要があります。
+表形式または多次元インスタンスに対してライブ接続を使用することはできません。 Analysis Services サーバーが正常に動作するには、適切なバージョンとエディションを満たす必要があります。
 
 | **サーバーのバージョン** | **必要な SKU** |
 | --- | --- |
@@ -76,7 +76,7 @@ Power BI レポート サーバーは、既定値をインストールして、�
 ## <a name="next-steps"></a>次の手順
 [ユーザー向けハンドブック](user-handbook-overview.md)  
 [管理者向けハンドブック](admin-handbook-overview.md)  
-[クイックスタート: Power BI レポート サーバーをインストールする](quickstart-install-report-server.md)  
+[Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
 

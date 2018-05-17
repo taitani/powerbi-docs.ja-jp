@@ -1,5 +1,5 @@
 ---
-title: KPI ビジュアル (チュートリアル)
+title: KPI ビジュアル
 description: Power BI サービスおよび Power BI Desktop で KPI を作成します
 services: powerbi
 documentationcenter: ''
@@ -19,13 +19,13 @@ ms.workload: powerbi
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 92fafc120e34fc3f11d203ca784189f037ad5a7f
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="kpi-visuals-tutorial"></a>KPI ビジュアル (チュートリアル)
+# <a name="kpi-visuals"></a>KPI ビジュアル
 主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 KPI の詳細については、[Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050) を参照してください。
 
 ## <a name="when-to-use-a-kpi"></a>KPI を使用する場合

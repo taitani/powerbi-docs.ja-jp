@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 6dad138407c80a1caab8b3aca4668504bdf2c382
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD アプリを登録して Power BI コンテンツを埋め込む
 埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory (Azure AD) 内にアプリケーションを登録する方法を説明します。
@@ -71,9 +71,6 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 * **[必要なアクセス許可]** を選びます。
 * **[Power BI サービス]** を選んで、アプリ登録サイトから選んだアクセス許可を確認します。
 * **[アクセス許可の付与]** を選びます。
-
-
-
 
 カスタム アプリケーションの一部として登録済みのアプリケーションを使用して Power BI サービスと対話できるようになりました。
 

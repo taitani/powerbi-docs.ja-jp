@@ -1,15 +1,15 @@
 ---
-title: "How to find your report server product key (レポート サーバーのプロダクト キーを検索する方法)"
-description: "運用環境にインストールするのに必要な Power BI レポート サーバー プロダクト キーの検索方法について説明します。"
+title: How to find your report server product key (レポート サーバーのプロダクト キーを検索する方法)
+description: 運用環境にインストールするのに必要な Power BI レポート サーバー プロダクト キーの検索方法について説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: ff2e515823cbaa726fbdf72d1cb398381ea69363
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b1bfbdc635c0abba7e6d14567c3e839fd6a0c716
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>How to find your report server product key (レポート サーバーのプロダクト キーを検索する方法)
 運用環境にインストールするのに必要な Power BI レポート サーバー プロダクト キーの検索方法について説明します。
@@ -52,7 +52,7 @@ SQL Server Enterprise SA 契約がある場合は、[ボリューム ライセ�
 ![](media/find-product-key/vlsc-download.png "ボリューム ライセンス サービス センター")
 
 ## <a name="next-steps"></a>次の手順
-[クイックスタート: Power BI レポート サーバーをインストールする](quickstart-install-report-server.md)  
+[Power BI レポート サーバーのインストール](install-report-server.md)  
 [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  
 [レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)

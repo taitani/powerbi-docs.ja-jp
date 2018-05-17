@@ -1,14 +1,14 @@
 ---
-title: "X 軸と Y 軸のプロパティのカスタマイズ (チュートリアル)"
-description: "チュートリアル: X 軸と Y 軸のプロパティのカスタマイズ"
+title: X 軸と Y 軸のプロパティのカスタマイズ
+description: X 軸と Y 軸のプロパティのカスタマイズ
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
+backup: ''
 featuredvideoid: 9DeAKM4SNJM
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/16/2017
 ms.service: powerbi
@@ -19,13 +19,13 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4156429b728718fa89131a46ebd0f5dd5aabf67
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: be31751c8ca6efb4e7b2dbcbd0215a1c7d002df5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="customize-x-axis-and-y-axis-properties-tutorial"></a>X 軸と Y 軸のプロパティのカスタマイズ (チュートリアル)
+# <a name="customize-x-axis-and-y-axis-properties"></a>X 軸と Y 軸のプロパティのカスタマイズ
 このチュートリアルでは、視覚化に含まれる X 軸と Y 軸をカスタマイズする、さまざまな方法について説明します。 ただし、軸のない視覚化や、カスタマイズできない視覚化もあります。たとえば、円グラフに軸はありません。 カスタマイズのオプションは視覚化によって異なるため、数が多すぎて 1 つの記事では扱いきれません。 そこで、よく使われる軸のカスタマイズをいくつか見ていくほか、Power BI レポート キャンバスで使用する視覚的な書式設定タブについて説明します。  
 
 > [!NOTE]
@@ -124,7 +124,7 @@ Power BI サービスにサインインし、**小売りの分析のサンプル
 ### <a name="add-titles-to-both-axes"></a>両方の軸にタイトルを追加する
 この複雑な視覚化には、軸のタイトルの追加が有用です。  タイトルにより、同僚は視覚化の内容を理解しやすくなります。
 
-1. **「Y 軸 (棒)」** と **「Y 軸 (折れ線)」** の**[タイトル]** を **[オン]** に切り替えます。
+1. **「Y 軸 (棒)」** と **「Y 軸 (折れ線)」** の **[タイトル]** を **[オン]** に切り替えます。
 2. **[スタイル]** を **[タイトルの表示のみ]** に設定します。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>クイック メジャーを使用して一般的で強力な計算を簡単に実行する
 **クイック メジャー**を使用し、一般的で強力な計算を簡単に実行できます。 **クイック メジャー**は、ダイアログ ボックスで指定された入力に基づいて、一連の DAX コマンドをバックグラウンドで実行し (DAX は自動的に作成されるので、自分で記述する必要はありません)、レポートで使える結果を提供します。 何より、クイック メジャーによって実行される DAX を参照でき、すぐに始めたり、自分の DAX の知識を広げたりすることができます。
@@ -43,8 +43,6 @@ ms.lasthandoff: 03/30/2018
 **クイック メジャー**を作成するには、**Power BI Desktop** の **[フィールド]** ウェル内のフィールド (任意のフィールド) を右クリックして、表示されるメニューから **[クイック メジャー]** を選びます。
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-**クイック メジャー**を使うには、現在読み込まれているデータセットでモデリングが使用できる必要があります。 そのため、ライブ接続 (Power BI サービス データセットへの接続など) では、**[フィールド]** リストを右クリックしても **[クイック メジャー]** メニュー項目は表示されません (SSAS ライブ接続を除きます)。 
 
 SQL Server Analysis Services (SSAS) ライブ接続を使っているときは、一部の**クイック メジャー**を利用できます。 **Power BI Desktop** には、接続している SSAS のバージョンでサポートされる**クイック メジャー**のコレクションのみが表示されます。 したがって、SSAS ライブ データ ソースに接続していて、特定の**クイック メジャー**が一覧に表示されない場合は、その**クイックメジャー**の実装に使われる DAX メジャーを、接続している SSAS のバージョンがサポートしていないためです。
 
@@ -141,9 +139,10 @@ SQL Server Analysis Services (SSAS) ライブ接続を使っているときは�
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 注意すべきいくつかの制限事項と考慮事項があります。
 
-* **クイック メジャー**は、モデルを変更できる場合にのみ使うことができます。したがって、DirectQuery やほとんどのライブ接続 (前に説明したように SSAS ライブ接続はサポートされます) を使っているときは利用できません。
+* **クイック メジャー**は、モデルを変更できる場合にのみ使うことができます。したがって、一部のライブ接続を使っているときは利用できません (前に説明したように SSAS 表形式ライブ接続はサポートされます)。
 * **[フィールド]** ウェルに追加されたメジャーは、レポートのすべてのビジュアルで使用できます。
 * **[フィールド]** ウェルで作成されたメジャーを選び、**数式バー**の式を見ることによって、**クイック メジャー**に関連付けられた DAX をいつでも確認できます。
+* DirectQuery モードで作業しているときは、タイム インテリジェンス クイック メジャーを作成することはできません。 これらのクイック メジャーで使用される DAX 関数では、データ ソースに送信される T-SQL ステートメントに変換されるときに、パフォーマンスに影響があります。
 
 > [!WARNING]
 > クイック メジャーで生成される DAX ステートメントでは、現在、引数の区切り記号としてコンマ*のみ*が使用されます。 **Power BI Desktop** のローカライズ先の言語で、コンマが小数点記号として使用されていると、クイック メジャーは正しく動作しません。
@@ -151,7 +150,7 @@ SQL Server Analysis Services (SSAS) ライブ接続を使っているときは�
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>タイム インテリジェンスとクイック メジャー
-**Power BI Desktop** の 2017 年 10 月の更新プログラム以降では、タイム インテリジェンス **クイック メジャー**で独自のカスタム日付テーブルを使うことができます。 データ モデルにカスタム日付テーブルがある場合、タイム インテリジェンス クイック メジャーでそのテーブル内のプライマリ日付列を使うことができます。 [こちらの記事](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)で説明されているように、モデルを作成するときに、そのテーブルのプライマリ日付列が日付テーブルとしてマークされたことを、確認する "*必要があります*"。
+**Power BI Desktop** の 2017 年 10 月の更新プログラム以降では、タイム インテリジェンス **クイック メジャー**で独自のカスタム日付テーブルを使うことができます。 外部の表形式モデルを使用している場合は、[こちらの記事](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)で説明されているように、モデルを作成するときに、そのテーブルのプライマリ日付列が日付テーブルとしてマークされたことを確認します。 独自の日付テーブルをインポートしている場合は、[こちらの記事](https://docs.microsoft.com/power-bi/desktop-date-tables)で説明されているように、日付テーブルとしてマークします
 
 ### <a name="additional-information-and-examples"></a>その他の情報と例
 各**クイック メジャー**の計算に関する例とガイダンスを提供する予定なので、該当する記事を確認してください。

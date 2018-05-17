@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: cc66655e49860160b43afa5d1acb688c37468212
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: f5eb26eee9bedbdd804dfba1912a1aa328310816
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop でのデータ分類
 **Power BI Desktop** では、ユーザーが列に対してデータ カテゴリを指定すれば、Power BI Desktop が視覚化するときにその列の値をどのように扱うべきかを自動的に見極めます。

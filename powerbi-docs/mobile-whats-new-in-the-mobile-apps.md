@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 381cfeaf8e117cfdc952e361cd0e6cb633b65f47
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -271,7 +271,7 @@ Apple Watch のデータを Watch アプリから直接更新できるように�
 #### <a name="android-devices"></a>Android デバイス
 **プレビュー: Intune モバイル アプリケーション管理** Android デバイスで Power BI Pro を使用している場合、Microsoft Intune モバイル アプリケーション管理 (MAM) の Power BI プレビューをプレビューできます。 
 
-**お気に入り** Android デバイスでお気に入りのダッシュボードにタグを付けてください。[お気に入りの Power BI ダッシュボード、Reporting Services モバイル レポート、KPI](mobile-android-tablet-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) がすべて 1 つの場所に集められ、表示されるので便利です。 
+**お気に入り** Android デバイスでお気に入りのダッシュボードにタグを付けてください。[お気に入りの Power BI ダッシュボード、Reporting Services モバイル レポート、KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) がすべて 1 つの場所に集められ、表示されるので便利です。 
 
 #### <a name="ios-devices"></a>iOS デバイス
 **リンク** タイルと視覚エフェクトの URL をクリックできるようになりました。ブラウザーで開くことができます。

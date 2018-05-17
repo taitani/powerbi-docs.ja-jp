@@ -1,15 +1,15 @@
 ---
-title: "Power BI レポートを使用するために Kerberos を構成する"
-description: "分散環境用の Power BI レポートで使用されるデータ ソースに対して Kerberos 認証を使うようにレポート サーバーを構成する方法を説明します。"
+title: Power BI レポートを使用するために Kerberos を構成する
+description: 分散環境用の Power BI レポートで使用されるデータ ソースに対して Kerberos 認証を使うようにレポート サーバーを構成する方法を説明します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 70d4992ad4680d2a412a6bdded895f4248f5dab1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 8a99f4d07b17ae1a8d260c1655dfbb948f76c317
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI レポートを使用するために Kerberos を構成する
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -202,7 +202,7 @@ SetSPN ツールを使って SPN を追加できます。 この例では、コ�
 6. 新しいダイアログで、**[ユーザーまたはコンピューター]** を選択します。
 7. Analysis Services サービスのサービス アカウントを入力し、**[OK]** を選択します。
 8. 作成した SPN を選択します。 `MSOLAPSvc.3` で始まるものです。 FQDN と NetBIOS 両方の SPN を追加した場合は、両方とも選択します。 1 つだけしか表示されない場合があります。
-9. **[OK]**を選択します。  リストに SPN が表示されます。
+9. **[OK]** を選択します。  リストに SPN が表示されます。
 10. 必要に応じて、**[展開済み]** を選択してリストの FQDN SPN と NetBIOS SPN を両方表示できます。
 11. **[追加]** を再び選択します。 今度は SQL Browser の SPN を追加します。
 12. 新しいダイアログで、**[ユーザーまたはコンピューター]** を選択します。
@@ -223,7 +223,7 @@ SetSPN ツールを使って SPN を追加できます。 この例では、コ�
 
 ## <a name="next-steps"></a>次の手順
 [管理者向けハンドブック](admin-handbook-overview.md)  
-[クイックスタート: Power BI レポート サーバーをインストールする](quickstart-install-report-server.md)  
+[Power BI レポート サーバーのインストール](install-report-server.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 
