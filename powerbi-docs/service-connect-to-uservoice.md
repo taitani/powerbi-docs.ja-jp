@@ -1,28 +1,20 @@
 ---
 title: Power BI で UserVoice に接続する
 description: Power BI 用 UserVoice
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc55031358fe27b5bb935b8255c8b6b1c191d4ab
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Power BI で UserVoice に接続する
 UserVoice データの追跡と探索は、Power BI と UserVoice コンテンツ パックを使えば簡単に行えます。 Power BI は、チケット、提案と満足度の評価などのデータを取得してから、そのデータに基づいて、すぐに使えるダッシュボードとレポートを作成します。
@@ -42,7 +34,7 @@ Power BI 用 [UserVoice コンテンツ パック](https://app.powerbi.com/getda
 3. **[UserVoice]**、**[接続]** の順に選びます。
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. ダイアログ ボックスが表示されたら、UserVoice の URL を入力します。 URL は、次のパターンに厳密に従う必要があります: https://fabrikam.uservoice.com 。ここで、"fabrikam" を製品名またはサービス名に置き換えます。
+4. ダイアログ ボックスが表示されたら、UserVoice の URL を入力します。 URL は、次のパターンに厳密に従う必要があります: https://fabrikam.uservoice.com。ここで、"fabrikam" を製品名またはサービス名に置き換えます。
    
    >[!NOTE]
    >末尾にスラッシュはなく、接続は http**s** です。
@@ -70,7 +62,7 @@ Power BI 用 [UserVoice コンテンツ パック](https://app.powerbi.com/getda
 
 UserVoice URL を入力したらこのエラーが表示された場合。 次の要件を満たしていることを確認します。
 
-* URL が "https://fabrikam.uservoice.com" のパターンに厳密に従っている。 ここで "fabrikam" を正しい UserVoice URL プレフィックスに置き換えます。
+* URL が厳密にこの "https://fabrikam.uservoice.com" のパターンに従っています。ここで "fabrikam" を正しい UserVoice URL プレフィックスに置き換えます。
 * すべての文字が小文字であることを確認してください。
 * URL が 'http**s**' であることをご確認ください。
 * URL の末尾にスラッシュ (/) がないことを確認してください。

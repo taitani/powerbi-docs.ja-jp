@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop でレポートのテーマを使用する (プレビュー)
 description: ユーザー設定の色パレットを使用し、Power BI Desktop でレポート全体に適用する方法について説明します。
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop でレポートのテーマを使用する (プレビュー)
 **レポートのテーマ**では、企業の色、季節の色、または適用する可能性がある他の色のテーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。
@@ -149,7 +141,7 @@ JSON ファイルを作成する利点はさまざまです。 たとえば、�
 
 * **name** - これはテーマ名で、唯一の必須フィールドです。
 * **dataColors** - Power BI Desktop ビジュアルのデータで使用する色の 16 進コードのリストです。 このリストには、必要な数の色を含めることができます。
-* **background**、**foreground**、**tableAccent** - これらの値は、**テーブル**および**マトリックス** ビジュアルで使用する必要がある色です。 これらの色の使用方法は、適用される特定のテーブルまたはマトリックスのスタイルによって異なります。 **テーブル** ビジュアルおよび**マトリックス** ビジュアルには、既定ではこれらのスタイルが適用されます。
+* **background**、**foreground**、**tableAccent** - これらの値は、さまざまな種類のビジュアルで適用される必要がある色です。 **foreground** はテキストボックス テキスト、KPI 目標テキスト、複数行カード テキスト、カード値テキスト、ゲージ吹き出しテキスト、垂直スライサー要素テキスト、**テーブル**と**マトリックス** の合計と値のテキストに適用されます。 **background** はボタン入力の塗りつぶしとコンボ チャート ラベルの背景に適用されます。 これらの色の使用方法は、適用される特定のビジュアルのスタイルによって異なります。 **テーブル** ビジュアルおよび**マトリックス** ビジュアルには、既定ではこれらのスタイルが適用されます。
 
 書式設定がより細かく制御された拡張形式 JSON ファイルを作成するには、JSON ファイルに **visualStyles** セクションを追加し、そのセクションに書式設定の詳細を入れ子にします。 **visualStyles** セクションの書式は次のようになります。
 

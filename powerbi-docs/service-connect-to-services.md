@@ -1,28 +1,20 @@
 ---
 title: Power BI で使用するサービスに接続する
 description: Salesforce、Microsoft Dynamics CRM、Google Analytics など、ビジネスに使用するさまざまなサービスに接続します。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c1df66100206198f3de32bea9859261d51d3774d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI で使用するサービスに接続する
 Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用するさまざまなサービスに接続できます。 Power BI は最初に資格情報でサービスに接続し、それからダッシュボードと一連の Power BI レポートで Power BI アプリを作成します。Power BI レポートにはデータが自動的に表示され、ビジネスに関する洞察が視覚的に提示されます。 

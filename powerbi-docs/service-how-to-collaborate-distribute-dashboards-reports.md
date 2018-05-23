@@ -1,28 +1,20 @@
 ---
 title: Power BI で共同作業および共有を行う方法
 description: Power BI では、ダッシュボード、レポート、タイル、アプリに対してさまざまな方法で共同作業を行い、共有できます。 それぞれに利点があります。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: lukaszp
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 02/28/2017
+ms.reviewer: lukaszp
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: adcba818f60a66ecc4be5827e1ce7688618d0c72
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI で共同作業および共有を行う方法
 

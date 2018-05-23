@@ -1,28 +1,20 @@
 ---
 title: Power BI で Microsoft Dynamics に接続する
 description: Power BI 用 Microsoft Dynamics CRM
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e7bfb936bdff4ba7ddd5097c3f59003d48c70347
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI で Microsoft Dynamics CRM に接続する
 Power BI 用 Microsoft Dynamics CRM Online を利用すれば、簡単にデータにアクセスし、分析できます。 Power BI は、OData フィードを使用して記述モデルを作成します。その際、必要なすべてのエンティティやメジャー (取引先企業、活動、営業案件、製品、潜在顧客、ユーザーなど) を含めます。 アプリをインストールすると、Power BI サービス ([https://powerbi.com](https://powerbi.com)) と Power BI モバイル アプリでダッシュボードとレポートを表示できます。 
@@ -40,7 +32,7 @@ Dynamics CRM Online [営業マネージャー](https://msit.powerbi.com/groups/m
 2. アカウントと関連付けられているサービスの URL を指定します。  これは、`https://company.crm.dynamics.com` のような形式になります。詳細については、[下の説明](#FindingParams)を参照してください。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. メッセージが表示されたら、資格情報を指定します (ブラウザーで既にサインインしている場合、この手順は省略される可能性があります)。 認証方式として、「 **oAuth2** 」と入力し、 **[サインイン]**をクリックします。
+3. メッセージが表示されたら、資格情報を指定します (ブラウザーで既にサインインしている場合、この手順は省略される可能性があります)。 認証方式として、「 **oAuth2** 」と入力し、 **[サインイン]** をクリックします。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
 4. 接続後、営業マネージャーまたはサービス マネージャー向けにカスタマイズされたダッシュボードが表示されます。そのダッシュボードには、独自のデータが格納されています。

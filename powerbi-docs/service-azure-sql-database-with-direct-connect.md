@@ -1,28 +1,20 @@
 ---
 title: Azure SQL Database と DirectQuery
 description: Azure SQL Database と DirectQuery
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a32326c089c50ef4913f6d646d68d66e31efdbfc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database と DirectQuery
 Azure SQL Database に直接接続し、ライブ データを使用するレポートを作成する方法について説明します。 Power BI ではなくソースにデータを保持できます。
@@ -36,12 +28,12 @@ DirectQuery を使用すると、レポート ビューでデータを調べる�
 * 列の選択、フィルターの追加など、どの操作によってもクエリがデータベースに送り返されます。
 * タイルは、1 時間ごとに更新されます (更新をスケジュール設定する必要はありません)。 この動作は、接続するときに [詳細] 設定で調整できます。
 * DirectQuery データセットの Q&A は使用できません。
-* スキーマの変更が自動的に選択されることはありません。
+* スキーマ変更は自動選択されません。
 
 これらの制限および注意事項については、エクスペリエンスの向上に伴い変更される可能性があります。 接続するための手順の詳細を以下に示します。 
 
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop と DirectQuery
-DirectQuery を使用して Azure SQL Database に接続するには、Power BI Desktop を使用する必要があります。 この方法はさらに柔軟性と機能が向上します。 Power BI Desktop を使用して作成したレポートを、Power BI サービスに発行できます。 Power BI Desktop で DirectQuery を使用して Azure SQL Database に接続する方法の詳細については、「[Power BI Desktop の DirectQuery](desktop-use-directquery.md)」をご覧ください。 
+DirectQuery を使用して Azure SQL Database に接続するには、Power BI Desktop を使用する必要があります。 この方法でさらに柔軟性と機能が向上します。 Power BI Desktop を使用して作成したレポートを、Power BI サービスに発行できます。 Power BI Desktop で DirectQuery を使用して Azure SQL Database に接続する方法の詳細については、「[Power BI Desktop の DirectQuery](desktop-use-directquery.md)」をご覧ください。 
 
 ## <a name="single-sign-on"></a>シングル サインオン
 

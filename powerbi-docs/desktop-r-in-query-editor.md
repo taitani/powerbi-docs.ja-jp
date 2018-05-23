@@ -1,28 +1,20 @@
 ---
 title: Power BI クエリ エディターで R を使用する
 description: Power BI Desktop クエリ エディターで R を使用し、高度な分析を行う
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6f5121de914938c78d4eef8a180cabad5e50236d
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 091f17e89bd4fb9658e777f63ac2017239e32b71
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="using-r-in-query-editor"></a>クエリ エディターで R を使用する
 Power BI Desktop **クエリ エディター**では、統計学者、データ科学者、データ分析官によって広く使用されているプログラミング言語、**R** を使用できます。 R と**クエリ エディター**を統合することで、R によるデータ クレンジングを実行したり、データセットで高度なデータ シェイプ/データ分析 (失ったデータを埋める、予測、クラスター化など) を実行したりできます。 **R** は高度な言語であり、**クエリ エディター**で使用し、データ モデルを用意したり、レポートを作成したりできます。

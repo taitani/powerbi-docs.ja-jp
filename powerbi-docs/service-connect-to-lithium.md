@@ -1,28 +1,20 @@
 ---
 title: Power BI で Lithium に接続する
 description: Power BI 用 Lithium
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 501395503ef3c4b3bde8e6d7f0ae732af5a4cc6a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1d41ce3ff0c73675793e872170914b96a1d73d14
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Power BI で Lithium に接続する
 Lithium は、人々が回答を得たり、エクスペリエンスを共有したりするのを手助けして、世界最高のブランドと顧客との間に信頼関係を築きます。 Lithium コンテンツ パックを Power BI に接続してオンライン コミュニティに関する主要指標を測定すると、販売の促進、サービス コストの削減、ロイヤルティの向上に役立ちます。 
@@ -42,7 +34,7 @@ Power BI 用 [Lithium コンテンツ パック](https://app.powerbi.com/getdata
 3. **[Lithium]** \> **[取得]** の順に選択します。
    
    ![](media/service-connect-to-lithium/lithiumconnect.png)
-4. Lithium コミュニティの URL を指定します。 *https://community.yoursite.com* の形式になります。
+4. Lithium コミュニティの URL を指定します。 *https://community.yoursite.com* という形式になります。
    
    ![](media/service-connect-to-lithium/params.png)
 5. ダイアログが表示されたら、Lithium の資格情報を入力します。 認証方式として **[oAuth 2]** を選び、 **[サインイン]** をクリックして、Lithium 認証フローに従います。

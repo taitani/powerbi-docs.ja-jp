@@ -1,28 +1,20 @@
 ---
 title: Power BI で Project Madeira に接続する
 description: Power BI 用 Project Madeira
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI で Project "Madeira" に接続する
 Power BI と Project “Madeira” コンテンツ パックを使用すると、Project “Madeira” データの洞察を簡単に取得できます。 Power BI は、売上と財務の両方のデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
@@ -36,7 +28,7 @@ Power BI 用 [Project "Madeira" Analytics コンテンツ パック](https://app
 ## <a name="how-to-connect"></a>接続する方法
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。  
     ![](media/service-connect-to-project-madeira/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。  
+2. **[サービス]** ボックスで、 **[取得]** を選択します。  
     ![](media/service-connect-to-project-madeira/services.png)
 3. **[Project "Madeira"]** を選択し、**[取得]** を選択します。  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)

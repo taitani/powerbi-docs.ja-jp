@@ -1,28 +1,20 @@
 ---
 title: Power BI での R スクリプトの使用および作成をサポートしている R パッケージを理解する
 description: Power BI でのサポート対象およびサポート非対象の R パッケージ
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c4ff69bff3c65fa64f90184668d34fac5a82815f
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 39c6c11e4815df507431648b1d317f9a62a4b1c3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI サービスの R パッケージ
 Power BI サービスでビジュアルを作成するには、強力な [R プログラミング言語](https://www.r-project.org/)を使用できます。 多くの R パッケージが Power BI サービスでサポートされています (また、常にサポート対象は増えています) が、一部のパッケージはサポートされていません。

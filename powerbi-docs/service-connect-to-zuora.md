@@ -1,28 +1,20 @@
 ---
 title: Power BI で Zuora に接続する
 description: Power BI 用 Zuora
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2f7e4c666cf6ec3cb69424a3922f5feedd61bf89
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Power BI で Zuora に接続する
 Power BI 用 Zuora を使用すると、重要な売上、請求、およびサブスクリプションのデータを視覚化できます。 既定のダッシュボードとレポートを使用して、使用傾向の分析、請求と支払の追跡、経常収益の監視を行えます。さらに、ダッシュボードとレポートの独自のニーズに応じるためのカスタマイズも可能です。
@@ -39,7 +31,7 @@ Power BI 用 [Zuora](https://app.powerbi.com/getdata/services/Zuora) に接続�
 3. **[Zuora]** \> **[取得]** の順に選択します。
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Zuora URL を指定します。 通常は、"https://www.zuora.com" です。[これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
+4. Zuora URL を指定します。 これは通常、"https://www.zuora.com" です。[これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
 
    ![](media/service-connect-to-zuora/params.png)
 5. **[認証方式]** で、 **[基本]** を選択し、ユーザー名とパスワード (大文字小文字を区別) を入力し、 **[サインイン]** を選択します。

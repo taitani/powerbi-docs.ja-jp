@@ -1,27 +1,19 @@
 ---
-title: "OAuth を使って Reporting Services に接続する"
-description: "Reporting Services 2016 以降に接続するため、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。"
-services: powerbi
-documentationcenter: 
+title: OAuth を使って Reporting Services に接続する
+description: Reporting Services 2016 以降に接続するため、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: f32fd9585c28fc9a837bea80b57d23f9725a6b49
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="using-oauth-to-connect-to-reporting-services"></a>OAuth を使って Reporting Services に接続する
 Reporting Services 2016 以降に接続するため、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。

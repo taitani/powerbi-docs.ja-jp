@@ -1,28 +1,20 @@
 ---
 title: Power BI で Acumatica に接続する
 description: Power BI 用 Acumatica
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: af1a34d280aaa1a795a7a2490c97874e0c4d1838
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI で Acumatica に接続する
 Power BI Acumatica コンテンツ パックを使用すると、短時間で営業案件に関するデータについての洞察が得られます。 Power BI は、営業案件、アカウント、顧客などのデータを取得し、そのデータに基づいて既定のダッシュボードと関連レポートを作成します。
@@ -36,7 +28,7 @@ Power BI Acumatica コンテンツ パックを使用すると、短時間で営
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-acumatica/getdata3.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-acumatica/getdata2.png)
 3. **[Acumatica]** \> **[取得]** の順に選択します。
@@ -49,7 +41,7 @@ Power BI Acumatica コンテンツ パックを使用すると、短時間で営
    会社名が必要となるのは、複数の会社展開を行っている場合のみです。 Acumatica アカウントにおけるこのパラメーターの見つけ方について詳しくは、以下をご覧ください。
    
    ![](media/service-connect-to-acumatica/parameters.png)
-5. 認証方法として **[基本]**を選択します。 Acumatica アカウントのユーザー名とパスワードを入力し、 **[サインイン]**をクリックします。
+5. 認証方法として **[基本]** を選択します。 Acumatica アカウントのユーザー名とパスワードを入力し、 **[サインイン]** をクリックします。
    
     ![](media/service-connect-to-acumatica/creds2.png)
 6. Power BI によるデータのインポート後、新しいダッシュ ボード、レポート、データセットが左側のナビゲーション ウィンドウに表示されます。 新しい項目には、黄色のアスタリスク \* が付きます。その項目を選択するとアスタリスクは消え、ダッシュボードを選択すると次の例のようなレイアウトで表示されます。
@@ -73,7 +65,7 @@ Acumatica OData エンドポイントは次の形式で、HTTPS を使用する�
 
     https://[sitedomain]/odata/[companyname]
 
-アプリケーション サイト ドメインは、Acumatica にサインインしているときに、ブラウザーのアドレス バーに表示されます。 次の例では、サイト ドメインは "https://pbi.acumatica.com" です。そのため、指定する OData エンドポイントは "https://pbi.acumatica.com/odata" となります。
+アプリケーション サイト ドメインは、Acumatica にサインインしているときに、ブラウザーのアドレス バーに表示されます。 次の例では、サイト ドメインが "https://pbi.acumatica.com" であるため、指定する OData エンドポイントは "https://pbi.acumatica.com/odata" になります。
 
  ![](media/service-connect-to-acumatica/url.png)
 

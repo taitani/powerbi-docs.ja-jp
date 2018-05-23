@@ -1,27 +1,19 @@
 ---
 title: Power BI レポート サーバーのインストール
 description: Power BI レポート サーバーのインストール方法について説明します。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 8b8bb3867ec1630dc5163148e4aa20e10c0504b7
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: a0fc47776cd0eaceb4a03a99bc27b88b04da398d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
@@ -58,7 +50,7 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 インストール時に SQL Server データベース エンジン サーバーが使用可能になっている必要はありません。 インストール後に Reporting Services を構成する必要があります。
 
 1. PowerBIReportServer.exe の場所を検索し、インストーラーを起動します。
-2. **[Install Power BI Report Server]**\(Power BI レポート サーバーのインストール\) を選択します。
+2. **[Install Power BI Report Server]** \(Power BI レポート サーバーのインストール\) を選択します。
    
     ![Power BI レポート サーバーのインストール](media/install-report-server/pbireportserver-install.png)
 3. インストールするエディションを選択し、**[次へ]** を選択します。
@@ -82,13 +74,13 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
    
     既定のパスは、C:\Program Files\Microsoft Power BI Report Server です。
 
-1. 正常にセットアップした後で、**[Configure Report Server]**\(レポート サーバーの構成\) を選択し、Reporting Services 構成マネージャーを起動します。
+1. 正常にセットアップした後で、**[Configure Report Server]** \(レポート サーバーの構成\) を選択し、Reporting Services 構成マネージャーを起動します。
    
     ![レポート サーバーを構成する](media/install-report-server/pbireportserver-configure.png)
 
 ## <a name="configuring-your-report-server"></a>レポート サーバーを構成する
 
-セットアップで **[Configure Report Server]**\(レポート サーバーの構成\) を選択した後で、Reporting Services 構成マネージャーが表示されます。 詳細については、「[Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)」(Reporting Services 構成マネージャー) を参照してください。
+セットアップで **[Configure Report Server]** \(レポート サーバーの構成\) を選択した後で、Reporting Services 構成マネージャーが表示されます。 詳細については、「[Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)」(Reporting Services 構成マネージャー) を参照してください。
 
 Reporting Services の初期構成を完了するには、[レポート サーバー データベースを作成する](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)必要があります。 この手順を完了するには、SQL Server データベース サーバーが必要です。
 

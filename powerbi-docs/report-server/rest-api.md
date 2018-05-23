@@ -1,27 +1,19 @@
 ---
-title: "Power BI レポート サーバーのリリース ノート"
-description: "REST API を使うと、Power BI Report Server カタログ内のオブジェクトにプログラムでアクセスできます。"
-services: powerbi
-documentationcenter: 
+title: Power BI レポート サーバーのリリース ノート
+description: REST API を使うと、Power BI Report Server カタログ内のオブジェクトにプログラムでアクセスできます。
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 554270d3b7bdbd3de88a7d5865dae8cdf226a6b2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Report Server 用の REST API を使って開発する
 Power BI Report Server は、Representational State Transfer (REST) API をサポートします。 REST API は、一連の HTTP 操作 (メソッド) をサポートするサービス エンドポイントであり、レポート サーバー内のリソースに対する作成、取得、更新、削除アクセスを提供します。

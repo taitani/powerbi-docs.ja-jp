@@ -1,27 +1,19 @@
 ---
-title: "Power BI モバイル アプリでデータ アラートを設定する"
-description: "ユーザーが設定した制限を超えてダッシュボードのデータが変化したときにユーザーに通知するように、Power BI モバイル アプリでアラートを設定する方法を説明します。"
-services: powerbi
-documentationcenter: 
+title: Power BI モバイル アプリでデータ アラートを設定する
+description: ユーザーが設定した制限を超えてダッシュボードのデータが変化したときにユーザーに通知するように、Power BI モバイル アプリでアラートを設定する方法を説明します。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: aa4aac1b0628fb0670a4265095ba2abcae3c1dcf
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータ アラートを設定する
 適用対象:
@@ -60,7 +52,7 @@ Power BI Pro のライセンスがある場合、または無料の Power BI ラ
    > 
    > 
 6. アラートのタイトルも変更できます。
-7. **[保存]**をタップします。
+7. **[保存]** をタップします。
 8. 1 つのタイルに、上限と下限両方のしきい値のアラートを設定できます。 **[アラートの管理]** で **[アラート ルールの追加]** をタップします。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
@@ -96,7 +88,7 @@ Power BI Pro のライセンスがある場合、または無料の Power BI ラ
    > 
    > 
 7. アラートのタイトルも変更できます。
-8. **[保存]**をタップします。
+8. **[保存]** をタップします。
 
 ### <a name="manage-alerts-on-an-android-device"></a>Android デバイスでアラートを管理する
 Power BI モバイル アプリでは個別のアラートを管理でき、[Power BI サービスではすべてのアラートを管理](service-set-data-alerts.md)できます。

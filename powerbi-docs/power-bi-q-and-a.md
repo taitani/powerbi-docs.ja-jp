@@ -1,34 +1,31 @@
 ---
 title: Power BI サービスと Power BI Desktop での Q&A の概要
 description: Power BI Q&A 自然言語クエリに関するドキュメントの概要トピックです。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop での Q&A
 ## <a name="what-is-qa"></a>Q&A とは
 自然言語を使用して質問するのが、データから回答を得る最も速い方法である場合があります。 たとえば、「昨年の総売り上げはいくらですか」という質問です。  Q&A を使用すると、直感的な自然言語の機能を使ってデータを調査し、チャートやグラフの形式で質問に対する回答を受け取ることができます。 Q&A は、検索エンジンとは異なります。Q&A は Power BI 内のデータに関する結果だけを提供します。
 
 Q&A を使うときは、まず始めにこの記事をお読みください。 Power BI サービス (ダッシュボードとレポート)、Power BI Desktop (レポート)、Power BI Embedded、Power BI モバイルでの Q&A の詳しい使い方については、後で示すリンクから該当するものを選んでください。  
+
+> [!NOTE]
+> **Power BI Q & A** は英語で寄せられた自然言語クエリの回答のみをサポートします。 スペイン語で寄せられた質問に対するプレビュー機能も試すことができます。 **Power BI Desktop** で、**[ファイル]**、**[オプションと設定]**、**[オプション]** の順に移動し、**[プレビュー機能]** タブを見つけます。**Q&A のスペイン語サポート**のボックスを選択します。  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

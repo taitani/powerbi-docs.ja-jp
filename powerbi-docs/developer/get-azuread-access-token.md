@@ -1,27 +1,19 @@
 ---
-title: "ユーザーを認証し、アプリケーション用の Azure AD アクセス トークンを取得する"
-description: "埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory 内にアプリケーションを登録する方法を説明します。"
-services: powerbi
-documentationcenter: 
+title: ユーザーを認証し、アプリケーション用の Azure AD アクセス トークンを取得する
+description: 埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory 内にアプリケーションを登録する方法を説明します。
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
-ms.openlocfilehash: 3ff0fa3c83654ac577e98e730dc68ce3686e1198
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 339390bba2e35101bdd42f7f51ab059473231575
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する
 Power BI アプリケーション内でユーザーを認証し、REST API で使うアクセス トークンを取得する方法について説明します。

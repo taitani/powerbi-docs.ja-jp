@@ -1,28 +1,20 @@
 ---
 title: Power BI での SAP HANA 用 DirectQuery
 description: SAP HANA で DirectQuery を使用する場合の考慮事項
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: c7978ee67d54aa919abaf0b40a80f1841ac7bf35
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery と SAP HANA
 **SAP HANA** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP HANA には 2 つの方法で接続できます。
@@ -118,7 +110,7 @@ DirectQuery を使用して SAP HANA に接続する (多次元ソースとし�
 
 * **[データの取得]** または **[クエリ エディター]** では、必要なデータを取得するのに、必要な列のみを含める必要があります。それは、結果がクエリになるという事実が反映された、SAP HANA に送信可能な妥当なクエリである必要があります。 たとえば、以降のビジュアルで必要になる可能性があるという考えから、列を数十選択した場合、DirectQuery の単純なビジュアルのサブセレクトで使用されている集計クエリにも、それらの数十の行が含まれることを意味します。これは、通常パフォーマンスを非常に低下させます。
   
-例を見てみましょう。 次の例では、**[データの取得]** ダイアログ ボックスで 5 つ列 (**CalendarQuarter**、**Color**、**LastName**、**ProductLine**、**SalesOrderNumber**) をメジャー *OrderQuantity* と共に選択した場合、後で作成する Min OrderQuantity を含む単純なビジュアルには、次の SAP HANA への SQL クエリが含まれることを意味します。 灰色の部分は、**[データの取得]** / **[クエリ エディター]** からのクエリを含むサブセレクトです。 このサブセレクトにより結果の基数が非常に多くなる場合、結果の SAP HANA のパフォーマンスが低下する可能性があります。  
+例を見てみましょう。 次の例では、**[データの取得]** ダイアログ ボックスで 5 つ列 (**CalendarQuarter**、**Color**、**LastName**、**ProductLine**、**SalesOrderNumber**) をメジャー *OrderQuantity* と共に選択した場合、後で作成する Min OrderQuantity を含む単純なビジュアルには、次の SAP HANA への SQL クエリが含まれることを意味します。 灰色の部分は、**[データの取得]** / **[クエリ エディター]** からのクエリを含むサブセレクトです。 このサブセレクトにより結果のカーディナリティが非常に多くなる場合、結果の SAP HANA のパフォーマンスが低下する可能性があります。  
 
 ![](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
 

@@ -1,27 +1,19 @@
 ---
-title: "Power BI Embedded からコンテンツを移行するためのコード スニペット"
-description: "ここでは、コンテンツの移行に必要な基本処理のコード スニペットを紹介します"
-services: powerbi
-documentationcenter: 
+title: Power BI Embedded からコンテンツを移行するためのコード スニペット
+description: ここでは、コンテンツの移行に必要な基本処理のコード スニペットを紹介します
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 8fbefc7f1b6a9841dcb9c3d34d850c7e8e392881
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI ワークスペース コレクションからコンテンツを移行するためのコード スニペット
 ここでは、コンテンツの移行に必要な基本処理のコード スニペットを紹介します。 各レポートの種類に関連するフローについては、「[Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md#content-migration)」をご覧ください。
@@ -149,7 +141,7 @@ SaaS に移行した後に PBIX を更新する場合の例です。
     }
 
     var basicCreds = new BasicCreds() { user = <sqldb_username>, pwd = <sqldb_password> };
-    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCreds = basicCreds };
+    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCredentials = basicCreds };
 
     var url = string.Format("https://api.powerbi.com/v1.0/myorg/gateways/{0}/datasources/{1}", <gateway_id>, <datasource_id>);
     var request = new HttpRequestMessage(new HttpMethod("PATCH"), url);

@@ -1,27 +1,19 @@
 ---
 title: Power BI モバイル アプリからダッシュボードまたはレポートを共有する
 description: Power BI モバイル アプリからリンクを共有することにより、ダッシュボードやレポートを見るよう他のユーザーを招待します。 ここでは、その方法について説明します。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5bbcf02dfb0c11ca605e0c07f2670bd3a3422e96
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 2e09af0a2baf00932ebe57d34b2e47f6d0287b3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI モバイル アプリからダッシュボードまたはレポートを共有する
 適用対象:
@@ -60,10 +52,10 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    * **[表示可能]**: 表示できますが、再共有はできません。
    * **[表示および招待可能]**: 表示し、他の仕事仲間と共有できます。
-1. **[編集]**をタップします。
+1. **[編集]** をタップします。
    
     ![[編集] アイコン](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-edit-invite-dashboard.png)
-4. 共有を解除するには、名前の横の赤い円をタップし、 **[削除]**をタップします。
+4. 共有を解除するには、名前の横の赤い円をタップし、 **[削除]** をタップします。
 
 ## <a name="share-from-your-ipad"></a>iPad から共有する
 1. ダッシュボードまたはレポートの右上隅にある **[共有]** アイコン ![[共有] アイコン](media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png) をタップします。
@@ -89,14 +81,14 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    * **[表示可能]**: 表示できますが、再共有はできません。
    * **[表示および招待可能]**: 表示し、他の仕事仲間と共有できます。
-2. **[編集]**をタップします。
-3. 共有を解除するには、名前の横の赤い円をタップし、 **[削除]**をタップします。
+2. **[編集]** をタップします。
+3. 共有を解除するには、名前の横の赤い円をタップし、 **[削除]** をタップします。
 
 ## <a name="share-from-your-android-device"></a>Android デバイスから共有する
 1. ダッシュボードまたはレポートのホーム ページで、省略記号 [...] をタップし、**[仕事仲間を招待]** をタップします。
    
    ![仕事仲間を招待](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
-2. または、ダッシュボードかレポートで、[招待] アイコン ![[招待] アイコン](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)をタップします。
+2. または、ダッシュボードかレポートで、[招待] アイコン ![[招待] アイコン](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
 
     ダッシュボードまたはレポートの所有者の場合は、このダッシュボードを共有している相手の仕事仲間の一覧が、次のような注記と一緒に表示されます。
 

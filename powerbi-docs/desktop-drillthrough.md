@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop でドリルスルーを使用する
 description: Power BI Desktop の新しいレポート ページでデータを掘り下げる方法について説明します。
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop でドリルスルーを使用する
 **Power BI Desktop** の**ドリルスルー**を利用すると、サプライヤー、顧客、メーカーなど、特定のエンティティに焦点を置くページをレポートに作成できます。 そのような集中ページを作成した状態で、他のレポート ページでデータ ポイントを右クリックし、集中ページまでドリルスルーし、その文脈に合わせて絞り込んだ詳細を取得できます。
@@ -71,6 +63,14 @@ ms.lasthandoff: 05/09/2018
 ![斜体の一時的なフィルター](media/desktop-drillthrough/drillthrough_07.png)
 
 ツールヒント ページでこれを行うこともできますが、悪い影響があるので (ツールヒントが正常に機能しません)、ツールヒントで行うことはお勧めしません。
+
+## <a name="add-a-measure-to-drillthrough"></a>ドリルスルーにメジャーを追加する
+
+ドリルスルー ウィンドウにすべてのフィルターを渡すだけでなく、ドリルスルー領域にメジャー (または集計済みの数値列) を追加することもできます。 ドリルスルー フィールドをドリルスルー カードにドラッグするだけで適用できます。 
+
+![ドリルスルーにメジャーを追加する](media/desktop-drillthrough/drillthrough_08.png)
+
+メジャー (または集計済みの数値列) を追加するときに、フィールドがビジュアルの *[値]* 領域で使用されていると、そのページをドリルすることができます。
 
 レポートで**ドリルスルー**を使用する方法は以上です。 ドリルスルー フィルターに選択したエンティティ情報で表示を拡張する優れた方法です。
 

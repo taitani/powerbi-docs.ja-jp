@@ -1,28 +1,20 @@
 ---
-title: "Power BI のパフォーマンスのベスト プラクティス"
-description: "この記事では、Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティスについて説明します。"
-services: powerbi
-documentationcenter: 
+title: Power BI のパフォーマンスのベスト プラクティス
+description: この記事では、Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティスについて説明します。
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI のパフォーマンスのベスト プラクティス 
 この記事では、Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティスについて説明します。  
@@ -42,8 +34,8 @@ ms.lasthandoff: 03/12/2018
 ベスト プラクティス: 
  
 - 未使用のテーブルまたは列は、可能であれば削除します。 
-- 高い基数 (数百万の独自の値) を持つフィールドでは個別のカウントを避けます。  
-- 不要な精度と高い基数を持つフィールドを回避する手順を実行します。 たとえば、非常に独特な datetime 値を月、年、日などの個別の列に分割できます。または、可能であれば、高精度のフィールドに丸め処理を使用して、基数を減らします (例: 13.29889 -> 13.3)。 
+- 高いカーディナリティ (数百万の独自の値) を持つフィールドでは個別のカウントを避けます。  
+- 不要な精度と高いカーディナリティを持つフィールドを回避する手順を実行します。 たとえば、非常に独特な datetime 値を月、年、日などの個別の列に分割できます。または、可能であれば、高精度のフィールドに丸め処理を使用して、カーディナリティを減らします (例: 13.29889 -&gt; 13.3)。 
 - 可能な限り、文字列ではなく整数を使用します。 
 - テーブル内のすべての行をテストする必要がある DAX 関数 (RANKX など) に注意してください。最悪の場合、テーブル サイズで線形増加が指定されている場合、これらの関数によって実行時間とメモリ要件が指数関数的に増加する可能性があります。 
 - DirectQuery を使用してデータ ソースに接続する場合に、列のインデックス作成を検討します。これは通常、もう一度フィルター処理またはスライスされるため、レポートの応答性が大幅に改善されます。  
@@ -96,8 +88,14 @@ DirectQuery とライブ接続では、このクエリ キャッシュはデー�
 ## <a name="understand-custom-visual-performance"></a>カスタム ビジュアルのパフォーマンスを理解する 
 高パフォーマンスを得るため、必ず各カスタム ビジュアルの性能を試します。 適切に最適化されていないカスタム ビジュアルは、レポート全体のパフォーマンスに悪影響を及ぼす場合があります。 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>SQL Profiler と Power BI Desktop でのクエリ パフォーマンスをさらに探究する 
-どのビジュアルが最も多くの時間とリソースを占有しているかをより深く調べるため、SQL Profiler を Power BI Desktop に接続して、クエリ パフォーマンスの全体像を得ることができます。 手順は次のとおりです。 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>SQL Profiler と Power BI Desktop でのクエリ パフォーマンスをさらに探究する
+
+どのビジュアルが最も多くの時間とリソースを占有しているかをより深く調べるため、SQL Profiler を Power BI Desktop に接続して、クエリ パフォーマンスの全体像を得ることができます。
+
+> [!NOTE]
+> Power BI Desktop は、診断ポートへの接続をサポートします。 診断ポートは、その他のツールの接続と、診断目的のトレースの実行を可能にします。 *モデルに対する変更はサポートされていません。モデルに変更を加えると、破損とデータ損失が発生する可能性があります。*
+
+手順は次のとおりです。
   
 1. **SQL Server Profiler をインストールし、Power BI Desktop を実行する** 
 

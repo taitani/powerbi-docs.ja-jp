@@ -1,27 +1,19 @@
 ---
 title: Power BI レポート サーバーのサポート タイムライン
 description: Power BI レポート サーバーのバージョンと利用可能状況の一覧です。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI レポート サーバーのサポート タイムライン
 Power BI レポート サーバーは、1 年間に何回かリリースされます。 セキュリティ更新プログラムと重要な更新プログラムは、次のリリースが一般公開 (GA) になるまで使用できます。 次のリリースの後、前のリリースは、残りの 12 か月のリリース有効期間の間、セキュリティ更新プログラムを引き続き受け取ります。

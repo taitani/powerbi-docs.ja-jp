@@ -1,28 +1,20 @@
 ---
 title: Power BI で Marketo に接続する
 description: Power BI 用 Marketo
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI で Marketo に接続する
 Power BI 用 Marketo コンテンツ パックを使用すると、Marketo アカウントに関する情報 (潜在顧客とそのアクティビティに関するデータを含む) を入手できます。この接続を作成すると、データが取得され、そのデータに基づいて自動的にダッシュボードおよび関連するレポートが提供されます。
@@ -43,8 +35,8 @@ Power BI 用の [Marketo コンテンツ パック](https://app.powerbi.com/getd
    
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
-   Marketo REST エンドポイントについて詳しくは、[http://developers.marketo.com/documentation/rest/endpoint-url/](http://developers.marketo.com/documentation/rest/endpoint-url/) をお読みください。
-5. **[Basic]** 認証メソッドを使用する場合、クライアント ID を **[ユーザー名]** として入力し、クライアント シークレットを **[パスワード]** として入力します。 クライアント ID およびクライアント シークレットは Marketo または Marketo 管理者から入手できます ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/))。 
+   [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/) で、Marketo REST エンドポイントの詳細をご確認ください。
+5. **[Basic]** 認証メソッドを使用する場合、クライアント ID を **[ユーザー名]** として入力し、クライアント シークレットを **[パスワード]** として入力します。 クライアント ID およびクライアント シークレットは Marketo、または marketo 管理者 ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)) から入手できます。 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

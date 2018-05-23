@@ -1,28 +1,20 @@
 ---
 title: Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 description: Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統合により、組織外のゲスト ユーザーに Power BI コンテンツを安全に配布できるようになりました。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 16820050ad879b128482af5754bc53973449f982
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -62,7 +54,7 @@ Power BI テナントにゲスト ユーザーを招待するには、計画的�
 
 4. **[招待]** を選びます。
 
-複数のゲスト ユーザーを招待するには、PowerShell を使用します。 詳細については、「[Azure Active Directory B2B コラボレーション コードと PowerShell サンプル](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-code-samples)」を参照してください。
+複数のゲスト ユーザーを招待するには、PowerShell を使用します。 詳細については、「[Azure Active Directory B2B コラボレーション コードと PowerShell サンプル](https://docs.microsoft.com/azure/active-directory/b2b/code-samples)」を参照してください。
 
 ゲスト ユーザーは、受信した招待メール内で **[開始]** を選択する必要があります。 その操作により、ゲスト ユーザーはテナントに追加されます。
 
@@ -111,7 +103,7 @@ Power BI Premium 容量にアプリ ワークスペースを割り当てると�
 * gmail.com、outlook.com、hotmail.com などの個人用メール アカウントを使っているゲスト ユーザーを招待するときに、ユーザーがサインアップする方法の例については、こちらの[埋め込み動画](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience)をご覧ください。
 * 外部の B2B ゲストは、コンテンツのみの消費量に制限されます。 外部の B2B ゲストは、アプリ、ダッシュボード、レポートの表示、データのエクスポート、ダッシュボードとレポートの電子メール サブスクリプションの作成ができます。 ワークスペースにアクセスしたり、独自のコンテンツを公開することはできません。
 * 現在、この機能は Power BI モバイル アプリでは使用できません。 モバイル デバイスでは、ブラウザーで Azure AD B2B を使用して共有されている Power BI コンテンツを表示できます。
-* ソブリン クラウド (政府機関) 内では、Power BI でゲスト ユーザーの使用はサポートされません。
+* 現在、この機能は Power BI SharePoint Online レポート Web パーツでは使用できません。
 
 ## <a name="next-steps"></a>次の手順
 
