@@ -1,27 +1,19 @@
 ---
-title: "Power BI Embedded 移行ツール"
-description: "この移行ツールを使用して、Power BI Embedded Azure サービス (PaaS) のレポートを Power BI サービス (SaaS) にコピーできます。"
-services: powerbi
-documentationcenter: 
+title: Power BI Embedded 移行ツール
+description: この移行ツールを使用して、Power BI Embedded Azure サービス (PaaS) のレポートを Power BI サービス (SaaS) にコピーできます。
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/21/2017
 ms.author: maghan
-ms.openlocfilehash: e1892d17b61347379965c192287d2f814640a02d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e404830de9981ba7a2de9af713d20b632cb292f5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移行ツール
 この移行ツールを使用して、Power BI Embedded Azure サービス (PaaS) のレポートを Power BI サービス (SaaS) にコピーできます。
@@ -46,7 +38,7 @@ ms.lasthandoff: 01/30/2018
 1. **[ファイル]** > **[New Migration Plan]\(新しい移行プラン\)** を選択します。
    
     ![](media/migrate-tool/migrate-tool-plan.png)
-2. **Select Power BI Embedded Resource Group (Power BI Embedded リソース グループの選択)** ダイアログで 環境 ドロップダウンを選択し、製品を選択します。
+2. [**Select Power BI Embedded Resource Group (Power BI Embedded リソース グループの選択)**] ダイアログで [環境] ドロップダウンを選択し、製品を選択します。
 3. サインインするように求められます。 Azure サブスクリプションのログイン アカウントを使用します。
    
    > [!IMPORTANT]
