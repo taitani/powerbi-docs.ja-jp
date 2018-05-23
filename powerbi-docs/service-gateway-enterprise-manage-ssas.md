@@ -1,28 +1,20 @@
 ---
 title: データ ソースの管理 - Analysis Services
 description: オンプレミス データ ゲートウェイとそのゲートウェイに属しているデータ ソースを管理する方法。 これは Analysis Services での多次元および表形式モードの両方に当てはまります。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: fe875310f7dbfd6b0240096f3ed542d8031bcf99
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加する必要があります。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 Analysis Services データ ソースは、スケジュールされた更新とライブ接続のどちらにも使用できます。
@@ -47,7 +39,7 @@ ms.lasthandoff: 04/08/2018
 * アクションおよび名前付きセットは Power BI には公開されませんが、アクションまたは名前付きセットも含む多次元キューブに接続し、ビジュアルおよびレポートを作成することはできます。
 
 ## <a name="add-a-gateway"></a>ゲートウェイの追加
-ゲートウェイを追加する場合は、使用している環境のサーバー上にゲートウェイを[ダウンロード](https://go.microsoft.com/fwlink/?LinkId=698861)してインストールするだけです。 インストール済みのゲートウェイは、 **[ゲートウェイの管理]**の下のゲートウェイ一覧に表示されます。
+ゲートウェイを追加する場合は、使用している環境のサーバー上にゲートウェイを[ダウンロード](https://go.microsoft.com/fwlink/?LinkId=698861)してインストールするだけです。 インストール済みのゲートウェイは、 **[ゲートウェイの管理]** の下のゲートウェイ一覧に表示されます。
 
 > [!NOTE]
 > **[ゲートウェイの管理]** は、少なくとも 1 つのゲートウェイの管理者になるまで表示されません。 つまり、ゲートウェイの管理者に追加されるか、または自身でゲートウェイをインストールして構成した場合に表示されます。
@@ -71,7 +63,7 @@ ms.lasthandoff: 04/08/2018
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings2-ssas.png)
 
-次に、 **[サーバー]** や **[データベース]**など、データ ソースの情報を入力する必要があります。  
+次に、 **[サーバー]** や **[データベース]** など、データ ソースの情報を入力する必要があります。  
 
 入力した **ユーザー名** と **パスワード** は、Analysis Services インスタンスに接続するために、ゲートウェイによって使用されます。
 
@@ -163,7 +155,7 @@ AD 参照を実行するようにゲートウェイを構成する方法:
 3. ゲートウェイのインストール フォルダー (*"C:\Program Files\On-premises data gateway"*) に管理者として移動し、書き込みアクセス許可があることを確認して、次のファイルを編集します。
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. AD ユーザーの*"目的の"* Active Directory 属性の構成に従って、次の 2 つの構成値を編集します。 次に示す構成値は単なる例です。Active Directory の構成に基づいて値を指定する必要があります。 
+4. AD ユーザーの *"目的の"* Active Directory 属性の構成に従って、次の 2 つの構成値を編集します。 次に示す構成値は単なる例です。Active Directory の構成に基づいて値を指定する必要があります。 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. 構成の変更を有効にするには、**オンプレミスのデータ ゲートウェイ** サービスを再起動します。

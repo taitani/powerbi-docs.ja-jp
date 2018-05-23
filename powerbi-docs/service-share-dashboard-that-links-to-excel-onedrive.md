@@ -1,28 +1,20 @@
 ---
 title: OneDrive の Excel ファイルにリンクされたダッシュボードを共有する - Power BI
 description: OneDrive for Business 上の Excel ブックに接続されていて、そのブックからタイルがピン留めされているダッシュボードの共有について説明します。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 56dec052240c60543831ef05624943e3d71f953a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c8afcb15097a4d9a0d15f76304085f81daa17809
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive の Excel ファイルにリンクする Power BI ダッシュボードを共有する
 Power BI では、[OneDrive for Business 上にある Excel ブックに接続](service-excel-workbook-files.md)し、そのブックからダッシュボードにタイルをピン留めできます。 そのダッシュボードを共有した場合か、そのダッシュボードを含むコンテンツ パックを作成した場合、次のようになります。
@@ -36,9 +28,9 @@ OneDrive for Business 上の Excel ブックにリンク バックしている�
   ![[ダッシュ ボードの共有] ダイアログ ボックス](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_share_workbk.png)
 
 1. 仕事仲間のメール アドレスを入力します。
-2. 仕事仲間が Power BI から Excel ブックを表示できるようにするには、 **[OneDrive for Business に移動してブックのアクセス許可を設定する]**を選びます。
+2. 仕事仲間が Power BI から Excel ブックを表示できるようにするには、 **[OneDrive for Business に移動してブックのアクセス許可を設定する]** を選びます。
 3. OneDrive 上で、必要に応じて[アクセス許可を変更します](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)。
-4. **[共有]**を選択します。
+4. **[共有]** を選択します。
 
 >[!NOTE]
 >仕事仲間は、そのブックから他のタイルをピン留めすることや、Power BI から Excel ブックに変更を加えることはできません。
@@ -52,9 +44,9 @@ OneDrive for Business 上の Excel ブックにリンク バックしている�
 2. OneDrive for Business 上の Excel ブックにリンクされているダッシュボードやレポートを選びます。
    
     ![コンテンツ パック内の Excel ブック](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
-3. **[OneDrive for Business に移動してブックのアクセス許可を設定する]**を選びます。
+3. **[OneDrive for Business に移動してブックのアクセス許可を設定する]** を選びます。
 4. OneDrive 上で、必要に応じて[アクセス許可を変更します](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)。
-5. **[公開]**を選びます。
+5. **[公開]** を選びます。
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Power BI ワークスペースからダッシュボードを共有する
 Power BI のワークスペースからのダッシュボードの共有は個人のワークスペースからのダッシュボードの共有と似ていますが、ファイルの保存場所が個人の OneDrive for Business ではなく Office 365 のワークスペース サイトになる点が異なります。 ダッシュボードをワークスペース外のユーザーと共有する場合は、事前に Excel ブックのアクセス許可を変更してください。

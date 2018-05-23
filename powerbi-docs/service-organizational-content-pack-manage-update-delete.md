@@ -1,28 +1,20 @@
 ---
 title: '組織のコンテンツ パック: 管理および更新する'
 description: Power BI での組織のコンテンツ パックの管理、更新、削除について説明します。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4e48ce4269def6764630322ac798a8dd0e491861
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4ede737287c830d70283e3a73b627c59c38d1564
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>組織のコンテンツ パックを管理、更新、削除する
 > [!NOTE]
@@ -55,8 +47,8 @@ ms.lasthandoff: 02/24/2018
    ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
    警告アイコン ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png) にご注目ください。  これは、何らかの方法でコンテンツ パックを変更し、発行されたものと一致しなくなったことを知らせます。
-3. **[編集]**をクリックします。  
-4. **[コンテンツ パックの更新]** ウィンドウで任意の必要な変更を加え、 **[更新]**をクリックします。 **成功** メッセージが表示されます。
+3. **[編集]** をクリックします。  
+4. **[コンテンツ パックの更新]** ウィンドウで任意の必要な変更を加え、 **[更新]** をクリックします。 **成功** メッセージが表示されます。
    
    * コンテンツ パックをカスタマイズしていないグループ メンバーの場合、更新内容は自動的に適用されます。
    * コンテンツ パックをカスタマイズしたグループ メンバーの場合、新しいバージョンがあるという通知を受け取ります。  そこで、AppSource に移動して、自分のパーソナライズ バージョンを失わずに、更新されたコンテンツ パックを入手できます。  その場合、自分のパーソナライズ バージョンと更新されたコンテンツ パックの 2 つのバージョンを持つことになります。  パーソナライズ バージョンでは、元のコンテンツ パックからのすべてのタイルが失われます。  ただし、他のレポートからピン留めしていたタイルは引き続きレンダリングされます。    
@@ -65,8 +57,8 @@ ms.lasthandoff: 02/24/2018
 コンテンツ パックの作成者が行うことのできる別の変更は、コンテンツ パックへのアクセスの拡張と制限です。  コンテンツ パックを大勢の対象ユーザーに対して発行し、より小さいグループにアクセスを制限することができます。  
 
 1. 歯車アイコン ![](media/service-organizational-content-pack-manage-update-delete/cog.png) を選び、**[コンテンツ パックの表示]** を選びます。
-2. **[編集]**をクリックします。 
-3. **[コンテンツ パックの更新]** ウィンドウで任意の必要な変更を加え、 **[更新]**をクリックします。 たとえば、 **[特定のグループ]** フィールドで元の配布グループを削除し、より少ないメンバーを持つ別の配布グループに置き換えます。
+2. **[編集]** をクリックします。 
+3. **[コンテンツ パックの更新]** ウィンドウで任意の必要な変更を加え、 **[更新]** をクリックします。 たとえば、 **[特定のグループ]** フィールドで元の配布グループを削除し、より少ないメンバーを持つ別の配布グループに置き換えます。
    
    成功メッセージが表示されます。
    

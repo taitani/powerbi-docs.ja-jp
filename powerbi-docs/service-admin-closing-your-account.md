@@ -1,28 +1,20 @@
 ---
 title: Power BI アカウントを削除する
 description: Power BI アカウントを削除する
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d74aed9f3d2f21459853781089b4c32bcdf51b2c
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: be0b1bf3dbfba0f2e1545eced38ec19650342a19
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="closing-your-power-bi-account"></a>Power BI アカウントを削除する
 Power BI を使用しなくなった場合は、Power BI アカウントの削除を依頼することができます。  アカウントを削除すると、Power BI にサインインできなくなります。  また、Power BI にアップロード または Power BI で作成したすべての顧客データは、Power BI サービス利用規約のデータ保持ポリシーに従って削除されます。
@@ -31,13 +23,13 @@ Power BI を使用しなくなった場合は、Power BI アカウントの削�
 アカウントは設定画面で終了することができます。
 
 1. 右上の歯車 ![](media/service-admin-closing-your-account/gear.png) アイコンを選択します。
-2. **[設定]**を選択します。
+2. **[設定]** を選択します。
    
     ![](media/service-admin-closing-your-account/closeaccount-settings.png)
 3. **[全般]** > **[アカウントの使用の停止]** の順に選択します。
    
     ![](media/service-admin-closing-your-account/closeaccount-settings2.png)
-4. **[アカウントの使用を停止する理由]** から理由を選択します。 (1) ドロップダウンから理由を選択します。  必要に応じて詳細情報を提供できます (2)。 それから、 **[アカウントの使用の停止]**を選択します。
+4. **[アカウントの使用を停止する理由]** から理由を選択します。 (1) ドロップダウンから理由を選択します。  必要に応じて詳細情報を提供できます (2)。 それから、 **[アカウントの使用の停止]** を選択します。
    
     ![](media/service-admin-closing-your-account/closeaccount-settings3.png)
 5. アカウントの使用を停止することを確認します。

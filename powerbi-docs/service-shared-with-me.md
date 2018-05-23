@@ -1,32 +1,24 @@
 ---
-title: "自分と共有の Power BI コンテンツを表示する"
-description: "Power BI での自分と共有に関するドキュメント"
-services: powerbi
-documentationcenter: 
+title: 自分と共有の Power BI コンテンツを表示する
+description: Power BI での自分と共有に関するドキュメント
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b95ca140322c207c6c352597e42d50d18a48e52e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>自分と共有の Power BI ダッシュボードを表示する
-## <a name="shared-with-me"></a>自分と共有
+## <a name="shared-with-me"></a>共有アイテム
 ![[共有] アイコン](media/service-shared-with-me/power-bi-share-dash.png)
 
 同僚がダッシュボードを自分と共有した場合、そのタイトルは **[自分と共有]** の一覧に追加されます。 このダッシュボードは **[自分と共有]** からのみ使用でき、ワークスペースや**アプリ**からは使用できません。

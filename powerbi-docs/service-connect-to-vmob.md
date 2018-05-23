@@ -1,28 +1,20 @@
 ---
 title: Power BI で VMob に接続する
 description: Power BI 用 VMob
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 89d1a4cecb7c62dffe71524353bcd48957245594
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b1f2970ad73783acf3736856463915161056b801
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Power BI で VMob に接続する
 VMob データの追跡と探索は、Power BI と VMob コンテンツ パックを使って簡単に行うことができます。 Power BI によって取得されるデータは、すべての期間と過去 30 日間のユーザー統計情報、過去 30 日間の販売 KPI、過去 30 日間のキャンペーンの成果です。

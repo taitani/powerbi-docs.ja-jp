@@ -1,28 +1,20 @@
 ---
-title: "人事のサンプル: 使ってみる"
-description: "Power BI の人事のサンプル: 使ってみる"
-services: powerbi
-documentationcenter: 
+title: '人事のサンプル: 使ってみる'
+description: 'Power BI の人事のサンプル: 使ってみる'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 7cd91ad5d6b43803745e5c6a12b6168e17f376af
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 2f9051142568ff7e6451acc38d30295f2930d0a6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI の人事のサンプル: 使ってみる
 
@@ -80,7 +72,7 @@ ms.lasthandoff: 02/28/2018
 次のことを確認します。
 
 * **[月別の新規採用者数、昨年同時期の新規採用、在職者の前年比 % 変化]** 複合グラフには、昨年に比べて毎月新規採用者数が増加したことが示されています (いくつかの月では著しく増加)。
-* 複合グラフ **[地域および民族性別の新規採用者数と在職者数]**には、 **[東]** 地域で新規採用者数が減少していることが示されています。
+* 複合グラフ **[地域および民族性別の新規採用者数と在職者数]** には、 **[東]** 地域で新規採用者数が減少していることが示されています。
 * **[年齢グループ別の新規採用者の前年比]** ウォーターフォール グラフには、主に若い人を採用していることが示されています。 これは、仕事が主にパートタイム的な性質のものであることに起因する可能性があります。
 * **[性別の新規採用者数]** 円グラフには、かなり均等な分割が示されています。
 

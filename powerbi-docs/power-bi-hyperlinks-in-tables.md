@@ -1,28 +1,20 @@
 ---
-title: "テーブルにハイパーリンクを追加する方法"
-description: "テーブル内のハイパーリンク"
-services: powerbi
-documentationcenter: 
+title: テーブルにハイパーリンクを追加する方法
+description: テーブル内のハイパーリンク
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: identified
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 69c9943045777950c52d21a441c87a67dd9feab1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="hyperlinks-in-tables"></a>テーブル内のハイパーリンク
 このトピックでは、Power BI Desktop を使ってハイパーリンクを作成する方法を説明します。 作成した後は、Desktop または Power BI サービスを使って、レポートのテーブルとマトリックスにハイパーリンクを追加します。 
@@ -44,7 +36,7 @@ Power BI Desktop ではテーブルやマトリックス内にハイパーリン
 2. データ ビューで、その列を選び、**[モデリング]** タブで **[データ カテゴリ]** のドロップダウンを選びます。
    
     ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
-3. **[Web URL]**を選びます。
+3. **[Web URL]** を選びます。
 4. レポート ビューに切り替え、Web URL としてカテゴリ化されたフィールドを使用してテーブルまたはマトリックス作成します。 ハイパーリンクは、青色で下線付きの表示です。
    
     ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
@@ -53,21 +45,21 @@ Power BI Desktop ではテーブルやマトリックス内にハイパーリン
    * グラフを選んでアクティブにします。
    * ペイント ローラー アイコン ![](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) を選んで、[書式設定] タブを開きます。
    * **[値]** を展開し、**[URL アイコン]** を探して、**[オン]** にします。
-6. (省略可能) [レポートを Desktop から Power BI サービスに発行](guided-learning/publishingandsharing.yml#step-2)し、Power BI サービスでレポートを開きます。 ハイパーリンクは同様に機能します。
+6. (省略可能) [レポートを Desktop から Power BI サービスに発行](guided-learning/publishingandsharing.yml?tutorial-step=2)し、Power BI サービスでレポートを開きます。 ハイパーリンクは同様に機能します。
 
 ### <a name="for-data-connected-with-directquery"></a>DirectQuery を使用して接続したデータの場合
 DirectQuery モードでは新しい列を作成することはできません。  ただし、データに URL が既に含まれている場合は、それらの URL をハイパーリンクに変えることができます。
 
 1. レポート ビューで、URL が含まれるフィールドを使用してテーブルを作成します。
 2. その列を選び、**[モデリング]** タブで **[データ カテゴリ]** のドロップダウンを選びます。
-3. **[Web URL]**を選びます。 ハイパーリンクは、青色で下線付きの表示です。
-4. (省略可能) [レポートを Desktop から Power BI サービスに発行](guided-learning/publishingandsharing.yml#step-2)し、Power BI サービスでレポートを開きます。 ハイパーリンクは同様に機能します。
+3. **[Web URL]** を選びます。 ハイパーリンクは、青色で下線付きの表示です。
+4. (省略可能) [レポートを Desktop から Power BI サービスに発行](guided-learning/publishingandsharing.yml?tutorial-step=2)し、Power BI サービスでレポートを開きます。 ハイパーリンクは同様に機能します。
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>Excel Power Pivot でテーブルまたはマトリックスのハイパーリンクを作成する
 Power BI のテーブルおよびマトリックスにハイパーリンクを追加するもう 1 つの方法は、Power BI からデータセットにインポート/接続する前に、そのデータセット内でハイパーリンクを作成することです。 この例では Excel ブックを使います。
 
 1. Excel でブックを開きます。
-2. **[PowerPivot]** タブを選び、 **[管理]**を選びます。
+2. **[PowerPivot]** タブを選び、 **[管理]** を選びます。
    
    ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
 3. PowerPivot が開いたら、**[詳細設定]** タブを選びます。
@@ -78,7 +70,7 @@ Power BI のテーブルおよびマトリックスにハイパーリンクを�
    > **注**: URL は、**http://、https://**、**www** のいずれかで始まっている必要があります。
    > 
    > 
-5. **[レポートのプロパティ]** グループで、 **[データ カテゴリ]** ドロップダウンを選び、 **[Web URL]**を選びます。 
+5. **[レポートのプロパティ]** グループで、 **[データ カテゴリ]** ドロップダウンを選び、 **[Web URL]** を選びます。 
    
    ![](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
 6. Power BI サービスまたは Power BI Desktop から、このブックに接続するか、このブックをインポートします。

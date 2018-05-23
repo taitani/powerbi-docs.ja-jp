@@ -1,29 +1,21 @@
 ---
-title: "Power BI サービスで関連するコンテンツを表示する"
-description: "ナビゲーションが容易になり、ダッシュボード、レポート、データセットの関連するコンテンツを表示できます"
-services: powerbi
-documentationcenter: 
+title: Power BI サービスで関連するコンテンツを表示する
+description: ナビゲーションが容易になり、ダッシュボード、レポート、データセットの関連するコンテンツを表示できます
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 43dffab862173779068f1180f83bc6c92bf98013
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9aa0169f76515dd2f05a3e9debb8bc3d10cbdd07
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI サービスで関連するコンテンツを表示する
 **[関連するコンテンツ]** ペインには、Power BI サービスのコンテンツ (ダッシュボード、レポート、データセット) がどのように相互接続されているかが示されます。  さらに、このペインからは、更新、名前の変更、詳細情報の生成など、一般的なタスクを実行できます。 関連するレポートやダッシュボードを選ぶと、Power BI ワークスペースに表示されます。   

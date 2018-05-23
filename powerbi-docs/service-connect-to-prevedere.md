@@ -1,28 +1,20 @@
 ---
 title: Power BI で Prevedere に接続する
 description: Power BI 用 Prevedere
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 31a8aa77e103ff51281e26ef5668cf7527987e2b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 581bfa4a6eca07218d10b9f86753773a0fd9bb9d
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Power BI で Prevedere に接続する
 独占的で重要な財務情報にアクセスし、ビジネスを確実かつ積極的に推進します。
@@ -36,13 +28,13 @@ Power BI 用 [Prevedere コンテンツ パック](https://app.powerbi.com/getda
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-prevedere/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-prevedere/services.png)
 3. **[Prevedere]** を選択し、**[取得]** を選択します。
    
    ![](media/service-connect-to-prevedere/connect.png)
-4. **[認証方法]**として **[キー]** を選択し、Prevedere API キーを入力します。
+4. **[認証方法]** として **[キー]** を選択し、Prevedere API キーを入力します。
    
     ![](media/service-connect-to-prevedere/creds.png)
 5. **[サインイン]** を選択して、インポート プロセスを開始します。 完了すると、ナビゲーション ウィンドウに、新しいダッシュ ボード、レポート、モデルが表示されます。 インポートされたデータを表示するダッシュボードを選択します。

@@ -1,28 +1,20 @@
 ---
 title: 組織のコンテンツ パックから切断する - Power BI
 description: Power BI でデータセットを削除して組織のコンテンツ パックに対する接続を削除する方法について説明します。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 97ffc337b98dd6a44e823e673b845852398c67d5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c0e7bddd23987377bfd8cf05bdfd1ab997e621ed
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI の組織のコンテンツ パックへの接続を削除する
 同僚がコンテンツ パックを作成しました。 それを AppSource で見つけて、Power BI ワークスペースに追加しました。 それが必要なくなった場合、  どのように削除できますか。

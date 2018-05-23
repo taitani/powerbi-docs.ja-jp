@@ -1,28 +1,20 @@
 ---
 title: Power BI でクイック メジャーを使用して一般的で強力な計算を簡単に実行する
 description: クイック メジャーは、一般的な計算をすばやく実行する既製の DAX 式を提供します
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
-ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
+ms.openlocfilehash: f8eb978aaacd345a29f2d9e2395fad419a651be0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>クイック メジャーを使用して一般的で強力な計算を簡単に実行する
 **クイック メジャー**を使用し、一般的で強力な計算を簡単に実行できます。 **クイック メジャー**は、ダイアログ ボックスで指定された入力に基づいて、一連の DAX コマンドをバックグラウンドで実行し (DAX は自動的に作成されるので、自分で記述する必要はありません)、レポートで使える結果を提供します。 何より、クイック メジャーによって実行される DAX を参照でき、すぐに始めたり、自分の DAX の知識を広げたりすることができます。

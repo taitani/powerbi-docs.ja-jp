@@ -1,28 +1,20 @@
 ---
 title: Q&A からダッシュボードにタイルをピン留めする方法
 description: Q&A 質問ボックスから Power BI ダッシュボードにタイルをピン留めする方法についてのドキュメント
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bd9f49c338afc413107ee811bf9ee33c3e9737a4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Q&A からダッシュボードにタイルをピン留めする
 ## <a name="how-to-pin-a-tile-from-qa"></a>Q&A からタイルをピン留めする方法
@@ -53,7 +45,7 @@ Q&A は、Power BI のアドホック レポート作成ツールです。 特�
 
    右上隅の近くに成功メッセージが表示され、視覚エフェクトがダッシュボードにタイルとして追加されたことがわかります。  
 
-   ![ダッシュボードにピン留め](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![ダッシュボードにピン留めしました](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. **[ダッシュボードへ移動]** を選択して新しいタイルを表示します。 ここでは、ダッシュボード上のタイルに対して、[名前の変更、サイズ変更、ハイパーリンクの追加、位置変更など](service-dashboard-edit-tile.md)を行うことができます。
 
    ![タイルのあるダッシュボード](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)

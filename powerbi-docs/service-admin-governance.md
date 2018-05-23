@@ -1,28 +1,20 @@
 ---
 title: 管理と展開のアプローチ
 description: Power BI エコシステム内での管理の概念、オプション、および推奨事項について説明するホワイト ペーパー。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f2f48143e9f1c5a304f8d864ea39b8118d331f8
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 955f4347630a781174d399d6a1363683745a4b3e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>管理と展開のアプローチ
 この数十年の間に、企業は、市場機会から利益を得るにはデータ資産を戦略的に活用する必要があることをますます認識しています。 競合分析を実行するか、経営パターンを理解することで、多くの組織は、競争で優位に立つ手段としてデータ戦略を持つことのメリットを理解するようになりました。  

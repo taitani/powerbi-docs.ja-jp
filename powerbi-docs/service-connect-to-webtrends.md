@@ -1,28 +1,20 @@
 ---
 title: Power BI で Webtrends に接続する
 description: Power BI 用 Webtrends
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9c8772430143b974fb389eac2f2ad3e74748fd3f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Power BI で Webtrends に接続する
 Power BI 用 Webtrends コンテンツ パックには、[合計ページ] ビューやトラフィック ソースごとのアクセス数などのすぐに使用できるさまざまなメトリックスが含まれています。 Power BI 内の Webtrends データの視覚化は、Webtrends アカウントに接続することで開始します。 提供されるダッシュボードとレポートをそのまま使用することもできますし、最も関心のある情報を強調表示するためにカスタマイズすることができます。  データは、1 日 1 回自動的に更新されることになります。
@@ -102,7 +94,7 @@ Webtrends コンテンツ パックは、次のレポートのデータを取得
 ![](media/service-connect-to-webtrends/webtrendscreds.png)
 
 ## <a name="troubleshooting"></a>トラブルシューティング
-資格情報を入力した後、コンテンツ パックの読み込み中に問題が発生することがあります。 読み込み中に「問題発生」メッセージが表示される場合は、次のトラブルシューティング方法を参照してください。 これらの手順で問題が解決しない場合は、https://support.powerbi.com にサポート チケットを提出してください。
+資格情報を入力した後、コンテンツ パックの読み込み中に問題が発生することがあります。 読み込み中に「問題発生」メッセージが表示される場合は、次のトラブルシューティング方法を参照してください。 問題が解決しない場合は、https://support.powerbi.com にサポート チケットを提出してください。
 
 1. 適切なプロファイル ID が使用されている。詳しくは、「[パラメーターの見つけ方](#FindingParams)」をご覧ください。
 2. 「[含まれるもの](#Included)」に示されているレポートへのアクセス許可がユーザーに与えられている。

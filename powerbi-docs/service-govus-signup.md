@@ -1,28 +1,20 @@
 ---
 title: 米国政府顧客向け Power BI へのサインアップ
 description: 米国政府の顧客向けに、Power BI 米国政府サービスに米国政府組織をサインアップする方法について説明します。
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI サービスに米国政府組織を登録する
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -130,7 +122,7 @@ Power BI の無償版ライセンスを実行しているユーザーをテナ�
 Power BI を使うと、さまざまなことを行えます。 サービスにサインアップする方法を説明する記事など、詳細および学習については、次のリソースをご覧ください。
 
 * [米国政府向け Power BI の概要](service-govus-overview.md)
-* [Power BI のガイド付き学習](guided-learning/gettingstarted.yml#step-1)
+* [Power BI のガイド付き学習](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Power BI サービスの概要](service-get-started.md)
 * [Power BI Desktop の概要](desktop-getting-started.md)
 

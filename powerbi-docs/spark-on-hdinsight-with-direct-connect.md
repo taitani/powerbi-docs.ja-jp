@@ -1,28 +1,20 @@
 ---
-title: "DirectQuery を使用する HDInsight 上の Spark"
-description: "DirectQuery を使用する HDInsight 上の Spark"
-services: powerbi
-documentationcenter: 
+title: DirectQuery を使用する HDInsight 上の Spark
+description: DirectQuery を使用する HDInsight 上の Spark
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 0eade5942b65985cf704709ea88870a2352b07c0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 236a3d1bde84d4259d921d44730057a4e2fd3591
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery を使用する HDInsight 上の Spark
 DirectQuery を使用する Azure HDInsight 上の Spark を使えば、Spark クラスターにすでに保持してあるデータとメトリックに基づいて、動的なレポートを作成できます。 DirectQuery があれば、レポート ビューでデータを探索するときに、Azure HDInsight Spark クラスターにクエリが送り返されます。 この操作は、接続先のエンティティに精通しているユーザーにお勧めします。
@@ -40,7 +32,7 @@ DirectQuery を使用する Azure HDInsight 上の Spark を使えば、Spark �
 2. **[データベースとその他]** を選択します。
    
      ![](media/spark-on-hdinsight-with-direct-connect/spark-getdata-databases.png)
-3. **[Spark on HDInsight]** コネクタを選択して、 **[接続]**を選択します。
+3. **[Spark on HDInsight]** コネクタを選択して、 **[接続]** を選択します。
    
      ![](media/spark-on-hdinsight-with-direct-connect/spark-getdata-databases-connect.png)
 4. 接続先の**サーバー**の名前と、**ユーザー名**および**パスワード**を入力します。 このサーバーは、常に \<クラスター名\>.azurehdinsight.net という形式になります。これらの値を見つける方法については後述します。

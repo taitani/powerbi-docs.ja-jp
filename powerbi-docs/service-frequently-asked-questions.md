@@ -1,28 +1,20 @@
 ---
 title: Power BI でよく寄せられる質問
 description: Power BI サービス、Power BI デスクトップ、Power BI モバイル アプリに関してよく寄せられる質問への回答の一覧をご覧ください。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 04/04/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: e72e3bcca4254b957580775196d4919e88452773
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
@@ -151,7 +143,7 @@ Power BI のコンプライアンスの詳細については、[Microsoft セキ
 Power BI セキュリティ、プライバシー、コンプライアンスについては、[Power BI セキュリティ](http://go.microsoft.com/fwlink/?LinkId=829185)に関するホワイトペーパーと [Power BI セキュリティ サポート記事](service-admin-power-bi-security.md)をお読みください。
 
 ## <a name="what-has-happened-to-the-power-bi-for-office-365-experience"></a>Power BI for Office 365 のエクスペリエンスはどのようになりましたか?
-Power BI for Office 365 のエクスペリエンスは廃止されました。
+Power BI for Office 365 のエクスペリエンスは非推奨とされました。
 
 ## <a name="how-do-i-undo-in-power-bi"></a>Power BI で元に戻す方法
 他の多くの Microsoft のサービスやソフトウェアと同様に、Power BI には、最後のコマンドを元に戻すための簡単な方法が備わっています。 

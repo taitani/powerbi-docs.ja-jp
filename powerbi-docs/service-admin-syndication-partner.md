@@ -1,38 +1,30 @@
 ---
 title: Power BI を O365 パートナーに追加できない
 description: Power BI を Office 365 シンジケート パートナーに追加できない シンジケート モデルは Office 365 で使用される購入モデルです。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ace24b392668b5459d21a451319fd54eb6430371
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 39f40c4b8aaf53e81f15c1ad29d1d8425f017468
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI を Office 365 パートナー サブスクリプションに追加できない
 Office 365 では、企業が独自のソリューションとバンドルおよび統合した Office 365 を再販することが可能です。購入、請求、サポートを一本化したサービスをエンド カスタマーに提供できます。
 
 Office 365 サブスクリプションに加えて Power BI のご利用に関心をお持ちの場合は、お客様のパートナーにお問い合わせください。 お客様のパートナーが Power BI を提供していない場合は、他のオプションをご利用いただけます。
 
-1. 別のチャネルで (Microsoft から直接、または別のパートナーから) サービスを購入できます。 このオプションは、パートナーとの関係によっては、利用できない場合もあります。 **[Office 365 管理ポータル]** > **[課金]** > **[サブスクリプション]** に移動して確認できます。 **[サブスクリプション]**が表示される場合、Microsoft からサービスを直接取得することや、Power BI を提供するパートナーに問い合わせることができます。
+1. 別のチャネルで (Microsoft から直接、または別のパートナーから) サービスを購入できます。 このオプションは、パートナーとの関係によっては、利用できない場合もあります。 **[Office 365 管理ポータル]** > **[課金]** > **[サブスクリプション]** に移動して確認できます。 **[サブスクリプション]** が表示される場合、Microsoft からサービスを直接取得することや、Power BI を提供するパートナーに問い合わせることができます。
    
     ![](media/service-admin-syndication-partner/billingsub.png)
-2. **[課金]** の下に **[サブスクリプション]**が表示されない場合は、Microsoft から直接購入することも、別のパートナーから購入することもできません。 
+2. **[課金]** の下に **[サブスクリプション]** が表示されない場合は、Microsoft から直接購入することも、別のパートナーから購入することもできません。 
    
    ![](media/service-admin-syndication-partner/billing.png)
 

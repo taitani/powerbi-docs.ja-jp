@@ -1,28 +1,20 @@
 ---
 title: オンプレミス データ ゲートウェイ (個人用モード)
 description: オンプレミス データに接続するために個人が利用できる Power BI 用のデータ ゲートウェイ
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97b1119577d90e6570625af7de95d3417d3c48ba
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>オンプレミス データ ゲートウェイ (個人用モード)
 ゲートウェイを利用し、オンプレミス データ ソースを使用したり、Power BI のレポートやダッシュボードを作成したりできます。 **ゲートウェイ**は、プライベートのオンプレミス ネットワークに保存されているデータへのアクセスを促進し、**Power BI サービス**など、オンライン サービスでそのデータを使用することを可能にするソフトウェアです。 **オンプレミス データ ゲートウェイ (個人用モード)** は最近公開された、Power BI ゲートウェイの更新プログラムであり、個人が自分のコンピューターにゲートウェイをインストールし、オンプレミス データにアクセスすることを可能にします。
@@ -124,7 +116,7 @@ Spark のサポートは、2017 年度の後半に計画されています。
   * **回答**: はい。新しいバージョンでは、両方を同時実行できます。
 * **オンプレミス データ ゲートウェイ (個人用モード)** はサービスとして実行できますか。
   
-  * **回答**: いいえ。 **オンプレミス データ ゲートウェイ (個人用モード)**はアプリケーションとしてのみ実行できます。 ゲートウェイをサービスとして実行する必要がある場合、あるいは管理者モードで実行する必要がある場合、[**オンプレミス データ ゲートウェイ**](service-gateway-onprem.md) (以前、Enterprise ゲートウェイと呼ばれていたもの) の使用を検討する必要があります。
+  * **回答**: いいえ。 **オンプレミス データ ゲートウェイ (個人用モード)** はアプリケーションとしてのみ実行できます。 ゲートウェイをサービスとして実行する必要がある場合、あるいは管理者モードで実行する必要がある場合、[**オンプレミス データ ゲートウェイ**](service-gateway-onprem.md) (以前、Enterprise ゲートウェイと呼ばれていたもの) の使用を検討する必要があります。
 * **オンプレミス データ ゲートウェイ (個人用モード)** はどのくらいの頻度で更新されますか。
   
   * **回答**: 個人ゲートウェイは毎月更新する予定です。

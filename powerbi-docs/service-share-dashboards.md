@@ -1,29 +1,21 @@
 ---
 title: 同僚や他のユーザーと Power BI ダッシュボードやレポートを共有する
 description: 組織内の同僚や組織外の他のユーザーと Power BI ダッシュボードやレポートを共有する方法と、共有について知っておく必要があること。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: lukaszp
-editor: ''
-tags: ''
+ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
-qualityfocus: monitoring
-qualitydate: 08/14/2017
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4e8750078e36dad3c3b9b784ad88d12ac3b6fd7d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>同僚や他のユーザーと自分の Power BI ダッシュボードやレポートを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の異なる方法でダッシュボードでの共同作業を行ったり、ダッシュボードやレポートを配布](service-how-to-collaborate-distribute-dashboards-reports.md)したりできます。
@@ -76,7 +68,7 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
    
     ![[ダッシュボードの共有] ダイアログ ボックスの [アクセス] タブ](media/service-share-dashboards/power-bi-share-dialog-access.png)
    
-    組織外のユーザーは、 **[ゲスト]**として一覧に含められます。
+    組織外のユーザーは、 **[ゲスト]** として一覧に含められます。
 
 ## <a name="stop-sharing-or-stop-others-from-sharing"></a>共有または他のユーザーによる再共有を停止する
 再共有をオンおよびオフにできるのは、ダッシュボードまたはレポートの所有者のみです。
@@ -147,7 +139,7 @@ Power BI モバイル アプリから組織外のユーザーにリンクを送�
 
     ![メール アドレスの追加](media/service-share-dashboards/power-bi-add-user-dataset.png)
 
-5. **[追加]**を選択します。
+5. **[追加]** を選択します。
 
 ### <a name="i-cant-share-a-dashboard-or-report"></a>ダッシュボードまたはレポートを共有できない
 

@@ -1,28 +1,20 @@
 ---
 title: 'Power BI のお客様の収益性のサンプル: 使ってみる'
 description: 'Power BI のお客様の収益性のサンプル: 使ってみる'
-services: powerbi
-documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 63cb0e8c3072c7e748e1829a46c01340b9ceea61
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 2150c1c54a32ab201218088265f1b10c7c8a8f0e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI のお客様の収益性のサンプル: 使ってみる
 
@@ -174,7 +166,7 @@ ms.lasthandoff: 05/07/2018
 
     ![データについて質問する](media/sample-customer-profitability/power-bi-ask-question.png)
 
-3. **「total revenue by industry for Valery (Valery の業界別合計売上)」**と入力します。 質問を入力するに従って視覚化が更新されることにご注意ください。
+3. **「total revenue by industry for Valery (Valery の業界別合計売上)」** と入力します。 質問を入力するに従って視覚化が更新されることにご注意ください。
 
     ![質問ボックスに質問を入力する](media/sample-customer-profitability/power-bi-qna.png)
 

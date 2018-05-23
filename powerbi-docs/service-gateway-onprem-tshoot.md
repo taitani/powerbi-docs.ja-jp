@@ -1,28 +1,20 @@
 ---
 title: オンプレミス データ ゲートウェイのトラブルシューティング
 description: この記事では、オンプレミス データ ゲートウェイに関する問題を解決するための方法を紹介します。 既知の問題を解決できる可能性がある回避策と便利なツールを紹介します。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 094a43925c184c6cbce8b023ba4aae655f379dd9
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: a12ad01ad5e387b9ffe855ce15e8164656bfbf33
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのトラブルシューティング
 この記事では、**オンプレミス データ ゲートウェイ**を使用するときに発生する一般的な問題について説明します。
@@ -50,7 +42,7 @@ ms.lasthandoff: 04/08/2018
 このエラーは、プロキシの構成上の問題によって発生することもあります。 ユーザー インターフェイスからは、プロキシを構成することはできません。 [プロキシ構成の変更](service-gateway-proxy.md)の詳細をご覧ください。
 
 ### <a name="error-failed-to-update-gateway-details--please-try-again"></a>エラー: ゲートウェイの詳細を更新できませんでした。  もう一度お試しください。
-Power BI サービスからの情報は、ゲートウェイで受信されました。 この情報はローカルの Windows サービスに渡されましたが、必要な値を返すことができませんでした。 または、対称キーの生成に失敗しました。 **[詳細を表示する]**には、内部例外が表示されます。 以下で説明するように、ログを収集して内容を確認し、詳細を調査することができます。
+Power BI サービスからの情報は、ゲートウェイで受信されました。 この情報はローカルの Windows サービスに渡されましたが、必要な値を返すことができませんでした。 または、対称キーの生成に失敗しました。 **[詳細を表示する]** には、内部例外が表示されます。 以下で説明するように、ログを収集して内容を確認し、詳細を調査することができます。
 
 ### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-please-restart-the-gateway-and-try-again"></a>エラー: Power BI サービスからローカル ゲートウェイが到達不可という報告がありました。 ゲートウェイを再起動してから、もう一度お試しください。
 構成の最後に、Power BI サービスがもう一度呼び出されてゲートウェイが検証されます。 Power BI サービスは、ゲートウェイを *ライブ* 状態として報告しませんでした。 Windows サービスを再起動すると、通信が成功する場合があります。 以下で説明するように、ログを収集して内容を確認し、詳細を調査することができます。
@@ -97,30 +89,30 @@ Power BI サービスからの情報は、ゲートウェイで受信されま�
 
 ## <a name="data-sources"></a>データ ソース
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>エラー: 接続できません。 詳細: "接続の資格情報が正しくありません"
-**[詳細を表示する]**には、データ ソースから受信したエラー メッセージが表示されます。 SQL Server の場合は、次のように表示されます。
+**[詳細を表示する]** には、データ ソースから受信したエラー メッセージが表示されます。 SQL Server の場合は、次のように表示されます。
 
     Login failed for user 'username'.
 
-ユーザー名とパスワードが正しいことを確認します。 また、これらの資格情報を使用してデータ ソースに正常に接続できることを確認します。 使用されているアカウントが、 **[認証方法]**と一致していることを確認してください。
+ユーザー名とパスワードが正しいことを確認します。 また、これらの資格情報を使用してデータ ソースに正常に接続できることを確認します。 使用されているアカウントが、 **[認証方法]** と一致していることを確認してください。
 
 ### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>エラー: 接続できません。 詳細: "データベースに接続できません"
 サーバーには接続できましたが、指定されたデータベースには接続できませんでした。 データベースの名前を確認し、そのデータベースにアクセスできる適切なアクセス許可がユーザー資格情報に付与されていることを確認します。
 
-**[詳細を表示する]**には、データ ソースから受信したエラー メッセージが表示されます。 SQL Server の場合は、次のように表示されます。
+**[詳細を表示する]** には、データ ソースから受信したエラー メッセージが表示されます。 SQL Server の場合は、次のように表示されます。
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>エラー: 接続できません。 詳細: "Unknown error in data gateway" (データ ゲートウェイでの不明なエラー)
 このエラーは、さまざまな理由で発生する可能性があります。 ゲートウェイをホストしているコンピューターからデータ ソースに接続できることを必ず確認してください。 サーバーにアクセスできない場合も、このエラーが表示されることがあります。
 
-**[詳細を表示する]**には、 **DM_GWPipeline_UnknownError**のエラー コードが表示されます。
+**[詳細を表示する]** には、 **DM_GWPipeline_UnknownError**のエラー コードが表示されます。
 
 また、[イベント ログ]、**[アプリケーションとサービス ログ]** > **[On-premises Data Gateway Service]\(オンプレミス データ ゲートウェイ サービス\)** で、詳細を確認することができます。
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>エラー: <server> に接続しようとしているときにエラーが発生しました。 詳細: "data gateway に到達しましたが、ゲートウェイがオンプレミスのデータ ソースにアクセスできません。"
 指定したデータ ソースに接続できませんでした。 そのデータ ソースについて提供された情報を検証してください。
 
-**[詳細を表示する]**には、 **DM_GWPipeline_Gateway_DataSourceAccessError**のエラー コードが表示されます。
+**[詳細を表示する]** には、 **DM_GWPipeline_Gateway_DataSourceAccessError**のエラー コードが表示されます。
 
 基になっているエラー メッセージが次のような場合は、データ ソースに対して使用しているアカウントがその Analysis Services インスタンスのサーバー管理者ではないことを意味しています。 [詳細情報](https://docs.microsoft.com/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance)
 

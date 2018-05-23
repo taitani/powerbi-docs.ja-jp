@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop で相対日付のスライサーまたはフィルターを使用する
 description: Power BI Desktop で相対的な日付範囲を制限するスライサーまたはフィルターを使う方法について説明します
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 26facbc0c634efb613ec0f01691a5ffe1be0fc5d
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 1d074cbd61373bf53e22ecc60c0c1389c0b94881
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Power BI Desktop で相対日付のスライサーおよびフィルターを使用する
 **相対日付スライサー**または**相対日付フィルター**では、データ モデルの任意の日付列に時間ベースのフィルターを適用することができます。 たとえば、**相対日付スライサー**を使って、過去 30 日間 (または、1 か月、カレンダー月など) に発生した販売データのみを表示できます。 データを更新すると、相対期間が適切な相対日付制約を自動的に適用します。

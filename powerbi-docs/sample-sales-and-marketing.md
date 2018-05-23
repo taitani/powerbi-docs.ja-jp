@@ -1,28 +1,20 @@
 ---
-title: "Power BI の売上およびマーケティングのサンプル: 使ってみる"
-description: "Power BI の売上およびマーケティングのサンプル: 使ってみる"
-services: powerbi
-documentationcenter: 
+title: 'Power BI の売上およびマーケティングのサンプル: 使ってみる'
+description: 'Power BI の売上およびマーケティングのサンプル: 使ってみる'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: badd7a9c41199bf1486e83d29b37bb385f32b8ea
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 39cd9c92128ca352c713bc2e37624356fea412e8
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI の売上およびマーケティングのサンプル: 使ってみる
 
@@ -73,7 +65,7 @@ VanArsdel 社には多くの競合他社が存在しますが、その業界に�
 * 最大の競合他社は Aliqui 社です (中央の縦棒グラフ タイルから読み取ることができます)。
 * ビジネスのほとんどが東部および中部地域に集中しています。
 * 下部にある折れ線グラフは、6 月の急落が季節によるものでないことを示しています。同時期に同様の落ち込みを見せている競合他社はありません。
-* 2 つの \[Total Units] \(個数合計) タイルは、セグメント別および地域/メーカー別の個数を示しています。 この業界の最大の市場セグメントは、 **\[Productivity]** \(生産性) と **\[Convenience]**\(利便性) です。
+* 2 つの \[Total Units] \(個数合計) タイルは、セグメント別および地域/メーカー別の個数を示しています。 この業界の最大の市場セグメントは、 **\[Productivity]** \(生産性) と **\[Convenience]** \(利便性) です。
 
 ### <a name="use-qa-to-dig-a-little-deeper"></a>Q&A を使用した詳しい調査
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>売上に影響するセグメントは? 業界の傾向に一致しているか?

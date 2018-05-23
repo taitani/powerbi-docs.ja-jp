@@ -1,28 +1,20 @@
 ---
 title: 組織内の Power BI (無料)
 description: この記事では、組織の観点から Power BI (無料) 用のオプションに注目します。 テナントの管理者は、この方法で無料サインアップを管理します。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da8b4cbb86766e6b411af902fce4bf18f480612
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2ba97b76b13c9adf3c9f20d5d42c5ec9c363edda
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>組織内の Power BI (無料)
 ここでは、Power BI (無料) サービスを組織内で使用する方法を紹介します。 組織ということは、テナントがあり、ユーザーとサービスをそのテナント内で管理できることを意味します。 管理者は、ライセンスの割り当てを制御するか、ユーザーが個人としてサインアップできるようにすることができます。 Power BI (無料) ライセンスと、個人のサインアップを制御する方法を紹介します。

@@ -1,28 +1,20 @@
 ---
 title: 新しい Office 365 試用版で Power BI にサインアップする
 description: 新しい Office 365 試用版で Power BI にサインアップする
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5db7d92b7d62d1518682d831dd425e8b4b6efe86
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: dd43c063d56f75fd1ba45b6c596f54fd002adad6
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>新しい Office 365 試用版で Power BI にサインアップする
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -45,7 +37,7 @@ ms.lasthandoff: 04/08/2018
 4. これで完了です。  完了したら、Power BI にリダイレクトされます。
 
 ## <a name="important-considerations"></a>重要な考慮事項
-このサインアップ方法を使うことは新しい組織のテナントを作っていることになり、そのテナントの管理者になることを意味します。  Power BI での共有は 1 つのテナント内に限られているため、このテナントの外部のユーザーと共有することができなくなります。  たとえば、手順 2 でテナント yourcompany.onmicrosoft.com を作成した場合、yourcompany.com のユーザーとは共有できなくなります。[このヘルプ トピック](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG)で説明されているように、新しいユーザーを自分のテナントに追加してから、それらのユーザーと共有できます。
+このサインアップ方法を使うことは新しい組織のテナントを作っていることになり、そのテナントの管理者になることを意味します。 [このヘルプ トピック](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG)で説明されているように、新しいユーザーを自分のテナントに追加してから、それらのユーザーと共有できます。
 
 ## <a name="next-steps"></a>次の手順
 [組織内の Power BI を管理する](service-admin-administering-power-bi-in-your-organization.md)  

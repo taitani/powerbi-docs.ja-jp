@@ -1,28 +1,20 @@
 ---
 title: Power BI と Office 365 でアプリ ワークスペースを管理する
 description: Power BI のアプリ ワークスペースは、Office 365 グループ上に構築されたコラボレーション エクスペリエンスです。 Power BI および Office 365 でアプリ ワークスペースを管理します。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d8aac093b06910d5d32c2e5d33951db9448757c4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI と Office 365 でアプリ ワークスペースを管理する
 Office 365 または [Power BI でのアプリ ワークスペース](service-install-use-apps.md)の作成者または管理者として、Power BI でワークスペースの一部の側面を管理します。 その他の側面は、Office 365 で管理します。 
@@ -54,7 +46,7 @@ Office 365 または [Power BI でのアプリ ワークスペース](service-in
 2. ここでは、メンバーの名前を変更したり、メンバーを追加または削除したり、アプリ ワークスペースを削除したりできます。 
    
    ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
-3. **[保存]** または **[キャンセル]**を選びます。
+3. **[保存]** または **[キャンセル]** を選びます。
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Office 365 で Power BI アプリ ワークスペースのプロパティを編集する
 1. Power BI サービスで、**[ワークスペース]** の横にある矢印を選択し、目的のワークスペース名の横にある省略記号 (**…**) を選択して、**[メンバー]** を選択します。 
@@ -77,7 +69,7 @@ Office 365 または [Power BI でのアプリ ワークスペース](service-in
 2. ここで名前、説明、言語を編集し、イメージを追加し、その他のプロパティを設定できます。
    
    ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
-3. **[保存]** または **[破棄]**を選択します。
+3. **[保存]** または **[破棄]** を選択します。
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI のアプリについて](service-install-use-apps.md)

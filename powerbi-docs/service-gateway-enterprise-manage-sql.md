@@ -1,28 +1,20 @@
 ---
 title: データ ソースの管理 - SQL
 description: オンプレミス データ ゲートウェイとそのゲートウェイに属しているデータ ソースを管理する方法。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 563c0c65ab7c696449732ad01a0f20ca87383d15
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2eb880ee512a3f13c56bb6dbf880209f05cdf7b4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>データ ソースの管理 - SQL Server
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加することができます。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 スケジュールされた更新または DirectQuery のどちらに対しても SQL Server データ ソースを使用できます。
@@ -33,7 +25,7 @@ ms.lasthandoff: 04/08/2018
 ![](media/service-gateway-enterprise-manage-sql/powerbi-download-data-gateway.png)
 
 ## <a name="add-a-gateway"></a>ゲートウェイの追加
-ゲートウェイを追加する場合は、使用している環境のサーバー上にゲートウェイを[ダウンロード](https://go.microsoft.com/fwlink/?LinkId=698861)してインストールするだけです。 インストール済みのゲートウェイは、 **[ゲートウェイの管理]**の下のゲートウェイ一覧に表示されます。
+ゲートウェイを追加する場合は、使用している環境のサーバー上にゲートウェイを[ダウンロード](https://go.microsoft.com/fwlink/?LinkId=698861)してインストールするだけです。 インストール済みのゲートウェイは、 **[ゲートウェイの管理]** の下のゲートウェイ一覧に表示されます。
 
 > [!NOTE]
 > **[ゲートウェイの管理]** は、少なくとも 1 つのゲートウェイの管理者になるまで表示されません。 これは、管理者としてゲートウェイに追加されたとき、またはゲートウェイを自分でインストールして構成したときに発生します。
@@ -62,9 +54,9 @@ ms.lasthandoff: 04/08/2018
 > 
 > 
 
-次に、 **[サーバー]** や **[データベース]**など、データ ソースの情報を入力する必要があります。  
+次に、 **[サーバー]** や **[データベース]** など、データ ソースの情報を入力する必要があります。  
 
-また、 **[認証方法]**も選択する必要があります。  **[Windows]** または **[基本]**を選択できます。  Windows 認証ではなく SQL 認証を使用する場合は、 **[基本]** を選択してください。 次に、このデータ ソースで使用される資格情報を入力します。
+また、 **[認証方法]** も選択する必要があります。  **[Windows]** または **[基本]** を選択できます。  Windows 認証ではなく SQL 認証を使用する場合は、 **[基本]** を選択してください。 次に、このデータ ソースで使用される資格情報を入力します。
 
 > [!NOTE]
 > データ ソースへのすべてのクエリは、Kerberos シングル サインオン (SSO) が構成され、データ ソースに対して有効な場合を除き、これらの資格情報を使用して実行されます。 SSO を使用すると、インポート データセットは保存された資格情報を使用しますが、DirectQuery データセットは現在の Power BI ユーザーを使用し、SSO を使用してクエリを実行します。 詳細については、[資格情報](service-gateway-onprem.md#credentials)の保存方法に関する主なオンプレミス データ ゲートウェイの記事、または [Power BI からオンプレミス データ ソースの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)方法を説明している記事を参照してください。

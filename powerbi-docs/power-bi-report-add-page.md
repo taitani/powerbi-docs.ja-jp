@@ -1,28 +1,20 @@
 ---
-title: "レポートのページを追加または複製する"
-description: "Power BI サービスおよび Power BI Desktop で Power BI レポートにページを追加します"
-services: powerbi
-documentationcenter: 
+title: レポートのページを追加または複製する
+description: Power BI サービスおよび Power BI Desktop で Power BI レポートにページを追加します
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da162a5377b9ba2979e38910b97924396fc921b9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 48980bf4ded44f9c383b38606747d14b5a5725c8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop で Power BI レポートにページを追加する
 1 つのレポート ページに多くの情報を詰め込む必要はありません。新しい空白ページを追加してください。 

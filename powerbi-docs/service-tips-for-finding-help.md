@@ -1,28 +1,20 @@
 ---
-title: "Power BI の質問のヘルプを得るための 10 のヒント"
-description: "ここでは、Power BI のしくみについて質問がある場合に、ヘルプを得るための 10 の方法を紹介します。"
-services: powerbi
-documentationcenter: 
+title: Power BI の質問のヘルプを得るための 10 のヒント
+description: ここでは、Power BI のしくみについて質問がある場合に、ヘルプを得るための 10 の方法を紹介します。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI の質問のヘルプを得るための 10 のヒント
 Power BI に関する疑問に対する答えを、必要なときに (つまり、"ジャストインタイム" で) 得られないために、Power BI を使用しながらイライラしたり、苦労したりしていませんか。 
@@ -52,7 +44,7 @@ Power BI チームは、定期的な [Power BI ブログ投稿](https://powerbi.
 ## <a name="6-attend-training"></a>6. トレーニングに参加する
 利用できるトレーニング オプションは、対面式のラボ トレーニングから短いビデオまで、ほぼ無限にあります。
 
-* Power BI サイトで提供されている「[ガイド付き学習](guided-learning/gettingstarted.yml#step-1)」。
+* Power BI サイトで提供されている「[ガイド付き学習](guided-learning/gettingstarted.yml?tutorial-step=1)」。
 * Power BI サイトでライブおよびオンデマンド形式で提供されている無料の「[Power BI ウェビナー](webinars.md)」。
 
 他にも次のようなオプションをオンラインで利用できます。

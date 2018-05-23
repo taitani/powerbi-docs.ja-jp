@@ -1,28 +1,20 @@
 ---
 title: 編集ビューでレポートと対話する
 description: Power BI サービスのレポートの編集ビューでレポートと対話する
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b4fcd59b16e9fd7ef0dcddfc44a93bb842a32f8
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI サービスの編集ビューでレポートと対話する
 レポートは、Power BI サービスと Power BI Desktop で作成および編集することができます。 Power BI サービスでは、レポートは**編集ビュー**で作成および編集できます。 Power BI Desktop では、レポートは[**レポート ビュー**](desktop-report-view.md)で作成および編集できます。 この記事では、Power BI サービスの編集ビューについて説明します。 

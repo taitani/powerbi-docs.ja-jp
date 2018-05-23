@@ -1,28 +1,20 @@
 ---
 title: Azure SQL Data Warehouse と DirectQuery
 description: Azure SQL Data Warehouse と DirectQuery
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 87b49833b5c0d1d634d440e947659a12ac87b66c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: d6a5aa5bfc1ac9a2a5f7784464598800f70d0f05
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse と DirectQuery
 Azure SQL Data Warehouse と DirectQuery を使用すると、Azure SQL Data Warehouse に既に含まれているデータとメトリックに基づいて動的なレポートを作成できます。 DirectQuery を使用すると、データを探索するときにクエリが Azure SQL Data Warehouse に送り返されます。 これを SQL Data Warehouse のスケールと組み合わせることで、ユーザーはテラバイトのデータに対し、分単位で動的なレポートを作成することができます。 さらに、 **[Power BI で開く]** ボタンを使用すると、ユーザーは手動で情報を指定しなくても、Power BI を SQL Data Warehouse に直接接続することができます。
@@ -54,7 +46,7 @@ SQL Data Warehouse は、Power BI の [データの取得] ページにも表示
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。  
    
     ![](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
-2. **[データベース]**で **[取得]**を選択します。
+2. **[データベース]** で **[取得]** を選択します。
    
     ![](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
 3. **[SQL Data Warehouse**]、\>**[接続] の順に選択します**。

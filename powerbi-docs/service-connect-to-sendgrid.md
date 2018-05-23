@@ -1,28 +1,20 @@
 ---
 title: Power BI で SendGrid に接続する
 description: Power BI 用 SendGrid
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b2484e579cf3a5e428566e8fc3aead151552eff6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a08d9d10725a5c135ef6732b8397a57833463f4c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>Power BI で SendGrid に接続する
 SendGrid 用 Power BI コンテンツ パックを使用すると、SendGrid アカウントから考察や統計情報を得ることができます。 SendGrid コンテンツ パックを使用して、SendGrid の統計情報をダッシュボードに視覚化することができます。
@@ -33,13 +25,13 @@ Power BI 用 [SendGrid コンテンツ パック](https://app.powerbi.com/getdat
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-sendgrid/pbi_getdata.png) 
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-sendgrid/pbi_getservices.png) 
 3. **SendGrid** コンテンツ パックを選び、**[取得]** をクリックします。
    
    ![](media/service-connect-to-sendgrid/sendgrid.png) 
-4. ダイアログが表示されたら、SendGrid のユーザー名とパスワードを入力します。 **[サインイン]**をクリックします。
+4. ダイアログが表示されたら、SendGrid のユーザー名とパスワードを入力します。 **[サインイン]** をクリックします。
    
    ![](media/service-connect-to-sendgrid/pbi_sendgridsignin.png)
 5. Power BI にデータがインポートされると、新しいダッシュボード、レポート、データセットが左側のナビゲーション ウィンドウに表示され、そこに過去 90 日間の電子メール統計情報が取り込まれています。 新しい項目には黄色のアスタリスク \* でマークが付けられます。

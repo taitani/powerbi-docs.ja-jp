@@ -1,28 +1,20 @@
 ---
-title: "Power BI で使用できるサンプルのツアー"
-description: "Power BI のコンテンツ パック、PBIX ファイル、Excel データセットのサンプル"
-services: powerbi
-documentationcenter: 
+title: Power BI で使用できるサンプルのツアー
+description: Power BI のコンテンツ パック、PBIX ファイル、Excel データセットのサンプル
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 03/05/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: cf93d16eae91743ce52f1de915336c6df4d82202
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI で使用できるサンプル データ
 Power BI を初めて試してみたくてもデータがない場合や、  データセットはあっても Power BI の動作が (まだ) よくわからないためデータセットが壊れるのではないかと心配になる場合があります。
@@ -172,7 +164,7 @@ Excel ブックのデータが Power BI のデータセットやレポートに�
 * 各ブックには、複数のシートが含まれています。 すべての Excel サンプルには視覚化を含む Power View シートが少なくとも 1 つはあるので、Power BI に Excel ファイルをインポートすると、データセット**と**レポートが作成されます。
 
    [Power View アドインを有効にする](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957)ことが必要な場合があります。
-* 実際のデータは、 Power Pivot データ モデルに存在しています。 データを表示するには、 **[PowerPivot]** タブで **[データ モデルの管理]**を選びます。
+* 実際のデータは、 Power Pivot データ モデルに存在しています。 データを表示するには、 **[PowerPivot]** タブで **[データ モデルの管理]** を選びます。
 
     [PowerPivot] タブが表示されない場合は、以下を行います。 [Power Pivot のアドインを有効にします](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8)。
 * [Info] タブには obviEnce (サンプルを作成した会社) に関する情報が示されています。

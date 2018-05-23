@@ -1,28 +1,20 @@
 ---
 title: Power BI で Project Online に接続する
 description: Power BI 用 Project Online
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1d0cb4531dca1f200adbb21514fb49df8c872ecc
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 52bd4b5dc27ff127eadea49cb3e761d6cda4788d
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>Power BI で Project Online に接続する
 Microsoft Project Online は、プロジェクト ポートフォリオ管理 (PPM) および日常の作業用の柔軟なオンライン ソリューションです。 Project Online を使用すると、プロジェクト ポートフォリオの投資を開始して優先順位を設定し、意図したとおりのビジネス価値を提供できます。 Power BI 用 Project Online コンテンツ パックでは、ポートフォリオの状態やプロジェクトへの準拠などの既定のメトリックで、プロジェクトのデータを調べることができます。
@@ -33,13 +25,13 @@ Power BI 用 [Project Online コンテンツ パック](https://app.powerbi.com/
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
     ![](media/service-connect-to-project-online/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。
+2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-project-online/services.png)
 3. **[Microsoft Project Online]** \> **[取得]** の順に選択します。
    
    ![](media/service-connect-to-project-online/mproject.png)
-4. **[Project Web App の URL]** テキスト ボックスに接続する Project Web App (PWA) の URL を入力し、 **[次へ]**をクリックします。 カスタム ドメインを使用している場合は例と異なる場合があることに注意してください。
+4. **[Project Web App の URL]** テキスト ボックスに接続する Project Web App (PWA) の URL を入力し、 **[次へ]** をクリックします。 カスタム ドメインを使用している場合は例と異なる場合があることに注意してください。
    
     ![](media/service-connect-to-project-online/params.png)
 5. [認証方法] として **[oAuth2]** を選択し、**[サイン イン]** をクリックします。 プロンプトが表示されたら、Project Online の資格情報を入力し、認証プロセスに従います。

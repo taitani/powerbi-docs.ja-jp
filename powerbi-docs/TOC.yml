@@ -140,8 +140,6 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure Search
                   href: service-connect-to-azure-search.md
-                - name: Azure Security Center
-                  href: service-connect-to-azure-security-center.md
                 - name: サーキット ID
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
@@ -416,8 +414,6 @@
                   href: refresh-csv-file-onedrive.md
                 - name: 更新に関するトラブルシューティング シナリオ
                   href: refresh-troubleshooting-refresh-scenarios.md
-                - name: プライバシー設定を無効にする
-                  href: refresh-enable-fast-combine.md
             - name: トラブルシューティング
               items:
                 - name: Power BI のパスワードを忘れた場合
@@ -470,6 +466,18 @@
       items:
         - name: 複数のデータ ソースの整形と結合
           href: desktop-shape-and-combine-data.md
+        - name: Power BI Desktop を使用した Web ページのデータのインポートと分析
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' Excel と OData フィードの売上データの分析'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Power BI Desktop での独自のメジャーの作成
+          href: desktop-tutorial-create-measures.md
+        - name: Power BI Desktop での計算列の作成
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: Power BI Desktop を使用した Facebook の分析
+          href: desktop-tutorial-facebook-analytics.md
+        - name: Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: サンプル
       items:
         - name: Power BI 用の Financial Sample のダウンロード
@@ -526,18 +534,6 @@
           href: desktop-connect-to-data.md
         - name: Power BI Desktop からの発行
           href: desktop-upload-desktop-files.md
-        - name: Power BI Desktop を使用した Web ページのデータのインポートと分析
-          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Excel と OData フィードの売上データの分析'
-          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Power BI Desktop での独自のメジャーの作成
-          href: desktop-tutorial-create-measures.md
-        - name: Power BI Desktop での計算列の作成
-          href: desktop-tutorial-create-calculated-columns.md
-        - name: Power BI Desktop を使用した Facebook の分析
-          href: desktop-tutorial-facebook-analytics.md
-        - name: Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
-          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Power BI でのカスタム ビジュアル
           href: power-bi-custom-visuals.md
         - name: Power BI での組織のカスタム ビジュアル
@@ -898,8 +894,6 @@
           href: developer/qanda.md
     - name: 方法
       items:
-        - name: 開発者ツールでカスタム ビジュアルを作成する
-          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: コンテンツを埋め込む方法
           href: developer/embedding-content.md
         - name: ダッシュボードにデータをプッシュする
@@ -914,6 +908,18 @@
           href: developer/integrate-report.md
         - name: コンテンツをアプリケーションに統合する (アプリがデータを所有)
           href: developer/embed-sample-for-customers.md
+        - name: コンテンツをソブリン クラウド向けアプリケーションに統合する (アプリがデータを所有)
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
+        - name: カスタム ビジュアルの作成
+          items:
+            - name: 開発者ツールでカスタム ビジュアルを作成する
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: カスタム ビジュアルのセキュリティとプライバシーを確認する
+              href: service-custom-visuals-review-for-security-and-privacy.md
+            - name: カスタム ビジュアルの認定を受ける
+              href: power-bi-custom-visuals-certified.md
+            - name: カスタム ビジュアルを AppSource に発行する
+              href: developer/office-store.md
         - name: 埋め込み
           items:
             - name: Power BI で埋め込み
@@ -932,12 +938,6 @@
               href: developer/migrate-code-snippets.md
             - name: 埋め込みアプリケーションのトラブルシューティング
               href: developer/embedded-troubleshoot.md
-        - name: カスタム ビジュアルの作成
-          items:
-            - name: カスタム ビジュアルのセキュリティとプライバシーを確認する
-              href: service-custom-visuals-review-for-security-and-privacy.md
-            - name: カスタム ビジュアルの認定を受ける
-              href: power-bi-custom-visuals-certified.md
         - name: ダッシュボードにデータをプッシュする
           items:
             - name: アプリを Azure AD に登録する
@@ -976,7 +976,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: リソース
       items:
-        - name: JavaScript 埋め込みデモ
+        - name: JavaScript のプレイグラウンド サンプル
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: サンプル
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
@@ -1126,10 +1126,12 @@
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: プロキシ設定の構成
           href: service-gateway-proxy.md
-        - name: オンプレミス データ ゲートウェイの詳細
-          href: service-gateway-onprem-indepth.md
         - name: オンプレミス データ ゲートウェイの高可用性クラスター
           href: service-gateway-high-availability-clusters.md
+        - name: オンプレミス データ ゲートウェイ
+          href: service-gateway-onprem.md
+        - name: オンプレミス データ ゲートウェイの詳細
+          href: service-gateway-onprem-indepth.md
         - name: オンプレミス データ ゲートウェイ (個人用モード)
           href: service-gateway-personal-mode.md
         - name: オンプレミス データ ゲートウェイのトラブルシューティング
@@ -1188,6 +1190,8 @@
           href: service-admin-health.md
         - name: Power BI アカウントを削除する
           href: service-admin-closing-your-account.md
+        - name: 組織内の Power BI Pro
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: 組織内の Power BI (無料)
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI と ExpressRoute

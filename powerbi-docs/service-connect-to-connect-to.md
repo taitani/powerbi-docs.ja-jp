@@ -1,28 +1,20 @@
 ---
 title: Power BI で comScore Digital Analytix に接続する
 description: Power BI 用 comScore Digital Analytix
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c7e476cb9e5a210ce2d37691c44ed05dd9f3c256
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Power BI で comScore Digital Analytix に接続する
 Power BI コンテンツ パックを使用して、Power BI 内の comScore Digital Analytix データを表示および探索します。 データは、1 日 1 回自動的に更新されることになります。
@@ -71,7 +63,7 @@ Power BI コンテンツ パックを使用して、Power BI 内の comScore Dig
 
 接続先のデータ センターは、comScore で移動する URL によって決定されます。
 
-https://dax.comscore.com を使用する場合は「US」を、https://dax.comscore.eu を使用する場合は「EU」と入力します。
+https://dax.comscore.com を使用する場合は「US」と入力し、https://dax.comscore.eu を使用する場合は「EU」と入力します。
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 

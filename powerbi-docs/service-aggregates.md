@@ -1,28 +1,20 @@
 ---
-title: "視覚エフェクトでの集計 (合計、平均値、最大値など)"
-description: "Power BI のグラフでの集計 (合計、平均値、最大値など) の変更"
-services: powerbi
-documentationcenter: 
+title: 視覚エフェクトでの集計 (合計、平均値、最大値など)
+description: Power BI のグラフでの集計 (合計、平均値、最大値など) の変更
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: modifying
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/04/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c391ab631d94e98df68835f680a48e24afd293fb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI の視覚エフェクトでの集計
 ## <a name="what-is-an-aggregate"></a>集計とは
@@ -121,7 +113,7 @@ Power BI サービスの集計は、使い方がわかりにくいことがあ�
 2. 集計を既定の **[集計しない]** から **[カウント (個別)]** に変更すると、Power BI は異なる製品の数をカウントします。 この例では、4 となります。
    
    ![](media/service-aggregates/power-bi-aggregates-count.png)
-3. 集計を **[カウント]**に変更すると、Power BI は合計数をカウントします。 この例では、**Product** に 7 個のエントリがあります。 
+3. 集計を **[カウント]** に変更すると、Power BI は合計数をカウントします。 この例では、**Product** に 7 個のエントリがあります。 
    
    ![](media/service-aggregates/power-bi-aggregate-count2.png)
 

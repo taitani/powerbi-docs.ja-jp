@@ -1,28 +1,20 @@
 ---
 title: Power BI から Web への公開
 description: Power BI で Web に公開すると、対話型の Power BI の視覚化をブログ投稿記事、Web サイト、メールやソーシャル メディアなどにオンラインで簡単に埋め込むことができます。
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -31,7 +23,7 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 また、発行したビジュアルを簡単に編集、更新、共有解除することもできます。
 
 > [!WARNING]
-> **[Web に公開]** を使用した場合、インターネット上のすべてのユーザーが、その公開したレポートまたはビジュアルを表示できることにご注意ください。 これらのレポートを表示するときに認証は使用されません。 インターネット上の誰でも (一般の非認証メンバー) 見て差し支えないレポートやデータのみに [Web に公開] をご使用ください。 これには、レポートで集計される詳細レベルのデータが含まれます。 このレポートを公開する前に、データや視覚エフェクトをパブリックに共有する権限を持っていることを確認します。 機密情報は公開しないでください。 不確かな場合は、発行する前に組織のポリシーを確認します。
+> **[Web に公開]** を使用した場合、インターネット上のすべてのユーザーが、その公開したレポートまたはビジュアルを表示できることにご注意ください。 これらのレポートを表示するときに認証は使用されません。 インターネット上の誰でも (一般の非認証メンバー) 見て差し支えないレポートやデータのみに [Web に公開] をご使用ください。 これには、レポートで集計される詳細レベルのデータが含まれます。 このレポートを公開する前に、データや視覚エフェクトを一般向けに共有する権限があることをご確認ください。 機密情報は公開しないでください。 不確かな場合は、発行する前に組織のポリシーを確認します。
 
 ## <a name="how-to-use-publish-to-web"></a>[Web に公開] の使用方法
 
@@ -52,7 +44,7 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
    
    ![](media/service-publish-to-web/publish_to_web2_ga.png)
 
-3. 次のダイアログに表示されている警告を確認し、データをパブリックな Web サイトに埋め込んでも問題がないことを確認します。 問題がなければ、 **[発行]**を選びます。
+3. 次のダイアログに表示されている警告を確認し、データをパブリックな Web サイトに埋め込んでも問題がないことを確認します。 問題がなければ、 **[発行]** を選びます。
    
    ![](media/service-publish-to-web/publish_to_web3_ga.png)
 
@@ -99,7 +91,7 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 
 **[Web に公開]** 埋め込みコードを作成したら、作成したコードを Power BI サービスの **[設定]** メニューで管理できます。 埋め込みコードの管理には、コードの宛先ビジュアルやレポートを削除できる (埋め込みコードを使用できなくする) ことや、埋め込みコードをもう一度入手することが含まれます。
 
-1. **Publish to web** 埋め込みコードを管理するには、 **[設定]** の歯車を開き、 **[埋め込みコードの管理]**を選びます。
+1. **Publish to web** 埋め込みコードを管理するには、 **[設定]** の歯車を開き、 **[埋め込みコードの管理]** を選びます。
    
    ![](media/service-publish-to-web/publish_to_web8.png)
 

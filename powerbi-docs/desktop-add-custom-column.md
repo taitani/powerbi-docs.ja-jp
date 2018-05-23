@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop でカスタム列を追加する
 description: Power BI Desktop で新しいカスタム列をすばやく作成します
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f982ba613bef66514aab39b43cf0fe92b1b7b81c
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 30f39cd2b79792e9d4d3c41a1d60a8ddce6802f6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop でカスタム列を追加する
 **Power BI Desktop** の**クエリ エディター**を使って、データの新しいカスタム列をモデルに簡単に追加することができます。 ボタンを使ってカスタム列を定義する [M 式](https://msdn.microsoft.com/library/mt270235.aspx)を簡単に作成し、カスタム列を作成したり、カスタム列の名前を変更したりできます。 M 式には、[包括的な関数参照コンテンツ セット](https://msdn.microsoft.com/library/mt779182.aspx)があります。 

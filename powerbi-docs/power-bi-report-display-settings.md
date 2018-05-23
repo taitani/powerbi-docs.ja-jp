@@ -1,34 +1,26 @@
 ---
-title: "レポートのページ表示設定"
-description: "レポートのページ表示設定"
-services: powerbi
-documentationcenter: 
+title: レポートのページ表示設定
+description: レポートのページ表示設定
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+ms.reviewer: ''
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8d8fd5e3c983acc458647ae5efce67bafd4cd412
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI レポートのページ表示設定
 レポートのレイアウトをピクセル パーフェクトに保つことは重要です。 しかし場合によっては、自身や同僚が縦横比やサイズの異なる画面でレポートを表示しなければならないことがあります。 
 
-既定の表示レイアウトは **[ページに合わせる]** で、既定の表示サイズは **[16:9]**です。 異なる縦横比にロックしたり、別の方法でレポートの表示を調整したりするには、***[ページ表示]*** 設定と ***[ページ サイズ]*** 設定の 2 つを利用できます。
+既定の表示レイアウトは **[ページに合わせる]** で、既定の表示サイズは **[16:9]** です。 異なる縦横比にロックしたり、別の方法でレポートの表示を調整したりするには、***[ページ表示]*** 設定と ***[ページ サイズ]*** 設定の 2 つを利用できます。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 

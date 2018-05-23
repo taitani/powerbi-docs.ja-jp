@@ -1,28 +1,20 @@
 ---
 title: Power BI アーカイブ済みワークスペース
 description: Office 365 テナントを管理した後の Power BI アーカイブ済みワークスペース
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 254857072df2b06fbdeb2af0a53d262e98f8f254
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI アーカイブ済みワークスペース
 Power BI では、だれでもサインアップすれば、数分でサービスを使い始めることができます。  後から組織の IT 部門が、組織内のユーザーから Power BI の管理を引き継ぐことができます。  この引き継ぎが行われる場合、組織内のユーザーとアクセス許可の中央管理を活用し、組織の他のサービスで使うのと同じユーザー名とパスワードを使って、効率的なサインインを利用できます。 

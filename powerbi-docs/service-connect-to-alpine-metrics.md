@@ -1,28 +1,20 @@
 ---
 title: Power BI で Alpine Metrics Sales Predictions に接続する
 description: Power BI 用 Alpine Metrics Sales Predictions
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2c7072cca04033242ee9b07f0f3c1f82160cb332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Power BI で Alpine Metrics Sales Predictions に接続する
 Alpine Metrics は、さまざまな規模の販売組織が利用できる、最新の予測販売プロセス最適化をクラウドやオンデマンドで提供します。 Power BI 用 Alpine Metrics Sales Predictions コンテンツ パックには、売上予測や潜在的リスクなどのメトリックが含まれています。これらのメトリックを使用して、ビジネスの将来に関する深い洞察を得ることができます。 
@@ -33,7 +25,7 @@ Power BI 用 [Alpine Metrics Sales Predictions コンテンツ パック](https:
 1. 左側のナビゲーション ウィンドウの下部にある [データの取得] を選択します。  
    
     ![](media/service-connect-to-alpine-metrics/getdata.png)
-2. **[サービス]** ボックスで、 **[取得]**を選択します。  
+2. **[サービス]** ボックスで、 **[取得]** を選択します。  
    
     ![](media/service-connect-to-alpine-metrics/services.png)
 3. **[AlpineMetrics Sales Predictions]** を選択した後、**[取得]** を選択します。  
