@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/20/2018
+ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b7fb59e7fca6a3211b542b2a942565d6865e560c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>言語モデリングと言語スキーマ 
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 データが回答になる場合にはさらに効果的です。Power BI の Q&A ではこれが可能です。 Power BI の Q&A に質問すると、Q&A は質問にできるだけ正しく回答します。 
@@ -53,10 +53,7 @@ ms.lasthandoff: 05/17/2018
 
     ![このファイルを開く方法](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
 
-4. Visual Studio Code で、YAML Support by Red Hat 拡張機能をインストールします。
-
-   
-
+4. Visual Studio Code で、YAML Support by Red Hat 拡張機能をインストールします。    
     a. **[拡張機能]** タブ (左側の最後のタブ) を選ぶか、Ctrl + Shift + X キーを押します。    
     ![拡張機能アイコン](media/power-bi-q-and-a-linguistic-schema/power-bi-extensions.png)    
     b. "yaml" を検索して、一覧の **YAML Support by Red Hat** を選びます。    
