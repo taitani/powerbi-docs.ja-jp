@@ -10,12 +10,14 @@
           href: service-the-new-power-bi-experience.md
     - name: チュートリアル
       items:
-        - name: オンライン サービス GitHub への接続
+        - name: GitHub サンプルへの接続
           href: service-tutorial-connect-to-github.md
     - name: 概念
       items:
         - name: Power BI サービスの新機能
           href: service-whats-new.md
+        - name: セルフサービス サインアップ
+          href: service-self-service-signup-for-power-bi.md
         - name: Power BI の基礎
           items:
             - name: Power BI - 基本的な概念
@@ -56,16 +58,12 @@
           items:
             - name: Power BI のクイック インサイト
               href: service-insights.md
-            - name: レポートからダッシュボードを作成する
-              href: service-dashboard-create.md
             - name: ファイルからデータを取得
               href: service-get-data-from-files.md
             - name: Power BI レポートを読み取りビューまたは編集ビューで開く
               href: service-reading-view-and-editing-view.md
             - name: レポート エディター...紹介を見る
               href: service-the-report-editor-take-a-tour.md
-            - name: Power BI 用のサンプル
-              href: sample-datasets.md
             - name: Power BI での視覚化
               href: power-bi-report-visualizations.md
             - name: Power BI のデータ ソース
@@ -124,6 +122,8 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
+                - name: Adobe Analytics
+                  href: service-connect-to-adobe-analytics.md
                 - name: Alpine Metrics Sales Predictions
                   href: service-connect-to-alpine-metrics.md
                 - name: appFigures
@@ -248,8 +248,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Power BI での作業
           items:
-            - name: Power BI サンプル コンテンツ パックの使用
-              href: sample-tutorial-connect-to-the-samples.md
             - name: Excel ブックから魅力的なレポートを即座に作成する
               href: service-from-excel-to-stunning-report.md
             - name: Q&A を使用して視覚化およびレポートを作成する
@@ -268,6 +266,8 @@
               href: refresh-scheduled-refresh.md
             - name: ダッシュボード
               items:
+                - name: レポートからダッシュボードを作成する
+                  href: service-dashboard-create.md
                 - name: ダッシュボードのコピーを作成
                   href: service-dashboard-copy.md
                 - name: レポートから Power BI ダッシュボードにタイルをピン留め
@@ -314,19 +314,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: 作業の共有
               items:
-                - name: '組織のコンテンツ パック: 概要'
-                  href: service-organizational-content-pack-introduction.md
-                - name: 組織のコンテンツ パックの作成と発行
-                  href: service-organizational-content-pack-create-and-publish.md
                 - name: フィルター処理されたレポートを共有する
                   href: service-share-reports.md
                 - name: Power BI から Web への公開
                   href: service-publish-to-web.md
                 - name: SharePoint Online にレポートを埋め込む
                   href: service-embed-report-spo.md
-                - name: グループの OneDrive for Business に保存されているファイルへの接続
+                - name: グループの OneDrive に保存されているファイルへの接続
                   href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-                - name: Power BI グループ ワークスペースでの共同作業
+                - name: グループ ワークスペースでの共同作業
                   href: service-collaborate-power-bi-workspace.md
                 - name: Power BI および Office 365 でのグループ管理
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
@@ -334,6 +330,10 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: '組織のコンテンツ パック: コピー、更新、アクセスする'
                   href: service-organizational-content-pack-copy-refresh-access.md
+                - name: '組織のコンテンツ パック: 概要'
+                  href: service-organizational-content-pack-introduction.md
+                - name: 組織のコンテンツ パックの作成と発行
+                  href: service-organizational-content-pack-create-and-publish.md
                 - name: 組織のコンテンツ パックに対する接続を削除する
                   href: service-organizational-content-pack-disconnect.md
                 - name: OneDrive for Business 上の Excel ブックにリンクするダッシュボードを共有する
@@ -446,9 +446,13 @@
                   href: service-refresh-xero-credentials.md
     - name: リソース
       items:
-        - name: Power BI のサポートされているブラウザー
+        - name: ビデオ
+          href: videos.md
+        - name: Web セミナー
+          href: webinars.md
+        - name: サポートされているブラウザー
           href: service-browser-support.md
-        - name: Power BI でサポートされる言語と国または地域
+        - name: サポートされる言語と国/地域
           href: supported-languages-countries-regions.md
         - name: ホワイトペーパー
           href: whitepapers.md
@@ -480,24 +484,28 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: サンプル
       items:
-        - name: Power BI 用の Financial Sample のダウンロード
-          href: sample-financial-download.md
-        - name: 'Power BI のサプライヤー クオリティ分析のサンプル: 使ってみる'
-          href: sample-supplier-quality.md
-        - name: 'Power BI の IT 支出分析のサンプル: 使ってみる'
-          href: sample-it-spend.md
-        - name: 'Power BI の売上およびマーケティングのサンプル: 使ってみる'
-          href: sample-sales-and-marketing.md
-        - name: 'Power BI のお客様の収益性のサンプル: 使ってみる'
+        - name: Power BI 用のサンプル
+          href: sample-datasets.md
+        - name: サンプル コンテンツ パックを使用する
+          href: sample-tutorial-connect-to-the-samples.md
+        - name: 'お客様の収益性のサンプル: 使ってみる'
           href: sample-customer-profitability.md
+        - name: 'IT 支払い分析のサンプル: 使ってみる'
+          href: sample-it-spend.md
         - name: '人事のサンプル: 使ってみる'
           href: sample-human-resources.md
-        - name: 'Power BI の営業案件の分析のサンプル: 使ってみる'
+        - name: '営業案件の分析のサンプル: 使ってみる'
           href: sample-opportunity-analysis.md
         - name: '調達の分析のサンプル: 使ってみる'
           href: sample-procurement.md
-        - name: 'Power BI の小売りの分析のサンプル: 使ってみる'
+        - name: '小売りの分析のサンプル: 使ってみる'
           href: sample-retail-analysis.md
+        - name: '売上およびマーケティングのサンプル: 使ってみる'
+          href: sample-sales-and-marketing.md
+        - name: 'サプライヤー クオリティ分析サンプル: 使ってみる'
+          href: sample-supplier-quality.md
+        - name: 財務サンプル ブックのダウンロード
+          href: sample-financial-download.md
     - name: 概念
       items:
         - name: Power BI Desktop の最新の更新プログラムの新機能
@@ -806,6 +814,8 @@
           items:
             - name: モバイル アプリでのオンプレミス レポートの表示
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Power BI for Mixed Reality アプリ (プレビュー)
+              href: mobile-mixed-reality-app.md
             - name: Power BI モバイル アプリからダッシュボードを共有する
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: モバイル アプリのタイルを操作する
@@ -838,6 +848,8 @@
               href: mobile-android-app-get-started.md
             - name: '"お使いの企業 SSL 証明書が信頼されていません" を修正する'
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: '"Android System Webview の更新が必要である" を修正する'
+              href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
             - name: Power BI for iOS アプリの概要
@@ -1004,8 +1016,6 @@
           href: report-server/changelog.md
         - name: サポート タイムライン
           href: report-server/support-timeline.md
-        - name: サポートされているデータ ソース
-          href: report-server/data-sources.md
         - name: ハードウェアおよびソフトウェア要件
           href: report-server/system-requirements.md
         - name: ブラウザー サポート
@@ -1016,9 +1026,9 @@
           items:
             - name: Power BI レポートのスケジュールされた更新
               href: report-server/scheduled-refresh.md
-            - name: Power BI レポート (.pbix) データ ソース
+            - name: Power BI レポート データ ソース
               href: report-server/data-sources.md
-            - name: ページ分割されたレポート (.rdl) データ ソース
+            - name: ページ分割されたレポート データ ソース
               href: report-server/connect-data-sources.md
             - name: サブスクリプション
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
@@ -1048,10 +1058,6 @@
               href: report-server/getting-around.md
             - name: レポート サーバー用のページ分割されたレポートの作成
               href: report-server/quickstart-create-paginated-report.md
-            - name: 詳細な Power BI レポート
-              href: 'https://go.microsoft.com/fwlink/?linkid=848708'
-            - name: ページ分割された詳細なレポート
-              href: 'https://go.microsoft.com/fwlink/?linkid=848709'
             - name: KPI の操作
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: 'OData フィードとして共有データセットにアクセスする '

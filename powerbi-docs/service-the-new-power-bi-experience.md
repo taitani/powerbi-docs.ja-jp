@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>クイック スタート - Power BI サービス内の移動
 
@@ -125,6 +125,19 @@ Amanda が Power BI サービスのナビゲーション操作を説明するツ
 ![コンテンツの並べ替え](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 詳しくは、「[Power BI でコンテンツを検索したり並べ替える](service-navigation-search-filter-sort.md)」をご覧ください。
+
+## <a name="clean-up-resources"></a>リソースをクリーンアップする
+このクイックスタートが完了した後、希望する場合は、小売りの分析のサンプルのダッシュ ボード、レポート、およびデータセットを削除できます。
+
+1. Power BI サービス (app.powerbi.com) を開いてサインインします。    
+2. 左側のナビゲーション ウィンドウで、**[ワークスペース > マイ ワークスペース]** を選択します。  
+    お気に入りを示す黄色のアスタリスクがわかりますか。    
+3. **[ダッシュ ボード]** タブで、小売りの分析ダッシュ ボードの横にあるゴミ箱を **[削除]** アイコンを選択します。    
+
+    ![ダッシュボードの削除](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. **[レポート]** タブを選び、小売りの分析のレポートでも同様にします。
+1. **[レポート]** タブを選び、小売りの分析のデータセットでも同様にします。
 
 ## <a name="next-steps"></a>次の手順
 
