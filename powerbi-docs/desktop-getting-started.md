@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop の概要
 description: Power BI Desktop の概要
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop の概要
 「**Power BI Desktop 概要ガイド**」へようこそ。 この短いツアーでは、Power BI Desktop の機能を説明し、その動作の実例を示します。これにより、強力なデータ モデルと優れたレポートをより迅速に作成できるようになり、ビジネス インテリジェンスの作業を拡張できます。 
@@ -336,6 +328,10 @@ Power BI にサインインすると、サービスの **ダッシュボード**
 
 Power BI Desktop と Power BI サービスにより、データに関連したあらゆる種類の説得力のあるマッシュ アップや視覚化を行うことができます。 詳細については、次のセクションを参照してください。
 
+## <a name="diagnostics"></a>診断
+
+Power BI Desktop は、診断ポートへの接続をサポートします。 診断ポートは、その他のツールの接続と、診断目的のトレースの実行を可能にします。 *モデルに対する変更はサポートされていません。モデルに変更を加えると、破損とデータ損失が発生する可能性があります。*
+
 ## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。
 
@@ -344,4 +340,3 @@ Power BI Desktop を使用すると、さまざまなことを行えます。 �
 * [Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop での一般的なクエリ タスク](desktop-common-query-tasks.md)   
-

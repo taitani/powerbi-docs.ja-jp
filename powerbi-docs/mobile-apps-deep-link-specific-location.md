@@ -1,27 +1,19 @@
 ---
-title: "Power BI モバイル アプリの特定の場所へのリンクを作成する"
-description: "URI (Uniform Resource Identifier) で Power BI モバイル アプリの特定のダッシュボード、タイル、またはレポートへのディープ リンクを作成する方法について説明します。"
-services: powerbi
-documentationcenter: 
+title: Power BI モバイル アプリの特定の場所へのリンクを作成する
+description: URI (Uniform Resource Identifier) で Power BI モバイル アプリの特定のダッシュボード、タイル、またはレポートへのディープ リンクを作成する方法について説明します。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: f0174dfd845508b859f703827cec6e1a9290fe78
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの特定の場所へのリンクを作成する
 URI (Uniform Resource Identifier) を作成して使用することで、すべてのモバイル プラットフォーム (iOS、Android デバイス、Windows 10) で Power BI モバイル アプリ内の特定の場所にリンクすることができます (*ディープ リンク*)。
@@ -47,7 +39,7 @@ https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270*
 
 ダッシュボードがマイ ワークスペース以外のグループにある場合は、ダッシュボード ID の前または後に `&GroupObjectId=<36-character-group-id>` を追加します。 次はその例です。 
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60**&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
 
 2 つの間のアンパサンド (&) に注意してください。
 

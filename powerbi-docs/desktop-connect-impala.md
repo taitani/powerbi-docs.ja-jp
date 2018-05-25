@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop で Impala データベースに接続する
 description: Power BI Desktop で Impala データベースに簡単に接続して使用する
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bef087b485573ba9a629887bfb05d875c88c8b4c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Power BI Desktop で Impala データベースに接続する
 Power BI Desktop では、**Impala** データベースに接続し、Power BI Desktop の他のデータ ソースの場合と同様に基になっているデータを使用できます。
@@ -36,7 +28,7 @@ Power BI Desktop では、**Impala** データベースに接続し、Power BI D
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-プロンプトが表示されたら、ユーザー名とパスワードを入力するか、または匿名で接続します (どちらもサポートされています)。
+プロンプトが表示されたら、資格情報を入力するか、匿名で接続します。 Impala コネクタは、匿名、基本 (ユーザー名とパスワード)、および Windows 認証をサポートします。
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 
@@ -52,7 +44,7 @@ Power BI Desktop では、**Impala** データベースに接続し、Power BI D
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 **Impala** コネクタにはいくつかの制限事項と考慮事項があるので注意してください。
 
-* 今後の計画には、**Power BI Gateway** の使用に関するサポートの更新などが予定されています。
+* Impala コネクタは、3 つのサポートされた認証メカニズムのいずれかを使用して、オンプレミス データ ゲートウェイでサポートされます。
 
 ## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。

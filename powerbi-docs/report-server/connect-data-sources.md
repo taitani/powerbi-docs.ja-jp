@@ -1,29 +1,21 @@
 ---
-title: Power BI Report Server でのページ分割されたレポート (.rdl) のデータ ソース
+title: Power BI Report Server でのページ分割されたレポート データ ソース
 description: ページ分割されたレポート (.rdl) が Power BI Report Server で接続できるデータ ソースについて説明します。
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/23/2018
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 189e5c2900fedf8403df75f0eb371830f28f7281
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: d4775ad8c9ef5bd039c09d7cfb8bb3b881405754
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="paginated-report-rdl-data-sources"></a>ページ分割されたレポート (.rdl) データ ソース
+# <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Power BI Report Server でのページ分割されたレポート データ ソース
 Power BI Report Server での Reporting Services のページ分割されたレポートは、SQL Server Reporting Services でサポートされているものと同じデータ ソースをサポートします。 「[Reporting Services でサポートされるデータ ソース (SSRS)](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)」の一覧をご覧ください。
 
 ## <a name="next-steps"></a>次の手順

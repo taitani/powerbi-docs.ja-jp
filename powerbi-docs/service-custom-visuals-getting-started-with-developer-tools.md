@@ -1,27 +1,19 @@
 ---
 title: 開発者ツールを使ってカスタム ビジュアルを作成する
 description: カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>開発者ツールを使ってカスタム ビジュアルを作成する
 カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。
@@ -87,7 +79,7 @@ ms.lasthandoff: 03/09/2018
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>サーバー証明書のセットアップ
 ビジュアルのライブ プレビューを有効にするには、信頼されている https サーバーが必要です。 開始の前に SSL 証明書をインストールする必要があります。これにより、ビジュアル アセットを Web ブラウザーに読み込むことができるようになります。 
@@ -97,9 +89,24 @@ ms.lasthandoff: 03/09/2018
 > 
 > 
 
-証明書を*追加*するには、次のコマンドを実行します。
+証明書を "*作成*" するには、次のコマンドを実行します。
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> 証明書の場所のパスを示すメッセージと新しく生成されたパスフレーズが表示されます。
+> 
+> 
+
+
+証明書を "*インストール*" するには、次のコマンドを実行します。
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> 新しく生成されたパスフレーズを使用して PFX 証明書をインストールするように指示するメッセージが表示されます。
+> 
+> 
 
 **Windows OS**
 

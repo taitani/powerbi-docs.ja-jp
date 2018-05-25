@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 9baa22d6271e796581f898989698ac87d7609c4d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI の SQL Server Analysis Services ライブ データ
-Power BI では、ライブ SQL Server Analysis Services サーバーに接続できる方法が 2 つあります。 **[データの取得]** で SQL Server Analysis Services サーバーに接続する方法と、既に Analysis Services サーバーに接続している [Power BI Desktop ファイル](service-desktop-files.md)または [Excel ブック](service-excel-workbook-files.md)に接続する方法です。
+Power BI では、ライブ SQL Server Analysis Services サーバーに接続できる方法が 2 つあります。 **[データの取得]** で SQL Server Analysis Services サーバーに接続する方法と、既に Analysis Services サーバーに接続している [Power BI Desktop ファイル](service-desktop-files.md)または [Excel ブック](service-excel-workbook-files.md)に接続する方法です。 ベスト プラクティスとして、Power BI Desktop を使用することを強くお勧めします。これは、ツールセットが豊富で、Power BI Desktop ファイルのバックアップ コピーをローカルで維持できるためです。
 
  >[!IMPORTANT]
  >* ライブ Analysis Services サーバーに接続するには、オンプレミス データ ゲートウェイが管理者によってインストールおよび構成されている必要があります。 詳細については、「[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)」をご覧ください。

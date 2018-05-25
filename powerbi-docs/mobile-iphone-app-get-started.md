@@ -1,27 +1,19 @@
 ---
-title: "iPhone で Power BI モバイル アプリの使用を開始する"
-description: "iPhone の Microsoft Power BI for iOS アプリで、Power BI をどこでも使用できるようし、オンプレミスやクラウドのビジネス情報にモバイルでアクセスできるようにする方法について説明します。"
-services: powerbi
-documentationcenter: 
+title: iPhone で Power BI モバイル アプリの使用を開始する
+description: iPhone の Microsoft Power BI for iOS アプリで、Power BI をどこでも使用できるようし、オンプレミスやクラウドのビジネス情報にモバイルでアクセスできるようにする方法について説明します。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/04/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone または iPod Touch で Power BI モバイル アプリの使用を開始する
 iPhone または iPod Touch 上の Microsoft Power BI for iOS アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
@@ -46,11 +38,11 @@ Apple App Store から iPhone または iPod Touch に [iOS アプリをダウ�
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI サービスにサインアップする
-まだ行っていない場合は、Power BI (https://powerbi.com) にアクセスしてサービスにサインアップします。 無料です。
+まだ行っていない場合は、Power BI (https://powerbi.com) に移動してサービスにアクセスします。 無料です。
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI アプリの概要
 1. iPhone で Power BI アプリを開きます。
-2. Power BI ダッシュボードを表示するには、 **[Power BI]**をタップします。  
+2. Power BI ダッシュボードを表示するには、 **[Power BI]** をタップします。  
    Reporting Services のモバイル レポートと KPI を表示するには、**[SQL Server Reporting Services]** をタップします。
    
    ![Power BI モバイル アプリにログインする](media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)

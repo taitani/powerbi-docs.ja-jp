@@ -1,27 +1,19 @@
 ---
-title: "iPad で Power BI モバイル アプリの使用を開始する"
-description: "iPad の Microsoft Power BI for iOS アプリで、Power BI をどこでも使用できるようし、オンプレミスやクラウドのビジネス情報にモバイルでアクセスできるようにする方法について説明します。"
-services: powerbi
-documentationcenter: 
+title: iPad で Power BI モバイル アプリの使用を開始する
+description: iPad の Microsoft Power BI for iOS アプリで、Power BI をどこでも使用できるようし、オンプレミスやクラウドのビジネス情報にモバイルでアクセスできるようにする方法について説明します。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: identified
-qualitydate: 08/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>iPad で Power BI モバイル アプリの使用を開始する
 iPad 上の Microsoft Power BI for iOS は、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 
@@ -50,7 +42,7 @@ Apple App Store から [iPad アプリをダウンロード](http://go.microsoft
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI アプリの概要
 1. iPad で Power BI アプリを開きます。
-2. Power BI ダッシュボードとレポートを表示するには、 **[Power BI]**をタップします。 Web 上の Power BI アカウントと同じ資格情報でサインインしてください。 
+2. Power BI ダッシュボードとレポートを表示するには、 **[Power BI]** をタップします。 Web 上の Power BI アカウントと同じ資格情報でサインインしてください。 
    
    Reporting Services のモバイル レポートと KPI を表示するには、**[SQL Server Reporting Services]** をタップします。 SQL Server Reporting Services の資格情報を使用してサインインします。
    

@@ -1,32 +1,24 @@
 ---
-title: "Power BI でのテンプレート コンテンツ パックのエクスペリエンス"
-description: "テンプレート コンテンツ パックのエクスペリエンス"
-services: powerbi
-documentationcenter: 
+title: Power BI でのテンプレート コンテンツ パックのエクスペリエンス
+description: テンプレート コンテンツ パックのエクスペリエンス
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maghan
-ms.openlocfilehash: fb1aaded94ce5411cf26257a1e561125cec9a347
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 1a29767eb76122865e93927bbbec1fbdcebe5678
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI でのテンプレート コンテンツ パックのエクスペリエンス
 このセクションでは、ISV [コンテンツ パック](../service-connect-to-services.md)に接続するユーザーの標準的なエクスペリエンスに注目します。 
 
-Https://app.powerbi.com/getdata/services でリリースされたコンテンツ パック (以下に説明されている [GitHub コンテンツ パック](https://app.powerbi.com/getdata/services/github)など) に接続して、自分で接続エクスペリエンスを試してみることができます。
+https://app.powerbi.com/getdata/services でリリースされたコンテンツ パック (以下に説明されている [GitHub コンテンツ パック](https://app.powerbi.com/getdata/services/github)など) に接続して、自分で接続エクスペリエンスを試してみることができます。
 
 ## <a name="connect"></a>接続
 使い始めるには、ユーザーはコンテンツ パック ギャラリーを参照し、接続するコンテンツ パックを選択します。 コンテンツ パック エントリは、名前、アイコン、およびユーザーに詳細を提供する説明テキストを提供します。

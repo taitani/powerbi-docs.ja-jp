@@ -1,38 +1,22 @@
 ---
-title: "エラー: "
-corporate: 
-ssl: 
-certificate: 
-is: 
-untrusted": 
-'-': 
-power: 
-bi": 
-description: "Power BI 用の Android アプリにサインインするとき、\"お使いの企業 SSL 証明書が信頼されていないため、認証できませんでした\" というメッセージが表示されることがあります"
-.": 
-services: powerbi
-documentationcenter: 
+title: "\"お使いの企業 SSL 証明書が信頼されていません\" を修正する"
+description: Power BI 用の Android アプリにサインインするとき、"お使いの企業 SSL 証明書が信頼されていないため、認証できませんでした" というメッセージが表示されることがあります
+.": ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 4ef29c0cab96e21045f30805d7445aa34d37697a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 494e148a62675aab1a6e799c4e4b61f022483d9f
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/22/2018
 ---
-# <a name="error-corporate-ssl-certificate-is-untrusted---power-bi"></a>エラー: "企業 SSL 証明書が信頼されていません" - Power BI
+# <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>"企業 SSL 証明書が信頼されていません" を修正する
 Microsoft Power BI 用の Android モバイル アプリにサインインするとき、"お使いの企業 SSL 証明書がこのデバイスによって信頼されていないため、認証できませんでした。 会社の IT 管理者にお問い合わせください。" というメッセージが表示されることがあります。 
 
 このメッセージへの対処方法は、通常、Android デバイスのオペレーティング システムによって異なりますが、このエラーの原因になる可能性のある問題が他にも 2 つあります。
