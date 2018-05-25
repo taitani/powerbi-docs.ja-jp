@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: レポートまたはダッシュボードにサブスクライブ
                   href: service-report-subscribe.md
+                - name: さまざまな方法でレポートを開く
+                  href: service-report-open.md
                 - name: Power BI 内のコンテンツの名前を変更する
                   href: service-rename.md
                 - name: 全画面表示モード (テレビ モード) でダッシュボードとレポートを表示する
