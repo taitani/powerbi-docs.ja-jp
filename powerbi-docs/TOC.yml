@@ -1022,7 +1022,7 @@
           href: report-server/system-requirements.md
         - name: ブラウザー サポート
           href: report-server/browser-support.md
-        - name: 管理者向けレポート サーバー
+        - name: 管理者の概要
           href: report-server/admin-handbook-overview.md
         - name: レポート サーバーの基礎
           items:
@@ -1080,6 +1080,8 @@
               href: report-server/migrate-report-server.md
             - name: Power BI レポートを使用するために Kerberos を構成する
               href: report-server/configure-kerberos-powerbi-reports.md
+            - name: リモートでモバイル アプリへのアクセスを構成する
+              href: report-server/configure-powerbi-mobile-apps-remote.md
             - name: Excel ブックのホスト
               href: report-server/excel-oos.md
     - name: リファレンス
