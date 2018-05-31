@@ -1,21 +1,29 @@
 ---
 title: Power BI Desktop の例を指定して Web ページからデータを抽出する (プレビュー)
 description: プルするデータの例を指定して Web ページからデータを抽出する
+services: powerbi
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3d67d9737ff09e3d5959ab24e615473f537654ab
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290984"
+ms.lasthandoff: 05/09/2018
+ms.locfileid: "33917207"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>例を指定して Web ページからデータを取得する (プレビュー)
 
@@ -55,7 +63,7 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 **[Extract table using examples]\(例を使用してテーブルを抽出する\)** を選択すると、対話型ウィンドウが表示されます。ここでは、Web ページのコンテンツをプレビューし、抽出するデータのサンプル値を入力できます。 
 
-この例では、ページ上のゲームごとに*名前*と*価格*を抽出します。 次の図に示すように、ページの各列からいくつかの例を指定することで、抽出することができます。 このように例を入力すると、**Power Query** (Web ページからデータを抽出する基礎となるテクノロジ) で、スマート データ抽出アルゴリズムを使用してサンプル エントリのパターンに適合するデータを抽出することができます。
+この例では、ページ上のゲームごとに*名前*と*価格*を抽出します。 次の図に示すように、ページの各列からいくつかの 例を指定することで、抽出することができます。 このように例を入力すると、**Power Query** (Web ページからデータを抽出する基礎となるテクノロジ) で、スマート データ抽出アルゴリズムを使用してサンプル エントリのパターンに適合するデータを抽出することができます。
 
 ![例を指定したデータ](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
