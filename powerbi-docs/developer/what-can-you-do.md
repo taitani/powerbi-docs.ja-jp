@@ -1,20 +1,20 @@
 ---
 title: Power BI の開発者向け機能
 description: Power BI には、開発者向けのさまざまなオプションがあります。 たとえば、埋め込み、カスタム ビジュアル、ストリーミング データセットなどです。
-services: powerbi
 author: markingmyname
 ms.author: maghan
 ms.date: 05/03/2018
 ms.topic: overview
 ms.service: powerbi
+ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 473052ee652c1fd6e68294efdbd7334cbb2df714
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: ee9f5b2e89a1746267090da3485076d67a99d6f9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33810968"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290570"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Power BI の開発者向け機能
 
@@ -26,7 +26,7 @@ Power BI サービス (SaaS) と Azure (PaaS) の Power BI Embedded サービス
 ![PBIE サンプル](media/what-can-you-do/what-can-you-do-01.png)
 
 ## <a name="develop-custom-visuals"></a>カスタム ビジュアルを作成する
-カスタム ビジュアルを使うと、Power BI レポート内で使う独自のビジュアルを作成できます。 カスタム ビジュアルは、JavaScript のスーパーセットである TypeScript で記述されています。 TypeScript は、いくつかの高度な機能と ES6/ES7 機能への早期アクセスをサポートしています。 ビジュアルのスタイル設定は、カスケード スタイル シート (css) を使用して処理されます。 便宜を図るために、いくつかの高度な機能 (入れ子、変数、条件、ループなど) をサポートする Less プリコンパイラが使用されています。これらの機能を使用しない場合は、Less ファイル内にプレーンな css を記述できます。
+カスタム ビジュアルを使うと、Power BI レポート内で使う独自のビジュアルを作成できます。 カスタム ビジュアルは、JavaScript のスーパーセットである TypeScript で記述されています。 TypeScript は、いくつかの高度な機能と ES6/ES7 機能への早期アクセスをサポートしています。 ビジュアルのスタイル設定は、カスケード スタイル シート (css) を使用して処理されます。 便宜を図るために、いくつかの高度な機能 (入れ子、変数、条件、ループなど) をサポートする Less プリコンパイラが使用されています。これらの機能を使用しない場合は、Less ファイル内にプレーンな css だけを記述します。
 
 ![CV サンプル](media/what-can-you-do/powerbi-custom-visual-store.png)
 

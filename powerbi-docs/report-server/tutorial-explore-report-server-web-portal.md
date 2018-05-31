@@ -1,29 +1,20 @@
 ---
 title: 'チュートリアル: VM で Power BI Report Server を探索する'
 description: このチュートリアルでは、Power BI Report Server が既にインストールされている仮想マシンを作成し、Web ポータルを探索します。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813946"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445005"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>チュートリアル: VM で Power BI Report Server Web ポータルを探索する
 このチュートリアルでは、Power BI Report Server が既にインストールされている Azure 仮想マシンを作成するので、サンプルの Power BI とページ分割されたレポートの表示、編集、および管理と、KPI を体験できます。
@@ -58,6 +49,8 @@ Power BI チームが作成した、Power BI Report Server が既にインスト
 5. 新しいユーザー名とパスワードを作成します。
 
 6. **[リソース グループ]** は **[新規作成]** のままにして「**reportserverresourcegroup**」と入力します。
+
+    チュートリアルを複数回繰り返す場合、2 回目以降はリソース グループに別の名前を付ける必要があります。 1 つのサブスクリプションで 2 回、同じリソース グループ名を使用することはできません。 
 
 7. その他の項目は既定値のままにして **[OK]** を選択します。
 
@@ -166,6 +159,8 @@ Web ポータルで Power BI レポートを表示して操作し、Web ポー�
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
 
+     VM にインストールされているバージョンの Power BI Desktop を使用します。 レポートのアップロードのためにドメイン間を移動することはできません。
+
 3. [フィールド] ウィンドウで Customers テーブルを展開し、Occupation フィールドをレポート レベル フィルターにドラッグします。
 
     ![フィールドを [フィルター] ウィンドウにドラッグする](media/tutorial-explore-report-server-web-portal/power-bi-report-server-desktop-filter.png)
@@ -252,7 +247,9 @@ Power BI Report Server で、Excel Online の Excel ブックを表示し、操�
 
 ## <a name="next-steps"></a>次の手順
 
-このチュートリアルでは、Power BI Report Server を使用して VM を作成しました。 Web ポータルの機能の一部を試し、各エディターで Power BI レポートとページ分割されたレポートを開きました。 Power BI Report Server のレポート作成についてさらに学習するには、次の記事に進んでください。
+このチュートリアルでは、Power BI Report Server を使用して VM を作成しました。 Web ポータルの機能の一部を試し、各エディターで Power BI レポートとページ分割されたレポートを開きました。 この VM には、SQL Server Analysis Services データ ソースがインストールされているため、それと同じデータ ソースを使用して自身の Power BI とページ分割されたレポートの作成を試すことができます。 
+
+Power BI Report Server のレポート作成についてさらに学習するには、次の記事に進んでください。
 
 > [!div class="nextstepaction"]
 > [Power BI Report Server の Power BI レポートの作成](./quickstart-create-powerbi-report.md)
