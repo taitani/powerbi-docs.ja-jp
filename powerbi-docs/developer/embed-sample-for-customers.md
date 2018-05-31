@@ -1,31 +1,31 @@
 ---
 title: 顧客向けのアプリケーションに Power BI コンテンツを埋め込む
 description: Power BI API を使って、Web アプリに顧客向けのレポート、ダッシュボード、タイルを統合する (埋め込む) 方法を説明します。
-services: powerbi
 author: markingmyname
 ms.author: maghan
 ms.date: 05/07/2018
 ms.topic: tutorial
 ms.service: powerbi
+ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 2d4fdee8d3e4cca60294acd0a9167da1f048afa5
-ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
+ms.openlocfilehash: dd46617f5a3b1445c597656148e4068ef3cfed92
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2018
-ms.locfileid: "34051935"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445235"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>チュートリアル: 顧客向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
-**Azure の Power BI Embedded** を使うと、レポート、ダッシュボード、またはタイルをアプリケーションに埋め込んで、顧客とデータを共有することができます。 これは、通常、**アプリ所有データ**の構造を使用する **ISV 開発者**のシナリオです。 **アプリ所有データ**とは、顧客向けの Power BI コンテンツを埋め込むことを意味します。 たとえば、Power BI コンテンツのユーザーは、**Power BI** にログインする必要なしに、レポート、ダッシュボード、またはタイルを見ることができます。 このチュートリアルでは、**アプリ所有データ**を使用する顧客向けに **Azure の Power BI Embedded** を使用しているときに、**Power BI** .NET SDK と **Power BI** JavaScript API を使って、アプリケーションにレポートを統合または埋め込む方法を示します。
+**Azure の Power BI Embedded** を使うと、**アプリ所有データ**を使用してレポート、ダッシュボード、またはタイルをアプリケーションに埋め込むことができます。 **アプリ所有データ**がある場合、Power BI を埋め込み分析プラットフォームとして使用するアプリケーションが含まれます。 これは通常、**ISV 開発者**のシナリオです。 **ISV 開発者**は、アプリケーションのユーザーが Power BI ライセンスを必要としたり、さらには内部に Power BI があることすら意識したりせずに、完全に統合された対話型のアプリケーションにレポート、ダッシュボード、またはタイルを表示する Power BI コンテンツを作成することができます。 このチュートリアルでは、**アプリ所有データ**を使用する顧客向けに **Azure の Power BI Embedded** を使用しているときに、**Power BI** .NET SDK と **Power BI** JavaScript API を使って、アプリケーションにレポートを統合する方法を示します。
 
 このチュートリアルで学習する内容は次のとおりです。
 >[!div class="checklist"]
 >* Azure にアプリケーションを登録します。
->* Azure の Power BI Embedded を使ってアプリケーションにレポート、ダッシュボード、またはタイルを埋め込みます。
+>* Power BI レポートをアプリケーションに埋め込みます。
 
 ## <a name="prerequisites"></a>前提条件
-作業を始めるには、**Power BI Pro** アカウントと **Microsoft Azure** アカウントが必要です。
+作業を始めるには、**マスター アカウント**になる **Power BI Pro** アカウントと **Microsoft Azure** サブスクリプションが必要です。
 
 * **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/en-us/pricing/)してください。
 * Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)してください。
@@ -95,33 +95,6 @@ ms.locfileid: "34051935"
    
     ![[必要なアクセス許可] ダイアログの [アクセス許可の付与]](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-### <a name="create-your-power-bi-embedded-dedicated-capacity-in-azure"></a>Azure で Power BI Embedded 専用の容量を作成する
-
-1. [Azure Portal ](https://portal.azure.com)にサインインします。
-
-    ![Azure Portal メイン](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
-
-2. 左側のナビゲーション ウィンドウで、**[すべてのサービス]** を選び、**[Power BI Embedded]** を選びます。
-
-    ![PBIE の検索](media/embed-sample-for-customers/embed-sample-for-customers-017.png)
-
-3. 画面の指示に従って、新しい **Power BI Embedded** 専用容量を作成するために必要な適切な情報を入力し、**[作成]** を選びます。 **[価格レベル]** を選ぶときは、次の表を参考にして、ニーズに最適なレベルを決めてください。 その後、**[作成]** を選び、リソースが完成するまで待ちます。
-
-    ![PBIE のセットアップ](media/embed-sample-for-customers/embed-sample-for-customers-018.png)
-
-| 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
-| --- | --- | --- | --- | --- | --- |
-| A1 |1 v コア |0.5 コア、3 GB の RAM |0.5 コア | 1 秒あたり 5 |1-300 |
-| A2 |2 v コア |1 コア、5 GB の RAM |1 コア | 1 秒あたり 10 |301-600 |
-| A3 |4 v コア |2 コア、10 GB の RAM |2 コア | 1 秒あたり 15 |601-1,200 |
-| A4 |8 v コア |4 コア、25 GB の RAM |4 コア |1 秒あたり 30 |1,201-2,400 |
-| A5 |16 v コア |8 コア、50 GB の RAM |8 コア |1 秒あたり 60 |2,401-4,800 |
-| A6 |32 v コア |16 コア、100 GB の RAM |16 コア |1 秒あたり 120 |4,801-9600 |
-
-これで、新しい **Power BI Embedded 専用容量**が表示されるようになります。
-
-   ![PBIE 専用の容量](media/embed-sample-for-customers/embed-sample-for-customers-019.png)
-
 ## <a name="setup-your-power-bi-environment"></a>Power BI の環境を設定する
 
 ### <a name="create-an-app-workspace"></a>アプリ ワークスペースを作成する
@@ -150,10 +123,6 @@ ms.locfileid: "34051935"
 
 6. ユーザーごとにメンバーか管理者かを判断します。管理者は、他のメンバーの追加を含め、ワークスペース自体を編集できます。 メンバーは、表示専用のアクセス許可を持っていないかぎり、ワークスぺースのコンテンツを編集できます。 管理者とメンバーの両方がアプリを発行できます。
 
-7. **[詳細]** を展開し、**[専用の容量]** を有効にして、作成した **Power BI Embedded の専用容量**を選びます。 その後、**[保存]** を選びます。
-
-    ![メンバーの追加](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
-
 新しいワークスペースを表示できるようになります。 Power BI でワークスペースが作成され、開きます。 メンバーであるワークスペースの一覧が表示されます。 管理者は、省略記号 (...) を選択すると、前の画面に戻って新しいメンバーの追加やアクセス許可の変更などの変更を加えることができます。
 
    ![新しいワークスペース](media/embed-sample-for-customers/embed-sample-for-customers-025.png)
@@ -180,6 +149,10 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
 ## <a name="embed-your-content"></a>コンテンツを埋め込む
 
+アプリケーション内で顧客向けの埋め込みを行うには、**Azure AD** からマスター アカウントの**アクセス トークン**を取得する必要があります。 Power BI API への呼び出しを行う前に、アプリ所有データを使用する Power BI アプリケーションのための [Azure AD アクセス トークンを取得する](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)必要があります。
+
+次の手順に従い、サンプル アプリケーションを使用してコンテンツの埋め込みを開始します。
+
 1. 最初に、GitHub から [App Owns Data サンプル](https://github.com/Microsoft/PowerBI-Developer-Samples)をダウンロードします。
 
     ![App Owns Data アプリケーションのサンプル](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
@@ -190,18 +163,18 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
     * **clientId** には、**Azure** から**アプリケーション ID** を設定します。 **clientId** は、アクセス許可を要求しているアプリケーションをユーザーが一意に識別するために使われます。 **clientId** を取得するには、次の野手順のようにします。
 
-        1. [Azure Portal ](https://portal.azure.com)にサインインします。
+    1. [Azure Portal ](https://portal.azure.com)にサインインします。
 
         ![Azure Portal メイン](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-        2. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選びます。
+    2. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選びます。
 
         ![アプリの登録の検索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-        3. **clientId** を取得するアプリケーションを選びます。
+    3. **clientId** を取得するアプリケーションを選びます。
 
         ![アプリの選択](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-      4. **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **clientId** として使います。
+    4. **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **clientId** として使います。
 
         ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)     
 
@@ -230,8 +203,31 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
     ![アプリケーションの表示](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
-JavaScript API の使用に関する完全なサンプルについては、[Playground ツール](https://microsoft.github.io/PowerBI-JavaScript/demo)を使用できます。 このツールを使うと、さまざまな種類の Power BI Embedded のサンプルを簡単に再生できます。 また、JavaScript API について詳しくは、[PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) のページをご覧ください。
+## <a name="move-to-production"></a>運用開始
+
+アプリケーションの開発が終わったら、専用の容量を持つアプリのワークスペースに戻ります。 運用を開始するには、専用の容量が必要です。
+
+### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
+専用の容量を作成することで、顧客専用のリソースを所有する利点が得られます。 専用の容量に割り当てられていないワークスペースの場合、これらは共有された容量にあります。 専用の容量を作成するには、Azure の [Power BI Embedded 専用の容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)ソリューションを使用します。
+
+>[!Note]
+>PRO ライセンスの埋め込みトークンは、開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、専用の容量を購入する必要があります。 専用の容量があると、生成できる埋め込みトークンの数には上限がありません。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、「[Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx)」(使用可能な機能の入手) をご覧ください。
+>
+
+### <a name="assign-app-workspace-to-dedicated-capacity"></a>専用の容量にアプリ ワークスペースを割り当てる
+
+専用の容量が作成されたら、アプリ ワークスペースを専用の容量に割り当てます。 これを行うには、次の手順に従います。
+
+1. **Power BI サービス**内でワークスペースを展開し、コンテンツを埋め込んでいるワークスペースの省略記号ボタンを選択します。 次に、**[Edit workspaces]\(ワークスペースの編集\)** を選択します。
+
+    ![ワークスペースの編集](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
+
+2. **[詳細]** を展開し、**[専用の容量]** を有効にして、作成した専用の容量を選びます。 その後、**[保存]** を選びます。
+
+    ![専用の容量の割り当て](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+
+JavaScript API の使用に関する完全なサンプルについては、[Playground ツール](https://microsoft.github.io/PowerBI-JavaScript/demo)を使用できます。 このツールを使うと、さまざまな種類の Power BI Embedded のサンプルを簡単に再生できます。 JavaScript API について詳しくは、[PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) のページもご覧ください。
 
 Power BI Embedded についてさらに質問がある場合は、[FAQ](embedded-faq.md) のページをご覧ください。  アプリケーションでの Power Bi Embedded に関して問題が発生した場合は、[トラブルシューティング](embedded-troubleshoot.md)のページをご覧ください。
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。 
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

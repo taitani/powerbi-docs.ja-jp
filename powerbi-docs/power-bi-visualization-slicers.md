@@ -1,30 +1,22 @@
 ---
 title: Power BI のスライサー
 description: Power BI のスライサー
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/05/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 223b408186f445791a95ead30c04efe7b59888bf
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813463"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297356"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI のスライサー
 レポートを見る人が売り上げ全体の指標を調べることができるだけでなく、個々の地域マネージャーや異なる期間の実績に注目することもできるようにしたい場合があります。 個別レポートや比較グラフを作成してもかまいませんが、スライサーを使用することもできます。 スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。 

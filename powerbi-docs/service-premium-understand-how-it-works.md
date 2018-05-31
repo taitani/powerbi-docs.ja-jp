@@ -2,18 +2,19 @@
 title: Power BI Premium 容量のメモリの使用と最適化
 description: Power BI Premium 容量のメモリの管理と最適化について説明します。
 ms.date: 04/30/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: powerbi
+ms.component: powerbi-admin
 ms.author: susuresh
 ms.reviewer: susuresh
 author: suds001
 manager: kfile
-ms.openlocfilehash: 4b849d1fa86ebe8c75f915e549326c80ff1e51ef
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 03c5e56c5f516bb1f09f51463d4c533185fbb63c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33916955"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34298460"
 ---
 # <a name="power-bi-premium-capacity-resource-management-and-optimization"></a>Power BI Premium 容量のリソースの管理と最適化
 
