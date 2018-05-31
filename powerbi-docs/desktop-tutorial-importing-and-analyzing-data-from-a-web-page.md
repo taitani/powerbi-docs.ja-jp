@@ -1,168 +1,196 @@
 ---
-title: "チュートリアル: Power BI Desktop を使用して Web ページからデータをインポートおよび分析する"
-description: "チュートリアル: Power BI Desktop を使用して Web ページからデータをインポートおよび分析する"
+title: 'チュートリアル: Power BI Desktop を使用して Web ページからデータをインポートおよび分析する'
+description: 'チュートリアル: Power BI Desktop を使用して Web ページからデータをインポートおよび分析する'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 14c6cc0d221e5ed0a2fe6ead88deb9e8fb867290
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945965"
 ---
-# <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>Power BI Desktop を使用して Web ページのデータを分析する (チュートリアル)
-このチュートリアルでは、Web ページからデータのテーブルをインポートし、このデータを視覚化するためにレポートを作成する方法を学習します。 このプロセスの一環として、Web ページ上で使用できるテーブル間を移動し、テーブルを新しい形に整えるために、データ変換の手順を適用します。
+# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>チュートリアル: Power BI Desktop を使用して Web ページのデータを分析する
 
- この記事の内容:
+昔からのサッカー ファンなら、UEFA 欧州選手権 (ユーロ カップ) の優勝国が気になります。 Power BI Desktop を使うと、このデータを Web ページからレポートにインポートして、データを表示する視覚エフェクトを作成できます。 このチュートリアルでは、Power BI Desktop を使って次のことを行う方法を学習します。
 
-* **タスク 1:** Web データ ソースに接続する
-* **タスク 2:** クエリ ビューでデータの形を整える
-  * 手順 1: 必要な列のみを表示するため、他の列を削除します
-  * 手順 2: 選択した列の値をクリーンアップするために値を置き換えます
-  * 手順 3: 列の値をフィルター処理します
-  * 手順 4: 列の名前を変更します
-  * 手順 5: 列の null 値をフィルター処理します
-  * 手順 6: クエリの名前を変更します
-  * クエリの手順が作成されました
-* **タスク 3:** レポート ビューを使用して視覚化を作成する
-  * 手順 1: レポートにクエリを読み込みます
-  * 手順 2: マップの視覚化を作成します
+- Web データ ソースに接続し、使用可能なテーブルの間を移動します。
+- **Power Query エディター**を使ってデータの整形と変換を行います。
+- クエリに名前を付け、Power BI Desktop レポートにインポートします。 
+- マップと円グラフの視覚エフェクトを作成してカスタマイズします。
 
-## <a name="task-1-connect-to-a-web-data-source"></a>タスク 1: Web データ ソースに接続します
- タスク 1 では、次の場所にある UEFA 欧州選手権の Wikipedia ページから、トーナメントの概要テーブルをインポートします。http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship
+## <a name="connect-to-a-web-data-source"></a>Web データ ソースに接続する
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+UEFA 優勝国のデータは、UEFA European Football Championship Wikipedia ページ (http://en.wikipedia.org/wiki/UEFA_European_Football_Championship) の Results テーブルから取得できます。 
 
-### <a name="add-a-wikipedia-page-data-source"></a>Wikipedia ページのデータ ソースを追加します
-1. **[はじめに] ダイアログ**または **[ホーム]** リボン タブで **[データの取得]** を選びます。
-2. これにより、**[データの取得]** ダイアログが表示されます。そこで Power BI Desktop にデータをインポートするため、幅広いデータ ソースから選べます。 **[すべて]** または **[その他]** のグループの下にある **Web** を選びます。
-3. **[Web コンテンツ]** ダイアログ ボックスの **[URL]** テキスト ボックスに、Wikipedia の URL (http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship) を貼り付けます。
-4. **[OK]**をクリックします。
+![Wikipedia の Results テーブル](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
-この Web ページとの接続が確立すると、 **[ナビゲーター]** ダイアログで、この Wikipedia ページにあるテーブルの一覧が表示されます。 データをプレビューするには、それぞれのテーブルを 1 回クリックします。
+データをインポートするには:
 
-**[ナビゲーター]** の左ウィンドウで、トーナメントの概要の結果を得るため **[結果[編集]]** テーブルを選択するか、 **[結果[編集]]** テーブルを選択して **[編集]**をクリックします。 データが分析に必要な形ではないため、これにより、レポートに読み込む前にこのテーブルの形をもう一度整えることができます。
+1. Power BI Desktop の **[ホーム]** リボン タブで、**[データを取得]** の横の矢印をドロップダウンして、**[Web]** を選びます。
+   
+   ![リボンからの [データを取得]](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
+   
+   >[!NOTE]
+   >**[データを取得]** 項目自体を選ぶか、Power BI の **[作業の開始]** ダイアログから **[データを取得]** を選び、**[データを取得]** ダイアログの **[すべて]** または **[その他]** セクションから **[Web]** を選んで、**[接続]** を選ぶこともできます。
+   
+2. **[Web から]** ダイアログ ボックスで、URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` を **[URL]** テキスト ボックスに貼り付けて、**[OK]** を選びます。
+   
+    ![ダイアログからの [データを取得]](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
+   
+   Wikipedia の Web ページに接続すると、Power BI の **[ナビゲーター]** ダイアログ ボックスに、ページで使用可能なテーブルの一覧が表示されます。 テーブル名を選んでデータをプレビューできます。 **Results[edit]** テーブルに目的のデータがありますが、必要な形式と正確には一致していません。 レポートに読み込む前に、形式を変更し、データをクリーンアップします。 
+   
+   ![[ナビゲーター] ダイアログ ボックス](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+   
+   >[!NOTE]
+   >**[プレビュー]** ウィンドウには最後に選んだテーブルが表示されていますが、**[編集]** または **[読み込み]** を選択すると、選んだすべてのテーブルが **Power Query エディター**に読み込まれます。 
+   
+3. **[ナビゲーター]** の一覧で **Results[edit]** テーブルを選び、**[編集]** を選びます。 
+   
+   テーブルのプレビューが **Power Query エディター**で開きます。ここで、変換を適用してデータをクリーンアップできます。 
+   
+   ![Power Query エディター](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+   
+## <a name="shape-data-in-power-query-editor"></a>Power Query エディターでデータを整形する
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+年と優勝国だけを表示することによって、データをスキャンしやすくします。 **Power Query エディター**を使って、以下のデータ整形とクレンジングの手順を実行します。
 
-テーブルのプレビューをクエリ ビューで表示します。そこで、データをクリーンアップするために変換手順のセットを適用できます。
+最初に、**Year** と **Final Winners** 以外のすべての列をテーブルから削除します。
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+1. **Power Query エディター**のグリッドで、**Year** 列と **Final Winners** 列を選びます (**Ctrl** キーを押しながら複数の項目を選びます)。
+   
+2. 右クリックしてドロップダウンから **[他の列の削除]** を選ぶか、または **[ホーム]** リボン タブの **[列の管理]** グループから **[列の削除]** > **[他の列の削除]** を選んで、テーブルから他のすべての列を削除します。 
+   
+   ![[他の列の削除] ドロップダウン](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) または ![[他の列の削除] リボン](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
-## <a name="task-2-shape-data-in-the-subject-table"></a>タスク 2: サブジェクト テーブルのデータの形を整えます
-データ クエリ用にサブジェクト テーブルを選択したら、データの整形およびクレンジングのさまざまな手順を実行する方法を学習します。
-
-**手順 1:** 必要な列のみを表示するため、他の列を削除します
-
-この手順では、 **年** と **優勝者**以外のすべての列を除外します。
-
-1. **[クエリ プレビュー]** グリッドで、**年**と**優勝者**の列を選びます (**Ctrl**キー  +  **クリック**)。
-2. **[クエリ プレビュー]** グリッドの列ヘッダーを右クリックし、 **[その他の列の削除]** をクリックして選択されていない列を除外します。 なお、この操作は、 **[列の管理]** グループの **[ホーム]** リボン タブでも実行できます。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
-
-**手順 2:** 選んだ列の値をクリーンアップするために値を置き換えます
-
-この手順では、 **年** の列の詳細サフィックスを置き換えます。 テーブルのプレビューで表示されないようにするため、このサフィックスは新しい行にあることに注意してください。 ただし、年の列で数値が含まれるセルの 1 つをクリックした場合、詳細ビューで完全な値が表示されます。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage5.png)
+次に、**Year** 列のセルから余計な単語 **Details** を削除します。
 
 1. **年** の列を選択します。
-2. **[クエリ ビュー]** リボンで、 **[ホーム]** タブの下の **[値の置換]** をクリックするか、 **年** の列を右クリックし **[値の置換]** をクリックして、詳細を空のテキストに置き換えます。
-3. **[値の置換]** ダイアログ ボックスの **[検索する値]** テキスト ボックスに詳細を入力し、 **[置換後の文字列]** テキスト ボックスを空のままにします。
-4. **[OK]**をクリックします。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
-
- **手順 3:** 列の値をフィルター処理します
-
-このステップでは、 **年** の列にフィルター処理を行い、"年" を含まない行を表示します。
-
-1. **年** の列で、フィルターのドロップダウン矢印をクリックします。
-2. **[フィルター]** ドロップダウンで、 **年** オプションをクリアします。
-3. **[OK]**をクリックします。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
-
-**手順 4:** 列の名前を変更します
-
-**年** の列のデータのクリーンアップが完了したので、 **優勝者** の列での作業に進みます。
-
-勝者の一覧のみを対象にしているため、この列の名前を **国**に変更できます。
-
-1. クエリのプレビューで **優勝者** の列を選択します。
-2. **[クエリ ビュー]** リボンの **[変換]** タブと **[任意の列]** グループの下に **[名前の変更]**があります。
-3. これにより、列の名前が編集可能になります。 この列の名前を **国**に変更します。
-
-**手順 5:** 列の null 値をフィルター処理で除外します
-
-さらに、**国**の列の null 値もフィルター処理で除外する必要があります。 これを実行するには、手順 3 でも使用したフィルター メニューを使用します。別の方法としては、次の手順に従ってください。
-
-1. null 値を含む **国** の列内のセルの 1 つを右クリックします。
-2. コンテキスト メニューで、**[テキスト フィルター] -\> [次の値と等しくない]** を選びます。
-3. これにより、 **国** の列で null 値を持つ行を削除するための新しいフィルター手順が作成されます。
-
-**手順 6:** クエリに名前を付けます
-
-この手順では、最後のクエリに「 **欧州選手権の勝者**」という名前を付けます。
-
-1. **[クエリ設定]** ウィンドウの **[名前]** テキスト ボックスに「 **欧州選手権の勝者**」と入力します。
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
-
-## <a name="task-3-create-visualizations-using-the-report-view"></a>タスク 3: レポート ビューを使用して視覚化を作成します
-分析に必要な形に整えるためにデータを変換したので、作成されたテーブルをレポートに読み込んで、いくつかの視覚化を作成できます。
-
-**手順 1:** レポートにクエリを読み込む
-
-クエリの結果を Power BI Desktop に読み込んでレポートを作成するために、**[ホーム]** リボンから **[閉じて読み込む]** を選びます。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
-
-これにより、クエリの評価をトリガーし、レポートに出力テーブルを読み込みます。 Power BI Desktop で **[レポート]** アイコンを選択して、レポート ビューを表示します。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage10.png)
-
-**レポート ビュー** の右側にある **フィールド ウィンドウ**に、結果のテーブルのフィールドが表示されます。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
-
-**手順 2:** マップの視覚化を作成します
-
-視覚化を作成するには、 **フィールドの一覧** からフィールドをドラッグして、 **レポート キャンバス**にドロップします。
-
-1. **[国]** フィールドをドラッグし、 **レポート キャンバス**にドロップします。 これで、新しい視覚化が **レポート キャンバス**に作成されます。 この場合、国の一覧があるため、 **マップの視覚化**が作成されます。
+2. 右クリックしてドロップダウンから **[値の置換]** を選ぶか、またはリボンの **[ホーム]** タブの **[変換]** グループから **[値の置換]** を選びます (**[変換]** タブの **[任意の列]** グループにもあります)。 
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage12.png)
-2. 視覚化のタイプを変更するには、単に **[視覚化]** ウィンドウから別のアイコンをクリックします。
+   ![[値の置換] ドロップダウン](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) または ![[値の置換] リボン](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage13.png)
-3. **マップ**の視覚化の種類を [マップ] のままにしておきます。視覚化の四隅のいずれかを必要なサイズまでドラッグすれば、視覚化のサイズを変更できます。
+3. **[値の置換]** ダイアログ ボックスの **[検索する値]** テキスト ボックスに「**Details**」と入力し、**[置換後の文字列]** テキスト ボックスを空のままにします。そして、**[OK]** を選んで、**Year** 列から "Details" という単語を削除します。
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
-4. 現在、マップ内のすべてのポイントが同じサイズであることに注意してください。 これを変更して、欧州選手権でより多く勝利した国がマップでより大きなポイントで表されるようにします。 このためには、 **フィールドの一覧** の **[年]** フィールドを、 **フィールド ウィンドウ** の下半分の **[値]**ボックスにドラッグします。
+   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
+
+**Year** の一部のセルには、年の値ではなく単語 "Year" のみが含まれています。 **Year** 列にフィルター処理を行い、"Year" という単語を含まない行のみを表示します。 
+
+1. **Year** 列のフィルター ドロップダウン矢印を選びます。
+   
+2. ドロップダウンを下にスクロールし、**Year** オプションの横のチェック ボックスをオフにして、**[OK]** を選択し、**Year** が "Year" という単語だけの行を削除します。 
+
+   ![データのフィルター処理](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
+
+**Year** 列のデータのクリーンアップが完了したので、次に **Final Winner** 列の作業に進みます。 勝者国のデータだけが表示されるので、この列の名前を **Country** に変更します。 列の名前を変更するには次のようにします。
+
+1. **Final Winner** 列のヘッダーをダブルクリックするか長押しします 
+   - または、**Final Winner** 列のヘッダーを右クリックして、ドロップダウンから **[名前の変更]** を選びます。 
+   - または、**Final Winner** 列を選び、リボンの **[変換]** タブの **[任意の列]** グループから **[名前の変更]** を選びます。 
+   
+   ![[名前の変更] ドロップダウン](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) または ![[名前の変更] リボン](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
+   
+2. ヘッダーに「**Country**」と入力して **Enter** キーを押し、列の名前を変更します。
+
+"2020" 年のように **Country** 列が null 値の行もフィルターで除外します。 **Year** の値で行ったようにフィルター メニューを使って行うことができます。または次のようにしてもかまいません。
+
+1. 値が *null* である **2020** の行の **Country** セルを右クリックします。 
+2. コンテキスト メニューで **[テキスト フィルター]** > **[指定の値と等しくない]** を選び、そのセルの値を含むすべての行を削除します。
+   
+   ![テキスト フィルター](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web11.png)
+   
+## <a name="import-the-query-into-report-view"></a>レポート ビューにクエリをインポートする
+
+意図したとおりにデータを整形したので、クエリに "Euro Cup Winners" という名前を付けて、レポートにインポートすることができます。
+
+1. **[クエリ設定]** ウィンドウの **[名前]** テキスト ボックスに「**Euro Cup Winners**」と入力して **Enter** キーを押します。
+   
+   ![クエリに名前を付ける](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
+
+2. リボンの **[ホーム]** タブから **[閉じて適用]** > **[閉じて適用]** を選びます。
+   
+   ![閉じて適用](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
+   
+クエリが Power BI Desktop の**レポート ビュー**に読み込まれて、**[フィールド]** ウィンドウに表示されます。 
+   
+   ![[フィールド] ウィンドウ](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
+>[!TIP]
+>いつでも次のようにして **Power Query エディター**に戻ってクエリを編集および調整できます。
+>- **[フィールド]** ウィンドウで **Euro Cup Winners** の隣の **[その他のオプション]** の省略記号ボタン **[...]** を選んで、ドロップダウンから **[クエリの編集]** を選びます。
+>- または、レポート ビューの **[ホーム]** リボン タブの **[外部データ]** グループで **[クエリの編集]** > **[クエリの編集]** を選びます。 
+
+## <a name="create-a-visualization"></a>視覚エフェクトを作成する
+
+データに基づいて視覚エフェクトを作成するには: 
+
+1. **[フィールド]** ウィンドウで **Country** フィールドを選ぶか、フィールドをレポート キャンバスにドラッグします。 Power BI Desktop がデータを国名として認識し、自動的に**マップ**視覚エフェクトを作成します。 
+   
+   ![マップの視覚エフェクト](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web14.png)
+   
+2. 隅のハンドルをドラッグしてマップを拡大し、すべての優勝国名が表示されるようにします。  
+
+   ![マップを拡大する](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
+   
+3. マップには、欧州選手権トーナメントで優勝したすべての国のデータ ポイントが同じように表示されています。 優勝した回数を反映するように各データ ポイントのサイズを変更するには、**[視覚化]** ウィンドウの下部の **[サイズ]** の下の **[ここにデータ フィールドをドラッグしてください]** に **Year** フィールドをドラッグします。 フィールドが自動的に **[Year のカウント]** メジャーに変化し、マップ視覚エフェクトで優勝回数が多い国ほどデータ ポイントが大きく表示されるようになります。 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
+   
 
-お分かりいただけたように、自分の希望に沿ってデータを表示するために、レポートの視覚化を簡単にカスタマイズすることができます。 Power BI Desktop は、さまざまなデータ ソースからデータを取得して分析のニーズに合わせてデータの形を整えることから、このデータを機能豊富な対話型の方法で視覚化することまで、シームレスなエンド ツー エンドのエクスペリエンスを提供します。 レポートが完成したら、[Power BI にアップロード](desktop-upload-desktop-files.md)し、それに基づいて、他の Power BI ユーザーと共有可能なダッシュボードを作成できます。
+## <a name="customize-the-visualization"></a>視覚エフェクトをカスタマイズする
 
-これで、「 **Web からデータをインポート** 」チュートリアルは終わりです。 完成した Power BI Desktop ファイルを[ここ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Data_From_The_Web.pbix)でダウンロードできます。
+ご覧のように、データに基づいて視覚エフェクトを作成するのはとても簡単です。 また、意図した表現方法に少しでも近くなるように視覚エフェクトをカスタマイズするのも簡単です。 
 
-## <a name="where-else-can-i-get-more-information"></a>他の詳細情報については、次を参照してください。
+### <a name="format-the-map"></a>マップの書式を設定する
+視覚エフェクトを選んで **[視覚化]** ウィンドウの **[書式]** (ペイント ローラー) アイコンを選ぶことで、視覚エフェクトの外観を変更することができます。 たとえば、視覚エフェクトの "Germany" のデータ ポイントは誤解を招きやすい表現になっています。これは、ドイツは西ドイツとして 2 回、ドイツとして 1 回優勝していますが、マップでは 2 つのポイントが分けられたりまとめられたりせずに、重ねて表示されているためです。 2 つのポイントに異なる色を設定して、これをわかりやすくします。 また、マップのタイトルをよりわかりやすく魅力的にすることもできます。 
+
+1. 視覚エフェクトを選び、**[書式]** アイコンを選んでから、**[データの色]** を選んでデータの色のオプションを展開します。 
+   
+   ![データの色の書式設定](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   
+2. **[すべて表示]** を **[オン]** にし、**West Germany** の横のドロップダウンで黄色を選びます。 
+   
+   ![色の変更](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
+   
+3. **[タイトル]** を選んでタイトルのオプションを展開し、**[タイトル テキスト]** フィールドの現在のタイトルの代わりに「**Euro Cup Winners**」と入力します。 
+4. **[フォントの色]** を赤に、**[テキスト サイズ]** を **12** に、**[フォント ファミリ]** を **[Segoe (Bold)]** にそれぞれ変更します。 
+   
+   ![データの色の書式設定](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   
+
+マップの視覚エフェクトは次のようになります。
+
+![書式設定されたマップの視覚エフェクト](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web18.png)
+   
+### <a name="change-the-visualization-type"></a>視覚化の種類の変更
+視覚エフェクトの種類を変更するには、視覚エフェクトを選び、**[視覚化]** ウィンドウの上部で別のアイコンを選びます。 たとえば、マップ視覚エフェクトにはソ連とチェコスロバキアのデータが表示されていません。これらの国が世界地図に存在しなくなったためです。 ツリーマップや円グラフのような別の種類の視覚エフェクトの方が、すべての値が表示されるためいっそう正確です。 
+
+マップを円グラフに変更するには、マップを選んだ後、**[視覚化]** ウィンドウで **[円グラフ]** アイコンを選びます。 
+   
+![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web19.png)
+
+>[!TIP]
+>- **[データの色]** 書式オプションを使って、"Germany" と "West Germany" を同じ色にすることができます。 
+>- 円グラフで優勝回数の多い国をグループにするには、視覚エフェクトの右上隅にある省略記号 **[...]** を選び、ドロップダウンから **[Year で並べ替え]** を選びます。 
+
+Power BI Desktop は、さまざまなデータ ソースからデータを取得して分析のニーズに合わせてデータの形を整えることから、このデータを機能豊富な対話型の方法で視覚化することまで、シームレスなエンド ツー エンドのエクスペリエンスを提供します。 レポートが完成したら、[Power BI にアップロード](desktop-upload-desktop-files.md)し、それに基づいて、他の Power BI ユーザーと共有可能なダッシュボードを作成できます。
+
+## <a name="see-also"></a>参照
 * [他の Power BI Desktop のチュートリアルを読む](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Power BI Desktop のビデオを見る](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI フォーラムにアクセスする](http://go.microsoft.com/fwlink/?LinkID=519326)

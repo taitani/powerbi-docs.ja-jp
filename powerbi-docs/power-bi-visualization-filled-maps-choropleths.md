@@ -1,6 +1,6 @@
 ---
-title: Power BI の塗り分け地図 (コロプレス) (チュートリアル)
-description: ドキュメント - Power BI で塗り分け地図 (コロプレス) を作成するチュートリアル
+title: Power BI の塗り分け地図 (コロプレス)
+description: Power BI での塗り分け地図 (コロプレス) の作成に関するドキュメント
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: e982fa5cc75249ab2475e02150a92294cb87980a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812313"
 ---
-# <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Power BI の塗り分け地図 (コロプレス) (チュートリアル)
+# <a name="filled-maps-choropleths-in-power-bi"></a>Power BI の塗り分け地図 (コロプレス)
 塗り分け地図では、網掛け、着色またはパターンを使用して、値の違いを割合に応じて、地理的または地域的に表示します。  こうした相対的な違いは、薄い色の網掛け (頻度が低い/量が少ない) から、濃い色の網掛け (頻度が高い/量が多い) を使用して、すぐにわかるように表示されます。    
 
 ![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)

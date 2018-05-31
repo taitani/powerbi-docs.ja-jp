@@ -1,29 +1,22 @@
 ---
-title: "クイックスタート: Power BI レポート サーバーのページ分割されたレポートの作成"
-description: "Power BI レポート サーバーのページ分割されたレポートをいくつかの簡単な手順で作成する方法について説明します。"
-services: powerbi
-documentationcenter: 
+title: Power BI Report Server のページ分割されたレポートを作成する
+description: Power BI レポート サーバーのページ分割されたレポートをいくつかの簡単な手順で作成する方法について説明します。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294918"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>クイックスタート: Power BI レポート サーバーのページ分割されたレポートの作成
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server のページ分割されたレポートを作成する
 名前からわかるように、ページ分割されたレポートは多数のページに対して実行できます。 固定形式でレイアウトされた、正確なカスタマイズを提供します。 ページ分割されたレポートは .rdl ファイルです。
 
 SQL Server Reporting Services (SSRS) の Web ポータルと同様に、Power BI レポート サーバーの Web ポータルでは、ページ分割されたレポートの保存と管理ができます。 レポート ビルダーまたは SQL Server Data Tools (SSDT) のレポート デザイナーでレポートを作成および編集して、いずれかの Web ポータルに公開します。 その後、組織内のレポート閲覧者が、ブラウザーや、自身のモバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。

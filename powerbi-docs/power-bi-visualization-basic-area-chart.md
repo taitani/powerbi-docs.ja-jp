@@ -1,15 +1,15 @@
 ---
-title: "基本的な面グラフ (チュートリアル)"
-description: "チュートリアル: 基本的な面グラフ。"
+title: 基本的な面グラフ
+description: 基本的な面グラフです。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c4a7a90a8647b4a5d2c76cefbba5041a6e31607d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62d518b923d541ee937f485da946ae08b20fa386
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33811807"
 ---
-# <a name="basic-area-chart-tutorial"></a>基本的な面グラフ (チュートリアル)
+# <a name="basic-area-chart"></a>基本的な面グラフ
 基本的な面グラフ (層グラフとも呼ばれます) は、折れ線グラフに基づいています。 軸と折れ線の間の領域は、量を示すために色で塗りつぶされます。 
 
 面グラフは、時間の経過に伴う変化の大きさを強調し、トレンドの合計値に注目させるために使用できます。 たとえば、時間の経過に伴う利益を表すデータを面グラフにプロットして、総利益を強調することができます。
@@ -39,7 +40,7 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="prerequisites"></a>前提条件
  - Power BI サービス
- - 小売の分析のサンプル
+ - 小売りの分析のサンプル
 
 先に進むには、Power BI にサインインして、**[データの取得] \> [サンプル] \> [小売りの分析のサンプル]** を選んでから、**[ダッシュボードに移動]** を選びます。 
 

@@ -1,31 +1,24 @@
 ---
-title: "Power BI のツリーマップ (チュートリアル)"
-description: "チュートリアル: Power BI のツリーマップ"
-services: powerbi
-documentationcenter: 
+title: Power BI のツリーマップ
+description: Power BI のツリーマップ
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8b3f49487677f00e1026c9eab813633f470e6b41
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295355"
 ---
-# <a name="treemaps-in-power-bi-tutorial"></a>Power BI のツリーマップ (チュートリアル)
+# <a name="treemaps-in-power-bi"></a>Power BI のツリーマップ
 ツリーマップでは、入れ子になった一連の四角形で階層データが表示されます。  階層の各レベルは、色付きの四角形 (「ブランチ (枝)」) で表され、ブランチには他の四角形 (「リーフ (葉)」) が含まれます。  各四角形内の面積は、測定される量的な値に基づいて割り当てられ、各四角形は大きさの順に左上 (最大) から右下 (最小) に向かって配置されます。
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
@@ -44,7 +37,7 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="prerequisites"></a>前提条件
  - Power BI サービスまたは Power BI Desktop
- - 小売の分析のサンプル
+ - 小売りの分析のサンプル
 
 ## <a name="create-a-basic-treemap"></a>基本的なツリーマップの作成
 ツリーマップの作成例を見たい方は、  このビデオの 2:10 にスキップし、Amanda がツリーマップを作成するところをご覧ください。
@@ -67,7 +60,7 @@ ms.lasthandoff: 02/24/2018
    > [色の彩度] と [詳細] を同時に使用することはできません。
    > 
    > 
-5. **[Chain]** (チェーン) エリアにポインターを合わせると、 **[カテゴリ]**のその部分のヒントが表示されます。  たとえば、 **[040 Juniors** ] の四角形内の **[Lindseys]** にポインターを合わせると、Juniors カテゴリの Lindsey の部分のツールヒントが表示されます。  
+5. **[Chain]** (チェーン) エリアにポインターを合わせると、 **[カテゴリ]** のその部分のヒントが表示されます。  たとえば、 **[040 Juniors** ] の四角形内の **[Lindseys]** にポインターを合わせると、Juniors カテゴリの Lindsey の部分のツールヒントが表示されます。  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
 6. [ツリーマップをダッシュボード タイルとして追加 (ビジュアルをピン留め)](service-dashboard-tiles.md) します。 
 7. [レポートを保存](service-report-save.md)します。
@@ -77,7 +70,7 @@ ms.lasthandoff: 02/24/2018
 
 ツリーマップ内の [カテゴリ] または [詳細] を強調表示すると、レポートのページ上の他の視覚エフェクトがクロス強調表示またはクロスフィルター処理されます。逆の場合も同様です。 作業を進めるために、同じページにいくつかのビジュアルを追加するか、既に他のビジュアルを持つレポート ページにツリーマップをコピーして貼り付けます。
 
-1. ツリーマップ上で、カテゴリまたはカテゴリ内のチェーンのいずれかを選択します。  これにより、ページ上の他の視覚化がクロス強調表示されます。 たとえば、 **[050-Shoes]**を選択すると、前年の靴の売上高が 3,640,471 ドルで、その内 [Fashions Direct] から得られた売上高は 2,174,185 ドルであったことが表示されます。  
+1. ツリーマップ上で、カテゴリまたはカテゴリ内のチェーンのいずれかを選択します。  これにより、ページ上の他の視覚化がクロス強調表示されます。 たとえば、 **[050-Shoes]** を選択すると、前年の靴の売上高が 3,640,471 ドルで、その内 [Fashions Direct] から得られた売上高は 2,174,185 ドルであったことが表示されます。  
    ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
 
 2. **[Last Year Sales by Chain]\(チェーン別の前年売上高\)** 円グラフで、**[Fashions Direct]** スライスを選択し、ツリーマップをクロス フィルター処理します。  

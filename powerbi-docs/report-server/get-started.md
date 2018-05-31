@@ -1,77 +1,64 @@
 ---
-title: "Power BI レポート サーバーの概要"
-description: "Power BI レポート サーバーのインストール方法について説明します。 "
+title: Power BI Report Server とは
+description: Power BI Report Server の概要を読み、SQL Server Reporting Services (SSRS) やその他の Power BI とどのように適合するかについて理解してください。
 services: powerbi
-documentationcenter: 
-author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+keywords: ''
+author: maggiesMSFT
+ms.author: maggies
+ms.component: powerbi-report-server
+ms.date: 05/07/2018
+ms.topic: overview
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 3/5/2018
-ms.author: maghan
-ms.openlocfilehash: 88aa347a5e6feae969cf9b32e0e2177114efc757
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+manager: kfile
+ms.custom: mvc
+ms.openlocfilehash: 83220c399b527df421a14f9e45148feabc902ebb
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33840099"
 ---
-# <a name="get-started-with-power-bi-report-server"></a>Power BI レポート サーバーの概要
-Power BI レポート サーバーが提供するすぐに使用できるツールとサービスを使用して、Power BI レポート、モバイル レポート、およびページ分割されたレポートをオンプレミスで作成、展開、管理します。
+# <a name="what-is-power-bi-report-server"></a>Power BI Report Server とは
 
-## <a name="create-deploy-and-manage-reports"></a>レポートの作成、展開、および管理
-Power BI レポート サーバーとは、顧客がレポートを作成、展開、管理した後、それらを該当するユーザーに、Web ブラウザーやモバイル デバイスで表示したり、または電子メールで送信するなどのさまざまな方法で配布するために独自の施設内に展開するソリューションです。
+Power BI Report Server は、オンプレミスのレポート サーバーです。レポートと KPI を表示および管理できる Web ポータルと、Power BI レポート、ページ分割されたレポート、モバイル レポート、および KPI を作成できるツールを備えています。 ユーザーは、さまざまな方法でレポートにアクセスできます。Web ブラウザーやモバイル デバイスで表示したり、受信ボックスのメールとして表示したりすることができます。
 
-Power BI レポート サーバーは、次の製品スイートを提供しています。
+![Power BI レポート サーバーの Web ポータル](media/get-started/power-bi-report-server-overview.png)
 
-* どの最新ブラウザーでも表示可能な最新の Web ポータル。 Web ポータルでは、レポートおよび KPI を整理して表示することができます。 ポータルには Excel ブックを格納することもできます。
-* Power BI Desktop で作成された Power BI レポート。お使いの環境で Web ポータル内に表示できます。
-* ページ分割されたレポート。作成ツールを使用して、現代的な外観のレポートを作成できます。
-* さまざまなデバイスに対応し、さまざまな方法で保持できる柔軟なレイアウトのモバイル レポート。
+## <a name="comparing-power-bi-report-server"></a>Power BI Report Server の比較 
+Power BI Report Server は、SQL Server Reporting Services と Power BI オンライン サービスの両方に似ていますが、さまざまな相違点があります。 Power BI サービスと同様に、Power BI Report Server は Power BI レポート (.PBIX) と Excel ファイルをホストします。 Reporting Services と同様に、Power BI Report Server はオンプレミスにあり、ページ分割されたレポート (.RDL) をホストします。 Power BI Report Server は、Reporting Services のスーパーセットです。つまり、Reporting Services でできることはすべて、Power BI Report Server でできます。さらに、Power BI Report Server では Power BI レポートもサポートされています。 詳細については、「[Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md)」(Power BI Report Server と Power BI サービスの比較) を参照してください。
 
-それぞれについて詳しく説明します。
-
-### <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
-これらのソースには、Power BI レポート サーバーの新機能に関する最新情報があります。
-
-* [Power BI レポート サーバーの新機能](whats-new.md)
-* [Microsoft Power BI ブログ](https://powerbi.microsoft.com/blog/)
-* [SQL Server Reporting Services チームのブログ](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [Guy in a Cube の YouTube チャネル](https://aka.ms/guyinacube)
+## <a name="licensing-power-bi-report-server"></a>Power BI Report Server のライセンス
+Power BI Report Server は、ソフトウェア アシュアランスを使用した 2 種類のライセンス ([Power BI Premium](../service-premium.md) と [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)) を介して利用できます。 Power BI Premium ライセンスがあれば、クラウドとオンプレミスを混在させたハイブリッド デプロイを作成できます。  
 
 ## <a name="web-portal"></a>Web ポータル
-![](media/get-started/web-portal.png)
+Power BI Report Server のエントリ ポイントは、最新のブラウザーで表示できる安全な Web ポータルです。 Web ポータルではすべてのレポートと KPI にアクセスできます。 Web ポータル上のコンテンツは、従来のフォルダー階層で構成されています。 フォルダー内のコンテンツは、Power BI レポート、モバイル レポート、ページ分割されたレポート、KPI、Excel ブック、さらにレポートの構成要素として使用する共有データセットと共有データ ソースという種類別にグループ化されています。 お気に入りにタグを付けて、1 つのフォルダーで表示することができます。 また、Web ポータルで直接 KPI を作成できます。 
 
-Power BI レポート サーバーのエンドユーザーのための入口は、どの最新ブラウザーでも表示可能な最新の Web ポータルです。 新しいポータルでは、すべてのレポートと KPI にアクセスできます。
+![Power BI レポート サーバーの Web ポータル](media/get-started/web-portal.png)
 
-独自のカスタム [ブランド](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) を Web ポータルに適用できます。 また、Web ポータルで直接 KPI を作成できます。 KPI は、レポートを開かなくても、ブラウザーでひとめでわかる主要なビジネス指標を示すことができます。
+アクセス許可によっては、Web ポータルのコンテンツを管理できます。 レポート処理をスケジュールし、オンデマンドでレポートにアクセスし、発行したレポートにサブスクライブすることができます。 独自のカスタム [ブランド](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal)を Web ポータルに適用することもできます。 
 
-Web ポータルのコンテンツは、次の種類別に分類されています。Power BI レポート、モバイル レポート、ページ分割されたレポート、および KPI に加え、レポートの構成要素として使用する Excel ブック、共有データセット、および共有データ ソースです。 Web ポータルでは、それらを従来のフォルダー階層で安全に格納して管理できます。 お気に入りのタグを付けて、コンテンツを管理できます (該当するロールを持っている場合)。
-
-また、レポート処理をスケジュールしたり、オンデマンドでレポートにアクセスしたり、新しい Web ポータルでパブリッシュされたレポートをサブスクライブできます。
-
-Web ポータルの詳細は、[こちら](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode)をご覧ください。
+詳細については、[Power BI Report Server Web ポータル](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode)に関するページを参照してください。
 
 ## <a name="power-bi-reports"></a>Power BI レポート
-![](media/get-started/powerbi-reports.png)
+Report Server 用に最適化された Power BI Desktop のバージョンで Power BI レポート (.PBIX) を作成します。 次に、自分の環境の Web ポータルでレポートを発行して表示します。
 
-Power BI レポートは、データセットのマルチパースペクティブ表示で、視覚化によってデータセットからのさまざまな発見や洞察を表します。  レポートでは、単独の視覚化を使用することも、各ページでさまざまな視覚化を使用することもできます。 職務に応じて、レポートの作成者になる場合と、レポートのコンシューマー、つまり使用者になる場合があります。
+![Power BI Report Server の Power BI レポート](media/get-started/powerbi-reports.png)
 
-レポートは、単一のデータセットに基づいています。 レポート内の視覚化は、それぞれがひとかたまりの情報を表します。 視覚化は静的なものではありません。データを追加および削除することや、視覚化の種類を変更することができます。また、フィルターやスライサーを適用してデータを詳しく考察し、洞察を得たり、答えを見つけたりすることもできます。 レポートはダッシュボードと同様に、あるいはそれ以上に、高度な対話機能とカスタマイズ機能を備え、基になっているデータが変化すると視覚化が更新されます。
+Power BI レポートは、データ モデルのマルチパースペクティブ表示で、視覚化によってデータ モデルからのさまざまな発見や洞察を表します。  レポートでは、単独の視覚化を使用することも、各ページでさまざまな視覚化を使用することもできます。 ロールによっては、他のユーザーの代わりに、レポートの閲覧やレポートの探索だけでなく、レポートの作成も実行することができます。
+
+[Power BI Report Server 向けに最適化された Power BI Desktop](quickstart-create-powerbi-report.md) をインストールします。
 
 ## <a name="paginated-reports"></a>ページ分割されたレポート
-![](media/get-started/paginated-reports.png)
+ページ分割されたレポート (.RDL) は、視覚化されたドキュメント スタイルのレポートです。必要に応じてテーブルを水平方向と垂直方向に展開してすべてのデータを表示したり、複数のページにデータを連続表示したりすることができます。 これは、PDF や Word などの印刷用に最適化された固定レイアウトの完璧なピクセルのドキュメントを生成するのに適しています。
 
-ページ分割されたレポートは、多くのデータがある場合、テーブル内に多くの行がある場合、およびレポートに多くのページがある場合にページ分割される文書形式のレポートです。 これは、PDF や Word などの印刷用に最適化された固定レイアウトの完璧なピクセルのドキュメントを生成するのに適しています。
+![Power BI Report Server のページ分割されたレポート](media/get-started/paginated-reports.png)
 
 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) で[レポート ビルダー](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)またはレポート デザイナーを使用して、現代的な外観のレポートを作成できます。
+
+## <a name="reporting-services-mobile-reports"></a>Reporting Services のモバイル レポート
+モバイル レポートはオンプレミス データに接続し、さまざまなデバイスとさまざまな保持方法に対応してレイアウトが調整されます。 モバイル レポートは SQL Server Mobile Report Publisher を使用して作成します。
+
+詳細については、[Reporting Services のモバイル レポート](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)に関するページを参照してください。 
 
 ## <a name="report-server-programming-features"></a>Report Server のプログラミング機能
 Power BI レポート サーバーのプログラミング機能を利用すると、レポート作成機能を拡張してカスタマイズしたり、API を使用してデータとレポート処理をカスタム アプリケーションに統合または拡張することができます。
@@ -79,11 +66,8 @@ Power BI レポート サーバーのプログラミング機能を利用する�
 詳細は、「[Report Server developer documentation](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation)」 (Report Server の開発者向けドキュメント) をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
-[ユーザー向けハンドブック](user-handbook-overview.md)  
-[管理者向けハンドブック](admin-handbook-overview.md)  
-[クイックスタート: Power BI レポート サーバーをインストールする](quickstart-install-report-server.md)  
+[Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
-[SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

@@ -1,33 +1,34 @@
 ---
-title: Power BI Desktop でのデータの整形と結合
-description: Power BI Desktop でのデータの整形と結合
-services: powerbi
-documentationcenter: ''
+title: 複数のソースのデータの整形と結合
+description: このチュートリアルでは、Power BI Desktop でデータの整形と結合を行う方法について説明します
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288753"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>Power BI Desktop でのデータの整形と結合
-**Power BI Desktop** を使用すると、さまざまな種類のデータ ソースに接続してから、ニーズに合わせてデータを整形できます。 データの *整形* とは、データを変換することです。たとえば、列やテーブルの名前を変更したり、テキストを数値に変更したり、行を削除したり、最初の行をヘッダーとして設定したりします。 データの *結合* とは、複数のデータ ソースに接続して、必要に応じてそれらを整形してから、1 つの便利なクエリに統合することを意味します。
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>チュートリアル: Power BI Desktop でデータの整形と結合
 
-この記事では、いくつかの最も一般的なタスクに注目しながら、Power BI Desktop を使用したクエリの整形方法を示します。 ここで使用するクエリは、クエリを最初から作成する方法も含めて、「[Power BI Desktop の概要](desktop-getting-started.md)」でより詳しく説明しています。
+**Power BI Desktop** を使用すると、さまざまな種類のデータ ソースに接続し、ニーズに合わせてデータを整形し、他のユーザーと共有できるビジュアル レポートを作成できます。 データの *整形* とは、データを変換することです。たとえば、列やテーブルの名前を変更したり、テキストを数値に変更したり、行を削除したり、最初の行をヘッダーとして設定したりします。 データの *結合* とは、複数のデータ ソースに接続して、必要に応じてそれらを整形してから、1 つの便利なクエリに統合することを意味します。
+
+このチュートリアルでは、以下について説明します。
+
+* **クエリ エディター**を使用してデータを整形する
+* データ ソースに接続する
+* 別のデータ ソースに接続する
+* これらのデータ ソースを結合し、レポートで使用するデータ モデルを作成する
+
+このチュートリアルでは、いくつかの最も一般的なタスクに注目しながら、Power BI Desktop を使用したクエリの整形方法を示します。 ここで使用するクエリは、クエリを最初から作成する方法も含めて、「[Power BI Desktop の概要](desktop-getting-started.md)」でより詳しく説明しています。
 
 Power BI Desktop の **クエリ エディター** では、リボンだけでなく右クリック メニューも広く使用することを知っておくと便利です。 **[変換]** リボンで選択できるほとんどの項目は、(列などの) 項目を右クリックし、表示されるメニューからクリックして使用することもできます。
 
@@ -119,11 +120,11 @@ _New Rank_ の値は変わっていない点に注意してください。これ
 
 さらに、 **[適用される手順]** 一覧のどの位置にある手順でも選択でき、順番のその地点からデータの整形を続行できます。 新しい手順は、現在選択されている **適用される手順**の直後に自動的に挿入されます。 試しに実行してみましょう。
 
-まず、**[適用したステップ]** を選択してからカスタム列を追加します。これは _[削除された列]_ ステップになります。 ここでは、アリゾナ州の_気象_ランキングの値を置き換えます。 アリゾナ州の_気象_ランキングを含む適切なセルを右クリックし、表示されるメニューから*[値の置換]* を選択します。 **[適用したステップ]** (_[追加されたカスタム]_ ステップの前のステップ) が現在選択されています。
+まず、**[適用したステップ]** を選択してからカスタム列を追加します。これは _[削除された列]_ ステップになります。 ここでは、アリゾナ州の_気象_ランキングの値を置き換えます。 アリゾナ州の_気象_ランキングを含む適切なセルを右クリックし、表示されるメニューから *[値の置換]* を選択します。 **[適用したステップ]** (_[追加されたカスタム]_ ステップの前のステップ) が現在選択されています。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_replacevalues2.png)
 
-手順を挿入しているので、これ以降の手順によってクエリ エディターが中断する危険があることを示す警告が表示されます。 注意して慎重に操作する必要があります。 これは、手順の作成、削除、挿入、および順序の変更の方法を示してクエリ エディターの非常に優れた機能を強調するためのチュートリアルなので、このまま先に進んで **[挿入]**を選択します。
+手順を挿入しているので、これ以降の手順によってクエリ エディターが中断する危険があることを示す警告が表示されます。 注意して慎重に操作する必要があります。 これは、手順の作成、削除、挿入、および順序の変更の方法を示してクエリ エディターの非常に優れた機能を強調するためのチュートリアルなので、このまま先に進んで **[挿入]** を選択します。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
 
@@ -174,7 +175,7 @@ _New Rank_ の値は変わっていない点に注意してください。これ
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removebottomrows.png)
 
-* RetirementStats テーブルには Washington DC の情報がないため、一覧からフィルター処理する必要があります。 [地域ステータス] 列の隣にあるドロップダウン矢印を選択し、 **[連邦地区]**の隣にあるチェックボックスの選択を解除します。
+* RetirementStats テーブルには Washington DC の情報がないため、一覧からフィルター処理する必要があります。 [地域ステータス] 列の隣にあるドロップダウン矢印を選択し、 **[連邦地区]** の隣にあるチェックボックスの選択を解除します。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 

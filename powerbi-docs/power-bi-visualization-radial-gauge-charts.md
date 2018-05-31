@@ -1,16 +1,16 @@
 ---
-title: "チュートリアル: Power BI の放射状ゲージ グラフ"
-description: "チュートリアル: Power BI の放射状ゲージ グラフ"
+title: Power BI の放射状ゲージ グラフ
+description: Power BI の放射状ゲージ グラフ
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6Epqa
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5b0b5861c567997bb5636c4fe00085535debc8f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a972e3ae702fc1746bebecbc5de00f47031f76a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813049"
 ---
-# <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Power BI の放射状ゲージ グラフ (チュートリアル)
+# <a name="radial-gauge-charts-in-power-bi"></a>Power BI の放射状ゲージ グラフ
 放射状ゲージ グラフには、1 つの円弧があり、目標/KPI に向けた進行状況を測定した 1 つの値が表示されます。  目標 (ターゲット値) は、線 (指針) で示されます。 その目標への進行状況は、網掛け表示で示されます。  また、進行状況を表す値は、円弧の内側に太字で表示されます。考えられるすべての値は、最小値 (左端の値) から最大値 (右端の値) に向けて、円弧に沿って均等に割り振られます。
 
 次に示す例は、自動車販売店を想定したもので、営業部門の月平均売上の推移を追跡記録しています。 目標は 140 であり、黒色の指針で示されています。  考えられる最小の平均売上は 0 であり、最大売上は 200 に設定しています。  青色の網掛けは、現時点で今月の平均売上が約 120 に達していることを示しています。 幸いなことに、目標に到達するまでに、まだ 1 週間の猶予があります。
@@ -61,10 +62,10 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>手順 2: 総売上を追跡するためにゲージを作成する
-1. **[フィールド]** ペインで、 **[総売上]**を選択します。
+1. **[フィールド]** ペインで、 **[総売上]** を選択します。
    
    ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
-2. 集計を **[平均]**に変更します。
+2. 集計を **[平均]** に変更します。
    
    ![](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
 3. ゲージ アイコン ![](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png) を選択して、縦棒グラフをゲージに変換します。
@@ -75,7 +76,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
 
 ### <a name="step-3-set-a-target-value"></a>手順 3: 対象値を設定する
 1. **[COGS]** も **[ターゲット値]** にドラッグします。
-2. 集計を **[平均]**に変更します。
+2. 集計を **[平均]** に変更します。
    Power BI により、ターゲット値の **145.48K ドル**を示す指針が追加されます。 ターゲットを超えていることに注目してください。
    
    ![](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
@@ -89,7 +90,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
 手順 2 では、Power BI は [値] フィールドを使用して、自動的に最小値 (開始) と最大値 (終了) を設定していました。  独自に最大値を設定するには、どうすればよいのでしょうか。  可能な最大値として、現在の 2 倍の値を使用するのではなく、データセット内で最大の総売上額を設定することにしましょう。 
 
 1. **[フィールド]** リストから、 **[最大値]** に **[総売上]** もドラッグします。
-2. 集計を **[最大値]**に変更します。
+2. 集計を **[最大値]** に変更します。
    
    ![](media/power-bi-visualization-radial-gauge-charts/setmaximum_new.png)
    
@@ -106,13 +107,13 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
 2. ペイント ローラーのアイコンを選んで、[書式設定] ウィンドウを開きます。
    
    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
-3. **[ゲージの軸]** を展開し、 **[最小]** および **[最大]**の値を入力します。
+3. **[ゲージの軸]** を展開し、 **[最小]** および **[最大]** の値を入力します。
    
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
 4. **COGS**の横にあるチェックマークを外し、現在の目標値を削除します。
    
     ![](media/power-bi-visualization-radial-gauge-charts/pbi_remove_target.png)
-5. **[ゲージの軸]** の下に **[Target]**フィールドが表示されたら、値を入力します。
+5. **[ゲージの軸]** の下に **[Target]** フィールドが表示されたら、値を入力します。
    
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. 必要に応じて、ゲージ グラフの書式設定を続けます。

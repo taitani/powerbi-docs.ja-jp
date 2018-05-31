@@ -1,108 +1,107 @@
 ---
-title: "iFrame を使用してレポートを埋め込む"
-description: "Power BI レポート サーバー自体のインストールはすぐに終わります。 ダウンロードし、インストールして構成し、実行できるようになるまで、数分で終わります。"
-services: powerbi
-documentationcenter: 
+title: iFrame を使用してレポートを埋め込む
+description: SharePoint Server の iFrame に Power BI Report Server レポートを埋め込む
 author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/04/2018
+ms.topic: quickstart
+ms.service: powerbi
+ms.component: powerbi-report-server
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293699"
 ---
-# <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>クイック スタート: iFrame と URL パラメーターを使用して Power BI レポートを埋め込む
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>クイック スタート: SharePoint Server の iFrame を使用して Power BI Report Server レポートを埋め込む
 
-アプリケーションで iFrame を使用してレポートを埋め込むことができます。 
+このクイック スタートでは、SharePoint ページの iFrame を使用して Power BI Report Server レポートを埋め込む方法について説明します。 SharePoint Online を使用している場合は、Power BI Report Server にパブリックにアクセスできる必要があります。 SharePoint Online では、Power BI サービスで動作する Power BI Web パーツは、Power BI Report Server で動作しません。 
 
-## <a name="url-parameter"></a>URL パラメーター
+![iFrame のサンプル](media/quickstart-embed/quickstart_embed_01.png)
+## <a name="prerequisites"></a>前提条件
+* [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/) をインストールする必要があります。
+* [Power BI Report Server 向けに最適化された Power BI Desktop](install-powerbi-desktop.md) をインストールする必要があります。
+* [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install) 環境をインストールし、構成する必要があります。
 
-レポートの URL の場合、`?rs:Embed=true` のクエリ文字列パラメーターを追加できます。
+## <a name="creating-the-power-bi-report-server-report-url"></a>Power BI Report Server のレポート URL の作成
 
-例:
+1. GitHub からサンプル [Blog Demo](https://github.com/Microsoft/powerbi-desktop-samples) をダウンロードします。
 
-```
-http://myserver/reports/powerbi/Sales?rs:embed=true
-```
+    ![サンプル PBIX ファイルをダウンロードする](media/quickstart-embed/quickstart_embed_14.png)
 
-Power BI Report Server 内のすべてのレポートの種類で使用できます。
+2. **Power BI Desktop 向けに最適化された Power BI Desktop** で GitHub のサンプル PBIX ファイルを開きます。
 
-## <a name="iframe"></a>iFrame
+    ![PBI RS Desktop ツール](media/quickstart-embed/quickstart_embed_02.png)
 
-URL を用意したら、レポートをホストする iFrame を Web ページ内に作成できます。
+3. レポートを **Power BI Report Server** に保存します。 
 
-例:
+    ![PBI RS の保存](media/quickstart-embed/quickstart_embed_03.png)
 
-```
-<iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
-```
+4. **Web ポータル**でレポートを表示します。
 
-## <a name="url-filter"></a>URL フィルター
+    ![Web ポータル](media/quickstart-embed/quickstart_embed_04.png)
 
-URL にクエリ文字列パラメーターを追加して、レポートに返されたデータをフィルター処理することができます。
+### <a name="capturing-the-url-parameter"></a>URL パラメーターの取得
 
-構文は簡単です。レポートの URL に疑問符を追加し、その後にこのフィルター構文を追加します。
+URL を用意したら、レポートをホストする iFrame を SharePoint ページ内に作成できます。 Power BI Report Server のレポートの URL には、querystring パラメーター `?rs:embed=true` を追加してレポートを iFrame に埋め込むことができます。 
 
-URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
+   例:
+    ``` 
+    http://myserver/reports/powerbi/Sales?rs:embed=true
+    ```
+## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>PowerBI Report Server レポートを SharePoint の iFrame に埋め込む
 
-次の考慮事項に注意してください。
+1. SharePoint の **[サイト コンテンツ]** ページに移動します。
 
-- **テーブル**と**フィールド**の名前では大文字と小文字が区別されますが、**値**では区別されません。
-- レポート ビューに表示されないフィールドを含むレポートをフィルター処理することができます。
-- **値**は一重引用符で囲む必要があります。
-- フィールドの型は文字列である必要があります。
-- テーブルとフィールドの名前にスペースを含めることはできません。
+    ![[サイト コンテンツ] ページ](media/quickstart-embed/quickstart_embed_05.png)
 
-###  <a name="example-filter-on-a-field"></a>例: フィールドをフィルター処理する
+2. レポートを追加するページを選択します。
 
-[小売の分析のサンプル](../sample-datasets.md)を例として使用します。 次に示すのは、"power-bi" という名前のフォルダーにあるレポート サーバー上のレポートに対する URL であるとします。
+    ![[サイト コンテンツ] ページのアプリ](media/quickstart-embed/quickstart_embed_06.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample
-```
+3. 右上の歯車アイコンを選択し、**[ページの編集]** を選択します。
 
-ノースカロライナや他の州の店舗を示している、小売りの分析のサンプルにマップの視覚エフェクトが表示されます。
+    ![[ページの編集] オプション](media/quickstart-embed/quickstart_embed_07.png)
 
-![小売りの分析のサンプルにおけるマップの視覚エフェクト](media/quickstart-embed/report-server-retail-analysis-sample-map.png)
+4. **[Web パーツの追加]** を選択します。
 
-*NC* は、**Store** テーブルの **Territory** フィールドに格納されているノースカロライナの値です。 ノースカロライナの店舗のデータだけが表示されるようにレポートをフィルター処理するには、URL に以下を追加します。
+    ![Web パーツの追加](media/quickstart-embed/quickstart_embed_08.png)
 
-?filter=Store/Territory eq 'NC'
+5. **[カテゴリ]** で **[メディアとコンテンツ]** を選択し、**[パーツ]** で **[コンテンツ エディター]** を選択して **[追加]** を選択します。
 
-これで、レポートはノースカロライナでフィルター処理されます。レポート ページのすべての視覚化には、ノースカロライナのデータだけが表示されます。
+    ![[コンテンツ エディター] Web パーツを選択し](media/quickstart-embed/quickstart_embed_09.png)、![[追加] を選択する](media/quickstart-embed/quickstart_embed_091.png)
 
-![小売りの分析のサンプルにおけるフィルター処理された視覚エフェクト](media/quickstart-embed/report-server-retail-analysis-sample-filtered-map.png)
+6. **[ここをクリックして新しいコンテンツを追加]** を選択します。
 
-### <a name="create-a-dax-formula-to-filter-on-multiple-values"></a>DAX 式を作成して複数の値をフィルター処理する
+    ![新しいコンテンツの追加](media/quickstart-embed/quickstart_embed_10.png)
 
-複数のフィールドにフィルターを適用するもう 1 つの方法は、2 つのフィールドを 1 つの値に連結する Power BI Desktop で計算列を作成することです。 その後は、その値に対してフィルターを適用できます。
+7. リボンの **[テキストの書式設定]** タブを選択し、**[ソースの編集]** を選択します。
 
-たとえば、小売りの分析のサンプルには、2 つのフィールド、Territory と Chain があります。 Power BI Desktop で、TerritoryChain という名前の[計算列 (フィールド) を作成](../desktop-tutorial-create-calculated-columns.md)できます。 **フィールド**名にスペースが含まれてはならないことに注意してください。 その列に DAX 式は次のようになります。
+     ![ソースの編集](media/quickstart-embed/quickstart_embed_11.png)
 
-TerritoryChain = [Territory] & "-" & [Chain]
+8. [ソースの編集] ウィンドウに iFrame コードを貼り付け、[OK] を選択します。
 
-レポートを Power BI Report Server に公開した後、URL クエリ文字列を使って、NC の Lindseys 店のデータだけを表示するようにフィルター処理します。
+    ![iFrame コード](media/quickstart-embed/quickstart_embed_12.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/TerritoryChain eq 'NC-Lindseys'
+     例:
+     ```
+     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     ```
 
-```
+9. リボンの **[テキストの書式設定]** タブを選択し、**[編集の終了]** を選択します。
+
+    ![編集の終了](media/quickstart-embed/quickstart_embed_13.png)
+
+10. これでページにレポートが表示されます。
+
+    ![iFrame のサンプル](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>次の手順
 
 [クイックスタート: Power BI レポート サーバーの Power BI レポートの作成](quickstart-create-powerbi-report.md)  
 [クイックスタート: Power BI Report Server のページ分割されたレポートの作成](quickstart-create-paginated-report.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。 

@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813371"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>レポートとビジュアルのデザインに関するベスト プラクティス
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Power BI では、縦棒グラフと折れ線グラフを複合グラフに組�
 
 詳細:
 
-* [チュートリアル: Power BI での複合グラフ](power-bi-visualization-combo-chart.md)
+* [Power BI の複合グラフ](power-bi-visualization-combo-chart.md)
 * [ビジュアルでの二重スケール軸の危険性](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf)
 
 ### <a name="scatter-chart"></a>散布図
@@ -810,8 +811,8 @@ KPI では、値、ステータス、目標、目標との差、トレンドが�
 
 詳細については、次のトピックを参照してください。
 
-* [チュートリアル: Power BI の放射状ゲージ グラフ](power-bi-visualization-radial-gauge-charts.md)
-* [チュートリアル: Power BI の KPI](power-bi-visualization-kpi.md)
+* [Power BI の放射状ゲージ グラフ](power-bi-visualization-radial-gauge-charts.md)
+* [Power BI の KPI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>まとめ
 ここで説明したベスト プラクティスを、自分でテストしてみてください。  そして、あなた自身のベスト プラクティスを教えてください。 推奨事項にとらわれず、"ルールを破る" ために適した理由を見つけてください。  これらについての意見もお待ちしています。  

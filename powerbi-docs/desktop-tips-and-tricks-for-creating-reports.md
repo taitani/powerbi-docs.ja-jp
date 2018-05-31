@@ -1,27 +1,20 @@
 ---
 title: Power BI でのレポート作成のヒントとテクニック
 description: Power BI サービス と Power BI Desktop でレポートを作成するときのヒントとテクニックです
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: willthom
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: willthom
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: davidi
-ms.openlocfilehash: d4c32d82fb25fcce47900080d3c454623e14cd74
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7f1ec08fdd280d8c4c3e96367083e7bdb2d31e1b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34230211"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop におけるレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop でレポートを作成する場合、*および* Power Pivot のアドインを有効にし、なおかつ Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションでレポートを作成する場合に役立つヒントとテクニックをまとめました。 
@@ -163,7 +156,7 @@ Power BI Desktop では、多くの場合、複数の列のデータを 1 つの
 ## <a name="using-dax-for-the-first-time"></a>DAX を初めて使用する場合
 DAX は、Power BI Desktop で使用される計算式言語です。  それは BI の分析のために最適化されています。  これまでに使ったことがある言語が SQL のようなクエリ言語のみの場合、使用感が若干異なります。 DAX を学習するための非常に優れたリソースがオンラインにも出版物としても存在します。 
 
-[クイック スタート: Power BI Desktop における DAX の基本事項](desktop-quickstart-learn-dax-basics.md)
+[Power BI Desktop における DAX の基本事項を学習する](desktop-quickstart-learn-dax-basics.md)
 
 [Data Analysis Expressions (DAX) リファレンス](https://msdn.microsoft.com/library/gg413422.aspx)
 

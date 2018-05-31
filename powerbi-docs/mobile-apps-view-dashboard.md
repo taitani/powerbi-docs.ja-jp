@@ -1,27 +1,20 @@
 ---
-title: "Power BI モバイル アプリにおけるダッシュボードとレポートの表示"
-description: "Power BI サービス内でダッシュボードとレポートを作成するか、ダッシュボードとレポートに接続します。 次に、Power BI モバイル アプリでダッシュボードを表示します。"
-services: powerbi
-documentationcenter: 
+title: Power BI モバイル アプリにおけるダッシュボードとレポートの表示
+description: Power BI サービス内でダッシュボードとレポートを作成するか、ダッシュボードとレポートに接続します。 次に、Power BI モバイル アプリでダッシュボードを表示します。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295875"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリにおけるダッシュボードとレポートの表示
 適用対象:
@@ -115,31 +108,21 @@ ms.lasthandoff: 01/17/2018
    
    ![ダッシュボードのホーム](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     黄色い星 ![お気に入りの星](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
+    黄色い星 ![お気に入りの星](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
 
-     -     各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](service-data-classification.md)に関するページを参照してください。
-
+    各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](service-data-classification.md)に関するページを参照してください。
 
     Power BI ダッシュボードは、Android フォンでは少し異なる外観です。 すべてのタイルは同じ幅で表示され、上から下に 1 つずつ配置されます。
 
     ![ダッシュ ボードの縦向きビュー](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     または、電話を横向きに変えるだけで、電話のダッシュボードは横モードで表示されます。
-
-    > [AZURE.TIP] ダッシュボードの所有者である場合は、Power BI サービスで、縦モードの[スマートフォン独自のダッシュボード ビューを作成](service-create-dashboard-mobile-phone-view.md)できます。 
+    ダッシュボードの所有者である場合は、Power BI サービスで、縦モードの[スマートフォン独自のダッシュボード ビューを作成](service-create-dashboard-mobile-phone-view.md)できます。 
 
 1. ダッシュボードでは、名前の隣にある垂直線の省略記号 (...) をタップして仕事仲間の招待、更新、またはダッシュボードに関する情報を取得できます。
    
    ![省略記号メニュー](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. [ダッシュボードのタイル](mobile-tiles-in-the-mobile-apps.md)をすべて参照するには、上下にスワイプします。 
 3. ダッシュボードのホーム ページに戻って、ダッシュボードの名前をタップして階層リンクの軌跡を開き、**[マイ ワークスペース]** をタップします。   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Android フォンで横モードでダッシュボードを表示する
-携帯電話の向きを変えるだけで、ダッシュボードを横モードで表示することもできます。 ダッシュボードのレイアウトは、一連のタイルのビューから、ダッシュボード全体のビューに切り替わります。ダッシュボードのすべてのタイルは、Power BI サービスで表示されるのと同じレイアウトで表示されます。
-
-![ダッシュ ボードの横向きビュー](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-"ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域をズームン/ズームアウトしたり、表示する領域を移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Android タブレットでダッシュボードを表示する
 1. Android タブレットで Power BI アプリを開き、サインインします。

@@ -1,34 +1,35 @@
 ---
-title: "管理者向けハンドブックの概要、Power BI レポート サーバー"
-description: "Power BI レポート サーバーの管理者向けハンドブックへようこそ。Power BI レポート サーバーは、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。"
+title: 管理の概要、Power BI Report Server
+description: この記事では、Power BI Report Server の管理の概要について説明します。Power BI Report Server は、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 05/07/2018
 ms.author: maghan
-ms.openlocfilehash: 130a4264b2e8c4e511527f34088a580a7787673b
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52b2c9cac7fd07564480fdbf3a6a91e04e72db11
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33883091"
 ---
-# <a name="administrator-handbook-overview-power-bi-report-server"></a>管理者向けハンドブックの概要、Power BI レポート サーバー
-Power BI レポート サーバーの管理者向けハンドブックへようこそ。Power BI レポート サーバーは、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。
+# <a name="admin-overview-power-bi-report-server"></a>管理の概要、Power BI Report Server
+この記事では、Power BI Report Server の管理の概要について説明します。Power BI Report Server は、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。 この記事では、Power BI Report Server の計画、デプロイ、管理の概念について説明します。
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
-このハンドブックは、Power BI レポート サーバーの計画、展開、および管理の概念を理解するのに役立ちます。
+
 
 ## <a name="installing-and-migration"></a>インストールと移行
 Power BI レポート サーバーの使用を開始するには、インストールする必要があります。 このタスクを処理できるようにするための情報を提供します。
@@ -36,10 +37,9 @@ Power BI レポート サーバーの使用を開始するには、インスト�
 Power BI レポート サーバーのインストール、アップグレードまたは移行を開始する前に、レポート サーバーの[システム要件](system-requirements.md)をご覧ください。
 
 ### <a name="installing"></a>インストール
-新しい Power BI レポート サーバーを展開する場合は、次のドキュメントが役立ちます。 すぐに始める場合は、クイックスタートが利用できます。 または、インストールに関するドキュメントで詳細を確認できます。
+新しい Power BI レポート サーバーを展開する場合は、次のドキュメントが役立ちます。 
 
-* [クイックスタート: Power BI レポート サーバーをインストールする](quickstart-install-report-server.md)
-* [Power BI レポート サーバーのインストール](install-report-server.md)
+[Power BI レポート サーバーのインストール](install-report-server.md)
 
 ### <a name="migration"></a>移行
 SQL Server Reporting Services の一括アップグレードはありません。 Power BI Report Server にする既存の SQL Server Reporting Services インスタンスがある場合は、それを移行する必要があります。 移行を実行する理由は他にもあります。 詳細については、移行のドキュメントを確認してください。
@@ -55,8 +55,8 @@ SQL Server Reporting Services の一括アップグレードはありません�
 セキュリティと保護は、すべての組織にとって重要です。 認証、承認、役割およびアクセス許可については、[セキュリティ](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection) ドキュメントで学ぶことができます。
 
 ## <a name="next-steps"></a>次の手順
-[クイックスタート: Power BI レポート サーバーをインストールする](quickstart-install-report-server.md)  
-[レポート サーバーのプロダクト キーを検索する方法](find-product-key.md)  
+[Power BI レポート サーバーのインストール](install-report-server.md)  
+[レポート サーバーのプロダクト キーを検索する](find-product-key.md)  
 [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  
 [レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)

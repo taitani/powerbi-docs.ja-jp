@@ -1,29 +1,22 @@
 ---
-title: "Android フォンでの Power BI モバイル アプリの概要"
-description: "Microsoft Power BI 用 Android モバイル アプリで、Power BI をどこでも使用できるようにし、オンプレミスやクラウドのビジネス情報にモバイルでアクセスできるようにする方法について説明します。"
-services: powerbi
-documentationcenter: 
+title: Android デバイスでの Power BI モバイル アプリの概要
+description: Microsoft Power BI 用 Android モバイル アプリで、Power BI をどこでも使用できるようにし、オンプレミスやクラウドのビジネス情報にモバイルでアクセスできるようにする方法について説明します。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/18/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297448"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>Android フォンでの Power BI モバイル アプリの概要
+# <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android デバイスでの Power BI モバイル アプリの概要
 Microsoft Power BI 用 Android アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 
 
 ![Power BI for Android アプリのダッシュボード](media/mobile-android-app-get-started/power-bi-android-dashboard-optimized-090117.png)
@@ -33,34 +26,37 @@ Power BI Desktop で Power BI レポートを作成して、それらを公開�
 * [それらを Power BI サービスに公開し](service-get-started.md)、ダッシュボードを作成します。
 * [それらをオンプレミスから Power BI Report Server に公開します](report-server/quickstart-create-powerbi-report.md)。
 
-Android フォンの Power BI アプリで、オンプレミスまたはクラウドのダッシュボードやレポートを操作します。
+Android の Power BI アプリで、オンプレミスまたはクラウドのダッシュボードやレポートを操作します。
 
 「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」をご覧ください。
 
-## <a name="first-things-first"></a>最初に行うこと
-* **アプリを入手する**: [Google Play から Power BI for Android アプリ](http://go.microsoft.com/fwlink/?LinkID=544867)を入手します。
+## <a name="prerequisites"></a>前提条件
+
+### <a name="get-the-app"></a>アプリの入手
+
+Google Play ストアから [Power BI for Android アプリをダウンロードします](http://go.microsoft.com/fwlink/?LinkID=544867)。
   
-  Power BI は、さまざまな Android フォンで実行できます。 使用する携帯電話では、Android 5.0 以降のオペレーティング システムを実行している必要があります。 お使いの電話でバージョンを確認するには、**[設定]** > **[端末情報]** > **[Android バージョン]** の順に移動します。 
-* **アプリを開いたときに開始**    Android フォンでアプリを開くと、サインアップやサインインを行わなくてもサインインのページを閲覧し、Power BI アプリで実行できることを概観できます。 **[スキップ]** をタップするとサンプルを見たり、アプリを実際に体験したりできます。 ダッシュボードのホーム ページから、いつでも好きなときに[サンプルに戻る](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)ことができます。
-* 「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」をご覧ください。
+Power BI は、Android 5.0 以降のオペレーティング システムを搭載するさまざまな Android デバイスで実行できます。 お使いのデバイスでバージョンを確認するには、**[設定]** > **[端末情報]** > **[Android バージョン]** の順に移動します。 
+
+**アプリを開いたときに開始**    
+Android デバイスでアプリを開くと、サインアップやサインインを行わなくてもサインインのページを閲覧し、Power BI アプリで実行できることを概観できます。 **[スキップ]** をタップするとサンプルを見たり、アプリを実際に体験したりできます。 ダッシュボードのホーム ページから、いつでも好きなときに[サンプルに戻る](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)ことができます。
+
+「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」をご覧ください。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Web 上で Power BI サービスにサインアップする
-まだサインアップしていない場合は、[Power BI サービス (http://powerbi.com/) ](http://powerbi.com/)に移動して自分のアカウントでサインアップしてください。そのアカウントで、ダッシュボードやレポートを作成および保存し、データをまとめます。 これで、Android フォンから Power BI にサインインし、どこからでも自分のダッシュボードを表示できるようになります。
+まだサインアップしていない場合は、[Power BI サービス (http://powerbi.com/)](http://powerbi.com/) に移動して自分のアカウントでサインアップしてください。そのアカウントで、ダッシュボードやレポートを作成および保存し、データをまとめます。 これで、Android デバイスから Power BI にサインインし、どこからでも自分のダッシュボードを表示できるようになります。
 
 1. Power BI サービスで [[サインアップ]](http://go.microsoft.com/fwlink/?LinkID=513879) をタップし、Power BI アカウントを作成します。
 2. [独自のダッシュボードとレポートの作成](service-get-started.md)を開始します。
 
-## <a name="get-started-with-the-power-bi-app-on-your-phone"></a>スマートフォンで Power BI アプリを使用する
-1. Android フォンで、スタート画面から Power BI for Android アプリを開きます。
+## <a name="get-started-with-the-power-bi-app-on-your-device"></a>デバイスで Power BI アプリを使用する
+1. Android デバイスで、スタート画面から Power BI for Android アプリを開きます。
    
    ![Power BI アイコン](media/mobile-android-app-get-started/power-bi-logo-android.png)
 2. Power BI ダッシュボードとレポートを表示するには、 **[Power BI]** をタップします。  
    
-   > [!IMPORTANT]
-   > Power BI にサインインできないというメッセージが表示される場合の問題解決方法について詳しくは、["お使いの企業 SSL 証明書が信頼されていないため、認証できませんでした"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) をご覧ください。
-   > 
-   > 
-   
+   Power BI にサインインできないというメッセージが表示される場合の問題解決方法について詳しくは、["お使いの企業 SSL 証明書が信頼されていないため、認証できませんでした"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) をご覧ください。
+
    Power BI レポート サーバーや Reporting Services のレポートおよび KPI を表示するには、**[レポート サーバー]** をタップします。
    
    ![Power BI へのサインイン](media/mobile-android-app-get-started/power-bi-connect-to-login.png)
@@ -120,7 +116,7 @@ Microsoft Intune では、アクセスに暗証番号 (PIN) を必要とする�
 詳細については、「[Power BI モバイル アプリを Microsoft Intune で構成する](service-admin-mobile-intune.md)」をご覧ください。 
 
 ## <a name="next-steps"></a>次の手順
-Power BI 用の Android フォン アプリ、Power BI のダッシュボードとレポート、Power BI レポート サーバーまたは Reporting Services Web ポータルのレポートと KPI では、次のことが可能です。
+Power BI 用の Android デバイス アプリ、Power BI のダッシュボードとレポート、Power BI Report Server または Reporting Services Web ポータルのレポートと KPI では、次のことが可能です。
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポート
 * [アプリ](service-install-use-apps.md)を表示する。
@@ -130,7 +126,7 @@ Power BI 用の Android フォン アプリ、Power BI のダッシュボード�
 * [アプリ](service-install-use-apps.md)を表示する。
 * [タイルに注釈を付け、共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)する。
 * [ダッシュボード](mobile-share-dashboard-from-the-mobile-apps.md)を共有する。
-* [Power BI QR コードをスキャン](mobile-apps-qr-code.md)して、関連するダッシュボード タイルまたはレポートを開く。 
+* Android フォンで [Power BI QR コードをスキャン](mobile-apps-qr-code.md)して、関連するダッシュボードのタイルまたはレポートを開く。 
 * 同僚と共有するダッシュボードなど、[Power BI アカウントの更新に関する通知](mobile-apps-notification-center.md)をご覧ください。
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Power BI レポート サーバーおよび Reporting Services Web ポータルのレポートと KPI
