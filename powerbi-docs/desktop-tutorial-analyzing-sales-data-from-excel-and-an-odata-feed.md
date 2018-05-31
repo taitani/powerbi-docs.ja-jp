@@ -1,6 +1,6 @@
 ---
-title: 'チュートリアル: Power BI Desktop で Excel と OData フィードの売上データを分析する'
-description: 'チュートリアル: Excel と OData フィードの売上データを分析する'
+title: 'チュートリアル: Power BI Desktop で Excel と OData フィードのデータを結合する'
+description: 'チュートリアル: Excel と OData フィードのデータを結合します'
 services: powerbi
 documentationcenter: ''
 author: davidiseminger
@@ -15,220 +15,254 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
-ms.author: davidi
+ms.date: 05/02/2018
+ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 00c4915df0e18504ec6f5d26540d9289c2f5ddb2
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945988"
 ---
-# <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル: Excel と OData フィードの売上データを分析する
-**Power BI Desktop** では、あらゆる種類のデータ ソースに接続でき、さまざまに結合したり整形したりすることができます。これにより、興味深く説得力のあるデータ分析と視覚化を簡単に実現できます。 このチュートリアルでは、2 つのデータ ソースのデータを結合する方法について取り上げます。 
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル: Excel と OData フィードの売上データを結合する
 
-製品情報を入れるデータベースと売上情報を入れるデータベースが異なるなど、データが複数のデータ ソースにまたがることは珍しくありません。 このドキュメントで習得する手法では、Excel ブックと OData フィードを使用しますが、これらの手法は他のデータ ソース (SQL Server クエリ、CSV ファイル、Power BI Desktop の他のデータ ソースなど) にも適用できます。
+製品情報を入れるデータベースと売上情報を入れるデータベースが異なるなど、データが複数のデータ ソースにまたがることは珍しくありません。 **Power BI Desktop** では、異なるソースからのデータを組み合わせて、興味深く説得力のあるデータ分析と視覚エフェクトを作成できます。 
 
-このチュートリアルでは、Excel (製品情報を含む) および OData フィード (注文データを含む) からデータをインポートします。 変換と集約の手順を実行してから 2 つのソースのデータを結合して、対話式の視覚化が含まれている **製品と年度ごとの売上合計** レポートを生成します。 
-
-最終的なレポートは次のようになります。
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
-
-このチュートリアルの手順を実行するには、製品のブックをダウンロードする必要があります。**[Products.xlsx をダウンロードするにはここをクリックしてください](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**
-
-**[名前を付けて保存]** ダイアログ ボックスで、ファイルに **Products.xlsx**という名前を指定します。
-
-## <a name="task-1-get-product-data-from-an-excel-workbook"></a>タスク 1: Excel ブックから製品データを取得する
-このタスクでは、製品を Products.xlsx ファイルから Power BI Desktop にインポートします。
-
-### <a name="step-1-connect-to-an-excel-workbook"></a>手順 1: Excel ブックに接続する
-1. Power BI Desktop を起動します。
-2. [ホーム] リボンで **[データの取得]**を選択します。 Excel は、 **最も一般的な** データ接続の 1 つであるため、 **[データの取り込み]** メニューから直接選択できます。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
-3. [データの取り込み] ボタンを直接選択する場合は、**[ファイル] \> [Excel]** を選択し、**[接続]** を選択する方法もあります。
-4. **[ファイルを開く]** ダイアログ ボックスで **Products.xlsx** ファイルを選択します。
-5. **[ナビゲーター]** ウィンドウで **[製品]** テーブルを選択してから、 **[編集]**を選択します。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
-
-### <a name="step-2-remove-other-columns-to-only-display-columns-of-interest"></a>手順 2: 必要な列のみを表示するため、他の列を削除する
-この手順では、 **ProductID**、 **ProductName**、 **UnitsInStock**、 **QuantityPerUnit**以外のすべての列を削除します。 Power BI Desktop では多くの場合、同じタスクを複数の方法で実行できます。 たとえば、リボンのボタンの多くは、列またはセルの右クリック メニューからも実行できます。
-
-Power BI Desktop にはクエリ エディターが組み込まれており、このエディターでデータ接続を整形したり変換したりすることができます。 **[ナビゲーター]** から **[編集]**を選択すると、クエリ エディターが自動的に開きます。 また、Power BI Desktop の **[ホーム]** リボンで **[クエリを編集]** を選択することによって、クエリ エディターを開くこともできます。 以下の手順は、クエリ エディターで実行します。
-
-1. クエリ エディターで、 **ProductID**、 **ProductName**、 **QuantityPerUnit**、および **UnitsInStock** 列 を選択します (1 つ以上の列を選択するには **Ctrl キーを押しながらクリック** し、隣り合う複数の列を選択するには **Shift キーを押しながらクリック** します)。
-2. リボンで **[列の削除]**\>**[他の列の削除]** を選択するか、列ヘッダーを右クリックして **[他の列の削除]** をクリックします。
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_removeothercolumns.png)
-
-### <a name="step-3-change-the-data-type-of-the-unitsinstock-column"></a>手順 3: UnitsInStock 列のデータ型を変更する
-クエリ エディターは、データに接続されると、各フィールドを再確認し、最適なデータ型を判別します。 Excel ブックの場合は、製品在庫は常に整数であるため、この手順で **UnitsInStock** 列のデータ型が整数であることをユーザーが確認します。
-
-1. **UnitsInStock** 列を選択します。
-2. **[ホーム]** リボンの **[データ型]** ドロップダウン ボタンを選択します。
-3. まだ整数になっていない場合は、ドロップ ダウンから **[整数]** データ型を選択します ( **[データ型]** ボタンにも現在選択されているデータ型が表示されます)。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_wholenumber.png)      
-
-### <a name="power-bi-desktop-steps-created"></a>作成される Power BI Desktop の手順
-クエリ エディターでクエリ操作を実行すると、 **[クエリの設定]** ウィンドウの **[適用される手順]** 一覧にクエリの手順が作成されて表示されます。 各クエリ ステップには、"M" 言語とも呼ばれる対応する式があります。 “M” 数式言語について詳しくは、「[Power BI の数式について](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)」をご覧ください。
-
-| タスク | クエリの手順 | 式 |
-| --- | --- | --- |
-| Excel ブックに接続する |Source |Source{[Name="Products"]}[Data] |
-| 最初の行をテーブルの列ヘッダーに昇格させる |FirstRowAsHeader |[Table.PromoteHeaders](https://support.office.com/Article/TablePromoteHeaders-b8eaeb95-042a-42e1-9164-6d3c646acadc "Table.PromoteHeaders") <br /> (製品) |
-| 必要な列のみを表示するため、他の列を削除する |RemovedOtherColumns |[Table.SelectColumns](https://support.office.com/Article/TableSelectColumns-20bb9e28-9fd3-4cd2-a21b-97972c82ec22 "Table.SelectColumns")  <br />(FirstRowAsHeader,{"ProductID", "ProductName", "QuantityPerUnit", "UnitsInStock"}) |
-| データ型を変更する |Changed Type |Table.TransformColumnTypes(\#"Removed Other Columns",{{"UnitsInStock", Int64.Type}}) |
-
-## <a name="task-2-import-order-data-from-an-odata-feed"></a>タスク 2: OData フィードから注文データをインポートする
-このタスクでは、注文データを取り込みます。 この手順では、販売システムに接続します。 <http://services.odata.org/V3/Northwind/Northwind.svc/> からサンプルの Northwind OData フィードを Power BI Desktop にインポートし、下記の手順でコピーし (貼り付け) ます。 
-
-### <a name="step-1-connect-to-an-odata-feed"></a>手順 1: OData フィードに接続する
-1. クエリ エディターの **[ホーム]** リボンで、**[データの取得]** を選択します。
-2. **[OData フィード]** データ ソースを参照します。
-3. **[OData フィード]** ダイアログ ボックスで、Northwind OData フィードの **[URL]** を入力します。
-4. **[OK]**を選択します。
-5. **[ナビゲーター]** ウィンドウで **[注文]** テーブルを選択してから、 **[編集]**を選択します。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_odatafeed.png)
+このチュートリアルでは、2 つのデータ ソースからのデータを結合する方法を学習します。製品情報を含む Excel ブックと、注文データを含む OData フィードです。 各データセットをインポートし、変換と集計の手順を実行した後、両方のソースからのデータを使って、対話型の視覚エフェクトを含む売上分析レポートを生成します。 これらの手法は、SQL Server クエリ、CSV ファイル、および Power BI Desktop の他の任意のデータ ソースにも適用できます。
 
 >[!NOTE]
->チェック ボックスを選択せずにテーブル名をクリックすると、プレビューを表示できます。
+>Power BI Desktop では多くの場合、タスクを複数の方法で実行できます。 たとえば、リボンのオプションの多くは、右クリックや、列またはセルの **[その他のオプション]** メニューを使って、使用することもできます。 以下の手順では、複数の代替方法を説明します。 
 
-### <a name="step-2-expand-the-orderdetails-table"></a>手順 2: Order\_Details テーブルを展開する
-**Orders** テーブルには、**Details** テーブルへの参照が含まれます。このテーブルには、各注文に含まれている個別の製品が含まれています。 複数のテーブルが含まれるデータ ソース (リレーショナル データベースなど) に接続する場合は、これらの参照を使用してクエリを作成できます。 
+## <a name="import-the-product-data-from-excel"></a>Excel から製品データをインポートする
 
-この手順では、**Orders** テーブルと関連がある **Order\_Details** テーブルを展開し、**Order\_Details** の **ProductID**、**UnitPrice**、**Quantity** の各列を **Orders** テーブルに結合します。 これらのテーブル内のデータを次に示します。
+最初に、Excel の Products.xlsx ブックから Power BI Desktop に製品データをインポートします。
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orderdetails.png)
+1. [Products.xlsx Excel ブックをダウンロード](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)し、**Products.xlsx** として保存します。
+   
+2. Power BI Desktop リボンの **[ホーム]** タブの **[データを取得]** の横にあるドロップダウン矢印を選んで、**[よく使われる]** ドロップダウンから **[Excel]** を選びます。 
+   
+   ![データの取得](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
+   
+   >[!NOTE]
+   >**[データを取得]** 項目自体を選ぶか、Power BI の **[作業の開始]** ダイアログから **[データを取得]** を選び、**[データを取得]** ダイアログで **[Excel]** または **[ファイル]** > **[Excel]** を選んで、**[接続]** を選ぶこともできます。
+   
+3. **[開く]** ダイアログ ボックスで、**Products.xlsx** ファイルを探して選び、**[開く]** を選びます。
+   
+4. **[ナビゲーター]** ウィンドウで **[製品]** テーブルを選択してから、 **[編集]** を選択します。
+   
+   ![Excel の [ナビゲーター] ウィンドウ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
+   
+テーブルのプレビューが **Power Query エディター**で開きます。ここで、変換を適用してデータをクリーンアップできます。 
+   
+![Power Query エディター](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
+   
+>[!NOTE]
+>また、Power BI Desktop の **[ホーム]** リボンから **[クエリの編集]** > **[クエリの編集]** を選ぶことで、または**レポート ビュー**で右クリックするかクエリの横にある **[その他のオプション]** を選んでから **[クエリの編集]** を選ぶことで、**Power Query エディター**を開くこともできます。
 
-**[展開]** 操作によって、関連テーブルの列が、サブジェクト テーブルに結合されます。 クエリを実行すると、関連テーブルの行 (**Order\_Details**) がサブジェクト テーブル (**Orders**) の行に結合されます。
+## <a name="clean-up-the-products-columns"></a>製品の列をクリーンアップする
 
-**Order\_Details** テーブルを展開すると、入れ子になったテーブルまたは関連テーブルの各行ごとに、3 つの新しい列と追加行が **Orders** テーブルに加えられます。
+結合されたレポートでは、Excel ブックの **ProductID**、**ProductName**、**QuantityPerUnit**、**UnitsInStock** 列だけを使うので、他の列は削除できます。 
 
-1. **クエリ ビュー**で、**Order\_Details** 列までスクロールします。
-2. **Order\_Details** 列で、[展開] アイコン (![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png)) を選択します。
+1. **Power Query エディター**で、**ProductID**、**ProductName**、**QuantityPerUnit**、および **UnitsInStock** 列 を選びます (1 つ以上の列を選ぶには **Ctrl** キーを押しながら**クリック**し、隣り合う複数の列を選ぶには **Shift** キーを押しながら**クリック**します)。
+   
+2. 選んだいずれかの列のヘッダーを右クリックし、ドロップダウンから **[他の列の削除]** を選んで、選んだ列を除くすべての列をテーブルから削除します。 
+   **[ホーム]** リボン タブの **[列の管理]** グループから **[列の削除]** > **[他の列の削除]** を選んでもかまいません。 
+   
+   ![他の列の削除](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_removeothercolumns.png)
+
+## <a name="import-the-order-data-from-an-odata-feed"></a>OData フィードから注文データをインポートする
+
+次に、サンプルの Northwind 販売システムの OData フィードから注文データをインポートします。 
+
+1. **Power Query エディター**で、**[新しいソース]** を選び、**[よく使われる]** ドロップダウンから **[OData フィード]** を選びます。 
+   
+   ![OData を取得する](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
+   
+2. **[OData フィード]** ダイアログ ボックスで、Northwind OData フィードの URL `http://services.odata.org/V3/Northwind/Northwind.svc/` を貼り付けて、**[OK]** を選びます。
+   
+   ![[OData フィード] ダイアログ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
+   
+3. **[ナビゲーター]** ウィンドウで、**Orders** テーブルを選び、**[OK]** を選んで、**Power Query エディター**にデータを読み込みます。
+   
+   ![OData の [ナビゲーター] ウィンドウ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_odatafeed.png)
+   
+   >[!NOTE]
+   >**[ナビゲーター]** では、チェック ボックスを選択せずにテーブル名を選んで、プレビューを表示できます。
+
+## <a name="expand-the-order-data"></a>注文データを展開する
+
+リレーショナル データベースや Northwind OData フィードのように複数のテーブルが含まれるデータ ソースに接続するときは、テーブル間の参照を使ってクエリを作成できます。 **Orders** テーブルには、複数の関連テーブルへの参照が含まれています。 **展開**操作を使うことによって、関連する **Order_Details** テーブルの **ProductID**、**UnitPrice**、および **Quantity** 列を、サブジェクト (**Orders**) テーブルに追加できます。 
+
+1. **Order_Details** 列が表示されるまで、**Orders** テーブルを右にスクロールします。 この列にはデータではなく別のテーブルへの参照が含まれていることに注意してください。
+   
+   ![Order_Details 列](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+   
+2. **Order_Details** 列のヘッダーで、**[展開]** アイコン ![[展開] アイコン](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png) を選びます。 
+   
 3. **[展開]** ドロップダウンで以下の操作を行います。
+   
    1. すべての列をオフにするため、 **(すべての列を選択)** を選択します。
-   2. **ProductID**、 **UnitPrice**、 **Quantity**を選択します。
-   3. **[OK]**をクリックします。
-      ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+      
+   2. **ProductID**、**UnitPrice**、**Quantity** を選んで、**[OK]** を選びます。
+      
+      ![[展開] ダイアログ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
 
-### <a name="step-3-remove-other-columns-to-only-display-columns-of-interest"></a>手順 3: 必要な列のみを表示するため、他の列を削除する
-この手順では、**OrderDate、ShipCity**、**ShipCountry**、**Order\_Details.ProductID**、**Order\_Details.UnitPrice**、**Order\_Details.Quantity** 列以外のすべての列を削除します。 前のタスクでは、 **[他の列の削除]**を使用しました。 このタスクでは、選択した列を削除します。
+**Order_Details** テーブルを展開すると、**Order_Details** 列が入れ子になったテーブルからの 3 つの新しい列に置き換えられ、各注文から追加されたデータの新しい行がテーブルに存在するようになります。 
 
-1. **クエリ ビュー**で、すべての列を選択するため、a. と b. を実行します。
-   1. 最初の列 (**OrderID**) をクリックします。
-   2. Shift キーを押しながら最後の列 (**Shipper**) をクリックします。
-   3. すべての列が選択されたので、Ctrl キーを押しながら、**OrderDate**、**ShipCity**、**ShipCountry**、**Order\_Details.ProductID**、**Order\_Details.UnitPrice**、**Order\_Details.Quantity** をクリックして選択解除します。
-2. これで、削除する必要がある列のみが選択されたため、選択した列ヘッダーを右クリックし、 **[列の削除]**をクリックします。
+![展開された列](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
-### <a name="step-4-calculate-the-line-total-for-each-orderdetails-row"></a>手順 4: Order\_Details の各行で行の合計を計算する
-Power BI Desktop を使用すると、インポートする列に基づいて計算を作成して、接続対象データを強化できます。 この手順では、**[カスタム列]** を作成し、**Order\_Details** の各行の行合計を計算します。
+## <a name="create-a-custom-calculated-column"></a>カスタム計算列を作成する
 
-**Order\_Details** 行ごとの行合計を計算する
+Power Query エディターでは、データを充実させるために計算フィールドとカスタム フィールドを作成できます。 単価と項目の数量を乗算することによって注文の各明細項目の合計価格を計算するカスタム列を作成します。
 
-1. **[列の追加]** リボン タブで、 **[カスタム列の** **追加**] をクリックします。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. **[カスタム列の追加]** ダイアログ ボックスの **[カスタム列の数式]** テキストボックスに「**[Order\_Details.UnitPrice]** \* **[Order\_Details.Quantity]**」と入力します。
-3. **[新しい列名]** テキスト ボックスに、 **LineTotal**と入力します。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
-4. **[OK]**をクリックします。
-
-### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>手順 5: LineTotal フィールドのデータ型を設定する
-1. **LineTotal** 列を右クリックします。
-2. **[型の変更]** を選択した後、**[10 進数]** を選択します。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
-
-### <a name="step-6-rename-and-reorder-columns-in-the-query"></a>手順 6: クエリ内の列の名前の変更と順序の変更
-この手順では、モデルを処理しやすいものにする最終段階として、レポートの作成時に、最終的な列の名前と順序を変更します。
-
-1. **クエリ エディター**で、 **LineTotal** 列を、左側の **ShipCountry**の後にドラッグします。
+1. Power Query エディターの **[列の追加]** リボン タブで、**[カスタム列]** を選びます。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/10.png)
-2. *Order\_Details.* プレフィックスを **Order\_Details.ProductID**、**Order\_Details.UnitPrice**、**Order\_Details.Quantity** の各列から削除します。削除するには、それぞれの列ヘッダーをダブルクリックした後、列名からテキストを削除します。
-
-### <a name="power-bi-desktop-steps-created"></a>作成される Power BI Desktop の手順
-クエリ エディターでクエリ操作を実行すると、 **[クエリの設定]** ウィンドウの **[適用される手順]** 一覧にクエリの手順が作成されて表示されます。 各クエリ ステップには、"M" 言語とも呼ばれる対応する Power Query 式があります。 この数式言語について詳しくは、「[Power BI の式について](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f "Power Query の式について")」をご覧ください。
-
-| タスク | クエリの手順 | 式 |
-| --- | --- | --- |
-| OData フィードに接続する |Source |Source{[Name="Orders"]}[Data] |
-| Order\_Details テーブルを展開する |Order\_Details を展開する |[Table.ExpandTableColumn](https://support.office.com/Article/TableExpandTableColumn-54903f25-75a2-4a44-a9a3-52a9d895ee98 "Table.ExpandTableColumn") <br /> (Orders, "Order\_Details", {"ProductID", "UnitPrice", "Quantity"}, {"Order\_Details.ProductID", "Order\_Details.UnitPrice", "Order\_Details.Quantity"}) |
-| 必要な列のみを表示するため、他の列を削除する |RemovedColumns |[Table.RemoveColumns](https://support.office.com/Article/TableRemoveColumns-6265190e-2f58-4300-85b8-df88fc1a67d3 "Table.RemoveColumns") <br />(\#"Expand Order\_Details",{"OrderID", "CustomerID", "EmployeeID", "RequiredDate", "ShippedDate", "ShipVia", "Freight", "ShipName", "ShipAddress", "ShipCity", "ShipRegion", "ShipPostalCode", "ShipCountry", "Customer", "Employee", "Shipper"}) |
-| Order\_Details 行ごとの行合計を計算する |InsertedColumn |[Table.AddColumn](https://support.office.com/Article/TableAddColumn-6c64d0a5-9654-4d15-bfb6-9cc380aaf3c0 "Table.AddColumn") <br /> (RemovedColumns, "Custom", each [Order\_Details.UnitPrice] \* [Order\_Details.Quantity]) |
-
-## <a name="task-3-combine-the-products-and-total-sales-queries"></a>タスク 3: Products クエリと Total Sales クエリを結合する
-Power BI Desktop では、レポート作成のためにクエリを結合する必要はありません。 代わりに、データセット間に **リレーションシップ** を作成できます。 データセットに共通する任意の列で、これらのリレーションシップを作成できます。 詳しくは、「[リレーションシップの作成と管理](desktop-create-and-manage-relationships.md)」をご覧ください。
-
-このチュートリアルでは、共通の 'ProductID' フィールドを共有する注文データと製品データを使用します。そのため、Power BI Desktop で使用するモデルにおいてそれらの間にリレーションシップを持たせる必要があります。 これには単に、Power BI Desktop で各テーブルの列を関連付ける (つまり、列が同じ値を持つ) ように指定します。 Power BI Desktop がリレーションシップの方向とカーディナリティを自動的に判別します。 リレーションシップ自体を自動的に検出する場合もあります。
-
-このタスクでは、Power BI Desktop で **製品** クエリと **売上合計** クエリの間にリレーションシップが確立されていることを確認します。
-
-### <a name="step-1-confirm-the-relationship-between-products-and-total-sales"></a>手順 1: 製品と売上合計の間のリレーションシップを確認する
-1. 最初に、クエリ エディターで作成したモデルを Power BI Desktop に読み込む必要があります。 クエリ エディターの **[ホーム]** リボンで、**[閉じて読み込む]** を選択します。
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Power BI Desktop が 2 つのクエリからデータを読み込みます。
+2. **[カスタム列]** ダイアログ ボックスで、**[新しい列名]** フィールドに「**LineTotal**」と入力します。
+
+3. **[カスタム列の式]** フィールドの **=** の後に、「**[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]**」と入力します。 (入力する代わりに、**[使用できる列]** スクロール ボックスからフィールド名を選び、**[<< 挿入]** を選んでもかまいません。) 
+3. **[OK]** を選択します。
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)      
-3. データが読み込まれたら、 **[ホーム]** リボンの **[リレーションシップの管理]** ボタンを選択します。
+   ![[カスタム列] ダイアログ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
+
+**Orders** テーブルの最後の列として、新しい **LineTotal** フィールドが表示されます。
+
+## <a name="set-the-data-type-for-the-new-field"></a>新しいフィールドのデータ型を設定する
+
+Power Query エディターは、データに接続するとき、各フィールドの最適なデータ型を決定し、それに応じてデータを表示します。 フィールドに割り当てられているデータ型は、ヘッダーのアイコンで、または **[ホーム]** リボン タブの **[変換]** グループの **[データ型]** で、確認できます。 
+
+新しい **LineTotal** 列のデータ型は **[すべて]** になっていますが、その値は通貨です。 データ型を割り当てるには、**LineTotal** 列のヘッダーを右クリックし、ドロップダウンから **[データ型の変更]** を選んで、**[固定小数点数]** を選びます。 
+
+![データ型を変更する](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
+
+>[!NOTE]
+>または、**LineTotal** 列を選び、**[ホーム]** リボン タブの **[変換]** 領域の **[データ型]** の横にあるドロップダウン矢印を選んで、**[固定小数点数]** を選んでもかまいません。
+
+## <a name="clean-up-the-orders-columns"></a>注文列をクリーンアップする
+
+レポートでモデルの作業をしやすくするため、列の削除、名前変更、順序変更を行うことができます。
+
+このレポートでは、**OrderDate**、**ShipCity**、**ShipCountry**、**Order_Details.ProductID**、**Order_Details.UnitPrice**、**Order_Details.Quantity** 列だけを使います。 Excel データで行ったようにこれらの列を選んで **[他の列の削除]** を使うか、上記の列以外のすべての列を選び、選んだ列のいずれかを右クリックして **[列の削除]** を選んで、すべての列を削除することもできます。 
+
+列名から *Order_Details.* プレフィックスを削除することにより、**Order_Details.ProductID**、**Order_Details.UnitPrice**、**Order_Details.Quantity** 列を 識別しやすくすることができます。 列の名前を **ProductID**、**UnitPrice**、**Quantity** に変更するには、次のようにします。
+
+1. 各列のヘッダーをダブルクリックまたは長押しします。または、列ヘッダーを右クリックして、ドロップダウンから **[名前の変更]** を選びます。 
+2. *Order_Details.* プレフィックスを各名前から削除して、**Enter** キーを押します。
+
+最後に、**LineTotal** 列にアクセスしやすくするため、この列を左にドラッグして **ShipCountry** 列のすぐ右にドロップします。
+
+![クリーンアップされたテーブル](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+
+## <a name="review-the-query-steps"></a>クエリのステップを確認する
+
+Power Query エディターでデータを整形して変換すると、Power Query エディターの右側にある **[クエリの設定]** ウィンドウの **[適用したステップ]** 領域に、各ステップが記録されています。 [適用したステップ] をさかのぼり、行った変更を正確に確認し、必要に応じて編集、削除、または再配置を行うことができます (ただし、前のステップを変更すると後のステップが動作しなくなる可能性があるため、危険な可能性があります)。 
+
+Power Query エディターの左側にある **[クエリ]** の一覧で各クエリを選び、**[クエリの設定]** で **[適用したステップ]** を確認します。 これまでのデータ変換を適用すると、2 つのクエリの [適用したステップ] は次のようになります。
+
+![製品クエリの適用したステップ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png) &nbsp;&nbsp; ![注文クエリの適用したステップ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+
+>[!TIP]
+>[適用したステップ] の基礎は、**M** 言語とも呼ばれる **Power Query 言語**で記述された数式です。 数式を表示および編集するには、リボンの [ホーム] タブの **[クエリ]** グループで **[詳細エディター]** を選択します。 
+
+## <a name="import-the-transformed-queries"></a>変換されたクエリをインポートする
+
+変換したデータに問題がなければ、**[ホーム]** リボン タブの **[閉じる]** グループで **[閉じて適用]** > **[閉じて適用]** の順に選び、Power BI Desktop のレポート ビューにデータをインポートします。 
+
+![閉じて適用](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+
+データが読み込まれると、Power BI Desktop のレポート ビューの **[フィールド]** 一覧にクエリが表示されます。
+
+![[フィールド] 一覧のクエリ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+
+## <a name="manage-the-relationship-between-the-datasets"></a>データセット間のリレーションシップを管理する
+
+Power BI Desktop では、レポート作成のためにクエリを結合する必要はありません。 ただし、共通に存在するフィールドに基づくデータセット間のリレーションシップを使うと、レポートを拡張して充実させることができます。 Power BI Desktop でリレーションシップを自動的に検出できます。または、Power BI Desktop の **[リレーションシップの管理]** ダイアログで作成することもできます。 Power BI Desktop でのリレーションシップについて詳しくは、「[Power BI Desktop でのリレーションシップの作成と管理](desktop-create-and-manage-relationships.md)」をご覧ください。
+
+このチュートリアルの Orders データセットと Products データセットには共通の *ProductID* フィールドがあるので、これらの間にはその列に基づくリレーションシップがあります。 
+
+1. Power BI Desktop のレポート ビューで、**[ホーム]** リボン タブの **[リレーションシップ]** 領域の **[リレーションシップの管理]** を選びます。
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
-4. **[新規...]** ボタンを 選択します。
+   ![[リレーションシップの管理] リボン](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
-5. リレーションシップを作成しようとしましたが、既に 1 つ存在していることがわかりました。 **[リレーションシップの作成]** ダイアログで (列に影が付けられて) 示されているように、各クエリ内の **ProductsID** フィールドには既にリレーションシップが確立されています。
+2. **[リレーションシップの管理]** ダイアログでは、Power BI Desktop によって Products テーブルと Orders テーブルの間のアクティブなリレーションシップが既に検出されて一覧に表示されていることに注意してください。 リレーションシップを表示するには、**[編集]** を選びます。 
    
-    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
-6. **[キャンセル]**を選択してから、Power BI Desktop の **リレーションシップ** ビューを選択します。
+   ![[リレーションシップの管理] ダイアログ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
-7. 次のように表示され、クエリ間にリレーションシップがあることを確認できます。
+   **[リレーションシップの編集]** ダイアログが開き、リレーションシップに関する詳細が示されます。  
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
-8. クエリにつながっている線の矢印をダブルクリックすると、 **[リレーションシップの編集]** ダイアログが表示されます。
+   ![[リレーションシップの編集] ダイアログ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
-9. 変更を加える必要はないため、 **[キャンセル]** を選択して、 **[リレーションシップの編集]** ダイアログを閉じます。
+3. Power BI Desktop はリレーションシップを正しく自動検出しているので、**[キャンセル]**、**[閉じる]** の順に選んでリレーションシップ ダイアログを終了できます。
 
-## <a name="task-4-build-visuals-using-your-data"></a>タスク 4: データをビジュアル化する
-Power BI Desktop を使用すると、データから洞察を得るためにさまざまな視覚エフェクトを作成できます。 複数のページで構成されるレポートを作成し、各ページに複数のビジュアルを含めることができます。 そうした視覚エフェクトと対話して、データの分析や把握に役立てることができます。 レポートの編集に関する詳細については、「[レポートの編集](service-interact-with-a-report-in-editing-view.md)」をご覧ください。
+Power BI Desktop ウィンドウの左側で **[リレーションシップ]** ビューを選んで、クエリ間のリレーションシップを表示および管理することもできます。 2 つのクエリを接続する線の矢印をダブルクリックして **[リレーションシップの編集]** ダイアログを開き、リレーションシップを表示または変更します。 
 
-このタスクでは、既に読み込んだデータに基づいてレポートを作成します。 [フィールド] ウィンドウを使用して、視覚エフェクトを作成する列を選択します。
+![リレーションシップ ビュー](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
 
-### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>手順 1: 製品ごとの在庫数および年ごとの売上合計を示すグラフを作成する
-[フィールド] ウィンドウ (画面の右側にあるウィンドウ) からキャンバス上の空白領域まで **UnitsInStock** をドラッグします。 テーブルの視覚エフェクトが作成されます。 次に、[視覚化] ウィンドウの下半分にある [軸] ボックスまで ProductName をドラッグします。 その後、視覚エフェクトの右上隅にある記号から **[並べ替え] \> [UnitsInStock]** を選択します。
+リレーションシップ ビューからレポート ビューに戻るには、**[レポートの表示]** アイコンを選びます。 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+![レポート ビュー](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
 
-**OrderDate** をキャンバスの最初のグラフの下までドラッグし、さらに LineTotal を (再度 [フィールド] ウィンドウから) ビジュアル上にドラッグしてから、[折れ線グラフ] を選択します。 次の視覚エフェクトが作成されます。
+## <a name="create-visualizations-using-your-data"></a>データを使って視覚エフェクトを作成する
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png)
+Power BI Desktop のレポート ビューでは、データから分析情報を得るためにさまざまな視覚エフェクトを作成できます。 複数のページで構成されるレポートを作成し、各ページに複数のビジュアルを含めることができます。 そうした視覚エフェクトと対話して、データの分析や把握に役立てることができます。 Power BI サービス (お使いのサイト) でのレポートの表示と編集について詳しくは、[レポートの編集](service-interact-with-a-report-in-editing-view.md)に関する記事をご覧ください。
 
- 次に、**ShipCountry** を右上にあるキャンバス上の空白部分にドラッグします。 地理的なフィールドを選択したので、自動的にマップが作成されました。 ここで、**LineTotal** を **[値]** フィールドまでドラッグします。各国のマップ上の円のサイズが、その国に出荷された注文の **LineTotal** に合わせて調整されます。
+両方のデータセットおよびそれらの間のリレーションシップを使うと、売上データの視覚化と分析に役立ちます。 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+最初に、両方のクエリからのフィールドを使う積み上げ縦棒グラフを作成し、各製品の注文数量を示します。 
 
-### <a name="step-2-interact-with-your-report-visuals-to-analyze-further"></a>手順 2: レポートのビジュアルと対話を行い、さらに分析する
-Power BI Desktop を使用すると、相互に強調表示したり、フィルター処理したりすることによってビジュアルと対話して、さらに傾向を明らかにすることができます。 詳細については、「[レポートにおけるフィルター処理と強調表示](power-bi-reports-filters-and-highlighting.md)」をご覧ください。
-
-1. **Canad****a** の中心にある水色の円をクリックします。 他のビジュアルがフィルター処理され、カナダの在庫 (**ShipCountry**) と注文合計数 (**LineTotal**) だけが表示されていることに注目してください。
+1. 右側の **[フィールド]** ウィンドウで **Orders** の **Quantity** フィールドを選ぶか、フィールドをキャンバスの空白の領域にドラッグします。 これにより、製品の合計注文数量を示す積み上げ縦棒グラフが作成されます。 
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+2. **[フィールド]** ウィンドウで **Products** の **ProductName** を選ぶか、フィールドをグラフにドラッグして、各製品の注文数量を表示します。 
+   
+3. 注文の多い順に製品を並べ替えるには、視覚エフェクトの右上にある **[その他のオプション]** の省略記号 **[...]** を選び、**[Quantity で並べ替え]** を選びます。
+   
+4. グラフの隅にあるハンドルを使ってグラフを拡大し、より多くの製品名が表示されるようにします。 
+   
+   ![ProductName 別数量の横棒グラフ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/19.png)
 
-## <a name="complete-sales-analysis-report"></a>完成した売上分析レポート
-これらすべての手順を実行すると、Products.xlsx ファイルと Northwind OData フィードのデータを結合させた売上レポートが完成します。 このレポートには、さまざまな国の売上情報の分析に役立つビジュアルが示されています。 このチュートリアルの完成した Power BI Desktop ファイルは[ここ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Sales_Data.pbix)からダウンロードできます。
+次に、時間の経過 (**OrderDate**) に伴う注文の金額 (**LineTotal**) を示すグラフを作成します。 
+
+1. キャンバスで何も選択されていない状態で、**[フィールド]** ウィンドウの **Orders** から **LineTotal** を選ぶか、キャンバスの空白領域にドラッグします。 積み上げ縦棒グラフに、すべての注文の合計金額が表示されます。 
+   
+2. グラフを選び、**Orders** から **OrderDate** を選ぶか、グラフにドラッグします。 グラフに各注文日の明細合計が表示されるようになります。 
+   
+3. 視覚エフェクトの隅をドラッグしてサイズを変更し、表示されるデータを増やします。 
+   
+   ![OrderDate 別 LineTotals の折れ線グラフ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/20.png)
+   
+   >[!TIP]
+   >グラフに Years のみが表示される場合は (3 つのデータ ポイントだけ)、**[視覚化]** ウィンドウの **[軸]** フィールドで **OrderDate** の横にある矢印をドロップダウンし、**[日付の階層]** の代わりに **OrderDate** を選びます。 
+
+最後に、各国の注文金額を示すマップ視覚エフェクトを作成します。 
+
+1. キャンバスで何も選択されていない状態で、**[フィールド]** ウィンドウの **Orders** から **ShipCountry** を選ぶか、キャンバスの空白領域にドラッグします。 Power BI Desktop によってデータが国名であることが検出され、注文があった各国のデータ ポイントを含むマップ視覚エフェクトが自動的に作成されます。 
+   
+2. 各国の注文金額をデータ ポイントのサイズに反映させるには、**LineTotal** フィールドをマップにドラッグします (または、**[視覚化]** ウィンドウの下半分にある **[サイズ]** の **[ここにデータ フィールドをドラッグしてください]** にドラッグします)。 マップ上の円のサイズが、各国からの注文の金額を反映するようになります。 
+   
+   ![ShipCountry 別 LineTotals のマップ視覚エフェクト](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/21.png)
+
+## <a name="interact-with-your-report-visuals-to-analyze-further"></a>レポートのビジュアルと対話してさらに分析する
+
+Power BI Desktop を使うと、相互に強調表示したり、フィルター処理したりすることによってビジュアルと対話して、さらに傾向を明らかにすることができます。 詳しくは、[レポートにおけるフィルター処理と強調表示](power-bi-reports-filters-and-highlighting.md)に関する記事をご覧ください。 
+
+クエリ間のリレーションシップのため、ある視覚エフェクトと対話すると、そのページ上の他のすべての視覚エフェクトに反映されます。 
+
+マップ視覚エフェクトで、**カナダ**の中央にある円を選びます。 他の 2 つの視覚エフェクトがフィルター処理されて、カナダの明細金額と注文数量だけが強調表示されることに注意してください。
+
+![カナダについてフィルター処理された売上データ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/22.png)
+
+**Quantity by ProductName** グラフで製品の 1 つを選ぶと、マップと日付グラフがその製品のデータを反映するようにフィルター処理され、**LineTotal by OrderDate** グラフで日付の 1 つを選ぶと、マップと製品グラフがその日付のデータを表示するようにフィルター処理されます。 
+>[!TIP]
+>選択を解除するには、再びクリックするか、他の視覚エフェクトのいずれかをクリックします。 
+
+## <a name="complete-the-sales-analysis-report"></a>完成した売上分析レポート
+
+完成したレポートでは、Products.xlsx Excel ファイルと Northwind OData フィードからのデータが、異なる国、期間、および製品の注文情報を分析するのに役立つビジュアルに結合されています。 レポートの準備ができたら、[それを Power BI サービスにアップロード](desktop-upload-desktop-files.md)して、他の Power BI ユーザーと共有できます。
 
 ## <a name="next-steps"></a>次の手順
 * [他の Power BI Desktop のチュートリアルを読む](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Power BI Desktop のビデオを見る](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI フォーラムにアクセスする](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI ブログを読む](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-

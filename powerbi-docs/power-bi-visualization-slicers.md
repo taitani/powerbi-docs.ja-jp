@@ -1,6 +1,6 @@
 ---
-title: Power BI のスライサー (チュートリアル)
-description: 'チュートリアル: Power BI のスライサー'
+title: Power BI のスライサー
+description: Power BI のスライサー
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,18 +19,19 @@ ms.workload: powerbi
 ms.date: 03/05/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 30f548e73dd9f3c4fb93f048dec0c46eee3845ca
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 223b408186f445791a95ead30c04efe7b59888bf
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813463"
 ---
-# <a name="slicers-in-power-bi-tutorial"></a>Power BI のスライサー (チュートリアル)
+# <a name="slicers-in-power-bi"></a>Power BI のスライサー
 レポートを見る人が売り上げ全体の指標を調べることができるだけでなく、個々の地域マネージャーや異なる期間の実績に注目することもできるようにしたい場合があります。 個別レポートや比較グラフを作成してもかまいませんが、スライサーを使用することもできます。 スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。 
 
 このチュートリアルでは、無料の[小売りの分析のサンプル](sample-retail-analysis.md)を使って、リスト スライサーと日付範囲スライサーを作成、書式設定、使用する手順について説明します。 スライサーを書式設定して使用する方法がわかります。 
 
-![スライサー](media/power-bi-visualization-slicers/slicer2.gif)
+![slicer](media/power-bi-visualization-slicers/slicer2.gif)
 
 ## <a name="when-to-use-a-slicer"></a>スライサーを使用する場合
 スライサーは、次のような場合に最適です。

@@ -1,36 +1,29 @@
 ---
-title: "パート 2、Power BI レポートへの視覚化の追加 (チュートリアル)"
-description: "チュートリアル: パート 2、Power BI レポートへの視覚化の追加"
-services: powerbi
-documentationcenter: 
+title: パート 2、Power BI レポートへの視覚化の追加
+description: パート 2、Power BI レポートへの視覚化の追加
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c3f98635d188aa1857be9c8d8e36dc296339ad7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34292227"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>パート 2、Power BI レポートへの視覚化の追加 (チュートリアル)
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>パート 2、Power BI レポートへの視覚化の追加
 [パート 1](power-bi-report-add-visualizations-ii.md) では、フィールド名の横にあるチェックボックスを選んで、基本的な視覚化を作成しました。  パート 2 では、ドラッグ アンド ドロップを使用し、 **[フィールド]** ウィンドウと **[視覚化]** をウィンドウを最大限活用して、視覚化を作成および変更する方法について説明します。
 
 ### <a name="prerequisites"></a>前提条件
 - [パート 1](power-bi-report-add-visualizations-ii.md)
 - Power BI サービス - 視覚エフェクトは、Power BI サービスまたは Power BI Desktop を使ってレポートに追加できます。 このチュートリアルでは Power BI サービスを使用します。 
-- 小売の分析のサンプル
+- 小売りの分析のサンプル
 
 ## <a name="create-a-new-visualization"></a>視覚化の新規作成
 このチュートリアルでは、小売りの分析のデータセットを詳しく調べ、いくつかの主要な視覚化を作成します。

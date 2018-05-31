@@ -1,75 +1,96 @@
 ---
-title: "iOS アプリの Q&A 仮想アナリストで質問する - Power BI"
-description: "このチュートリアルでは、iOS デバイスの Power BI モバイル アプリで Q&A 仮想アナリストを使用して、自分の言葉でこのサンプル データについて質問してみます。"
+title: iOS アプリの Q&A 仮想アナリスト - Power BI
+description: iOS デバイス上の Power BI モバイル アプリで Q&A 仮想アナリストを使用して、自分の言葉でサンプル データについて質問します。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
+ms.component: powerbi-mobile
 ms.devlang: NA
-ms.topic: article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 531d067566a03289f0806d21309e9db7cfb837b1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812175"
 ---
-# <a name="ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS アプリの Q&A 仮想アナリストでデータについて質問する - Power BI
+# <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS アプリの Q&A 仮想アナリスト - Power BI
+
+データについて学習する最も簡単な方法は、自分の言葉でデータについて質問することです。 この記事では、iPad、iPhone、iPod Touch で Microsoft Power BI モバイル アプリの Q&A 仮想アナリストを使用して、サンプル データについて質問したり、おすすめのインサイトを見たりします。 
+
 適用対象:
 
 | ![iPhone](media/mobile-apps-ios-qna/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-ios-qna/ipad-logo-50-px.png) |
 |:--- |:--- |
 | iPhone |iPad |
 
-データについて学習する最も簡単な方法は、自分の言葉でデータについて質問することです。 このチュートリアルでは、Q&A 仮想アナリストを使用して、サンプル データについて質問したり、おすすめのインサイトを見たりします。
+Q&A 仮想アナリストは、Power BI サービスの基になる Q&A データにアクセスする対話型の BI エクスペリエンスです [(https://powerbi.com)](https://powerbi.com)。 それはデータの分析情報を示します。質問は、キー入力することも、音声入力することもできます。
 
 ![上位売上に関する Q&A 仮想アナリスト](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
-iPad、iPhone、および iPod Touch の Microsoft Power BI モバイル アプリでは、Q&A 仮想アナリストは、iOS の以前のバージョンの Q&A を拡張した会話型の BI エクスペリエンスです。 Q&A 仮想アナリストでは引き続き、Power BI サービス [(https://powerbi.com)](https://powerbi.com) の基礎となる Q&A データにアクセスします。 入力または音声による質問も引き続き可能であり、コンテキストでデータを洞察することもできます。
+Power BI にサインアップしていない場合は、[無料の試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
 
-## <a name="download-the-samples"></a>サンプルをダウンロードする
-チュートリアルの最初の手順では、Power BI サービスの小売りの分析サンプルと営業案件の分析サンプルをダウンロードします。
+## <a name="prerequisites"></a>前提条件
 
-* Power BI サービス ([https://powerbi.com](https://powerbi.com)) のワークスペースで:
+### <a name="install-the-power-bi-for-ios-app"></a>Power BI for iOS アプリのインストール
+Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone アプリをダウンロード")します。
 
-  * **[データの取得]** > **[サンプル]** > **[営業案件の分析のサンプル]** > **[接続]** を選びます。
-  * 営業案件の分析のサンプルのダウンロードが終わったら、**[データの取得]** > **[サンプル]** > **[小売りの分析のサンプル]** > **[接続]** を選びます。
+次のバージョンが Power BI for iOS アプリをサポートしています。
+- iOS 10 以降の iPad。
+- iOS 10 以降の iPhone 5 以上。 
+- iOS 10 以降の iPod Touch。
 
-## <a name="try-featured-insights"></a>おすすめのインサイトを試す
-1. iPhone または iPad で Power BI アプリを開き、営業案件の分析のサンプルのダッシュボードに移動します。
-2. Q&A 仮想アナリスト アイコンをタップします。 ![Q&A 仮想アナリスト アイコン](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) をタップします。
+### <a name="download-samples"></a>サンプルをダウンロードする
+最初の手順は、Power BI サービスの小売りの分析のサンプルと営業案件の分析のサンプルをダウンロードすることです。
 
-     ![営業案件の分析のサンプルのダッシュボード](media/mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
+**小売りの分析のサンプルを取得する**
 
-     Power BI の Q&A 仮想アナリストは、作業を開始するいくつかの候補を提供します。
+1. Power BI サービス (app.powerbi.com) を開いてサインインします。
 
-     ![おすすめのインサイト ボタン](media/mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
-3. **[featured insights]\(おすすめのインサイト\)** をタップします。
+2. 左側のナビゲーション ウィンドウで、**[ワークスペース]**、**[マイ ワークスペース]** の順に選択します。
 
-     Q&A 仮想アナリストがいくつかインサイトを提案します。
-4. 右にスクロールして、**[Insight 2]\(インサイト 2\)** をタップします。
+3. 左下隅にある **[データの取得]** を選択します。
+   
+    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
 
-    ![インサイト 2 ボタン](media/mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
+3. [データの取得] ページで、**[サンプル]** アイコンを選択します。
+   
+   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
 
-     Q&A 仮想アナリストがインサイト 2 を表示します。
+4. **[小売りの分析のサンプル]** を選択します。
+ 
+    ![小売りの分析のサンプル](media/mobile-apps-ios-qna/power-bi-rs.png)
+ 
+8. **[接続]** を選択します。  
+  
+   ![小売りの分析のサンプル](media/mobile-apps-ios-qna/retail16.png)
+   
+5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。
+   
+   ![小売りの分析のサンプル](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
-    ![インサイト 2](media/mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
-5. グラフをタップして、フォーカス モードで開きます。
+**営業案件の分析のサンプルを取得する**
 
-    ![フォーカス モードでのインサイト 2 のグラフ](media/mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
-6. 左上隅にある矢印をタップして、Q&A 仮想アナリスト エクスペリエンスに戻ります。
+- 小売りの分析サンプルと同じ手順を実行します。ただし、手順 4 では、**[営業案件の分析のサンプル]** を選択します。
+
+    ![小売りの分析のサンプル](media/mobile-apps-ios-qna/power-bi-oa.png)
+  
+これで、iOS デバイスでサンプルを表示する準備ができました。
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>iPhone または iPad で質問してみる
-1. iPhone または iPad で Power BI アプリを開き、[小売りの分析のサンプル] ダッシュボードに移動します。
+1. iPhone または iPad で、![グローバル ナビゲーション ボタン](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) > **[ワークスペース]** > **[マイ ワークスペース]** をタップします。[小売りの分析のサンプル] ダッシュボードが開きます。
+
 2. ページの下部 (iPad ではページの上部) にある操作メニューから、Q&A 仮想アナリスト アイコン![Q&A 仮想アナリスト アイコン](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)をタップします。
      Q&A 仮想アナリストにより、作業を開始するいくつかの候補が提供されます。
 3. 「**表示**」と入力し、候補リストから **[sales]\(販売\)** をタップして、**[送信]** ![[送信] アイコン](media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。

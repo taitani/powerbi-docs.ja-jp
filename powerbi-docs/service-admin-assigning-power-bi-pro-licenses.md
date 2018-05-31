@@ -1,104 +1,65 @@
 ---
-title: Power BI Pro ライセンスの割り当て
-description: Power BI Pro ライセンスの割り当て
-services: powerbi
-documentationcenter: ''
+title: 'クイックスタート: Office 365 でPower BI Pro ライセンスを割り当てる'
+description: Power BI Pro ライセンスを割り当てて、ユーザーが Power BI サービスのすべてのコンテンツと機能にアクセスできるようにする方法を説明します。
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/22/2018
+ms.component: powerbi-admin
+ms.topic: quickstart
+ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: cc22bfa635bb9d91624e6d4a5cdfe301d6478af6
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: cd4a849a010d4ece6cd91a220d617ac3098a77ea
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295378"
 ---
-# <a name="assigning-power-bi-pro-licenses"></a>Power BI Pro ライセンスの割り当て
+# <a name="quickstart-assign-power-bi-pro-licenses-in-office-365"></a>クイックスタート: Office 365 でPower BI Pro ライセンスを割り当てる
 
-管理者は、ユーザーに Power BI Pro ライセンスを割り当てる際に、さまざまな管理ポータルと PowerShell コマンドレットから選択することができます。 Power BI ライセンスの管理は、Azure Active Directory (Azure AD) でバックアップされています。
+Power BI Pro は、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可する個別のライセンスであり、他の Pro ユーザーとコンテンツを共有して共同で作業するための機能が含まれています。 Pro ユーザーだけが、アプリ ワークスペースに対するコンテンツの発行と使用、ダッシュボードの共有、ダッシュボードとレポートのサブスクライブを行うことができます。 この記事では、Office 365 で Power BI Pro ライセンスを割り当てる方法について説明します。 [Azure でライセンスを割り当てる](service-admin-assigning-power-bi-pro-licenses-azure.md)こともできます。
 
-* Azure サブスクリプションの所有者は、[Azure Portal](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0) で Azure Active Directory ブレードを使用することができます。 
 
-* グローバル管理者とユーザー アカウント管理者は、[Office 365 管理センター](https://portal.office.com/AdminPortal/Home#/homepage)を使用できます。
+## <a name="prerequisites"></a>前提条件
 
-## <a name="managing-power-bi-pro-licenses-in-the-azure-portal"></a>Azure Portal での Power BI Pro ライセンスの管理
+Office 365 で[**全体管理者**ロールまたは**ユーザー アカウント管理者**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) ロールのメンバーである必要があります。
 
-Power BI では、基本サービスとして Azure AD を使用します。 Azure AD には、ユーザーのアカウントとグループが格納され、購入済みの製品に関する情報など、他の設定も格納されます。
+開始する前に、[少なくとも 1 つのライセンスを購入する](service-admin-purchasing-power-bi-pro.md)必要があります。
 
-### <a name="assigning-licenses-to-individual-user-accounts"></a>個々のユーザー アカウントへのライセンスの割り当て
 
-Azure サブスクリプションの所有者である場合は、以下の手順に従って、個々のユーザー アカウントに Pro ライセンスを割り当てます。
 
-1. [Azure Portal](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0) に移動します。 
+## <a name="assign-licenses-to-individual-user-accounts"></a>個々のユーザー アカウントにライセンスを割り当てる
 
-2. 左側のナビゲーション バーで、Azure Active Directory をクリックします。
+次の手順に従って、個々のユーザー アカウントに Power BI Pro ライセンスを割り当てます。
 
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-01.png)
+1. [Office 365 管理センター](https://portal.office.com/adminportal/home#/homepage)を開きます。
 
-3. Azure Active Directory ブレードで、[ライセンス] をクリックします。
+2. 左側のナビゲーション ウィンドウで、**[ユーザー]** を展開し、**[アクティブ ユーザー]** を選択します。
 
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-02.png)
+    ![アクティブ ユーザー](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-05.png)
 
-4. [ライセンス] ブレードで、[すべての製品] をクリックしてから、[Power BI Pro] をクリックしてライセンス ユーザーのリストを表示します。
+3. ユーザーを選択し、**[製品ライセンス]** で **[編集]** を選択します。
 
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-03.png)
+    ![製品ライセンスの編集](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-06.png)
 
-5. [割り当て] をクリックして、Power BI Pro ライセンスを追加のユーザー アカウントに追加します。
+4. **[Power BI Pro]** で、設定を **[オン]** に切り替え、**[保存]** を選択します。
 
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-04.png)
+    ![製品ライセンスをオンにする](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-07.png)
 
-> [!NOTE]
-> ライセンスのほとんどの側面を管理できますが、Azure Portal で Power BI Pro ライセンスを購入することはできません。 Power BI Pro サブスクリプションを購入するには、Office 365 管理センターを使用します。 詳しくは、「[Power BI Pro を購入する](https://docs.microsoft.com/en-us/power-bi/service-admin-purchasing-power-bi-pro)」をご覧ください。
->
+5. 選択したアカウントの **[状態]** で、Power BI Pro ライセンスが正常に割り当てられていることを確認します。
 
-## <a name="managing-power-bi-pro-licenses-in-the-office-365-admin-center"></a>Office 365 管理センターでの Power BI Pro ライセンスの管理
+    ![ライセンスの状態の確認](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-08.png)
 
-グローバル管理者である場合は、Office 365 管理センターで、Power BI Pro サブスクリプションを購入し、組織用の関連するライセンスを管理します。
 
-Office 365 管理者である場合は、以下の手順に従って、個々のユーザー アカウントに Pro ライセンスを割り当てます。
-
-1. Office 365 管理センターに移動します。
-
-2. 左側のナビゲーション ウィンドウで、[ユーザー] を展開し、[アクティブ ユーザー] をクリックします。
-
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-05.png)
-
-3. 1 つまたは複数のユーザーを選択してから、製品ライセンスの [編集] をクリックします。
-
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-06.png)
-
-4. Power BI Pro で、設定をオンに切り替えてから [保存] をクリックします。
-
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-07.png)
-
-5. 選択したアカウントの [状態] で、Power BI Pro ライセンスが正常に割り当てられていることを確認します。
-
-    ![image](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-08.png)
-
-> [!NOTE]
-> サブスクリプションのライセンスがない場合は、左側のナビゲーション ウィンドウで [課金] を展開し、[サブスクリプション] をクリックして追加します。 [サブスクリプション] ページで、Power BI Pro のサブスクリプションを選択してから [ライセンスの追加/削除] をクリックします。
->
 
 ## <a name="next-steps"></a>次の手順
+
+ライセンスの割り当てが終わりました。Power BI Pro の詳細を確認してください。
+
 [組織内の Power BI Pro](service-admin-power-bi-pro-in-your-organization.md)
-</br>
-[Extended Pro Trial のアクティブ化](service-extended-pro-trial.md)
-</br>
-[個々のユーザーに対する Power BI サービス契約](https://powerbi.microsoft.com/terms-of-service/)
-</br>
-[Power BI Premium に関するお知らせ](https://aka.ms/pbipremium-announcement)
-</br>
+
 [サインインした Power BI ユーザーを見つける](service-admin-access-usage.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

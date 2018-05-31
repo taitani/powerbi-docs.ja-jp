@@ -1,30 +1,24 @@
 ---
-title: 'チュートリアル: Power BI での Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ'
-description: 'チュートリアル: Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ'
-services: powerbi
-documentationcenter: ''
+title: Power BI での Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ
+description: Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456136"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>チュートリアル: Analysis サービス表形式モデルを使用した動的な行レベルのセキュリティ
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
 このチュートリアルでは、**Analysis Services 表形式モデル**内に**行レベルのセキュリティ**を実装するために必要な手順と、Power BI レポートでのその使用方法を示します。 このチュートリアルの手順に従って、サンプル データセットを完了することで必要な手順を理解できるようになっています。
 
 このチュートリアルでは、以下の手順について詳しく説明します。これらは、Analysis Services 表形式モデルで動的な行レベル セキュリティを実装するために必要な操作を理解するのに役立ちます。
@@ -38,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 * レポートに基づいて新しいダッシュ ボードを作成し、最後に、
 * 同僚とダッシュボードを共有する
 
-このチュートリアルの手順に従うには、**AdventureworksDW2012** データベース (**[リポジトリ](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**からダウンロードできます) が必要です。
+このチュートリアルの手順に従うには、**AdventureworksDW2012** データベース (**[リポジトリ](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** からダウンロードできます) が必要です。
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>タスク 1: ユーザーのセキュリティ テーブルを作成し、データのリレーションシップを定義する
 **SQL Server Analysis Services (SSAS) 表形式**モデルを使用して行レベルの動的なセキュリティを定義する方法を説明する記事は多数あります。 サンプルについては、記事「[行フィルターを使用した動的なセキュリティの実装](https://msdn.microsoft.com/library/hh479759.aspx)」を参照してください。 以下の手順では、このチュートリアルの最初のタスクについて説明します。
@@ -88,7 +82,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>タスク 3: オンプレミス データ ゲートウェイ内のデータ ソースを追加する
 1. 表形式モデルをデプロイし、使用できるようになったら、Power BI ポータルでオンプレミスの Analysis Services 表形式サーバーへのデータ ソース接続を追加する必要があります。
-2. **Power BI サービス** がオンプレミスの分析サービスにアクセスできるようにするには、使用している環境で**[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)**をインストールして構成する必要があります。
+2. **Power BI サービス** がオンプレミスの分析サービスにアクセスできるようにするには、使用している環境で**[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)** をインストールして構成する必要があります。
 3. ゲートウェイを正しく構成したら、**Analysis Services** 表形式インスタンス用のデータ ソース接続を作成する必要があります。 この記事は、[Power BI ポータルでデータ ソースを追加する](service-gateway-enterprise-manage-ssas.md)場合に役立ちます。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)

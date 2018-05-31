@@ -15,14 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0901860a190e29489b9c940231607d9fc63109ab
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: f7d89fd6d6969c584fc016761bde6e9eb3a76028
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
+ms.locfileid: "33083531"
 ---
 # <a name="troubleshooting-tile-errors"></a>タイルのエラーのトラブルシューティング
 次に、タイルで発生する可能性がある一般的なエラーとその説明を示します。
@@ -58,7 +59,7 @@ ms.lasthandoff: 03/22/2018
 
 ビジュアルで、多数のデータに問い合わせが実行され、使用可能なリソースでは結果を完了できませんでした。 結果内のデータ量を減らすために、ビジュアルでフィルタリングしてください。
 
-**フィールド {0} を識別できませんでした。データセットに存在するフィールドでビジュアルを更新してください。**
+**フィールド {0} を識別できません。データセットに存在するフィールドでビジュアルを更新してください。**
 
 フィールドは削除されたか、名前変更された可能性があります。 ビジュアルから破損しているフィールドを削除し、別のフィールドを追加し、それを再度設定します。
 

@@ -1,16 +1,16 @@
 ---
-title: "Power BI の散布図 (チュートリアル)"
-description: "チュートリアル: Power BI の散布図"
+title: Power BI の散布図
+description: Power BI の散布図
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: PVcfPoVE3Ys
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: a3befe1e32aa86113433a4f891ddd46a253c8062
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813118"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI の散布図とバブル チャート (チュートリアル)
+# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI の散布図とバブル チャート
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
 
 バブル チャートは、データ ポイントをバブルに置き換えます。バブルの*サイズ*は、データの追加のディメンションを表します。
@@ -72,7 +73,7 @@ ms.lasthandoff: 03/02/2018
 
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png)
 
-4. **[District] \(地域)** を **[詳細]** から **[凡例]**にドラッグします。 これで、**Total Sales Variance %** を Y 軸に、**Sales Per Square Feet** を X 軸にプロットした散布図が作成されます。 データ ポイントの色は地区を表しています。
+4. **[District] \(地域)** を **[詳細]** から **[凡例]** にドラッグします。 これで、**Total Sales Variance %** を Y 軸に、**Sales Per Square Feet** を X 軸にプロットした散布図が作成されます。 データ ポイントの色は地区を表しています。
 
     ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
@@ -84,7 +85,7 @@ ms.lasthandoff: 03/02/2018
    
    ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 
-2. バブルの上にマウスを置きます。 バブルのサイズは、 **[This Year Sales]**の値を反映しています。
+2. バブルの上にマウスを置きます。 バブルのサイズは、 **[This Year Sales]** の値を反映しています。
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
@@ -120,7 +121,7 @@ ms.lasthandoff: 03/02/2018
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
 
-新しいフィールドを作成するには、[Power BI Desktop クエリ エディターを使ってデータセットにインデックス列を追加します](desktop-add-custom-column.md)。  その後、この列を視覚化の **[詳細]**領域に追加します。
+新しいフィールドを作成するには、[Power BI Desktop クエリ エディターを使ってデータセットにインデックス列を追加します](desktop-add-custom-column.md)。  その後、この列を視覚化の **[詳細]** 領域に追加します。
 
 ## <a name="next-steps"></a>次の手順
  [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)

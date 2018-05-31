@@ -15,25 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4bfdbaaa305f80195fd08155ecca744444495aeb
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1558f78f8f496814ac7745afe9b86f327ef7772b
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/09/2018
+ms.locfileid: "33923456"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
 
 データに接続するには、 **[ホーム]** リボンの **[データの取得]** を選択します。 下向きの矢印を選択するか、ボタン上の **[データの取得]** テキストを選択すると、次の画像に示されているように **[最も一般的]** なデータ型が記載されたメニューが表示されます。
 
-![](media/desktop-data-sources/data-sources_1.png)
+![Power BI Desktop でデータを取得する](media/desktop-data-sources/data-sources_01.png)
 
 **[その他]** を **[最も一般的]** メニューから選択すると、**[データの取得]** ウィンドウが表示されます。 **[データの取得]** ウィンドウを表示する場合 ( **[最も一般的]** メニューをバイパスします)、 **[データの取得]** **アイコン ボタン** を直接選択することもできます。
 
-![](media/desktop-data-sources/data-sources_2.png)
+![[データの取得] ボタン](media/desktop-data-sources/data-sources_02.png)
 
 > [!NOTE]
 > Power BI チームは **Power BI Desktop** や **Power BI サービス**で利用できるデータ ソースを継続的に拡張しています。 そのため、*ベータ*や*プレビュー*などのマークが付いた、未完成の早期バージョンのデータ ソースが頻繁に公開されています。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されています。運用環境では利用しないでください。
@@ -46,6 +47,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * すべて
 * ファイル
 * データベース
+* Power BI
 * Azure
 * オンライン サービス
 * その他
@@ -61,14 +63,9 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * フォルダー
 * SharePoint フォルダー
 
-次の図は、 **[ファイル]** の **[データの取得]**ウィンドウを示しています。
+次の図は、 **[ファイル]** の **[データの取得]** ウィンドウを示しています。
 
-![](media/desktop-data-sources/data-sources_3.png)
-
-> [!NOTE]
-> Power BI Desktop の以前のバージョンでは、**CSV** と**テキスト**は別々のデータ接続の種類でした。 これらのデータ コネクタは、**CSV/テキスト**にまとめられました。
-> 
-> 
+![[データの取得] > [ファイル]](media/desktop-data-sources/data-sources_03.png)
 
 **[データベース]** カテゴリには、次のデータ接続があります。
 
@@ -88,17 +85,27 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * SAP Business Warehouse メッセージ サーバー (Beta)
 * Amazon Redshift
 * Impala
-* Google BigQuery (ベータ版)
+* Google BigQuery
 * Snowflake
+* Exasol
 
 > [!NOTE]
 > 一部のデータベース コネクタの場合、有効にするためには、**[ファイル]、[オプションと設定]、[オプション]** の順に選択し、**[プレビュー機能]** を選択し、コネクタを有効にする必要があります。 前途コネクタの一部が表示されず、その中に使用したいコネクタも含まれている場合は、**[プレビュー機能]** を確認してください。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されていることにもご注意ください。運用環境では利用しないでください。
 > 
 > 
 
-次の図は、 **[データベース]** の **[データの取得]**ウィンドウを示しています。
+次の図は、 **[データベース]** の **[データの取得]** ウィンドウを示しています。
 
-![](media/desktop-data-sources/data-sources_4.png)
+![[データの取得] > [データベース]](media/desktop-data-sources/data-sources_04.png)
+
+**[Power BI]** カテゴリには、次のデータ接続があります。
+
+* Power BI データ セット
+* Power BI データプール (Beta)
+
+次の図は、**[Power BI]** の **[データの取得]** ウィンドウを示しています。
+
+![[データの取得] > [Power BI]](media/desktop-data-sources/data-sources_05.png)
 
 **[Azure]** カテゴリには、次のデータ接続があります。
 
@@ -112,19 +119,20 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (Beta)
 * HDInsight 対話型クエリ (Beta)
+* Azure KustoDB (Beta)
 
-次の図は、 **[Azure]** の **[データの取得]**ウィンドウを示しています。
+次の図は、 **[Azure]** の **[データの取得]** ウィンドウを示しています。
 
-![](media/desktop-data-sources/data-sources_5.png)
+![[データの取得] > [Azure]](media/desktop-data-sources/data-sources_06.png)
 
 **[オンライン サービス]** カテゴリには、次のデータ接続があります。
 
-* Power BI サービス
 * SharePoint Online リスト
 * Microsoft Exchange Online
 * Dynamics 365 (オンライン)
 * Dynamics NAV (Beta)
-* Dynamics 365 for Financials (Beta)
+* Dynamics 365 Business Central
+* アプリ用 Common Data Service (Beta)
 * Common Data Service (Beta)
 * Microsoft Azure Consumption Insights (Beta)
 * Visual Studio Team Services (Beta)
@@ -153,15 +161,15 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
+* TeamDesk (Beta)
 
 次の図は、**[オンライン サービス]** の **[データの取得]** ウィンドウを示しています。
 
-![](media/desktop-data-sources/data-sources_6b.png)
+![[データの取得] > [オンライン サービス]](media/desktop-data-sources/data-sources_07.png)
 
 **[その他]** カテゴリには、次のデータ接続があります。
 
 * Vertica (Beta)
-* Kusto (Beta)
 * Web
 * SharePoint リスト
 * OData フィード
@@ -174,9 +182,9 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * OLE DB
 * 空のクエリ
 
-次の図は、 **[その他]** の **[データの取得]**ウィンドウを示しています。
+次の図は、 **[その他]** の **[データの取得]** ウィンドウを示しています。
 
-![](media/desktop-data-sources/data-sources_7a.png)
+![[データの取得] > [その他]](media/desktop-data-sources/data-sources_08.png)
 
 > [!NOTE]
 > 現時点では、Azure Active Directory を使用して保護されているカスタム データ ソースに接続することはできません。
@@ -184,17 +192,17 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 > 
 
 ## <a name="connecting-to-a-data-source"></a>データ ソースへの接続
-データ ソースに接続するには、 **[データの取得]** ウィンドウでデータ ソースを選択し、 **[接続]**を選びます。 次の図の場合、 **[その他]** データ接続カテゴリで **[Web]** が選択されています。
+データ ソースに接続するには、 **[データの取得]** ウィンドウでデータ ソースを選択し、 **[接続]** を選びます。 次の図の場合、 **[その他]** データ接続カテゴリで **[Web]** が選択されています。
 
-![](media/desktop-data-sources/data-sources_7b.png)
+![Web への接続](media/desktop-data-sources/data-sources_08a.png)
 
 対象のデータ接続に固有の接続ウィンドウが表示されます。 資格情報が必要な場合には、入力を求めるプロンプトが表示されます。 次の図には、Web データ ソースに接続するために URL を入力している様子が示されています。
 
-![](media/desktop-data-sources/datasources_fromwebbox.png)
+![Web URL を入力する](media/desktop-data-sources/datasources_fromwebbox.png)
 
-URL またはリソースの接続情報を入力したら、 **[OK]**を選択します。 Power BI Desktop はデータ ソースに接続し、 **[ナビゲーター]**に利用可能なデータ ソースが示されます。
+URL またはリソースの接続情報を入力したら、 **[OK]** を選択します。 Power BI Desktop はデータ ソースに接続し、 **[ナビゲーター]** に利用可能なデータ ソースが示されます。
 
-![](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![[ナビゲーター] 画面](media/desktop-data-sources/datasources_fromnavigatordialog.png)
 
 **[ナビゲーター]** ウィンドウの下部にある **[読み込み]** ボタンを選択してデータを読み込むか、 **[編集]** ボタンを選択してクエリを編集してからデータを読み込みます。
 

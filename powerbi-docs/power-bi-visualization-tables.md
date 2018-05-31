@@ -1,5 +1,5 @@
 ---
-title: Power BI のレポートとダッシュボードでのテーブルの視覚化 (チュートリアル)
+title: Power BI のレポートとダッシュボードでのテーブルの視覚化
 description: 列の幅の変更など、Power BI のレポートとダッシュボードでテーブルの視覚化を使うときのチュートリアルです。
 services: powerbi
 documentationcenter: ''
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 0f7084cf2e0ad4db88ad99bd969ada20ba40aa57
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812635"
 ---
-# <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Power BI のレポートとダッシュボードでのテーブルの使用 (チュートリアル)
+# <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードでのテーブルの操作
 テーブルは、関連性のあるデータが論理的な一連の行と列に格納されたグリッドです。 ヘッダーと合計行が含まれる場合もあります。 テーブルは、1 つのカテゴリの多くの値を調べるときの定量的な比較で役に立ちます。 たとえば、次の表には**カテゴリ**に対する 5 つの異なるメジャーが表示されています。
 
 ![](media/power-bi-visualization-tables/table.png)
@@ -43,7 +44,7 @@ ms.lasthandoff: 04/18/2018
 > 
 ## <a name="prerequisites"></a>前提条件
  - Power BI サービスまたは Power BI Desktop
- - 小売の分析のサンプル
+ - 小売りの分析のサンプル
 
 
 ## <a name="create-a-table"></a>テーブルを作成する

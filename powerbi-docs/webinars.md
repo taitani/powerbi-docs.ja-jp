@@ -1,27 +1,20 @@
 ---
 title: Power BI ウェビナー
 description: Power BI ウェビナー
-services: powerbi
-documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299288"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -31,17 +24,13 @@ ms.lasthandoff: 04/27/2018
 
 登録して Power BI の専門家の話を聞き、ライブ Q&A セッションに参加してください。
 
-**[Power BI 導入フレームワーク ウェビナー シリーズ](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
-<br>作成者: Manu Kanwarpal と Paul Henwood
-<br>*2018 年 3 月、4 月、5 月午前 9:00 PST、午後 12:00 EST*
+**Power BI と Visio で適切な分析情報を得る**
+<br>講師: Shakun Grover
+<br>*2018 年 5 月 22 日、午前 10 時 (太平洋標準時)、午後 1 時 (東部標準時)*
 
-組織に有効な Power BI のロールアウトを計画し、効果的なサービスとしてのソフトウェア (SaaS) の意味を探ります。 これは、組織の Power BI の潜在力を解放する 5 部構成シリーズの最初のものです。
+このウェビナーでは、Power BI のダッシュボードと Microsoft Visio の図を結合して、強力なビジュアル分析情報を作成する方法について説明します。 Visio と Power BI はビジュアル性が高く、自然に補完し合います。 Visio では、相互接続されたワークフローや実際のレイアウトなど、わかりやすい図を作成することができます。 Power BI は、グラフとマップを使って直感的なダッシュボードを作成し、主要業績評価指標を測定して目標を追跡するのに役立ちます。
 
-[5 月 1 日に視聴できるように登録する - 第 5 部 - ロールアウト: Power BI の上手なロールアウト](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
-<br>[登録して今すぐ見る - 第 4 部 - セキュリティ: Power BI を使ってデータをセキュリティで保護する](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[登録して今すぐ見る - 第 3 部 - サービス管理: Power BI サービス管理インサイト](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[登録して今すぐ見る - 第 2 部 - ガバナンス: Power BI 使用量の管理](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[登録して今すぐ見る - 第 1 部 - 導入: データドリブン カルチャの導入](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+[5 月 22 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Power BI Embedded を 20 分で学習する**
 <br>講師: Megan Asarrane、Colin Murphy
@@ -88,6 +77,10 @@ ms.lasthandoff: 04/27/2018
 **ビジュアル的にアピールする Power BI レポートをデザインする方法**
 <br>作成者: Charles Sterling
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**スプレッドシートを超える**
+<br>講師: Gohul Shanmugalingam
+<br>[登録して今すぐ見る](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **より優れたレポートに変換する**
 <br>作成者: Reid Havens
@@ -139,6 +132,14 @@ ms.lasthandoff: 04/27/2018
 <br>作成者: Nagasaikiran Kambhampati と Miguel Martinez
 <br>[登録して見る](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Advanced Analytics Starter Kit をダウンロードして使用する](https://aka.ms/pbiaawebinar)
+
+**[Power BI 導入フレームワーク ウェビナー シリーズ](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>作成者: Manu Kanwarpal と Paul Henwood
+<br>[登録して今すぐ見る - 第 1 部 - 導入: データドリブン カルチャの導入](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[登録して今すぐ見る - 第 2 部 - ガバナンス: Power BI 使用量の管理](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[登録して今すぐ見る - 第 3 部 - サービス管理: Power BI サービス管理インサイト](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[登録して今すぐ見る - 第 4 部 - セキュリティ: Power BI を使ってデータをセキュリティで保護する](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[今すぐ登録して視聴する - 第 5 部 - ロールアウト: Power BI の上手なロールアウト](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Office 365 金融専門家ウェビナー シリーズ**
 <br>講師: Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky、Miguel Martinez

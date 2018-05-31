@@ -1,27 +1,20 @@
 ---
 title: Power BI Embedded に関してよく寄せられる質問
 description: Power BI Embedded についてよく寄せられる質問とその回答の一覧です。
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289742"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -58,7 +51,7 @@ ISV (通常、大規模な ISV) が P SK を利用し、事前パッケージ済
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>埋め込みトークンはいくつ作成できますか?
 
-PRO ライセンスの埋め込みトークンは、開発と開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、生成できる埋め込みトークンの数には上限がありません。
+PRO ライセンスの埋め込みトークンは、開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、[容量を購入する](#technical)必要があります。 容量を購入する場合、生成できる埋め込みトークンの数には上限がありません。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、「[Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx)」(使用可能な機能の入手) をご覧ください。
 
 ## <a name="technical"></a>技術的な質問
 
@@ -164,10 +157,6 @@ Power BI Embedded では、埋め込みコンテンツの管理と検証に Powe
 
 Power BI Embedded は Azure の一部であるため、[Azure 登録時に受け取った $200 のクレジット](https://azure.microsoft.com/free/)でこのサービスを利用できます。
 
-### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Power BI マスター アカウントで生成できる埋め込みトークンの数に制限はありますか? 
-
-はい、これらの埋め込みトークンは開発テスト専用なので、制限されています。 運用環境で埋め込む場合、[容量を購入する](#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。 「[Get Available Features](https://msdn.microsoft.com/en-us/library/mt846473.aspx)」(使用可能な機能の入手) に移動して、使用されている無料埋め込みトークンの数を確認してください。
-
 ### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Power BI Embedded はソブリン クラウド (米国政府、ドイツ、中国) に利用できますか?
 
 Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-customers-sovereign-clouds.md)で利用できます。 中国クラウドではまだ利用**できません**。
@@ -176,9 +165,47 @@ Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-cu
 
 非営利団体や教育機関は Azure を購入できます。 Azure では、非営利団体や教育機関に特別料金は設定されていません。
 
+## <a name="power-bi-workspace-collection"></a>Power BI ワークスペース コレクション
+
+### <a name="what-is-power-bi-workspace-collection"></a>Power BI ワークスペース コレクションとは何ですか?
+
+**Power BI ワークスペース コレクション** (**Power BI Embedded** バージョン 1) は、**Power BI ワークスペース コレクション** Azure リソースに基づくソリューションです。 このソリューションを利用すると、**Power BI ワークスペース コレクション** ソリューションの下にある Power BI コンテンツ、専用 API、および Power BI に対してアプリケーションを認証するワークスペース コレクション キーを使って、顧客向けの **Power BI Embedded** アプリケーションを作成できます。
+
+### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI ワークスペース コレクションから Power BI Embedded に移行できますか?
+
+1. 移行ツールを使って、**Power BI ワークスペース コレクション**のコンテンツを Power BI に複製できます。https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration
+
+2. Power BI のコンテンツを使用する **Power BI Embedded** アプリケーション POC から始めます。
+
+3. 運用する準備ができたら、**Power BI Embedded** の専用容量を購入し、その容量に Power BI のコンテンツ (ワークスペース) を割り当てます。
+
+>[!Note]
+**Power BI Embedded** ソリューションを使って開発を行いながら、並行して **Power BI ワークスペース コレクション**を使い続けることができます。 準備ができたら、顧客を新しい **Power BI Embedded** ソリューションに移動し、**Power BI ワークスペース コレクション** ソリューションの使用を終了します。
+
+詳しくは、「[Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)」をご覧ください。
+
+### <a name="is-power-bi-workspace-collection-on-a-path-to-be-deprecated"></a>パス上の Power BI ワークスペース コレクションは非推奨になりますか?
+
+はい。ただし、**Power BI ワークスペース コレクション** ソリューションを既に使っているお客様は、非推奨になるまで引き続き使用できます。 お客様は、新しいワークスペース コレクション、および **Power BI ワークスペース コレクション** ソリューションをまだ使用する **Power BI Embedded** アプリケーションを作成することもできます。
+
+ただし、これは、**Power BI ワークスペース コレクション** ソリューションに新しい機能が追加されないこと、およびお客様には新しい **Power BI Embedded** ソリューションへの移行を計画するようお勧めすることを意味します。
+### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Power BI ワークスペース コレクションのサポートはいつ終了しますか?
+
+既に **Power BI ワークスペース コレクション** ソリューションを使っているお客様は、2018年 6 月末まで、またはサポート契約が終了するまで、引き続き使用できます。
+
+### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>PBI ワークスペース コレクションを作成できるリージョンはどこですか?
+
+使用できるリージョンは、オーストラリア南東部、ブラジル南部、カナダ中部、米国東部 2、東日本、米国中北部、北ヨーロッパ、米国中南部、東南アジア、英国南部、西ヨーロッパ、インド西部、米国西部です。
+
+### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>PBI ワークスペース コレクションから Power BI Embedded に移行しなければならないのはなぜですか?
+
+**Power BI ワークスペース コレクション**では使用できない新機能が、**Power BI Embedded** ソリューションに導入されています。
+
+次のような機能です。
+* すべての PBI データ ソースがサポートされますが、**Power BI ワークスペース コレクション** では 2 つのデータ ソースしかサポートされません。 
+* Q&A、更新、ブックマーク、ダッシュボードとタイルの埋め込み、カスタム メニューなどの新機能は、**Power BI Embedded** ソリューションでのみサポートされます。
+* 容量の課金モデル。
+
 詳しくは、「[埋め込みアプリケーションのトラブルシューティング](embedded-troubleshoot.md)」をご覧ください
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-
-
-

@@ -898,32 +898,14 @@
       items:
         - name: Power BI API の機能
           href: developer/overview-of-power-bi-rest-api.md
-        - name: よく寄せられる質問
-          href: developer/embedded-faq.md
         - name: Power BI のアクセス許可
           href: developer/power-bi-permissions.md
         - name: 行レベルのセキュリティ (RLS)
           href: developer/embedded-row-level-security.md
-        - name: 埋め込みに関する Q&A
-          href: developer/qanda.md
+        - name: よく寄せられる質問
+          href: developer/embedded-faq.md
     - name: 方法
       items:
-        - name: コンテンツを埋め込む方法
-          href: developer/embedding-content.md
-        - name: ダッシュボードにデータをプッシュする
-          href: developer/walkthrough-push-data.md
-        - name: Power BI Embedded を移行する方法
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: ダッシュボードをアプリに統合する (ユーザーがデータを所有)
-          href: developer/integrate-dashboard.md
-        - name: Power BI タイルをアプリに統合する (ユーザーがデータを所有)
-          href: developer/integrate-tile.md
-        - name: Power BI レポートをアプリに統合する (ユーザーがデータを所有)
-          href: developer/integrate-report.md
-        - name: コンテンツをアプリケーションに統合する (アプリがデータを所有)
-          href: developer/embed-sample-for-customers.md
-        - name: コンテンツをソブリン クラウド向けアプリケーションに統合する (アプリがデータを所有)
-          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: カスタム ビジュアルの作成
           items:
             - name: 開発者ツールでカスタム ビジュアルを作成する
@@ -938,6 +920,18 @@
           items:
             - name: Power BI で埋め込み
               href: developer/embedding.md
+            - name: コンテンツを埋め込む方法
+              href: developer/embedding-content.md
+            - name: ダッシュボードをアプリに統合する (ユーザーがデータを所有)
+              href: developer/integrate-dashboard.md
+            - name: Power BI タイルをアプリに統合する (ユーザーがデータを所有)
+              href: developer/integrate-tile.md
+            - name: Power BI レポートをアプリに統合する (ユーザーがデータを所有)
+              href: developer/integrate-report.md
+            - name: コンテンツをアプリケーションに統合する (アプリがデータを所有)
+              href: developer/embed-sample-for-customers.md
+            - name: コンテンツをソブリン クラウド向けアプリケーションに統合する (アプリがデータを所有)
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: カスタム レイアウトをアプリに埋め込む
               href: developer/embedded-custom-layout.md
             - name: Azure Active Directory テナントを作成する
@@ -946,14 +940,20 @@
               href: developer/register-app.md
             - name: Power BI サービスを認証する
               href: developer/get-azuread-access-token.md
+            - name: 埋め込みに関する Q&A
+              href: developer/qanda.md
+            - name: Power BI Embedded を移行する方法
+              href: developer/migrate-from-powerbi-embedded.md
             - name: Power BI Embedded 移行ツール
               href: developer/migrate-tool.md
             - name: 移行コード スニペット
               href: developer/migrate-code-snippets.md
             - name: 埋め込みアプリケーションのトラブルシューティング
               href: developer/embedded-troubleshoot.md
-        - name: ダッシュボードにデータをプッシュする
+        - name: データのプッシュ
           items:
+            - name: ダッシュボードにデータをプッシュする
+              href: developer/walkthrough-push-data.md
             - name: アプリを Azure AD に登録する
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: 認証アクセス トークンを取得する
@@ -990,6 +990,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: リソース
       items:
+        - name: 埋め込み用のオンボード エクスペリエンス ツール
+          href: 'https://aka.ms/embedsetup'
         - name: JavaScript のプレイグラウンド サンプル
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: サンプル

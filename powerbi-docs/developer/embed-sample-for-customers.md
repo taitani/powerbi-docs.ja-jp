@@ -1,329 +1,237 @@
 ---
 title: 顧客向けのアプリケーションに Power BI コンテンツを埋め込む
-description: Power BI API を使って、Web アプリに顧客向けのダッシュボード、タイル、またはレポートを統合する (埋め込む) 方法を説明します。
+description: Power BI API を使って、Web アプリに顧客向けのレポート、ダッシュボード、タイルを統合する (埋め込む) 方法を説明します。
 services: powerbi
-documentationcenter: ''
 author: markingmyname
-manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.date: 05/07/2018
+ms.topic: tutorial
+ms.service: powerbi
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 2d4fdee8d3e4cca60294acd0a9167da1f048afa5
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/11/2018
+ms.locfileid: "34051935"
 ---
-# <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Power BI のダッシュボード、タイル、レポートをアプリケーションに埋め込む
-顧客向けのダッシュボード、タイル、またはレポートを、Power BI .NET SDK と Power BI JavaScript API を使って Web アプリに統合する (埋め込む) 方法を説明します。 通常、これは ISV のシナリオです。
+# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>チュートリアル: 顧客向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
+**Azure の Power BI Embedded** を使うと、レポート、ダッシュボード、またはタイルをアプリケーションに埋め込んで、顧客とデータを共有することができます。 これは、通常、**アプリ所有データ**の構造を使用する **ISV 開発者**のシナリオです。 **アプリ所有データ**とは、顧客向けの Power BI コンテンツを埋め込むことを意味します。 たとえば、Power BI コンテンツのユーザーは、**Power BI** にログインする必要なしに、レポート、ダッシュボード、またはタイルを見ることができます。 このチュートリアルでは、**アプリ所有データ**を使用する顧客向けに **Azure の Power BI Embedded** を使用しているときに、**Power BI** .NET SDK と **Power BI** JavaScript API を使って、アプリケーションにレポートを統合または埋め込む方法を示します。
 
-![埋め込まれたダッシュボード](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
+このチュートリアルで学習する内容は次のとおりです。
+>[!div class="checklist"]
+>* Azure にアプリケーションを登録します。
+>* Azure の Power BI Embedded を使ってアプリケーションにレポート、ダッシュボード、またはタイルを埋め込みます。
 
-このチュートリアルを開始するには、**Power BI Pro** アカウントが必要です。 Power BI アカウントをお持ちでない場合、[Power BI アカウントに無料でサインアップ](../service-self-service-signup-for-power-bi.md)した後、[Power BI Pro 試用版](../service-self-service-signup-for-power-bi.md#in-service-power-bi-pro-60-day-trial)にサインアップできます。または、テスト目的で独自の [Azure Active Directory テナント](create-an-azure-active-directory-tenant.md)を作成できます。
+## <a name="prerequisites"></a>前提条件
+作業を始めるには、**Power BI Pro** アカウントと **Microsoft Azure** アカウントが必要です。
 
-> [!NOTE]
-> 代わりに組織向けのダッシュボードを埋め込む場合は、 「[ダッシュボードを組織のアプリに統合する](integrate-dashboard.md)」をご覧ください。
-> 
-> 
+* **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/en-us/pricing/)してください。
+* Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)してください。
+* 独自の [Azure Active Directory テナント](create-an-azure-active-directory-tenant.md)のセットアップが必要です。
+* [Visual Studio](https://www.visualstudio.com/) がインストールされている必要があります (バージョン 2013 以降)。
 
-ダッシュボードを Web アプリに統合するには、**Power BI** API、および Azure Active Directory (AD) 承認**アクセス トークン**を使って、ダッシュボードを取得します。 次に、埋め込んだトークンを使ってダッシュボードを読み込みます。 **Power BI** API は、特定の **Power BI** リソースへのプログラムによるアクセスを提供します。 詳細については、「[Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)」、「[Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp)」(Power BI の .NET SDK)、「[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)」(Power BI の JavaScript API) をご覧ください。
+## <a name="setup-your-embedded-analytics-development-environment"></a>埋め込み分析開発環境をセットアップする
 
-## <a name="download-the-sample"></a>サンプルをダウンロードする
-この記事では、GitHub の[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)で使われているコードを示します。 このチュートリアルの手順を試してみるには、サンプルをダウンロードできます。
+アプリケーションへのレポート、ダッシュボード、タイルの埋め込みを開始する前に、埋め込めるように環境がセットアップされていることを確認する必要があります。 セットアップの一環として、以下を行う必要があります。
 
-## <a name="step-1---register-an-app-in-azure-ad"></a>ステップ 1 - Azure AD にアプリを登録する
-REST API の呼び出しを行うには、Azure AD にアプリケーションを登録する必要があります。 詳しくは、「[Azure AD アプリを登録して Power BI コンテンツを埋め込む](register-app.md)」をご覧ください。
+### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure Active Directory (Azure AD) にアプリケーションを登録する
 
-[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をダウンロードした場合、サンプルが Azure AD に対して認証を実行できるように、登録した後で取得する**クライアント ID** を使います。 サンプルを構成するには、*web.config* ファイルの **clientId** を変更します。
+アプリケーションを Azure Active Directory に登録すると、アプリケーションは Power BI REST API にアクセスできるようになります。 これにより、アプリケーションの ID を設定し、Power BI REST リソースへのアクセス許可を指定することができます。
 
-## <a name="step-2---get-an-access-token-from-azure-ad"></a>ステップ 2 - Azure AD からアクセス トークンを取得する
-アプリケーションでは、Power BI REST API の呼び出しを行う前に、まず、Azure AD から**アクセス トークン**を取得する必要があります。 詳しくは、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。
+1. [Microsoft Power BI API 条項](https://powerbi.microsoft.com/api-terms)に同意します。
 
-**Controllers\HomeController.cs** 内の各コンテンツ アイテム タスクで、これの例を見ることができます。
+2. [Azure Portal ](https://portal.azure.com)にサインインします。
+ 
+    ![Azure Portal メイン](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-## <a name="step-3---get-a-content-item"></a>ステップ 3 - コンテンツ アイテムを取得する
-Power BI コンテンツを正しく埋め込むは、2 つのことを行う必要があります。 すべての手順は REST API で直接行うことができますが、サンプル アプリケーションおよびここの例は .NET SDK で行われています。
+3. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]**、**[新しいアプリケーションの登録]** の順に選びます。
+   
+    ![アプリの登録の検索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
+    ![新しいアプリの登録](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-### <a name="create-the-power-bi-client-with-your-access-token"></a>アクセス トークンを使って Power BI クライアントを作成する
-Power BI API と対話できる Power BI クライアント オブジェクトを、アクセス トークンで作成します。 そのためには、AccessToken を *Microsoft.Rest.TokenCredentials* オブジェクトでラップします。
+4. 画面の指示に従って、新しいアプリケーションを作成します。 アプリ所有データの場合、アプリケーションの種類には **[ネイティブ]** を使う必要があります。 また、**Azure AD** がトークンの応答を返すために使用する**リダイレクト URI** を指定する必要もあります。 アプリケーション固有の値を入力します (例: http://localhost:13526/redirect))。
 
-```
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Microsoft.Rest;
-using Microsoft.PowerBI.Api.V2;
+    ![アプリを作成する](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
-var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
+### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Azure Active Directory でアプリケーションにアクセス許可を適用する
 
-// Create a Power BI Client object. It will be used to call Power BI APIs.
-using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
-{
-    // Your code to embed items.
-}
-```
+アプリ登録ページで指定されたものに加え、アプリケーションに対する追加のアクセス許可を有効にする必要があります。 埋め込みに使った "*マスター*" アカウントでログインする必要があります。これは、グローバル管理者アカウントである必要があります。
 
-### <a name="get-the-content-item-you-want-to-embed"></a>埋め込むコンテンツ アイテムを取得する
-Power BI クライアント オブジェクトを使って、埋め込むアイテムへの参照を取得します。 ダッシュボード、タイル、またはレポートを埋め込むことができます。 指定したワークスペースから最初のダッシュボード、タイル、またはレポートを取得する方法の例を次に示します。
+### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory ポータルを使用する
 
-このサンプルは、「[App Owns Data sample](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)」(アプリ所有データ サンプル) の **Controllers\HomeController.cs** にあります。
+1. Azure Portal で [[アプリの登録]](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) を参照して、埋め込みに使うアプリを選びます。
+   
+    ![アプリの選択](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-**ダッシュボード**
+2. **[設定]** を選び、**[API アクセス]** で **[必要なアクセス許可]** を選びます。
+   
+    ![必要なアクセス許可](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+3. **[Windows Azure Active Directory]** を選択してから、**[サインインしたユーザーとしてディレクトリにアクセスします]** が選択されていることを確認します。 **[保存]** を選択します。
+   
+    ![Windows Azure AD のアクセス許可](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
 
-// You will need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+4. **[追加]** を選択します。
 
-// Get the first report in the group.
-Dashboard dashboard = dashboards.Value.FirstOrDefault();
-```
+    ![アクセス許可の追加](media/embed-sample-for-customers/embed-sample-for-customers-012.png)
 
-**タイル**
+5. **[API を選択します]** を選びます。
 
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+    ![API アクセスの追加](media/embed-sample-for-customers/embed-sample-for-customers-013.png)
 
-// To retrieve the tile, you first need to retrieve the dashboard.
+6. **[Power BI サービス]** を選んでから、**[選択]** を選びます。
 
-// You will need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+    ![PBI サービスの選択](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-// Get the first report in the group.
-Dashboard dashboard = dashboards.Value.FirstOrDefault();
+7. **[デリゲートされたアクセス許可]** のすべてのアクセス許可を選択します。 選択内容を保存するために 1 つずつ選択する必要があります。 完了したら、**[保存]** を選択します。
+   
+    ![デリゲートされたアクセス許可の選択](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
-// Get a list of tiles from a specific dashboard
-ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(GroupId, dashboard.Id);
+8. **[必要なアクセス許可]** 内で、**[アクセス許可の付与]** を選択します。
+   
+    "*マスター アカウント*" で Azure AD により同意を求めるプロンプトが表示されないようにするには、**[アクセス許可の付与]** アクションが必要です。 この操作を実行するアカウントがグローバル管理者である場合は、組織のすべてのユーザーにこのアプリケーションに対するアクセス許可を与えることになります。 このアクションを実行するアカウントが "*マスター アカウント*" であり、グローバル管理者ではない場合は、"*マスター アカウント*" にのみこのアプリケーションに対するアクセス許可を与えます。
+   
+    ![[必要なアクセス許可] ダイアログの [アクセス許可の付与]](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-// Get the first tile in the group.
-Tile tile = tiles.Value.FirstOrDefault();
-```
+### <a name="create-your-power-bi-embedded-dedicated-capacity-in-azure"></a>Azure で Power BI Embedded 専用の容量を作成する
 
-**レポート**
+1. [Azure Portal ](https://portal.azure.com)にサインインします。
 
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+    ![Azure Portal メイン](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-// You will need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+2. 左側のナビゲーション ウィンドウで、**[すべてのサービス]** を選び、**[Power BI Embedded]** を選びます。
 
-// Get the first report in the group.
-Report report = reports.Value.FirstOrDefault();
-```
+    ![PBIE の検索](media/embed-sample-for-customers/embed-sample-for-customers-017.png)
 
-### <a name="create-the-embed-token"></a>埋め込みトークンを作成する
-JavaScript API から使うことができる埋め込みトークンを生成する必要があります。 埋め込みトークンは、埋め込むアイテムに固有のものです。 つまり、Power BI コンテンツを埋め込むときは常に、そのための埋め込みトークンを新しく作成する必要があります。 使う **accessLevel** など詳しくは、「[GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)」をご覧ください。
-
-> [!IMPORTANT]
-> 埋め込みトークンは開発と開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。 「[Get Available Features](https://msdn.microsoft.com/en-us/library/mt846473.aspx)」(使用可能な機能の入手) に移動して、使用されている無料埋め込みトークンの数を確認してください。
+3. 画面の指示に従って、新しい **Power BI Embedded** 専用容量を作成するために必要な適切な情報を入力し、**[作成]** を選びます。 **[価格レベル]** を選ぶときは、次の表を参考にして、ニーズに最適なレベルを決めてください。 その後、**[作成]** を選び、リソースが完成するまで待ちます。
 
-このサンプルは、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)の **Controllers\HomeController.cs** にあります。
-
-ここでは **EmbedConfig** および **TileEmbedConfig** のクラスを作成するものとします。 これらのサンプルは、**Models\EmbedConfig.cs** および **Models\TileEmbedConfig.cs** にあります。
+    ![PBIE のセットアップ](media/embed-sample-for-customers/embed-sample-for-customers-018.png)
 
-**ダッシュボード**
-
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+| 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
+| --- | --- | --- | --- | --- | --- |
+| A1 |1 v コア |0.5 コア、3 GB の RAM |0.5 コア | 1 秒あたり 5 |1-300 |
+| A2 |2 v コア |1 コア、5 GB の RAM |1 コア | 1 秒あたり 10 |301-600 |
+| A3 |4 v コア |2 コア、10 GB の RAM |2 コア | 1 秒あたり 15 |601-1,200 |
+| A4 |8 v コア |4 コア、25 GB の RAM |4 コア |1 秒あたり 30 |1,201-2,400 |
+| A5 |16 v コア |8 コア、50 GB の RAM |8 コア |1 秒あたり 60 |2,401-4,800 |
+| A6 |32 v コア |16 コア、100 GB の RAM |16 コア |1 秒あたり 120 |4,801-9600 |
 
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(GroupId, dashboard.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = dashboard.EmbedUrl,
-    Id = dashboard.Id
-};
-```
+これで、新しい **Power BI Embedded 専用容量**が表示されるようになります。
 
-**タイル**
-
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+   ![PBIE 専用の容量](media/embed-sample-for-customers/embed-sample-for-customers-019.png)
 
-// Generate Embed Token for a tile.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(GroupId, dashboard.Id, tile.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new TileEmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = tile.EmbedUrl,
-    Id = tile.Id,
-    dashboardId = dashboard.Id
-};
-```
-
-**レポート**
-
-```
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = report.EmbedUrl,
-    Id = report.Id
-};
-```
-
-
-
-## <a name="step-4---load-an-item-using-javascript"></a>ステップ 4 - JavaScript を使ってアイテムを読み込む
-JavaScript を使用して、Web ページの div 要素にダッシュ ボードを読み込むことができます。 このサンプルでは、EmbedConfig/TileEmbedConfig モデルと、ダッシュボード、タイル、またはレポートのビューを使います。 JavaScript API の使用に関する完全なサンプルについては、「[Microsoft Power BI Embedded Sample](https://microsoft.github.io/PowerBI-JavaScript/demo)」(Microsoft Power BI Embedded のサンプル) をご覧ください。
-
-このアプリケーションのサンプルは、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)にあります。
-
-**Views\Home\EmbedDashboard.cshtml**
-
-```
-<script src="~/scripts/powerbi.js"></script>
-<div id="dashboardContainer"></div>
-<script>
-    // Read embed application token from Model
-    var accessToken = "@Model.EmbedToken.Token";
-
-    // Read embed URL from Model
-    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
-
-    // Read dashboard Id from Model
-    var embedDashboardId = "@Model.Id";
-
-    // Get models. models contains enums that can be used.
-    var models = window['powerbi-client'].models;
-
-    // Embed configuration used to describe the what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // This also includes settings and options such as filters.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'dashboard',
-        tokenType: models.TokenType.Embed,
-        accessToken: accessToken,
-        embedUrl: embedUrl,
-        id: embedDashboardId
-    };
-
-    // Get a reference to the embedded dashboard HTML element
-    var dashboardContainer = $('#dashboardContainer')[0];
-
-    // Embed the dashboard and display it within the div container.
-    var dashboard = powerbi.embed(dashboardContainer, config);
-</script>
-```
-
-**Views\Home\EmbedTile.cshtml**
-
-```
-<script src="~/scripts/powerbi.js"></script>
-<div id="tileContainer"></div>
-<script>
-    // Read embed application token from Model
-    var accessToken = "@Model.EmbedToken.Token";
-
-    // Read embed URL from Model
-    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
-
-    // Read tile Id from Model
-    var embedTileId = "@Model.Id";
-
-    // Read dashboard Id from Model
-    var embedDashboardeId = "@Model.dashboardId";
-
-    // Get models. models contains enums that can be used.
-    var models = window['powerbi-client'].models;
-
-    // Embed configuration used to describe the what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // This also includes settings and options such as filters.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'tile',
-        tokenType: models.TokenType.Embed,
-        accessToken: accessToken,
-        embedUrl: embedUrl,
-        id: embedTileId,
-        dashboardId: embedDashboardeId
-    };
-
-    // Get a reference to the embedded tile HTML element
-    var tileContainer = $('#tileContainer')[0];
-
-    // Embed the tile and display it within the div container.
-    var tile = powerbi.embed(tileContainer, config);
-</script>
-```
-
-**Views\Home\EmbedReport.cshtml**
-
-```
-<script src="~/scripts/powerbi.js"></script>
-<div id="reportContainer"></div>
-<script>
-    // Read embed application token from Model
-    var accessToken = "@Model.EmbedToken.Token";
-
-    // Read embed URL from Model
-    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
-
-    // Read report Id from Model
-    var embedReportId = "@Model.Id";
-
-    // Get models. models contains enums that can be used.
-    var models = window['powerbi-client'].models;
-
-    // Embed configuration used to describe the what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // This also includes settings and options such as filters.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'report',
-        tokenType: models.TokenType.Embed,
-        accessToken: accessToken,
-        embedUrl: embedUrl,
-        id: embedReportId,
-        permissions: models.Permissions.All,
-        settings: {
-            filterPaneEnabled: true,
-            navContentPaneEnabled: true
-        }
-    };
-
-    // Get a reference to the embedded report HTML element
-    var reportContainer = $('#reportContainer')[0];
-
-    // Embed the report and display it within the div container.
-    var report = powerbi.embed(reportContainer, config);
-</script>
-```
-
-## <a name="next-steps"></a>次の手順
-GitHub でサンプル アプリケーションを入手して確認できます。 上の例はそのサンプルに基づいています。 詳細については、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をご覧ください。
-
-JavaScript API の詳細については、「[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)」(Power BI の JavaScript API) をご覧ください。
-
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+## <a name="setup-your-power-bi-environment"></a>Power BI の環境を設定する
 
+### <a name="create-an-app-workspace"></a>アプリ ワークスペースを作成する
+
+顧客向けのレポート、ダッシュボード、またはタイルを埋め込む場合は、コンテンツをアプリ ワークスペース内に配置する必要があります。 "*マスター*" アカウントは、アプリ ワークスペースの管理者である必要があります。
+
+1. 最初に、ワークスペースを作成します。 **[ワークスペース]**  > **[アプリのワークスペースの作成]** の順に選びます。 この場所に、アプリケーションでアクセスする必要のあるコンテンツを配置します。
+
+    ![ワークスペースの作成](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
+
+2. ワークスペースの名前を付けます。 対応する**ワークスペース ID** が使用できない場合は、一意の ID になるように編集します。 これはアプリの名前にもなります。
+
+    ![ワークスペース名の指定](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
+
+3. 設定にはいくつかのオプションがあります。 **[パブリック]** を選択すると、組織内のすべてのユーザーがワークスペースの内容を表示できます。 一方、**[プライベート]** の場合、ワークスペースのメンバーしかその内容を表示できません。
+
+    ![プライベート/パブリック](media/embed-sample-for-customers/embed-sample-for-customers-022.png)
+
+    グループを作成した後は、公開/非公開を変更することはできません。
+
+4. メンバーが**編集**可能かどうか、**表示専用**のアクセス許可を持つかどうかも選択できます。
+
+    ![メンバーの追加](media/embed-sample-for-customers/embed-sample-for-customers-023.png)
+
+5. ワークスペースへのアクセス許可を与えるユーザーの電子メール アドレスを追加して、**[追加]** を選択します。 追加できるのは個別ユーザーのみで、グループのエイリアスは追加できません。
+
+6. ユーザーごとにメンバーか管理者かを判断します。管理者は、他のメンバーの追加を含め、ワークスペース自体を編集できます。 メンバーは、表示専用のアクセス許可を持っていないかぎり、ワークスぺースのコンテンツを編集できます。 管理者とメンバーの両方がアプリを発行できます。
+
+7. **[詳細]** を展開し、**[専用の容量]** を有効にして、作成した **Power BI Embedded の専用容量**を選びます。 その後、**[保存]** を選びます。
+
+    ![メンバーの追加](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+
+新しいワークスペースを表示できるようになります。 Power BI でワークスペースが作成され、開きます。 メンバーであるワークスペースの一覧が表示されます。 管理者は、省略記号 (...) を選択すると、前の画面に戻って新しいメンバーの追加やアクセス許可の変更などの変更を加えることができます。
+
+   ![新しいワークスペース](media/embed-sample-for-customers/embed-sample-for-customers-025.png)
+
+### <a name="create-and-publish-your-reports"></a>レポートを作成して発行する
+
+Power BI Desktop を使用してレポートとデータセットを作成し、アプリ ワークスペースにこれらのレポートを発行できます。 レポートを発行するエンド ユーザーには、アプリ ワークスペースに発行するための Power BI Pro ライセンスが必要です。
+
+1. GitHub からサンプルの [Blog Demo](https://github.com/Microsoft/powerbi-desktop-samples) をダウンロードします。
+
+    ![レポートのサンプル](media/embed-sample-for-customers/embed-sample-for-customers-026-1.png)
+
+2. **Power BI Desktop** でサンプルの PBIX レポートを開きます
+
+   ![PBI デスクトップ レポート](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
+
+3. **アプリ ワークスペース**に発行します
+
+   ![PBI デスクトップ レポート](media/embed-sample-for-customers/embed-sample-for-customers-028.png)
+
+    Power BI サービスを使ってオンラインでレポートを表示できるようになります
+
+   ![PBI デスクトップ レポート](media/embed-sample-for-customers/embed-sample-for-customers-029.png)
+
+## <a name="embed-your-content"></a>コンテンツを埋め込む
+
+1. 最初に、GitHub から [App Owns Data サンプル](https://github.com/Microsoft/PowerBI-Developer-Samples)をダウンロードします。
+
+    ![App Owns Data アプリケーションのサンプル](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
+
+2. サンプル アプリケーションで Web.config ファイルを開きます。 アプリケーションを正常に実行するために入力する必要のあるフィールドが 5 つあります。 **clientID**、**groupId**、**reportId**、**pbiUsername**、**pbiPassword** です。
+
+      ![Web Config ファイル](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
+
+    * **clientId** には、**Azure** から**アプリケーション ID** を設定します。 **clientId** は、アクセス許可を要求しているアプリケーションをユーザーが一意に識別するために使われます。 **clientId** を取得するには、次の野手順のようにします。
+
+        1. [Azure Portal ](https://portal.azure.com)にサインインします。
+
+        ![Azure Portal メイン](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+
+        2. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選びます。
+
+        ![アプリの登録の検索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+        3. **clientId** を取得するアプリケーションを選びます。
+
+        ![アプリの選択](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+
+      4. **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **clientId** として使います。
+
+        ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)     
+
+    * **groupId** には、Power BI から**アプリ ワークスペースの GUID** を設定します。
+
+        ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+
+    * **reportId** には、Power BI から**レポートの GUID** を設定します。
+
+        ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)    
+
+    * **pbiUsername** には、マスター ユーザーの Power BI アカウントを設定します。
+    * **pbiPassword** には、マスター ユーザーの Power BI アカウントのパスワードを設定します。
+
+3. アプリケーションを実行します。
+
+    最初に、**Visual Studio** で **[実行]** を選びます。
+
+    ![アプリケーションの実行](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
+
+    次に、**[Embed Report]** を選びます。 テスト対象に選んだコンテンツ (レポート、ダッシュボード、タイル) に応じて、アプリケーションでそのオプションを選びます。
+
+    ![コンテンツの選択](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
+ 
+    サンプル アプリケーションでレポートを表示できるようになります。
+
+    ![アプリケーションの表示](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
+
+JavaScript API の使用に関する完全なサンプルについては、[Playground ツール](https://microsoft.github.io/PowerBI-JavaScript/demo)を使用できます。 このツールを使うと、さまざまな種類の Power BI Embedded のサンプルを簡単に再生できます。 また、JavaScript API について詳しくは、[PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) のページをご覧ください。
+
+Power BI Embedded についてさらに質問がある場合は、[FAQ](embedded-faq.md) のページをご覧ください。  アプリケーションでの Power Bi Embedded に関して問題が発生した場合は、[トラブルシューティング](embedded-troubleshoot.md)のページをご覧ください。
+
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。 

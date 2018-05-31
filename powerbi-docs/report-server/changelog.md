@@ -1,27 +1,20 @@
 ---
 title: Power BI Report Server の変更ログ
 description: この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295682"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -31,6 +24,24 @@ ms.lasthandoff: 04/16/2018
 
 ## <a name="march-2018"></a>2018 年 3 月
 - **Power BI Report Server**
+    - *バージョン 1.2.6690.34729 (ビルド 15.0.2.402)、リリース日: 2018 年 4 月 27 日*
+        - バグの修正
+            - SQL Server Reporting Services 2017 カタログの移行を可能にする
+            - Power BI レポート (PBIX)
+                - サーバーがカスタム認証を使用するように構成されているときに、レポートを更新できる
+                - レポートのプロパティを変更しても、データ ソースの資格情報がリセットされることはない
+            - ページ分割されたレポート (RDL)
+                - RDL 式の中で、`Lookup()`、または `LookupSet()` や `MultiLookup()` などの派生関数を使用しても `#Error` は発生しない
+                - リンク レポートの印刷時に、ターゲット レポートのページ サイズが使用される
+                - カスケード パラメーターを使用するリンク レポートに対してサブスクリプションを作成できる
+                - IE11 を使用している場合は、複数値パラメーターの既定値を変更できる
+                - データ ドリブン サブスクリプションの配信オプションを編集できる
+                - サブスクリプションの実行中にサブスクリプションを表示して編集できる
+                - データ ソースの資格情報の設定は、式に基づく接続文字列を削除しない
+            - KPI
+                - データの更新時に傾向線が更新される
+            - 一般的な安定性の向上
+
     - *バージョン 1.2.6660.39920 (ビルド 15.0.2.389)、リリース日: 2018 年 3 月 28 日*
         - バグの修正
             - Power BI レポート (PBIX) で、Power BI ビジュアルからデータのエクスポートが動作しない問題を修正しました
@@ -120,7 +131,7 @@ ms.lasthandoff: 04/16/2018
 
     - *ビルド 14.0.600.301、リリース日: 2017 年 7 月 11 日*
         - バグの修正
-            - {{UserId}} タグが、Power BI レポートでレポートを実行しているユーザーではなく、保存されている資格情報に解決されます
+            - `{{UserId}}` タグが、Power BI レポートでレポートを実行しているユーザーではなく、保存されている資格情報に解決されます
             - 一部の画像を Power BI レポート サーバー レポートでレンダリングできません
             - Power BI レポート サーバーで Power BI レポートの名前を変更できません
             - Power BI モバイル アプリケーションでカスタム ビジュアルを読み込むことができません (モバイル アプリを再インストールしてローカル キャッシュをクリアする必要があります)
@@ -136,7 +147,7 @@ ms.lasthandoff: 04/16/2018
 
 [ユーザー向けハンドブック](user-handbook-overview.md)  
 [管理者向けハンドブック](admin-handbook-overview.md)  
-[クイックスタート: Power BI レポート サーバーをインストールする](quickstart-install-report-server.md)  
+[Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
 
