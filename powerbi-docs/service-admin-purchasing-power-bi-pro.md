@@ -1,95 +1,77 @@
 ---
-title: Power BI Pro を購入する
-description: Power BI Pro は、レポートの公開、ダッシュボードの共有、ワークスペースでの仕事仲間と共同作業、およびその他の関連アクティビティを行うユーザーを対象としています。
-services: powerbi
-documentationcenter: ''
+title: 'クイック スタート: Power BI Pro ライセンスを購入する'
+description: Power BI Pro ライセンスを購入して、ユーザーが Power BI サービスのすべてのコンテンツと機能にアクセスできるようにする方法を説明します。
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/22/2018
+ms.component: powerbi-admin
+ms.topic: quickstart
+ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c843125b875a2fe63dd24ab9b6346cda85456835
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 723b352657f0f89e591ef5c8614866d1ede59ae9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295171"
 ---
-# <a name="purchasing-power-bi-pro"></a>Power BI Pro を購入する
+# <a name="quickstart-purchase-power-bi-pro-licenses"></a>クイック スタート: Power BI Pro ライセンスを購入する
 
-Power BI Pro では、レポートの発行、ダッシュボードの共有、ワークスペースでの同僚とのコラボレーション、他の関連するアクティビティの実行が可能です。 組織が Power BI Pro から得られる利点の詳細については、「[組織内の Power BI Pro](service-admin-power-bi-pro-in-your-organization.md)」を参照してください。
+Power BI Pro は、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可する個別のライセンスであり、他の Pro ユーザーとコンテンツを共有して共同で作業するための機能が含まれています。 Pro ユーザーだけが、アプリ ワークスペースに対するコンテンツの発行と使用、ダッシュボードの共有、ダッシュボードとレポートのサブスクライブを行うことができます。 この記事では、Office 365 で Power BI Pro ライセンスを購入する方法について説明します。
 
-## <a name="purchasing-power-bi-pro-through-office-365-admin-center"></a>Office 365 管理センターからの Power BI Pro の購入
 
-Office IT 管理者は、Office 365 Enterprise E5 サブスクリプションの一部として、または個別の Power BI Pro サブスクリプションとして、Power BI Pro を購入できます。 その後、Power BI Pro ライセンスを適切なユーザーに割り当てることができます。 ライセンスを割り当てる方法の詳細については、「[一般法人向け Office 365 ライセンスをユーザーに割り当てる](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)」を参照してください。
+## <a name="prerequisites"></a>前提条件
 
-Office IT 管理者である場合は、以下の手順に従って Power BI Pro を購入します。
+Office 365 で[**全体管理者**ロールまたは**課金管理者**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) ロールのメンバーである必要があります。 
 
-1. [Office 365 管理センター](https://portal.office.com/adminportal/home#/homepage)に移動します。
-2. 左側のナビゲーション ウィンドウで、[課金] を選択してから [サブスクリプション] をクリックします。
+
+## <a name="purchase-power-bi-pro-licenses-through-office-365"></a>Office 365 で Power BI Pro ライセンスを購入する
+
+Power BI Pro ライセンスを購入するには、次の手順に従います。
+
+1. [Office 365 管理センター](https://portal.office.com/adminportal/home#/homepage)を開きます。
+
+2. 左側のナビゲーション ウィンドウで、**[課金]** > **[サブスクリプション]** を選択します。
 
     ![ナビゲーション ウィンドウ](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
 
-3. [サブスクリプション] ページの右上隅にある [サブスクリプションの追加] をクリックします。
+3. **[サブスクリプション]** ページの右上隅にある **[サブスクリプションの追加]** を選択します。
 
     ![サブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
 
 4. 次のようにして、目的のサブスクリプション サービスを見つけます。
 
-    [Enterprise Suite] で、Office 365 Enterprise E5 を選択します。
+    **[Enterprise Suite]** で、**[Office 365 Enterprise E5]** を選択します。
 
     ![Office E5 サブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-03.png)
 
-    [その他のプラン] で、Power BI Pro を選択します。
+    **[その他のプラン]** で、**[Power BI Pro]** を選択します。
 
-    ![PBI サブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
+    ![Power BI Pro のサブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. 目的のサブスクリプションの省略記号 (...) をポイントし、[今すぐ購入] を選択します。
+5. 目的のサブスクリプションの省略記号 (...) をポイントし、**[今すぐ購入]** を選択します。
 
     ![今すぐ購入する](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
-6. ご自分の状況に応じて、毎月支払うか、1 年分支払うかを選択できます。
-7. [ユーザーはいくつ必要ですか?] で、必要なライセンスの数を入力してから、[今すぐ支払う] または [カートに追加] をクリックしてトランザクションを完了します。
-8. [サブスクリプション] ページで取得したサブスクリプションがリストされていることを確認します。
+6. ご自分の状況に応じて、**毎月支払う**か、**1 年分支払う**かを選択します。
+
+7. **[ユーザーはいくつ必要ですか?]** に必要なライセンスの数を入力してから、**[今すぐ支払う]** を選択してトランザクションを完了します。
+
+8. **[サブスクリプション]** ページに取得したサブスクリプションがリストされていることを確認します。
 
    ![影響を受けるサブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-06.png)
 
-> [!NOTE]
-> ライセンスは、最初の購入後に追加することができます。 [サブスクリプション] ページから Power BI Pro のサブスクリプションを選択し、[ライセンスの追加/削除] をクリックします。
->
+9. 最初の購入後に、さらにライセンスを追加するには、**[サブスクリプション]** ページで **[Power BI Pro]** を選択した後、**[ライセンスの追加/削除]** を選択します。
 
-## <a name="pricing"></a>料金
-
-最新の料金については、[Power BI の料金](https://powerbi.microsoft.com/en-us/pricing/)に関するページを参照してください。
-
-> [!NOTE]
-> Pro ライセンスが割り当てられているユーザーには、サブスクリプションが終了してから 30 日間は完全なアクセス権があります。 この状態になると、管理ポータルのサブスクリプションには "期限切れ" と表示されます。
->
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のセルフサービス サインアップ](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)
-<br/>
-[組織内の Power BI (無料)](service-admin-service-free-in-your-organization.md)
-<br/>
-[組織内の Power BI Pro](service-admin-power-bi-pro-in-your-organization.md)
-<br/>
-[Extended Pro Trial のアクティブ化](service-extended-pro-trial.md)
-<br/>
-[Power BI Pro ライセンスの割り当て](service-admin-assigning-power-bi-pro-licenses.md)
-<br/>
-[Power BI Premium とは](service-admin-premium-manage.md)
-<br/>
-[Power BI Premium の購入方法](service-admin-premium-purchase.md)
-<br/>
-[Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+ライセンスを購入したので、それらをテナントのユーザーに割り当てます。
+
+[Office 365 でのユーザーへのライセンスの割り当て](service-admin-assigning-power-bi-pro-licenses.md)
+
+[Azure でのユーザーへのライセンスの割り当て](service-admin-assigning-power-bi-pro-licenses-azure.md)
+
+[Power BI の料金](https://powerbi.microsoft.com/en-us/pricing/)

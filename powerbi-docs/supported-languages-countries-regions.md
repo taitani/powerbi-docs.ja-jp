@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871480"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI でサポートされる言語と国または地域
 
@@ -165,6 +166,11 @@ Power BI Desktop アプリケーション用の言語を設定するだけでな
 - 文字列の比較や並べ替えの方法。 たとえば、トルコ語には文字 i が 2 種類あるので、データベースの照合順序によっては、並べ替えたときに異なる順序になる場合があります。 
 - 日付フィールドから非表示の日付テーブルを作成するときに Power BI Desktop が使う言語。 たとえば、フィールドは Month/Monat/Mois などという名前になります。
 
+> [!NOTE]
+> Power BI のモデルでは、現在、大文字と小文字を区別しない (またはひらがなとカタカナを区別しない) ロケールが使用されているため、"ABC" と "abc" は同等に扱われます。 ABC が最初にデータベースに読み込まれた場合、"Abc" のように大文字と小文字だけが異なる他の文字列は、別の値として読み込まれません。
+> 
+>
+
 モデルの言語を設定する方法を次に示します。
 
 1. Power BI Desktop で、**[ファイル]** > **[オプションと設定]** > **[オプション]** の順に移動します。
@@ -173,6 +179,10 @@ Power BI Desktop アプリケーション用の言語を設定するだけでな
 
     ![Power BI Desktop でモデルの言語を設定する](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Power BI モデルの作成後に言語を変更することはできません。
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>ヘルプ ドキュメントの言語
 ヘルプは、次の 10 の言語にローカライズされています。 
