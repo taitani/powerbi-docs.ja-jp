@@ -1,29 +1,20 @@
 ---
 title: iOS アプリの Q&A 仮想アナリスト - Power BI
 description: iOS デバイス上の Power BI モバイル アプリで Q&A 仮想アナリストを使用して、自分の言葉でサンプル データについて質問します。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
-ms.devlang: NA
 ms.topic: conceptual
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 85487567d428618034f6f026324846fbfbd87baf
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812175"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295010"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS アプリの Q&A 仮想アナリスト - Power BI
 
@@ -43,7 +34,7 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 
 ## <a name="prerequisites"></a>前提条件
 
-### <a name="install-the-power-bi-for-ios-app"></a>Power BI for iOS アプリのインストール
+### <a name="install-the-power-bi-for-ios-app"></a>Power BI for iOS アプリをインストールする
 Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone アプリをダウンロード")します。
 
 次のバージョンが Power BI for iOS アプリをサポートしています。

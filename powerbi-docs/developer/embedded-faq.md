@@ -1,20 +1,28 @@
 ---
 title: Power BI Embedded に関してよく寄せられる質問
 description: Power BI Embedded についてよく寄せられる質問とその回答の一覧です。
+services: powerbi
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-developer
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f2d457c04f9db2bdd57f363ccb0c09e2496aefd6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289742"
+ms.lasthandoff: 05/14/2018
+ms.locfileid: "34163324"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -51,7 +59,7 @@ ISV (通常、大規模な ISV) が P SK を利用し、事前パッケージ済
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>埋め込みトークンはいくつ作成できますか?
 
-PRO ライセンスの埋め込みトークンは、開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、[容量を購入する](#technical)必要があります。 容量を購入する場合、生成できる埋め込みトークンの数には上限がありません。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、「[Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx)」(使用可能な機能の入手) をご覧ください。
+PRO ライセンスの埋め込みトークンは、開発と開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、[容量を購入する](#technical)必要があります。 容量を購入する場合、生成できる埋め込みトークンの数には上限がありません。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、「[Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx)」(使用可能な機能の入手) をご覧ください。
 
 ## <a name="technical"></a>技術的な質問
 
@@ -188,7 +196,7 @@ Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-cu
 
 はい。ただし、**Power BI ワークスペース コレクション** ソリューションを既に使っているお客様は、非推奨になるまで引き続き使用できます。 お客様は、新しいワークスペース コレクション、および **Power BI ワークスペース コレクション** ソリューションをまだ使用する **Power BI Embedded** アプリケーションを作成することもできます。
 
-ただし、これは、**Power BI ワークスペース コレクション** ソリューションに新しい機能が追加されないこと、およびお客様には新しい **Power BI Embedded** ソリューションへの移行を計画するようお勧めすることを意味します。
+ただし、これは、**Power BI ワークスペース コレクション** ソリューションに新しい機能が追加されないこと、およびお客様には新しい **Power BI Embedded** ソリューションへの以降を計画するようお勧めすることを意味します。
 ### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Power BI ワークスペース コレクションのサポートはいつ終了しますか?
 
 既に **Power BI ワークスペース コレクション** ソリューションを使っているお客様は、2018年 6 月末まで、またはサポート契約が終了するまで、引き続き使用できます。
