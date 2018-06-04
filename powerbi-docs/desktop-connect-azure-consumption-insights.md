@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288201"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop での Azure Consumption Insights への接続 (Beda)
 **Azure Consumption Insights** コネクタを使用すれば、**Power BI Desktop** で Azure に接続して、組織における Azure サービスの使用状況に関する詳細なデータと情報を得ることができます。 また、メジャー、カスタム列、およびビジュアルを作成して、組織での Azure の使用状況についてレポートを作成し、共有することができます。 このリリースの **Azure Consumption Insights** コネクタはベータ版であり、変更される可能性があります。
@@ -38,7 +39,7 @@ ms.lasthandoff: 05/17/2018
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
-  このバージョンのコネクタでサポートされるのは、https://ea.azure.com からのエンタープライズ登録のみです。現在、中国での登録はサポートされていません。
+  このバージョンのコネクタでサポートされるのは、https://ea.azure.com からのエンタープライズ登録のみです。 現在、中国での登録はサポートされていません。
 
 次に、接続するための*アクセス キー*を指定します。
 
@@ -153,7 +154,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | ConsumedServiceId |consumedServiceId | |はい |
 | Cost |cost |ExtendedCost |いいえ |
 | Cost Center |costCenter |Cost Center |いいえ |
-| 日付 |date |日付 |いいえ |
+| 日付 |日付 |日付 |いいえ |
 | 日 | |日 |いいえ |
 | DepartmentName |departmentName |Department Name |いいえ |
 | DepartmentID |departmentId | |はい |
@@ -166,7 +167,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | Meter Region |meterRegion |Meter Region |いいえ |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |いいえ |
 | MeterId |meterId |Meter ID |いいえ |
-| Month | |Month |いいえ |
+| 月 | |月 |いいえ |
 | 製品 |product |製品 |いいえ |
 | ProductId |productId | |はい |
 | リソース グループ |resourceGroup |リソース グループ |いいえ |
@@ -185,7 +186,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | タグ |tags |タグ |いいえ |
 | TagsId | | |はい |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |いいえ |
-| Year | |Year |いいえ |
+| 年 | |年 |いいえ |
 | SubscriptionId |subscriptionId |SubscriptionId |はい |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |いいえ |
 
