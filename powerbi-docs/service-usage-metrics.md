@@ -8,20 +8,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7b43e6e3c679474113cb0f1301f335c6bb8249ff
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 82015b3e0c497f58b0505804adc852ebfb7a0202
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584325"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>ダッシュボードとレポートの利用状況の指標
 ダッシュボードとレポートを作成した場合、その効果を理解するために利用状況の指標が役立ちます。 ダッシュボード利用状況指標またはレポート利用状況指標を実行すると、そのダッシュボードやレポートが組織全体でどのように利用されているか、何が利用されているか、だれに利用されているか、何の目的で利用されているかわかります。  
 
-> [!NOTE]
-> 利用状況指標は、SharePoint Online に埋め込まれているレポートの利用状況を追跡記録します。 "ユーザー所有資格情報" と "アプリ所有資格情報" フローの両方を介して、ダッシュボードとレポートの埋め込みも追跡記録します。 利用状況指標は、[Web に公開](service-publish-to-web.md)を介して埋め込まれるレポートの利用状況は追跡記録しません。
+利用状況指標は、SharePoint Online に埋め込まれているレポートの利用状況を追跡記録します。 "ユーザー所有資格情報" と "アプリ所有資格情報" フローの両方を介して、ダッシュボードとレポートの埋め込みも追跡記録します。 利用状況指標は、[Web に公開](service-publish-to-web.md)を介して埋め込まれるレポートの利用状況は追跡記録しません。
 
 このような利用状況指標レポートは読み取り専用です。 ただし、"名前を付けて保存" を利用し、利用状況指標レポートを自分用にカスタマイズできます。 それによりまったく新しいデータセットが作成され、読み取り専用レポートがすべての機能を備えた、編集可能な Power BI レポートに変換されます。 個人用にカスタマイズしたレポートに選択したダッシュボードまたはレポートの指標が含まれるだけでなく、既定のフィルターを削除することで、選択したワークスペースのあらゆるダッシュボードまたはレポートの利用状況指標にアクセスできるようになりました。
 

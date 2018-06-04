@@ -12,10 +12,11 @@ ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310109"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>チュートリアル: Power BI で GitHub サンプルに接続する
 このチュートリアルでは、Power BI で GitHub サービスの実際のデータに接続します。Power BI でダッシュボードとレポートが自動的に作成されます。 Power BI のコンテンツ パブリック リポジトリ (単に "*リポジトリ*" とも呼ばれます) に接続すると、さまざまな情報が表示されます。たとえば、Power BI のパブリック コンテンツに寄稿しているユーザーの数のほか、 最も寄稿が多いユーザーは誰か、 最も寄稿が多いのは何曜日か、 などといった疑問に対する答えがわかります。 
