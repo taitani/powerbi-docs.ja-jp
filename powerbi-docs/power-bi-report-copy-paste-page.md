@@ -12,10 +12,11 @@ ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: c75fd53b7aaa941e8e94518950e9f3ebaaa40c35
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34237317"
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Power BI でのレポート ページの複製
 Power BI サービスまたは Power BI Desktop でレポート ページを複製するには、レポートの編集権限が必要です。 Power BI サービスでは、レポートを[編集ビュー](service-reading-view-and-editing-view.md)で開きます。 

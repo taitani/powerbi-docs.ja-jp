@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f482cf9e3f0cf344a2808ca778839a50d851ac7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722203"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>サインインした Power BI ユーザーを見つける
 テナント管理者が Power BI にサインインしたユーザーを確認するには、Azure Active Directory アクセスと使用状況レポートを使用して、ユーザーを表示します。
@@ -60,7 +61,7 @@ Azure AD ポータルを使用して、サインイン アクティビティを�
 PowerShell を使用して、サインイン データをエクスポートできます。 Azure AD ドキュメント内で[サンプル](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)を使用できます。
 
 > [!NOTE]
-> PowerShell サンプルを動作させるには、必ず [Azure AD レポート API にアクセスするための前提条件](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites)に従う必要があります。
+> PowerShell サンプルを動作させるには、必ず [Azure AD レポート API にアクセスするための前提条件](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites)に従う必要があります。
 > 
 > 
 
