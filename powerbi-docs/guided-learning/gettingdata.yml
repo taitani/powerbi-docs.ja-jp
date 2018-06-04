@@ -18,7 +18,7 @@ metadata:
   ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 06/02/2018
+  ms.lasthandoff: 06/04/2018
   ms.locfileid: "33080771"
 items:
 - durationInMinutes: 1
@@ -38,7 +38,7 @@ items:
 
 
     [!INCLUDE [](includes/0-2-get-started-power-bi-desktop.md)]
-- title: Power BI Desktop 内のデータ ソースに接続する
+- title: Power BI Desktop のデータ ソースへの接続
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/S6s0osmRCZ4?rel=0]
