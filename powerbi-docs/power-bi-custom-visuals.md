@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721457"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI でのカスタム ビジュアル
 Power BI レポートを作成または編集するときには、さまざまな種類のビジュアルを使用できます。 このようなビジュアルは **[視覚化]** ウィンドウに表示されます。 Power BI Desktop をダウンロードしたり、Power BI サービス (app.powerbi.com) を開いたりすると、このビジュアルのセットが "事前にパッケージ化" されます。
@@ -53,10 +54,10 @@ AppSource とは 簡単に言えば、Microsoft のソフトウェアのアプ�
 
 ### <a name="certified-visuals"></a>認定済みビジュアル
 
-Power BI 認定済みビジュアルは品質に関する厳格な追加テストに合格したマーケットプレース ビジュアルであり、[電子メール サブスクリプション](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe)や [PowerPoint へのエクスポート](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint)などの追加のシナリオに対応しています。
-認定済みカスタム ビジュアルの一覧の表示またはカスタム ビジュアルの申請については、「[Certified custom visuals](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified)」 (認定済みカスタム ビジュアル) をご覧ください。
+Power BI 認定済みビジュアルは品質に関する厳格な追加テストに合格したマーケットプレース ビジュアルであり、[電子メール サブスクリプション](https://docs.microsoft.com/power-bi/service-report-subscribe)や [PowerPoint へのエクスポート](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint)などの追加のシナリオに対応しています。
+認定済みカスタム ビジュアルの一覧の表示またはカスタム ビジュアルの申請については、「[Certified custom visuals](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)」 (認定済みカスタム ビジュアル) をご覧ください。
 
-独自の視覚エフェクトを作成して AppSource に追加することに興味がある Web 開発者の方は、 「[開発者ツールの概要](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools)」を参照し、[AppSource にカスタム ビジュアルを公開する](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)方法を学習してください。
+独自の視覚エフェクトを作成して AppSource に追加することに興味がある Web 開発者の方は、 「[開発者ツールの概要](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools)」を参照し、[AppSource にカスタム ビジュアルを公開する](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)方法を学習してください。
 
 ### <a name="import-a-custom-visuals-from-a-file"></a>カスタム ビジュアルをファイルからインポートする
 

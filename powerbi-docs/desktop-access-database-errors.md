@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: d1023f1563f69c37e2aebe47181a5276d27d3497
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285510"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Power BI Desktop での Access ファイルと .XLS ファイルのインポートに関する問題を解決する
 **Power BI Desktop** では、**Access データベース**と初期バージョンの **Excel ブック** (Excel 97-2003 タイプの .XLS ファイル) の両方で *Access Database Engine* が使用されます。 Access データベース エンジンが正常に動作しない場合、一般的に、次の 3 つの状況が考えられます。

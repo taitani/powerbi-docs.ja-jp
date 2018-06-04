@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 7a0a4f6296df351272a69ca30c8a8c08e1f9bcbc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34287856"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Power BI Desktop でファイル (バイナリ) を結合する
 **Power BI Desktop** にデータをインポートする強力な方法の 1 つは、スキーマが一致している複数のファイルを単一の論理テーブルに組み合わせることです。 この記事で説明するように、**Power BI Desktop** の 2016 年 11 月以降のリリースでは、この便利で人気のある方法がいっそう強化され、拡張されています。

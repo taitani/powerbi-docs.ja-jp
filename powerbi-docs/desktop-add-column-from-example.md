@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 84347678033f3042dc5fd15d311d8e04e855a336
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285901"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Power BI Desktop で例から列を追加する
 2017 年 4 月リリース以降の **Power BI Desktop** では、**クエリ エディター**を使い、新しい列のサンプル値を指定するだけで、モデルに新しいデータ列を追加できます。 現在選択されているものから、または特定のテーブルのすべての (または選択されている) 列に基づいて入力を提供することで、新しい列の例を作成できます。
@@ -113,7 +114,7 @@ Web ページからデータを取得するには、**[ホーム]** タブに移
   * 年の四半期
   * 月の通算週
   * 年の通算週
-  * Year
+  * 年
   * 期間
   * 年の開始日
   * 年の最終日

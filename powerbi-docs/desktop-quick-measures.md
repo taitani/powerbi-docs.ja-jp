@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: f8eb978aaacd345a29f2d9e2395fad419a651be0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289765"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>クイック メジャーを使用して一般的で強力な計算を簡単に実行する
 **クイック メジャー**を使用し、一般的で強力な計算を簡単に実行できます。 **クイック メジャー**は、ダイアログ ボックスで指定された入力に基づいて、一連の DAX コマンドをバックグラウンドで実行し (DAX は自動的に作成されるので、自分で記述する必要はありません)、レポートで使える結果を提供します。 何より、クイック メジャーによって実行される DAX を参照でき、すぐに始めたり、自分の DAX の知識を広げたりすることができます。

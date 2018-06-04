@@ -11,10 +11,11 @@ ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 2eb880ee512a3f13c56bb6dbf880209f05cdf7b4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296315"
 ---
 # <a name="manage-your-data-source---sql-server"></a>データ ソースの管理 - SQL Server
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加することができます。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 スケジュールされた更新または DirectQuery のどちらに対しても SQL Server データ ソースを使用できます。
