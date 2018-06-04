@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: aa2bfed2858f93d91ff806b934f16c06555668d6
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244832"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Excel 2016 から Power BI へ発行する
 Excel 2016 では、Excel ブックのデータに基づいて対話性の高いレポートやダッシュボードを作成できる [Power BI](https://powerbi.microsoft.com) サイトに Excel ブックを直接発行できます。 これにより、分析情報を組織内のユーザーと共有できます。
