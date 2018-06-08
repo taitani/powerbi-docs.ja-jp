@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561703"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Power BI サービス レポートへのフィルターの追加 (編集ビュー)
 > [!TIP]
@@ -28,7 +29,7 @@ ms.lasthandoff: 05/17/2018
 レポートとの対話には 2 つのモードがあります。[読み取りビュー](service-reading-view-and-editing-view.md)と[編集ビュー](service-interact-with-a-report-in-editing-view.md)です。  使用できるフィルター処理機能は、どのモードを使用しているかによって異なります。
 
 * 編集ビューでは、レポート フィルター、ページ フィルター、ビジュアル フィルターを追加できます。 レポートを保存すると、フィルターが一緒に保存されます。 読み取りビューでレポートを表示しているユーザーは、追加したフィルターと対話することができます。
-* 読み取りビューでは、レポートに既に存在しているレポート、ドリルスルー、ページ、ビジュアルの各フィルターと対話できますが、新しいフィルターを追加することはできません。 モバイル アプリでレポートを表示する場合でも、フィルター ウィンドウで行う変更の内容はレポートと共に保存されます。  
+* 読み取りビューでは、レポートに既に存在しているレポート、ドリルスルー、ページ、ビジュアルの各フィルターと対話できますが、新しいフィルターを追加することはできません。 ただし、モバイル アプリでレポートを表示する場合でも、レポートを終了し、後で戻る場合でも、フィルター ウィンドウで行う変更の内容はレポートと共に保存されます。  
 
 > [!NOTE]
 > この記事では、レポートの**編集ビュー**でフィルターを作成する方法について説明します。  読み取りビューのフィルターの詳細については、[レポートの読み取りビューのフィルターとの対話](service-reading-view-and-editing-view.md)に関するページを参照してください。
@@ -44,7 +45,11 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 - **ドリルスルー フィルター**は、レポート内の単一のエンティティーに適用されます。    
 - **レポート フィルター**は、レポート内のすべてのページに適用されます。    
 
-    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+    ![読み取りビューのフィルター ウィンドウ](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+
+レポートから離れてもフィルターは*持続する*ため、Power BI では、フィルター、スライサー、その他のデータ ビューに行った変更が保持されます。 そのため、レポートに戻ったとき、前回終了したところから再開できます。 フィルターの変更を残さない場合、一番上にあるメニュー バーから **[既定値にリセット]** を選択してください。
+
+![永続的フィルター ボタン](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>特定の視覚化へのフィルター (ビジュアル フィルター) の追加
 これを行うには、次の 2 つの方法があります。 
@@ -135,12 +140,13 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
 1. 戻る矢印を選んで、前のレポート ページに戻ります。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>ビジュアル レベル フィルターとページ レベル フィルターが異なる結果を返す場合があるのはなぜですか。
-ビジュアル レベル フィルターを追加すると、Power BI は集計結果をフィルター処理します。  既定の集計は合計ですが、[集計の種類を変更](service-aggregates.md)することもできます。  
 
-ページ レベル フィルターを追加すると、Power BI は集計せずにフィルター処理します。  これは、ページには、それぞれさまざまな集計の種類を利用できるさまざまなビジュアルが適用されている可能性があるためです。  そのため、フィルターは各データ行に適用されます。
+- ビジュアル レベル フィルターとページ レベル フィルターが異なる結果を返すことがあります。  たとえば、ビジュアル レベル フィルターを追加すると、Power BI は集計結果をフィルター処理します。  既定の集計は合計ですが、[集計の種類を変更](service-aggregates.md)することもできます。  
 
-[フィールド] ウィンドウが表示されない場合は、レポートが[編集ビュー](service-interact-with-a-report-in-editing-view.md)になっていることを確認してください。
+    その後、ページ レベル フィルターを追加すると、Power BI は集計せずにフィルター処理します。  これは、ページには、それぞれさまざまな集計の種類を利用できるさまざまなビジュアルが適用されている可能性があるためです。  そのため、フィルターは各データ行に適用されます。
+
+- [フィールド] ウィンドウが表示されない場合は、レポートが[編集ビュー](service-interact-with-a-report-in-editing-view.md)になっていることを確認してください。    
+- フィルターに多くの変更を加えた後で、レポート作成者の初期設定に戻す場合、一番上のメニュー バーから **[既定値にリセット]** を選択します。
 
 ## <a name="next-steps"></a>次の手順
  [レポート フィルターの使用方法](power-bi-how-to-report-filter.md)

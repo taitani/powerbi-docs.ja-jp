@@ -8,14 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4d67499c571d736da3a8cebed5826c708911cc4d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584164"
 ---
 # <a name="export-data-from-visualizations"></a>ビジュアルからデータをエクスポートする
 ビジュアルを作成するのに使うデータを確認したい場合は、[Power BI でデータを表示](service-reports-show-data.md)するか、またはデータを Excel に .xlsx または .csv ファイルとしてエクスポートします。   
@@ -31,7 +32,7 @@ Watch では、レポート内のビジュアルの 1 つからデータをエ�
 2. **[データをエクスポート]** アイコンを選択します。
    
     ![](media/power-bi-visualization-export-data/pbi_export_dash.png)
-3. データは .csv ファイルにエクスポートされます。 ビジュアルがフィルター処理されている場合は、ダウンロードされるデータもフィルター処理されます。
+3. データは .csv ファイルにエクスポートされます。 ビジュアルがフィルター処理されている場合は、ダウンロードされるデータもフィルター処理されます。    
 4. お使いのブラウザーから、ファイルを保存するように求められます。  保存したら、.csv ファイルを Excel で開きます。
    
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
@@ -84,6 +85,7 @@ Watch では、レポート内のビジュアルの 1 つからデータをエ�
 * Power BI は、基本的な集計を使うビジュアルでのエクスポートのみをサポートします。 モデルまたはレポート メジャーを使うビジュアルをエクスポートすることはできません。
 * 現在、カスタム ビジュアルと R ビジュアルはサポートされていません。
 * 共有のダッシュ ボードを使用している、組織外のユーザーはエクスポート データを使用することができません。 
+* Power BI では、フィールドをダブルクリックし、新しい名前を入力するとフィールド (列) の名前を変更できます。  この新しい名前は*エイリアス*と呼ばれています。 Power BI レポートのフィールド名に重複が発生することがありますが、Excel では重複は許可されていません。  そこで、データが Excel にエクスポートされるとき、フィールドのエイリアスが元のフィールド (列) 名に戻ります。  
 * .csv ファイルに Unicode 文字がある場合は、Excel でテキストが正しく表示されない場合があります。 ただし、メモ帳で開くと問題なく動作します。 Unicode 文字の例としては、通貨記号と外来語があります。 この回避策は、csv を直接開く代わりに、Excel に csv をインポートすることです。 操作の内容:
   
   1. Excel を開く

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ab914cd883d9a297150dd9a33dce9c6ce76308bf
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7caf471674c20607826550fc14f8ebc8e772b61a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584256"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Power BI で QuickBooks Online に接続する
 Power BI から QuickBooks Online データに接続すると、すぐに Power BI ダッシュボードと Power BI レポートにより、ビジネス キャッシュ フロー、収益性、顧客などに関する情報を得られます。 ダッシュボードとレポートはそのまま使用することもできますし、カスタマイズして最も関心のある情報を強調表示することもできます。 データは、1 日 1 回自動的に更新されます。
@@ -22,7 +23,7 @@ Power BI から QuickBooks Online データに接続すると、すぐに Power 
 Power BI 用 [QuickBooks Online コンテンツ パック](https://dxt.powerbi.com/getdata/services/quickbooks-online)に接続します。
 
 >[!NOTE]
->QuickBooks Online のデータを Power BI をインポートするには、QuickBooks Online アカウントの管理者であるとともに、管理者アカウントの資格情報でサインインする必要があります。
+>QuickBooks Online のデータを Power BI をインポートするには、QuickBooks Online アカウントの管理者であるとともに、管理者アカウントの資格情報でサインインする必要があります。 QuickBooks Desktop ソフトウェアでは、このコネクタは使用できません。 
 
 ## <a name="how-to-connect"></a>接続する方法
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。

@@ -40,7 +40,7 @@
               href: service-cortana-intro.md
             - name: Power BI のダッシュボードのタイル
               href: service-dashboard-tiles.md
-            - name: 共有アイテム
+            - name: 自分と共有
               href: service-shared-with-me.md
             - name: Power BI でのデータの更新
               href: refresh-data.md
@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: Power BI 統合通知センター
                   href: service-notification-center.md
+                - name: ダッシュボード テーマ
+                  href: service-dashboard-themes.md
             - name: レポート
               items:
                 - name: Power BI レポートでのグラフの並べ替え方法の変更
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: ジェネリック インターフェイスを使用したデータへの接続
               href: desktop-connect-using-generic-interfaces.md
+            - name: Adobe Analytics への接続
+              href: desktop-connect-adobe-analytics.md
             - name: Oracle データベースへの接続
               href: desktop-connect-oracle-database.md
             - name: Power BI Desktop での R スクリプトの実行
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: Power BI Desktop で参照整合性設定を想定する
               href: desktop-assume-referential-integrity.md
-            - name: Oracle データベースと Teradata データベースの DirectQuery
-              href: desktop-directquery-for-oracle-teradata.md
             - name: Power BI Desktop で SAP BW Connector を使用する (プレビュー)
               href: desktop-sap-bw-connector.md
             - name: Power BI Desktop で OneDrive for Business リンクを使用する
@@ -712,7 +714,7 @@
               href: desktop-create-phone-report.md
             - name: '[データを表示] と [レコードを表示] を使用'
               href: desktop-see-data-see-records.md
-        - name: 視覚化
+        - name: 視覚エフェクト
           items:
             - name: 視覚化のベスト プラクティス
               href: power-bi-visualization-best-practices.md
@@ -788,6 +790,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Power BI レポート内のアクセス性
           href: desktop-accessibility.md
+        - name: Power BI Desktop のサインイン フォームを管理する
+          href: desktop-admin-sign-in-form.md
 - name: Power BI モバイル アプリ
   items:
     - name: 概要
@@ -1106,7 +1110,7 @@
   items:
     - name: 概要
       items:
-        - name: Power BI Gateway とは
+        - name: Power BI ゲートウェイとは
           href: service-gateway-getting-started.md
     - name: チュートリアル
       items:

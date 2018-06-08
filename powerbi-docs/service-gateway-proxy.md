@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ab5afb36458d7e1b5271a356bb1532ba77de6408
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722660"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのプロキシ設定を構成する
 職場ではプロキシを介してインターネットにアクセスしている場合がありますが、 これは、オンプレミス データ ゲートウェイがサービスに接続できない原因となることがあります。
@@ -50,6 +51,19 @@ ms.lasthandoff: 05/17/2018
     </system.net>
 
 既定の構成は、Windows 認証で機能します。 プロキシで別の認証方法を使用している場合は、設定を変更する必要があります。 認証方法が不明な場合は、ネットワーク管理者にお問い合わせください。
+
+既定の資格情報を使用することに加え、<proxy> 要素を追加して、プロキシ サーバー設定を詳細に定義することができます。 たとえば、bypassonlocal パラメーターを false に設定することで、ローカル リソースの場合でも、オンプレミス データ ゲートウェイで常にプロキシが使用されるように指定できます。 これは、プロキシ ログ ファイルでオンプレミス データ ゲートウェイからのすべての https 要求を追跡する場合のトラブルシューティングに役立ちます。 次のサンプル構成では、すべての要求を IP アドレス 192.168.1.10 の特定のプロキシ経由で行う必要があることを指定します。
+
+    <system.net>
+        <defaultProxy useDefaultCredentials="true">
+            <proxy  
+                autoDetect="false"  
+                proxyaddress="http://192.168.1.10:3128"  
+                bypassonlocal="false"  
+                usesystemdefault="true"
+            />  
+        </defaultProxy>
+    </system.net>
 
 .NET 構成ファイルのプロキシ要素の構成について詳しくは、「[defaultProxy 要素 (ネットワーク設定)](https://msdn.microsoft.com/library/kd3cf2ex.aspx)」をご覧ください。
 

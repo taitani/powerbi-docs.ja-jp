@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722956"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI の SQL Server Analysis Services ライブ データ
 Power BI では、ライブ SQL Server Analysis Services サーバーに接続できる方法が 2 つあります。 **[データの取得]** で SQL Server Analysis Services サーバーに接続する方法と、既に Analysis Services サーバーに接続している [Power BI Desktop ファイル](service-desktop-files.md)または [Excel ブック](service-excel-workbook-files.md)に接続する方法です。 ベスト プラクティスとして、Power BI Desktop を使用することを強くお勧めします。これは、ツールセットが豊富で、Power BI Desktop ファイルのバックアップ コピーをローカルで維持できるためです。
@@ -44,9 +45,12 @@ Power BI では、ライブ SQL Server Analysis Services サーバーに接続�
 ## <a name="dashboard-tiles"></a>ダッシュボードのタイル
 レポートからダッシュ ボードにビジュアルをピンで固定すると、そのピンで固定されたタイルは 10 分間隔で自動的に更新されます。 オンプレミスの Analysis Services サーバー データが更新されると、タイルは 10 分後に自動更新されます。
 
+## <a name="common-issues"></a>一般的な問題
+
+* "モデル スキーマを読み込めません" エラー - このエラーは、SSAS に接続しているユーザーに、SSAS のデータベース、キューブ、およびモデルへのアクセス権がない場合に発生します。
+
 ## <a name="next-steps"></a>次の手順
 [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
 [Analysis Services データ ソースの管理](service-gateway-enterprise-manage-ssas.md)  
 [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

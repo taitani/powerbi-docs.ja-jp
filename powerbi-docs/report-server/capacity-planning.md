@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561818"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server のキャパシティ プランニング ガイダンス
 Power BI Report Server はセルフ サービスの BI およびエンタープライズ レポート ソリューションであり、ユーザーはファイアウォールの内側のオンプレミスに展開できます。 Power BI Desktop の対話型レポート機能と、SQL Server Reporting Services のオンプレミスのサーバー プラットフォームが組み合わされています。 企業では分析とレポートが大量に使用され、さらに増え続けており、エンタープライズ ユーザー ベースへの拡張に必要なハードウェア インフラストラクチャやソフトウェア ライセンスの予算が問題になる場合があります。 このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスを提供します。 レポート、クエリ、使用のパターンは組織によって大きく異なりますが、ここで示す結果と、実際に使われたテストおよび実行方法の詳細な説明は、Power BI Report Server の展開の早期計画プロセスで参考になります。
@@ -49,7 +50,7 @@ Power BI Report Server の展開は、次の仮想マシンで構成されてい
 トポロジで使われた各仮想マシンの詳細な構成については、「付録 1.1 Power BI Report Server のトポロジ」および「付録 1.2 Power BI Report Server の仮想マシンの構成」をご覧ください。
 
 ### <a name="tests"></a>テスト
-ロード テストの実行で使われたテストは、Reporting Services LoadTest という名前の GitHub プロジェクトで誰でも入手できます (https://github.com/Microsoft/Reporting-Services-LoadTest) を参照)。 このツールでは、SQL Server Reporting Services と Power BI Report Server のパフォーマンス、信頼性、スケーラビリティ、および回復性の特性を調べることができます。 このプロジェクトは、テスト ケースの 4 つのグループで構成されます。
+ロード テストの実行で使われたテストは、[Reporting Services LoadTest](https://github.com/Microsoft/Reporting-Services-LoadTest) という名前の GitHub プロジェクトで誰でも入手できます。 このツールでは、SQL Server Reporting Services と Power BI Report Server のパフォーマンス、信頼性、スケーラビリティ、および回復性の特性を調べることができます。 このプロジェクトは、テスト ケースの 4 つのグループで構成されます。
 
 * Power BI レポートの表示をシミュレートするテスト
 * モバイル レポートの表示をシミュレートするテスト

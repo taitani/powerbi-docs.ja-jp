@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721112"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop から Power BI サービスのデータセットに接続する
 Power BI サービスの共有データセットへのライブ接続を確立し、同じデータセットから多数の異なるレポートを作成できます。 つまり、Power BI Desktop で完全なデータ モデルを作成し、それを Power BI サービスに発行した後、その同じ共通のデータ モデルから複数の異なるレポート (異なる .pbix ファイル) を作成できます。 この機能は、**Power BI サービス ライブ接続**と呼ばれます。
@@ -35,6 +36,8 @@ Anna (ビジネス アナリスト) は、優れたデータ モデル (デー�
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>ライブ接続を使用して Power BI サービス データセットに接続する
 Anna が自分のレポート (および、その基になるデータセット) を作って **Power BI サービス**に発行すると、Power BI サービスのチームのワークスペースに表示されます。 そのワークスペースに含まれるすべてのユーザーが、それを表示して使用できます。
+
+ワークスペースの詳細については、「[アプリ ワークスペース](service-create-distribute-apps.md#app-workspaces)」を参照してください。
 
 ワークスペースの他のメンバーは、**Power BI サービス ライブ接続**機能を使って Anna の共有データ モデルへのライブ接続を確立し、" *の元のデータセット*" から独自のレポートを作成できます。
 

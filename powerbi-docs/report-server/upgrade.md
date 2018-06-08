@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: e54ddf59221b472bbac4e8665e036529ba475d9c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 82b42f97a92a52203b80d31abef4aeee456d6d4e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482040"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Report Server のアップグレード
 Power BI Report Server のアップグレード方法について説明します。
@@ -66,7 +67,7 @@ Power BI Report Server のアップグレードは簡単です。 ファイル�
 レポート サーバーをアップグレードしたら、そのサーバーに一致する、Power BI Power BI Report Server に最適化された Power BI Desktop のバージョンに、すべての Power BI のレポート作成者がアップグレードしたかどうかを確認する必要があります。
 
 ## <a name="next-steps"></a>次の手順
-[管理者向けハンドブック](admin-handbook-overview.md)  
+[管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  
 [レポート サービスのインストールを確認する](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [レポート サーバー サービス アカウントを構成する](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  

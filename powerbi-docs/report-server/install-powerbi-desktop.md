@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 2061bb5afde8c19693eb565b298fabedebae89ac
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2018
-ms.locfileid: "34310408"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481833"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
 Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール方法について説明します。
@@ -103,9 +103,7 @@ Power BI レポート サーバーのレポートは、Power BI モバイル ア
 Power BI Desktop をインストールしたので、Power BI レポートの作成を開始できます。
 
 [Power BI Report Server の Power BI レポートの作成](quickstart-create-powerbi-report.md)  
-[Power BI Desktop の概要](../desktop-getting-started.md)  
-ガイド付き学習: [Power BI Desktop の概要](../guided-learning/gettingdata.yml?tutorial-step=2)
-[ユーザー ハンドブックの概要、Power BI Report Server](user-handbook-overview.md)
+[Power BI Report Server とは](get-started.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

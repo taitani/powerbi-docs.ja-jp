@@ -11,16 +11,17 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fb1344bea9256c63e3f8e34581fcabe7f5136f90
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689716"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI サービスでのデータ アラート
 アラートを設定すると、ダッシュボード内のデータが設定した制限を超えて変更された場合に通知されます。 
 
-アラートは、レポートのビジュアルからピン留めされたタイルでのみ、ゲージ、KPI、カードに対してだけ設定できます。 アラートは、レポートからダッシュボードにピン留めしたストリーミング データセットから作成されるビジュアルに設定できますが、**[タイルの追加]** > **[カスタム ストリーミング データ]** でダッシュボードで直接作成したストリーミング タイルには設定できません。 
+Power BI Pro のライセンスがある場合、または [Premium 容量](service-premium.md)からダッシュボードを共有されている場合は、タイルにアラートを設定することができます。 アラートは、レポートのビジュアルからピン留めされたタイルでのみ、ゲージ、KPI、カードに対してだけ設定できます。 アラートは、レポートからダッシュボードにピン留めしたストリーミング データセットから作成されるビジュアルに設定できますが、**[タイルの追加]** > **[カスタム ストリーミング データ]** でダッシュボードで直接作成したストリーミング タイルには設定できません。 
 
 ダッシュボードを共有している場合であっても、見ることができるのは自分で設定したアラートだけです。 データ アラートはプラットフォーム間で完全に同期されます。[Power BI モバイル アプリ](mobile-set-data-alerts-in-the-mobile-apps.md)および Power BI サービスで、データ アラートを設定して表示できます。 これらを Power BI Desktop で使用することはできません。 アラートを[自動化し、Microsoft Flow と統合することもできます。](https://flow.microsoft.com) - [お試しください](service-flow-integration.md)。
 

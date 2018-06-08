@@ -8,14 +8,15 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 19b7bf6105a2d178d51d8068f0226160b8a28467
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 8be938b1a75f754b7c23a57a5a0ccfdb4e60032b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561887"
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI を使用してデータ インサイトを自動的に生成する
 新しいデータセットがあるが、どこから始めたらよいかわからない場合。  ダッシュボードをすばやく構築する必要がある場合。  不足している情報を探したい場合。
@@ -23,7 +24,6 @@ ms.lasthandoff: 05/17/2018
 クイック インサイトを実行して、データに基づいて、興味のある対話型の視覚化を生成します。 クイック インサイトは、データセット全体に対して実行することも (クイック インサイト)、特定のダッシュボード タイルに対して実行することもできます (範囲指定のインサイト)。 インサイトに対してインサイトを実行することもできます。
 
 > **注**: インサイトは、DirectQuery では機能しません。Power BI にアップロードされたデータに限り機能します。
-> 
 > 
 
 インサイトの基となっているのは、Microsoft Research と共同開発して拡大を続けている[高度な分析アルゴリズムのセット](service-insight-types.md)です。引き続きこれを使って、より多くの人が新しい直感的な方法でデータから詳細情報を見つけられるようにしていきます。

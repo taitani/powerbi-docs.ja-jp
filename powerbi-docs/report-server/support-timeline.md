@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481051"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI レポート サーバーのサポート タイムライン
 Power BI レポート サーバーは、1 年間に何回かリリースされます。 セキュリティ更新プログラムと重要な更新プログラムは、次のリリースが一般公開 (GA) になるまで使用できます。 次のリリースの後、前のリリースは、残りの 12 か月のリリース有効期間の間、セキュリティ更新プログラムを引き続き受け取ります。
@@ -36,8 +37,8 @@ Power BI Report Server および Power BI Report Server 向けに最適化され
 
 ## <a name="next-steps"></a>次の手順
 [Power BI レポート サーバーの新機能](whats-new.md)  
-[ユーザー向けハンドブック](user-handbook-overview.md)  
-[管理者向けハンドブック](admin-handbook-overview.md)  
+[Power BI Report Server とは](get-started.md)
+[管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

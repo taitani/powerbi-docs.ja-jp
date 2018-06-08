@@ -8,15 +8,15 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b9c67b1c493d885b0a1b1a21e27c652afaaa513e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296988"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584118"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI の散布図とバブル チャート
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
@@ -81,7 +81,7 @@ ms.locfileid: "34296988"
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. バブル チャートに表示するデータ ポイントの数を設定するには、**[視覚化]** ウィンドウの **[形式]** セクションで、**[全般]** カードを展開し、**[データ ボリューム]** を調整します。 10,000 までの任意の値に最大データ量を設定することができます (既定値は 3500)。
+3. バブル チャートに表示するデータ ポイントの数を設定するには、**[視覚化]** ウィンドウの **[形式]** セクションで、**[全般]** カードを展開し、**[データ ボリューム]** を調整します。 10,000 までの任意の値に最大データ量を設定できます。 数字が大きくなったら、最初にテストをして、良いパフォーマンスが得られることを確認することをお勧めします。 
 
     ![データ ボリューム](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 

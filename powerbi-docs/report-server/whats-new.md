@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295424"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481961"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 Power BI レポート サーバーの新機能について説明します。 これは主要な機能領域を網羅しており、新しいアイテムがリリースされるたびに更新されます。
@@ -32,6 +32,12 @@ Power BI Report Server および Power BI Report Server 向けに最適化され
 * [Power BI サービスの新機能](../service-whats-new.md)
 * [Power BI Desktop の新機能](../desktop-latest-update.md)
 * [Power BI 用モバイル アプリの新機能](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>2018 年 5 月
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>レポート サーバー向け Power BI iOS モバイル アプリをリモート構成する
+
+IT 管理者は、組織の MDM ツールを使用し、レポート サーバーへの Power BI iOS モバイル アプリのアクセスをリモートで構成できるようになりました。 詳細については、「[Configure Power BI iOS mobile app access to a report server remotely](configure-powerbi-mobile-apps-remote.md)」 (リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する) を参照してください。
 
 ## <a name="march-2018-release"></a>2018 年 3 月リリース
 
@@ -204,7 +210,7 @@ Power BI Report Server は、Power BI の新しいテーブル ビジュアル�
 * レポートにコメントを含めてコラボレーションを強化
 
 ## <a name="next-steps"></a>次の手順
-[ユーザー向けハンドブック](user-handbook-overview.md)  
+[Power BI Report Server とは](get-started.md) 
 [管理者向けハンドブック](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  

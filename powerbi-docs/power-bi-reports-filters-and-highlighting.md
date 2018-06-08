@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 855ed26172fa0f157787ba4cfdc3e7e6ab4ff4ba
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561450"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Power BI レポートのフィルターと強調表示について
 ***フィルター処理***を実行すると、絞り込んだデータ以外のすべてのデータが削除されます。  ***強調表示***はフィルター処理ではありません。データが削除されることはなく、表示されるデータのサブセットが強調表示され、強調表示対象外のデータは淡色表示になります。
@@ -77,7 +78,7 @@ Power BI ではさまざまな方法でレポートをフィルター処理お�
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
-レポートの終了時に、変更内容が保存されます。 フィルターを取り消すには、上部のメニューバーから **[既定値にリセット]** を選択します。
+レポートの終了時に、変更内容が保存されます。 フィルター処理を取り消し、レポート作成者が設定したフィルター処理、スライス、ドリル、並べ替えに戻すには、一番上のメニュー バーから **[既定値にリセット]** を選択してください。
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 

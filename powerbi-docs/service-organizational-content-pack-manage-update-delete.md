@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4ede737287c830d70283e3a73b627c59c38d1564
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689874"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>組織のコンテンツ パックを管理、更新、削除する
 > [!NOTE]
@@ -71,7 +72,7 @@ ms.lasthandoff: 05/17/2018
 コンテンツ パックの作成者であれば、[データセットの更新をスケジュール設定](refresh-data.md)できます。  コンテンツ パックを作成しアップロードすると、その更新スケジュールはデータセットと一緒にアップロードされます。 更新スケジュールを変更すると、コンテンツ パックを再発行する必要があります (上記を参照)。
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>AppSource から組織のコンテンツ パックを削除する
-コンテンツの作成者だけが、AppSource からコンテンツ パックを削除できます。 
+コンテンツの作成者だけが、AppSource からコンテンツ パックを削除できます。 アプリ ワークスペースで組織のコンテンツ パックを作成した場合、そのワークスペースを削除するときは、必ず最初にコンテンツ パックを削除してください。 コンテンツ パックを先に削除しないでワークスペースを削除すると、コンテンツ パックにアクセスできなくなり、Microsoft サポートに支援を依頼する必要があります。 
 
 > [!TIP]
 > 作成していない[コンテンツ パックへの接続を削除する](service-organizational-content-pack-disconnect.md)ことはできます。 接続を削除しても、コンテンツ パックは AppSource から削除されません。

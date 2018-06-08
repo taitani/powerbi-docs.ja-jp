@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 05/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e588387245bbf57a614bb099a92a87a156654a3c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d513c68dba27bb6e37a158eaad4059b24bc8db6a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481994"
 ---
 # <a name="publish-from-power-bi-desktop"></a>Power BI Desktop からの発行
 **Power BI Desktop** ファイルを **Power BI サービス**に発行すると、モデル内のデータおよび**レポート** ビューで作成したすべてのレポートが Power BI ワークスペースに公開されます。 ワークスペース ナビゲーターに、同じ名前の新しいデータセットおよびレポートが表示されます。
@@ -28,11 +29,17 @@ ms.lasthandoff: 05/17/2018
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Power BI Desktop データセットおよびレポートを発行するには
 1. Power BI Desktop \> **[ファイル]** \> **[発行]** \> **[Power BI へ発行]** を選択するか、リボンの **[発行]** をクリックします。  
-   ![](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
-2. Power BI にサインインします。
 
-完了すると、Power BI サイトでレポートを開くためのリンクが表示されます。  
-    ![](media/desktop-upload-desktop-files/pbid_publish_success.png)
+   ![[発行] ボタン](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
+2. Power BI にサインインします。
+3. 発行先を選択します。
+
+   ![発行先を選択する](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
+
+完了すると、レポートのリンクが届きます。 リンクをクリックすると、Power BI サイトでレポートが開きます。
+
+![発行の完了を伝えるダイアログ](media/desktop-upload-desktop-files/pbid_publish_success.png)
 
 ## <a name="re-publish-or-replace-a-dataset-published-from-power-bi-desktop"></a>Power BI Desktop から発行されたデータセットの再発行または置換
 **Power BI Desktop** ファイルを発行すると、**Power BI Desktop** で作成したデータセットとすべてのレポートが Power BI サイトにアップロードされます。 **Power BI Desktop** ファイルを再発行すると、Power BI サイト内のデータセットが、**Power BI Desktop** ファイルから取得された更新済みデータセットと置き換えられます。

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289742"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721020"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -103,6 +103,9 @@ Power BI Embedded は引き続き、マスター ユーザー (Power BI Pro の�
 
 Azure AD テナントを既に用意している場合、既存のディレクトリを利用できます。あるいは、埋め込みアプリケーション コンテンツ セキュリティに新しい Azure AD テナントを作成できます。
 
+AAD トークンを取得するには、Azure Active Directory 認証ライブラリのいずれかを使用できます。 複数のプラットフォームで利用可能なクライアント ライブラリがあります。
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
+
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded とその他の Azure サービスの違いは何ですか?
 
 ISV/開発者は Azure で Power BI Embedded を購入する前に Power BI アカウントを用意する必要があります。 Power BI Embedded のデプロイ リージョンはお使いの Power BI アカウントによって決まります。 Azure の Power BI Embedded リソースを次の目的で管理します。
@@ -188,7 +191,7 @@ Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-cu
 
 はい。ただし、**Power BI ワークスペース コレクション** ソリューションを既に使っているお客様は、非推奨になるまで引き続き使用できます。 お客様は、新しいワークスペース コレクション、および **Power BI ワークスペース コレクション** ソリューションをまだ使用する **Power BI Embedded** アプリケーションを作成することもできます。
 
-ただし、これは、**Power BI ワークスペース コレクション** ソリューションに新しい機能が追加されないこと、およびお客様には新しい **Power BI Embedded** ソリューションへの移行を計画するようお勧めすることを意味します。
+ただし、これは、**Power BI ワークスペース コレクション** ソリューションに新しい機能が追加されないこと、およびお客様には新しい **Power BI Embedded** ソリューションへの以降を計画するようお勧めすることを意味します。
 ### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Power BI ワークスペース コレクションのサポートはいつ終了しますか?
 
 既に **Power BI ワークスペース コレクション** ソリューションを使っているお客様は、2018年 6 月末まで、またはサポート契約が終了するまで、引き続き使用できます。
@@ -205,6 +208,31 @@ Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-cu
 * すべての PBI データ ソースがサポートされますが、**Power BI ワークスペース コレクション** では 2 つのデータ ソースしかサポートされません。 
 * Q&A、更新、ブックマーク、ダッシュボードとタイルの埋め込み、カスタム メニューなどの新機能は、**Power BI Embedded** ソリューションでのみサポートされます。
 * 容量の課金モデル。
+
+## <a name="onboarding-experience-tool-for-embedding"></a>埋め込み用のオンボード エクスペリエンス ツール
+
+### <a name="what-is-the-onboarding-experience-tool"></a>オンボード エクスペリエンス ツールとは
+
+[オンボード エクスペリエンス ツール](https://aka.ms/embedsetup)を使うと、サンプル アプリケーションを簡単にダウンロードして Power BI での埋め込みを始めることができます。
+
+### <a name="which-solution-should-i-choose"></a>選択するソリューション
+
+* [顧客向けの埋め込み](embedding.md#embedding-for-your-customers)では、Power BI のアカウントがないユーザーのためにダッシュボードとレポートを埋め込むことができます。 [顧客向けの埋め込み](https://aka.ms/embedsetup/AppOwnsData)ソリューションを実行します。
+* [組織向けの埋め込み](embedding.md#embedding-for-your-organization)を使って、Power BI サービスを拡張することができます。 [組織向けの埋め込み](https://aka.ms/embedsetup/UserOwnsData)ソリューションを実行します。
+
+### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>ダウンロードしたサンプル アプリのどのソリューションを選択するか
+
+**顧客向けの埋め込み**エクスペリエンスを使用している場合、*PowerBI-Developer-Samples.zip* ファイルを保存して解凍します。 その後、*PowerBI-Developer-Samples-master\App Owns Data* フォルダーを開き、*PowerBIEmbedded_AppOwnsData.sln* ファイルを実行します。
+
+**組織向けの埋め込み**エクスペリエンスを使用している場合、*PowerBI-Developer-Samples.zip* ファイルを保存して解凍します。 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* フォルダーを開き、*pbi-saas-embed-report.sln* ファイルを実行します。
+
+### <a name="how-can-i-edit-my-registered-application"></a>登録済みアプリケーションを編集する方法
+
+AAD 登録済みアプリケーションの編集方法は、[こちら](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)をご覧ください。
+
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Power BI ユーザー プロファイルまたはデータを編集する方法
+
+Power BI データの編集方法は、[こちら](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)をご覧ください。
 
 詳しくは、「[埋め込みアプリケーションのトラブルシューティング](embedded-troubleshoot.md)」をご覧ください
 

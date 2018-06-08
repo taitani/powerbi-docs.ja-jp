@@ -1,30 +1,22 @@
 ---
 title: Power BI のレポートとダッシュボードでのテーブルの視覚化
 description: 列の幅の変更など、Power BI のレポートとダッシュボードでテーブルの視覚化を使うときのチュートリアルです。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/11/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f7084cf2e0ad4db88ad99bd969ada20ba40aa57
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812635"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584233"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードでのテーブルの操作
 テーブルは、関連性のあるデータが論理的な一連の行と列に格納されたグリッドです。 ヘッダーと合計行が含まれる場合もあります。 テーブルは、1 つのカテゴリの多くの値を調べるときの定量的な比較で役に立ちます。 たとえば、次の表には**カテゴリ**に対する 5 つの異なるメジャーが表示されています。
@@ -127,6 +119,9 @@ ms.locfileid: "33812635"
 Power BI では、レポートまたはダッシュボードの列見出しが切り捨てられることがあります。 列名全体を表示するには、見出しの右側の空白部分をポイントして二重矢印を表示し、選んでドラッグします。
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
+
+## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
+* 列の書式設定を適用する場合、選択できる配置オプションは 1 列あたり 1 つのみです (自動、左、中央、右)。 通常、列に含まれるのはテキストのみか、数値のみであり、混在することはありません。 ただし、列に数値とテキストの両方が含まれる場合、**[自動]** ではテキストは左に、数値は右に配置されます。 この動作は、左から右に読む言語をサポートします。   
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

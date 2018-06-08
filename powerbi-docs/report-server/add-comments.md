@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721963"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>レポート サーバーのレポートにコメントを追加する
 レポート サーバーの Web ポータル内で、Power BI レポートなどのレポートにコメントを追加することができます。 コメントはレポートと共に保存され、適切なアクセス許可を持つすべてのユーザーがレポートのコメントを表示できます。 詳細については、下記の「[アクセス許可](#permissions)」セクションを参照してください。
@@ -44,7 +45,7 @@ ms.lasthandoff: 05/17/2018
 * すべてのコメントを表示できる。自分のコメントの投稿、編集、および削除を実行できる。さらに他のユーザーのコメントを削除できる。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI レポート サーバーのユーザー ハンドブック](user-handbook-overview.md)  
+* [Power BI Report Server とは](get-started.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

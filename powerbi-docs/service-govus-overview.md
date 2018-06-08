@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ecd3c4a3d9cf9beddff5053f3dc696e6e99de70a
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722693"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -55,9 +56,10 @@ Azure は複数のクラウドに分散されます。 既定では、テナン�
 
 * **SharePoint Online への埋め込み** - Power BI Web パーツを使って、SharePoint Online にコンテンツを埋め込むことはできません。
 * **米国政府向け Power BI** は **Pro** ライセンスとしてのみ利用できます。 管理ポータルで (あるいは、ユーザーとして) Power BI (無償版) ライセンスを参照するとき、それは商用 Power BI サービス クラウドで実行されます。
-* **監査** - Office 365 のセキュリティとコンプライアンス ポータルでは、監査を使用できません。
+* **監査** - 2018 年 6 月時点では、Office 365 のセキュリティとコンプライアンス ポータルで監査を使用することができます。
 * **Cortana の Power BI コンテンツ** - Power BI の結果は Cortana の検索結果に表示されません。たとえば、Power BI コンテンツ (ダッシュボード、レポート、アプリ) の結果や、特定のキーワードに対して Cortana 最適化レポート ページを表示する結果は表示されません。
-* **外部ユーザー共有** - 共有は BI テナント内でのみ許可されます。Power BI テナントの外部のユーザーとは共有できません。
+* **外部ユーザー共有** - 共有は Power BI テナント内で許可されます。2018 年 6 月時点では、Power BI テナントの外部のユーザーとの共有も許可されます。
+* **ダッシュボードとレポートの利用状況指標** - レポートとダッシュボードで利用状況指標を使用することはできません。 お客様は監査ログ データを使用して、組織のコンテンツの利用状況情報を取得できます。
 
 **Power BI** 無償版ライセンスがアカウントに割り当てられている場合、そのアカウントは **Power BI** サービスの商用バージョンで実行されます。**米国政府向け Power BI** サービスには含まれません。 無償版アカウントの場合、次の問題が発生することがあります。
 

@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/09/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e36f8596141ab5d7ad82ffecb808b7d684334923
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 55d6259c3ae044d395bd0b077577856dd88ff43c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720767"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI の DirectQuery でサポートされるデータ ソース
 **Power BI Desktop** と **Power BI サービス**には、接続してデータへのアクセスを可能にする多数のデータ ソースがあります。 この記事では、Power BI のどのデータ ソースが **DirectQuery** と呼ばれる接続方法をサポートしているかを説明します。 DirectQuery の詳細については、「[**Power BI での DirectQuery**](desktop-directquery-about.md)」を参照してください。
@@ -41,6 +42,10 @@ ms.lasthandoff: 05/17/2018
 名前の後に **(ベータ)** または **(プレビュー)** と書かれているデータ ソースには、変更される可能性があり、運用での使用はサポートされていません。 **Power BI サービス**にレポートを発行した後はサポートされない可能性もあるので、発行されたレポートを開いたり、データセットを探したりした場合にエラーが発生することがあります。
 
 **(ベータ)** と **(プレビュー)** のデータ ソースの唯一の違いは、使用可能になる前に、**(プレビュー)** のソースはプレビュー機能として有効にする必要があるという点です。 **(プレビュー)** データ コネクタを有効にするには、**Power BI Desktop** で **[ファイル]、[オプションと設定]、** の順に進み、**[プレビュー機能]** を選択します。
+
+> [!NOTE]
+> SQL Server への DirectQuery クエリでは、アクセスを確立するために、現在の Windows 認証資格情報またはデータベース資格情報を使って認証を行うが必要があります。 代替資格情報はサポートされていません。
+>
 
 ## <a name="on-premises-gateway-requirements"></a>オンプレミス ゲートウェイの要件
 次の表では、**Power BI サービス**にレポートを発行した後に、指定したデータ ソースに接続するために、**オンプレミス データ ゲートウェイ**が必要かを示します。

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23262d16993043bff90b50ccd55dc7903c5fc23b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 09322a1ead6ae4c3a00dc42e2b4a642dcc2d6181
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34291744"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584141"
 ---
 # <a name="basic-area-chart"></a>基本的な面グラフ
 基本的な面グラフ (層グラフとも呼ばれます) は、折れ線グラフに基づいています。 軸と折れ線の間の領域は、量を示すために色で塗りつぶされます。 
@@ -62,7 +62,9 @@ ms.locfileid: "34291744"
 
 グラフ内の 1 つの特定の領域を強調表示するには、その領域または上部の境界を選びます。  他の視覚エフェクトの種類とは異なり、同じページに他の視覚エフェクトがある場合、基本的な面グラフを強調表示しても、レポート ページの他の視覚エフェクトはクロス フィルター処理されません。 ただし、面グラフは、レポート ページ上の他の視覚化によってトリガーされたクロス フィルター処理のターゲットになります。 詳しくは、「[Power BI レポートでの視覚化の相互作用](service-reports-visual-interactions.md)」をご覧ください。
 
-## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
+
+## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング   
+* [障碍を持つユーザーのためにレポートをより使いやすくする](desktop-accessibility.md)
 * 基本的な面グラフは、複数層の面の重なりによって値がわかりにくくなるため、値の比較には有効ではありません。 Power BI では、面の重なりを示すために透過が使用されます。 ただし、透過は 2 つか 3 つの異なる面についてのみうまく機能します。 4 つ以上のメジャーとトレンドを比較する必要がある場合は、折れ線グラフを使用してみてください。 4 つ以上のメジャーと量を比較する必要がある場合は、ツリーマップを使用してみてください。
 
 ## <a name="next-steps"></a>次の手順

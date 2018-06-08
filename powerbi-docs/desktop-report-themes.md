@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721181"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop でレポートのテーマを使用する (プレビュー)
 **レポートのテーマ**では、企業の色、季節の色、または適用する可能性がある他の色のテーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。
@@ -54,7 +55,7 @@ Power BI Desktop レポートにレポートのテーマを適用するには、
 
 * **name** - これはテーマ名で、唯一の必須フィールドです。
 * **dataColors** - Power BI Desktop ビジュアルのデータで使用する色の 16 進コードのリストです。 このリストには、必要な数の色を含めることができます。
-* **background**、**foreground**、**tableAccent** - これらの値は、**テーブル**および**マトリックス** ビジュアルで使用する必要がある色です。 これらの色の使用方法は、適用される特定のテーブルまたはマトリックスのスタイルによって異なります。 **テーブル** ビジュアルおよび**マトリックス** ビジュアルには、既定ではこれらのスタイルが適用されます。
+* **background**、**foreground**、**tableAccent** - これらの値は、さまざまな種類のビジュアルで適用される必要がある色です。 **foreground** はテキストボックス テキスト、KPI 目標テキスト、複数行カード テキスト、カード値テキスト、ゲージ吹き出しテキスト、垂直スライサー要素テキスト、**テーブル**と**マトリックス** の合計と値のテキストに適用されます。 **background** はボタン入力の塗りつぶしとコンボ チャート ラベルの背景に適用されます。 これらの色の使用方法は、適用される特定のビジュアルのスタイルによって異なります。 **テーブル** ビジュアルおよび**マトリックス** ビジュアルには、既定ではこれらのスタイルが適用されます。
 
 スタイルを**テーブル**または**マトリックス** ビジュアルに適用するには、ビジュアルを選択し、**[視覚化]** ウィンドウで **[書式]** セクションを選択してから **[マトリックスのスタイル]** を展開し、**[スタイル]** ドロップダウン リストからスタイルを選択します。
 

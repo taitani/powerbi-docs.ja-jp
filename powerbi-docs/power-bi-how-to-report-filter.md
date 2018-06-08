@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721388"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>レポート フィルター ウィンドウの使用方法
 この記事は、レポート フィルター ウィンドウについて詳しく説明します。 [Power BI サービスの編集ビューと読み取りビュー](service-reading-view-and-editing-view.md)および [Power BI Desktop のレポート ビュー](desktop-report-view.md)にウィンドウが表示されます。
@@ -22,7 +23,7 @@ ms.lasthandoff: 05/17/2018
 Power BI でデータをフィルター処理するには、さまざまな方法があります。最初に「[フィルター処理と強調表示](power-bi-reports-filters-and-highlighting.md)」をお読みになることをおすすめします。
 
 ## <a name="working-with-the-report-filters-pane"></a>レポート フィルター ウィンドウの操作
-Power BI Desktop では、レポートはレポート ビューで開かれます。 Power BI サービスでは、レポートは[編集ビューまたは読み取りビュー](service-reading-view-and-editing-view.md)で開くことができます。 編集ビュー、および Desktop のレポート ビューでは、レポート所有者は[レポートにフィルターを追加](power-bi-report-add-filter.md)できます。そのフィルターはレポートと共に保存されます。 読み取りビューでレポートを表示するユーザーは、フィルターを編集できますが、新しいフィルターをレポートに追加することはできません。
+Power BI Desktop では、レポートはレポート ビューで開かれます。 Power BI サービスでは、レポートは[編集ビューまたは読み取りビュー](service-reading-view-and-editing-view.md)で開くことができます。 編集ビュー、および Desktop のレポート ビューでは、レポート所有者は[レポートにフィルターを追加](power-bi-report-add-filter.md)できます。そのフィルターはレポートと共に保存されます。 読み取りビューでレポートを表示するユーザーは、フィルターを操作し、その変更内容を保存できますが、新しいフィルターをレポートに追加することはできません。
 
 Power BI サービスでは、フィルター ウィンドウで行う変更がすべてレポートで保持され、その変更はモバイル バージョンのレポートに反映されます。 フィルター ウィンドウを作成者の既定値にリセットするには、上部のメニューバーから **[既定値にリセット]** を選択します。     
 

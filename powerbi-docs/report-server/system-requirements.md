@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 2963dbe2a5d1109e4396568624e16bf49d98da10
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481736"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件
 ここでは、Power BI レポート サーバーをインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。
@@ -57,7 +58,7 @@ Power BI レポート サーバーは、既定値をインストールして、�
  レポート サーバーは読み取り専用ドメイン コント ローラー (RODC) が存在する環境にインストールできますが、Reporting Services が正常に機能するには、読み取り/書き込み可能なドメイン コントローラーへのアクセスが必要です。 Reporting Services が RODC にしかアクセスできない場合は、サービスを管理しようとするとエラーが発生する可能性があります。
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI レポートおよび Analysis Services のライブ接続
-表形式または多次元インスタンスに対してライブ接続を使用することはできません。 Analysis Services サーバーが正常に動作するには、適切なバージョンとエディションを満たす必要があります。
+表形式または多次元インスタンスに対してライブ接続を使用することができます。 Analysis Services サーバーが正常に動作するには、適切なバージョンとエディションを満たす必要があります。
 
 | **サーバーのバージョン** | **必要な SKU** |
 | --- | --- |
@@ -66,8 +67,8 @@ Power BI レポート サーバーは、既定値をインストールして、�
 | 2016 以降 |Standard SKU 以上 |
 
 ## <a name="next-steps"></a>次の手順
-[ユーザー向けハンドブック](user-handbook-overview.md)  
-[管理者向けハンドブック](admin-handbook-overview.md)  
+[Power BI Report Server とは](get-started.md)  
+[管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)

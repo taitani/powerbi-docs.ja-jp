@@ -7,14 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f5eeb877488539254478ad4bc25d64d663b797f1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722453"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI で Salesforce に接続する
 Power BI を使用すると、簡単に Salesforce.com アカウントに接続できます。 この接続を作成すると、データが取得され、そのデータに基づいて自動的にダッシュボードおよび関連するレポートが提供されます。
@@ -74,6 +75,11 @@ Power BI 用の [Salesforce コンテンツ パック](https://app.powerbi.com/g
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 エラーが発生した場合は、上記の要件を確認してください。 また、現在のところ、カスタム ドメインやサンドボックス ドメインへのログインはサポートされていないことにご注意ください。
+
+### <a name="unable-to-connect-to-the-remote-server-message"></a>"リモート サーバーに接続できません" メッセージ
+
+Salesforce アカウントに接続しようとしたときに "リモート サーバーに接続できません" というメッセージが表示された場合は、Outsystems フォーラムのこちらの解決策 (「[[Salesforce Connector] Log In Error Message : Unable to connect to the remote server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)」 ([Salesforce コネクタ] ログイン エラー メッセージ: リモート サーバーに接続できません)) を参照してください。
+
 
 ## <a name="next-steps"></a>次の手順
 [Power BI の概要](service-get-started.md)

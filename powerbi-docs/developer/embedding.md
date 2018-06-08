@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561749"
 ---
 # <a name="embedding-with-power-bi"></a>Power BI で埋め込み
 Power BI には、ダッシュボードとレポートをアプリケーションに埋め込むための API があります。 Power BI API では、一貫性のある一連の機能を利用し、コンテンツを埋め込むときにダッシュボード、ゲートウェイ、アプリ ワークスペースなどの最新の Power BI 機能にアクセスできます。
@@ -32,11 +33,13 @@ Power BI ライセンスのない顧客やユーザーの場合、同じ API を
 
 組織向けの埋め込みについては、以下をご覧ください。
 
+* [レポートをアプリに統合する](integrate-report.md)
 * [ダッシュボードをアプリに統合する](integrate-dashboard.md)
 * [タイルをアプリに統合する](integrate-tile.md)
-* [レポートをアプリに統合する](integrate-report.md)
 
 編集や保存などのセルフサービス機能は、Power BI ユーザー向けの埋め込みの際に [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) を介して使用できます。
+
+[オンボード エクスペリエンス ツール](https://aka.ms/embedsetup/UserOwnsData)を利用すれば、組織向けの埋め込みをすぐに始めることができます。サンプル アプリケーションをダウンロードし、組織向けのレポートを段階的に組み込むことができます。
 
 ## <a name="embedding-for-your-customers"></a>顧客向けの埋め込み
 顧客向けの埋め込みでは、Power BI のアカウントがないユーザーのためにダッシュボードとレポートを埋め込むことができます。 顧客は Power BI について何も知る必要はありません。 埋め込みアプリケーションを作成するには、少なくとも 1 つの Power BI Pro アカウントが必要です。 Power BI Pro アカウントは、アプリケーションのマスター アカウントとして機能します。 これをプロキシ アカウントと見なします。 Power BI Pro アカウントを使用して、アプリケーションが所有/管理する Power BI サービス内のダッシュボードとレポートにアクセスできる埋め込みトークンも生成できます。 
@@ -50,11 +53,12 @@ Power BI ライセンスのない顧客やユーザーの場合、同じ API を
 > [!IMPORTANT]
 > 埋め込みが Power BI サービスに依存する場合でも、顧客が Power BI に依存することはありません。 ユーザーは、アプリケーションに埋め込まれたコンテンツを表示するために Power BI にサインアップする必要はありません。
 > 
-> 
 
 運用環境に移行する準備ができたら、アプリ ワークスペースを容量に割り当てる必要があります。 Microsoft Azure 内の Power BI Embedded が、アプリケーションで使う容量を提供します。
 
 埋め込み方法の詳細については、「[Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embedding-content.md)」を参照してください。
+
+[オンボード エクスペリエンス ツール](https://aka.ms/embedsetup/AppOwnsData)を利用すれば、顧客向けの埋め込みをすぐに始めることができます。サンプル アプリケーションをダウンロードし、レポートをアプリケーションに段階的に組み込むことができます。
 
 Azure で Power BI ワークスペース コレクション サービスを使っていた場合、コンテンツを移行する方法については、「[Power BI に Power BI Embedded ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md)」を参照してください。
 

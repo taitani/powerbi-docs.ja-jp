@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b70a9ef7774d1ba49bc5bf825a5c1cde47197f2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561795"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI レポートでのグラフの並べ替え方法の変更
 Power BI レポートのほとんどの視覚エフェクトは、グラフ内のカテゴリ名のアルファベット順や、各カテゴリの数値順に、並べ替えることができます。 たとえば、このグラフは店舗名を基準に並べ替えられています。
@@ -29,6 +30,13 @@ Power BI レポートのほとんどの視覚エフェクトは、グラフ内�
    ![](media/power-bi-report-change-sort/sortby.gif)
 
    **注**: すべての視覚化が並べ替え可能なわけではありません。  たとえば、以下の視覚化は並べ替えできません: ツリーマップ、マップ、塗り分け地図、散布図、ゲージ、カード、複数行のカード、ウォーターフォール。
+
+## <a name="saving-changes-you-make-to-sort-order"></a>並べ替え順序の変更を保存する
+Power BI レポートでは、フィルター、スライサー、並べ替え、その他のデータ ビューに行った変更が保存されます。 そのため、レポートを終了し後で戻ったときに、変更が保存されています。  レポート作成者の設定に戻す場合、一番上のメニュー バーから **[既定値にリセット]** を選択してください。 
+
+![永続的な並べ替え](media/power-bi-report-change-sort/power-bi-reset-to-default.png)
+
+ただし、**[既定値にリセット]** ボタンが淡色表示になっている場合、変更を保存する (永続化する) 機能をレポート作成者が無効にしています。
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>その他の条件を使用した並べ替え

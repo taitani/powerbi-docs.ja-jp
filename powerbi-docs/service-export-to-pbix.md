@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722545"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI サービスからデスクトップにレポートをエクスポートする (プレビュー)
 Power BI Desktop では、レポートを保存して **[発行]** を選ぶことにより、レポートを Power BI サービスにエクスポートできます (*ダウンロード* ともいいます)。 反対の方向にもエクスポートでき、Power BI サービスから Desktop にレポートをダウンロードできます。 どちらの方向でも、エクスポートされたファイルの拡張子は *.pbix* です。
@@ -57,6 +58,7 @@ Power BI サービスからの *.pbix* ファイルのダウンロード (エク
 * この機能は、**Power BI サービス** (コンテンツ パックを含みます) でもともと作成されたレポートには使用できません。
 * ダウンロードしたファイルを開くときは常に、最新バージョンの **Power BI Desktop** を使用する必要があります。 最新バージョンではない **Power BI Desktop** では、ダウンロードした *.pbix* ファイルを開くことができない場合があります。
 * データをエクスポートする機能を管理者が無効にしている場合、この機能は **Power BI サービス**に表示されません。
+* 増分更新を使用しているデータセットは *.pbix* ファイルにダウンロードできません。
 
 ## <a name="next-steps"></a>次の手順
 この機能に関しては、**Guy in a Cube** の簡単なビデオをご覧ください。

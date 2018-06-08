@@ -1,28 +1,20 @@
 ---
 title: Power BI Report Server の Web ポータルでコンテンツを管理する
 description: Power BI Report Server の Web ポータルでコンテンツを管理する方法について説明します。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/07/2018
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 022d884e98876a78ab1cfd53cc93cd648cb68efe
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33892510"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721710"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Web ポータルでコンテンツを管理する 
 Power BI レポート サーバー Web ポータルは、Power BI レポート、モバイル レポート、およびページ分割されたレポート、および KPI を表示、格納、および管理するためのオンプレミスの場所です。
@@ -75,9 +67,7 @@ Power BI レポート サーバーでは、Web ポータルに格納する項目
 [Web ポータルでサブスクリプションの使用](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)の詳細を参照してください。
 
 ## <a name="next-steps"></a>次の手順
-[ユーザー向けハンドブック](user-handbook-overview.md)  
-[ページ分割されたレポート](quickstart-create-paginated-report.md)  
-[Power BI レポート](quickstart-create-powerbi-report.md)
+[Power BI Report Server とは](get-started.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

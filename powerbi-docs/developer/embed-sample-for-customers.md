@@ -3,18 +3,18 @@ title: 顧客向けのアプリケーションに Power BI コンテンツを埋
 description: Power BI API を使って、Web アプリに顧客向けのレポート、ダッシュボード、タイルを統合する (埋め込む) 方法を説明します。
 author: markingmyname
 ms.author: maghan
-ms.date: 05/07/2018
+ms.date: 05/25/2018
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: dd46617f5a3b1445c597656148e4068ef3cfed92
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: ae683dfbeb7b3848575ab766c33b695eb823d497
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2018
-ms.locfileid: "34445235"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721043"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>チュートリアル: 顧客向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
 **Azure の Power BI Embedded** を使うと、**アプリ所有データ**を使用してレポート、ダッシュボード、またはタイルをアプリケーションに埋め込むことができます。 **アプリ所有データ**がある場合、Power BI を埋め込み分析プラットフォームとして使用するアプリケーションが含まれます。 これは通常、**ISV 開発者**のシナリオです。 **ISV 開発者**は、アプリケーションのユーザーが Power BI ライセンスを必要としたり、さらには内部に Power BI があることすら意識したりせずに、完全に統合された対話型のアプリケーションにレポート、ダッシュボード、またはタイルを表示する Power BI コンテンツを作成することができます。 このチュートリアルでは、**アプリ所有データ**を使用する顧客向けに **Azure の Power BI Embedded** を使用しているときに、**Power BI** .NET SDK と **Power BI** JavaScript API を使って、アプリケーションにレポートを統合する方法を示します。
@@ -36,6 +36,9 @@ ms.locfileid: "34445235"
 
 アプリケーションへのレポート、ダッシュボード、タイルの埋め込みを開始する前に、埋め込めるように環境がセットアップされていることを確認する必要があります。 セットアップの一環として、以下を行う必要があります。
 
+[オンボード エクスペリエンス ツール](https://aka.ms/embedsetup/AppOwnsData)を使うと、環境の作成とレポートの埋め込みに役立つサンプル アプリケーションを間単にダウンロードして実行できます。
+
+ただし、手動で環境をセットアップする場合は、以下を続行できます。
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure Active Directory (Azure AD) にアプリケーションを登録する
 
 アプリケーションを Azure Active Directory に登録すると、アプリケーションは Power BI REST API にアクセスできるようになります。 これにより、アプリケーションの ID を設定し、Power BI REST リソースへのアクセス許可を指定することができます。

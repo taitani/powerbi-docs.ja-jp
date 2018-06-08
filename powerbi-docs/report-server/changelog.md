@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/11/2017
+ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295682"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482132"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -145,8 +145,8 @@ ms.locfileid: "34295682"
 
 ## <a name="next-steps"></a>次の手順
 
-[ユーザー向けハンドブック](user-handbook-overview.md)  
-[管理者向けハンドブック](admin-handbook-overview.md)  
+[Power BI Report Server とは](get-started.md)
+[管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)

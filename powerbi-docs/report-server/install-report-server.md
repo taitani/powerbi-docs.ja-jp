@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: a0fc47776cd0eaceb4a03a99bc27b88b04da398d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 830c867c6f495c30bd28640db9adab964bc5e2bd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721733"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
@@ -130,7 +131,7 @@ Web サービスの URL と Web ポータルの URL 用に構成した TCP ポ�
 * レポート コンピューターで Web ポータルにアクセスしてレポートを表示および管理できるように Web ポータルを構成するには、「[Configure a firewall for report server access](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)」 (レポート サーバーにアクセスするためのファイアウォールを構成する) と「[Configure a Report Server for Remote Administration](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)」 (リモート管理用にレポート サーバーを構成する) を参照してください。
 
 ## <a name="next-steps"></a>次の手順
-[管理者向けハンドブック](admin-handbook-overview.md)  
+[管理者の概要](admin-handbook-overview.md)  
 [レポート サーバーのプロダクト キーを検索する方法](find-product-key.md)  
 [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  
 [レポート サービスのインストールを確認する](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  

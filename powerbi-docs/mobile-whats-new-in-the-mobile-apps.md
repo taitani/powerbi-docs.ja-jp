@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 5bd38c7973a4820b98e6591a12a8950987759b93
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482178"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -21,6 +22,12 @@ ms.lasthandoff: 05/17/2018
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](desktop-latest-update.md)  
 * [Power BI サービスの新機能](service-whats-new.md)  
+
+## <a name="may-2018"></a>2018 年 5 月
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>レポート サーバー向け Power BI iOS モバイル アプリをリモート構成する
+
+IT 管理者は MDM ツールを使用し、レポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成できるようになりました。 詳細については、「[Configure Power BI iOS mobile app access to a report server remotely](report-server/configure-powerbi-mobile-apps-remote.md)」 (リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する) を参照してください。
 
 ## <a name="april-2018"></a>2018 年 4 月
 
@@ -187,7 +194,7 @@ Power BI コンテンツの編成については[ここ](mobile-apps-find-conten
 #### <a name="ios-devices"></a>iOS デバイス
 **Q&A のプレビューによるデータに関する質問** 
 
-Q&A を使って自分の言葉でデータに関する質問をすると、Power BI が答えてくれます。 Q&A は、Power BI サービス (http://powerbi.com) で既に提供されています。また、[iPhone または iPad のモバイル アプリで使用する](mobile-apps-ios-qna.md)こともできます。
+Q&A を使って自分の言葉でデータに関する質問をすると、Power BI が答えてくれます。 Q&A は、Power BI サービス (http://powerbi.com) で既に提供されています。 また、[iPhone または iPad のモバイル アプリで使用する](mobile-apps-ios-qna.md)こともできます。
 
 **複数の SSRS サーバーへの接続** 
 

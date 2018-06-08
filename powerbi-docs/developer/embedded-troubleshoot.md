@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720813"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -74,7 +75,7 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 さらに調査するには、Fiddler キャプチャが必要になる場合があります。 403 エラーにはいくつかの理由が考えられます。
 
-* ユーザーが共有容量で生成できる埋め込みトークンの量を超えました。 埋め込みトークンを生成するための Azure 容量を購入し、ワークスペースをその容量に割り当てる必要があります。 「[Azure Portal での Power BI Embedded 容量の作成](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)」をご覧ください。
+* ユーザーが共有容量で生成できる埋め込みトークンの量を超えました。 埋め込みトークンを生成するための Azure 容量を購入し、ワークスペースをその容量に割り当てる必要があります。 「[Azure Portal での Power BI Embedded 容量の作成](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)」をご覧ください。
 * Azure AD 認証トークンの有効期限が切れています。
 * 認証されたユーザーがグループ (アプリ ワークスペース) に属していません。
 * 認証されたユーザーがグループ (アプリ ワークスペース) の管理者ではありません。
@@ -127,11 +128,58 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 **レポートまたはダッシュボードが読み込まれない**
 
-ユーザーがレポートまたはダッシュボードを表示できない場合、それが powerbi.com 内で正しく読み込まれることを確認してください。powerbi.com 内で読み込まれない場合、レポートまたはダッシュボードがアプリケーション内で機能することはありません。
+ユーザーがレポートまたはダッシュボードを表示できない場合、それが powerbi.com 内で正しく読み込まれることを確認してください。 powerbi.com 内で読み込まれない場合、レポートまたはダッシュボードがアプリケーション内で機能することはありません。
 
 **レポートまたはダッシュボードの動きが遅い**
 
 Power BI Desktop から、あるいは powerbi.com 内でファイルを開き、パフォーマンスがアプリケーションまたは埋め込み API の問題として除外できる範囲であることを確認します。
+
+## <a name="onboarding-experience-tool-for-embedding"></a>埋め込み用のオンボード エクスペリエンス ツール
+
+[オンボード エクスペリエンス ツール](https://aka.ms/embedsetup)を使って、サンプル アプリケーションをすばやくダウンロードできます。 その後、アプリケーションとサンプルを比較できます。
+
+### <a name="prerequisites"></a>前提条件
+
+オンボード エクスペリエンス ツールを使う前に、適切な前提条件がすべてあることを確認します。 **Power BI Pro** アカウントと **Microsoft Azure** サブスクリプションが必要です。
+
+* **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/en-us/pricing/)してください。
+* Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)してください。
+* 独自の [Azure Active Directory テナント](create-an-azure-active-directory-tenant.md)のセットアップが必要です。
+* [Visual Studio](https://www.visualstudio.com/) がインストールされている必要があります (バージョン 2013 以降)。
+
+### <a name="common-issues"></a>一般的な問題
+
+オンボード エクスペリエンス ツールを使ってテストするときに発生する可能性がある一般的な問題は次のとおりです。
+
+#### <a name="using-the-embed-for-your-customers-sample-application"></a>顧客サンプル アプリケーションへの埋め込みの使用
+
+**顧客向けの埋め込み**エクスペリエンスを使用している場合、*PowerBI-Developer-Samples.zip* ファイルを保存して解凍します。 その後、*PowerBI-Developer-Samples-master\App Owns Data* フォルダーを開き、*PowerBIEmbedded_AppOwnsData.sln* ファイルを実行します。
+
+**[アクセス許可の付与]** を選ぶと ([アクセス許可の付与] ステップ)、次のエラーが発生します。
+
+    AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
+
+解決するには、ポップアップを閉じ、数秒待ってから、もう一度やり直してください。 この操作を数回繰り返す必要があるかもしれません。 アプリケーション登録プロセス完了から外部 API で使用可能になるまでの時間間隔が問題の原因です。
+
+サンプル アプリを実行すると、次のエラー メッセージが表示されます。
+
+    Password is empty. Please fill password of Power BI username in web.config.
+
+このエラーは、サンプル アプリケーションに挿入されていない唯一の値がユーザー パスワードであるために発生します。 ソリューションの Web.config ファイルを開き、pbiPassword フィールドにユーザーのパスワードを入力します。
+
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>組織サンプル アプリケーションへの埋め込みの使用
+
+**組織向けの埋め込み**エクスペリエンスを使用している場合、*PowerBI-Developer-Samples.zip* ファイルを保存して解凍します。 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* フォルダーを開き、*pbi-saas-embed-report.sln* ファイルを実行します。
+
+**組織向けの埋め込み**サンプル アプリを実行すると、次のエラーが発生します。
+
+    AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
+
+これは、Web サーバー アプリケーションに対して指定されているリダイレクト URL が、サンプルの URL と異なるためです。 サンプル アプリケーションを登録する場合は、リダイレクト URL として *http://localhost:13526/* を使います。
+
+登録済みのアプリケーションを編集する場合は、[AAD 登録済みアプリケーション](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)の編集方法を確認し、アプリケーションが Web API へのアクセスを提供できるようにします。
+
+Power BI ユーザー プロファイルまたはデータを編集する場合は、[Power BI データ](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)の編集方法をご覧ください。
 
 詳しくは、「[Power BI Embedded に関してよく寄せられる質問](embedded-faq.md)」をご覧ください。
 

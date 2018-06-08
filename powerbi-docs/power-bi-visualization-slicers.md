@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297356"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721503"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI のスライサー
 レポートを見る人が売り上げ全体の指標を調べることができるだけでなく、個々の地域マネージャーや異なる期間の実績に注目することもできるようにしたい場合があります。 個別レポートや比較グラフを作成してもかまいませんが、スライサーを使用することもできます。 スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。 
@@ -43,6 +43,13 @@ Power BI のスライサーには次の制限があります。
 ## <a name="create-slicers"></a>スライサーを作成する
 
 新しいスライサーを作成するには、スライサー アイコンを選んでから、フィルターを適用するデータ フィールドを選びます (または、データ フィールドを **[視覚化]** ウィンドウの **[フィールド]** ボックスにドラッグします)。または、先にデータ フィールドを選ぶかドラッグして視覚エフェクトを作成した後、スライサー アイコンを選んで視覚エフェクトをスライサーに変更することもできます。 データ型が異なると異なる種類のスライサーが作成され、効果とオプションも異なります。 
+
+初めてレポートを変更する際は、**[既定値にリセット]** のボタンが点灯します。 これは、元のレポート設定に変更を加えたことを知らせるためのものです。 レポートから移動する場合、その変更内容は保存 (保持) されます。 レポートに戻ったときに、レポートを再スライスする必要はありません。  ただし、レポートを作成者の既定の設定にリセットする場合は、上部のメニューバーから **[既定値にリセット]** ボタンを選択します。
+
+![既定値に戻すボタン](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> **[既定値にリセット]** ボタンが無効のままの場合、レポート作成者がレポートの機能を無効にしているか、レポートにカスタム ビジュアルが含まれていることを意味します。 ボタンの上にマウスを置くだけで、説明を示すヒントが表示されます。 
 
 **District Manager でデータをフィルター処理する新しいスライサーを作成するには**
 

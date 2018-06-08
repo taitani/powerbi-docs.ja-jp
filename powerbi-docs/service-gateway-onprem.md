@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722818"
 ---
 # <a name="on-premises-data-gateway"></a>オンプレミス データ ゲートウェイ
 
@@ -93,6 +94,11 @@ Power BI にサインインし、クラウド サービスにゲートウェイ�
 
 現在、テナント管理者が、他のユーザーがインストールおよび構成しているすべてのゲートウェイを管理できる場所がありません。  テナント管理者である場合は、組織内のユーザーに対して、インストールされているすべてのゲートウェイに管理者として追加することを求めるようお勧めします。 これにより、[ゲートウェイ設定] ページまたは [PowerShell コマンド](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)を介して組織内のすべてのゲートウェイを管理することができます。 
 
+## <a name="enabling-outbound-azure-connections"></a>Azure の送信接続を有効にする 
+オンプレミス データ ゲートウェイは、クラウド接続の際に Azure Service Bus に依存します。それに応じて、関連付けられている Azure リージョンへの送信接続を確立します。 既定では、これは Power BI テナントの場所となります。 「[Power BI テナントの場所](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)」を参照してください。
+送信接続がファイアウォールでブロックされている場合は、オンプレミス データ ゲートウェイから関連付けられている Azure リージョンへの送信接続を許可するようにファイアウォールを構成する必要があります。 各 Azure データ センターの IP アドレス範囲の詳細については、「[Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=41653)」 (Microsoft Azure データセンターの IP 範囲) を参照してください。
+> [!NOTE]
+> IP アドレスの範囲は時間の経過と共に変わる可能性があるため、必ず最新情報を定期的にダウンロードしてください。 
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 ゲートウェイをインストールおよび構成するときに問題が発生する場合は、「[オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)」をご覧ください。 ファイアウォールで問題が発生していると思われる場合は、トラブルシューティング記事の[ファイアウォールまたはプロキシ](service-gateway-onprem-tshoot.md#firewall-or-proxy)に関するセクションを参照してください。

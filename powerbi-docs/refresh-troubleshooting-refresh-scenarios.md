@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721572"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>更新に関するトラブルシューティング シナリオ
 ここでは、Power BI サービス内のデータを更新するときに直面する可能性のあるさまざまなシナリオに関する情報を提供します。
@@ -56,6 +57,14 @@ Microsoft は、データの読み込みプロセスでトークンが更新さ�
 
 ## <a name="scheduled-refresh-timeout"></a>スケジュールされた更新のタイムアウト
 インポートされたデータセットに対してスケジュールされた更新の 2 時間後のタイムアウト。 **Premium** ワークスペースのデータセットの場合、このタイムアウトは 5 時間に延長されます。 この制限がある場合は、データセットのサイズまたは複雑さを軽減することを検討するか、データセットをより細かく分けることを検討できます。
+
+## <a name="access-to-the-resource-is-forbidden"></a>リソースへのアクセスが禁止されています  
+このエラーは、キャッシュされた資格情報の有効期限が切れていることが原因で発生する可能性があります。 Power BI にサインインし、https://app.powerbi.com?alwaysPromptForContentProviderCreds=true に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>パスワードが変更されたか、資格情報の有効期限が切れているため、データを更新できない 
+キャッシュされた資格情報の有効期限が切れているため、データを更新できない可能性もあります。 Power BI にサインインし、https://app.powerbi.com?alwaysPromptForContentProviderCreds=true に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。
+
 
 ## <a name="next-steps"></a>次の手順
 [データ更新](refresh-data.md)  

@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a9173ba6b4689a6cc71eba679f9bcc0c54de048c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481787"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI レポートを使用するために Kerberos を構成する
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -214,7 +215,7 @@ SetSPN ツールを使って SPN を追加できます。 この例では、コ�
 この構成は Kerberos を使用するほとんどの場合に動作しますが、環境によっては構成が異なる場合があります。 レポートがまだ読み込まれない場合は、ドメイン管理者に連絡してさらに詳しく調査するか、サポートにお問い合わせください。
 
 ## <a name="next-steps"></a>次の手順
-[管理者向けハンドブック](admin-handbook-overview.md)  
+[管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
