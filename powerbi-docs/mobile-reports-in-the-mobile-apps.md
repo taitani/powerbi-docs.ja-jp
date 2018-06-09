@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297678"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799420"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -81,25 +81,30 @@ Power BI Desktop または Power BI サービスでレポートをデザイン�
    ![ビジュアルの並べ替え](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * 並べ替え順序を逆にするには、省略記号 (**...**) をもう一度タップし、同じフィールド名をタップします。
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>iPad またはタブレットでドリルダウンする
-レポート作成者がドリルダウン機能をビジュアルに追加した場合、iPad またはタブレットでビジュアルをドリルダウンして、含まれる値を表示することができます。 [ビジュアルへのドリルダウンの追加](power-bi-visualization-drill-down.md)は、Power BI Desktop または Power BI サービスで行います。 
+## <a name="drill-down-and-up-in-a-visual"></a>ビジュアルのドリルダウンとドリルアップ
+レポート作成者がドリルダウン機能をビジュアルに追加した場合、ビジュアルをドリルダウンして、含まれる値を表示することができます。 [ビジュアルへのドリルダウンの追加](power-bi-visualization-drill-down.md)は、Power BI Desktop または Power BI サービスで行います。 
 
-> [!NOTE]
-> 現在、iPad またはタブレット内のマップではドリルダウンが機能しません。
-> 
-> 
+* ツールヒントを表示するには、ビジュアルのデータ ポイントをタップします。 ドリルダウンできる場合は、ツールヒントの下にタップできる矢印があります。 
+  
+  ![ビジュアルをドリルダウンする](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* ビジュアルをタップします。 上の角に上矢印と下矢印がある場合は、 ![ドリルアップ、ドリルダウン アイコン](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png)ドリルダウンすることができます。 1 つの値についてドリルダウンするには、右上の矢印をタップし、ビジュアルの値 (この例では濃い青色の FD-04 バブル) をタップします。
+* ドリルアップするには、ツールヒントにある上矢印をタップします。
   
-  ![ビジュアルをドリルダウンする](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* ドリルアップするには、左上隅にある上矢印をタップします。
-  
-  ![ドリル アップ](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![ドリル アップ](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>マイ ワークスペースに戻る
-* レポート名の横の矢印をタップし、**[マイ ワークスペース]** をタップします。
-  
-  ![マイ ワークスペースに戻る](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* ビジュアル内のすべてのデータ ポイントでドリルダウンすることもできます。 フォーカス モードで開き、[エクスプローラー] アイコンをタップして、次のレベルをすべて表示するように選ぶか、展開して現在のレベルと次のレベルを表示します。
+
+   ![Power BI のすべてのドリルダウン](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>1 つのページから別のページへのドリルスルー
+
+*ドリルスルー*では、ビジュアルの特定の部分をタップすると、タップした値にフィルター処理され、レポートの別のページに移動します。 レポートの作成者は、別のページに移動できる、1 つまたは複数のドリルスルー オプションを定義できます。 その場合は、どれをドリルスルーするかを選ぶことができます。 次の例では、ゲージの値をタップすると、**ビジネス領域別の支出**と**ビジネス領域別の計画**のどちらにドリルスルーするかを選ぶことができます。
+
+![Power BI モバイルのドリルスルー レポート](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+ドリルスルーすると、[戻る] ボタンで前のレポート ページに戻ることができます。
+
+[Power BI Desktop でドリルスルーを追加する](desktop-drillthrough.md)方法をご確認ください。
 
 ## <a name="next-steps"></a>次の手順
 * [電話用に最適化された Power BI レポートの表示と対話](mobile-apps-view-phone-report.md)

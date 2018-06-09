@@ -1,25 +1,25 @@
 ---
 title: Power BI for Mixed Reality アプリ (プレビュー)
-description: 仮想世界に専念した状態で、または使用環境のコンテキストで、Power BI for Mixed Reality アプリでダッシュボードとレポートを表示します。
+description: 仮想世界に専念した状態で、または使用環境のコンテキストで、Power BI for Mixed Reality アプリ (プレビュー) でダッシュボードとレポートを表示します。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 32ef06cfdefe4ff1554cfe5f449d69583569f158
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 15c59d25814a50ce09b5b52accd0f88d74871a34
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721434"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799328"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality アプリ (プレビュー)
-仮想世界に専念した状態で Power BI for Mixed Reality アプリでダッシュボードとレポートを表示するか、使用環境のコンテキストで特定の場所にダッシュボードとレポートを配置します。 
+仮想世界に専念した状態で Power BI for Mixed Reality アプリ (プレビュー) でダッシュボードとレポートを表示するか、使用環境のコンテキストで特定の場所にダッシュボードとレポートを配置します。 
 
-ダッシュボードとレポート表示するには、Windows ストアからプレビュー版の Power BI for Mixed Reality アプリをダウンロードします。 仮想世界で対話してから、配置するものを選択します。 
+Windows ストアから [Power BI for Mixed Reality アプリをダウンロード](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab)します: Windows ストアでは "Power BI Mobile" と呼ばれています。 仮想世界のダッシュボードとレポートで対話してから、配置するものを選択します。 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>2 つのビュー: Windows クラシックとホログラフィック
 

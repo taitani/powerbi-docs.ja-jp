@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755325"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI サービスまたは Power BI Desktop を使用して Cortana のカスタム回答ページを作成する
 Power BI のすべての機能を使って、Cortana の質問に回答するために特別に設計された *Cortana 回答ページ* (*Cortana 回答カード*と呼ばれることもあります) と呼ばれる特別なレポート ページを作成できます。
@@ -45,6 +46,12 @@ Cortana for Power BI を設定し、利用するための 4 つのガイドが�
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. 特定の 1 つの質問 (または一連の複数の質問) への回答として Cortana で表示する 1 つのビジュアルまたは一連の複数のビジュアルを作成します。
+
+> [!NOTE]
+> 現時点では、Cortana の回答ページでは静的画像が表示される画像をサポートしていません。 データの URL に基づいて動的にプルされる画像をテーブルまたはマトリックスのビジュアルに含めることができます。 
+> 
+> 
+
 4. すべてのビジュアルがページの境界内に収まることを確認します。 必要に応じて、ディスプレイの設定、データのラベル、色、背景などを変更します。  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)

@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d569b68da7d13518f2d641817dfe1a68862698ac
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1da7591a490ae5bc6d132136691db05af7cffd81
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297885"
+ms.locfileid: "34754911"
 ---
 # <a name="what-are-power-bi-gateways"></a>Power BI ゲートウェイとは
 
 Power BI ゲートウェイは、オンプレミス ネットワーク内にインストールするソフトウェアです。それはネットワーク内のデータへのアクセスを容易にします。 それは門番のような存在であり、接続要求を待ち受け、ユーザーの要求が一定の条件を満たしたときにのみ、要求に応えます。 これにより、オンプレミス ネットワーク上の組織のデータベースと他のデータ ソースを維持したままで、オンプレミス データを Power BI のレポートとダッシュボードで安全に使用できます。
 
-次の図は、ゲートウェイの基本的な動作を示しています。ここでは、3 台のプレミス コンピューターに対するクラウドからの要求を処理しています。 この記事の中で詳しく説明します。
+ゲートウェイは、単一のデータ ソースにも複数のデータ ソースにも使用できます。 次の図は、ゲートウェイの基本的な動作を示しています。ここでは、3 台のプレミス コンピューターに対するクラウドからの要求を処理しています。 この記事の中で詳しく説明します。
 
 ![ゲートウェイの概要](media/service-gateway-getting-started/gateway-overview.png)
 

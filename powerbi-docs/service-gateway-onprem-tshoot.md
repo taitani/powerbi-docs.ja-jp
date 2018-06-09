@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-gateways
 ms.topic: conceptual
-ms.date: 03/23/2018
+ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a12ad01ad5e387b9ffe855ce15e8164656bfbf33
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755072"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのトラブルシューティング
 この記事では、**オンプレミス データ ゲートウェイ**を使用するときに発生する一般的な問題について説明します。
@@ -148,6 +149,9 @@ Analysis Service サーバーがユーザーとは異なるドメインにあり
 **Power BI サービスの Analysis Services の [データの取得] エクスペリエンスで、データ ゲートウェイのデータ ソースが表示されません**
 
 ゲートウェイ構成内のデータ ソースの **[ユーザー]** タブに、自分のアカウントが表示されていることを確認します。 ゲートウェイへのアクセス権がない場合は、ゲートウェイの管理者に連絡して確認を依頼してください。 **[ユーザー]** の一覧にあるアカウントのみが、Analysis Services の一覧にあるデータ ソースを参照できます。
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>エラー: このデータセットのデータ ソースにゲートウェイがインストールされていないか、構成されていません
+「[データ ソースの追加](service-gateway-manage.md#add-a-data-source)」の説明に従って、ゲートウェイに 1 つまたは複数のデータ ソースを追加しておきます。 管理ポータルの **[ゲートウェイの管理]** にゲートウェイが表示されない場合は、ブラウザーのキャッシュをクリアするか、サービスからサインアウトして再度サインインしてみてください。
 
 ## <a name="datasets"></a>データセット
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>エラー: この行に十分な領域がありません。

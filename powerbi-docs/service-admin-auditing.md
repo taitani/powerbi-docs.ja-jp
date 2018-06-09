@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297080"
+ms.locfileid: "34755026"
 ---
 # <a name="using-auditing-within-your-organization"></a>組織内での監査の使用
 
 Power BI で監査を使用して実行されたアクションを監視および調査する方法を説明します。 セキュリティ/コンプライアンス センターまたは PowerShell を使用できます。
 
-Power BI テナント内で、だれがどの項目にどのようなアクションを実行しているかを把握することは、組織が法令順守やレコード管理などの要件を満たすうえで非常に重要です。
+Power BI テナント内で、だれがどの項目にどのようなアクションを実行しているかを把握することは、組織が法令順守やレコード管理などの要件を満たすうえで非常に重要です。 Power BI の監査を使用すると、"レポートの表示" や "ダッシュボードの表示" など、ユーザーによって実行されたアクションを監査することができます。 監査を使用してアクセス許可を監査することはできません。 
 
 監査データは、日付範囲、ユーザー、ダッシュボード、レポート、データセット、アクティビティの種類によってフィルター処理できます。 アクティビティを csv (コンマ区切り値) ファイルとしてダウンロードし、オフラインで分析することもできます。
 
@@ -29,18 +29,18 @@ Power BI テナント内で、だれがどの項目にどのようなアクシ�
 監査ログにアクセスするには、次の要件を満たしている必要があります。
 
 - Office 365 セキュリティ/コンプライアンス センターの監査セクションにアクセスするには、Exchange Online のライセンスが必要です (Office 365 Enterprise E3 および E5 サブスクリプションに含まれます)。
-- グローバル管理者であるか、監査ログへのアクセス権を持つ Exchange 管理ロールを持っている必要があります。 
 
-  Exchange 管理ロールは、Exchange 管理センターによって制御されます。 詳細については、「[Exchange Online のアクセス許可](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx)」をご覧ください。
+- グローバル管理者であるか、監査ログへのアクセス権を持つ Exchange 管理ロールを持っている必要があります。 Exchange 管理ロールは、Exchange 管理センターによって制御されます。 詳細については、「[Exchange Online のアクセス許可](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx)」をご覧ください。
 
 - 監査ログへのアクセス権はあっても、グローバル管理者または Power BI サービスの管理者ではない場合は、Power BI 管理ポータルにアクセスできません。 この場合、Office 365 セキュリティ/コンプライアンス センターへの直接リンクが必要です。
 
-> [!NOTE]
-> テナント内で Power BI の監査ログを表示するには、テナント内に少なくとも 1 つの Exchange メールボックス ライセンスが必要です。
+- テナント内で Power BI の監査ログを表示するには、テナント内に少なくとも 1 つの Exchange メールボックス ライセンスが必要です。
 
 ## <a name="accessing-your-audit-logs"></a>監査ログへのアクセス
 
-Power BI のログを監査するには、O365 セキュリティ/コンプライアンス センターにアクセスする必要があります。
+Power BI のログを監査するには、O365 セキュリティ/コンプライアンス センターにアクセスします。
+
+監査を有効にしてから監査データを表示できるようになるまで、最大で 48 時間の遅延が発生する場合があります。 データがすぐに表示されない場合は、後で、監査ログを確認してください。 監査ログの表示アクセス許可を取得してからログにアクセスできるようになるまでにも、同様の遅延が発生する場合があります。
 
 1. 右上の**歯車アイコン**を選択します。
 
@@ -56,8 +56,7 @@ Power BI のログを監査するには、O365 セキュリティ/コンプラ�
 
 または、[Office 365 | セキュリティ/コンプライアンス](https://protection.office.com/#/unifiedauditlog)に移動します。
 
-> [!NOTE]
-> 監査ログへのアクセス権を持つ管理者以外のアカウントを提供するには、Exchange Online 管理センター内でアクセス許可を割り当てる必要があります。 たとえば、Organization Management などの既存の役割グループにユーザーを割り当てたり、監査ログの役割を持つ新しい役割グループを作成したりできます。 詳細については、「[Exchange Online のアクセス許可](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)」をご覧ください。
+監査ログへのアクセス権を持つ管理者以外のアカウントを提供するには、Exchange Online 管理センター内でアクセス許可を割り当てる必要があります。 たとえば、Organization Management などの既存の役割グループにユーザーを割り当てたり、監査ログの役割を持つ新しい役割グループを作成したりできます。 詳細については、「[Exchange Online のアクセス許可](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)」をご覧ください。
 
 ## <a name="search-only-power-bi-activities"></a>Power BI のアクティビティのみを検索する
 

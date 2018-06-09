@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7d6ad3cea224de097d5ebc81d33dbffa52b33378
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755141"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -46,7 +47,7 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
 ## <a name="usage-metrics"></a>利用状況の指標
-管理ポータルの最初のタブは、**[利用状況の指標ク]** です。 利用状況の指標レポートを使用して、組織の Power BI の利用状況を監視できます。 また、組織のどのユーザーやグループが Power BI を最もアクティブに使用しているかを確認することもできます。
+管理ポータルの最初のタブは、**[利用状況の指標]** です。 利用状況の指標レポートを使用して、組織の Power BI の利用状況を監視できます。 また、組織のどのユーザーやグループが Power BI を最もアクティブに使用しているかを確認することもできます。
 
 > [!NOTE]
 > ダッシュボードに初めてアクセスした場合、またはダッシュボードを長期間表示しなかった後でもう一度アクセスした場合は、ダッシュボードを読み込んでいる間、読み込み中画面が表示される可能性があります。
@@ -91,7 +92,7 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 
 ## <a name="audit-logs"></a>監査ログ
 
-管理ポータルの 3 番目のタブは、**[監査ログ]** です。 ログは、Office 365 セキュリティ/コンプライアンス センター内に存在します。 このセクションでは、Office 365 内のその領域にすばやくアクセスすることができます。 
+管理ポータルの 3 番目のタブは、**[監査ログ]** です。 ログは、Office 365 セキュリティ/コンプライアンス センター内に存在します。 このセクションでは、Office 365 内のその領域にすばやくアクセスすることができます。
 
 監査ログの詳細については、「[組織内の Power BI を監査する](service-admin-auditing.md)」を参照してください。
 
@@ -226,8 +227,6 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>組織全体のカスタム ビジュアルを有効にする
 組織内のユーザーは、カスタム ビジュアルを操作して共有することができます。 [詳細情報](power-bi-custom-visuals.md)
 
-![カスタム ビジュアルの設定](media/service-admin-portal/powerbi-admin-custom-visuals.png)
-
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。
 
@@ -246,7 +245,7 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 
 組織内のユーザーは監査を使用して、組織内の他のユーザーによって実行された Power BI のアクションを監視することができます。 [詳細情報](service-admin-auditing.md)
 
-監査ログのエントリを記録するには、この設定を有効にする必要があります。
+監査ログのエントリを記録するには、この設定を有効にする必要があります。 監査を有効にしてから監査データを表示できるようになるまで、最大で 48 時間の遅延が発生する場合があります。 データがすぐに表示されない場合は、後で、監査ログを確認してください。 監査ログの表示アクセス許可を取得してからログにアクセスできるようになるまでにも、同様の遅延が発生する場合があります。
 
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。

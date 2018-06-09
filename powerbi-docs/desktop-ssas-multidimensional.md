@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94152d1c1dc30bcaea212638e5ef65da6faf7ff7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286154"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799581"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop で SSAS 多次元モデルに接続する
 Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも呼ばれる) にアクセスできます。
@@ -98,3 +98,7 @@ Power BI Desktop では、SSAS MD の次の機能がサポートされていま�
   * ImageUrls
   * 次元セキュリティ
 
+## <a name="troubleshooting"></a>トラブルシューティング 
+次の一覧は、SQL Server Analysis Services (SSAS) に接続するときのすべての既知の問題を示しています。 
+
+* **エラー: モデル スキーマを読み込めませんでした** - このエラーは通常、Analysis Services に接続するユーザーがデータベース/キューブへのアクセス許可を持っていない場合に発生します。
