@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722795"
+ms.locfileid: "34755095"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium とは
 Power BI Premium には、組織やチームが Power BI サービスを実行するための専用のリソースが用意されており、より信頼できるパフォーマンスやより大きなデータ ボリュームが提供されます。 また、Premium ではコンテンツを広範囲に配布でき、ビューアーのユーザーごとのライセンスを購入する必要はありません。
@@ -62,8 +62,7 @@ Power BI Premium 容量の使用を開始するには、ワークスペースを
 Power BI Premium は、さまざまな v コア容量を含むノード構成で使用できます。 特定の SKU オファリングとコストの詳細については、[Power BI の料金に関するページ](https://powerbi.microsoft.com/pricing/)を参照してください。 [コスト計算ツール](https://powerbi.microsoft.com/calculator/)も利用できます。 埋め込み分析の容量計画については、「[Planning a Power BI Enterprise Deployment whitepaper](https://aka.ms/pbienterprisedeploy)」 (Power BI のエンタープライズ展開の計画に関するホワイト ペーパー) を参照してください。
 
 * P ノードは、埋め込み展開またはサービス展開で使用できます。
-* EM ノードは、埋め込み展開でのみ使用できます。
-* EM1 および EM2 
+* EM ノードは、埋め込み展開でのみ使用できます。 EM ノードでは Premium 容量にアクセスできません。たとえば、Power BI Pro ライセンスを持っていないユーザーとアプリを共有することはできません。
 
 >[!NOTE]
 >この表のリンクが正しく動作するのは、Office 365 の全体管理者の場合のみです。その他のユーザーの場合、404 エラーが表示されます。 

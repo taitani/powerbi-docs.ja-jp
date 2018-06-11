@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722660"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799558"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのプロキシ設定を構成する
 職場ではプロキシを介してインターネットにアクセスしている場合がありますが、 これは、オンプレミス データ ゲートウェイがサービスに接続できない原因となることがあります。
@@ -50,7 +50,7 @@ ms.locfileid: "34722660"
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-既定の構成は、Windows 認証で機能します。 プロキシで別の認証方法を使用している場合は、設定を変更する必要があります。 認証方法が不明な場合は、ネットワーク管理者にお問い合わせください。
+既定の構成は、Windows 認証で機能します。 プロキシで別の認証方法を使用している場合は、設定を変更する必要があります。 認証方法が不明な場合は、ネットワーク管理者にお問い合わせください。 基本的なプロキシ認証はお勧めしません。基本的なプロキシ認証を使用しようとすると、適切に構成されていないゲートウェイでプロキシ認証エラーが発生する場合があります。 解決するには、強力なプロキシ認証メカニズムを使用します。
 
 既定の資格情報を使用することに加え、<proxy> 要素を追加して、プロキシ サーバー設定を詳細に定義することができます。 たとえば、bypassonlocal パラメーターを false に設定することで、ローカル リソースの場合でも、オンプレミス データ ゲートウェイで常にプロキシが使用されるように指定できます。 これは、プロキシ ログ ファイルでオンプレミス データ ゲートウェイからのすべての https 要求を追跡する場合のトラブルシューティングに役立ちます。 次のサンプル構成では、すべての要求を IP アドレス 192.168.1.10 の特定のプロキシ経由で行う必要があることを指定します。
 
@@ -93,6 +93,10 @@ ms.locfileid: "34722660"
 5. 回復キーを使用してゲートウェイを復元します。
    
     これにより、新しいサービス アカウントで格納されているデータ ソースの資格情報の暗号化を解除できるようになります。
+    
+> [!NOTE]
+> サービス コントロール パネルを使用して直接サービス アカウントを変更する場合、ACL は自動的に更新されません。 新しいサービス アカウントが、インストール ファイルとフォルダーへのアクセスを持っていることを確認する必要があります。 ゲートウェイのインストール フォルダーは、C:\Program Files\On-premises data gateway の下にあります。 
+> 
 
 ## <a name="next-steps"></a>次の手順
 [オンプレミス データ ゲートウェイ (個人用モード)](service-gateway-personal-mode.md)

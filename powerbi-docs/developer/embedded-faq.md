@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721020"
+ms.locfileid: "34754934"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -103,8 +103,7 @@ Power BI Embedded は引き続き、マスター ユーザー (Power BI Pro の�
 
 Azure AD テナントを既に用意している場合、既存のディレクトリを利用できます。あるいは、埋め込みアプリケーション コンテンツ セキュリティに新しい Azure AD テナントを作成できます。
 
-AAD トークンを取得するには、Azure Active Directory 認証ライブラリのいずれかを使用できます。 複数のプラットフォームで利用可能なクライアント ライブラリがあります。
-https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
+AAD トークンを取得するには、Azure Active Directory 認証ライブラリ (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries) のいずれかを使用できます。 複数のプラットフォームで利用可能なクライアント ライブラリがあります。
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded とその他の Azure サービスの違いは何ですか?
 

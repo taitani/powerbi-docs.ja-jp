@@ -94,10 +94,6 @@
                   href: service-focus-mode.md
                 - name: ダッシュボードの印刷、ダッシュボード タイルの印刷、レポートの印刷
                   href: service-print.md
-                - name: レポートまたはダッシュボードにサブスクライブ
-                  href: service-report-subscribe.md
-                - name: さまざまな方法でレポートを開く
-                  href: service-report-open.md
                 - name: Power BI 内のコンテンツの名前を変更する
                   href: service-rename.md
                 - name: 全画面表示モード (テレビ モード) でダッシュボードとレポートを表示する
@@ -238,12 +234,16 @@
                   href: service-dashboard-themes.md
             - name: レポート
               items:
+                - name: さまざまな方法でレポートを開く
+                  href: service-report-open.md
                 - name: Power BI レポートでのグラフの並べ替え方法の変更
                   href: power-bi-report-change-sort.md
                 - name: ビジュアルからデータをエクスポートする
                   href: power-bi-visualization-export-data.md
                 - name: レポート フィルターの使用方法
                   href: power-bi-how-to-report-filter.md
+                - name: レポートまたはダッシュボードにサブスクライブ
+                  href: service-report-subscribe.md
             - name: 公開
               items:
                 - name: Power BI Publisher for Excel
@@ -252,22 +252,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Power BI での作業
           items:
-            - name: Excel ブックから魅力的なレポートを即座に作成する
-              href: service-from-excel-to-stunning-report.md
-            - name: Q&A を使用して視覚化およびレポートを作成する
-              href: power-bi-tutorial-q-and-a.md
-            - name: Excel ブック ファイルからデータを取得する
-              href: service-excel-workbook-files.md
-            - name: データセットから新しいレポートを作成
-              href: service-report-create-new.md
-            - name: Power BI の編集ビューでレポートと対話する
-              href: service-interact-with-a-report-in-editing-view.md
-            - name: ダッシュボードとレポートで共同作業および共有を行う方法
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: ダッシュボードとレポートを含むアプリを作成して発行する
-              href: service-create-distribute-apps.md
-            - name: スケジュールされた更新の構成
-              href: refresh-scheduled-refresh.md
             - name: ダッシュボード
               items:
                 - name: レポートからダッシュボードを作成する
@@ -304,6 +288,8 @@
                   href: service-data-classification.md
             - name: データに関する質問
               items:
+                - name: Q&A を使用して視覚化およびレポートを作成する
+                  href: power-bi-tutorial-q-and-a.md
                 - name: Power BI Gateway - Enterprise データでの Q&A の使用 (プレビュー)
                   href: service-q-and-a-direct-query.md
                 - name: データを Power BI Q&A に適合させる方法
@@ -318,6 +304,10 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: 作業の共有
               items:
+                - name: ダッシュボードとレポートで共同作業および共有を行う方法
+                  href: service-how-to-collaborate-distribute-dashboards-reports.md
+                - name: ダッシュボードとレポートを含むアプリを作成して発行する
+                  href: service-create-distribute-apps.md
                 - name: フィルター処理されたレポートを共有する
                   href: service-share-reports.md
                 - name: Power BI から Web への公開
@@ -354,6 +344,10 @@
                   href: power-bi-report-add-filter.md
                 - name: Power BI でレポートを保存する
                   href: service-report-save.md
+                - name: データセットから新しいレポートを作成
+                  href: service-report-create-new.md
+                - name: Power BI の編集ビューでレポートと対話する
+                  href: service-interact-with-a-report-in-editing-view.md
                 - name: Excel で分析
                   href: service-analyze-in-excel.md
                 - name: レポート内のビジュアルの相互作用を変更します。
@@ -382,6 +376,10 @@
                   href: power-bi-visualizations-arcgis.md
             - name: ファイルからのデータ
               items:
+                - name: Excel ブックから魅力的なレポートを即座に作成する
+                  href: service-from-excel-to-stunning-report.md
+                - name: Excel ブック ファイルからデータを取得する
+                  href: service-excel-workbook-files.md
                 - name: Power BI Desktop ファイルからデータを取得する
                   href: service-desktop-files.md
                 - name: コンマ区切り値 (.csv) ファイルからデータを取得する
@@ -406,6 +404,8 @@
                   href: service-azure-and-power-bi.md
             - name: データ更新
               items:
+                - name: スケジュールされた更新の構成
+                  href: refresh-scheduled-refresh.md
                 - name: Power BI Desktop ファイルから作成されたデータセットを更新する
                   href: refresh-desktop-file-local-drive.md
                 - name: Power BI Desktop ファイルから作成されたデータセットを更新する - クラウド
@@ -714,7 +714,7 @@
               href: desktop-create-phone-report.md
             - name: '[データを表示] と [レコードを表示] を使用'
               href: desktop-see-data-see-records.md
-        - name: 視覚エフェクト
+        - name: 視覚化
           items:
             - name: 視覚化のベスト プラクティス
               href: power-bi-visualization-best-practices.md
@@ -796,7 +796,7 @@
   items:
     - name: 概要
       items:
-        - name: Power BI モバイル アプリとは
+        - name: モバイル アプリとは
           href: mobile-apps-for-mobile-devices.md
     - name: クイックスタート
       items:
@@ -808,20 +808,20 @@
           href: tutorial-mobile-apps-ios-qna.md
     - name: 概念
       items:
-        - name: Power BI 用モバイル アプリの新機能
+        - name: モバイル アプリの新機能
           href: mobile-whats-new-in-the-mobile-apps.md
-        - name: モバイル アプリで現実世界から Power BI データを取得する
+        - name: モバイル アプリで現実世界のデータを取得する
           href: mobile-apps-data-in-real-world-context.md
-        - name: Power BI モバイル アプリでデータをオフライン表示する
+        - name: モバイル アプリでデータをオフライン表示する
           href: mobile-apps-offline-data.md
+        - name: Power BI for Mixed Reality アプリ (プレビュー)
+          href: mobile-mixed-reality-app.md
     - name: 方法
       items:
         - name: すべてのモバイル アプリ
           items:
             - name: モバイル アプリでのオンプレミス レポートの表示
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: Power BI for Mixed Reality アプリ (プレビュー)
-              href: mobile-mixed-reality-app.md
             - name: Power BI モバイル アプリからダッシュボードを共有する
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: モバイル アプリのタイルを操作する
@@ -850,7 +850,7 @@
               href: service-admin-mobile-intune.md
         - name: Android デバイス
           items:
-            - name: Power BI for Android アプリの概要
+            - name: Android アプリの概要
               href: mobile-android-app-get-started.md
             - name: '"お使いの企業 SSL 証明書が信頼されていません" を修正する'
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
@@ -858,7 +858,7 @@
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
-            - name: Power BI for iOS アプリの概要
+            - name: iOS アプリを使ってみる
               href: mobile-iphone-app-get-started.md
             - name: iPad アプリを使ってみる
               href: mobile-ipad-app-get-started.md
@@ -866,27 +866,27 @@
               href: mobile-apps-ios-qna.md
             - name: Power BI Apple Watch アプリ
               href: mobile-apple-watch.md
-            - name: iPhone の Power BI アプリからバーコードをスキャンする
+            - name: iPhone のアプリからバーコードをスキャンする
               href: mobile-apps-scan-barcode-iphone.md
             - name: Power BI for iOS アプリ
               href: mobile-ios-ipad-iphone-apps.md
         - name: iOS と Android
           items:
-            - name: モバイル アプリのタイル、レポート、ビジュアルの注釈付けと共有
+            - name: 注釈とモバイル アプリでの共有
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
         - name: Windows 10 デバイス用の Power BI アプリ
           items:
-            - name: Windows 10 用の Power BI モバイル アプリの概要
+            - name: Windows 10 用のモバイル アプリの概要
               href: mobile-windows-10-phone-app-get-started.md
             - name: スタート画面にダッシュ ボードをピン留めする
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Windows 10 用 Power BI モバイル アプリで、Reporting Services のモバイル レポートと KPI を表示する
+            - name: Windows 10 用アプリで、Reporting Services のモバイル レポートと KPI を表示する
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Surface Hub での Power BI の表示
               href: mobile-windows-10-app-presentation-mode.md
     - name: リソース
       items:
-        - name: Power BI モバイル アプリでサポートされる言語
+        - name: モバイル アプリでサポートされる言語
           href: mobile-apps-supported-languages.md
 - name: 開発者向け Power BI
   items:
@@ -914,8 +914,6 @@
           items:
             - name: 開発者ツールでカスタム ビジュアルを作成する
               href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: カスタム ビジュアルのセキュリティとプライバシーを確認する
-              href: service-custom-visuals-review-for-security-and-privacy.md
             - name: カスタム ビジュアルの認定を受ける
               href: power-bi-custom-visuals-certified.md
             - name: カスタム ビジュアルを AppSource に発行する
@@ -983,7 +981,7 @@
     - name: リファレンス
       items:
         - name: REST API
-          href: developer/rest-api-reference.md
+          href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: 'Power BI C# Git リポジトリ'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: .NET SDK ダウンロード

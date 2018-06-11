@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482178"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799627"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -25,9 +25,26 @@ ms.locfileid: "34482178"
 
 ## <a name="may-2018"></a>2018 年 5 月
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>レポート サーバー向け Power BI iOS モバイル アプリをリモート構成する
+### <a name="mobile-drill-through-all-mobile-apps"></a>モバイル ドリルスルー: すべてのモバイル アプリ
+
+レポート作成者がアクションを定義していた場合、選択したデータ ポイントからモバイル アプリ内の他のレポート ページにドリルスルーできます。 
+
+### <a name="back-button-all-mobile-apps"></a>[戻る] ボタン: すべてのモバイル アプリ
+
+スワイプするか、操作バーのレポート ページを選択するか、ドリルスルーを使用してレポート内を移動しているときに、[戻る] ボタンを使用すると、閲覧していた前のページに戻ります。 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>ダッシュボード テーマ: すべてのモバイル アプリ
+
+レポート作成者が Power BI サービスのダッシュボード テーマをカスタマイズすると、モバイル アプリでもダッシュボードの外観と雰囲気が変更されます。 ただし、背景画像は表示されません。
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
 
 IT 管理者は MDM ツールを使用し、レポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成できるようになりました。 詳細については、「[Configure Power BI iOS mobile app access to a report server remotely](report-server/configure-powerbi-mobile-apps-remote.md)」 (リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する) を参照してください。
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality アプリ (プレビュー)
+
+Power BI for Mixed Reality アプリが Microsoft ストアに登場しました。 仮想世界に専念した状態でダッシュボードとレポートを表示するか、あるいは使用環境のコンテキストで特定の場所にダッシュボードとレポートを配置して表示します。 コンテキストのために新しい「[Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss)」(Hololens での Power BI の紹介) のビデオを見るか、新しい [Power BI for Mixed Reality](mobile-mixed-reality-app.md) に関する記事をご覧ください。
+
 
 ## <a name="april-2018"></a>2018 年 4 月
 
