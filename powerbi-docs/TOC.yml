@@ -1136,6 +1136,8 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: エンタープライズ データ ソースの管理 - インポート/スケジュールされた更新
           href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: オンプレミスとクラウド データ ソースの統合
+          href: service-gateway-mashup-on-premises-cloud.md
         - name: Kerberos を使用したシングル サインオン (SSO)
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: プロキシ設定の構成
