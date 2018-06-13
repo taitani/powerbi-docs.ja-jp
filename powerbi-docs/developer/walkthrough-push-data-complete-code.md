@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289926"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813091"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>データセットにデータをプッシュする処理の完全なコード リスト
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
@@ -228,7 +228,7 @@ ms.locfileid: "34289926"
 [Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)  
 [Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)  
 [Power BI テーブルに行を追加する](walkthrough-push-data-add-rows.md)  
-[Power BI REST API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 
 

@@ -4,8 +4,6 @@
 ## <a name="common-issues"></a>一般的な問題
 ここでは、インターネット アクセスが制限されている環境でのユーザーに役立つ、一般的な問題と解決策について説明します。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>プロキシ サーバーへの認証
 プロキシは、ドメイン ユーザー アカウントからの認証を必要とする場合があります。 既定では、ゲートウェイは Windows サービスのログオン ユーザーのサービス SID を使用します。 ログオン ユーザーをドメイン ユーザーに変更すると、この認証に役立ちます。 詳細については、「[ドメイン ユーザーへのゲートウェイ サービス アカウントの変更](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user)」をご覧ください。
 

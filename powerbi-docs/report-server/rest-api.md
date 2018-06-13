@@ -1,5 +1,5 @@
 ---
-title: Power BI レポート サーバーのリリース ノート
+title: Power BI Report Server 用の REST API を使って開発する
 description: REST API を使うと、Power BI Report Server カタログ内のオブジェクトにプログラムでアクセスできます。
 author: markingmyname
 manager: kfile
@@ -9,14 +9,15 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721756"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250432"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Report Server 用の REST API を使って開発する
+
 Power BI Report Server は、Representational State Transfer (REST) API をサポートします。 REST API は、一連の HTTP 操作 (メソッド) をサポートするサービス エンドポイントであり、レポート サーバー内のリソースに対する作成、取得、更新、削除アクセスを提供します。
 
 REST API を使うと、Power BI Report Server カタログ内のオブジェクトにプログラムでアクセスできます。 オブジェクトの例としては、フォルダー、レポート、KPI、データ ソース、データセット、更新計画、サブスクリプションなどがあります。 REST API を使うと、たとえば、フォルダー階層内の移動、フォルダーの内容の検出、レポート定義のダウンロードなどを行うことができます。 オブジェクトを作成、更新、削除することもできます。 オブジェクトの操作の例は、レポートのアップロード、更新計画の実行、フォルダーの削除などです。
@@ -24,6 +25,7 @@ REST API を使うと、Power BI Report Server カタログ内のオブジェク
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>REST API の要求/応答のコンポーネント
+
 REST API の要求/応答ペアは、5 つのコンポーネントに分けることができます。
 
 * **要求 URI**。`{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}` で構成されます。 要求 URI は要求メッセージ ヘッダーに含まれていますが、ほとんどの言語やフレームワークでは要求メッセージとは別に渡す必要があるため、ここでは独立した項目にしてあります。
@@ -46,15 +48,17 @@ REST API の要求/応答ペアは、5 つのコンポーネントに分ける�
   * MIME でエンコードされた応答オブジェクトが HTTP 応答の本文で返されます (データを返す GET メソッドからの応答など)。 通常、これらのオブジェクトは、`Content-type` 応答ヘッダーによって示される、JSON や XML などの構造化された形式で返されます。
 
 ## <a name="api-documentation"></a>API のドキュメント
+
 最新の REST API には最新の API ドキュメントが必要です。 REST API は OpenAPI 仕様 ( Swagger 仕様とも呼ばれます) に基づいて構築されており、ドキュメントは [SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0) で入手できます。 SwaggerHub は、API のドキュメントだけでなく、JavaScript、TypeScript、C#, Java、Python、Ruby などの言語でのクライアント ライブラリの生成にも役立ちます。
 
 ## <a name="testing-api-calls"></a>API 呼び出しのテスト
+
 HTTP 要求/応答メッセージをテストするためのツールは [Fiddler](http://www.telerik.com/fiddler) です。 Fiddler は、REST 要求をインターセプトできる無料の Web デバッグ プロキシであり、HTTP 要求/応答メッセージの診断が容易になります。
 
 ## <a name="next-steps"></a>次の手順
+
 [SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0) で利用可能な API を確認してください。
 
 サンプルは [GitHub](https://github.com/Microsoft/Reporting-Services) で入手できます。 このサンプルには、TypeScript、React、webpack で構築された HTML5 アプリと、PowerShell の例が含まれます。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

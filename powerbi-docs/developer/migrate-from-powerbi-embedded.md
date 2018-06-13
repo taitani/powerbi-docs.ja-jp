@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689785"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813505"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法
 Power BI ワークスペース コレクションから Power BI Embedded に移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。
@@ -159,7 +159,7 @@ Power BI ワークスペース コレクションから移行したコンテン�
 
 ## <a name="rebuild-your-application"></a>アプリケーションを再構築する
 1. powerbi.com 内のレポートの場所と Power BI REST API を使用するには、アプリケーションを変更する必要があります。
-2. アプリケーションの*マスター* アカウントを使用して、AuthN/AuthZ 認証を再構築します。 このユーザーが他のユーザーの代わりに動作できるようにするには、[埋め込みトークン](https://msdn.microsoft.com/library/mt784614.aspx)を利用します。
+2. アプリケーションの*マスター* アカウントを使用して、AuthN/AuthZ 認証を再構築します。 このユーザーが他のユーザーの代わりに動作できるようにするには、[埋め込みトークン](https://docs.microsoft.com/rest/api/power-bi/embedtoken)を利用します。
 3. Powerbi.com からレポートをアプリケーションに埋め込みます。
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>ユーザーを Power BI ユーザーにマップする

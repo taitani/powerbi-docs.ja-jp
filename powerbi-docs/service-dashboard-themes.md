@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722522"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813804"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI サービスのダッシュボード テーマを使用する
 **ダッシュボード テーマ**では、企業の色、季節の色、または適用する可能性がある他の色のテーマなど、色のテーマをダッシュボード全体に適用することができます。 **ダッシュボード テーマ**を適用すると、ダッシュボードのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。
 
 ![テーマを適用したダッシュボードの例](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-ダッシュボードのレポート ビジュアルの色を変更しても、レポートのビジュアルには影響しません。 また、既に[レポート テーマが適用](/desktop-report-themes.md)されているレポートからタイルをピン留めする場合、現在のテーマを保持するか、ダッシュボード テーマを使用することを選択できます。
+ダッシュボードのレポート ビジュアルの色を変更しても、レポートのビジュアルには影響しません。 また、既に[レポート テーマが適用](desktop-report-themes.md)されているレポートからタイルをピン留めする場合、現在のテーマを保持するか、ダッシュボード テーマを使用することを選択できます。
 
 
 ## <a name="prerequisites"></a>前提条件

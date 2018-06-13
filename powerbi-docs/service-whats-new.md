@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/09/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0589ef3ad4f55a9684f0a7b31ed6421936c3e5c2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299173"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301851"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -24,7 +24,7 @@ ms.locfileid: "34299173"
 - [Power BI Desktop の新機能](desktop-latest-update.md)  
 - [Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI チーム ブログ](https://powerbi.microsoft.com/blog/)
-- Dynamics 365 の [2018 年春のビジネス アプリケーション リリース ノート](https://aka.ms/bagspring2018releasenotes_internal): ビジネス アプリケーションの最新の更新、およびプラットフォーム上でアプリケーションと拡張機能を構築するための新機能。 
+- Dynamics 365 の [2018 年春のビジネス アプリケーション リリース ノート](http://aka.ms/businessappsreleasenotes): ビジネス アプリケーションの最新の更新、およびプラットフォーム上でアプリケーションと拡張機能を構築するための新機能。 
 
 "新機能" および機能に関する情報を、YouTube チャンネルで確認することもできます。
 
@@ -255,7 +255,7 @@ ms.locfileid: "34299173"
 ***その他***
 
 * オーストラリアの Power BI: オーストラリアのユーザーはすべて、個人または組織を問わず、powerbi.microsoft.com にアクセスして、Power BI にサインアップできます。
-* 言語設定: 自動言語検出を無効化し、Power BI のための言語を設定します。
+* 言語設定: 自動言語検出をオーバーライドし、Power BI のための言語を設定します。
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/power-bi-service-march-update-part-two/)をご覧ください。
 
