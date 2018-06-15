@@ -900,8 +900,18 @@
           href: developer/embed-sample-for-customers.md
     - name: 概念
       items:
-        - name: Power BI API の機能
-          href: developer/overview-of-power-bi-rest-api.md
+        - name: Power BI REST API の操作
+          items:
+            - name: Power BI API の機能
+              href: developer/overview-of-power-bi-rest-api.md
+            - name: Power BI REST API の制限事項
+              href: developer/api-rest-api-limitations.md
+            - name: データセットのプロパティ
+              href: developer/api-dataset-properties.md
+            - name: データ モデルのバージョン管理
+              href: developer/api-data-model-versioning.md
+        - name: 開発者ツールでカスタム ビジュアルを作成する
+          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Power BI のアクセス許可
           href: developer/power-bi-permissions.md
         - name: 行レベルのセキュリティ (RLS)
@@ -968,6 +978,8 @@
               href: developer/walkthrough-push-data-add-rows.md
             - name: 完全なコード リスト
               href: developer/walkthrough-push-data-complete-code.md
+            - name: リアルタイム データの自動保持ポリシー
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
         - name: コンテンツ パック認定
           items:
             - name: コンテンツ パック認定プログラム
