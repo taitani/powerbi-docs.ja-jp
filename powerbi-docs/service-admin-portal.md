@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755141"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301828"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -218,10 +218,13 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 > [!NOTE]
 > また、**[データのエクスポート]** を無効にして、ユーザーが **[Excel で分析]** 機能を使用することを防ぐこともできます。
 
-### <a name="user-arcgis-maps-for-power-bi-preview"></a>Power BI の ArcGIS マップ (プレビュー) を使用する
+### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI を使用する
 
-組織内のユーザーは、Esri によって提供される Power BI の ArcGIS マップ (プレビュー) の視覚エフェクトを使用できます。 [詳細情報](power-bi-visualization-arcgis.md)
+組織内のユーザーは、Esri が提供する ArcGIS Maps for Power BI の視覚エフェクトを使用できます。 [詳細情報](power-bi-visualization-arcgis.md)
 
+### <a name="use-global-search-for-power-bi-preview"></a>Power BI でグローバル検索を使用する (プレビュー)
+
+組織のユーザーには、Azure Search に依存する外部の検索機能を使用できます。 たとえば、Cortana を使用し、Power BI のダッシュボードとレポートから重要な情報を直接取得できます。 [詳細情報](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>カスタム ビジュアルの設定
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>組織全体のカスタム ビジュアルを有効にする

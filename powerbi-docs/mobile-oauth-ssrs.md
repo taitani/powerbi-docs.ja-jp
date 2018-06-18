@@ -1,26 +1,27 @@
 ---
-title: OAuth を使って Reporting Services に接続する
-description: Reporting Services 2016 以降に接続するため、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。
+title: OAuth を使用し、Power BI Report Server と SSRS に接続する
+description: SQL Server Reporting Services 2016 以降に接続する目的で、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852212"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>OAuth を使って Reporting Services に接続する
-Reporting Services 2016 以降に接続するため、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth を使用し、Power BI Report Server と SSRS に接続する
+Power BI Report Server と SQL Server Reporting Services 2016 以降に接続する目的で、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-これまで Power BI モバイル アプリは、モバイル レポートまたは KPI を表示するために、Reporting Services に対する HTTPS 経由での基本認証のみをサポートしていました。 多くの組織では、セキュリティ上の理由からこの種の構成は許可されません。 Power BI モバイル アプリが更新されて、Reporting Services への接続に OAuth を使うことができるようになりました。 Windows Server 2016 では、この種の認証を許可するように、Web アプリケーション プロキシの役割が機能強化されています。
+OAuth を使用して Power BI Report Server と Reporting Services に接続し、モバイル レポートまたは KPI を表示できます。 Windows Server 2016 では、この種の認証を許可するように、Web アプリケーション プロキシ (WAP) の役割が機能強化されています。 この構成では、Power BI モバイル アプリで Power BI レポートを表示できないことにご注意ください。 ただし、モバイル デバイスのブラウザーで表示できます。 モバイル アプリで Power BI レポートを表示するには、Windows 認証を使用する必要があります。
 
 ## <a name="requirements"></a>要件
 Web アプリケーション プロキシ (WAP) および Active Directory フェデレーション サービス (ADFS) サーバーには、Windows Server 2016 が必要です。 Windows 2016 の機能レベル ドメインは必要ありません。
@@ -202,7 +203,8 @@ Power BI モバイル アプリ内で、Reporting Services インスタンスに
 多要素認証を有効にして、環境のセキュリティを強化できます。 詳しくは、「[Configure AD FS 2016 and Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)」 (AD FS 2016 と Azure MFA を構成する) をご覧ください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
-**[SSRS サーバーにログインできませんでした。サーバー構成を確認してください。] というエラーが表示される場合。**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>SSRS サーバーにログインできませんでした。 サーバー構成を確認してください。 というエラーが表示される場合。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

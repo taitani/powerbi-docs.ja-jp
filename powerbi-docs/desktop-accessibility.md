@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd0565420382fc22af67b1363b41f6d8ed6e92ab
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290754"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812930"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop レポートのアクセシビリティ
 **Power BI Desktop** には、障碍を持つユーザーがより簡単に **Power BI Desktop** レポートを使用したり対話したりする機能が用意されています。 これらは、レポートでキーボードやスクリーンリーダーを使用したり、ページ上のさまざまなオブジェクトにフォーカスをタブ移動したり、マーカーを使用して気の利いた視覚化を実行するための機能です。
@@ -66,6 +66,23 @@ ms.locfileid: "34290754"
 * レポートのテキストと背景色の間に十分なコントラストがあることを確認します。
 * 読みやすいテキストのサイズとフォントを使います。 小さいテキスト サイズや読みにくいフォントは、アクセシビリティを損ないます。
 * すべてのビジュアルにタイトル、軸ラベル、データ ラベルを含めます。
+
+## <a name="high-contrast-support-for-reports"></a>レポートに対するハイ コントラストのサポート
+
+Windows でハイ コントラスト モードを使用する場合、選択したその設定とパレットは **Power BI Desktop** のレポートにも適用されます。 
+
+![ハイ コントラストの Windows の設定](media/desktop-accessibility/accessibility_05.png)
+
+**Power BI Desktop** では、Windows で使用されているハイ コントラストのテーマを自動的に検出し、その設定をレポートに適用します。 Power BI サービスやその他の場所に発行する場合、ハイ コントラストの色はそのレポートに従います。
+
+![ハイ コントラストの Windows の設定](media/desktop-accessibility/accessibility_05b.png)
+
+Power BI サービスでも、Windows 用に選択されているハイ コントラストの設定を検出しようとしますが、検出の効率と正確さは Power BI サービスに使用されているブラウザーによって異なります。 Power BI サービスでテーマを手動で設定する場合は、**[表示]、[ハイ コントラストの色]** の順に選択して、レポートに適用するテーマを選択します。
+
+![Power BI サービスでハイ コントラストを設定する](media/desktop-accessibility/accessibility_06.png)
+
+**Power BI Desktop** を使用しているときに、**[視覚化]** と **[フィールド]** フィールドなどの一部のエリアには、Windows のハイ コントラスト配色の選択が反映されません。
+
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 アクセシビリティ機能には、次の一覧に示すように既知の問題と制限があります。

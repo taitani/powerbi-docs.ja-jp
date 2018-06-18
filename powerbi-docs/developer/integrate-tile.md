@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288316"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813781"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>タイルをアプリに統合する (ユーザーがデータを所有)
 REST API の呼び出しと Power BI JavaScript API を使って組織向けの Web アプリにタイルを統合する (埋め込む) 方法を説明します。
@@ -28,7 +28,7 @@ REST API の呼び出しと Power BI JavaScript API を使って組織向けの 
 > 
 > 
 
-タイルを Web アプリに統合するには、**Power BI** REST API または Power BI C# SDK と、Azure Active Directory (AD) 承認**アクセス トークン**を使って、タイルを取得します。 そして、同じアクセス トークンを使って、タイルを読み込みます。 **Power BI** API は、特定の **Power BI** リソースへのプログラムによるアクセスを提供します。 詳しくは、「[Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)」と「[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)」(Power BI の JavaScript API) をご覧ください。
+タイルを Web アプリに統合するには、**Power BI** REST API または Power BI C# SDK と、Azure Active Directory (AD) 承認**アクセス トークン**を使って、タイルを取得します。 そして、同じアクセス トークンを使って、タイルを読み込みます。 **Power BI** API は、特定の **Power BI** リソースへのプログラムによるアクセスを提供します。 詳細については、「[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)」(Power BI REST API) と [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページを参照してください。
 
 ## <a name="download-the-sample"></a>サンプルをダウンロードする
 この記事では、GitHub の [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) で使用されているコードを示します。 このチュートリアルの手順を試してみるには、サンプルをダウンロードできます。
@@ -44,12 +44,12 @@ REST API の呼び出しを行うには、Azure AD にアプリケーション�
 アプリケーションでは、Power BI REST API の呼び出しを行う前に、まず、Azure AD から**アクセス トークン**を取得する必要があります。 詳しくは、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。
 
 ## <a name="step-3---get-a-tile"></a>ステップ 3 - タイルを取得する
-**Power BI** タイルを取得するには、[タイルの取得](https://msdn.microsoft.com/library/mt465741.aspx)操作を使って、指定したダッシュボードから **Power BI** タイルの一覧を取得します。 タイルの一覧から、タイル ID を取得し、URL を埋め込むことができます。
+**Power BI** タイルを取得するには、[タイルの取得](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)操作を使って、指定したダッシュボードから **Power BI** タイルの一覧を取得します。 タイルの一覧から、タイル ID を取得し、URL を埋め込むことができます。
 
 タイルを取得する前に、ダッシュボード ID を取得する必要があります。 ダッシュボードを取得する方法については、「[ダッシュボードをアプリに統合する (ユーザーがデータを所有)](integrate-dashboard.md)」をご覧ください。
 
 ### <a name="get-tiles-using-an-access-token"></a>アクセス トークンを使ってタイルを取得する
-[ステップ 2](#step-2-get-an-access-token-from-azure-ad) で取得した**アクセス トークン**を使って、[タイル取得](https://msdn.microsoft.com/library/mt465741.aspx)操作を呼び出すことができます。 [タイル取得](https://msdn.microsoft.com/library/mt465741.aspx)操作は、タイルの一覧を返します。 タイルの一覧から 1 つのタイルを取得できます。 タイルを取得するための完全な C# メソッドを以下に示します。 
+[ステップ 2](#step-2-get-an-access-token-from-azure-ad) で取得した**アクセス トークン**を使って、[タイル取得](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)操作を呼び出すことができます。 [タイル取得](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)操作は、タイルの一覧を返します。 タイルの一覧から 1 つのタイルを取得できます。 タイルを取得するための完全な C# メソッドを以下に示します。 
 
 REST API 呼び出しを行うには、*Authorization* ヘッダーを "*ベアラー {アクセス トークン}*" の形式で含める必要があります。
 
@@ -216,7 +216,7 @@ function updateEmbedTile() {
 ![Web アプリケーションに埋め込まれたタイル](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>グループの使用 (アプリ ワークスペース)
-グループ (アプリ ワークスペース) からタイルを埋め込むには、次の REST API 呼び出しを使って、グループのダッシュボードで使用可能なすべてのタイルの一覧を取得する必要があります。 この REST API 呼び出しについて詳しくは、「[タイルを取得する](https://msdn.microsoft.com/library/mt465741.aspx)」をご覧ください。 要求から結果が返るようにするには、グループでのアクセス許可が必要です。
+グループ (アプリ ワークスペース) からタイルを埋め込むには、次の REST API 呼び出しを使って、グループのダッシュボードで使用可能なすべてのタイルの一覧を取得する必要があります。 この REST API 呼び出しについて詳しくは、「[タイルを取得する](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)」をご覧ください。 要求から結果が返るようにするには、グループでのアクセス許可が必要です。
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813367"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>レポートを組織向けのアプリに統合する
 REST API の呼び出しと Power BI JavaScript API を使って組織向けの Web アプリにレポートを統合する (埋め込む) 方法を説明します。
@@ -27,10 +28,14 @@ REST API の呼び出しと Power BI JavaScript API を使って組織向けの 
 > 
 > 
 
-レポートを Web アプリに統合するには、**Power BI** REST API または Power BI C# SDK と、Azure Active Directory (AD) 承認**アクセス トークン**を使って、レポートを取得します。 そして、同じアクセス トークンを使って、レポートを読み込みます。 **Power BI** API は、特定の **Power BI** リソースへのプログラムによるアクセスを提供します。 詳しくは、「[Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)」と「[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)」(Power BI の JavaScript API) をご覧ください。
+レポートを Web アプリに統合するには、**Power BI** REST API または Power BI C# SDK と、Azure Active Directory (AD) 承認**アクセス トークン**を使って、レポートを取得します。 そして、同じアクセス トークンを使って、レポートを読み込みます。 **Power BI** API は、特定の **Power BI** リソースへのプログラムによるアクセスを提供します。 詳細については、「[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)」(Power BI REST API) と [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページを参照してください。
 
 ## <a name="download-the-sample"></a>サンプルをダウンロードする
 この記事では、GitHub の [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) で使用されているコードを示します。 このチュートリアルの手順を試してみるには、サンプルをダウンロードできます。
+
+また、[オンボード エクスペリエンス ツール](https://aka.ms/embedsetup/UserOwnsData)に移動して、すぐにサンプル アプリケーションをダウンロードすることもできます。
+
+ただし、手動で環境をセットアップする場合は、以下を続行できます。
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>ステップ 1 - Azure AD にアプリを登録する
 REST API の呼び出しを行うには、Azure AD にアプリケーションを登録する必要があります。 詳しくは、「[Azure AD アプリを登録して Power BI コンテンツを埋め込む](register-app.md)」をご覧ください。
@@ -43,10 +48,10 @@ REST API の呼び出しを行うには、Azure AD にアプリケーション�
 アプリケーションでは、Power BI REST API の呼び出しを行う前に、まず、Azure AD から**アクセス トークン**を取得する必要があります。 詳しくは、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。
 
 ## <a name="step-3---get-a-report"></a>ステップ 3 - レポートを取得する
-**Power BI** レポートを取得するには、[レポートの取得](https://msdn.microsoft.com/library/mt634543.aspx)操作を使用して、**Power BI** レポートの一覧を取得します。 レポートの一覧から、レポート ID を取得できます。
+**Power BI** レポートを取得するには、[レポートの取得](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作を使用して、**Power BI** レポートの一覧を取得します。 レポートの一覧から、レポート ID を取得できます。
 
 ### <a name="get-reports-using-an-access-token"></a>アクセス トークンを使ってレポートを取得する
-[ステップ 2](#step-2-get-an-access-token-from-azure-ad) で取得した**アクセス トークン**を使って、[レポート取得](https://msdn.microsoft.com/library/mt634543.aspx)操作を呼び出すことができます。 [レポートを取得する](https://msdn.microsoft.com/library/mt634543.aspx)操作により、レポートの一覧が返されます。 レポートの一覧から 1 つのレポートを取得できます。 レポートを取得するための完全な C# メソッドを以下に示します。 
+[ステップ 2](#step-2-get-an-access-token-from-azure-ad) で取得した**アクセス トークン**を使って、[レポート取得](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作を呼び出すことができます。 [レポートを取得する](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作により、レポートの一覧が返されます。 レポートの一覧から 1 つのレポートを取得できます。 レポートを取得するための完全な C# メソッドを以下に示します。 
 
 REST API 呼び出しを行うには、*Authorization* ヘッダーを "*ベアラー {アクセス トークン}*" の形式で含める必要があります。
 
@@ -213,7 +218,7 @@ function updateEmbedReport() {
 ![埋め込まれたレポートのサンプル](media/integrate-report/powerbi-embedded-report.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>グループの使用 (アプリ ワークスペース)
-グループ (アプリ ワークスペース) からレポートを埋め込むには、次の REST API 呼び出しを使って、グループのダッシュボードで使用可能なすべてのレポートの一覧を取得する必要があります。 この REST API 呼び出しについて詳しくは、「[レポートを取得する](https://msdn.microsoft.com/library/mt634543.aspx)」をご覧ください。 要求から結果が返るようにするには、グループでのアクセス許可が必要です。
+グループ (アプリ ワークスペース) からレポートを埋め込むには、次の REST API 呼び出しを使って、グループのダッシュボードで使用可能なすべてのレポートの一覧を取得する必要があります。 この REST API 呼び出しについて詳しくは、「[レポートを取得する](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)」をご覧ください。 要求から結果が返るようにするには、グループでのアクセス許可が必要です。
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{group_id}/reports

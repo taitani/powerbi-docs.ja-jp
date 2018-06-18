@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297011"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813597"
 ---
 # <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
 ## <a name="what-is-meant-by-certified"></a>*認定* とは
@@ -90,6 +90,7 @@ ms.locfileid: "34297011"
 | [ガント](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [ビデオ](https://youtu.be/qJ7s_KrGiUU) |
 | [MAQ Software による Gantt Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [ビデオ](https://youtu.be/vJLV9JRCpI8) |
 | [地球データ バー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
+| [MAQ ソフトウェアによるグリッド](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380825) | [ビデオ](https://youtu.be/VOPoDJgZfOY) |
 | [Akvelon による階層グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [ビデオ](https://youtu.be/0ZGzJaq_KT4) |
 | [ヒストグラム グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
 | [MAQ Software によるポイント付きヒストグラム](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [ビデオ](https://youtu.be/-ILF--wExrw) |

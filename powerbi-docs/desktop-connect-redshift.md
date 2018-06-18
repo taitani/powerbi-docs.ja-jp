@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3a27a3c39f1ddcee6a882184f511874313d77c9a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291191"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813137"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Power BI Desktop で Amazon Redshift に接続する
 **Power BI Desktop** では、**Amazon Redshift** データベースに接続し、Power BI Desktop の他のデータ ソースの場合と同様に基になっているデータを使用できます。
@@ -29,7 +29,7 @@ ms.locfileid: "34291191"
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
-プロンプトが表示されたら、ユーザー名とパスワードを入力します。
+プロンプトが表示されたら、ユーザー名とパスワードを入力します。 エラーを回避するには、SSL 証明書と正確に一致するサーバー名を使用する必要があります。 
 
 ![](media/desktop-connect-redshift/connect_redshift_5.png)
 

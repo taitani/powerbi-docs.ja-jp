@@ -9,23 +9,23 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290317"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812424"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>手順 3: Power BI でデータセットを作成する
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
-チュートリアル「データセットにデータをプッシュする」の**手順 2**「[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)」では、**Azure AD** に対する認証トークンを取得しました。 この手順では、そのトークンを使って[データセットの作成](https://msdn.microsoft.com/library/mt203562.aspx)操作を呼び出します。
+チュートリアル「データセットにデータをプッシュする」の**手順 2**「[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)」では、**Azure AD** に対する認証トークンを取得しました。 この手順では、そのトークンを使って [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作を呼び出します。
 
 REST リソースを呼び出すには、リソースを指定する URL を使って、Power BI サービス リソースに JavaScript Object Notation (JSON) 文字列 (データセットを記述したもの) を送信します。 REST リソースは、Power BI サービスのうち操作する部分を識別します。 データセットにデータをプッシュする場合、対象のリソースは**データセット**です。 データセットを識別する URL は、https://api.PowerBI.com/v1.0/myorg/datasets です。 グループ内にデータをプッシュする場合の URL は、https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets です。
 
 Power BI REST 操作を認証するには、[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)手順で入手したトークンを要求ヘッダーに追加します。
 
-[データセットの作成](https://msdn.microsoft.com/library/mt203562.aspx)操作を呼び出すと、新しいデータセットが作成されます。 
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作を呼び出すと、新しいデータセットが作成されます。 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -228,10 +228,11 @@ Power BI でデータセットを作成する手順は次のとおりです。
 ## <a name="next-steps"></a>次の手順
 [Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)  
 [認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)  
-[データセットの作成](https://msdn.microsoft.com/library/mt203562.aspx)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
 [Power BI ダッシュボードにデータをプッシュする](walkthrough-push-data.md)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
-[Power BI REST API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

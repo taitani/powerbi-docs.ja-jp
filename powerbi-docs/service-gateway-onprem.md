@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722818"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812815"
 ---
 # <a name="on-premises-data-gateway"></a>オンプレミス データ ゲートウェイ
 
@@ -47,7 +47,9 @@ ms.locfileid: "34722818"
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイをダウンロードし、インストールする
-ゲートウェイをダウンロードするには、[ダウンロード] メニューで **[データ ゲートウェイ]** を選択します。 [オンプレミス データ ゲートウェイ](http://go.microsoft.com/fwlink/?LinkID=820925)をダウンロードします。
+ゲートウェイをダウンロードするには、[ダウンロード] メニューで **[データ ゲートウェイ]** を選択します。 [オンプレミス データ ゲートウェイ](http://go.microsoft.com/fwlink/?LinkID=820925)をダウンロードします。 
+
+このセクションで説明されているように、オンプレミス データ ゲートウェイの更新は、ゲートウェイの再インストールによって実現されます。 (再インストールして) ゲートウェイを更新しても、既存のゲートウェイの設定は保持されます。
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ ms.locfileid: "34722818"
 
 ## <a name="install-the-gateway-in-personal-mode"></a>個人モードでゲートウェイをインストールする
 > [!NOTE]
-> Personal は Power BI でのみ機能します。
-> 
-> 
+> 個人用バージョンのゲートウェイは Power BI でのみ動作します。
+
 
 Personal Gateway をインストールしたら、**Power BI Gateway - Personal 構成ウィザード**を起動する必要があります。
 

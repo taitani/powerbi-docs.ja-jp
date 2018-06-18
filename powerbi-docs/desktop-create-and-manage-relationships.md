@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813666"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop でのリレーションシップの作成と管理
 複数のテーブルをインポートする際、これらのすべてのテーブルからデータを使用して分析を実行する可能性が高くなります。 結果を正確に計算し、レポートに正しい情報を表示するためには、これらのテーブル間のリレーションシップが必要です。 Power BI Desktop を使用すると、これらのリレーションシップを簡単に作成できます。 実際、ほとんどの場合、自動検出機能が実行してくれるため、何もすることはありません。 ただし、場合によっては、自分でリレーションシップを作成したり、リレーションシップにいくつかの変更を加えたりすることが必要な場合があります。 いずれの場合も、Power BI Desktop におけるリレーションシップおよびその作成方法と編集方法を理解することが重要です。
@@ -35,6 +36,16 @@ ms.lasthandoff: 05/17/2018
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 既定では、Power BI Desktop は新しいリレーションシップのカーディナリティ (の方向)、クロス フィルターの方向、およびアクティブ プロパティを自動的に構成します。ただし、必要に応じて変更することができます。 詳細については、この記事で後述する「詳細設定オプションについて」のセクションを参照してください。
+
+リレーションシップに選択したテーブルに一意の値が含まれるものがない場合、*列の 1 つに一意の値を与える必要がある*旨のエラーが表示されることにご注意ください。 リレーションシップの少なくとも 1 つのテーブルに別個の (一意の) キー値リストが含まれている*必要があります*。これはあらゆるリレーショナル データベース技術における共通の要件です。 
+
+このエラーに遭遇した場合、いくつかの方法で問題を解決できます。
+
+* "重複行の削除" を利用し、一意の値を含む列を作成します。 この手法の短所は、重複行が削除されると情報が失われることです。多くの場合、キー (行) は正当な理由があって複製されます。
+* 個別キー値の一覧で構成される中間テーブルをモデルに追加します。このモデルがリレーションシップの両方の元の列にリンクされます。
+
+詳しくは、この[ブログ投稿](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/)をご覧ください。この題材について詳しく取り上げています。
+
 
 ## <a name="edit-a-relationship"></a>リレーションシップの編集
 1. **[ホーム]** タブで、 **[リレーションシップの管理]** をクリックします。

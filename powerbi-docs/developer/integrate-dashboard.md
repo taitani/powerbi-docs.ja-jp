@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290271"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812953"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>ダッシュボードを組織向けのアプリに統合する
 REST API の呼び出しと Power BI JavaScript API を使って組織向けの Web アプリにダッシュボードを統合する (埋め込む) 方法を説明します。
@@ -28,7 +28,7 @@ REST API の呼び出しと Power BI JavaScript API を使って組織向けの 
 > 
 > 
 
-ダッシュボードを Web アプリに統合するには、**Power BI** REST API または Power BI C# SDK と、Azure Active Directory (AD) 承認**アクセス トークン**を使って、ダッシュボードを取得します。 そして、同じアクセス トークンを使って、ダッシュボードを読み込みます。 **Power BI** API は、特定の **Power BI** リソースへのプログラムによるアクセスを提供します。 詳しくは、「[Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)」と「[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)」(Power BI の JavaScript API) をご覧ください。
+ダッシュボードを Web アプリに統合するには、**Power BI** REST API または Power BI C# SDK と、Azure Active Directory (AD) 承認**アクセス トークン**を使って、ダッシュボードを取得します。 そして、同じアクセス トークンを使って、ダッシュボードを読み込みます。 **Power BI** API は、特定の **Power BI** リソースへのプログラムによるアクセスを提供します。 詳細については、「[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)」(Power BI REST API) と [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページを参照してください。
 
 ## <a name="download-the-sample"></a>サンプルをダウンロードする
 この記事では、GitHub の [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) で使用されているコードを示します。 このチュートリアルの手順を試してみるには、サンプルをダウンロードできます。
@@ -44,12 +44,12 @@ REST API の呼び出しを行うには、Azure AD にアプリケーション�
 アプリケーションでは、Power BI REST API の呼び出しを行う前に、まず、Azure AD から**アクセス トークン**を取得する必要があります。 詳しくは、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。
 
 ## <a name="step-3---get-a-dashboard"></a>ステップ 3 - ダッシュボードを取得する
-**Power BI** ダッシュボードを取得するためには、[ダッシュボードを取得する](https://msdn.microsoft.com/library/mt465739.aspx)操作を使用して、**Power BI** ダッシュボードの一覧を表示します。 ダッシュボードの一覧から、ダッシュボード ID を取得できます。
+**Power BI** ダッシュボードを取得するためには、[ダッシュボードを取得する](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)操作を使用して、**Power BI** ダッシュボードの一覧を表示します。 ダッシュボードの一覧から、ダッシュボード ID を取得できます。
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>アクセス トークンを使ってダッシュボードを取得する
-[ステップ 2](#step-2-get-an-access-token-from-azure-ad) で取得した**アクセス トークン**を使って、[ダッシュボード取得](https://msdn.microsoft.com/library/mt465739.aspx)操作を呼び出すことができます。 [ダッシュボードを取得する](https://msdn.microsoft.com/library/mt465739.aspx)操作によって、ダッシュボードの一覧が返されます。 ダッシュボードの一覧から 1 つのダッシュボードを取得できます。 ダッシュボードを取得するための完全な C# メソッドを以下に示します。 
+[ステップ 2](#step-2-get-an-access-token-from-azure-ad) で取得した**アクセス トークン**を使って、[ダッシュボード取得](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)操作を呼び出すことができます。 [ダッシュボードを取得する](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)操作によって、ダッシュボードの一覧が返されます。 ダッシュボードの一覧から 1 つのダッシュボードを取得できます。 ダッシュボードを取得するための完全な C# メソッドを以下に示します。 
 
 REST API 呼び出しを行うには、*Authorization* ヘッダーを "*ベアラー {アクセス トークン}*" の形式で含める必要があります。
 
@@ -258,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>グループの使用 (アプリ ワークスペース)
-グループ (アプリ ワークスペース) からダッシュボードを埋め込むには、次の REST API 呼び出しを使って、グループで使用可能なすべてのダッシュボードの一覧を取得する必要があります。 この REST API 呼び出しについて詳しくは、「[ダッシュボードを取得する](https://msdn.microsoft.com/library/mt465739.aspx)」をご覧ください。 要求から結果が返るようにするには、グループでのアクセス許可が必要です。
+グループ (アプリ ワークスペース) からダッシュボードを埋め込むには、次の REST API 呼び出しを使って、グループで使用可能なすべてのダッシュボードの一覧を取得する必要があります。 この REST API 呼び出しについて詳しくは、「[ダッシュボードを取得する](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)」をご覧ください。 要求から結果が返るようにするには、グループでのアクセス許可が必要です。
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bdf3791d74510b1630bc13c279ed0cd5ebddc3ec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286546"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813459"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Power BI Desktop が起動しない問題を解決する
 **Power BI Desktop** では、以前のバージョンの **Power BI オンプレミス データ ゲートウェイ**をインストールして実行していたユーザーが Power BI Desktop を起動できないことがあります。これは、Power BI オンプレミス データ ゲートウェイがローカル コンピューターの名前付きパイプに設定した管理ポリシー制限が原因で発生します。 
@@ -33,6 +33,13 @@ Power BI オンプレミス データ ゲートウェイが不要になった場
 別の方法として、Power BI Desktop を管理者として正常に起動できれば、Power BI Desktop も正常に起動できます。 この場合でも、前述のとおり Power BI オンプレミス データ ゲートウェイの最新バージョンをインストールすることを勧めします。
 
 Power BI Desktop はマルチプロセス アーキテクチャとして設計されており、複数のプロセスが Windows 名前付きパイプを使って通信していることに注意することが重要です。 これらの名前付きパイプを干渉する他のプロセスがある可能性があります。 このような干渉の最も一般的な理由はセキュリティであり、ウイルス対策ソフトウェアやファイアウォールがパイプをブロックしたり、特定のポートにトラフィックをリダイレクトしたりしている場合があります。 管理者特権で Power BI Desktop を起動すると、その問題が解決する可能性があります。 管理者特権で起動できない場合は、管理者に連絡し、適用されているどのセキュリティ ルールによって名前付きパイプの正しい通信が妨げられているかを確認し、Power BI Desktop とその各サブプロセスをホワイトリストに登録してください。
+
+## <a name="resolve-issues-when-connecting-to-sql-server"></a>SQL Server に接続するときの問題を解決する
+SQL Server データベースに接続したとき、次のようなエラー メッセージが表示されたら、多くの場合、管理者として **Power BI Desktop** を起動し、SQL Server 接続を行うことで問題を解決できます。
+
+    "An error happened while reading data from the provider: 'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies. Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"
+
+管理者として起動し、接続を確立すると、必要な DLL が適宜登録されます。 その後、管理者として Power BI Desktop を起動する必要がなくなります。
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Power BI Desktop 起動時の他の問題に関するヘルプ
 **Power BI Desktop** で発生するできる限り多くの問題に対応するように作業しています。 多くのお客様に影響を与える可能性がある問題を常に注視し、記事にしています。

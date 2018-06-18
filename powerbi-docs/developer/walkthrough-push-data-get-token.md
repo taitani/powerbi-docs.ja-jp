@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289374"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812631"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>手順 2: 認証アクセス トークンを取得する
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
@@ -104,7 +104,7 @@ ms.locfileid: "34289374"
        #endregion
 ```
 
-認証トークンを取得すると、任意の Power BI 操作を呼び出せます。 次の手順では、[データセットの作成](https://msdn.microsoft.com/library/mt203562.aspx)操作を呼び出して、ダッシュボードにデータをプッシュするデータセットを作成する操作を説明します。
+認証トークンを取得すると、任意の Power BI 操作を呼び出せます。 次の手順では、[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作を呼び出して、ダッシュボードにデータをプッシュするデータセットを作成する方法を説明します。
 
 次の手順では、[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)方法について説明します。
 
@@ -181,6 +181,6 @@ ms.locfileid: "34289374"
 [Azure AD Authentication Library for .NET NuGet パッケージ](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [Power BI データセットにデータをプッシュする](walkthrough-push-data.md)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
-[Power BI REST API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

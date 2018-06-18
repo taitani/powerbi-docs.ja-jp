@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
-ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d1fd42f059f8050662adc80018748d11c1e73e2b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287787"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813758"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded での Q&A
 Power BI Embedded では、アプリケーションに Q&A を組み込む手段が提供されており、ユーザーは、自然言語を使って質問し、チャートやグラフなどのビジュアルの形式ですぐに回答を受け取ることができます。
@@ -93,7 +93,7 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>埋め込みトークン
-Q&A パーツを開始するためのデータセットの埋め込みトークンを作成します。 詳細については、「[Generate token for Q&A](https://msdn.microsoft.com/library/mt784614.aspx#qanda)」(Q&A のトークンを生成する) をご覧ください。
+Q&A パーツを開始するためのデータセットの埋め込みトークンを作成します。 詳細については、[トークンの生成](https://docs.microsoft.com/rest/api/power-bi/embedtoken)に関するページをご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 Q&A の埋め込みを試してみるなら、[JavaScript の埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)をご覧ください。

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/12/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 6824436af46caaa78d5ae23d1e1047f27bd30bba
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813045"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI ダッシュボード、レポート、およびタイルを埋め込む
 
@@ -21,9 +22,9 @@ ms.lasthandoff: 05/17/2018
 
 Microsoft は [Power BI Premium を発表](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/)しました。この新しい容量ベースのライセンス モデルは、ユーザーによるコンテンツのアクセス、共有および配布方法の柔軟性を高めます。 また、Power BI サービスのスケーラビリティとパフォーマンスが向上します。 Microsoft Azure 内に容量を作成することができる Power BI Embedded も発表されました。 Power BI Embedded はアプリケーションと顧客を対象としたものです。 
 
-この記事では、組織向けと顧客向け両方の Power BI コンテンツの埋め込みについて説明します。 2 つのシナリオの手順は似ています。 手順が顧客向けの埋め込みに固有である場合は、そのことが示されています。
+この記事では、組織向けと顧客向け両方の Power BI コンテンツの埋め込みについて説明します。 2 つのシナリオの手順は似ています。 手順が顧客向けの埋め込みに固有である場合は、その旨が記されています。
 
-これを可能にするためにアプリケーションで実行する必要がある手順がいくつかあります。 アプリケーション内で埋め込みコンテンツを作成し、使用できるようにするために必要な手順を順に説明していきます。
+これを可能にするためにアプリケーションで実行する必要がある手順がいくつかあります。 アプリケーション内で埋め込みコンテンツを作成し、使用できるようにするために、必要な手順を順に説明します。
 
 > [!NOTE]
 > Power BI API では引き続き、アプリ ワークスペースをグループと呼びます。 したがって、グループと記述されている場合はすべて、アプリ ワークスペースを使用していることを意味します。
@@ -34,14 +35,21 @@ Microsoft は [Power BI Premium を発表](https://powerbi.microsoft.com/blog/mi
 
 * [Azure Active Directory テナントがあることを確認する](embedding-content.md#azureadtenant)
 * [Power BI Pro アカウントを作成する](embedding-content.md#proaccount)
-* [Azure Active Directory アプリケーションの登録とアクセス許可](embedding-content.md#appreg)
+
+[オンボード エクスペリエンス ツール](https://aka.ms/embedsetup)に移動し、すばやく開始してサンプル アプリケーションをダウンロードすることができます。
+
+適切なソリューションを選択します。
+* [顧客向けの埋め込み](embedding.md#embedding-for-your-customers)では、Power BI のアカウントがないユーザーのためにダッシュボードとレポートを埋め込むことができます。 [顧客向けの埋め込み](https://aka.ms/embedsetup/AppOwnsData)ソリューションを実行します。
+* [組織向けの埋め込み](embedding.md#embedding-for-your-organization)を使って、Power BI サービスを拡張することができます。 [組織向けの埋め込み](https://aka.ms/embedsetup/UserOwnsData)ソリューションを実行します。
+
+ただし、手動で環境をセットアップする場合は、以下を続行できます。 
 
 > [!NOTE]
-> アプリケーションの開発には、Power BI の容量は必要ありません。 アプリケーションの開発者には Power BI Pro ライセンスが必要になります。
+> アプリケーションの開発には、専用容量は必要ありません。 アプリケーションの開発者には、Power BI Pro ライセンスが必要です。
 
 ### <a name="azureadtenant"></a>Azure Active Directory テナント
 
-Power BI からアイテムを埋め込むには、Azure Active Directory (Azure AD) テナントが必要になります。 このテナントには少なくとも 1 人の Power BI Pro ユーザーが必要です。 また、テナント内で Azure AD アプリを定義する必要があります。 既存の Azure AD テナントを利用することも、埋め込み専用に新しいものを作成することもできます。
+Power BI からアイテムを埋め込むには、Azure Active Directory (Azure AD) テナントが必要です。 このテナントには少なくとも 1 人の Power BI Pro ユーザーが必要です。 また、テナント内で Azure AD アプリを定義する必要もあります。 既存の Azure AD テナントを利用することも、埋め込み専用に新しいものを作成することもできます。
 
 顧客向けに埋め込む場合は、使用するテナント セットアップを決める必要があります。
 
@@ -61,13 +69,13 @@ Power BI からアイテムを埋め込むには、Azure Active Directory (Azure
 
 顧客向けの埋め込みでは、アプリケーションが使用するアカウントとして、組織/テナントのグローバル管理者ユーザーを使用しないことをお勧めします。 そうすれば、テナント内でのアプリケーション アカウントによるアクセスが最小限に抑えられます。 管理者ユーザーは、埋め込むために作成されたすべてのアプリ ワークスペースの管理者にすることをお勧めします。
 
-#### <a name="accounts-for-analysts-that-will-create-content"></a>コンテンツを作成するアナリストのアカウント
+#### <a name="accounts-for-analysts-that-create-content"></a>コンテンツを作成するアナリストのアカウント
 
-複数のユーザーが Power BI のコンテンツを作成する可能性があります。 コンテンツを作成し、Power BI に配置するアナリストごとに Power BI Pro アカウントが必要になります。
+複数のユーザーが Power BI のコンテンツを作成する可能性があります。 コンテンツを作成し、Power BI に配置するアナリストごとに Power BI Pro アカウントが必要です。
 
 #### <a name="an-application-master-user-account-for-embedding-for-your-customers"></a>顧客向けの埋め込みのためのアプリケーション "*マスター*" ユーザー アカウント
 
-マスター アカウントは、顧客向けのコンテンツ埋め込み時にアプリケーションが使用するアカウントです。 通常、このシナリオは ISV アプリケーション向けです。 組織内で本当に必要なアカウントはマスター アカウントだけです。 管理者およびアナリスト アカウントとしても使用できますが、お勧めできません。 アプリケーションのバックエンドにはこのアカウントの資格情報が格納され、Power BI API で使用する Azure AD 認証トークンを取得するために使用されます。 このアカウントは、アプリケーションを顧客用に使用するための埋め込みトークンを生成する場合に使用されます。
+マスター アカウントは、顧客向けのコンテンツ埋め込み時にアプリケーションが使用するアカウントです。 通常、このシナリオは ISV アプリケーション向けです。 組織内で必要なアカウントは、マスター アカウントだけです。 管理者およびアナリスト アカウントとしても使用できますが、お勧めできません。 アプリケーションのバックエンドには、このアカウントの資格情報が格納され、Power BI API で使用する Azure AD 認証トークンを取得するために使用されます。 このアカウントは、アプリケーションを顧客用に使用するための埋め込みトークンを生成します。
 
 マスター アカウントは、アプリケーションで使用する Power BI Pro ライセンスを持っている通常のユーザーに過ぎません。 このアカウントは、埋め込みに使用されるアプリ ワークスペースの管理者である必要があります。
 
@@ -77,7 +85,7 @@ REST API の呼び出しを行うには、Azure AD にアプリケーション�
 
 ### <a name="create-app-workspaces"></a>アプリ ワークスペースを作成する
 
-顧客向けにダッシュボードとレポートを埋め込む場合は、そのダッシュボードとレポートをアプリ ワークスペース内に配置する必要があります。 前述の "*マスター*" アカウントは、アプリ ワークスペースの管理者である必要があります。
+顧客向けにダッシュボードとレポートを埋め込む場合は、そのダッシュボードとレポートをアプリ ワークスペース内に配置する必要があります。 前述の*マスター* アカウントは、アプリ ワークスペースの管理者である必要があります。
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
@@ -91,7 +99,7 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
 ## <a name="step-2-embed-your-content"></a>手順 2: コンテンツを埋め込む
 
-アプリケーション内では、Power BI で認証する必要があります。 顧客向けのコンテンツを埋め込む場合は、アプリケーション内に "*マスター*" アカウントの資格情報を格納します。 詳しくは、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。
+アプリケーション内では、Power BI で認証する必要があります。 顧客向けのコンテンツを埋め込む場合は、アプリケーション内に*マスター* アカウントの資格情報を格納します。 詳しくは、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。
 
 認証を行った後、アプリケーション内で、Power BI REST API と JavaScript API を使用して、ダッシュボードとレポートをアプリケーションに埋め込みます。 
 
@@ -101,11 +109,11 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 * [タイルをアプリに統合する](integrate-tile.md)
 * [レポートをアプリに統合する](integrate-report.md)
 
-通常は ISV を対象としたものである**顧客向けの埋め込み**については、以下をご覧ください。
+通常は ISV を対象とした**顧客向けの埋め込み**については、以下をご覧ください。
 
 * [ダッシュボード、タイル、レポートをアプリケーションに統合する](embed-sample-for-customers.md)
 
-顧客向けに埋め込む場合は、埋め込みトークンが必要です。 詳細については、「[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx)」を参照してください。
+顧客向けに埋め込む場合は、埋め込みトークンが必要です。 詳細については、「[Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken)」 (埋め込みトークン) を参照してください。
 
 ## <a name="step-3-promote-your-solution-to-production"></a>手順 3: ソリューションを運用に昇格する
 
@@ -115,7 +123,7 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
 組織向けの埋め込みの場合は、アプリケーションへのアクセス方法を知らせるだけです。 
 
-容量によってアプリ ワークスペース (グループ) がバックアップされている場合、無料ユーザーはそのワークスペースから埋め込まれたコンテンツを利用できます。 アプリ ワークスペース (グループ) のメンバーとして無料ユーザーをリストします。そうしないと、401 非承認エラーが発生します。 次の表は、Office 365 で利用可能な Power BI Premium SKU の一覧です。
+専用容量がアプリ ワークスペース (グループ) にバックアップされている場合、無料ユーザーはそのワークスペースから埋め込まれたコンテンツを利用できます。 アプリ ワークスペース (グループ) のメンバーとして無料ユーザーをリストします。そうしないと、401 非承認エラーが発生します。 次の表は、Office 365 で利用可能な Power BI Premium SKU の一覧です。
 
 | 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
 | --- | --- | --- | --- | --- | --- |
@@ -125,7 +133,11 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 | P3 |32 v コア |16 コア、100 GB の RAM |16 コア |1 秒あたり 120 |4,801-9600 |
 
 > [!NOTE]
-> グローバルまたは課金管理者は、Power BI Premium を購入するためには、テナント内に存在する必要があります。 Power BI Premium の購入方法については、「[Power BI Premium の購入方法](../service-admin-premium-purchase.md)」を参照してください。
+> グローバルまたは課金管理者は、Power BI Premium を購入するには、テナント内に存在する必要があります。 Power BI Premium の購入方法については、「[Power BI Premium の購入方法](../service-admin-premium-purchase.md)」を参照してください。
+
+>[!Note]
+>[組織向けに埋め込み分析環境をセットアップします。](#step-1-setup-your-embedded-analytics-development-environment)
+>
 
 ### <a name="embedding-for-your-customers"></a>顧客向けの埋め込み
 
@@ -135,7 +147,7 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 * ニーズに合う容量を購入します。 以下の表を使って、必要になる可能性がある Power BI Embedded 容量の SKU を把握できます。 詳細については、「[Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper)」 (埋め込み分析の容量計画に関するホワイト ペーパー) を参照してください。 準備ができたら、[Microsoft Azure Portal](https://portal.azure.com) で購入できます。 Power BI Embedded 容量の作成方法の詳細については、「[Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)」(Azure Portal で Power BI Embedded 容量を作成する) をご覧ください。
 
 > [!IMPORTANT]
-> 埋め込みトークンは開発と開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。 「[Get Available Features](https://msdn.microsoft.com/en-us/library/mt846473.aspx)」(使用可能な機能の入手) に移動して、使用されている無料埋め込みトークンの数を確認してください。
+> 埋め込みトークンは開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 専用容量が購入されている場合、埋め込みトークンの生成数には上限がありません。 「[Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)」 (使用可能な機能) に移動して、使用されている無料埋め込みトークンの数を確認してください。
 
 | 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
 | --- | --- | --- | --- | --- | --- |
@@ -146,13 +158,15 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 | A5 |16 v コア |8 コア、50 GB の RAM |8 コア |1 秒あたり 60 |2,401-4,800 |
 | A6 |32 v コア |16 コア、100 GB の RAM |16 コア |1 秒あたり 120 |4,801-9600 |
 
-* アプリ ワークスペースを編集し、[詳細] で容量にそれを割り当てます。
+* アプリ ワークスペースを編集し、[詳細] で専用容量にそれを割り当てます。
 
     ![容量にアプリ ワークスペースを割り当てる](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * 更新されたアプリケーションを運用環境にデプロイし、Power BI ダッシュボードとレポートの埋め込みを始めます。
 
-
+>[!Note]
+>[顧客向けに埋め込み分析環境をセットアップします。](#step-1-setup-your-embedded-analytics-development-environment) 
+>
 
 ## <a name="admin-settings"></a>管理の設定
 
@@ -171,4 +185,3 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 [Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-

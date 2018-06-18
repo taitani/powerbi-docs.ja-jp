@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287534"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812539"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>手順 5: Power BI テーブルに行を追加する
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
-チュートリアル「データセットにデータをプッシュする」の**手順 4**「[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)」では、[データセットの取得](https://msdn.microsoft.com/library/mt203567.aspx)操作と Newtonsoft.Json を使ってデータセット ID を取得しました。この手順では、そのデータセット ID と[行の追加](https://msdn.microsoft.com/library/mt203561.aspx)操作を使って **Power BI** のデータセットに行を追加します。 
+チュートリアル「データセットにデータをプッシュする」の**手順 4**「[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)」では、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作と Newtonsoft.Json を使ってデータセット ID を取得しました。この手順では、そのデータセット ID と [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を使って **Power BI** のデータセットに行を追加します。 
 
-[行の追加](https://msdn.microsoft.com/library/mt203561.aspx)操作を呼び出すと、データセットに行が追加されます。
+[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を呼び出すと、データセットに行が追加されます。
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
     }
 
 ## <a name="next-steps"></a>次の手順
-[行の追加](https://msdn.microsoft.com/library/mt203561.aspx)  
 [Power BI ダッシュボードにデータをプッシュする](walkthrough-push-data.md)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
-[Power BI REST API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

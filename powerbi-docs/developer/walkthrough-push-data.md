@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289466"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813114"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
 Power BI API を使うと、Power BI データセットにデータをプッシュできます。 たとえば、既存のビジネス ワークフローを拡張して、主要なデータをデータセットにプッシュできます。 ここでは、Product テーブルを含む Sales Marketing データセットをデータセットにプッシュします。
@@ -31,14 +31,14 @@ Power BI API を使うと、Power BI データセットにデータをプッシ�
 次のセクションでは、データをプッシュする Power BI API 操作の概要を説明します。
 
 ## <a name="power-bi-api-operations-to-push-data"></a>データをプッシュする Power BI API の操作
-Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリがデータセットに行を追加すると、ダッシュボード上のタイルは自動的に最新データに更新されます。 データをプッシュするには、[データセットの作成](https://msdn.microsoft.com/library/mt203562.aspx)操作と[行の追加](https://msdn.microsoft.com/library/mt203561.aspx)操作を一緒に行います。 データセットを検索するには、[データセットの取得](https://msdn.microsoft.com/library/mt203567.aspx)操作を行います。 これらの操作のどれについても、グループ ID を渡すとグループを操作できます。 [グループの取得](https://msdn.microsoft.com/library/mt243842.aspx)操作を行うと、グループ ID の一覧を取得できます。
+Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリがデータセットに行を追加すると、ダッシュボード上のタイルは自動的に最新データに更新されます。 データをプッシュするには、[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作と [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を一緒に行います。 データセットを検索するには、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作を行います。 これらの操作のどれについても、グループ ID を渡すとグループを操作できます。 [グループの取得](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作を行うと、グループ ID の一覧を取得できます。
 
 データセットにデータをプッシュするための操作を次に示します。
 
-* [データセットの作成](https://msdn.microsoft.com/library/mt203562.aspx)
-* [データセットの取得](https://msdn.microsoft.com/library/mt203567.aspx)
-* [行の追加](https://msdn.microsoft.com/library/mt203561.aspx)
-* [グループの取得](https://msdn.microsoft.com/library/mt243842.aspx)
+* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [行の POST](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [グループの取得](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 Power BI でデータセットを作成するには、Power BI サービスに JavaScript Object Notation (JSON) 文字列を渡します。 JSON について詳しくは、「[JSON の紹介](http://json.org/)」をご覧ください。
 
@@ -113,10 +113,6 @@ Power BI のテーブル スキーマでは、次のデータ型を使うこと�
 
 ## <a name="next-steps"></a>次の手順
 [Power BI にサインアップする](create-an-azure-active-directory-tenant.md)  
-[データセットの作成](https://msdn.microsoft.com/library/mt203562.aspx)  
-[データセットの取得](https://msdn.microsoft.com/library/mt203567.aspx)  
-[行の追加](https://msdn.microsoft.com/library/mt203561.aspx)  
-[グループの取得](https://msdn.microsoft.com/library/mt243842.aspx)  
 [JSON の紹介](http://json.org/)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

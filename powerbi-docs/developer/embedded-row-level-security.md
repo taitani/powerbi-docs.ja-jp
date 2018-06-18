@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301736"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI の埋め込みコンテンツで行レベルのセキュリティを使用する
 行レベルのセキュリティ (RLS) を使って、ダッシュボード、タイル、レポート、データセット内のデータへのユーザー アクセスを制限できます。 複数の異なるユーザーが、同じアーティファクトで作業しながら別のデータを見ることができます。 埋め込みでは RLS がサポートされています。
@@ -75,9 +76,9 @@ RLS は Power BI Desktop で作成します。 データセットとレポート
 ## <a name="applying-user-and-role-to-an-embed-token"></a>埋め込みトークンへのユーザーとロールの適用
 Power BI Desktop でロールを構成したので、ロールを利用するための処理がアプリケーションに必要です。
 
-ユーザーはアプリケーションによって認証および承認され、特定の Power BI Embedded レポートへのアクセスを、埋め込みトークンを使って許可されます。 Power BI Embedded は、ユーザーについての具体的な情報を持っていません。 RLS が機能するためには、埋め込みトークンの一部として、ID の形式で追加コンテキストを渡す必要があります。 これを行うには、[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API を使います。
+ユーザーはアプリケーションによって認証および承認され、特定の Power BI Embedded レポートへのアクセスを、埋め込みトークンを使って許可されます。 Power BI Embedded は、ユーザーについての具体的な情報を持っていません。 RLS が機能するためには、埋め込みトークンの一部として、ID の形式で追加コンテキストを渡す必要があります。 これを行うには、[埋め込みトークン](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API を使います。
 
-[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API は、ID とそれに関連するデータセットを示す値を受け取ります。 RLS が機能するには、ID の一部として次の値を渡す必要があります。
+この API は、ID とそれに関連するデータセットを示す値を受け取ります。 RLS が機能するには、ID の一部として次の値を渡す必要があります。
 
 * **ユーザー名 (必須)** – RLS ルールを適用するときにユーザーの識別に使うことができる文字列です。 指定できるユーザーは 1 人だけです。
 * **ロール (必須)** – 行レベル セキュリティのルールを適用するときに選択するロールを含む文字列です。 複数のロールを渡す場合は、文字列の配列として渡す必要があります。
@@ -177,7 +178,7 @@ REST API を呼び出す場合は、次の例のように各 ID の内部にカ�
 * Power BI サービス内でのロールへのユーザーの割り当ては、埋め込みトークンを使用したときの RLS には反映されません。
 * Power BI サービスでは RLS の設定は管理者および編集アクセス許可を持つメンバーには適用されませんが、埋め込みトークンで ID を指定すると、データに適用されます。
 * オンプレミス サーバー向けの Analysis Services ライブ接続がサポートされています。
-* Azure Analysis Services ライブ接続ではロールによるフィルター処理はサポートされますが、ユーザー名で動的にフィルター処理することはできません。
+* Azure Analysis Services ライブ接続ではロールによるフィルター処理はサポートされますが、ユーザー名で動的にフィルター処理することはできません。 動的フィルターは、CustomData を使用して適用できます。
 * 基になるデータセットで RLS が必要ない場合、GenerateToken 要求に有効な ID が含まれていては**なりません**。
 * 基になるデータセットがクラウド モデル (キャッシュされたモデルまたは DirectQuery) の場合は、有効な ID に少なくとも 1 つのロールが含まれている必要があります。そうでない場合、ロールの割り当ては行われません。
 * ID のリストを使うと、ダッシュボードの埋め込みに複数の ID トークンを使うことができます。 他のすべてのアーティファクトでは、リストには単一の ID が含まれます。

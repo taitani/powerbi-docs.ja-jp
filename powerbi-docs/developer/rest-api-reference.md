@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: b2403ab9ac8ff69ccffdbf631cd0d5a14b9bdf7e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721273"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812355"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API リファレンス
 Power BI は、カスタム ダッシュ ボード アプリケーションの作成に使用できる、クラウド ベースのサービスです。 Power BI REST API は、Power BI の **データセット** 、 **テーブル**、 **行**などの **ダッシュボード** リソースへのプログラムによるアクセスを提供する REST ベースの API です。
@@ -28,7 +28,7 @@ Power BI REST API には、次の操作があります。
 * 行の操作: 行の追加と削除を行います。
 * グループの操作: グループを取得します。
 
-Power BI REST API について詳しくは、「[Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)」をご覧ください。
+Power BI REST API の詳細については、「[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)」(Power BI REST API) を参照してください。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

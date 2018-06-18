@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799581"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813344"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop で SSAS 多次元モデルに接続する
 Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも呼ばれる) にアクセスできます。
@@ -36,7 +36,7 @@ Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも�
 | --- | --- |
 | キューブ |モデル |
 | キューブ ディメンション |テーブル |
-| ディメンション属性 (Keys)、Name |列 |
+| ディメンション属性 (Keys)、Name |位置 |
 | メジャー グループ |テーブル |
 | メジャー |メジャー |
 | 関連付けられたメジャー グループのないメジャー |*メジャー*という名前のテーブル内 |
@@ -75,11 +75,12 @@ Power BI は、イメージの URL (Uniform Resource Locator) を含むフィー
 ### <a name="security"></a>セキュリティ
 多次元モデルでは、 *ロール*によりディメンションおよびセル レベルのセキュリティをサポートしています。 Power BI でキューブに接続する場合、認証が行われ、適切なパーミッションの有無が評価されます。 あるユーザーで *ディメンション セキュリティ* が適用されている場合、それぞれのディメンションのメンバーを Power BI のユーザーが表示することはできません。 ただし、ユーザーで *セル セキュリティ* パーミッションが定義されており、特定のセルが制限されている場合、そのユーザーは Power BI を使用してキューブに接続することはできません。
 
-## <a name="limitations-of-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop での SSAS 多次元モデルの制限
+## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 **SSAS MD**の使用には、次のようないくつかの制限があります。
 
 * Power BI Desktop SSAS MD コネクタが機能するには、サーバーは SQL Server 2012 SP1 CU4 以降のバージョンの Analysis Services を実行する必要があります。
 * *アクション* および *名前付きセット* は Power BI には公開されませんが、 *アクション* または *名前付きセット* も含むキューブに接続し、ビジュアルおよびレポートを作成することはできます。
+* Power BI に SSAS モデルのメタデータが表示されても、モデルのデータを取得できない問題が発生することがあります。 この問題は、システムに 32 ビット版の MSOLAP プロバイダーがインストールされ、64 ビット版がインストールされていない場合に発生します。 64 ビット版をインストールすると、この問題が解決することがあります。
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop  での SSAS MD のサポートされている機能
 Power BI Desktop では、SSAS MD の次の機能がサポートされています。
