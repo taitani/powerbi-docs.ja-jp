@@ -35,7 +35,7 @@ Power BI 用 [UserVoice コンテンツ パック](https://app.powerbi.com/getda
 3. **[UserVoice]**、**[接続]** の順に選びます。
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. ダイアログ ボックスが表示されたら、UserVoice の URL を入力します。 URL は、次のパターンに厳密に従う必要があります: https://fabrikam.uservoice.com。ここで、"fabrikam" を製品名またはサービス名に置き換えます。
+4. ダイアログ ボックスが表示されたら、UserVoice の URL を入力します。 URL は、次のパターンに厳密に従う必要があります: https://fabrikam.uservoice.com 。ここで、"fabrikam" を製品名またはサービス名に置き換えます。
    
    >[!NOTE]
    >末尾にスラッシュはなく、接続は http**s** です。
@@ -63,7 +63,7 @@ Power BI 用 [UserVoice コンテンツ パック](https://app.powerbi.com/getda
 
 UserVoice URL を入力したらこのエラーが表示された場合。 次の要件を満たしていることを確認します。
 
-* URL が厳密にこの "https://fabrikam.uservoice.com" のパターンに従っています。ここで "fabrikam" を正しい UserVoice URL プレフィックスに置き換えます。
+* URL が厳密にこの " https://fabrikam.uservoice.com " のパターンに従っています。ここで "fabrikam" を正しい UserVoice URL プレフィックスに置き換えます。
 * すべての文字が小文字であることを確認してください。
 * URL が 'http**s**' であることをご確認ください。
 * URL の末尾にスラッシュ (/) がないことを確認してください。

@@ -68,7 +68,7 @@ Power BI のテーブルおよびマトリックスにハイパーリンクを�
    ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
 4. Power BI テーブル内でハイパーリンクに変換する URL が含まれている列に、カーソルを置きます。
    
-   > **注**: URL は、**http://、https://**、**www** のいずれかで始まっている必要があります。
+   > **注**: URL は、**http:// 、 https://**、**www** のいずれかで始まっている必要があります。
    > 
    > 
 5. **[レポートのプロパティ]** グループで、 **[データ カテゴリ]** ドロップダウンを選び、 **[Web URL]** を選びます。 
