@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293630"
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI アーカイブ済みワークスペース
 Power BI では、だれでもサインアップすれば、数分でサービスを使い始めることができます。  後から組織の IT 部門が、組織内のユーザーから Power BI の管理を引き継ぐことができます。  この引き継ぎが行われる場合、組織内のユーザーとアクセス許可の中央管理を活用し、組織の他のサービスで使うのと同じユーザー名とパスワードを使って、効率的なサインインを利用できます。 

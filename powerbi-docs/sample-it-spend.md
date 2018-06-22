@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 0d2790266254f1e9dac07b99acb19550cd3ed364
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 62827117c04e5332936e36b82ebbb35af82e975c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722111"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の IT 支出分析のサンプル: 使ってみる
 
@@ -27,7 +28,7 @@ IT 支出分析[コンテンツ パック](service-organizational-content-pack-i
 
 ## <a name="prerequisites"></a>前提条件
 
- このサンプルを使用するには、事前にサンプルを[コンテンツ パック](https://docs.microsoft.com/en-us/power-bi/sample-it-spend#get-the-content-pack-for-this-sample)、[.pbix ファイル](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT-Spend-Analysis-Sample-PBIX.pbix)、または [Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529783)としてダウンロードしておく必要があります。
+ このサンプルを使用するには、事前にサンプルを[コンテンツ パック](https://docs.microsoft.com/power-bi/sample-it-spend#get-the-content-pack-for-this-sample)、[.pbix ファイル](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT-Spend-Analysis-Sample-PBIX.pbix)、または [Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529783)としてダウンロードしておく必要があります。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>このサンプルのコンテンツ パックを入手する
 

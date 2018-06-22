@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 1133c524999dcc00c81ff163fe7c6777f6b9f817
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: d3a18b2505739d28276fbe9fc269bbf774879fa6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481074"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の営業案件の分析のサンプル: 使ってみる
 
@@ -37,7 +38,7 @@ ms.lasthandoff: 05/24/2018
 
 ## <a name="prerequisites"></a>前提条件
 
- このサンプルを使用するには、事前にサンプルを[コンテンツ パック](https://docs.microsoft.com/en-us/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)、[.pbix ファイル](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity-Analysis-Sample-PBIX.pbix)、または [Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529782)としてダウンロードしておく必要があります。
+ このサンプルを使用するには、事前にサンプルを[コンテンツ パック](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)、[.pbix ファイル](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity-Analysis-Sample-PBIX.pbix)、または [Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529782)としてダウンロードしておく必要があります。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>このサンプルのコンテンツ パックを入手する
 

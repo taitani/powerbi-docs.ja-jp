@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34287672"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop の [分析] ウィンドウを使用する
 **Power BI Desktop** の **[分析]** ウィンドウによって、動的な*参照線*をビジュアルに追加して、重要な傾向や情報に注目させることができます。 **[分析]** ウィンドウは Power BI Desktop の **[視覚化]** 領域にあります。
