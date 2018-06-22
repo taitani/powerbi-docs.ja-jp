@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289995"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI データ ソースの前提条件
 Power BI は、データ プロバイダーごとにオブジェクトの特定のプロバイダーのバージョンをサポートしています。 Power BI で使用できるデータ ソースについて詳しくは、「[データ ソース](desktop-data-sources.md)」をご覧ください。 次の表では、これらの要件について説明します。

@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34291905"
 ---
 # <a name="using-organization-custom-visuals-in-power-bi"></a>Power BI で組織のカスタム ビジュアルを使用する
 

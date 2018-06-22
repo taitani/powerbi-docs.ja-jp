@@ -11,10 +11,10 @@ ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34297264"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>レポートとビジュアルのデザインに関するベスト プラクティス
@@ -24,7 +24,7 @@ ms.locfileid: "34297264"
 ## <a name="introduction"></a>概要
 このホワイト ペーパーでは、Power BI でレポートをデザインするためのベスト プラクティスについて説明します。 計画から始めて、レポートと、レポートを構成するページおよび個々のビジュアルに適用できる、デザインの原則について説明します。  これらのベスト プラクティスの多くは、ダッシュボードのデザインにも当てはまります。
 
-このホワイト ペーパーを出発点にして、学習したことを実際のレポートや視覚化に適用し、community.powerbi.com で意見交換を続けてください。BI レポートのデザインと視覚化は今まさに注目されている話題であり、多くのソート リーダー、ブロガー、Web サイトがこのトピックについて広く深く検討しています (最後にいくつか示してあります)。   
+このホワイト ペーパーを出発点にして、学習したことを実際のレポートや視覚化に適用し、community.powerbi.com で意見交換を続けてください。 BI レポートのデザインと視覚化は今まさに注目されている話題であり、多くのソート リーダー、ブロガー、Web サイトがこのトピックについて広く深く検討しています (最後にいくつか示してあります)。   
 
 > [!NOTE]
 > このホワイト ペーパーの推奨事項は、適切なタイミングと場所に適用すべきガイドラインです。 以下で説明するすべての原則には、通常、"規則を破る" 正当な理由があります。

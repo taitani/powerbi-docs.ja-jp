@@ -14,6 +14,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296266"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI レポートのスケジュールされた更新を構成する方法
 Power BI レポートのデータを更新するには、スケジュールされた更新計画を作成する必要があります。 これは、Power BI レポートの *[管理]* 領域で行います。

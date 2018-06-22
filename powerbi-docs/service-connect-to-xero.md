@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34246911"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Power BI で Xero に接続する
 Xero は、小規模企業向けに設計されている使いやすいオンライン会計ソフトウェアです。 この Power BI コンテンツ パックは、Xero financials に基づいて説得力のある視覚エフェクトを作成します。 既定のダッシュ ボードには、キャッシュの位置、売上とコスト、損益トレンド、借方日数、投資収益率のような多くの小規模ビジネス メトリックが含まれています。

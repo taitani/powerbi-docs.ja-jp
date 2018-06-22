@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290869"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI で DirectQuery を使用する
 **Power BI Desktop** または **Power BI サービス**を使用すると、あらゆる種類のデータ ソースに、さまざまな方法で接続できます。 Power BI へのデータの "*インポート*" は、最もよく使われるデータ取得方法です。または、元のソース リポジトリ内のデータに直接接続することもでき、これは **DirectQuery** と呼ばれます。 この記事では **DirectQuery** とその機能について説明します。内容は次のとおりです。

@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
 ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292963"
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>iOS デバイス用 Power BI モバイル アプリでデータを探索する
 Microsoft Power BI for iOS アプリを使用すると、iPad、iPhone、Apple Watch、iPod Touch でモバイルの BI 機能を利用できます。 タッチ入力対応のモバイル機器で重要なビジネス情報にライブ アクセスできるため、組織の Power BI ダッシュボードとレポートおよび Reporting Services モバイル レポートと KPI をどこからでも表示して操作することができます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで、同僚と共有できます。

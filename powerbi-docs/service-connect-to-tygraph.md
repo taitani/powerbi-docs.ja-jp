@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241138"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Power BI で tyGraph に接続する
 Power BI コンテンツ パックを使用して、Power BI 内の tyGraph データを視覚化および探索します。 まず tyGraph アカウントに接続し、ダッシュボード、レポート、データセットを読み込みます。 すぐに使えるコンテンツには、Measure of Active Engagement (MAE スコア) や上位投稿者などの情報があります。 最も関心がある情報を強調表示するには、さらにカスタマイズします。  データは、設定したスケジュールに従って自動的に更新されます。
@@ -37,7 +38,7 @@ Power BI コンテンツ パックを使用して、Power BI 内の tyGraph デ�
 5. 接続するには、tyGraph キーを指定します。 この値の検索の詳細については、以下を参照してください。
    
     **ユーザーが Yammer 認証管理者である場合**  
-    tyGraph アカウントが正常に作成されると API キーが電子メールで送信されます。 キーが見つからない場合は、support@unlimitedviz.com に電子メールを送信して新しいキーを要求することができます。tyGraph アカウントがまだない場合は、[http://www.tygraph.com/](http://www.tygraph.com/) で試用版を開始できます。 
+    tyGraph アカウントが正常に作成されると API キーが電子メールで送信されます。 キーが見つからない場合は、support@unlimitedviz.com に電子メールを送信して新しいキーを要求することができます。 tyGraph アカウントがまだない場合は、[http://www.tygraph.com/](http://www.tygraph.com/) で試用版を開始できます。 
    
     **ユーザーが Yammer 認証管理者でない場合**
    
