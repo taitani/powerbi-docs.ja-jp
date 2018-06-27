@@ -11,10 +11,10 @@ ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34721181"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop でレポートのテーマを使用する (プレビュー)
@@ -91,7 +91,7 @@ JSON ファイルを作成する利点はさまざまです。 たとえば、�
 すべて緑色になっているのは、 これらの色が、インポートして適用した**レポートのテーマ**の一部であるためです。
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>レポートでレポート テーマの色が維持されない場合
-ビジュアルの特定のデータ ポイントにユーザー設定の色 (または独自の色) を適用した場合、レポート テーマを適用しても、カスタマイズされたデータ ポイントの色は上書き *されません* 。
+ビジュアルの特定のデータ ポイントにユーザー設定の色 (または独自の色) を適用した場合、レポート テーマを適用しても、カスタマイズされたデータ ポイントの色はオーバーライド*されません*。
 
 さらに、色パレットのテーマの色セクションを使用してデータ ポイントの色を手動で設定した場合、新しいレポート テーマを適用しても、その色は更新*されません*。 既定の色に戻す (新しいレポート テーマの適用時に更新する) 場合は、**[テーマの色]** パレットで **[既定値に戻す]** を選択できます。
 
