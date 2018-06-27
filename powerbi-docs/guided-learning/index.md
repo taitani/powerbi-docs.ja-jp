@@ -3,10 +3,10 @@ title: Microsoft Power BI のガイド付き学習
 description: この順番に並んだ一連のコースを使って、Microsoft Power BI についての学習をはじめ、その幅広い強力な機能を理解しましょう。
 layout: LandingPage
 ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310155"
 ---
 <div id="main" class="v2">

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
 ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34445120"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
@@ -26,7 +26,7 @@ ms.locfileid: "34445120"
 | [Power BI Premium の計画と展開](https://aka.ms/Premium-Capacity-Planning-Deployment)| このホワイト ペーパーでは、適切に定義されたワークロードの Premium 容量を計画して展開するためのガイダンスとベスト プラクティスを提供します。|
 | [Power BI Premium による埋め込み分析のための容量を分析する](https://aka.ms/pbiewhitepaper) |この白書は、アプリ開発者/ISV がそのビジネスに最適な容量を決定するための指針を提供します。 |
 | [Power BI のエンタープライズ展開の計画](https://aka.ms/pbienterprisedeploy) |これは、組織で効果的かつ安全に Power BI を展開するための考慮事項をまとめた技術白書です。 |
-| [Power BI Report Server のキャパシティ プランニング ガイダンス](report-server/capacity-planning.md) |このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスを提供します。 |
+| [Power BI Report Server のキャパシティ プランニング ガイダンス](report-server/capacity-planning.md) |このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 |
 | [セキュリティ](service-admin-power-bi-security.md) |Power BI でのセキュリティについて詳細に説明します。 |
 | [Power BI と GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Power BI は、GDPR への準拠を実現するための重要な部分になることができます。 このドキュメントの目的は、GDPR の基礎知識を提供し、その知識を Power BI と関連付けることです。 GDPR への準拠はこのドキュメントに記載されている特定の状況では必須ですが、それは "チェック ボックス" 形式の演習ではありません。 それは、総合的なデータ保護とプライバシーの機能を強化する方法でもあります。|
 | [Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](https://aka.ms/powerbi-b2b-whitepaper)|この資料では、Azure Active Directory Business-to-business (AAD B2B) の統合を使用して組織外のユーザーにコンテンツを配布する方法について説明します。|
