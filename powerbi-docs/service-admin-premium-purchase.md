@@ -11,10 +11,10 @@ ms.date: 10/17/2017
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 2789f2e3e8198ddc0363fb07488f5fe8f39441a6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34297379"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Pro の購入方法
@@ -47,7 +47,7 @@ Premium 容量を購入するには、以下を行う必要があります。
    
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. **[請求]** > **[サービスを購入する]** を選択します。
-3. **[その他のプラン]** で、Power BI Premium のサービスを探します。 これは P1 ～ P3、EM3、および P1 (月極め) として一覧表示されます。
+3. **[その他のプラン]** で、Power BI Premium のオファーを探します。 これは P1 ～ P3、EM3、および P1 (月極め) として一覧表示されます。
 4. **省略記号 (...)** にポインターを合わせ、**[今すぐ購入する]** を選択します。
    
     ![](media/service-admin-premium-purchase/premium-purchase.png)

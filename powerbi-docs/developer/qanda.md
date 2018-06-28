@@ -1,6 +1,6 @@
 ---
 title: Power BI Embedded での Q&A
-description: Power BI Embedded では、アプリケーションに Q&A を組み込む手段が提供されており、ユーザーは自然言語を使って質問できます。
+description: Power BI Embedded では、アプリケーションに Q&amp;A を組み込む手段が提供されており、ユーザーは自然言語を使って質問できます。
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
 ms.openlocfilehash: d1fd42f059f8050662adc80018748d11c1e73e2b
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813758"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded での Q&A
-Power BI Embedded では、アプリケーションに Q&A を組み込む手段が提供されており、ユーザーは、自然言語を使って質問し、チャートやグラフなどのビジュアルの形式ですぐに回答を受け取ることができます。
+Power BI Embedded では、アプリケーションに Q&amp;A を組み込む手段が提供されており、ユーザーは、自然言語を使って質問し、チャートやグラフなどのビジュアルの形式ですぐに回答を受け取ることができます。
 
 ![埋め込みフレームでの Q&A の対話的な質問](media/qanda/embedded-qanda.gif)
 

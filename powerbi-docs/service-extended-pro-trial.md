@@ -11,10 +11,10 @@ ms.date: 07/18/2017
 ms.author: maghan
 LocalizationGroup: Get started
 ms.openlocfilehash: c38b94b278bf0e2fe308e3249b27acf8ed7e7837
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34247989"
 ---
 # <a name="extended-pro-trial-activation"></a>Extended Pro Trial のアクティブ化
@@ -43,7 +43,7 @@ Extended Pro Trial の資格を得るには、ご利用のアカウントが次�
 * *60 日間の製品内 Pro 試用版*を以前に利用していたユーザー、または現在利用中のユーザーにも Extended Pro Trial の資格が与えられます。
 
 > [!NOTE]
-> Office 365 内で Power BI Pro または Power BI Pro 試用版サブスクリプションからライセンスを割り当てられたユーザーはこのキャンペーンの対象外です。
+> Office 365 内で Power BI Pro または Power BI Pro 試用版サブスクリプションからライセンスを割り当てられたユーザーはこのオファーの対象外です。
 > 
 > 
 
@@ -80,7 +80,8 @@ Power BI サービスにサインインすると、キャンペーン対象で�
 
 ![Power BI Pro 試用版の残りの日数](media/service-extended-pro-trial/powerbi-trial-days-left.png)
 
-[Extended Pro Trial キャンペーンの利用規約](https://aka.ms/power-bi-trial)内に条件の記載があります。 すべてのユーザーを対象に、Extended Pro Trial は 2018 年 5 月 31 日をもって終了します。
+
+  [Extended Pro Trial キャンペーンの利用規約](https://aka.ms/power-bi-trial)内に条件の記載があります。 すべてのユーザーを対象に、Extended Pro Trial は 2018 年 5 月 31 日をもって終了します。
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 **2017 月 5 月 3 日の後にサインアップした新規ユーザーはどうなりますか。**
@@ -103,7 +104,8 @@ Power BI サービスにサインインすると、キャンペーン対象で�
 いいえ。 管理者は Extended Pro Trial やサービス内 Power BI Pro 60 日間試用版のアクティベートをユーザーに禁止することはできません。
 
 ## <a name="next-steps"></a>次の手順
-[Extended Pro Trial キャンペーンの利用規約](https://aka.ms/power-bi-trial)  
+
+  [Extended Pro Trial キャンペーンの利用規約](https://aka.ms/power-bi-trial)  
 [個々のユーザーに対する Power BI サービス契約](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium に関するお知らせ](https://aka.ms/pbipremium-announcement)  
 [サインインした Power BI ユーザーを見つける](service-admin-access-usage.md)
