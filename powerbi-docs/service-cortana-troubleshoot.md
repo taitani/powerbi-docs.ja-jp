@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 280b76bd7a950f9f66834b4707c1144485008a3c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: adb5d744a8eb99fce056a07ddb97b6cd7a82a8b4
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250591"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964862"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI 用 Cortana のトラブルシューティング
 この記事はシリーズの一部です。 次の 3 つの記事をまだ読んでいない場合は、読むことをお勧めします。
@@ -30,7 +30,7 @@ ms.locfileid: "34250591"
 Cortana と Power BI の統合にまだ問題がある場合は、ここでその解決方法を説明します。 以下の手順に従って問題を診断し、解決してください。
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Cortana が Power BI のレポートまたはダッシュボードから回答を発見できない理由
-1. Power BI アカウントがありますか。  ない場合は、[無料でサインアップ](service-self-service-signup-for-power-bi.md)できます。
+1. Power BI アカウントがありますか。  ない場合は、[無料試用版にサインアップ](https://powerbi.microsoft.com/get-started/)します。
 2. Cortana は動いていますか。  タスク バーに Cortana アイコンが表示されていますか。
 
     ![](media/service-cortana-troubleshoot/power-bi-cortana-icon.png)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584118"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964770"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI の散布図とバブル チャート
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
@@ -116,9 +116,9 @@ ms.locfileid: "34584118"
 新しいフィールドを作成するには、[Power BI Desktop クエリ エディターを使ってデータセットにインデックス列を追加します](desktop-add-custom-column.md)。  その後、この列を視覚化の **[詳細]** 領域に追加します。
 
 ## <a name="next-steps"></a>次の手順
- [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[試してみる (無料)](https://powerbi.com/)  
+[無料試用版にサインアップ](https://powerbi.microsoft.com/get-started/)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721503"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964793"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI のスライサー
 レポートを見る人が売り上げ全体の指標を調べることができるだけでなく、個々の地域マネージャーや異なる期間の実績に注目することもできるようにしたい場合があります。 個別レポートや比較グラフを作成してもかまいませんが、スライサーを使用することもできます。 スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。 
@@ -141,7 +141,7 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
     ![レスポンシブ](media/power-bi-visualization-slicers/5-responsive.png)
     
     >[!NOTE]
-    >レスポンシブ レイアウトの変更により、ユーザーが設定した特定の見出しと項目の書式設定が上書きされることがあります。 
+    >レスポンシブ レイアウトの変更により、ユーザーが設定した特定の見出しと項目の書式設定がオーバーライドされることがあります。 
     
 4. **[X 方向の位置]**、**[X 方向の位置]**、**[幅]**、**[高さ]** でスライサーの位置とサイズを数値で指定するか、キャンバス上で直接スライサーを移動およびサイズ変更します。 項目のサイズと配置を変えてテストし、それに従ってレスポンシブ書式設定がどのように変化するかを確認してください。  
 
@@ -183,7 +183,7 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 - **[罫線]**: スライサーの周囲に 1 ピクセルの枠線を追加し、その色を設定します (このスライサーの枠線は、[全般] の [アウトライン] の設定とは別であり影響を受けません)。 
 
 ## <a name="next-steps"></a>次の手順
-[試してみる (無料)](https://powerbi.com/)
+[無料試用版にサインアップ](https://powerbi.microsoft.com/get-started/)
 
 Power BI を改善する方法について、ご意見がありましたら、 [コメントを送信](https://ideas.powerbi.com/forums/265200-power-bi-ideas)してください。
 
