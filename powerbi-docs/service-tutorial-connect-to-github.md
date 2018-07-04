@@ -44,7 +44,7 @@ GitHub アカウントをまだ持っていない場合、このチュートリ�
 
 
 ## <a name="how-to-connect"></a>接続する方法
-1. Power BI サービスにサインインします (http://powerbi.com)。 
+1. Power BI サービスにサインインします (http://powerbi.com) 。 
 2. 左側のナビゲーション ウィンドウで **[アプリ]** を選んでから、**[アプリの取得]** を選びます。
    
    ![Power BI のアプリの取得](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
