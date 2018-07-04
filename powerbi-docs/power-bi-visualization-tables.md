@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7e992152656a208c765743292e06b4d0d3708730
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584233"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600259"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードでのテーブルの操作
 テーブルは、関連性のあるデータが論理的な一連の行と列に格納されたグリッドです。 ヘッダーと合計行が含まれる場合もあります。 テーブルは、1 つのカテゴリの多くの値を調べるときの定量的な比較で役に立ちます。 たとえば、次の表には**カテゴリ**に対する 5 つの異なるメジャーが表示されています。
@@ -32,52 +32,52 @@ ms.locfileid: "34584233"
 
 > [!NOTE]
 > テーブルの値が多すぎる場合は、マトリックスに変換したり、ドリルダウンを使うことを検討してください。
-> 
-> 
-## <a name="prerequisites"></a>前提条件
- - Power BI サービスまたは Power BI Desktop
- - 小売りの分析のサンプル
 
+## <a name="prerequisites"></a>前提条件
+- Power BI サービスまたは Power BI Desktop
+- 小売の分析のサンプル
 
 ## <a name="create-a-table"></a>テーブルを作成する
 上の図のようなテーブルを作成し、品目カテゴリ別に売上高の値を表示するテーブルを作成します。 先に進むには、Power BI サービスにサインインして、**[データの取得] \> [サンプル] \> [小売りの分析のサンプル] > [接続]** を選んでから、**[ダッシュボードに移動] を選びます。 視覚エフェクトを作成するには、データセットとレポートへの編集アクセス許可が必要です。 Power BI のサンプルはすべて編集できます。 他のユーザーから共有を受けているレポートの場合は、レポートで視覚エフェクトを作成できません。
 
 1. 左側のナビゲーション ウィンドウから **[ワークスペース] > [マイ ワークスペース]** を選択します。    
 2. [データセット] タブを選択し、追加した小売りの分析のサンプル データセットまでスクロールします。  **レポートの作成**アイコンを選択します。
-   
+
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. レポート エディターで **[項目]** > **[カテゴリ]** を選択します。  すべてのカテゴリを一覧表示するテーブルが自動的に作成されます。
-   
+
     ![](media/power-bi-visualization-tables/power-bi-table1.png)
 3. **[Sales] > [Average Unit Price]**、**[Sales] > [Last Year Sales]**、および **[Sales] > [This Year Sales]** を選び、3 つのオプション ([Value]、[Goal]、[Status]) をすべて選びます。   
 4. 視覚化ウィンドウで **[値]** ウェルを探し、グラフの列の順序がこのページの最初の図と一致するまで、値をドラッグ アンド ドロップします。  [値] ウェルは次のように表示されています。
-   
+
     ![](media/power-bi-visualization-tables/power-bi-table2.png)
 5. ピン アイコンを選んで、ダッシュボードにテーブルをピン留めします。  
-   
+
      ![](media/power-bi-visualization-tables/pbi_pintile.png)
 
 ## <a name="format-the-table"></a>テーブルの書式を設定する
 テーブルの書式を設定する方法は実にさまざまな方法があるため、ここではごく一部を紹介します。 他の書式設定オプションの詳細については、[書式設定] ウィンドウを開いて (ペイント ローラー アイコン ![](media/power-bi-visualization-tables/power-bi-format.png)) 確認することをお勧めします。
 
 * テーブル グリッドの書式を設定してみましょう。 ここでは、青色の垂直グリッドを追加し、行にスペースを追加し、アウトラインとテキスト サイズを少し増やしました。
-  
+
     ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
-  
+
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * 列ヘッダーについては、背景色を変更し、アウトラインを追加し、フォント サイズを増やしました。 
-  
+
     ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
 
-  
-    ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
+
+~~~
+![](media/power-bi-visualization-tables/power-bi-table-column2.png)
+~~~
 
 * 個々の列および列ヘッダーに書式設定を適用することもできます。 最初に **[フィールドの書式]** を展開し、ドロップダウン リストから書式を設定する列を選びます。 列の値に応じて、[フィールドの書式] では表示単位、フォントの色、小数点以下の桁数、背景、配置などを設定できます。 設定を調整した後は、同じ設定をヘッダーや合計行にも適用するかどうかを決定します。
 
     ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
 
 * その他の書式をいくつか設定すると、次のようなテーブルが完成します。 書式設定オプションは多数あるため、使い方を学ぶには、既定の書式設定から始めて、[書式設定] ウィンドウ ![](media/power-bi-visualization-tables/power-bi-format.png) を開き、調べてみることをお勧めします。 
-  
+
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 
 ### <a name="conditional-formatting"></a>条件付き書式設定
@@ -86,27 +86,27 @@ ms.locfileid: "34584233"
 テーブルで条件付き書式を使用すると、グラデーション カラーの使用など、セルの値に基づいてカスタマイズされたセルの背景色とフォントの色を指定できます。 
 
 1. Power BI サービスまたは Power BI Desktop の **[視覚化]** ウィンドウで、書式設定する **[値]** ウェルの値の横にある下向きの矢印を選択します (または、フィールドを右クリックします)。 条件付き書式を管理できるのは、**[フィールド]** ウェルの **[値]** 領域のフィールドだけです。
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
 2. **[バックグラウンドのカラー スケール]** を選びます。 表示されるダイアログ ボックスでは、色や、*最小*と*最大*の値を構成できます。 **[左右逆方向]** ボックスをオンにした場合は、オプションの*中央*値も構成できます。
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
-   
+
     カスタムの書式設定をいくつか [Average Unit Price] 値に適用してみましょう。 **[左右逆方向]** を選択し、いくつか色を追加し、**[OK]** を選択します。 
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
 3. 正と負の値両方があるテーブルに新しいフィールドを追加します。  **[Sales]、[Total Sales Variance]** の順に選択します。 
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 4. **[Total Sales Variance]** の横にある下向きの矢印を選択して、データ バーの条件付き書式を追加し、**[条件付き書式]、[データ バー]** の順に選択します。
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
 5. 表示されるダイアログで **[正のバー]** と **[負のバー]** の色を設定し、**[バーのみを表示]** をオンにします。また、必要に応じて他の変更を行います。
-   
+
     ![](media/power-bi-visualization-tables/power-bi-data-bars.png)
-   
+
     **[OK]** を選択すると、データ バーによってテーブル内の数値が置き換えられ、スキャンしやすくなります。
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 6. 視覚化から条件付き書式を削除するには、再度フィールドを右クリックし、**[条件付き書式の削除]** を選択します。
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584072"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599596"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel から Power BI ダッシュボードにタイルをピン留めする
 Excel ブックからタイルをピン留めするには、その前にブックを Power BI サービス (app.powerbi.com) に接続する必要があります。 ブックを接続すると、基本的に、そのブックのリンクされた読み取り専用バージョンが Power BI サービスに取り込まれて、範囲をダッシュボードにピン留めできるようになります。 ワークシート全体をダッシュボードにピン留めすることもできます。  
@@ -60,7 +60,7 @@ Power BI ではブックを編集できません。 ただし、変更を加え�
    * 既存のダッシュボード: ドロップダウンから、ダッシュボードの名前を選びます。
    * 新しいダッシュボード: 新しいダッシュボードの名前を入力します。
    
-    ![ダッシュボードにピン留めダイアログ](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+     ![ダッシュボードにピン留めダイアログ](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. **[Pin]**(ピン留め) を選択します。 右上隅の近くに成功メッセージが表示されたら、範囲がダッシュボードにタイルとして追加されたことがわかります。 
    
     ![ダッシュボードにピン留めダイアログ](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
