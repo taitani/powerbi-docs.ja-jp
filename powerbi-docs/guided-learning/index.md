@@ -2,12 +2,12 @@
 title: Microsoft Power BI のガイド付き学習
 description: この順番に並んだ一連のコースを使って、Microsoft Power BI についての学習をはじめ、その幅広い強力な機能を理解しましょう。
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310155"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600678"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -158,7 +158,7 @@ ms.locfileid: "34310155"
                                 <img src="media/pbi-visualizations.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-視覚化 </h3>
+視覚エフェクト </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="visualizations.yml?tutorial-step=1">Power BI でのビジュアルの概要</a>
@@ -272,7 +272,7 @@ ms.locfileid: "34310155"
                                 <span style="margin-left: 32px; align-self: center;">9 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">カスタム Q&A 候補の作成</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">カスタム Q&amp;A 候補の作成</a>
                                 <span style="margin-left: 32px; align-self: center;">4 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
