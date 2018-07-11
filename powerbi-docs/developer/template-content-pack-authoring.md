@@ -1,27 +1,29 @@
 ---
 title: Power BI でテンプレート コンテンツ パックを作成する
 description: テンプレート コンテンツ パックのオーサリング
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
-ms.author: maghan
-ms.openlocfilehash: f3f3343122857cbf06c0004d2a3e5e5247f07e48
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.author: maggies
+ms.openlocfilehash: 02c4725617960474cff7a9a1452861d1ab5d5b8d
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290877"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI でテンプレート コンテンツ パックを作成する
-Power BI Desktop と PowerBI.com を使用するテンプレート コンテンツ パックをオーサリングします。コンテンツ パックには 4 つのコンポーネントがあります。
+Power BI Desktop と PowerBI.com を使用するテンプレート コンテンツ パックをオーサリングします。 コンテンツ パックには 4 つのコンポーネントがあります。
 
 * クエリによって、データへの[接続](../desktop-connect-to-data.md)と[変換](../desktop-query-overview.md)ができるだけでなく、[パラメーター](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)も定義することができます  
 * [リレーションシップ](../desktop-create-and-manage-relationships.md)、[メジャー](../desktop-measures.md)、および Q&A の機能強化を作成するためのデータ モデル  
 * レポート [ページ](../desktop-report-view.md)には、データに対する洞察を提供するためのビジュアルとフィルターが含まれます  
-* [ダッシュボード](../service-dashboards.md)と[タイル](../service-dashboard-create.md)は、含まれている洞察の概要を提供します  
+* 
+  [ダッシュボード](../service-dashboards.md)と[タイル](../service-dashboard-create.md)は、含まれている洞察の概要を提供します  
 
 既存の Power BI 機能など、各部分について精通しているかもしれません。 コンテンツ パックを構築する場合に、各側面について考慮すべき追加事項があるなら、詳細については以下の各セクションを参照してください。
 

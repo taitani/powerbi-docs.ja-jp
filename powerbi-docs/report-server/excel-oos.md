@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481902"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092669"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) を利用し、Excel ブックをホストするようにレポート サーバーを構成する
 Web ポータルで Power BI レポートを表示することに加え、Power BI Report Server は [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) を使用して Excel ブックをホストすることができます。 レポート サーバーで一元的に、セルフサービスの Microsoft BI コンテンツの公開と表示を行うことができます。
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **パラメーター**
 
-* **–InternalURL** は、Office Online Server を実行するサーバーの完全修飾ドメイン名 (FQDN) です。たとえば、http://servername.contoso.com のようになります。
+* **–InternalURL** は、Office Online Server を実行するサーバーの完全修飾ドメイン名 (FQDN) です。たとえば、`http://servername.contoso.com` のようになります。
 * **–ExternalURL** は、インターネットでアクセスできる FQDN です。
 * **–CertificateName** は、証明書のフレンドリ名です。
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **パラメーター**
 
-* **–InternalURL** は、Office Online Server を実行するサーバーの名前です。たとえば、http://servername のようになります。
+* **–InternalURL** は、Office Online Server を実行するサーバーの名前です。たとえば、`http://servername` のようになります。
 * **–AllowHttp** は、HTTP を使用するようにファームを構成します。
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Office Online Server ファームが作成されたことを確認する

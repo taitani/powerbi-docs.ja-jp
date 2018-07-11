@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813804"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944654"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI サービスのダッシュボード テーマを使用する
 **ダッシュボード テーマ**では、企業の色、季節の色、または適用する可能性がある他の色のテーマなど、色のテーマをダッシュボード全体に適用することができます。 **ダッシュボード テーマ**を適用すると、ダッシュボードのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。
@@ -89,7 +89,6 @@ Power BI ダッシュボードの既定のテーマは **[明るい]** です。
 
     ![保存先のテーマを使用](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* 現時点では、REST API を使用して、モバイル デバイスに、あるいは外部ユーザーによって埋め込まれたダッシュボードを表示する場合、ダッシュボード テーマはサポートされません。    
 * ピン留めされたライブ レポート ページ、iframe タイル、SSRS タイル、ブック タイル、イメージにダッシュボード テーマを適用することはできません。
 * モバイル デバイスでダッシュボード テーマを表示できますが、ダッシュボード テーマを作成できるのは Power BI サービスでのみです。 
 * ダッシュボードのカスタム テーマは、レポートからピン留めされたタイルでのみ機能します。 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241949"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965207"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI と Office 365 でアプリ ワークスペースを管理する
 Office 365 または [Power BI でのアプリ ワークスペース](service-install-use-apps.md)の作成者または管理者として、Power BI でワークスペースの一部の側面を管理します。 その他の側面は、Office 365 で管理します。 
@@ -33,7 +33,7 @@ Office 365 または [Power BI でのアプリ ワークスペース](service-in
 * グループの電子メール アドレスを参照します。
 * グループを削除します。
 
-アプリ ワークスペースの管理者またはメンバーになるには、[Power BI Pro](service-free-vs-pro.md) ライセンスが必要です。 アプリ ワークスペースが Power BI Premium 容量にない場合は、アプリ ユーザーにも Power BI Pro ライセンスが必要です。 ビジネス ユーザーは、代わりに Power BI 無料ライセンスを使用して、アプリにアクセスできます。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
+アプリ ワークスペースの管理者またはメンバーになるには、[Power BI Pro](service-free-vs-pro.md) ライセンスが必要です。 アプリ ワークスペースが Power BI Premium 容量にない場合は、アプリ ユーザーにも Power BI Pro ライセンスが必要です。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Power BI でアプリ ワークスペースを編集する
 1. Power BI サービスで、**[ワークスペース]** の横にある矢印を選択し、目的のワークスペース名の横にある省略記号 (**…**) を選択して、**[ワークスペースの編集]** を選択します。 

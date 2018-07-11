@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52ef5b568e63d759b38ee8210873783b6c205a2a
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471941"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965529"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 Power BI サービスでレポートを開くと、レポートの各ページに一意の URL があります。 そのレポート ページをフィルター処理するには、レポート キャンバスの [フィルター] ウィンドウを使うことができます。  または、クエリ文字列パラメーターを URL に追加して、レポートをフィルター処理できます。 同僚に見せるレポートに事前にフィルターを適用したい場合、 1 つの方法は、レポートの既定の URL にフィルター パラメーターを追加し、URL 全体をメールで同僚に送るというものです。
@@ -108,7 +108,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 ## <a name="next-steps"></a>次の手順
 [視覚化をダッシュボードにピン留めする](service-dashboard-pin-tile-from-report.md)  
-[試してみる (無料)](https://powerbi.com/)
+[無料試用版にサインアップ](https://powerbi.microsoft.com/get-started/)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

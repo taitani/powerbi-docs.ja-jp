@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297264"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945137"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>レポートとビジュアルのデザインに関するベスト プラクティス
 <!-- Shared newnav Include -->
@@ -451,7 +451,7 @@ TDI ブロガーであり TechTarget の業界アナリストである Wayne Eck
 グラフを並べ替えるには、グラフの右上にある省略記号 [...] を選び、**[並べ替え]** を選んで、並べ替えるフィールドと向きを選びます。 詳しくは、「[Change how a visual is sorted](power-bi-report-change-sort.md)」 (ビジュアルの並べ替え方法を変更する) をご覧ください。
 
 #### <a name="chart-interaction-and-interplay"></a>グラフの相互作用
-Power BI の最も魅力的な機能の 1 つは、グラフが相互作用する方法を編集する機能です。  既定では、グラフは相互に強調表示されます。データ ポイントを選ぶと、他のグラフの関連するデータが明るくなり、関連のないデータは暗くなります。 この動作を無効にし、グラフを実際のフィルターとして使用して、ページのスペースを節約することができます。 これを行うには、メニュー バーから **[ビジュアル対話]** を選びます。
+Power BI の最も魅力的な機能の 1 つは、グラフが相互作用する方法を編集する機能です。  既定では、グラフは相互に強調表示されます。データ ポイントを選ぶと、他のグラフの関連するデータが明るくなり、関連のないデータは暗くなります。 この動作をオーバーライドし、グラフを実際のフィルターとして使用して、ページのスペースを節約することができます。 これを行うには、メニュー バーから **[ビジュアル対話]** を選びます。
 
 ![](media/power-bi-visualization-best-practices/power-bi-visual-interactions.png)
 
@@ -605,7 +605,7 @@ Power BI では、多くのビジュアルの種類が既定で提供されて�
   ![](media/power-bi-visualization-best-practices/power-bi-start-end.png)
   
   **図 48: 始点と終点を設定する**
-* 始点と終点を明示的に設定する理由としてもう 1 つあるのは、同じ Y 軸フィールドを使って、同じページで複数のグラフを比較する場合です。  たとえば、累積的な種目の数を見る場合、英国は 1 ～ 70 の範囲で、オーストラリアは1 ～ 12 の範囲なので、2 つの折れ線グラフの Y 軸の範囲は大きく異なります (図 49)。 ひとめで比較するのは困難です。 代わりに、同じ Y 軸の範囲を使うようにグラフを設定します (図 50)。
+* 始点と終点を明示的に設定する理由としてもう 1 つあるのは、同じ Y 軸フィールドを使って、同じページで複数のグラフを比較する場合です。  たとえば、累積的な種目の数を見る場合、イギリスは 1 ～ 70 の範囲で、オーストラリアは1 ～ 12 の範囲なので、2 つの折れ線グラフの Y 軸の範囲は大きく異なります (図 49)。 ひとめで比較するのは困難です。 代わりに、同じ Y 軸の範囲を使うようにグラフを設定します (図 50)。
   
   ![](media/power-bi-visualization-best-practices/power-bi-line-chart2.png)
   
@@ -787,8 +787,6 @@ Power BI では、縦棒グラフと折れ線グラフを複合グラフに組�
 円グラフが有用な例として、部分と全体の関係を比較する場合が説明されています。 ただし、その場合でも、完全に積み上げ横棒グラフより大幅に優れているわけではありません。
 
 その他の興味深い円グラフに関する記事 (およびアニメーション) については、[Darkhorse Analytics のサイト](http://www.darkhorseanalytics.com/blog/salvaging-the-pie)をご覧ください。
-
-または、反対の意見が述べられている「[Why Tufte is flat-out wrong about pie charts](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/)」 (なぜタフティは円グラフのことをまったく誤解しているのか) をお読みください。
 
 #### <a name="radial-gauges--kpis"></a>放射状ゲージと KPI
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)

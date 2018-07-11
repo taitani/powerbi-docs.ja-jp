@@ -9,17 +9,17 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813241"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092554"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>手順 4: Power BI テーブルに行を追加するためにデータセットを取得する
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
-チュートリアル「データセットにデータをプッシュする」の**手順 3**「[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)」では、[データセットの作成](https://docs.microsoft.com/rest/api/power-bi/datasets)操作を呼び出して Power BI でデータセットを作成しました。 この手順では、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/getdatasets)操作と Newtonsoft.Json を使ってデータセット ID を取得します。データセットに行を追加するには、手順 4 で取得したデータセット ID を使います。 
+チュートリアル「データセットにデータをプッシュする」の**手順 3**「[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)」では、[データセットの作成](https://docs.microsoft.com/rest/api/power-bi/datasets)操作を呼び出して Power BI でデータセットを作成しました。 この手順では、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作と Newtonsoft.Json を使ってデータセット ID を取得します。データセットに行を追加するには、手順 4 で取得したデータセット ID を使います。 
 
 Power BI データセットにデータをプッシュするには、データセット内のテーブルを参照する必要があります。 データセット内のテーブルを参照するには、まず **データセット ID**を取得する必要があります。 **データセット ID** は、[ID によるデータセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid)操作を使って取得します。 **ID によるデータセットの取得**操作では、Power BI 内にあるすべてのデータセットのリストを含む JSON 文字列が返されます。 JSON 文字列を逆シリアル化するには、[Newtonsoft.Json](http://www.newtonsoft.com/json) を使うことをお勧めします。
 

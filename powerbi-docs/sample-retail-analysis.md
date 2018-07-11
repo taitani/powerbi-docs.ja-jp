@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 3382562459c461d9864cfce7163fb0d049deb494
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481810"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944539"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の小売りの分析のサンプル: 使ってみる
 
@@ -25,7 +25,7 @@ ms.locfileid: "34481810"
 
 ## <a name="prerequisites"></a>前提条件
 
- このサンプルを使用するには、事前にサンプルを[コンテンツ パック](https://docs.microsoft.com/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service)、[.pbix ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix)、または [Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529778)としてダウンロードしておく必要があります。
+ このサンプルを使用するには、事前にサンプルを[コンテンツ パック](https://docs.microsoft.com/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service)、[.pbix ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)、または [Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529778)としてダウンロードしておく必要があります。
 
 
 ### <a name="get-the-content-pack-for-this-sample"></a>このサンプルのコンテンツ パックを入手する

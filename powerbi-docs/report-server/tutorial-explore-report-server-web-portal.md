@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445005"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092048"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>チュートリアル: VM で Power BI Report Server Web ポータルを探索する
 このチュートリアルでは、Power BI Report Server が既にインストールされている Azure 仮想マシンを作成するので、サンプルの Power BI とページ分割されたレポートの表示、編集、および管理と、KPI を体験できます。
@@ -100,7 +100,7 @@ VM が開いたら、デスクトップには次の項目が表示されます�
 |![番号 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Power BI Report Server (2018 年 3 月) 向けに最適化された Power BI Desktop を起動します  |
 |![番号 5](media/tutorial-explore-report-server-web-portal/number-5.png) | ブラウザーで Power BI Report Server の Web ポータルを開きます   |
 
-**[Report Server Web ポータル]** アイコンをダブルクリックします。 ブラウザーで http://localhost/reports/browse が開きます。 Web ポータルには、種類ごとにグループ化されたさまざまなファイルが表示されます。 
+**[Report Server Web ポータル]** アイコンをダブルクリックします。 ブラウザーで `http://localhost/reports/browse` が開きます。 Web ポータルには、種類ごとにグループ化されたさまざまなファイルが表示されます。 
 
 ![Power BI レポート サーバーの Web ポータル](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247049"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944976"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>優れた Power BI ダッシュボードのデザインに関するヒント
 ダッシュボードの作成が完了し、タイルもいくつか追加したので、ダッシュボードの外観をよくすることに加えて、機能的なものにする方法についても考えてみましょう。 通常、この改良は、最も重要な情報を目立つようにしたり、簡潔ですっきりとした外観にしたりすることです。
@@ -59,7 +59,7 @@ Microsoft Principal Program Manager と Power BI ダッシュボード エキス
 ## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>データに適した視覚エフェクトを使用し、見やすく書式設定する
 趣向を変えて変化をつけるためだけにさまざまな視覚化を使用することは避けてください。  視覚化は絵を描くように作成し、しかも読みやすく分かりやすいものにしてください。  データや視覚化によっては、シンプルなグラフの視覚化で十分です。 ただし、データの中にはより複雑な視覚化が必要になるものもあります。その場合は、必ずタイトル、ラベル、およびその他のカスタマイズを活用して、閲覧者に理解しやすいようにしてください。  
 
-* [適切なデータ視覚化を選びます](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx)。 事実を歪曲するグラフ、つまり 3-D グラフの使用にはご注意ください。 人間の脳は円形のものを解読することが困難であることにご留意ください。 円グラフ、ドーナツ グラフ、ゲージ、およびその他の円形の種類のグラフは見栄えはよいですが、データの視覚化のベスト プラクティスではありません。
+* [適切なデータ視覚化を選びます](https://www.youtube.com/watch?v=-tdkUYrzrio)。 事実を歪曲するグラフ、つまり 3-D グラフの使用にはご注意ください。 人間の脳は円形のものを解読することが困難であることにご留意ください。 円グラフ、ドーナツ グラフ、ゲージ、およびその他の円形の種類のグラフは見栄えはよいですが、データの視覚化のベスト プラクティスではありません。
 * 軸上のグラフの目盛、グラフのディメンションの順序、およびグラフ内のディメンション値に使用する色と調和させます。
 * 量的なデータを必ず読みやすくエンコードします。 数値を表示する場合、数字を 3 ～ 4 桁までにしてください。 小数点の左側に 1 桁または 2 桁までの数字と、千または百万の尺度 (つまり、3,400,000 ではなく 3.4 M (日本語の場合は「千」、「万」など)) で測定単位を表示します。
 * 有効桁数と時間のレベルを統一します。 期間がよくわかるようにします。  前月のある 1 つのグラフを、その年の特定の 1 つの月からフィルター処理されたグラフの横に配置しないでください。

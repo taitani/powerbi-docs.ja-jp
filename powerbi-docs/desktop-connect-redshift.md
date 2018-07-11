@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c90d2ecf5c3722dfa3991d7001f7c5054e48e6a6
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813137"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135124"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Power BI Desktop で Amazon Redshift に接続する
 **Power BI Desktop** では、**Amazon Redshift** データベースに接続し、Power BI Desktop の他のデータ ソースの場合と同様に基になっているデータを使用できます。
@@ -45,7 +45,7 @@ ms.locfileid: "34813137"
 ## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
-* [Power BI Desktop の概要](desktop-getting-started.md)
+* [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop で Excel ブックに接続する](desktop-connect-excel.md)   

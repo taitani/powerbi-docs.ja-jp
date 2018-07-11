@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2018
+ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: aea76437664ca531b65601007783aee10fd90f19
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a43ffab1ff30dd624fadb7dacb3cebc989ba3128
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721986"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944679"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の調達の分析のサンプル: 使ってみる
 
@@ -32,7 +32,7 @@ ms.locfileid: "34721986"
 
 ## <a name="prerequisites"></a>前提条件
 
- このサンプルを使用するには、事前にサンプルを[コンテンツ パック](https://docs.microsoft.com/power-bi/sample-procurement#get-the-content-pack-for-this-sample)、[.pbix ファイル](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement-Analysis-Sample-PBIX.pbix)、または [Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529784)としてダウンロードしておく必要があります。
+ このサンプルを使用するには、事前にサンプルを[コンテンツ パック](https://docs.microsoft.com/power-bi/sample-procurement#get-the-content-pack-for-this-sample)、[.pbix ファイル](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)、または [Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529784)としてダウンロードしておく必要があります。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>このサンプルのコンテンツ パックを入手する
 

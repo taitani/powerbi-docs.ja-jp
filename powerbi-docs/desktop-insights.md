@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286085"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134687"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Power BI Desktop でインサイトを使用する (プレビュー)
 **Power BI Desktop** にグラフの増減を説明し、データについてすばやく洞察に満ちた自動分析を行うように指示することができます。 その場合、ユーザーはただデータ ポイントを右クリックし、**[分析]、[減少について説明してください]** (前の棒が低い場合は [増加について説明してください]) の順に選択します。これにより、使いやすいウィンドウで洞察が得られます。
@@ -72,7 +72,7 @@ ms.locfileid: "34286085"
 ## <a name="next-steps"></a>次の手順
 **Power BI Desktop** と作業の開始方法の詳細については、次の記事を確認してください。
 
-* [Power BI Desktop の概要](desktop-getting-started.md)
+* [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)
