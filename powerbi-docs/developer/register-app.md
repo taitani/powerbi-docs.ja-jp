@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599489"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925003"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD アプリを登録して Power BI コンテンツを埋め込む
 埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory (Azure AD) 内にアプリケーションを登録する方法を説明します。
@@ -23,7 +23,6 @@ Power BI REST API へのアプリケーションのアクセスを許可する�
 
 > [!IMPORTANT]
 > Power BI アプリを登録する前に、[Azure Active Directory テナントと組織のユーザー](create-an-azure-active-directory-tenant.md)が必要です。 テナント内のユーザーで Power BI にサインアップしていない場合、アプリの登録が正常に完了しません。
-> 
 > 
 
 アプリケーションを登録するには 2 つの方法があります。 [Power BI アプリ登録ツール](https://dev.powerbi.com/apps/)を使う方法と、Azure Portal 内で直接登録する方法です。 記入する必要のあるフィールドが少ししかないため、Power BI アプリの登録ツールが最も簡単なオプションです。 アプリに変更を加える場合は、Azure portal を使います。
@@ -45,7 +44,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
    
     **[ホーム ページの URL]** は、アプリケーションの種類に **[サーバー側の Web アプリ]** を選択した場合にのみ使用できます。
    
-    *顧客向けの埋め込み*サンプルおよび *integrate-dashboard-web-app* サンプルの場合、リダイレクト URL は `http://localhost:13526/redirect` です。 レポートとタイルのサンプルでは、リダイレクト URL は `http://localhost:13526/` です。
+    *顧客向けの埋め込み*サンプルおよび *integrate-dashboard-web-app* サンプルの場合、**リダイレクト URL** は `http://localhost:13526/Redirect` です。 レポートとタイルのサンプルでは、**リダイレクト URL** は `http://localhost:13526/` です。
 6. アクセス権を持つアプリケーションの API を選択します。 Power BI のアクセス許可について詳しくは、「[Power BI のアクセス許可](power-bi-permissions.md)」をご覧ください。
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 5. 画面の指示に従って、新しいアプリケーションを作成します。
    
    * Web アプリケーションの場合は、アプリのベース URL となるサインオン URL を指定します。これは `http://localhost:13526` のようにユーザーがサインインできる場所です。
-   * ネイティブ アプリケーションの場合は、Azure AD がトークンの応答を返すために使用するリダイレクト URI を指定します。 アプリケーション固有の値を入力します (例: `http://myapplication/redirect`)
+   * ネイティブ アプリケーションの場合は、Azure AD がトークンの応答を返すために使用する**リダイレクト URI** を指定します。 アプリケーション固有の値を入力します (例: `http://myapplication/Redirect`)
 
 Azure Active Directory でアプリケーションを登録する方法の詳細については、「[Azure Active Directory とアプリケーションの統合](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)」を参照してください。
 

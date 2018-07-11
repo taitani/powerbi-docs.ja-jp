@@ -11,11 +11,11 @@ ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239260"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924582"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI で使用するサービスに接続する
 Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用するさまざまなサービスに接続できます。 Power BI は最初に資格情報でサービスに接続し、それからダッシュボードと一連の Power BI レポートで Power BI アプリを作成します。Power BI レポートにはデータが自動的に表示され、ビジネスに関する洞察が視覚的に提示されます。 

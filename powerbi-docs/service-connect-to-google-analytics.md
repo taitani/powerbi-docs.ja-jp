@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244632"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38876884"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Power BI で Google Analytics に接続する
 Power BI で Google アナリティクスに接続するには、最初に Google アナリティクス アカウントに接続します。 Power BI ダッシュ ボードと一連の Power BI レポートが表示され、お客様のサイト トラフィックとユーザー ディメンションに関する詳細情報が提供されます。 ダッシュボードとレポートは操作できますが、変更内容は保存できません。 データは、1 日 1 回自動的に更新されることになります。
