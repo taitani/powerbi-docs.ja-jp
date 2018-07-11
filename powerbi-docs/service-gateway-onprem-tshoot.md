@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755072"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926595"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのトラブルシューティング
 この記事では、**オンプレミス データ ゲートウェイ**を使用するときに発生する一般的な問題について説明します。
@@ -31,10 +31,10 @@ ms.locfileid: "34755072"
 ゲートウェイは Windows サービスとして実行するので、複数の方法で開始したり停止したりできます。 たとえば、ゲートウェイを実行しているコンピューターで管理者特権を持つコマンド プロンプトを開き、次のいずれかのコマンドを実行できます。
 
 * サービスを停止する場合:
-  
+
     '''   net stop PBIEgwService   '''
 * サービスを開始する場合:
-  
+
     '''   net start PBIEgwService   '''
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>エラー: ゲートウェイを作成できませんでした。 もう一度お試しください。
@@ -70,7 +70,7 @@ Power BI サービスからの情報は、ゲートウェイで受信されま�
 
 1. ゲートウェイをアンインストールします。
 2. 次のフォルダーを削除します。
-   
+
         c:\Program Files\On-premises data gateway
 3. ゲートウェイを再インストールします。
 4. 必要に応じて、回復キーを適用して既存のゲートウェイを復元します。
@@ -129,11 +129,11 @@ Windows 2000 以前と互換性のあるアクセス権を持つドメインで�
 
 1. SQL Server Management Studio 内の Analysis Services マシンに接続します。 詳細接続プロパティ内に、該当するユーザーの EffectiveUserName を含め、エラーが再現するかどうかを確認します。
 2. dsacls Active Directory ツールを使用すれば、属性がリストされるかどうかを確認できます。 このツールは、通常、ドメイン コントローラーにあります。 アカウントのドメインの識別名を確認し、ツールに渡す必要があります。
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     結果は次のようになります。
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ Analysis Service サーバーがユーザーとは異なるドメインにあり
 
 1. [ゲートウェイ ログ](#logs)内で有効なユーザー名を見つけます。
 2. 値が渡されたら、それが正しいことを確認します。 自分のユーザーの場合は、コマンド プロンプトから次のコマンドを使用して、UPN を確認できます。 UPN は電子メール アドレスのようになります。
-   
+
         whoami /upn
 
 必要に応じて、Azure Active Directory から Power BI が取得した内容を確認できます。
 
-1. [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net) にアクセスします。
+1. [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer) にアクセスします。
 2. 右上の **[サインイン]** を選択します。
 3. 次のクエリを実行します。 かなり大きな JSON 応答が表示されます。
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. **userPrincipalName** を探します。
 
@@ -206,7 +206,7 @@ Azure Active Directory UPN がローカルの Active Directory UPN と一致し�
 1. **[?]** ( Power BI サービスの右上にあります) を選択します。
 2. **[About Power BI]** (Power BI のバージョン情報) を選択します。
 3. **[データの保存先]** にデータの地域がリストされます。
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 それでも見つからない場合は、[fiddler](#fiddler) または netsh などのツールを使用してネットワーク トレースの取得を試みることができます。ただし、この方法は高度な収集方法であるため、収集したデータの分析に支援が必要になる場合があります。 支援が必要な場合は、[サポート](https://support.microsoft.com)にお問い合わせください。
@@ -329,6 +329,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>アクティビティの種類
+
 | アクティビティの種類 | 説明 |
 | --- | --- |
 | MGEQ |ADO.NET で実行されたクエリ。 DirectQuery データ ソースが含まれます。 |
@@ -342,9 +343,9 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 2. [アクティビティの種類](#activities)を探し、クエリを見つけます。 この例では、MGEQ になります。
 3. 2 つ目の GUID をメモします。これが要求 ID です。
 4. FireActivityCompletedSuccessfullyEvent エントリと時間が見つかるまで MGEQ をさらに探します。 エントリに同じ要求 ID があることを確認できます。時間はミリ秒単位です。
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent は詳細エントリです。 TraceVerbosity のレベルが 5 でなければ、このエントリはログに記録されません。
    > 
@@ -423,12 +424,12 @@ AD で委任が正しく構成されていない場合は、-10709 Connection fa
 スケジュールされた更新にゲートウェイを使用している場合、**更新履歴**が発生したエラーを確認するのに役に立つことがあります。サポート依頼を作成する必要がある場合は有用なデータを提供します。 スケジュールされた更新のほか、オンデマンドの更新も表示できます。 **更新履歴**を取得する方法を次に示します。
 
 1. Power BI ナビゲーション ウィンドウの **[データセット]** で、データセットを選択してから、&gt;[メニューを開く] &gt; **[更新のスケジュール設定]** を選択します。
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. **[設定]**&gt; **[更新のスケジュール設定]** で、**[更新履歴]** を選択します。
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 更新に関するトラブルシューティングのシナリオの詳細については、「[更新に関するトラブルシューティング シナリオ](refresh-troubleshooting-refresh-scenarios.md)」を参照してください。

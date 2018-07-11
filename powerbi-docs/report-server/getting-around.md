@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 354ba336407f200d2c311f6bf0de91967cf3f5d1
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721710"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598141"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Web ポータルでコンテンツを管理する 
 Power BI レポート サーバー Web ポータルは、Power BI レポート、モバイル レポート、およびページ分割されたレポート、および KPI を表示、格納、および管理するためのオンプレミスの場所です。
@@ -38,9 +38,9 @@ Web ポータル アプリケーションはブラウザーで実行されます
     [サポートされる Web ブラウザーとバージョン](browser-support.md)のリストが表示されます。
 2. アドレス バーに、Web ポータルの URL を入力します。
    
-    既定の URL は *http://<コンピューター名>/reports* です。
+    既定の URL は <em>http://<コンピューター名>/reports</em> です。
    
-    レポート サーバーは、特定のポートを使用するように構成される可能性があります。 たとえば、 *http://<コンピューター名>:80/reports*または*http://<コンピューター名>:8080/reports* のようになります。
+    レポート サーバーは、特定のポートを使用するように構成される可能性があります。 たとえば、 <em>http://<コンピューター名>:80/reports</em>または<em>http://<コンピューター名>:8080/reports</em> のようになります。
    
     Web ポータル グループ項目が以下のカテゴリに分類されます。
    

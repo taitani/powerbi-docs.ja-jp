@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e4ffc542a9564ba3893245ef637b3edd01c38640
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244563"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598757"
 ---
 # <a name="change-the-size-of-a-report-page"></a>レポート ページのサイズを変更する
 [前の記事とビデオ](power-bi-report-display-settings.md)では、Power BI レポートでページ表示を制御するための **[表示]** と **[ページ サイズ]** という 2 つの異なる方法について説明しました。 ページ表示とページ サイズは Power BI サービスと Power BI Desktop の両方で使うことができ、見た目と機能はほとんど同じですが、このチュートリアルでは Power BI サービスを使います。
@@ -31,19 +31,19 @@ ms.locfileid: "34244563"
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. キャンバス上で視覚化が選択されていないことを確認します。 **[表示]** を選択して、各表示オプションを確認します。
 
-    * 読み取りビューでは次のように表示されます。
+   * 読み取りビューでは次のように表示されます。
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * 編集ビューでは次のように表示されます。
+   * 編集ビューでは次のように表示されます。
 
-    ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
+     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
-1. **[実際のサイズ]** 設定を使用して、ページの外観を確認してみましょう。
+3. **[実際のサイズ]** 設定を使用して、ページの外観を確認してみましょう。
 
    ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
 
    ダッシュボードのスクロール バーが二重になっていて、改善が必要です。
-2. **[幅に合わせる]** に切り替えます。
+4. **[幅に合わせる]** に切り替えます。
 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_width.png)
 

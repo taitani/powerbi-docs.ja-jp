@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b7e08f586c0c1f0bf7409735683bc9c1cd6aa969
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ade1e9377ddcb014cc71909c7256533a0e74d606
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286867"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136458"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -203,7 +203,7 @@ URL またはリソースの接続情報を入力したら、 **[OK]** を選択
 ## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。
 
-* [Power BI Desktop の概要](desktop-getting-started.md)
+* [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)
 * [Power BI Desktop でのデータ型](desktop-data-types.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)

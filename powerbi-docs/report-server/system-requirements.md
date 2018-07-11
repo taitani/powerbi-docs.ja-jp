@@ -7,19 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/13/2018
 ms.author: maghan
-ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481736"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37780572"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件
 ここでは、Power BI レポート サーバーをインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>プロセッサ、メモリ、およびオペレーティング システムの要件
+
 | コンポーネント | 要件 |
 | --- | --- |
 | .NET Framework |4.6<br><br>.NET Framework は、「[Microsoft .NET Framework 4.6 (Web Installer) for Windows](http://support.microsoft.com/kb/3045560)」(Windows 用 Microsoft.NET Framework 4.6 (Web インストーラー)) から手動でインストールできます。<br/><br/> .NET Framework 4.6 の詳細情報、推奨事項、およびガイダンスについては、「[.NET Framework 配置ガイド (開発者向け)](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)」をご覧ください。<br/><br/>Windows 8.1 および Windows Server 2012 R2 では、.NET Framework 4.6 をインストールする前に、[KB2919355](http://support.microsoft.com/kb/2919355) をインストールする必要があります。 |
@@ -41,8 +42,6 @@ SQL Server は、レポート サーバー データベースをホストする�
 * SQL Server 2016
 * SQL Server 2014
 * SQL Server 2012
-* SQL Server 2008 R2
-* SQL Server 2008
 
 リモート コンピューターにレポート サーバー データベースを作成するには、ネットワーク アクセスが可能なドメイン ユーザー アカウントまたはサービス アカウントを使用する接続を構成する必要があります。 リモートの SQL Server インスタンスを使用する場合は、SQL Server インスタンスへの接続に、レポート サーバーでどの資格情報を使用するかをよく検討してください。 詳細については、「[Configure a Report Server Database Connection](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)」(レポート サーバー データベース接続を構成する) を参照してください。
 

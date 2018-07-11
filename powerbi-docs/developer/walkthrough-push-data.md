@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813114"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598551"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
 Power BI API を使うと、Power BI データセットにデータをプッシュできます。 たとえば、既存のビジネス ワークフローを拡張して、主要なデータをデータセットにプッシュできます。 ここでは、Product テーブルを含む Sales Marketing データセットをデータセットにプッシュします。
@@ -98,6 +98,7 @@ Power BI でデータセットを作成するには、Power BI サービスに J
 Power BI のテーブル スキーマでは、次のデータ型を使うことができます。
 
 ## <a name="power-bi-table-data-types"></a>Power BI テーブルのデータ型
+
 | **データ型** | **制限事項** |
 | --- | --- |
 | Int64 |Int64.MaxValue と Int64.MinValue が許可されまていせん。 |

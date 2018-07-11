@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248344"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598980"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>ダッシュボードのタイルを編集または削除する
 
@@ -35,12 +35,12 @@ ms.locfileid: "34248344"
 * [別のダッシュボードにタイルをピン留め](#different)
 * [タイルの削除](#delete)
   
- > [!TIP]
- > タイル自体に表示される視覚エフェクトを変更するには、タイルを削除し、新しい[ダッシュボード タイル](service-dashboard-tiles.md)を追加します。
- > 
+  > [!TIP]
+  > タイル自体に表示される視覚エフェクトを変更するには、タイルを削除し、新しい[ダッシュボード タイル](service-dashboard-tiles.md)を追加します。
 
- ### <a name="prerequisites"></a>前提条件
- 1. 作業を進めるために、Power BI サービス (Power BI Desktop ではない) を開き、[IT 支出分析のサンプルをダウンロードします](sample-it-spend.md)。 "成功" メッセージが表示されたら、**[ダッシュボードに移動]** を選択します。
+  
+## <a name="prerequisites"></a>前提条件
+作業を進めるために、Power BI サービス (Power BI Desktop ではない) を開き、[IT 支出分析のサンプルをダウンロードします](sample-it-spend.md)。 "成功" メッセージが表示されたら、**[ダッシュボードに移動]** を選択します。
 
 - - -
 <a name="create"></a>

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 621a5f92ebd9c7314b719b6643f5bfef958916c3
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799558"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599337"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのプロキシ設定を構成する
 職場ではプロキシを介してインターネットにアクセスしている場合がありますが、 これは、オンプレミス データ ゲートウェイがサービスに接続できない原因となることがあります。
@@ -77,23 +77,23 @@ ms.locfileid: "34799558"
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>オンプレミスのデータ ゲートウェイ サービス アカウントを変更する
 1. **オンプレミスのデータ ゲートウェイ サービス**の Windows サービス アカウントを変更します。
-   
+
     このサービスの既定のアカウントは *NT SERVICE\PBIEgwService* です。 これを Active Directory ドメイン内のドメイン ユーザー アカウントに変更します。 または、パスワードを変更する必要がないように、管理されたサービス アカウントを使用します。
-   
+
     Windows サービスのプロパティ内の **[ログオン]** タブでアカウントを変更します。
 2. **オンプレミスのデータ ゲートウェイ サービス**を再起動します。
-   
+
     管理コマンド プロンプトから、次のコマンドを実行します。
-   
+
         net stop PBIEgwService
-   
+
         net start PBIEgwService
 3. **オンプレミスのデータ ゲートウェイ構成ウィザード**を開始します。 Windows の [スタート] ボタンを選択し、*[オンプレミス データ ゲートウェイ]* を探します。
 4. Power BI にサインインします。
 5. 回復キーを使用してゲートウェイを復元します。
-   
+
     これにより、新しいサービス アカウントで格納されているデータ ソースの資格情報の暗号化を解除できるようになります。
-    
+
 > [!NOTE]
 > サービス コントロール パネルを使用して直接サービス アカウントを変更する場合、ACL は自動的に更新されません。 新しいサービス アカウントが、インストール ファイルとフォルダーへのアクセスを持っていることを確認する必要があります。 ゲートウェイのインストール フォルダーは、C:\Program Files\On-premises data gateway の下にあります。 
 > 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 35171c5b1d61b9df860b72ee98d8fb63a875092d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4ee0f114e6d905f202505f71b194a5b56fd6397
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286384"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137355"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop でのクエリの概要
 **Power BI Desktop** を使用すると、データの世界への接続、説得力のある基本的なレポートの作成、他のユーザーとの成果の共有を行えます。他のユーザーは、その成果を足場としてビジネス インテリジェンスの成果を拡大することができます。
@@ -137,7 +137,7 @@ Power BI Desktop には **クエリ エディター**も付属しており、1 �
 ## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。
 
-* [Power BI Desktop の概要](desktop-getting-started.md)
+* [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: d3b3e077ac3dadf92a1c25d3704a4f59adea588b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296229"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598858"
 ---
 # <a name="power-bi-security"></a>Power BI のセキュリティ
 Power BI のセキュリティについて詳しくは、[Power BI のセキュリティに関するホワイト ペーパーをダウンロード](http://go.microsoft.com/fwlink/?LinkId=829185)してください。
@@ -48,7 +48,7 @@ Power BI では、データの格納と管理に 2 つの主要なリポジト�
 ## <a name="user-authentication"></a>ユーザーの認証
 Power BI は、Power BI サービスにログインするユーザーを Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) を使用して認証します。その後、認証が必要なリソースにユーザーが接続しようとすると、Power BI ログイン資格情報が使用されます。 メール アドレスを使用して Power BI サービスにログインしたユーザーは、そのユーザーが Power BI のアカウントを確立するために使用されます。Power BI は、そのログイン メールを*有効なユーザー名*として使用し、ユーザーがデータに接続しようとしたときにリソースに渡します。 その後、*有効なユーザー名*は*ユーザー プリンシパル名* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) にマップされ、認証の適用対象となる、関連付けられた Windows ドメイン アカウントに解決されます。
 
-Power BI のログインに職場の電子メール (*david@contoso.com* など) を使用する組織では、"*有効なユーザー名*" から UPN へのマッピングは簡単です。 Power BI のログインに職場の電子メール (*david@contoso.onmicrosoft.com* など) を使用しない組織では、AAD とオンプレミスの資格情報との間のマッピングが適切に機能するために、[ディレクトリ同期](https://technet.microsoft.com/library/jj573653.aspx)が必要になります。
+Power BI のログインに職場の電子メール (<em>david@contoso.com</em> など) を使用する組織では、"*有効なユーザー名*" から UPN へのマッピングは簡単です。 Power BI のログインに職場の電子メール (<em>david@contoso.onmicrosoft.com</em> など) を使用しない組織では、AAD とオンプレミスの資格情報との間のマッピングが適切に機能するために、[ディレクトリ同期](https://technet.microsoft.com/library/jj573653.aspx)が必要になります。
 
 また、Power BI のプラットフォーム セキュリティには、マルチテナント環境のセキュリティ、ネットワーク セキュリティ、その他の AAD ベースのセキュリティ対策を追加する機能も含まれています。
 

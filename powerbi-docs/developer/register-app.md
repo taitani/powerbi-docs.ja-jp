@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813279"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599489"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD アプリを登録して Power BI コンテンツを埋め込む
 埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory (Azure AD) 内にアプリケーションを登録する方法を説明します。
@@ -54,9 +54,8 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
     **クライアント ID** が表示されます。**サーバー側の Web アプリ**を選択すると、**クライアント シークレット**が表示されます。 **クライアント ID** は必要に応じて後で Azure Portal から取得できます。 **クライアント シークレット**をなくした場合、Azure portal で新しく作成する必要があります。
 
 8. Azure に移動して、**[アクセス許可の付与]** を選択する必要があります。
-> [!Note]
-    > これを行うには、Azure テナントの全体管理者である必要があります
->
+   > [!Note]
+   > これを行うには、Azure テナントの全体管理者である必要があります
 
 * Azure に移動します。
 * **[アプリの登録]** を探して選びます。
@@ -83,8 +82,8 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
     ![](media/register-app/azuread-new-app-registration.png)
 5. 画面の指示に従って、新しいアプリケーションを作成します。
    
-   * Web アプリケーションの場合は、アプリのベース URL となるサインオン URL を指定します。これは http://localhost:13526 のようにユーザーがサインインできる場所です。
-   * ネイティブ アプリケーションの場合は、Azure AD がトークンの応答を返すために使用するリダイレクト URI を指定します。 アプリケーション固有の値を入力します (例: http://myapplication/redirect)
+   * Web アプリケーションの場合は、アプリのベース URL となるサインオン URL を指定します。これは `http://localhost:13526` のようにユーザーがサインインできる場所です。
+   * ネイティブ アプリケーションの場合は、Azure AD がトークンの応答を返すために使用するリダイレクト URI を指定します。 アプリケーション固有の値を入力します (例: `http://myapplication/redirect`)
 
 Azure Active Directory でアプリケーションを登録する方法の詳細については、「[Azure Active Directory とアプリケーションの統合](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)」を参照してください。
 
@@ -161,44 +160,44 @@ Azure Active Directory でアプリケーションを登録する方法の詳細
    * **AllPrincipals** は、テナント管理者がテナント内のすべてのユーザーの代理でアクセス許可を付与するためにのみ使用できます。
    * **Principal** は、特定のユーザーの代理でアクセス許可を付与する場合に使用します。 この場合、要求の本文に *principalId={User_ObjectId}* というプロパティを追加する必要があります。
     
-    マスター アカウントで、Azure AD から同意を求めるプロンプトが表示されないようにするには (非対話形式のサインインを実行しているときには不可能)、*アクセス許可の付与*が必要です。
+     マスター アカウントで、Azure AD から同意を求めるプロンプトが表示されないようにするには (非対話形式のサインインを実行しているときには不可能)、*アクセス許可の付与*が必要です。
    
-    ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
-    "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
-    ```
+     ```
+     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Authorization: Bearer ey..qw
+     Content-Type: application/json
+     { 
+     "clientId":"{Service_Plan_ID}",
+     "consentType":"AllPrincipals",
+     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
+     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+     "startTime":"2017-03-29T14:35:32.4933413+03:00"
+     }
+     ```
 
-5.  アプリのアクセス許可を Azure Active Directory (AAD) に付与する
+5. アプリのアクセス許可を Azure Active Directory (AAD) に付与する
    
-    **consentType** の値には、**AllPrincipals** または **Principal** を指定できます。
+   **consentType** の値には、**AllPrincipals** または **Principal** を指定できます。
 
-    * **AllPrincipals** は、テナント管理者がテナント内のすべてのユーザーの代理でアクセス許可を付与するためにのみ使用できます。
-    * **Principal** は、特定のユーザーの代理でアクセス許可を付与する場合に使用します。 この場合、要求の本文に *principalId={User_ObjectId}* というプロパティを追加する必要があります。
+   * **AllPrincipals** は、テナント管理者がテナント内のすべてのユーザーの代理でアクセス許可を付与するためにのみ使用できます。
+   * **Principal** は、特定のユーザーの代理でアクセス許可を付与する場合に使用します。 この場合、要求の本文に *principalId={User_ObjectId}* というプロパティを追加する必要があります。
     
-    マスター アカウントで、Azure AD から同意を求めるプロンプトが表示されないようにするには (非対話形式のサインインを実行しているときには不可能)、*アクセス許可の付与*が必要です。
+   マスター アカウントで、Azure AD から同意を求めるプロンプトが表示されないようにするには (非対話形式のサインインを実行しているときには不可能)、*アクセス許可の付与*が必要です。
 
- ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-    "scope":"User.Read Directory.AccessAsUser.All",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
- ```
+   ```
+   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+   Authorization: Bearer ey..qw
+   Content-Type: application/json
+   { 
+   "clientId":"{Service_Plan_ID}",
+   "consentType":"AllPrincipals",
+   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+   "scope":"User.Read Directory.AccessAsUser.All",
+   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+   "startTime":"2017-03-29T14:35:32.4933413+03:00"
+   }
+   ```
 
 ## <a name="next-steps"></a>次の手順
 Azure AD でアプリケーションを登録したので、アプリケーションでユーザーを認証する必要があります。 詳細については、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。

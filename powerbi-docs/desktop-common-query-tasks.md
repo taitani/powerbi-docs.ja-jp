@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6f80c1cc5d0b97318fe9e9b0653d166d571d1310
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290662"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137493"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop での一般的なクエリ タスク
 Power BI Desktop の **クエリ エディター** ウィンドウで作業するとき、一般的に使用される多数のタスクがあります。 このドキュメントでは、それらの一般的なタスクについて説明し、追加情報へのリンクを示します。 
@@ -213,12 +213,12 @@ Power BI Desktop には、数式カテゴリの幅広いセットが備わって
 * スプリッター
 * コンバイナ
 * 置換関数
-* タイプ
+* 種類
 
 ## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。
 
-* [Power BI Desktop の概要](desktop-getting-started.md)
+* [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b09fd5846689299f426fc779061efaa30f8f6909
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34481051"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599160"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI レポート サーバーのサポート タイムライン
 Power BI レポート サーバーは、1 年間に何回かリリースされます。 セキュリティ更新プログラムと重要な更新プログラムは、次のリリースが一般公開 (GA) になるまで使用できます。 次のリリースの後、前のリリースは、残りの 12 か月のリリース有効期間の間、セキュリティ更新プログラムを引き続き受け取ります。
@@ -27,6 +27,7 @@ Power BI レポート サーバーは、1 年間に何回かリリースされ�
     ![サポート期間を示すグラフ](media/support-timeline/report-server-support-timeline-mar-2018.png)
 
 ## <a name="version-history"></a>バージョン履歴
+
 | **バージョン** | **可用性日付** | **サポート終了日** |
 | --- | --- | --- |
 | 2017 年 6 月 |2017 年 6 月 12 日 |2018 年 6 月 12 日 |

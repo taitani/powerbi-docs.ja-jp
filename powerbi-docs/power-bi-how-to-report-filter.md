@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c25a402138c209eb6a4a36bf39865c30c1c0e5b9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721388"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598944"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>レポート フィルター ウィンドウの使用方法
 この記事は、レポート フィルター ウィンドウについて詳しく説明します。 [Power BI サービスの編集ビューと読み取りビュー](service-reading-view-and-editing-view.md)および [Power BI Desktop のレポート ビュー](desktop-report-view.md)にウィンドウが表示されます。
@@ -77,7 +77,7 @@ Power BI サービスでは、フィルター ウィンドウで行う変更が�
 ## <a name="add-a-filter"></a>フィルターの追加
 * Desktop、および Power BI サービスの編集ビューでビジュアル、ページ、ドリルスルー、またはレポートにフィルターを追加するには、フィールド ウィンドウからフィールドを選択し、適切なフィルター (**[Drag fields here]\(フィールドをここにドラッグ\)** と表示されています) にドラッグします。 フィルターとしてフィールドを追加した後は、[基本フィルター] および [高度なフィルター処理] のコントロール (後述) を使用して微調整します。
 
-- **新しいフィールドをビジュアル レベル フィルター領域にドラッグしてもビジュアルにフィールドは追加されません**が、この新しいフィールドでビジュアルをフィルター処理できます。 次の例では、**Chain** が新しいフィルターとしてビジュアルに追加されます。 フィルターとして **Chain** を追加しただけでは、基本フィルターまたは高度なフィルターのコントロールを使用するまでビジュアルは変化しないことに注意してください。
+* **新しいフィールドをビジュアル レベル フィルター領域にドラッグしてもビジュアルにフィールドは追加されません**が、この新しいフィールドでビジュアルをフィルター処理できます。 次の例では、**Chain** が新しいフィルターとしてビジュアルに追加されます。 フィルターとして **Chain** を追加しただけでは、基本フィルターまたは高度なフィルターのコントロールを使用するまでビジュアルは変化しないことに注意してください。
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 641a4f457782711902ee7e2414cb9afffb391afc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286338"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599647"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R を使用した Power BI ビジュアルの作成
 **Power BI Desktop** では、**R** を使用してデータを視覚化できます。
@@ -81,9 +81,9 @@ R のインストールを指定すると、R ビジュアルの作成を開始�
    * **[R スクリプト エディター]** タイトル バーから **[実行]** が選択された
    * データ更新、フィルター処理、または強調表示によってデータの変更が発生した
 
-    次のイメージは、相関プロット コードの例を示し、自動車の異なるタイプの属性間の相関関係をプロットします。
+     次のイメージは、相関プロット コードの例を示し、自動車の異なるタイプの属性間の相関関係をプロットします。
 
-    ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![](media/desktop-r-visuals/r-visuals-6.png)
 
 5. 視覚化されたより大きなビューを取得するために、 **[R スクリプト エディター]** を最小化することができます。 **Power BI Desktop** での他のビジュアルのように、ドーナツ ビジュアル (上記の例のイメージの右側の丸いビジュアル) のスポーツカーのみを選択して相関プロットをクロスフィルター処理できます。
 

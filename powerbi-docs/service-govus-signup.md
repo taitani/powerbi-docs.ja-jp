@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 70e73e5d567c7c6c24aae0ca5478dae2cd6c7f6f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310492"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136320"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI サービスに米国政府組織を登録する
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -125,5 +125,5 @@ Power BI を使うと、さまざまなことを行えます。 サービスに�
 * [米国政府向け Power BI の概要](service-govus-overview.md)
 * [Power BI のガイド付き学習](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Power BI サービスの概要](service-get-started.md)
-* [Power BI Desktop の概要](desktop-getting-started.md)
+* [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 

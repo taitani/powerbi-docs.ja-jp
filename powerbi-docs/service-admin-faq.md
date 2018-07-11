@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4c8601e15a415e680028b2259a4c2b8e56dbd3b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297241"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926598"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -41,14 +41,13 @@ ms.locfileid: "34297241"
 * [Power BI に既にサインアップしているユーザーを削除するにはどうすればよいですか。](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [新しいユーザーがいつテナントに参加したかを確認するにはどうすればよいですか。](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [他に何か準備する必要があることはありますか。](#are-there-any-additional-things-i-should-be-prepared-for)
-* [無料ですか。ライセンスに料金はかかりますか。](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Power BI テナントの場所](#where-is-my-power-bi-tenant-located)
 * [Power BI SLA (サービス レベル アグリーメント) とは何ですか。](#what-is-the-power-bi-sla)
 
 **Power BI のセキュリティ**
 
 * [Power BI は、国、地域、および業界固有のコンプライアンス要件を満たしていますか。](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Power BI のセキュリティはどのように機能していますか。](#how-does-security-work-in-power-bi?)
+* [Power BI のセキュリティはどのように機能していますか。](#how-does-security-work-in-power-bi)
 
 ## <a name="sign-up-for-power-bi"></a>Power BI にサインアップする
 ### <a name="how-do-users-sign-up-for-power-bi"></a>ユーザーは Power BI にどのような方法でサインアップできますか。
@@ -82,7 +81,8 @@ Power BI を利用するために組織が行う必要がある管理操作は�
 
 リンクを選択した後、**[実行]** を選択してインストーラー パッケージを実行します。
 
-**テナントの自動参加を無効にする**: 管理対象テナントに新しいユーザーが参加できないようにするには、次の Windows PowerShell コマンドを使用します。
+
+  **テナントの自動参加を無効にする**: 管理対象テナントに新しいユーザーが参加できないようにするには、次の Windows PowerShell コマンドを使用します。
 
 * 新しいユーザーによるテナントの自動参加を無効にするには:
   
@@ -232,9 +232,6 @@ Power BI にサインアップする必要がなくなったユーザーが Powe
 
 テナントからのユーザーの削除は、Office 365 管理センターの標準的なプロセスを使用して実行できます。 ただし、ユーザーが組織のアクティブな電子メール アドレスを引き続き使用する場合、すべてのユーザーがブロックされない限り、そのユーザーはテナントに再び参加できます。
 
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>無料ですか。 ライセンスに料金はかかりますか。
-**Power BI (無料)** ライセンスは、Power BI の無料版です。 その他の機能に関心がある場合は、「[Power BI Pro コンテンツとは](service-premium.md)」をご覧ください。
-
 ### <a name="where-is-my-power-bi-tenant-located"></a>Power BI テナントの場所
 Power BI テナントがある場所 (データ領域とも呼ばれます) を調べる方法については、「[Power BI テナントの場所](service-admin-where-is-my-tenant-located.md)」をご覧ください。
 
@@ -252,7 +249,6 @@ Power BI は Office 365 上に構築されており、Azure Active Directory な
 [Power BI 管理ポータル](service-admin-portal.md)  
 [Power BI 管理者の役割について](service-admin-role.md)  
 [Power BI のセルフサービス サインアップ](service-self-service-signup-for-power-bi.md)  
-[組織内の Power BI (無料)](service-admin-service-free-in-your-organization.md)  
 [Power BI Pro を購入する](service-admin-purchasing-power-bi-pro.md)  
 [Power BI Premium とは](service-premium.md)  
 [Power BI Premium の購入方法](service-admin-premium-purchase.md)  

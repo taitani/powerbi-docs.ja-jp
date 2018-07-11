@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e6dbd431a1ea37195a6cbb6e3d9a39d79a4e9b0d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248137"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145458"
 ---
 # <a name="configuring-scheduled-refresh"></a>スケジュールされた更新の構成
 
@@ -26,7 +26,7 @@ ms.locfileid: "34248137"
 
 [今すぐ更新] と [更新のスケジュール設定] を使用したスケジュールされた更新をデータセットがサポートしている場合、更新を正常に行うために重要な要件と設定がいくつかあります。 **ゲートウェイの接続**、**データ ソースの資格情報**、**更新のスケジュール設定**です。 それぞれを詳しく見てみましょう。
 
-ここでは、[Power BI Gateway – Personal](personal-gateway.md) と [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)の両方で使用可能なオプションを説明します。
+ここでは、[Power BI Gateway – Personal](service-gateway-personal-mode.md) と [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)の両方で使用可能なオプションを説明します。
 
 次の操作を行うと、スケジュールを更新する画面に移動できます。
 
@@ -123,7 +123,7 @@ ms.locfileid: "34248137"
 
 ## <a name="next-steps"></a>次の手順
 [Power BI でのデータの更新](refresh-data.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
 [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)  

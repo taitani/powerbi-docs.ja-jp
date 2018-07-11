@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299311"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599668"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI サービスで R ビジュアルを作成する
 Power BI サービスでは、R スクリプトで作成したビジュアルの表示と操作がサポートされています。 R スクリプトで作成したビジュアルは一般的に *R ビジュアル*と呼ばれ、R の豊富な分析と視覚化の機能を使用した高度なデータ整形と予測などの分析に使用できます。
@@ -37,7 +37,7 @@ R ビジュアルは、次の図に示すレポートのような [Power BI Desk
 
 サービスでサポートされていない R パッケージもあることに注意してください。 Power BI サービスで現在サポートされているパッケージを確認するには、この記事の最後にあるサポート対象パッケージの一覧を参照してください。
 
-[Power BI Desktop サンプル ファイル](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample SL.pbix) (.pbix ファイル) をダウンロードして、いくつかの R ビジュアルの動作を確認し、さまざまな使い方を試すことができます。
+[Power BI Desktop サンプル ファイル](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix ファイル) をダウンロードして、いくつかの R ビジュアルの動作を確認し、さまざまな使い方を試すことができます。
 
 **Power BI Desktop** で作成し、Power BI サービスに発行した R ビジュアルは、ほとんどの部分で Power BI サービスの他のビジュアルと同様に動作し、対話的な操作、フィルター処理、スライス、ダッシュボードへの固定、他のユーザーとの共有ができます。 ダッシュボードとビジュアルの共有の詳細については、「[同僚や他のユーザーとのダッシュボードの共有](service-share-dashboards.md)」を参照してください。 他のビジュアルとの違いとして、R ビジュアルにはツール ヒントを表示できません。また、R ビジュアルを使って他のビジュアルをフィルター処理することはできません。
 

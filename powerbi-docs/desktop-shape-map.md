@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 019aa1425d05fcfdc4415570acdc29e7a684dc25
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290961"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600753"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
 Power BI Desktop では、**[マップのシェイプ]** のビジュアルを作成し、地図上のさまざまな地域にそれぞれ異なる色を適用することで地域間の相対比較を表示します。 **[マップ]** のビジュアルとは異なり、**[マップのシェイプ]** では、地図上にデータ ポイントの地理的場所を正確に表示することはできません。図形マップの主な目的は、地図上のさまざまな地域にそれぞれ異なる色を適用することで、地域間の相対比較を表示することにあります。
@@ -40,23 +40,23 @@ Power BI Desktop は、**[マップのシェイプ]** のビジュアルのデ�
 次の手順に従って、**[マップのシェイプ]** を作成します。
 
 1. **[フィールド]** ウィンドウで、地域名 (または省略形) が含まれているデータ フィールドを **[地域]** バケットにドラッグし、データ メジャー フィールドを **[色の彩度]** バケットにドラッグします (地図はまだ表示されません)。
-   
+
    > [!NOTE]
-> **[マップのシェイプ]** をテストするためのマップ データを迅速に取得する方法については、後述する「**マップ データの取得**」セクションを参照してください。
+   > **[マップのシェイプ]** をテストするためのマップ データを迅速に取得する方法については、後述する「**マップ データの取得**」セクションを参照してください。
    > 
    > 
-   
+
    ![](media/desktop-shape-map/shape-map_3a.png)
 2. **[形式]** 設定ウィンドウで、**[図形]** を展開し、**[標準マップ]** ドロップダウンから選択して、目的のデータを表示します。 この時点で、次の図に示すような地図が描画されます。
-   
+
    ![](media/desktop-shape-map/shape-map_3b.png)
-   
+
    > [!NOTE]
-> この記事の最後に記載した「**地域キー**」セクションは、**[マップのシェイプ]** のビジュアルをテストするのに使用できる地図の地域キーが含まれる表のコレクションです。
+   > この記事の最後に記載した「**地域キー**」セクションは、**[マップのシェイプ]** のビジュアルをテストするのに使用できる地図の地域キーが含まれる表のコレクションです。
    > 
    > 
 3. **[形式]** 設定ウィンドウでは、データ ポイントの色に加えて、地図の投影やズームの設定も変更できます。 ズーム設定を変更することもできます。 たとえば、色の変更、最大値と最小値の設定などを行うことができます。
-   
+
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. また、カテゴリ データ列を **[凡例]** バケットに追加し、カテゴリに基づいて地図の地域を分類することもできます。
 
@@ -114,6 +114,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 このプレビュー リリースでは、次の**地域キー**を使用して、**[マップのシェイプ]** をテストしてください。
 
 ### <a name="australia-states"></a>オーストラリア: 州
+
 | ID | 省略形 | ISO | 名前 | 郵便 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
@@ -126,6 +127,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
 ### <a name="austria-states"></a>オーストリア: 州
+
 | ID | ISO | 名前 | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna (ウィーン) |WI |
@@ -139,6 +141,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | at-bu |AT-1 |Burgenland |Burgenland (ブルゲンラント) |BU |
 
 ### <a name="brazil-states"></a>ブラジル: 州
+
 | ID |
 | --- |
 | Tocantins |
@@ -174,6 +177,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Litigated Zone 4 |
 
 ### <a name="canada-provinces"></a>カナダ: 州
+
 | ID | ISO | 名前 | 郵便 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
@@ -191,6 +195,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-ab |CA-AB |Alberta |AB |
 
 ### <a name="france-regions"></a>フランス: 地域圏
+
 | ID | 名前 | 名前 (英語) |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace (アルザス) |
@@ -217,6 +222,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Aquitaine |Aquitaine |Aquitaine (アキテーヌ) |
 
 ### <a name="germany-states"></a>ドイツ: 州
+
 | ID | ISO | 名前 | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin (ベルリン) |BE |
@@ -237,6 +243,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg (バーデン=ウュルテンベルク) |BW |
 
 ### <a name="ireland-counties"></a>アイルランド: 州
+
 | ID |
 | --- |
 | Wicklow |
@@ -267,6 +274,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Carlow |
 
 ### <a name="italy-regions"></a>イタリア: 州
+
 | ID | ISO | 名前 | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto (ベネト) |VN |
@@ -291,6 +299,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | it-ab |IT-65 |Abruzzo |Abruzzo (アブルッツィ) |AB |
 
 ### <a name="mexico-states"></a>メキシコ: 州
+
 | ID | 省略形 | ISO | 名前 | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas (サカテカス) |ZA |
@@ -327,6 +336,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes (アグアスカリエンテス) |AG |
 
 ### <a name="netherlands-provinces"></a>オランダ: 州
+
 | ID | ISO | 名前 | 名前 (英語) |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland (南ホラント) |
@@ -343,6 +353,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | nl-dr |NL-DR |Drenthe |Drenthe (ドレンテ) |
 
 ### <a name="uk-countries"></a>英国: 地方
+
 | ID | ISO | 名前 |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
@@ -351,6 +362,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | gb-eng |GB-ENG |England |
 
 ### <a name="usa-states"></a>米国: 州
+
 | ID | 名前 | 郵便 |
 | --- | --- | --- |
 | us-mi |Michigan |MI |

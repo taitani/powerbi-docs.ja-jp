@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852189"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598603"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Power BI の組織のコンテンツ パックを作成して発行する (チュートリアル)
 > [!NOTE]
@@ -43,24 +43,24 @@ ms.locfileid: "34852189"
    
    組織のコンテンツ パック ライブラリには、最終的に、組織やグループに対して発行された何百ものコンテンツ パックが格納される可能性があります。 時間をとって、コンテンツ パックにわかりやすい名前を付け、ふさわしい説明を追加して、対象ユーザーを適切に絞り込んでください。  あなたのコンテンツ パックが検索で簡単に見つかるような語を使用してください。
    
-   1.  **[特定のグループ]** を選び、個々のユーザーの完全なメール アドレス、[Office 365 グループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)、配布グループ、またはセキュリティ グループを入力します。 例:
+   1. **[特定のグループ]** を選び、個々のユーザーの完全なメール アドレス、[Office 365 グループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)、配布グループ、またはセキュリティ グループを入力します。 例:
       
-         salesmgrs@contoso.com; sales@contoso.com
+        salesmgrs@contoso.com; sales@contoso.com
       
       このチュートリアルでは、あなたもしくはグループの電子メール アドレスを使用してみてください。
    
-   2.  コンテンツ パックに「**営業案件**」という名前を付けます。
+   2. コンテンツ パックに「**営業案件**」という名前を付けます。
    
       > [!TIP]
       > コンテンツ パックの名前には、ダッシュボードの名前を含めることをお勧めします。 そうすると、同僚がコンテンツ パックに接続した後、ダッシュボードを見つけやすくなります。
       > 
       > 
    
-   3.  推奨: **説明**を追加します。 説明を付けると、同僚が必要とするコンテンツ パックを簡単に見つけやすくなります。 説明に加えて、同僚がこのコンテンツ パックを検索するときに使用する可能性があるキーワードを追加します。 同僚が質問したり、サポートを必要としたりするときに備えて連絡先情報を含めます。
+   3. 推奨: **説明**を追加します。 説明を付けると、同僚が必要とするコンテンツ パックを簡単に見つけやすくなります。 説明に加えて、同僚がこのコンテンツ パックを検索するときに使用する可能性があるキーワードを追加します。 同僚が質問したり、サポートを必要としたりするときに備えて連絡先情報を含めます。
    
-   4.  グループ メンバーがコンテンツ パックを簡単に見つけられるように**画像またはロゴをアップロード**します。画像の方が、テキストを検索する場合よりもすばやく見つけることができます。 以下のスクリーン ショットでは、営業案件数 100% 縦棒グラフのタイルの画像を使用しています。
+   4. グループ メンバーがコンテンツ パックを簡単に見つけられるように**画像またはロゴをアップロード**します。画像の方が、テキストを検索する場合よりもすばやく見つけることができます。 以下のスクリーン ショットでは、営業案件数 100% 縦棒グラフのタイルの画像を使用しています。
    
-   5.  **[営業案件の分析のサンプル]** ダッシュボードを選択し、コンテンツ パックに追加します。  Power BI によって、関連するレポートとデータセットが自動的に追加されます。 必要に応じて、他にも追加することができます。
+   5. **[営業案件の分析のサンプル]** ダッシュボードを選択し、コンテンツ パックに追加します。  Power BI によって、関連するレポートとデータセットが自動的に追加されます。 必要に応じて、他にも追加することができます。
    
       > [!NOTE]
       >  自分が編集できるダッシュボード、レポート、データセット、ブックのみが一覧表示されます。 そのため、共有を受けたものはリストに表示されません。
@@ -71,7 +71,7 @@ ms.locfileid: "34852189"
    
    6. Excel ブックがある場合は、[レポート] に Excel アイコン付きで表示されます。 この Excel ブックをコンテンツ パックに追加することもできます。
    
-     ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
+      ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
       > グループのメンバーが Excel ブックを表示できない場合は、必要に応じて [OneDrive for Business でメンバーとブック](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)を共有します。

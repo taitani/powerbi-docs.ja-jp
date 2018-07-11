@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a39b347a68cb5557ffff7758efbfba86884b5ce
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297103"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599003"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>視覚化のタイトル、凡例、および背景をカスタマイズする
 このチュートリアルでは、視覚化をカスタマイズする、さまざまな方法について説明します。   視覚化をカスタマイズするオプションはとても多いので、そのすべてを学習する最善の方法は、[書式設定] ウィンドウ (ペイントローラー アイコンを選択) を調べることです。  その手始めとして、この記事では視覚化のタイトル、凡例、背景をカスタマイズする方法を説明します。  
@@ -41,26 +41,26 @@ Amanda が自分のレポートの視覚エフェクトをカスタマイズす�
 
 1. レポートの \[New Stores] \(新しい店舗) ページに移動して、\[Open Store Count by Open Month...] \(開店月別の開店店舗数…) 棒グラフを選択します。
 2. [視覚化] ウィンドウで、ペイントローラー アイコンを選んで、書式設定のオプションを表示します。  **[タイトル]** を選んでセクションを展開します。  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 3. スライダーの [オン] または [オフ] を選択して、  **[タイトル]** のオンとオフを切り替えます。 ここでは、 **[オン]** を選択したままにします。  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
 4. テキスト フィールドに「 **Store count by month opened** 」(開店した月別の店舗数) と入力して、 **タイトルのテキスト** を変更します。  
 5. **[フォント色]** をオレンジに、 **[背景色]** を黄色に変えます。
-   
+
    * ドロップダウンを選択し、 **[テーマの色]**、 **[最近使用した色]**、または **[ユーザー設定の色]** から色を選択します。
    * ドロップダウンを選択して、色ウィンドウを閉じます。  
      ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
-   
+
    色ウィンドウの **[既定値に戻す]** 選択すると、いつでも既定の色に戻せます。
 6. テキスト サイズを 12 に増やします。
 7. 最後のカスタマイズでは、グラフのタイトルを視覚エフェクトの中央に配置します。 タイトルの位置は、既定で左揃えに設定されています。  
    ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
-   
+
     チュートリアルのこの時点では、縦棒グラフの**タイトル**は次のように表示されます。  
     ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
-   
+
     これまでに実行したタイトルのカスタマイズをすべて元に戻すには、 **[タイトル]** のカスタマイズ ウィンドウの下部にある、 **[既定値に戻す]** を選択します。  
     ![](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
 
@@ -69,29 +69,30 @@ Amanda が自分のレポートの視覚エフェクトをカスタマイズす�
 
 1. スライダーの [オン] または [オフ] を選択して、背景のオンとオフを切り替えます。 ここでは、 **[オン]** を選択したままにします。
 2. 背景色を 74% のグレーに変更します。
-   
+
    * ドロップダウンを選択し、**[テーマの色]**、**[最近使用した色]**、または **[ユーザー設定の色]** からグレーを選択します。
    * 透明度を 74% に変更します。   
      ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
-   
+
    これまでに実行したタイトルの背景のカスタマイズをすべて元に戻すには、 **[背景]** のカスタマイズ ウィンドウの下部にある **[既定値に戻す]** を選択します。
 
 ## <a name="customize-visualization-legends"></a>視覚エフェクトの凡例をカスタマイズする
 1. **[概要]** レポート ページを開き、「Total Sales Variance by FiscalMonth and District Manager (年度別および地域マネージャー別の総売上差異)」グラフを選択します。
 2. [視覚エフェクト] タブで、ペイントブラシのアイコンを選択し、書式設定のオプションを表示します。  
 3. **凡例** オプションを展開します。
-   
+
       ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 4. スライダーの [オン] または [オフ] を選択して、凡例のオンとオフを切り替えます。 ここでは、 **[オン]** を選択したままにします。
 5. 凡例を視覚エフェクトの左側に移動します。    
 6. **[タイトル]** を **[オン]** に切り替えて凡例にタイトルを追加し、 **[凡例名]** テキスト フィールドに **"Manager"**(マネージャー) と入力します。
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
-   
+
    これまでに実行した凡例のカスタマイズをすべて元に戻すには、 **[凡例]** のカスタマイズ ウィンドウの下部にある **[既定値に戻す]** を選択します。
 
 <a name="list"></a>
 
 ## <a name="visualization-types-that-can-be-customized"></a>カスタマイズ可能な視覚エフェクトの種類
+
 | 視覚エフェクト | タイトル | 背景 | 凡例 |
 |:--- |:--- |:--- |:--- |
 | 面 |はい |はい |はい |

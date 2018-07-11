@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>オンプレミス データ ゲートウェイ
+
 | **データ ソース** |
 | --- |
 | Analysis Services 表形式 |

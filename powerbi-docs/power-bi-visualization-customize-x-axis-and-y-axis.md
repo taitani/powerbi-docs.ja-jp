@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d28c6f4a0237253847cd474a3c3558399ba6fa64
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295705"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600521"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X 軸と Y 軸のプロパティのカスタマイズ
 このチュートリアルでは、視覚化に含まれる X 軸と Y 軸をカスタマイズする、さまざまな方法について説明します。 ただし、軸のない視覚化や、カスタマイズできない視覚化もあります。たとえば、円グラフに軸はありません。 カスタマイズのオプションは視覚化によって異なるため、数が多すぎて 1 つの記事では扱いきれません。 そこで、よく使われる軸のカスタマイズをいくつか見ていくほか、Power BI レポート キャンバスで使用する視覚的な書式設定タブについて説明します。  
@@ -86,9 +86,9 @@ Power BI サービスにサインインし、**小売りの分析のサンプル
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
->[NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
-1. 1 月の粗利 (%) は 35% で、4 月には最高値の 45% になり、7 月に下がって 8 月に再びピークに達しました。 前年と本年は同じ売上パターンになるでしょうか?
-2. **[This Year Sales] > [Value]** と **[Last Year Sales]** を折れ線グラフに追加します。 **[GM% Last Year]** (0M% のグリッド線に沿った青い線) の目盛が **[Sales]** の目盛よりかなり小さいため、比較が困難です。 また、Y 軸のラベルのパーセンテージがおかしくなっています。      
+> [NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
+> 1. 1 月の粗利 (%) は 35% で、4 月には最高値の 45% になり、7 月に下がって 8 月に再びピークに達しました。 前年と本年は同じ売上パターンになるでしょうか?
+> 2. **[This Year Sales] > [Value]** と **[Last Year Sales]** を折れ線グラフに追加します。 **[GM% Last Year]** (0M% のグリッド線に沿った青い線) の目盛が **[Sales]** の目盛よりかなり小さいため、比較が困難です。 また、Y 軸のラベルのパーセンテージがおかしくなっています。      
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
 5. ビジュアルの読みやすく分かりやすくするため、折れ線グラフを「折れ線グラフおよび積み上げ縦棒グラフ」に変換します。

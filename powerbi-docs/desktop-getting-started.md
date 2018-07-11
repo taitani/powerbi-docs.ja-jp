@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309925"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599871"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop の概要
 「**Power BI Desktop 概要ガイド**」へようこそ。 この短いツアーでは、Power BI Desktop の機能を説明し、その動作の実例を示します。これにより、強力なデータ モデルと優れたレポートをより迅速に作成できるようになり、ビジネス インテリジェンスの作業を拡張できます。 
@@ -313,7 +313,7 @@ Power BI にサインインすると、サービスの **ダッシュボード**
 
 レポート キャンバスの上部で **[レポートの編集]** をクリックすると、 **Power BI** サービスでレポートに変更を加えることができます。
 
-レポートを保存するには、サービスから **[ファイル] \> [名前を付けて保存]** の順に選びます。 レポートから、あらゆる種類の興味深いビジュアルを **Power BI** サービスに作成し、それを *ダッシュボード*に固定することができます。 **Power BI** サービスのダッシュボードについて詳しくは、「**[優れたダッシュボードのデザインに関するヒント](service-dashboards-design-tips.md)**」をご覧ください。
+レポートを保存するには、サービスから **[ファイル] \> [名前を付けて保存]** の順に選びます。 レポートから、あらゆる種類の興味深いビジュアルを **Power BI** サービスに作成し、それを *ダッシュボード*に固定することができます。 **Power BI** サービスのダッシュボードについて詳しくは、「<strong>[優れたダッシュボードのデザインに関するヒント](service-dashboards-design-tips.md)</strong>」をご覧ください。
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3550a3fc0cfc51b61e1d7e51a50c2a36325f2388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 2547be7f7bdadb7f991db54230d4fd791941838d
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250659"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600069"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>オンプレミスとクラウド データ ソースのマージまたはアペンド
 
@@ -38,17 +38,17 @@ ms.locfileid: "35250659"
 
 4. このゲートウェイ クラスターの下で、クエリで使用される[オンプレミス データ ソース](service-gateway-enterprise-manage-scheduled-refresh.md#add-a-data-source)があれば、それを追加します。 ここではクラウド データ ソースを追加する必要がありません。
 
-4. オンプレミスとクラウドのデータ ソースを結合するクエリを含む Power BI Desktop ファイルを Power BI サービスにアップロードします。
+5. オンプレミスとクラウドのデータ ソースを結合するクエリを含む Power BI Desktop ファイルを Power BI サービスにアップロードします。
 
-5. 新しいデータセットの **[データセットの設定]** ページで:
+6. 新しいデータセットの **[データセットの設定]** ページで:
 
-    - オンプレミス ソースの場合、このデータ ソースに関連付けられているゲートウェイを選択します。
+   - オンプレミス ソースの場合、このデータ ソースに関連付けられているゲートウェイを選択します。
 
-    - **[データ ソースの資格情報]** の下で、必要に応じてクラウド データ ソースの資格情報を編集します。
+   - **[データ ソースの資格情報]** の下で、必要に応じてクラウド データ ソースの資格情報を編集します。
 
-    ![データセットの設定](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
+     ![データセットの設定](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-6. クラウドの資格情報が設定されたので、**[今すぐ更新]** オプションを利用してデータセットを更新できるようになりました。あるいは、定期的に更新するようにスケジュールを設定できます。
+7. クラウドの資格情報が設定されたので、**[今すぐ更新]** オプションを利用してデータセットを更新できるようになりました。あるいは、定期的に更新するようにスケジュールを設定できます。
 
 
 ## <a name="next-steps"></a>次の手順

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290869"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600991"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI で DirectQuery を使用する
 **Power BI Desktop** または **Power BI サービス**を使用すると、あらゆる種類のデータ ソースに、さまざまな方法で接続できます。 Power BI へのデータの "*インポート*" は、最もよく使われるデータ取得方法です。または、元のソース リポジトリ内のデータに直接接続することもでき、これは **DirectQuery** と呼ばれます。 この記事では **DirectQuery** とその機能について説明します。内容は次のとおりです。
@@ -152,7 +152,7 @@ Power BI は、次のような非常に多くの多様なデータ ソースに�
     
     理由は、Item の数が非常に多い場合、このようなメジャーによりパフォーマンスが低下する可能性があるためです。
 * **計算テーブルがサポートされない:** DirectQuery モードでは、DAX 式を使って計算テーブルを定義する機能はサポートされません。
-* **リレーションシップのフィルタリングが一方向に制限される:** DirectQuery を使うと、リレーションシップでのクロス フィルターの方向を "両方" に設定することはできません。 たとえば、次の 3 つのテーブルで、各 Customer[Gender] が購入した Product[Category] の数を表示する視覚エフェクトは作成できません。 このような双方向フィルタリングの使用について詳しくは、[このホワイトペーパー](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional cross-filtering in Analysis Services 2016 and Power BI.docx)をご覧ください (SQL Server Analysis Services のコンテキストでの例が示されていますが、基本的なポイントは Power BI にも同じように当てはまります)。
+* **リレーションシップのフィルタリングが一方向に制限される:** DirectQuery を使うと、リレーションシップでのクロス フィルターの方向を "両方" に設定することはできません。 たとえば、次の 3 つのテーブルで、各 Customer[Gender] が購入した Product[Category] の数を表示する視覚エフェクトは作成できません。 このような双方向フィルタリングの使用について詳しくは、[このホワイトペーパー](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)をご覧ください (SQL Server Analysis Services のコンテキストでの例が示されていますが、基本的なポイントは Power BI にも同じように当てはまります)。
   
   ![](media/desktop-directquery-about/directquery-about_01.png)
   

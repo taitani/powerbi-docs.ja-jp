@@ -10,19 +10,20 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250317"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926653"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI を Office 365 パートナー サブスクリプションに追加できない
 Office 365 では、企業が独自のソリューションとバンドルおよび統合した Office 365 を再販することが可能です。購入、請求、サポートを一本化したサービスをエンド カスタマーに提供できます。
 
 Office 365 サブスクリプションに加えて Power BI のご利用に関心をお持ちの場合は、お客様のパートナーにお問い合わせください。 お客様のパートナーが Power BI を提供していない場合は、他のオプションをご利用いただけます。
 
-1. 別のチャネルで (Microsoft から直接、または別のパートナーから) サービスを購入できます。 このオプションは、パートナーとの関係によっては、利用できない場合もあります。 **[Office 365 管理ポータル]** > **[課金]** > **[サブスクリプション]** に移動して確認できます。 **[サブスクリプション]** が表示される場合、Microsoft からサービスを直接取得することや、Power BI を提供するパートナーに問い合わせることができます。
+1. 別のチャネルで (Microsoft から直接、または別のパートナーから) サービスを購入できます。 このオプションは、パートナーとの関係によっては、利用できない場合もあります。 **[Office 365 管理ポータル]** > **[課金]** > **[サブスクリプション]** に移動して確認できます。 
+  **[サブスクリプション]** が表示される場合、Microsoft からサービスを直接取得することや、Power BI をオファーするパートナーに問い合わせることができます。
    
     ![](media/service-admin-syndication-partner/billingsub.png)
 2. **[課金]** の下に **[サブスクリプション]** が表示されない場合は、Microsoft から直接購入することも、別のパートナーから購入することもできません。 
@@ -33,7 +34,7 @@ Power BI を直接購入できない場合、またご関心のある Power BI �
 
 [Power BI (無料)](#power-bi-free)
 
-[Power BI Pro および Premium](#power-bi-pro)
+[Power BI Pro および Premium](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Power BI (無料)
 Power BI の無料版で十分な場合は、無料サービスにサインアップできます。 既定では、個別のサインアップ (アドホック サブスクリプションとも呼ばれます) は無効になっています。 Power BI にサインアップしようとすると、Microsoft Power BI へのサインアップが IT 部門により無効化されていることを示すメッセージが表示されます。

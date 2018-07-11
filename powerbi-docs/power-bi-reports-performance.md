@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310546"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598881"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI のパフォーマンスのベスト プラクティス 
 この記事では、Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティスについて説明します。  
@@ -115,7 +115,7 @@ DirectQuery とライブ接続では、このクエリ キャッシュはデー�
    [msmdsrv.exe] 
 
    msmdsrv.exe で使用するポートを検索し、後で使用するために書きとめます。 この場合、ポート 55786 が使用できます。 
-3.  **SQL Server Profiler を Power BI Desktop に接続する** 
+3. **SQL Server Profiler を Power BI Desktop に接続する** 
 
    - **[スタート]** メニューから SQL Server Profiler を起動する 
    - **[ファイル]** > **[新しいトレース]** 

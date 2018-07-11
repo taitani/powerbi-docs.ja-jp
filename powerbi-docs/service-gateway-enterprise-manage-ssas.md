@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297149"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599183"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加する必要があります。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 Analysis Services データ ソースは、スケジュールされた更新とライブ接続のどちらにも使用できます。
@@ -52,7 +52,7 @@ ms.locfileid: "34297149"
 
 1. 画面右上の歯車アイコン ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) をクリックし、**[ゲートウェイの管理]** を選択します。
 2. [ゲートウェイ] > **[削除]** をクリックします。
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>データ ソースの追加
@@ -119,15 +119,13 @@ UPN マッピングの画面にアクセスするには、次のように操作�
 2. Analysis Services データ ソースを格納するゲートウェイを展開します。 または、Analysis Services データ ソースを作成していない場合は、この時点で作成します。
 3. データ ソースを選択してから、**[ユーザー]** タブを選択します。
 4. **[ユーザー名のマップ]** を選択します。
-   
+
     ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
 ルールを追加するオプションと、特定のユーザーについてテストするオプションが表示されます。
 
 > [!NOTE]
-> 誤って別のユーザーを変更してしまう場合があります。 たとえば、**[置換前] \(元の値)** が *@contoso.com* で **[置換後] \(新しい名前)** が *@contoso.local* の場合、*@contoso.com* を含むサインイン名を持つすべてのユーザーが *@contoso.local* に置き換えられます。 また、**[置換前] \(元の名前)** が *dave@contoso.com* で **[置換後] \(新しい名前)** が *dave@contoso.local* の場合、v-dave@contoso.com でサインインしたユーザーは、v-dave*@contoso.local* として送信されます。
-> 
-> 
+> 誤って別のユーザーを変更してしまう場合があります。 たとえば、**[置換前] \(元の値)** が <em>@contoso.com</em> で **[置換後] \(新しい名前)** が <em>@contoso.local</em> の場合、<em>@contoso.com</em> を含むサインイン名を持つすべてのユーザーが <em>@contoso.local</em> に置き換えられます。 また、**[置換前] \(元の名前)** が <em>dave@contoso.com</em> で **[置換後] \(新しい名前)** が <em>dave@contoso.local</em> の場合、v-dave@contoso.com でサインインしたユーザーは、v-dave<em>@contoso.local</em> として送信されます。
 
 ### <a name="ad-lookup-mapping"></a>AD 参照マッピング
 オンプレミスの AD プロパティ参照を実行して AAD UPN を Active Directory ユーザーに再マップするには、次のセクションの手順に従ってください。 まず始めに、このしくみを確認しましょう。
@@ -147,17 +145,17 @@ UPN マッピングの画面にアクセスするには、次のように操作�
 2. **Power BI サービス**から届いた UPN 文字列 (“firstName.lastName@contoso.com”) に基づいて AD ユーザーの属性 (*電子メール*など) を参照します。
 3. AD 参照が失敗すると、SSAS への EffectiveUser として渡された UPN の使用を試みます。
 4. AD 参照が成功すると、その AD ユーザーの *UserPrincipalName* が取得されます。 
-5. 次に、*"UserPrincipalName"* のメール アドレスが *"EffectiveUser"* として SSAS に渡されます (たとえば、*Alias@corp.on-prem.contoso*)。
+5. 次に、*"UserPrincipalName"* のメール アドレスが *"EffectiveUser"* として SSAS に渡されます (たとえば、<em>Alias@corp.on-prem.contoso</em>)。
 
 AD 参照を実行するようにゲートウェイを構成する方法:
 
 1. 最新のゲートウェイをダウンロードしてインストールします。
 2. ゲートウェイでは、ドメイン アカウントで実行されるように**オンプレミスのデータ ゲートウェイ サービス**を変更する必要があります (ローカル サービス アカウントは使用しません。これを使用すると、実行時に AD 参照が正しく機能しません)。 変更内容を有効にするには、ゲートウェイ サービスを再起動する必要があります。  コンピューター上のゲートウェイ アプリに進みます ("on-premises data gateway" を検索)。 そのためには、**[サービス設定]、[サービス アカウントの変更]** の順に進みます。 同じコンピューター上で新しいゲートウェイを作成しない場合はゲートウェイを復元する必要があるため、目的のゲートウェイの回復キーがあることを確認してください。 
 3. ゲートウェイのインストール フォルダー (*"C:\Program Files\On-premises data gateway"*) に管理者として移動し、書き込みアクセス許可があることを確認して、次のファイルを編集します。
-   
+
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. AD ユーザーの *"目的の"* Active Directory 属性の構成に従って、次の 2 つの構成値を編集します。 次に示す構成値は単なる例です。Active Directory の構成に基づいて値を指定する必要があります。 
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. 構成の変更を有効にするには、**オンプレミスのデータ ゲートウェイ** サービスを再起動します。
 

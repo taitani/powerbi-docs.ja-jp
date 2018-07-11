@@ -1,4 +1,5 @@
 ## <a name="list-of-available-data-source-types"></a>使用可能なデータ ソースの種類の一覧
+
 | **データ ソース** | **Live/DirectQuery** | **ユーザー構成による手動更新またはスケジュールされた更新** |
 | --- | --- | --- | --- |
 | Analysis Services 表形式 |はい |はい |

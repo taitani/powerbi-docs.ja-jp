@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291030"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600776"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop における DAX の基本事項
 この記事は、Power BI Desktop を初めて使用するユーザー向けです。 さまざまな基本的な計算とデータ分析の問題を解決するために Data Analysis Expressions (DAX) を使用する方法を、手早く簡単に説明します。 いくつかの概念について説明した後、一連のタスクを実行します。学んだ内容をテストするクイズも含まれています。 この記事を完了すると、DAX で最も重要な基本概念をよく理解できるようになります。
@@ -83,33 +83,33 @@ DAX の数式を解釈するときは、数式の各要素を分割し、日常�
 ### <a name="task-create-a-measure-formula"></a>タスク: メジャーの式を作成する
 このタスクを完了するには、Contoso Sales Sample Power BI Desktop ファイルを開く必要があります。
     
-1.  レポート ビューのフィールド リストで **Sales** テーブルを右クリックし、**[新しいメジャー]** をクリックします。
+1. レポート ビューのフィールド リストで **Sales** テーブルを右クリックし、**[新しいメジャー]** をクリックします。
     
-2.  数式バーで、新しいメジャー名として「**Previous Quarter Sales**」と入力して、"**Measure**" をそれに置き換えます。
+2. 数式バーで、新しいメジャー名として「**Previous Quarter Sales**」と入力して、"**Measure**" をそれに置き換えます。
     
-3.  等号の後に「**SUM**」と入力し、開きかっこを入力します。
+3. 等号の後に「**SUM**」と入力し、開きかっこを入力します。
     
-    ここでは、列名を入力してすぐに合計する代わりに、別の関数を入力して、合計するデータを *フィルター* によって抽出することにします。
+   ここでは、列名を入力してすぐに合計する代わりに、別の関数を入力して、合計するデータを *フィルター* によって抽出することにします。
     
-4.  かっこの間に「**CALCULATE**」と入力し、開きかっこを入力します。
+4. かっこの間に「**CALCULATE**」と入力し、開きかっこを入力します。
     
-    CALCULATE 関数は、CALCULATE 関数に渡す引数に基づいて、合計する金額をフィルター処理するために使用します。 これを、入れ子にした関数と呼びます。 CALCULATE 関数には、少なくとも 2 つの引数が必要です。 1 つ目の引数は評価する式、2 つ目の引数はフィルターです。
+   CALCULATE 関数は、CALCULATE 関数に渡す引数に基づいて、合計する金額をフィルター処理するために使用します。 これを、入れ子にした関数と呼びます。 CALCULATE 関数には、少なくとも 2 つの引数が必要です。 1 つ目の引数は評価する式、2 つ目の引数はフィルターです。
    
-5.  **CALCULATE** 関数のかっこ **()** の間に、「**Sales[SalesAmount]**」と入力します。 これは、CALCULATE 関数に対する最初の引数となる式です。
+5. **CALCULATE** 関数のかっこ **()** の間に、「**Sales[SalesAmount]**」と入力します。 これは、CALCULATE 関数に対する最初の引数となる式です。
     
-6.  最初のフィルターを指定するためにコンマ (**,**) を入力した後、「**PREVIOUSQUARTER**」と入力し、開きかっこを入力します。
+6. 最初のフィルターを指定するためにコンマ (**,**) を入力した後、「**PREVIOUSQUARTER**」と入力し、開きかっこを入力します。
     
-    PREVIOUSQUARTER というタイム インテリジェンス関数を使用すると、前の四半期にフィルター処理して SUM の結果を計算できます。
+   PREVIOUSQUARTER というタイム インテリジェンス関数を使用すると、前の四半期にフィルター処理して SUM の結果を計算できます。
     
-7.  PREVIOUSQUARTER 関数のかっこ **()** の間に、「**Calendar[DateKey]**」と入力します。
+7. PREVIOUSQUARTER 関数のかっこ **()** の間に、「**Calendar[DateKey]**」と入力します。
     
-    PREVIOUSQUARTER 関数には、1 つの引数として、連続した日付範囲を含む列を指定します。
+   PREVIOUSQUARTER 関数には、1 つの引数として、連続した日付範囲を含む列を指定します。
     
-8.  PREVIOUSQUARTER 関数および CALCULATE 関数に渡された両方の引数が、2 つの閉じかっこ **))** で閉じられていることを確認してください。
+8. PREVIOUSQUARTER 関数および CALCULATE 関数に渡された両方の引数が、2 つの閉じかっこ **))** で閉じられていることを確認してください。
     
    数式は、次のようになるはずです。
     
-    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+   **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
     
 9. 数式バーのチェック マーク ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) をクリックするか、Enter キーを押して、数式を検証し、それをモデルに追加します。
 

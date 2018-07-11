@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285533"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136757"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Power BI のリボン グラフを使用する
 **Power BI** のリボン グラフを利用してデータを視覚化し、ランクが最も高い (最大値の) データ カテゴリをすばやく判断できます。 リボン グラフでは、ランクの変化を効果的に確認できます。各期間を対象に、最高位の範囲 (値) が常に一番上に表示されます。 リボン グラフは 2017 年 9 月リリース以降の **Power BI Desktop** と **Power BI サービス**の後続更新プログラムで利用できます。
@@ -44,7 +44,7 @@ ms.locfileid: "34285533"
 ## <a name="next-steps"></a>次の手順
 **Power BI Desktop** と作業の開始方法の詳細については、次の記事を確認してください。
 
-* [Power BI Desktop の概要](desktop-getting-started.md)
+* [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)

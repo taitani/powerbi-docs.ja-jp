@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296302"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600381"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>開発者ツールを使ってカスタム ビジュアルを作成する
 カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。
@@ -32,14 +32,14 @@ ms.locfileid: "34296302"
 
 1. [NodeJS](https://nodejs.org) をダウンロードしてインストールします。 要件はバージョン 4.0 以降ですが、バージョン 5.0 以降の使用をお勧めします。
 2. コマンド ライン ツールをインストールします。 コマンド プロンプトから次のコマンドを実行します。
-   
+
         npm install -g powerbi-visuals-tools
 3. このツールがインストールされていることを確認するには、パラメーターを指定せずに次のコマンドを実行します。
-   
+
         pbiviz
-   
+
     ヘルプの出力が表示されます。
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ ms.locfileid: "34296302"
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ ms.locfileid: "34296302"
 証明書を "*インストール*" するには、次のコマンドを実行します。
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > 新しく生成されたパスフレーズを使用して PFX 証明書をインストールするように指示するメッセージが表示されます。
 > 
@@ -112,20 +112,20 @@ ms.locfileid: "34296302"
 **Windows OS**
 
 1. **[証明書のインストール]** を選択します。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. **[現在のユーザー]** を選択し、**[次へ]** をクリックします。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. **[証明書をすべて次のストアに配置する]** を選択し、**[参照]** を選択します。
 4. **[信頼されたルート証明機関]** を選択し、**[OK]** を選択します。 **[次へ]** を選びます。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. **[完了]** を選びます。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. セキュリティの警告ダイアログ ボックスで、**[はい]** を選択します。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. 開いているブラウザーをすべて閉じます。
 
@@ -137,13 +137,13 @@ ms.locfileid: "34296302"
 **OSX**
 
 1. 左上の鍵がロックされている場合は、鍵を選択してロックを解除します。 *localhost* を検索し、証明書をダブルクリックします。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. **[Always Trust]** \(常に信頼する) を選択して、ウィンドウを閉じます。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. ユーザー名とパスワードを入力します。 **[Update Settings]** \(設定の更新) を選択します。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. 開いているブラウザーをすべて閉じます。
 
@@ -157,15 +157,15 @@ ms.locfileid: "34296302"
 
 1. [app.powerbi.com](https://app.powerbi.com) を参照し、サインインします。
 2. **歯車アイコン** を選択し、**[設定]** を選択します。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. **[開発者]** を選択し、**[テスト用の開発者向けビジュアルを有効にする]** を選択します。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. **[視覚化]** ウィンドウで **[開発者向けビジュアル]** を選択します。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > この操作を行うには、開発用コンピューター上のビジュアル フォルダーから `pbiviz start` を実行しておく必要があります。 ビジュアルの作成方法の詳細については、この記事の「[新しいビジュアルを作成する](#create-a-new-visual)」をご覧ください。
    > 
@@ -196,11 +196,11 @@ Power BI サービスではレポートおよびダッシュ ボード内で、�
 1. プロンプトを開きます。
 2. ディレクトリを目的のビジュアル フォルダーに切り替えます。 このフォルダーは、`pbiviz.json` ファイルを含むフォルダーです。
 3. 次のコマンドを実行します。
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 間違った場所から実行すると、次のようなエラーが表示されます。
@@ -249,7 +249,7 @@ Power BI サービスではレポートおよびダッシュ ボード内で、�
 1. プロンプトを開きます。
 2. ディレクトリを目的のビジュアル フォルダーに切り替えます。 このフォルダーは、`pbiviz.json` ファイルを含むフォルダーです。
 3. 次のコマンドを実行します。
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ pbiviz update 1.2.0
 ビジュアル プロジェクトは、`pbiviz new` コマンドを実行したときに作成されるフォルダーです。 
 
 ### <a name="file-structure"></a>ファイルの構造
+
 | 項目 | 説明 |
 | --- | --- |
 | assets/ |ビジュアル資産 (アイコンやスクリーン ショットなど) を格納するために使用します。 |

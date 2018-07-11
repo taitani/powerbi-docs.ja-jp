@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253621"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599750"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 必ず最新のデータを取得することは、多くの場合、正しい意思決定をする上で重要です。 お客様は既に、Power BI の [データの取得] を使ってデータに接続してアップロードしたり、レポートとダッシュボードを作成したりしたことがあるでしょう。 ここで、データが本当に最新のもので、最も意味のあるものかを確認することができます。
@@ -101,6 +101,7 @@ Power BI では、通常、[データの取得] を使用して、ローカル �
 ファイルを OneDrive または SharePoint Online に保持したまま Power BI から接続することで、大きな柔軟性が得られます。 しかし、その柔軟性は、最も理解が困難なものの 1 つにもなっています。 OneDrive または SharePoint Online に格納されたファイルに対するスケジュールされた更新は、パッケージの更新とは異なります。 詳しくは、「[更新の種類](#types-of-refresh)」セクションをご覧ください。
 
 ### <a name="power-bi-desktop-file"></a>Power BI Desktop ファイル
+
 | **データ ソース** | **自動更新** | **ユーザー構成による手動更新またはスケジュールされた更新** | **ゲートウェイが必要** |
 | --- | --- | --- | --- |
 | [データの取得]\(リボン上) を使用して、一覧表示されたすべてのオンラインのデータ ソースに接続してデータのクエリを実行する。 |いいえ |はい |いいえ (下記参照) |
@@ -117,6 +118,7 @@ Power BI では、通常、[データの取得] を使用して、ローカル �
 詳しくは、「[OneDrive の Power BI Desktop ファイルから作成されたデータセットを更新する](refresh-desktop-file-onedrive.md)」をご覧ください。
 
 ### <a name="excel-workbook"></a>Excel ブック
+
 | **データ ソース** | **自動更新** | **ユーザー構成による手動更新またはスケジュールされた更新** | **ゲートウェイが必要** |
 | --- | --- | --- | --- |
 | ワークシート内のデータのテーブルが Excel のデータ モデルに読み込まれない。 |はい、1 時間ごと *(OneDrive、SharePoint Online のみ)* |手動のみ *(OneDrive、SharePoint Online のみ)* |いいえ |
@@ -131,6 +133,7 @@ Power BI では、通常、[データの取得] を使用して、ローカル �
 詳しくは、「[OneDrive の Excel ブックから作成されたデータセットを更新する](refresh-excel-file-onedrive.md)」をご覧ください。
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online 上のコンマ区切り値 (.csv) ファイル
+
 | **データ ソース** | **自動更新** | **ユーザー構成による手動更新またはスケジュールされた更新** | **ゲートウェイが必要** |
 | --- | --- | --- | --- |
 | 単純なコンマ区切り値 |はい (1 時間ごと) |手動のみ |いいえ |
@@ -145,6 +148,7 @@ Power BI には 2 種類のコンテンツ パックがあります。
 **組織のコンテンツ パック**: お客様の組織内のユーザーによって作成され、共有されます。 コンテンツ パックの使用者は、更新スケジュールの設定や手動更新を行えません。 コンテンツ パックの作成者だけが、コンテンツ パックでデータセットの更新を設定できます。 更新の設定は、データセットで継承されます。
 
 ### <a name="content-packs-from-online-services"></a>オンライン サービスのコンテンツ パック
+
 | **データ ソース** | **自動更新** | **ユーザー構成による手動更新またはスケジュールされた更新** | **ゲートウェイが必要** |
 | --- | --- | --- | --- |
 | [データの取得] &gt; [サービス] のオンライン サービス |はい |はい |いいえ |
@@ -237,7 +241,7 @@ SalesReport.xlsx という名前の Excel ブックがローカル コンピュ�
 > 
 > 
 
-詳細については、[Power BI での Excel データ](service-excel-workbook-files.md)に関するページのほか、「[Power BI Gateway - Personal](personal-gateway.md)」、「[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)」、「[ローカル ドライブの Excel ブックから作成されたデータセットを更新する](refresh-excel-file-local-drive.md)」をご覧ください。
+詳細については、[Power BI での Excel データ](service-excel-workbook-files.md)に関するページのほか、「[Power BI Gateway - Personal](service-gateway-personal-mode.md)」、「[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)」、「[ローカル ドライブの Excel ブックから作成されたデータセットを更新する](refresh-excel-file-local-drive.md)」をご覧ください。
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>OData フィードのデータを含む Power BI Desktop ファイル
 この場合は、Power BI Desktop の [データの取得] を使用して、OData フィードに接続して国勢調査データインポートします。  Power BI Desktop に複数のレポートを作成してから、ファイルに "WACensus” という名前を付けて、会社内の共有に保存します。 続いて、ファイルを Power BI サービスに発行します。
@@ -270,7 +274,7 @@ Power BI で [データの取得] を使用して、Salesforce などのオン�
 ## <a name="next-steps"></a>次の手順
 [更新の問題をトラブルシューティングするためのツール](service-gateway-onprem-tshoot.md)  
 [更新に関するトラブルシューティング シナリオ](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
