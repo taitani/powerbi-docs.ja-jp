@@ -6,7 +6,7 @@
 >**Personal Gateway** が適切に機能するためには、Power BI Personal Gateway を実行するコンピューターがインターネットに接続されている*必要があります*。
 > 
 
-**Personal Gateway** を設定するには、まず Power BI サービスにログインします。 画面の右上隅の **[ダウンロード]** アイコンを選んで、メニューから **[データ ゲートウェイ]** を選びます。
+**Personal Gateway** を設定するには、まず Power BI サービスにサインインします。 画面の右上隅の **[ダウンロード]** アイコンを選んで、メニューから **[データ ゲートウェイ]** を選びます。
 
 ![](media/4-6-install-configure-personal-gateway/4-6_1b.png)
 
@@ -22,7 +22,7 @@
 
 ![](media/4-6-install-configure-personal-gateway/4-6_3b.png)
 
-ゲートウェイ サービスはアカウントに基づいて実行されるため、最初に Power BI のサービス アカウントにログインし、次にコンピューターの Windows アカウントにログインするように求められます。
+ゲートウェイ サービスはアカウントに基づいて実行されるため、最初に Power BI のサービス アカウントにサインインし、次にコンピューターの Windows アカウントにサインインするように求められます。
 
 ![](media/4-6-install-configure-personal-gateway/4-6_3c.png)
 

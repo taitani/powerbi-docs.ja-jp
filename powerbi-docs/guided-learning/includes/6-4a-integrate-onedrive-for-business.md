@@ -4,7 +4,7 @@ Power BI コンテンツのソースとして OneDrive for Business を使用す
 
 ![](media/6-4a-integrate-onedrive-for-business/6-4a_1.png)
 
-OneDrive for Business で PBIX (Power BI Desktop) ファイルに接続するには、Power BI サービスにログインして **Get Data (データの取得)** を選択します。 [データのインポートまたは接続] で **[ファイル]** を選択してから、**[OneDrive - Business]** を選択します。 目的のファイルを強調表示して **[接続]** を選択します。
+OneDrive for Business で PBIX (Power BI Desktop) ファイルに接続するには、Power BI サービスにサインインして **Get Data (データの取得)** を選択します。 [データのインポートまたは接続] で **[ファイル]** を選択してから、**[OneDrive - Business]** を選択します。 目的のファイルを強調表示して **[接続]** を選択します。
 
 ![](media/6-4a-integrate-onedrive-for-business/6-4a_2.png)
 
