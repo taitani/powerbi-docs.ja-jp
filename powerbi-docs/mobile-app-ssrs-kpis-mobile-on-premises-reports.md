@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482247"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599026"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでオンプレミスのレポート サーバーのレポートと KPI を表示する
 
@@ -103,6 +103,9 @@ iOS モバイル アプリで Power BI を表示している場合、IT 管理�
 Power BI レポート、Reporting Services モバイル レポート、KPI は、Reporting Services の Web ポータルと同じフォルダーに表示されます。 
 
 * Power BI レポートをタップします。 ![Power BI レポート アイコン](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). レポートが横モードで開き、Power BI アプリで対話することができます。
+
+    > [!NOTE]
+  > Power BI Report Server の Power BI レポートでは現在、ドリルアップとドリルダウンが有効になっていません。
   
     ![Power BI レポート](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * レポート所有者は、Power BI Desktop で Power BI モバイル アプリの[レポートを最適化する](desktop-create-phone-report.md)ことができます。 携帯電話では、最適化されたレポートに特別なアイコン、![最適化された Power BI レポート アイコン](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)、レイアウトが与えられます。
@@ -129,6 +132,6 @@ KPI とレポートを Web ポータルでお気に入りとしてマークし�
 3. **[サーバーの削除]** をタップします。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI の概要](service-get-started.md)  
+* [Power BI とは?](power-bi-overview.md)  
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: d41b0a84d512c5ef6cebf810a89fd74a838c672e
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301736"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864355"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI の埋め込みコンテンツで行レベルのセキュリティを使用する
 行レベルのセキュリティ (RLS) を使って、ダッシュボード、タイル、レポート、データセット内のデータへのユーザー アクセスを制限できます。 複数の異なるユーザーが、同じアーティファクトで作業しながら別のデータを見ることができます。 埋め込みでは RLS がサポートされています。
@@ -65,11 +65,11 @@ RLS は Power BI Desktop で作成します。 データセットとレポート
 3. **District** テーブルに、「**[District Manager] = USERNAME()**」という DAX 式を入力します。
    
     ![RLS ルールの DAX ステートメント](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. ルールが動作することを確認するには、**[モデリング]** タブで **[ロールとして表示]** を選び、作成した **Manager** ロールと **[その他のユーザー]** の両方を選びます。 ユーザーとして「**Andrew Ma**」と入力します。
+4. ルールが動作することを確認するには、**[モデリング]** タブで **[ロールとして表示]** を選び、作成した **Manager** ロールと **[その他のユーザー]** の両方を選びます。 ユーザーとして「**AndrewMa**」と入力します。
    
     ![[ロールとして表示] ダイアログ](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
    
-    レポートには、**Andrew Ma** としてサインインした場合のデータが表示されます。
+    レポートには、**AndrewMa** としてサインインした場合のデータが表示されます。
 
 ここでのフィルター適用方法では、**District**、**Store**、**Sales** の各テーブルのすべてのレコードがフィルター処理されます。 ただし、リレーションシップでのフィルターの向きのため、**Sales** テーブルから **Time** テーブル、**Sales** テーブルから **Item** テーブル、**Item** テーブルから **Time** テーブルには、フィルターは適用されません。 双方向のクロス フィルター処理について詳しくは、「[Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)」(SQL Server Analysis Services 2016 と Power BI Desktop での双方向クロス フィルター処理) ホワイトペーパーをダウンロードしてご覧ください。
 

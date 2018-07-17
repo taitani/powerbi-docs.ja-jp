@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 08a65e7d312b0f57ec2824431bd00456c06860be
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
-ms.locfileid: "34471895"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945206"
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>言語モデリングと言語スキーマ 
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 データが回答になる場合にはさらに効果的です。Power BI の Q&A ではこれが可能です。 Power BI の Q&A に質問すると、Q&A は質問にできるだけ正しく回答します。 
@@ -340,7 +340,7 @@ Binding: {Table: Customers}
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 変更した .lsdl.yaml ファイルが言語スキーマ形式に準拠していない場合は、問題を示す次のような検証の波線が表示されます。 
 
-    ![yaml file showing errors](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
+![エラーが表示されている yaml ファイル](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
 
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

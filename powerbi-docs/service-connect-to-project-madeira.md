@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245607"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599786"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI で Project "Madeira" に接続する
 Power BI と Project “Madeira” コンテンツ パックを使用すると、Project “Madeira” データの洞察を簡単に取得できます。 Power BI は、売上と財務の両方のデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
@@ -33,7 +33,7 @@ Power BI 用 [Project "Madeira" Analytics コンテンツ パック](https://app
     ![](media/service-connect-to-project-madeira/services.png)
 3. **[Project "Madeira"]** を選択し、**[取得]** を選択します。  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. ダイアログが表示されたら、Project “Madeira” の URL を入力します。 URL は、次のパターンと完全に一致する必要があります (Project “Madeira” での社名を使用します): https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US')。 末尾にスラッシュがないことと、接続が https であることに注意してください。 この URL を見つけるには、[こちら](#FindingParams)をご覧ください。  
+4. ダイアログが表示されたら、Project “Madeira” の URL を入力します。 URL は Project “Madeira” の会社名を使う場合、<https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>') のパターンに厳密に従う必要があります。 末尾にスラッシュがないことと、接続が https であることに注意してください。 この URL を見つけるには、[こちら](#FindingParams)をご覧ください。  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. ダイアログが表示されたら、[認証方法] として [Basic] を選択し、[ユーザー名] として Project “Madeira” のメール アドレスを入力し、[パスワード] として Project “Madeira” アカウントの Web サービス アクセス キーを入力します。 ブラウザーで既に Project “Madeira” にサインインしている場合は、資格情報を求めるダイアログが表示されないことがあります。 このアクセス キーを生成する方法の詳細については、[こちら](#FindingParams)を参照してください。  
@@ -93,10 +93,10 @@ Power BI ダッシュボードは、上に示された公開済み Web サービ
 
 Project "Madeira" の URL を入力した後でこのエラーが発生した場合は、次の要件が満たされていることを確認してください。  
 
-   - URL が次のパターンと完全に一致している: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-   - かっこで囲まれた会社名の後ろにあるすべてのテキストが削されている。  
-   - URL の末尾にスラッシュ (/) がない。  
-   - URL がセキュリティで保護された接続を使用している (URL が https で始まっている)。  
+- URL が次のパターンと完全に一致している: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')  
+- かっこで囲まれた会社名の後ろにあるすべてのテキストが削されている。  
+- URL の末尾にスラッシュ (/) がない。  
+- URL がセキュリティで保護された接続を使用している (URL が https で始まっている)。  
 
 **「ログインに失敗しました」**: Project “Madeira” の資格情報を使用してダッシュボードにログインしたときに「ログインに失敗しました」エラーが発生した場合は、次の問題のいずれかが原因である可能性があります。  
 
@@ -104,16 +104,16 @@ Project "Madeira" の URL を入力した後でこのエラーが発生した場
    - 接続しようとしている Project "Madeira" インスタンスが有効な SSL 証明書を持っていない。 この場合は、さらに詳細なエラー メッセージが表示されます (「SSL の信頼関係を確立できません」)。 自己署名証明書はサポートされていないことに注意してください。  
 
 **「問題が発生しました」**: 認証ダイアログ ボックスを通過した後で「問題が発生しました」エラー ダイアログが表示された場合、最も多い原因は、コンテンツ パックのデータに接続できないことです。 URL が、既に説明した次のパターンに従っていることを確認します。  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')
 
 よくある間違いは、次のように、特定の Web サービスの URL 全体を指定することです。  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 次のように、会社名を指定し忘れている場合もありま   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>次の手順
-[Power BI の概要](service-get-started.md)
+[Power BI とは?](power-bi-overview.md)
 
 [Power BI - 基本的な概念](service-basic-concepts.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a08d9d10725a5c135ef6732b8397a57833463f4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a0ae99e2dfad889840cc29ca4fa9f0f29397bf04
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247828"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135377"
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>Power BI で SendGrid に接続する
 SendGrid 用 Power BI コンテンツ パックを使用すると、SendGrid アカウントから考察や統計情報を得ることができます。 SendGrid コンテンツ パックを使用して、SendGrid の統計情報をダッシュボードに視覚化することができます。
@@ -56,7 +56,7 @@ SendGrid のダッシュ ボードで次のメトリックを使用できます�
 * デバイス、クライアント、ブラウザー別のメール統計情報
 
 ## <a name="next-steps"></a>次の手順
-[Power BI の概要](service-get-started.md)
+[Power BI とは?](power-bi-overview.md)
 
 [データの取得](service-get-data.md)
 

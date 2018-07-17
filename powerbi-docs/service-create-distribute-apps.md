@@ -6,14 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2018
+ms.date: 06/20/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965299"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリを作成して発行する
 
@@ -21,17 +22,15 @@ Power BI で、関連のあるダッシュボードやレポートをまとめ�
 
 ![Power BI アプリ](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-ビジネス ユーザーは、業務のために Power BI の複数のダッシュボードとレポートを必要とすることがよくあります。 アプリではこうした要素がまとまっています。そのため、ダッシュボードの名前やそのダッシュボードの場所を全部記憶する必要がなくなります。  
-
-現在プレビュー中の Power BI アプリを使用すると、ダッシュボードとレポートのコレクションを作成し、こうしたアプリを、組織全体または特定のユーザーやグループに発行できます。 レポートの作成者または管理者の場合は、アプリによって、ダッシュボード コレクションに対するアクセス許可が管理しやすくなります。
+ビジネス ユーザーは、業務のために Power BI の複数のダッシュボードとレポートを必要とすることがよくあります。 アプリではこうした要素がまとまっています。そのため、ダッシュボードの名前やそのダッシュボードの場所を全部記憶する必要がなくなります。 Power BI アプリを使用すると、ダッシュボードとレポートのコレクションを作成し、こうしたアプリを、組織全体または特定のユーザーやグループに発行できます。 レポートの作成者または管理者の場合は、アプリによって、ダッシュボード コレクションに対するアクセス許可が管理しやすくなります。
 
 ビジネス ユーザーは、いくつかの方法でアプリを取得します。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 その他、ビジネス ユーザーはアプリを Microsoft AppSource からインストールすることも、送信された直接リンクを使用することもできます。 すべてが 1 か所にあるため、ビジネス ユーザーは簡単に検索してコンテンツに戻ることができます。 更新プログラムは自動的に取得されます。データの更新頻度は制御することができます。 詳細については、[ビジネス ユーザーのアプリ機能](service-install-use-apps.md)に関するページを参照してください。
 
 ### <a name="licenses-for-apps"></a>アプリのライセンス
-アプリの作成者には、Power BI Pro ライセンスが必要です。 アプリ ユーザーの場合は 2 つのオプションがあります。
+アプリの作成者には、Power BI Pro ライセンスが必要です。 アプリ ユーザーにアプリを表示するには、2 つのオプションがあります。
 
-* オプション 1: すべてのビジネス ユーザーに、アプリを表示するための **Power BI Pro** ライセンスが必要です。 
-* オプション 2: 組織内の無料ユーザーが、Power BI Premium 容量内のアプリのコンテンツを表示できます。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
+* オプション 1: アプリ ユーザーに **Power BI Pro** ライセンスが割り当てられています。 
+* オプション 2: アプリ ユーザーに **Power BI Pro** ライセンスは割り当てられていませんが、アプリが Power BI Premium 容量内にあります。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
 
 ### <a name="apps-and-organizational-content-packs"></a>アプリと組織のコンテンツ パック
 アプリは、組織のコンテンツ パックが進化したものです。 組織のコンテンツ パックが既にある場合は、アプリと並行して使用することになります。

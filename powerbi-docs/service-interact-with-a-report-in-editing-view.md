@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a6b4795be959cfc1842a07f1ba0a74dd81109e89
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240432"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965598"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI サービスの編集ビューでレポートと対話する
 レポートは、Power BI サービスと Power BI Desktop で作成および編集することができます。 Power BI サービスでは、レポートは**編集ビュー**で作成および編集できます。 Power BI Desktop では、レポートは[**レポート ビュー**](desktop-report-view.md)で作成および編集できます。 この記事では、Power BI サービスの編集ビューについて説明します。 
 
-Power BI サービスにはレポートと対話するための 2 つの異なるモード (レポートの "*コンシューマー*" 用の[読み取りビュー](service-reading-view-and-editing-view.md)およびレポートの所有者と作成者用の編集ビュー) があります。  レポートの共有や、他のユーザーが作成したレポートの編集には、Power BI Pro ライセンスが必要です。 Power BI の無料ユーザーの場合、レポートを作成することはできますが、[共有](service-share-reports.md)を使用することはできません。    
+Power BI サービスにはレポートと対話するための 2 つの異なるモード (レポートの "*コンシューマー*" 用の[読み取りビュー](service-reading-view-and-editing-view.md)およびレポートの所有者と作成者用の編集ビュー) があります。  レポートの共有や、他のユーザーが作成したレポートの編集には、Power BI Pro ライセンスが必要です。 Pro ライセンスがある場合、引き続きレポートを作成することはできますが、[レポートを共有](service-share-reports.md)することはできません。    
 
 レポートの編集ビューには、レポートの探索と設計の両方に関する高い柔軟性が備わっています。 [読み取りビュー](service-reading-view-and-editing-view.md)のすべての機能の他に、さらに多くの機能を使用できます。 編集ビューは、レポートの作成者、または[アプリ ワークスペースのメンバーまたは管理者としてレポートを共同所有している](service-create-distribute-apps.md)同僚のみが使用できます。
 
@@ -39,7 +39,7 @@ Power BI サービスにはレポートと対話するための 2 つの異な�
 * レポート ページの複製。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-他のユーザーが作成したレポートを編集したり、自分のレポートを他のユーザーと共有するには、Power BI Pro ライセンスが必要です。  Power BI の無料ユーザーの場合、レポートを作成することはできますが、[共有](service-share-reports.md)を使用することはできません。
+他のユーザーが作成したレポートを編集したり、自分のレポートを他のユーザーと共有するには、Power BI Pro ライセンスが必要です。  Pro ライセンスがある場合、引き続きレポートを作成することはできますが、[レポートを共有](service-share-reports.md)することはできません。
 
 
 ## <a name="next-steps"></a>次の手順

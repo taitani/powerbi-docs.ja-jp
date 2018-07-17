@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/13/2018
 ms.author: maikelson
-ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299288"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137593"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -22,25 +22,9 @@ ms.locfileid: "34299288"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-登録して Power BI の専門家の話を聞き、ライブ Q&A セッションに参加してください。
+まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
 
-**Power BI と Visio で適切な分析情報を得る**
-<br>講師: Shakun Grover
-<br>*2018 年 5 月 22 日、午前 10 時 (太平洋標準時)、午後 1 時 (東部標準時)*
-
-このウェビナーでは、Power BI のダッシュボードと Microsoft Visio の図を結合して、強力なビジュアル分析情報を作成する方法について説明します。 Visio と Power BI はビジュアル性が高く、自然に補完し合います。 Visio では、相互接続されたワークフローや実際のレイアウトなど、わかりやすい図を作成することができます。 Power BI は、グラフとマップを使って直感的なダッシュボードを作成し、主要業績評価指標を測定して目標を追跡するのに役立ちます。
-
-[5 月 22 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
-
-**Power BI Embedded を 20 分で学習する**
-<br>講師: Megan Asarrane、Colin Murphy
-<br>*2018 年 5 月 23 日、午前 10 時 (太平洋標準時)、午後 1 時 (東部標準時)*
-
-このウェビナーでは、Power BI Embedded の概要を説明します。 このウェビナーを最後まで見ると、ユーザーは Power BI Embedded の概要、製品を使い始める次の手順、ヘルプ/リソースの場所を理解することができます。
-
-[5 月 23 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
-
->[Power BI コミュニティからの今後のウェビナーに参加する](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[Power BI コミュニティからの今後のウェビナーに参加する](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>おすすめのウェビナー
 
@@ -78,15 +62,27 @@ ms.locfileid: "34299288"
 <br>作成者: Charles Sterling
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
+**Power BI Embedded を 20 分で学習する**
+<br>講師: Megan Asarrane、Colin Murphy
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
 **スプレッドシートを超える**
 <br>講師: Gohul Shanmugalingam
 <br>[登録して今すぐ見る](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
+
+**Power BI と Visio で適切な分析情報を得る**
+<br>講師: Shakun Grover
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **より優れたレポートに変換する**
 <br>作成者: Reid Havens
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>パートナー ###
+
+**Location Intelligence で BI を強化する**
+<br>作成者: Scott Ball (Esri) と Enrique Plaza (Microsoft)
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
 **医療での収益の増加**
 <br>作成者: Stephen Cracknell/Stuart Macanliss (US Medical IT)
@@ -172,7 +168,7 @@ ms.locfileid: "34299288"
 
 - [Microsoft Data Insights Summit 2017 オンデマンド セッション](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [Power BI の概要](service-get-started.md)
+- [Power BI とは?](power-bi-overview.md)
 
 - Twitter で [@MSPowerBI をフォローする](https://twitter.com/mspowerbi)
 

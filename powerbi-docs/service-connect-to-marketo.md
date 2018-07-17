@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252464"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135262"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI で Marketo に接続する
 Power BI 用 Marketo コンテンツ パックを使用すると、Marketo アカウントに関する情報 (潜在顧客とそのアクティビティに関するデータを含む) を入手できます。この接続を作成すると、データが取得され、そのデータに基づいて自動的にダッシュボードおよび関連するレポートが提供されます。
@@ -86,7 +86,7 @@ Power BI が Marketo に対して行う API 呼び出しの量は Marketo アカ
 | **API 呼び出し数の合計** | |**2,200** |
 
 ## <a name="next-steps"></a>次の手順
-[Power BI の概要](service-get-started.md)
+[Power BI とは?](power-bi-overview.md)
 
 [Power BI のデータの取得](service-get-data.md)
 

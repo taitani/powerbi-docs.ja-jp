@@ -1,6 +1,6 @@
 ---
-title: Power BI サービスの概要
-description: Power BI サービスの概要
+title: Power BI サービスの概要 (Power BI オンライン)
+description: Power BI オンラインの概要 (app.powerbi.com)
 author: adamw
 manager: kfile
 ms.reviewer: ''
@@ -8,22 +8,37 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d66653ebe9232cb6da2f3c53b01e791ca9966db9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34310132"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598661"
 ---
-# <a name="get-started-with-power-bi-service-apppowerbicom"></a>Power BI サービスの概要 (app.powerbi.com)
-このチュートリアルは、初めて ***Power BI サービス***を使うときに役立ちます。 Power BI サービスと他の Power BI 製品の関係を理解するため、最初に「[Power BI とは?](guided-learning/gettingstarted.yml?tutorial-step=1)」を読むことを強くお勧めします。
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>チュートリアル: Power BI サービスの概要 (app.powerbi.com)
+このチュートリアルは、初めて ***Power BI サービス***を使うときに役立ちます。 Power BI サービスと他の Power BI 製品の関係を理解するため、最初に「[Power BI とは?](power-bi-overview.md)」を読むことを強くお勧めします。
 
-![デスクトップ、サービス、モバイルの間の関係を示すアート](media/service-get-started/power-bi-components.png)
+![デスクトップ、サービス、モバイルの間のリレーションシップを示すアート](media/service-get-started/power-bi-components.png)
 
-Power BI サービスには、無料版と Pro バージョンがあります。 どちらのバージョンを使っていても、"*アカウントが既にある場合は*"、ブラウザーで「app.powerbi.com」と入力すると Power BI サービスが開きます。 新しいユーザーの場合は、代わりに www.powerbi.com から始めることをお勧めします。 ここでは、サービスにログインする前に Power BI について詳しく学習できます。  試す準備ができたら、右上隅に表示されている **[無料でサインアップ]** リンクを選びます。 ユーザーの代わりに管理者が Power BI を既に有効にしている場合は、[無料でサインアップ] ボタンを使わず、app.powerbi.com に直接移動してください。 
+このチュートリアルでは、以下の手順を実行します。
+
+> [!div class="checklist"]
+> * Power BI サービスのその他の入門コンテンツを探します
+> * Power BI オンライン アカウントにサインインするか、まだ行っていない場合はサインアップします
+> * Power BI サービスを開きます
+> * データをいくつか取得し、それをレポート ビューで開きます
+> * そのデータを使用して視覚化を作成し、レポートとして保存します
+> * レポートからタイルをピン留めし、ダッシュボードを作成します
+> * Q&A 自然言語ツールを利用し、別の視覚化をダッシュボードに追加します
+> * データセット、レポート、ダッシュボードを削除してリソースをクリーンアップします
+
+## <a name="sign-up-for-power-bi-service"></a>Power BI サービスにサインアップする
+Power BI にサインアップしていない場合は、始める前に[無料の Power BI Pro 試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
+
+アカウントが既にある場合は、ブラウザーを開き、「app.powerbi.com」と入力すると Power BI サービスが開きます。 
 
 ![無料のサインインまたはサインアップ](media/service-get-started/power-bi-sign-up.png)
 
@@ -36,10 +51,9 @@ Power BI Desktop のヘルプを探している場合は、「[デスクトッ�
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
-> 
-> 
 
-Microsoft Power BI を使用すると、重要な最新情報の通知を受けることができます。  Power BI サービスの***ダッシュボード***を使うと、ビジネスの最新情報を入手できます。  ダッシュボードに***タイル***が表示されます。タイルをクリックすると、***レポート***を開いてさらに調査できます。  複数の***データ セット***に接続し、関連するすべてのデータを 1 か所にまとめます。 Power BI を構成する要素を理解するうえで助けが必要ですか?  「[Power BI - 基本的な概念](service-basic-concepts.md)」をご覧ください。
+## <a name="what-is-power-bi-service"></a>Power BI サービスとは何ですか?
+Microsoft Power BI サービスとは、Power BI オンラインまたは app.powerbi.com とも呼ばれています。 Power BI を利用すると、自分にとって重要な事柄について常に最新情報を得ることができます。  Power BI サービスの***ダッシュボード***を使うと、ビジネスの最新情報を入手できます。  ダッシュボードに***タイル***が表示されます。タイルをクリックすると、***レポート***を開いてさらに調査できます。  複数の***データ セット***に接続し、関連するすべてのデータを 1 か所にまとめます。 Power BI を構成する要素を理解するうえで助けが必要ですか?  「[Power BI - 基本的な概念](service-basic-concepts.md)」をご覧ください。
 
 Excel ファイルまたは CSV ファイルに重要なデータがある場合、Power BI ダッシュボードを作成し、どこにいても通知が受けられるようにし、他のユーザーと洞察を共有できるようにすることができます。  Salesforce などの SaaS アプリケーションへのサブスクリプションを使用していますか。  Salesforce に接続してそのデータから自動的にダッシュボードを作成するか、接続可能な[その他のすべての SaaS アプリケーションをチェックアウト](service-get-data.md)すると、一歩進んだスタートが切れます。 組織に属している場合は、[アプリ](service-create-distribute-apps.md)が自分に公開されているかどうかを確認します。
 
@@ -48,7 +62,7 @@ Excel ファイルまたは CSV ファイルに重要なデータがある場合
 ## <a name="step-1-get-data"></a>手順 1: データの取得
 CSV ファイルからデータを取得する例を次に示します。 このチュートリアルに従って作業しますか? [このサンプル CSV ファイルをダウンロード](http://go.microsoft.com/fwlink/?LinkID=521962)してください。
 
-1. [Power BI にサインイン](http://www.powerbi.com/)します。 アカウントをお持ちではありませんか。 心配しないでください。無料でサインアップできます。
+1. [Power BI にサインイン](http://www.powerbi.com/)します。 アカウントをお持ちではありませんか。 心配はご無用です。無料の試用版にご登録いただけます。
 2. Power BI がブラウザーで開きます。 左ナビゲーション バーの下部にある **[データの取得]** を選びます。
    
    ![データの取得](media/service-get-started/getdata3.png)
@@ -94,21 +108,21 @@ CSV ファイルからデータを取得する例を次に示します。 この
    
    ![ピン留めアイコン](media/service-get-started/pinnew.png)
 
-5. これは新しいレポートであるため、視覚エフェクトをダッシュボードにピン留めする前に、レポートを保存するよう要求されます。 レポートに名前を付け (たとえば、"*一定期間内の売上*" など)、**[保存してから続ける]** を選びます。 
+4. これは新しいレポートであるため、視覚エフェクトをダッシュボードにピン留めする前に、レポートを保存するよう要求されます。 レポートに名前を付け (たとえば、"*一定期間内の売上*" など)、**[保存してから続ける]** を選びます。 
    
    ![レポートの保存ダイアログ](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
-6. 新しいダッシュボードに折れ線グラフをピン留めし、"チュートリアルの財務サンプル" という名前を付けます。 
+5. 新しいダッシュボードに折れ線グラフをピン留めし、"チュートリアルの財務サンプル" という名前を付けます。 
    
    ![レポート名の設定](media/service-get-started/power-bi-pin.png)
    
- 1. **[Pin]**(ピン留め) を選択します。
+1. **[Pin]**(ピン留め) を選択します。
    
     右上隅の近くに成功メッセージが表示されたら、視覚エフェクトがダッシュボードにタイルとして追加されたことがわかります。
    
     ![ダッシュボードにピン留めダイアログ](media/service-get-started/power-bi-pin-success.png)
 
-8. **[ダッシュボードに移動]** を選び、新しいダッシュボードにタイルとしてピン留めされた折れ線グラフを確認します。 視覚エフェクトのタイルをさらに追加し、[タイルの名前変更やサイズ変更、リンク、位置変更](service-dashboard-edit-tile.md)を行って、ダッシュボードの見栄えをよくします。
+6. **[ダッシュボードに移動]** を選び、新しいダッシュボードにタイルとしてピン留めされた折れ線グラフを確認します。 視覚エフェクトのタイルをさらに追加し、[タイルの名前変更やサイズ変更、リンク、位置変更](service-dashboard-edit-tile.md)を行って、ダッシュボードの見栄えをよくします。
    
    ![視覚エフェクトがピン留めされたダッシュボード](media/service-get-started/power-bi-new-dashboard.png)
    
@@ -128,26 +142,21 @@ CSV ファイルからデータを取得する例を次に示します。 この
 
    ![グラフがピン留めされたダッシュボード](media/service-get-started/power-bi-final-dashboard.png)
 
+## <a name="clean-up-resources"></a>リソースをクリーンアップする
+チュートリアルはこれで完了です。データセット、レポート、ダッシュボードは削除してかまいません。 
+
+1. 左側のナビゲーション バーで **[マイ ワークスペース]** を選択します。
+2. **[データセット]** タブを選択し、このチュートリアルのためにインポートしたデータセットを検索します。  
+3. 省略記号 (...) を選択し、**[削除]** を選択します。
+
+    ![データセットを削除する](media/service-get-started/power-bi-delete.jpg)
+
+    データセットを削除すると、レポートとダッシュボードも削除されます。 
+
+
 ## <a name="next-steps"></a>次の手順
 さらに試してみる準備ができましたか。  次の方法で Power BI を調べることができます。
 
-* [別のデータセットに接続する](service-get-data.md)。
-* 同僚と[ダッシュボードを共有する](service-share-dashboards.md)。
-* [ダッシュボードのデザインのヒント](service-dashboards-design-tips.md)を見る。
-* [モバイル デバイスで Power BI アプリを使用して](mobile-apps-for-mobile-devices.md)ダッシュボードを表示する。
-
-始めるにはもう少し準備が必要ですか。 その場合は、次のトピックから始めてください。これらのトピックで、Power BI に慣れることができます。
-
-* [レポート、データセット、ダッシュボード、およびタイルのすべてをまとめる方法](service-basic-concepts.md)
-* [Power BI のガイド付き学習](guided-learning/index.md)サイトにアクセスし、いくつか (非常に短い) コースを受講する
-* [Power BI のビデオ](videos.md)を見る
-* [使用可能なサンプル](sample-datasets.md)
-
-### <a name="stay-in-touch-with-power-bi"></a>Power BI に関する最新情報の入手方法
-* Twitter で [@MSPowerBI をフォローする](https://twitter.com/mspowerbi)
-* [YouTube ビデオ チャネル](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)を購読します。
-* オンデマンドの [Power BI の概要に関する Web セミナー](webinars.md)を視聴する
-* ヘルプの入手方法がわからない場合は、 「[ヘルプを得るための 10 のヒント](service-tips-for-finding-help.md)」ページをご覧ください。
-
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+> [!div class="nextstepaction"]
+> [使用するオンライン サービスに接続する](./service-connect-to-services.md)
 

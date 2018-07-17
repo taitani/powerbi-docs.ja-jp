@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561749"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944102"
 ---
 # <a name="embedding-with-power-bi"></a>Power BI で埋め込み
 Power BI には、ダッシュボードとレポートをアプリケーションに埋め込むための API があります。 Power BI API では、一貫性のある一連の機能を利用し、コンテンツを埋め込むときにダッシュボード、ゲートウェイ、アプリ ワークスペースなどの最新の Power BI 機能にアクセスできます。
@@ -29,7 +29,7 @@ Power BI ライセンスのない顧客やユーザーの場合、同じ API を
 ## <a name="embedding-for-your-organization"></a>組織向けの埋め込み
 組織向けの埋め込みを使って、Power BI サービスを拡張することができます。 その場合、コンテンツを表示する際に、アプリケーションのユーザーは Power BI サービスにサインインする必要があります。 サインインした組織のユーザーは、自分が所有しているか、あるいは Power BI サービスで共有されているダッシュボードとレポートにのみアクセスできます。 
 
-*組織向けの埋め込みの例としては、内部の Web アプリケーション、SharePoint Online の Web パーツと Microsoft Teams の統合などがあります。*
+*組織向けの埋め込みの例としては、内部の Web アプリケーション、SharePoint Online の Web パーツと [Microsoft Teams の統合 (管理者権限が必要です)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/) などがあります。*
 
 組織向けの埋め込みについては、以下をご覧ください。
 

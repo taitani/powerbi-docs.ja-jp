@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813160"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926561"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -96,6 +96,44 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>認証
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 または AADSTS50053 で認証が失敗しました
+
+**(AADSTS70002: 資格情報の検証でエラーが発生しました。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました)**
+
+Power BI Embedded を使用、および Azure AD Direct Authentication を利用している場合、次のようなログインに関するメッセージを受信する場合があります: ***error:unauthorized_client,error_description:AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました***。これは 2018 年 6 月 14 日の時点で直接認証がオフになっていることが原因です。
+
+レガシ認証をブロックするために [Azure AD 条件付きアクセス](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) サポートを使用するか、[Azure AD Directory パススルー認証](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)を使用することをお勧めします。
+
+ただし、組織または[サービス プリンシパル](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)のいずれかを対象とすることができる [Azure AD ポリシー](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)を使用してオンに戻す方法があります。
+
+**_これは、必ずアプリごとに、回避策で必要な場合にのみ有効にすることをお勧めします。_**
+
+このポリシーを作成するには、ポリシーを作成して割り当てるディレクトリに対して**グローバル管理者**であることが必要です。 ポリシーを作成して、このアプリケーションの SP に割り当てるのためのサンプル スクリプトを次に示します。
+
+1. [Azure AD プレビュー PowerShell モジュール](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)をインストールします。
+
+2. 次の Powershell コマンドを 1 行ずつ実行します (結果として、変数 $sp に複数のアプリケーションが含まれていないことを確認します)。
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+ポリシーを割り当てたら、テストを行う前に、約 15 秒から 20 秒、伝達のための時間を待機します。
+
 **有効な ID が与えられた GenerateToken が失敗する**
 
 いくつかの理由から、有効な ID が与えられた GenerateToken が失敗することがあります。
@@ -113,6 +151,30 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 * IsEffectiveIdentityRolesRequired が true であれば、ロールが必要です。
 * DatasetId はあらゆる EffectiveIdentity で必須です。
 * Analysis Services の場合、マスター ユーザーをゲートウェイ管理者にする必要があります。
+
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 許可には管理者権限が必要です
+
+**_症状:_**</br>
+管理者以外のユーザーがアプリケーションへの初めてのサインインおよび同意の許可を試みると、次のエラーが返されます。
+* ConsentTest は、管理者のみが付与することができる組織内のリソースへのアクセス許可を必要とします。 このアプリを使用するには、事前にアプリへのアクセス許可を付与してもらうように管理者に依頼してください。
+* AADSTS90094: 付与には管理者権限が必要です。
+
+    ![同意テスト](media/embedded-troubleshoot/consent-test-01.png)
+
+管理者ユーザーは正常にサインインし、同意を許可することができます。
+
+**_根本原因:_**</br>
+ユーザーの同意がテナントに対して無効です。
+
+**_いくつかの修正方法が可能です:_** 
+
+*テナント全体に対するユーザーの同意を有効にする (すべてのユーザー、すべてのアプリケーション)*
+1. Azure Portal で、[Azure Active Directory]、[ユーザーとグループ]、[ユーザー設定] の順に移動します。
+2. [ユーザーはアプリが自身の代わりに会社のデータにアクセスすることを許可できます] 設定を有効にし、変更を保存します。
+
+    ![同意テストの修正](media/embedded-troubleshoot/consent-test-02.png)
+
+*管理者によるアクセス許可の付与* テナント全体または特定のユーザーのいずれかを対象として、管理者がアプリケーションへのアクセス許可を付与します。
 
 ## <a name="data-sources"></a>データ ソース
 
@@ -175,7 +237,7 @@ Power BI Desktop から、あるいは powerbi.com 内でファイルを開き�
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-これは、Web サーバー アプリケーションに対して指定されているリダイレクト URL が、サンプルの URL と異なるためです。 サンプル アプリケーションを登録する場合は、リダイレクト URL として *http://localhost:13526/* を使います。
+これは、Web サーバー アプリケーションに対して指定されているリダイレクト URL が、サンプルの URL と異なるためです。 サンプル アプリケーションを登録する場合は、リダイレクト URL として `http://localhost:13526/` を使います。
 
 登録済みのアプリケーションを編集する場合は、[AAD 登録済みアプリケーション](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)の編集方法を確認し、アプリケーションが Web API へのアクセスを提供できるようにします。
 

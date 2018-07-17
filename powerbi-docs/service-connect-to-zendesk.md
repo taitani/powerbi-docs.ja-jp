@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afcaae9499aa1c7e1461030cfa6b5d7b35a47188
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242448"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136021"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Power BI で Zendesk に接続する
 Zendesk コンテンツ パックは、Power BI ダッシュボードと一連の Power BI レポートを提供し、お客様のチケット ボリュームとエージェント パフォーマンスに関する詳細情報を示します。 提供されるダッシュボードとレポートをそのまま使用することもできますし、最も関心のある情報を強調表示するためにカスタマイズすることができます。  データは、1 日 1 回自動的に更新されます。 
@@ -84,6 +84,6 @@ Zendesk URL は、Zendesk アカウントにサインインするときに使用
 接続の問題が発生した場合は、Zendesk URL を確認し、Zendesk 管理者アカウントを使用していることを確かめます。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI の概要](service-get-started.md)
+* [Power BI とは?](power-bi-overview.md)
 * [データの取得](service-get-data.md)
 

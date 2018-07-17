@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 143d3c2a48ca6dbe6ca39f4a097e45654accaa04
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 701dbeb60ea93e2df1bbfe886373919ae97a39c8
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721250"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134894"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>"Android System Webview の更新が必要である" を修正する
 Microsoft Power BI 用 Android モバイル アプリにサインインするとき、Android System Webview の更新が必要であるというメッセージが表示されることがあります。 
@@ -30,6 +30,6 @@ Android デバイスが Android 7 以降を実行している場合、Android Sy
 
 ## <a name="next-steps"></a>次の手順
 * Android アプリ ストアから [Android アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkID=544867)する。
-* [Power BI の概要](service-get-started.md)
+* [Power BI とは?](power-bi-overview.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

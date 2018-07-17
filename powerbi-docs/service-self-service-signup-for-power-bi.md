@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 060bebbc79db02d28755cc7832f4a4ef3d2d578f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: abc53080456e27e58d8b9519c9d6543e66142780
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299495"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926492"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>個人として Power BI にサインアップする
 Power BI にサインアップして、個人用レポートおよび視覚エフェクトのニーズに応じて、Power BI の使用を開始する方法について説明します。
@@ -32,8 +32,7 @@ Power BI は、個人用レポートおよび視覚エフェクト ツールの�
 所属する組織で Office 365 が採用されている場合でも、無料アカウントにサインアップできます。 IT 管理者が Power BI Pro を購入して、ライセンスを割り当てるオプションもいくつかあります。 IT 管理者が使用できるオプションについて詳しくは、「[Power BI Pro を購入する](service-admin-purchasing-power-bi-pro.md)」をご覧ください。
 
 > [!NOTE]
-> 組織によっては、個々のサインアップが無効になっている場合があります。 この方式がオフになっていることを示すエラーが表示される場合は、詳細について「[個人のサインアップが無効になっている](#individual-sign-up-has-been-turned-off)」を参照してください。
->
+> 組織によっては、個々のサインアップが無効になっている場合があります。 サインアップが無効になっていることを示すエラーが表示された場合は、IT 部門に詳細をお問い合わせください。
 
 ## <a name="what-you-need-to-sign-up"></a>サインアップに必要なものは?
 
@@ -69,16 +68,16 @@ Power BI にサインアップするには、次の操作を行うことがで�
 
 1. [powerbi.com](https://powerbi.microsoft.com) を参照します。
 2. **[無料で開始する]** または **[無料でサインアップ]** を選択します。
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup1.png)
 3. 開始ページで、Power BI の **[無料で試す]** を選択します。
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup2.png)
 4. サインアップに使用するメール アドレスを入力して、**[サインアップ]** を選択します。 サインアップで許可される電子メール アドレスを使用してください。 使用できるメール アドレスについて詳しくは、「[Power BI で使用できる電子メール アドレス](#what-email-address-can-be-used-with-power-bi)」をご覧ください。
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup3.png)
 5. メールの確認を求めるメッセージが表示されます。
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. メール内のリンクを選択して、メール アドレスを確認します。 これにより、サインアップ フローに戻ります。 自身に関する追加情報を提供しなければならない場合があります。
 7. https://app.powerbi.com に戻り、無料のユーザーとして Power BI の使用を開始できます。
@@ -123,7 +122,7 @@ Power BI にサインアップするには、次の操作を行うことがで�
 > 
 
 ### <a name="what-this-looks-like-within-the-service"></a>サービス内での表示例
-サービス内で Pro 版の試用アカウントがあることを確認するには、**歯車*アイコンをクリックして **[パーソナル ストレージの管理]** を選択します。
+サービス内で Pro 版の試用アカウントがあることを確認するには、<strong>歯車*アイコンをクリックして **[パーソナル ストレージの管理]</strong> を選択します。
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
 
@@ -133,11 +132,12 @@ Power BI Pro ライセンスを個人として取得することはできませ�
 ## <a name="troubleshooting"></a>トラブルシューティング
 多くの場合、Power BI への登録は、上記の単純なセルフサービスのサインアップ プロセスに従うことによって実行できます。 ただし、いくつかの理由で、セルフサービスのサインアップを完了できない場合があります。  サインアップを完了できない場合の一般的な理由の一部と、これらの問題を回避するための方法を次の表にまとめます。
 
-| **現象またはエラー メッセージ** | **原因と回避策** |
-| --- | --- |
-| **個人のメール アドレス (例: nancy@gmail.com)** サインアップ時に次のようなメッセージが表示されます。 <br /><br /> "*You entered a personal email address: Please enter your work email address so we can securely store your company's data. (個人のメール アドレスが入力されました: 会社のデータに安全に保存できるように、職場の電子メール アドレスを入力してください。)*" <br /><br /> または <br /><br /> "*That looks like a personal email address. (個人の電子メール アドレスが指定された可能性があります。)Enter your work address so we can connect you with others in your company. (勤務先の他のユーザーと接続できるよう、勤務先のメール アドレスをご入力ください。)And don’t worry. (ご心配なさる必要はありません。)We won't share your address with anyone. (Microsoft では、あなたのメール アドレスを他のだれかと共有することは一切ありません。)*" |Power BI は、コンシューマー電子メール サービスまたは通信プロバイダーが提供している電子メール アドレスをサポートしていません。 <br /><br /> サインアップを完了させるには、あなたの勤務先または学校から割り当てられているメール アドレスを使用して、もう一度お試しください。 <br /><br /> それでもサインアップできず、より高度なセットアップ プロセスを実行する場合は、[新しい Office 365 試用版サブスクリプションに登録して、そのメール アドレスを使用してサインアップしてください](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> ユーザー アカウントが [Azure B2B ゲスト](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)として招待されていますか。 |
-| **セルフサービスのサインアップが無効** サインアップ時に次のようなメッセージが表示されます:  <br /><br /> "*We can't finish signing you up. (サインアップを完了できません。)Your IT department has turned off signup for Microsoft Power BI. (あなたの勤務先の IT 部門が、Microsoft Power BI のサインアップを無効にしています。)Contact them to complete signup. (IT 部門に連絡して、サインアップを完了させてください。)*" <br /><br /> または <br /><br /> "*That looks like a personal email address. (個人の電子メール アドレスが指定された可能性があります。)Enter your work address so we can connect you with others in your company. (勤務先の他のユーザーと接続できるよう、勤務先のメール アドレスをご入力ください。)And don’t worry. (ご心配なさる必要はありません。)We won't share your address with anyone. (Microsoft では、あなたのメール アドレスを他のだれかと共有することは一切ありません。)*" |組織の IT 管理者によって、Power BI のセルフサービス サインアップが無効にされています。 <br /><br /> サインアップを完了させるには、IT 管理者に連絡して、既存のユーザーが Power BI にサインアップできるようにしたり、新しいユーザーが既存のテナントに参加できるようにしたりするために、下のページの手順を実行するようにご依頼ください。 <br/><br/> パートナーを通じて Office 365 にサインアップする場合に、この問題が発生する可能性があります。 [詳細情報](service-admin-syndication-partner.md) <br /><br /> [組織内の Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
-| **メール アドレスが Office 365 の ID ではない** サインアップ時に次のようなメッセージが表示されます:  <br /><br /> "*We can't find you at contoso.com. (contoso.com であなたを見つけることができません。)Do you use a different ID at work or school? (勤務先または学校の別の ID を使用しますか?)<br /><br />Try signing in with that, and if it doesn't work, contact your IT department. (その ID を使用してサインインしてみてください。その ID が機能しない場合は、IT 部門にお問い合わせください。)*" |お客様の組織では、Office 365 と他の Microsoft サービスにサインインするために、メール アドレスと異なる ID を使用しています。  たとえば、メール アドレスが Nancy.Smith@contoso.com で、ID が nancys@contoso.com の場合です。 <br /><br /> サインアップを完了させるには、Office 365 または他の Microsoft サービスにサインインするために組織から割り当てられている ID を使用してください。  この ID が分からない場合は、IT 管理者にお問い合わせください。 <br /><br /> それでもサインアップできず、より高度なセットアップ プロセスを実行できる場合は、[新しい Office 365 試用版サブスクリプションに登録して、そのメール アドレスを使用してサインアップしてください](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
+
+|                                                                                                                                                                                                                          **現象またはエラー メッセージ**                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                **原因と回避策**                                                                                                                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <strong>個人のメール アドレス (例: nancy@gmail.com)</strong> サインアップ時に次のようなメッセージが表示されます。 <br /><br /> "*You entered a personal email address: Please enter your work email address so we can securely store your company's data. (個人のメール アドレスが入力されました: 会社のデータに安全に保存できるように、職場の電子メール アドレスを入力してください。)*" <br /><br /> または <br /><br /> "*That looks like a personal email address. (個人の電子メール アドレスが指定された可能性があります。)Enter your work address so we can connect you with others in your company. (勤務先の他のユーザーと接続できるよう、勤務先のメール アドレスをご入力ください。)And don’t worry. (ご心配なさる必要はありません。)We won't share your address with anyone. (Microsoft では、あなたのメール アドレスを他のだれかと共有することは一切ありません。)*" |                          Power BI は、コンシューマー電子メール サービスまたは通信プロバイダーが提供している電子メール アドレスをサポートしていません。 <br /><br /> サインアップを完了させるには、あなたの勤務先または学校から割り当てられているメール アドレスを使用して、もう一度お試しください。 <br /><br /> それでもサインアップできず、より高度なセットアップ プロセスを実行する場合は、[新しい Office 365 試用版サブスクリプションに登録して、そのメール アドレスを使用してサインアップしてください](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> ユーザー アカウントが [Azure B2B ゲスト](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)として招待されていますか。                           |
+|            **セルフサービスのサインアップが無効** サインアップ時に次のようなメッセージが表示されます:  <br /><br /> "*We can't finish signing you up. (サインアップを完了できません。)Your IT department has turned off signup for Microsoft Power BI. (あなたの勤務先の IT 部門が、Microsoft Power BI のサインアップを無効にしています。)Contact them to complete signup. (IT 部門に連絡して、サインアップを完了させてください。)*" <br /><br /> または <br /><br /> "*That looks like a personal email address. (個人の電子メール アドレスが指定された可能性があります。)Enter your work address so we can connect you with others in your company. (勤務先の他のユーザーと接続できるよう、勤務先のメール アドレスをご入力ください。)And don’t worry. (ご心配なさる必要はありません。)We won't share your address with anyone. (Microsoft では、あなたのメール アドレスを他のだれかと共有することは一切ありません。)*"             |                             組織の IT 管理者によって、Power BI のセルフサービス サインアップが無効にされています。 <br /><br /> サインアップを完了させるには、IT 管理者に連絡して、既存のユーザーが Power BI にサインアップできるようにしたり、新しいユーザーが既存のテナントに参加できるようにしたりするために、下のページの手順を実行するようにご依頼ください。 <br/><br/> パートナーを通じて Office 365 にサインアップする場合に、この問題が発生する可能性があります。 [詳細情報](service-admin-syndication-partner.md) <br /><br /> [組織内の Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
+|                                                                                          **メール アドレスが Office 365 の ID ではない** サインアップ時に次のようなメッセージが表示されます:  <br /><br /> "*We can't find you at contoso.com. (contoso.com であなたを見つけることができません。)Do you use a different ID at work or school? (勤務先または学校の別の ID を使用しますか?)<br /><br />Try signing in with that, and if it doesn't work, contact your IT department. (その ID を使用してサインインしてみてください。その ID が機能しない場合は、IT 部門にお問い合わせください。)*"                                                                                           | お客様の組織では、Office 365 と他の Microsoft サービスにサインインするために、メール アドレスと異なる ID を使用しています。  たとえば、メール アドレスが Nancy.Smith@contoso.com で、ID が nancys@contoso.com の場合です。 <br /><br /> サインアップを完了させるには、Office 365 または他の Microsoft サービスにサインインするために組織から割り当てられている ID を使用してください。  この ID が分からない場合は、IT 管理者にお問い合わせください。 <br /><br /> それでもサインアップできず、より高度なセットアップ プロセスを実行できる場合は、[新しい Office 365 試用版サブスクリプションに登録して、そのメール アドレスを使用してサインアップしてください](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
 
 ## <a name="next-steps"></a>次の手順
 [組織内の Power BI (無料)](service-admin-service-free-in-your-organization.md)  

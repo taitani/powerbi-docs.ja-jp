@@ -1,7 +1,7 @@
 ## <a name="firewall-or-proxy"></a>ファイアウォールまたはプロキシ
 ゲートウェイのプロキシ情報の指定については、「[Power BI Gateway のプロキシ設定を構成する](../service-gateway-proxy.md)」を参照してください。
 
-PowerShell プロンプトから [Test-NetConnection](https://technet.microsoft.com/library/dn372891.aspx) を実行して、ファイアウォールまたはプロキシが接続をブロックしている可能性があるかどうかをテストできます。 これは、Azure Service Bus への接続をテストすることになります。 これはネットワーク接続のみをテストし、クラウド サーバー サービスやゲートウェイとはまったく関係ありません。 コンピューターが実際にインターネットに接続できるかどうかを確認するのに役立ちます。
+PowerShell プロンプトから [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) を実行して、ファイアウォールまたはプロキシが接続をブロックしている可能性があるかどうかをテストできます。 これは、Azure Service Bus への接続をテストすることになります。 これはネットワーク接続のみをテストし、クラウド サーバー サービスやゲートウェイとはまったく関係ありません。 コンピューターが実際にインターネットに接続できるかどうかを確認するのに役立ちます。
 
     Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 

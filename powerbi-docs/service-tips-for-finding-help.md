@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310063"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137171"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI の質問のヘルプを得るための 10 のヒント
 Power BI に関する疑問に対する答えを、必要なときに (つまり、"ジャストインタイム" で) 得られないために、Power BI を使用しながらイライラしたり、苦労したりしていませんか。 
@@ -71,6 +71,6 @@ Power BI チームは、定期的な [Power BI ブログ投稿](https://powerbi.
 たとえば、セキュリティ グループでダッシュ ボードを共有できるのかどうか知りたいとします。 この疑問の答えを見つけるには、共有ダイアログ ボックスに移動し、セキュリティ グループを追加してみてください。 いずれにしても、このテストの後に答えを知ることになります。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI の概要](service-get-started.md)
+* [Power BI とは?](power-bi-overview.md)
 * [Power BI コミュニティ](http://community.powerbi.com/)で質問してみてください。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。

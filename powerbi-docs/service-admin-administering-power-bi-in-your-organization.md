@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297425"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944309"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 管理とは
 
@@ -73,12 +73,12 @@ Power BI 管理に関連するいくつかのツールがあります。それ�
 
 | **ツール** | **一般的なタスク** |
 | --- | --- |
-| Power BI 管理ポータル |<ul><li>ユーザーによる Power BI へのアクセスをブロックする<br><li>Premium 容量を取得して操作する<br><li>サービスの品質を確保する<br><li>ビジネス データの分類を管理する<br><li>コンテンツの発行と共有ポリシーの適用を支援する<br><li>ワークスペースを管理する<br><li>カスタム ビジュアルを発行する<br><li>Power BI を他のアプリケーションに埋め込むために使用されるコードを検証する<br><li>データ アクセスとその他の問題をトラブルシューティングする</ul>|
-| Office 365 管理センター |<ul><li>ユーザーのサインアップを管理する<br><li>Pro のライセンスを購入して割り当てる</ul>|
-| Office 365 セキュリティ/コンプアライアンス センター |<ul><li>イベントの監査をレビューして管理する</ul>|
-| Azure Portal の Azure Active Directory (AAD) |<ul><li>AAD 経由の Power BI リソースへの条件付きアクセスを構成する<br><li>Power BI Embedded 容量をプロビジョニングする</ul>|
-| PowerShell コマンドレット |<ul><li>スクリプトによってワークスペースと Power BI のその他の側面を管理する</ul>|
-| 管理 API |<ul><li>Power BI 管理者の作業を容易にするカスタム管理ツールをビルドする。たとえば、Power BI Desktop はこれらの API を使用して、管理に関連するデータに基づくレポートを作成できる</ul>|
+| Power BI 管理ポータル |<ul><li>Premium 容量を取得して操作する</li><li>サービスの品質を確保する</li><li>ビジネス データの分類を管理する</li><li>コンテンツの発行と共有ポリシーの適用を支援する</li><li>ワークスペースを管理する<br><li>カスタム ビジュアルを発行する</li><li>Power BI を他のアプリケーションに埋め込むために使用されるコードを検証する</li><li>データ アクセスとその他の問題をトラブルシューティングする</li></ul>|
+| Office 365 管理センター |<ul><li>ユーザーのサインアップを管理する</li><li>Pro のライセンスを購入して割り当てる</li><li>ユーザーによる Power BI へのアクセスをブロックする</li></ul>|
+| Office 365 セキュリティ/コンプアライアンス センター |<ul><li>イベントの監査をレビューして管理する</li></ul>|
+| Azure Portal の Azure Active Directory (AAD) |<ul><li>AAD 経由の Power BI リソースへの条件付きアクセスを構成する</li><li>Power BI Embedded 容量をプロビジョニングする</li></ul>|
+| PowerShell コマンドレット |<ul><li>スクリプトによってワークスペースと Power BI のその他の側面を管理する</li></ul>|
+| 管理 API と SDK |<ul><li>Power BI 管理者の作業を容易にするカスタム管理ツールをビルドする。たとえば、Power BI Desktop はこれらの API を使用して、管理に関連するデータに基づくレポートを作成できる</li></ul>|
 
 ## <a name="next-steps"></a>次の手順
 

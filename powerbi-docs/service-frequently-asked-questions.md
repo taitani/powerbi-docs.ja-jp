@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964816"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145389"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
@@ -54,7 +54,7 @@ Power BI は、コンシューマー電子メール サービスまたは通信�
 Power BI サービス [https://powerbi.com](https://powerbi.com) をプライベートの内部クラウド サービスとして使用することはできません。 ただし、オンプレミスのデータを表示および操作する場合は、3 つのオプションを利用できます。 
 
 ### <a name="on-premises-data-gateway"></a>オンプレミス データ ゲートウェイ
-Power BI と Power BI Desktop を併用すれば、独自のオンプレミスのデータ ソースに安全に接続できます。 [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)を使用すると、オンプレミスの SQL Server Analysis Services サーバーと、その他のデータ ソースにライブ接続できます。 また、一元的なゲートウェイでスケジュールに従った更新を設定することもできます。 ゲートウェイが使用できない場合は、[Power BI Gateway - Personal](personal-gateway.md) を使用して、オンプレミス データ ソースのデータを更新することができます。
+Power BI と Power BI Desktop を併用すれば、独自のオンプレミスのデータ ソースに安全に接続できます。 [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)を使用すると、オンプレミスの SQL Server Analysis Services サーバーと、その他のデータ ソースにライブ接続できます。 また、一元的なゲートウェイでスケジュールに従った更新を設定することもできます。 ゲートウェイが使用できない場合は、[Power BI Gateway - Personal](service-gateway-personal-mode.md) を使用して、オンプレミス データ ソースのデータを更新することができます。
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 Power BI レポート サーバーとは、レポートを作成、展開、管理した後、それらをさまざまなユーザーに、Web ブラウザーやモバイル デバイスで表示したり、または電子メールで送信したりするなどのさまざまな方法で配布するために独自の施設内に展開するソリューションです。 [Power BI レポート サーバー](report-server/get-started.md)の詳細をお読みください。
@@ -138,6 +138,7 @@ Power BI for Office 365 のエクスペリエンスは非推奨とされまし�
 * 直前の操作または最近のいくつか操作を **元に戻す** には、CTRL キーを押しながら Z キーを押します。
 
 ## <a name="next-steps"></a>次の手順
+* [Power BI とは?](power-bi-overview.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。
 

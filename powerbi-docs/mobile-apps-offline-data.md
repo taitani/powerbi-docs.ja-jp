@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cade8b126742610814f47587c950458796cca474
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292848"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136481"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータをオフライン表示する
 適用対象:
@@ -55,7 +55,8 @@ Power BI には、オフライン モードの切り替えを明確に示すイ�
 * Power BI がオフラインでキャッシュできるデータは最大 250 MB です。
 * 一部の種類のタイルはアクティブなサーバー接続を必要とするため、オフラインで使用できません (たとえば、Bing マップのタイルとカスタム タイルの一部)。
 * Power BI 内の Excel ブックはその全体がオフライン利用できません。
-* Reporting Services モバイル レポートと KPI は、接続時に表示している場合、オフラインで表示できます。 バックグラウンドでは更新されません。 このデータは開くたびに更新されます。 
+* Reporting Services モバイル レポートと KPI は、接続時に表示している場合、オフラインで表示できます。 バックグラウンドでは更新されません。 このデータは開くたびに更新されます。
+* Power BI モバイル アプリでは、Power BI Report Server に保存された Power BI Desktop (.pbix) ファイルを表示することはできません。 
 
 ## <a name="next-steps"></a>次の手順
 Power BI モバイル アプリで使用したいその他の機能にぜひ投票してください。お客様からのフィードバックは、将来実装する機能を決めるのに役立ちます。 
@@ -63,5 +64,5 @@ Power BI モバイル アプリで使用したいその他の機能にぜひ投�
 * [モバイル デバイス用の Power BI アプリ](mobile-apps-for-mobile-devices.md)
 * Twitter で @MSPowerBI をフォローする
 * [Power BI コミュニティの会話](http://community.powerbi.com/)に参加する
-* [Power BI の概要](service-get-started.md)
+* [Power BI とは?](power-bi-overview.md)
 

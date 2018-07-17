@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297724"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135446"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの特定の場所へのリンクを作成する
 URI (Uniform Resource Identifier) を作成して使用することで、すべてのモバイル プラットフォーム (iOS、Android デバイス、Windows 10) で Power BI モバイル アプリ内の特定の場所にリンクすることができます (*ディープ リンク*)。
@@ -103,5 +103,5 @@ Power BI モバイル アプリで使用したいその他の機能にぜひ投�
 * [モバイル デバイス用の Power BI アプリ](mobile-apps-for-mobile-devices.md)
 * Twitter で @MSPowerBI をフォローする
 * [Power BI コミュニティの会話](http://community.powerbi.com/)に参加する
-* [Power BI の概要](service-get-started.md)
+* [Power BI とは?](power-bi-overview.md)
 

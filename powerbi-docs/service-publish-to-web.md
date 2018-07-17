@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254857"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092347"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -135,7 +135,8 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 5. 現時点では、[Web に公開] レポートで "R" ビジュアルはサポートされていません。
 6. Web に公開されたレポートのビジュアルからのデータのエクスポート
 7. ArcGIS Maps for Power BI のビジュアル
-8. [機密情報をセキュリティで保護する](#publish-to-web-from-power-bi)
+8. レポート レベルの DAX メジャーを含むレポート
+9. [機密情報をセキュリティで保護する](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>テナントの設定
 

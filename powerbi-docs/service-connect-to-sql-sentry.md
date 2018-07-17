@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9bec96b594d7a761311e0ef9f457f320eb1f3963
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242425"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136435"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Power BI で SQL Sentry に接続する
 SQL Sentry が収集したパフォーマンス データの分析は、Power BI を使えば簡単に行えます。 Power BI は、データを取得し、そのデータに基づいて既定のダッシュボードと関連レポートを作成します。
@@ -93,7 +93,7 @@ Power BI で一部のアプリのデータが表示されない場合は、デ�
 <https://cloud.sqlsentry.com> と同期している SQL Sentry データベースの所有者ではない場合は、管理者に問い合わせて、収集されたデータを表示する権限があることを確認してください。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI の概要](service-get-started.md)
+[Power BI とは?](power-bi-overview.md)
 
 [Power BI のデータの取得](service-get-data.md)
 

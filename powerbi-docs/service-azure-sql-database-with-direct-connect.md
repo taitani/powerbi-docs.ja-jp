@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a1ae30097e0af90d5da8acd0d41b11f513756f88
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242251"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135906"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database と DirectQuery
 Azure SQL Database に直接接続し、ライブ データを使用するレポートを作成する方法について説明します。 Power BI ではなくソースにデータを保持できます。
@@ -31,7 +31,11 @@ DirectQuery を使用すると、レポート ビューでデータを調べる�
 * DirectQuery データセットの Q&A は使用できません。
 * スキーマ変更は自動選択されません。
 
-これらの制限および注意事項については、エクスペリエンスの向上に伴い変更される可能性があります。 接続するための手順の詳細を以下に示します。 
+これらの制限および注意事項については、エクスペリエンスの向上に伴い変更される可能性があります。 接続するための手順の詳細を以下に示します。
+
+> [!Important]
+> Azure SQL Database への接続性を改善しました。  Azure SQL Database データ ソースに接続するための操作性を向上させるには、Power BI Desktop を使用します。  モデルとレポートをビルドしたら、Power BI サービスに発行できます。  Power BI サービス内の Azure SQL Database への直接接続は、非推奨になりました。
+>
 
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop と DirectQuery
 DirectQuery を使用して Azure SQL Database に接続するには、Power BI Desktop を使用する必要があります。 この方法でさらに柔軟性と機能が向上します。 Power BI Desktop を使用して作成したレポートを、Power BI サービスに発行できます。 Power BI Desktop で DirectQuery を使用して Azure SQL Database に接続する方法の詳細については、「[Power BI Desktop の DirectQuery](desktop-use-directquery.md)」をご覧ください。 
@@ -57,6 +61,6 @@ SSO オプションは、このデータ ソースを使うすべてのデータ
 
 ## <a name="next-steps"></a>次の手順
 [Power BI Desktop で DirectQuery を使用する](desktop-use-directquery.md)  
-[Power BI の概要](service-get-started.md)  
+[Power BI とは?](power-bi-overview.md)  
 [Power BI のデータの取得](service-get-data.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301828"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965506"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -99,6 +99,8 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 ## <a name="tenant-settings"></a>テナント設定
 
 管理ポータルの 3 番目のタブは、**[テナント設定]** です。 テナント設定を使用して、組織で利用できる機能を細かく制御できます。 機密データに関して懸念がある場合は、一部の機能はお客様の組織に適していない可能性があり、指定した機能を特定のグループのみが使用できるようにする必要がある場合があります。 そのような場合は、テナントの該当する機能をオフに切り替えることができます。
+
+たとえば、既定では、ユーザーごとのデータは利用状況の指標に対して有効であり、コンテンツ作成者のアカウント情報は指標レポートに含まれます。 一部またはすべてのユーザーに対してこの情報を含めない場合は、指定したセキュリティ グループまたは組織全体に対してこの機能を無効にします。 アカウント情報は、*[名前なし]* としてレポートに表示されます。
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -235,7 +237,7 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 
 ## <a name="r-visuals-settings"></a>R ビジュアルの設定
 
-### <a name="interact-with-an-dshare-r-visuals"></a>R ビジュアルとの対話と共有
+### <a name="interact-with-and-share-r-visuals"></a>R ビジュアルとの対話と共有
 
 組織内のユーザーは、R スクリプトで作成したビジュアルと対話して共有することができます。 [詳細情報](service-r-visuals.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94b019f04fb6fabcad3092524fd2724015a6d8e1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242192"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137024"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Power BI で Microsoft Dynamics Marketing に接続する
 Power BI 用 Microsoft Dynamics Marketing コンテンツ パックを使用すると、Dynamics Marketing のデータに簡単にアクセスして分析することができます。 コンテンツ パックは、OData フィードに加えて記述モデルを使用します。その際、必要なすべてのエンティティやメジャーを使用します。たとえば、プログラム、キャンペーン、マーケティング取引先担当者およびマーケティング会社、潜在顧客、潜在顧客の相互作用と潜在顧客のスコアリング、電子メール マーケティング メッセージと Web サイト、動作の監視、予算、金融取引、パフォーマンス KPI などです。 
@@ -72,5 +72,5 @@ OData URL が正しいこと、および OData エンドポイントが有効で
 ## <a name="next-steps"></a>次の手順
 [Power BI のデータの取得](service-get-data.md)
 
-[Power BI の概要](service-get-started.md)
+[Power BI とは?](power-bi-overview.md)
 

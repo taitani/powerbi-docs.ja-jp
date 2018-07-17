@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813045"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945306"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI ダッシュボード、レポート、およびタイルを埋め込む
 
@@ -35,6 +35,9 @@ Microsoft は [Power BI Premium を発表](https://powerbi.microsoft.com/blog/mi
 
 * [Azure Active Directory テナントがあることを確認する](embedding-content.md#azureadtenant)
 * [Power BI Pro アカウントを作成する](embedding-content.md#proaccount)
+* [アプリの登録とアクセス許可](embedding-content.md#appreg)
+* [アプリ ワークスペースを作成する](embedding-content.md#appws)
+* [レポートを作成してアップロードする](embedding-content.md#createreports)
 
 [オンボード エクスペリエンス ツール](https://aka.ms/embedsetup)に移動し、すばやく開始してサンプル アプリケーションをダウンロードすることができます。
 
@@ -67,7 +70,7 @@ Power BI からアイテムを埋め込むには、Azure Active Directory (Azure
 
 #### <a name="an-organizationtenant-admin-user"></a>組織/テナント管理者ユーザー
 
-顧客向けの埋め込みでは、アプリケーションが使用するアカウントとして、組織/テナントのグローバル管理者ユーザーを使用しないことをお勧めします。 そうすれば、テナント内でのアプリケーション アカウントによるアクセスが最小限に抑えられます。 管理者ユーザーは、埋め込むために作成されたすべてのアプリ ワークスペースの管理者にすることをお勧めします。
+顧客向けの埋め込みでは、アプリケーションが使用するアカウントとして、組織/テナントのグローバル管理者ユーザーを使用しないことをお勧めします。 そうすれば、テナント内でのアプリケーション アカウントによるアクセスが最小限に抑えられます。 管理者ユーザーは、埋め込むために作成されたすべてのアプリ ワークスペースの管理者である必要があります。
 
 #### <a name="accounts-for-analysts-that-create-content"></a>コンテンツを作成するアナリストのアカウント
 
@@ -83,7 +86,7 @@ Power BI からアイテムを埋め込むには、Azure Active Directory (Azure
 
 REST API の呼び出しを行うには、Azure AD にアプリケーションを登録する必要があります。 詳しくは、「[Azure AD アプリを登録して Power BI コンテンツを埋め込む](register-app.md)」をご覧ください。
 
-### <a name="create-app-workspaces"></a>アプリ ワークスペースを作成する
+### <a name="appws"></a>アプリ ワークスペースを作成する
 
 顧客向けにダッシュボードとレポートを埋め込む場合は、そのダッシュボードとレポートをアプリ ワークスペース内に配置する必要があります。 前述の*マスター* アカウントは、アプリ ワークスペースの管理者である必要があります。
 
@@ -93,13 +96,17 @@ REST API の呼び出しを行うには、Azure AD にアプリケーション�
 > 管理者以外のユーザーの場合、作成できるアプリ ワークスペースは 250 個までです。 アプリ ワークスペースをさらに作成するには、テナント管理者アカウントを使用する必要があります。
 >
 
-### <a name="create-and-upload-your-reports"></a>レポートを作成してアップロードする
+### <a name="createreports"></a>レポートを作成してアップロードする
 
 Power BI Desktop を使用してレポートとデータセットを作成し、アプリ ワークスペースにこれらのレポートを発行できます。 レポートを発行するエンド ユーザーには、アプリ ワークスペースに発行するための Power BI Pro ライセンスが必要です。
 
 ## <a name="step-2-embed-your-content"></a>手順 2: コンテンツを埋め込む
 
-アプリケーション内では、Power BI で認証する必要があります。 顧客向けのコンテンツを埋め込む場合は、アプリケーション内に*マスター* アカウントの資格情報を格納します。 詳しくは、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。
+アプリケーション内では、Power BI で認証する必要があります。 顧客向けのコンテンツを埋め込む場合は、アプリケーション内に*マスター* アカウントの資格情報を格納します。
+
+> [!NOTE]
+> 顧客向けの埋め込みの間にユーザーを認証する方法の詳細については、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」を参照してください。
+>
 
 認証を行った後、アプリケーション内で、Power BI REST API と JavaScript API を使用して、ダッシュボードとレポートをアプリケーションに埋め込みます。 
 
@@ -123,7 +130,7 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
 組織向けの埋め込みの場合は、アプリケーションへのアクセス方法を知らせるだけです。 
 
-専用容量がアプリ ワークスペース (グループ) にバックアップされている場合、無料ユーザーはそのワークスペースから埋め込まれたコンテンツを利用できます。 アプリ ワークスペース (グループ) のメンバーとして無料ユーザーをリストします。そうしないと、401 非承認エラーが発生します。 次の表は、Office 365 で利用可能な Power BI Premium SKU の一覧です。
+アプリ ワークスペース (グループ) が専用容量にバックアップされている場合、割り当てられているライセンスに関係なく、すべてのユーザーがそのワークスペースから埋め込まれたコンテンツを利用できます。 つまり、Power BI Pro ライセンスを所有しないすべてのユーザーにアプリ ワークスペースを明示的に追加する必要があります。そうしないと、401 の権限なしエラーが表示されます。 次の表は、Office 365 で利用可能な Power BI Premium SKU の一覧です。
 
 | 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
 | --- | --- | --- | --- | --- | --- |

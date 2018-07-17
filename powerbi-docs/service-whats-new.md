@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/06/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301851"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137470"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -31,11 +31,19 @@ ms.locfileid: "35301851"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="april-2018"></a>2018 年 4 月
+## <a name="may-2018"></a>2018 年 5 月
+* Power BI サービスの[テーマ ダッシュボード](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes)。
+* Premium の[増分更新](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh)。
+* [Power BI アプリ](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)のアクセス要求ワークフロー。
+* [データの取得] 画面が更新され、ユーザーが [Power BI アプリ](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)を簡単に見つけられるようになりました。
+* Power BI サービスの[永続的フィルター](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)のオンとオフを切り替える設定。
+* Azure B2B のレポートの招待ワークフローの改善。
+
+## <a name="previous-months-2018"></a>前の月 (2018)
+### <a name="april-2018"></a>2018 年 4 月
 * [Power BI GDPR ホワイト ペーパー](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * Office 365 テナントに対して既定でオンになる Power BI サービス[監査ログ](https://docs.microsoft.com/power-bi/service-admin-auditing)。
 
-## <a name="previous-months-2018"></a>前の月 (2018)
 ### <a name="march-2018"></a>2018 年 3 月
 * Power BI サービスの[永続的フィルター](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)。
 * 個人用の電子メール アカウントを使用したユーザーとのコンテンツの共有。 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) の拡張機能。
@@ -63,7 +71,7 @@ ms.locfileid: "35301851"
 * [Web への公開](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings)を管理者が細かく制御。
 
 ## <a name="september-2017"></a>2017 年 9 月
-* Premium で無料ユーザーとダッシュボードを共有します。
+* Premium 容量では、Power BI Pro ライセンスを持たないユーザーとダッシュボードを共有します。
 * 仮想コア プールでビジネス ニーズに合わせて容量を割り当てます。
 * ワンクリックですぐに容量をスケールアップまたはスケールダウンします。
 * REST API に簡単にデータをプッシュするための [PubNub ブロック](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards)
@@ -213,7 +221,8 @@ ms.locfileid: "35301851"
 
 ***Enterprise***
 
-* [ExpressRoute](service-admin-power-bi-expressroute.md): Power BI へのプライベートなマネージ接続の確立に使用します。
+* 
+  [ExpressRoute](service-admin-power-bi-expressroute.md): Power BI へのプライベートなマネージド接続の確立に使用します。
 * [RLS のコンテンツ パック サポート](service-admin-rls.md) (プレビュー): コンテンツ パックの一部として提供されているこれらのダッシュボードやレポートに対して RLS が定義されている場合、これらのコンテンツ パックにセキュリティ ルールが適用されます。
 
 ***ダッシュボード***
@@ -222,7 +231,7 @@ ms.locfileid: "35301851"
 
 ***Excel で分析***
 
-* [Excel で分析](service-analyze-in-excel.md) をすべてのユーザーに提供: Excel 内で Power BI データ モデルにアクセスする機能が、無料版か Pro 版かを問わず、すべてのユーザーに提供されるようになりました。
+* [Excel で分析](service-analyze-in-excel.md) をすべてのユーザーに提供: Excel 内で Power BI データ モデルにアクセスする機能が、割り当てられているライセンスに関係なく、すべてのユーザーに提供されるようになりました。
 * マルチユーザー アカウント エクスペリエンスの向上: Power BI ユーザー アカウントを 1 つ以上持つ場合、サインインが容易になりました。
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)をご覧ください。
@@ -567,9 +576,10 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 **2015 年 7 月 24 日**
 
-* Power BI の一般提供 (GA) リリースを発表しました。 Power BI の無料版を引き続き使用することも [Power BI Pro](service-self-service-signup-for-power-bi.md) にサインアップすることもできます。 GA リリースの一環として、以下の優れた新機能を提供します。
+* Power BI の一般提供 (GA) リリースを発表しました。 [Power BI Pro](service-self-service-signup-for-power-bi.md) に今すぐ新規登録してください。 GA リリースの一環として、以下の優れた新機能を提供します。
 * 新しい視覚化とレポート作成エクスペリエンス: 新しいレポート キャンバスでは、視覚化の選択肢が増え、タイトル、凡例、軸、色、背景などの書式設定をさらに制御できます。
-* [Power BI のグループ](service-create-distribute-apps.md): グループにより、Office 365 グループ上に構築された、強力なコラボレーション エクスペリエンスが提供されます。
+* 
+  [Power BI のグループ](service-create-distribute-apps.md): グループにより、Office 365 グループ上に構築された、強力なコラボレーション エクスペリエンスが提供されます。
 * [組織のコンテンツ パック](service-organizational-content-pack-introduction.md): Power BI では、ダッシュボードとレポートの作成が非常にシンプルになり、ユーザーはこれらのコンテンツを組織のコンテンツ ギャラリーに公開できるようになりました。
 * [Excel ファイル全体の取り込み](service-excel-workbook-files.md): OneDrive for Business に格納されているどの Excel ブックでも Power BI に取り込み、そのブック全体を Excel Online での場合とまったく同様に表示できます。
 * [CSV ファイルの取り込み](service-get-data-from-files.md): Excel や Power BI Desktop ファイルと同様に、コンマ区切り値 (CSV) テキスト ファイルも、Power BI のダッシュボードとレポートのデータセットにできます。
@@ -579,7 +589,8 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 **2015 年 7 月 14 日**
 
 * Acumatica Cloud ERP では、財務、物流、CRM、プロジェクト会計などの完全に統合されたビジネス管理アプリケーション一式を提供しています。このシステムは、堅牢で柔軟性に富むプラットフォーム上に構築されています。 Power BI [Acumatica コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)を使用すれば、営業案件に関するデータにすばやく接続して、そのデータについての洞察がすぐに得られます。 このコンテンツには、すぐに使用できるダッシュボード、一連のレポート、および精選されたデータセットが含まれており、日付別の成立営業案件数の合計などの詳細を探索して提供します。 詳細については、[このページ](service-connect-to-acumatica.md)をご覧ください。 
-* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) では、完全に管理された Spark サービスが提供されるようになりました。 この機能により、反復的な機械学習や対話型のデータ分析などのシナリオが実現できます。 Power BI を使用すると、HDInsight 上の Spark 内のデータに直接接続でき、シンプルかつライブの探索が提供されます。 詳細については、この[ヘルプ ドキュメント](spark-on-hdinsight-with-direct-connect.md)をご覧ください。
+* 
+  [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) では、フル マネージドの Spark サービスが提供されるようになりました。 この機能により、反復的な機械学習や対話型のデータ分析などのシナリオが実現できます。 Power BI を使用すると、HDInsight 上の Spark 内のデータに直接接続でき、シンプルかつライブの探索が提供されます。 詳細については、この[ヘルプ ドキュメント](spark-on-hdinsight-with-direct-connect.md)をご覧ください。
 * [Office 365 のナビゲーションとアプリケーション起動ツールの統合](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher)。 1 回のクリックで、すべての Office 365 アプリケーションに移動できるようになりました。
 * ユーザーがタイルをクリックしたときに移動する[カスタム URL の指定](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)。 ユーザーの移動先 (特定のレポート、別のダッシュボード、SSRS レポート、または外部 Web サイト) を正確に制御できるようになりました。 
 * Power BI で使用中の[ストレージの表示と管理](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
@@ -597,7 +608,8 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * Power BI Desktop ファイルを Power BI サービスにアップロードすると、[更新](http://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx) (「スケジュールされた更新」または「今すぐ更新」) できるようになりました。
 * Power BI に対する、昨年 12 月以降で最大の視覚的変更である、[[データの取得]](http://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx) に対するさらにシンプルですっきりしたエクスペリエンスをリリースします。  [データの取得] をクリックすると、選択するカテゴリ一式が配置された単一の画面が表示されます。 この変更により、自分にとって重要なコンテンツを見つけるのがさらに簡単になりました。
-* [Azure SQL Data Warehouse](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx) で、柔軟なスケールや大規模な並列処理が提供されるようになりました。 本日発表された限定的なパブリック プレビュー版を使用すれば、Power BI で、Azure SQL Data Warehouse に格納されたデータに直接接続でき、シンプルかつ動的な探索が提供されます。 データ ウェアハウスに接続すると、データを探索する際に、クエリがリアルタイムで生成されてソースに送り返されます。 これにより、カスタム データ モデルを作成してアップロードする必要がなくなり、データの対話型探索が提供されます。
+* 
+  [Azure SQL Data Warehouse](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx) で、柔軟なスケールや大規模な並列処理が提供されるようになりました。 本日発表された限定的なパブリック プレビュー版を使用すれば、Power BI で、Azure SQL Data Warehouse に格納されたデータに直接接続でき、シンプルかつ動的な探索が提供されます。 データ ウェアハウスに接続すると、データを探索する際に、クエリがリアルタイムで生成されてソースに送り返されます。 これにより、カスタム データ モデルを作成してアップロードする必要がなくなり、データの対話型探索が提供されます。
 
 **2015 年 6 月 16 日**
 
@@ -661,7 +673,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * OneDrive に関する更新の信頼性が向上しました。  ブックが OneDrive から更新できなかった状況のいくつかが解決されました。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI の概要](service-get-started.md)  
+[Power BI とは?](power-bi-overview.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

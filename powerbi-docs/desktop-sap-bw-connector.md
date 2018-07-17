@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813436"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900056"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop で SAP BW Connector を使用する
 Power BI Desktop で、**SAP BusinessWarehouse (BW)** のデータにアクセスできます。
 
 SAP のお客様が既存の SAP Business Warehouse (BW) システムに Power BI を接続することで得られる利点については、[Power BI と SAP BW に関するホワイトペーパー](https://aka.ms/powerbiandsapbw)をご覧ください。
 
-2018 年 6 月リリース以降の **Power BI Desktop** では、SAP BW Connector をパフォーマンスと機能が大幅に向上した実装で使うことができます。 この更新バージョンの SAP BW Connector は Microsoft によって開発され、**Implementation 2.0** と呼ばれています。 標準の **SAP BW Connector** または **Implementation 2.0 SAP Connector** のどちらかを選ぶことができます。 以下のセクションでは、各バージョンのインストールについて順番に説明します。 Power BI Desktop から SAP BW に接続するときは、どちらか一方または両方のコネクタを選ぶことができます。
+2018 年 6 月リリース以降の **Power BI Desktop** では、SAP BW Connector をパフォーマンスと機能が大幅に向上した実装で使うことができます。 この更新バージョンの SAP BW Connector は Microsoft によって開発され、**Implementation 2.0** と呼ばれています。 **SAP BW Connector** のバージョン 1 (v1) または **Implementation 2.0 SAP Connector** のどちらかを選ぶことができます。 以下のセクションでは、各バージョンのインストールについて順番に説明します。 Power BI Desktop から SAP BW に接続するときは、どちらか一方または両方のコネクタを選ぶことができます。
 
 可能な場合は常に、**Implementation 2.0 SAP Connector** を使うことをお勧めします。
 
-## <a name="installation-of-the-standard-sap-bw-connector"></a>標準 SAP BW Connector のインストール
-可能な限り、Implementation 2.0 SAP Connector　を使うことをお勧めします (次のセクションの手順をご覧ください)。 このセクションでは、標準の **SAP BW Connector** をインストールする手順について説明します。
+## <a name="installation-of-version-1-of-the-sap-bw-connector"></a>SAP BW Connector バージョン 1 のインストール
+可能な限り、Implementation 2.0 SAP Connector　を使うことをお勧めします (次のセクションの手順をご覧ください)。 このセクションでは **SAP BW Connector** のバージョン 1 のインストールについて説明します。次の手順に従ってインストールできます。
 
 1. ローカル コンピューターに **SAP NetWeaver** ライブラリをインストールします。 **SAP NetWeaver** ライブラリは、SAP の管理者から入手するか、[SAP Software Download Center](https://support.sap.com/swdc) から直接入手してください。 **SAP Software Download Center** は構成が頻繁に変更されるので、サイトのナビゲーションに関する具体的なガイダンスはありません。 通常、**SAP NetWeaver** ライブラリは、SAP クライアント ツールのインストールにも含まれます。
    
@@ -54,11 +54,11 @@ SAP Connector の **Implementation 2.0** には、SAP .NET Connector 3.0 が必�
 ![SAP のオプション セットアップ手順](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> 標準 SAP BW の実装では、Netweaver DLL が必要でした。SAP Connector の Implementation 2.0 を使い、標準バージョンを使わない場合は、Netweaver DLL は必要ありません。
+> SAP BW 実装の最初のバージョンでは Netweaver DLL が必要でした。SAP Connector の Implementation 2.0 を使用しており、最初のバージョンを使用していない場合、Netweaver DLL は必要ありません。
 
 
-## <a name="standard-sap-bw-connector-features"></a>標準 SAP BW Connector の機能
-Power BI Desktop で標準 **SAP BW Connector** を使うと、**SAP Business Warehouse Server** キューブからデータをインポートすること、または DirectQuery を使うことができます。 
+## <a name="version-1-sap-bw-connector-features"></a>SAP BW Connector 機能のバージョン 1
+Power BI Desktop でバージョン 1 の **SAP BW Connector** を使うと、**SAP Business Warehouse Server** キューブからデータをインポートすること、または DirectQuery を使うことができます。 
 
 **SAP BW コネクタ**の詳細および DirectQuery でそれを使う方法については、「[DirectQuery と SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)」をご覧ください。
 
@@ -101,7 +101,7 @@ SAP BW Connector の Implementation 2.0 を使うには、新しい接続を作�
 
     ![SAP 接続ダイアログ](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. **[OK]** を選ぶと、以降の **[ナビゲーター]** エクスペリエンスは、前のセクションで説明した標準 SAP BW Connector と同じです。 
+3. **[OK]** を選ぶと、以降の **[ナビゲーター]** エクスペリエンスは、前のセクションで説明したバージョン 1 の SAP BW Connector と同じです。 
 
 ### <a name="new-options-for-implementation-20"></a>Implementation 2.0 の新しいオプション 
 
@@ -163,7 +163,7 @@ Implementation 2.0 は以下のオプションをサポートします。
 
     ![クエリ スニペット](media/desktop-sap-bw-connector/sap_bw_12.png)
 
-4. SAP BW Connector の Implementation 2.0 と標準 SAP BW Connector の間に互換性があるようにするためのすべての作業が行われています。 ただし、使われている SAP BW MDX 実行モードの違いによる相違が存在する可能性があります。 何らかの不一致を解決するには、実行モードを切り替えてみてください。
+4. SAP BW Connector の Implementation 2.0 とバージョン 1 の SAP BW Connector の間に互換性があるようにするためのすべての作業が行われています。 ただし、使われている SAP BW MDX 実行モードの違いによる相違が存在する可能性があります。 何らかの不一致を解決するには、実行モードを切り替えてみてください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 このセクションでは、**SAP BW** Connector に関するトラブルシューティング状況 (および解決策) を説明します。

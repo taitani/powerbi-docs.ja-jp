@@ -1,48 +1,46 @@
 ---
-title: iPhone で Power BI モバイル アプリの使用を開始する
-description: iPhone の Microsoft Power BI for iOS アプリで、Power BI をどこでも使用できるようし、オンプレミスやクラウドのビジネス情報にモバイルでアクセスできるようにする方法について説明します。
+title: iOS 用 Power BI モバイル アプリの使用を開始する
+description: Microsoft Power BI モバイル アプリ (iOS 向け) を利用すれば、Power BI を持ち歩き、オンプレミスやクラウドに置いてあるビジネス情報にモバイル アクセスできます。ここではその方法について説明します。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294412"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136556"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone または iPod Touch で Power BI モバイル アプリの使用を開始する
-iPhone または iPod Touch 上の Microsoft Power BI for iOS アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
+# <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS デバイスでの Power BI モバイル アプリの概要
+iPhone、iPad、iPod Touch に Microsoft Power BI for iOS アプリをインストールすれば、Power BI、Power BI Report Server、Reporting Services のビジネス インテリジェンスをモバイル利用できます。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
 
-![Power BI iPhone モバイル アプリ ダッシュボード](media/mobile-iphone-app-get-started/power-bi-mobile-get-started-dash.png)
+![iPhone または iPad の Power BI モバイル アプリ](media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
 
 Power BI Desktop で Power BI レポートを作成して、それらを公開します。
 
 * [それらを Power BI サービスに公開し](service-get-started.md)、ダッシュボードを作成します。
 * [それらをオンプレミスから Power BI Report Server に公開します](report-server/quickstart-create-powerbi-report.md)。
 
-iPhone 用の Power BI アプリで、オンプレミスまたはクラウドのダッシュボードやレポートを操作します。
+iOS の Power BI モバイル アプリで、オンプレミスまたはクラウドのダッシュボードやレポートを操作します。
 
 「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」をご覧ください。
 
 ## <a name="download-the-app"></a>アプリのダウンロード
-Apple App Store から iPhone または iPod Touch に [iOS アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone アプリをダウンロード")します。
+[iOS アプリをダウンロード] Apple App Store から iPhone、iPad、iPod Touch に (http://go.microsoft.com/fwlink/?LinkId=522062 "iOS アプリをダウンロード")します。
 
-> [!NOTE]
-> Power BI for iOS アプリは、iOS 10 以降を搭載した iPhone 5 以降で実行できます。 iOS 10 以降を搭載した iPod Touch でも実行できます。
-> 
-> 
+Power BI for iOS アプリは、iOS 10 以降を搭載した iPhone 5 以降で実行できます。 iOS 10 以降を搭載した iPad または iPod Touch でも実行できます。 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI サービスにサインアップする
-まだ行っていない場合は、Power BI (https://powerbi.com) に移動してサービスにアクセスします。 無料です。
+まだサインアップしていない場合は、[powerbi.com](https://powerbi.microsoft.com/get-started/) にアクセスし、**[Power BI - クラウド コラボレーションと共有]** の下の **[無料で試す]** を選択します。
+
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI アプリの概要
-1. iPhone で Power BI アプリを開きます。
+1. iOS デバイスで Power BI アプリを開きます。
 2. Power BI ダッシュボードを表示するには、 **[Power BI]** をタップします。  
    Reporting Services のモバイル レポートと KPI を表示するには、**[SQL Server Reporting Services]** をタップします。
    
@@ -72,7 +70,7 @@ Power BI ダッシュボードのサンプルを表示し、使ってみるこ�
 2. 右上の![歯車アイコン](media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)をタップし、**[Reporting Services サンプル]** をタップします。
 3. Retail Reports または Sales Reports フォルダーを開き、その KPI やモバイル レポートを調べます。
    
-   ![Power BI モバイル アプリの Reporting Services のサンプル](media/mobile-iphone-app-get-started/power-bi-iphone-ssrs-samples.png)
+   ![Power BI モバイル アプリの Reporting Services のサンプル](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでコンテンツを見つける
 ダッシュボードとレポートの Power BI モバイル アプリ内で保存されている場所はソースによって異なります。 モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-find-content-mobile-devices.md)をご覧ください。 また、Power BI モバイル アプリに置かれているものは常に何でも検索できます。 
@@ -104,34 +102,14 @@ Microsoft Intune を使用すると、Android 用や iOS 用の Power BI モバ�
 Microsoft Intune では、アクセスに暗証番号 (PIN) を必要とする項目を管理したり、アプリケーションでデータを処理する方法を制御したり、さらには、アプリが使用されていないときにアプリのデータを暗号化したりできます。
 
 > [!NOTE]
-> ユーザーが iPhone で Power BI モバイル アプリを使っていて、組織で Microsoft Intune MAM が構成されている場合は、バックグラウンド データ更新がオフになります。 次にアプリを起動したときは、Web 上の Power BI サービスからデータが更新されます。
-> 
+> iOS デバイスで Power BI モバイル アプリを使用しているとき、組織が Microsoft Intune MAM を構成している場合、バックグラウンド データ更新がオフになります。 次にアプリを起動したときは、Web 上の Power BI サービスからデータが更新されます。
 > 
 
 詳細については、「[Power BI モバイル アプリを Microsoft Intune で構成する](service-admin-mobile-intune.md)」をご覧ください。 
 
 ## <a name="next-steps"></a>次の手順
-Power BI のダッシュボードとレポートを持つ iPhone アプリ、Power BI レポート サーバーまたは Reporting Services Web ポータルのレポートと KPI では、次のことが可能です。
 
-### <a name="power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポート
-* [アプリ](service-install-use-apps.md)を表示する。
-* [Power BI ダッシュボード](mobile-apps-view-dashboard.md)を表示する。
-* Q&A を利用し、自分の言葉で[データについて質問する](mobile-apps-ios-qna.md)。
-* [Apple Watch](mobile-apple-watch.md) に Power BI タイルを表示する。
-* データに[データ アラート](mobile-set-data-alerts-in-the-mobile-apps.md)を設定する。
-* [Power BI ダッシュボード](mobile-share-dashboard-from-the-mobile-apps.md)を共有する。
-* タイル、レポート、視覚エフェクトに[注釈を付けて共有する](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
-* [Power BI QR コードをスキャン](mobile-apps-qr-code.md)して、関連するダッシュボード タイルまたはレポートを開く。
-* iPhone アプリで[画像タイルを作成](mobile-iphone-app-get-started.md)する。
-* 同僚と共有するダッシュボードなど、[Power BI アカウントの更新に関する通知](mobile-apps-notification-center.md)をご覧ください。
-
-### <a name="reports-and-kpis-on-the-report-server-web-portals"></a>レポート サーバー Web ポータルのレポートと KPI
-* iOS デバイス用 Power BI モバイル アプリで、[Web ポータルのレポートと KPI を表示](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)する。
-* [Web ポータルで KPI ](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services)を作成する。
-* Power BI Desktop で[レポートを作成し、Power BI レポート サーバー](report-server/quickstart-create-powerbi-report.md) Web ポータルでそれらを公開します。
-
-### <a name="see-also"></a>参照
-* [Power BI の概要](service-get-started.md)
+* [Power BI とは?](power-bi-overview.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297655"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598631"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのタイルを調べる
 適用対象:
@@ -40,7 +40,7 @@ ms.locfileid: "34297655"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   "*たとえば、この折れ線グラフで選択されている値は、**今年**と**昨年**の **8 月の売上値**です。*"  
+   <em>たとえば、この折れ線グラフで選択されている値は、**今年</em>* と**昨年**の **8** 月の売上値です。*  
    
    円グラフでスライスをタップすると、円の上部にスライスの値を表示できます。  
    
@@ -107,7 +107,7 @@ ms.locfileid: "34297655"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   "*この横棒グラフでは、**Decor** バーの値はグラフの上部に表示されます。*"
+   <em>この横棒グラフでは、**Decor</em>* バーの値はグラフの上部に表示されます。*
    
    **[全画面表示]** アイコン ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) をタップすると、タイルが全画面表示モードで開き、ナビゲーション バーとメニュー バーは表示されません。
    
@@ -126,6 +126,6 @@ ms.locfileid: "34297655"
 4. 戻る矢印または戻るボタンをタップして、タイルを閉じ、ダッシュボードに戻ります。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI の概要](service-get-started.md)
+* [Power BI とは?](power-bi-overview.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

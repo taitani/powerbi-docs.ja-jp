@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755095"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944562"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium とは
 Power BI Premium には、組織やチームが Power BI サービスを実行するための専用のリソースが用意されており、より信頼できるパフォーマンスやより大きなデータ ボリュームが提供されます。 また、Premium ではコンテンツを広範囲に配布でき、ビューアーのユーザーごとのライセンスを購入する必要はありません。
@@ -36,11 +36,11 @@ Power BI 内には 2 種類の容量があります。 共有された容量と 
 | **更新間隔** |8/日 |制限なし |
 | **専用ハードウェアでの分離** |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能") |
 | ***すべてのユーザー*****へのエンタープライズ配布** | | |
-| アプリ |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能")<sup>1</sup> |
+| アプリと共有 |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能")<sup>1</sup> |
 | 埋め込み API とコントロール |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能")<sup>2</sup> |
 | **Power BI レポートのオンプレミスでの発行** |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能") |
 
-*<sup>1</sup> アプリの無料ユーザーの使用量には、Web およびモバイルでのコンテンツ表示、Q&A、クイック分析情報、Cortana、CSV へのエクスポート、Excel および PowerPoint の使用が含まれます。Pro ライセンスは一覧にないその他の操作に必要です。共有データセットのレポート作成や Excel の分析機能などです。詳細については、[Power BI 無料版と Power BI Pro の機能比較](service-free-vs-pro.md)ページを参照してください。*  
+*<sup>1</sup> 詳細については、[Power BI Pro と Power BI Premium のユーザー機能](service-free-vs-pro.md)に関するページを参照してください。*  
 *<sup>2</sup> Power BI Premium は GA 後にさらに機能が拡張されます。*
 
 ### <a name="premium-capacity"></a>Premium 容量
@@ -51,7 +51,7 @@ Power BI Premium 容量の使用を開始するには、ワークスペースを
 * スケジュールされた更新: これまでは、インポートしたモデルで更新をスケジュールする場合、8x/日に制限されていました。 Premium ワークスペースでは、データセットに対するこの制限は解除されます。 これは、DirectQuery のスケジュールされたキャッシュの更新設定には適用されません。 Premium 容量および共有された容量でも同じです。
 * 専用ハードウェアでの分離 - 共有された容量の性質上、レポートとダッシュボードのパフォーマンスは、保護の有無に関係なく、容量の他のワークロードのリソース需要に影響を受ける可能性があります。 逆に、Premium では、関係のないワークロードから分離することで、ワークロードのより一貫性のある信頼できるパフォーマンスが提供されます。
 
-アプリが Premium 容量でバックアップされている (つまり、Premium に現在割り当てられているアプリ ワークスペースから発行された) 場合、発行されたアプリは、割り当てられているライセンスに関係なく、組織内のすべてのユーザーが使用できます。 これは、Power BI の無料ユーザーでも、発行されたアプリを使用できることを意味します。
+アプリが Premium 容量でバックアップされている (つまり、Premium に現在割り当てられているアプリ ワークスペースから発行された) 場合、発行されたアプリは、割り当てられているライセンスに関係なく、組織内のすべてのユーザーが使用できます。
 
 ### <a name="shared-capacity"></a>共有された容量
 既定では、ワークスペースは共有された容量にあります。 これには、個人用の*マイワークスペース*とアプリ ワークスペースが含まれます。 共有された容量は、他の顧客と共有されている計算リソースでワークロードが実行される場合に、Power BI で使用されるエクスペリエンスです。

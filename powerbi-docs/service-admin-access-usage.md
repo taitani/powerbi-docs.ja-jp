@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722203"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926538"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>サインインした Power BI ユーザーを見つける
 テナント管理者が Power BI にサインインしたユーザーを確認するには、Azure Active Directory アクセスと使用状況レポートを使用して、ユーザーを表示します。
@@ -25,9 +25,7 @@ ms.locfileid: "34722203"
 [新規](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)および[クラシック](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) Azure Active Directory (Azure AD) ポータルのアクティビティ レポートにアクセスできます。 上のビデオでは例としてクラシック ポータルを使用していますが、この記事では、新しいポータルに焦点を当てて説明します。
 
 > [!NOTE]
-> このアクティビティ レポートには Power BI (無料) ユーザーと Pro ユーザーの両方が含まれていますが、ユーザーのライセンスではユーザーは特定されません。
-> 
-> 
+> このアクティビティ レポートでは、各ユーザーが持つライセンスの種類は識別されません。
 
 ## <a name="requirements"></a>要件
 サインイン アクティビティ レポートを表示するための要件を次に示します。
@@ -70,7 +68,7 @@ PowerShell を使用して、サインイン データをエクスポートで�
 
 ## <a name="next-steps"></a>次の手順
 [Azure Active Directory ポータルのサインイン アクティビティ レポート (新しいポータル)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[アクセスおよび使用状況レポートの表示 (クラシック ポータル)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[アクセスおよび使用状況レポートの表示 (クラシック ポータル)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [サインイン サンプルの PowerShell スクリプト](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Azure Active Directory レポートの保持ポリシー](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [組織内での監査の使用](service-admin-auditing.md)  

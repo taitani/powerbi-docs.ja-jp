@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813597"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600358"
 ---
 # <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
 ## <a name="what-is-meant-by-certified"></a>*認定* とは
@@ -39,7 +39,7 @@ ms.locfileid: "34813597"
 認定のためにカスタム ビジュアルを送信するには、次の手順に従います。
 
 1. Power BI カスタム ビジュアルのサポート (pbicvsupport@microsoft.com) に電子メールを送信します。 電子メールには、次の情報を含めます。    
-   
+
    * 件名: ビジュアル認定の要求    
    * ビジュアルのソース コードがホストされている GitHub リポジトリへのリンク    
    * 要件 (上記参照) の遵守    
@@ -51,6 +51,7 @@ ms.locfileid: "34813597"
 マイクロソフトは独自の裁量で認定リストからビジュアルを削除できます。  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>認定されているカスタム ビジュアルの一覧
+
 | AppSource へのリンク | 動画のリンク |
 | --- | --- |
 | [アスター プロット](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
@@ -100,6 +101,7 @@ ms.locfileid: "34813597"
 | [インフォグラフィック デザイナー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [Akvelon による KPI グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [MAQ Software による KPI 列](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [ビデオ](https://youtu.be/rU0xoOlIq1U) |
+| [MAQ Software による KPI グリッド](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) | [ビデオ](https://youtu.be/dM4PvZh71V0) |
 | [KPI インジケーター](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [MAQ Software による KPI ティッカー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [ビデオ](https://youtu.be/cudG4gsZ2V8) |
 | [MAQ Software による線形ゲージ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [ビデオ](https://youtu.be/7_jFaM30dkc) |
@@ -126,7 +128,9 @@ ms.locfileid: "34813597"
 | [テキスト フィルター](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ ソフトウェアによるテキスト ラッパー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [MAQ Software による温度計](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [ビデオ](https://youtu.be/SPX9mgrAdBc) |
+| [Time Brush Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) | |
 | [タイムライン スライサー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [ビデオ](https://youtu.be/ozMtZ4_NZ10) |
+| [CloudScope によるタイムライン](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) | [ビデオ](https://youtu.be/szNi9YgXFJc) |
 | [トルネード チャート](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [ビデオ](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [MAQ Software による取引グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [ビデオ](https://youtu.be/xhTR6y6J9Ko) |
 | [Ultimate の差異](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [ビデオ](https://youtu.be/pDYF8iZxERs) |

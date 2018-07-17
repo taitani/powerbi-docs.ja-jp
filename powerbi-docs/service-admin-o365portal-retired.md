@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 024bdce00ba6ec7b9c1027163776a71e77aaf91d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c0090cb81ebaebc6b4cec70163374be4f1f37980
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34456113"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135814"
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Power BI for Office 365 は使用中止となりました
 Power BI の前のバージョンである Power BI for Office 365 は現行の [Power BI](https://powerbi.microsoft.com) に移行されています。 **Power BI for Office 365** を使用済みのユーザーは現行の Power BI を使用できます。 Power BI について詳しくは、[こちら](service-get-started.md)をご覧ください。
@@ -28,8 +28,8 @@ Power BI の前のバージョンである Power BI for Office 365 は現行の 
 詳しくは、「[Power BI 管理ポータル](service-admin-portal.md)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI の概要](service-get-started.md)
+[Power BI とは?](power-bi-overview.md)
 
-[Power BI Desktop の概要](desktop-getting-started.md)
+[Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 
 [組織内の Power BI を管理する](service-admin-administering-power-bi-in-your-organization.md)

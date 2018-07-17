@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245364"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944746"
 ---
 # <a name="manage-your-data-storage"></a>データ記憶域を管理する
 レポートおよびデータセットを引き続き確実に発行できるように、個々のユーザー、アプリ ワークスペース、データ記憶域を管理する方法について説明します。
 
 ユーザーとアプリ ワークスペースには固有のデータ容量が割り当てられている
 
-* 無料ユーザーと Pro ユーザーは最大 10 GB のデータ記憶域を持っています。
-* Pro ユーザーはアプリ ワークスペースを作成することができ、各アプリ ワークスペースの上限は 10 GB です。
+* すべてのユーザーが最大 10 GB のデータ記憶域を持っています。
+* Power BI Pro ライセンスを所有するユーザーはアプリ ワークスペースを作成することができ、それぞれのデータ記憶域の上限は 10 GB です。
 
 テナント レベルでは、テナント内のすべての Pro ユーザーとアプリ ワークスペースにおいて、総使用量が Pro ユーザー 1 人あたり 10 GB を超えることはできません。
 

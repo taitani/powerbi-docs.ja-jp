@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243847"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092646"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI で Acumatica に接続する
 Power BI Acumatica コンテンツ パックを使用すると、短時間で営業案件に関するデータについての洞察が得られます。 Power BI は、営業案件、アカウント、顧客などのデータを取得し、そのデータに基づいて既定のダッシュボードと関連レポートを作成します。
@@ -66,7 +66,7 @@ Acumatica OData エンドポイントは次の形式で、HTTPS を使用する�
 
     https://[sitedomain]/odata/[companyname]
 
-アプリケーション サイト ドメインは、Acumatica にサインインしているときに、ブラウザーのアドレス バーに表示されます。 次の例では、サイト ドメインが "https://pbi.acumatica.com" であるため、指定する OData エンドポイントは "https://pbi.acumatica.com/odata" になります。
+アプリケーション サイト ドメインは、Acumatica にサインインしているときに、ブラウザーのアドレス バーに表示されます。 次の例では、サイト ドメインが `https://pbi.acumatica.com` であるため、指定する OData エンドポイントは `https://pbi.acumatica.com/odata` になります。
 
  ![](media/service-connect-to-acumatica/url.png)
 

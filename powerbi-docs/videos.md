@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
-ms.openlocfilehash: bf196ccf45e964f6fc1044723f7232eaf60230e7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fda707d3f36e6db2157d04887780bb957567a523
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471803"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136251"
 ---
 # <a name="power-bi-videos"></a>Power BI のビデオ
 Power BI 用の YouTube チャンネルがあります。 [弊社のチャネル](https://www.youtube.com/user/mspowerbi/videos)にアクセスできます。Power BI の初心者の場合は、「[Power BI プレイリストを使用したデータの分析と仮想化](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)」から始めるのがよいでしょう。
@@ -46,7 +46,7 @@ Power BI 用の YouTube チャンネルがあります。 [弊社のチャネル
 * [Guy in a Cube チャンネル](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) - Power BI の機能に関する最新の動画
 
 ## <a name="next-steps"></a>次の手順
-[Power BI の概要](service-get-started.md)
+[Power BI とは?](power-bi-overview.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

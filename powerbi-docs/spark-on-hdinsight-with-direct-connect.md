@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 236a3d1bde84d4259d921d44730057a4e2fd3591
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e1320135ba0abb737a487036948c2822d0c337ae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136504"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery を使用する HDInsight 上の Spark
 DirectQuery を使用する Azure HDInsight 上の Spark を使えば、Spark クラスターにすでに保持してあるデータとメトリックに基づいて、動的なレポートを作成できます。 DirectQuery があれば、レポート ビューでデータを探索するときに、Azure HDInsight Spark クラスターにクエリが送り返されます。 この操作は、接続先のエンティティに精通しているユーザーにお勧めします。
@@ -25,6 +26,10 @@ DirectQuery を使用する Azure HDInsight 上の Spark を使えば、Spark �
 > 
 
 次の手順を使用すると、Power BI サービス内の DirectQuery を使用して、Azure HDInsight のデータ ソースで Spark に接続できます。
+
+> [!Important]
+> Spark への接続性を改善しました。  Spark データ ソースに接続するための操作性を向上させるには、Power BI Desktop を使用します。  モデルとレポートをビルドしたら、Power BI サービスに発行できます。  Power BI サービス内の Spark への直接接続は、非推奨になりました。
+>
 
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
    
@@ -70,7 +75,7 @@ DirectQuery を使用する Azure HDInsight 上の Spark を使えば、Spark �
 
 ## <a name="next-steps"></a>次の手順
 [概要: HDInsight Linux で Apache Spark クラスターを作成し、Spark SQL を使用して対話型のクエリを実行する](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
-[Power BI の概要](service-get-started.md)  
+[Power BI とは?](power-bi-overview.md)  
 [Power BI のデータの取得](service-get-data.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

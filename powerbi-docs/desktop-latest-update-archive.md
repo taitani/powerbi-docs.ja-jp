@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813850"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601639"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -255,7 +255,7 @@ ms.locfileid: "34813850"
 * 機能について説明されているとき、**[ビデオ]** 抜粋が新しいブラウザー タブで再生されます。
 * 一部の機能には **[記事]** があり、それに詳細が記載されています。
 * ほとんどの機能は、毎月更新される **[ブログ]** 投稿で説明しています。
--   最後になりましたが、一部の機能は説明を必要としないため、記事やビデオは用意されていません。
+* 最後になりましたが、一部の機能は説明を必要としないため、記事やビデオは用意されていません。
 
 この記事にある今月の **[最新の更新プログラム]** ビデオを、最初から視聴することもできます。ビデオを見るには、更新一覧の下にあるビデオ画像の**再生**アイコンをクリックします。
 
@@ -1844,15 +1844,15 @@ Power BI Desktop の新機能を完全に利用できます。
     -   多次元ソース (Analysis Services および SAP BusinessObjects) のプレビューの操作性の改善
     -   選択した項目の表示オプション
     -   ナビゲーター ツリーでの検索機能の改良
--   新しい変換
-    -   [日付と時刻] 列の期日経過日数と減算の操作
-    -   集計列: 新しい列のプレフィックスの無効化オプション
--   フィールド リストの改良
-    -   テーブルの展開と折りたたみ
-    -   フィールドの表示と非表示
-    -   レイアウトの最適化 (空白、余白、およびフォント)
--   レポート ページのナビゲーション - キーボード入力のサポート
--   多数のバグの修正
+- 新しい変換
+  -   [日付と時刻] 列の期日経過日数と減算の操作
+  -   集計列: 新しい列のプレフィックスの無効化オプション
+- フィールド リストの改良
+  -   テーブルの展開と折りたたみ
+  -   フィールドの表示と非表示
+  -   レイアウトの最適化 (空白、余白、およびフォント)
+- レポート ページのナビゲーション - キーボード入力のサポート
+- 多数のバグの修正
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
 

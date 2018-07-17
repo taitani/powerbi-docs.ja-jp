@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52c6293bacb2cae1d74a7a0459c61fe3c3bc201f
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298322"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944355"
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI Premium リリース ノート
 Power BI Premium のリリース ノートです。Power BI Premium は、信頼性とパフォーマンスが高く、データ ボリュームが多く、閲覧者にユーザー別のライセンスを用意することなくコンテンツを配布できる組織またはチームの専用容量です。
 
-* Power BI の無料ライセンスを持つユーザーは、Power BI サービスの Premium ワークスペースから共有されているダッシュボードを表示できるようになりました。
+* 割り当てられているライセンスに関係なく、すべてのユーザーが Power BI サービスの Premium ワークスペースから共有されているダッシュボードを表示できるようになりました。
 * 容量管理者は自動的に容量割り当てのアクセス許可を得られるようになりました。
 * 動的な行レベルのセキュリティ (RLS) を埋め込みのユース ケースで使用できるようになりました。 詳細については、「[埋め込み分析での行レベル セキュリティ (RLS)](developer/embedded-row-level-security.md)」を参照してください。
 * powerbi.com を使用して Power BI アプリを他の AAD テナント内のユーザーに配布する機能はまだサポートされていません。 現在、この機能を実装するために取り組んでいます。

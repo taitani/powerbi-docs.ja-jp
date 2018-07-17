@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/03/2018
 ms.author: maggies
-ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799627"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864401"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,16 @@ ms.locfileid: "34799627"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](desktop-latest-update.md)  
 * [Power BI サービスの新機能](service-whats-new.md)  
+
+## <a name="june-2018"></a>2018 年 6 月
+
+### <a name="full-canvas-reports"></a>フル キャンバス レポート
+
+上下のアクション バーは、レポートの読み込み後、すぐに非表示になります。その分、レポートで一度に表示される部分が増えます。
+
+### <a name="increased-phone-report-canvas-size"></a>スマートフォン レポートのキャンバス サイズの拡大
+
+スマートフォン レポートのキャンバス サイズを拡大し、ビジュアルのための場所を以前より多くしました。
 
 ## <a name="may-2018"></a>2018 年 5 月
 
