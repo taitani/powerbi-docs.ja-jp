@@ -898,6 +898,8 @@
       items:
         - name: 顧客向けにコンテンツを埋め込む
           href: developer/embed-sample-for-customers.md
+        - name: 組織向けにコンテンツを埋め込む
+          href: developer/embed-sample-for-your-organization.md
     - name: 概念
       items:
         - name: Power BI REST API の操作
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: コンテンツを埋め込む方法
               href: developer/embedding-content.md
-            - name: ダッシュボードをアプリに統合する (ユーザーがデータを所有)
-              href: developer/integrate-dashboard.md
-            - name: Power BI タイルをアプリに統合する (ユーザーがデータを所有)
-              href: developer/integrate-tile.md
-            - name: Power BI レポートをアプリに統合する (ユーザーがデータを所有)
-              href: developer/integrate-report.md
+            - name: アプリから埋め込む方法
+              href: developer/embed-from-apps.md
             - name: コンテンツをソブリン クラウド向けアプリケーションに統合する (アプリがデータを所有)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: カスタム レイアウトをアプリに埋め込む
