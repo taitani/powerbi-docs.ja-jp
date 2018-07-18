@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6a62b97a4c7d75644bd3a824118414509ef8438f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f54841b77d79854334ddb6d93ccdc9b5926201ac
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241184"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136704"
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>Power BI で MailChimp に接続する
 Power BI コンテンツ パックはお客様の MailChimp アカウントからデータを取得し、ダッシュボード、一連のレポート、およびデータセットを生成してデータを探索できるようにします。 分析データを集めて [MailChimp ダッシュボード](https://powerbi.microsoft.com/integrations/mailchimp)を作成すると、キャンペーン、レポート、および各サブスクライバーの傾向を素早く識別できます。 データは、毎日更新されるように設定されているため、監視対象のデータが常に最新の状態に保たれています。
@@ -51,7 +51,7 @@ Power BI 用 [MailChimp コンテンツ パック](https://app.powerbi.com/getda
 * データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI の概要](service-get-started.md)
+[Power BI とは?](power-bi-overview.md)
 
 [Power BI - 基本的な概念](service-basic-concepts.md)
 

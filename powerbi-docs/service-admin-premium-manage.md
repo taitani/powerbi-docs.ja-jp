@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 08d5d5b8d44d1ebceab2bb41ddbb244afda64fb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945045"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924794"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium および Power BI Embedded の容量を管理する
-コンテンツ用の専用リソースを提供する Power BI Premium および Power BI Embedded の容量を管理する方法について説明します。
+Power BI Premium および Power BI Embedded の容量を管理する方法について説明します。これにより、コンテンツ用の専用リソースが提供されます。
 
 ![Power BI の容量設定画面](media/service-admin-premium-manage/premium-capacity-management.png)
 
-容量は、Power BI Premium および Power BI Embedded プランに関係します。
+容量は Power BI Premium および Power BI Embedded サービスの中核となるものです。
 
 ## <a name="what-is-capacity"></a>容量とは
 容量は、ユーザー専用に予約されたリソースのセットです。 容量を持つことで、組織全体のユーザーにライセンスを購入しなくても、これらのユーザーに対してダッシュボード、レポート、データセットを公開できます。 容量でホストされているコンテンツに信頼性の高い、一貫性のあるパフォーマンスも保証されます。
@@ -32,6 +32,16 @@ ms.locfileid: "36945045"
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
 詳しくは、「[Power BI Premium - what is it?](service-premium.md)」 (Power BI Premium とは) を参照してください。
+
+### <a name="capacity-admins"></a>容量管理者
+> [!NOTE]
+> Power BI Embedded 容量の容量管理者は、Microsoft Azure Portal 内で定義します。
+
+容量の容量管理者として割り当てられたユーザーは、容量とその管理機能を完全に制御できます。 Power BI 管理ポータルでは、さらに容量管理者を追加したり (Power BI Premium のみ)、ユーザーに容量割り当てのアクセス許可を付与したりできます。 容量にワークスペースを一括して割り当て、容量の使用状況の指標を表示できます。
+
+容量にはそれぞれ独自の管理者がいます。 1 つの容量に容量管理者を定義しても、組織内のすべての容量へのアクセス権をその管理者に与えることにはなりません。 既定では、容量管理者がアクセスできない Power BI 管理領域があります (利用状況の指標、監査ログ、テナント設定など)。 また、容量管理者には、新しい容量の設定または既存容量の SKU の変更を行うアクセス許可はありません。 これらの項目にアクセスできるのは、グローバル管理者または Power BI サービス管理者だけです。
+
+すべての Office 365 グローバル管理者と Power BI 管理者は、自動的に、Power BI Premium 容量と Power BI Embedded 容量両方の容量管理者になります。
 
 ## <a name="purchase-capacity"></a>容量を購入する
 専用容量を利用するには、Office 365 管理センター内で Power BI Premium のサブスクリプションを購入するか、Microsoft Azure Portal 内に Power BI Embedded リソースを作成する必要があります。 詳しくは、以下のトピックをご覧ください。
@@ -43,21 +53,9 @@ Power BI Premium の SKU を購入すると、テナントは、実行してい�
 
 > [!NOTE]
 > サブスクリプションの終了後、30 日間はフル アクセスが可能ですが、その後はコンテンツが共有の容量に戻ります。 1 GB を超えるモデルは正規の共有ライセンスではサポートされません。
->
 
-## <a name="capacity-admins"></a>容量管理者
-> [!NOTE]
-> Power BI Embedded 容量の容量管理者は、Microsoft Azure Portal 内で定義します。
->
->
 
-容量の容量管理者として割り当てられたユーザーは、容量とその管理機能を完全に制御できます。 Power BI 管理ポータルでは、さらに容量管理者を追加したり (Power BI Premium のみ)、ユーザーに容量割り当てのアクセス許可を付与したりできます。 容量にワークスペースを一括して割り当て、容量の使用状況の指標を表示できます。
-
-容量にはそれぞれ独自の管理者がいます。 1 つの容量に容量管理者を定義しても、組織内のすべての容量へのアクセス権をその管理者に与えることにはなりません。 既定では、容量管理者がアクセスできない Power BI 管理領域があります (利用状況の指標、監査ログ、テナント設定など)。 また、容量管理者には、新しい容量の設定または既存容量の SKU の変更を行うアクセス許可はありません。 これらの項目にアクセスできるのは、グローバル管理者または Power BI サービス管理者だけです。
-
-すべての Office 365 グローバル管理者と Power BI 管理者は、自動的に、Power BI Premium 容量と Power BI Embedded 容量両方の容量管理者になります。
-
-## <a name="managing-capacity"></a>容量の管理
+## <a name="manage-capacity"></a>容量の管理
 Office 365 で容量ノードを購入した後は、新しい容量を設定する必要があります。 これは [Power BI 管理ポータル](service-admin-portal.md)から行います。 管理ポータルには、**[容量の設定]** というセクションがあります。 ここで組織の Power BI Premium 容量を管理します。
 
 ![管理ポータルでの容量の設定](media/service-admin-premium-manage/admin-portal-premium.png)
@@ -96,8 +94,6 @@ Premium 容量管理の画面で、[アクション] の下の**歯車アイコ�
 
 > [!NOTE]
 > Power BI Embedded の容量の設定は、Microsoft Azure Portal で管理します。
->
->
 
 ### <a name="change-capacity-size-power-bi-premium"></a>容量サイズの変更 (Power BI Premium)
 Power BI 管理者および Office 365 グローバル管理者は、**[容量サイズを変更します]** を選んで Power BI Premium の容量サイズを変更します。 Power BI 管理者または Office 365 グローバル管理者ではない容量管理者は、これを行うことはできません。
@@ -128,35 +124,6 @@ Power BI Premium 容量用に追加の**容量管理者**を割り当てるこ�
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
-
-## <a name="usage-measurements-power-bi-premium"></a>使用状況測定 (Power BI Premium)
-各容量について、CPU、メモリ使用量、メモリ スラッシング、直接クエリの使用状況測定を見ることができます。 ユーザーが容量で良好なパフォーマンスを得られるよう、これらのメトリックを監視することをお勧めします。
-
-![過去 7 日間の使用量](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Power BI Embedded の容量の使用状況は、Azure Portal で監視します。
-
-| 指標 | 説明 |
-| --- | --- |
-| CPU |CPU 使用率が 80% を超えた回数です。 |
-| メモリ スラッシング |バックエンド コアのメモリ負荷を表します。 具体的には、これは、複数のデータセットの使用によるメモリ負荷により、データセットがメモリから締め出された回数のメトリックです。 |
-| メモリ使用量 |平均メモリ使用量です (ギガバイト (GB) 単位)。 |
-| DQ/秒 | 直接クエリとライブ接続の数が上限の 80% を超えた回数です。 <br> <br> * DirectQuery の合計数と 1 秒あたりのライブ接続クエリの数を制限しています。<br><br>* 制限は、P1 で 30/秒、P2 で 60/秒、 P3 で 120/秒です。<br><br> * 直接クエリとライブ接続クエリの数は、上記のスロットルに追加されます。 たとえば、15 の DirectQueries と 1 秒あたり 15 のライブ接続がある場合、スロットルに達しています。<br/><br>* これはオンプレミスおよびクラウドの接続にも等しく適用されます。 |
-
-メトリックは、過去 1 週間の使用状況を反映します。  メトリックをさらに詳細に見たい場合は、概要タイルのいずれかをクリックします。  Premium 容量の各メトリックの詳細グラフが表示されます。  これらのグラフは、過去 1 週間について 1 時間ごとに集計され、Premium 容量で特定のパフォーマンス関連イベントが発生した可能性があるときを特定するのに役立ちます。  
-
-![CPU の詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![メモリ スラッシングの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![メモリ サイズの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![メモリ スラッシングの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-いずれかのメトリックの基になっているデータを、csv ファイルにエクスポートすることもできます。  エクスポートすると、過去 1 週間の詳細情報を 3 分間隔で見ることができます。
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>容量にワークスペースを割り当てる
 容量にワークスペースを割り当てるには、いくつかの方法があります。
@@ -193,6 +160,36 @@ Power BI Premium 容量用に追加の**容量管理者**を割り当てるこ�
 5. **[保存]** を選択します。
 
 保存すると、ワークスペース、およびそのすべてのコンテンツが Premium 容量に移動されます。エンド ユーザーのエクスペリエンスが中断されることはありません。
+
+
+## <a name="monitor-capacity-usage"></a>容量の使用状況の監視
+各容量について、CPU、メモリ使用量、メモリ スラッシング、直接クエリの使用状況測定を見ることができます。 ユーザーが容量で良好なパフォーマンスを得られるよう、これらのメトリックを監視することをお勧めします。
+
+![過去 7 日間の使用量](media/service-admin-premium-manage/premium-dashboard-tiles.png)
+
+> [!NOTE]
+> Power BI Embedded の容量の使用状況は、Azure Portal で監視します。
+
+| 指標 | 説明 |
+| --- | --- |
+| CPU |CPU 使用率が 80% を超えた回数です。 |
+| メモリ スラッシング |バックエンド コアのメモリ負荷を表します。 具体的には、これは、複数のデータセットの使用によるメモリ負荷により、データセットがメモリから締め出された回数のメトリックです。 |
+| メモリ使用量 |平均メモリ使用量です (ギガバイト (GB) 単位)。 |
+| DQ/秒 | 直接クエリとライブ接続の数が上限の 80% を超えた回数です。 <br> <br> * DirectQuery の合計数と 1 秒あたりのライブ接続クエリの数を制限しています。<br><br>* 制限は、P1 で 30/秒、P2 で 60/秒、 P3 で 120/秒です。<br><br> * 直接クエリとライブ接続クエリの数は、上記のスロットルに追加されます。 たとえば、15 の DirectQueries と 1 秒あたり 15 のライブ接続がある場合、スロットルに達しています。<br/><br>* これはオンプレミスおよびクラウドの接続にも等しく適用されます。 |
+
+メトリックは、過去 1 週間の使用状況を反映します。  メトリックをさらに詳細に見たい場合は、概要タイルのいずれかをクリックします。  Premium 容量の各メトリックの詳細グラフが表示されます。  これらのグラフは、過去 1 週間について 1 時間ごとに集計され、Premium 容量で特定のパフォーマンス関連イベントが発生した可能性があるときを特定するのに役立ちます。  
+
+![CPU の詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
+
+![メモリ スラッシングの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![メモリ サイズの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![メモリ スラッシングの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+いずれかのメトリックの基になっているデータを、csv ファイルにエクスポートすることもできます。  エクスポートすると、過去 1 週間の詳細情報を 3 分間隔で見ることができます。
 
 ## <a name="what-premium-looks-like-for-users"></a>ユーザーに表示される Premium
 ほとんどの場合、ユーザーが Premium 容量を使用しているかを認識する必要はありません。 ユーザーのダッシュボードとレポートは機能します。 視覚的ヒントとして、Premium 容量内のワークスペースの横にひし形のアイコンが表示されます。

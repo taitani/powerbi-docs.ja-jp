@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926561"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877026"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -102,13 +102,11 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 **(AADSTS70002: 資格情報の検証でエラーが発生しました。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました)**
 
-Power BI Embedded を使用、および Azure AD Direct Authentication を利用している場合、次のようなログインに関するメッセージを受信する場合があります: ***error:unauthorized_client,error_description:AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました***。これは 2018 年 6 月 14 日の時点で直接認証がオフになっていることが原因です。
+Power BI Embedded を使用、および Azure AD Direct Authentication を利用している場合、次のようなログインに関するメッセージを受信する場合があります: ***error:unauthorized_client,error_description:AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました***。これは、2018 年 6 月 14 日以降直接認証が既定でオフになったことが原因です。
 
-レガシ認証をブロックするために [Azure AD 条件付きアクセス](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) サポートを使用するか、[Azure AD Directory パススルー認証](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)を使用することをお勧めします。
+組織または[サービス プリンシパル](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)のいずれかにスコープ設定された [Azure AD ポリシー](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)を使用して、直接認証をオンに戻す方法があります。
 
-ただし、組織または[サービス プリンシパル](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)のいずれかを対象とすることができる [Azure AD ポリシー](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)を使用してオンに戻す方法があります。
-
-**_これは、必ずアプリごとに、回避策で必要な場合にのみ有効にすることをお勧めします。_**
+これは、アプリごとにのみ有効にすることをお勧めします。
 
 このポリシーを作成するには、ポリシーを作成して割り当てるディレクトリに対して**グローバル管理者**であることが必要です。 ポリシーを作成して、このアプリケーションの SP に割り当てるのためのサンプル スクリプトを次に示します。
 
