@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: 視覚エフェクト
+title: 視覚化
 metadata:
-  title: 視覚エフェクト | Microsoft Power BI
-  description: 視覚エフェクトでは、データを活用し、説得力のある、優れた視覚表現だけが示すことができる洞察を表示します。 このセクションでは、その方法を示します。
+  title: 視覚化 | Microsoft Power BI
+  description: 視覚化によりデータに命を吹き込み、説得力のある優れた視覚表現だけが引き出すことができる分析情報を提供します。 このセクションでは、その方法を示します。
   audience: Business User
   level: Beginner
   nextTutorialHref: exploringdata.yml
@@ -23,8 +23,8 @@ metadata:
 items:
 - durationInMinutes: 1
   content: >
-    視覚エフェクトでは、データを活用し、説得力のある、優れた視覚表現だけが示すことができる洞察を表示します。 この **Power BI** ガイド付き学習のセクションでは、その使用の開始方法を示します。
-- title: Power BI でのビジュアルの概要
+    視覚化によりデータに命を吹き込み、説得力のある優れた視覚表現だけが引き出すことができる分析情報を提供します。 **Power BI** のガイド付き学習のこのセクションでは、その使用方法を説明します。
+- title: Power BI での視覚化の概要
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/SYk_gWrtKvM?rel=0]
@@ -87,7 +87,7 @@ items:
 
 
     [!INCLUDE [](includes/3-9-create-gauges-cards.md)]
-- title: グラフとビジュアルの色の変更
+- title: グラフと視覚エフェクトの色の変更
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/oNME83EAvLw?rel=0]
@@ -143,7 +143,7 @@ items:
 
 
     [!INCLUDE [](includes/3-11f-arrange-visual-zorder.md)]
-- title: ビジュアルの階層とドリルダウン
+- title: 視覚エフェクトの階層とドリルダウン
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/q8WDUAiTGeU?rel=0]
