@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599952"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032073"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -76,7 +76,7 @@ Power BI Embedded は一連の API であり、開発者はこれを利用し、
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |購入     |Azure Portal |Office |Office |
-|ユース ケース |* 独自のアプリケーションにコンテンツを埋め込む |* 独自のアプリケーションにコンテンツを埋め込む<br>* PowerBI.com 外の Power BI FREE ユーザーとコンテンツを共有し、他の SaaS アプリケーションに埋め込む (SharePoint、[Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) |* 独自のアプリケーションにコンテンツを埋め込む<br>* PowerBI.com 外の Power BI FREE ユーザーとコンテンツを共有し、他の SaaS アプリケーションに埋め込む (SharePoint、Teams)<br>* PowerBI.com 経由で Power BI FREE ユーザーとコンテンツを共有する  |
+|ユース ケース |* 独自のアプリケーションにコンテンツを埋め込む |* 独自のアプリケーションにコンテンツを埋め込む<br>* その他の SaaS アプリケーション ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) にコンテンツを埋め込む |* 独自のアプリケーションにコンテンツを埋め込む<br>* その他の SaaS アプリケーション ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) にコンテンツを埋め込む<br>* [Power BI サービス](https://powerbi.microsoft.com/en-us/)経由で Power BI ユーザーとコンテンツを共有する  |
 |課金 |1 時間ごと |月単位 |月単位 |
 |コミットメント  |コミットメントなし |年単位  |月単位/年単位 |
 |差別化 |柔軟性に優れ、Azure Portal で、あるいは API 経由でリソースを拡大縮小したり、停止/再開したりできる  |SharePoint Online と Microsoft Teams にコンテンツを埋め込むために使用可能 |アプリケーションの埋め込みを結合し、同じ容量で Power BI Service を使用する |
@@ -238,7 +238,7 @@ Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-cu
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI ワークスペース コレクションから Power BI Embedded に移行できますか?
 
-1. 移行ツールを使って、**Power BI ワークスペース コレクション**のコンテンツを Power BI に複製できます。https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration
+1. 移行ツールを使って、**Power BI ワークスペース コレクション**のコンテンツを Power BI に複製できます https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration。
 
 2. Power BI のコンテンツを使用する **Power BI Embedded** アプリケーション POC から始めます。
 
