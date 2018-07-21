@@ -322,6 +322,10 @@
                   href: service-collaborate-power-bi-workspace.md
                 - name: Power BI および Office 365 でのグループ管理
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
+                - name: OneDrive for Business 上の Excel ブックにリンクするダッシュボードを共有する
+                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: コンテンツ パック
+              items:
                 - name: 組織のコンテンツ パックを管理、更新、削除する
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: '組織のコンテンツ パック: コピー、更新、アクセスする'
@@ -332,8 +336,16 @@
                   href: service-organizational-content-pack-create-and-publish.md
                 - name: 組織のコンテンツ パックに対する接続を削除する
                   href: service-organizational-content-pack-disconnect.md
-                - name: OneDrive for Business 上の Excel ブックにリンクするダッシュボードを共有する
-                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+                - name: 認定
+                  items:
+                    - name: コンテンツ パック認定プログラム
+                      href: service-content-pack-overview.md
+                    - name: テンプレート コンテンツ パックのオーサリング
+                      href: template-content-pack-authoring.md
+                    - name: テンプレート コンテンツ パックのテスト
+                      href: template-content-pack-testing.md
+                    - name: テンプレート コンテンツ パックのエクスペリエンス
+                      href: template-content-pack-experience.md
             - name: レポート
               items:
                 - name: 既存のレポートから新しいレポートを作成
@@ -890,58 +902,34 @@
           href: mobile-apps-supported-languages.md
 - name: 開発者向け Power BI
   items:
-    - name: 概要
+    - name: 埋め込み分析
       items:
-        - name: Power BI の開発者向け機能
-          href: developer/what-can-you-do.md
-    - name: チュートリアル
-      items:
-        - name: 顧客向けにコンテンツを埋め込む
-          href: developer/embed-sample-for-customers.md
-        - name: 組織向けにコンテンツを埋め込む
-          href: developer/embed-sample-for-your-organization.md
-    - name: 概念
-      items:
-        - name: Power BI REST API の操作
-          items:
-            - name: Power BI API の機能
-              href: developer/overview-of-power-bi-rest-api.md
-            - name: Power BI REST API の制限事項
-              href: developer/api-rest-api-limitations.md
-            - name: データセットのプロパティ
-              href: developer/api-dataset-properties.md
-            - name: データ モデルのバージョン管理
-              href: developer/api-data-model-versioning.md
-        - name: 開発者ツールでカスタム ビジュアルを作成する
-          href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Power BI のアクセス許可
-          href: developer/power-bi-permissions.md
-        - name: 行レベルのセキュリティ (RLS)
-          href: developer/embedded-row-level-security.md
-        - name: よく寄せられる質問
-          href: developer/embedded-faq.md
-    - name: 方法
-      items:
-        - name: カスタム ビジュアルの作成
-          items:
-            - name: 開発者ツールでカスタム ビジュアルを作成する
-              href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: カスタム ビジュアルの認定を受ける
-              href: power-bi-custom-visuals-certified.md
-            - name: カスタム ビジュアルを AppSource に発行する
-              href: developer/office-store.md
-        - name: 埋め込み
+        - name: 概要
           items:
             - name: Power BI で埋め込み
               href: developer/embedding.md
+        - name: チュートリアル
+          items:
+            - name: 顧客向けにコンテンツを埋め込む
+              href: developer/embed-sample-for-customers.md
+            - name: 組織向けにコンテンツを埋め込む
+              href: developer/embed-sample-for-your-organization.md
+        - name: 概念
+          items:
+            - name: 行レベルのセキュリティ (RLS)
+              href: developer/embedded-row-level-security.md
+            - name: よく寄せられる質問
+              href: developer/embedded-faq.md
+            - name: Power BI のアクセス許可
+              href: developer/power-bi-permissions.md
+        - name: 方法
+          items:
             - name: コンテンツを埋め込む方法
               href: developer/embedding-content.md
             - name: アプリから埋め込む方法
               href: developer/embed-from-apps.md
             - name: コンテンツをソブリン クラウド向けアプリケーションに統合する (アプリがデータを所有)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
-            - name: カスタム レイアウトをアプリに埋め込む
-              href: developer/embedded-custom-layout.md
             - name: Azure Active Directory テナントを作成する
               href: developer/create-an-azure-active-directory-tenant.md
             - name: アプリケーションを登録する
@@ -952,15 +940,103 @@
               href: developer/qanda.md
             - name: Power BI Embedded を移行する方法
               href: developer/migrate-from-powerbi-embedded.md
-            - name: Power BI Embedded 移行ツール
-              href: developer/migrate-tool.md
-            - name: 移行コード スニペット
-              href: developer/migrate-code-snippets.md
             - name: 埋め込みアプリケーションのトラブルシューティング
               href: developer/embedded-troubleshoot.md
-        - name: データのプッシュ
+        - name: リファレンス
           items:
-            - name: ダッシュボードにデータをプッシュする
+            - name: .NET SDK ダウンロード
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: カスタム レイアウトをアプリに埋め込む
+              href: developer/embedded-custom-layout.md
+            - name: 移行コード スニペット
+              href: developer/migrate-code-snippets.md
+        - name: リソース
+          items:
+            - name: デベロッパー センター
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 埋め込み用のオンボード エクスペリエンス ツール
+              href: 'https://aka.ms/embedsetup'
+            - name: JavaScript のプレイグラウンド サンプル
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: Power BI JavaScript Wiki
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: JavaScript Git リポジトリ
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Power BI C# Git リポジトリ'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: サンプル
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Power BI Embedded 移行ツール
+              href: developer/migrate-tool.md
+            - name: Power BI コミュニティ
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: スタック オーバーフロー
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: カスタム ビジュアルを開発する
+      items:
+        - name: 概要
+          items:
+            - name: カスタム ビジュアルを Power BI に追加する
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
+        - name: チュートリアル
+          items:
+            - name: Power BI カスタム ビジュアルを開発する
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/step-by-step-lab/developing-a-power-bi-custom-visual/'
+        - name: 概念
+          items:
+            - name: 機能を使用する
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/capabilities/'
+            - name: データ ビューのマッピング
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/dataviewmappings/'
+            - name: オブジェクトとプロパティ
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/objects-and-properties/'
+            - name: 高度な編集モード
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/advanced-edit-mode/'
+            - name: バージョン管理 API ガイドへの移行
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/migrating-to-versioned-api-guide/'
+        - name: 方法
+          items:
+            - name: カスタム ビジュアルの認定を受ける
+              href: power-bi-custom-visuals-certified.md
+            - name: カスタム ビジュアルを AppSource に発行する
+              href: developer/office-store.md
+        - name: リファレンス
+          items:
+            - name: API
+              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+        - name: リソース
+          items:
+            - name: デベロッパー センター
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 開発者ツールでカスタム ビジュアルを作成する
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: サンプル
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: カスタム ビジュアル Git リポジトリ
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+    - name: オートメーション
+      items:
+        - name: 概要
+          items:
+            - name: Power BI API の機能
+              href: developer/overview-of-power-bi-rest-api.md
+        - name: チュートリアル
+          items: null
+        - name: 概念
+          items:
+            - name: リアルタイム データの自動保持ポリシー
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
+            - name: データのプッシュ
+              items:
+                - name: Power BI REST API の制限事項
+                  href: developer/api-rest-api-limitations.md
+                - name: データセットのプロパティ
+                  href: developer/api-dataset-properties.md
+                - name: データ モデルのバージョン管理
+                  href: developer/api-data-model-versioning.md
+        - name: 方法
+          items:
+            - name: データセットにデータをプッシュする
               href: developer/walkthrough-push-data.md
             - name: アプリを Azure AD に登録する
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
@@ -972,44 +1048,22 @@
               href: developer/walkthrough-push-data-get-datasets.md
             - name: テーブルに行を追加する
               href: developer/walkthrough-push-data-add-rows.md
+        - name: リファレンス
+          items:
+            - name: REST API
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Power BI REST API リファレンス
+              href: developer/rest-api-reference.md
             - name: 完全なコード リスト
               href: developer/walkthrough-push-data-complete-code.md
-            - name: リアルタイム データの自動保持ポリシー
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-        - name: コンテンツ パック認定
+        - name: リソース
           items:
-            - name: コンテンツ パック認定プログラム
-              href: developer/service-content-pack-overview.md
-            - name: テンプレート コンテンツ パックのオーサリング
-              href: developer/template-content-pack-authoring.md
-            - name: テンプレート コンテンツ パックのテスト
-              href: developer/template-content-pack-testing.md
-            - name: テンプレート コンテンツ パックのエクスペリエンス
-              href: developer/template-content-pack-experience.md
-    - name: リファレンス
-      items:
-        - name: REST API
-          href: 'https://docs.microsoft.com/rest/api/power-bi/'
-        - name: 'Power BI C# Git リポジトリ'
-          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-        - name: .NET SDK ダウンロード
-          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: JavaScript Git リポジトリ
-          href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-        - name: カスタム ビジュアル Git リポジトリ
-          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-    - name: リソース
-      items:
-        - name: 埋め込み用のオンボード エクスペリエンス ツール
-          href: 'https://aka.ms/embedsetup'
-        - name: JavaScript のプレイグラウンド サンプル
-          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: サンプル
-          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-        - name: Power BI コミュニティ
-          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-        - name: スタック オーバーフロー
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+            - name: デベロッパー センター
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Power BI C# Git リポジトリ'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: .NET SDK ダウンロード
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI Report Server
   items:
     - name: 概要
