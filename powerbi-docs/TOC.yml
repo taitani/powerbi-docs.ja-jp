@@ -1021,7 +1021,9 @@
             - name: Power BI API の機能
               href: developer/overview-of-power-bi-rest-api.md
         - name: チュートリアル
-          items: null
+          items:
+            - name: データセットにデータをプッシュする
+              href: developer/walkthrough-push-data.md
         - name: 概念
           items:
             - name: リアルタイム データの自動保持ポリシー
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: 方法
           items:
-            - name: データセットにデータをプッシュする
-              href: developer/walkthrough-push-data.md
             - name: アプリを Azure AD に登録する
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: 認証アクセス トークンを取得する
