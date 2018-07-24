@@ -530,6 +530,12 @@
       items:
         - name: Power BI Desktop の最新の更新プログラムの新機能
           href: desktop-latest-update.md
+        - name: Power BI Desktop (プレビュー) での複合モデル
+          href: desktop-composite-models.md
+        - name: Power BI Desktop (プレビュー) での多対多のリレーションシップ
+          href: desktop-many-to-many-relationships.md
+        - name: Power BI Desktop (プレビュー) でのストレージ モード
+          href: desktop-storage-mode.md
         - name: Power BI Desktop での双方向のクロス フィルタリング (プレビュー)
           href: desktop-bidirectional-filtering.md
         - name: Power BI と DirectQuery
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: レポートの作成
           items:
+            - name: レポートのビジュアル要素
+              href: desktop-visual-elements-for-reports.md
             - name: Power BI Desktop の Q&A
               href: desktop-qna-in-reports.md
             - name: 'Power BI Desktop の [分析] ウィンドウ'
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: 増分更新
               href: service-premium-incremental-refresh.md
+            - name: 複数の地域のサポート (プレビュー)
+              href: service-admin-premium-multi-geo.md
             - name: Power BI Premium のよく寄せられる質問
               href: service-premium-faq.md
             - name: Power BI Premium リリース ノート
