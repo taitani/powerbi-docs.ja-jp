@@ -221,8 +221,7 @@ ms.locfileid: "37137470"
 
 ***Enterprise***
 
-* 
-  [ExpressRoute](service-admin-power-bi-expressroute.md): Power BI へのプライベートなマネージド接続の確立に使用します。
+* [ExpressRoute](service-admin-power-bi-expressroute.md): Power BI へのプライベートなマネージド接続の確立に使用します。
 * [RLS のコンテンツ パック サポート](service-admin-rls.md) (プレビュー): コンテンツ パックの一部として提供されているこれらのダッシュボードやレポートに対して RLS が定義されている場合、これらのコンテンツ パックにセキュリティ ルールが適用されます。
 
 ***ダッシュボード***
@@ -578,8 +577,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * Power BI の一般提供 (GA) リリースを発表しました。 [Power BI Pro](service-self-service-signup-for-power-bi.md) に今すぐ新規登録してください。 GA リリースの一環として、以下の優れた新機能を提供します。
 * 新しい視覚化とレポート作成エクスペリエンス: 新しいレポート キャンバスでは、視覚化の選択肢が増え、タイトル、凡例、軸、色、背景などの書式設定をさらに制御できます。
-* 
-  [Power BI のグループ](service-create-distribute-apps.md): グループにより、Office 365 グループ上に構築された、強力なコラボレーション エクスペリエンスが提供されます。
+* [Power BI のグループ](service-create-distribute-apps.md): グループにより、Office 365 グループ上に構築された、強力なコラボレーション エクスペリエンスが提供されます。
 * [組織のコンテンツ パック](service-organizational-content-pack-introduction.md): Power BI では、ダッシュボードとレポートの作成が非常にシンプルになり、ユーザーはこれらのコンテンツを組織のコンテンツ ギャラリーに公開できるようになりました。
 * [Excel ファイル全体の取り込み](service-excel-workbook-files.md): OneDrive for Business に格納されているどの Excel ブックでも Power BI に取り込み、そのブック全体を Excel Online での場合とまったく同様に表示できます。
 * [CSV ファイルの取り込み](service-get-data-from-files.md): Excel や Power BI Desktop ファイルと同様に、コンマ区切り値 (CSV) テキスト ファイルも、Power BI のダッシュボードとレポートのデータセットにできます。
@@ -589,8 +587,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 **2015 年 7 月 14 日**
 
 * Acumatica Cloud ERP では、財務、物流、CRM、プロジェクト会計などの完全に統合されたビジネス管理アプリケーション一式を提供しています。このシステムは、堅牢で柔軟性に富むプラットフォーム上に構築されています。 Power BI [Acumatica コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)を使用すれば、営業案件に関するデータにすばやく接続して、そのデータについての洞察がすぐに得られます。 このコンテンツには、すぐに使用できるダッシュボード、一連のレポート、および精選されたデータセットが含まれており、日付別の成立営業案件数の合計などの詳細を探索して提供します。 詳細については、[このページ](service-connect-to-acumatica.md)をご覧ください。 
-* 
-  [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) では、フル マネージドの Spark サービスが提供されるようになりました。 この機能により、反復的な機械学習や対話型のデータ分析などのシナリオが実現できます。 Power BI を使用すると、HDInsight 上の Spark 内のデータに直接接続でき、シンプルかつライブの探索が提供されます。 詳細については、この[ヘルプ ドキュメント](spark-on-hdinsight-with-direct-connect.md)をご覧ください。
+* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) では、フル マネージドの Spark サービスが提供されるようになりました。 この機能により、反復的な機械学習や対話型のデータ分析などのシナリオが実現できます。 Power BI を使用すると、HDInsight 上の Spark 内のデータに直接接続でき、シンプルかつライブの探索が提供されます。 詳細については、この[ヘルプ ドキュメント](spark-on-hdinsight-with-direct-connect.md)をご覧ください。
 * [Office 365 のナビゲーションとアプリケーション起動ツールの統合](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher)。 1 回のクリックで、すべての Office 365 アプリケーションに移動できるようになりました。
 * ユーザーがタイルをクリックしたときに移動する[カスタム URL の指定](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)。 ユーザーの移動先 (特定のレポート、別のダッシュボード、SSRS レポート、または外部 Web サイト) を正確に制御できるようになりました。 
 * Power BI で使用中の[ストレージの表示と管理](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
@@ -608,8 +605,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * Power BI Desktop ファイルを Power BI サービスにアップロードすると、[更新](http://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx) (「スケジュールされた更新」または「今すぐ更新」) できるようになりました。
 * Power BI に対する、昨年 12 月以降で最大の視覚的変更である、[[データの取得]](http://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx) に対するさらにシンプルですっきりしたエクスペリエンスをリリースします。  [データの取得] をクリックすると、選択するカテゴリ一式が配置された単一の画面が表示されます。 この変更により、自分にとって重要なコンテンツを見つけるのがさらに簡単になりました。
-* 
-  [Azure SQL Data Warehouse](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx) で、柔軟なスケールや大規模な並列処理が提供されるようになりました。 本日発表された限定的なパブリック プレビュー版を使用すれば、Power BI で、Azure SQL Data Warehouse に格納されたデータに直接接続でき、シンプルかつ動的な探索が提供されます。 データ ウェアハウスに接続すると、データを探索する際に、クエリがリアルタイムで生成されてソースに送り返されます。 これにより、カスタム データ モデルを作成してアップロードする必要がなくなり、データの対話型探索が提供されます。
+* [Azure SQL Data Warehouse](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx) で、柔軟なスケールや大規模な並列処理が提供されるようになりました。 本日発表された限定的なパブリック プレビュー版を使用すれば、Power BI で、Azure SQL Data Warehouse に格納されたデータに直接接続でき、シンプルかつ動的な探索が提供されます。 データ ウェアハウスに接続すると、データを探索する際に、クエリがリアルタイムで生成されてソースに送り返されます。 これにより、カスタム データ モデルを作成してアップロードする必要がなくなり、データの対話型探索が提供されます。
 
 **2015 年 6 月 16 日**
 
