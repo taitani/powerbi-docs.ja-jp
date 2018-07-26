@@ -10,7 +10,7 @@
 
 DAX 式で変数を参照するたびに、Power BI は定義に従ってその値を再計算する必要があることに注意してください。 このため、関数内で変数を繰り返さないようにすることをお勧めします。
 
-> ビデオ コンテンツは、[SQLBI 社の Alberto Ferrari 氏](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)のご厚意によるものです。
+> ビデオ コンテンツは、[SQLBI 社の Alberto Ferrari 氏](http://www.sqlbi.com/learning-dax)のご厚意によるものです。
 > 
 > 
 
