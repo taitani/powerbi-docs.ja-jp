@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/19/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 144cdace662b5f6dbe546a213e07f087d634dcff
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298391"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256011"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI における色の書式設定に関するヒントとコツ
 Power BI は、ダッシュボードとレポートをカスタマイズするためのさまざまな方法を提供しています。 この記事では、Power BI の視覚化を、説得力のある興味をひくものにして、お客様のニーズに合わせてカスタマイズできる各種ヒントについて詳しく説明しています。
@@ -97,7 +97,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_12.png)
 
-ここで、**[最小]** と **[最大]** の各値ボックスに数値を指定した場合にどうなるか見てみましょう。これらのボックスは、**[最小]** と **[最大]** の各色セレクターの下にあります (次の図を参照)。 **[最小]** を 20,000,000 に設定し、**[最大]** を 20,000,000 に設定してみましょう。
+ここで、**[最小]** と **[最大]** の各値ボックスに数値を指定した場合にどうなるか見てみましょう。これらのボックスは、**[最小]** と **[最大]** の各色セレクターの下にあります (次の図を参照)。 **[最小]** を 20,000,000 に設定し、**[最大]** を 20,000,001 に設定してみましょう。
 
 これらの値を設定すると、**[最小]** よりも低いか、または **[最大]** よりも高いグラフの値には、グラデーションが適用されなくなります。つまり、**[最大]** 値よりも高い値を持つすべての縦棒には緑、**[最小]** 値よりも低い値を持つすべての縦棒には赤が設定されます。
 

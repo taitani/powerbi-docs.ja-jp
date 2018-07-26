@@ -804,6 +804,8 @@
           href: desktop-data-types.md
         - name: Power BI Desktop のプライバシー レベル
           href: desktop-privacy-levels.md
+        - name: Power BI でのコネクタの機能拡張
+          href: desktop-connector-extensibility.md
     - name: リソース
       items:
         - name: Power BI Desktop のビデオ
