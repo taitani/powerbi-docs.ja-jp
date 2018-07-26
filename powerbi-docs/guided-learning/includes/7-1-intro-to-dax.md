@@ -3,7 +3,7 @@ Power BI へようこそ **DAX** の概要説明を目的とした**ガイド付
 **DAX** とは、**Data Analysis Expressions** の略であり、Power BI 全体で使用 (また、バックグラウンドで Power BI により使用) される式言語です。 DAX はまた、Microsoft が提供するその他のサービス (Power Pivot や SSAS Tabular など) でも使用されますが、この一連のガイド付き学習のトピックでは、Power BI での DAX の使用方法 (ユーザーが使用できる方法) を中心に説明しています。
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX およびこのガイド付き学習ビデオ シリーズ
-この**ガイド付き学習**セクションの目的は、DAX の基本と基礎を説明することにあります。具体的には、DAX についての考え方、DAX のしくみ、最も便利な機能について、DAX エキスパートとして名高い [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 氏による説明 (および多くの経験から得られたこと) に基づいて紹介しています。
+この**ガイド付き学習**セクションの目的は、DAX の基本と基礎を説明することにあります。具体的には、DAX についての考え方、DAX のしくみ、最も便利な機能について、DAX エキスパートとして名高い [Alberto Ferrari](http://www.sqlbi.com/learning-dax) 氏による説明 (および多くの経験から得られたこと) に基づいて紹介しています。
 
 ![Alberto Ferrari 氏のポートレート](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 

@@ -89,7 +89,7 @@ DAX には、次の**日付**関数が含まれています。
 
 これらの関数は、*日付*の値から情報を計算したり抽出したりする場合に便利ですが、日付テーブルを使用するタイム インテリジェンスには適用されません。
 
-> ビデオ コンテンツは、[SQLBI 社の Alberto Ferrari 氏](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)のご厚意によるものです。
+> ビデオ コンテンツは、[SQLBI 社の Alberto Ferrari 氏](http://www.sqlbi.com/learning-dax)のご厚意によるものです。
 > 
 > 
 

@@ -57,7 +57,7 @@ Power BI Desktop で計算列を作成するには、**[モデリング]** タ�
 * 新しいメジャーの名前
 * 少なくとも 1 つの関数または式
 
-> ビデオ コンテンツは、[SQLBI 社の Alberto Ferrari 氏](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)のご厚意によるものです。
+> ビデオ コンテンツは、[SQLBI 社の Alberto Ferrari 氏](http://www.sqlbi.com/learning-dax)のご厚意によるものです。
 > 
 > 
 

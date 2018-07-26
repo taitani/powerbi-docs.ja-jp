@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a656866b1c9cdc0d1eb83b67c0edf79c182d1a71
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 596d399e7c304d40be5b7839c5c16060eb9e8155
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244435"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255988"
 ---
 # <a name="azure-and-power-bi"></a>Azure と Power BI
 **Azure** サービスと **Power BI**を併用すると、データ処理の労力を、ビジネスにリアルタイムの洞察を与える分析やレポートに変えることができます。 データ処理がクラウド ベースかオンプレミスか、簡単か複雑か、ソースが 1 つか膨大なスケールか、あるいはウェアハウスに保存されたデータかリアルタイムのデータかに関わらず、Azure と Power BI には相互接続が組み込まれていて統合されているので、ビジネス インテリジェンス作業の効率が高まります。
@@ -52,7 +52,7 @@ Azure と Power BI を使用して必要な限りの拡張を行えます。 複
 ### <a name="connect-your-app-data-using-power-bi-apis"></a>Power BI API によるアプリ データへの接続
 Power BI を使用すると、既存のアプリも分析できます。 アプリケーション開発者は Power BI API を使用して、データ セット全体をプログラムを使用して Power BI に送信できます。 継続的な更新が必要ですか。 Power BI API を使用すると、開発者がリアルタイムのデータ更新を送信していつでも作業を開始できるようになり、スケール要件が実行する価値がある規模になると、Azure Stream Analytics を使用するように発展することができます。
 
-[Power BI デベロッパー ポータル](http://dev.powerbi.com)には、Power BI API に関する詳細が示されています。 また、[Power BI 開発者向けブログ](http://blogs.msdn.com/powerbidev)には、他のユーザーが Power BI でプログラムによって何を行っているかが記されています。 さらに、[Power BI 開発を始める](https://msdn.microsoft.com/library/dn889824.aspx)ことに特化したページもあります。
+[Power BI デベロッパー ポータル](http://dev.powerbi.com)には、Power BI API に関する詳細が示されています。 
 
 ### <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure と Power BI を併用して何ができますか。
 **Azure** と **Power BI** を組み合わせて行えるシナリオはたくさんあります - 可能性とチャンスはビジネスによって異なります。 **Azure サービス**について詳しくは、こちらの[概要ページ](http://go.microsoft.com/fwlink/?LinkId=535031&clcid=0x409)をご確認ください。**Azure を使用したデータ分析シナリオ**、およびお持ちのデータ ソースをビジネスをさらに成長させるインテリジェンスに変換する方法が取り上げられています。
