@@ -21,7 +21,7 @@ ms.locfileid: "37092531"
 
 チュートリアル「データセットにデータをプッシュする」の**手順 2**「[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)」では、**Azure AD** に対する認証トークンを取得しました。 この手順では、そのトークンを使って [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作を呼び出します。
 
-REST リソースを呼び出すには、リソースを指定する URL を使って、Power BI サービス リソースに JavaScript Object Notation (JSON) 文字列 (データセットを記述したもの) を送信します。 REST リソースは、Power BI サービスのうち操作する部分を識別します。 データセットにデータをプッシュする場合、対象のリソースは**データセット**です。 データセットを識別する URL は、https://api.PowerBI.com/v1.0/myorg/datasets です。 グループ内にデータをプッシュする場合の URL は、https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets です。
+REST リソースを呼び出すには、リソースを指定する URL を使って、Power BI サービス リソースに JavaScript Object Notation (JSON) 文字列 (データセットを記述したもの) を送信します。 REST リソースは、Power BI サービスのうち操作する部分を識別します。 データセットにデータをプッシュする場合、対象のリソースは**データセット**です。 データセットを識別する URL は、 https://api.PowerBI.com/v1.0/myorg/datasets です。 グループ内にデータをプッシュする場合の URL は、 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets です。
 
 Power BI REST 操作を認証するには、[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)手順で入手したトークンを要求ヘッダーに追加します。
 

@@ -59,11 +59,11 @@ Microsoft は、データの読み込みプロセスでトークンが更新さ�
 インポートされたデータセットに対してスケジュールされた更新の 2 時間後のタイムアウト。 **Premium** ワークスペースのデータセットの場合、このタイムアウトは 5 時間に延長されます。 この制限がある場合は、データセットのサイズまたは複雑さを軽減することを検討するか、データセットをより細かく分けることを検討できます。
 
 ## <a name="access-to-the-resource-is-forbidden"></a>リソースへのアクセスが禁止されています  
-このエラーは、キャッシュされた資格情報の有効期限が切れていることが原因で発生する可能性があります。 Power BI にサインインし、https://app.powerbi.com?alwaysPromptForContentProviderCreds=true に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。 
+このエラーは、キャッシュされた資格情報の有効期限が切れていることが原因で発生する可能性があります。 Power BI にサインインし、 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。 
     
     
 ## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>パスワードが変更されたか、資格情報の有効期限が切れているため、データを更新できない 
-キャッシュされた資格情報の有効期限が切れているため、データを更新できない可能性もあります。 Power BI にサインインし、https://app.powerbi.com?alwaysPromptForContentProviderCreds=true に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。
+キャッシュされた資格情報の有効期限が切れているため、データを更新できない可能性もあります。 Power BI にサインインし、 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。
 
 
 ## <a name="next-steps"></a>次の手順
