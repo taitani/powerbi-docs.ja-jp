@@ -43,7 +43,7 @@ Power BI Premium の詳細については、「[Power BI Premium - what is it?](
 
 Premium 容量を購入するには、以下を行う必要があります。
 
-1. Power BI サービス内で、**[Office 365 アプリ ピッカー]** > **[管理者]** を選択します。または、Office 365 管理センターを参照することができます。 管理センターにアクセスするには、https://portal.office.com に移動して **[管理者]** を選択します。
+1. Power BI サービス内で、**[Office 365 アプリ ピッカー]** > **[管理者]** を選択します。または、Office 365 管理センターを参照することができます。 管理センターにアクセスするには、 https://portal.office.com に移動して **[管理者]** を選択します。
    
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. **[請求]** > **[サービスを購入する]** を選択します。
