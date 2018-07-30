@@ -682,8 +682,10 @@
               href: desktop-qna-in-reports.md
             - name: 'Power BI Desktop の [分析] ウィンドウ'
               href: desktop-analytics-pane.md
-            - name: Power BI Desktop でのインサイトの使用
+            - name: 分析情報を使用して増加と減少を説明する
               href: desktop-insights.md
+            - name: 分析情報を使用してグラフ内の異なる発行を探す
+              href: desktop-insights-find-where-different.md
             - name: Power BI のブックマーク
               href: desktop-bookmarks.md
             - name: レポートのテーマの使用
