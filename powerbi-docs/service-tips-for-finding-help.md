@@ -50,10 +50,8 @@ Power BI チームは、定期的な [Power BI ブログ投稿](https://powerbi.
 
 他にも次のようなオプションをオンラインで利用できます。
 
-* 
-  **edX.org** が無料で提供している「[Analyzing and Visualizing Data with Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)」 (Power BI でのデータの分析および視覚化) コース。
-* 
-  **Lynda.com** が提供している「[Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)」 (Power BI Pro の基本的なトレーニング) などのコース。
+* **edX.org** が無料で提供している「[Analyzing and Visualizing Data with Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)」 (Power BI でのデータの分析および視覚化) コース。
+* **Lynda.com** が提供している「[Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)」 (Power BI Pro の基本的なトレーニング) などのコース。
 * 対面式の「**Dashboard in a Day**」トレーニング セッション。
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7. Power BI コミュニティ内で質問または検索する
