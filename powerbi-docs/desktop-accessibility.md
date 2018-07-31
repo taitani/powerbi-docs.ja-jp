@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032004"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210286"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop レポートのアクセシビリティ
 Power BI には、障碍のある方がより簡単に Power BI レポートを使用し、レポートと対話できる機能があります。 これらは、レポートでキーボードやスクリーンリーダーを使用したり、ページ上のさまざまなオブジェクトにフォーカスをタブ移動したり、マーカーを使用して気の利いた視覚化を実行するための機能です。
@@ -47,8 +47,12 @@ Power BI には、障碍のある方がより簡単に Power BI レポートを�
 
 > [!NOTE]
 > [データの表示] 機能にアクセスできるのは、このキーボード ショートカットからスクリーン リーダーを使用する場合のみです。 ビジュアル ヘッダーのオプションを使用して [データの表示] を開いた場合、スクリーン リーダーからはアクセスできません。
-> 
-> 
+
+**Power BI Desktop** の 2018 年 7 月のリリースから、スライサーにはアクセシビリティ機能も組み込まれています。 スライサーを選択するときにスライサーの値を調整するには、Ctrl + 右矢印キー (Ctrl キーを押しながら右矢印キー) を押してスライサー内のさまざまなコントロール間を移動します。 たとえば、最初に Ctrl + 右矢印キーを押すと、フォーカスは消しゴムに移動します。Space キーを押すと、消しゴムボタンをクリックしたときと同様に、スライサー上のすべての値が削除されます。 
+
+Tab キーを押すと、スライサー内のコントロール間を移動できます。 消しゴムにフォーカスがあるときに Tab キーを押すと、ドロップダウン ボタンに移動します。もう一度 Tab キーを押すと、最初のスライサー値に移動します (範囲など、スライサーに複数の値がある場合)。 
+
+![Power BI Desktop で Ctrl キーを押しながら右矢印キーを押すと、スライサーの要素または値を調整できます。Space キーを押すと、要素を選択し、値を調整できます。](media/desktop-accessibility/accessibility_07.png)
 
 これらの追加のアクセシビリティは、ユーザーがスクリーン リーダーとキーボード ナビゲーションを使って Power BI レポートを十分に活用できるように作成されました。
 

@@ -64,7 +64,7 @@ Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリ�
 
 3. 左下隅にある **[データを取得]** を選びます。
    
-    ![データを取得](media/tutorial-mobile-apps-ios-qna/power-bi-get-data.png)
+    ![データの取得](media/tutorial-mobile-apps-ios-qna/power-bi-get-data.png)
 
 3. [データを取得] ページで、**[サンプル]** アイコンを選びます。
    
@@ -93,7 +93,7 @@ Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリ�
 
      ![営業案件の分析のサンプルのダッシュボード](media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
 
-     Power BI の Q&A 仮想アナリストは、作業を開始するいくつかの候補を提供します。
+     Power BI の Q&amp;A 仮想アナリストは、作業を開始するいくつかの候補を提供します。
 
      ![おすすめのインサイト ボタン](media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
 3. **[featured insights]\(おすすめのインサイト\)** をタップします。

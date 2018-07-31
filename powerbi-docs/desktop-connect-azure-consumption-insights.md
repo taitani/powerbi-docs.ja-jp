@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f42efcb833c723e7af9132f7e039c8ff8805d17d
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137378"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329916"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop での Azure Consumption Insights への接続 (Beda)
 **Azure Consumption Insights** コネクタを使用すれば、**Power BI Desktop** で Azure に接続して、組織における Azure サービスの使用状況に関する詳細なデータと情報を得ることができます。 また、メジャー、カスタム列、およびビジュアルを作成して、組織での Azure の使用状況についてレポートを作成し、共有することができます。 このリリースの **Azure Consumption Insights** コネクタはベータ版であり、変更される可能性があります。

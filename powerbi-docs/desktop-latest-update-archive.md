@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37601639"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210378"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -34,6 +34,53 @@ ms.locfileid: "37601639"
 
 次のセクションでは、**Power BI Desktop** の以前の月の更新について説明します。
 
+
+## <a name="june-2018-update-2595135101"></a>2018 年 6 月更新 (2.59.5135.101)
+
+今月の更新プログラムは魅力的で、レポートを準備したり、提供する分析情報を楽しんだりできるような機能と改善点が含まれています。
+
+以下の更新は、6 月の **Power BI Desktop** の新しい機能です。
+
+### <a name="reporting"></a>レポート
+
+* レポートに対するハイ コントラストのサポート [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=13s) [[記事]](desktop-accessibility.md#high-contrast-support-for-reports) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* ドーナツの半径のコントロール [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=6m1s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
+* 円とドーナツの詳細ラベルの位置コントロール [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=7m19s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
+* 複合グラフのメジャーごとの各データ ラベルの書式設定 [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
+* より長い電話レポート [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=11m26s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
+
+### <a name="custom-visuals"></a>カスタム ビジュアル
+
+* 2 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
+
+### <a name="modeling"></a>モデリング
+* データ ビューでのフィルター処理と並べ替え [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=13m11s) [[記事]](desktop-data-view.md#filtering-in-data-view) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
+* ロケールのフィルター処理の向上 [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=15m35s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
+
+### <a name="data-connectivity"></a>データ接続
+
+* SAP BusinessWarehouse コネクタの改善 (新しいドライバーとパフォーマンスの向上、および階層変数に対するサポートの改善) [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=21m6s) [[記事]](desktop-sap-bw-connector.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#sapBW) 
+* Spark コネクタでの Windows 認証のサポート [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=24m31s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#spark) 
+* OData V4 コネクタの拡張機能 [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=25m12s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
+* ODBC コネクタの改善 (上端行の折りたたみサポート、DSN カタログによるナビゲーションのフィルター機能) [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
+
+### <a name="other"></a>その他
+
+* ソブリン クラウド セレクター [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+
+
+> [!NOTE]
+> [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
+
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+
+次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4VpGtWSrssE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 ## <a name="may-2018-update-2585103281"></a>2018 年 5 月更新 (2.58.5103.281)
 

@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 8f69eec2ce7273898698fb086f372daa2201eed8
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134687"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210263"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Power BI Desktop でインサイトを使用する (プレビュー)
-**Power BI Desktop** にグラフの増減を説明し、データについてすばやく洞察に満ちた自動分析を行うように指示することができます。 その場合、ユーザーはただデータ ポイントを右クリックし、**[分析]、[減少について説明してください]** (前の棒が低い場合は [増加について説明してください]) の順に選択します。これにより、使いやすいウィンドウで洞察が得られます。
+**Power BI Desktop** にグラフの増減を説明し、グラフの分布要因を確認し、データについてすばやく洞察に満ちた自動分析を行うように指示することができます。 その場合、ユーザーはただデータ ポイントを右クリックし、**[分析]、[減少について説明してください]** (前の棒が低い場合は [増加について説明してください]) の順に選択するか、**[分析] を選択し、分布が異なる部分を [検索]** します。これにより、使いやすいウィンドウで洞察が得られます。
 
 ![](media/desktop-insights/insights_01.png)
 

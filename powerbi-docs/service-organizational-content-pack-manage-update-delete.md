@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852304"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182796"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>組織のコンテンツ パックを管理、更新、削除する
 > [!NOTE]
@@ -52,7 +52,7 @@ ms.locfileid: "34852304"
 4. **[コンテンツ パックの更新]** ウィンドウで任意の必要な変更を加え、 **[更新]** をクリックします。 **成功** メッセージが表示されます。
    
    * コンテンツ パックをカスタマイズしていないグループ メンバーの場合、更新内容は自動的に適用されます。
-   * コンテンツ パックをカスタマイズしたグループ メンバーの場合、新しいバージョンがあるという通知を受け取ります。  そこで、AppSource に移動して、自分のパーソナライズ バージョンを失わずに、更新されたコンテンツ パックを入手できます。  その場合、自分のパーソナライズ バージョンと更新されたコンテンツ パックの 2 つのバージョンを持つことになります。  パーソナライズ バージョンでは、元のコンテンツ パックからのすべてのタイルが失われます。  ただし、他のレポートからピン留めしていたタイルは引き続きレンダリングされます。    
+   * コンテンツ パックをカスタマイズしたグループ メンバーの場合、新しいバージョンがあるという通知を受け取ります。  そこで、AppSource に移動して、自分のパーソナライズ バージョンを失わずに、更新されたコンテンツ パックを入手できます。  その場合、自分のパーソナライズ バージョンと更新されたコンテンツ パックの 2 つのバージョンを持つことになります。  パーソナライズ バージョンでは、元のコンテンツ パックからのすべてのタイルが失われます。  ただし、他のレポートからピン留めしていたタイルは引き続きレンダリングされます。 ただし、コンテンツ パック所有者がコンテンツ パックの基となるデータ セットを削除すると、レポート全体が削除されます。  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>対象ユーザーの更新: アクセスの拡張または制限
 コンテンツ パックの作成者が行うことのできる別の変更は、コンテンツ パックへのアクセスの拡張と制限です。  コンテンツ パックを大勢の対象ユーザーに対して発行し、より小さいグループにアクセスを制限することができます。  

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34232110"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210332"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Power BI Desktop のレポート ページを基にしてヒントを作成する (プレビュー)
 **Power BI Desktop** で作成したレポート ページを基にして、ビジュアルをマウス ポインターでポイントすると表示されるさまざまな視覚的**レポート ヒント**を作成できます。 ヒントとして機能するレポート ページを作成することにより、レポート ページで作成したビジュアル、イメージ、その他の項目のコレクションを、カスタム ヒントに含めることができます。 
@@ -88,7 +88,7 @@ ms.locfileid: "34232110"
 
 ![手動ヒントのヒント ページを選択する](media/desktop-tooltips/desktop-tooltips_10.png)
 
-ヒントの手動設定には多くの用途があります。 ヒント用に空白のページを設定し、それで Power BI の既定のヒント選択を上書きできます。 または、Power BI によって自動的に選択されるヒントを使いたくない場合にも使用できます。 たとえば、2 つのフィールドを含むビジュアルがあり、両方のフィールドにヒントが関連付けられている場合、Power BI は 1 つだけ選んで表示します。 それが望ましくない場合は、表示されるヒントを手動で選択できます。
+ヒントの手動設定には多くの用途があります。 ヒント用に空白のページを設定し、それで Power BI の既定のヒント選択をオーバーライドできます。 または、Power BI によって自動的に選択されるヒントを使いたくない場合にも使用できます。 たとえば、2 つのフィールドを含むビジュアルがあり、両方のフィールドにヒントが関連付けられている場合、Power BI は 1 つだけ選んで表示します。 それが望ましくない場合は、表示されるヒントを手動で選択できます。
 
 ## <a name="reverting-to-default-tooltips"></a>既定のヒントに戻す
 
@@ -119,6 +119,7 @@ ms.locfileid: "34232110"
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 このプレビュー バージョンのレポート **ヒント**には、注意すべきいくつかの制限事項と考慮事項があります。
 
+* **Power BI Desktop** の 2018 年 7 月のリリース以降、ツールヒントについてテーブルとマトリックスのビジュアルがサポートされています。 
 * モバイル アプリや、Web に公開などの埋め込み環境でレポートを表示するときは、レポート ヒントはサポートされません。 
 * カスタム ビジュアルでは、レポート ヒントはサポートされません。 
 * 現在、クラスターはレポート ヒントに表示できるフィールドとしてサポートされません。 

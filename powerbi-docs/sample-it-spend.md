@@ -41,7 +41,7 @@ IT 支出分析[コンテンツ パック](service-organizational-content-pack-i
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. **[IT 支出分析のサンプル]** を選び、**[接続]** を選びます。  
   
-   ![データを取得](media/sample-it-spend/it-connect.png)
+   ![データの取得](media/sample-it-spend/it-connect.png)
    
 5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 
    
