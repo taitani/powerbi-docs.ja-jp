@@ -54,7 +54,7 @@ Power BI は、Android 5.0 以降のオペレーティング システムを搭�
 
 3. 左下隅にある **[データを取得]** を選びます。
    
-    ![データを取得](media/mobile-apps-quickstart-view-dashboard-report/power-bi-get-data.png)
+    ![データの取得](media/mobile-apps-quickstart-view-dashboard-report/power-bi-get-data.png)
 
 3. [データを取得] ページで、**[サンプル]** アイコンを選びます。
    

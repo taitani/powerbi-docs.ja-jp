@@ -41,7 +41,7 @@ Power BI Pro ライセンスを購入するには、次の手順に従います�
 
     ![サブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
 
-4. 次のようにして、目的のサブスクリプション サービスを見つけます。
+4. 次のようにして、目的のサブスクリプション オファーを見つけます。
 
     **[Enterprise Suite]** で、**[Office 365 Enterprise E5]** を選択します。
 

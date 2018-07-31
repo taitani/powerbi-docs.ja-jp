@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/26/2018
 ms.author: maggies
 ms.custom: ''
-ms.openlocfilehash: 4a3b5aec179eb9436f1d8ed8a58bcf97906e1c1f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75f64de25799488d85b4f9938fa134d0d277f222
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294711"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280043"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI モバイル アプリとは
 Power BI では、iOS、Android、および Windows 10 モバイル デバイス用のモバイル アプリを提供しています。 モバイル アプリを使用して、クラウドとオンプレミスのデータに接続して操作します。 
@@ -42,6 +42,6 @@ Microsoft Intune では、アクセスに暗証番号 (PIN) を必要とする�
 詳細については、「[Android および iOS 用 Power BI モバイル アプリを Microsoft Intune で構成する](service-admin-mobile-intune.md)」をご覧ください。 
 
 ## <a name="next-steps"></a>次の手順
-[モバイル アプリにダッシュボードを表示する](mobile-apps-find-content-mobile-devices.md)
+[モバイル アプリにダッシュボードを表示する](mobile-apps-quickstart-view-dashboard-report.md)
 
 

@@ -26,7 +26,7 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | デプロイ | オンプレミスまたはクラウドでホスト | クラウド | Power BI Report Server は、Power BI Premium を通じてライセンス供与された場合は、Azure VM にデプロイできます (クラウドでホストされます)
 | ソース データ | クラウドとオンプレミスの両方またはいずれか | クラウドとオンプレミスの両方またはいずれか |  
 | ライセンス | Power BI Premium または SA 付きの SQL Server EE | Power BI Pro と Power BI Premium の両方またはいずれか |  
-| ライフサイクル | 最新のライフサイクル ポリシー | 完全に管理されたサービス |  
+| ライフサイクル | 最新のライフサイクル ポリシー | フル マネージドのサービス |  
 | リリース サイクル | 4 か月ごと | 月に 1 回 | 最新の機能と修正プログラムは、Power BI サービスに先に提供されます。 ほとんどのコア機能は、数回後のリリースで Power BI Report Server に提供されます。一部の機能は Power BI サービスのみが対象です。
 | Power BI Desktop での Power BI レポートの作成 | はい | はい |  
 | ブラウザーでの Power BI レポートの作成 | いいえ | はい |  

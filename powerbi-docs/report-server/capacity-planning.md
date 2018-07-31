@@ -1,6 +1,6 @@
 ---
 title: Power BI Report Server のキャパシティ プランニング ガイダンス
-description: このホワイト ペーパーでは、さまざまなワークロードのロード テストを実行した結果を示し、Power BI Report Server のキャパシティ プランニングに関するガイダンスを提供します。
+description: このホワイト ペーパーでは、さまざまなワークロードのロード テストを実行した結果を示し、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。
 author: parthsha
 manager: kfile
 ms.reviewer: maghan
@@ -17,7 +17,7 @@ ms.lasthandoff: 06/04/2018
 ms.locfileid: "34561818"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server のキャパシティ プランニング ガイダンス
-Power BI Report Server はセルフ サービスの BI およびエンタープライズ レポート ソリューションであり、ユーザーはファイアウォールの内側のオンプレミスに展開できます。 Power BI Desktop の対話型レポート機能と、SQL Server Reporting Services のオンプレミスのサーバー プラットフォームが組み合わされています。 企業では分析とレポートが大量に使用され、さらに増え続けており、エンタープライズ ユーザー ベースへの拡張に必要なハードウェア インフラストラクチャやソフトウェア ライセンスの予算が問題になる場合があります。 このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスを提供します。 レポート、クエリ、使用のパターンは組織によって大きく異なりますが、ここで示す結果と、実際に使われたテストおよび実行方法の詳細な説明は、Power BI Report Server の展開の早期計画プロセスで参考になります。
+Power BI Report Server はセルフ サービスの BI およびエンタープライズ レポート ソリューションであり、ユーザーはファイアウォールの内側のオンプレミスに展開できます。 Power BI Desktop の対話型レポート機能と、SQL Server Reporting Services のオンプレミスのサーバー プラットフォームが組み合わされています。 企業では分析とレポートが大量に使用され、さらに増え続けており、エンタープライズ ユーザー ベースへの拡張に必要なハードウェア インフラストラクチャやソフトウェア ライセンスの予算が問題になる場合があります。 このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 レポート、クエリ、使用のパターンは組織によって大きく異なりますが、ここで示す結果と、実際に使われたテストおよび実行方法の詳細な説明は、Power BI Report Server の展開の早期計画プロセスで参考になります。
 
 ## <a name="executive-summary"></a>概要
 2 種類のワークロードを Power BI Report Server に対して実行しました。各ワークロードは、異なる種類のレポートの表示と、さまざまな Web ポータル操作の実行で構成されています。 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249507"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280457"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI で共同作業および共有を行う方法
 
@@ -75,7 +75,7 @@ iOS および Android デバイス用 Power BI モバイル アプリでは、�
 
 iOS および Android モバイル アプリからの、[タイル、レポート、およびビジュアルの共有および注釈付け](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)の詳細を確認してください。
 
-Windows 10 デバイス用 Power BI アプリから、[タイルのスナップショットを共有する](mobile-share-tile-windows-10-phone-app.md)こともできます。
+Windows 10 デバイス用 Power BI アプリから、[タイルのスナップショットを共有する](mobile-windows-10-phone-app-get-started.md)こともできます。
 
 ## <a name="publish-to-the-web"></a>Web への公開
 ブログの投稿、Web サイト、ソーシャル メディア、およびその他オンライン通信に対話的な視覚エフェクトを埋め込むことで、Power BI レポートをインターネット全体に公開することができます。 インターネット上のすべてのユーザーがレポートを表示できるため、公開した内容を閲覧できるユーザーは制御できません。 ユーザーに Power BI ライセンスは必要ありません。 Web に公開できるのは、自分で編集可能なレポートだけです。 他のユーザーから共有されているレポート、またはアプリ内にあるレポートは、Web に公開できません。 [Web への公開について詳しくはこちら](service-publish-to-web.md)。

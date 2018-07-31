@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/07/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a8fde13b0beeb57fb5d25aa35002358f04ab6cad
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3f6373db938f92f86c0f438162de4454f5f12e00
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288569"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280089"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery と SAP Business Warehouse (BW)
 **SAP Business Warehouse (BW)** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP BW は OLAP/多次元的な性質があるため、SAP BW での DirectQuery と SQL Server などのリレーショナル ソース間では多数の重要な違いがあります。 これらの相違点は次のとおりです。
@@ -33,8 +33,7 @@ ms.locfileid: "34288569"
 Power BI で DirectQuery を使用して SAP BW に接続する場合のモデリング上のその他の主要な制限は次のとおりです。
 
 * **計算列のサポートがない:** 計算列を作成する機能は無効です。 これは、計算列を作成するグループ化とクラスタリングも使用できないことを意味します。
-* 
-  **メジャーのその他の制限:** メジャーで使用できる、SAP BW のサポート レベルを反映する DAX 式の制限がこの他にもあります。
+* **メジャーのその他の制限:** メジャーで使用できる、SAP BW のサポート レベルを反映する DAX 式の制限がこの他にもあります。
 * **リレーションシップの定義のサポートがない:** リレーションシップは外部 SAP ソースに内在しており、モデルではリレーションシップを追加定義できません。
 * **データ ビューがない:** **[データ ビュー]** は、通常詳細レベル データをテーブルに表示します。 SAP BW などの OLAP のソースの性質から、このビューは SAP BW では使用できません。
 * **列とメジャーの詳細は固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりすることはできません (ただし、名前変更は可能です)。
@@ -44,8 +43,7 @@ Power BI で DirectQuery を使用して SAP BW に接続する場合のモデ�
 Power BI で DirectQuery を使用して SAP BW に接続する場合の視覚エフェクトのその他の主要な制限は次のとおりです。
 
 * **列集計ができない:** ビジュアルでは列の集計の変更はできません。常に *[集計しない]* です。
-* 
-  **メジャーのフィルターは無効:** SAP BW でのサポートと一致するようにメジャーのフィルターは無効になっています。
+* **メジャーのフィルターは無効:** SAP BW でのサポートと一致するようにメジャーのフィルターは無効になっています。
 * **複数選択と含める/除外する:** ビジュアルでは、複数の列の値である場合、データ ポイントを複数選択する機能は無効です。 たとえば、凡例にカテゴリがある、国別の売上を示す棒グラフがある場合、(USA, Bikes) と (France, Clothes) のポイントを選択できません。 これと同様に、(USA, Bikes) のポイントを選択し、それをビジュアルから除外することはできません。 いずれも、SAP BW でのサポートと一致するよう制限されています。
 
 ## <a name="support-for-sap-bw-features"></a>SAP BW の機能のサポート

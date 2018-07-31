@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598631"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280135"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのタイルを調べる
 適用対象:
@@ -92,7 +92,7 @@ ms.locfileid: "37598631"
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [タイルのスナップショットを共有](mobile-share-tile-windows-10-phone-app.md)できます。
+    [タイルのスナップショットを共有](mobile-windows-10-phone-app-get-started.md)できます。
    
     **[レポートを開く]** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) をタップして、[基になっているレポートを表示](mobile-reports-in-the-mobile-apps.md)できます。
    
@@ -120,7 +120,7 @@ ms.locfileid: "37598631"
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   [スナップショットの共有] アイコン ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) をタップして、他ユーザーと[タイルを共有](mobile-share-tile-windows-10-phone-app.md)します。   
+   [スナップショットの共有] アイコン ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) をタップして、他ユーザーと[タイルを共有](mobile-windows-10-phone-app-get-started.md)します。   
    
    [レポートを開く] アイコン ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) をタップして、そのタイルの基になっている[レポートを表示](mobile-reports-in-the-mobile-apps.md)します。 
 4. 戻る矢印または戻るボタンをタップして、タイルを閉じ、ダッシュボードに戻ります。

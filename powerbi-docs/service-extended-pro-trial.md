@@ -80,8 +80,7 @@ Power BI サービスにサインインすると、キャンペーン対象で�
 
 ![Power BI Pro 試用版の残りの日数](media/service-extended-pro-trial/powerbi-trial-days-left.png)
 
-
-  [Extended Pro Trial キャンペーンの利用規約](https://aka.ms/power-bi-trial)内に条件の記載があります。 すべてのユーザーを対象に、Extended Pro Trial は 2018 年 5 月 31 日をもって終了します。
+[Extended Pro Trial キャンペーンの利用規約](https://aka.ms/power-bi-trial)内に条件の記載があります。 すべてのユーザーを対象に、Extended Pro Trial は 2018 年 5 月 31 日をもって終了します。
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 **2017 月 5 月 3 日の後にサインアップした新規ユーザーはどうなりますか。**
@@ -104,8 +103,7 @@ Power BI サービスにサインインすると、キャンペーン対象で�
 いいえ。 管理者は Extended Pro Trial やサービス内 Power BI Pro 60 日間試用版のアクティベートをユーザーに禁止することはできません。
 
 ## <a name="next-steps"></a>次の手順
-
-  [Extended Pro Trial キャンペーンの利用規約](https://aka.ms/power-bi-trial)  
+[Extended Pro Trial キャンペーンの利用規約](https://aka.ms/power-bi-trial)  
 [個々のユーザーに対する Power BI サービス契約](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium に関するお知らせ](https://aka.ms/pbipremium-announcement)  
 [サインインした Power BI ユーザーを見つける](service-admin-access-usage.md)

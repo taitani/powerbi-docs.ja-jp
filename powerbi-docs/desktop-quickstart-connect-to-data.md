@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 3f29bd899c62adbe2de1fdedd25b60cb104c71e0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f7266691573c0d02bafa7120b5d4a28ff0c03076
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287833"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327663"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>クイック スタート: Power BI Desktop でデータに接続する
 
@@ -43,21 +43,21 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 
 データに接続するには、**[ホーム]** リボンの **[データの取得]** を選択します。
 
-![データを取得](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
+![データの取得](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
 **[データの取得]** ウィンドウが表示され、**Power BI Desktop** が接続できる多数の異なるデータ ソースから選択できます。 このクイックスタートでは、この記事の始めの「*前提条件*」セクションで説明したダウンロード済みの Excel ブックを使用します。 
 
-![データを取得](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
+![データの取得](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
 これは Excel ファイルであるため、**[データの取得]** ウィンドウで **[Excel]** を選択し、**[接続]** ボタンを選択します。
 
 接続する Excel ファイルの場所を指定することを求められます。 ダウンロード済みのファイルは "*Financial Sample*" という名前であるため、そのファイルを選択し、**[開く]** を選択します。
 
-![データを取得](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
+![データの取得](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
 
 **Power BI Desktop** によってブックが読み込まれ、その内容が読み取られ、ファイル内の使用可能なデータが **[ナビゲーター]** ウィンドウに表示されます。このウィンドウで、Power BI Desktop に読み込むデータを選択できます。 各テーブルの横にあるチェックボックスをオンにすることで、インポートするテーブルを選択します。 ここでは、使用可能なテーブルを両方インポートします。
 
-![データを取得](media/desktop-quickstart-connect-to-data/qs-connect-data_05.png)
+![データの取得](media/desktop-quickstart-connect-to-data/qs-connect-data_05.png)
 
 選択を行ったら、**[読み込み]** を選択して Power BI Desktop にデータをインポートします。
 
@@ -65,7 +65,7 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 
 テーブルが読み込まれると、**[フィールド]** ウィンドウにデータが表示されます。 テーブル名の横にある三角形を選択することで、各テーブルを展開できます。 次の図では、*financials* テーブルが展開され、各フィールドが表示されています。 
 
-![データを取得](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
+![データの取得](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 
 これで完了です。 **Power BI Desktop** でデータに接続し、そのデータを読み込んで、それらのテーブル内のすべての利用可能なフィールドを表示しました。
 

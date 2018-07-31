@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7fb3e6163d63cdf3f40d0400f246095550fc9032
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4540c00e4956e87e1c012dc2a35c00e61e00b5a6
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286568"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328146"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Power BI の高密度線サンプリング
 **Power BI Desktop** の 2017 年 6 月リリースおよび **Power BI サービス**の更新以降、新しいサンプリング アルゴリズムが使用可能です。これにより、高密度データをサンプリングする視覚エフェクトが改善されます。 たとえば、小売店の売上結果から折れ線グラフを作成するとします。各店舗の売上金は毎年 1 万を超えています。 このような売上情報の折れ線グラフで、各店舗のデータをサンプリングし (そのデータのわかりやすい表記を選択して、時間の経過と共に売り上げがどのように変化しているかを示す)、複数系列折れ線グラフを作成し、基になるデータを表します。 これは、高密度データを視覚化する一般的な方法です。 Power BI Desktop では高密度データのサンプリングが改善されました。詳細については、この記事で説明します。

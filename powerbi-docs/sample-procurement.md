@@ -45,7 +45,7 @@ ms.locfileid: "36944679"
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. **[調達の分析のサンプル]** を選択し、**[接続]** を選択します。  
   
-   ![データを取得](media/sample-procurement/procurement1a.png)
+   ![データの取得](media/sample-procurement/procurement1a.png)
    
 5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 
    

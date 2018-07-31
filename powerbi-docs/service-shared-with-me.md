@@ -19,7 +19,7 @@ ms.lasthandoff: 06/26/2018
 ms.locfileid: "34298713"
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>自分と共有の Power BI ダッシュボードを表示する
-## <a name="shared-with-me"></a>自分と共有
+## <a name="shared-with-me"></a>共有アイテム
 ![[共有] アイコン](media/service-shared-with-me/power-bi-share-dash.png)
 
 同僚がダッシュボードを自分と共有した場合、そのタイトルは **[自分と共有]** の一覧に追加されます。 このダッシュボードは **[自分と共有]** からのみ使用でき、ワークスペースや**アプリ**からは使用できません。

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295263"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279851"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI モバイル アプリでタイル、レポート、ビジュアルに注釈を付けて共有する
 適用対象:
@@ -31,7 +31,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、�
 
 タイル、レポート、または視覚エフェクトのスナップショットを含むメールには、Power BI サービス ([https://powerbi.com](https://powerbi.com)) の実際のオブジェクトへのリンクも含まれています。 送信者と受信者が Power BI Pro ライセンスを持っている、またはコンテンツが [Premium 容量](service-premium.md)に格納されていて、タイル、レポート、および視覚エフェクトをその受信者と既に共有している場合、受信者はリンクをクリックして、それらのアイテムに直接移動できます。 
 
-[Windows 10 デバイス用 Power BI モバイル アプリからもタイルを共有](mobile-share-tile-windows-10-phone-app.md)できますが、タイルに注釈を付けることはできません。
+[Windows 10 デバイス用 Power BI モバイル アプリからもタイルを共有](mobile-windows-10-phone-app-get-started.md)できますが、タイルに注釈を付けることはできません。
 
 ## <a name="open-a-tile-for-annotating"></a>注釈を付けるためにタイルを開く
 1. タイルをタップして、フォーカス モードで開きます。

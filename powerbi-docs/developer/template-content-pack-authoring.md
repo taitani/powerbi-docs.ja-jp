@@ -9,20 +9,20 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 02c4725617960474cff7a9a1452861d1ab5d5b8d
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157572"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290877"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI でテンプレート コンテンツ パックを作成する
 Power BI Desktop と PowerBI.com を使用するテンプレート コンテンツ パックをオーサリングします。 コンテンツ パックには 4 つのコンポーネントがあります。
 
-* クエリによって、データへの[接続](desktop-connect-to-data.md)と[変換](desktop-query-overview.md)ができるだけでなく、[パラメーター](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)も定義することができます  
-* [リレーションシップ](desktop-create-and-manage-relationships.md)、[メジャー](desktop-measures.md)、および Q&A の機能強化を作成するためのデータ モデル  
-* レポート [ページ](desktop-report-view.md)には、データに対する洞察を提供するためのビジュアルとフィルターが含まれます  
-* [ダッシュボード](service-dashboards.md)と[タイル](service-dashboard-create.md)は、含まれている洞察の概要を提供します  
+* クエリによって、データへの[接続](../desktop-connect-to-data.md)と[変換](../desktop-query-overview.md)ができるだけでなく、[パラメーター](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)も定義することができます  
+* [リレーションシップ](../desktop-create-and-manage-relationships.md)、[メジャー](../desktop-measures.md)、および Q&A の機能強化を作成するためのデータ モデル  
+* レポート [ページ](../desktop-report-view.md)には、データに対する洞察を提供するためのビジュアルとフィルターが含まれます  
+* [ダッシュボード](../service-dashboards.md)と[タイル](../service-dashboard-create.md)は、含まれている洞察の概要を提供します  
 
 既存の Power BI 機能など、各部分について精通しているかもしれません。 コンテンツ パックを構築する場合に、各側面について考慮すべき追加事項があるなら、詳細については以下の各セクションを参照してください。
 
@@ -40,8 +40,8 @@ Power BI Desktop の難しい設定のいらないデータ コネクタを利�
 
 > [!NOTE]
 > API で OAuth 2.0 や Web API キーなど、その他の種類の認証が利用される場合、Power BI Desktop が API に接続され、認証されるように、独自のデータ コネクタを作成する必要があります。 コンテンツ パックに独自のデータ コネクタを作成する方法については、[ここ](https://aka.ms/DataConnectors)にあるデータ コネクタ ドキュメントを参照してください。 
->
->
+> 
+> 
 
 ### <a name="consider-the-source"></a>ソースを検討する
 クエリは、データ モデルに含まれるデータを定義します。 システムのサイズに応じて、顧客がビジネス シナリオに合った管理可能なサイズを扱っていることを確認するために、これらのクエリにフィルターを含める必要があります。
@@ -56,24 +56,22 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 
 > [!NOTE]
 > テンプレート コンテンツ パックは現在、テキスト パラメーターのみをサポートします。 開発中に他のパラメーター型を使用できますが、[テスト](template-content-pack-testing.md#templates)部分の間にユーザーによって提供されるすべての値はリテラルとなります。
->
->
+> 
+> 
 
 ### <a name="additional-query-tips"></a>追加のクエリ ヒント
-
-* すべての列が適切に入力されたことを確認する
+* すべての列が適切に入力されたことを確認する  
 * 列にわかりやすい名前をつける (Q&A を参照してください)  
 * 共有ロジックについては、関数またはクエリの使用を検討する  
 * プライバシーのレベルは現在サービスでサポートされていない - プライバシーのレベルについてプロンプトが表示される場合、相対パスを使用するようクエリを再作成する必要が生じることがあります  
 
 ## <a name="data-model"></a>データ モデル
-
 適切に定義されたデータ モデルにより、顧客は簡単かつ直感的にコンテンツ パックと対話できるようになります。 Power BI Desktop で、データ モデルを作成します。
 
 > [!NOTE]
 > 基本的なモデリング (型指定と列名) の多くは、[クエリ](#queries)で作業する必要があります。
->
->
+> 
+> 
 
 ### <a name="qa"></a>Q&A
 モデリングはまた、Q&A が顧客に対してどれほど結果を提供できるかに影響します。 一般的に使用される列にシノニムを追加し、列が[クエリ](#queries)で適切に命名されていることを確認します。
@@ -92,8 +90,8 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 
 > [!NOTE]
 > コンテンツ パックにただ 1 つのレポートしか含まれていない場合、シナリオの特定のセクションを呼び出すためにさまざまなページを利用することができます。
->
->
+> 
+> 
 
 ### <a name="additional-report-tips"></a>追加のレポートに関するヒント
 * クロス フィルター処理のために、1 ページあたり 1 つ以上のビジュアルを使用する  
@@ -113,8 +111,8 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 
 > [!NOTE]
 > テンプレート コンテンツ パックには現在、コンテンツ パックごとに 1 つのレポートとデータセットが必要です。 コンテンツ パックで使用されるダッシュボードに複数のレポートまたはデータセットからのコンテンツをピン留めしないでください。
->
->
+> 
+> 
 
 ### <a name="additional-dashboard-tips"></a>追加のダッシュボードのヒント
 * ダッシュボード上のタイルが一貫性のあるようにピン留めされた場合に、同じテーマを保持する  
@@ -139,3 +137,4 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 
 ## <a name="next-step"></a>次の手順
 [コンテンツ パックのテストと提出](template-content-pack-testing.md)
+

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ba6b8cb1ade1337a29e758a16db285dbea7c41db
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136527"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280181"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android デバイスでの Power BI モバイル アプリの概要
 Microsoft Power BI 用 Android アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 
@@ -86,7 +86,7 @@ Power BI ダッシュボードのサンプルを表示し、使ってみるこ�
     既定では、すべてのダッシュボードとレポートが検索されますが、どちらか一方だけを検索することもできます。
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでコンテンツを見つける
-ダッシュボードとレポートの Power BI モバイル アプリ内で保存されている場所はソースによって異なります。 モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-find-content-mobile-devices.md)をご覧ください。 また、Power BI モバイル アプリに置かれているものは常に何でも検索できます。 
+ダッシュボードとレポートの Power BI モバイル アプリ内で保存されている場所はソースによって異なります。 モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。 また、Power BI モバイル アプリに置かれているものは常に何でも検索できます。 
 
 ![左側のナビゲーション ウィンドウ](media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 

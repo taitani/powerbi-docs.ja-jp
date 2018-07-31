@@ -83,7 +83,7 @@ Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリ�
 1. iPhone または iPad で、![グローバル ナビゲーション ボタン](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) > **[ワークスペース]** > **[マイ ワークスペース]** をタップします。[小売りの分析のサンプル] ダッシュボードが開きます。
 
 2. ページの下部 (iPad ではページの上部) にある操作メニューから、Q&A 仮想アナリスト アイコン![Q&A 仮想アナリスト アイコン](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)をタップします。
-     Q&A 仮想アナリストにより、作業を開始するいくつかの候補が提供されます。
+     Q&amp;A 仮想アナリストにより、作業を開始するいくつかの候補が提供されます。
 3. 「**表示**」と入力し、候補リストから **[sales]\(販売\)** をタップして、**[送信]** ![[送信] アイコン](media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
     ![Show sales (売り上げを表示する)](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)

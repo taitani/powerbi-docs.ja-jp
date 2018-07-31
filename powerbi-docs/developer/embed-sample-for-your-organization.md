@@ -56,7 +56,7 @@ ms.locfileid: "39105271"
     ![アプリの登録の検索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)</br>
     ![新しいアプリの登録](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. 画面の指示に従って、新しいアプリケーションを作成します。 **ユーザー所有データ**の場合、アプリケーションの種類には **[Web アプリ/API]** を使用する必要があります。 また、**Azure AD** でトークン応答を返すために使用する、**[サインオン URL]** を指定する必要もあります。 アプリケーション固有の値を入力します ( 例:  http://localhost:13526/))。
+4. 画面の指示に従って、新しいアプリケーションを作成します。 **ユーザー所有データ**の場合、アプリケーションの種類には **[Web アプリ/API]** を使用する必要があります。 また、**Azure AD** でトークン応答を返すために使用する、**[サインオン URL]** を指定する必要もあります。 アプリケーション固有の値を入力します ( 例:  http://localhost:13526/)
 
     ![アプリを作成する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 

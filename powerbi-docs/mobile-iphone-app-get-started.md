@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 9e5d878b676159db7990af983f53ce813ac44441
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136556"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280250"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS デバイスでの Power BI モバイル アプリの概要
 iPhone、iPad、iPod Touch に Microsoft Power BI for iOS アプリをインストールすれば、Power BI、Power BI Report Server、Reporting Services のビジネス インテリジェンスをモバイル利用できます。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
@@ -73,11 +73,11 @@ Power BI ダッシュボードのサンプルを表示し、使ってみるこ�
    ![Power BI モバイル アプリの Reporting Services のサンプル](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでコンテンツを見つける
-ダッシュボードとレポートの Power BI モバイル アプリ内で保存されている場所はソースによって異なります。 モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-find-content-mobile-devices.md)をご覧ください。 また、Power BI モバイル アプリに置かれているものは常に何でも検索できます。 
+ダッシュボードとレポートの Power BI モバイル アプリ内で保存されている場所はソースによって異なります。 モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。 また、Power BI モバイル アプリに置かれているものは常に何でも検索できます。 
 
 ![左側のナビゲーション ウィンドウ](media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
-モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-find-content-mobile-devices.md)をご覧ください。
+モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>お気に入りのダッシュボード、KPI、レポートを表示する
 モバイル アプリの [お気に入り] ページで、Power BI レポート サーバーおよび Reporting Services の KPI とレポートと共にすべてのお気に入りの Power BI ダッシュボードを表示することができます。 Power BI モバイル アプリでダッシュボードを *お気に入り* にすると、ブラウザーの Power BI サービスを含むすべてのデバイスからアクセスできます。 

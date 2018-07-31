@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/04/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a56108668bea3e5210c4429825045ebb23faf72c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34228762"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330491"
 ---
 # <a name="using-buttons-in-power-bi"></a>Power BI でボタンの使用
 Power BI で**ボタン**を使用すると、アプリと同様に動作するレポートとダッシュボードを作成できるため、興味をそそる環境を作成できます。これにより、ユーザーは Power BI コンテンツに対するマウスのポイント、クリック、および対話操作を行うことができます。 **Power BI Desktop** のレポートにボタンを追加して、Power BI サービスにレポートを共有および発行し、ユーザーのためにアプリのように動作するダッシュボードを作成できます。

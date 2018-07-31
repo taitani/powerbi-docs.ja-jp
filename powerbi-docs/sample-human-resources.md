@@ -45,7 +45,7 @@ ms.locfileid: "37067243"
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. **[人事のサンプル]** を選択し、**[接続]** を選択します。  
    
-   ![データを取得](media/sample-human-resources/pbi_hr_sample_connect.png)
+   ![データの取得](media/sample-human-resources/pbi_hr_sample_connect.png)
 5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 
    
    ![アスタリスク](media/sample-human-resources/human-resources-sample-asterisk.png)

@@ -40,7 +40,7 @@ ms.locfileid: "36944723"
    ![サンプル アイコン](media/sample-datasets/power-bi-samples-icon.png)
 4. **[お客様の収益性のサンプル]** を選び、**[接続]** を選びます。  
 
-   ![データを取得](media/sample-customer-profitability/get-supplier-sample.png)
+   ![データの取得](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 サンプルを使って Power BI を試してみます。  
 
    ![アスタリスク](media/sample-customer-profitability/supplier-sample-asterisk.png)
