@@ -96,7 +96,7 @@ ms.locfileid: "39210378"
 * じょうごグラフのデータ ラベル オプション  [[ビデオ]](https://youtu.be/-_GMCE1TLvQ?t=6m25s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
 * ストロークの幅をゼロに設定する  [[ビデオ]](https://youtu.be/-_GMCE1TLvQ?t=6m49s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 * ドリルスルーの測定  [[ビデオ]](https://youtu.be/-_GMCE1TLvQ?t=2m9s)  [[記事]](desktop-drillthrough.md#pass-all-filters-in-drillthrough)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
@@ -151,7 +151,7 @@ ms.locfileid: "39210378"
 * ビジュアルの既定の並べ替えの改善  [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=19m21s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
 * 数値のスライサーの一般公開  [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=21m13s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 * 言語スキーマの更新  [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[記事]](power-bi-custom-visuals-organization.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * 新しい DAX 関数: COMBINEVALUES()  [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
@@ -260,7 +260,7 @@ ms.locfileid: "39210378"
 * 組織のカスタム ビジュアル (プレビュー) [[動画]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[記事]](power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 * カスタム日付テーブルを設定する [[動画]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[記事]](desktop-date-tables.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 * クイック メジャーを一般的に利用可能 [[動画]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[記事]](desktop-quick-measures.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
@@ -319,7 +319,7 @@ ms.locfileid: "39210378"
 -   Q&A の上位 N [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
 -   さまざまな新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 -   相関係数のクイック測定 [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
@@ -370,7 +370,7 @@ ms.locfileid: "39210378"
 -   最近リリースされたカスタム ビジュアル [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 -   他のビジュアルの詳細フィルター [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=28m53s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
@@ -425,7 +425,7 @@ ms.locfileid: "39210378"
 -   最近リリースされたカスタム ビジュアル [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 -   複数の行カードに対する多次元 AS モデルのセル レベルの書式設定 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
 

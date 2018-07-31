@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210332"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280756"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Power BI Desktop のレポート ページを基にしてヒントを作成する (プレビュー)
 **Power BI Desktop** で作成したレポート ページを基にして、ビジュアルをマウス ポインターでポイントすると表示されるさまざまな視覚的**レポート ヒント**を作成できます。 ヒントとして機能するレポート ページを作成することにより、レポート ページで作成したビジュアル、イメージ、その他の項目のコレクションを、カスタム ヒントに含めることができます。 
@@ -124,6 +124,7 @@ ms.locfileid: "39210332"
 * カスタム ビジュアルでは、レポート ヒントはサポートされません。 
 * 現在、クラスターはレポート ヒントに表示できるフィールドとしてサポートされません。 
 * レポート ヒントに表示するフィールドを選択するとき、フィールドとカテゴリが使われていると、そのフィールドを含むビジュアルは、選択されたフィールドの要約が一致する場合にのみ指定されたヒントを表示します。 
+
 
 
 ## <a name="next-steps"></a>次の手順

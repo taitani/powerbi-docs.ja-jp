@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
-ms.openlocfilehash: 339390bba2e35101bdd42f7f51ab059473231575
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 51ad188479c11f5a0d16768eee8c533bdc71c59c
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290892"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359934"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する
 Power BI アプリケーション内でユーザーを認証し、REST API で使うアクセス トークンを取得する方法について説明します。
@@ -190,7 +190,6 @@ var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "B
 **await** の使い方については、「[await (C# リファレンス)](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/await)」をご覧ください
 
 ## <a name="next-steps"></a>次の手順
-アクセス トークンを入手したので、Power BI REST API を呼び出してコンテンツを埋め込むことができます。 コンテンツの埋め込み方法について詳しくは、「[Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embedding-content.md#step-2-embed-your-content)」をご覧ください。
+アクセス トークンを入手したので、Power BI REST API を呼び出してコンテンツを埋め込むことができます。 コンテンツの埋め込み方法について詳しくは、「[Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embed-sample-for-customers.md#embed-your-content-within-your-application)」をご覧ください。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-

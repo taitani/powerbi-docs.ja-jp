@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182727"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280779"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -185,7 +185,7 @@ Power BI iOS モバイル アプリでプロキシ設定を使用できるよう
 
 **新しいメニュー: アプリ** アプリは組織が作成したダッシュボードとレポートの集まりであり、データに基づく意思決定を短時間で簡単に行うための主要な指標を提供します。
 
-Power BI コンテンツの編成については[ここ](mobile-apps-find-content-mobile-devices.md)をご覧ください。
+Power BI コンテンツの編成については[ここ](mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。
 
 #### <a name="ios-and-android-devices"></a>iOS および Android デバイス
 **Power BI レポート サーバーのプレビュー**Power BI のレポートをオンプレミスで作成して公開します。 次に、[iOS または Android のモバイル デバイスでこれらを表示し、対話します](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。 
@@ -241,7 +241,7 @@ Q&A を使って自分の言葉でデータに関する質問をすると、Powe
 最大で 5 つの SQL Server Reporting Services (SSRS) サーバーに同時に接続できるようになりました。
 
 #### <a name="android-tablets"></a>Android タブレット
-Android タブレット用 **Power BI モバイル アプリ**がグローバルに使用できるようになりました。 [Android タブレットで Power BI](mobile-android-tablet-app-get-started.md) を利用してください。
+Android タブレット用 **Power BI モバイル アプリ**がグローバルに使用できるようになりました。 [Android タブレットで Power BI](mobile-android-app-get-started.md) を利用してください。
 
 #### <a name="ios-and-android-devices"></a>iOS および Android デバイス
 **ダッシュボードのタイル用の新しいメニュー** 基になるレポートへの移動、タイルの展開、アラートの管理など、すべてをダッシュボードのタイルのメニューから直接実行できます。 
@@ -304,7 +304,7 @@ Apple Watch のデータを Watch アプリから直接更新できるように�
 #### <a name="android-tablets"></a>Android タブレット
 **Android タブレット向けの Power BI モバイル アプリ** プレビューはここにあります。
 
-* [Android タブレットで Power BI](mobile-android-tablet-app-get-started.md) を体験してください。
+* [Android タブレットで Power BI](mobile-android-app-get-started.md) を体験してください。
 * [Android タブレットで Reporting Services モバイル レポートと KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) をお試しください。
 
 #### <a name="android-devices"></a>Android デバイス
@@ -498,7 +498,7 @@ Power BI モバイル アプリの通知センターには、自分と共有さ�
 
 **R タイルと Web ウィジェット** これら新しい種類のタイルがモバイル デバイスのダッシュボードに表示されます。
 
-**Bing ダッシュボード** Power BI サービスで、[Bing の検索結果のダッシュボード](service-connect-to-bing.md)を作成し、モバイル デバイスで表示できるようになりました。
+**Bing ダッシュボード** Power BI サービスで、[Bing の検索結果のダッシュボード](service-connect-to-services.md)を作成し、モバイル デバイスで表示できるようになりました。
 
 **レポート ページをダッシュボードにタイルとしてピン留め** Power BI サービスで、レポート ページ全体をダッシュボードにピン留めし、iPhone または Android フォン上の Power BI アプリでレポート ページを表示できるようになりました。
 

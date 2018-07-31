@@ -56,7 +56,7 @@ ms.locfileid: "39210309"
 * 個々の系列の複合グラフのデータ ラベルをオフにする [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=34m19s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
 * 並べ替え機能の改善 [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=35m44s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 * 分布要因の分析 [[動画]](https://youtu.be/Mtig3rmIUe0?t=37m) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
