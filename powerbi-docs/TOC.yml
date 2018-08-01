@@ -42,7 +42,7 @@
               href: service-cortana-intro.md
             - name: Power BI のダッシュボードのタイル
               href: service-dashboard-tiles.md
-            - name: 自分と共有
+            - name: 共有アイテム
               href: service-shared-with-me.md
             - name: Power BI でのデータの更新
               href: refresh-data.md
@@ -918,14 +918,18 @@
       items:
         - name: 概要
           items:
-            - name: Power BI で埋め込み
+            - name: Power BI での埋め込みとは
               href: developer/embedding.md
+            - name: Azure での Power BI Embedded とは
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: チュートリアル
           items:
             - name: 顧客向けにコンテンツを埋め込む
               href: developer/embed-sample-for-customers.md
             - name: 組織向けにコンテンツを埋め込む
               href: developer/embed-sample-for-your-organization.md
+            - name: コンテンツをソブリン クラウド向けアプリケーションに統合する
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: 概念
           items:
             - name: 行レベルのセキュリティ (RLS)
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: 方法
           items:
-            - name: コンテンツを埋め込む方法
-              href: developer/embedding-content.md
             - name: アプリから埋め込む方法
               href: developer/embed-from-apps.md
-            - name: コンテンツをソブリン クラウド向けアプリケーションに統合する (アプリがデータを所有)
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Azure Active Directory テナントを作成する
               href: developer/create-an-azure-active-directory-tenant.md
             - name: アプリケーションを登録する
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: 埋め込みに関する Q&A
               href: developer/qanda.md
-            - name: Power BI Embedded を移行する方法
-              href: developer/migrate-from-powerbi-embedded.md
             - name: 埋め込みアプリケーションのトラブルシューティング
               href: developer/embedded-troubleshoot.md
+            - name: Azure で容量を管理する
+              items:
+                - name: Azure で容量を作成する
+                  href: developer/azure-pbie-create-capacity.md
+                - name: Azure で容量をスケールする
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: Azure で容量を一時停止し、開始する
+                  href: developer/azure-pbie-pause-start.md
+            - name: ワークスペース コレクションから移行する
+              items:
+                - name: Power BI ワークスペース コレクションから移行する方法
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: 移行ツール
+                  href: developer/migrate-tool.md
+                - name: 移行コード スニペット
+                  href: developer/migrate-code-snippets.md
         - name: リファレンス
           items:
+            - name: API
+              items:
+                - name: Azure リソース管理 REST API
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI REST API
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: .NET SDK ダウンロード
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: カスタム レイアウトをアプリに埋め込む
               href: developer/embedded-custom-layout.md
-            - name: 移行コード スニペット
-              href: developer/migrate-code-snippets.md
         - name: リソース
           items:
             - name: デベロッパー センター
@@ -978,8 +996,6 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: サンプル
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Power BI Embedded 移行ツール
-              href: developer/migrate-tool.md
             - name: Power BI コミュニティ
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: スタック オーバーフロー
@@ -1064,8 +1080,6 @@
           items:
             - name: REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI REST API リファレンス
-              href: developer/rest-api-reference.md
             - name: 完全なコード リスト
               href: developer/walkthrough-push-data-complete-code.md
         - name: リソース
