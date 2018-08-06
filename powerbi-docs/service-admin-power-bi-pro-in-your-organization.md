@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 0df9fc81c5e65f74fb7eba8b6699cb579e652b62
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250345"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280733"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>組織内の Power BI Pro
 
@@ -29,7 +29,7 @@ Power BI Pro は有料ライセンスであり、より多くの機能が有効�
 
 * **共有コンテンツの表示** - Pro ユーザーは、共有されているダッシュボードとレポートを表示し、対話し、再共有 (許可されている場合) できます。 ただし、Pro ユーザーはこれらのダッシュ ボードやレポートを編集することはできません。 詳細については、「[同僚や他のユーザーと自分の Power BI ダッシュボードやレポートを共有する](service-share-dashboards.md)」を参照してください。
 
-* **Microsoft Teams とのコンテンツの統合** - Microsoft (MS) Teams チャネルで Power BI のタブを追加することができます。 MS Teams は、ワークスペースですべてのレポートを自動的に検出します。 詳細については、「[Power BI teams up with Microsoft Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)」 (Power BI と Microsoft Teams との連携) を参照してください。 
+* **Microsoft Teams でコンテンツを統合する** - Microsoft (MS) Teams チャネルで Power BI タブを追加できます。 MS Teams は、ワークスペースですべてのレポートを自動的に検出します。 詳細については、「[Power BI teams up with Microsoft Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)」 (Power BI と Microsoft Teams との連携) を参照してください。 
 
 ## <a name="power-bi-pro-60-day-trial-for-individuals"></a>個人向け Power BI Pro の 60 日間の無料試用版
 

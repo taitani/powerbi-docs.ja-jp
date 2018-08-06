@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210286"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256034"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop レポートのアクセシビリティ
 Power BI には、障碍のある方がより簡単に Power BI レポートを使用し、レポートと対話できる機能があります。 これらは、レポートでキーボードやスクリーンリーダーを使用したり、ページ上のさまざまなオブジェクトにフォーカスをタブ移動したり、マーカーを使用して気の利いた視覚化を実行するための機能です。
@@ -40,6 +40,8 @@ Power BI には、障碍のある方がより簡単に Power BI レポートを�
 * フォーカスが読み込まれている*レポート ページ*にある場合、*Tab* キーを使用してページのすべてのテキスト ボックス、画像、図形、およびグラフなどの各オブジェクトにフォーカスを移動します。 スクリーン リーダーでは、オブジェクトの種類、オブジェクトのタイトルがある場合はそのオブジェクトの種類とタイトル、オブジェクトの説明がレポート作成者によって指定されている場合はその説明が読み上げられます。 
 
 ビジュアル間を移動するときに、さらにビジュアルと対話する場合は、**Alt + Shift + F10** キーを押して、ビジュアル ヘッダーにフォーカスを移動することができます。このヘッダーには、グラフの背後にあるデータの並べ替え、エクスポート、およびフォーカス モードなどのさまざまなオプションが含まれます。 
+
+![Power BI Desktop で Alt + Shift + F10 キーを押すと、フォーカスがビジュアル ヘッダーに移動する](media/desktop-accessibility/accessibility_08.png)
 
 **Alt + Shift + F11** キーを押すと、*[データの表示]* ウィンドウがアクセシビリティ バージョンで表示されます。 これにより、通常はスクリーン リーダーで使用するのと同じキーボード ショートカットを使って、HTML テーブルで、ビジュアルで使用されるデータを調べることができます。 
 

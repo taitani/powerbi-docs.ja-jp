@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900056"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280204"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop で SAP BW Connector を使用する
 Power BI Desktop で、**SAP BusinessWarehouse (BW)** のデータにアクセスできます。
 
-SAP のお客様が既存の SAP Business Warehouse (BW) システムに Power BI を接続することで得られる利点については、[Power BI と SAP BW に関するホワイトペーパー](https://aka.ms/powerbiandsapbw)をご覧ください。
+SAP のお客様が既存の SAP Business Warehouse (BW) システムに Power BI を接続することで得られる利点については、[Power BI と SAP BW に関するホワイトペーパー](https://aka.ms/powerbiandsapbw)をご覧ください。 DirectQuery と SAP BW を使用する方法については、「[DirectQuery と SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)」という記事をご覧ください。
 
 2018 年 6 月リリース以降の **Power BI Desktop** では、SAP BW Connector をパフォーマンスと機能が大幅に向上した実装で使うことができます。 この更新バージョンの SAP BW Connector は Microsoft によって開発され、**Implementation 2.0** と呼ばれています。 **SAP BW Connector** のバージョン 1 (v1) または **Implementation 2.0 SAP Connector** のどちらかを選ぶことができます。 以下のセクションでは、各バージョンのインストールについて順番に説明します。 Power BI Desktop から SAP BW に接続するときは、どちらか一方または両方のコネクタを選ぶことができます。
 
@@ -38,9 +38,9 @@ SAP のお客様が既存の SAP Business Warehouse (BW) システムに Power B
 
 ## <a name="installation-of-implementation-20-sap-connector"></a>Implementation 2.0 SAP Connector のインストール
 
-SAP Connector の **Implementation 2.0** には、SAP .NET Connector 3.0 が必要です。 次のリンクを使って SAP の Web サイトから [SAP .NET Connector 3.0 をダウンロード](https://go.microsoft.com/fwlink/?linkid=872300)できます。
+SAP Connector の **Implementation 2.0** には、SAP .NET Connector 3.0 が必要です。 次のリンクを使って SAP の Web サイトから [SAP .NET Connector 3.0 をダウンロード](https://support.sap.com/en/product/connectors/msnet.html)できます。
 
-* [SAP .NET Connector 3.0](https://go.microsoft.com/fwlink/?linkid=872300)
+* [SAP .NET Connector 3.0](https://support.sap.com/en/product/connectors/msnet.html)
 
 ダウンロードへのアクセスには、有効な S-user が必要です。 SAP Basis チームに連絡して SAP .NET Connector 3.0 を入手することをお勧めします。 
 
@@ -207,6 +207,7 @@ Implementation 2.0 は以下のオプションをサポートします。
 SAP と DirectQuery については、次のリソースをご覧ください。
 
 * [DirectQuery と SAP HANA](desktop-directquery-sap-hana.md)
+* [DirectQuery と SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 * [Power BI の DirectQuery](desktop-directquery-about.md)
 * [DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
 * [Power BI と SAP BW に関するホワイト ペーパー](https://aka.ms/powerbiandsapbw)

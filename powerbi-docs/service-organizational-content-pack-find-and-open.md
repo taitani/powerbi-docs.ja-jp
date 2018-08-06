@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 20352a729b43e15fd1cd67cb5d52c321c3d150d4
-ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
+ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34852258"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280227"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>組織のコンテンツ パックを検索して接続する
 > [!NOTE]
@@ -36,7 +36,7 @@ ms.locfileid: "34852258"
 3. 追加の詳細を表示するコンテンツ パックを選択します。
 
 ## <a name="connect-to-an-organizational-content-pack"></a>組織のコンテンツ パックに接続する
-* **[Get it now]** (今すぐ入手) を選択して、コンテンツ パックに接続し、アクティブなワークスペースにそれを追加します。 新しいダッシュボード、レポート、Excel ブック、データセットには、黄色のアスタリスクが付けられます。
+* **[今すぐ入手する]** を選択して、コンテンツ パックに接続し、アクティブなワークスペースにそれを追加します。 新しいダッシュボード、レポート、Excel ブック、データセットには、黄色のアスタリスクが付けられます。
 
 コンテンツ パックに Excel ブックがある場合は、ブックを表示するアクセス許可がないと、警告が表示されることがあります。 その場合は、コンテンツ パックの所有者に [OneDrive for Business でブックを共有する](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)ように依頼してください。 
 

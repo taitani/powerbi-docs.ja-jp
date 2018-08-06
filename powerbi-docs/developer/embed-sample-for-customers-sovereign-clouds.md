@@ -2,24 +2,26 @@
 title: ソブリン クラウド顧客向けのアプリケーションに Power BI コンテンツを埋め込む
 description: Power BI API を使って、Web アプリに顧客向けのダッシュボード、タイル、またはレポートを統合する (埋め込む) 方法を説明します。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.topic: conceptual
-ms.date: 03/28/2018
-ms.author: maghan
-ms.openlocfilehash: ebbb004fe79bbae942243bc227e1c09fd51fa75f
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.topic: tutorial
+ms.date: 07/26/2018
+ms.openlocfilehash: 2d722428ce2029ef4689e6b4bf5dfcdd208baff8
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813712"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255873"
 ---
-# <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Power BI のダッシュボード、タイル、レポートをソブリン クラウド向けアプリケーションに埋め込む
+# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>チュートリアル: Power BI のダッシュボード、タイル、レポートをソブリン クラウド向けアプリケーションに埋め込む
 顧客向けのダッシュボード、タイル、またはレポートを、Power BI .NET SDK と Power BI JavaScript API を使って Web アプリに統合する (埋め込む) 方法を説明します。 通常、これは ISV のシナリオです。
 
-Power BI はソブリン (プライベート) クラウドもサポートしています。 各ソブリン クラウドには独自の所属があります。 次のようなソブリン クラウドがあります。
+Power BI はソブリン (プライベート) クラウドもサポートしています。
+
+次のようなソブリン クラウドがあります。
 
 * 米国Government Community Cloud (GCC)
 
@@ -29,81 +31,83 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
 
 * Germany Cloud 向け Power BI
 
+* China Cloud 向け Power BI
+
 ![埋め込まれたダッシュボード](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-このチュートリアルを開始するには、**Power BI** アカウントが必要です。 アカウントを設定していない場合は、政府機関の種類に応じて、[U. S. Government Power BI アカウント](../service-govus-signup.md)または [Germany Cloud 向け Power BI アカウント](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)にサインアップすることができます。
+このチュートリアルを開始するには、**Power BI** アカウントが必要です。 アカウントを設定していない場合は、ソブリン クラウドの種類に応じて、[U. S. Government Power BI アカウント](../service-govus-signup.md)、[Germany Cloud 向け Power BI アカウント](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)、または [China Cloud 向け Power BI アカウント](http://www.21vbluecloud.com/powerbi/)にサインアップすることができます。
 
 > [!NOTE]
 > 代わりに組織向けのダッシュボードを埋め込む場合は、 「[ダッシュボードを組織のアプリに統合する](integrate-dashboard.md)」をご覧ください。
 >
 
-ダッシュボードを Web アプリに統合するには、**Power BI** API、および Azure Active Directory (AD) 承認**アクセス トークン**を使って、ダッシュボードを取得します。 次に、埋め込んだトークンを使ってダッシュボードを読み込みます。 **Power BI** API は、特定の **Power BI** リソースへのプログラムによるアクセスを提供します。 詳細については、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)、[Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp)、[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページをご覧ください。
+ダッシュボードを Web アプリに統合するには、**Power BI** API、および Azure Active Directory (AD) 承認**アクセス トークン**を使って、ダッシュボードを取得します。 次に、埋め込んだトークンを使ってダッシュボードを読み込みます。 **Power BI** API では、特定の **Power BI** リソースへのプログラムによるアクセスが提供されます。 詳細については、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)、[Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp)、[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページをご覧ください。
 
 ## <a name="download-the-sample"></a>サンプルをダウンロードする
 この記事では、GitHub の[顧客向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)で使われているコードを示します。 このチュートリアルの手順を試してみるには、サンプルをダウンロードできます。
 
 * Government Community Cloud (GCC):
     1. Cloud.config ファイルを GCCCloud.config コンテンツで上書きします。
-    2. Web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
+    2. web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
     3. 次のように、web.config ファイルに GCC パラメーターを追加します。
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.powerbigov.us" />
 ```
 
 * Military Contractors (DoDCON):
     1. Cloud.config ファイルを TBCloud.config コンテンツで上書きします。
-    2. Web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
+    2. web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
     3. 次のように、web.config ファイルに DoDCON パラメーターを追加します。
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
 ```
 
 * Military (DoD):
     1. Cloud.config ファイルを PFCloud.config コンテンツで上書きします。
-    2. Web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
+    2. web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
     3. 次のように、web.config ファイルに DoDCON パラメーターを追加します。
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.mil.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.mil.powerbigov.us" />
 ```
 
 * Germany Cloud 向け Power BI のパラメーター
     1. Cloud.config ファイルを Germany Cloud 向け Power BI コンテンツで上書きします。
-    2. Web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
+    2. web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
     3. 次のように、web.config ファイルに Germany Cloud 向け Power BI のパラメーターを追加します。
 
 ```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
-
 <add key="apiUrl" value="https://api.powerbi.de/" />
-
 <add key="embedUrlBase" value="https://app.powerbi.de" />
 ```
 
+* China Cloud 向け Power BI のパラメーター
+    1. Cloud.config ファイルを [China Cloud 向け Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) コンテンツで上書きします。
+    2. web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
+    3. web.config ファイルに China Cloud 向け Power BI のパラメーターを次のように追加します。
+
+```xml
+<add key="authorityUrl" value=https://login.chinacloudapi.cn/common/oauth2/authorize/" />
+<add key="resourceUrl" value="https://analysis.chinacloudapi.cn/powerbi/api" />
+<add key="apiUrl" value="https://api.powerbi.cn/" />
+<add key="embedUrlBase" value="https://app.powerbi.cn" />
+```
+
 ## <a name="step-1---register-an-app-in-azure-ad"></a>ステップ 1 - Azure AD にアプリを登録する
-REST API の呼び出しを行うには、Azure AD にアプリケーションを登録する必要があります。 詳しくは、「[Azure AD アプリを登録して Power BI コンテンツを埋め込む](register-app.md)」をご覧ください。 さまざまなソブリン クラウドの所属があるので、アプリケーションを登録するための個別の URL があります。
+REST API を呼び出すには、アプリケーションを Azure AD に登録する必要があります。 詳しくは、「[Azure AD アプリを登録して Power BI コンテンツを埋め込む](register-app.md)」をご覧ください。 ソブリン クラウドにはさまざまな所属があり、アプリケーションを登録するための別個の URL があります。
 
 * Government Community Cloud (GCC) - https://app.powerbigov.us/apps 
 
@@ -113,11 +117,13 @@ REST API の呼び出しを行うには、Azure AD にアプリケーション�
 
 * Germany Cloud 向け Power BI - https://app.powerbi.de/apps
 
+* China Cloud 向け Power BI - https://app.powerbi.cn/apps
+
 [顧客向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をダウンロードした場合、サンプルが Azure AD に対して認証を実行できるように、登録した後で取得する**クライアント ID** を使います。 サンプルを構成するには、*web.config* ファイルの **clientId** を変更します。
 
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>ステップ 2 - Azure AD からアクセス トークンを取得する
-アプリケーションでは、Power BI REST API の呼び出しを行う前に、まず、Azure AD から**アクセス トークン**を取得する必要があります。 詳しくは、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。 さまざまなソブリン クラウドの所属があるので、アプリケーションのアクセス トークンを取得するための個別の URL があります。
+アプリケーション内では、Power BI REST API の呼び出しを行う前に、Azure AD から**アクセス トークン**を取得する必要があります。 詳しくは、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。 さまざまなソブリン クラウドの所属があるので、アプリケーションのアクセス トークンを取得するための個別の URL があります。
 
 * Government Community Cloud (GCC) - https://login.microsoftonline.com
 
@@ -127,13 +133,15 @@ REST API の呼び出しを行うには、Azure AD にアプリケーション�
 
 * Germany Cloud 向け Power BI - https://login.microsoftonline.de
 
+* China Cloud 向け Power BI - https://login.microsoftonline.cn
+
 **Controllers\HomeController.cs** 内の各コンテンツ アイテム タスクで、これの例を見ることができます。
 
 ## <a name="step-3---get-a-content-item"></a>ステップ 3 - コンテンツ アイテムを取得する
-Power BI コンテンツを正しく埋め込むは、2 つのことを行う必要があります。 すべての手順は REST API で直接行うことができますが、サンプル アプリケーションおよびここの例は .NET SDK で行われています。
+Power BI コンテンツを正しく埋め込むには、いくつかの作業が必要です。 すべての手順は REST API で直接行うことができますが、サンプル アプリケーションとここの例は .NET SDK で行われています。
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>アクセス トークンを使って Power BI クライアントを作成する
-Power BI API と対話できる Power BI クライアント オブジェクトを、アクセス トークンで作成します。 そのためには、AccessToken を *Microsoft.Rest.TokenCredentials* オブジェクトでラップします。
+Power BI API と対話できる Power BI クライアント オブジェクトをアクセス トークンで作成します。 そのためには、AccessToken を *Microsoft.Rest.TokenCredentials* オブジェクトでラップします。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -142,7 +150,7 @@ using Microsoft.PowerBI.Api.V2;
 
 var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 
-// Create a Power BI Client object. It will be used to call Power BI APIs.
+// Create a Power BI Client object. This is used to call the Power BI APIs.
 using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 {
     // Your code to embed items.
@@ -160,7 +168,7 @@ Power BI クライアント オブジェクトを使って、埋め込むアイ�
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
 
 // Get the first report in the group.
@@ -175,7 +183,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // To retrieve the tile, you first need to retrieve the dashboard.
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
 
 // Get the first report in the group.
@@ -194,7 +202,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
 
 // Get the first report in the group.
@@ -205,7 +213,7 @@ Report report = reports.Value.FirstOrDefault();
 JavaScript API から使うことができる埋め込みトークンを生成する必要があります。 埋め込みトークンは、埋め込むアイテムに固有のものです。 つまり、Power BI コンテンツを埋め込むときは常に、そのための埋め込みトークンを新しく作成する必要があります。 使用する **accessLevel** など、詳しくは「[Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken)」 (埋め込みトークン) をご覧ください。
 
 > [!IMPORTANT]
-> 埋め込みトークンは開発と開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。
+> 埋め込みトークンは開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。
 
 このサンプルは、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)の **Controllers\HomeController.cs** にあります。
 

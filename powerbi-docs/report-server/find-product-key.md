@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 828c5e8afc28b496b1920468097ce629fe646e37
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2ea6f2e557f26358ab6a93d33c890e90c96885f4
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34564652"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>How to find your report server product key (レポート サーバーのプロダクト キーを検索する方法)
 運用環境にインストールするのに必要な Power BI レポート サーバー プロダクト キーの検索方法について説明します。
@@ -33,7 +34,7 @@ Power BI Premium を購入した場合は、Power BI 管理者ポータルの **
 
 ![Power BI Report Server のプロダクト キー](media/find-product-key/pbirs-product-key-dialog.png)
 
-## <a name="purchased-software-assurance-agreeemnt"></a>Software Assurance 契約を購入した場合
+## <a name="purchased-software-assurance-agreement"></a>Software Assurance 契約を購入した場合
 SQL Server Enterprise SA 契約がある場合は、[ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からプロダクト キーを取得できます。 SQL Server の最新バージョンについては、最新のサービス パックを確認してください。 表示されない場合は、最新の SQL Server バージョンの RTM リリースを確認してください。
 
 > [!NOTE]

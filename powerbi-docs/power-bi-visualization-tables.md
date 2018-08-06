@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e992152656a208c765743292e06b4d0d3708730
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 769e2adb30fb1969d16898db4bf954d2bcbad8c4
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600259"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280411"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードでのテーブルの操作
 テーブルは、関連性のあるデータが論理的な一連の行と列に格納されたグリッドです。 ヘッダーと合計行が含まれる場合もあります。 テーブルは、1 つのカテゴリの多くの値を調べるときの定量的な比較で役に立ちます。 たとえば、次の表には**カテゴリ**に対する 5 つの異なるメジャーが表示されています。
@@ -35,7 +35,7 @@ ms.locfileid: "37600259"
 
 ## <a name="prerequisites"></a>前提条件
 - Power BI サービスまたは Power BI Desktop
-- 小売の分析のサンプル
+- 小売りの分析のサンプル
 
 ## <a name="create-a-table"></a>テーブルを作成する
 上の図のようなテーブルを作成し、品目カテゴリ別に売上高の値を表示するテーブルを作成します。 先に進むには、Power BI サービスにサインインして、**[データの取得] \> [サンプル] \> [小売りの分析のサンプル] > [接続]** を選んでから、**[ダッシュボードに移動] を選びます。 視覚エフェクトを作成するには、データセットとレポートへの編集アクセス許可が必要です。 Power BI のサンプルはすべて編集できます。 他のユーザーから共有を受けているレポートの場合は、レポートで視覚エフェクトを作成できません。

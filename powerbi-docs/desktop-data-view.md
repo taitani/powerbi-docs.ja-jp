@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/04/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fad7b8453b6d5d29a1f6c5d9d9ed49b0a8b8a66f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813735"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280342"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop のデータ ビュー
 **データ ビュー**は、**Power BI Desktop** モデル内のデータを検査、調査、理解するのに役立ちます。 これは、**クエリ エディター**内のテーブル、列、データの表示方法とは異なります。 データ ビューには、モデルに読み込まれた *後* のデータが表示されます。
@@ -46,4 +46,5 @@ ms.locfileid: "34813735"
 
 個々の値にフィルターを適用したり、列のデータに基づいて高度なフィルター処理を適用したりできます。 
 
-
+> [!NOTE]
+> 現在のユーザー インターフェイスとは異なるカルチャで Power BI モデルが作成されている場合 (たとえば、モデルがアメリカ英語で作成されているとき、それをスペイン語で表示している)、テキスト フィールド以外のあらゆるものに関して、データ ビュー ユーザー インターフェイスには検索ボックスが表示されません。

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877420"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359756"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>チュートリアル: 顧客向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
 **Azure の Power BI Embedded** を使うと、**アプリ所有データ**を使用してレポート、ダッシュボード、またはタイルをアプリケーションに埋め込むことができます。 **アプリ所有データ**がある場合、Power BI を埋め込み分析プラットフォームとして使用するアプリケーションが含まれます。 これは通常、**ISV 開発者**のシナリオです。 **ISV 開発者**は、アプリケーションのユーザーが Power BI ライセンスを必要としたり、さらには内部に Power BI があることすら意識したりせずに、完全に統合された対話型のアプリケーションにレポート、ダッシュボード、またはタイルを表示する Power BI コンテンツを作成することができます。 このチュートリアルでは、**アプリ所有データ**を使用する顧客向けに **Azure の Power BI Embedded** を使用しているときに、**Power BI** .NET SDK と **Power BI** JavaScript API を使って、アプリケーションにレポートを統合する方法を示します。
@@ -323,13 +323,28 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 アプリケーションの開発が終わったら、専用の容量を持つアプリのワークスペースに戻ります。 運用を開始するには、専用の容量が必要です。
 
 ### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
-専用の容量を作成することで、顧客専用のリソースを所有する利点が得られます。 専用の容量に割り当てられていないワークスペースの場合、これらは共有された容量にある必要があります。 専用の容量を作成するには、Azure の [Power BI Embedded 専用の容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)ソリューションを使用します。
+専用の容量を作成することで、顧客専用のリソースを所有する利点が得られます。 [Microsoft Azure Portal](https://portal.azure.com) 内で専用の容量を購入できます。 Power BI Embedded 容量の作成方法の詳細については、「[Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)」 (Azure Portal で Power BI Embedded 容量を作成する) をご覧ください。
+
+下の表を参照し、自分のニーズに最適な Power BI Embedded 容量を判断します。
+
+| 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
+| --- | --- | --- | --- | --- | --- |
+| A1 |1 v コア |0.5 コア、3 GB の RAM |0.5 コア | 1 秒あたり 5 |1-300 |
+| A2 |2 v コア |1 コア、5 GB の RAM |1 コア | 1 秒あたり 10 |301-600 |
+| A3 |4 v コア |2 コア、10 GB の RAM |2 コア | 1 秒あたり 15 |601-1,200 |
+| A4 |8 v コア |4 コア、25 GB の RAM |4 コア |1 秒あたり 30 |1,201-2,400 |
+| A5 |16 v コア |8 コア、50 GB の RAM |8 コア |1 秒あたり 60 |2,401-4,800 |
+| A6 |32 v コア |16 コア、100 GB の RAM |16 コア |1 秒あたり 120 |4,801-9600 |
+
+**_A SKU の場合、無料 Power BI ライセンスでは Power BI コンテンツにアクセスできません。_**
 
 埋め込みトークンと PRO ライセンスを一緒に使用するのは、開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、専用の容量を購入する必要があります。 専用の容量があると、生成できる埋め込みトークンの数には上限がありません。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、[使用可能な機能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)に関するページに移動します。 使用量はマスター アカウント別となっています。
 
+詳細については、「[Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper)」 (埋め込み分析の容量計画に関するホワイト ペーパー) を参照してください。
+
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>専用の容量にアプリ ワークスペースを割り当てる
 
-専用の容量が作成されたら、アプリ ワークスペースを専用の容量に割り当てます。 これを行うには、次の手順に従います。
+専用の容量を作成すると、アプリ ワークスペースをその専用の容量に割り当てることができます。 これを行うには、次の手順に従います。
 
 1. **Power BI サービス**内でワークスペースを展開し、コンテンツを埋め込むために使用しているワークスペースの省略記号ボタンを選択します。 次に、**[Edit workspaces]\(ワークスペースの編集\)** を選択します。
 
@@ -339,6 +354,14 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 
     ![専用の容量の割り当て](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-Power BI Embedded についてさらに質問がある場合は、[FAQ](embedded-faq.md) のページをご覧ください。  アプリケーションでの Power Bi Embedded に関して問題が発生した場合は、[トラブルシューティング](embedded-troubleshoot.md)のページをご覧ください。
+3. **[保存]** を選択した後、アプリ ワークスペース名の横に**ひし形**が表示されます。
+
+    ![容量に関連付けられたアプリ ワークスペース](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+
+## <a name="next-steps"></a>次の手順
+このチュートリアルでは、顧客向けアプリケーションに Power BI コンテンツを埋め込む方法を説明しました。 組織向けの Power BI コンテンツの埋め込みを試すこともできます。
+
+> [!div class="nextstepaction"]
+>[組織向けの埋め込み](embed-sample-for-your-organization.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

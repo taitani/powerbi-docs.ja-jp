@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105271"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359733"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>チュートリアル: 組織向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
 このチュートリアルでは、組織向けのアプリケーションに **Power BI** を埋め込むときに、**Power BI .NET SDK** と **Power BI JavaScript API** を使って、アプリケーションにレポートを統合する方法を示します。 **Power BI** では、**ユーザー所有データ**を使用してレポート、ダッシュボード、またはタイルをアプリケーションに埋め込むことができます。 **ユーザー所有データ**を使用すれば、アプリケーションで Power BI サービスを拡張することができます。
@@ -413,11 +413,28 @@ function updateEmbedReport() {
 アプリケーションの開発が終わったら、専用の容量を持つアプリのワークスペースに戻ります。
 
 ### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
-専用の容量を作成することで、アプリ ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 ワークスペースが専用の容量に割り当てられていない場合、共有された容量と見なされます。 [Power BI Premium](../service-admin-premium-purchase.md) を使用して、専用の容量を作成することができます。
+専用の容量を作成することで、アプリ ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 [Power BI Premium](../service-premium.md) を使用し、専用の容量を作成できます。
+
+次の表は、[Office 365](../service-admin-premium-purchase.md) で利用可能な Power BI Premium SKU の一覧です。
+
+| 容量ノード | 合計 v コア数<br/>*(バックエンド + フロントエンド)* | バックエンド v コア数 | フロントエンド v コア数 | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1 v コア |0.5 v コア、10 GB の RAM |0.5 v コア |1 秒あたり 3.75 |150-300 |
+| EM2 |2 v コア |1 v コア、10 GB の RAM |1 v コア |1 秒あたり 7.5 |301-600 |
+| EM3 |4 v コア |2 v コア、10 GB の RAM |2 v コア |1 秒あたり 15 |601-1,200 |
+| P1 |8 v コア |4 v コア、25 GB の RAM |4 v コア |1 秒あたり 30 |1,201-2,400 |
+| P2 |16 v コア |8 v コア、50 GB の RAM |8 v コア |1 秒あたり 60 |2,401-4,800 |
+| P3 |32 v コア |16 v コア、100 GB の RAM |16 v コア |1 秒あたり 120 |4,801-9600 |
+| P4 |64 v コア |32 v コア、200 GB の RAM |32 v コア |1 秒あたり 240 |9601-19200
+| P5 |128 v コア |64 v コア、400 GB の RAM |64 v コア |1 秒あたり 480 |19201-38400
+
+***_EM SKU_** の場合、**_MS Office アプリ_** で組み込むとき、無料 Power BI ライセンスでコンテンツにアクセス**できます**が、**_Powerbi.com_** または **_Power BI モバイル_** を使用するとき、無料の Power BI ライセンスではコンテンツにはアクセス**できません**。*
+
+***_P SKU_** の場合、**_MS Office アプリ_** で組み込むとき、**_Powerbi.com_** か **_Power BI モバイル_** を使用し、無料の Power BI ライセンスでコンテンツにアクセス**できます**。*
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>専用の容量にアプリ ワークスペースを割り当てる
 
-専用の容量が作成されたら、アプリ ワークスペースをその専用の容量に割り当てることができます。 これを行うには、次の手順に従います。
+専用の容量を作成すると、アプリ ワークスペースをその専用の容量に割り当てることができます。 これを行うには、次の手順に従います。
 
 1. **Power BI サービス**内でワークスペースを展開し、コンテンツを埋め込むために使用しているワークスペースの省略記号ボタンを選択します。 次に、**[Edit workspaces]\(ワークスペースの編集\)** を選択します。
 
@@ -431,13 +448,17 @@ function updateEmbedReport() {
 
     ![容量に関連付けられたアプリ ワークスペース](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>管理の設定
+
+グローバル管理者または Power BI サービス管理者は、テナントに対し REST API を使う機能を有効または無効にできます。 Power BI 管理者は、組織全体または個々のセキュリティ グループに対してこれを設定できます。 既定では組織全体に対して有効になります。 これは [Power BI 管理ポータル](../service-admin-portal.md)から行うことができます。
+
 ## <a name="next-steps"></a>次の手順
-このチュートリアルでは、**Power BI の組織アカウント**を使用して、アプリケーションに Power BI コンテンツを埋め込む方法を説明しました。 これで、アプリを使用して、アプリケーションへの Power BI コンテンツの埋め込みを試すことができます。  サード パーティの顧客向けの Power BI コンテンツの埋め込みを試すこともできます。
+このチュートリアルでは、**Power BI の組織アカウント**を使用して、アプリケーションに Power BI コンテンツを埋め込む方法を説明しました。 これで、アプリを使用して、アプリケーションへの Power BI コンテンツの埋め込みを試すことができます。  顧客向けの Power BI コンテンツの埋め込みを試すこともできます。
 
 > [!div class="nextstepaction"]
 > [アプリからの埋め込み](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[サード パーティの顧客向けの埋め込み](embed-sample-for-customers.md)
+>[顧客向けに埋め込む](embed-sample-for-customers.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

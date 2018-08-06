@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286936"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39331175"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop で数値範囲スライサーを使用する
 **数値範囲スライサー**を使用して、データ モデルの数値列にあらゆるフィルターを適用することができます。 フィルターの種類は、数値の**範囲**、数値**以下**、数値**以上**から選択できます。 これは単純なようですが、データをフィルターするには非常に強力な方法です。
@@ -53,7 +53,7 @@ ms.locfileid: "34286936"
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>数値範囲スライサーを整数にスナップする
 
-数値範囲スライサーは、10 進数の範囲である場合を除き、整数にスナップされます。 スライサーで整数がきれいに整列させることができます。 
+基礎とするフィールドのデータ型が**整数**の場合、数値範囲スライサーは整数にスナップします。 スライサーで整数がきれいに整列させることができます。 **10 進数**型のフィールドでは、ある数の分数を入力または選択できます。 数値をさらに正確に入力または選択できますが、テキスト ボックスに適用される書式設定は、フィールドに設定されている書式設定に一致します。
 
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
@@ -61,3 +61,4 @@ ms.locfileid: "34286936"
 
 * 現在、**数値範囲スライサー**では、集計値ではなく、データの基になるすべての行がフィルターされます。 たとえば、*Sales Amount* フィールドが使用されている場合、ビジュアルのデータ ポイントごとの *Sales Amount* の合計ではなく、*Sales Amount* に基づく各トランザクションがフィルターされます。
 * 現在、メジャーでは動作しません。
+* 数値スライサーのテキスト ボックスには、基礎となる列の値範囲から外れるものも含め、あらゆる数値を入力できます。 そのため、今後、データが変わる可能性があることがわかっている場合、フィルターを設定できます。

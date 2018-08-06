@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 421ef9609872515ae462de574d67528835bb78ab
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b55f9854d129c4ff7a70117b8382fbdbaff80ce8
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722841"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280273"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>ナビゲーション: Power BI サービスでコンテンツの検索、探索、並べ替えを行う
 Power BI サービスでコンテンツ間を移動する方法はたくさんあります。 ワークスペース内のコンテンツは、種類 (ダッシュボード、レポート、ブック、データセット) ごとにまとめられています。  また、コンテンツは使用方法 (お気に入り、最近、アプリ、自分と共有、おすすめ) によっても整理されています。 コンテンツへのこれらの異なる経路により、Power BI サービス内で必要な情報をすばやく見つけることができます。  
@@ -32,7 +32,7 @@ Power BI サービスでは、コンテンツの種類 (ダッシュボード、
 ________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>ワークスペースでの検索および並べ替え
-ワークスペースには、ダッシュボード、レポート、ブックおよびデータセットの 4 つのコンテンツ タブがあります。  これらのタブにはそれぞれ、検索フィールドと並べ替えボタンがあります。  Power BI サービスを使用し始めたばかりの場合、タブごとにアイテムが 1 つか 2 つしかないので、これらはあまり役に立たないかもしれません。しかし、使用するうちに、コンテンツが多数表示されるようになる場合もあります。  並べ替えと検索を使用すると、必要なものを簡単に検索できます。
+ワークスペースには、ダッシュボード、レポート、ブックおよびデータセットの 4 つのコンテンツ タブがあります。  これらのタブにはそれぞれ、検索フィールドと並べ替えボタンがあります。  Power BI サービスを使用し始めたばかりの場合、タブごとにアイテムが 1 つか 2 つしかないので、これらはあまり役に立たないかもしれません。しかしながら、使用するうちに、コンテンツが多数表示されるようになる場合もあります。  並べ替えと検索を使用すると、必要なものを簡単に検索できます。
 
 ![[ダッシュボード] タブ](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
 

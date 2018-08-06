@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: aa2bfed2858f93d91ff806b934f16c06555668d6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 964d9dfcc9a22d13b071fd59533821ebf907c7e1
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244832"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328467"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Excel 2016 から Power BI へ発行する
 Excel 2016 では、Excel ブックのデータに基づいて対話性の高いレポートやダッシュボードを作成できる [Power BI](https://powerbi.microsoft.com) サイトに Excel ブックを直接発行できます。 これにより、分析情報を組織内のユーザーと共有できます。
@@ -47,7 +47,7 @@ Power BI でブックを取得する方法に関する 2 つのオプション�
 
 ![](media/service-publish-from-excel/pbi_uploadexport3.png)
 
-発行後、Power BI ではブックは、ローカル ファイルとは別に、コピーとして保持されます。 Power BI でファイルを更新する場合は、更新バージョンを再び発行する必要があります。 データを更新し、Power BI でブックまたはデータセットに対してスケジュールされた更新を設定できます。
+発行後、ローカル ファイルとは別に、Power BI にコピーとして保存されます。 Power BI でファイルを更新する場合は、更新バージョンを再び発行する必要があります。 Power BI のブックまたはデータセットでデータを更新したり、更新スケジュールを設定したりできます。
 
 ### <a name="publishing-from-excel-standalone"></a>Excel スタンドアロンからの発行
 ブックがまだ OneDrive に保存されていない場合は、最初に OneDrive に保存する必要があります。 [クラウドに保存] を選択し、OneDrive for Business の場所を選択します。
