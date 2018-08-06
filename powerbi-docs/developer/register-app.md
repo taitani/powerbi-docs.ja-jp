@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/31/2018
+ms.date: 07/31/2018
 ms.author: maghan
-ms.openlocfilehash: 4242e2a88ab930c5f647bbfa4aa97fea1dc313ad
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 06e7c27579f559928dab822a7e0323cfb4abc1a1
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157127"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388596"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD アプリを登録して Power BI コンテンツを埋め込む
 埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory (Azure AD) 内にアプリケーションを登録する方法を説明します。
@@ -36,7 +36,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 3. **アプリ名**を入力します。
 4. アプリの種類の選択は、使用しているアプリケーションの種類によって異なります。
    
-   * クライアント デバイスで実行されるアプリには、**[ネイティブ アプリ]** を使用します。 実際のアプリケーションに関係なく顧客向けのコンテンツを埋め込む場合、**[ネイティブ アプリ]** を選択する必要があります。 Web アプリケーションであっても同じです。
+   * クライアント デバイスで実行されるアプリには、**[ネイティブ アプリ]** を使用します。 Web アプリケーションを含め、アプリケーションに関係なく顧客向けのコンテンツを埋め込む場合、**[ネイティブ アプリ]** を選択する必要があります。
    * Web アプリまたは Web API には、**[サーバー側の Web アプリ]** を使用します。
 
 5. **[リダイレクト URL]** と **[ホーム ページの URL]** の値を入力します。 **[リダイレクト URL]** は任意の有効な URL に使用できます。
@@ -80,8 +80,8 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
     ![](media/register-app/azuread-new-app-registration.png)
 5. 画面の指示に従って、新しいアプリケーションを作成します。
    
-   * Web アプリケーションの場合は、アプリのベース URL となるサインオン URL を指定します。これは `http://localhost:13526` のようにユーザーがサインインできる場所です。
-   * ネイティブ アプリケーションの場合は、Azure AD がトークンの応答を返すために使用する**リダイレクト URI** を指定します。 アプリケーション固有の値を入力します (例: `http://myapplication/Redirect`)
+   * Web アプリケーションの場合は、アプリのベース URL となるサインオン URL を指定します。これは、ユーザーがサインインできる場所です (例:  `http://localhost:13526`)。
+   * ネイティブ アプリケーションの場合は、Azure AD がトークンの応答を返すために使用する**リダイレクト URI** を指定します。 アプリケーション固有の値を入力します (例: `http://myapplication/Redirect`)。
 
 Azure Active Directory でアプリケーションを登録する方法の詳細については、「[Azure Active Directory とアプリケーションの統合](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)」を参照してください。
 
@@ -93,7 +93,7 @@ Azure Active Directory でアプリケーションを登録する方法の詳細
 1. [Azure Portal ](https://portal.azure.com)にサインインします。
 2. ページの右上隅で、アカウントを選択して、Azure AD テナントを選択します。
 3. 左側のナビゲーション ウィンドウで、**[その他のサービス]**、**[アプリの登録]** の順に選択します。
-4. クライアント ID を取得するアプリケーションを選択します。
+4. 必要なクライアント ID を取得するアプリケーションを選択します。
 5. GUID として**アプリケーション ID** が一覧表示されます。 これがアプリケーションのクライアント ID です。
    
     ![アプリの登録でアプリケーション ID として一覧表示されるクライアント ID](media/register-app/powerbi-embedded-app-registration-client-id.png)
@@ -128,7 +128,7 @@ Azure Active Directory でアプリケーションを登録する方法の詳細
     ![](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
 5. **[必要なアクセス許可]** 内で、**[アクセス許可の付与]** を選択します。
    
-    "*マスター アカウント*" で Azure AD により同意を求めるプロンプトが表示されないようにするには、**[アクセス許可の付与]** アクションが必要です。 この操作を実行するアカウントがグローバル管理者である場合は、組織のすべてのユーザーにこのアプリケーションに対するアクセス許可を与えることになります。 このアクションを実行するアカウントが*マスター アカウント*であり、グローバル管理者ではない場合は、*マスター アカウント*にのみこのアプリケーションに対するアクセス許可を与えます。
+    Azure AD により同意を求めるプロンプトが表示されないようにするには、*マスター アカウント*に **[アクセス許可の付与]** アクションが必要です。 この操作を実行するアカウントがグローバル管理者である場合は、組織のすべてのユーザーにこのアプリケーションに対するアクセス許可を与えることになります。 このアクションを実行するアカウントが*マスター アカウント*であり、グローバル管理者ではない場合は、*マスター アカウント*にのみこのアプリケーションに対するアクセス許可を与えます。
    
     ![[必要なアクセス許可] ダイアログの [アクセス許可の付与]](media/register-app/powerbi-embedded-azuread-app-grant-permissions.png)
 
@@ -160,19 +160,25 @@ Azure Active Directory でアプリケーションを登録する方法の詳細
     
      マスター アカウントで、Azure AD から同意を求めるプロンプトが表示されないようにするには (非対話形式のサインインを実行しているときには不可能)、*アクセス許可の付与*が必要です。
    
-     ```
+     ```json
      Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
      Authorization: Bearer ey..qw
      Content-Type: application/json
      { 
      "clientId":"{Service_Plan_ID}",
      "consentType":"AllPrincipals",
-     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "resourceId":"c78a3685-1ce7-52cd-95f7-dc5aea8ec98e",
      "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
      "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
+    **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* はユニバーサルではありませんが、テナントに依存します。 この値は、AAD テナント内の “Power BI サービス“ アプリケーションの objectId です。
+
+    この値は、Azure Portal ですぐに取得できます。
+    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+    2. 検索ボックスで "Power BI サービス" と検索します
+
 5. アプリのアクセス許可を Azure Active Directory (AAD) に付与する
    
    **consentType** の値には、**AllPrincipals** または **Principal** を指定できます。
@@ -182,7 +188,7 @@ Azure Active Directory でアプリケーションを登録する方法の詳細
     
    マスター アカウントで、Azure AD から同意を求めるプロンプトが表示されないようにするには (非対話形式のサインインを実行しているときには不可能)、*アクセス許可の付与*が必要です。
 
-   ```
+   ```json
    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
    Authorization: Bearer ey..qw
    Content-Type: application/json
