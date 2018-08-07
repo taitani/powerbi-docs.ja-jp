@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092646"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582640"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI で Acumatica に接続する
 Power BI Acumatica コンテンツ パックを使用すると、短時間で営業案件に関するデータについての洞察が得られます。 Power BI は、営業案件、アカウント、顧客などのデータを取得し、そのデータに基づいて既定のダッシュボードと関連レポートを作成します。
@@ -37,7 +37,7 @@ Power BI Acumatica コンテンツ パックを使用すると、短時間で営
    ![](media/service-connect-to-acumatica/acumatica.png)
 4. Acumatica OData エンドポイントを入力します。 OData エンドポイントを使用すると、外部システムが Acumatica のデータを要求できるようになります。 Acumatica OData エンドポイントは次の形式で、HTTPS を使用する必要があります。
    
-     https://[サイト ドメイン]/odata/[会社名]
+     `https://[sitedomain]/odata/[companyname]`
    
    会社名が必要となるのは、複数の会社展開を行っている場合のみです。 Acumatica アカウントにおけるこのパラメーターの見つけ方について詳しくは、以下をご覧ください。
    
