@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/28/2018
+sktopms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 5f117bdeb4e37986884c6a1021db1f361bdcddd3
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145389"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582675"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
@@ -47,8 +47,8 @@ Web ブラウザーと勤務先の電子メール アドレスだけです。 .g
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>勤務先の電子メール アドレスでサインアップしなければならないのはなぜですか?
 Power BI は、コンシューマー電子メール サービスまたは通信プロバイダーが提供している電子メール アドレスをサポートしていません。 [Power BI のセルフサービス サインアップのプロセス](service-self-service-signup-for-power-bi.md)の詳細をご覧ください。
 
-## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Power BI には行政機関、教育機関、および非営利団体向け価格もありますか?
-はい。マイクロソフトから直接購入する場合に、非営利団体向け価格で購入できます。 [Microsoft Product Donation](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) サイトで詳細を確認することや、サインアップすることができます。 行政機関向けおよび教育機関向けの価格サービスは、MOSP/Direct、EA、オープン ライセンス プログラムを通じて提供されます。 行政機関向け価格は Syndication でも提供されます。 
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI には行政機関、教育機関、および非営利団体向け価格もありますか?
+はい。マイクロソフトから直接購入する場合に、非営利団体向け価格で購入できます。 [Microsoft Nonprofits](https://www.microsoft.com/en-us/nonprofits/power-bi) サイトで詳細を確認することや、サインアップすることができます。 行政機関向けおよび教育機関向けの価格サービスは、MOSP/Direct、EA、オープン ライセンス プログラムを通じて提供されます。 行政機関向け価格は Syndication でも提供されます。 
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI はオンプレミス対応ですか?
 Power BI サービス [https://powerbi.com](https://powerbi.com) をプライベートの内部クラウド サービスとして使用することはできません。 ただし、オンプレミスのデータを表示および操作する場合は、3 つのオプションを利用できます。 

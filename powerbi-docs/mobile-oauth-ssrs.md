@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852212"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415348"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth を使用し、Power BI Report Server と SSRS に接続する
 Power BI Report Server と SQL Server Reporting Services 2016 以降に接続する目的で、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-OAuth を使用して Power BI Report Server と Reporting Services に接続し、モバイル レポートまたは KPI を表示できます。 Windows Server 2016 では、この種の認証を許可するように、Web アプリケーション プロキシ (WAP) の役割が機能強化されています。 この構成では、Power BI モバイル アプリで Power BI レポートを表示できないことにご注意ください。 ただし、モバイル デバイスのブラウザーで表示できます。 モバイル アプリで Power BI レポートを表示するには、Windows 認証を使用する必要があります。
+OAuth を使用して Power BI Report Server と Reporting Services に接続し、モバイル レポートまたは KPI を表示できます。 Windows Server 2016 では、この種の認証を許可するように、Web アプリケーション プロキシ (WAP) の役割が機能強化されています。 認証のために WAP を使用して Power BI Report Server でホストされている Power BI レポートを表示することは、現時点ではサポートされていません。
 
 ## <a name="requirements"></a>要件
 Web アプリケーション プロキシ (WAP) および Active Directory フェデレーション サービス (ADFS) サーバーには、Windows Server 2016 が必要です。 Windows 2016 の機能レベル ドメインは必要ありません。
