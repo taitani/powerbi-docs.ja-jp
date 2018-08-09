@@ -682,6 +682,8 @@
           items:
             - name: レポートのビジュアル要素
               href: desktop-visual-elements-for-reports.md
+            - name: PDF へのエクスポートおよびレポートの印刷
+              href: desktop-export-to-pdf.md
             - name: Power BI Desktop の Q&A
               href: desktop-qna-in-reports.md
             - name: 'Power BI Desktop の [分析] ウィンドウ'
@@ -1242,6 +1244,8 @@
           href: service-gateway-onprem-indepth.md
         - name: オンプレミス データ ゲートウェイ (個人用モード)
           href: service-gateway-personal-mode.md
+        - name: カスタム コネクタ
+          href: service-gateway-custom-connectors.md
         - name: オンプレミス データ ゲートウェイのトラブルシューティング
           href: service-gateway-onprem-tshoot.md
 - name: 管理
