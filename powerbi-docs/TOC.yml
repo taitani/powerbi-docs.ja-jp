@@ -112,8 +112,6 @@
                   href: service-install-use-apps.md
                 - name: 組織のコンテンツ パックを検索して接続する
                   href: service-organizational-content-pack-find-and-open.md
-                - name: ダッシュボードとレポートを共有する
-                  href: service-share-dashboards.md
                 - name: Power BI Q&A の概要
                   href: power-bi-visualization-introduction-to-q-and-a.md
             - name: サービスへの接続
@@ -306,9 +304,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: 作業の共有
               items:
-                - name: ダッシュボードとレポートで共同作業および共有を行う方法
+                - name: 共同作業および共有を行う方法
                   href: service-how-to-collaborate-distribute-dashboards-reports.md
-                - name: ダッシュボードとレポートを含むアプリを作成して発行する
+                - name: ダッシュボードとレポートを共有する
+                  href: service-share-dashboards.md
+                - name: アプリ ワークスペースを作成する
+                  href: service-create-workspaces.md
+                - name: 新しいワークスペース (プレビュー) を作成する
+                  href: service-create-the-new-workspaces.md
+                - name: ダッシュボードとレポートを含むアプリを発行する
                   href: service-create-distribute-apps.md
                 - name: フィルター処理されたレポートを共有する
                   href: service-share-reports.md
