@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 203648affe06abe304d0e8a328b00189b42fa143
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39328398"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657876"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -39,7 +39,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * すべて
 * ファイル
 * データベース
-* Power BI
+* する
 * アジュール
 * オンライン サービス
 * その他
@@ -93,7 +93,6 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 **[Power BI]** カテゴリには、次のデータ接続があります。
 
 * Power BI データ セット
-* Power BI データプール (Beta)
 
 次の図は、**[Power BI]** の **[データの取得]** ウィンドウを示しています。
 
@@ -168,7 +167,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Active Directory
 * Microsoft Exchange
 * Hadoop ファイル (HDFS)
-* Spark (Beta)
+* Spark
 * R スクリプト
 * ODBC
 * OLE DB
