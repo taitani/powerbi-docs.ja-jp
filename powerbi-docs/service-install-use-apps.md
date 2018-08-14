@@ -3,29 +3,30 @@ title: Power BI でダッシュボードとレポートを含むアプリをイ�
 description: Power BI では、アプリが関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。
 author: maggiesMSFT
 manager: kfile
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: de566aa22a7c48a27682a9c577f84eb6015ac8b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 464906acd17248c5a752d7febc4ab7b907c7cc46
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242737"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624370"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 Power BI では、*アプリ*が関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。 組織内のユーザーは主要なビジネス情報でアプリを作成し、配布できます。 既にご利用中かもしれませんが、Google アナリティクスや Microsoft Dynamics CRM など、[外部サービス](service-connect-to-services.md)も Power BI アプリを提供します。 
 
 ![Power BI のアプリ](media/service-install-use-apps/power-bi-apps-left-nav.png)
 
-アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) とモバイル デバイスで簡単に検索してインストールすることができます。 アプリのインストール後は、さまざまなダッシュボードの名前を覚えておく必要がありません。ブラウザーまたはモバイル デバイス上のアプリにまとめて表示されるためです。
+アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) とモバイル デバイスで簡単に検索してインストールすることができます。 アプリのインストール後は、さまざまなダッシュボードの名前を覚えておく必要がありません。ブラウザー内やモバイル デバイス上では 1 つのアプリにまとめて表示されるためです。
 
 アプリの作者が更新プログラムを公開するたびに、自動的に変更が反映されます。 作成者はデータの更新頻度も制御するため、最新の状態が維持されているかを気にする必要はありません。 
 
-アプリを作成する予定がありますか? 詳細については、[Power BI でのアプリの作成および発行](service-create-distribute-apps.md)に関するページをご覧ください。
+アプリを作成する予定がありますか? 詳細については、[Power BI で同僚と一緒にワークスペースを作成する方法](service-create-distribute-apps.md)に関するページを参照してください。
 
 ## <a name="get-a-new-app"></a>新しいアプリを取得する
 さまざまな方法でアプリを入手できます。 アプリの作成者は、ユーザーの Power BI アカウントに自動的にアプリをインストールしたり、アプリへの直接リンクを送信したりできます。あるいはユーザーが AppSource でアプリを検索することもできます。AppSource にはユーザーがアクセスできるアプリがすべて表示されます。 モバイル デバイスの Power BI の場合、直接リンクからのみインストールできます。AppSource からはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。
@@ -41,7 +42,7 @@ Power BI では、*アプリ*が関連のあるダッシュボードやレポー
 
 **iOS または Android モバイル デバイスで** 
 
-モバイル デバイスで電子メールにあるリンクをクリックすると、アプリが自動的にインストールされ、アプリのコンテンツ リストが開きます。 
+モバイル デバイスで電子メールにあるリンクをクリックすると、アプリが自動的にインストールされ、モバイル アプリでアプリのコンテンツ リストが開きます。 
 
 ![モバイル デバイスのアプリ コンテンツ リスト](media/service-install-use-apps/power-bi-app-index-it-spend-360.png)
 
@@ -57,11 +58,11 @@ Power BI では、*アプリ*が関連のあるダッシュボードやレポー
 3. **[Get it now (今すぐ取得)]** を選択して、[アプリ] ページにアプリを追加します。 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>アプリのダッシュボードとレポートを操作する
-これで、アプリのダッシュボードおよびレポートのデータを探索できます。 フィルター処理、強調表示、並べ替え、ドリル ダウンなど、Power BI の標準機能にすべてアクセスできます。 [Power BI でレポートを使用する方法](service-reading-view-and-editing-view.md)に関するページをご覧ください。 
-
-変更内容を保存することはできませんが、レポート内のテーブルや他のビジュアルから [Excel にデータをエクスポートする](power-bi-visualization-export-data.md)ことはいつでも可能です。
+これで、アプリのダッシュボードおよびレポートのデータを探索できます。 フィルター処理、強調表示、並べ替え、ドリル ダウンなど、Power BI の標準機能にすべてアクセスできます。 レポート内のテーブルや他のビジュアルから [Excel にデータをエクスポートする](power-bi-visualization-export-data.md)こともできます。 [Power BI でレポートを使用する方法](service-reading-view-and-editing-view.md)に関するページをご覧ください。 
 
 ![Power BI ビジュアルからデータをエクスポートする](media/service-install-use-apps/power-bi-service-export-data-visual.png)
+
+
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI でのアプリの作成および発行](service-create-distribute-apps.md)
