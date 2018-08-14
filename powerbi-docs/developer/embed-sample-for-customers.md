@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359756"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616053"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>チュートリアル: 顧客向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
-**Azure の Power BI Embedded** を使うと、**アプリ所有データ**を使用してレポート、ダッシュボード、またはタイルをアプリケーションに埋め込むことができます。 **アプリ所有データ**がある場合、Power BI を埋め込み分析プラットフォームとして使用するアプリケーションが含まれます。 これは通常、**ISV 開発者**のシナリオです。 **ISV 開発者**は、アプリケーションのユーザーが Power BI ライセンスを必要としたり、さらには内部に Power BI があることすら意識したりせずに、完全に統合された対話型のアプリケーションにレポート、ダッシュボード、またはタイルを表示する Power BI コンテンツを作成することができます。 このチュートリアルでは、**アプリ所有データ**を使用する顧客向けに **Azure の Power BI Embedded** を使用しているときに、**Power BI** .NET SDK と **Power BI** JavaScript API を使って、アプリケーションにレポートを統合する方法を示します。
+**Azure の Power BI Embedded** を使うと、**アプリ所有データ**を使用してレポート、ダッシュボード、またはタイルをアプリケーションに埋め込むことができます。 **アプリ所有データ**がある場合、Power BI を埋め込み分析プラットフォームとして使用するアプリケーションが含まれます。 通常、**アプリ所有データ**は **ISV 開発者**のシナリオで使用されます。 **ISV 開発者**は、完全に統合された対話型のアプリケーションにレポート、ダッシュボード、またはタイルを表示する **Power BI** コンテンツを作成することができます。アプリケーションのユーザーに Power BI ライセンスは必要ありません。 このチュートリアルでは、**アプリ所有データ**を使用する顧客向けに **Azure の Power BI Embedded** を使用しているときに、**Power BI** .NET SDK と **Power BI** JavaScript API を使って、アプリケーションにレポートを統合する方法を示します。
 
 このチュートリアルで学習する内容は次のとおりです。
 >[!div class="checklist"]
@@ -25,14 +25,14 @@ ms.locfileid: "39359756"
 >* Power BI レポートをアプリケーションに埋め込みます。
 
 ## <a name="prerequisites"></a>前提条件
-作業を始めるには、**Power BI Pro** アカウント (これは**マスター アカウント**です) と **Microsoft Azure** サブスクリプションが必要です。
+作業を始めるには、**Power BI Pro** アカウント (このアカウントは**マスター アカウント**です) と **Microsoft Azure** サブスクリプションが必要です。
 
 * **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/en-us/pricing/)してください。
 * Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)してください。
 * 独自の [Azure Active Directory テナント](create-an-azure-active-directory-tenant.md)のセットアップが必要です。
 * [Visual Studio](https://www.visualstudio.com/) がインストールされている必要があります (バージョン 2013 以降)。
 
-## <a name="setup-your-embedded-analytics-development-environment"></a>埋め込み分析開発環境をセットアップする
+## <a name="set-up-your-embedded-analytics-development-environment"></a>埋め込み分析開発環境を設定する
 
 アプリケーションへのレポート、ダッシュボード、タイルの埋め込みを開始する前に、埋め込めるように環境がセットアップされていることを確認する必要があります。 セットアップの一環として、以下を行う必要があります。
 
@@ -49,7 +49,7 @@ ms.locfileid: "39359756"
  
     ![Azure Portal メイン](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-3. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]**、**[新しいアプリケーションの登録]** の順に選びます。
+3. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]**、**[新しいアプリケーションの登録]** の順に選択します。
    
     ![アプリの登録の検索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![新しいアプリの登録](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
@@ -98,7 +98,7 @@ ms.locfileid: "39359756"
    
     ![[必要なアクセス許可] ダイアログの [アクセス許可の付与]](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-## <a name="setup-your-power-bi-environment"></a>Power BI の環境を設定する
+## <a name="set-up-your-power-bi-environment"></a>Power BI 環境を設定する
 
 ### <a name="create-an-app-workspace"></a>アプリ ワークスペースを作成する
 
@@ -269,7 +269,9 @@ var embedConfig = new EmbedConfig()
 ここでは **EmbedConfig** および **TileEmbedConfig** のクラスを作成するものとします。 これらのサンプルは、**Models\EmbedConfig.cs** ファイルおよび **Models\TileEmbedConfig.cs** ファイルにあります。
 
 ### <a name="load-an-item-using-javascript"></a>JavaScript を使ってアイテムを読み込む
-JavaScript を使って、Web ページの div 要素にレポートを読み込むことができます。 
+JavaScript を使って、Web ページの div 要素にレポートを読み込むことができます。
+
+JavaScript API を使用する完全なサンプルの場合、[Playground ツール](https://microsoft.github.io/PowerBI-JavaScript/demo)を使用できます。 このツールを使うと、さまざまな種類の Power BI Embedded のサンプルを簡単に再生できます。 JavaScript API について詳しくは、[PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) のページも参照してください。
 
 **EmbedConfig** モデルと **TileEmbedConfig** モデルをレポートのビューと一緒に使用するサンプルを次に示します。
 
@@ -316,25 +318,23 @@ JavaScript を使って、Web ページの div 要素にレポートを読み込
 </script>
 ```
 
-JavaScript API を使用する完全なサンプルの場合、[Playground ツール](https://microsoft.github.io/PowerBI-JavaScript/demo)を使用できます。 このツールを使うと、さまざまな種類の Power BI Embedded のサンプルを簡単に再生できます。 JavaScript API について詳しくは、[PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) のページもご覧ください。
-
 ## <a name="move-to-production"></a>運用開始
 
 アプリケーションの開発が終わったら、専用の容量を持つアプリのワークスペースに戻ります。 運用を開始するには、専用の容量が必要です。
 
 ### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
-専用の容量を作成することで、顧客専用のリソースを所有する利点が得られます。 [Microsoft Azure Portal](https://portal.azure.com) 内で専用の容量を購入できます。 Power BI Embedded 容量の作成方法の詳細については、「[Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)」 (Azure Portal で Power BI Embedded 容量を作成する) をご覧ください。
+専用の容量を作成することで、顧客専用のリソースを所有する利点が得られます。 [Microsoft Azure Portal](https://portal.azure.com) 内で専用の容量を購入できます。 Power BI Embedded 容量の作成方法の詳細については、「[Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md)」 (Azure Portal で Power BI Embedded 容量を作成する) をご覧ください。
 
 下の表を参照し、自分のニーズに最適な Power BI Embedded 容量を判断します。
 
 | 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 v コア |0.5 コア、3 GB の RAM |0.5 コア | 1 秒あたり 5 |1-300 |
-| A2 |2 v コア |1 コア、5 GB の RAM |1 コア | 1 秒あたり 10 |301-600 |
-| A3 |4 v コア |2 コア、10 GB の RAM |2 コア | 1 秒あたり 15 |601-1,200 |
-| A4 |8 v コア |4 コア、25 GB の RAM |4 コア |1 秒あたり 30 |1,201-2,400 |
-| A5 |16 v コア |8 コア、50 GB の RAM |8 コア |1 秒あたり 60 |2,401-4,800 |
-| A6 |32 v コア |16 コア、100 GB の RAM |16 コア |1 秒あたり 120 |4,801-9600 |
+| A1 |1 仮想コア |0.5 コア、3 GB の RAM |0.5 コア | 1 秒あたり 5 |1-300 |
+| A2 |2 仮想コア |1 コア、5 GB の RAM |1 コア | 1 秒あたり 10 |301-600 |
+| A3 |4 仮想コア |2 コア、10 GB の RAM |2 コア | 1 秒あたり 15 |601-1,200 |
+| A4 |8 仮想コア |4 コア、25 GB の RAM |4 コア |1 秒あたり 30 |1,201-2,400 |
+| A5 |16 仮想コア |8 コア、50 GB の RAM |8 コア |1 秒あたり 60 |2,401-4,800 |
+| A6 |32 仮想コア |16 コア、100 GB の RAM |16 コア |1 秒あたり 120 |4,801-9600 |
 
 **_A SKU の場合、無料 Power BI ライセンスでは Power BI コンテンツにアクセスできません。_**
 

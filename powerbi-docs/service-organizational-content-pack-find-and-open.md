@@ -3,29 +3,29 @@ title: 組織のコンテンツ パックを検索して接続する - Power BI
 description: Power BI で組織のコンテンツ パックを検索して開く
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 67072d690f09e922601c6b14ad1c150e2298040b
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280227"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624277"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>組織のコンテンツ パックを検索して接続する
-> [!NOTE]
-> 新しい*アプリ*のことは、もうご存知でしょうか。 アプリは、Power BI で多数の対象ユーザーにコンテンツを配布する新しい方法です。 組織のコンテンツ パックは間もなく廃止される予定です。そのため、アプリの使用をお勧めします。 アプリの詳細については、[こちら](service-install-use-apps.md)を参照してください。
-> 
-> 
 
 組織、配布グループ、セキュリティ グループ、または[所属する Office 365 グループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)に対して、誰かが組織のコンテンツ パックを発行すると、AppSource に表示されます。  AppSource を閲覧または検索し、組織のコンテンツ パックを探して開いてください。
 
 コンテンツ パックの作成は、ダッシュ ボードを共有すること、またはグループ内でダッシュボードで共同作業を行うこととは異なります。 状況に応じた最適なオプションを決定するには、「[How should I collaborate on and share dashboards and reports?](service-how-to-collaborate-distribute-dashboards-reports.md)」(ダッシュボードとレポートで共同作業と共有を行う方法) を参照してください。
+
+> [!NOTE]
+> 新しいワークスペース エクスペリエンス プレビューでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
+> 
 
 ## <a name="find-an-organizational-content-pack"></a>組織のコンテンツ パックを検索する
 [Power BI Pro](https://powerbi.microsoft.com/pricing) のすべてのユーザーは、AppSource を使用できます。AppSource には、自分が属している組織全体、配布グループ、セキュリティ グループ、および Office 365 グループで共有されているコンテンツ パックが表示されます。  
