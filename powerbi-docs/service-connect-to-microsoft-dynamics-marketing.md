@@ -54,7 +54,7 @@ Power BI 用 [Dynamics Marketing コンテンツ パック](https://app.powerbi.
 
 ## <a name="system-requirements"></a>システム要件
 * Dynamics Marketing のインスタンスの有効な OData URL を指定する必要があります (コンテンツ パックは、オンプレミスの CRM バージョンでは機能しません)。  
-* 管理者は、サイトの設定で OData エンドポイントを有効にする必要があります。 OData エンドポイントのアドレスは、**[組織のデータ サービス]** セクションの **[ホーム] \> [設定] \> [サイトの設定]** にあります。  OData URL の形式は次のとおりです: https:// [instance\_name].marketing.dynamics.com/analytics  
+* 管理者は、サイトの設定で OData エンドポイントを有効にする必要があります。 OData エンドポイントのアドレスは、**[組織のデータ サービス]** セクションの **[ホーム] \> [設定] \> [サイトの設定]** にあります。  OData URL の形式は次のとおりです: https://[instance\_name].marketing.dynamics.com/analytics  
 * Microsoft Dynamics Marketing へのアクセスに使用するユーザー アカウント/ID は、Power BI を使ってサインアップしたものと同じにする必要があります。 Microsoft Dynamics Marketing にログインする際、Power BI で使用しているものと同じ ID で 自動的にサインインします。 別のアカウントで Microsoft Dynamics Marketing にサインインする場合、その別のアカウントを使用する Power BI ユーザーとして登録してください。 今後のリリースでこの問題は解決される予定です。   
 
 ## <a name="troubleshooting"></a>トラブルシューティング
