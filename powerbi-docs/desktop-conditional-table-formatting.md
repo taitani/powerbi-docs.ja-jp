@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 70aa61d6a02bea1b7058a68b20718008ace1b8c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34480890"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657807"
 ---
 # <a name="conditional-formatting-in-tables"></a>テーブルでの条件付き書式設定 
 テーブルで条件付き書式を使用するときに、グラデーションを使用するなど、セルの値または他の値やフィールドに基づいてカスタマイズされたセルの色を指定できます。 セルの値と共にデータ バーも表示できます。 
@@ -24,7 +24,7 @@ ms.locfileid: "34480890"
 
 ![[条件付き書式設定] メニュー](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-後続のセクションで、3 つの条件付き書式オプションについて説明します。 1 つまたは複数のオプションを 1 つのテーブル列で結合できます。
+次のセクションでは、それぞれの条件付き書式設定オプションについて説明します。 1 つまたは複数のオプションを 1 つのテーブル列で結合できます。
 
 > [!NOTE]
 > テーブルに適用すると、条件付きで書式設定されたセルに適用されているすべてのカスタム テーブル スタイルが、条件付き書式でオーバーライドされます。
@@ -95,3 +95,43 @@ ms.locfileid: "34480890"
 **[バーのみを表示]** オプションが選択されていると、テーブル セルにはバーのみが表示されます。
 
 ![データ バーのみを含むサンプル テーブル](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+
+## <a name="color-formatting-by-field-value"></a>フィールド値に基づく色の書式設定
+
+色を指定するメジャーまたは列を使用し、テキスト値または 16 進コードのいずれかを使用して、テーブルにおけるフォントの色の背景やマトリックス ビジュアルにその色を適用することができます。 また、特定のフィールドに対してカスタム ロジックを作成し、そのロジックで目的の色をフォントや背景に適用することができます。
+
+たとえば、次の表には、各製品モデルに関連付けられた色があります。 
+
+![ProductName フィールドと色の名前](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
+
+フィールド値に基づいてセルを書式設定するには、そのビジュアルの *Color* 列を右クリックして **[条件付き書式]** を選択し、この場合はメニューから **[背景色]** を選択します。 
+
+![メニューから背景色を選択する](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
+
+表示されたダイアログで、次の図のように、**[書式設定基準]** のドロップダウンの領域で **[フィールド値]** を選択します。
+
+![フィールド値に基づく書式設定](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
+
+フォントの色に対してこのプロセスを繰り返すことができます。次の画面のように、ビジュアルの結果は **Color** 列で単色になります。
+
+![フィールド値に基づく書式設定](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
+
+また、希望する条件に基づいてさまざまな 16 進コードを出力するビジネス ロジックに基づいて、DAX 計算を作成することもできます。 通常、これは条件付き書式に複数のルールを作成するより簡単です。 次のサンプル イメージの *ColorKPI* フィールドを検討してください。
+
+![DAX 計算](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
+
+次に、以下の方法で **[背景色]** にフィールド値を設定できます。
+
+![KPI に基づいてフィールドの色を設定する](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
+
+次のマトリックスのような結果を取得することができます。
+
+![色に基づく KPI 値を使用したマトリックス ビジュアル](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
+
+想像力と DAX を少し使うだけで、より多くのバリエーションを作成できます。
+
+## <a name="next-steps"></a>次の手順
+詳しくは、次の資料を参照してください。  
+
+* [Power BI における色の書式設定に関するヒントとコツ](service-tips-and-tricks-for-color-formatting.md)  
+

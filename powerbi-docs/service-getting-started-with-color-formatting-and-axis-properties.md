@@ -7,20 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 422f0ba97f5118ddc57e9102055a070deaf99b90
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 805487087de865c25f08a29243d672fafbc26ca2
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329617"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658039"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>色の書式設定と軸のプロパティの概要
 **Power BI** では、データ系列、データ ポイント、そして視覚化の背景の色も変更できます。 また X 軸と Y 軸の表示方法を変更することもでき、ダッシュボードとレポートの表示方法を完全に制御できます。
 
 開始するには、 **[マイ ワークスペース]** ウィンドウの **[レポート]** を選択します。 次に、上部のメニュー領域にある **[レポートの編集]** を選択します。  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
 レポートの編集中に視覚化を選択すると、 **[視覚化]** ウィンドウが表示され、そこで視覚化を追加したり変更したりできます。 使用できる視覚化のすぐ下には、**[フィールド]** アイコン (横並びの縦棒)、**[書式]** アイコン (ペイント ブラシ)、**[分析]** アイコン (虫眼鏡) という 3 つのアイコンがあります。 次の図では、 **[フィールド]** アイコンが選択されていることが、アイコンの下に黄色のバーによって示されています。
@@ -28,6 +29,7 @@ ms.locfileid: "39329617"
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
 **[書式]** を選択すると、アイコンの下の領域に、現在選択されている視覚化に対して設定できる色と軸のカスタマイズが表示されます。  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
 
 それぞれ視覚化のさまざまな要素をカスタマイズすることができます:
@@ -47,14 +49,13 @@ ms.locfileid: "39329617"
 > [!NOTE]
 >  
 > 視覚化のすべての種類でこれらすべての要素が表示されるわけではありません。 選択した視覚化によって、設定できるカスタマイズは異なります。たとえば、円グラフを選択すると、X 軸は表示されません。円グラフに X 軸がないためです。
-> 
-> 
 
 また視覚化を何も選択しないと、アイコンの代わりに**フィルター**が表示されます。これにより、ページ上のすべての視覚化にフィルターを適用できます。
 
 2 つの例を見てみましょう。1 つは色を扱い、もう 1 つは軸のプロパティを変更します。 この例を参考にすれば、色、軸、ラベルのカスタマイズができるようになるでしょう。
 
 ## <a name="working-with-colors"></a>色の扱い
+
 グラフの色をカスタマイズするために必要な手順を段階的に見てみましょう。
 
 1. レポート キャンバスから **[集合縦棒グラフ]** を選択します。
@@ -76,6 +77,7 @@ ms.locfileid: "39329617"
 直前に行った変更が気に入りませんか? いつものように **CTRL + Z** を使用すると、元に戻すことができます。
 
 ## <a name="changing-axis-properties"></a>軸のプロパティの変更
+
 X 軸または Y 軸を変更すると役立つ場合がよくあります。 色を扱う場合と同様、次のイメージに示されているように、変更対象の軸の左にある下矢印を選択して軸を変更できます。  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
@@ -88,11 +90,15 @@ X 軸ラベルを完全に削除するには、 **[X 軸]** の横にあるラ�
 > [!NOTE]
 >  
 > 上記の色、軸、関連するカスタマイズは、**[書式]** アイコンが選ばれている場合に使用できます。また、Power BI Desktop でも使用できます。
-> 
-> 
 
-## <a name="next-step"></a>次の手順
+## <a name="setting-color-from-text-values"></a>テキスト値からの色の設定
+
+**Power BI Desktop** の 2018 年 8 月更新プログラム以降では、特定のレポート要素に対してテキスト値または 16 進コードによって色を設定することができます。 詳細については、「[テーブルでの条件付き書式設定](desktop-conditional-table-formatting.md)」を参照してください。
+
+
+## <a name="next-steps"></a>次の手順
 詳しくは、次の資料を参照してください。  
 
 * [Power BI における色の書式設定に関するヒントとコツ](service-tips-and-tricks-for-color-formatting.md)  
+* [テーブルでの条件付き書式設定](desktop-conditional-table-formatting.md)
 

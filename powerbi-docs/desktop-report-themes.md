@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop でレポートのテーマを使用する (プレビュー)
+title: Power BI Desktop でレポートのテーマを使用する
 description: ユーザー設定の色パレットを使用し、Power BI Desktop でレポート全体に適用する方法について説明します。
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721181"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657945"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop でレポートのテーマを使用する (プレビュー)
+# <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポートのテーマを使用する
 **レポートのテーマ**では、企業の色、季節の色、または適用する可能性がある他の色のテーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ ms.locfileid: "34721181"
 
 2017 年 9 月リリースの **Power BI Desktop** より、JSON ファイルを利用してさらに多くのテーマ要素を定義できるようになりました。また、**[書式設定]** ウィンドウで手動調整できる JSON ファイルを利用し、ほとんどすべての要素をカスタマイズ (および標準化) できます。 2017 年 9 月リリース (以降) の目標は、レポートのルック アンド フィールを細かなレベルまで完全制御可能にすることです。
 
-### <a name="enable-report-themes-in-preview"></a>プレビューでレポートのテーマを有効にする
-新しい**レポートのテーマ**機能は、**Power BI Desktop** の **2017 年 3 月**のリリースからお試しいただけます。 このプレビュー機能を有効にするには、**[ファイル]、[オプションと設定]、[オプション]、[プレビュー機能]** の順に選択し、**[カスタム レポートのテーマ]** の横にあるチェック ボックスをオンにします。 選択を行った後、**Power BI Desktop** を再起動する必要があります。
+### <a name="enable-report-themes"></a>レポートのテーマを有効にする
+**Power BI Desktop** の 2018 年 8 月のリリースとして、レポートのテーマは一般公開されており、有効にする必要はありません。 
+
+以前のバージョンの **Power BI Desktop** を使用している場合は、**[ファイル]、[オプションと設定]、[オプション]、[プレビュー機能]** の順に選択して、プレビュー機能として有効にすると、**[カスタムのレポート テーマ]** の横にあるチェックボックスを選択できます。 選択を行った後、**Power BI Desktop** を再起動する必要があります。
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+常に、**Power BI Desktop** の最新リリースにアップグレードすることをお勧めします。これは、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」内のリンクから取得できます。 
 
 ## <a name="how-report-themes-work"></a>レポートのテーマのしくみ
 Power BI Desktop レポートにレポートのテーマを適用するには、**[ホーム]** リボンから **[テーマの切り替え]** ボタンを選択し、ドロップダウン リストから **[テーマのインポート]** を選択します。
@@ -100,7 +104,7 @@ JSON ファイルを作成する利点はさまざまです。 たとえば、�
 また、多くの **カスタム ビジュアル** でレポートのテーマは適用されません。
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>今すぐ使用できるレポートのテーマ ファイル
-**レポートのテーマ**の使用を開始しますか?  それは素晴らしいことです。 ここでは、既存のレポート テーマの JSON ファイルをいくつか紹介します。これらのファイルをダウンロードして、**Power BI Desktop** のレポートにインポートすることができます。この記事で使用したレポートに適用したレポート テーマの図も含まれます。
+**レポートのテーマ**の使用を開始しますか?  成功しました。 ここでは、既存のレポート テーマの JSON ファイルを少し紹介します。これらのファイルをダウンロードして、**Power BI Desktop** のレポートにインポートすることができます。この記事で使用したレポートに適用したレポート テーマの図も含まれます。
 
 * 最初のリリースの**レポートのテーマ**を発表した[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)で使用された[テーマ](https://go.microsoft.com/fwlink/?linkid=843924)は、[*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924) といいます。
 

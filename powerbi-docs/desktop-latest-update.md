@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 537b66c193e0995c51616e34f5463cb8e6c68253
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 6f4e79746116d4a7add356a658ce12028b688dae
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210309"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657922"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Power BI Desktop の最新の更新プログラムの新機能
 
-## <a name="july-2018-update-26051693201"></a>2018 年 7 月更新 (2.60.5169.3201)
+## <a name="august-2018-update-2615192321"></a>2018 年 8 月更新 (2.61.5192.321)
 
-今月の大規模な更新プログラムには、魅力的なビジュアルやカラフルな分析情報を作成できる待望されていたデータやレポート機能が搭載されています。
+8 月の更新プログラムは独自のもので、7 月の大規模なリリースのすぐ後に続いています。 海岸での晴れた日のように、気持ちよくこれらの更新を確認いただければ幸いです。慎重に足を踏み入れると、これらの更新が適切であると感じていただけるはずです。 
 
 [最新バージョンの Power BI Desktop をダウンロード](https://powerbi.microsoft.com/desktop)できるようになりました。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 **Power BI Desktop** のインストール方法に関係なく、毎月リリースされるバージョンは同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
 
@@ -38,51 +38,41 @@ ms.locfileid: "39210309"
 
 ### <a name="modeling"></a>モデリング
 
-* 複合モデル (プレビュー) [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=15s) [[記事]](desktop-composite-models.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
-* 多対多のリレーションシップ (プレビュー) (複合モデルと関連) [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=4m53s) [[記事]](desktop-many-to-many-relationships.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
-* ストレージ モード (プレビュー) (複合モデルと関連) [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=15s) [[記事]](desktop-storage-mode.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* メジャー用のデータ カテゴリ [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=15m27s) [[記事]](desktop-measures.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
+* 統計の DAX 関数 [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=18m56s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
 
 
 ### <a name="reporting"></a>レポート
 
-* 柔軟性と書式設定が改善された新しいビジュアル ヘッダー [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=8m26s) [[記事]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader) 
-* 壁紙の書式設定 [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=14m19s) [[記事]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper) 
-* テーマの更新 - ビジュアルとページ コントロール の追加 (プレビュー) [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=19m14s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme) 
-* テーブルとマトリックスのツールヒント [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips) 
-* ビジュアルのツールヒントをオフにする [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips) 
-* スライサーのアクセシビリティ [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=27m29s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility) 
-* 書式設定ウィンドウの改善 [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=30m18s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane) 
-* 折れ線グラフと複合グラフの階段状折れ線のサポート [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=32m46s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine) 
-* 個々の系列の複合グラフのデータ ラベルをオフにする [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=34m19s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
-* 並べ替え機能の改善 [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=35m44s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
+* PDF にエクスポートして、レポートを印刷する [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=12s) [[記事]](desktop-export-to-pdf.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#print) 
+* ブックマーク グループの作成 [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=4m4s) [[記事]](desktop-bookmarks.md#bookmark-groups) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#bookmarks) 
+* テーマの一般公開 [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=7m9s) [[記事]](desktop-report-themes.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
+* スライサーの修正 [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=22m53s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
 
 ### <a name="analytics"></a>分析
 
-* 分布要因の分析 [[動画]](https://youtu.be/Mtig3rmIUe0?t=37m) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
+* 値に基づく条件付き書式設定 [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=7m54s) [[記事]](desktop-conditional-table-formatting.md#color-formatting-by-field-value) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
+* Python 統合 [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=11m14s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
+* Q&A の改善 [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=13m1s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 
 ### <a name="custom-visuals"></a>カスタム ビジュアル
 
-* Power BI 認定カテゴリ [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=41m13s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
-* 特定の組織のビジュアルを無効にする [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=42m32s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
-* 4 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=44m) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+* 5 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=19m48s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>データ接続
 
-* IBM DB2 DirectQuery コネクタ (プレビュー) [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=54m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2) 
-* Web By Example コネクタの改善 [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=54m53s) [[記事]](desktop-connect-to-web-by-example.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample) 
-* SAP HANA - 変数入力機能の変数の既定値 [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=56m19s) [[記事]](desktop-sap-hana.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA) 
+* Spark コネクタの一般公開 [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=31m41s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#spark) 
 
 
 > [!NOTE]
 > [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
 
-これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
 
 
 次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
 > 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。

@@ -2,26 +2,26 @@
 title: オンプレミス データ ゲートウェイの高可用性クラスター
 description: オンプレミス データ ゲートウェイのクラスターを作成して、エンタープライズの高可用性を提供することができます。
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/05/2017
-ms.author: mblythe
+ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9777131c25974a2bc9936ef1c1ce285bb652028c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: 5b89b53cab0f7e4df07b15a05cd74c7d99b1392a
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032027"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657991"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイの高可用性クラスター
+
 **オンプレミス データ ゲートウェイ** インストールの**高可用性クラスター**を作成すると、組織は Power BI レポートとダッシュボードで使用されるオンプレミス データ リソースにアクセスできるようになります。 このようなクラスターでは、管理者はゲートウェイをグループ化して、オンプレミス データ リソースへのアクセス時に単一障害点を回避できます。 Power BI サービスでは、常にクラスターのプライマリ ゲートウェイが使用されます。ただし、使用不可の場合を除きます。 その場合、サービスはクラスターの次のゲートウェイに切り替え、以下同様に切り替えます。
 
 この記事では、オンプレミス データ ゲートウェイの高可用性クラスターを作成するために実行できる手順について説明し、クラスターのセットアップ時のベスト プラクティスを共有します。 高可用性ゲートウェイ クラスターには、オンプレミス データ ゲートウェイの 2017 年 11 月以降の更新プログラムが必要です。
-
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>ゲートウェイの高可用性クラスターのセットアップ
 
@@ -31,14 +31,19 @@ ms.locfileid: "39032027"
 
 既存のクラスターにゲートウェイを追加するには、新しいゲートウェイを結合するクラスターのプライマリ ゲートウェイ インスタンスに*回復キー*を提供する必要があります。 クラスターのプライマリ ゲートウェイは、2017 年 11 月以降のゲートウェイ更新プログラムを実行する必要があります。 
 
-
 ## <a name="managing-a-gateway-cluster"></a>ゲートウェイ クラスターの管理
 
-ゲートウェイ クラスターが 2 つ以上のゲートウェイで構成されると、データ ソースの追加やゲートウェイへの管理アクセス許可の付与などの、すべてのゲートウェイ管理操作が、クラスターの一部であるすべてのゲートウェイに適用されます。 
+ゲートウェイ クラスターが 2 つ以上のゲートウェイで構成されると、データ ソースの追加やゲートウェイへの管理アクセス許可の付与などの、すべてのゲートウェイ管理操作が、クラスターの一部であるすべてのゲートウェイに適用されます。
 
 管理者が **Power BI サービス**の歯車アイコンの下にある **[ゲートウェイの管理]** メニュー項目を使用するときに、登録済みクラスターまたは個々のゲートウェイのリストが表示されますが、クラスターのメンバーである個々のゲートウェイ インスタンスは表示されません。
 
 新しい**スケジュールされている更新**要求と DirectQuery 操作はすべて、指定されたゲートウェイ クラスターのプライマリ インスタンスに自動的にルーティングされます。 プライマリ ゲートウェイ インスタンスがオンラインでない場合、要求はクラスターの別のゲートウェイ インスタンスにルーティングされます。
+
+## <a name="distribute-requests-traffic-across-all-gateways-in-a-cluster"></a>クラスターにあるすべてのゲートウェイ間で要求トラフィックを分散する
+
+クラスターにあるすべてのゲートウェイ間でトラフィックを分散することを選択できます。 **Power BI サービス**の **[ゲートウェイの管理]** ページで、左のナビゲーション ツリーにある一覧でゲートウェイ クラスターをクリックすると、"このクラスター内のすべてのアクティブなゲートウェイで要求を配布します" というオプションを有効にできます。
+
+![負荷分散](media/service-gateway-high-availability-clusters/gateway-onprem-loadbalance.png)
 
 ## <a name="powershell-support-for-gateway-clusters"></a>PowerShell でのゲートウェイ クラスターのサポート
 
@@ -71,10 +76,9 @@ PowerShell スクリプトは、オンプレミス データ ゲートウェイ�
 | *Login-OnPremisesDataGateway* |このコマンドを使用すると、ユーザーはログインして自分のオンプレミス データ ゲートウェイ クラスターを管理できます。  他の高可用性コマンドが正しく機能するように、*あらかじめ*このコマンドを実行してログインする必要があります。 注: ログイン呼び出しの一環として取得される AAD 認証トークンが有効なのは 1 時間だけです。1 時間が経過すると、期限切れとなります。 ログイン コマンドを再実行することで新しいトークンを取得できます。| AAD のユーザー名とパスワード (初回の呼び出し時ではなく、コマンドの実行時に指定)|
 | *Get-OnPremisesDataGatewayClusters* | ログイン ユーザーのゲートウェイ クラスターのリストを取得します。 | 必要に応じて、読みやすいように、このコマンドに *Format-Table -AutoSize -Wrap* などの書式設定パラメーターを渡すことができます。 |
 | *Get-OnPremisesDataClusterGateways* | 指定されたクラスター内のゲートウェイのリストと、ゲートウェイごとの追加情報 (オンライン/オフライン状態、コンピューター名など) を取得します。 | *-ClusterObjectID xyz*  (この *xyz* は実際のクラスター オブジェクト ID の値に置き換えます。値は、*Get-OnPremisesDataGatewayClusters* コマンドを使用して取得できます)|
-| *Set-OnPremisesDataGateway* | 特定のゲートウェイ インスタンスの有効化/無効化など、クラスター内の指定されたゲートウェイのプロパティ値を設定できます。  | *-ClusterObjectID xyz* (*xyz* は *Get-OnPremisesDataGatewayClusters* コマンドで取得できる実際のオブジェクト ID の値に置き換える必要があります)。*-GatewayObjectID abc*  (*abc* は *Get-OnPremisesDataClusterGateways* コマンドで取得できる実際のゲートウェイ オブジェクト ID の値に置き換える必要があります。また、クラスター ID を指定する必要があります。) |
+| *Set-OnPremisesDataGateway* | 特定のゲートウェイ インスタンスの有効化/無効化など、クラスター内の指定されたゲートウェイのプロパティ値を設定できます。  | *-ClusterObjectID xyz* (*xyz* は *Get-OnPremisesDataGatewayClusters* コマンドで取得できる実際のオブジェクト ID の値に置き換える必要があります) *-GatewayObjectID abc* (*abc* は *Get-OnPremisesDataClusterGateways* コマンドで取得できる実際のゲートウェイ オブジェクト ID の値に置き換える必要があり、クラスター ID を指定する必要があります) |
 | *Get-OnPremisesDataGatewayStatus* | クラスター内の指定されたゲートウェイ インスタンスの状態を取得できます。  | *-ClusterObjectID xyz* (*xyz* は *Get-OnPremisesDataGatewayClusters* コマンドで取得できる実際のオブジェクト ID の値に置き換える必要があります)。  *-GatewayObjectID abc*  (*abc* は *Get-OnPremisesDataClusterGateways* コマンドで取得できる実際のゲートウェイ オブジェクト ID の値に置き換える必要があります。また、クラスター ID を指定する必要があります。) |
 | *Remove-OnPremisesDataGateway*  | クラスターからゲートウェイ インスタンスを削除できます。クラスター内のプライマリ ゲートウェイは、クラスター内の他のすべてのゲートウェイが削除されるまで削除できないことにご注意ください。| *-ClusterObjectID xyz* (*xyz* は *Get-OnPremisesDataGatewayClusters* コマンドで取得できる実際のオブジェクト ID の値に置き換える必要があります)。  *-GatewayObjectID abc*  (*abc* は *Get-OnPremisesDataClusterGateways* コマンドで取得できる実際のゲートウェイ オブジェクト ID の値に置き換える必要があります。また、クラスター ID を指定する必要があります。) |
-
 
 ## <a name="next-steps"></a>次の手順
 
