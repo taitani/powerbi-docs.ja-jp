@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582573"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256883"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI のパフォーマンスのベスト プラクティス 
 この記事では、Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティスについて説明します。  
@@ -46,10 +46,10 @@ DirectQuery のデータ ソースの最適化の詳細については、「[Dir
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery とライブ接続: 基になるデータ ソースのパフォーマンスを理解する 
 
-DirectQuery やライブ接続の場合、ユーザーが Power BI レポートを閲覧すると、Power BI が基になるデータ ソースにリアルタイムにクエリを送信します。 データ ソースからクエリ データが返されると、レポートが表示されます。 その結果、このようなレポートのパフォーマンスは、基になるデータ ソースのパフォーマンスに大きく依存します。 
- 
-このような場合、基になるデータ ソースのパフォーマンスを理解することが重要になります。 クエリのパフォーマンスを理解するためのツールは、データ ソースごとに異なります。 たとえば、SQL Server および Azure SQL では、クエリの履歴とそれらの実行時統計を取得するクエリ ストアが用意されています。 
- 
+DirectQuery やライブ接続の場合、ユーザーが Power BI レポートを閲覧すると、Power BI が基になるデータ ソースにリアルタイムにクエリを送信します。 データ ソースからクエリ データが返されると、レポートが表示されます。 その結果、このようなレポートのパフォーマンスは、基になるデータ ソースのパフォーマンスに大きく依存します。
+
+このような場合、基になるデータ ソースのパフォーマンスを理解することが重要になります。 クエリのパフォーマンスを理解するためのツールは、データ ソースごとに異なります。 たとえば、SQL Server および Azure SQL では、クエリの履歴とそれらの実行時統計を取得するクエリ ストアが用意されています。
+
 目安として、DirectQuery とライブ接続上に構築された Power BI レポートをデプロイするときに、エンドユーザーが Power BI Desktop で何をするかを試します。 Power BI Desktop でレポートの読み込みに時間がかかる場合は、エンド ユーザーのサービスでもほぼ確実に読み込みに時間がかかります。 
  
 ## <a name="directquery-best-practices"></a>DirectQuery のベスト プラクティス 
