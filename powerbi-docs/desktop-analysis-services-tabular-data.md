@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329313"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256907"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop で Analysis Services の表形式データを使用する
 Power BI Desktop では、2 つの方法で SQL Server Analysis Services 表形式モデルに接続し、データを取得することができます。ライブ接続を使用して探索するか、項目を選択して Power BI Desktop にインポートします。
@@ -24,7 +24,9 @@ Power BI Desktop では、2 つの方法で SQL Server Analysis Services 表形�
 
 **ライブ接続を使用して探索** – ライブ接続を使用している場合、テーブル、列、メジャーなどの表形式モデルやパースペクティブは、Power BI Desktop の [フィールド] 一覧に表示されます。 Power BI Desktop の高度な視覚化とレポート ツールを使用して、新しい高度な対話型方式で表形式モデルを探索することができます。
 
-ライブ接続しているときは、表形式モデルのデータが Power BI Desktop にインポートされることはありません。 視覚化と対話するたびに、Power BI Desktop は表形式モデルのクエリを実行し、表示結果を計算します。 常に最新のデータが表示されます。 表形式モデルは高度なセキュリティを備えています。 Power BI Desktop に表示される項目は、接続している表形式モデルに対してあなたが持っているアクセス許可によって異なります。
+ライブ接続しているときは、表形式モデルのデータが Power BI Desktop にインポートされることはありません。 視覚化と対話するたびに、Power BI Desktop は表形式モデルのクエリを実行し、表示結果を計算します。 最後の処理時間から、または表形式モデルで使用できる直接クエリ テーブルから、表形式モデルで利用可能な最新データを常に確認することができます。 
+
+なお、表形式モデルは高度なセキュリティを備えています。 Power BI Desktop に表示される項目は、接続している表形式モデルに対してあなたが持っているアクセス許可によって異なります。
 
 Power BI Desktop で動的なレポートを作成したら、Power BI サイトに発行してレポートを共有することができます。 表形式モデルにライブ接続している状態で Power BI Desktop ファイルを Power BI サイトに発行するときは、管理者によってオンプレミス データ ゲートウェイがインストールされ、構成されている必要があります。 詳細については、「[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)」をご覧ください。
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965506"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257356"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -100,42 +100,43 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 
 管理ポータルの 3 番目のタブは、**[テナント設定]** です。 テナント設定を使用して、組織で利用できる機能を細かく制御できます。 機密データに関して懸念がある場合は、一部の機能はお客様の組織に適していない可能性があり、指定した機能を特定のグループのみが使用できるようにする必要がある場合があります。 そのような場合は、テナントの該当する機能をオフに切り替えることができます。
 
-たとえば、既定では、ユーザーごとのデータは利用状況の指標に対して有効であり、コンテンツ作成者のアカウント情報は指標レポートに含まれます。 一部またはすべてのユーザーに対してこの情報を含めない場合は、指定したセキュリティ グループまたは組織全体に対してこの機能を無効にします。 アカウント情報は、*[名前なし]* としてレポートに表示されます。
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > テナントのすべてのユーザーに対して設定が有効になるには、最大で 10 分かかることがあります。
 
-指定した設定に基づいて、3 つの状態を設定することができます。
+次の 3 つの状態を設定できます。
 
-### <a name="disabled-for-the-entire-organization"></a>組織全体に対して無効にする
+* **組織全体に対して無効にする**: 機能を無効にし、ユーザーがその機能を使用できないようにすることができます。
 
-機能を無効にし、ユーザーがその機能を使用できないようにすることができます。
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **組織全体に対して有効にする**: 組織全体に対して機能を有効にできます。有効にすると、すべてのユーザーがその機能にアクセスできるようになります。
 
-### <a name="enabled-for-the-entire-organization"></a>組織全体に対して有効にする
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-組織全体に対して機能を有効にできます。有効にすると、すべてのユーザーがその機能にアクセスできるようになります。
+* **組織のサブセットに対して有効にする**: 一部の組織に対して機能を有効にすることもできます。 これは、いくつかの異なる方法で設定することができます。 特定のユーザーのグループを除いて、組織全体に対して機能を有効にすることができます。
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>組織のサブセットに対して有効にする
+    特定のユーザーのグループのみに対して機能を有効にすることもでき、また、ユーザーのグループに対して機能を無効にすることもできます。 これで、特定のユーザーが許可されているグループに属している場合でも、その機能へのアクセス権を持たないようにすることができます。
 
-また、一部の組織に対して機能を有効にすることもできます。 これは、いくつかの異なる方法で設定することができます。 特定のユーザーのグループを除いて、組織全体に対して機能を有効にすることができます。
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+次のいくつかのセクションでは、さまざまな種類のテナント設定の概要を示します。
 
-特定のユーザーのグループのみに対して機能を有効にすることもでき、また、ユーザーのグループに対して機能を無効にすることもできます。 これで、特定のユーザーが許可されているグループに属している場合でも、その機能へのアクセス権を持たないようにすることができます。
+## <a name="workspace-settings"></a>ワークスペースの設定
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>ワークスペース (プレビュー) を作成する
+組織内のユーザーはアプリ ワークスペースを作成し、ダッシュボード、レポート、およびその他のコンテンツで共同作業を行うことができます。
+
+詳細については、[新しいワークスペースの作成](service-create-the-new-workspaces.md)に関するページを参照してください。
 
 ## <a name="export-and-sharing-settings"></a>エクスポートと共有の設定
 
 ### <a name="share-content-to-external-users"></a>外部ユーザーとコンテンツを共有する
 
-組織内のユーザーは、組織外のユーザーとダッシュボードを共有することができます。
+組織内のユーザーは組織外のユーザーとダッシュボードを共有できます。
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -244,7 +245,7 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。
 
-## <a name="audit-settings"></a>監査の設定
+## <a name="audit-and-usage-settings"></a>監査と使用状況の設定
 
 ### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>内部アクティビティの監査とコンプライアンスのための監査ログの作成
 
@@ -254,6 +255,25 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。
+
+### <a name="usage-metrics-for-content-creators"></a>コンテンツ作成者用の使用状況メトリック
+組織内のユーザーは、自分が作成したダッシュボードとレポートの使用状況メトリックを確認できます。 [詳細情報](service-usage-metrics.md)
+
+設定を **[有効]** に切り替えた後、使用状況メトリックを表示できるユーザーを指定できます (組織全体または特定のセキュリティ グループ)。
+
+> [!NOTE]
+> テナント設定の変更が有効になるまで時間がかかることに注意してください。
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>コンテンツ作成者用の使用状況メトリックにおけるユーザーごとのデータ
+コンテンツ作成者用の使用状況メトリックには、コンテンツにアクセスしているユーザーの表示名とメール アドレスが示されます。 [詳細情報](service-usage-metrics.md)
+
+設定を **[有効]** に切り替えた後、使用状況メトリックで表示名とメール アドレスを表示できるユーザーを指定できます (組織全体または特定のセキュリティ グループ)。
+
+ユーザーごとのデータは利用状況メトリックに対して既定で有効になり、コンテンツ作成者のアカウント情報はメトリック レポートに含まれます。 一部またはすべてのユーザーに対してこの情報を含めない場合は、指定したセキュリティ グループまたは組織全体に対してこの機能を無効にします。 アカウント情報は、*[名前なし]* としてレポートに表示されます。
+
+> [!NOTE]
+> テナント設定の変更が有効になるまで時間がかかることに注意してください。
+
 
 ## <a name="dashboard-settings"></a>ダッシュボードの設定
 
@@ -270,9 +290,9 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 
 組織内のユーザーが、Power BI のダッシュボードとレポートを、サービスとしてのソフトウェア (SaaS) アプリケーションに埋め込むことができます。 この設定を無効にすると、ユーザーが REST API を使用して、Power BI コンテンツをアプリケーションに埋め込むことができなくなります。
 
-## <a name="premium-settings"></a>Premium の設定
+## <a name="capacity-settings"></a>容量の設定
 
-[Premium の設定] タブでは、組織用に購入されたすべての Power BI Premium 容量を管理できます。 組織内のすべてのユーザーに [Premium の設定] タブが表示されますが、そのタブにコンテンツが表示されるのは、ユーザーが、**容量管理者**、または割り当てのアクセス許可を持つユーザーとして割り当てられている場合のみです。 アクセス許可が何も割り当てられていないユーザーには、次のメッセージが表示されます。
+[容量の設定] タブでは、組織用に購入されたすべての Power BI Premium 容量を管理できます。 組織内のすべてのユーザーに [Premium の設定] タブが表示されますが、そのタブにコンテンツが表示されるのは、ユーザーが、**容量管理者**、または割り当てのアクセス許可を持つユーザーとして割り当てられている場合のみです。 アクセス許可が何も割り当てられていないユーザーには、次のメッセージが表示されます。
 
 ![](media/service-admin-portal/premium-settings-no-access.png "Premium の設定にアクセスできません")
 

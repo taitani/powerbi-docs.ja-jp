@@ -2,22 +2,23 @@
 title: Power BI でのカスタム ビジュアル
 description: Power BI でのカスタム ビジュアル
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/06/2018
-ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 872f0c556dd995c20d461d9f4969b7fa00f80571
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721457"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256408"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI でのカスタム ビジュアル
+
 Power BI レポートを作成または編集するときには、さまざまな種類のビジュアルを使用できます。 このようなビジュアルは **[視覚化]** ウィンドウに表示されます。 Power BI Desktop をダウンロードしたり、Power BI サービス (app.powerbi.com) を開いたりすると、このビジュアルのセットが "事前にパッケージ化" されます。
 
 ![](media/power-bi-custom-visuals/power-bi-visualizations.png)
@@ -33,12 +34,10 @@ Power BI レポートを作成または編集するときには、さまざま�
 
 ## <a name="custom-visual-files"></a>カスタム ビジュアル ファイル
 
-カスタム ビジュアルはパッケージであり、特定の目的を果たすデータをレンダリングするためのコードが含まれています。 カスタム ビジュアルは誰でも作成し、1 個の .pbiviz ファイルとしてパッケージ化できます。このファイルは Power BI レポートにインポートできます。
+カスタム ビジュアルはパッケージであり、特定の目的を果たすデータをレンダリングするためのコードが含まれています。 カスタム ビジュアルは誰でも作成し、単一の `.pbiviz` ファイルとしてパッケージ化できます。このファイルは Power BI レポートにインポートできます。
 
 > [!WARNING]
 > カスタム ビジュアルには、セキュリティやプライバシー上のリスクを伴うコードが含まれている可能性があります。レポートにインポートする前に、カスタム ビジュアルの作成者とソースが信頼できることを確認してください。
-> 
-> 
 
 ## <a name="organization-visuals"></a>組織のビジュアル
 
@@ -59,7 +58,7 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 
 独自の視覚エフェクトを作成して AppSource に追加することに興味がある Web 開発者の方は、 「[開発者ツールの概要](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools)」を参照し、[AppSource にカスタム ビジュアルを公開する](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)方法を学習してください。
 
-### <a name="import-a-custom-visuals-from-a-file"></a>カスタム ビジュアルをファイルからインポートする
+### <a name="import-a-custom-visual-from-a-file"></a>カスタム ビジュアルをファイルからインポートする
 
 1. [視覚化] ウィンドウの下部にある省略記号を選択します。
 
@@ -69,7 +68,7 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 
     ![](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
 
-3. [ファイルを開く] メニューで、インポートする .pbiviz ファイルを選択し、[開く] を選択します。 カスタム ビジュアルのアイコンが [視覚化] ウィンドウの下部に追加され、レポートで使用できるようになりました。
+3. [ファイルを開く] メニューで、インポートする `.pbiviz` ファイルを選び、[開く] を選択します。 カスタム ビジュアルのアイコンが [視覚化] ウィンドウの下部に追加され、レポートで使用できるようになりました。
 
     ![](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
@@ -94,8 +93,9 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 5. **[追加]** を選択して、カスタム ビジュアルをインポートします。 カスタム ビジュアルのアイコンが [視覚化] ウィンドウの下部に追加され、レポートで使用できるようになりました。
 
     ![](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
- 
+
 ## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Microsoft AppSource からカスタム ビジュアルをダウンロードまたはインポートする
+
 カスタム ビジュアルをダウンロードおよびインポートする場合、Power BI と AppSource Web サイトの 2 つのオプションを使用できます。
 
 ### <a name="import-custom-visuals-from-within-power-bi"></a>Power BI からカスタム ビジュアルをインポートする
@@ -138,11 +138,11 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 
     ![](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
-3. AppSource に、各カスタム ビジュアルのタイルが表示されます。  各タイルにはカスタム ビジュアルのスナップショットが含まれ、簡単な説明と、ダウンロードのリンクがあります。 詳細を表示するには、タイルを選択します。 
+3. AppSource に、各カスタム ビジュアルのタイルが表示されます。  各タイルにはカスタム ビジュアルのスナップショットが含まれ、簡単な説明と、ダウンロードのリンクがあります。 詳細を表示するには、タイルを選択します。
 
     ![](media/power-bi-custom-visuals/powerbi-custom-select-visual.png)
 
-4. 詳細ページでは、スクリーンショット、ビデオ、詳細な説明、その他を見ることができます。 **[今すぐ入手する]** を選択し、使用条件に同意して、カスタム ビジュアルをダウンロードします。 
+4. 詳細ページでは、スクリーンショット、ビデオ、詳細な説明、その他を見ることができます。 **[今すぐ入手する]** を選択し、利用規約に同意して、カスタム ビジュアルをダウンロードします。
 
     ![](media/power-bi-custom-visuals/power-bi-appsource-get.png)
 
@@ -156,9 +156,9 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 
     ![](media/power-bi-custom-visuals/powerbi-custom-try-sample.png)
 
-6. .pbiviz ファイルを保存し、Power BI を開きます。
+6. '.pbiviz' ファイルを保存し、Power BI を開きます。
 
-7. レポートに .pbiviz ファイルをインポートします (上の「[カスタム ビジュアルをファイルからインポートする](#import-a-custom-visuals-from-a-file)」セクション参照)。
+7. レポートに '.pbiviz' ファイルをインポートします (上の「[カスタム ビジュアルをファイルからインポートする](#import-a-custom-visuals-from-a-file)」セクション参照)。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 

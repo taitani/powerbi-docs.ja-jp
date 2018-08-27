@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eee7c4989c4856ab86cb4883f8004198da00e4fd
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799420"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257022"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -84,7 +84,7 @@ Power BI Desktop または Power BI サービスでレポートをデザイン�
 ## <a name="drill-down-and-up-in-a-visual"></a>ビジュアルのドリルダウンとドリルアップ
 レポート作成者がドリルダウン機能をビジュアルに追加した場合、ビジュアルをドリルダウンして、含まれる値を表示することができます。 [ビジュアルへのドリルダウンの追加](power-bi-visualization-drill-down.md)は、Power BI Desktop または Power BI サービスで行います。 
 
-* ツールヒントを表示するには、ビジュアルのデータ ポイントをタップします。 ドリルダウンできる場合は、ツールヒントの下にタップできる矢印があります。 
+* ビジュアルで特定のバーまたはポイントを長押しして、そのツールヒントを表示します。 ドリルダウンできる場合は、ツールヒントの下にタップできる矢印があります。 
   
   ![ビジュアルをドリルダウンする](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 

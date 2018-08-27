@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482132"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256911"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -22,6 +22,18 @@ ms.locfileid: "34482132"
 
 新機能の詳細については、「[Power BI レポート サーバーの新機能](whats-new.md)」を参照してください。 
 
+## <a name="august-2018"></a>2018 年 8 月
+- **Power BI Report Server**
+    - *バージョン 1.3.6801.38816 (ビルド 15.0.2.540)、リリース日: 2018 年 8 月 15 日*
+        - 機能
+            - Kerberos での SAP HANA SSO 直接クエリのサポートが Power BI レポートで利用できるようになりました。
+            - リリースに付属するカスタム ビジュアル API - バージョン 1.13.0
+            - カスタム ビジュアルは、サーバー API の現在のバージョン (利用可能な場合) と互換性のある以前のバージョンにフォールバックされます。
+
+- **Power BI Desktop (Power BI Report Server 用に最適化)**
+    - *バージョン: 2.61.5192.64 (2018 年 8 月)、リリース日: 2018 年 8 月 15 日*
+        - Power BI Report Server (2018 年 8 月) との接続に必要な変更が含まれます。         
+        
 ## <a name="march-2018"></a>2018 年 3 月
 - **Power BI Report Server**
     - *バージョン 1.2.6690.34729 (ビルド 15.0.2.402)、リリース日: 2018 年 4 月 27 日*

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600381"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257263"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>開発者ツールを使ってカスタム ビジュアルを作成する
 カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。
@@ -178,10 +178,10 @@ ms.locfileid: "37600381"
 新しいビジュアル プロジェクトを作成するには、次のコマンドを実行します。
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-*My Visual Name* を、ビジュアルに付けたい名前に置き換えることができます。 この名前は後で変更することができます。その場合は、生成された `pbiviz.json``name` フィールドと `displayName` フィールドを変更します。
+*MyVisualName* を、ビジュアルに付けたい名前に置き換えることができます。 この名前は後で変更することができます。その場合は、生成された `pbiviz.json``name` フィールドと `displayName` フィールドを変更します。
 
 このコマンドにより、コマンドが実行されたディレクトリ内に新しいフォルダーが作成されます。 ビジュアル用の基本的なスターター テンプレートも生成されます。 コマンドが完了したら、ディレクトリを開き、使い慣れたエディターを使用して、新しいビジュアルでの作業を開始することができます。
 

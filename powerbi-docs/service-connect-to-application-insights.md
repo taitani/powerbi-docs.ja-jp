@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244251"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40256955"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Power BI で Application Insights に接続する
 Power BI を使用して、[Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) テレメトリから強力なカスタム ダッシュボードを作成できます。 新しい方法でアプリのテレメトリを視覚化します。 複数のアプリまたはコンポーネント サービスからのメトリックを単一のダッシュボードに統合します。 この Application Insights 用 Power BI コンテンツ パックの最初のリリースには、アクティブなユーザー、ページ ビュー、セッション、ブラウザーと OS のバージョン、マップ内でのユーザーの地理的分布など、一般的な使用関連メトリックのためのウィジェットが含まれています。
@@ -23,7 +23,7 @@ Power BI を使用して、[Application Insights](https://azure.microsoft.com/do
 [Power BI 用 Application Insights コンテンツ パック](https://app.powerbi.com/getdata/services/application-insights)に接続します。
 
 >[!NOTE]
->接続するには、Azure プレビュー ポータルでアプリケーションの Application Insights 概要ブレードにアクセスする必要があります。 要件の詳細については、このあと説明します。
+>この統合方法は現在、**非推奨**です。 Application Insights から Power BI への推奨される接続方法の詳細については、[Analytic クエリのエクスポート機能](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries)に関するページを参照してください。
 
 ## <a name="how-to-connect"></a>接続する方法
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
