@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280135"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151954"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのタイルを調べる
 適用対象:
@@ -28,10 +28,6 @@ ms.locfileid: "39280135"
 その後、Power BI モバイル アプリからタイルをフォーカス モードで開き、操作します。 Bing と R に基づいたタイルを含め、ありとあらゆる種類のビジュアルを使ったタイルを開くことができます。
 
 ## <a name="tiles-in-the-ios-apps"></a>iOS アプリ内のタイル
-> [!NOTE]
-> [iPhone アプリで画像タイルを作成](mobile-iphone-app-get-started.md)し、それらをダッシュボードに保存できます。
-> 
-> 
 
 1. [iOS 用のモバイル アプリでダッシュボード](mobile-apps-view-dashboard.md)を開きます。
 2. タイルをタップします。 タイルがフォーカス モードで開きます。このモードでは、タイルのデータを簡単に表示および調査できます。 フォーカス モードでは次のことができます。
@@ -40,7 +36,7 @@ ms.locfileid: "39280135"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>たとえば、この折れ線グラフで選択されている値は、**今年</em>* と**昨年**の **8** 月の売上値です。*  
+   "*たとえば、この折れ線グラフで選択されている値は、**今年**と**昨年**の **8 月の売上値**です。*"  
    
    円グラフでスライスをタップすると、円の上部にスライスの値を表示できます。  
    
@@ -107,7 +103,7 @@ ms.locfileid: "39280135"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>この横棒グラフでは、**Decor</em>* バーの値はグラフの上部に表示されます。*
+   "*この横棒グラフでは、**Decor** バーの値はグラフの上部に表示されます。*"
    
    **[全画面表示]** アイコン ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) をタップすると、タイルが全画面表示モードで開き、ナビゲーション バーとメニュー バーは表示されません。
    
