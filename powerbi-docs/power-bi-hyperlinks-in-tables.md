@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
+ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310178"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42799047"
 ---
 # <a name="hyperlinks-in-tables"></a>テーブル内のハイパーリンク
 このトピックでは、Power BI Desktop を使ってハイパーリンクを作成する方法を説明します。 作成した後は、Desktop または Power BI サービスを使って、レポートのテーブルとマトリックスにハイパーリンクを追加します。 
@@ -39,8 +39,10 @@ Power BI Desktop ではテーブルやマトリックス内にハイパーリン
     ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. **[Web URL]** を選びます。
 4. レポート ビューに切り替え、Web URL としてカテゴリ化されたフィールドを使用してテーブルまたはマトリックス作成します。 ハイパーリンクは、青色で下線付きの表示です。
-   
     ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+> **注**: URL は、**http:// 、 https://**、**www** のいずれかで始まっている必要があります。
+> 
+>   
 5. テーブルに長い URL が表示されないようにするには、代わりにハイパーリンク アイコン ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) を表示することができます。 マトリックスにはアイコンを表示できないことに注意してください。
    
    * グラフを選んでアクティブにします。
