@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658014"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151908"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのトラブルシューティング
 
@@ -279,7 +279,7 @@ Azure Active Directory UPN がローカルの Active Directory UPN と一致し�
 | # of Mashup open connection failed / sec |1 秒間に実行された Mashup オープン接続アクションの数 (失敗)。 |
 | # of Mashup queries executed / sec |1 秒間に実行された Mashup クエリの数 (成功または失敗)。 |
 | # of Mashup queries failed / sec |1 秒間に実行された Mashup クエリの数 (失敗)。 |
-| # of multiple result sets of OLEDB queries failed / sec |1 秒間に実行された OLEDB クエリの複数結果セットの数 (失敗)。 |
+| # of OLEDB multiple result set queries failed / sec |1 秒間に実行された OLEDB クエリの複数結果セットの数 (失敗)。 |
 | # of OLEDB multiple result sets of queries executed / sec |1 秒間に実行された OLEDB クエリの複数結果セットの数 (成功または失敗)。 |
 | # of OLEDB open connection executed / sec |1 秒間に実行された OLEDB オープン接続アクションの数 (成功または失敗)。 |
 | # of OLEDB open connection failed / sec |1 秒間に実行された OLEDB オープン接続アクションの数 (失敗)。 |
