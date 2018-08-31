@@ -93,7 +93,7 @@ GitHub 自体のリポジトリを見ることで、所有者とリポジトリ�
 必要に応じて、GitHub の資格情報を確認することができます。  
 
 1. 別のブラウザー ウィンドウで、GitHub の web サイトに移動して GitHub にログインします。 GitHub サイトの右上隅でログイン状態を確認できます。    
-2. GitHub で、Power BI でアクセスしようとしているリポジトリの URL に移動します。 たとえば、https://github.com/dotnet/corefx です。  
+2. GitHub で、Power BI でアクセスしようとしているリポジトリの URL に移動します。 たとえば、 https://github.com/dotnet/corefx です。  
 3. Power BI に戻って GitHub に接続します。 [GitHub の構成] ダイアログ ボックスで、その同じリポジトリの名前と所有者を使用します。  
 
 ## <a name="next-steps"></a>次の手順

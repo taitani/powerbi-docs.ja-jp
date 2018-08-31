@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40257947"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703008"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) を利用し、Excel ブックをホストするようにレポート サーバーを構成する
 
@@ -37,7 +37,7 @@ Office Online Server を実行するサーバーで以下の手順を実行し�
     ```
 
     **Windows Server 2016:**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
@@ -57,9 +57,9 @@ Office Online Server を実行するサーバーで以下の手順を実行し�
 1. [ボリューム ライセンス サービス センター (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) から Office Online Server をダウンロードします。 ダウンロードは、VLSC ポータルの Office 製品の下にあります。 開発目的の場合、MSDN サブスクライバー ダウンロードから OOS をダウンロードできます。
 2. Setup.exe を実行します。
 3. **[マイクロソフト ソフトウェア ライセンス条項をお読みください]** ページで、**[「マイクロソフト ソフトウェア ライセンス条項」に同意します]** を選択し、**[続行]** を選択します。
-4. **[ファイルの場所を選択してください]** ページで、Office Online Server ファイルをインストールするフォルダーを選び (例: *C:\Program Files\Microsoft Office Web Apps*)、**[今すぐインストール]** を選択します。 指定したフォルダーが存在しない場合、自動的に作成されます。
+4. **[ファイルの場所を選択してください]** ページで、Office Online Server ファイルをインストールするフォルダーを選択し (例: C:\Program Files\Microsoft Office Web Apps*)、**[今すぐインストール]** を選択します。 指定したフォルダーが存在しない場合、自動的に作成されます。
 
-    **_Office Online Server はシステム ドライブにインストールすることをお勧めします。_**
+    Office Online Server はシステム ドライブにインストールすることが推奨されます。
 
 5. Office Online Server のインストールが完了したら、**[閉じる]** を選択します。
 
