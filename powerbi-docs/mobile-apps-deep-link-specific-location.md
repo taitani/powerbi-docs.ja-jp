@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: e1df06c07f767936d861788c89205bce20cd5582
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616007"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695135"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの特定の場所へのリンクを作成する
 URI (Uniform Resource Identifier) を作成して使用することで、すべてのモバイル プラットフォーム (iOS、Android デバイス、Windows 10) で Power BI モバイル アプリ内の特定の場所にリンクすることができます (*ディープ リンク*)。
@@ -68,7 +68,7 @@ Power BI モバイル アプリの特定のレポートを開くには、次の 
 
 レポートの 36 文字のオブジェクト ID を検索するには、Power BI サービス (https://powerbi.com) で特定のレポートに移動します。 たとえば、次の URL の強調表示された部分を見てください。
 
-https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
 
 ## <a name="open-to-a-specific-report-page"></a>特定のレポート ページを開く
 Power BI モバイル アプリの特定のレポート ページを開くには、次の URI を使います。
@@ -79,7 +79,7 @@ Power BI モバイル アプリの特定のレポート ページを開くには
 
 たとえば、次の URL の強調表示された部分を見てください。
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**ReportSection11**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
 
 ## <a name="open-in-full-screen-mode"></a>全画面表示モードで開く
 太字のパラメーターを追加して、全画面表示モードで特定のレポートを開きます。
@@ -95,7 +95,7 @@ mspbi://app/OpenReport?ReportObjectId = 500217de-50f0-4af1-b345-b81027224033 & o
 
 たとえば、次の URL の強調表示された部分を見てください。 
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&context=SlackDeepLink**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
 
 ## <a name="next-steps"></a>次の手順
 Power BI モバイル アプリで使用したいその他の機能にぜひ投票してください。お客様からのフィードバックは、将来実装する機能を決めるのに役立ちます。 
