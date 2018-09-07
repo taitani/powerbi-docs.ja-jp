@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/15/2018
+ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257356"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300117"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -210,12 +210,14 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 ## <a name="integration-settings"></a>統合の設定
 
 ### <a name="ask-questions-about-data-using-cortana"></a>Cortana を使ってデータに関する質問をする
+
 組織内のユーザーは、データについて Cortana を使って質問することができます。
 
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>オンプレミスのデータセットで [Excel で分析] を使用する
+
 組織内のユーザーは、Excel を使用して、オンプレミスの Power BI データセットの表示および操作を行うことができます。 [詳細情報](service-analyze-in-excel.md)
 
 > [!NOTE]
@@ -230,7 +232,9 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 組織のユーザーには、Azure Search に依存する外部の検索機能を使用できます。 たとえば、Cortana を使用し、Power BI のダッシュボードとレポートから重要な情報を直接取得できます。 [詳細情報](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>カスタム ビジュアルの設定
+
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>組織全体のカスタム ビジュアルを有効にする
+
 組織内のユーザーは、カスタム ビジュアルを操作して共有することができます。 [詳細情報](power-bi-custom-visuals.md)
 
 > [!NOTE]
@@ -292,11 +296,23 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 
 ## <a name="capacity-settings"></a>容量の設定
 
-[容量の設定] タブでは、組織用に購入されたすべての Power BI Premium 容量を管理できます。 組織内のすべてのユーザーに [Premium の設定] タブが表示されますが、そのタブにコンテンツが表示されるのは、ユーザーが、**容量管理者**、または割り当てのアクセス許可を持つユーザーとして割り当てられている場合のみです。 アクセス許可が何も割り当てられていないユーザーには、次のメッセージが表示されます。
+### <a name="premium-settings"></a>Premium の設定
 
-![](media/service-admin-portal/premium-settings-no-access.png "Premium の設定にアクセスできません")
+[Premium の設定] タブでは、組織用に購入されたすべての Power BI Premium (Em または P SKU) 容量を管理できます。 組織内のすべてのユーザーに [Premium の設定] タブが表示されますが、そのタブにコンテンツが表示されるのは、ユーザーが、**容量管理者**、または割り当てのアクセス許可を持つユーザーとして割り当てられている場合のみです。 アクセス許可が何も割り当てられていないユーザーには、次のメッセージが表示されます。
 
-Premium の設定の管理について詳しくは、「[Manage Power BI Premium](service-admin-premium-manage.md)」 (Power BI Premium の管理) をご覧ください。
+![Power BI Premium 管理の設定](media/service-admin-portal/premium-settings-no-access.png "Premium の設定にアクセスできません")
+
+Premium の設定の管理方法について詳しくは、「[Power BI Premium の管理](service-admin-premium-manage.md)」をご覧ください。
+
+### <a name="power-bi-embedded-settings"></a>Power BI Embedded の設定
+
+Power BI Embedded の設定タブを使用すると、顧客用に購入した Power BI Embedded (A SKU) の容量を表示できます。 Azure からは A SKU の購入のみ可能であるため、**Azure Portal** から [Azure の埋め込み容量を管理](developer/azure-pbie-create-capacity.md)できます。
+
+![Power BI Embedded 管理の設定](media/service-admin-portal/manage-pbie-capacities-01.png)
+
+![Power BI Embedded 管理の設定の詳細](media/service-admin-portal/manage-pbie-capacities-02.png)
+
+Power BI Embedded (A SKU) の設定を管理する方法について詳しくは、「[Azure の Power BI Embedded とは何か](developer/azure-pbie-what-is-power-bi-embedded.md)」をご覧ください。
 
 ## <a name="embed-codes"></a>埋め込みコード
 
@@ -307,10 +323,10 @@ Premium の設定の管理について詳しくは、「[Manage Power BI Premium
 ## <a name="organization-visuals"></a>組織のビジュアル
 
 [組織のビジュアル] タブでは、組織内にカスタム ビジュアルを展開し、管理できます。つまり、独自のビジュアルを組織に簡単に展開できます。レポートを作成するとき、カスタム ビジュアルを簡単に見つけ、Power BI Desktop からレポートに直接インポートできます。
- 
+
 このページには、組織のリポジトリに現在展開されているすべてのカスタム ビジュアルが表示されます。
- 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+![組織の管理のビジュアル](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>新しいカスタム ビジュアルの追加
 
@@ -320,26 +336,38 @@ Premium の設定の管理について詳しくは、「[Manage Power BI Premium
 
 > [!WARNING]
 > カスタム ビジュアルには、セキュリティやプライバシー上のリスクを伴うコードが含まれている可能性があります。組織のリポジトリに展開する前に、カスタム ビジュアルの作成者とソースが信頼できることを確認してください。
-> 
 
 次のフィールドに入力します。
- 
+
 * .pbiviz ファイルを選択する (必須): アップロードするカスタム ビジュアル ファイルを選択します。 バージョン管理されている API カスタム ビジュアルのみをサポートしています (詳細はここをお読みください)。
+
 カスタム ビジュアルをアップロードする前に、そのビジュアルのセキュリティとプライバシーを調べ、組織の基準に適合することを確認してください。 カスタム ビジュアル セキュリティの詳細情報
- 
+
 * カスタム ビジュアルに名前を付ける (必須): Power BI Desktop ユーザーにとってわかりやすくなるように、ビジュアルに短いタイトルを付けます。
- 
+
 * アイコン (必須): Power BI Desktop UI に表示されるアイコン ファイルです。
- 
+
 * 説明: ユーザーにとってわかりやすくなるようにビジュアルに簡単な説明を与えます。
- 
+
 "適用" を選択し、アップロード要求を開始します。 成功すると、一覧に新しい項目が表示されます。 失敗すると、エラー メッセージが表示されます。
- 
+
 ### <a name="delete-a-custom-visual-from-the-list"></a>一覧からカスタム ビジュアルを削除する
 
 リポジトリからビジュアルを完全削除するごみ箱アイコンを選択します。
-重要: 削除は元に戻すことができません。 削除の直後から、既存のレポートでそのビジュアルのレンダリングが停止します。 同じビジュアルを再度アップロードしても、削除された以前のビジュアルに代わることにはなりません。新しいビジュアルを再度インポートし、レポートにあるインスタンスを置換する必要があります。
- 
+重要: 削除は元に戻すことができません。 削除の直後から、既存のレポートでそのビジュアルのレンダリングが停止します。 同じビジュアルを再度アップロードしても、削除された以前のビジュアルに代わることにはなりません。新しいビジュアルを再度インポートし、レポートにあるインスタンスを置換できます。
+
+### <a name="disable-a-custom-visual-in-the-list"></a>一覧でカスタム ビジュアルを無効にする
+
+組織のストアからビジュアルを無効にするには、歯車アイコンを選択します。 **[アクセス]** セクションで、カスタム ビジュアルを無効にします。
+
+無効にしたビジュアルは既存のレポートに表示されず、次のエラー メッセージが表示されます。
+
+*This custom visual is no longer available.Please contact your administrator for details. (このカスタム ビジュアルは使用できなくなりました。詳細については管理者に問い合わせてください。)*
+
+ただし、ブックマークが設定されたビジュアルは引き続き機能します。
+
+更新または管理者による変更の後、Power BI Desktop ユーザーはアプリケーションを再起動するか、Power BI サービスでブラウザーを最新の情報に更新して、更新の内容を確認する必要があります。
+
 ### <a name="how-to-update-a-visual"></a>ビジュアルを更新する方法
 
 新しいバージョンのビジュアル (バグ修正、新機能など) があるため、リポジトリ内のビジュアルを更新する場合は、**更新**アイコンを選択し、新しいファイルをアップロードします。 ビジュアル ID が変わらないことを確認します。 新しいファイルで、組織全体のすべてのレポートの以前のファイルが置き換えられます。 ただし、ビジュアルの新しいバージョンのためにビジュアルの以前のバージョンを使用できなくなったり、データ構造が破損されたりする可能性がある場合は、以前のバージョンを置き換えないでください。 代わりに、新しいバージョンのビジュアル用に新しく登録することをお勧めします。 たとえば、新しいバージョン番号 (バージョン X.X) を新しく登録されたビジュアルのタイトルに追加します。 こうすると、バージョン番号が更新されているだけで同じビジュアルであることがわかるので、既存のレポートの機能は中断されません。 この場合も、ビジュアル ID が変わらないことを確認します。 次回ユーザーが Power BI Desktop から組織のリポジトリに入ると、新しいバージョンをインポートできます。レポートに入っている現在のバージョンを置換するように求められます。

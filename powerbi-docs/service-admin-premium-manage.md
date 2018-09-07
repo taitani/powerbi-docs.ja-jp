@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924794"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250775"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium および Power BI Embedded の容量を管理する
 Power BI Premium および Power BI Embedded の容量を管理する方法について説明します。これにより、コンテンツ用の専用リソースが提供されます。
@@ -163,33 +163,8 @@ Power BI Premium 容量用に追加の**容量管理者**を割り当てるこ�
 
 
 ## <a name="monitor-capacity-usage"></a>容量の使用状況の監視
-各容量について、CPU、メモリ使用量、メモリ スラッシング、直接クエリの使用状況測定を見ることができます。 ユーザーが容量で良好なパフォーマンスを得られるよう、これらのメトリックを監視することをお勧めします。
 
-![過去 7 日間の使用量](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Power BI Embedded の容量の使用状況は、Azure Portal で監視します。
-
-| 指標 | 説明 |
-| --- | --- |
-| CPU |CPU 使用率が 80% を超えた回数です。 |
-| メモリ スラッシング |バックエンド コアのメモリ負荷を表します。 具体的には、これは、複数のデータセットの使用によるメモリ負荷により、データセットがメモリから締め出された回数のメトリックです。 |
-| メモリ使用量 |平均メモリ使用量です (ギガバイト (GB) 単位)。 |
-| DQ/秒 | 直接クエリとライブ接続の数が上限の 80% を超えた回数です。 <br> <br> * DirectQuery の合計数と 1 秒あたりのライブ接続クエリの数を制限しています。<br><br>* 制限は、P1 で 30/秒、P2 で 60/秒、 P3 で 120/秒です。<br><br> * 直接クエリとライブ接続クエリの数は、上記のスロットルに追加されます。 たとえば、15 の DirectQueries と 1 秒あたり 15 のライブ接続がある場合、スロットルに達しています。<br/><br>* これはオンプレミスおよびクラウドの接続にも等しく適用されます。 |
-
-メトリックは、過去 1 週間の使用状況を反映します。  メトリックをさらに詳細に見たい場合は、概要タイルのいずれかをクリックします。  Premium 容量の各メトリックの詳細グラフが表示されます。  これらのグラフは、過去 1 週間について 1 時間ごとに集計され、Premium 容量で特定のパフォーマンス関連イベントが発生した可能性があるときを特定するのに役立ちます。  
-
-![CPU の詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![メモリ スラッシングの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![メモリ サイズの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![メモリ スラッシングの詳細使用状況グラフ](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-いずれかのメトリックの基になっているデータを、csv ファイルにエクスポートすることもできます。  エクスポートすると、過去 1 週間の詳細情報を 3 分間隔で見ることができます。
+Power BI は、容量の使用状況を監視するアプリを提供します。 詳細については、「[Monitor Power BI Premium capacities in your organization](service-admin-premium-monitor-capacity.md)」(組織で Power BI Premium 容量を監視する) を参照してください。
 
 ## <a name="what-premium-looks-like-for-users"></a>ユーザーに表示される Premium
 ほとんどの場合、ユーザーが Premium 容量を使用しているかを認識する必要はありません。 ユーザーのダッシュボードとレポートは機能します。 視覚的ヒントとして、Premium 容量内のワークスペースの横にひし形のアイコンが表示されます。

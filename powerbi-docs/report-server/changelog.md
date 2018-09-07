@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256911"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380315"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -24,6 +24,15 @@ ms.locfileid: "40256911"
 
 ## <a name="august-2018"></a>2018 年 8 月
 - **Power BI Report Server**
+    - *バージョン 1.3.6816.37243 (ビルド 15.0.2.557)、リリース日: 2018 年 8 月 30 日*
+        - バグの修正
+            - PBI Report Server の以前のバージョンからサーバーをアップグレードしたときに、バインドのリダイレクトが更新されずに以下が表示された問題を修正しました。      
+            *`
+            Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
+             `*
+             
+            - データ ラベルの透過性のバグを修正しました。
+            
     - *バージョン 1.3.6801.38816 (ビルド 15.0.2.540)、リリース日: 2018 年 8 月 15 日*
         - 機能
             - Kerberos での SAP HANA SSO 直接クエリのサポートが Power BI レポートで利用できるようになりました。

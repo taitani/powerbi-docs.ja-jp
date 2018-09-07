@@ -2,20 +2,20 @@
 title: Power BI サービスのダッシュボードのタイル
 description: Power BI のダッシュボードのタイルの概要 これには、SQL Server Reporting Services (SSRS) から作成されるタイルが含まれます。
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249070"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241593"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI のダッシュボードのタイル
 ダッシュボードおよびダッシュボード タイルは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードのタイルを作成またはピン留めすることはできませんが、[表示して共有する](mobile-tiles-in-the-mobile-apps.md)ことはできます。 また、Power BI モバイルでは、[iPhone アプリでダッシュボードに画像を追加する](mobile-iphone-app-get-started.md)ことができます。
@@ -67,9 +67,9 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
    
    * [このタイルの作成に使われたワークシートを開く](service-reports.md) ![ワークシート アイコン](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [フォーカス モードで表示する](service-focus-mode.md) ![フォーカス アイコン](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [フォーカス モードで表示する](service-focus-mode.md) ![フォーカス アイコン](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [タイルで使われているデータをエクスポートする](power-bi-visualization-export-data.md) ![データのエクスポート アイコン](media/service-dashboard-tiles/export-icon.png)
-     * [タイトルとサブタイトルの編集、ハイパーリンクの追加、最終更新日時の表示](service-dashboard-edit-tile.md) ![編集アイコン](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [タイトルとサブタイトルの編集、ハイパーリンクの追加](service-dashboard-edit-tile.md) ![編集アイコン](media/service-dashboard-tiles/pencil-icon.jpg)
      * [インサイトを実行する](service-insights.md) ![インサイト アイコン](media/service-dashboard-tiles/power-bi-insights.png)
      * [別のダッシュボードにタイルをピン留めする](service-pin-tile-to-another-dashboard.md)
        ![ピン留めアイコン](media/service-dashboard-tiles/pin-icon.jpg)

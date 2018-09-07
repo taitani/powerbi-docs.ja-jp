@@ -2,20 +2,20 @@
 title: Power BI から Web への公開
 description: Power BI で Web に公開すると、対話型の Power BI の視覚化をブログ投稿記事、Web サイト、メールやソーシャル メディアなどにオンラインで簡単に埋め込むことができます。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092347"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380338"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -65,7 +65,7 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 
 | 表示モード | 埋め込まれた場合の表示方法 |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**[ページに合わせる]** は、レポートのページの高さと幅に合わせます。 ページを 16:9 や 4:3 などの "動的な" 比率に設定した場合、コンテンツは指定した iFrame に合わせて拡大縮小されます。 iFrame に埋め込んだ場合、**[ページに合わせる]** を使うと、**レターボックス処理**が行われ、iFrame に合わせてコンテンツが拡大縮小された後、iFrame の領域にグレーの背景が表示されます。 できるだけレターボックス処理が行われないようにするには、iFrame の高さと幅を適切に設定します。 |
+| ![](media/service-publish-to-web/publish_to_web6b.png) |**[ページに合わせる]** は、レポートのページの高さと幅に合わせます。 ページを 16:9 や 4:3 などの "動的な" 比率に設定した場合、コンテンツは指定した iFrame に合わせてスケーリングされます。 iFrame に埋め込んだ場合、**[ページに合わせる]** を使うと、**レターボックス処理**が行われ、iFrame に合わせてコンテンツが拡大縮小された後、iFrame の領域にグレーの背景が表示されます。 できるだけレターボックス処理が行われないようにするには、iFrame の高さと幅を適切に設定します。 |
 | ![](media/service-publish-to-web/publish_to_web6d.png) |**[実際のサイズ]** では、レポートのサイズはレポート ページで設定された内容に保たれます。 その結果、iFrame にスクロール バーが表示されることがあります。 スクロール バーが表示されないように iFrame の高さと幅を設定します。 |
 | ![](media/service-publish-to-web/publish_to_web6c.png) |**[幅に合わせる]** は、iFrame の水平方向の領域内に収まるようにコンテンツを調整します。 この場合にも境界線は表示されますが、水平方向の表示スペース全体を使用するよう、コンテンツは拡大縮小されます。 |
 
@@ -128,15 +128,16 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 
 **[Web に公開]** は Power BI サービスの大半のデータ ソースおよびレポートでサポートされていますが、現時点で以下のものは [Web に公開] で**サポートされていないか、使用できません**。
 
-1. 行レベルのセキュリティを使用するレポート
-2. ライブ接続データ ソースを使うレポート (Analysis Services 表形式でホストされたオンプレミスの Analysis Service 多次元、Azure Analysis Services など)。
-3. 直接共有されているか、組織のコンテンツ パックを経由して共有されているレポート
-4. 編集メンバーではないグループ内のレポート
-5. 現時点では、[Web に公開] レポートで "R" ビジュアルはサポートされていません。
-6. Web に公開されたレポートのビジュアルからのデータのエクスポート
-7. ArcGIS Maps for Power BI のビジュアル
-8. レポート レベルの DAX メジャーを含むレポート
-9. [機密情報をセキュリティで保護する](#publish-to-web-from-power-bi)
+- 行レベルのセキュリティを使用するレポート
+- ライブ接続データ ソースを使うレポート (Analysis Services 表形式でホストされたオンプレミスの Analysis Service 多次元、Azure Analysis Services など)。
+- 直接共有されているか、組織のコンテンツ パックを経由して共有されているレポート
+- 編集メンバーではないグループ内のレポート
+- 現時点では、[Web に公開] レポートで "R" ビジュアルはサポートされていません。
+- Web に公開されたレポートのビジュアルからのデータのエクスポート
+- ArcGIS Maps for Power BI のビジュアル
+- レポート レベルの DAX メジャーを含むレポート
+- シングル サインオン データ クエリ モデル
+- [機密情報をセキュリティで保護する](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>テナントの設定
 

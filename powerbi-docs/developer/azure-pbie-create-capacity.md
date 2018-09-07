@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: 222a6368bc717880fee4f6ce6958455959b491bd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360483"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300048"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal での Power BI Embedded 容量の作成
 
@@ -54,7 +54,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
     |**サブスクリプション**|容量を作成するサブスクリプション。|
     |**リソース グループ**|この新しい容量が含まれるリソース グループ。 既存のリソース グループから選択するか、新しく作成します。 詳細については、「[Azure Resource Manager の概要](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)」を参照してください。|
     |**Power BI 容量管理者**|Power BI 容量管理者は、Power BI 管理ポータルで容量を確認し、割り当てのアクセス許可を他のユーザーに付与できます。 既定では、容量管理者は自分のアカウントになります。 容量管理者は Power BI テナント内に存在する必要があります。|
-    |**場所**|お使いのテナントの Power BI がホストされている場所。 この設定は自動的に解決されます。別の場所を選択することはできません。|
+    |**場所**|お使いのテナントの Power BI がホストされている場所。 既定の場所はホーム領域ですが、[Multi-Geo オプション](embedded-multi-geo.md)を使用して場所を変更できます。
     |**価格レベル**|自分のニーズに合った SKU (仮想コア数とメモリ サイズ) を選択してください。  詳細については、「[Power BI Embedded の価格](https://azure.microsoft.com/pricing/details/power-bi-embedded/)」を参照してください。|
 
 6. **[作成]** を選択します。

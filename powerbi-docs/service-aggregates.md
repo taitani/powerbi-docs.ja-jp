@@ -2,20 +2,20 @@
 title: 視覚エフェクトでの集計 (合計、平均値、最大値など)
 description: Power BI のグラフでの集計 (合計、平均値、最大値など) の変更
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/04/2018
+ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247598"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241547"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI の視覚エフェクトでの集計
 ## <a name="what-is-an-aggregate"></a>集計とは
@@ -139,6 +139,10 @@ Power BI サービスの集計は、使い方がわかりにくいことがあ�
 
 >[!NOTE]
 >このルールの例外は散布図です。X 軸と Y 軸に集計値が*要求されます*。
+
+質問:  SSAS データ ソースのテキスト フィールドを集計できないのはなぜですか?
+
+回答:  SSAS MD へのライブ接続ではクライアント側の集計が許可されません。 これには、最初、最後、平均、最小、最大、および合計が含まれます。
 
 質問:  散布図がありますが、フィールドで集計*したくありません*。  どうすれば集計しないようにできますか?
 

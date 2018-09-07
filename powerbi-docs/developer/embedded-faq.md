@@ -2,19 +2,19 @@
 title: Power BI Embedded に関してよく寄せられる質問
 description: Power BI Embedded についてよく寄せられる質問とその回答の一覧です。
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/22/2018
-ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 08/21/2018
+ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39415394"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241524"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -25,7 +25,7 @@ ms.locfileid: "39415394"
 
 ### <a name="what-is-power-bi-embedded"></a>Power BI Embedded とは何ですか?
 
-Microsoft Power BI Embedded を利用すれば、アプリケーション開発者は、完全にインタラクティブな優れたレポート、ダッシュボード、タイルをアプリケーションに組み込むことができます。データの視覚化やコントロールを自分で一から構築する必要がなく、時間と費用が節約されます。
+Microsoft Power BI Embedded (PBIE) を利用すれば、アプリケーション開発者は、完全にインタラクティブな優れたレポートをアプリケーションに組み込むことができます。データの視覚化やコントロールを自分で一から構築する必要がなく、時間と費用が節約されます。
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded の対象者は誰ですか?
 
@@ -70,7 +70,7 @@ Power BI Embedded は一連の API であり、開発者はこれを利用し、
 | 埋め込みアプリケーションで Power BI レポートを使用する | はい | はい | はい |
 | SharePoint で Power BI レポートを利用する | いいえ | はい | はい |
 | Dynamics で Power BI レポートを利用する | いいえ | はい | はい |
-| Teams で Power BI レポートを利用する | いいえ | はい | はい |
+| Teams で Power BI レポートを利用する (モバイル アプリを除く) | いいえ | はい | はい |
 | Powerbi.com と Power BI モバイルで無料 Power BI ライセンスでコンテンツにアクセスする | いいえ | いいえ | はい |
 | MS Office アプリに埋め込まれている無料 Power BI ライセンスでコンテンツにアクセスする | いいえ | はい | はい |
 
@@ -78,13 +78,13 @@ Power BI Embedded は一連の API であり、開発者はこれを利用し、
 
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
-|購入     |Azure Portal |Office |Office |
-|ユース ケース |* 独自のアプリケーションにコンテンツを埋め込む |* 独自のアプリケーションにコンテンツを埋め込む<br>* その他の MS Office アプリケーション ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) にコンテンツを埋め込む |* 独自のアプリケーションにコンテンツを埋め込む<br>* その他の MS Office アプリケーション ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) にコンテンツを埋め込む<br>* [Power BI サービス](https://powerbi.microsoft.com/en-us/)経由で Power BI ユーザーとコンテンツを共有する  |
+|購入  |Azure Portal |Office |Office |
+|ユース ケース | 独自のアプリケーションにコンテンツを埋め込む | <li> 独自のアプリケーションにコンテンツを埋め込む <br><br></br> <li> MS Office アプリケーションにコンテンツを埋め込む: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (モバイル アプリを除く)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 独自のアプリケーションにコンテンツを埋め込む <br><br></br> <li> MS Office アプリケーションにコンテンツを埋め込む: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (モバイル アプリを除く)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> [Power BI サービス](https://powerbi.microsoft.com/en-us/)経由で Power BI ユーザーとコンテンツを共有する  |
 |課金 |1 時間ごと |月単位 |月単位 |
 |コミットメント  |コミットメントなし |年単位  |月単位/年単位 |
-|差別化 |柔軟性に優れ、Azure Portal で、あるいは API 経由でリソースを拡大縮小したり、停止/再開したりできる  |SharePoint Online と Microsoft Teams にコンテンツを埋め込むために使用可能 |アプリケーションの埋め込みを結合し、同じ容量で Power BI Service を使用する |
+|差別化 |柔軟性に優れ、Azure Portal で、あるいは API 経由でリソースを拡大縮小したり、停止/再開したりできる  |SharePoint Online と Microsoft Teams にコンテンツを埋め込むために使用可能 (モバイル アプリを除く) |アプリケーションの埋め込みを結合し、同じ容量で Power BI Service を使用する |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure で PBIE 容量を作成するための前提条件は何ですか?
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure で PBIE 容量を作成するための前提条件は何ですか? 
 
 * 組織のディレクトリにサインインする必要があります (MSA アカウントはサポートされていません)。
 * Power BI テナントを用意する必要があります。すなわち、ディレクトリの少なくとも 1 名のユーザーを Power BI に登録している必要があります。 
@@ -126,14 +126,14 @@ Power BI では、組織のアカウントでサインアップすることが�
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>API を利用して Azure の容量を作成し、管理することはできますか?
 
-はい。PowerShell コマンドレットや ARM API を利用し、PBIE を作成し、管理できます。
+はい。PowerShell コマンドレットや Azure Resource Manager (ARM) API を利用し、PBIE リソースを作成し、管理できます。
 
 * REST API - https://docs.microsoft.com/rest/api/power-bi-embedded/
 * PowerShell コマンドレット - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded ソリューションでは、PBI Embedded 専用容量はどのような役割を果たしますか?
 
-[ソリューションを運用に昇格させる](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)には、Power BI コンテンツが必要です (アプリケーションで使用しており、専用容量に割り当てるアプリ ワークスペース)。
+[ソリューションを運用に昇格させる](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)には、Power BI コンテンツが必要です (アプリケーションで使用しており、Power BI Embedded (A SKU) 容量に割り当てるアプリ ワークスペース)。
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>どの Azure リージョンで PBI Embedded を利用できますか?
 

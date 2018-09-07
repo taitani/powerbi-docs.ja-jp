@@ -2,19 +2,19 @@
 title: 埋め込みアプリケーションのトラブルシューティング
 description: この記事では、Power BI からコンテンツを埋め込むときに発生する一般的な問題について説明します。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/09/2018
-ms.author: maghan
-ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.date: 08/31/2018
+ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877026"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241570"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -24,13 +24,13 @@ ms.locfileid: "38877026"
 
 ### <a name="fiddler-trace"></a>Fiddler のトレース
 
-[Fiddler](http://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。  クライアント コンピューターから Power BI API によるやり取りを確認できます。 これにより、エラーとその他の関連する情報が表示される場合があります。
+[Fiddler](http://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。  クライアント コンピューターから Power BI API によるトラフィックを確認できます。 このツールでは、エラーとその他の関連する情報が表示される場合があります。
 
 ![Fiddler のトレース](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
 
-### <a name="f12-in-browser-for-front-end-debugging"></a>フロント エンド デバッグにはブラウザーで F12
+### <a name="f12-in-browser-for-front-end-debugging"></a>フロントエンド デバッグにはブラウザーで F12
 
-F12 を押すと、ブラウザー内で開発者ウィンドウが起動します。 これでネットワーク トラフィックやその他の情報を見ることができます。
+F12 を押すと、ブラウザー内で開発者ウィンドウが起動します。 このツールでは、ネットワーク トラフィックやその他の情報を見ることができます。
 
 ![F12 ブラウザー デバッグ](media/embedded-troubleshoot/browser-f12.png)
 
@@ -38,7 +38,7 @@ F12 を押すと、ブラウザー内で開発者ウィンドウが起動しま�
 
 このコード スニペットは、HTTP 例外からエラーの詳細を抽出する方法を示しています。
 
-```
+```csharp
 public static string GetExceptionText(this HttpOperationException exc)
 {
     var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
@@ -52,6 +52,7 @@ public static string GetExceptionText(this HttpOperationException exc)
     return errorText;
 }
 ```
+
 要求 ID (およびエラーの詳細をトラブルシューティングのために) をログに記録することをお勧めします。
 Microsoft サポートに連絡する際に、要求 ID を指定してください。
 
@@ -112,7 +113,7 @@ Power BI Embedded を使用、および Azure AD Direct Authentication を利用
 
 1. [Azure AD プレビュー PowerShell モジュール](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)をインストールします。
 
-2. 次の Powershell コマンドを 1 行ずつ実行します (結果として、変数 $sp に複数のアプリケーションが含まれていないことを確認します)。
+2. 次の PowerShell コマンドを 1 行ずつ実行します (結果として、変数 $sp に複数のアプリケーションが含まれていないことを確認します)。
 
 ```powershell
 Connect-AzureAD
@@ -194,6 +195,40 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Power BI Desktop から、あるいは powerbi.com 内でファイルを開き、パフォーマンスがアプリケーションまたは埋め込み API の問題として除外できる範囲であることを確認します。
 
+## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>IError オブジェクトによる埋め込みアプリケーションのトラブルシューティング
+
+[**JavaScript SDK** から *error* イベントによって返される **IError オブジェクト**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)を使用して、アプリケーションをデバッグし、エラーの原因に対する理解を深めます。
+
+IError オブジェクトを取得したら、使用している埋め込みの種類に応じた、該当する一般的なエラーのテーブルを確認する必要があります。 **IError のプロパティ**とテーブル内のプロパティを比較し、エラーの考えられる理由を見つけてください。
+
+### <a name="typical-errors-when-embedding-for-power-bi-users"></a>Power BI ユーザー向けに埋め込む場合に発生する一般的なエラー
+
+| メッセージ | 詳細なメッセージ | エラー コード | 考えられる理由 |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
+| TokenExpired | Access token has expired, resubmit with a new access token (アクセス トークンの期限が切れました。新しいアクセス トークンを使用して再送信してください) | 403 | トークンの有効期限が切れました  |
+| PowerBIEntityNotFound | Get report failed (レポートの取得に失敗しました) | 404 | <li> レポート ID が正しくありません <li> レポートが存在しません  |
+| 正しくないパラメーター | powerbiToken parameter not specified (powerbiToken パラメーターが指定されていません) | 該当なし | <li> アクセス トークンが指定されていません <li> レポート ID が指定されていません |
+| LoadReportFailed | Fail to initialize - Could not resolve cluster (初期化できません - クラスターを解決できませんでした) | 403 | * アクセス トークンが無効です * 埋め込みの種類がトークンの種類に一致しません |
+| PowerBINotAuthorizedException | Get report failed (レポートの取得に失敗しました) | 401 | <li> グループ ID が正しくありません <li> 許可されていないグループです |
+| TokenExpired | Access token has expired, resubmit with a new access token. (アクセス トークンの期限が切れました。新しいアクセス トークンを使用して再送信してください。) Could not render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | 該当なし | クエリ データのトークンの有効期限が切れました |
+| OpenConnectionError | ビジュアルを表示できません。 Could not render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | 該当なし | 容量に関連するレポートをセッションで開いているときに容量が一時停止または削除されました |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | このレポートに関連付けられているモデル スキーマを読み込むことができません。 サーバーに接続できることを確認して、もう一度やり直してください。 | 該当なし | <li> 容量が一時停止されました <li> 容量が削除されました |
+
+### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>Power BI 以外のユーザー向けに埋め込む場合に発生する一般的なエラー (埋め込みトークンを使用)
+
+| メッセージ | 詳細なメッセージ | エラー コード | 理由 |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------|
+| TokenExpired | Access token has expired, resubmit with a new access token (アクセス トークンの期限が切れました。新しいアクセス トークンを使用して再送信してください) | 403 | トークンの有効期限が切れました  |
+| LoadReportFailed | Get report failed (レポートの取得に失敗しました) | 404 | <li> レポート ID が正しくありません <li> レポートが存在しません  |
+| LoadReportFailed | Get report failed (レポートの取得に失敗しました) | 403 | レポート ID がトークンに一致しません |
+| LoadReportFailed | Get report failed (レポートの取得に失敗しました) | 500 | レポートが指定した ID が GUID ではありません |
+| 正しくないパラメーター | powerbiToken parameter not specified (powerbiToken パラメーターが指定されていません) | 該当なし | <li> アクセス トークンが指定されていません <li> レポート ID が指定されていません |
+| LoadReportFailed | Fail to initialize - Could not resolve cluster (初期化できません - クラスターを解決できませんでした) | 403 | トークンの種類が正しくありません。無効なトークンです |
+| PowerBINotAuthorizedException | Get report failed (レポートの取得に失敗しました) | 401 | グループ ID が正しくありません/許可されていないグループ ID です |
+| TokenExpired | Access token has expired, resubmit with a new access token. (アクセス トークンの期限が切れました。新しいアクセス トークンを使用して再送信してください。) Could not render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | 該当なし | クエリ データのトークンの有効期限が切れました |
+| OpenConnectionError | ビジュアルを表示できません。 Could not render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | 該当なし | 容量に関連するレポートをセッションで開いているときに容量が一時停止または削除されました |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | このレポートに関連付けられているモデル スキーマを読み込むことができません。 サーバーに接続できることを確認して、もう一度やり直してください。 | 該当なし | <li> 容量が一時停止されました <li> 容量が削除されました |
+
 ## <a name="onboarding-experience-tool-for-embedding"></a>埋め込み用のオンボード エクスペリエンス ツール
 
 [オンボード エクスペリエンス ツール](https://aka.ms/embedsetup)を使って、サンプル アプリケーションをすばやくダウンロードできます。 その後、アプリケーションとサンプルを比較できます。
@@ -244,3 +279,5 @@ Power BI ユーザー プロファイルまたはデータを編集する場合�
 詳しくは、「[Power BI Embedded に関してよく寄せられる質問](embedded-faq.md)」をご覧ください。
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+
+さらなる支援が必要な場合は、[サポートに問い合わせる](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)か、[Azure Portal でサポート チケットを作成](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)し、発生したエラー メッセージを指定してください。
