@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256883"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343325"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI のパフォーマンスのベスト プラクティス 
 この記事では、Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティスについて説明します。  
@@ -59,7 +59,7 @@ DirectQuery やライブ接続の場合、ユーザーが Power BI レポート�
 - 可能な場合は、計算列とメジャーをソースにプッシュします。ソースに近いほど、パフォーマンスが高くなります。 
 - 最適化します。 クエリの実行プランを理解したり、一般的にフィルター処理される列にインデックスを追加したりします。 
 
-### <a name="modelling-guidance"></a>モデリングのガイダンス 
+### <a name="modeling-guidance"></a>モデリングのガイダンス 
 - Power BI Desktop で開始します。 
 - クエリ エディターで複雑なクエリを作成しないようにします。 
 - クエリ エディターで相対日付フィルターは使わないでください。  
@@ -110,7 +110,7 @@ DirectQuery とライブ接続では、このクエリ キャッシュはデー�
 
    出力には、アプリケーションと、開いているポートの一覧が表示されます。次に例を示します。  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 
