@@ -2,21 +2,21 @@
 title: ダッシュボード、タイル、レポート ページ、視覚エフェクトを全画面表示モードで表示する
 description: ダッシュボード、ダッシュボード タイル、レポート ビジュアル、レポート ページを全画面表示モード (別名 "*テレビ モード*") で表示します。
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244113"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044327"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI サービスの全画面表示モード
 ## <a name="what-is-full-screen-mode"></a>全画面表示モードの概要
@@ -24,7 +24,7 @@ ms.locfileid: "34244113"
 
 メニューやナビゲーション バーを表示せずに、Power BI コンテンツ (ダッシュボード、レポート ページ、タイル、視覚エフェクト) を表示します。  いつでもひと目でコンテンツの全体図のみを把握できます。 このモードはテレビ モードとも呼ばれます。 全画面表示モードで利用できる機能はコンテンツにより異なります。 
 
-Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile アプリで使用できます](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop にはレポートや視覚エフェクトの全画面表示モードはありませんが、[リレーションシップ ビュー](desktop-report-view.md)および[レポート ビジュアルのフォーカス モード](service-focus-mode.md)ではページに合わせることができます。
+Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile アプリで使用できます](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop にはレポートや視覚エフェクトの全画面表示モードはありませんが、[リレーションシップ ビューとレポート ビュー](desktop-report-view.md)には [ページに合わせる] があり、[レポート ビジュアルにはフォーカス モード](service-focus-mode.md)があります。
 
  
 
@@ -44,7 +44,7 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>全画面表示モードのダッシュボードとレポート ページ
-1. ダッシュボードやレポートの上部にある Power BI メニュー バーから **[全画面表示]** アイコン![ ](media/service-fullscreen-mode/power-bi-full-screen-icon.png) を選択します。 ダッシュボード キャンバスまたはレポート ページが全画面に表示されます。 下はダッシュボードの例です。
+1. ダッシュボードやレポートの上部にある Power BI メニュー バーから **[全画面表示]** アイコン ![全画面アイコン ](media/service-fullscreen-mode/power-bi-full-screen-icon.png) を選択します。 ダッシュボード キャンバスまたはレポート ページが全画面に表示されます。 下はダッシュボードの例です。
    
       ![ダッシュボードの全画面表示](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. 全画面表示モードには、メニュー オプションがいくつかあります。  マウスまたはカーソルを動かすと、メニューが表示されます。 

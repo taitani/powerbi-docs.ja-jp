@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137470"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044350"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -31,27 +31,37 @@ ms.locfileid: "37137470"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2018"></a>2018 年 5 月
-* Power BI サービスの[テーマ ダッシュボード](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes)。
-* Premium の[増分更新](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh)。
-* [Power BI アプリ](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)のアクセス要求ワークフロー。
-* [データの取得] 画面が更新され、ユーザーが [Power BI アプリ](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)を簡単に見つけられるようになりました。
-* Power BI サービスの[永続的フィルター](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)のオンとオフを切り替える設定。
-* Azure B2B のレポートの招待ワークフローの改善。
+## <a name="august-2018"></a>2018 年 8 月
+* Power BI の[レポート URL フィルター](service-url-filters.md)の機能強化。
 
 ## <a name="previous-months-2018"></a>前の月 (2018)
+### <a name="july-2018"></a>2018 年 7 月
+* Power BI 管理者用の [API および PowerShell コマンドレット](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)。
+
+### <a name="june-2018"></a>2018 年 6 月
+* フィルターおよびスライサーが含まれるレポートの共有。
+* [ゲートウェイ接続](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/)およびデータセットのセットアップのための、新しい/改良されたユーザー インターフェイス。
+
+### <a name="may-2018"></a>2018 年 5 月
+* Power BI サービスの[テーマ ダッシュボード](https://docs.microsoft.com/power-bi/service-dashboard-themes)。
+* Premium の[増分更新](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh)。
+* [Power BI アプリ](https://docs.microsoft.com/power-bi/service-create-distribute-apps)のアクセス要求ワークフロー。
+* [データの取得] 画面が更新され、ユーザーが [Power BI アプリ](https://docs.microsoft.com/power-bi/service-create-distribute-apps)を簡単に見つけられるようになりました。
+* Power BI サービスの[永続的フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)のオンとオフを切り替える設定。
+* Azure B2B のレポートの招待ワークフローの改善。
+
 ### <a name="april-2018"></a>2018 年 4 月
-* [Power BI GDPR ホワイト ペーパー](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [データ保護に関する Power BI のホワイト ペーパー](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * Office 365 テナントに対して既定でオンになる Power BI サービス[監査ログ](https://docs.microsoft.com/power-bi/service-admin-auditing)。
 
 ### <a name="march-2018"></a>2018 年 3 月
-* Power BI サービスの[永続的フィルター](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)。
-* 個人用の電子メール アカウントを使用したユーザーとのコンテンツの共有。 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) の拡張機能。
+* Power BI サービスの[永続的フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)。
+* 個人用の電子メール アカウントを使用したユーザーとのコンテンツの共有。 [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) の拡張機能。
 
 ### <a name="february-2018"></a>2018 年 2 月
-* エンド ユーザーに対する [Power BI Apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) の自動インストール。
+* エンド ユーザーに対する [Power BI Apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps) の自動インストール。
 * Power BI Premium での P4 および P5 の容量
-* [組織のカスタム ビジュアル](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization)のプレビュー。
+* [組織のカスタム ビジュアル](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization)のプレビュー。
 
 ### <a name="january-2018"></a>2018 年 1 月
 *   Power BI レポートを共有し、お気に入りに追加する。
@@ -63,12 +73,12 @@ ms.locfileid: "37137470"
 
 ## <a name="previous-months-2017"></a>先月 (2017)
 ## <a name="october-and-november-2017"></a>2017 年 10 月と 11 月
-*   [Power BI アプリ](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)でコンテンツを選択して公開。
-*   [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) による外部ユーザー ディストリビューション。
+*   [Power BI アプリ](https://docs.microsoft.com/power-bi/service-create-distribute-apps)でコンテンツを選択して公開。
+*   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) による外部ユーザー ディストリビューション。
 * AI を活用したアプリ推奨。
 * ダッシュボード オンタイル UI 更新。
 * アプリの電子メール サブスクリプション サポート。 
-* [Web への公開](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings)を管理者が細かく制御。
+* [Web への公開](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings)を管理者が細かく制御。
 
 ## <a name="september-2017"></a>2017 年 9 月
 * Premium 容量では、Power BI Pro ライセンスを持たないユーザーとダッシュボードを共有します。

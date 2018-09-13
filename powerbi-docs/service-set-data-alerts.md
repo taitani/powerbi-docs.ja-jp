@@ -2,21 +2,21 @@
 title: Power BI サービスでデータ アラートを設定する
 description: Microsoft Power BI サービスで設定した制限を超えてダッシュボード内のデータが変更された場合に通知されるように、アラートを設定する方法について説明します。
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137586"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167930"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI サービスでのデータ アラート
 アラートを設定すると、ダッシュボード内のデータが設定した制限を超えて変更された場合に通知されます。 
@@ -42,15 +42,15 @@ Amanda がダッシュボードのタイルにアラートを追加するとこ�
 1. ダッシュボードで開始します。 ダッシュボードのゲージ、KPI、またはカード タイルで、省略記号を選びます。
    
    ![[Total Stores] タイル](media/service-set-data-alerts/powerbi-card.png)
-2. ベルのアイコン ![アラート アイコン](media/service-set-data-alerts/power-bi-bell-icon.png) を選択して、**[Total stores]** に 1 つまたは複数のアラートを追加します。
+2. ベルのアイコン ![アラート アイコン](media/service-set-data-alerts/power-bi-bell-icon.png)、または **[アラートの管理]** を選択して、**[総店舗数]** に 1 つまたは複数のアラートを追加します。
    
-1. 最初に、**[+ アラート ルールの追加]** を選んで、スライダーが **[オン]** に設定されていることを確認し、アラートのタイトルを指定します。 タイトルは、アラートの内容を簡単に理解するために役立ちます。
+1. **[アラートの管理]** ウィンドウで、**[+ アラート ルールの追加]** を選択します。  スライダーが **[オン]** に設定されていることを確認し、アラートのタイトルを指定します。 タイトルは、アラートの内容を簡単に理解するために役立ちます。
    
    ![アラート管理ウィンドウ](media/service-set-data-alerts/powerbi-alert-title.png)
 4. 下にスクロールして、アラートの詳細を入力します。  この例では、"Total stores" の値が 100 を超えた場合に 1 日に 1 回通知するアラートを作成します。 アラートは通知センターに表示されます。 電子メールの送信も設定します。
    
    ![アラート管理ウィンドウ、しきい値の設定](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. **[保存]** を選択します。
+5. **[保存して閉じる]** を選びます。
 
 ## <a name="receiving-alerts"></a>アラートの受信
 追跡対象データがユーザー設定のしきい値のいずれかに達した場合は、いくつかの処理が行われます。 最初に、最後のアラートが送信されてから 1 時間以上または 24 時間以上 (選択したオプションによって異なる) 経過しているかどうかが確認されます。 データがしきい値を超えている場合に限り、アラートを受け取ります。
@@ -104,6 +104,4 @@ Amanda がダッシュボードのタイルにアラートを追加するとこ�
 ## <a name="next-steps"></a>次の手順
 [データ アラートを含む Microsoft Flow を作成する](service-flow-integration.md)    
 [モバイル デバイスでデータ アラートを設定する](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Power BI とは?](power-bi-overview.md)    
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

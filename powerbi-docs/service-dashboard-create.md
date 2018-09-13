@@ -1,5 +1,5 @@
 ---
-title: レポートから Power BI ダッシュボードを作成する
+title: レポートから Power BI サービス ダッシュボードを作成する
 description: レポートから Power BI ダッシュボードを作成する
 author: mihart
 manager: kfile
@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 09/02/2018
 ms.author: mihart
-ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248932"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168091"
 ---
-# <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
+# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Power BI サービスで Power BI ダッシュボードを作成する
 [Power BI のダッシュボード](service-dashboards.md)を読んで、次は自分のダッシュボードを作成しようと思われるでしょう。 ダッシュボードを作成するには、レポートから、何もない状態から、データセットから、既存のダッシュボードを複製して、それ以外の方法など、さまざまな方法があります。  
 
 初めて取り掛かるときは難しそうに見えるかもしれません。そこで、まずはレポートから視覚エフェクトをピン留めして、手早く簡単にダッシュボードを作成します。レポートはあらかじめ用意されているものを使用します。 このクイック スタートを終えれば、ダッシュボードとレポートとの関係やレポート エディターでの編集ビューの開き方、タイルのピン留め、ダッシュボードとレポートの間の移動について理解が深まっているでしょう。 その次は左側の目次のリンク、または下部の**次のステップ**から、より高度なトピックに進みます。

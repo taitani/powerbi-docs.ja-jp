@@ -2,20 +2,20 @@
 title: Power BI サービスと Power BI Desktop での Q&A の概要
 description: Power BI Q&A 自然言語クエリに関するドキュメントの概要トピックです。
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1680a1aacf84eb5440703385dc831c32433456bb
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295470"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167953"
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop での Q&A
 ## <a name="what-is-qa"></a>Q&A とは
@@ -48,9 +48,7 @@ Q&A を使ってデータを探索するだけでなく、作成者とデータ�
 
 ## <a name="how-does-qa-know-how-to-answer-questions"></a>Q&A は、回答する方法をどのように知るのでしょうか。
 ### <a name="which-datasets-does-qa-use"></a>Q&A はどのデータセットを使用しますか。
-Q&A は、データに固有の質問に回答する方法をどのように知るのでしょうか。 これは、基になるデータセット内のテーブル、列、計算フィールドの名前に依存します。 そのため自分 (またはデータセットの所有者) が物事を何と呼ぶかが重要です。
-
-たとえば、「売上」という名前の Excel のテーブルがあり、「製品」、「月」、「販売単位」、「総売上高」、「利益」というタイトルの列があるとします。 これらのエンティティのいずれかに関する質問ができます。  "*売上*を表示する"、"*月別*の*利益*合計"、"*販売単位*を基準とした*製品*の並べ替え" などの質問を入力できます。
+Q&A は、データに固有の質問に回答する方法をどのように知るのでしょうか。 これは、基になるデータセット内のテーブル、列、計算フィールドの名前に依存します。 そのため、データセットの所有者による命名が重要です。 Q & A の質問に対する回答に問題がある場合は、よりユーザーにわかりやすいデータセットを作成できないか、データセットの所有者と相談してください。
 
 Q&A は、データセットがどのようにまとめられているかに基づいて質問に回答します。 Salesforce のデータではどのように機能するでしょうか。 salesforce.com のアカウントに接続すると、Power BI は自動的にダッシュボードを生成します。  Q&A で質問を開始する前に、ダッシュボードの視覚化に表示されたデータと、Q&A のドロップダウンに表示されたデータをご覧ください。
 
@@ -81,7 +79,5 @@ Q & A が認識できるキーワードについては、「[Power BI Q&A で質
 [オンプレミスのデータセットの Q&A を有効にする](service-q-and-a-direct-query.md): データセットに接続するためにゲートウェイが必要な場合は、Power BI の設定を使って Q&A を有効または無効にします。
 
 [チュートリアル: Power BI サービスの小売売上高サンプルで Q&A を使う](power-bi-visualization-introduction-to-q-and-a.md): 現実的な業界のチュートリアルで Q&A を使います。
-
-[Q&A でご使用のデータをうまく動作させる](service-prepare-data-for-q-and-a.md): データセットとデータ モデルを作成するユーザーには、  このトピックが役立ちます。
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
