@@ -2,26 +2,28 @@
 title: データセットにデータをプッシュする
 description: Power BI データセットにデータをプッシュする
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598551"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974186"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
+
 Power BI API を使うと、Power BI データセットにデータをプッシュできます。 たとえば、既存のビジネス ワークフローを拡張して、主要なデータをデータセットにプッシュできます。 ここでは、Product テーブルを含む Sales Marketing データセットをデータセットにプッシュします。
 
 データセットへのデータのプッシュを始めるには、Azure Active Directory (Azure AD) と [Power BI アカウント](create-an-azure-active-directory-tenant.md)が必要です。
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>データセットにデータをプッシュする手順
+
 * 手順 1: [アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)
 * 手順 2: [認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)
 * 手順 3: [Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ Power BI API を使うと、Power BI データセットにデータをプッシ�
 次のセクションでは、データをプッシュする Power BI API 操作の概要を説明します。
 
 ## <a name="power-bi-api-operations-to-push-data"></a>データをプッシュする Power BI API の操作
+
 Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリがデータセットに行を追加すると、ダッシュボード上のタイルは自動的に最新データに更新されます。 データをプッシュするには、[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作と [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を一緒に行います。 データセットを検索するには、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作を行います。 これらの操作のどれについても、グループ ID を渡すとグループを操作できます。 [グループの取得](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作を行うと、グループ ID の一覧を取得できます。
 
 データセットにデータをプッシュするための操作を次に示します。
@@ -108,13 +111,14 @@ Power BI のテーブル スキーマでは、次のデータ型を使うこと�
 | 文字列 |現在、最大 128 文字が許可されています。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI へのデータのプッシュに関する詳細
+
 データセットへのデータのプッシュを始める方法については、左側のナビゲーション ウィンドウにある「[手順 1: アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)」をご覧ください。
 
 [次の手順 >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>次の手順
+
 [Power BI にサインアップする](create-an-azure-active-directory-tenant.md)  
 [JSON の紹介](http://json.org/)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-
