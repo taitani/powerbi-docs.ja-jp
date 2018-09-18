@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dc79282a5c221e85fae7838009f6cecf91cbfdb8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a9dc1d0f87102cc5bf66a3fb21b8be7af6a66059
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246829"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726825"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow と Power BI
 
@@ -110,7 +110,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
 ## <a name="next-steps"></a>次の手順
 * [Microsoft Flow の概要](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [Power BI サービスでのデータ アラートの設定](service-set-data-alerts.md)
-* [iPhone でデータ アラートを設定する](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Windows 10 用の Power BI モバイル アプリでデータ アラートを設定する](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [iPhone でデータ アラートを設定する](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Windows 10 用の Power BI モバイル アプリでデータ アラートを設定する](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

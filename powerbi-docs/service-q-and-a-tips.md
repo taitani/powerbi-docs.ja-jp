@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 94936092a86ee3ac46ed0516609b3beaf1589180
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 189134a82e183819f1d48be0b420c9f92a5e69b3
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257132"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725951"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A で質問するためのヒント
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A で認識される語句と用語
@@ -24,7 +24,7 @@ ms.locfileid: "40257132"
 以下のリストでは現在形を使用していますが、ほとんどの場合はすべての時制が認識されます。 たとえば、"is" には are、was、were、will be、have、has、had、will have、has got、do、does、did が含まれます。  "sort" には sorted および sorting が含まれます。  また、PowerBI では単語の単数形と複数形の両方が認識されます。 たとえば、"year" と "years" が認識されます。
 
 > [!NOTE]
-> [iPad、iPhone、iPod Touch デバイスの iOS 用の Microsoft Power BI アプリ](mobile-apps-ios-qna.md)で Q&A も利用できます。
+> [iPad、iPhone、iPod Touch デバイスの iOS 用の Microsoft Power BI アプリ](consumer/mobile/mobile-apps-ios-qna.md)で Q&A も利用できます。
 > 
 > 
 

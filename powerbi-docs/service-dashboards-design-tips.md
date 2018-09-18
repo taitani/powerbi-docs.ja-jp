@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944976"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726051"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>優れた Power BI ダッシュボードのデザインに関するヒント
 ダッシュボードの作成が完了し、タイルもいくつか追加したので、ダッシュボードの外観をよくすることに加えて、機能的なものにする方法についても考えてみましょう。 通常、この改良は、最も重要な情報を目立つようにしたり、簡潔ですっきりとした外観にしたりすることです。
@@ -23,7 +23,7 @@ ms.locfileid: "36944976"
 以下に、ヒントをいくつか示します。
 
 > [!TIP]
-> レポートの多くのデザイン原則は、ダッシュボードにも適用されます。  「[Best design principles for reports and visualizations](power-bi-visualization-best-practices.md)」 (レポートとビジュアルのデザインに関するベスト プラクティス) のホワイトペーパーをご覧ください。
+> レポートの多くのデザイン原則は、ダッシュボードにも適用されます。  「[Best design principles for reports and visualizations](visuals/power-bi-visualization-best-practices.md)」 (レポートとビジュアルのデザインに関するベスト プラクティス) のホワイトペーパーをご覧ください。
 >
 >
 
@@ -51,7 +51,7 @@ Microsoft Principal Program Manager と Power BI ダッシュボード エキス
 
 ただし、必ずその意味を示してください。  
 
-[数値だけのタイルを作成](power-bi-visualization-card.md)する方法についてご覧ください。
+[数値だけのタイルを作成](visuals/power-bi-visualization-card.md)する方法についてご覧ください。
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>最も重要な情報は、上部の隅に配置する
 たいていの人は上から下に向かって情報を読むため、概要の情報は上部に配置し、より詳しい情報は閲覧者が読み進む方向 (左から右、または右から左) で下に向かって配置していきます。
@@ -68,7 +68,7 @@ Microsoft Principal Program Manager と Power BI ダッシュボード エキス
 * [グラフの並べ替え](power-bi-report-change-sort.md)方法にご注意ください。  最大数または最小数に注目させる必要がある場合は、測定単位に従って並べ替えます。  閲覧者が他の多くのカテゴリの中の特定のカテゴリをすばやく見つけられるようにするには、軸に従って並べ替えます。  
 * 円グラフは、カテゴリが 7 つ以下の場合に最適です。 円グラフ内の各値の比較は、値を並べて比較できないため横棒グラフや縦棒グラフよりも難しくなります。 円グラフは、部分の比較ではなく、全体に対する部分の関係を示すために適しています。 ゲージ グラフは、ある目標に関して現在の状態を示すために適しています。
 
-視覚化について詳しくは、「[Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)」をご覧ください。  
+視覚化について詳しくは、「[Power BI での視覚化の種類](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)」をご覧ください。  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>ダッシュボード デザインのベスト プラクティスの詳しい情報
 優れたダッシュボード デザインの手法を習得するには、視覚認識の基本の Gestalt Principles (ゲシュタルトの法則) と、文脈において実用的な情報を明確に伝える方法についての学習をご検討ください。 幸運なことに、非常に多くのリソースがすでにいろいろなサイトから入手でき、マイクロソフトのさまざまなブログからも入手できます。 役立つ書籍としては、次のものがあります。

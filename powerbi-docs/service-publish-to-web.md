@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2018
+ms.date: 09/13/2018
 LocalizationGroup: Share your work
-ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380338"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558541"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -61,7 +61,7 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 
 ブログの投稿でコンテンツを埋め込む際、通常、特定のサイズの画面に収まるようにする必要があります。  必要に応じて、iFrame タグで高さと幅を調整することもできますが、レポートが iFrame の特定の領域内に収まることを確認しなければならない場合もあります。そのため、レポートの編集時に、適切な表示モードを設定する必要もあります。
 
-以下の表では、表示モードとそれが埋め込まれた場合にどのように表示されるかについての指針を示します。
+以下の表では、表示モードとそれが埋め込まれた場合にどのように表示されるかについての指針を示します。 
 
 | 表示モード | 埋め込まれた場合の表示方法 |
 | --- | --- |

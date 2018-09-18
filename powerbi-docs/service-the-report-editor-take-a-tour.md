@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299472"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726641"
 ---
 # <a name="the-report-editortake-a-tour"></a>レポート エディター...紹介を見る
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop でのレポートの編集
@@ -65,7 +65,7 @@ Power BI レポート エディターは、3 つのセクションで構成さ�
 
 ![凡例から StoreType を削除する](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-詳細については、「[Power BI レポートへの視覚化の追加](power-bi-report-add-visualizations-i.md)」を参照してください。
+詳細については、「[Power BI レポートへの視覚化の追加](visuals/power-bi-report-add-visualizations-i.md)」を参照してください。
 
 ### <a name="format-your-visuals"></a>ビジュアルの書式設定
 ペイント ローラー アイコンを選択して書式ウィンドウを表示します。 使用可能なオプションは、選んだ視覚化の種類によって異なります。
@@ -74,9 +74,9 @@ Power BI レポート エディターは、3 つのセクションで構成さ�
 
 書式設定の可能性は、ほぼ無限です。  詳しくは、実際に使ってみるか、次の記事を参照してください。
 
-* [視覚化タイトル、背景、および凡例のカスタマイズ](power-bi-visualization-customize-title-background-and-legend.md)
-* [色の書式設定](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [X 軸と Y 軸のプロパティのカスタマイズ](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [視覚化タイトル、背景、および凡例のカスタマイズ](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [色の書式設定](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [X 軸と Y 軸のプロパティのカスタマイズ](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>視覚化に分析を追加する
 拡大鏡アイコンを選択して分析ウィンドウを表示します。 使用可能なオプションは、選んだ視覚化の種類によって異なります。
@@ -126,7 +126,7 @@ Power BI サービスの分析ウィンドウでは、視覚化に動的な基�
 ## <a name="next-steps"></a>次の手順:
 [レポートの作成](service-report-create-new.md)
 
-[Power BI サービス](service-reports.md)、[Power BI Desktop](desktop-report-view.md)、[Power BI Mobile](mobile-apps-view-phone-report.md) の各レポートについての詳細をご覧ください。
+[Power BI サービス](service-reports.md)、[Power BI Desktop](desktop-report-view.md)、[Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md) の各レポートについての詳細をご覧ください。
 
 [Power BI - 基本的な概念](service-basic-concepts.md)
 

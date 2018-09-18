@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136964"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728044"
 ---
 # <a name="reports-in-power-bi"></a>Power BI のレポート
 ## <a name="what-is-a-power-bi-report"></a>Power BI レポートとは
@@ -27,7 +27,7 @@ Power BI ***レポート***は、データセットのマルチパースペク�
 
 Power BI を初めて使うときは、「[Power BI - 基本的な概念](service-basic-concepts.md)」を読むと基礎がよくわかります。
 
-レポートは Power BI サービスと Power BI Desktop の機能です。 レポートの使用方法は、ほぼ同じです。 ただしモバイルの場合、レポートを作成することはできませんが、[レポートを表示、共有し、注釈を付ける](mobile-reports-in-the-mobile-apps.md)ことができます。
+レポートは Power BI サービスと Power BI Desktop の機能です。 レポートの使用方法は、ほぼ同じです。 ただしモバイルの場合、レポートを作成することはできませんが、[レポートを表示、共有し、注釈を付ける](consumer/mobile/mobile-reports-in-the-mobile-apps.md)ことができます。
 
 ## <a name="advantages-of-reports"></a>レポートの利点
 レポートは、単一のデータセットに基づいています。 レポート内の視覚化は、それぞれがひとかたまりの情報を表します。 視覚化は静的なものではありません。データを追加および削除することや、視覚化の種類を変更することができます。また、フィルターやスライサーを適用してデータを詳しく考察し、洞察を得たり、答えを見つけたりすることもできます。 レポートはダッシュボードと同様に、あるいはそれ以上に、高度な対話機能とカスタマイズ機能を備え、基になっているデータが変化すると視覚化が更新されます。

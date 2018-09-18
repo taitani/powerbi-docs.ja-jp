@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 83d9e435c1dca10a444f3125830eb6432aecf6bd
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044350"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728205"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
 
 - [Power BI Desktop の新機能](desktop-latest-update.md)  
-- [Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)  
+- [Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI チーム ブログ](https://powerbi.microsoft.com/blog/)
 - Dynamics 365 の [2018 年春のビジネス アプリケーション リリース ノート](http://aka.ms/businessappsreleasenotes): ビジネス アプリケーションの最新の更新、およびプラットフォーム上でアプリケーションと拡張機能を構築するための新機能。 
 

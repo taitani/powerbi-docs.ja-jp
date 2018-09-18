@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a27a7ec72b1e85b7e1dc6caa5773a14a089e378d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599530"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726411"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>データセットをインポートすることで Power BI サービス内で新しいレポートを作成する
 [Power BI のレポート](service-reports.md)を読んで、次は自分のレポートを作成しようと思われるでしょう。 レポートを作成するには、さまざまな方法があります。この記事ではまず、Power BI サービスを使用して Excel データセットからごく基本的なレポートを作成します。 レポート作成の基本を理解した後、その下にある「**次の手順**」で、より高度なレポートに関するトピックを示します。  
@@ -53,7 +53,7 @@ ms.locfileid: "37599530"
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>レポートに放射状ゲージを追加する
-データセットがインポートされたので、質問への回答を始めましょう。  最高マーケティング責任者 (CMO) は、今年の売上目標にどれだけ近づいているかを知りたいと考えています。 ゲージは、このような種類の情報を表示するために[適した視覚化の選択肢](power-bi-report-visualizations.md)です。
+データセットがインポートされたので、質問への回答を始めましょう。  最高マーケティング責任者 (CMO) は、今年の売上目標にどれだけ近づいているかを知りたいと考えています。 ゲージは、このような種類の情報を表示するために[適した視覚化の選択肢](visuals/power-bi-report-visualizations.md)です。
 
 1. [フィールド] ウィンドウで、**[Sales (売上)]** > **[This Year Sales (今年の売上)]** > **[値]** を選びます。
    

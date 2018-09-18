@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623955"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726664"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI で共同作業および共有を行う方法
 
@@ -83,9 +83,9 @@ iOS および Android デバイス用 Power BI モバイル アプリでは、�
 
 タイル、レポート、ビジュアルのスナップショットが共有され、受信者にはメールで送信したものと同じ内容が表示されます。 メールにはダッシュボードまたはレポートへのリンクも含まれています。 受信者に Power BI Pro ライセンスがある、またはコンテンツが [Premium 容量](service-premium.md)に格納されていて、既にオブジェクトが共有されている場合、その受信者は、オブジェクトを開くことができます。 同じメール ドメインの同僚だけでなく、すべてのユーザーにタイルのスナップショットを送信できます。
 
-iOS および Android モバイル アプリからの、[タイル、レポート、およびビジュアルの共有および注釈付け](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)の詳細を確認してください。
+iOS および Android モバイル アプリからの、[タイル、レポート、およびビジュアルの共有および注釈付け](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)の詳細を確認してください。
 
-Windows 10 デバイス用 Power BI アプリから、[タイルのスナップショットを共有する](mobile-windows-10-phone-app-get-started.md)こともできます。
+Windows 10 デバイス用 Power BI アプリから、[タイルのスナップショットを共有する](consumer/mobile/mobile-windows-10-phone-app-get-started.md)こともできます。
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>PDF または他の静的ファイルとして印刷または保存する
 Power BI サービスからダッシュボード全体、ダッシュボードのタイル、レポート ページ、または視覚エフェクトを PDF (または他の静的ファイル形式) として印刷または保存することができます。 レポートは、一度に 1 ページのみを印刷できます。レポート全体を一度に印刷することはできません。 詳しくは、「[Power BI からの印刷](service-print.md)」をご覧ください。

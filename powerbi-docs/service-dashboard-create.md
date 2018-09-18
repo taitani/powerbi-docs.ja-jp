@@ -1,5 +1,5 @@
 ---
-title: レポートから Power BI サービス ダッシュボードを作成する
+title: レポートから Power BI ダッシュボードを作成する
 description: レポートから Power BI ダッシュボードを作成する
 author: mihart
 manager: kfile
@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: a528c4a641dbdecce7d33f29e7afbe6118ee34b5
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168091"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726480"
 ---
-# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Power BI サービスで Power BI ダッシュボードを作成する
+# <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
 [Power BI のダッシュボード](service-dashboards.md)を読んで、次は自分のダッシュボードを作成しようと思われるでしょう。 ダッシュボードを作成するには、レポートから、何もない状態から、データセットから、既存のダッシュボードを複製して、それ以外の方法など、さまざまな方法があります。  
 
 初めて取り掛かるときは難しそうに見えるかもしれません。そこで、まずはレポートから視覚エフェクトをピン留めして、手早く簡単にダッシュボードを作成します。レポートはあらかじめ用意されているものを使用します。 このクイック スタートを終えれば、ダッシュボードとレポートとの関係やレポート エディターでの編集ビューの開き方、タイルのピン留め、ダッシュボードとレポートの間の移動について理解が深まっているでしょう。 その次は左側の目次のリンク、または下部の**次のステップ**から、より高度なトピックに進みます。
@@ -25,7 +25,7 @@ ms.locfileid: "44168091"
 ## <a name="who-can-create-a-dashboard"></a>ダッシュボードを作成できるユーザー
 ダッシュボードの作成は**作成者**の機能であり、レポートに対する編集のアクセス許可が必要です。 編集のアクセス許可はレポート作成者と、作成者からアクセス許可を付与された同僚が使用できます。 たとえば、David が WorkspaceABC でレポートを作成し、そのワークスペースのメンバーとしてユーザーを追加した場合、David とそのユーザーの両方に編集のアクセス許可があることになります。 これに対して、直接または [Power BI アプリ](service-install-use-apps.md)の一部としてレポートが共有されている場合 (ユーザーはレポートを**使用**します)、ダッシュボードにタイルをピン留めすることはできません。
 
-> **注**: ダッシュボードは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードを作成することはできませんが、[表示して共有する](mobile-apps-view-dashboard.md)ことはできます。
+> **注**: ダッシュボードは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードを作成することはできませんが、[表示して共有する](consumer/mobile/mobile-apps-view-dashboard.md)ことはできます。
 >
 > 
 

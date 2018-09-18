@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8db686b842f01653e45e8d2d6313cb4ac39bcaeb
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249941"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727170"
 ---
 # <a name="power-bi-notifications"></a>Power BI の通知
 通知センターは、Power BI の利用に関連する情報のシーケンシャルなフィードです。 これを開くと、共有されている新しいダッシュボードに関するメッセージ、グループ領域の変更、Power BI のイベントや会議、設定したアラートなどに関する情報が表示されます。 [Power BI サービスでアラートを設定](service-set-data-alerts.md)できます。Power BI モバイル アプリでもアラートを設定できます。
@@ -40,7 +40,7 @@ Amanda が受け取った通知を確認し、通知を管理し、返信する�
 ### <a name="next-steps"></a>次の手順
 * [Power BI サービスでのデータ アラート](service-set-data-alerts.md)
 * [Power BI データ アラートでトリガーされる Microsoft Flow を作成する](service-flow-integration.md)
-* [iPhone アプリでデータ アラートを設定する (Power BI for iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Windows 10 用の Power BI モバイル アプリでデータ アラートを設定する](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [iPhone アプリでデータ アラートを設定する (Power BI for iOS)](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Windows 10 用の Power BI モバイル アプリでデータ アラートを設定する](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

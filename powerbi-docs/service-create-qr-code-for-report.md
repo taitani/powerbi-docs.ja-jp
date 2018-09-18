@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d99081a3d77ebfa7115d7546c59adc42eab308ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 52c392123b6bc86b4a40d90a8479ed8fcd6dbc61
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237947"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726365"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>モバイル アプリで使用する Power BI のレポートの QR コードを作成する
 Power BI で QR コードを使用すると、実世界の任意のものを、関連する BI 情報に直接接続することができます。ナビゲーションや検索の必要がなくなります。
 
 Power BI サービスでは、編集できないレポートの場合でも、すべてのレポートについて QR コードを作成できます。 その後、必要な場所にその QR コードを配置します。 たとえば、メールに貼り付けたり、印刷して特定の場所に貼り付けたりできます。 
 
-レポートを共有している仕事仲間は、レポートにアクセスするため QR コードを[モバイル デバイス](mobile-apps-qr-code.md)から直接スキャンできます。 Power BI アプリに付属の QR コード スキャナーを使用しても、それらのデバイスにインストールされているその他の QR スキャナーを使用しても構いません。 [Power BI for Mixed Reality アプリでレポートの QR コードをスキャンする](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)こともできます。
+レポートを共有している仕事仲間は、レポートにアクセスするため QR コードを[モバイル デバイス](consumer/mobile/mobile-apps-qr-code.md)から直接スキャンできます。 Power BI アプリに付属の QR コード スキャナーを使用しても、それらのデバイスにインストールされているその他の QR スキャナーを使用しても構いません。 [Power BI for Mixed Reality アプリでレポートの QR コードをスキャンする](consumer/mobile/mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)こともできます。
 
 ## <a name="create-a-qr-code-for-a-report"></a>レポートの QR コードを作成する
 1. Power BI サービスで、レポートを開きます。
@@ -48,8 +48,8 @@ Power BI は QR コードを JPG ファイルとして生成するので、印�
 2. 縁に沿って QR コードを切り取り、そのレポートに関連する場所に貼り付けます。 
 
 ## <a name="next-steps"></a>次の手順
-* [モバイル アプリで現実世界から Power BI データに接続する](mobile-apps-data-in-real-world-context.md)
-* [モバイル デバイスから Power BI QR コードをスキャンする](mobile-apps-qr-code.md)
+* [モバイル アプリで現実世界から Power BI データに接続する](consumer/mobile/mobile-apps-data-in-real-world-context.md)
+* [モバイル デバイスから Power BI QR コードをスキャンする](consumer/mobile/mobile-apps-qr-code.md)
 * [タイルの QR コードを作成する](service-create-qr-code-for-tile.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

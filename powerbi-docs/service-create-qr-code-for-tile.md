@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: bb2cd0e26caaa7639020d51a0827390932e78b06
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249711"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726057"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>モバイル アプリで使用する Power BI のタイルの QR コードを作成する
 Power BI で QR コードを使用すると、実世界の任意のものを、関連する BI 情報に直接接続することができます。ナビゲーションや検索の必要がなくなります。
 
 Power BI サービスでは、自分では編集できないダッシュボードも含めて、すべてのダッシュボードのタイルの QR コードを作成できます。 その後、必要な場所にその QR コードを配置します。 たとえば、メールに貼り付けたり、印刷して特定の場所に貼り付けたりできます。 
 
-ダッシュボードを共有している仕事仲間は、[タイルにアクセスするため QR コードをモバイル デバイスから直接スキャン](mobile-apps-qr-code.md)できます。 Power BI アプリに付属の QR コード スキャナーを使用しても、それらのデバイスにインストールされているその他の QR スキャナーを使用しても構いません。
+ダッシュボードを共有している仕事仲間は、[タイルにアクセスするため QR コードをモバイル デバイスから直接スキャン](consumer/mobile/mobile-apps-qr-code.md)できます。 Power BI アプリに付属の QR コード スキャナーを使用しても、それらのデバイスにインストールされているその他の QR スキャナーを使用しても構いません。
 
 
 ## <a name="create-a-qr-code-for-a-tile"></a>タイルの QR コードを作成する
@@ -52,8 +52,8 @@ Power BI は QR コードを JPG ファイルとして生成するので、印�
 3. QR コードを切り取り、そのタイルに関連する場所に貼り付けます。 
 
 ## <a name="next-steps"></a>次の手順
-* [モバイル アプリで現実世界から Power BI データに接続する](mobile-apps-data-in-real-world-context.md)
-* [モバイル デバイスから Power BI QR コードをスキャンする](mobile-apps-qr-code.md)
+* [モバイル アプリで現実世界から Power BI データに接続する](consumer/mobile/mobile-apps-data-in-real-world-context.md)
+* [モバイル デバイスから Power BI QR コードをスキャンする](consumer/mobile/mobile-apps-qr-code.md)
 * [レポートの QR コードを作成する](service-create-qr-code-for-report.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

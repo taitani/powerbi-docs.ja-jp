@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c5a50a5bab76fd856099a3c1430638dc9e33ea8
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 8463dc96a120e9bf26ff0718fb050304890a5cea
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257350"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728182"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
@@ -60,7 +60,7 @@ Power BI と Power BI Desktop を併用すれば、独自のオンプレミス�
 Power BI レポート サーバーとは、レポートを作成、展開、管理した後、それらをさまざまなユーザーに、Web ブラウザーやモバイル デバイスで表示したり、または電子メールで送信したりするなどのさまざまな方法で配布するために独自の施設内に展開するソリューションです。 [Power BI レポート サーバー](report-server/get-started.md)の詳細をお読みください。
 
 ### <a name="power-bi-mobile-apps"></a>Power BI モバイル アプリ
-[Power BI モバイル アプリでオンプレミスの Power BI レポート、Reporting Services モバイル レポート、KPI を表示](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)することもできます。
+[Power BI モバイル アプリでオンプレミスの Power BI レポート、Reporting Services モバイル レポート、KPI を表示](consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md)することもできます。
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI はモバイル デバイスをサポートしていますか?
 はい。 Power BI には、Android フォンおよびタブレット、iOS デバイス、Windows 10 デバイス用のネイティブ アプリがあります。 [Power BI モバイル アプリ](https://powerbi.microsoft.com/mobile)の 1 つを次のうち該当するストアからダウンロードします。  

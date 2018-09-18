@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242389"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726319"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Q&A のおすすめの質問を作成する
 データセットがある場合、そのデータセットにおすすめの質問を追加できます。  Power BI Q&A では、データセットを使用する ("*消費する*") 同僚におすすめの質問が表示されます。  同僚は、データセットについて確認できる質問の種類についておすすめの質問をヒントにすることができます。 任意のおすすめの質問を追加できます。よくある質問、興味深い結果が表示される質問、表現しづらい質問などを追加してください。
@@ -26,7 +26,7 @@ Will がおすすめの質問をいくつか Power BI Q&A に追加した後、�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Q&A を利用する質問は、[iPad、iPhone、iPod Touch デバイスの iOS 用の Microsoft Power BI アプリ](mobile-apps-ios-qna.md)および Power BI Desktop の Q&A プレビューで利用できます。 ただし、質問の作成は Power BI サービス (app.powerbi.com) でのみ利用できます。
+> Q&A を利用する質問は、[iPad、iPhone、iPod Touch デバイスの iOS 用の Microsoft Power BI アプリ](consumer/mobile/mobile-apps-ios-qna.md)および Power BI Desktop の Q&A プレビューで利用できます。 ただし、質問の作成は Power BI サービス (app.powerbi.com) でのみ利用できます。
 > 
 
 この記事では、[小売の分析サンプル](sample-datasets.md)を使用します。

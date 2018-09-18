@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241524"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558572"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -79,7 +79,7 @@ Power BI Embedded は一連の API であり、開発者はこれを利用し、
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |購入  |Azure Portal |Office |Office |
-|ユース ケース | 独自のアプリケーションにコンテンツを埋め込む | <li> 独自のアプリケーションにコンテンツを埋め込む <br><br></br> <li> MS Office アプリケーションにコンテンツを埋め込む: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (モバイル アプリを除く)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 独自のアプリケーションにコンテンツを埋め込む <br><br></br> <li> MS Office アプリケーションにコンテンツを埋め込む: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (モバイル アプリを除く)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> [Power BI サービス](https://powerbi.microsoft.com/en-us/)経由で Power BI ユーザーとコンテンツを共有する  |
+|ユース ケース | 独自のアプリケーションにコンテンツを埋め込む | <li> 独自のアプリケーションにコンテンツを埋め込む <br><br></br> <li> MS Office アプリケーションにコンテンツを埋め込む: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (モバイル アプリを除く)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 独自のアプリケーションにコンテンツを埋め込む <br><br></br> <li> MS Office アプリケーションにコンテンツを埋め込む: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (モバイル アプリを除く)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> [Power BI サービス](https://powerbi.microsoft.com/en-us/)経由で Power BI ユーザーとコンテンツを共有する  |
 |課金 |1 時間ごと |月単位 |月単位 |
 |コミットメント  |コミットメントなし |年単位  |月単位/年単位 |
 |差別化 |柔軟性に優れ、Azure Portal で、あるいは API 経由でリソースを拡大縮小したり、停止/再開したりできる  |SharePoint Online と Microsoft Teams にコンテンツを埋め込むために使用可能 (モバイル アプリを除く) |アプリケーションの埋め込みを結合し、同じ容量で Power BI Service を使用する |
@@ -133,7 +133,7 @@ Power BI では、組織のアカウントでサインアップすることが�
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded ソリューションでは、PBI Embedded 専用容量はどのような役割を果たしますか?
 
-[ソリューションを運用に昇格させる](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)には、Power BI コンテンツが必要です (アプリケーションで使用しており、Power BI Embedded (A SKU) 容量に割り当てるアプリ ワークスペース)。
+[ソリューションを運用に昇格させる](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)には、Power BI コンテンツが必要です (アプリケーションで使用しており、Power BI Embedded (A SKU) 容量に割り当てるアプリ ワークスペース)。
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>どの Azure リージョンで PBI Embedded を利用できますか?
 
@@ -158,11 +158,11 @@ Power BI Embedded は引き続き、マスター ユーザー (Power BI Pro の�
 
 Azure AD テナントを既に用意している場合、既存のディレクトリを利用できます。あるいは、埋め込みアプリケーション コンテンツ セキュリティに新しい Azure AD テナントを作成できます。
 
-AAD トークンを取得するには、Azure Active Directory 認証ライブラリ (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries) のいずれかを使用できます。 複数のプラットフォームで利用可能なクライアント ライブラリがあります。
+AAD トークンを取得するには、Azure Active Directory 認証ライブラリ (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries) のいずれかを使用できます。 複数のプラットフォームで利用可能なクライアント ライブラリがあります。
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>私はアプリケーションのユーザー認証に AAD を既に使用しています。 "ユーザーがデータを所有する" シナリオでは、Power BI に認証するとき、この ID をどのように利用できますか? 
 
-これは標準的な OAuth 代理フローです (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)。Power BI サービスに対するアクセス許可を (必要な範囲で) 要求するようにアプリケーションを構成する必要があります。アプリのユーザー トークンが与えられたら、ユーザー アクセス トークンを利用して ADAL API AcquireTokenAsync を呼び出し、リソース ID として Power BI リソース URL を指定します。下のコード抜粋をご覧ください。この方法が示されています。
+これは標準的な OAuth 代理フローです (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)。Power BI サービスに対するアクセス許可を (必要な範囲で) 要求するようにアプリケーションを構成する必要があります。アプリのユーザー トークンが与えられたら、ユーザー アクセス トークンを利用して ADAL API AcquireTokenAsync を呼び出し、リソース ID として Power BI リソース URL を指定します。下のコード抜粋をご覧ください。この方法が示されています。
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -299,7 +299,7 @@ AAD 登録済みアプリケーションの編集方法は、[こちら](https:/
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Power BI ユーザー プロファイルまたはデータを編集する方法
 
-Power BI データの編集方法は、[こちら](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)をご覧ください。
+Power BI データの編集方法は、[こちら](https://docs.microsoft.com/power-bi/service-basic-concepts)をご覧ください。
 
 詳しくは、「[埋め込みアプリケーションのトラブルシューティング](embedded-troubleshoot.md)」をご覧ください
 

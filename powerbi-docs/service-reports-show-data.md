@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 15ca7461c1661b83e1fbb08b66e7d1843bdb1c9f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a86e9f93023e317ba665ec04bb3a67ebfbdfe8a1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298943"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727446"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>ビジュアルの作成に使用されたデータを表示する
 ## <a name="show-data"></a>データの表示
@@ -48,7 +48,7 @@ Power BI のビジュアルは、データセットからのデータを使用�
 
 ### <a name="next-steps"></a>次の手順
 [Power BI ビジュアルからデータをエクスポートする](power-bi-visualization-export-data.md)    
-[Power BI レポートでの視覚化](power-bi-report-visualizations.md)    
+[Power BI レポートでの視覚化](visuals/power-bi-report-visualizations.md)    
 [Power BI レポート](service-reports.md)    
 [Power BI - 基本的な概念](service-basic-concepts.md)    
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

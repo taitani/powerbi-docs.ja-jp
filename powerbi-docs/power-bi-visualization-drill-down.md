@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 57e1285537854454504b0d2952068e5d9dc4f378
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600922"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726710"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI での視覚エフェクトのドリル モード
 
@@ -223,7 +223,7 @@ Power BI では、1 つまたはすべてのサブセットを展開できます
   ![](media/power-bi-visualization-drill-down/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>次の手順
-[Power BI レポートでの視覚化](power-bi-report-visualizations.md)
+[Power BI レポートでの視覚化](visuals/power-bi-report-visualizations.md)
 
 [Power BI レポート](service-reports.md)
 

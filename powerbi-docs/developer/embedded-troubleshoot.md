@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241570"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558578"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -105,13 +105,13 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 Power BI Embedded を使用、および Azure AD Direct Authentication を利用している場合、次のようなログインに関するメッセージを受信する場合があります: ***error:unauthorized_client,error_description:AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました***。これは、2018 年 6 月 14 日以降直接認証が既定でオフになったことが原因です。
 
-組織または[サービス プリンシパル](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)のいずれかにスコープ設定された [Azure AD ポリシー](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)を使用して、直接認証をオンに戻す方法があります。
+組織または[サービス プリンシパル](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object)のいずれかにスコープ設定された [Azure AD ポリシー](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)を使用して、直接認証をオンに戻す方法があります。
 
 これは、アプリごとにのみ有効にすることをお勧めします。
 
 このポリシーを作成するには、ポリシーを作成して割り当てるディレクトリに対して**グローバル管理者**であることが必要です。 ポリシーを作成して、このアプリケーションの SP に割り当てるのためのサンプル スクリプトを次に示します。
 
-1. [Azure AD プレビュー PowerShell モジュール](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)をインストールします。
+1. [Azure AD プレビュー PowerShell モジュール](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)をインストールします。
 
 2. 次の PowerShell コマンドを 1 行ずつ実行します (結果として、変数 $sp に複数のアプリケーションが含まれていないことを確認します)。
 
@@ -274,7 +274,7 @@ IError オブジェクトを取得したら、使用している埋め込みの�
 
 登録済みのアプリケーションを編集する場合は、[AAD 登録済みアプリケーション](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)の編集方法を確認し、アプリケーションが Web API へのアクセスを提供できるようにします。
 
-Power BI ユーザー プロファイルまたはデータを編集する場合は、[Power BI データ](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)の編集方法をご覧ください。
+Power BI ユーザー プロファイルまたはデータを編集する場合は、[Power BI データ](https://docs.microsoft.com/power-bi/service-basic-concepts)の編集方法をご覧ください。
 
 詳しくは、「[Power BI Embedded に関してよく寄せられる質問](embedded-faq.md)」をご覧ください。
 

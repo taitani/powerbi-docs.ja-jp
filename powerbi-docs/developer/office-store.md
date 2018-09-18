@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: c407b967ce4a8c1ee31b9a750f2e281ff0a8caa7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092117"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558495"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>カスタム ビジュアルを AppSource に発行する
 AppSource にカスタム ビジュアルを発行して、他のユーザーが見つけたり使用したりすることができるようにする方法について説明します。
@@ -32,7 +32,7 @@ AppSource とは 簡単に言えば、Microsoft 製品とサービスの SaaS �
 | --- | --- | --- |
 | 必要なすべてのメタデータを含む pbiviz パッケージ |はい |ビジュアル名<br>表示名<br>GUID<br>バージョン<br>説明<br>作成者名とメール アドレス |
 | サンプルの .pbix レポート ファイル |はい |ビジュアルを紹介するには、ユーザーがビジュアルをよく理解できるようにする必要があります。 ユーザーにとってのビジュアルの価値を強調し、使用例や書式設定オプションなどを示す必要があります。ヒントと秘訣や避けるべきことなどを説明した "*ヒント*" ページを最後に追加することもできます。<br>サンプルの .pbix レポート ファイルは、外部に接続していないオフラインの状態で動作する必要があります |
-| アイコン |はい |ストアの先頭に表示されるカスタム ビジュアルのロゴを含める必要があります。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 正確に 300 (幅) x 300 (高さ) ピクセルにする必要があります。 **重要!** アイコンを送信する前に[簡単なガイド](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images)をよくお読みください。 |
+| アイコン |はい |ストアの先頭に表示されるカスタム ビジュアルのロゴを含める必要があります。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 正確に 300 (幅) x 300 (高さ) ピクセルにする必要があります。 **重要!** アイコンを送信する前に[簡単なガイド](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images)をよくお読みください。 |
 | スクリーンショット |はい |少なくとも 1 つのスクリーンショットを提供する必要があります。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 正確に 1366 (幅) x 768 (高さ) ピクセルにする必要があります。 ファイルのサイズは 1024 KB 以下でなければなりません。 *使いやすくするには、各スクリーンショットの重要な機能の価値提案がはっきりわかる吹き出しを追加します。* |
 | サポート ダウンロード リンク |はい |ビジュアルに問題がある顧客をサポートするための URL を提供します。 https:// または http:// を含む URL の形式を使う必要があります。 |
 | プライバシーに関するドキュメントへのリンク |はい |ビジュアルを使うユーザーに対するプライバシー ポリシーへのリンクを提供します。 https:// または http:// を含むリンクの形式にする必要があります。 |
@@ -130,7 +130,7 @@ Power BI チームからアプリ パッケージ XML を受け取った後は�
 
 ## <a name="next-steps"></a>次の手順
 [開発者ツールを使ってカスタム ビジュアルを作成する](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Power BI での視覚化](../power-bi-report-visualizations.md)  
+[Power BI での視覚化](../visuals/power-bi-report-visualizations.md)  
 [Power BI でのカスタム ビジュアル](../power-bi-custom-visuals.md)  
 [カスタム ビジュアルの*認定*を受ける](../power-bi-custom-visuals-certified.md)
 

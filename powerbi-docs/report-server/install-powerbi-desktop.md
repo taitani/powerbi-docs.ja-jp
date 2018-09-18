@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481833"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726388"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
 Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール方法について説明します。
@@ -78,7 +78,7 @@ Power BI レポート サーバーのレポートは、次をサポートしま�
 * Power BI Desktop のプレビュー機能
 
 ### <a name="in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリ
-Power BI レポート サーバーのレポートは、次を含む [Power BI モバイル アプリ](../mobile-apps-for-mobile-devices.md)のすべての基本機能をサポートします。
+Power BI レポート サーバーのレポートは、次を含む [Power BI モバイル アプリ](../consumer/mobile/mobile-apps-for-mobile-devices.md)のすべての基本機能をサポートします。
 
 * [電話のレポート レイアウト](../desktop-create-phone-report.md): Power BI モバイル アプリのレポートを最適化することができます。 携帯電話では、最適化されたレポートに特別なアイコン![電話レポート レイアウト アイコン](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png)、およびレイアウトが提供されます。
   

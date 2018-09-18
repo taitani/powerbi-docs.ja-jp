@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044327"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727584"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI サービスの全画面表示モード
 ## <a name="what-is-full-screen-mode"></a>全画面表示モードの概要
@@ -24,7 +24,7 @@ ms.locfileid: "44044327"
 
 メニューやナビゲーション バーを表示せずに、Power BI コンテンツ (ダッシュボード、レポート ページ、タイル、視覚エフェクト) を表示します。  いつでもひと目でコンテンツの全体図のみを把握できます。 このモードはテレビ モードとも呼ばれます。 全画面表示モードで利用できる機能はコンテンツにより異なります。 
 
-Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile アプリで使用できます](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop にはレポートや視覚エフェクトの全画面表示モードはありませんが、[リレーションシップ ビューとレポート ビュー](desktop-report-view.md)には [ページに合わせる] があり、[レポート ビジュアルにはフォーカス モード](service-focus-mode.md)があります。
+Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile アプリで使用できます](consumer/mobile/mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop にはレポートや視覚エフェクトの全画面表示モードはありませんが、[リレーションシップ ビューとレポート ビュー](desktop-report-view.md)には [ページに合わせる] があり、[レポート ビジュアルにはフォーカス モード](service-focus-mode.md)があります。
 
  
 

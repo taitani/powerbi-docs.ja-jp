@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8e31d3128e38453212a8a0ecef2a139fa2d0f356
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 565c43be3489c23f26a98f99ce2d70022be965d2
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250547"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727998"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune でモバイル アプリを構成する
 Microsoft Intune を使うと、組織でデバイスとアプリケーションを管理できます。 iOS 用と Android 用の Power BI モバイル アプリケーションを Intune と統合すれば、デバイス上のアプリケーションを管理し、セキュリティを制御できるようになります。 構成ポリシーを利用すると、アクセスに暗証番号 (PIN) を必要とする項目を管理したり、アプリケーションでデータを処理する方法を制御したり、さらには、アプリが使用されていないときにアプリのデータを暗号化したりできます。
@@ -163,7 +163,7 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
 ## <a name="next-steps"></a>次の手順
 [Microsoft Intune コンソールでモバイル アプリケーション管理ポリシーを構成して展開する](https://technet.microsoft.com/library/dn878026.aspx)  
-[モバイル デバイス用の Power BI アプリ](mobile-apps-for-mobile-devices.md)  
+[モバイル デバイス用の Power BI アプリ](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300117"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726917"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -244,7 +244,7 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 
 ### <a name="interact-with-and-share-r-visuals"></a>R ビジュアルとの対話と共有
 
-組織内のユーザーは、R スクリプトで作成したビジュアルと対話して共有することができます。 [詳細情報](service-r-visuals.md)
+組織内のユーザーは、R スクリプトで作成したビジュアルと対話して共有することができます。 [詳細情報](visuals/service-r-visuals.md)
 
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。

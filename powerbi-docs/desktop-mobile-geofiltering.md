@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: ed8a0990c9da2da877c32a0ef44c676f91e0f493
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 80d2039b2cfcac2f2c3db9c6f656561b670aa341
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291399"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727492"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>モバイル アプリ向けの Power BI Desktop で地理的フィルターを設定する
 Power BI Desktop で列の[地理的データを分類](desktop-data-categorization.md)し、Power BI Desktop がレポートの表示での値の処理方法を認識できるようにすることができます。 追加された特典として、お客様や仕事仲間が Power BI モバイル アプリでそのレポートを表示すると、Power BI では現在地に一致する地理的フィルターが自動的に適用されます。 
 
-たとえば、顧客を訪問する営業マネージャーが、その顧客の総売上と収益をすばやくフィルター処理し、 県、市、または実際の住所など、現在の場所のデータを抽出したいと考えます。 また、その後で時間があれば、近くの別の顧客も訪問する予定です。 そのような場合は、[場所でレポートをフィルター処理してこれらの顧客を見つける](mobile-apps-geographic-filtering.md)ことができます。
+たとえば、顧客を訪問する営業マネージャーが、その顧客の総売上と収益をすばやくフィルター処理し、 県、市、または実際の住所など、現在の場所のデータを抽出したいと考えます。 また、その後で時間があれば、近くの別の顧客も訪問する予定です。 そのような場合は、[場所でレポートをフィルター処理してこれらの顧客を見つける](consumer/mobile/mobile-apps-geographic-filtering.md)ことができます。
 
 > [!NOTE]
 > モバイル アプリを使用して場所でフィルター処理できるのは、レポート内の地名が英語で書かれている場合のみです ("New York City"、"Germany" など)。
@@ -52,12 +52,12 @@ Power BI Desktop で列の[地理的データを分類](desktop-data-categorizat
 2. Power BI サービスにレポートを発行します。
 
 ## <a name="view-the-report-in-power-bi-mobile-app"></a>Power BI モバイル アプリでレポートを表示する
-1. 任意の[Power BI モバイル アプリ](mobile-apps-for-mobile-devices.md)でレポートを開きます。
+1. 任意の[Power BI モバイル アプリ](consumer/mobile/mobile-apps-for-mobile-devices.md)でレポートを開きます。
 2. レポートにデータがある地理的な場所にいる場合、その場所に自動的にフィルター処理できます。
    
     ![モバイル アプリの地理フィルター](media/desktop-mobile-geofiltering/power-bi-mobile-geo-map-set-filter.png)
 
-「[Power BI モバイル アプリで場所によるレポートをフィルターする](mobile-apps-geographic-filtering.md)」を参照してください。
+「[Power BI モバイル アプリで場所によるレポートをフィルターする](consumer/mobile/mobile-apps-geographic-filtering.md)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI Desktop でのデータ分類](desktop-data-categorization.md)  

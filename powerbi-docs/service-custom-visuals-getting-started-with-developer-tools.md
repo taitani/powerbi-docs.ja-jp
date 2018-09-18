@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
-ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
+ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257263"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726687"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>開発者ツールを使ってカスタム ビジュアルを作成する
 カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。
@@ -388,7 +388,7 @@ Less の詳細については、[こちら](http://lesscss.org/)を参照して�
 詳細については、「[ビジュアルを実行する](#running-your-visual)」または「[サーバー証明書のセットアップ](#ssl-setup)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI での視覚化](power-bi-report-visualizations.md)  
+[Power BI での視覚化](visuals/power-bi-report-visualizations.md)  
 [Power BI でのカスタム ビジュアル](power-bi-custom-visuals.md)  
 [カスタム ビジュアルを Office ストアに発行する](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  

@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600358"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726871"
 ---
 # <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
 ## <a name="what-is-meant-by-certified"></a>*認定* とは
@@ -142,7 +142,7 @@ ms.locfileid: "37600358"
 ## <a name="next-steps"></a>次の手順
 [カスタム ビジュアル開発者ツール (プレビュー) の概要](service-custom-visuals-getting-started-with-developer-tools.md)      
 [YouTube の Microsoft カスタム ビジュアル プレイリスト](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Power BI での視覚化](power-bi-report-visualizations.md)  
+[Power BI での視覚化](visuals/power-bi-report-visualizations.md)  
 [Power BI でのカスタム ビジュアル](power-bi-custom-visuals.md)  
 [Microsoft AppSource へのカスタム ビジュアルの公開](developer/office-store.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

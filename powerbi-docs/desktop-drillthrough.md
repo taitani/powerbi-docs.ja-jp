@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 66222eb773d70afcfcf361fba49118363a670e7f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 8bbfafcecb6876ea063bb6751ca31c25697dc185
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329355"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725859"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop でドリルスルーを使用する
 **Power BI Desktop** の**ドリルスルー**を利用すると、サプライヤー、顧客、メーカーなど、特定のエンティティに焦点を置くページをレポートに作成できます。 そのような集中ページを作成した状態で、他のレポート ページでデータ ポイントを右クリックし、集中ページまでドリルスルーし、その文脈に合わせて絞り込んだ詳細を取得できます。
@@ -79,5 +79,5 @@ ms.locfileid: "39329355"
 
 次の記事にも興味をもたれるかもしれません。
 
-* [Power BI Desktop でスライサーを使用する](desktop-slicers.md)
+* [Power BI Desktop でスライサーを使用する](visuals/desktop-slicers.md)
 

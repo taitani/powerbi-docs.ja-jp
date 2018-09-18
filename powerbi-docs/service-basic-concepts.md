@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d735ff366d422d03186c25a0b358e87d6790a260
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c7688134d7c006c38626f52df26fa5a87ac5c8d7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280618"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728159"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI サービスの基本的な概念
 
@@ -111,10 +111,10 @@ Power BI レポートは、1 ページまたは複数ページの視覚エフェ
 
 ### <a name="dig-deeper"></a>詳細情報
 * [Power BI サービスおよび Power BI Desktop のレポート](service-reports.md)
-* [Power BI モバイル アプリのレポート](mobile-reports-in-the-mobile-apps.md)
+* [Power BI モバイル アプリのレポート](consumer/mobile/mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>ダッシュボード
-"*ダッシュボード*" は、**Power BI サービス**を使って自分で作成する場合と、同僚が作成したものを **Power BI サービス**で共有してもらう場合があります。 これは 0 または 1 つ以上のタイルとウィジェットを含む単一のキャンバスです。 レポートまたは [Q&A](power-bi-q-and-a.md) からピン留めされた各タイルには、データセットのデータから作成され、ダッシュボードに固定された単一の[視覚エフェクト](power-bi-report-visualizations.md)が表示されます。 レポート ページ全体をダッシュボードに 1 つのタイルとしてピン留めすることもできます。 ダッシュボードにタイルを追加する方法は多数ありますが、多すぎるためこの概要トピックでは紹介できません。 詳しくは、「[Power BI のダッシュボードのタイル](service-dashboard-tiles.md)」をご覧ください。 
+"*ダッシュボード*" は、**Power BI サービス**を使って自分で作成する場合と、同僚が作成したものを **Power BI サービス**で共有してもらう場合があります。 これは 0 または 1 つ以上のタイルとウィジェットを含む単一のキャンバスです。 レポートまたは [Q&A](power-bi-q-and-a.md) からピン留めされた各タイルには、データセットのデータから作成され、ダッシュボードに固定された単一の[視覚エフェクト](visuals/power-bi-report-visualizations.md)が表示されます。 レポート ページ全体をダッシュボードに 1 つのタイルとしてピン留めすることもできます。 ダッシュボードにタイルを追加する方法は多数ありますが、多すぎるためこの概要トピックでは紹介できません。 詳しくは、「[Power BI のダッシュボードのタイル](service-dashboard-tiles.md)」をご覧ください。 
 
 なぜダッシュボードを作成しますか。  理由の一部は以下のとおりです。
 

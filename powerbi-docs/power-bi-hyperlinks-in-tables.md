@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
-ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
+ms.openlocfilehash: 80995f77a4e11c2773e9b03a224d42ac8d492228
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42799047"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727561"
 ---
 # <a name="hyperlinks-in-tables"></a>テーブル内のハイパーリンク
 このトピックでは、Power BI Desktop を使ってハイパーリンクを作成する方法を説明します。 作成した後は、Desktop または Power BI サービスを使って、レポートのテーブルとマトリックスにハイパーリンクを追加します。 
@@ -87,7 +87,7 @@ A: いいえ。 リンク アイコンを使用できます。 ハイパーリ�
 
 
 ## <a name="next-steps"></a>次の手順
-[Power BI レポートでの視覚化](power-bi-report-visualizations.md)
+[Power BI レポートでの視覚化](visuals/power-bi-report-visualizations.md)
 
 [Power BI - 基本的な概念](service-basic-concepts.md)
 

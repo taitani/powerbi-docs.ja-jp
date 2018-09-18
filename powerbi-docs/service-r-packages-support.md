@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2d8509c83ccce3d76926d926c64061ca78c100d
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: fc4d62134bccae1a1ac0fd10444dd47c84ecc945
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256172"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727032"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI サービスの R パッケージ
 Power BI サービスでビジュアルを作成するには、強力な [R プログラミング言語](https://www.r-project.org/)を使用できます。 多くの R パッケージが Power BI サービスでサポートされています (また、常にサポート対象は増えています) が、一部のパッケージはサポートされていません。
 
-次のセクションでは、Power BI でサポートされる R パッケージとサポートされない R パッケージをアルファベット順の一覧で示します。 Power BI の R の詳細については、[R ビジュアル](service-r-visuals.md)に関する記事を参照してください。
+次のセクションでは、Power BI でサポートされる R パッケージとサポートされない R パッケージをアルファベット順の一覧で示します。 Power BI の R の詳細については、[R ビジュアル](visuals/service-r-visuals.md)に関する記事を参照してください。
 
 ## <a name="request-support-for-a-new-r-package"></a>新しい R パッケージのサポートを要求する
 **Power BI サービス**のサポートされている R パッケージについては、後の「**サポートされるパッケージ**」をご覧ください。 リストにない R パッケージのサポートを要求する場合は、要求の電子メールを [Power BI の R フィードバック チーム](mailto:rinpbifb@microsoft.com)にお送りください。
@@ -940,7 +940,7 @@ R パッケージにはいくつかの要件と制限があります。
 ## <a name="next-steps"></a>次の手順
 Power BI での R の詳細については、次の記事を参照してください。
 
-* [Power BI サービスで R ビジュアルを作成する](service-r-visuals.md)
+* [Power BI サービスで R ビジュアルを作成する](visuals/service-r-visuals.md)
 * [R を使用した Power BI ビジュアルの作成](desktop-r-visuals.md)
 * [Power BI Desktop での R スクリプトの実行](desktop-r-scripts.md)
 * [クエリ エディターで R を使用する](desktop-r-in-query-editor.md)

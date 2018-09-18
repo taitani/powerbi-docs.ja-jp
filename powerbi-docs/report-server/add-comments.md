@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721963"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727975"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>レポート サーバーのレポートにコメントを追加する
 レポート サーバーの Web ポータル内で、Power BI レポートなどのレポートにコメントを追加することができます。 コメントはレポートと共に保存され、適切なアクセス許可を持つすべてのユーザーがレポートのコメントを表示できます。 詳細については、下記の「[アクセス許可](#permissions)」セクションを参照してください。
@@ -33,7 +33,7 @@ ms.locfileid: "34721963"
     このコメントは、以前のコメントと共に Web ポータルのウィンドウに表示されます。 Power BI モバイル アプリのレポートには表示されません。
    
    > [!TIP]
-   > ご存知でしたか。 [Power BI モバイル アプリで Power BI レポートにコメントを追加](../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)し、コメント付きのレポートを他のユーザーと共有できます。
+   > ご存知でしたか。 [Power BI モバイル アプリで Power BI レポートにコメントを追加](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)し、コメント付きのレポートを他のユーザーと共有できます。
    > 
    > 
 

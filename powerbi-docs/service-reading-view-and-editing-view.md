@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251669"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726756"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI サービスのレポートの読み取りビューと編集ビュー
 Power BI サービスには、レポートを表示および操作するためのモードとして、読み取りビューと編集ビューの 2 つがあります (Power BI Desktop にはありません)。 読み取りビューはすべてのユーザーが利用でき、特にデータの*コンシューマー*向けに設計されていますが、編集ビューはレポートの*作成者*と所有者のみが利用できます。
@@ -59,13 +59,13 @@ Power BI サービスには、レポートを表示および操作するため�
 | [レポート ページの複製](power-bi-report-copy-paste-page.md) | いいえ  | はい |
 | [レポート ページの削除](service-delete.md) | いいえ | はい |
 |**レポートの視覚エフェクトの操作**|
-| [レポートへの視覚エフェクトの追加](power-bi-report-add-visualizations-i.md) | いいえ  | はい |
+| [レポートへの視覚エフェクトの追加](visuals/power-bi-report-add-visualizations-i.md) | いいえ  | はい |
 | [レポートへのテキスト ボックスと図形の追加](power-bi-reports-add-text-and-shapes.md) | いいえ  | はい |
 | [レポートの書式設定ウィンドウの使用](service-the-report-editor-take-a-tour.md) | いいえ | はい |
 | [ビジュアル対話の設定](service-reports-visual-interactions.md) | いいえ  | はい |
 | [視覚エフェクトの作成に使用されたデータの表示](service-reports-show-data.md) | いいえ  | はい |
 | [ドリルダウンの構成](power-bi-visualization-drill-down.md) | いいえ  | はい |
-| [使用中の視覚エフェクトの変更](power-bi-report-change-visualization-type.md) | いいえ | はい|
+| [使用中の視覚エフェクトの変更](visuals/power-bi-report-change-visualization-type.md) | いいえ | はい|
 | [視覚エフェクト、テキスト ボックス、または図形の削除](service-delete.md)| いいえ | はい |
 
 

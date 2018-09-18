@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a6216169eb50ca535b73b07f5553c9b3d5e17470
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: efc806787f2a1d5cd110439c1c5505bb7e77e980
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240964"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727469"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Excel のデータを Power BI Q&A に適合させる方法
 データ モデルを作成する担当者、または Power BI とともに使用する Excel ブックを作成する担当者は、以下をお読みください。
@@ -27,7 +27,7 @@ Q&A は、テーブル、範囲、PowerPivot モデルを含むアップロー�
 ### <a name="how-qa-works-with-excel"></a>Excel での Q&A の動作方法
 Q&A には、データ間で機能する主要な自然言語認識機能のセットが組み込まれています。 Excel テーブル、列、および計算フィールド名のコンテキスト依存キーワード検索機能を備えています。 また、フィルター、並べ替え、集計、グループ、およびデータの表示方法についての組み込み知識を備えています。 
 
-たとえば、「Sales」(売上) という名前の Excel テーブルに、「Product」(製品)、「Month」 (月)、「Units Sold」(販売単位)、「Gross Sales」 (総売り上げ)、および「Profit」(利益) という列があるとします。これらのエンティティについて尋ねる質問を入力します。  売上、月別利益合計、販売単位を基準とした製品の並べ替えなど、さまざまな質問を入力できます。 詳しくは、[たずねる質問の種類](power-bi-q-and-a.md)および [Q&A で指定できる視覚エフェクトの種類](power-bi-visualization-types-for-reports-and-q-and-a.md)に関する情報をご覧ください。
+たとえば、「Sales」(売上) という名前の Excel テーブルに、「Product」(製品)、「Month」 (月)、「Units Sold」(販売単位)、「Gross Sales」 (総売り上げ)、および「Profit」(利益) という列があるとします。これらのエンティティについて尋ねる質問を入力します。  売上、月別利益合計、販売単位を基準とした製品の並べ替えなど、さまざまな質問を入力できます。 詳しくは、[たずねる質問の種類](power-bi-q-and-a.md)および [Q&A で指定できる視覚エフェクトの種類](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)に関する情報をご覧ください。
 
 ### <a name="prepare-an-excel-dataset-for-qa"></a>Q&A のための Excel データセットの準備
 Q&A はテーブル、列、および計算フィールドの名前に依存して、データに固有の質問の回答を導き出します。つまり、ブック内のエンティティと呼ばれる要素が重要なのです。

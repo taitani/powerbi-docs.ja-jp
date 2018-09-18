@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d6ab9619fd1419f94994b65fffef7ddcbfff3f3d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445120"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727193"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
@@ -31,7 +31,7 @@ ms.locfileid: "34445120"
 | [Power BI と GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Power BI は、GDPR への準拠を実現するための重要な部分になることができます。 このドキュメントの目的は、GDPR の基礎知識を提供し、その知識を Power BI と関連付けることです。 GDPR への準拠はこのドキュメントに記載されている特定の状況では必須ですが、それは "チェック ボックス" 形式の演習ではありません。 それは、総合的なデータ保護とプライバシーの機能を強化する方法でもあります。|
 | [Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](https://aka.ms/powerbi-b2b-whitepaper)|この資料では、Azure Active Directory Business-to-business (AAD B2B) の統合を使用して組織外のユーザーにコンテンツを配布する方法について説明します。|
 | [Power BI を使用した高度な分析](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |予測分析、カスタム視覚化、R の統合、データ分析式などの、Power BI の高度な分析機能について説明します。 |
-| [レポートとビジュアルのデザインに関するベスト プラクティス](power-bi-visualization-best-practices.md) |Power BI でレポートをデザインするためのベスト プラクティスを示します。 |
+| [レポートとビジュアルのデザインに関するベスト プラクティス](visuals/power-bi-visualization-best-practices.md) |Power BI でレポートをデザインするためのベスト プラクティスを示します。 |
 | [双方向フィルタリング](desktop-bidirectional-filtering.md) |Power BI Desktop での双方向のクロス フィルタリングについて説明します (同じ動作の SQL Server Analysis Services 2016 についても説明されています)。 |
 | [SQL Server 2016 Analysis Services の DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |SQL Server 2016 では、DirectQuery の設計が変更され、速度とパフォーマンスが大幅に向上しましたが、理解することと実装方法もより複雑になりました。 |
 | [Power BI と SAP BW](https://aka.ms/powerbiandsapbw)| このドキュメントでは、SAP のお客様が既存の SAP Business Warehouse (BW) システムに Power BI を接続することで得られる利点について説明します。|
