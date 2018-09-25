@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598980"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546098"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>ダッシュボードのタイルを編集または削除する
 
@@ -36,7 +36,7 @@ ms.locfileid: "37598980"
 * [タイルの削除](#delete)
   
   > [!TIP]
-  > タイル自体に表示される視覚エフェクトを変更するには、タイルを削除し、新しい[ダッシュボード タイル](service-dashboard-tiles.md)を追加します。
+  > タイル自体に表示される視覚エフェクトを変更するには、タイルを削除し、新しい[ダッシュボード タイル](consumer/end-user-tiles.md)を追加します。
 
   
 ## <a name="prerequisites"></a>前提条件
@@ -142,11 +142,11 @@ ms.locfileid: "37598980"
 
 - - -
 ## <a name="next-steps"></a>次の手順
-[Power BI のダッシュボードのタイル](service-dashboard-tiles.md)
+[Power BI のダッシュボードのタイル](consumer/end-user-tiles.md)
 
-[Power BI のダッシュボード](service-dashboards.md)
+[Power BI のダッシュボード](consumer/end-user-dashboards.md)
 
-[Power BI - 基本的な概念](service-basic-concepts.md)
+[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

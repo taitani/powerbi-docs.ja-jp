@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5fe4212be55a42a6892a94e2a07da8af5c035b6d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742957"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547248"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -82,7 +82,7 @@ Power BI Desktop または Power BI サービスでレポートをデザイン�
 * 並べ替え順序を逆にするには、省略記号 (**...**) をもう一度タップし、同じフィールド名をタップします。
 
 ## <a name="drill-down-and-up-in-a-visual"></a>ビジュアルのドリルダウンとドリルアップ
-レポート作成者がドリルダウン機能をビジュアルに追加した場合、ビジュアルをドリルダウンして、含まれる値を表示することができます。 [ビジュアルへのドリルダウンの追加](../../power-bi-visualization-drill-down.md)は、Power BI Desktop または Power BI サービスで行います。 
+レポート作成者がドリルダウン機能をビジュアルに追加した場合、ビジュアルをドリルダウンして、含まれる値を表示することができます。 [ビジュアルへのドリルダウンの追加](../end-user-drill.md)は、Power BI Desktop または Power BI サービスで行います。 
 
 * ビジュアルで特定のバーまたはポイントを長押しして、そのツールヒントを表示します。 ドリルダウンできる場合は、ツールヒントの下にタップできる矢印があります。 
   

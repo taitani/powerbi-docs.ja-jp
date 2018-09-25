@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: e60cc5341bba50d9fac82f032656f449cadaa255
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558472"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546554"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium および Power BI Embedded の容量を管理する
 Power BI Premium および Power BI Embedded の容量を管理する方法について説明します。これにより、コンテンツ用の専用リソースが提供されます。
@@ -183,6 +183,6 @@ Power BI 管理者ポータルの **[容量の設定]** タブでは、Power BI 
 詳細については、「[Power BI Report Server のインストール](report-server/install-report-server.md)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
-発行されたアプリを、ユーザーと共有します。 詳細については、「[Power BI でのアプリの作成および配布](service-create-distribute-apps.md)」を参照してください。
+発行されたアプリを、ユーザーと共有します。 詳細については、「[Power BI でのアプリの作成および配布](consumer/end-user-create-apps.md)」を参照してください。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

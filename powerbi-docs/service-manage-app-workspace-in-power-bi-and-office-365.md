@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624346"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547570"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI と Office 365 でアプリ ワークスペースを管理する
-Office 365 または [Power BI でのアプリ ワークスペース](service-install-use-apps.md)の作成者または管理者として、Power BI でワークスペースの一部の側面を管理します。 その他の側面は、Office 365 で管理します。 
+Office 365 または [Power BI でのアプリ ワークスペース](consumer/end-user-apps.md)の作成者または管理者として、Power BI でワークスペースの一部の側面を管理します。 その他の側面は、Office 365 で管理します。 
 
 > [!NOTE]
 > 新しいワークスペース エクスペリエンス プレビューでは、Power BI ワークスペースと Office 365 グループ間の関係が変わります。 新しいワークスペースのいずれかを作成するたびに、Office 365 グループが自動的に作成されることはありません。 新しいワークスペース (プレビュー) の作成については、[こちら](service-create-the-new-workspaces.md)を参照してください。
@@ -76,7 +76,7 @@ Office 365 または [Power BI でのアプリ ワークスペース](service-in
 3. **[保存]** または **[破棄]** を選択します。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI のアプリについて](service-install-use-apps.md)
-* [Power BI でダッシュボードとレポートを含むアプリを発行する](service-create-distribute-apps.md)
+* [Power BI のアプリについて](consumer/end-user-apps.md)
+* [Power BI でダッシュボードとレポートを含むアプリを発行する](consumer/end-user-create-apps.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8095db86b8954b3f91a83f2e83c0108d1676cf76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744336"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545270"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>パート I、Power BI レポートへの視覚化の追加
 この記事では、Power BI サービスまたは Power BI Desktop を使用してレポートで視覚化を作成する方法を簡単に説明します。  より高度な内容を調べるには、「[パート II](power-bi-report-add-visualizations-ii.md)」をご覧ください。 Amanda がレポート キャンバスでのビジュアルの作成、編集、書式設定についてさまざまな方法を示します。 このデモの後に、[売上およびマーケティングのサンプル](../sample-datasets.md)を使用して、レポートを作成してみてください。
@@ -25,7 +25,7 @@ ms.locfileid: "44744336"
 
 
 ## <a name="open-a-report-and-add-a-new-page"></a>レポートを開き、新しいページを追加します。
-1. [レポートを編集表示で](../service-reading-view-and-editing-view.md)開きます。 このチュートリアルでは、[売上およびマーケティングのサンプル](../sample-datasets.md)を使います。
+1. [レポートを編集表示で](../consumer/end-user-reading-view.md)開きます。 このチュートリアルでは、[売上およびマーケティングのサンプル](../sample-datasets.md)を使います。
 2. フィールド ウィンドウが表示されない場合は、矢印アイコンを選んで開きます。 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
@@ -59,7 +59,7 @@ ms.locfileid: "44744336"
 ## <a name="next-steps"></a>次の手順
  [パート 2: Power BI レポートへの視覚化の追加](power-bi-report-add-visualizations-ii.md)に進む
    
-   レポート内の[視覚化を操作する](../service-reading-view-and-editing-view.md)
+   レポート内の[視覚化を操作する](../consumer/end-user-reading-view.md)
    
    [視覚化に対しその他の操作を実行する](power-bi-report-visualizations.md)
    

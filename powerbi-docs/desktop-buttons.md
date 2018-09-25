@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330491"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546749"
 ---
 # <a name="using-buttons-in-power-bi"></a>Power BI でボタンの使用
 Power BI で**ボタン**を使用すると、アプリと同様に動作するレポートとダッシュボードを作成できるため、興味をそそる環境を作成できます。これにより、ユーザーは Power BI コンテンツに対するマウスのポイント、クリック、および対話操作を行うことができます。 **Power BI Desktop** のレポートにボタンを追加して、Power BI サービスにレポートを共有および発行し、ユーザーのためにアプリのように動作するダッシュボードを作成できます。
@@ -75,6 +75,6 @@ Power BI のボタンには 3 つの状態があります: 既定 (マウスで�
 ボタンと似た機能またはボタンと相互作用する機能の詳細については、次の記事をご覧ください。
 
 * [Power BI Desktop でドリルスルーを使用する](desktop-drillthrough.md)
-* [フォーカス モードでダッシュボード タイルまたはレポート ビジュアルを表示する](service-focus-mode.md)
+* [フォーカス モードでダッシュボード タイルまたはレポート ビジュアルを表示する](consumer/end-user-focus.md)
 * [Power BI でブックマークを使用して詳細情報を共有し、ストーリーを作成する](desktop-bookmarks.md)
 

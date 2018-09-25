@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f0337b26989b3d42e86339c4afc087579c2c3529
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725629"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548789"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>既存のレポートから新しいレポートを作成する (レポートのコピー)
 既にデータセットに接続し、再利用または変更したいビジュアルを使ったレポートがあるとします。  そのような場合は、そのレポートをコピーし、新しいレポートの基礎として使用できます。  その方法は次のとおりです。
 
-1. [レポートを開く](service-report-open.md)。
+1. [レポートを開く](consumer/end-user-report-open.md)。
 2. **[ファイル]** メニューの **[名前を付けて保存]** を選択します。
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)
@@ -39,6 +39,6 @@ ms.locfileid: "44725629"
 ## <a name="next-steps"></a>次の手順:
 [視覚化の新規作成](visuals/power-bi-report-add-visualizations-ii.md)
 
-不要な[視覚化の削除](service-delete.md)
+不要な[視覚化の削除](consumer/end-user-delete.md)
 
 [Power BI Desktop を使用してレポートを作成する](desktop-report-view.md)

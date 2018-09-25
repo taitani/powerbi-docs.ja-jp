@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bb1ebf08c7ffb7a18cc0dd273c767c082f89f1aa
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d3afa24c68db5ffcaec1dddae09b0b9719bf2bb5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736911"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543545"
 ---
 # <a name="kpi-visuals"></a>KPI ビジュアル
 主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 KPI の詳細については、[Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050) を参照してください。
@@ -42,7 +42,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. [編集ビュー](../service-reading-view-and-editing-view.md)でレポートを開き、[新しいページを追加](../power-bi-report-add-page.md)します。    
+1. [編集ビュー](../consumer/end-user-reading-view.md)でレポートを開き、[新しいページを追加](../power-bi-report-add-page.md)します。    
 2. **\[Sales] \(売上) > \[Total Units This Year] \(この年の合計単位)** を選択します。  これがインジケーターになります。
 3. **\[Time] \(時間) > \[Month] \(月)** を追加します。  これはトレンドを表します。
 4. 重要: **月**単位でグラフを並べ替えます。 ビジュアルを KPI に変換すると、並べ替えオプションはなくなります。

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744030"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548076"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI のツリーマップ
 ツリーマップでは、入れ子になった一連の四角形で階層データが表示されます。  階層の各レベルは、色付きの四角形 (「ブランチ (枝)」) で表され、ブランチには他の四角形 (「リーフ (葉)」) が含まれます。  各四角形内の面積は、測定される量的な値に基づいて割り当てられ、各四角形は大きさの順に左上 (最大) から右下 (最小) に向かって配置されます。
@@ -62,7 +62,7 @@ ms.locfileid: "44744030"
    > 
 5. **[Chain]** (チェーン) エリアにポインターを合わせると、 **[カテゴリ]** のその部分のヒントが表示されます。  たとえば、 **[040 Juniors** ] の四角形内の **[Lindseys]** にポインターを合わせると、Juniors カテゴリの Lindsey の部分のツールヒントが表示されます。  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [ツリーマップをダッシュボード タイルとして追加 (ビジュアルをピン留め)](../service-dashboard-tiles.md) します。 
+6. [ツリーマップをダッシュボード タイルとして追加 (ビジュアルをピン留め)](../consumer/end-user-tiles.md) します。 
 7. [レポートを保存](../service-report-save.md)します。
 
 ## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
@@ -76,11 +76,11 @@ ms.locfileid: "44744030"
 2. **[Last Year Sales by Chain]\(チェーン別の前年売上高\)** 円グラフで、**[Fashions Direct]** スライスを選択し、ツリーマップをクロス フィルター処理します。  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. グラフ相互間のクロスフィルター処理とクロス強調表示を管理するには、「[Power BI レポートでの視覚エフェクトの相互作用](../service-reports-visual-interactions.md)」を参照してください。
+3. グラフ相互間のクロスフィルター処理とクロス強調表示を管理するには、「[Power BI レポートでの視覚エフェクトの相互作用](../consumer/end-user-interactions.md)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 [視覚化をダッシュボードにピン留めする](../service-dashboard-pin-tile-from-report.md)  
-[Power BI - 基本的な概念](../service-basic-concepts.md)  
+[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。  
 

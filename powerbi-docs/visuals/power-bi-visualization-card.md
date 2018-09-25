@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8532fff7bc522a0ad0e59bd17580549bd9e68a23
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737019"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548329"
 ---
 # <a name="card-visualizations"></a>カード視覚エフェクト
 Power BI のダッシュボードまたはレポートで追跡すべき最重要の項目が 1 つの数値だけという場合もあります。たとえば、総売上高、対前年比の市場シェア、営業案件の総数などがこれに該当します。 この種の視覚エフェクトは、"*カード*" と呼ばれます。 他のほとんどのネイティブな Power BI 視覚エフェクトと同様に、カードもレポート エディターまたは Q&A を使って作成できます。
@@ -51,13 +51,13 @@ Power BI のダッシュボードまたはレポートで追跡すべき最重�
 ## <a name="create-a-card-from-the-qa-question-box"></a>Q&A 質問ボックスからカードを作成する
 Q&A の質問ボックスは、カードを作成する最も簡単な方法です。 Q&A 質問ボックスは、Power BI サービス (app.powerbi.com) のダッシュボードまたはレポートから利用できます。 以下の手順では、Power BI サービスのダッシュボードからカードを作成する方法について説明します。 Power BI Desktop で Q&A を使ってカードを作成したい場合は、Desktop レポートの Q&A プレビューに関する[こちらの手順に従って](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA)ください。
 
-1. [ダッシュボード](../service-dashboards.md)を作成して、[データを取得](../service-get-data.md)します。 この例では、[営業案件の分析のサンプル](../sample-opportunity-analysis.md)を使います。
+1. [ダッシュボード](../consumer/end-user-dashboards.md)を作成して、[データを取得](../service-get-data.md)します。 この例では、[営業案件の分析のサンプル](../sample-opportunity-analysis.md)を使います。
 
 1. ダッシュボードの上部にある質問ボックスに、データに関する質問を入力します。 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**ヒント**: Power BI サービスのレポートの場合は、[編集ビュー](../service-reading-view-and-editing-view.md)の上部メニュー バーから **[質問する]** を選びます。 Power BI Desktop のレポートの場合は、レポートの空いている領域をダブルクリックして質問ボックスを開きます。
+>**ヒント**: Power BI サービスのレポートの場合は、[編集ビュー](../consumer/end-user-reading-view.md)の上部メニュー バーから **[質問する]** を選びます。 Power BI Desktop のレポートの場合は、レポートの空いている領域をダブルクリックして質問ボックスを開きます。
 
 3. たとえば、質問ボックスに「number of opportunities」(営業案件の数) と入力します。
 
@@ -105,10 +105,10 @@ Q&A の質問ボックスは、カードを作成する最も簡単な方法で�
     ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のダッシュボードのタイル](../service-dashboard-tiles.md)
+[Power BI のダッシュボードのタイル](../consumer/end-user-tiles.md)
 
-[Power BI のダッシュボード](../service-dashboards.md)
+[Power BI のダッシュボード](../consumer/end-user-dashboards.md)
 
-[Power BI - 基本的な概念](../service-basic-concepts.md)
+[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

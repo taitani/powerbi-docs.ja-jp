@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744462"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549847"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI の塗り分け地図 (コロプレス)
 塗り分け地図では、網掛け、着色またはパターンを使用して、値の違いを割合に応じて、地理的または地域的に表示します。  こうした相対的な違いは、薄い色の網掛け (頻度が低い/量が少ない) から、濃い色の網掛け (頻度が高い/量が多い) を使用して、すぐにわかるように表示されます。    
@@ -109,7 +109,7 @@ Power BI Desktop でデータセットを編集するアクセス許可がある
 マップの視覚エフェクトについて詳しくは、「[マップの視覚エフェクトに関するヒントとテクニック](power-bi-map-tips-and-tricks.md)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
-[塗り分け地図をダッシュボード タイルとして追加 (このグラフのビジュアルをピン留め)](../service-dashboard-tiles.md)    
+[塗り分け地図をダッシュボード タイルとして追加 (このグラフのビジュアルをピン留め)](../consumer/end-user-tiles.md)    
  [視覚化をレポートに追加する](power-bi-report-add-visualizations-i.md)  
  [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [使用中の視覚化のタイプを変更する](power-bi-report-change-visualization-type.md)      

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 064de8e84edd50f3216c814ddd235452d573d0a0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 68195883f2aad0f3131ec14c508334ac41cd918b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247713"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545868"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>画像、テキスト、ビデオ、その他をダッシュボードに追加する
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -149,7 +149,7 @@ HTML コンテンツを貼り付けるか、入力します。  Power BI によ�
 * Web サイトからコンテンツを埋め込みたいが、コピーして貼り付けるための埋め込みコードを Web サイトが提供していない場合は、埋め込みコードの生成について embed.ly で確認してください。
 
 ## <a name="next-steps"></a>次の手順
-[ダッシュボードのタイル](service-dashboard-tiles.md)
+[ダッシュボードのタイル](consumer/end-user-tiles.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157572"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545924"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI でテンプレート コンテンツ パックを作成する
 Power BI Desktop と PowerBI.com を使用するテンプレート コンテンツ パックをオーサリングします。 コンテンツ パックには 4 つのコンポーネントがあります。
@@ -22,7 +22,7 @@ Power BI Desktop と PowerBI.com を使用するテンプレート コンテン�
 * クエリによって、データへの[接続](desktop-connect-to-data.md)と[変換](desktop-query-overview.md)ができるだけでなく、[パラメーター](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)も定義することができます  
 * [リレーションシップ](desktop-create-and-manage-relationships.md)、[メジャー](desktop-measures.md)、および Q&A の機能強化を作成するためのデータ モデル  
 * レポート [ページ](desktop-report-view.md)には、データに対する洞察を提供するためのビジュアルとフィルターが含まれます  
-* [ダッシュボード](service-dashboards.md)と[タイル](service-dashboard-create.md)は、含まれている洞察の概要を提供します  
+* [ダッシュボード](consumer/end-user-dashboards.md)と[タイル](service-dashboard-create.md)は、含まれている洞察の概要を提供します  
 
 既存の Power BI 機能など、各部分について精通しているかもしれません。 コンテンツ パックを構築する場合に、各側面について考慮すべき追加事項があるなら、詳細については以下の各セクションを参照してください。
 
@@ -46,7 +46,7 @@ Power BI Desktop の難しい設定のいらないデータ コネクタを利�
 ### <a name="consider-the-source"></a>ソースを検討する
 クエリは、データ モデルに含まれるデータを定義します。 システムのサイズに応じて、顧客がビジネス シナリオに合った管理可能なサイズを扱っていることを確認するために、これらのクエリにフィルターを含める必要があります。
 
-Power BI コンテンツ パックは、同時に複数のユーザーに対して複数のクエリを実行できます。  先にスロットリングと同時実行ストラテジーを計画し、コンテンツ パック フォールト トレランスを行う方法を尋ねます。
+Power BI コンテンツ パックは、同時に複数のユーザーに対して複数のクエリを実行できます。  先にスロットリングとコンカレンシー ストラテジーを計画し、コンテンツ パック フォールト トレランスを行う方法を尋ねます。
 
 ### <a name="schema-enforcement"></a>スキーマの施行
 クエリがシステム内の変更や、モデルを分割できる更新時のスキーマでの変更に対して弾力があることを確認します。 ソースがいくつかのクエリに対して Null または欠落したスキーマの結果を返すことができる場合、空の表を返すことを考慮するか、ユーザーにとって意味のあるカスタム エラー メッセージをスローします。

@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 08/16/2018
-ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 6960945d878269344e8993577a8eac239d8ca4a4
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256885"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549893"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
@@ -85,7 +85,7 @@ SharePoint Online にレポートを埋め込んだだけで、レポートを�
 > [!IMPORTANT]
 > Power BI サービスでレポートを表示できるユーザーを確認し、一覧に含まれないユーザーにアクセスを許可します。
 
-Power BI サービスでレポートへのアクセスを許可するには 2 つの方法があります。 Office 365 グループを使用して SharePoint Online のチーム サイトを構築している場合は、**Power BI サービス内のアプリ ワークスペース**および **SharePoint ページ**のメンバーとしてユーザーをリストします。 このようにすると、ユーザーはそのグループのコンテンツを表示できるようになります。 詳細については、「[Power BI でのアプリの作成および配布](service-create-distribute-apps.md)」を参照してください。
+Power BI サービスでレポートへのアクセスを許可するには 2 つの方法があります。 Office 365 グループを使用して SharePoint Online のチーム サイトを構築している場合は、**Power BI サービス内のアプリ ワークスペース**および **SharePoint ページ**のメンバーとしてユーザーをリストします。 このようにすると、ユーザーはそのグループのコンテンツを表示できるようになります。 詳細については、「[Power BI でのアプリの作成および配布](consumer/end-user-create-apps.md)」を参照してください。
 
 または、次のようにしてレポートへのアクセスをユーザーに許可することもできます。
 
@@ -142,7 +142,7 @@ Power BI 環境で多要素認証を使ったサインインが必要な場合�
 
 * Power BI は、SharePoint Online と同じローカライズされた言語をサポートしていません。 そのため、埋め込みのレポートが適切にローカライズされていない可能性があります。
 
-* この問題は Internet Explorer 10 を使用する場合に発生する可能性があります。 [Power BI](service-browser-support.md) および [Office 365](https://products.office.com/office-system-requirements#Browsers-section) でサポートされているブラウザーをご確認ください。
+* この問題は Internet Explorer 10 を使用する場合に発生する可能性があります。 [Power BI](consumer/end-user-browsers.md) および [Office 365](https://products.office.com/office-system-requirements#Browsers-section) でサポートされているブラウザーをご確認ください。
 
 * Power BI Web パーツは、[ソブリン クラウド](https://powerbi.microsoft.com/en-us/clouds/)では利用できません。
 
@@ -151,7 +151,7 @@ Power BI 環境で多要素認証を使ったサインインが必要な場合�
 ## <a name="next-steps"></a>次の手順
 
 [エンドユーザーによる最新式のサイト ページの作成を許可または禁止する](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Power BI でのアプリの作成および配布](service-create-distribute-apps.md)  
+[Power BI でのアプリの作成および配布](consumer/end-user-create-apps.md)  
 [同僚や他のユーザーとダッシュボードやレポートを共有する](service-share-dashboards.md)  
 [Power BI Premium とは](service-premium.md)  
 

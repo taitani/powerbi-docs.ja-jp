@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728251"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548030"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Esri が提供する Power BI サービスおよび Power BI Desktop の ArcGIS マップ
 このチュートリアルは、ArcGIS マップを作成するユーザーの観点から書かれています。 作成者が同僚と ArcGIS マップを共有すると、その同僚はマップを表示および操作できますが、変更を保存することはできません。 ArcGIS マップの表示方法について詳しくは、「[Power BI での ArcGIS マップとの対話](visuals/power-bi-visualizations-arcgis.md)」をご覧ください。
@@ -61,7 +61,7 @@ Power BI の ArcGIS マップは Esri (www.esri.com) によって提供されま
 2. **[Power BI の ArcGIS マップ]** チェック ボックスをオンにします。 選択を行った後、Power BI を再起動する必要があります。
    
     ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. [編集ビュー](service-reading-view-and-editing-view.md)でレポートを開き、視覚エフェクト ウィンドウで Power BI の ArcGIS マップ アイコンを選択します。
+3. [編集ビュー](consumer/end-user-reading-view.md)でレポートを開き、視覚エフェクト ウィンドウで Power BI の ArcGIS マップ アイコンを選択します。
    
     ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
 4. Power BI は空の ArcGIS マップ テンプレートをレポート キャンバスに追加します。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623932"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543951"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI アプリ ワークスペースでの共同作業
 Power BI アプリ ワークスペースは、同僚とダッシュ ボード、レポート、およびデータセットで共同作業して*アプリ*を作成するのに最適な場所です。 コラボレーションは Power BI のワークスペースだけで終わるわけではありません。 Office 365 では、OneDrive for Business の共有ファイル、Exchange での会話、共有の予定表、タスクなど、その他のグループ サービスも提供されています。 詳細については、[Office 365 のグループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)を参照してください。
@@ -38,7 +38,7 @@ Power BI Desktop ファイルを作成した後で、そのファイルを Power
    
     ![[レポート] タブ](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    ここからは、Power BI の他のレポートと同様の操作となります。 アプリ ワークスペース内のユーザーはいずれも、[レポートを変更](service-reports.md)したり、目的のダッシュボードにタイルを保存したりできます。
+    ここからは、Power BI の他のレポートと同様の操作となります。 アプリ ワークスペース内のユーザーはいずれも、[レポートを変更](consumer/end-user-reports.md)したり、目的のダッシュボードにタイルを保存したりできます。
 
 ## <a name="collaborate-in-office-365"></a>Office 365 で共同作業する
 Office 365 で共同作業するには、まず Power BI のアプリ ワークスペースから作業を開始します。
@@ -77,7 +77,7 @@ Office 365 で共同作業するには、まず Power BI のアプリ ワーク�
 アプリ ワークスペースの所有者または管理者は、ワークスペース メンバーを追加または削除できます。 詳細については、「[Power BI および Office 365 でのグループ管理](service-manage-app-workspace-in-power-bi-and-office-365.md)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI でアプリとアプリ ワークスペースを作成する](service-create-distribute-apps.md)
+* [Power BI でアプリとアプリ ワークスペースを作成する](consumer/end-user-create-apps.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 * フィードバックがある場合は、 「[Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)」 (Power BI に関するヒント) を参照してください。
 

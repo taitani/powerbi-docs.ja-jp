@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b1699d32bf96efa6a40baaac202b5f9db9ee3f8b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2b1e5c28bd705e064dc4e0e3283eb3941452647b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736934"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547030"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Power BI レポートでの視覚化の種類の変更
 Power BI サービスおよび Power BI Desktop では、さまざまな種類の視覚化を試して、データの最適な表示方法を探すことができます。 
@@ -32,7 +32,7 @@ Power BI サービスおよび Power BI Desktop では、さまざまな種類�
 ### <a name="next-steps"></a>次の手順
 [Power BI レポートでの視覚化](power-bi-report-visualizations.md)についての詳細を参照する
 
-[Power BI - 基本的な概念](../service-basic-concepts.md)
+[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

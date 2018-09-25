@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 507cc25d324f47f00434430461d78013baa7210f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475731"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546938"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>自然言語クエリに Power BI Desktop で Q&A を使用する
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 データが回答になる場合にはさらに効果的です。**Power BI Desktop** の Q&A ではこれが可能です。
@@ -198,5 +198,5 @@ Power BI は、既定で積極的に数値列を集計するため、"年ごと�
 Power BI Desktop の機能に関する詳細については、次の記事を参照してください。
 
 * [Power BI Desktop でドリルスルーを使用する](desktop-drillthrough.md)
-* [フォーカス モードでダッシュボード タイルまたはレポート ビジュアルを表示する](service-focus-mode.md)
+* [フォーカス モードでダッシュボード タイルまたはレポート ビジュアルを表示する](consumer/end-user-focus.md)
 

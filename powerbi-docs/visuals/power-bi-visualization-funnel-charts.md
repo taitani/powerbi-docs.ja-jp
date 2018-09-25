@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f070b6649d8d120a889961fffd6b9b923422293e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744415"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548467"
 ---
 # <a name="funnel-charts"></a>じょうごグラフ
 じょうごグラフは、順番につながっている各段階がある線形プロセスを視覚化するために役立ちます。 たとえば、「潜在顧客」 \> 「見込みのある潜在顧客」 \> 「見込顧客」 \> 「契約」 \> 「契約の締結」という段階にわたって顧客を追跡する販売のじょうごグラフがあります。  じょうごの形状は、追跡しているプロセスの正常性がひとめでわかります。
@@ -70,7 +70,7 @@ ms.locfileid: "44744415"
    * ある段階から次の段階 (ドロップ率とも呼ばれる): これは、前の段階の件数に占める次の段階の件数の % です (この例の場合、Solution Stage ÷ Proposal Stage になります)
      
      ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [このじょうごグラフをダッシュボード タイルとして追加](../service-dashboard-tiles.md)します。 
+5. [このじょうごグラフをダッシュボード タイルとして追加](../consumer/end-user-tiles.md)します。 
 6. [レポートを保存](../service-report-save.md)します。
 
 ## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
@@ -81,10 +81,10 @@ ms.locfileid: "44744415"
 1. じょうごグラフ上で、横棒の **[Proposal]** を選択します。 これにより、ページ上の他の視覚化がクロス強調表示されます。 複数選択を行うには、Ctrl キーを使用してください。
    
    ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. ビジュアル相互間のクロスフィルター処理とクロス強調表示を設定するには、「[Power BI における視覚エフェクト](../service-reports-visual-interactions.md)」を参照してください。
+2. ビジュアル相互間のクロスフィルター処理とクロス強調表示を設定するには、「[Power BI における視覚エフェクト](../consumer/end-user-interactions.md)」を参照してください。
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Q&A でのじょうごグラフを作成する
-営業案件分析サンプルのダッシュボード、または営業案件分析サンプルのデータセットからピン留めされた視覚エフェクトを少なくとも 1 つ含む他のダッシュボードを開きます。  Q&A に質問を入力すると、選択したダッシュボードに関連付けられている (タイルがピン留めされている) すべてのデータセット内で回答が検索されます。 詳しくは、「[Power BI - 基本的な概念](../service-basic-concepts.md)」を参照してください。
+営業案件分析サンプルのダッシュボード、または営業案件分析サンプルのデータセットからピン留めされた視覚エフェクトを少なくとも 1 つ含む他のダッシュボードを開きます。  Q&A に質問を入力すると、選択したダッシュボードに関連付けられている (タイルがピン留めされている) すべてのデータセット内で回答が検索されます。 詳しくは、「[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)」を参照してください。
 
 1. 営業案件分析サンプルのダッシュボードで、Q&A の質問ボックスに質問の入力を開始します。
    
@@ -97,7 +97,7 @@ ms.locfileid: "44744415"
 
 [視覚化をダッシュボードにピン留めする](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI - 基本的な概念](../service-basic-concepts.md)
+[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

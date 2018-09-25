@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6ae44bb641768ec6518814a0d8699dc41d260e90
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b40933e085cf81528a28e9eedb4260351f657323
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624748"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548398"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Power BI で同僚と一緒にワークスペースを作成する
 
@@ -77,7 +77,7 @@ Power BI でサポートされるすべてのサード パーティ サービス
 
 ## <a name="distribute-an-app"></a>アプリを配布する
 
-コンテンツが用意できたら、公開するダッシュボードやレポートを選択し、それを*アプリ* として公開します。 同僚はいくつかの異なる方法でアプリを取得することができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 また、同僚はアプリを Microsoft AppSource で検索してインストールすることも、送信された直接リンクを使用することもできます。 更新プログラムは自動的に取得されます。データの更新頻度は制御することができます。 詳細については、「[Power BI でダッシュボードとレポートを含むアプリを発行する](service-create-distribute-apps.md)」を参照してください。
+コンテンツが用意できたら、公開するダッシュボードやレポートを選択し、それを*アプリ* として公開します。 同僚はいくつかの異なる方法でアプリを取得することができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 また、同僚はアプリを Microsoft AppSource で検索してインストールすることも、送信された直接リンクを使用することもできます。 更新プログラムは自動的に取得されます。データの更新頻度は制御することができます。 詳細については、「[Power BI でダッシュボードとレポートを含むアプリを発行する](consumer/end-user-create-apps.md)」を参照してください。
 
 ## <a name="power-bi-apps-faq"></a>Power BI アプリに関する FAQ
 
@@ -92,7 +92,7 @@ Power BI でサポートされるすべてのサード パーティ サービス
 「[How are the new app workspaces different from existing app workspaces?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces)」(新しいアプリ ワークスペースと現在のアプリ ワークスペースの違いは何ですか?) を参照して、現在のアプリ ワークスペースと新しいアプリ ワークスペースを比較してください。 
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI にアプリをインストールし、使用する](service-install-use-apps.md)
-* [外部サービス用の Power BI アプリ](service-connect-to-services.md)
+* [Power BI にアプリをインストールし、使用する](consumer/end-user-apps.md)
+* [外部サービス用の Power BI アプリ](consumer/end-user-connect-to-services.md)
 - [新しいワークスペース (プレビュー) を作成する](service-create-the-new-workspaces.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

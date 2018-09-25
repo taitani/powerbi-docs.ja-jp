@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736785"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543315"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>iPhone で Power BI モバイル アプリからバーコードをスキャンする
 現実世界でバーコードをスキャンし、Power BI モバイル アプリでフィルターされた BI 情報に直接アクセスできます。
@@ -67,6 +67,6 @@ iPhone の Power BI アプリのスキャナーで製品バーコードをスキ
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI Desktop のバーコード フィールドにタグを付ける](../../desktop-mobile-barcodes.md)
-* [Power BI のダッシュボードのタイル](../../service-dashboard-tiles.md)
-* [Power BI のダッシュボード](../../service-dashboards.md)
+* [Power BI のダッシュボードのタイル](../end-user-tiles.md)
+* [Power BI のダッシュボード](../end-user-dashboards.md)
 

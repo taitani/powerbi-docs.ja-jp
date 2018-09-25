@@ -2,7 +2,7 @@
 title: Power BI での視覚化の種類
 description: Power BI での視覚化の種類
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 40106a9f219487a1fb52f353f3609f8f1d98bf4b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737150"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566052"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
@@ -176,9 +176,9 @@ Power BI Q&A で自然言語クエリを入力するときに、クエリ内で�
 [Power BI レポートでの視覚化](power-bi-report-visualizations.md)    
 [sqlbi.com の正しい視覚エフェクト参照](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
 
-[Power BI のレポート](../service-reports.md)
+[Power BI のレポート](../consumer/end-user-reports.md)
 
-[Power BI - 基本的な概念](../service-basic-concepts.md)
+[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

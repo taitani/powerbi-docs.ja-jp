@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 83d9e435c1dca10a444f3125830eb6432aecf6bd
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 090a59f406f1e3874f678752f0e0bc9656ae492f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728205"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548950"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -89,13 +89,13 @@ ms.locfileid: "44728205"
 
 ### <a name="august-2017"></a>2017 年 8 月
 * [ユーザーごとの利用状況の指標](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)で対象者を把握します。
-* オンライン サービス用の [Power BI サービス](service-connect-to-services.md) アプリが始まります。
+* オンライン サービス用の [Power BI サービス](consumer/end-user-connect-to-services.md) アプリが始まります。
 * インポートと DirectQuery 接続モードの両方により、オンプレミス データ ゲートウェイで IBM Netezza に接続します。
 * [動的 RLS](developer/embedded-row-level-security.md) が Power BI Embedded でサポートされるようになりました。
 * 高度な[フィルタリング API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) が、カスタム ビジュアル API の 1.7 リリースに追加されました。
 
 ### <a name="july-2017"></a>2017 年 7 月
-* ダッシュボードでの[電子メール サブスクリプション](service-report-subscribe.md)のサポート。
+* ダッシュボードでの[電子メール サブスクリプション](consumer/end-user-subscribe.md)のサポート。
 * パフォーマンス検査を使って、ダッシュボードの読み込みに時間がかかる原因を調査して診断します。
 * Snowflake と SAP BusinessWarehouse DirectQuery がオンプレミス データ ゲートウェイでサポートされるようになりました。
 * Power BI サービスの新しい[データ更新管理用 API](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)。
@@ -206,12 +206,12 @@ ms.locfileid: "44728205"
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)をご覧ください。
 
-* [SQL Server 2016 Analysis Services 表形式モデルの Power BI Q&A サポート](service-q-and-a-direct-query.md): Power BI Q&A が使いやすくなったことと、企業のゲートウェイに接続されているデータ ソースを対象に、Power BI Q&A の公開プレビューが開始されることを謹んでお知らせ申し上げます。始めに SQL Server 2016 Analysis Services 表形式モデルがサポートされます。 詳細については、[ブログの投稿を参照してください](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)。
+* [SQL Server 2016 Analysis Services 表形式モデルの Power BI Q&A サポート](consumer/end-user-q-and-a-direct-query.md): Power BI Q&A が使いやすくなったことと、企業のゲートウェイに接続されているデータ ソースを対象に、Power BI Q&A の公開プレビューが開始されることを謹んでお知らせ申し上げます。始めに SQL Server 2016 Analysis Services 表形式モデルがサポートされます。 詳細については、[ブログの投稿を参照してください](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)。
 * [Excel レポートのローカル ファイル サポート](service-excel-workbook-files.md#local-excel-workbooks): ローカル ドライブまたはその他のストレージ サービスから Excel ファイルをアップロードし、Power BI の利点が追加された Excel Online の場合と同様に Excel レポートを使用できるようになりました。 詳細については、[ブログの投稿を参照してください](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)。
 
 **2016 年 4 月 28 日**
 
-* [ダッシュボード タイルのクイック分析情報](service-insights.md): フォーカス モードでタイルを表示するとき、[詳細情報の取得] をクリックすると、タイルとその関連データの相関関係、異常値、傾向、季節性、傾向の中の変化点、主要要因が数秒で自動検索されます。
+* [ダッシュボード タイルのクイック分析情報](consumer/end-user-insights.md): フォーカス モードでタイルを表示するとき、[詳細情報の取得] をクリックすると、タイルとその関連データの相関関係、異常値、傾向、季節性、傾向の中の変化点、主要要因が数秒で自動検索されます。
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)をご覧ください。
 
@@ -437,7 +437,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 **2015 年 12 月 3 日**
 
-* クイック インサイトを使用してデータセットから自動的に傾向を発見し、パターンを検出できるようになりました:  [ビデオ](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)または[記事](service-insights.md)
+* クイック インサイトを使用してデータセットから自動的に傾向を発見し、パターンを検出できるようになりました:  [ビデオ](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)または[記事](consumer/end-user-insights.md)
 * [Power BI で VMob データを視覚化できるようになりました](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI を Cortana と統合できるようになりました](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [企業向けの Power BI ゲートウェイのプレビューが公開されました](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
@@ -587,7 +587,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * Power BI の一般提供 (GA) リリースを発表しました。 [Power BI Pro](service-self-service-signup-for-power-bi.md) に今すぐ新規登録してください。 GA リリースの一環として、以下の優れた新機能を提供します。
 * 新しい視覚化とレポート作成エクスペリエンス: 新しいレポート キャンバスでは、視覚化の選択肢が増え、タイトル、凡例、軸、色、背景などの書式設定をさらに制御できます。
-* [Power BI のグループ](service-create-distribute-apps.md): グループにより、Office 365 グループ上に構築された、強力なコラボレーション エクスペリエンスが提供されます。
+* [Power BI のグループ](consumer/end-user-create-apps.md): グループにより、Office 365 グループ上に構築された、強力なコラボレーション エクスペリエンスが提供されます。
 * [組織のコンテンツ パック](service-organizational-content-pack-introduction.md): Power BI では、ダッシュボードとレポートの作成が非常にシンプルになり、ユーザーはこれらのコンテンツを組織のコンテンツ ギャラリーに公開できるようになりました。
 * [Excel ファイル全体の取り込み](service-excel-workbook-files.md): OneDrive for Business に格納されているどの Excel ブックでも Power BI に取り込み、そのブック全体を Excel Online での場合とまったく同様に表示できます。
 * [CSV ファイルの取り込み](service-get-data-from-files.md): Excel や Power BI Desktop ファイルと同様に、コンマ区切り値 (CSV) テキスト ファイルも、Power BI のダッシュボードとレポートのデータセットにできます。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38876884"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548697"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Power BI で Google Analytics に接続する
 Power BI で Google アナリティクスに接続するには、最初に Google アナリティクス アカウントに接続します。 Power BI ダッシュ ボードと一連の Power BI レポートが表示され、お客様のサイト トラフィックとユーザー ディメンションに関する詳細情報が提供されます。 ダッシュボードとレポートは操作できますが、変更内容は保存できません。 データは、1 日 1 回自動的に更新されることになります。
@@ -69,7 +69,7 @@ Google にサインインできても、資格情報が無効であることを�
 * Power BI サポート サイト (現在ご覧になっているこの記事) ページの右側にある、 **[サポートへの問い合わせ]** を選択します。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI のアプリについて](service-install-use-apps.md)
+* [Power BI のアプリについて](consumer/end-user-apps.md)
 * [Power BI でデータを取得する](service-get-data.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

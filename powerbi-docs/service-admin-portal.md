@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726917"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546121"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -161,7 +161,7 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 
 ### <a name="export-data"></a>データのエクスポート
 
-組織内のユーザーは、タイルや視覚エフェクトからデータをエクスポートできます。 [詳細情報](power-bi-visualization-export-data.md)
+組織内のユーザーは、タイルや視覚エフェクトからデータをエクスポートできます。 [詳細情報](consumer/end-user-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
@@ -170,13 +170,13 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>PowerPoint プレゼンテーションとしてレポートをエクスポート
 
-組織内のユーザーは、Power BI レポートを PowerPoint ファイルとしてエクスポートできます。 [詳細情報](service-publish-to-powerpoint.md)
+組織内のユーザーは、Power BI レポートを PowerPoint ファイルとしてエクスポートできます。 [詳細情報](consumer/end-user-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>ダッシュボードとレポートの印刷
 
-組織内のユーザーは、ダッシュボードとレポートを印刷できます。 [詳細情報](service-print.md)
+組織内のユーザーは、ダッシュボードとレポートを印刷できます。 [詳細情報](consumer/end-user-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
@@ -205,7 +205,7 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 > [!NOTE]
 > テナント設定の変更が有効になるまで時間がかかることに注意してください。
 
-アプリのプッシュの詳細については、[こちら](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users)をご覧ください。
+アプリのプッシュの詳細については、[こちら](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users)をご覧ください。
 
 ## <a name="integration-settings"></a>統合の設定
 

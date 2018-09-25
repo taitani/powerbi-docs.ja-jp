@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
-ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
+ms.openlocfilehash: 5a94b4c808dcb7cbb040f68c0de7588a3b99c155
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42914521"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548835"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI で新しいワークスペース (プレビュー) を作成する
 
@@ -130,7 +130,7 @@ Power BI では、新しいワークスペース エクスペリエンスがプ�
 
 ## <a name="distribute-an-app"></a>アプリを配布する
 
-コンテンツが用意できたら、公開するダッシュボードやレポートを選択し、それを*アプリ* として公開します。 各ワークスペースから 1 つのアプリを作成できます。 同僚はいくつかの異なる方法でアプリを取得することができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 また、同僚はアプリを Microsoft AppSource で検索してインストールすることも、送信された直接リンクを使用することもできます。 更新プログラムは自動的に取得されます。データの更新頻度は制御することができます。 詳細については、「[Power BI でダッシュボードとレポートを含むアプリを発行する](service-create-distribute-apps.md)」を参照してください。
+コンテンツが用意できたら、公開するダッシュボードやレポートを選択し、それを*アプリ* として公開します。 各ワークスペースから 1 つのアプリを作成できます。 同僚はいくつかの異なる方法でアプリを取得することができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 また、同僚はアプリを Microsoft AppSource で検索してインストールすることも、送信された直接リンクを使用することもできます。 更新プログラムは自動的に取得されます。データの更新頻度は制御することができます。 詳細については、「[Power BI でダッシュボードとレポートを含むアプリを発行する](consumer/end-user-create-apps.md)」を参照してください。
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>古いアプリ ワークスペースを新しいアプリ ワークスペースに変換する
 
@@ -174,5 +174,5 @@ Power BI では、新しいワークスペース エクスペリエンスがプ�
 ## <a name="next-steps"></a>次の手順
 
 - [現在のワークスペースを作成する](service-create-workspaces.md)
-* [Power BI にアプリをインストールし、使用する](service-install-use-apps.md)
+* [Power BI にアプリをインストールし、使用する](consumer/end-user-apps.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

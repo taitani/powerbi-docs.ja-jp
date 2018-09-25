@@ -2,7 +2,7 @@
 title: Power BI のウォーターフォール図
 description: Power BI のウォーターフォール図
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736790"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565822"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI のウォーターフォール図
 ウォーターフォール図では、値が加算または減算された際の累計 (現在の合計) が示されます。 一連の加算と減算の変化によって、初期値 (たとえば、純利益) が、どのように影響を受けるかを理解するために役立ちます。
@@ -74,13 +74,13 @@ ms.locfileid: "44736790"
 ウォーターフォール図内の縦棒を強調表示すると、レポートのページ上の他の視覚化がクロス フィルター処理されます。逆の場合も同様です。 ただし、[合計] の縦棒では強調表示がトリガーされることも、クロス フィルター処理に反応することもありません。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のレポート](../service-reports.md)
+[Power BI のレポート](../consumer/end-user-reports.md)
 
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Power BI レポートでの視覚化](power-bi-report-visualizations.md)
 
-[Power BI - 基本的な概念](../service-basic-concepts.md)
+[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a6b4795be959cfc1842a07f1ba0a74dd81109e89
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 7640c9f49205de97556af9cfa51c641a93d9d69c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965598"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547432"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI サービスの編集ビューでレポートと対話する
 レポートは、Power BI サービスと Power BI Desktop で作成および編集することができます。 Power BI サービスでは、レポートは**編集ビュー**で作成および編集できます。 Power BI Desktop では、レポートは[**レポート ビュー**](desktop-report-view.md)で作成および編集できます。 この記事では、Power BI サービスの編集ビューについて説明します。 
 
-Power BI サービスにはレポートと対話するための 2 つの異なるモード (レポートの "*コンシューマー*" 用の[読み取りビュー](service-reading-view-and-editing-view.md)およびレポートの所有者と作成者用の編集ビュー) があります。  レポートの共有や、他のユーザーが作成したレポートの編集には、Power BI Pro ライセンスが必要です。 Pro ライセンスがある場合、引き続きレポートを作成することはできますが、[レポートを共有](service-share-reports.md)することはできません。    
+Power BI サービスにはレポートと対話するための 2 つの異なるモード (レポートの "*コンシューマー*" 用の[読み取りビュー](consumer/end-user-reading-view.md)およびレポートの所有者と作成者用の編集ビュー) があります。  レポートの共有や、他のユーザーが作成したレポートの編集には、Power BI Pro ライセンスが必要です。 Pro ライセンスがある場合、引き続きレポートを作成することはできますが、[レポートを共有](service-share-reports.md)することはできません。    
 
-レポートの編集ビューには、レポートの探索と設計の両方に関する高い柔軟性が備わっています。 [読み取りビュー](service-reading-view-and-editing-view.md)のすべての機能の他に、さらに多くの機能を使用できます。 編集ビューは、レポートの作成者、または[アプリ ワークスペースのメンバーまたは管理者としてレポートを共同所有している](service-create-distribute-apps.md)同僚のみが使用できます。
+レポートの編集ビューには、レポートの探索と設計の両方に関する高い柔軟性が備わっています。 [読み取りビュー](consumer/end-user-reading-view.md)のすべての機能の他に、さらに多くの機能を使用できます。 編集ビューは、レポートの作成者、または[アプリ ワークスペースのメンバーまたは管理者としてレポートを共同所有している](consumer/end-user-create-apps.md)同僚のみが使用できます。
 
 ## <a name="functionality-only-available-in-editing-view"></a>編集ビューでのみ使用できる機能
 左側の目次で「**レポート**」という見出しのトピック一覧をご覧ください。 *レポートの編集アクセス許可を持っている場合にのみ使用できる*機能に関するトピックが多数あります。  目次を使用する場合、以下の操作には編集ビューが必要です。
@@ -43,7 +43,7 @@ Power BI サービスにはレポートと対話するための 2 つの異な�
 
 
 ## <a name="next-steps"></a>次の手順
-「[Power BI サービスのレポートの読み取りビューと編集ビュー](service-reading-view-and-editing-view.md)」に戻る
+「[Power BI サービスのレポートの読み取りビューと編集ビュー](consumer/end-user-reading-view.md)」に戻る
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726319"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548237"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Q&A のおすすめの質問を作成する
 データセットがある場合、そのデータセットにおすすめの質問を追加できます。  Power BI Q&A では、データセットを使用する ("*消費する*") 同僚におすすめの質問が表示されます。  同僚は、データセットについて確認できる質問の種類についておすすめの質問をヒントにすることができます。 任意のおすすめの質問を追加できます。よくある質問、興味深い結果が表示される質問、表現しづらい質問などを追加してください。
@@ -47,8 +47,8 @@ Will がおすすめの質問をいくつか Power BI Q&A に追加した後、�
    ![マップの視覚エフェクト](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>次の手順
-[Power BI での Q&A](power-bi-q-and-a.md)  
+[Power BI での Q&A](consumer/end-user-q-and-a.md)  
 [チュートリアル: Power BI Q&A の概要](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI - 基本的な概念](service-basic-concepts.md)  
+[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

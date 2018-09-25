@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 8ea0ad288a12e5e08d4e52ff9c27242d5d169cab
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744408"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547131"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>チュートリアル: iOS アプリの Q&A 仮想アナリストでデータについて質問する - Power BI
 
@@ -132,5 +132,5 @@ Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリ�
 
 iOS 用 Power BI モバイル アプリで Q&A 仮想アナリストを試してみました。 Power BI サービスでの Q&A についてさらに学習してください。
 > [!div class="nextstepaction"]
-> [Power BI での Q&A](../../power-bi-q-and-a.md)
+> [Power BI での Q&A](../end-user-q-and-a.md)
 

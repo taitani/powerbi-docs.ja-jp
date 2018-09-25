@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330169"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550123"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI で DirectQuery を使用する
 **Power BI Desktop** または **Power BI サービス**を使用すると、あらゆる種類のデータ ソースに、さまざまな方法で接続できます。 Power BI へのデータの "*インポート*" は、最もよく使われるデータ取得方法です。または、元のソース リポジトリ内のデータに直接接続することもでき、これは **DirectQuery** と呼ばれます。 この記事では **DirectQuery** とその機能について説明します。内容は次のとおりです。
@@ -277,7 +277,7 @@ DirectQuery 接続を使ってレポートを作成する場合は、次のガ�
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  DirectQuery でクロス フィルター処理やクロス強調表示を行うには、基になるソースにクエリを送信する必要があるので、ユーザー選択への応答に非常に長い時間を要する場合は、相互作用をオフにする必要があります。 ただし、この相互作用はレポート全体に対してオフにするか (前述の「*クエリを減らすオプション*」を参照してください)、個別にオフにすることができます (詳細は[この記事](service-reports-visual-interactions.md)をご覧ください)。
+  DirectQuery でクロス フィルター処理やクロス強調表示を行うには、基になるソースにクエリを送信する必要があるので、ユーザー選択への応答に非常に長い時間を要する場合は、相互作用をオフにする必要があります。 ただし、この相互作用はレポート全体に対してオフにするか (前述の「*クエリを減らすオプション*」を参照してください)、個別にオフにすることができます (詳細は[この記事](consumer/end-user-interactions.md)をご覧ください)。
 
 これまでに説明したガイダンスに加えて、次の各レポート機能がパフォーマンスの問題の原因になる可能性があることに注意してください。
 

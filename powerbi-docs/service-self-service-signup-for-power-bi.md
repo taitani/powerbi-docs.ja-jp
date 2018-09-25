@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558518"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549985"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>個人として Power BI にサインアップする
 Power BI にサインアップして、個人用レポートおよび視覚エフェクトのニーズに応じて、Power BI の使用を開始する方法について説明します。
@@ -99,7 +99,7 @@ Power BI にサインアップするには、次の操作を行うことがで�
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>現在の Power BI Pro の 60 日間試用版
 無料アカウントにサインアップした後、Pro 版を 60 日間無料で試用することができます。 試用期間中は Pro 版のすべての機能にアクセスできます。 Power BI Pro は、無料版 Power BI のすべての機能を備えているだけでなく、新たな共有機能やコラボレーション機能も備えています。 詳しくは、[Power BI の料金](https://powerbi.microsoft.com/pricing)に関するページをご覧ください。 60 日間無料試用版の Power BI Pro を試用するには、Power BI にサインインし、Power BI Pro 機能の 1 つを試してみてください。
 
-* [アプリ ワークスペースの作成](service-create-distribute-apps.md)
+* [アプリ ワークスペースの作成](consumer/end-user-create-apps.md)
 * [ダッシュボードの共有](service-share-dashboards.md)
 
 これらの機能を試そうとすると、無料試用版を開始するように求められます。 また、歯車アイコンをクリックして **[パーソナル ストレージの管理]** を選択することによっても使用できます。 その後、右側にある **[Pro を無料でお試しいただけます]** を選択します。

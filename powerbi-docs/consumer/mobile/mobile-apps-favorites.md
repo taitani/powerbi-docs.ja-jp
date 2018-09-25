@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 586e95ba624bde1d18b5c431a1b9dcbb642b939c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a689a3b04ca3b48c0b924ae62a52315dc3535faf
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742831"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544951"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでお気に入りを作成し、表示する
 適用対象:
@@ -30,7 +30,7 @@ Power BI モバイル アプリでお気に入りを作成すると、Power BI �
 ![Power BI モバイル アプリのお気に入り](./media/mobile-apps-favorites/power-bi-android-favorites-reports.png)
 
 
-また、[Power BI サービスで Power BI ダッシュボードとアプリをお気に入りに追加する](../../service-dashboard-favorite.md)こともできます。 お気に入りに追加したダッシュボードとアプリは、モバイル アプリの [お気に入り] ページに表示されます。
+また、[Power BI サービスで Power BI ダッシュボードとアプリをお気に入りに追加する](../end-user-favorite.md)こともできます。 お気に入りに追加したダッシュボードとアプリは、モバイル アプリの [お気に入り] ページに表示されます。
 
 Power BI レポート サーバーまたは Reporting Services Web ポータルで KPI とレポートをお気に入りに設定し、Power BI のお気に入りのダッシュボードと共に、デバイスの便利なフォルダーで表示できます。
 
@@ -76,6 +76,6 @@ Power BI レポート サーバーまたは Reporting Services Web ポータル�
 Power BI モバイル アプリでは、お気に入りの Power BI レポート サーバーおよび Reporting Services のレポートと KPI を表示できますが、モバイル アプリでそれらをお気に入りに登録することはできません。 [Web ポータルでお気に入りとしてタグを付け](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites)ます。 
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI のお気に入りのダッシュボード](../../service-dashboard-favorite.md) 
+* [Power BI のお気に入りのダッシュボード](../end-user-favorite.md) 
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

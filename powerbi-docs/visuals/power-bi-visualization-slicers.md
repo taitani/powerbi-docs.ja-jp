@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737510"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565086"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI のスライサー
 レポートを見る人が売り上げ全体の指標を調べることができるだけでなく、個々の地域マネージャーや異なる期間の実績に注目することもできるようにしたい場合があります。 個別レポートや比較グラフを作成してもかまいませんが、スライサーを使用することもできます。 スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。 
@@ -98,7 +98,7 @@ Power BI のスライサーには次の制限があります。
 2. **[Total Sales Variance by FiscalMonth and District Manager]** グラフの上の **[なし]** アイコンを選択して、スライサーのフィルター処理を停止します。 
 3. **[Month]** スライサーを選択し、**[Total Sales Variance by FiscalMonth and District Manager]** グラフの上の **[なし]** アイコンを再び選択して、このスライサーのフィルター処理を停止します。 これで、スライサーで名前や日付範囲を選択しても、[Total Sales Variance by FiscalMonth and District Manager] グラフは変更されません。 
 
-相互作用の編集については、「[Power BI レポートでの視覚化の相互作用](../service-reports-visual-interactions.md)」をご覧ください。
+相互作用の編集については、「[Power BI レポートでの視覚化の相互作用](../consumer/end-user-interactions.md)」をご覧ください。
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>他のページでスライサーを同期して使用する
 Power BI の 2018 年 2 月更新以降では、スライサーを同期し、レポートの任意のページまたはすべてのページで使用できます。 
@@ -193,5 +193,5 @@ Power BI を改善する方法について、ご意見がありましたら、 [
 
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - 基本的な概念](../service-basic-concepts.md)
+[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
 

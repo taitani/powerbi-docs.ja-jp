@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252142"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545730"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI サービスのほとんどすべてのものの名前を変更する
 この記事では、Power BI サービスのダッシュボード、レポート、レポートのページ、ブック、データセット、アプリ、ワークスペースの名前を変更する方法について説明します。
@@ -71,7 +71,7 @@ ms.locfileid: "34252142"
 ## <a name="rename-a-page-in-a-report"></a>レポートのページの名前を変更する
 Power BI レポートのページの名前を変更するには、  1 回クリックするだけです。 ページの名前は[レポート編集ビュー](service-interact-with-a-report-in-editing-view.md)で変更できます。
 
-1. レポートを[編集ビュー](service-reading-view-and-editing-view.md)で開きます。
+1. レポートを[編集ビュー](consumer/end-user-reading-view.md)で開きます。
 2. Power BI ウィンドウの下部にあるレポート ページのタブを探します。
    
     ![タブが強調表示されたレポート](media/service-rename/report-page-tabs-new.png)

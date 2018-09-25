@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726051"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544968"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>優れた Power BI ダッシュボードのデザインに関するヒント
 ダッシュボードの作成が完了し、タイルもいくつか追加したので、ダッシュボードの外観をよくすることに加えて、機能的なものにする方法についても考えてみましょう。 通常、この改良は、最も重要な情報を目立つようにしたり、簡潔ですっきりとした外観にしたりすることです。
@@ -65,7 +65,7 @@ Microsoft Principal Program Manager と Power BI ダッシュボード エキス
 * 有効桁数と時間のレベルを統一します。 期間がよくわかるようにします。  前月のある 1 つのグラフを、その年の特定の 1 つの月からフィルター処理されたグラフの横に配置しないでください。
 * 折れ線グラフや横棒グラフなど、同じ尺度に大きい測定単位と小さい測定単位を混在させないでください。  たとえば、1 つの測定単位が数百万単位で、もう一方の測定単位が数千単位のような指定の方法です。  このような大きい縮尺では、数千単位の測定値の違いがわかりにくくなります。  測定単位を混在させる必要がある場合は、2 つ目の軸の使用を可能にする視覚化を選びます。
 * グラフを不要なデータ ラベルで雑然とさせないでください。 通常、横棒グラフの値は、実際の数値を示さなくても十分にわかります。
-* [グラフの並べ替え](power-bi-report-change-sort.md)方法にご注意ください。  最大数または最小数に注目させる必要がある場合は、測定単位に従って並べ替えます。  閲覧者が他の多くのカテゴリの中の特定のカテゴリをすばやく見つけられるようにするには、軸に従って並べ替えます。  
+* [グラフの並べ替え](consumer/end-user-change-sort.md)方法にご注意ください。  最大数または最小数に注目させる必要がある場合は、測定単位に従って並べ替えます。  閲覧者が他の多くのカテゴリの中の特定のカテゴリをすばやく見つけられるようにするには、軸に従って並べ替えます。  
 * 円グラフは、カテゴリが 7 つ以下の場合に最適です。 円グラフ内の各値の比較は、値を並べて比較できないため横棒グラフや縦棒グラフよりも難しくなります。 円グラフは、部分の比較ではなく、全体に対する部分の関係を示すために適しています。 ゲージ グラフは、ある目標に関して現在の状態を示すために適しています。
 
 視覚化について詳しくは、「[Power BI での視覚化の種類](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)」をご覧ください。  
@@ -81,5 +81,5 @@ Microsoft Principal Program Manager と Power BI ダッシュボード エキス
 
 ## <a name="next-steps"></a>次の手順
 [レポートからダッシュボードを作成する](service-dashboard-create.md)  
-[Power BI - 基本的な概念](service-basic-concepts.md)  
+[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

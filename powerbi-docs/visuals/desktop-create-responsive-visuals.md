@@ -1,21 +1,21 @@
 ---
 title: Power BI のビジュアルのサイズを最適化する
 description: Power BI Desktop および Power BI サービスで Power BI 電話アプリ用に既存レポートのビジュアルを最適化する方法について説明します。
-author: maggiesMSFT
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/13/2018
-ms.author: maggies
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d85d4bd60c341ef588cf56b1345f28aa25b810de
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744084"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566328"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Power BI のビジュアルのサイズを最適化する
 既定では、新しく作成したレポートのビジュアルは "*レスポンシブ*" になります。ビジュアルは画面のサイズに関係なく、最大量のデータとインサイトを表示できるように動的に変化します。 古いレポートのビジュアルも、動的にサイズが変わるように設定できます。

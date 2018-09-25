@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561703"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545970"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Power BI サービス レポートへのフィルターの追加 (編集ビュー)
 > [!TIP]
@@ -26,13 +26,13 @@ ms.locfileid: "34561703"
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>編集ビューと読み取りビューでのレポート フィルターの違い
-レポートとの対話には 2 つのモードがあります。[読み取りビュー](service-reading-view-and-editing-view.md)と[編集ビュー](service-interact-with-a-report-in-editing-view.md)です。  使用できるフィルター処理機能は、どのモードを使用しているかによって異なります。
+レポートとの対話には 2 つのモードがあります。[読み取りビュー](consumer/end-user-reading-view.md)と[編集ビュー](service-interact-with-a-report-in-editing-view.md)です。  使用できるフィルター処理機能は、どのモードを使用しているかによって異なります。
 
 * 編集ビューでは、レポート フィルター、ページ フィルター、ビジュアル フィルターを追加できます。 レポートを保存すると、フィルターが一緒に保存されます。 読み取りビューでレポートを表示しているユーザーは、追加したフィルターと対話することができます。
 * 読み取りビューでは、レポートに既に存在しているレポート、ドリルスルー、ページ、ビジュアルの各フィルターと対話できますが、新しいフィルターを追加することはできません。 ただし、モバイル アプリでレポートを表示する場合でも、レポートを終了し、後で戻る場合でも、フィルター ウィンドウで行う変更の内容はレポートと共に保存されます。  
 
 > [!NOTE]
-> この記事では、レポートの**編集ビュー**でフィルターを作成する方法について説明します。  読み取りビューのフィルターの詳細については、[レポートの読み取りビューのフィルターとの対話](service-reading-view-and-editing-view.md)に関するページを参照してください。
+> この記事では、レポートの**編集ビュー**でフィルターを作成する方法について説明します。  読み取りビューのフィルターの詳細については、[レポートの読み取りビューのフィルターとの対話](consumer/end-user-reading-view.md)に関するページを参照してください。
 
 
 ## <a name="filters-available-in-the-power-bi-filters-pane"></a>Power BI の *[フィルター]* ウィンドウで使用できるフィルター
@@ -58,7 +58,7 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 * もう 1 つは、視覚化によってまだ使われていないフィールドを識別し、そのフィールドを**ビジュアル レベル フィルター** バケットに直接追加する方法です。
 
 ### <a name="by-filtering-the-fields-already-in-the-visualization"></a>視覚化の既存フィールドのフィルター処理
-1. [編集ビューでレポート](service-reading-view-and-editing-view.md)を開きます。
+1. [編集ビューでレポート](consumer/end-user-reading-view.md)を開きます。
    
    ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. 視覚化およびフィルター ウィンドウとフィールド ウィンドウがまだ開いていない場合は開きます。
@@ -72,7 +72,7 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
    * **[ビジュアル レベル フィルター]** 領域まで下にスクロールし、矢印を選んでフィルター処理するフィールドを展開します。 この例では **StoreNumberName** をフィルター処理します。
      
       ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-   * フィルター処理コントロールとして **[基本]**、**[詳細]**、または **[上位 N]** を設定します (「[レポート フィルターの使用方法](power-bi-how-to-report-filter.md)」をご覧ください)。 この例では、基本フィルター処理を選択し、10、11、15、18 の数字の横にチェックマークを付けます。
+   * フィルター処理コントロールとして **[基本]**、**[詳細]**、または **[上位 N]** を設定します (「[レポート フィルターの使用方法](consumer/end-user-report-filter.md)」をご覧ください)。 この例では、基本フィルター処理を選択し、10、11、15、18 の数字の横にチェックマークを付けます。
      
       ![](media/power-bi-report-add-filter/power-bi-basic-filters.png) 
    * ビジュアルに新しいフィルターが反映されます。 レポートをフィルターとともに保存すると、レポート閲覧者が読み取りビューでフィルターと対話でき、値を選んだりクリアしたりすることができます。
@@ -91,10 +91,10 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
      ![](media/power-bi-report-add-filter/power-bi-filtered-andrew.png)
 
 ## <a name="add-a-filter-to-an-entire-page-aka-page-view-filter"></a>ページ全体へのフィルター (ページ ビュー フィルター) の追加
-1. [編集ビューでレポート](service-reading-view-and-editing-view.md)を開きます。
+1. [編集ビューでレポート](consumer/end-user-reading-view.md)を開きます。
 2. 視覚化およびフィルター ウィンドウとフィールド ウィンドウがまだ開いていない場合は開きます。
 3. [フィールド] ウィンドウで新しいページ レベル フィルターとして追加するフィールドを選び、**[ページ レベル フィルター]** 領域までドラッグします。  
-4. フィルターを適用する値を選び、フィルター処理コントロールとして **[基本]** または **[詳細]** を設定します (「[レポート フィルターの使用方法](power-bi-how-to-report-filter.md)」をご覧ください)。
+4. フィルターを適用する値を選び、フィルター処理コントロールとして **[基本]** または **[詳細]** を設定します (「[レポート フィルターの使用方法](consumer/end-user-report-filter.md)」をご覧ください)。
    
    ページでこのフィルターの影響を受けるすべての視覚化が、変更を反映するように再描画されます。 
    
@@ -130,10 +130,10 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>レポート全体へのフィルターの追加 (レポート フィルター)
-1. [編集ビューでレポート](service-reading-view-and-editing-view.md)を開きます。
+1. [編集ビューでレポート](consumer/end-user-reading-view.md)を開きます。
 2. 視覚化およびフィルター ウィンドウとフィールド ウィンドウがまだ開いていない場合は開きます。
 3. [フィールド] ウィンドウで新しいレポート レベル フィルターとして追加するフィールドを選び、**[レポート レベル フィルター]** 領域までドラッグします。  
-4. フィルターを適用する値を選びます (「[レポート フィルターの使用方法](power-bi-how-to-report-filter.md)」をご覧ください)。
+4. フィルターを適用する値を選びます (「[レポート フィルターの使用方法](consumer/end-user-report-filter.md)」をご覧ください)。
 
     アクティブ ページおよびレポート内のすべてのページ上のビジュアルに、新しいフィルターが反映されます。 レポートをフィルターとともに保存すると、レポート閲覧者が読み取りビューでフィルターと対話でき、値を選んだりクリアしたりすることができます。
 
@@ -149,13 +149,13 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
 - フィルターに多くの変更を加えた後で、レポート作成者の初期設定に戻す場合、一番上のメニュー バーから **[既定値にリセット]** を選択します。
 
 ## <a name="next-steps"></a>次の手順
- [レポート フィルターの使用方法](power-bi-how-to-report-filter.md)
+ [レポート フィルターの使用方法](consumer/end-user-report-filter.md)
 
   [レポート内のフィルターと強調表示](power-bi-reports-filters-and-highlighting.md)
 
-[レポートの読み取りビューでのフィルターとの対話と強調表示](service-reading-view-and-editing-view.md)
+[レポートの読み取りビューでのフィルターとの対話と強調表示](consumer/end-user-reading-view.md)
 
-[レポートのビジュアル相互間のクロスフィルター処理とクロス強調表示を変更する方法](service-reports-visual-interactions.md)
+[レポートのビジュアル相互間のクロスフィルター処理とクロス強調表示を変更する方法](consumer/end-user-interactions.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

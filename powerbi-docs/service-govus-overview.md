@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f110464d435130a40666e61dd6a9c89ad6b10ccf
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8ac91cb0ab6061f0fcbcb120c5915a91166f90ad
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280434"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546190"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -37,7 +37,7 @@ ms.locfileid: "39280434"
 * Excel、CSV、Power BI Desktop ファイルからのレポートと[データのインポート](service-get-data.md)
 * Data Management Gateway
 * すべてのデータは、Azure SQL と Power BI 用 Blob Storage の両方で暗号化されます
-* [コンテンツ パック](service-connect-to-services.md)でのサービスへの接続
+* [コンテンツ パック](consumer/end-user-connect-to-services.md)でのサービスへの接続
 
 ## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>行政機関向けおよびパブリックの Azure Cloud Services 間の接続 
 

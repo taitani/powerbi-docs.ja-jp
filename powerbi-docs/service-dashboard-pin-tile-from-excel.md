@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599596"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548053"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel から Power BI ダッシュボードにタイルをピン留めする
 Excel ブックからタイルをピン留めするには、その前にブックを Power BI サービス (app.powerbi.com) に接続する必要があります。 ブックを接続すると、基本的に、そのブックのリンクされた読み取り専用バージョンが Power BI サービスに取り込まれて、範囲をダッシュボードにピン留めできるようになります。 ワークシート全体をダッシュボードにピン留めすることもできます。  
@@ -49,7 +49,7 @@ Power BI ではブックを編集できません。 ただし、変更を加え�
     ![Power BI での Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>セルの範囲をダッシュボードにピン留めする
-新しい[ダッシュボード タイル](service-dashboard-tiles.md)を追加する方法の 1 つは、Power BI で Excel ブックから追加することです。 OneDrive for Business または別のグループ共有ドキュメント ライブラリに保存されている Excel ブックから範囲をピン留めすることができます。 範囲には、データ、グラフ、テーブル、ピボットテーブル、ピボットグラフなどの Excel パーツを含めることができます。
+新しい[ダッシュボード タイル](consumer/end-user-tiles.md)を追加する方法の 1 つは、Power BI で Excel ブックから追加することです。 OneDrive for Business または別のグループ共有ドキュメント ライブラリに保存されている Excel ブックから範囲をピン留めすることができます。 範囲には、データ、グラフ、テーブル、ピボットテーブル、ピボットグラフなどの Excel パーツを含めることができます。
 
 1. ダッシュボードにピン留めするセルを強調表示します。
    

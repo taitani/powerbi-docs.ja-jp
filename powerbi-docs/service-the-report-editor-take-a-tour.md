@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726641"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546075"
 ---
 # <a name="the-report-editortake-a-tour"></a>レポート エディター...紹介を見る
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop でのレポートの編集
 Power BI サービスのレポート エディターと Power BI Desktop のレポート エディターは、よく似ています。 ビデオでは Power BI Desktop のレポート エディターを、この記事では Power BI サービスのレポート エディターを説明します。 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>レポート*作成者*とレポート *コンシューマー*の違い
-レポートを作成し編集できるのは、レポートの所有者 (別名 "*作成者*") に限られます。 共有されたレポートを "*使用*" している場合、[読み取りビューでのみ](service-reading-view-and-editing-view.md) Power BI サービス内のレポートを開いて操作できますが、レポートの作成者が利用できるような、信頼性が高く幅広い機能のすべてを利用できるわけではありません。  
+レポートを作成し編集できるのは、レポートの所有者 (別名 "*作成者*") に限られます。 共有されたレポートを "*使用*" している場合、[読み取りビューでのみ](consumer/end-user-reading-view.md) Power BI サービス内のレポートを開いて操作できますが、レポートの作成者が利用できるような、信頼性が高く幅広い機能のすべてを利用できるわけではありません。  
 
-レポートの読み取りビューについての詳細は、[Power BI サービスの読み取りビューと編集ビュー](service-reading-view-and-editing-view.md)に関するページをご覧ください。 
+レポートの読み取りビューについての詳細は、[Power BI サービスの読み取りビューと編集ビュー](consumer/end-user-reading-view.md)に関するページをご覧ください。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Power BI サービスでは、*レポート エディター*は[編集ビュー](service-reading-view-and-editing-view.md)でのみ使用できます。 編集ビューでレポートを開くには、レポートの所有者、つまり作成者である必要があります。
+Power BI サービスでは、*レポート エディター*は[編集ビュー](consumer/end-user-reading-view.md)でのみ使用できます。 編集ビューでレポートを開くには、レポートの所有者、つまり作成者である必要があります。
 
 Power BI レポート エディターは、3 つのセクションで構成されています。  
 
@@ -126,9 +126,9 @@ Power BI サービスの分析ウィンドウでは、視覚化に動的な基�
 ## <a name="next-steps"></a>次の手順:
 [レポートの作成](service-report-create-new.md)
 
-[Power BI サービス](service-reports.md)、[Power BI Desktop](desktop-report-view.md)、[Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md) の各レポートについての詳細をご覧ください。
+[Power BI サービス](consumer/end-user-reports.md)、[Power BI Desktop](desktop-report-view.md)、[Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md) の各レポートについての詳細をご覧ください。
 
-[Power BI - 基本的な概念](service-basic-concepts.md)
+[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

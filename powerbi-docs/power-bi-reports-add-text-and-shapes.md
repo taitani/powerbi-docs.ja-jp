@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310293"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544948"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI レポートの静的コンテンツ
 Power BI サービスと Power BI Desktop を使用すると、レポートにテキスト ボックスや図形を追加できます。 どちらの場合もレポートの編集アクセス許可が必要です。 Power BI サービスでレポートが自分と共有されている場合、編集アクセス許可はありません。 
@@ -65,6 +65,6 @@ Will が Power BI Desktop を使用して[静的な画像をレポートに追�
 ### <a name="next-steps"></a>次の手順
 [テキスト ボックスへのハイパーリンクの追加](service-add-hyperlink-to-text-box.md)
 
-[Power BI - 基本的な概念](service-basic-concepts.md)
+[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 6ec1c7d1e3417336e24e324ff12c3e10a84a8525
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 99d8faa7ba3e0e92f97e84bd52454ad44a472e71
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737091"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547294"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 用の Power BI モバイル アプリの概要
 Windows 10 用 Power BI モバイル アプリを導入すると、タブレットやスマート フォンのタッチ対応画面で Power BI を使用でき、最新のビジネス情報に簡単にアクセスできるようになります。 どこにいても、[Windows のスタート画面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)から会社のダッシュボードを表示して操作できます。
@@ -108,7 +108,7 @@ Power BI ダッシュボードのサンプルを表示し、使ってみるこ�
 Windows 10 デバイス用 Power BI アプリ、Power BI のダッシュボードとレポート、Reporting Services Web ポータルの Reporting Services モバイル レポートと KPI では、他に次のことが可能です。
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポート
-* [アプリ](../../service-install-use-apps.md)を表示する。
+* [アプリ](../end-user-apps.md)を表示する。
 * [ダッシュボード](mobile-apps-view-dashboard.md)を表示する。
 * ライブ タイルとしてデバイスのスタート画面に [Power BI のタイルとダッシュボードをピン留め](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)する。
 * [タイルを共有する](mobile-windows-10-phone-app-get-started.md)。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726664"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545753"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI で共同作業および共有を行う方法
 
@@ -57,7 +57,7 @@ ms.locfileid: "44726664"
 
 ![アプリを公開する](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) で簡単に検索してインストールすることができます。 アプリへの直接リンクをビジネス ユーザーに送信したり、ユーザーが AppSource でアプリを検索しりすることができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 詳細については、[アプリの発行](service-create-distribute-apps.md)に関するページを参照してください。 
+アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) で簡単に検索してインストールすることができます。 アプリへの直接リンクをビジネス ユーザーに送信したり、ユーザーが AppSource でアプリを検索しりすることができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 詳細については、[アプリの発行](consumer/end-user-create-apps.md)に関するページを参照してください。 
 
 インストールしたアプリは、ブラウザーまたはモバイル デバイスで表示できます。
 
@@ -88,7 +88,7 @@ iOS および Android モバイル アプリからの、[タイル、レポー�
 Windows 10 デバイス用 Power BI アプリから、[タイルのスナップショットを共有する](consumer/mobile/mobile-windows-10-phone-app-get-started.md)こともできます。
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>PDF または他の静的ファイルとして印刷または保存する
-Power BI サービスからダッシュボード全体、ダッシュボードのタイル、レポート ページ、または視覚エフェクトを PDF (または他の静的ファイル形式) として印刷または保存することができます。 レポートは、一度に 1 ページのみを印刷できます。レポート全体を一度に印刷することはできません。 詳しくは、「[Power BI からの印刷](service-print.md)」をご覧ください。
+Power BI サービスからダッシュボード全体、ダッシュボードのタイル、レポート ページ、または視覚エフェクトを PDF (または他の静的ファイル形式) として印刷または保存することができます。 レポートは、一度に 1 ページのみを印刷できます。レポート全体を一度に印刷することはできません。 詳しくは、「[Power BI からの印刷](consumer/end-user-print.md)」をご覧ください。
 
 ## <a name="publish-to-the-web"></a>Web への公開
 
@@ -99,7 +99,7 @@ Power BI サービスからダッシュボード全体、ダッシュボード�
 
 ## <a name="next-steps"></a>次の手順
 * [同僚や他のユーザーとダッシュボードを共有する](service-share-dashboards.md)
-* [Power BI でのアプリの作成および発行](service-create-distribute-apps.md)
+* [Power BI でのアプリの作成および発行](consumer/end-user-create-apps.md)
 * ご意見およびご提案がある場合は、 [Power BI コミュニティ サイト](https://community.powerbi.com/)をご利用ください。
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

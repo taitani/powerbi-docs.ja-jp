@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944608"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543798"
 ---
 # <a name="the-power-bi-samples"></a>Power BI のサンプル
 
@@ -79,7 +79,7 @@ ms.locfileid: "36944608"
     ![一致するビジュアルが強調表示されているレポート ページ](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > タイルが [Power BI Q&A](power-bi-q-and-a.md) を使って作成されている場合は、代わりに Q&A ページが開きます。 タイルを [Excel からピン留め](service-dashboard-pin-tile-from-excel.md)した場合は、Power BI 内で Excel Online が開きます。
+   > タイルが [Power BI Q&A](consumer/end-user-q-and-a.md) を使って作成されている場合は、代わりに Q&A ページが開きます。 タイルを [Excel からピン留め](service-dashboard-pin-tile-from-excel.md)した場合は、Power BI 内で Excel Online が開きます。
    > 
    > 
 1. **[データセット]** タブに戻ると、データセットを調べるためのいくつかのオプションがあります。  それを開いてすべての行と列を表示することはできません (Power BI Desktop または Excel ではできます)。  同僚とコンテンツ パックを共有する作成者は、通常、分析情報の結果だけを共有し、同僚がデータに直接アクセスできるようにはしません。 ただし、これは同僚がデータセットを調べることができないという意味ではありません。  
@@ -89,7 +89,7 @@ ms.locfileid: "36944608"
    * データセットを調べる 1 つの方法は、独自の視覚化とレポートを一から作成することです。  [グラフ] アイコンを選び、 ![[レポート] アイコン](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) レポート編集モードでデータセットを開きます。
      
        ![新しいレポート](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * データセットを調べるもう 1 つの方法は、[クイック分析情報](service-insights.md)を実行することです。 省略記号 [...] を選び、**[詳細情報の取得]** を選びます。 詳細情報の準備ができたら、**[詳細情報を表示]** を選びます。
+   * データセットを調べるもう 1 つの方法は、[クイック分析情報](consumer/end-user-insights.md)を実行することです。 省略記号 [...] を選び、**[詳細情報の取得]** を選びます。 詳細情報の準備ができたら、**[詳細情報を表示]** を選びます。
      
        ![分析情報のレポート](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ ms.locfileid: "36944608"
 
 
 ## <a name="next-steps"></a>次の手順
-[Power BI - 基本的な概念](service-basic-concepts.md)
+[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
 
 [Power BI サービスのサンプル](sample-datasets.md)
 

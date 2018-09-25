@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 6a930342806eb32f22efe3d2974625c54c5377bf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737217"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545776"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI での ArcGIS マップとの対話
 このトピックは、Power BI サービス、Desktop、またはモバイルで ArcGIS マップを "*使用する*" ユーザーを対象として書かれています。 作成者から ArcGIS マップを共有された場合、さまざまな方法でそのマップと対話できます。  ArcGIS マップの作成の詳細については、[Esri の ArcGIS マップのチュートリアル](../power-bi-visualization-arcgis.md)をご覧ください。
@@ -55,9 +55,9 @@ Power BI の ArcGIS マップでは 3 つの選択モードを使用できます
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>ArcGIS マップとの対話
-使うことができる機能は、ユーザーが "*作成者*" (マップを作成したユーザー) か "*使用者*" (誰かから ArcGIS マップを共有されたユーザー) かによって異なります。 コンシューマー ([読み取りビュー](../service-reading-view-and-editing-view.md)とも呼ばれる) として ArcGIS マップと対話する場合、以下の操作を使用できます。
+使うことができる機能は、ユーザーが "*作成者*" (マップを作成したユーザー) か "*使用者*" (誰かから ArcGIS マップを共有されたユーザー) かによって異なります。 コンシューマー ([読み取りビュー](../consumer/end-user-reading-view.md)とも呼ばれる) として ArcGIS マップと対話する場合、以下の操作を使用できます。
 
-* 他の視覚化の種類と同様に、[ダッシュボードへのピン留め](../service-dashboard-pin-tile-from-report.md)、[表示](../service-reports-show-data.md)、[基になるデータのエクスポート](../power-bi-visualization-export-data.md)を行うことができ、[フォーカス モード](../service-focus-mode.md)と[全画面表示](../service-fullscreen-mode.md)でマップを表示することができます。    
+* 他の視覚化の種類と同様に、[ダッシュボードへのピン留め](../service-dashboard-pin-tile-from-report.md)、[表示](../consumer/end-user-show-data.md)、[基になるデータのエクスポート](../consumer/end-user-export-data.md)を行うことができ、[フォーカス モード](../consumer/end-user-focus.md)と[全画面表示](../service-fullscreen-mode.md)でマップを表示することができます。    
 * **[フィルター]** ウィンドウを展開し、フィルターを使ってマップを調べることができます。 レポートを閉じるとき、適用したフィルターは保存されません。    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * マップに参照レイヤーがある場合は、場所を選んでヒントに詳細を表示できます。 次の図では、Adams 郡を選択し、作成者がマップに追加した平均世帯年収参照レイヤーのデータを表示しています。

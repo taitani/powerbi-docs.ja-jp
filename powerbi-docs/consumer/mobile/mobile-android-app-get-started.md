@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 0762ee808c089b73c69be99a38bfad63c231bc54
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c33e7dd69d4bd0a0d09ebc124739d5d017c631bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737433"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550031"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android デバイスでの Power BI モバイル アプリの概要
 Microsoft Power BI 用 Android アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 
@@ -119,11 +119,11 @@ Microsoft Intune では、アクセスに暗証番号 (PIN) を必要とする�
 Power BI 用の Android デバイス アプリ、Power BI のダッシュボードとレポート、Power BI Report Server または Reporting Services Web ポータルのレポートと KPI では、次のことが可能です。
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポート
-* [アプリ](../../service-install-use-apps.md)を表示する。
+* [アプリ](../end-user-apps.md)を表示する。
 * [ダッシュボード](../../mobile-apps-view-dashboard.md)を表示する。
 * [ダッシュボード上のタイル](../../mobile-tiles-in-the-mobile-apps.md)を探索する。
 * [Power BI レポート](../../mobile-reports-in-the-mobile-apps.md)を開く。
-* [アプリ](../../service-install-use-apps.md)を表示する。
+* [アプリ](../end-user-apps.md)を表示する。
 * [タイルに注釈を付け、共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)する。
 * [ダッシュボード](../../mobile-share-dashboard-from-the-mobile-apps.md)を共有する。
 * Android フォンで [Power BI QR コードをスキャン](../../mobile-apps-qr-code.md)して、関連するダッシュボードのタイルまたはレポートを開く。 

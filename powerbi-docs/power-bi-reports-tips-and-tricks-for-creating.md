@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0397921d239ec1d07312e69061890f8898e9687b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726802"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549962"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop と Power BI サービスでのレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop、Power BI サービス、"*および*" Power Pivot のアドインを有効にし、Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションで、レポートを作成する場合に役立つヒントとテクニックをまとめました。
@@ -206,7 +206,7 @@ DAX は、Power BI Desktop で使用される計算式言語です。  それは
 * 精度と時間のレベルを混在させないようにします。 期間がよくわかるようにします。  前月のある 1 つのグラフを、その年の特定の 1 つの月からフィルター処理されたグラフの横に配置しないでください。    
 * また、折れ線グラフや横棒グラフなど、同じ尺度に大きい測定単位と小さい測定単位を混在させないようにします。  たとえば、1 つの測定単位が数百万単位で、もう一方の測定単位が数千単位のような指定の方法です。  このような大きい縮尺では、数千単位の測定値の違いがわかりにくくなります。  測定単位を混在させる必要がある場合は、複合グラフのような 2 つ目の軸の使用を可能にする視覚エフェクトを選びます。    
 * グラフが不要なデータ ラベルで雑然とならないようにします。 通常、横棒グラフの値は、***グラフが十分に大きければ***、実際の数値を示さなくても十分にわかります。   
-* [グラフの並べ替え](power-bi-report-change-sort.md)方法にご注意ください。  最大数または最小数に注目させる必要がある場合は、測定単位に従って並べ替えます。  閲覧者が他の多くのカテゴリの中の特定のカテゴリをすばやく見つけられるようにするには、軸に従って並べ替えます。  
+* [グラフの並べ替え](consumer/end-user-change-sort.md)方法にご注意ください。  最大数または最小数に注目させる必要がある場合は、測定単位に従って並べ替えます。  閲覧者が他の多くのカテゴリの中の特定のカテゴリをすばやく見つけられるようにするには、軸に従って並べ替えます。  
 * 円グラフは、カテゴリが 7 つ以下の場合に最適です。 円グラフ内の各値の比較は、値を並べて比較できないため横棒グラフや縦棒グラフよりも難しくなります。 円グラフは、部分の比較ではなく、全体に対する部分の関係を示すために適しています。 ゲージ グラフは、ある目標に関して現在の状態を示すために適しています。    
 
 視覚化について詳しくは、「[Power BI での視覚化の種類](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)」をご覧ください。  
@@ -222,8 +222,8 @@ DAX は、Power BI Desktop で使用される計算式言語です。  それは
 * 『*Advanced Presentations by Design*』(高度なプレゼンテーションのデザイン)、Design Andrew Abela 著   
 
 ## <a name="next-steps"></a>次の手順
-[Power BI - 基本的な概念](service-basic-concepts.md)
+[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
 
-[Power BI のレポート](service-reports.md)
+[Power BI のレポート](consumer/end-user-reports.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

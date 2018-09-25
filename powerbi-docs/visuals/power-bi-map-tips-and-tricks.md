@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 487e53bae0fe872771b5ecbbe0458cd09dc48a4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744390"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548513"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI マップの視覚エフェクトに関するヒントとテクニック
 Power BI は Bing マップと統合されており、既定のマップ座標 (ジオコーディングと呼ばれるプロセス) が提供されているため、マップを作成できます。 正しい位置を特定するアルゴリズムも使用されますが、それが最適な推測の場合もあります。 Power BI の試行でマップの視覚化が自動的に作成されない場合は、Bing マップの機能を利用してください。 
@@ -89,7 +89,7 @@ Power BI では、使っているデータセットに経度と緯度のフィ�
 * 2 つ目のオプションである ![マップのドリルダウン](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) は、マップをクリックする必要がある点を除き、ドリル ダウンと似ています。  現在のレベルのコンテキストを記憶して、階層の次のレベルに展開されます。 たとえば、国を見ている状態でこのアイコンを選択すると、階層の次のレベル (州) にドリルダウンされます。 ジオコーディングでは、Power BI から各州とそれに関連する国のデータが送信されるので、Bing マップのジオコーディングがより正確になります。 多くのマップでは、このオプションまたは右端のドリル ダウン オプションを使用して、できるだけ多くの情報を Bing に送信して、正確な場所情報を取得します。 
 
 ## <a name="next-steps"></a>次の手順
-[Power BI での視覚化のドリルダウン](../power-bi-visualization-drill-down.md)
+[Power BI での視覚化のドリルダウン](../consumer/end-user-drill.md)
 
 [Power BI の視覚化](power-bi-report-visualizations.md)
 

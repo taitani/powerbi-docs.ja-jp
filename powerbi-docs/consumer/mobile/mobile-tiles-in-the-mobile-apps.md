@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737127"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549802"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのタイルを調べる
 適用対象:
@@ -23,7 +23,7 @@ ms.locfileid: "44737127"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
-タイルは、データのライブ スナップショットであり、ダッシュボードにピン留めされます。 その値は、データが変更されると変更されます。 **[Power BI サービスでダッシュボードにタイルを追加](../../service-dashboard-tiles.md)します。** 
+タイルは、データのライブ スナップショットであり、ダッシュボードにピン留めされます。 その値は、データが変更されると変更されます。 **[Power BI サービスでダッシュボードにタイルを追加](../end-user-tiles.md)します。** 
 
 その後、Power BI モバイル アプリからタイルをフォーカス モードで開き、操作します。 Bing と R に基づいたタイルを含め、ありとあらゆる種類のビジュアルを使ったタイルを開くことができます。
 

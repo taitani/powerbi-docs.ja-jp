@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8083e2aba9a2aa5b8bba27995e9fe261a76084c9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 380567441fafec92d1f5e9e6b135b797264df40f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728067"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543570"
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Power BI でのレポート ページの複製
-Power BI サービスまたは Power BI Desktop でレポート ページを複製するには、レポートの編集権限が必要です。 Power BI サービスでは、レポートを[編集ビュー](service-reading-view-and-editing-view.md)で開きます。 
+Power BI サービスまたは Power BI Desktop でレポート ページを複製するには、レポートの編集権限が必要です。 Power BI サービスでは、レポートを[編集ビュー](consumer/end-user-reading-view.md)で開きます。 
 
 
 1. Power BI では、少なくとも 1 つのページが含まれるレポートを開きます。 
@@ -36,7 +36,7 @@ Power BI サービスまたは Power BI Desktop でレポート ページを複�
 ### <a name="next-steps"></a>次の手順
 [Power BI レポートでの視覚化](visuals/power-bi-report-visualizations.md)  についての詳細を参照する  
 [レポートに新しいページを追加する](power-bi-report-add-page.md)    
-[Power BI - 基本的な概念](service-basic-concepts.md)    
+[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)    
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

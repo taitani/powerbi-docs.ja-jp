@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727943"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543592"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>チュートリアル: Q&A を使用して視覚エフェクトおよびレポートを作成する方法
-[Q&A の概要](power-bi-q-and-a.md)に関する記事では、Power BI Q&A について紹介し、"*利用者*" (ダッシュボードとレポートの共有を受けているユーザー) と "*作成者*" (基になるレポートとデータセットを所有しているユーザー) の違いを説明しました。 このチュートリアルの前半は、主に Power BI サービスを使ってダッシュボードを利用するユーザー向けに書かれています。 後半は、Power BI サービスまたは Power BI Desktop を使ってレポートを作成するユーザーを対象にしています。 [Q&A と Power BI モバイル](consumer/mobile/mobile-apps-ios-qna.md)および [Q&A と Power BI Embedded](developer/qanda.md) については、別の記事で説明します。
+[Q&A の概要](consumer/end-user-q-and-a.md)に関する記事では、Power BI Q&A について紹介し、"*利用者*" (ダッシュボードとレポートの共有を受けているユーザー) と "*作成者*" (基になるレポートとデータセットを所有しているユーザー) の違いを説明しました。 このチュートリアルの前半は、主に Power BI サービスを使ってダッシュボードを利用するユーザー向けに書かれています。 後半は、Power BI サービスまたは Power BI Desktop を使ってレポートを作成するユーザーを対象にしています。 [Q&A と Power BI モバイル](consumer/mobile/mobile-apps-ios-qna.md)および [Q&A と Power BI Embedded](developer/qanda.md) については、別の記事で説明します。
 
 Q&A は対話型で楽しく、視覚化によってさらに調べるべき点が見つかるため、たいていは 1 つの質問が多数の他の質問につながります。 Q&A を使って視覚エフェクトを作成し、それを詳しく調べて、ダッシュボードに表示する、Amanda のデモンストレーションをご覧ください。
 
@@ -64,7 +64,7 @@ Q&A を使ってデータセットを探索し、レポートとダッシュボ�
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-レポートで Q&A を使うには、レポートと基になっているデータセットの編集アクセス許可が必要です。 [Q&A の概要に関するトピック](power-bi-q-and-a.md)では、これを "*作成者*" のシナリオと呼んでいます。 したがって、作成者ではなく、作成者から共有を受けてレポートを "*利用*" している場合は、Q&A を使うことはできません。
+レポートで Q&A を使うには、レポートと基になっているデータセットの編集アクセス許可が必要です。 [Q&A の概要に関するトピック](consumer/end-user-q-and-a.md)では、これを "*作成者*" のシナリオと呼んでいます。 したがって、作成者ではなく、作成者から共有を受けてレポートを "*利用*" している場合は、Q&A を使うことはできません。
 
 1. 編集ビュー (Power BI サービス) またはレポート ビュー (Power BI Desktop) でレポートを開き、メニュー バーの **[質問する]** を選びます。
 
@@ -98,14 +98,14 @@ Q&A を使ってデータセットを探索し、レポートとダッシュボ�
 Q&A では、データ自身に語らせるだけでなく、Power BI に回答の表示方法を指示することもできます。 質問の最後に "as a <visualization type>" を追加して、視覚化の種類を指定するだけです。  たとえば、「show inventory volume by plant as a map」(工場ごとの在庫量をマップとして表示する)、「show total inventory as a card」(在庫合計をカードとして表示する) などです。  自分で試してみてください。
 
 ##  <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-- ライブ接続またはゲートウェイを使ってデータセットに接続した場合は、Q&A を[そのデータセットで有効にする](service-q-and-a-direct-query.md)必要があります。
+- ライブ接続またはゲートウェイを使ってデータセットに接続した場合は、Q&A を[そのデータセットで有効にする](consumer/end-user-q-and-a-direct-query.md)必要があります。
 
 - レポートを開いていた場合、Q&A のオプションは表示されません。 Power BI サービスを使っている場合は、編集ビューでレポートを開いていることを確認します。 編集ビューを開くことができない場合は、そのレポートの編集アクセス許可がなく、その特定のレポートでは Q&A を使えないことを意味します。
 
 ## <a name="next-steps"></a>次の手順
-「[Power BI での Q&A](power-bi-q-and-a.md) 」に戻る  
+「[Power BI での Q&A](consumer/end-user-q-and-a.md) 」に戻る  
 [チュートリアル: 小売りの分析のサンプルで Q&A を使う](power-bi-visualization-introduction-to-q-and-a.md)   
-[Q&A で質問するためのヒント](service-q-and-a-tips.md)   
+[Q&A で質問するためのヒント](consumer/end-user-q-and-a-tips.md)   
 [Q&A のためのブックの準備](service-prepare-data-for-q-and-a.md)  
-[Q&A 用にオンプレミスのデータセットを準備する](service-q-and-a-direct-query.md)
+[Q&A 用にオンプレミスのデータセットを準備する](consumer/end-user-q-and-a-direct-query.md)
 [Q&A からダッシュボードにタイルをピン留めする](service-dashboard-pin-tile-from-q-and-a.md)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727584"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545799"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI サービスの全画面表示モード
 ## <a name="what-is-full-screen-mode"></a>全画面表示モードの概要
@@ -24,7 +24,7 @@ ms.locfileid: "44727584"
 
 メニューやナビゲーション バーを表示せずに、Power BI コンテンツ (ダッシュボード、レポート ページ、タイル、視覚エフェクト) を表示します。  いつでもひと目でコンテンツの全体図のみを把握できます。 このモードはテレビ モードとも呼ばれます。 全画面表示モードで利用できる機能はコンテンツにより異なります。 
 
-Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile アプリで使用できます](consumer/mobile/mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop にはレポートや視覚エフェクトの全画面表示モードはありませんが、[リレーションシップ ビューとレポート ビュー](desktop-report-view.md)には [ページに合わせる] があり、[レポート ビジュアルにはフォーカス モード](service-focus-mode.md)があります。
+Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile アプリで使用できます](consumer/mobile/mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop にはレポートや視覚エフェクトの全画面表示モードはありませんが、[リレーションシップ ビューとレポート ビュー](desktop-report-view.md)には [ページに合わせる] があり、[レポート ビジュアルにはフォーカス モード](consumer/end-user-focus.md)があります。
 
  
 
@@ -35,7 +35,7 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
 * 小さな画面に表示する
 * ロック モードで再表示する -- 元のレポートやダッシュボードを開かずに、画面をタッチしたり、タイルにマウスでポイントしたりできます。
 
-> **注**: 全画面表示モードは、[フォーカス設定 (ポップアウト) モード](service-focus-mode.md)とは異なります。
+> **注**: 全画面表示モードは、[フォーカス設定 (ポップアウト) モード](consumer/end-user-focus.md)とは異なります。
 > 
 > 
 
@@ -78,7 +78,7 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>全画面表示モードの視覚エフェクトとダッシュボード タイル
-1. ダッシュボード タイルとレポートの視覚エフェクトを全画面表示モードで表示するには、そのタイルまたは視覚エフェクトが[フォーカス モード](service-focus-mode.md)になっている状態で始める必要があります。 
+1. ダッシュボード タイルとレポートの視覚エフェクトを全画面表示モードで表示するには、そのタイルまたは視覚エフェクトが[フォーカス モード](consumer/end-user-focus.md)になっている状態で始める必要があります。 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. 次に、そのタイルまたはビジュアルの全画面表示アイコン ![全画面表示アイコン](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  を選択します。 タイルまたはビジュアルが、メニューまたはナビゲーション バーなしで、全画面表示されます。
@@ -86,8 +86,8 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のダッシュボード](service-dashboards.md)  
-[フォーカス モード](service-focus-mode.md)    
+[Power BI のダッシュボード](consumer/end-user-dashboards.md)  
+[フォーカス モード](consumer/end-user-focus.md)    
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

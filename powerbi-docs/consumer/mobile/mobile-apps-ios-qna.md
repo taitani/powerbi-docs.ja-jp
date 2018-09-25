@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737078"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548113"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS アプリの Q&A 仮想アナリスト - Power BI
 
@@ -137,11 +137,11 @@ Apple iOS 開発者ガイドで、「[What's New in iOS](https://go.microsoft.co
 データセットに対して Q&A 仮想アナリストを使用する場合に結果を向上させるには、質問を絞り込むか、データセットを拡張します。
 
 ### <a name="how-to-ask-questions"></a>質問方法
-* iOS モバイル アプリの Q&A 仮想アナリストまたは Power BI サービスの [Q&A で質問するためのヒント](../../service-q-and-a-tips.md)に従います。
+* iOS モバイル アプリの Q&A 仮想アナリストまたは Power BI サービスの [Q&A で質問するためのヒント](../end-user-q-and-a-tips.md)に従います。
 
 ### <a name="how-to-enhance-the-dataset"></a>データセットを拡張する方法
 * [データを Q&A および Q&A 仮想アナリストに適合させる](../../service-prepare-data-for-q-and-a.md)には、Power BI Desktop または Power BI サービスでデータセットを拡張します。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI での Q&A](../../power-bi-q-and-a.md)
+* [Power BI での Q&A](../end-user-q-and-a.md)
 * わからないことがある場合は、 [Power BI コミュニティのモバイル アプリ セクション](https://go.microsoft.com/fwlink/?linkid=839277)をご覧ください

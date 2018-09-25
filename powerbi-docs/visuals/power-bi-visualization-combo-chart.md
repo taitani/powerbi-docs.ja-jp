@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 732f27a8272c780d156912da904bab82de03f326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737348"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544005"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI の複合グラフ
 Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み合わせた 1 つの視覚化です。 2 つのグラフを 1 つに組み合わせると、データの比較をよりすばやく行うことができます。
@@ -103,13 +103,13 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
 
 ここからは次のことができます。
 
-* [複合グラフをダッシュボード タイルとして追加](../service-dashboard-tiles.md)します。
+* [複合グラフをダッシュボード タイルとして追加](../consumer/end-user-tiles.md)します。
 * [レポートを保存](../service-report-save.md)します。
 * [障碍を持つユーザーのためにレポートをより使いやすくする](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>クロスハイライトとクロス フィルター処理
 
-複合グラフ内の縦棒または折れ線を強調表示すると、レポートのページ上の他の視覚化がクロスハイライトおよびクロス フィルター処理されます。逆の場合も同様です。 [[ビジュアル対話]](../service-reports-visual-interactions.md) を使用すれば、この既定の動作を変更できます。
+複合グラフ内の縦棒または折れ線を強調表示すると、レポートのページ上の他の視覚化がクロスハイライトおよびクロス フィルター処理されます。逆の場合も同様です。 [[ビジュアル対話]](../consumer/end-user-interactions.md) を使用すれば、この既定の動作を変更できます。
 
 ## <a name="next-steps"></a>次の手順
 
@@ -117,6 +117,6 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
 
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - 基本的な概念](../service-basic-concepts.md)
+[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

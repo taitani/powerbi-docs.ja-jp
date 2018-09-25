@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34257231"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545642"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>フィルター処理された Power BI レポートを同僚と共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[レポートを使って共同作業を行ったりレポートを配布したりする方法も他にいくつか](service-how-to-collaborate-distribute-dashboards-reports.md)用意されています。
@@ -28,7 +28,7 @@ Power BI サービスのほとんどの場所から、自分と同じメール �
 ## <a name="filter-and-share-a-report"></a>レポートのフィルター処理と共有
 フィルター処理されたバージョンのレポートを共有したい場合は、どうすればよいでしょうか。 たとえば、特定の都市や販売員、または特定の年のデータだけを表示するレポートを共有したい場合があります。 そのような場合はカスタム URL を作成します。
 
-1. [編集ビュー](service-reading-view-and-editing-view.md)でレポートを開き、フィルターを適用して、レポートを保存します。
+1. [編集ビュー](consumer/end-user-reading-view.md)でレポートを開き、フィルターを適用して、レポートを保存します。
    
    この例では、[小売の分析のサンプル](sample-tutorial-connect-to-the-samples.md)をフィルター処理して、**Territory** が **NC** の値のみを表示します。
    

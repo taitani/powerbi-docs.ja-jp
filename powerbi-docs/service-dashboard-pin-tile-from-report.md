@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240212"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550054"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードにタイルをピン留め
 ## <a name="pinning-tiles-from-a-report"></a>レポートからタイルをピン留め
-新しい[ダッシュボード タイル](service-dashboard-tiles.md)を追加する方法の 1 つは、[Power BI レポート](service-reports.md)から追加することです。 実際、レポートから多数の新しいタイルを追加できます。  各タイルは、クリックするとレポートに戻るリンクです。
+新しい[ダッシュボード タイル](consumer/end-user-tiles.md)を追加する方法の 1 つは、[Power BI レポート](consumer/end-user-reports.md)から追加することです。 実際、レポートから多数の新しいタイルを追加できます。  各タイルは、クリックするとレポートに戻るリンクです。
 
 レポート ページ全体をダッシュボードにピン留めできます。  これは、 *ライブ* タイルのピン留めとも呼ばれています。  ダッシュボードでタイルと対話でき、個々の視覚化タイルとは異なり、レポートに加えられる変更はダッシュボードと同期されているため、*ライブ*と呼ばれます。 詳しくは以下をご覧ください。
 
@@ -58,15 +58,15 @@ Amanda が Power BI レポートからビジュアルとイメージを固定す
 詳細については、「[レポート ページ全体をピン留めする](service-dashboard-pin-live-tile-from-report.md)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のダッシュボード](service-dashboards.md)
+[Power BI のダッシュボード](consumer/end-user-dashboards.md)
 
-[Power BI のダッシュボードのタイル](service-dashboard-tiles.md)
+[Power BI のダッシュボードのタイル](consumer/end-user-tiles.md)
 
-[Power BI のレポート](service-reports.md)
+[Power BI のレポート](consumer/end-user-reports.md)
 
 [Power BI でのデータの更新](refresh-data.md)
 
-[Power BI - 基本的な概念](service-basic-concepts.md)
+[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

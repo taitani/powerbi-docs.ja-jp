@@ -10,16 +10,16 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726871"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546259"
 ---
 # <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
 ## <a name="what-is-meant-by-certified"></a>*認定* とは
-*認定済みカスタム ビジュアル*とは、一連のコードの要件を満たし、厳密なセキュリティ テストに合格したものです。  カスタム ビジュアルが認定されたら、[PowerPoint にエクスポートすることができ](service-publish-to-powerpoint.md)、ユーザーが[レポート ページをサブスクライブ](service-report-subscribe.md)したときに受け取るメールにそれが表示されます。 もちろん、[標準カスタム ビジュアル](power-bi-custom-visuals.md)として使用したり、Power BI サービスと Power BI Desktop レポートに追加したり、Power BI モバイルで表示したり、埋め込んだりすることもできます。
+*認定済みカスタム ビジュアル*とは、一連のコードの要件を満たし、厳密なセキュリティ テストに合格したものです。  カスタム ビジュアルが認定されたら、[PowerPoint にエクスポートすることができ](consumer/end-user-powerpoint.md)、ユーザーが[レポート ページをサブスクライブ](consumer/end-user-subscribe.md)したときに受け取るメールにそれが表示されます。 もちろん、[標準カスタム ビジュアル](power-bi-custom-visuals.md)として使用したり、Power BI サービスと Power BI Desktop レポートに追加したり、Power BI モバイルで表示したり、埋め込んだりすることもできます。
 
 独自の視覚エフェクトを作成して [Microsoft AppSource](https://appsource.microsoft.com) に追加することに興味がある Web 開発者の方は、 「[開発者ツールの概要](service-custom-visuals-getting-started-with-developer-tools.md)」をご覧ください。
 
