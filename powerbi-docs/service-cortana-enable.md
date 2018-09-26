@@ -1,20 +1,20 @@
 ---
 title: Power BI 用に Cortana をアクティブ化する
 description: Cortana を Power BI で使用して、データから回答を得ることができます。 Power BI のデータセットごとに Cortana をアクティブ化した後、Windows デバイスから Cortana がデータセットにアクセスできるようにします。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/20/2017
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 40dd75becc890c48e8d1b2a7dc10381896ceed71
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0d6042cece6bbe4c7618190938a8e1f93edf5480
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252349"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187078"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana を有効にし、Power BI レポート (とその基礎データセット) にアクセスできるようにする
 「[Power BI 用の Cortana の概要](service-cortana-intro.md)」を読み (まだの場合は先に読んでおいてください)、 自分で試してみたい場合、  Cortana で自然言語を使って質問し、Power BI ***レポート***に格納されたデータから回答を検索できるようにするには、前提条件がいくつかあります。 具体的には、次を行う必要があります。

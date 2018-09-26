@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 1260f2c69a4ab913f7451671ab7821ee250998c0
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566328"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187239"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Power BI のビジュアルのサイズを最適化する
 既定では、新しく作成したレポートのビジュアルは "*レスポンシブ*" になります。ビジュアルは画面のサイズに関係なく、最大量のデータとインサイトを表示できるように動的に変化します。 古いレポートのビジュアルも、動的にサイズが変わるように設定できます。
 
 ビジュアルがサイズを変更するとき、Power BI はデータ ビューを優先します (たとえば、自動的に余白を削除し凡例をビジュアルの上部に移動します)。これにより、ビジュアルは小さくなっても引き続き有益な情報を提供できます。 電話の Power BI モバイル アプリのビジュアルでは、応答性が特に役立ちます。
 
-![レスポンシブ ビジュアルのサイズ変更](./media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
+![レスポンシブ ビジュアルのサイズ変更](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
 
 X 軸と Y 軸のあるすべてのビジュアルおよびスライサーは、レスポンシブにサイズを変更できます。
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>Power BI Desktop で応答性をオンにする
 1. Power BI Desktop の古いレポートの **[表示]** タブで、**[デスクトップ レイアウト]** になっていることを確認します。
    
-    ![[デスクトップ レイアウト] アイコン](./media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
+    ![[デスクトップ レイアウト] アイコン](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
 2. ビジュアルを選択し、**[視覚エフェクト]** ウィンドウで **[書式]** セクションを選択します。
 3. **[全般]** を展開し、**[レスポンシブ]** を **[オン]** にスライドさせます。
    
-    ![レスポンシブがオン](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![レスポンシブがオン](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      これで、[電話用に最適化したレポートを作成](../desktop-create-phone-report.md)し、このビジュアルを追加すると、ビジュアルのサイズが適切に変化します。
 
@@ -44,7 +44,7 @@ Power BI サービスの古いレポートのビジュアルを応答性にす�
 2. ビジュアルを選択し、**[視覚エフェクト]** ウィンドウで **[書式]** セクションを選択します。
 3. **[全般]** を展開し、**[レスポンシブ]** を **[オン]** にスライドさせます。
    
-    ![レスポンシブがオン](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![レスポンシブがオン](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      これで、[このレポートの電話ビューを作成](../desktop-create-phone-report.md)し、このビジュアルを追加すると、ビジュアルのサイズが適切に変化します。
 
