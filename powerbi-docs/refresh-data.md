@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329686"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417374"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 必ず最新のデータを取得することは、多くの場合、正しい意思決定をする上で重要です。 お客様は既に、Power BI の [データの取得] を使ってデータに接続してアップロードしたり、レポートとダッシュボードを作成したりしたことがあるでしょう。 ここで、データが本当に最新のもので、最も意味のあるものかを確認することができます。
@@ -211,8 +211,6 @@ DirectQuery では、Power BI とクラウド内のデータベース間のラ�
 | **データ ソース** | **自動** | **ユーザー構成による手動更新またはスケジュールされた更新** | **ゲートウェイが必要** |
 | --- | --- | --- | --- |
 | Power BI Rest API または Microsoft Stream Analytics を使用して開発されたカスタムのアプリ |はい (ライブ ストリーミング) |いいえ |いいえ |
-
-詳しくは、[Power BI でのリアルタイム ダッシュボードの作成](https://msdn.microsoft.com/library/mt267603.aspx)に関するページをご覧ください。
 
 ## <a name="configure-scheduled-refresh"></a>スケジュールされた更新の構成
 スケジュールされた更新を構成する方法については、「[スケジュールされた更新の構成](refresh-scheduled-refresh.md)」をご覧ください。
