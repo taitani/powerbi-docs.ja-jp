@@ -4,17 +4,16 @@ description: Power BI API を使って、Web アプリに顧客向けのダッ�
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
 ms.date: 07/26/2018
-ms.openlocfilehash: 2d722428ce2029ef4689e6b4bf5dfcdd208baff8
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: c9e38f3ca1c8ee43ab9d51d621dfc7d835c39db1
+ms.sourcegitcommit: 767c0d770e32e91ff28a176f79595fab523f69eb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39255873"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48039441"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>チュートリアル: Power BI のダッシュボード、タイル、レポートをソブリン クラウド向けアプリケーションに埋め込む
 顧客向けのダッシュボード、タイル、またはレポートを、Power BI .NET SDK と Power BI JavaScript API を使って Web アプリに統合する (埋め込む) 方法を説明します。 通常、これは ISV のシナリオです。
@@ -415,3 +414,4 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 * 現在、GCC アカウントは P および EM 容量のみをサポートします
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+
