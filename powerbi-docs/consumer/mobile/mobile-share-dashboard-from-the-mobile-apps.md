@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 40d3e311e9ff9276200a37cabf2d29b324f83f7b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737163"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271649"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI モバイル アプリからダッシュボードまたはレポートを共有する
 適用対象:
@@ -23,7 +23,7 @@ ms.locfileid: "44737163"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
-[Power BI Pro ライセンス](../../service-free-vs-pro.md)があると、Power BI モバイル アプリからリンクを共有することにより、ダッシュボードやレポートを見るよう他のユーザーを招待できます。 同じ組織に属しているかどうか、会社のメール アカウントを持っているかどうかに関係なく、どのようなユーザーとでも共有できます。 ただし、他のユーザーも Power BI Pro ライセンスを持っているか、またはコンテンツを [Premium 容量](../../service-premium.md)に格納する必要があります。
+[Power BI Pro ライセンス](../../service-features-license-type.md)があると、Power BI モバイル アプリからリンクを共有することにより、ダッシュボードやレポートを見るよう他のユーザーを招待できます。 同じ組織に属しているかどうか、会社のメール アカウントを持っているかどうかに関係なく、どのようなユーザーとでも共有できます。 ただし、他のユーザーも Power BI Pro ライセンスを持っているか、またはコンテンツを [Premium 容量](../../service-premium.md)に格納する必要があります。
 
 iOS および Android デバイス用 Power BI モバイル アプリから、[タイル、レポート、または視覚エフェクトのスナップショットに注釈を付けて、だれかと共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)することもできます。 
 

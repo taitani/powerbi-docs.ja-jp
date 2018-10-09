@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37926598"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271902"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -120,7 +120,7 @@ Power BI を利用するために組織が行う必要がある管理操作は�
     Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>既存のユーザーが Power BI の使用を開始できないようにするにはどうすればよいですか。
-ユーザーが Power BI にサインアップできないようにするために、管理者として実行できる手順があります。 このブロックを実行すると、ユーザーのサインアップは失敗し、ユーザーは組織の管理者に連絡するように指示されます。ライセンスの自動配布 (学生、教職員、およびスタッフ向けの Office 365 for Education など) を既に無効にしている場合は、このプロセスを繰り返す必要はありません。 [詳細情報](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
+ユーザーが Power BI にサインアップできないようにするために、管理者として実行できる手順があります。 このブロックを実行すると、ユーザーのサインアップは失敗し、ユーザーは組織の管理者に連絡するように指示されます。ライセンスの自動配布 (学生、教職員、およびスタッフ向けの Office 365 for Education など) を既に無効にしている場合は、このプロセスを繰り返す必要はありません。 [詳細情報](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
 
 これを制御する AAD 設定は、**AllowAdHocSubscriptions** です。 ほとんどのテナントでは、この設定は有効を意味する true に設定されます。 パートナーを通じて Power BI を入手した場合、これは既定では無効を意味する false に設定されている可能性があります。
 

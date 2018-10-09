@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549939"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271765"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>同僚や他のユーザーと自分の Power BI ダッシュボードやレポートを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の異なる方法でダッシュボードでの共同作業を行ったり、ダッシュボードやレポートを配布](service-how-to-collaborate-distribute-dashboards-reports.md)したりできます。
 
 ![お気に入りのダッシュボードの一覧での共有アイコン](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
 
-共有を行うには、コンテンツの共有先が組織内でも組織外でも、共有元に [Power BI Pro ライセンス](service-free-vs-pro.md)が必要です。 共有先にも Power BI Pro ライセンスが必要です。または、コンテンツを [Premium 容量](service-premium.md)に格納する必要があります。 
+共有を行うには、コンテンツの共有先が組織内でも組織外でも、共有元に [Power BI Pro ライセンス](service-features-license-type.md)が必要です。 共有先にも Power BI Pro ライセンスが必要です。または、コンテンツを [Premium 容量](service-premium.md)に格納する必要があります。 
 
 Power BI サービスでは、ほとんどの場所からダッシュボードやレポートを共有できます。たとえば、[お気に入り]、[最近]、[自分と共有]\(所有者が許可している場合)、[マイ ワークスペース]、その他のワークスペースなどから共有できます。 同僚とダッシュボードやレポートを共有した場合、共有された相手はそれを表示して操作することはできますが、編集することはできません。 [行レベル セキュリティ (RLS)](service-admin-rls.md) を適用しない限り、自分のダッシュボードやレポートに表示されるものと同じデータが同僚にも表示されます。 共有元のユーザーが許可した場合、共有先のユーザーも同僚と共有できます。 組織外のユーザーも、ダッシュボードやレポートを表示して操作することはできますが、他のユーザーと共有することはできません。 
 

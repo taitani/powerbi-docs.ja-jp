@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c36034ad5e8175e08f1d16c2f5148c5dab0ebbd
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "42702897"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799048"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイでカスタム データ コネクタを使用する
 
@@ -45,8 +45,6 @@ Power BI Desktop でカスタム データ コネクタを使用するレポー�
 
 * 作成するフォルダーに、バック グラウンドのゲートウェイ サービスがアクセスできることを確認します。 通常、ユーザーの Windows フォルダー下のフォルダーやシステム フォルダーにはアクセスできません。 フォルダーにアクセスできない場合、ゲートウェイ構成ウィザードによってメッセージが表示されます (これは、個人用バージョンのゲートウェイには適用されません)
 * オンプレミス データ ゲートウェイで使用するカスタム コネクタには、カスタム コネクタのコードで "TestConnection" セクションを実装する必要があります。 これは Power BI Desktop でカスタム コネクタを使用する場合には必要ありません。 Desktop で機能するカスタム コネクタを持つことはできますが、この理由からゲートウェイでは機能しません。 TestConnection セクションの実装方法については、[このドキュメント](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)を参照してください。
-* OAuth 認証を使用したカスタム コネクタは、サポートされていません。
-* 直接クエリを使用するカスタム コネクタは、サポートされていません。
 
 ## <a name="next-steps"></a>次の手順
 

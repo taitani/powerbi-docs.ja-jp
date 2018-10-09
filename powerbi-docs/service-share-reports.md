@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fed01feb86530dbee10e446d41799a3e2ccd9e3
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545642"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271511"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>フィルター処理された Power BI レポートを同僚と共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[レポートを使って共同作業を行ったりレポートを配布したりする方法も他にいくつか](service-how-to-collaborate-distribute-dashboards-reports.md)用意されています。
 
-共有する際、共有元と共有先の双方に [Power BI Pro ライセンス](service-free-vs-pro.md)が必要です。または、コンテンツを [Premium 容量](service-premium.md)に格納する必要があります。 Power BI チームへのご提案は、 [Power BI コミュニティ サイト](https://community.powerbi.com/)でフィードバックをお送りください。
+共有する際、共有元と共有先の双方に [Power BI Pro ライセンス](service-features-license-type.md)が必要です。または、コンテンツを [Premium 容量](service-premium.md)に格納する必要があります。 Power BI チームへのご提案は、 [Power BI コミュニティ サイト](https://community.powerbi.com/)でフィードバックをお送りください。
 
 Power BI サービスのほとんどの場所から、自分と同じメール ドメインの同僚とレポートを共有できます。たとえば、[お気に入り]、[最近]、[自分と共有]\(所有者が許可していれば)、[マイ ワークスペース]、または他のワークスペースから共有できます。 同僚とレポートを共有した場合、共有先のユーザーはレポートを表示して操作することはできますが、レポートを編集することはできません。 [行レベル セキュリティ (RLS)](service-admin-rls.md) が適用されていない限り、自分のレポートに表示されるものと同じデータが同僚にも表示されます。 
 
