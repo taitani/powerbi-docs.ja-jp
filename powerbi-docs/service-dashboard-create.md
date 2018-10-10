@@ -8,22 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: 462e9b1d991690846c57a225552b271fca19499c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544397"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908649"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
-[Power BI のダッシュボード](consumer/end-user-dashboards.md)を読んで、次は自分のダッシュボードを作成しようと思われるでしょう。 ダッシュボードを作成するには、レポートから、何もない状態から、データセットから、既存のダッシュボードを複製して、それ以外の方法など、さまざまな方法があります。  
+[Power BI のダッシュボード](service-dashboards.md)を読んで、次は自分のダッシュボードを作成しようと思われるでしょう。 ダッシュボードを作成するには、レポートから、何もない状態から、データセットから、既存のダッシュボードを複製して、それ以外の方法など、さまざまな方法があります。  
 
 初めて取り掛かるときは難しそうに見えるかもしれません。そこで、まずはレポートから視覚エフェクトをピン留めして、手早く簡単にダッシュボードを作成します。レポートはあらかじめ用意されているものを使用します。 このクイック スタートを終えれば、ダッシュボードとレポートとの関係やレポート エディターでの編集ビューの開き方、タイルのピン留め、ダッシュボードとレポートの間の移動について理解が深まっているでしょう。 その次は左側の目次のリンク、または下部の**次のステップ**から、より高度なトピックに進みます。
 
 ## <a name="who-can-create-a-dashboard"></a>ダッシュボードを作成できるユーザー
-ダッシュボードの作成は**作成者**の機能であり、レポートに対する編集のアクセス許可が必要です。 編集のアクセス許可はレポート作成者と、作成者からアクセス許可を付与された同僚が使用できます。 たとえば、David が WorkspaceABC でレポートを作成し、そのワークスペースのメンバーとしてユーザーを追加した場合、David とそのユーザーの両方に編集のアクセス許可があることになります。 これに対して、直接または [Power BI アプリ](consumer/end-user-apps.md)の一部としてレポートが共有されている場合 (ユーザーはレポートを**使用**します)、ダッシュボードにタイルをピン留めすることはできません。
+ダッシュボードの作成は**作成者**の機能であり、レポートに対する編集のアクセス許可が必要です。 編集のアクセス許可はレポート作成者と、作成者からアクセス許可を付与された同僚が使用できます。 たとえば、David が WorkspaceABC でレポートを作成し、そのワークスペースのメンバーとしてユーザーを追加した場合、David とそのユーザーの両方に編集のアクセス許可があることになります。 これに対して、直接または [Power BI アプリ](service-create-distribute-apps.md)の一部としてレポートが共有されている場合 (ユーザーはレポートを**使用**します)、ダッシュボードにタイルをピン留めすることはできません。
 
 > **注**: ダッシュボードは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードを作成することはできませんが、[表示して共有する](consumer/mobile/mobile-apps-view-dashboard.md)ことはできます。
 >
@@ -65,7 +65,7 @@ Power BI サンプル データセットの 1 つをインポートし、それ�
 1. 同じワークスペースにとどまった状態で、**[レポート]** タブを選択します。新しくインポートしたレポートが、黄色のアスタリスク付きで表示されます。 レポート名を選択してレポートを開きます。
 
     ![レポート タブ](media/service-dashboard-create/power-bi-reports.png)
-2. [読み取りビュー](consumer/end-user-reading-view.md)でレポートが開きます。 下部に 2 つのタブがあります。割引分析と支出概要です。 各タブはレポートのページを表します。
+2. 読み取りビューでレポートが開きます。 下部に 2 つのタブがあります。割引分析と支出概要です。 各タブはレポートのページを表します。
     **[レポートの編集]** を選んで、編集ビューでレポートを開きます。
 
     ![読み取りビューのレポート](media/service-dashboard-create/power-bi-reading-view.png)
@@ -108,9 +108,9 @@ Power BI サンプル データセットの 1 つをインポートし、それ�
 
 ## <a name="next-steps"></a>次の手順
 * [タイルのサイズを変更したり、移動したりする](service-dashboard-edit-tile.md)
-* [ダッシュボードのタイルの概要](consumer/end-user-tiles.md)
-* [アプリを作成することによってダッシュボードを共有する](consumer/end-user-create-apps.md)
-* [Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+* [ダッシュボードのタイルの概要](service-dashboard-tiles.md)
+* [アプリを作成することによってダッシュボードを共有する](service-install-use-apps.md)
+* [Power BI - 基本的な概念](service-basic-concepts.md)
 * [優れたダッシュボードのデザインに関するヒント](service-dashboards-design-tips.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

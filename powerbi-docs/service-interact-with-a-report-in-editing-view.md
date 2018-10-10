@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186655"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908309"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI サービスの編集ビューでレポートと対話する
 レポートは、Power BI サービスと Power BI Desktop で作成および編集することができます。 Power BI サービスでは、レポートは**編集ビュー**で作成および編集できます。 Power BI Desktop では、レポートは[**レポート ビュー**](desktop-report-view.md)で作成および編集できます。 この記事では、Power BI サービスの編集ビューについて説明します。 
 
 Power BI サービスにはレポートと対話するための 2 つの異なるモード (レポートの "*コンシューマー*" 用の[読み取りビュー](consumer/end-user-reading-view.md)およびレポートの所有者と作成者用の編集ビュー) があります。  レポートの共有や、他のユーザーが作成したレポートの編集には、Power BI Pro ライセンスが必要です。 Pro ライセンスがある場合、引き続きレポートを作成することはできますが、[レポートを共有](service-share-reports.md)することはできません。    
 
-レポートの編集ビューには、レポートの探索と設計の両方に関する高い柔軟性が備わっています。 [読み取りビュー](consumer/end-user-reading-view.md)のすべての機能の他に、さらに多くの機能を使用できます。 編集ビューは、レポートの作成者、または[アプリ ワークスペースのメンバーまたは管理者としてレポートを共同所有している](consumer/end-user-create-apps.md)同僚のみが使用できます。
+レポートの編集ビューには、レポートの探索と設計の両方に関する高い柔軟性が備わっています。 [読み取りビュー](consumer/end-user-reading-view.md)のすべての機能の他に、さらに多くの機能を使用できます。 編集ビューは、レポートの作成者、または[アプリ ワークスペースのメンバーまたは管理者としてレポートを共同所有している](service-create-distribute-apps.md)同僚のみが使用できます。
 
 ## <a name="functionality-only-available-in-editing-view"></a>編集ビューでのみ使用できる機能
 左側の目次で「**レポート**」という見出しのトピック一覧をご覧ください。 *レポートの編集アクセス許可を持っている場合にのみ使用できる*機能に関するトピックが多数あります。  目次を使用する場合、以下の操作には編集ビューが必要です。

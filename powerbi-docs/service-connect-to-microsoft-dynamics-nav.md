@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a00913ea326f472993553910a79e3cc208356499
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546719"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908902"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Power BI で Microsoft Dynamics NAV に接続する
 Power BI を使用すると、Microsoft Dynamics NAV データから洞察を得ることができます。 Power BI は、売上と財務の両方のデータを取得し、そのデータに基づいてダッシュボードとレポートを含むアプリを作成します。 Power BI を使うには、データの取得元のテーブル (この例では、売上と財務のデータ) に対するアクセス許可が必要です。 要件の詳細については、このあと説明します。 アプリをインストールすると、Power BI サービス ([https://powerbi.com](https://powerbi.com)) と Power BI モバイル アプリでダッシュボードとレポートを表示できます。 
@@ -25,9 +25,9 @@ Power BI を使用すると、Microsoft Dynamics NAV データから洞察を得
 ## <a name="how-to-connect"></a>接続する方法
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. **[Microsoft Dynamics NAV]** を選択し、**[取得]** を選択します。  
+3. **[Microsoft Dynamics NAV]** を選択し、**[取得]** を選択します。  
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
-2. メッセージが表示されたら、Microsoft Dynamics NAV の OData URL を入力します。 URL は、次のパターンに一致する必要があります。
+4. メッセージが表示されたら、Microsoft Dynamics NAV の OData URL を入力します。 URL は、次のパターンに一致する必要があります。
    
     `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
@@ -37,12 +37,12 @@ Power BI を使用すると、Microsoft Dynamics NAV データから洞察を得
      
      この URL を取得する簡単な方法は、Dynamics NAV で Web サービスに移動し、powerbifinance Web サービスを検索し、OData URL をコピーすることです。ただし、URL 文字列から "/powerbifinance" を除きます。  
      ![](media/service-connect-to-microsoft-dynamics-nav/param.png)
-3. **[基本]** を選択し、Microsoft Dynamics NAV の資格情報を入力します。
+5. **[基本]** を選択し、Microsoft Dynamics NAV の資格情報を入力します。
    
     使用する Microsoft Dynamics NAV アカウントには、管理者の資格情報 (または、少なくとも売上と財務のデータに対するアクセス許可) が必要です。  現在、基本 (ユーザー名とパスワード) 認証のみがサポートされています。
    
     ![](media/service-connect-to-microsoft-dynamics-nav/creds.png)
-4. Power BI は、Microsoft Dynamics NAV データを取得して、すぐに使用できるダッシュボードとレポートを作成します。   
+6. Power BI は、Microsoft Dynamics NAV データを取得して、すぐに使用できるダッシュボードとレポートを作成します。   
    ![](media/service-connect-to-microsoft-dynamics-nav/dashboard.png)
 
 ## <a name="view-the-dashboard-and-reports"></a>ダッシュ ボードとレポートを表示する
@@ -99,7 +99,7 @@ Microsoft Dynamics NAV の資格情報を使用してログインした後、"lo
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI のアプリについて](consumer/end-user-apps.md)
+* [Power BI のアプリについて](service-create-distribute-apps.md)
 * [Power BI でデータを取得する](service-get-data.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

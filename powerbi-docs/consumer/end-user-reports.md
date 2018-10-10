@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564837"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908626"
 ---
 # <a name="reports-in-power-bi"></a>Power BI のレポート
 ## <a name="what-is-a-power-bi-report"></a>Power BI レポートとは
@@ -67,7 +67,7 @@ Power BI を初めて使うときは、「[Power BI - 基本的な概念](end-us
 * まず、[Power BI サービスのツアー](end-user-basic-concepts.md)を利用して、レポートとレポート ツールをどこで探せばよいかを理解します。
 * [レポートを開く](end-user-report-open.md)方法と、[読み取りビュー](end-user-reading-view.md)で実行できるすべての対話的操作について学習します。
 * いずれかの[サンプル](../sample-tutorial-connect-to-the-samples.md)のツアーを利用してレポートに慣れます。  
-* レポートが不要になりましたか? その場合は、[削除](end-user-delete.md)できます。
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * レポートでどのデータセットが使われているか、また、どのダッシュボードにレポートからタイルがピン留めされているかを確認するには、[関連するコンテンツを表示](end-user-related.md)します。
 
 > [!TIP]
@@ -79,6 +79,4 @@ Power BI を初めて使うときは、「[Power BI - 基本的な概念](end-us
 [Power BI とは?](../power-bi-overview.md) 
 
 [Power BI - 基本的な概念](end-user-basic-concepts.md)
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

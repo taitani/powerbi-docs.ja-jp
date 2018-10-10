@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1bb1831d37dc3f8bfe5ee141859cbccec541735e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548697"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908787"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Power BI で Google Analytics に接続する
 Power BI で Google アナリティクスに接続するには、最初に Google アナリティクス アカウントに接続します。 Power BI ダッシュ ボードと一連の Power BI レポートが表示され、お客様のサイト トラフィックとユーザー ディメンションに関する詳細情報が提供されます。 ダッシュボードとレポートは操作できますが、変更内容は保存できません。 データは、1 日 1 回自動的に更新されることになります。
@@ -27,16 +27,16 @@ Power BI Desktop では、[Google アナリティクス コネクタ](service-go
 ## <a name="how-to-connect"></a>接続する方法
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. **[Google Analytics]** \> **[取得]** の順に選択します。
+3. **[Google Analytics]** \> **[取得]** の順に選択します。
    
    ![](media/service-connect-to-google-analytics/ga.png)
-2. メッセージが表示されたら、Google アナリティクス資格情報を入力します。 認証方法として **[oAuth 2]** を選択し、**[サインイン]** をクリックします。 Google の認証フローに従います。2 段階認証を構成した場合には、それに従います。
+4. メッセージが表示されたら、Google アナリティクス資格情報を入力します。 認証方法として **[oAuth 2]** を選択し、**[サインイン]** をクリックします。 Google の認証フローに従います。2 段階認証を構成した場合には、それに従います。
    
    ![](media/service-connect-to-google-analytics/creds.png)
-3. **[承諾]** をクリックし、Power BI が Google アナリティクス データにアクセスできるようにします。
+5. **[承諾]** をクリックし、Power BI が Google アナリティクス データにアクセスできるようにします。
    
    ![](media/service-connect-to-google-analytics/googleanalytics.png)
-4. Power BI は、特定の Google アナリティクス ビューに接続します。 接続するアカウント名、プロパティ名、およびビュー名を選択します。 この情報は、Google アナリティクス アカウントの左上または **[ホーム]** タブで確認できます。以下で詳細を確認してください。 
+6. Power BI は、特定の Google アナリティクス ビューに接続します。 接続するアカウント名、プロパティ名、およびビュー名を選択します。 この情報は、Google アナリティクス アカウントの左上または **[ホーム]** タブで確認できます。以下で詳細を確認してください。 
    
    ![](media/service-connect-to-google-analytics/params2.png)
 5. **[接続]** をクリックしてインポート プロセスを開始します。 
@@ -44,7 +44,7 @@ Power BI Desktop では、[Google アナリティクス コネクタ](service-go
 ## <a name="view-the-google-analytics-dashboard-and-reports"></a>Google アナリティクスのダッシュボードとレポートを表示する
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![](media/service-connect-to-google-analytics/googleanalytics2.png)
+   ![](media/service-connect-to-google-analytics/googleanalytics2.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -69,7 +69,7 @@ Google にサインインできても、資格情報が無効であることを�
 * Power BI サポート サイト (現在ご覧になっているこの記事) ページの右側にある、 **[サポートへの問い合わせ]** を選択します。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI のアプリについて](consumer/end-user-apps.md)
+* [Power BI のアプリについて](service-create-distribute-apps.md)
 * [Power BI でデータを取得する](service-get-data.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

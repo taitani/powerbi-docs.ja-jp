@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad430f438bb6418378b13f3104f87a3bd972a2e4
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: c732d1128719db500e13194d36ba1db2605efd2c
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271879"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908699"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Power BI アプリ ワークスペースの OneDrive に保存されているファイルに接続する
-[Power BI にアプリ ワークスペースを作成](consumer/end-user-create-apps.md)した後、Excel、CSV、Power BI Desktop などのファイルを Power BI アプリ ワークスペースの OneDrive for Business に保存できるようになりました。 OneDrive に保存したファイルは引き続き更新可能で、それらのファイルに基づく Power BI レポートやダッシュボードに更新が自動的に適用されます。 
+[Power BI にアプリ ワークスペースを作成](service-create-distribute-apps.md)した後、Excel、CSV、Power BI Desktop などのファイルを Power BI アプリ ワークスペースの OneDrive for Business に保存できるようになりました。 OneDrive に保存したファイルは引き続き更新可能で、それらのファイルに基づく Power BI レポートやダッシュボードに更新が自動的に適用されます。 
 
 > [!NOTE]
 > 新しいワークスペース エクスペリエンス プレビューでは、Power BI ワークスペースと Office 365 グループ間の関係が変わります。 新しいワークスペースのいずれかを作成するたびに、Office 365 グループが自動的に作成されることはありません。 新しいワークスペース (プレビュー) の作成については、[こちら](service-create-the-new-workspaces.md)を参照してください。
@@ -79,7 +79,7 @@ ms.locfileid: "48271879"
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI でアプリとアプリ ワークスペースを作成する](consumer/end-user-create-apps.md)
+* [Power BI でアプリとアプリ ワークスペースを作成する](service-create-distribute-apps.md)
 * [Excel ブックからデータをインポートする](service-get-data-from-files.md)
 * [Excel ブック全体に接続する](service-excel-workbook-files.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

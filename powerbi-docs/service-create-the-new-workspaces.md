@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5a94b4c808dcb7cbb040f68c0de7588a3b99c155
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548835"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909017"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI で新しいワークスペース (プレビュー) を作成する
 
@@ -130,7 +130,7 @@ Power BI では、新しいワークスペース エクスペリエンスがプ�
 
 ## <a name="distribute-an-app"></a>アプリを配布する
 
-コンテンツが用意できたら、公開するダッシュボードやレポートを選択し、それを*アプリ* として公開します。 各ワークスペースから 1 つのアプリを作成できます。 同僚はいくつかの異なる方法でアプリを取得することができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 また、同僚はアプリを Microsoft AppSource で検索してインストールすることも、送信された直接リンクを使用することもできます。 更新プログラムは自動的に取得されます。データの更新頻度は制御することができます。 詳細については、「[Power BI でダッシュボードとレポートを含むアプリを発行する](consumer/end-user-create-apps.md)」を参照してください。
+コンテンツが用意できたら、公開するダッシュボードやレポートを選択し、それを*アプリ* として公開します。 各ワークスペースから 1 つのアプリを作成できます。 同僚はいくつかの異なる方法でアプリを取得することができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 また、同僚はアプリを Microsoft AppSource で検索してインストールすることも、送信された直接リンクを使用することもできます。 更新プログラムは自動的に取得されます。データの更新頻度は制御することができます。 詳細については、「[Power BI でダッシュボードとレポートを含むアプリを発行する](service-create-distribute-apps.md)」を参照してください。
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>古いアプリ ワークスペースを新しいアプリ ワークスペースに変換する
 
@@ -172,7 +172,6 @@ Power BI では、新しいワークスペース エクスペリエンスがプ�
 - ワークスペースが Premium 容量から共有容量に移動された後、場合によっては、無料ユーザーおよびユーザー グループが受信できないはずのメールを引き続き受信します。 サブスクリプションを作成するユーザーのマイ ワークスペースが Premium 容量にある場合に、この問題が発生します。
 
 ## <a name="next-steps"></a>次の手順
-
-- [現在のワークスペースを作成する](service-create-workspaces.md)
-* [Power BI にアプリをインストールし、使用する](consumer/end-user-apps.md)
+* [現在のワークスペースを作成する](service-create-workspaces.md)
+* [Power BI にアプリをインストールし、使用する](service-create-distribute-apps.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

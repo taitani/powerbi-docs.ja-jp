@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 334bffeabbf5342c21424fa5d9907eba7e71fd4e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546121"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909040"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -205,7 +205,7 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 > [!NOTE]
 > テナント設定の変更が有効になるまで時間がかかることに注意してください。
 
-アプリのプッシュの詳細については、[こちら](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users)をご覧ください。
+アプリのプッシュの詳細については、[こちら](service-create-distribute-apps.md)をご覧ください。
 
 ## <a name="integration-settings"></a>統合の設定
 

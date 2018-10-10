@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548490"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908533"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
@@ -33,7 +33,7 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | ゲートウェイが必要 | いいえ | オンプレミス データ ソースでは必要 |  
 | リアルタイム ストリーミング | いいえ | はい | [Power BI のリアルタイム ストリーミング](../service-real-time-streaming.md)
 | ダッシュボード | いいえ | はい | [Power BI サービスのダッシュボード](../consumer/end-user-dashboards.md) 
-| アプリを使用した一群のレポートの配布 | いいえ | はい | [Power BI でダッシュボードとレポートを含むアプリを作成して発行する](../consumer/end-user-create-apps.md) 
+| アプリを使用した一群のレポートの配布 | いいえ | はい | [Power BI でダッシュボードとレポートを含むアプリを作成して発行する](../service-create-distribute-apps.md) 
 | コンテンツ パック | いいえ | はい | [組織のコンテンツ パック: 概要](../service-organizational-content-pack-introduction.md) 
 | Salesforce などのサービスへの接続 | いいえ | はい | Power BI サービスで[使用するサービスに接続する](../consumer/end-user-connect-to-services.md)
 | Q&A | いいえ | はい | [Power BI サービスと Power BI Desktop の Q&A](../consumer/end-user-q-and-a.md) 

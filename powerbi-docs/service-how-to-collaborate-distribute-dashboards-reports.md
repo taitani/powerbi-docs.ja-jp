@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271715"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908971"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI で共同作業および共有を行う方法
 
@@ -57,7 +57,7 @@ ms.locfileid: "48271715"
 
 ![アプリを公開する](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) で簡単に検索してインストールすることができます。 アプリへの直接リンクをビジネス ユーザーに送信したり、ユーザーが AppSource でアプリを検索しりすることができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 詳細については、[アプリの発行](consumer/end-user-create-apps.md)に関するページを参照してください。 
+アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) で簡単に検索してインストールすることができます。 アプリへの直接リンクをビジネス ユーザーに送信したり、ユーザーが AppSource でアプリを検索しりすることができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 詳細については、[アプリの発行](service-create-distribute-apps.md)に関するページを参照してください。 
 
 インストールしたアプリは、ブラウザーまたはモバイル デバイスで表示できます。
 
@@ -99,7 +99,7 @@ Power BI サービスからダッシュボード全体、ダッシュボード�
 
 ## <a name="next-steps"></a>次の手順
 * [同僚や他のユーザーとダッシュボードを共有する](service-share-dashboards.md)
-* [Power BI でのアプリの作成および発行](consumer/end-user-create-apps.md)
+* [Power BI でのアプリの作成および発行](service-create-distribute-apps.md)
 * ご意見およびご提案がある場合は、 [Power BI コミュニティ サイト](https://community.powerbi.com/)をご利用ください。
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 
