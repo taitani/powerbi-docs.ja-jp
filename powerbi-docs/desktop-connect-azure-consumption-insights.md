@@ -39,7 +39,7 @@ ms.locfileid: "39329916"
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
-  このバージョンのコネクタでサポートされるのは、https://ea.azure.com からのエンタープライズ登録のみです。 現在、中国での登録はサポートされていません。
+  このバージョンのコネクタでサポートされるのは、 https://ea.azure.com からのエンタープライズ登録のみです。 現在、中国での登録はサポートされていません。
 
 次に、接続するための*アクセス キー*を指定します。
 
