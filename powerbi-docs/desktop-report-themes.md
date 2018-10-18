@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657945"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512181"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポートのテーマを使用する
 **レポートのテーマ**では、企業の色、季節の色、または適用する可能性がある他の色のテーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。
@@ -36,7 +36,17 @@ ms.locfileid: "39657945"
 常に、**Power BI Desktop** の最新リリースにアップグレードすることをお勧めします。これは、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」内のリンクから取得できます。 
 
 ## <a name="how-report-themes-work"></a>レポートのテーマのしくみ
-Power BI Desktop レポートにレポートのテーマを適用するには、**[ホーム]** リボンから **[テーマの切り替え]** ボタンを選択し、ドロップダウン リストから **[テーマのインポート]** を選択します。
+Power BI Desktop レポートにレポート テーマを適用するには、使用可能な組み込みのレポート テーマから選択するか、またはカスタムのテーマをインポートします。
+
+使用可能な組み込みのレポート テーマから選択するには、**[ホーム]** リボンから **[テーマの切り替え]** ボタンを選択し、ドロップダウン メニューからいずれかの組み込みのテーマを選択します。
+
+![レポート テーマの選択](media/desktop-report-themes/report-themes_2a.png)
+
+レポート テーマがレポートに適用され、準備が整いました。
+
+### <a name="importing-report-themes"></a>レポート テーマのインポート
+
+カスタムのレポート テーマをインポートするには、**[ホーム]** リボンから **[テーマの切り替え]** ボタンを選択し、ドロップダウン リストから **[テーマのインポート]** を選択します。
 
 ![](media/desktop-report-themes/report-themes_3.png)
 

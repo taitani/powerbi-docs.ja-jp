@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657876"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512066"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -53,6 +53,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * XML
 * JSON
 * フォルダー
+* PDF (ベータ)
 * SharePoint フォルダー
 
 次の図は、 **[ファイル]** の **[データの取得]** ウィンドウを示しています。
@@ -79,7 +80,8 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Impala
 * Google BigQuery
 * Snowflake
-* Exasol
+* Exasol (ベータ)
+* Jethro (ベータ)
 
 > [!NOTE]
 > 一部のデータベース コネクタの場合、有効にするためには、**[ファイル]、[オプションと設定]、[オプション]** の順に選択し、**[プレビュー機能]** を選択し、コネクタを有効にする必要があります。 前途コネクタの一部が表示されず、その中に使用したいコネクタも含まれている場合は、**[プレビュー機能]** を確認してください。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されていることにもご注意ください。運用環境では利用しないでください。
@@ -93,6 +95,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 **[Power BI]** カテゴリには、次のデータ接続があります。
 
 * Power BI データ セット
+* Power BI データフロー (ベータ)
 
 次の図は、**[Power BI]** の **[データの取得]** ウィンドウを示しています。
 
@@ -108,7 +111,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure Cosmos DB (ベータ版)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark (Beta)
+* Azure HDInsight Spark
 * HDInsight 対話型クエリ (Beta)
 * Azure KustoDB (Beta)
 
@@ -169,6 +172,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Hadoop ファイル (HDFS)
 * Spark
 * R スクリプト
+* Python スクリプト
 * ODBC
 * OLE DB
 * 空のクエリ

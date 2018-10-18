@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280756"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512158"
 ---
-# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Power BI Desktop のレポート ページを基にしてヒントを作成する (プレビュー)
+# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop のレポート ページを基にしてヒントを作成する
 **Power BI Desktop** で作成したレポート ページを基にして、ビジュアルをマウス ポインターでポイントすると表示されるさまざまな視覚的**レポート ヒント**を作成できます。 ヒントとして機能するレポート ページを作成することにより、レポート ページで作成したビジュアル、イメージ、その他の項目のコレクションを、カスタム ヒントに含めることができます。 
 
 ![Power BI Desktop のレポート ヒント](media/desktop-tooltips/desktop-tooltips_00a.png)
@@ -27,11 +27,15 @@ ms.locfileid: "39280756"
 レポート ヒントではさまざまなことができます。 以下では、ヒントを作成する方法と、それを構成するために行う必要があることを説明します。
 
 ### <a name="enable-the-tooltips-preview"></a>ヒントのプレビューを有効にする 
-レポート ヒントは現在プレビュー期間なので、レポート ヒントを作成するには、先に機能を有効にする必要があります。 レポート ヒントのプレビュー機能を有効にするには、Power BI Desktop で **[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能]** の順に選択し、**[レポート ページのヒント]** のチェック ボックスをオンにします。 
+**Power BI Desktop** の 2018 年 9 月のリリースとして、ヒントは一般公開されており、有効にする必要はありません。 
+
+以前のバージョンの **Power BI Desktop** を使用している場合は、Power BI Desktop で **[ファイル]、[オプションと設定]、[オプション]、[プレビュー機能]** の順に選択して、プレビュー機能として有効にすると、**[レポート ページのヒント]** の横にあるチェックボックスを選択できます。 
 
 ![レポート ヒントのプレビュー機能を有効にする](media/desktop-tooltips/desktop-tooltips_01.png)
 
 選択を行った後、プレビュー バージョンのレポート ヒントを有効にするには、**Power BI Desktop** を再起動する必要があります。
+
+常に、**Power BI Desktop** の最新リリースにアップグレードすることをお勧めします。これは、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」内のリンクから取得できます。 
 
 ## <a name="create-a-report-tooltip-page"></a>レポート ヒント ページを作成する
 最初に、**Power BI Desktop** キャンバス下端のページ タブ領域にある **[+]** ボタンをクリックして、新しいレポート ページを作成します。 ボタンはレポートの最後のページにあります。 
@@ -117,8 +121,9 @@ ms.locfileid: "39280756"
 
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
-このプレビュー バージョンのレポート **ヒント**には、注意すべきいくつかの制限事項と考慮事項があります。
+**ヒント**に関して注意すべきいくつかの制限事項と考慮事項があります。
 
+* 2018 年 9 月リリースの **Power BI Desktop** より、ヒントが一般公開され、カード ビジュアルでもヒントがサポートされています。
 * **Power BI Desktop** の 2018 年 7 月のリリース以降、ツールヒントについてテーブルとマトリックスのビジュアルがサポートされています。 
 * モバイル アプリや、Web に公開などの埋め込み環境でレポートを表示するときは、レポート ヒントはサポートされません。 
 * カスタム ビジュアルでは、レポート ヒントはサポートされません。 
