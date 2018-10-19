@@ -1,0 +1,191 @@
+items:
+- name: 利用者向けの Power BI
+  href: power-bi-consumer-landing.md
+- name: Power BI サービス
+  items:
+  - name: 概要
+    items:
+    - name: Power BI コンシューマーとは
+      href: end-user-consumer.md
+    - name: Power BI コンシューマーの基本的な概念と用語
+      href: end-user-basic-concepts.md
+  - name: クイックスタート
+    items:
+    - name: Power BI 内の移動
+      href: end-user-experience.md
+    - name: Power BI の機能
+      href: end-user-reading-view.md
+  - name: チュートリアル
+    items:
+    - name: ダッシュボードのアラートの作成
+      href: end-user-alerts.md
+  - name: 方法
+    items:
+    - name: ダッシュボード
+      items:
+      - name: ダッシュボード
+        href: end-user-dashboards.md
+      - name: おすすめのダッシュボード
+        href: end-user-featured.md
+      - name: データのプッシュ時の
+        href: end-user-tiles.md
+      - name: コメントを追加またはメッセージ交換の開始
+        href: end-user-comment.md
+    - name: レポート
+      items:
+      - name: レポート
+        href: end-user-reports.md
+      - name: レポートの表示
+        href: end-user-report-open.md
+      - name: レポートでフィルターを使用する
+        href: end-user-report-filter.md
+      - name: レポートのビジュアルが互いにクロス フィルターする方法
+        href: end-user-interactions.md
+    - name: 視覚化
+      items:
+      - name: 視覚化とは
+        href: end-user-visualizations.md
+      - name: ビジュアルの作成に使用されたデータを表示する
+        href: end-user-show-data.md
+      - name: Power BI での視覚化のドリルダウン
+        href: end-user-drill.md
+    - name: 一般的なタスク
+      items:
+      - name: フォーカスと全画面モードを使用してコンテンツを拡大するさまざまな方法
+        href: end-user-focus.md
+      - name: Power BI でのお気に入りのダッシュボード、レポート、アプリ
+        href: end-user-favorite.md
+      - name: ダッシュボードの印刷、ダッシュボード タイルの印刷、レポートの印刷
+        href: end-user-print.md
+      - name: 関連するコンテンツの表示
+        href: end-user-related.md
+      - name: 最近のコンテンツの表示
+        href: end-user-recent.md
+      - name: 自分と共有コンテナーでのコンテンツの表示
+        href: end-user-shared-with-me.md
+      - name: レポートまたはダッシュボードにサブスクライブ
+        href: end-user-subscribe.md
+      - name: Power BI でのコンテンツの検索と並べ替え
+        href: end-user-search-sort.md
+      - name: ダッシュ ボード タイルの自動分析情報の表示
+        href: end-user-insights.md
+    - name: データの取得
+      items:
+      - name: アプリをインストールして使用する
+        href: end-user-apps.md
+      - name: サービスへの接続
+        href: end-user-connect-to-services.md
+      - name: 組織のコンテンツ パックを検索して接続する
+        href: end-user-content-pack.md
+    - name: データに関する質問
+      items:
+      - name: Power BI での Q&A
+        href: end-user-q-and-a.md
+      - name: Power BI の Q&A で質問するヒントとテクニック
+        href: end-user-q-and-a-tips.md
+  - name: リソース
+    items:
+    - name: 用語集と用語
+      href: end-user-glossary.md
+    - name: サポートされているブラウザー
+      href: end-user-browsers.md
+    - name: Power BI でサポートされているクイック インサイトの種類
+      href: end-user-insight-types.md
+- name: Power BI モバイル アプリ
+  items:
+  - name: 概要
+    items:
+    - name: モバイル アプリとは
+      href: mobile/mobile-apps-for-mobile-devices.md
+  - name: クイックスタート
+    items:
+    - name: ダッシュボードとレポートの探索
+      href: mobile/mobile-apps-quickstart-view-dashboard-report.md
+  - name: チュートリアル
+    items:
+    - name: iOS モバイル アプリで質問する
+      href: mobile/tutorial-mobile-apps-ios-qna.md
+  - name: 概念
+    items:
+    - name: モバイル アプリの新機能
+      href: mobile/mobile-whats-new-in-the-mobile-apps.md
+    - name: モバイル アプリで現実世界のデータを取得する
+      href: mobile/mobile-apps-data-in-real-world-context.md
+    - name: モバイル アプリでデータをオフライン表示する
+      href: mobile/mobile-apps-offline-data.md
+    - name: Power BI for Mixed Reality アプリ (プレビュー)
+      href: mobile/mobile-mixed-reality-app.md
+  - name: 方法
+    items:
+    - name: すべてのモバイル アプリ
+      items:
+      - name: Power BI モバイル アプリからダッシュボードを共有する
+        href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
+      - name: モバイル アプリのタイルを操作する
+        href: mobile/mobile-tiles-in-the-mobile-apps.md
+      - name: モバイル アプリでのお気に入り
+        href: mobile/mobile-apps-favorites.md
+      - name: Power BI モバイル アプリでデータ アラートを設定する
+        href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: Power BI モバイル アプリで通知を受け取る
+        href: mobile/mobile-apps-notification-center.md
+      - name: 特定の場所に移動するディープ リンクを作成する
+        href: mobile/mobile-apps-deep-link-specific-location.md
+      - name: Power BI モバイル アプリで場所によるレポートをフィルターする
+        href: mobile/mobile-apps-geographic-filtering.md
+      - name: モバイル Power BI 用のダッシュボード
+        href: mobile/mobile-apps-view-dashboard.md
+      - name: モバイル アプリでのレポート
+        href: mobile/mobile-reports-in-the-mobile-apps.md
+      - name: OAuth を使って Reporting Services に接続する
+        href: mobile/mobile-oauth-ssrs.md
+    - name: Android デバイス
+      items:
+      - name: Android アプリの概要
+        href: mobile/mobile-android-app-get-started.md
+      - name: "\"お使いの企業 SSL 証明書が信頼されていません\" を修正する"
+        href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: "\"Android System Webview の更新が必要である\" を修正する"
+        href: mobile/mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: iOS アプリを使ってみる
+        href: mobile/mobile-iphone-app-get-started.md
+      - name: iOS モバイル アプリでの Q&A 仮想アナリスト
+        href: mobile/mobile-apps-ios-qna.md
+      - name: Power BI Apple Watch アプリ
+        href: mobile/mobile-apple-watch.md
+      - name: iPhone のアプリからバーコードをスキャンする
+        href: mobile/mobile-apps-scan-barcode-iphone.md
+    - name: iOS と Android
+      items:
+      - name: モバイル アプリでのオンプレミス レポートの表示
+        href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: 電話用に最適化されたレポートを表示する
+        href: mobile/mobile-apps-view-phone-report.md
+      - name: 電話からの Power BI QR コードのスキャン
+        href: mobile/mobile-apps-qr-code.md
+      - name: 注釈とモバイル アプリでの共有
+        href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: Windows 10 デバイス用の Power BI アプリ
+      items:
+      - name: Windows 10 アプリを使ってみる
+        href: mobile/mobile-windows-10-phone-app-get-started.md
+      - name: スタート画面にダッシュ ボードをピン留めする
+        href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: Reporting Services モバイル レポートと KPI の表示
+        href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: Surface Hub での Power BI の表示
+        href: mobile/mobile-windows-10-app-presentation-mode.md
+      - name: Windows アプリでのシングル サインオン
+        href: mobile/mobile-windows-10-app-single-sign-on-sso.md
+  - name: リソース
+    items:
+    - name: モバイル アプリでサポートされる言語
+      href: mobile/mobile-apps-supported-languages.md
+ms.openlocfilehash: a9efa8b0cecdfa3dac6411e37aaed635e6dfe106
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396982"
