@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
+ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512951"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49359725"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop での集計 (プレビュー)
 
@@ -191,9 +191,9 @@ Hadoop ベースのビッグ データ モデルには、ディメンション �
 
 ![Driver Activity Agg テーブルの [集計の管理] ダイアログ](media/desktop-aggregations/aggregations_11.jpg)
 
-次のテーブルは、**Sales Agg** テーブルの集計を示しています。
+次のテーブルは、**Driver Activity Agg** テーブルの集計を示しています。
 
-![Sales Agg 集計テーブル](media/desktop-aggregations/aggregations-table_02.jpg)
+![Driver Activity Agg 集計テーブル](media/desktop-aggregations/aggregations-table_02.jpg)
 
 ### <a name="group-by-columns"></a>グループ化列
 
@@ -229,9 +229,9 @@ Hadoop ベースのビッグ データ モデルには、ディメンション �
 
 ![[集計の管理] ダイアログ](media/desktop-aggregations/aggregations_14.jpg)
 
-次のテーブルは、**Sales Agg** テーブルの集計を示しています。
+次のテーブルは、**Driver Activity Agg2** テーブルの集計を示しています。
 
-![Sales Agg 集計テーブル](media/desktop-aggregations/aggregations-table_03.jpg)
+![Driver Activity Agg2 集計テーブル](media/desktop-aggregations/aggregations-table_03.jpg)
 
 ## <a name="aggregations-based-on-group-by-columns-combined-with-relationships"></a>リレーションシップと結合したグループ化列に基づく集計
 
@@ -243,7 +243,7 @@ Hadoop ベースのビッグ データ モデルには、ディメンション �
 
 次のテーブルは、**Sales Agg** テーブルの **[集計の管理]** ダイアログ内のエントリ セットを示しています。 **Date** が詳細テーブルの GroupBy エントリは、Date 属性でグループ化するクエリで集計をヒットするために必須です。 前の例と同じく、リレーションシップが存在するため、CustomerKey と ProductSubcategoryKey の GroupBy エントリは集計のヒットには影響しません (これも DISTINCTCOUNT の例外によるものです)。
 
-![Sales Agg 集計テーブル](media/desktop-aggregations/aggregations-table_03.jpg)
+![Sales Agg 集計テーブル](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > 注: このモデルでは、**Date** テーブルが詳細テーブルのため、[管理の集計] ダイアログを入力するためには、このテーブルが DirectQuery モードである必要があります。 これは、プレビューの制限で、一般公開では削除される予定です。
 

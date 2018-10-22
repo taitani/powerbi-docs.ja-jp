@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium とは
+title: Microsoft Power BI Premium とは何ですか?
 description: Power BI Premium は、組織やチームの専用の容量であり、より信頼できるパフォーマンスとより大きなデータ ボリュームを提供します。ユーザーごとのライセンスを購入する必要はありません。
 author: mgblythe
 ms.author: mblythe
@@ -10,17 +10,20 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/11/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 87847575d4fff3d3530847246be5bc8f720b5141
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 0723ddb57131fed499d4ac86666b3cd6d8bcbd2d
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512135"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271810"
 ---
-# <a name="power-bi-premium---what-is-it"></a>Power BI Premium とは
-Power BI Premium には、組織やチームが Power BI サービスを実行するための専用のリソースが用意されています。 より信頼できるパフォーマンスが提供され、より大きなデータ ボリュームを利用できます。 また、Premium ではコンテンツを広範囲に配布でき、ビューアーのユーザーごとのライセンスを購入する必要はありません。
+# <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium とは何ですか?
 
-*Premium 容量*にワークスペースを割り当てることで、Power BI Premium を活用できます。 Premium 容量は組織の専用のリソースです。 Premium 容量に割り当てられていないワークスペースは、*共有された容量*にあります。 共有された容量では、他の顧客と共有されている計算リソースでワークロードが実行されます。 共有された容量では、すべてのユーザー エクスペリエンスの品質を確保するために個々のユーザーにより多くの制限が設けられます。
+Microsoft Power BI Premium には、組織やチームが Power BI サービスを実行するための専用のリソースが用意されています。 より信頼できるパフォーマンスが提供され、より大きなデータ ボリュームを利用できます。 また、Premium ではコンテンツを広範囲に配布でき、ビューアーのユーザーごとの Pro ライセンスを購入する必要はありません。
+
+*Premium 容量*にワークスペースを割り当てることで、Power BI Premium を活用できます。 Premium 容量は組織の専用のリソースです。 Premium 容量に割り当てられていないワークスペースは、*共有された容量*にあります。 共有された容量では、他の顧客と共有されている計算リソースでワークロードが実行されます。 
+
+共有された容量では、すべてのユーザー エクスペリエンスの品質を確保するため、Power BI によって個々のユーザーにより多くの制限が設けられます。 既定では、ワークスペースは共有された容量に含まれています。これには個人用の*マイ ワークスペース*やアプリ ワークスペースも含まれています。
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -28,7 +31,7 @@ Power BI Premium には、組織やチームが Power BI サービスを実行�
 
 ## <a name="capacity-tiers"></a>容量レベル
 
-Power BI 内には 2 種類の容量があります。 共有された容量と Power BI Premium 容量です。 これらの違いを以下に示します。
+共有された容量と Premium 容量の違いの概要を以下に示します。
 
 |  | 共有された容量 | Power BI Premium 容量 |
 | --- | --- | --- |
@@ -39,23 +42,18 @@ Power BI 内には 2 種類の容量があります。 共有された容量と 
 | 埋め込み API とコントロール |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能")<sup>2</sup> |
 | **Power BI レポートのオンプレミスでの発行** |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能") |
 
-*<sup>1</sup> 詳細については、[Power BI Pro と Power BI Premium のユーザー機能](service-free-vs-pro.md)に関するページを参照してください。*  
+*<sup>1</sup> 詳細については、[ライセンス タイプ別機能](service-features-license-type.md)に関する記事を参照してください。*  
 *<sup>2</sup> Power BI Premium は今後さらに機能が拡張されます。*
 
-### <a name="premium-capacity"></a>Premium 容量
+Power BI Premium 容量の使用を開始するには、ワークスペースを容量に割り当てます。 Premium 容量がワークスペースをバックアップしている場合、次の利点が得られます。
 
-Power BI Premium 容量の使用を開始するには、ワークスペースを容量に割り当てる必要があります。 Premium 容量がワークスペースをバックアップしている場合、次の利点が得られます。
+* **スケジュールされた更新**: 共有された容量では、インポートされたモデル データセットにスケジュールされる更新が 1 日あたり 8 回に制限されます。 Premium ワークスペースでは、データセットに対して 1 日あたり最大 48 回の更新をスケジュールできます。 Premium 容量での DirectQuery のキャッシュの更新は、引き続き 1 日あたり 8 回に制限されます。
 
-* **スケジュールされた更新**: 共有された容量では、インポートされたモデル データセットにスケジュールされる更新が 1 日あたり 8 回に制限されます。 Premium ワークスペースでは、データセットに対して 1 日あたり最大 48 回の更新をスケジュールできます。 スケジュールされた更新回数の増加は、DirectQuery のスケジュールされたキャッシュの更新設定には適用されず、Premium 容量と、共有された容量との間で同じままです。
-* **専用ハードウェアでの分離**: 共有された容量の性質上、レポートとダッシュボードのパフォーマンスは、保護の有無に関係なく、容量の他のワークロードのリソース需要に影響を受ける可能性があります。 一方、Premium 容量では、関係のないワークロードから分離することで、ワークロードのより一貫性のある信頼できるパフォーマンスが提供されます。
+* **専用ハードウェアでの分離**: 共有された容量では、他のワークロードのリソース需要がレポートおよびダッシュボードのパフォーマンスに影響する場合があります。 一方、Premium 容量では、関係のないワークロードから分離することで、ワークロードのより一貫性のある信頼できるパフォーマンスが提供されます。
 
 アプリが Premium 容量でバックアップされている (つまり、Premium に現在割り当てられているアプリ ワークスペースから発行された) 場合、発行されたアプリは、割り当てられているライセンスに関係なく、組織内のすべてのユーザーが使用できます。
 
 Premium 容量にワークスペースを割り当てる方法の詳細については、「[Power BI Premium の管理](service-admin-premium-manage.md).」を参照してください。
-
-### <a name="shared-capacity"></a>共有された容量
-
-既定では、ワークスペースは共有された容量にあります。 これには、個人用の*マイワークスペース*とアプリ ワークスペースが含まれます。 共有された容量は、他の顧客と共有されている計算リソースでワークロードが実行される場合に、Power BI で使用されるエクスペリエンスです。
 
 <a name="premiumskus"/>
 
@@ -64,10 +62,11 @@ Premium 容量にワークスペースを割り当てる方法の詳細につい
 Power BI Premium は、さまざまな v コア容量を含むノード構成で使用できます。 特定の SKU オファリングとコストの詳細については、[Power BI の料金に関するページ](https://powerbi.microsoft.com/pricing/)を参照してください。 [コスト計算ツール](https://powerbi.microsoft.com/calculator/)も利用できます。 埋め込み分析の容量計画については、「[Planning a Power BI Enterprise Deployment whitepaper](https://aka.ms/pbienterprisedeploy)」 (Power BI のエンタープライズ展開の計画に関するホワイト ペーパー) を参照してください。
 
 * P ノードは、埋め込み展開またはサービス展開で使用できます。
+
 * EM ノードは、埋め込み展開でのみ使用できます。 EM ノードでは Premium 容量にアクセスできません。たとえば、Power BI Pro ライセンスを持っていないユーザーとアプリを共有することはできません。
 
 >[!NOTE]
->この表のリンクが正しく動作するのは、Office 365 の全体管理者の場合のみです。その他のユーザーの場合、404 エラーが表示されます。
+>この表のリンクが正しく動作するのは、Office 365 の全体管理者の場合のみです。 その他のユーザーの場合、404 エラーが表示されます。
 
 | 容量ノード | 合計 v コア数<br/>*(バックエンド + フロントエンド)* | バックエンド v コア数 | フロントエンド v コア数 | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 | 使用できるかどうか |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -79,6 +78,7 @@ Power BI Premium は、さまざまな v コア容量を含むノード構成で
 | [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 v コア |16 v コア、100 GB RAM |16 v コア |1 秒あたり 120 |4,801-9600 |入手可能 |
 
 * フロントエンド v コアは、Web サービス、ダッシュボードとレポート ドキュメントの管理、アクセス権の管理、スケジューリング、API、アップロードとダウンロード、および一般にユーザー エクスペリエンスに関連するすべてについて責任があります。
+
 * バックエンド v コアは、手間のかかる作業、つまり、クエリ処理、キャッシュ管理、R サーバーの実行、データ更新、自然言語処理、リアルタイム フィード、およびサーバー側のレポートとイメージのレンダリングについて責任があります。 また、バックエンド v コアでは、一定量のメモリが予約されています。 十分なメモリを確保することは、特に、大きなデータ モデルまたは大量のアクティブ データセットを処理する場合に重要になります。
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server

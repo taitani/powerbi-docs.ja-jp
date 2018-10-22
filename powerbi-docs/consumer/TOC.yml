@@ -1,7 +1,7 @@
 items:
 - name: 利用者向けの Power BI
   href: power-bi-consumer-landing.md
-- name: Power BI サービス
+- name: コンシューマー向けの Power BI サービス
   items:
   - name: 概要
     items:
@@ -25,6 +25,8 @@ items:
       items:
       - name: ダッシュボード
         href: end-user-dashboards.md
+      - name: ダッシュボードの表示
+        href: end-user-dashboard-open.md
       - name: おすすめのダッシュボード
         href: end-user-featured.md
       - name: データのプッシュ時の
@@ -183,9 +185,9 @@ items:
     items:
     - name: モバイル アプリでサポートされる言語
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: a9efa8b0cecdfa3dac6411e37aaed635e6dfe106
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 5a696c51a72320bc53a12a913c1785fb5ba742c8
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396982"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473897"

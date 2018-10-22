@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512158"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416799"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop のレポート ページを基にしてヒントを作成する
 **Power BI Desktop** で作成したレポート ページを基にして、ビジュアルをマウス ポインターでポイントすると表示されるさまざまな視覚的**レポート ヒント**を作成できます。 ヒントとして機能するレポート ページを作成することにより、レポート ページで作成したビジュアル、イメージ、その他の項目のコレクションを、カスタム ヒントに含めることができます。 
@@ -125,7 +125,7 @@ ms.locfileid: "44512158"
 
 * 2018 年 9 月リリースの **Power BI Desktop** より、ヒントが一般公開され、カード ビジュアルでもヒントがサポートされています。
 * **Power BI Desktop** の 2018 年 7 月のリリース以降、ツールヒントについてテーブルとマトリックスのビジュアルがサポートされています。 
-* モバイル アプリや、Web に公開などの埋め込み環境でレポートを表示するときは、レポート ヒントはサポートされません。 
+* モバイル アプリでレポートを表示するときには、レポート ヒントはサポートされていません。 
 * カスタム ビジュアルでは、レポート ヒントはサポートされません。 
 * 現在、クラスターはレポート ヒントに表示できるフィールドとしてサポートされません。 
 * レポート ヒントに表示するフィールドを選択するとき、フィールドとカテゴリが使われていると、そのフィールドを含むビジュアルは、選択されたフィールドの要約が一致する場合にのみ指定されたヒントを表示します。 
@@ -136,5 +136,5 @@ ms.locfileid: "44512158"
 レポート ヒントと似た機能またはレポート ヒントと相互作用する機能の詳細については、次の記事をご覧ください。
 
 * [Power BI Desktop でドリルスルーを使用する](desktop-drillthrough.md)
-* [フォーカス モードでダッシュボード タイルまたはレポート ビジュアルを表示する](service-focus-mode.md)
+* [フォーカス モードでダッシュボード タイルまたはレポート ビジュアルを表示する](consumer/end-user-focus.md)
 

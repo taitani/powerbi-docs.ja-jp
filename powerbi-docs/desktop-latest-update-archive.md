@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 40eefccbce19c8d6f4441e30e037e6e421a8dd5c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512250"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49337084"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
 この記事では、**Power BI Desktop** の以前の更新について説明します。 最新月のリリースについては、[**Power BI Desktop** の最新の更新](desktop-latest-update.md)を確認してください。
 
-いつでも[最新バージョンの Power BI Desktop をダウンロード](https://powerbi.microsoft.com/desktop)できます。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 **Power BI Desktop** のインストール方法に関係なく、毎月リリースされるバージョンは同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
+いつでも[最新バージョンの Power BI Desktop をダウンロード](https://powerbi.microsoft.com/desktop)できます。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 バージョン番号が異なる場合でも、月次バージョン番号は **Power BI Desktop** のインストール方法に関係なく同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
 
 各更新の横にあるリンクには、次の意味があります。
 
@@ -33,6 +33,53 @@ ms.locfileid: "44512250"
 この記事にある **[最新の更新プログラム]** ビデオを最初から視聴することもできます。ビデオを見るには、更新一覧の下にあるビデオ画像の**再生**アイコンをクリックします。
 
 次のセクションでは、**Power BI Desktop** の以前の月の更新について説明します。
+
+
+## <a name="september-2018-update-2625222582"></a>2018 年 9 月更新 (2.62.5222.582)
+
+Microsoft の 9 月の更新プログラムは新しい使い方に慣れるための内容でした。 これらの更新プログラムが、知識を身に付ける役に立つ でしょう。 
+
+以下の更新は、今月の **Power BI Desktop** の新しい機能です。
+
+### <a name="reporting"></a>レポート
+
+* 散布図でのドット プロット レイアウトのサポート [[動画]](https://youtu.be/Rzw2WyI09kY?t=30s) [[記事]](power-bi-visualization-scatter.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dotPlot) 
+* テーブルとマトリックス ビジュアルからの値のコピーと選択 [[動画]](https://youtu.be/Rzw2WyI09kY?t=2m33s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#copy) 
+* 組み込みのレポート テーマのオプション [[動画]](https://youtu.be/Rzw2WyI09kY?t=6m2s) [[記事]](desktop-report-themes.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* レポート ページのヒントの一般公開、新しいカードのサポート [[動画]](https://youtu.be/Rzw2WyI09kY?t=8m10s) [[記事]](desktop-tooltips.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* 分析および書式設定ウィンドウのサポートのためのアクセシビリティ改善 [[動画]](https://youtu.be/Rzw2WyI09kY?t=9m29s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#accessibility)
+
+### <a name="analytics"></a>分析
+
+* 集計 (プレビュー) [[動画]](https://youtu.be/Rzw2WyI09kY?t=11m37s) [[記事]](desktop-aggregations.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
+
+### <a name="custom-visuals"></a>カスタム ビジュアル
+
+* 5 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/Rzw2WyI09kY?t=23m8s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>データ接続
+
+* PDF ファイル コネクタ (プレビュー) [[動画]](https://youtu.be/Rzw2WyI09kY?t=29m26s) [[記事]](desktop-connect-pdf.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* SAP BW コネクタ - メジャー プロパティのサポート [[動画]](https://youtu.be/Rzw2WyI09kY?t=30m15s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#sapBW) 
+* データフロー コネクタ (ベータ) [[記事]](desktop-connect-dataflows.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dataflows) 
+
+### <a name="data-preparation"></a>データ準備
+* M Intellisense [[動画]](https://youtu.be/Rzw2WyI09kY?t=30m42s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* 例からの列の追加 - テキスト スペースのサポート [[動画]](https://youtu.be/Rzw2WyI09kY?t=32m27s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#addColumn) 
+
+
+> [!NOTE]
+> [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
+
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+
+
+次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rzw2WyI09kY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 ## <a name="august-2018-update-2615192321"></a>2018 年 8 月更新 (2.61.5192.321)
 
@@ -137,7 +184,7 @@ ms.locfileid: "44512250"
 
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 ## <a name="june-2018-update-2595135101"></a>2018 年 6 月更新 (2.59.5135.101)
 
@@ -184,7 +231,7 @@ ms.locfileid: "44512250"
 
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 ## <a name="may-2018-update-2585103281"></a>2018 年 5 月更新 (2.58.5103.281)
 
@@ -238,7 +285,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="april-2018-update-2575068501"></a>2018 年 4 月更新 (2.57.5068.501)
@@ -284,7 +331,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -330,7 +377,7 @@ ms.locfileid: "44512250"
 
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -352,7 +399,7 @@ ms.locfileid: "44512250"
 ### <a name="reporting"></a>レポート
 
 * 複数のページにまたがってデータ ポイントを複数選択する [[動画]](https://youtu.be/KeVB5RwMzJo?t=23s) [[記事]](desktop-multi-select.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* あるレポートの複数のページにまたがってスライサーを同期する [[動画]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[記事]](desktop-slicers.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* あるレポートの複数のページにまたがってスライサーを同期する [[動画]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[記事]](visuals/desktop-slicers.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
 * 数値範囲のスライサーの改善 - 整数スナッピング (プレビュー) [[動画]](https://youtu.be/KeVB5RwMzJo?t=8m44s) [[記事]](desktop-slicer-numeric-range.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
 * Bing マップの高速ジオコーディング (Web プレビュー) - 最大 6 倍の速さ [[動画]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
 * 横棒グラフ ビジュアルと縦棒グラフ ビジュアルのオーバーフロー データ ラベル [[動画]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
@@ -394,7 +441,7 @@ ms.locfileid: "44512250"
 
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="january-2018-update-2544970761"></a>2018 年 1 月更新 (2.54.4970.761)
@@ -443,7 +490,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -499,7 +546,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="november-2017-update-2524921202"></a>2017 年 11 月の更新 (2.52.4921.202)
@@ -555,7 +602,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -613,7 +660,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jksjtR8GnBE" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="september-2017-update-2504859502"></a>2017 年 9 月更新 (2.50.4859.502)
@@ -623,7 +670,7 @@ ms.locfileid: "44512250"
 ### <a name="report-view"></a>レポートの表示:
 
 -   別のレポート ページにドリルスルーする [[動画]](https://youtu.be/moTQJlnClJw?t=19s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#drillthrough) [[記事]](desktop-drillthrough.md)
--   リボン グラフ [[動画]](https://youtu.be/moTQJlnClJw?t=8m57s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[記事]](desktop-ribbon-charts.md)
+-   リボン グラフ [[動画]](https://youtu.be/moTQJlnClJw?t=8m57s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[記事]](visuals/desktop-ribbon-charts.md)
 -   [増加について説明してください]/[減少について説明してください] に関する洞察 [[動画]](https://youtu.be/moTQJlnClJw?t=13m37s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[記事]](desktop-insights.md)
 -   テーマ プレビュー更新 - グラフ スタイルのコントロール [[動画]](https://youtu.be/moTQJlnClJw?t=19m25s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#theming) [[記事]](desktop-report-themes.md)
 -   アクセシビリティ改善 [[動画]](https://youtu.be/moTQJlnClJw?t=27m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[記事]](desktop-accessibility.md)
@@ -653,7 +700,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="august-2017-update-2494831222"></a>2017 年 8 月更新 (2.49.4831.222)
@@ -698,7 +745,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="july-2017-update-2484792321"></a>2017 年 7 月更新 (2.48.4792.321)
@@ -748,7 +795,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="june-2017-update-2474766542"></a>2017 年 6 月更新 (2.47.4766.542)
@@ -762,7 +809,7 @@ ms.locfileid: "44512250"
 -   ビジュアルのフォント ファミリの設定 [[ビデオ]](https://youtu.be/YlNVE5dgcSI?t=6m59s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#fonts)
 -   水平の画像スライサー [[ビデオ]](https://youtu.be/YlNVE5dgcSI?t=8m42s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#imageSlicer)
 -   複合グラフの書式設定更新プログラム[[ビデオ]](https://youtu.be/YlNVE5dgcSI?t=9m58s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#comboChart)
--   Bing マップの機能強化[[ビデオ]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[記事]](power-bi-map-tips-and-tricks.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
+-   Bing マップの機能強化[[ビデオ]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[記事]](visuals/power-bi-map-tips-and-tricks.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
 -   高密度線サンプリング[[ビデオ]](https://youtu.be/YlNVE5dgcSI?t=16m53s) [[記事]](desktop-high-density-sampling.md)[[ブログ]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#highDensityLine)
 -   アクセス可能なレポート[[ビデオ]](https://youtu.be/YlNVE5dgcSI?t=19m23s) [[記事]](desktop-accessibility.md)[[ブログ]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#accessibility)
 
@@ -793,7 +840,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YlNVE5dgcSI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -840,7 +887,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKISVNHcHVA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -852,7 +899,7 @@ ms.locfileid: "44512250"
 ### <a name="report-view"></a>レポートの表示:
 
 -   軸タイトルの名前の変更 [[ビデオ]](https://youtu.be/AWMaIaI8G2Y?t=25s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#renameAxisTitles)
--   新しいマトリックス ビジュアルの機能強化: 列の並べ替え、列のサイズ変更、右端での折り返し (プレビュー) [[ビデオ]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[記事]](desktop-matrix-visual.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
+-   新しいマトリックス ビジュアルの機能強化: 列の並べ替え、列のサイズ変更、右端での折り返し (プレビュー) [[ビデオ]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[記事]](visuals/desktop-matrix-visual.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
 
 ### <a name="analytics"></a>分析:
 
@@ -885,7 +932,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWMaIaI8G2Y" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="march-2017-update-2444675422"></a>2017 年 3 月更新 (2.44.4675.422)
@@ -894,7 +941,7 @@ ms.locfileid: "44512250"
 
 ### <a name="report-view"></a>レポートの表示:
 
--   新しいマトリックス ビジュアル (プレビュー) [[ビデオ]](https://youtu.be/CaRTON3lJqw?t=18s) [[記事]](desktop-matrix-visual.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
+-   新しいマトリックス ビジュアル (プレビュー) [[ビデオ]](https://youtu.be/CaRTON3lJqw?t=18s) [[記事]](visuals/desktop-matrix-visual.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
 -   数値範囲スライサー (プレビュー) [[ビデオ]](https://youtu.be/CaRTON3lJqw?t=8m20s) [[記事]](desktop-slicer-numeric-range.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#rangeSlicer)
 -   円およびドーナツ ビジュアルのデータ ラベル - 全体に対する割合 [[ビデオ]](https://youtu.be/CaRTON3lJqw?t=10m52s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#dataLabels)
 -   複数の系列を使用するクロス強調表示 [[ビデオ]](https://youtu.be/CaRTON3lJqw?t=11m57s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#crossHighlight)
@@ -928,7 +975,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaRTON3lJqw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -976,7 +1023,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mn75-LOPxMA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="january-2017-update-2424611482"></a>2017 年 1 月更新 (2.42.4611.482)
@@ -1012,7 +1059,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1-f0T8vZ7M" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -1065,7 +1112,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kERJ_WOLuLk" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="october-2016-update-2404554361"></a>2016 年 10 月の更新 (2.40.4554.361)
@@ -1118,7 +1165,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXEYSvgvMaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="september-2016-update-2394526362"></a>2016 年 9 月更新 (2.39.4526.362)
@@ -1176,7 +1223,7 @@ ms.locfileid: "44512250"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -1237,7 +1284,7 @@ Power BI Desktop の新機能を完全に利用できます。
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="july-2016-update-2374464321"></a>2016 年 7 月更新 (2.37.4464.321)
@@ -1249,7 +1296,7 @@ Power BI Desktop の新機能を完全に利用できます。
 ### <a name="report-view"></a>レポートの表示:
 
 -   事前定義されたテーブル スタイル [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[ビデオ]](https://youtu.be/g8ccfjffWmw?t=1m25s)
--   マップのシェイプの更新 - カスタム マップの使用 [[記事]](desktop-shape-map.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[ビデオ]](https://youtu.be/g8ccfjffWmw?t=2m21s)
+-   マップのシェイプの更新 - カスタム マップの使用 [[記事]](visuals/desktop-shape-map.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[ビデオ]](https://youtu.be/g8ccfjffWmw?t=2m21s)
 
 ### <a name="data-connectors"></a>データ コネクタ:
 
@@ -1280,7 +1327,7 @@ Power BI Desktop の新機能を完全に利用できます。
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g8ccfjffWmw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 ## <a name="june-2016-update-2364434362"></a>2016 年 6 月更新 (2.36.4434.362)
 
@@ -1290,7 +1337,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 ### <a name="report-view"></a>レポートの表示:
 
--   新しい表示 - 図形マップ [[ビデオ]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[記事]](desktop-shape-map.md)
+-   新しい表示 - 図形マップ [[ビデオ]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[記事]](visuals/desktop-shape-map.md)
 -   検索可能なスライサー [[ビデオ]](https://youtu.be/sZsL2l6oS4A?t=6m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   構成可能な折れ線グラフのラベル [[ビデオ]](https://youtu.be/sZsL2l6oS4A?t=7m21s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   新しいサインイン エントリ ポイント [[ビデオ]](https://youtu.be/sZsL2l6oS4A?t=2m30s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
@@ -1334,7 +1381,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -1390,7 +1437,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 ## <a name="april-2016-update-2344372322"></a>2016 年 4 月更新 (2.34.4372.322)
 
@@ -1439,7 +1486,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="march-2016-update-2334337281"></a>2016 年 3 月更新 (2.33.4337.281)
@@ -1491,7 +1538,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 
@@ -1549,7 +1596,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 
 > [!NOTE]
-> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
 
 
 ## <a name="january-2016-update-2314280361"></a>2016 年 1 月更新 (2.31.4280.361)
