@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Connect to services
-ms.openlocfilehash: add6a02d10c2dfe0e0fd93b9d12f03a10d057241
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8d8446f231d1de3527d5371a55542641c29cca83
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908212"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435283"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI で使用するサービスに接続する
 
@@ -60,7 +60,7 @@ Power BI アプリにしてほしいサービスがある場合は、 [[Power BI
 アプリの作成を希望するサービスがある場合は、 まず、[対象のサービスを送信](https://azure.microsoft.com/marketplace/programs/certified/apply/)し、[Power BI コンテンツ パックの公開] を選択します。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI のアプリについて](../service-install-use-apps.md)
+* [Power BI のアプリについて](end-user-apps.md)
 * [Power BI でデータを取得する](../service-get-data.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

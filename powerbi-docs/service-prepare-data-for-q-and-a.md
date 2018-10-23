@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6cd667a81a743a0b074155e0e16a49178157bc6c
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547882"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396499"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Excel のデータを Power BI Q&A に適合させる方法
 データ モデルを作成する担当者、または Power BI とともに使用する Excel ブックを作成する担当者は、以下をお読みください。
@@ -45,7 +45,7 @@ Q&A はテーブル、列、および計算フィールドの名前に依存し�
 
 ## <a name="next-steps"></a>次の手順
 「[Power BI での Q&A](consumer/end-user-q-and-a.md)」に戻る  
-[Q&A 用にオンプレミスのデータセットを準備する](consumer/end-user-q-and-a-direct-query.md)   
+[Q&A 用にオンプレミスのデータセットを準備する](service-q-and-a-direct-query.md)   
 [Q&A のクイック スタート](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI のデータの取得](service-get-data.md)  
 

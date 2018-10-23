@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908902"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641392"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Power BI で Microsoft Dynamics NAV に接続する
 Power BI を使用すると、Microsoft Dynamics NAV データから洞察を得ることができます。 Power BI は、売上と財務の両方のデータを取得し、そのデータに基づいてダッシュボードとレポートを含むアプリを作成します。 Power BI を使うには、データの取得元のテーブル (この例では、売上と財務のデータ) に対するアクセス許可が必要です。 要件の詳細については、このあと説明します。 アプリをインストールすると、Power BI サービス ([https://powerbi.com](https://powerbi.com)) と Power BI モバイル アプリでダッシュボードとレポートを表示できます。 
@@ -29,7 +29,7 @@ Power BI を使用すると、Microsoft Dynamics NAV データから洞察を得
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. メッセージが表示されたら、Microsoft Dynamics NAV の OData URL を入力します。 URL は、次のパターンに一致する必要があります。
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * "instance.navserver.com" は実際の NAV Server 名にします
    * "DynamicsNAV90\_Instance1" は実際の NAV Server Instance 名にします
@@ -72,7 +72,7 @@ Microsoft Dynamics NAV URL を入力した後にこのエラーが表示され�
 
 * URL は次のパターンに正確に従います。
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * "instance.navserver.com" は実際の NAV Server 名にします
   * "DynamicsNAV90\_Instance1" は実際の NAV Server Instance 名にします
@@ -92,11 +92,11 @@ Microsoft Dynamics NAV の資格情報を使用してログインした後、"lo
 
 * URL が上記のパターンに従っていることを確認します。 よくある間違いは:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     ただし、NAV 会社名を含む 'Company('CRONUS%20International%20Ltd.')' セクションを含める必要があります。
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI のアプリについて](service-create-distribute-apps.md)

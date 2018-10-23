@@ -2,8 +2,6 @@ Power BI の**ガイド付き学習**コースの「**発行と共有**」セク
 
 Excel と Power BI がシームレスに共同して動作する方法や、レポートとダッシュボードで作成するビジュアルについてすべて説明しましたので、同僚や友人と共有することができます。 Power BI では、**発行と共有**は簡単に実行できます。
 
-このセクションでは、Power BI に Excel ブックを簡単に取り込む方法について説明し、Power BI と Excel が強固に連携することを実証します。
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>Power BI で同僚と共有や共同作業を行う
 "*Power BI で共有と共同作業をより簡単にするツールを使ってみる*"
 

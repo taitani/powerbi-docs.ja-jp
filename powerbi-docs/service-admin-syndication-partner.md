@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: c08a886584e45b83e559a509392df867e31f3d54
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926653"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641185"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI を Office 365 パートナー サブスクリプションに追加できない
 Office 365 では、企業が独自のソリューションとバンドルおよび統合した Office 365 を再販することが可能です。購入、請求、サポートを一本化したサービスをエンド カスタマーに提供できます。
@@ -62,7 +62,7 @@ Power BI Pro または Power BI Premium へのサブスクリプションを購�
 
 ## <a name="next-steps"></a>次の手順
 [Windows PowerShell を使用して Azure AD を管理する](https://technet.microsoft.com/library/jj151815.aspx)  
-[Power BI Premium とは](service-premium.md)
+[Power BI Premium とは何ですか?](service-premium.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

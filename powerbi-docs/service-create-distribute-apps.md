@@ -1,73 +1,136 @@
 ---
-title: Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
-description: Power BI では、アプリが関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。
-author: maggies
-ms.author: maggiesMSFT
+title: Power BI でダッシュボードとレポートを含むアプリを発行する
+description: アプリの発行方法について説明します。アプリは、組織の主要指標を提供する目的でビルドされたダッシュボードとレポートのコレクションです。
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 08/06/2018
+ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cf8ec98a45db6601e68b156d64ae6b73fd8ce2d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 62950462f60fea6db44a9756eff8f99a6841d1d4
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112086"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435444"
 ---
-# <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
+# <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリを発行する
 
-Power BI では、*アプリ*が関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。 組織内のユーザーは主要なビジネス情報でアプリを作成し、配布できます。 既にご利用中かもしれませんが、Google アナリティクスや Microsoft Dynamics CRM など、[外部サービス](consumer/end-user-connect-to-services.md)も Power BI アプリを提供します。 
+Power BI では、関連するダッシュボードとレポートのコレクションを含む*アプリ*を発行できます。 アプリは、*アプリ ワークスペース*で作成します。アプリ ワークスペースでは、Power BI コンテンツを同僚と共同作業することができます。 そして、完成したアプリを組織内の多数のユーザーに発行することができます。 詳細については、[アプリ ワークスペースの作成](service-create-workspaces.md)に関するページを参照してください。
 
-![Power BI のアプリ](./media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+![Power BI アプリ](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) とモバイル デバイスで簡単に検索してインストールすることができます。 アプリのインストール後は、さまざまなダッシュボードの名前を覚えておく必要がありません。ブラウザー内やモバイル デバイス上では 1 つのアプリにまとめて表示されるためです。
+ビジネス ユーザーは、業務のために Power BI の複数のダッシュボードとレポートを必要とすることがよくあります。 Power BI アプリを使用すると、ダッシュボードとレポートのコレクションを作成し、こうしたアプリを、組織全体または特定のユーザーやグループに発行できます。 レポートの作成者または管理者は、アプリを使用すると、このようなコレクションに対するアクセス許可を管理しやすくなります。
 
-アプリの作者が更新プログラムを公開するたびに、自動的に変更が反映されます。 作成者はデータの更新頻度も制御するため、最新の状態が維持されているかを気にする必要はありません。 
+ビジネス ユーザーは、いくつかの方法でアプリを取得します。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 その他、ビジネス ユーザーはアプリを Microsoft AppSource からインストールすることも、送信された直接リンクを使用することもできます。 すべてが 1 か所にあるため、ビジネス ユーザーは簡単に検索してコンテンツに戻ることができます。 このようなユーザーはアプリのコンテンツを変更できませんが、Power BI サービスまたはモバイル アプリのいずれかを使用してコンテンツと対話し、データ自体のフィルター、強調表示、ソートを行うことができます。 更新プログラムは自動的に取得されます。データの更新頻度は制御することができます。 詳細については、[ビジネス ユーザーのアプリ機能](consumer/end-user-apps.md)に関するページを参照してください。
 
-アプリを作成する予定がありますか? 詳細については、[Power BI で同僚と一緒にワークスペースを作成する方法](service-create-workspaces.md)に関するページを参照してください。
+**ご存知でしたか?** Power BI では、新しいワークスペース エクスペリエンスをプレビューしています。 今後、ワークスペースがどのように変更されるかについては、「[新しいワークスペース (プレビュー) を作成する](service-create-the-new-workspaces.md)」を参照してください。 
 
-## <a name="get-a-new-app"></a>新しいアプリを取得する
+## <a name="apps-and-organizational-content-packs"></a>アプリと組織のコンテンツ パック
+アプリは、組織のコンテンツ パックが進化したものです。 新しいプレビュー版のワークスペース エクスペリエンスでは、コンテンツ パックを使用できません。 新しいワークスペース エクスペリエンスが一般公開された後に新しく作成されたワークスペースでは、コンテンツ パックを使用できなくなります。 まだインストールしていない場合は、コンテンツ パックのアプリへの移行を開始してください。
 
-さまざまな方法でアプリを入手できます。 アプリの作成者は、ユーザーの Power BI アカウントに自動的にアプリをインストールしたり、アプリへの直接リンクを送信したりできます。あるいはユーザーが AppSource でアプリを検索することもできます。AppSource にはユーザーがアクセスできるアプリがすべて表示されます。 モバイル デバイスの Power BI の場合、直接リンクからのみインストールできます。AppSource からはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。
+## <a name="video-apps-and-app-workspaces"></a>ビデオ: アプリとアプリ ワークスペース
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-### <a name="install-an-app-from-a-direct-link"></a>直接リンクからのアプリをインストールする
+## <a name="licenses-for-apps"></a>アプリのライセンス
+アプリ ワークスペースのメンバーには Power BI Pro ライセンスが必要です。 アプリ ユーザーの場合は 2 つのオプションがあります。
 
-新しいアプリを自分でインストールする最も簡単な方法は、アプリの作成者から直接リンクを取得することです。 Power BI では、作成者が送信できるインストール リンクが作成されます。
+* オプション 1: すべてのビジネス ユーザーに、アプリを表示するための **Power BI Pro** ライセンスが必要です。 
+* オプション 2: Power BI Premium 容量内にあるアプリの場合、組織内の無料のユーザーはアプリのコンテンツを表示できます。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
 
-**コンピューターで** 
+## <a name="publish-your-app"></a>アプリの発行
+ワークスペース内のダッシュボードとレポートの準備ができたら、発行するダッシュボードとレポートを選択し、アプリとして発行します。 その対象ユーザーに直接リンクを送信することも、対象ユーザー自身が **[ストアからアプリを取得するにはクリックします]** を選択して、[アプリ] タブからアプリを検索することもできます。 
 
-電子メールのリンクをクリックすると、ブラウザーで Power BI サービス ([https://powerbi.com](https://powerbi.com)) が開きます。 アプリのインストールを確認すると、アプリのランディング ページが開きます。
+1. ワークスペースの一覧表示で、アプリに含めるダッシュボードとレポートを決定します。
 
-![Power BI サービスのアプリ ランディング ページ](./media/service-create-distribute-apps/power-bi-app-landing-page-opportunity-480.png)
+     ![発行するダッシュボードを選択する](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
-**iOS または Android モバイル デバイスで** 
+     レポートを発行しないように選択すると、レポートと、それに関連するダッシュボードの横に警告が表示されます。 アプリは引き続き発行できますが、関連するダッシュボードでは、該当するレポートのタイルが削除されます。
 
-モバイル デバイスで電子メールにあるリンクをクリックすると、アプリが自動的にインストールされ、モバイル アプリでアプリのコンテンツ リストが開きます。 
+     ![関連するダッシュボードに関する警告](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-![モバイル デバイスのアプリ コンテンツ リスト](./media/service-create-distribute-apps/power-bi-app-index-it-spend-360.png)
+2. 右上の **[アプリの発行]** ボタンを選択して、ワークスペースのすべてのコンテンツを共有するプロセスを開始します。
+   
+     ![アプリの発行](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-### <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource からアプリを取得する
+3. **[詳細]** で、ユーザーがアプリを検索する際に役立つ説明を入力します。 背景色を設定してカスタマイズすることができます。
+   
+     ![アプリの詳細](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-アクセス許可のあるアプリを、Microsoft AppSource から検索してインストールすることもできます。 
+4. **[コンテンツ]** で、アプリの一部として発行されるコンテンツが表示されます。これは、そのワークスペースで選択したものすべてです。 ユーザーがアプリに移動したときに最初に表示されるダッシュボードまたはレポートをアプリのランディング ページとして設定することもできます。 **[なし]** を選択することができます。 この場合、アプリのすべてのコンテンツの一覧が表示されます。 
+   
+     ![アプリのコンテンツ](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/service-create-distribute-apps/power-bi-apps-bar.png)、**[アプリの取得]** の順に選択します。 
+5. **[アクセス権]** で、アプリにアクセスできるユーザー (組織内のすべてのユーザー、または特定のユーザーあるいは Active Directory セキュリティ グループ) を決定します。 アクセス許可を持っている場合は、受信者に対してアプリを自動的にインストールする決定を行うことができます。 この設定は、[Power BI 管理ポータル](#how-to-enable-pushing-apps)で有効にすることができます。 [アプリのプッシュ](#how-to-enable-pushing-apps)に関する考慮事項をご覧ください。
 
-     ![[アプリの取得] アイコン](./media/service-create-distribute-apps/power-bi-service-apps-get-apps-oppty.png)
-2. [AppSource] の **[My organization (自分の組織)]** で、結果を絞り込むための検索を行って、探しているアプリを見つけることができます。
+    ![アプリ アクセス](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-     ![AppSource の [自分の所属組織]](./media/service-create-distribute-apps/power-bi-appsource-my-org.png)
-3. **[Get it now (今すぐ取得)]** を選択して、[アプリ] ページにアプリを追加します。 
+6. **[完了]** を選択すると、発行する準備ができたことを確認するメッセージが表示されます。 成功を示すダイアログ ボックスで、このアプリへの直接リンクである URL をコピーして、共有するユーザーに送信することができます。
+   
+     ![アプリの終了](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>アプリのダッシュボードとレポートを操作する
+詳細については、[ビジネス ユーザーのアプリ機能](consumer/end-user-apps.md)に関するページを参照してください。
 
-これで、アプリのダッシュボードおよびレポートのデータを探索できます。 フィルター処理、強調表示、並べ替え、ドリル ダウンなど、Power BI の標準機能にすべてアクセスできます。 レポート内のテーブルや他のビジュアルから [Excel にデータをエクスポートする](consumer/end-user-export-data.md)こともできます。 
+## <a name="change-your-published-app"></a>発行されたアプリを変更する
+アプリを発行した後に、アプリを変更したり更新したりできます。 アプリ ワークスペースの管理者またはメンバーの場合、または新しいアプリ ワークスペースの共同作成者の場合は、簡単に更新できます。 
 
-![Power BI ビジュアルからデータをエクスポートする](./media/service-create-distribute-apps/power-bi-service-export-data-visual.png)
+1. アプリに対応するアプリ ワークスペースを開きます。 
+   
+     ![ワークスペースを開く](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
+2. ダッシュボードまたはレポートを開きます。 これで、必要な変更を実行できるはずです。
+   
+     アプリ ワークスペースはステージング領域なので、再度アプリが発行されるまで、変更内容はアプリに反映されません。 これにより、発行されたアプリに影響を与えずに変更を加えることができます。  
+ 
+3. コンテンツのアプリ ワークスペースの一覧に戻り、**[アプリを更新]** を選択します。
+   
+     ![[アプリを更新] ボタン](media/service-create-distribute-apps/power-bi-app-update-button.png)
+
+4. 必要に応じて **[詳細]**、**[コンテンツ]**、および **[アクセス権]** を更新して、**[アプリを更新]** を選択します。
+   
+     ![[アプリを更新] ボタン](media/service-create-distribute-apps/power-bi-app-update-complete.png)
+
+アプリを発行したユーザーには、更新されたバージョンのアプリが自動的に表示されます。 
+
+## <a name="automatically-install-apps-for-end-users"></a>エンド ユーザーにアプリを自動的にインストールする
+アプリは、エンド ユーザーが自分の仕事を行うために必要なデータを提供します。 管理者からアクセス許可が付与されている場合は、エンド ユーザーにアプリを自動的にインストールでき、適切なユーザーまたはグループに適切なアプリを簡単に配布できます。 アプリは、エンド ユーザーのアプリ コンテンツ一覧に自動的に表示されます。Microsoft AppSource から探したり、インストール リンクに従ったりする必要はありません。 これにより、標準の Power BI コンテンツをユーザーにロールアウトすることが簡単になります。
+
+### <a name="how-to-install-an-app-automatically-for-end-users"></a>エンド ユーザーにアプリを自動的にインストールする方法
+管理者からアクセス許可が付与されると、**自動的にアプリをインストールできる**新しいオプションが表示されます。 チェックボックスをオンにして **[完了]** (既存のアプリの場合は **[アプリを更新]**) を選択すると、**[アクセス]** タブのアプリの **[アクセス許可]** セクションに定義されているすべてのユーザーまたはグループにアプリがプッシュされます。
+
+![アプリのプッシュを有効にする](media/service-create-distribute-apps//power-bi-apps-access.png)
+
+### <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>ユーザーが自分に対してプッシュされたアプリを入手する方法
+プッシュしたアプリは、アプリ リストに自動的に表示されます。 組織の特定のユーザーやジョブ ロールが手元に置く必要のあるアプリを選別できます。
+
+![アプリのプッシュを有効にする](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>アプリの自動インストールに関する考慮事項
+エンド ユーザーにアプリをプッシュするときの注意事項を次に示します。
+
+* ユーザーにアプリを自動的にインストールすると、時間がかかることがあります。 ほとんどのアプリはユーザーにすぐにインストールされますが、アプリのプッシュには時間がかかる場合があります。  かかる時間は、アプリ内のアイテムの数とアクセスを付与するユーザーの数によって異なります。 ユーザーがアプリを必要とするまでに十分な時間をおいて、勤務時間外にアプリをプッシュすることをお勧めします。 アプリが使えるようになったことを広く知らせる前に、複数のユーザーで確認します。
+
+* ブラウザーを更新します。 ユーザーがブラウザーの表示を更新したり、ブラウザーをいったん閉じて開き直したりしてからでないと、プッシュされたアプリがアプリ リストに表示されないことがあります。
+
+* アプリがアプリ リストにすぐに表示されない場合、ユーザーはブラウザーの表示を更新するか、ブラウザーを閉じて再び開く必要があります。
+
+* ユーザーに負担をかけすぎないようにします。 事前インストールされているアプリが役に立つことをユーザーが認識できるよう、プッシュするアプリが多くなりすぎないように注意します。 タイミングを調整するにはエンド ユーザーにアプリをプッシュできるユーザーを制御するのが最善です。 組織内のアプリをエンド ユーザーにプッシュするための連絡先を確立できます。
+
+* 招待を受け入れなかったゲスト ユーザーに、アプリが自動的にインストールされることはありません。  
+
+## <a name="unpublish-an-app"></a>アプリケーションを非公開にする
+アプリ ワークスペースのすべてのメンバーは、アプリケーションを非公開にすることができます。
+
+* アプリ ワークスペースで、右上隅にある省略記号 (**...**) を選択し、**[アプリケーションを非公開にする]** を選択します。
+  
+     ![アプリを非公開にする](media/service-create-distribute-apps/power-bi-app-unpublish.png)
+
+このアクションは、発行したすべてのユーザーのアプリをアンインストールし、ユーザーはアクセスできなくなります。 アプリ ワークスペースまたはその内容は削除されません。
 
 ## <a name="next-steps"></a>次の手順
-
-* [外部サービス用の Power BI アプリ](consumer/end-user-connect-to-services.md)
+* [アプリ ワークスペースを作成する](service-create-workspaces.md)
+* [Power BI にアプリをインストールし、使用する](consumer/end-user-apps.md)
+* [外部サービス用の Power BI アプリ](service-connect-to-services.md)
+* [Power BI 管理ポータル](https://docs.microsoft.com/power-bi/service-admin-portal)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

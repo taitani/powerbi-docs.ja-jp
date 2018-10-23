@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2018
+ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 69e1bfffab1dd30685036b3c5265f81040a5f7c3
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187147"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49397005"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>チュートリアル: Q&A を使用して視覚エフェクトおよびレポートを作成する方法
 [Q&A の概要](consumer/end-user-q-and-a.md)に関する記事では、Power BI Q&A について紹介し、"*利用者*" (ダッシュボードとレポートの共有を受けているユーザー) と "*作成者*" (基になるレポートとデータセットを所有しているユーザー) の違いを説明しました。 このチュートリアルの前半は、主に Power BI サービスを使ってダッシュボードを利用するユーザー向けに書かれています。 後半は、Power BI サービスまたは Power BI Desktop を使ってレポートを作成するユーザーを対象にしています。 [Q&A と Power BI モバイル](consumer/mobile/mobile-apps-ios-qna.md)および [Q&A と Power BI Embedded](developer/qanda.md) については、別の記事で説明します。
@@ -98,7 +98,7 @@ Q&A を使ってデータセットを探索し、レポートとダッシュボ�
 Q&A では、データ自身に語らせるだけでなく、Power BI に回答の表示方法を指示することもできます。 質問の最後に "as a <visualization type>" を追加して、視覚化の種類を指定するだけです。  たとえば、「show inventory volume by plant as a map」(工場ごとの在庫量をマップとして表示する)、「show total inventory as a card」(在庫合計をカードとして表示する) などです。  自分で試してみてください。
 
 ##  <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-- ライブ接続またはゲートウェイを使ってデータセットに接続した場合は、Q&A を[そのデータセットで有効にする](consumer/end-user-q-and-a-direct-query.md)必要があります。
+- ライブ接続またはゲートウェイを使ってデータセットに接続した場合は、Q&A を[そのデータセットで有効にする](service-q-and-a-direct-query.md)必要があります。
 
 - レポートを開いていた場合、Q&A のオプションは表示されません。 Power BI サービスを使っている場合は、編集ビューでレポートを開いていることを確認します。 編集ビューを開くことができない場合は、そのレポートの編集アクセス許可がなく、その特定のレポートでは Q&A を使えないことを意味します。
 
@@ -107,5 +107,5 @@ Q&A では、データ自身に語らせるだけでなく、Power BI に回答�
 [チュートリアル: 小売りの分析のサンプルで Q&A を使う](power-bi-visualization-introduction-to-q-and-a.md)   
 [Q&A で質問するためのヒント](consumer/end-user-q-and-a-tips.md)   
 [Q&A のためのブックの準備](service-prepare-data-for-q-and-a.md)  
-[Q&A 用にオンプレミスのデータセットを準備する](consumer/end-user-q-and-a-direct-query.md)
+[Q&A 用にオンプレミスのデータセットを準備する](service-q-and-a-direct-query.md)
 [Q&A からダッシュボードにタイルをピン留めする](service-dashboard-pin-tile-from-q-and-a.md)

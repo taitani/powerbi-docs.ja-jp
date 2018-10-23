@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908649"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435366"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
 [Power BI のダッシュボード](service-dashboards.md)を読んで、次は自分のダッシュボードを作成しようと思われるでしょう。 ダッシュボードを作成するには、レポートから、何もない状態から、データセットから、既存のダッシュボードを複製して、それ以外の方法など、さまざまな方法があります。  
@@ -109,7 +109,7 @@ Power BI サンプル データセットの 1 つをインポートし、それ�
 ## <a name="next-steps"></a>次の手順
 * [タイルのサイズを変更したり、移動したりする](service-dashboard-edit-tile.md)
 * [ダッシュボードのタイルの概要](service-dashboard-tiles.md)
-* [アプリを作成することによってダッシュボードを共有する](service-install-use-apps.md)
+* [アプリを作成することによってダッシュボードを共有する](service-create-workspaces.md)
 * [Power BI - 基本的な概念](service-basic-concepts.md)
 * [優れたダッシュボードのデザインに関するヒント](service-dashboards-design-tips.md)
 
