@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388757"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974002"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop (プレビュー) での多対多のリレーションシップ
 
@@ -158,12 +158,13 @@ Power BI で 2 つのテーブル間のリレーションシップを定義す�
 
 このリリースの**多対多のリレーションシップ**と**複合モデル**にはいくつかの制限事項があります。
 
-次の多次元ソースは、**複合モデル**に使用できません。
+次の Live Connect (多次元) ソースは、**複合モデル**に使用できません。
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI データ セット
+* Azure Analysis Services
 
 DirectQuery を使用してこのような多次元ソースに接続する場合、別の DirectQuery ソースに接続することも、インポートしたデータと結合することもできません。
 
