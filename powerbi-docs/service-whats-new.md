@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/27/2018
+ms.date: 09/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 090a59f406f1e3874f678752f0e0bc9656ae492f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548950"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909178"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -31,37 +31,43 @@ ms.locfileid: "46548950"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="august-2018"></a>2018 年 8 月
-* Power BI の[レポート URL フィルター](service-url-filters.md)の機能強化。
+## <a name="september-2018"></a>2018 年 9 月
+* Power BI サービスの[ダッシュボードのコメント](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
 
 ## <a name="previous-months-2018"></a>前の月 (2018)
+### <a name="august-2018"></a>2018 年 8 月
+* Power BI Premium の[容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
+* Power BI の[レポート URL フィルター](service-url-filters.md)の機能強化。
+
 ### <a name="july-2018"></a>2018 年 7 月
+* [永続的フィルター](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)のカスタム ビジュアルのサポート。
 * Power BI 管理者用の [API および PowerShell コマンドレット](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)。
+* Power BI Premium の [Multi-Geo のサポート](service-admin-premium-multi-geo.md)。
 
 ### <a name="june-2018"></a>2018 年 6 月
 * フィルターおよびスライサーが含まれるレポートの共有。
 * [ゲートウェイ接続](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/)およびデータセットのセットアップのための、新しい/改良されたユーザー インターフェイス。
 
 ### <a name="may-2018"></a>2018 年 5 月
-* Power BI サービスの[テーマ ダッシュボード](https://docs.microsoft.com/power-bi/service-dashboard-themes)。
-* Premium の[増分更新](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh)。
-* [Power BI アプリ](https://docs.microsoft.com/power-bi/service-create-distribute-apps)のアクセス要求ワークフロー。
-* [データの取得] 画面が更新され、ユーザーが [Power BI アプリ](https://docs.microsoft.com/power-bi/service-create-distribute-apps)を簡単に見つけられるようになりました。
+* Power BI サービスの[テーマ ダッシュボード](service-dashboard-themes.md)。
+* Premium の[増分更新](service-premium-incremental-refresh.md)。
+* [Power BI アプリ](service-create-distribute-apps.md)のアクセス要求ワークフロー。
+* [データの取得] 画面が更新され、ユーザーが [Power BI アプリ](service-create-distribute-apps.md)を簡単に見つけられるようになりました。
 * Power BI サービスの[永続的フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)のオンとオフを切り替える設定。
 * Azure B2B のレポートの招待ワークフローの改善。
 
 ### <a name="april-2018"></a>2018 年 4 月
 * [データ保護に関する Power BI のホワイト ペーパー](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* Office 365 テナントに対して既定でオンになる Power BI サービス[監査ログ](https://docs.microsoft.com/power-bi/service-admin-auditing)。
+* Office 365 テナントに対して既定でオンになる Power BI サービス[監査ログ](service-admin-auditing.md)。
 
 ### <a name="march-2018"></a>2018 年 3 月
 * Power BI サービスの[永続的フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)。
 * 個人用の電子メール アカウントを使用したユーザーとのコンテンツの共有。 [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) の拡張機能。
 
 ### <a name="february-2018"></a>2018 年 2 月
-* エンド ユーザーに対する [Power BI Apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps) の自動インストール。
+* エンド ユーザーに対する [Power BI Apps](service-create-distribute-apps.md) の自動インストール。
 * Power BI Premium での P4 および P5 の容量
-* [組織のカスタム ビジュアル](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization)のプレビュー。
+* [組織のカスタム ビジュアル](power-bi-custom-visuals-organization.md)のプレビュー。
 
 ### <a name="january-2018"></a>2018 年 1 月
 *   Power BI レポートを共有し、お気に入りに追加する。
@@ -73,7 +79,7 @@ ms.locfileid: "46548950"
 
 ## <a name="previous-months-2017"></a>先月 (2017)
 ## <a name="october-and-november-2017"></a>2017 年 10 月と 11 月
-*   [Power BI アプリ](https://docs.microsoft.com/power-bi/service-create-distribute-apps)でコンテンツを選択して公開。
+*   [Power BI アプリ](service-create-distribute-apps.md)でコンテンツを選択して公開。
 *   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) による外部ユーザー ディストリビューション。
 * AI を活用したアプリ推奨。
 * ダッシュボード オンタイル UI 更新。
@@ -587,7 +593,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * Power BI の一般提供 (GA) リリースを発表しました。 [Power BI Pro](service-self-service-signup-for-power-bi.md) に今すぐ新規登録してください。 GA リリースの一環として、以下の優れた新機能を提供します。
 * 新しい視覚化とレポート作成エクスペリエンス: 新しいレポート キャンバスでは、視覚化の選択肢が増え、タイトル、凡例、軸、色、背景などの書式設定をさらに制御できます。
-* [Power BI のグループ](consumer/end-user-create-apps.md): グループにより、Office 365 グループ上に構築された、強力なコラボレーション エクスペリエンスが提供されます。
+* [Power BI のグループ](service-create-distribute-apps.md): グループにより、Office 365 グループ上に構築された、強力なコラボレーション エクスペリエンスが提供されます。
 * [組織のコンテンツ パック](service-organizational-content-pack-introduction.md): Power BI では、ダッシュボードとレポートの作成が非常にシンプルになり、ユーザーはこれらのコンテンツを組織のコンテンツ ギャラリーに公開できるようになりました。
 * [Excel ファイル全体の取り込み](service-excel-workbook-files.md): OneDrive for Business に格納されているどの Excel ブックでも Power BI に取り込み、そのブック全体を Excel Online での場合とまったく同様に表示できます。
 * [CSV ファイルの取り込み](service-get-data-from-files.md): Excel や Power BI Desktop ファイルと同様に、コンマ区切り値 (CSV) テキスト ファイルも、Power BI のダッシュボードとレポートのデータセットにできます。
@@ -629,7 +635,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * Power BI と [appFigures コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx)を使用すると、アプリに関する重要な統計情報を簡単に追跡できるようになりました。 接続および開始の方法の詳細については、Power BI 用 appFigures コンテンツ パックの[ドキュメント](service-connect-to-appfigures.md)をご覧ください。
 
-**2015 年 5 月 28 日** 
+**2015 年 5 月 28 日 **
 
 * この[コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)を使用して、QuickBooks Online アカウントのデータに関する洞察をすばやく得ることができます。 接続および開始の方法の詳細については、Power BI 用 QuickBooks Online コンテンツ パックの[ドキュメント](service-connect-to-quickbooks-online.md)をご覧ください。
 

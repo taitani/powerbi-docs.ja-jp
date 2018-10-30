@@ -3,12 +3,13 @@ layout: HubPage
 hide_bc: true
 title: Power BI ドキュメント
 description: Power BI ドキュメント
-ms.openlocfilehash: 61caafcfd5ea816a1678209355dab387a83a8642
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.service: powerbi
+ms.openlocfilehash: 7dbc0270fcfdd7dc83a41cbe45399dc05a2ccfe8
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37597349"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798979"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -22,18 +23,18 @@ ms.locfileid: "37597349"
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsA">
                             <li>
-                                <a href="power-bi-overview.md">
+                                <a href="consumer/power-bi-consumer-landing.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-powerbi-logo.svg" alt="" />
+                                                        <img src="./media/index/powerbi-4x_ea1e-01-resized-with-ratio.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI サービス</h3>
-                                                    <p>Power BI サービスは、ダッシュボード、アプリ、および発行されたレポートを検索するオンライン サービスです。</p>
+                                                    <h3>レポート利用者向けの Power BI</h3>
+                                                    <p>Power BI を初めて使いますか? Power BI を構成するさまざまな製品やサービスと、それらを使って何ができるかを説明します。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -41,18 +42,18 @@ ms.locfileid: "37597349"
                                 </a>
                             </li>
                             <li>
-                                <a href="desktop-what-is-desktop.md">
+                                <a href="power-bi-creator-landing.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-desktop.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Design_E771.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI Desktop</h3>
-                                                    <p>Power BI Desktop では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。</p>
+                                                    <h3>レポート デザイナー向け Power BI</h3>
+                                                    <p>Power BI レポート デザイナーですか? データへの接続、クエリの設計、レポートとダッシュボードの作成の方法について説明します。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -60,18 +61,18 @@ ms.locfileid: "37597349"
                                 </a>
                             </li>
                             <li>
-                                <a href="mobile-apps-for-mobile-devices.md">
+                                <a href="service-admin-administering-power-bi-in-your-organization.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-mobile-apps.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Admin_F286.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI モバイル アプリ</h3>
-                                                    <p>モバイル デバイスで Power BI ダッシュボードとレポートを表示して操作します。</p>
+                                                    <h3>管理者向けの Power BI</h3>
+                                                    <p>ポリシーの構成、使用状況の監視、ライセンスと容量のプロビジョニングを含めた Power BI テナントの管理について説明します。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -85,12 +86,12 @@ ms.locfileid: "37597349"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-developer.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI 開発者</h3>
-                                                    <p>Power BI には、開発者向けのさまざまなオプションがあります。 たとえば、埋め込み、カスタム ビジュアル、ストリーミング データセットなどです。</p>
+                                                    <h3>開発者向け Power BI</h3>
+                                                    <p>Power BI では、埋め込みからカスタム ビジュアルやストリーミング データセットに及ぶ、開発者向けの幅広いオプションが提供されます。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -98,18 +99,18 @@ ms.locfileid: "37597349"
                                 </a>
                             </li>
                             <li>
-                                <a href="report-server/get-started.md">
+                                <a href="https://powerbi.microsoft.com/blog/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-report-server.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Blog_E1D7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI Report Server</h3>
-                                                    <p>Power BI、モバイル、およびオンプレミスのページ分割されたレポートを作成、デプロイ、および管理します。</p>
+                                                    <h3>Power BI ブログ</h3>
+                                                    <p>Power BI の開発に関する最新情報をお伝えします。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -123,7 +124,7 @@ ms.locfileid: "37597349"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-guided-learning.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-GuidedLearning_E736.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

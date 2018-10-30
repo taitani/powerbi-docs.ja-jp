@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop の例を指定して Web ページからデータを抽出する (プレビュー)
+title: Power BI Desktop の例を指定して Web ページからデータを抽出する
 description: プルするデータの例を指定して Web ページからデータを抽出する
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290984"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336808"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>例を指定して Web ページからデータを取得する (プレビュー)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>例を指定して Web ページからデータを取得する
 
 Web ページからのデータ取得を利用すると、ユーザーは Web ページからデータを簡単に抽出し、そのデータを **Power BI Desktop** にインポートすることができます。 ただし、多くの場合、Web ページ上のデータは、抽出が容易な整理されたテーブル形式ではないので、たとえ構造化され、一貫していても、そのようなページからデータを取得することは困難です。 
 
@@ -26,13 +26,6 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 ![例を指定して Web からデータを取得する](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>プレビュー機能の [Get Data from Web by example]\(例を指定して Web からデータを取得する\) を有効にする
-
-**[Get Data from Web by example]\(例を指定して Web からデータを取得する\)** はプレビュー段階の機能なので、**Power BI Desktop** でこの機能を有効にする必要があります。 この機能を有効にするには、**[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能]** の順に選択し、**[Web での新しいエクスペリエンス]** チェックボックスをオンにします。 選択を行った後、Power BI Desktop を再起動する必要があります。
-
-![プレビュー機能を有効にする](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-プレビュー機能を有効にしたら、使い始める準備は完了です。 
 
 ## <a name="using-get-data-from-web-by-example"></a>[Get Data from Web by example]\(例を指定して Web からデータを取得する\) の使用
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: de7766176f5c25288912cf463dce79f487e7335d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565109"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908083"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI サービスのレポートの読み取りビューと編集ビュー
 Power BI サービスには、レポートを表示および操作するためのモードとして、読み取りビューと編集ビューの 2 つがあります (Power BI Desktop にはありません)。 読み取りビューはすべてのユーザーが利用でき、特にデータの*コンシューマー*向けに設計されていますが、編集ビューはレポートの*作成者*と所有者のみが利用できます。
@@ -26,11 +26,12 @@ Power BI サービスには、レポートを表示および操作するため�
 
  読み取りビューではレポートを探索し、レポートと対話することができます。楽しく安全に、データについてさまざまなことを試したりよく理解したりすることができます。 読み取りビューは、アプリからレポートを開くユーザーや、レポートを[他のユーザーと共有](../service-share-dashboards.md)しているユーザーなど、レポートの*コンシューマー*向けに設計されています。 読み取りビューでは、特定のレポートのすべてのコンシューマーに対して、同じ視覚エフェクトを含む、(必要に応じて同じフィルターが適用された) 同じレポートが表示されます。  コンシューマーはレポートと対話したり、既存のフィルターを変更したりできますが (その変更内容はレポートと共に保存されます)、新しいフィルターを追加することはできません。
 
->**注**: 行レベルのセキュリティとデータ アクセス許可のため、特定の状況では、レポートのコンシューマーによってデータの表示が異なる場合があります。
+> [!NOTE]
+> 行レベルのセキュリティとデータ アクセス許可のため、特定の状況では、レポートのコンシューマーによってデータの表示が異なる場合があります。
 
 ## <a name="report-editing-view"></a>レポートの編集ビュー
 
-編集ビューは、レポートの作成者、または[アプリ ワークスペースのメンバーまたは管理者であるレポートの共同所有](end-user-create-apps.md)者のみが使用できます。
+編集ビューは、レポートの作成者、または[アプリ ワークスペースのメンバーまたは管理者であるレポートの共同所有](../service-create-distribute-apps.md)者のみが使用できます。
 
 編集ビューはレポートの*作成者*向けに設計されています。 ここでは、作成者がデータセットのインポートや接続、データの探索、レポートとダッシュボードのビルドを行います。 編集ビューでは、*作成者*はデータをより詳しく調査できます。その場合、フィールドを追加/削除したり、視覚エフェクトの種類を変更したり、視覚エフェクトを新規作成したり、レポートから視覚エフェクトやページを追加/削除したりします。 その後、作成したレポートを同僚と共有することができます。
 
@@ -53,11 +54,11 @@ Power BI サービスには、レポートを表示および操作するため�
 | [利用状況指標の表示](../service-usage-metrics.md) | はい、レポート キャンバスで表示できます。 | はい、レポート リスト (コンテンツ ビュー) に表示できます。 |
 | [関連の表示](end-user-related.md) | はい、レポート キャンバスで表示できます。 | はい、レポート リスト (コンテンツ ビュー) に表示できます。 |
 | [レポートの保存](../service-report-save.md) | はい。ただし、**[名前を付けて保存]** を使用する場合に限ります。 | はい |
-| [レポートの削除](end-user-delete.md) | いいえ  | はい |
+| [レポートの削除](../service-delete.md) | いいえ  | はい |
 |**レポート ページ** |
 | [レポート ページの追加または名前変更](../power-bi-report-add-page.md)  | いいえ  | はい  |
 | [レポート ページの複製](../power-bi-report-copy-paste-page.md) | いいえ  | はい |
-| [レポート ページの削除](end-user-delete.md) | いいえ | はい |
+| [レポート ページの削除](../service-delete.md) | いいえ | はい |
 |**レポートの視覚エフェクトの操作**|
 | [レポートへの視覚エフェクトの追加](../visuals/power-bi-report-add-visualizations-i.md) | いいえ  | はい |
 | [レポートへのテキスト ボックスと図形の追加](../power-bi-reports-add-text-and-shapes.md) | いいえ  | はい |
@@ -66,7 +67,7 @@ Power BI サービスには、レポートを表示および操作するため�
 | [視覚エフェクトの作成に使用されたデータの表示](end-user-show-data.md) | いいえ  | はい |
 | [ドリルダウンの構成](end-user-drill.md) | いいえ  | はい |
 | [使用中の視覚エフェクトの変更](../visuals/power-bi-report-change-visualization-type.md) | いいえ | はい|
-| [視覚エフェクト、テキスト ボックス、または図形の削除](end-user-delete.md)| いいえ | はい |
+| [視覚エフェクト、テキスト ボックス、または図形の削除](../service-delete.md)| いいえ | はい |
 
 
 ## <a name="navigating-between-editing-view-and-reading-view"></a>編集ビューと読み取りビューの間の移動
@@ -88,7 +89,6 @@ Power BI サービスには、レポートを表示および操作するため�
 
 
 
-### <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次の手順
 読み取りビューにはレポートを編集するさまざまな手段があり、データを細かく切り分けて洞察を発見し、質問に対する回答を得ることができます。  次のトピックの「[Power BI の読み取りビューでレポートと対話する](../service-interact-with-a-report-in-editing-view.md)」では、これらのいくつかについて詳しく説明されています。    
 「[Power BI のレポート](end-user-reports.md)」に戻る    
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

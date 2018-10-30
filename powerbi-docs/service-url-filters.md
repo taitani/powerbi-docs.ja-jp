@@ -1,22 +1,22 @@
 ---
 title: URL を使用して Power BI レポート パラメーターを追加する
 description: URL クエリ文字列パラメーターを使って、レポートをフィルター処理します。複数のフィールドでもフィルター処理できます。
-author: mihart
-ms.author: mihart
-manager: annebe
+author: maggiesMSFT
+ms.author: maggies
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 1124163b985f575df08a9ba4f065c6a6b1abf54c
-ms.sourcegitcommit: cca21f8089e71b595d3aca30c95f12e4bbf767cc
+ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
+ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45626033"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48232928"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -106,7 +106,7 @@ Power BI では、**and** に加え、多くの演算子がサポートされま
 |**gt**     | より大きい        |いいえ | はい | はい  | product/price gt 20
 |**le**     |   以下      | いいえ | はい | はい  | product/price le 100
 |**lt**     |  より小さい       | いいえ | はい | はい |  product/price lt 20
-|**in****     |  含む       | いいえ | いいえ |  はい | Student/Age in (27, 29)
+|**in****     |  含む       | はい | はい |  はい | Student/Age in (27, 29)
 
 
 \** **in** を使用する場合、**in** の右側の値をかっこで囲んだコンマ区切りのリストにすることができます。あるいは、コレクションを返す単一の式にすることもできます。
@@ -131,14 +131,14 @@ Power BI では、**Date** および **DateTimeOffset** データ型で OData V3
 
 ## <a name="special-characters-in-url-filters"></a>URL フィルター内の特殊文字
 
-特殊文字とスペースにはいくつか追加の書式設定が必要です。 クエリにスペース、ダッシュ、またはその他の非 ASCII 文字が含まれている場合は、それらの特殊文字の前に*エスケープ コード* (**_x**) と 4 桁の **Unicode** を付けます。 Unicode が 4 文字未満の場合は、ゼロで埋める必要があります。 次に例をいくつか示します。
+特殊文字とスペースにはいくつか追加の書式設定が必要です。 クエリにスペース、ダッシュ、またはその他の非 ASCII 文字が含まれている場合は、それらの特殊文字の前に、*エスケープ コード* (先頭のアンダースコアと X (**_x**)) の後に 4 桁の **Unicode**、続いてもう 1 つのアンダースコアを付加します。 Unicode が 4 文字未満の場合は、ゼロで埋める必要があります。 次に例をいくつか示します。
 
 |識別子  |Unicode  | Power BI 用のコーディング  |
 |---------|---------|---------|
-|**テーブル名**     | スペース: 0x20        |  Table_x0020_Name       |
-|**列**@**数値**     |   @: 0x40     |  Column_x0040_Number       |
-|**[列]**     |  [:0x005B ]:0x0050       |  _x0058_Column_x0050       |
-|**列+プラス**     | +:0x2B        |  Column_x002B_Plus       |
+|**テーブル名**     | スペースは 0x20        |  Table_x0020_Name       |
+|**列**@**数値**     |   @ は 0x40     |  Column_x0040_Number       |
+|**[列]**     |  [ is 0x0058 ] は 0x0050       |  _x0058_Column_x0050       |
+|**列+プラス**     | + は 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![ 特殊文字をレンダリングするテーブルのビジュアル](media/service-url-filters/power-bi-special-characters1.png)
 
@@ -171,6 +171,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 * Power BI Report Server で、レポートの URL に含ませることによって[レポート パラメーターを渡す](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)ことができます。 レポート処理エンジンに直接渡されるため、これらの URL パラメーターにはプレフィックスが付いていません。
 * クエリ文字列のフィルター処理は、[[Web に公開]](service-publish-to-web.md) または Power BI Embedded では機能しません。   
 * JavaScript の制限により、long データ型は (2^53-1) となります。
+* レポート URL フィルターには、10 個の式 (AND によって連結された 10 個のフィルター) の制限があります。
 
 ## <a name="next-steps"></a>次の手順
 

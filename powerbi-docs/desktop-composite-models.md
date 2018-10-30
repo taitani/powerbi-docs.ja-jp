@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388849"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336992"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop (プレビュー) での複合モデル
 
@@ -58,7 +58,7 @@ DirectQuery を使用するときに、**複合モデル**を使用すると、�
 たとえば、**複合モデル**を使用すると、エンタープライズ データ ウェアハウスの売上データ、部門の SQL Server データベース内にある売上目標のデータ、およびスプレッドシートからインポートした一部のデータを組み合わせたモデルを構築することができます。 複数の DirectQuery ソースのデータを結合したモデル、または DirectQuery とインポートされたデータを結合したモデルは、*複合モデル*と呼ばれます。
 
 > [!NOTE]
-> 複合モデルがプレビュー段階の間は、複合モデルを Power BI サービスに発行することはできません。 
+> 2018 年 10 月の **Power BI Desktop** のリリースより、複合モデルを Power BI サービスに発行することが*できます*。 スケジュールされた更新とダッシュボード タイルの更新の場合、Power BI サービスの複合モデルがインポート モデルと同様に動作します。 
 
 異なるソースのテーブルであっても、テーブル間にリレーションシップを作成できます。ただし、異なるソース間のリレーションシップは、実際のカーディナリティにかかわらず、**多対多**のカーディナリティを持つと定義する必要がある、という制限事項があります。 このようなリレーションシップの動作は、[Power BI Desktop の多対多のリレーションシップ (プレビュー)](desktop-many-to-many-relationships.md) に関する記事で説明されているように、通常の**多対多**のリレーションシップの場合と同じです。 複合モデルのコンテキスト内では、実際にインポートされる基のデータ ソースにかかわらず、すべてのインポートされるテーブルは実質的に単一のソースである点に注意してください。   
 
@@ -164,12 +164,13 @@ DirectQuery を使用する場合は、常にパフォーマンスを考慮す�
 
 このリリースの**複合モデル**にはいくつかの制限事項があります。
 
-次の多次元ソースは、**複合モデル**に使用できません。
+次の Live Connect (多次元) ソースは、**複合モデル**に使用できません。
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI データ セット
+* Azure Analysis Services
 
 DirectQuery を使用してこのような多次元ソースに接続する場合、別の DirectQuery ソースに接続することも、インポートしたデータと結合することもできません。
 
