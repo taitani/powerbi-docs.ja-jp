@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5b89b53cab0f7e4df07b15a05cd74c7d99b1392a
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 21a254cfc4543649cfe863830a56abe666480e63
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657991"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100869"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイの高可用性クラスター
 
@@ -90,6 +90,6 @@ PowerShell スクリプトは、オンプレミス データ ゲートウェイ�
 -   [オンプレミス データ ゲートウェイの詳細](service-gateway-onprem-indepth.md)  
 -   [オンプレミス データ ゲートウェイ (個人用モード)](service-gateway-personal-mode.md)
 -   [オンプレミス データ ゲートウェイのプロキシ設定を構成する](service-gateway-proxy.md)  
--   [Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
+-   [Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-sso-kerberos.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

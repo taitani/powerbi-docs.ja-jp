@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921509"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101510"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>オンプレミス データ ゲートウェイの詳細
 組織のユーザーはオンプレミス データ (アクセス認証を取得済みの) にアクセスできますが、オンプレミス データ ソースに接続するには、事前にオンプレミス データ ゲートウェイをインストールし、設定しておく必要があります。 このゲートウェイにより、クラウドのユーザーとオンプレミス データ ソースの間のバックグラウンドの通信が迅速かつ安全な方法で確立されます。
@@ -52,7 +52,7 @@ Analysis Services は、このアカウントに基づいて、フィルター�
 モデルでのロールと動的な行レベル セキュリティの実装については、この記事では説明しません。  詳細については、MSDN の「[ロール (SSAS 表形式)](https://msdn.microsoft.com/library/hh213165.aspx)」と「[(Analysis Services - 多次元データ) のセキュリティ ロール](https://msdn.microsoft.com/library/ms174840.aspx)」を参照してください。 また、表形式モデルのセキュリティに関するさらに詳細な情報については、「[表形式 BI セマンティック モデルをセキュリティで保護する](https://msdn.microsoft.com/library/jj127437.aspx)」というホワイトペーパーをダウンロードしてお読みください。
 
 ## <a name="what-about-azure-active-directory"></a>Azure Active Directory の役割
-Microsoft クラウド サービスは、ユーザーの認証を処理するために [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) を使用します。 Azure Active Directory は、ユーザー名とセキュリティ グループを含むテナントです。 通常、ユーザーがサインインに使用する電子メール アドレスはアカウントの UPN と同じです。
+Microsoft クラウド サービスは、ユーザーの認証を処理するために [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) を使用します。 Azure Active Directory は、ユーザー名とセキュリティ グループを含むテナントです。 通常、ユーザーがサインインに使用する電子メール アドレスはアカウントの UPN と同じです。
 
 ローカル Active Directory の役割
 
@@ -78,7 +78,7 @@ Analysis Services ライブ接続を使用する場合、ローカル Active Dir
 1. Azure Active Directory にアカウントを手動で追加できます。
    
    Azure ポータルで、あるいは Office 365 Admin ポータル内でアカウントを作成できます。アカウント名はローカル Active Directory アカウントの UPN と一致します。
-2. [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) ツールを使用し、ローカル アカウントと Azure Active Directory テナントを同期させることができます。
+2. [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) ツールを使用し、ローカル アカウントと Azure Active Directory テナントを同期させることができます。
    
    Azure AD Connect ツールでは、パスワード ハッシュ同期、パススルー認証、フェデレーションなど、ディレクトリ同期と認証設定のオプションが提供されます。 テナント管理者またはローカル ドメイン管理者ではない場合、IT 管理者に問い合わせ、これを構成してもらう必要があります。
 
@@ -90,7 +90,7 @@ Azure AD Connect を利用すると、UPN は AAD とローカル Active Directo
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>ゲートウェイについて
-ゲートウェイは、クラウドとオンプレミス サーバー間のブリッジとして機能します。 クラウドとゲートウェイ間のデータ転送は、[Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/) を介してセキュリティで保護されます。 Service Bus は、ゲートウェイでの送信接続を使用して、クラウドとオンプレミスのサーバーの間にセキュリティで保護されたチャネルを作成します。  オンプレミス ファイアウォールで開く必要のある受信接続はありません。
+ゲートウェイは、クラウドとオンプレミス サーバー間のブリッジとして機能します。 クラウドとゲートウェイ間のデータ転送は、[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview) を介してセキュリティで保護されます。 Service Bus は、ゲートウェイでの送信接続を使用して、クラウドとオンプレミスのサーバーの間にセキュリティで保護されたチャネルを作成します。  オンプレミス ファイアウォールで開く必要のある受信接続はありません。
 
 Analysis Services データ ソースを持っている場合は、Analysis Services サーバーと同じフォレストまたはドメインに結合しているコンピューターにゲートウェイをインストールする必要があります。
 
@@ -116,8 +116,10 @@ Analysis Services データ ソースを持っている場合は、Analysis Serv
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>次の手順
+
 [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
-[Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

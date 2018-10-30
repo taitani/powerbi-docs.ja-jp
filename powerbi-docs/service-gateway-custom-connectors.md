@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 75e760c1ad808d05986de46cf2bc427bb078e3ce
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799048"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101280"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイでカスタム データ コネクタを使用する
 
@@ -56,6 +56,6 @@ Power BI Desktop でカスタム データ コネクタを使用するレポー�
 * [オンプレミス データ ゲートウェイの詳細](service-gateway-onprem-indepth.md)  
 * [オンプレミス データ ゲートウェイ (個人用モード)](service-gateway-personal-mode.md)
 * [オンプレミス データ ゲートウェイのプロキシ設定を構成する](service-gateway-proxy.md)  
-* [Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
+* [Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-sso-kerberos.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

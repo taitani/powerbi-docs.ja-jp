@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2eb880ee512a3f13c56bb6dbf880209f05cdf7b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ff770320e0e6cd3f591e3318637a04977152e488
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296315"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101418"
 ---
 # <a name="manage-your-data-source---sql-server"></a>データ ソースの管理 - SQL Server
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加することができます。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 スケジュールされた更新または DirectQuery のどちらに対しても SQL Server データ ソースを使用できます。
@@ -60,7 +60,7 @@ ms.locfileid: "34296315"
 また、 **[認証方法]** も選択する必要があります。  **[Windows]** または **[基本]** を選択できます。  Windows 認証ではなく SQL 認証を使用する場合は、 **[基本]** を選択してください。 次に、このデータ ソースで使用される資格情報を入力します。
 
 > [!NOTE]
-> データ ソースへのすべてのクエリは、Kerberos シングル サインオン (SSO) が構成され、データ ソースに対して有効な場合を除き、これらの資格情報を使用して実行されます。 SSO を使用すると、インポート データセットは保存された資格情報を使用しますが、DirectQuery データセットは現在の Power BI ユーザーを使用し、SSO を使用してクエリを実行します。 詳細については、[資格情報](service-gateway-onprem.md#credentials)の保存方法に関する主なオンプレミス データ ゲートウェイの記事、または [Power BI からオンプレミス データ ソースの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)方法を説明している記事を参照してください。
+> データ ソースへのすべてのクエリは、Kerberos シングル サインオン (SSO) が構成され、データ ソースに対して有効な場合を除き、これらの資格情報を使用して実行されます。 SSO を使用すると、インポート データセットは保存された資格情報を使用しますが、DirectQuery データセットは現在の Power BI ユーザーを使用し、SSO を使用してクエリを実行します。 詳細については、[資格情報](service-gateway-onprem.md#credentials)の保存方法に関する主なオンプレミス データ ゲートウェイの記事、または [Power BI からオンプレミス データ ソースの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-sso-kerberos.md)方法を説明している記事を参照してください。
 > 
 > 
 
@@ -123,6 +123,6 @@ ms.locfileid: "34296315"
 * [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
 * [オンプレミス データ ゲートウェイの詳細](service-gateway-onprem-indepth.md)  
 * [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)
-* [Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) 
+* [Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-sso-kerberos.md) 
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 
