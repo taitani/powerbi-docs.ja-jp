@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ce37c13d313a44af5f082c0db2a72dbf4d53aca5
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: 8a95dae913c2069fa3768d66c55d2b1358640000
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48875443"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641921"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI サービスの基本的な概念
 
@@ -82,7 +82,7 @@ Power BI の 4 つの主要な構成要素は、"***ダッシュボード***"、
 データセットの更新、名前変更、探索、削除を行うことができます。 データセットを使ってレポートを最初から作成するか、[クイック インサイト](service-insights.md)を実行します。  データセットを既に使っているレポートとダッシュボードを確認するには、**[関連の表示]** を選びます。 データセットを調べるには、そのデータセットを選択します。 実際の操作としては、レポート エディターでデータセットを開き、そこでデータの掘り下げと視覚エフェクトの作成を開始します。 それでは、次のトピック「レポート」に進みましょう。
 
 ### <a name="dig-deeper"></a>詳細情報
-* [Power BI Premium とは](service-premium.md)
+* [Power BI Premium とは何ですか?](service-premium.md)
 * [Power BI のデータの取得](service-get-data.md)
 * [Power BI 用のサンプル データセット](sample-datasets.md)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2018
+ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909178"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396752"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -212,7 +212,7 @@ ms.locfileid: "48909178"
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)をご覧ください。
 
-* [SQL Server 2016 Analysis Services 表形式モデルの Power BI Q&A サポート](consumer/end-user-q-and-a-direct-query.md): Power BI Q&A が使いやすくなったことと、企業のゲートウェイに接続されているデータ ソースを対象に、Power BI Q&A の公開プレビューが開始されることを謹んでお知らせ申し上げます。始めに SQL Server 2016 Analysis Services 表形式モデルがサポートされます。 詳細については、[ブログの投稿を参照してください](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)。
+* [SQL Server 2016 Analysis Services 表形式モデルの Power BI Q&A サポート](service-q-and-a-direct-query.md): Power BI Q&A が使いやすくなったことと、企業のゲートウェイに接続されているデータ ソースを対象に、Power BI Q&A の公開プレビューが開始されることを謹んでお知らせ申し上げます。始めに SQL Server 2016 Analysis Services 表形式モデルがサポートされます。 詳細については、[ブログの投稿を参照してください](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)。
 * [Excel レポートのローカル ファイル サポート](service-excel-workbook-files.md#local-excel-workbooks): ローカル ドライブまたはその他のストレージ サービスから Excel ファイルをアップロードし、Power BI の利点が追加された Excel Online の場合と同様に Excel レポートを使用できるようになりました。 詳細については、[ブログの投稿を参照してください](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)。
 
 **2016 年 4 月 28 日**
@@ -635,7 +635,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * Power BI と [appFigures コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx)を使用すると、アプリに関する重要な統計情報を簡単に追跡できるようになりました。 接続および開始の方法の詳細については、Power BI 用 appFigures コンテンツ パックの[ドキュメント](service-connect-to-appfigures.md)をご覧ください。
 
-**2015 年 5 月 28 日 **
+**2015 年 5 月 28 日** 
 
 * この[コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)を使用して、QuickBooks Online アカウントのデータに関する洞察をすばやく得ることができます。 接続および開始の方法の詳細については、Power BI 用 QuickBooks Online コンテンツ パックの[ドキュメント](service-connect-to-quickbooks-online.md)をご覧ください。
 
