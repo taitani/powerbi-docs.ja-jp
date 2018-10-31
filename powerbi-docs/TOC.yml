@@ -54,7 +54,7 @@ items:
     items:
     - name: Power BI Desktop の最新の更新プログラムの新機能
       href: desktop-latest-update.md
-    - name: Power BI Desktop (プレビュー) での集計
+    - name: Power BI Desktop での集計 (プレビュー)
       href: desktop-aggregations.md
     - name: Power BI Desktop (プレビュー) での複合モデル
       href: desktop-composite-models.md
@@ -70,6 +70,8 @@ items:
       href: desktop-directquery-data-sources.md
     - name: Power BI データ ソースの前提条件
       href: desktop-data-source-prerequisites.md
+    - name: カスタム ビジュアルのよくあるご質問
+      href: power-bi-custom-visuals-faq.md
   - name: 方法
     items:
     - name: Power BI Desktop の取得
@@ -194,9 +196,9 @@ items:
       items:
       - name: Power BI Desktop でのデータ分類
         href: desktop-data-categorization.md
-      - name: Power BI モバイル アプリ向けの Power BI Desktop でバーコード フィールドにタグ付けする
+      - name: モバイル アプリのバーコード フィールドにタグ付けする
         href: desktop-mobile-barcodes.md
-      - name: Power BI モバイル アプリ向けの Power BI Desktop で地理的フィルタリングを設定する
+      - name: モバイル アプリの地理的フィルタリングを設定する
         href: desktop-mobile-geofiltering.md
       - name: Power BI Desktop の計算列
         href: desktop-calculated-columns.md
@@ -204,6 +206,8 @@ items:
         href: desktop-calculated-tables.md
       - name: Power BI Desktop のメジャー
         href: desktop-measures.md
+      - name: Q&A の言語スキーマを編集する
+        href: power-bi-q-and-a-linguistic-schema.md
       - name: KPI のインポートと表示 (プレビュー)
         href: desktop-import-and-display-kpis.md
     - name: レポートの作成
@@ -496,8 +500,6 @@ items:
         href: service-connect-to-prevedere.md
       - name: Project Online
         href: service-connect-to-project-online.md
-      - name: Project Madeira
-        href: service-connect-to-project-madeira.md
       - name: Projectplace
         href: service-connect-to-projectplace.md
       - name: QuickBooks Online
@@ -572,6 +574,8 @@ items:
         href: sql-server-analysis-services-tabular-data.md
       - name: Azure と Power BI
         href: service-azure-and-power-bi.md
+      - name: Power BI と Azure エグレス
+        href: service-azure-egress-power-bi.md
     - name: データ更新
       items:
       - name: スケジュールされた更新の構成
@@ -632,19 +636,19 @@ items:
       items:
       - name: 既存のレポートから新しいレポートを作成
         href: power-bi-report-copy.md
-      - name: Power BI レポートへのページの追加
+      - name: レポートにページを追加する
         href: power-bi-report-add-page.md
-      - name: Power BI でのレポートへのフィルターの追加
+      - name: レポートにフィルターを追加する
         href: power-bi-report-add-filter.md
       - name: Power BI でレポートを保存する
         href: service-report-save.md
       - name: データセットから新しいレポートを作成
         href: service-report-create-new.md
-      - name: Power BI の編集ビューでレポートと対話する
+      - name: 編集ビューでレポートと対話する
         href: service-interact-with-a-report-in-editing-view.md
       - name: Excel で分析
         href: service-analyze-in-excel.md
-      - name: Power BI サービスにおけるレポート作成のヒントとテクニック
+      - name: レポートの作成に関するヒントとテクニック
         href: power-bi-reports-tips-and-tricks-for-creating.md
       - name: 分析ウィンドウ
         href: service-analytics-pane.md
@@ -652,32 +656,32 @@ items:
         href: service-usage-metrics.md
       - name: レポートの QR コードを作成する
         href: service-create-qr-code-for-report.md
-      - name: Power BI のレポートでページを並べ替える
+      - name: レポートでページを並べ替える
         href: service-report-reorder-pages.md
-      - name: Power BI でのレポート ページの複製
+      - name: レポート ページの複製
         href: power-bi-report-copy-paste-page.md
-      - name: Power BI サービスからデスクトップにレポートをエクスポートする (プレビュー)
+      - name: サービスから Power BI Desktop にレポートをエクスポートする (プレビュー)
         href: service-export-to-pbix.md
-      - name: URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
+      - name: URL のパラメーターを使用してレポートをフィルター処理する
         href: service-url-filters.md
-      - name: Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティス
+      - name: 高速で信頼性の高いレポートを作成するためのベスト プラクティス
         href: power-bi-reports-performance.md
-      - name: Power BI での ArcGIS マップとの対話
+      - name: ArcGIS マップとの対話
         href: visuals/power-bi-visualizations-arcgis.md
     - name: データに関する質問
       items:
       - name: Q&A を使用して視覚化およびレポートを作成する
         href: power-bi-tutorial-q-and-a.md
-      - name: データを Power BI Q&A に適合させる方法
+      - name: データを Q&A でうまく使う方法
         href: service-prepare-data-for-q-and-a.md
       - name: Cortana を Power BI で使用可能にする
         href: service-cortana-enable.md
-      - name: Power BI Q&A のおすすめの質問を作成する
+      - name: Q&A のおすすめの質問を作成する
         href: service-q-and-a-create-featured-questions.md
       - name: Power BI での視覚化の種類
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: Power BI Desktop での言語スキーマの操作
-        href: power-bi-q-and-a-linguistic-schema.md
+      - name: ライブ接続で Q&A を使用する
+        href: service-q-and-a-direct-query.md
     - name: 作業の共有
       items:
       - name: 共同作業および共有を行う方法
@@ -686,8 +690,6 @@ items:
         href: service-share-dashboards.md
       - name: アプリを作成して共有する
         href: service-create-distribute-apps.md
-      - name: アプリをインストールして使用する
-        href: service-install-use-apps.md
       - name: アプリ ワークスペースを作成する
         href: service-create-workspaces.md
       - name: 新しいワークスペース (プレビュー) を作成する
@@ -790,7 +792,7 @@ items:
         href: developer/embed-sample-for-customers.md
       - name: 組織向けにコンテンツを埋め込む
         href: developer/embed-sample-for-your-organization.md
-      - name: コンテンツをソブリン クラウド向けアプリケーションに統合する
+      - name: ソブリン クラウド向けにコンテンツを埋め込む
         href: developer/embed-sample-for-customers-sovereign-clouds.md
     - name: 概念
       items:
@@ -798,7 +800,7 @@ items:
         href: developer/embedded-row-level-security.md
       - name: Azure の Power BI Embedded の診断ログ
         href: developer/azure-pbie-diag-logs.md
-      - name: よく寄せられる質問
+      - name: 埋め込みに関するよくあるご質問
         href: developer/embedded-faq.md
       - name: Power BI のアクセス許可
         href: developer/power-bi-permissions.md
@@ -877,7 +879,9 @@ items:
     - name: チュートリアル
       items:
       - name: Power BI カスタム ビジュアルを開発する
-        href: https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/
+        href: developer/custom-visual-develop-tutorial.md
+      - name: 書式設定オプションの追加
+        href: developer/custom-visual-develop-tutorial-format-options.md
     - name: 概念
       items:
       - name: 機能を使用する
@@ -1096,8 +1100,14 @@ items:
       href: service-gateway-enterprise-manage-scheduled-refresh.md
     - name: オンプレミスとクラウド データ ソースの統合
       href: service-gateway-mashup-on-premises-cloud.md
-    - name: Kerberos を使用したシングル サインオン (SSO)
-      href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
+    - name: シングル サインオン (SSO) を有効にする
+      items:
+      - name: シングル サインオン (SSO) - 概要
+        href: service-gateway-sso-overview.md
+      - name: シングル サインオン (SSO) - Kerberos
+        href: service-gateway-sso-kerberos.md
+      - name: シングル サインオン (SSO) - SAML
+        href: service-gateway-sso-saml.md
     - name: プロキシ設定の構成
       href: service-gateway-proxy.md
     - name: オンプレミス データ ゲートウェイの高可用性クラスター
@@ -1130,7 +1140,7 @@ items:
         href: service-admin-premium-purchase.md
       - name: Power BI Premium の管理
         href: service-admin-premium-manage.md
-      - name: Power BI Premium 容量レポートの監視
+      - name: Power BI Premium の監視
         href: service-admin-premium-monitor-capacity.md
       - name: 大規模なデータセットのサポート
         href: service-premium-large-datasets.md
@@ -1140,8 +1150,6 @@ items:
         href: service-admin-premium-multi-geo.md
       - name: Power BI Premium のよく寄せられる質問
         href: service-premium-faq.md
-      - name: Power BI Premium リリース ノート
-        href: service-premium-release-notes.md
     - name: Office 365 の管理ロール
       href: service-admin-role.md
     - name: よく寄せられる質問 (FAQ)
@@ -1185,19 +1193,19 @@ items:
     - name: PowerShell、REST API、および .NET SDK
       href: service-admin-reference.md
     - name: PowerShell 用の Power BI のコマンドレット
-      href: https://docs.microsoft.com/en-us/powershell/power-bi/
+      href: https://docs.microsoft.com/powershell/power-bi/
       maintainContext: true
+    - name: サービス URL リファレンス
+      href: power-bi-whitelist-urls.md
   - name: リソース
     items:
     - name: Power BI の管理と展開のアプローチ
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-    - name: Power BI for Office 365 は Power BI に移行されました
-      href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 54eee0bb21c66fee9b2daf377140e016eee076a0
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: dbefae36f3a51d7494130593a4c7009f3cbc10b4
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337015"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252516"

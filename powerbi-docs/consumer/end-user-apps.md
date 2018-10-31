@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0d9f16933bff264b10c0bff3e1b7c440a3d373a2
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48907856"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112201"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 Power BI では、*アプリ*が関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。 組織内のユーザーは主要なビジネス情報でアプリを作成し、配布できます。 既にご利用中かもしれませんが、Google アナリティクスや Microsoft Dynamics CRM など、[外部サービス](end-user-connect-to-services.md)も Power BI アプリを提供します。 
@@ -34,13 +34,13 @@ Power BI では、*アプリ*が関連のあるダッシュボードやレポー
 
 **コンピューターで** 
 
-電子メールのリンクをクリックすると、ブラウザーで Power BI サービス ([https://powerbi.com](https://powerbi.com)) が開きます。 アプリのインストールを確認すると、アプリのランディング ページが開きます。
+メールのリンクを選択して Power BI サービス ([https://powerbi.com](https://powerbi.com)) をブラウザーで開きます。 アプリのインストールを確認すると、アプリのランディング ページが開きます。
 
 ![Power BI サービスのアプリ ランディング ページ](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
 
 **iOS または Android モバイル デバイスで** 
 
-モバイル デバイスで電子メールにあるリンクをクリックすると、アプリが自動的にインストールされ、モバイル アプリでアプリのコンテンツ リストが開きます。 
+モバイル デバイスで電子メールにあるリンクを選択すると、アプリが自動的にインストールされ、モバイル アプリでアプリのコンテンツ リストが開きます。 
 
 ![モバイル デバイスのアプリ コンテンツ リスト](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
 
@@ -50,7 +50,7 @@ Power BI では、*アプリ*が関連のあるダッシュボードやレポー
 1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png)、**[アプリの取得]** の順に選択します。 
    
      ![[アプリの取得] アイコン](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
-2. [AppSource] の **[My organization (自分の組織)]** で、結果を絞り込むための検索を行って、探しているアプリを見つけることができます。
+2. [AppSource] の **[My organization]\(自分の組織\)** で、結果を絞り込むための検索を行って、探しているアプリを見つけます。
    
      ![AppSource の [自分の所属組織]](./media/end-user-apps/power-bi-appsource-my-org.png)
 3. **[Get it now (今すぐ取得)]** を選択して、[アプリ] ページにアプリを追加します。 
