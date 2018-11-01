@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474028"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101648"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのトラブルシューティング
 
@@ -446,7 +446,7 @@ PowerShell プロンプトから [Test-NetConnection](https://docs.microsoft.com
 
 ## <a name="kerberos"></a>Kerberos
 
-基になるデータベース サーバーとオンプレミス データ ゲートウェイが [Kerberos の制約付き委任](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)用に適切に構成されていない場合は、ゲートウェイで[詳細なログ](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)を有効にし、トラブルシューティングの出発点としてゲートウェイのログ ファイルのエラー/トレースに基づいて調査します。
+基になるデータベース サーバーとオンプレミス データ ゲートウェイが [Kerberos の制約付き委任](service-gateway-sso-kerberos.md)用に適切に構成されていない場合は、ゲートウェイで[詳細なログ](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)を有効にし、トラブルシューティングの出発点としてゲートウェイのログ ファイルのエラー/トレースに基づいて調査します。
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 
