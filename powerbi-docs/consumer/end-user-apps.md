@@ -7,22 +7,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc68be50917b113371fc168d1b6e3defa2b5001e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112201"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473430"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 Power BI では、*アプリ*が関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。 組織内のユーザーは主要なビジネス情報でアプリを作成し、配布できます。 既にご利用中かもしれませんが、Google アナリティクスや Microsoft Dynamics CRM など、[外部サービス](end-user-connect-to-services.md)も Power BI アプリを提供します。 
 
-![Power BI のアプリ](./media/end-user-apps/power-bi-apps-left-nav.png)
+![Power BI のアプリ](./media/end-user-apps/power-bi-apps-navbar.png)
 
-アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) とモバイル デバイスで簡単に検索してインストールすることができます。 アプリのインストール後は、さまざまなダッシュボードの名前を覚えておく必要がありません。ブラウザー内やモバイル デバイス上では 1 つのアプリにまとめて表示されるためです。
+アプリは Power BI サービス ([app.powerbi.com](https:app.powerbi.com)) とモバイル デバイスで簡単に検索してインストールすることができます。 アプリのインストール後は、さまざまなダッシュボードの名前を覚えておく必要がありません。ブラウザー内やモバイル デバイス上では 1 つのアプリにまとめて表示されるためです。
 
 アプリの作者が更新プログラムを公開するたびに、自動的に変更が反映されます。 作成者はデータの更新頻度も制御するため、最新の状態が維持されているかを気にする必要はありません。 
 
@@ -36,7 +36,7 @@ Power BI では、*アプリ*が関連のあるダッシュボードやレポー
 
 メールのリンクを選択して Power BI サービス ([https://powerbi.com](https://powerbi.com)) をブラウザーで開きます。 アプリのインストールを確認すると、アプリのランディング ページが開きます。
 
-![Power BI サービスのアプリ ランディング ページ](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
+![Power BI サービスのアプリ ランディング ページ](./media/end-user-apps/power-bi-get-app.png)
 
 **iOS または Android モバイル デバイスで** 
 
@@ -56,12 +56,12 @@ Power BI では、*アプリ*が関連のあるダッシュボードやレポー
 3. **[Get it now (今すぐ取得)]** を選択して、[アプリ] ページにアプリを追加します。 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>アプリのダッシュボードとレポートを操作する
-これで、アプリのダッシュボードおよびレポートのデータを探索できます。 フィルター処理、強調表示、並べ替え、ドリル ダウンなど、Power BI の標準機能にすべてアクセスできます。 レポート内のテーブルや他のビジュアルから [Excel にデータをエクスポートする](end-user-export-data.md)こともできます。 [Power BI でレポートを使用する方法](end-user-reading-view.md)に関するページをご覧ください。 
+これで、アプリのダッシュボードおよびレポートのデータを探索できます。 フィルター処理、強調表示、並べ替え、ドリル ダウンなど、Power BI の標準機能にすべてアクセスできます。 [Power BI でレポートを使用する方法](end-user-reading-view.md)に関するページをご覧ください。 
 
 ![Power BI ビジュアルからデータをエクスポートする](./media/end-user-apps/power-bi-service-export-data-visual.png)
 
 
 
 ## <a name="next-steps"></a>次の手順
-* [外部サービス用の Power BI アプリ](end-user-connect-to-services.md)
+[外部サービス用の Power BI アプリ](end-user-connect-to-services.md)
 

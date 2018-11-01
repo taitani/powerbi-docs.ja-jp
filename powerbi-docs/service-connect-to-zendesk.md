@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: afcaae9499aa1c7e1461030cfa6b5d7b35a47188
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5b469c506a29778ea34216b09bde90ed5f1d4345
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37136021"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544718"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Power BI で Zendesk に接続する
 Zendesk コンテンツ パックは、Power BI ダッシュボードと一連の Power BI レポートを提供し、お客様のチケット ボリュームとエージェント パフォーマンスに関する詳細情報を示します。 提供されるダッシュボードとレポートをそのまま使用することもできますし、最も関心のある情報を強調表示するためにカスタマイズすることができます。  データは、1 日 1 回自動的に更新されます。 
@@ -55,10 +55,10 @@ Zendesk コンテンツ パックは、Power BI ダッシュボードと一連�
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
+* ダッシュボード上部にある [Q&A ボックスで質問](consumer/end-user-q-and-a.md)してみてください。
 * ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
-* [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
-* データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
+* [タイルを選択](consumer/end-user-tiles.md)して基になるレポートを開くことができます。
+* データセットは毎日更新するようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
 ## <a name="whats-included"></a>含まれるもの
 Power BI コンテンツ パックには、次の項目に関するデータが含まれています。  

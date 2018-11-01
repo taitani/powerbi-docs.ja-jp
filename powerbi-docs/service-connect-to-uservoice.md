@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: ef35ef674ad8b0608c22b7b0d958b4844bb0d24e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37092163"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544448"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Power BI で UserVoice に接続する
 UserVoice データの追跡と探索は、Power BI と UserVoice コンテンツ パックを使えば簡単に行えます。 Power BI は、チケット、提案と満足度の評価などのデータを取得してから、そのデータに基づいて、すぐに使えるダッシュボードとレポートを作成します。
@@ -53,10 +53,10 @@ Power BI 用 [UserVoice コンテンツ パック](https://app.powerbi.com/getda
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
+* ダッシュボード上部にある [Q&A ボックスで質問](consumer/end-user-q-and-a.md)してみてください。
 * ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
-* [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
-* データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
+* [タイルを選択](consumer/end-user-tiles.md)して基になるレポートを開くことができます。
+* データセットは毎日更新するようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 **"パラメーターの検証でエラーが発生しました。すべてのパラメーターが有効であることを確認してください。"**

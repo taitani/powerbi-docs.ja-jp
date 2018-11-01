@@ -7,34 +7,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396913"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252493"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
-管理ポータルを使用して、組織内の Power BI のテナントを管理できます。 利用状況の指標、Office 365 管理センターへのアクセス、設定などの項目があります。
+管理ポータルを使用すると、組織の Power BI "*テナント*" を管理できます。 ポータルには、利用状況の指標、Office 365 管理センターへのアクセス、設定などの項目が含まれています。
 
-会社の Power BI のテナント管理は、Power BI 管理ポータルで行われます。 管理ポータルには、Office 365 のグローバル管理者であるか、Power BI サービス管理者の役割が割り当てられているすべてのユーザーがアクセスできます。 Power BI サービス管理者の役割の詳細については、「[Power BI 管理者の役割について](service-admin-role.md)」を参照してください。
-
-すべてのユーザーの歯車アイコンの下に**管理ポータル**が表示されます。 管理者以外のユーザーには、**[Premium の設定]** セクションと、自身が管理権限を持つ容量のみが表示されます。
+完全な管理ポータルには、Office 365 のグローバル管理者であるか、Power BI サービス管理者の役割が割り当てられているすべてのユーザーがアクセスできます。 これらの役割のいずれも割り当てられていない場合、表示できるのはポータルの **[容量の設定]** のみです。 Power BI サービス管理者の役割の詳細については、「[Power BI 管理者の役割について](service-admin-role.md)」を参照してください。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>管理ポータルにアクセスする方法
 
 Power BI の管理ポータルにアクセスするには、アカウントが Office 365 または Azure Active Directory 内で **[グローバル管理者]** とマークされているか、Power BI サービス管理者の役割が割り当てられている必要があります。 Power BI サービス管理者の役割の詳細については、「[Power BI 管理者の役割について](service-admin-role.md)」を参照してください。 Power BI 管理ポータルにアクセスするには、次のように操作します。
 
 1. Power BI サービスの右上にある設定アイコン (歯車) を選択します。
-2. **[管理ポータル]** を選択します。
 
-![](media/service-admin-portal/powerbi-admin-settings.png)
+1. **[管理ポータル]** を選択します。
 
-ポータルには 6 つのタブがあります。 この後、それらについて説明します。
+    ![管理ポータルの設定](media/service-admin-portal/powerbi-admin-settings.png)
+
+ポータルには 7 つのタブがあります。 この記事の残りの部分では、これらの各タブについて説明します。
+
+![管理ポータルのナビゲーション](media/service-admin-portal/powerbi-admin-landing-page.png)
 
 * [利用状況の指標](#usage-metrics)
 * [ユーザー](#users)
@@ -42,95 +43,91 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 * [テナント設定](#tenant-settings)
 * [Premium の設定](#premium-settings)
 * [埋め込みコード](#embed-codes)
-* [組織のビジュアル](#Organization-visuals)
-
-![](media/service-admin-portal/powerbi-admin-landing-page.png)
+* [組織のビジュアル](#organization-visuals)
 
 ## <a name="usage-metrics"></a>利用状況の指標
-管理ポータルの最初のタブは、**[利用状況の指標ク]** です。 利用状況の指標レポートを使用して、組織の Power BI の利用状況を監視できます。 また、組織のどのユーザーやグループが Power BI を最もアクティブに使用しているかを確認することもできます。
+
+**[利用状況の指標]** を使用すると、組織の Power BI の使用状況を監視することができます。 また、組織のどのユーザーやグループが Power BI を最もアクティブに使用しているかを確認することもできます。
 
 > [!NOTE]
 > ダッシュボードに初めてアクセスした場合、またはダッシュボードを長期間表示しなかった後でもう一度アクセスした場合は、ダッシュボードを読み込んでいる間、読み込み中画面が表示される可能性があります。
 
-ダッシュボードが読み込まれると、2 つのタイル セクションが表示されます。 最初のセクションには組織の個々のユーザーの利用状況データが、2 番目のセクションにはグループについての同様の情報が含まれます。
+ダッシュボードが読み込まれると、タイルのセクションが 2 つ表示されます。 最初のセクションには個々のユーザーの利用状況データが、2 番目のセクションには組織内のグループについての同様の情報が含まれます。
 
 各タイルに表示される内容の詳細は次のとおりです。
 
 * ユーザー ワークスペース内のすべてのダッシュ ボード、レポート、およびデータセットの重複しない数。
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+    ![ダッシュボード、レポート、データセットの重複しない数](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* アクセス可能ユーザー数別の最も使用されたダッシュボード。 たとえば、3 人のユーザーと共有しているダッシュ ボードがあるときに、別の 2 人のユーザーに接続されているコンテンツ パックにそのダッシュボードを追加した場合、数値は 6 になります (1 + 3 + 2)。
+* アクセス可能ユーザー数別の最も使用されたダッシュボード。 たとえば、3 人のユーザーと共有しているダッシュ ボードがあるときに、別の 2 人のユーザーに接続されているコンテンツ パックにそのダッシュボードを追加した場合、数値は 6 になります (1 + 3 + 2)
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
+    ![最も使用されたダッシュボード](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
 * ユーザーが最も接続しているコンテンツ。 これは、データ取得処理によってユーザーがアクセスできるコンテンツであり、SaaS コンテンツ パック、組織のコンテンツ パック、ファイル、またはデータベースになります。
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
+    ![最も使用されたパッケージ](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
 * 所有しているダッシュボードの数 (自分で作成したダッシュボードと共有しているダッシュ ボードの両方) に基づく上位ユーザー ビュー。
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
+    ![上位ユーザー - ダッシュボード](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
 * 所有しているレポートの数に基づく上位ユーザー ビュー。
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
+    ![上位ユーザー - レポート](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-2 番目のセクションでは、同じ種類の情報が表示されますが、そのデータは (ユーザーではなく) グループに基づいています。 これにより、組織のどのグループが最もアクティブであり、どのような情報を使用しているかを確認できます。
+2 番目のセクションでは、同じ種類の情報が表示されますが、そのデータは (ユーザーではなく) グループに基づいています。 これにより、組織のどのグループが最もアクティブであり、どのようなコンテンツを使用しているかを確認できます。
 
-これらの情報によって、組織のユーザーとグループが Power BI をどのように使用しているかについて本物の洞察を得ることができ、組織内の非常にアクティブなユーザーとグループを認識できます。
+これらの情報によって、組織全体のユーザーとグループが Power BI をどのように使用しているかについてリアルな洞察を得ることができ、組織内の非常にアクティブなユーザーとグループを認識できます。
 
-## <a name="users"></a>Users
+## <a name="users"></a>ユーザー
 
-管理ポータルの 2 番目のタブは、**[ユーザーの管理]** です。 Power BI のユーザー管理は Office 365 管理センターで行われるため、このセクションから Office 365 内のユーザー、管理者、およびグループを管理する領域に簡単に移動できます。
+Office 365 管理センターで Power BI のユーザー、グループ、管理者を管理します。 **[ユーザー]** タブには、テナントの管理センターへのリンクが含まれています。
 
-![](media/service-admin-portal/powerbi-admin-manage-users.png)
-
-**[O365 管理センターに移動]** をクリックすると、Office 365 管理センター内のテナントのユーザーを管理するためのページに直接移動します。
-
-![](media/service-admin-portal/powerbi-admin-o365-admin-center.png)
+![O365 管理センターに移動](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>監査ログ
 
-管理ポータルの 3 番目のタブは、**[監査ログ]** です。 ログは、Office 365 セキュリティ/コンプライアンス センター内に存在します。 このセクションでは、Office 365 内のその領域にすばやくアクセスすることができます。
-
-監査ログの詳細については、「[組織内の Power BI を監査する](service-admin-auditing.md)」を参照してください。
+Office 365 セキュリティ/コンプアライアンス センターで Power BI 監査ログを管理します。 **[監査ログ]** タブには、テナントのセキュリティ/コンプアライアンス センターへのリンクが含まれています。 [詳細情報](service-admin-auditing.md)
 
 ## <a name="tenant-settings"></a>テナント設定
 
-管理ポータルの 3 番目のタブは、**[テナント設定]** です。 テナント設定を使用して、組織で利用できる機能を細かく制御できます。 機密データに関して懸念がある場合は、一部の機能はお客様の組織に適していない可能性があり、指定した機能を特定のグループのみが使用できるようにする必要がある場合があります。 そのような場合は、テナントの該当する機能をオフに切り替えることができます。
+**[テナント設定]** タブを使うと、組織で利用できる機能をきめ細かく制御できます。 機密データに関して懸念がある場合、一部の機能がお客様の組織に適していない場合や、特定の機能を特定のグループのみが使用できるようにする必要がある場合があります。
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+**[テナント設定]** タブの最初の 2 つのセクションを次の図に示します。
+
+![テナント設定](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> テナントのすべてのユーザーに対して設定が有効になるには、最大で 10 分かかることがあります。
+> テナントのすべてのユーザーに対して設定の変更が有効になるには、最大で 10 分かかることがあります。
 
 次の 3 つの状態を設定できます。
 
-* **組織全体に対して無効にする**: 機能を無効にし、ユーザーがその機能を使用できないようにすることができます。
+* **組織全体に対して無効にする**: 組織のどのユーザーもこの機能を使用できません。
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+    ![すべて無効にする設定](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **組織全体に対して有効にする**: 組織全体に対して機能を有効にできます。有効にすると、すべてのユーザーがその機能にアクセスできるようになります。
+* **組織全体に対して有効にする**: 組織のすべてのユーザーがこの機能を使用できます。
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![すべて有効にする設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **組織のサブセットに対して有効にする**: 一部の組織に対して機能を有効にすることもできます。 これは、いくつかの異なる方法で設定することができます。 特定のユーザーのグループを除いて、組織全体に対して機能を有効にすることができます。
+* **組織のサブセットに対して有効にする**: 組織のユーザーまたはグループの特定のサブセットがこの機能を使用できます。
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+    特定のユーザーのグループを除いて、組織全体に対して機能を有効にすることができます。
 
-    特定のユーザーのグループのみに対して機能を有効にすることもでき、また、ユーザーのグループに対して機能を無効にすることもできます。 これで、特定のユーザーが許可されているグループに属している場合でも、その機能へのアクセス権を持たないようにすることができます。
+    ![サブセットを有効にする設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+    特定のユーザーのグループのみに対して機能を有効にすることも、ユーザーのグループに対して機能を無効にすることもできます。 この方法を使用すると、特定のユーザーが許可されているグループに属している場合でも、その機能へのアクセス権を持たないようにすることができます。
+
+    ![一部を除いて有効にする設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 次のいくつかのセクションでは、さまざまな種類のテナント設定の概要を示します。
 
 ## <a name="workspace-settings"></a>ワークスペースの設定
 
 ### <a name="create-workspaces-preview"></a>ワークスペース (プレビュー) を作成する
-組織内のユーザーはアプリ ワークスペースを作成し、ダッシュボード、レポート、およびその他のコンテンツで共同作業を行うことができます。
 
-詳細については、[新しいワークスペースの作成](service-create-the-new-workspaces.md)に関するページを参照してください。
+組織内のユーザーはアプリ ワークスペースを作成し、ダッシュボード、レポート、およびその他のコンテンツで共同作業を行うことができます。 [詳細情報](service-create-the-new-workspaces.md)
 
 ## <a name="export-and-sharing-settings"></a>エクスポートと共有の設定
 
@@ -138,19 +135,21 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 
 組織内のユーザーは組織外のユーザーとダッシュボードを共有できます。
 
-![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![外部ユーザーの設定](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-外部ユーザーと共有すると、次のようなメッセージが表示されます。
+外部ユーザーと共有すると、次の図のようなメッセージが表示されます。
 
-![](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![外部ユーザーと共有する](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
 ### <a name="publish-to-web"></a>Web に公開
 
 組織内のユーザーは、Web にレポートを公開することができます。 [詳細情報](service-publish-to-web.md)
 
-![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+**[Web に公開]** 設定を有効にした場合のレポートの **[ファイル]** メニューを次の図に示します。
 
-Web に公開の設定に基づき、UI にさまざまなオプションが表示されます。
+![Web に公開設定](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+**[Web に公開]** の設定に基づき、UI にさまざまなオプションが表示されます。
 
 |おすすめ |組織全体に対して有効にする |組織全体に対して無効にする |特定のセキュリティ グループ   |
 |---------|---------|---------|---------|
@@ -163,7 +162,9 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 
 組織内のユーザーは、タイルや視覚エフェクトからデータをエクスポートできます。 [詳細情報](visuals/power-bi-visualization-export-data.md)
 
-![](media/service-admin-portal/powerbi-admin-export-data.png)
+タイルからデータをエクスポートするためのオプションを次の図に示します。
+
+![タイルからデータをエクスポートする](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
 > また、**[データのエクスポート]** を無効にして、ユーザーが **[Excel で分析]** 機能と、Power BI サービスのライブ接続を使用できないように設定することもできます。
@@ -172,7 +173,9 @@ Web に公開の設定に基づき、UI にさまざまなオプションが表�
 
 組織内のユーザーは、Power BI レポートを PowerPoint ファイルとしてエクスポートできます。 [詳細情報](consumer/end-user-powerpoint.md)
 
-![](media/service-admin-portal/powerbi-admin-powerpoint.png)
+**[PowerPoint プレゼンテーションとしてレポートをエクスポート]** 設定を有効にした場合のレポートの **[ファイル]** メニューを次の図に示します。
+
+![PowerPoint プレゼンテーションとしてレポートをエクスポート](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>ダッシュボードとレポートの印刷
 
