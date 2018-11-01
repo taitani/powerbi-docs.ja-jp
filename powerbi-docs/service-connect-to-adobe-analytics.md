@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544626"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908580"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Power BI で Adobe Analytics に接続する
 Power BI で Adobe Analytics に接続するには、最初に Adobe Analytics Marketing Cloud アカウントに接続します。 アプリに Power BI ダッシュ ボードと一連の Power BI レポートが表示され、お客様のサイト トラフィックとユーザー ディメンションに関する詳細情報が提供されます。 データは、1 日に 1 回自動的に更新されます。 ダッシュボードとレポートは操作できますが、変更内容は保存できません。
@@ -25,26 +25,26 @@ Power BI で Adobe Analytics に接続するには、最初に Adobe Analytics M
 ## <a name="how-to-connect"></a>接続する方法
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. **[Adobe Analytics]** \> **[取得]** の順に選択します。
+3. **[Adobe Analytics]** \> **[取得]** の順に選択します。
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. Power BI は、特定の Adobe Analytics 会社と Report Suite ID (Report Suite 名ではありません) に接続します。 [これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
+4. Power BI は、特定の Adobe Analytics 会社と Report Suite ID (Report Suite 名ではありません) に接続します。 [これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. **[認証方法]** として **[oAuth2]** を選択し、\>**[サイン イン]** をクリックします。 メッセージが表示されたら、Adobe Analytics 資格情報を入力します。 
+5. **[認証方法]** として **[oAuth2]** を選択し、\>**[サイン イン]** をクリックします。 メッセージが表示されたら、Adobe Analytics 資格情報を入力します。 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. **[承諾]** をクリックし、Power BI が Adobe Analytics データにアクセスできるようにします。
+6. **[承諾]** をクリックし、Power BI が Adobe Analytics データにアクセスできるようにします。
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. 承認後、インポート処理が自動的に開始します。 
+7. 承認後、インポート処理が自動的に開始します。 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>Adobe Analytics のダッシュボードとレポートを表示する
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![Adobe Analytics ダッシュボード](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,19 +82,19 @@ Power BI では、Adobe Analytics レポート API を使用して、次の表�
 
 **Report Suite ID**
 
-Suite ID は、Report Suite の作成時に設定されます。 ID 値は管理者に連絡して教えてもらえます。 Report Suite 名ではないことに注意してください。
+Suite ID は、Report Suite の作成時に設定されます。 ID 値は管理者に連絡して教えてもらえます。 これは Report Suite 名ではありません。
 
 Adobe [ドキュメント](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html):
 
 ![](media/service-connect-to-adobe-analytics/reportsuiteid.png)
 
 ## <a name="troubleshooting"></a>トラブルシューティング
-資格情報を入力した後にアクセス許可がないことを示すエラーが表示される場合は、Adobe Analytics API へのアクセス許可が付与されていることを管理者に確認してください。 さらに、提供された Adobe ID が (Adobe Analytics 会社に関連付けられている) マーケティング クラウド組織にリンクされていることを確認してください。
+資格情報を入力した後にアクセス許可がないことを示すエラーが表示される場合は、Adobe Analytics API へのアクセス許可が付与されていることを管理者にご確認ください。 さらに、提供された Adobe ID が (Adobe Analytics 会社に関連付けられている) マーケティング クラウド組織にリンクされていることを確認してください。
 
 資格情報画面を通過してからエラーに遭遇するような場合、レポートの完了に時間がかかりすぎている可能性があります。 一般的なエラーの形式は、*"Adobe Analytics レポートからデータを取得できませんでした。コンテンツには&quot;参照元、ページ&quot;が含まれ、継続時間は約 xx 秒でした"* のようになります。 「含まれるもの」セクションを確認し、Adobe インスタンスのサイズと比較します。 現在のところ、遺憾ではありますが、このタイムアウトを回避する方法はありません。 しかしながら、大規模なインスタンスのサポート向上のための更新プログラムを予定しています。 https://ideas.powerbi.com で Power BI チームにフィードバックをお送りください
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI のアプリについて](consumer/end-user-apps.md)
+* [Power BI のアプリについて](service-create-distribute-apps.md)
 * [Power BI でデータを取得する](service-get-data.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

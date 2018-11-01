@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: bfd3c1242ff5eb0d00078dbeb376dba8b0b6aa20
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549985"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641714"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>個人として Power BI にサインアップする
 Power BI にサインアップして、個人用レポートおよび視覚エフェクトのニーズに応じて、Power BI の使用を開始する方法について説明します。
@@ -24,7 +24,7 @@ Power BI にサインアップして、個人用レポートおよび視覚エ�
 
 Power BI は、個人用レポートおよび視覚エフェクト ツールのほか、グループ プロジェクト、部門、または会社全体の背後にある分析および意思決定エンジンとしても使用できます。
 
-この記事では、Power BI サービスにサインアップして、サービスの使用を開始する方法について説明します。 Power BI 無料版と Power BI Pro との違いについては、「[Power BI 無料版対 Power BI Pro](service-free-vs-pro.md)」を参照してください。
+この記事では、Power BI サービスにサインアップして、サービスの使用を開始する方法について説明します。 Power BI ライセンスの種類間での機能の違いについては、[Power BI のライセンスの種類別機能](service-features-license-type.md)に関する記事をご覧ください。
 
 ## <a name="you-have-a-few-options"></a>使用できるオプション
 個人としてサインアップし、Power BI の使用を開始するためのオプションはいくつかあります。 たとえば、無料でサインアップしたり、Power BI Pro サブスクリプションを購入したりできます。 無料アカウントにサインアップする場合は、サービス内で、Power BI Pro の 60 日間無料試用版を選択できます。
@@ -99,7 +99,7 @@ Power BI にサインアップするには、次の操作を行うことがで�
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>現在の Power BI Pro の 60 日間試用版
 無料アカウントにサインアップした後、Pro 版を 60 日間無料で試用することができます。 試用期間中は Pro 版のすべての機能にアクセスできます。 Power BI Pro は、無料版 Power BI のすべての機能を備えているだけでなく、新たな共有機能やコラボレーション機能も備えています。 詳しくは、[Power BI の料金](https://powerbi.microsoft.com/pricing)に関するページをご覧ください。 60 日間無料試用版の Power BI Pro を試用するには、Power BI にサインインし、Power BI Pro 機能の 1 つを試してみてください。
 
-* [アプリ ワークスペースの作成](consumer/end-user-create-apps.md)
+* [アプリ ワークスペースの作成](service-create-distribute-apps.md)
 * [ダッシュボードの共有](service-share-dashboards.md)
 
 これらの機能を試そうとすると、無料試用版を開始するように求められます。 また、歯車アイコンをクリックして **[パーソナル ストレージの管理]** を選択することによっても使用できます。 その後、右側にある **[Pro を無料でお試しいただけます]** を選択します。
@@ -139,11 +139,10 @@ Power BI Pro ライセンスを個人として取得することはできませ�
 |            **セルフサービスのサインアップが無効** サインアップ時に次のようなメッセージが表示されます:  <br /><br /> "*We can't finish signing you up. (サインアップを完了できません。)Your IT department has turned off signup for Microsoft Power BI. (あなたの勤務先の IT 部門が、Microsoft Power BI のサインアップを無効にしています。)Contact them to complete signup. (IT 部門に連絡して、サインアップを完了させてください。)*" <br /><br /> または <br /><br /> "*That looks like a personal email address. (個人の電子メール アドレスが指定された可能性があります。)Enter your work address so we can connect you with others in your company. (勤務先の他のユーザーと接続できるよう、勤務先のメール アドレスをご入力ください。)And don’t worry. (ご心配なさる必要はありません。)We won't share your address with anyone. (Microsoft では、あなたのメール アドレスを他のだれかと共有することは一切ありません。)*"             |                             組織の IT 管理者によって、Power BI のセルフサービス サインアップが無効にされています。 <br /><br /> サインアップを完了させるには、IT 管理者に連絡して、既存のユーザーが Power BI にサインアップできるようにしたり、新しいユーザーが既存のテナントに参加できるようにしたりするために、下のページの手順を実行するようにご依頼ください。 <br/><br/> パートナーを通じて Office 365 にサインアップする場合に、この問題が発生する可能性があります。 [詳細情報](service-admin-syndication-partner.md) <br /><br /> [組織内の Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
 |                                                                                          **メール アドレスが Office 365 の ID ではない** サインアップ時に次のようなメッセージが表示されます:  <br /><br /> "*We can't find you at contoso.com. (contoso.com であなたを見つけることができません。)Do you use a different ID at work or school? (勤務先または学校の別の ID を使用しますか?)<br /><br />Try signing in with that, and if it doesn't work, contact your IT department. (その ID を使用してサインインしてみてください。その ID が機能しない場合は、IT 部門にお問い合わせください。)*"                                                                                           | お客様の組織では、Office 365 と他の Microsoft サービスにサインインするために、メール アドレスと異なる ID を使用しています。  たとえば、メール アドレスが Nancy.Smith@contoso.com で、ID が nancys@contoso.com の場合です。 <br /><br /> サインアップを完了させるには、Office 365 または他の Microsoft サービスにサインインするために組織から割り当てられている ID を使用してください。  この ID が分からない場合は、IT 管理者にお問い合わせください。 <br /><br /> それでもサインアップできず、より高度なセットアップ プロセスを実行できる場合は、[新しい Office 365 試用版サブスクリプションに登録して、そのメール アドレスを使用してサインアップしてください](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
 
-## <a name="next-steps"></a>次の手順
-[組織内の Power BI (無料)](service-admin-service-free-in-your-organization.md)  
+## <a name="next-steps"></a>次の手順  
 [Power BI Pro を購入する](service-admin-purchasing-power-bi-pro.md)  
 [個々のユーザーに対する Power BI サービス契約](https://powerbi.microsoft.com/terms-of-service/)  
-[Power BI Premium とは](service-premium.md)  
+[Power BI Premium とは何ですか?](service-premium.md)  
 [Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
