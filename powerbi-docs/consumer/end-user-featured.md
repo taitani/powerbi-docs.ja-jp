@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d23e168f6192629ce9dd945e29691dcf40ae1427
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 66956a38a4f2076a01cf224bbef3a20490915e9b
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565408"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473706"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI サービスのおすすめのダッシュボード
 ## <a name="create-a-featured-dashboard"></a>おすすめのダッシュボードを作成する
@@ -41,7 +41,7 @@ Amanda がおすすめのダッシュボードを作成するビデオを参照�
 
 
 1. *おすすめ*に設定するダッシュボードを開きます。 
-2. 上部のナビゲーション バーに、**[おすすめに設定]** またはおすすめ ![[おすすめに設定] アイコン](./media/end-user-featured/power-bi-featured-icon.png) アイコンが表示されます。 いずれかを選択します。
+2. 上部のメニュー バーに、**[おすすめに設定]** またはおすすめ ![[おすすめに設定] アイコン](./media/end-user-featured/power-bi-featured-icon.png) アイコンが表示されます。 いずれかを選択します。
    
     ![おすすめに設定アイコン](./media/end-user-featured/power-bi-set-as-featured.png)
 3. 選択内容を確認します。

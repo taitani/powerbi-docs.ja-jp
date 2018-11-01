@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium の Multi-Geo のサポート (プレビュー)
 description: Power BI テナントのホーム リージョン以外のリージョンにあるデータセンターにコンテンツを展開する方法について説明します。
-author: maggiesMSFT
-ms.author: maggies
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300186"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641670"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium の Multi-Geo のサポート (プレビュー)
 
@@ -40,7 +40,7 @@ Multi-Geo は、Power BI Embedded でも使用できるようになりました�
 新しい容量の場合、Multi-Geo を有効にするには、ドロップダウンから既定のリージョン以外のリージョンを選択します。  利用可能な容量ごとに、**米国中西部**など、現在配置されているリージョンが表示されます。
 
 ![容量のサイズ: リージョンを選択します。 Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 容量を作成すると、そのリージョン内に残り、作成されるすべてのワークスペースのコンテンツはそのリージョンに保存されます。 ワークスペースの設定画面のドロップダウンから、ワークスペースを別のリージョンに移行することができます。
 
 ![ワークスペースの編集: 利用可能な容量を選択します。 Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -83,7 +83,7 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 
 ## <a name="move-content-out-of-multi-geo"></a>Multi-Geo からコンテンツを移行する  
 
-Multi-Geo 容量からワークスペースを取り出すには、次の 2 つの方法があります。
+次の 2 つの方法のいずれかで Multi-Geo 容量からワークスペースを取り出すことができます。
 
 - ワークスペースが存在する現在の容量を削除します。  その結果、ワークスペースはホーム リージョンの共有容量に戻されます。
 - 個々のワークスペースを、ホーム テナントにある Premium 容量に戻します。
@@ -91,11 +91,8 @@ Multi-Geo 容量からワークスペースを取り出すには、次の 2 つ�
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 
 - データ転送を開始する前に、リージョン間で開始されるすべての動作が、会社と政府のコンプライアンス要件をすべて満たしていることを確認してください。
-
 - リモート リージョンに格納されているキャッシュ クエリは、保存時はそのリージョン内に残ります。 ただし、転送中の他のデータは、複数の地域間を行き来する可能性があります。
-
 - Multi-Geo 環境でデータを別のリージョンに移行する場合、ソース データは、データが移行された元のリージョンに最大 30 日間残る可能性があります。 その間、エンド ユーザーはそのデータにアクセスできません。 30 日の期間中に、そのデータはこのリージョンから削除され、破棄されます。
-
 - 一般的に、Multi-Geo でパフォーマンスが向上することはありません。 レポートとダッシュボードの読み込み処理の場合、ホーム リージョンに対してメタデータを要求する必要があります。
 
 ## <a name="next-steps"></a>次の手順

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/18/2018
 ms.author: maikelson
-ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137593"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473959"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -22,9 +22,7 @@ ms.locfileid: "37137593"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
-
->[Power BI コミュニティからの今後のウェビナーに参加する](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>おすすめのウェビナー
 
@@ -34,21 +32,29 @@ ms.locfileid: "37137593"
 <br>作成者: Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**PowerBI.Tips の所有者による Power BI のテクニック、ヒント、およびツール**
-<br>作成者: Mike Carlo と Seth Bauer
-<br>[今すぐ見る](https://www.youtube.com/watch?v=fnj1_e3HXow)
-
 **20 分で学ぶ Power BI ダッシュボードの使い方**
 <br>作成者: Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Power BI で実行する Microsoft - 財務の計画と分析を簡単に**
+<br>作成者: Cory Hrncirik と Miguel Martinez
+<br>[登録して今すぐ見る](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI データを視覚化: 中心となるグラフの種類とその利用方法**
+<br>作成者: Miranda Li
+<br>[登録して今すぐ見る](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
+**Power BI、Excel、Office 365: 企業データを最適化する**
+<br>作成者: Olaf Hubel と Miguel Martinez
+<br>[登録して今すぐ見る](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
 **卓越した説得力 - 視覚デザイン向上のためのヒント**
 <br>作成者: Miranda Li
 <br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**組み合わせて、もっと便利に: Excel ユーザーが Power BI を使用することで得られる 5 つのメリット**
-<br>作成者: Carlos Otero/Miguel Martinez
-<br>[登録して今すぐ見る](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
+**PowerBI.Tips の所有者による Power BI のテクニック、ヒント、およびツール**
+<br>作成者: Mike Carlo と Seth Bauer
+<br>[今すぐ見る](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 >[コミュニティの専門家による Power BI オンデマンド ウェビナーを参照する](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -61,6 +67,10 @@ ms.locfileid: "37137593"
 **ビジュアル的にアピールする Power BI レポートをデザインする方法**
 <br>作成者: Charles Sterling
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**組み合わせて、もっと便利に: Excel ユーザーが Power BI を使用することで得られる 5 つのメリット**
+<br>作成者: Carlos Otero/Miguel Martinez
+<br>[登録して今すぐ見る](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 **Power BI Embedded を 20 分で学習する**
 <br>講師: Megan Asarrane、Colin Murphy

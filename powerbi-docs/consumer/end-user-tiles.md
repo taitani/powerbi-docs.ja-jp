@@ -1,21 +1,21 @@
 ---
-title: Power BI サービスのダッシュボードのタイル
-description: Power BI のダッシュボードのタイルの概要 これには、SQL Server Reporting Services (SSRS) から作成されるタイルが含まれます。
+title: コンシューマー向け Power BI サービスのダッシュボードのタイル
+description: コンシューマー向け Power BI のダッシュボードのタイルの概要。 これには、SQL Server Reporting Services (SSRS) から作成されるタイルが含まれます。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f0ff1d9a49e0566119df2c790ad618700c9a9ca3
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565454"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396476"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI のダッシュボードのタイル
 ダッシュボードおよびダッシュボード タイルは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードのタイルを作成またはピン留めすることはできませんが、[表示して共有する](mobile/mobile-tiles-in-the-mobile-apps.md)ことはできます。 また、Power BI モバイルでは、[iPhone アプリでダッシュボードに画像を追加する](mobile/mobile-iphone-app-get-started.md)ことができます。
@@ -23,58 +23,45 @@ ms.locfileid: "46565454"
 ## <a name="dashboard-tiles"></a>データのプッシュ時の
 ![Power BI ダッシュボード](./media/end-user-tiles/power-bi-dashboard.png)
 
-タイルは、ダッシュボードにピン留めされた、データのスナップショットです。 タイルは、レポート、データセット、ダッシュボード、Q&A ボックス、Excel、SQL Server Reporting Services (SSRS) などから作成できます。  次のスクリーンショットは、ダッシュボードにピン留めされているさまざまなタイルを示しています。
+タイルは、*デザイナー*によってダッシュボードにピン留めされた、データのスナップショットです。 タイルは、レポート、データセット、ダッシュボード、Q&A 質問ボックス、Excel、SQL Server Reporting Services (SSRS) などから作成できます。  次のスクリーンショットは、ダッシュボードにピン留めされているさまざまなタイルを示しています。
 
-ピン留めだけでなく、[タイルの追加](../service-dashboard-add-widget.md)を使ってダッシュボードに直接作成できるスタンドアロンのタイルもあります。 スタンドアロン タイルには、テキスト ボックス、画像、ビデオ、ストリーミング データ、Web コンテンツが含まれます。
+レポートからピン留めされたタイルに加え、*デザイナー*は **[タイルの追加]** を利用し、ダッシュボードに直接、スタンドアロンのタイルを追加できます。 スタンドアロン タイルには、テキスト ボックス、画像、ビデオ、ストリーミング データ、Web コンテンツが含まれます。
 
 Power BI を構成する要素を理解するうえで助けが必要ですか?  「[Power BI - 基本的な概念](end-user-basic-concepts.md)」をご覧ください。
 
-> [!NOTE]
-> タイルの作成に使った元の視覚エフェクトが変更された場合、タイルは変更されません。  たとえば、レポートからの折れ線グラフをピン留めし、折れ線グラフを横棒グラフに変更した場合でも、ダッシュボード タイルは引き続き折れ線グラフを表示します。 データは更新されますが、視覚化の種類は変更されません。
-> 
-> 
-
-## <a name="pin-a-tile-from"></a>ピン留めするタイルのソース
-ダッシュボードにタイルを追加 (ピン留め) するには、さまざまな方法があります。 タイルは次からピン留めできます。
-
-* [Power BI Q & A](../service-dashboard-pin-tile-from-q-and-a.md)
-* [レポート](../service-dashboard-pin-tile-from-report.md)
-* [別のダッシュボード](../service-pin-tile-to-another-dashboard.md)
-* [OneDrive for Business 上の Excel ブック](../service-dashboard-pin-tile-from-excel.md)
-* [Power BI Publisher for Excel](../publisher-for-excel.md)
-* [クイック分析情報](end-user-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
-
-また、[[タイルの追加]](../service-dashboard-add-widget.md) を使って、画像、テキスト ボックス、ビデオ、ストリーミング データ、Web コンテンツ用のスタンドアロン タイルをダッシュボードに直接作成できます。
-
-  ![タイルの追加アイコン](./media/end-user-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>ダッシュボードのタイルと対話する
-### <a name="move-and-resize-a-tile"></a>タイルの移動とサイズ変更
-タイルをつかんで、[ダッシュボード上を移動](../service-dashboard-edit-tile.md)できます。 ハンドル ![ハンドル](./media/end-user-tiles/resize-handle.jpg) にマウス カーソルを置いて選ぶと、タイルのサイズを変更できます。
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>タイルにカーソルを置いて動作と外観を変更する
 1. タイルにマウス カーソルを置き、省略記号を表示します。
    
     ![タイルの省略記号](./media/end-user-tiles/ellipses_new.png)
-2. 省略記号を選んで、タイルの操作メニューを開きます。
+2. 省略記号を選んで、タイルの操作メニューを開きます。 利用できるオプションは、視覚化タイプやタイルの作成方法によって異なります。 たとえば、次のような項目が表示されます。
+
+    - Q&A を利用して作成されたタイル
    
-    ![省略記号アイコン](./media/end-user-tiles/power-bi-tile-menu.png)
+        ![省略記号アイコン](./media/end-user-tiles/power-bi-menu1.png)
+
+    - ブックから作成されたタイル
+   
+        ![省略記号アイコン](./media/end-user-tiles/power-bi-menu2.png)
+
+    - レポートから作成されたタイル
+   
+        ![省略記号アイコン](./media/end-user-tiles/power-bi-menu3.png)
    
     ここでは、次の操作を実行できます。
    
    * [このタイルの作成に使われたレポートを開く](end-user-reports.md) ![レポート アイコン](./media/end-user-tiles/chart-icon.jpg)  
    
-   * [このタイルの作成に使われたワークシートを開く](end-user-reports.md) ![ワークシート アイコン](./media/end-user-tiles/power-bi-open-worksheet.png)  
-     
-    * [フォーカス モードで表示する](end-user-focus.md) ![フォーカス アイコン](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [タイルで使われているデータをエクスポートする](end-user-export-data.md) ![データのエクスポート アイコン](./media/end-user-tiles/export-icon.png)
-     * [タイトルとサブタイトルの編集、ハイパーリンクの追加](../service-dashboard-edit-tile.md) ![編集アイコン](./media/end-user-tiles/pencil-icon.jpg)
+   * [タイルの作成に使用した Q&A 質問を開く ](end-user-reports.md) ![Q&A アイコン](./media/end-user-tiles/qna-icon.png)  
+   
+
+   * [このタイルの作成に使われたブックを開く](end-user-reports.md) ![ワークシート アイコン](./media/end-user-tiles/power-bi-open-worksheet.png)  
+    * [フォーカス モードでタイルを表示する](end-user-focus.md) ![フォーカス アイコン](./media/end-user-tiles/fullscreen-icon.jpg)  
      * [インサイトを実行する](end-user-insights.md) ![インサイト アイコン](./media/end-user-tiles/power-bi-insights.png)
-     * [別のダッシュボードにタイルをピン留めする](../service-pin-tile-to-another-dashboard.md)
-       ![ピン留めアイコン](./media/end-user-tiles/pin-icon.jpg)
-     * [タイルの削除](../service-dashboard-edit-tile.md)
-     ![削除アイコン](./media/end-user-tiles/trash-icon.png)
+    * [コメントを追加し、ディスカッションを開始する ](end-user-comment.md) ![コメント アイコン](./media/end-user-tiles/comment-icons.png)
+
 3. 操作メニューを閉じるには、キャンバスの空白領域を選びます。
 
 ### <a name="select-click-a-tile"></a>タイルの選択 (クリック)
@@ -91,20 +78,9 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 * **[タイルの追加]** を使ってダッシュボード上に直接作成されたタイルについては、カスタム ハイパーリンクが設定されている場合は、タイトル、サブタイトル、またはタイルを選択したときにその URL が開かれます。  それ以外の場合、既定では、イメージ、Web コード、またはテキスト ボックスのためにダッシュボード上に直接作成されたこれらのタイルのいずれかを選択しても、アクションは実行されません。
 * SSRS 内のレポートに対する権限がない場合、SSRS から作成されたタイルを選択すると、アクセス権がないことを示すページが生成されます (rsAccessDenied)。
 * SSRS サーバーが置かれたネットワークへのアクセス権がない場合、SSRS から作成されたタイルを選択すると、サーバーが見つからないことを示すページが生成されます (HTTP 404)。 レポートを表示するには、デバイスにレポート サーバーへのネットワーク アクセスが必要です。
-* タイルの作成に使った元の視覚エフェクトが変更された場合、タイルは変更されません。  たとえば、レポートからの折れ線グラフをピン留めし、折れ線グラフを横棒グラフに変更した場合でも、ダッシュボード タイルは引き続き折れ線グラフを表示します。 データは更新されますが、視覚化の種類は変更されません。
+* タイルの作成に使った元の視覚エフェクトが変更された場合、タイルは変更されません。  たとえば、*デザイナー*がレポートからの折れ線グラフをピン留めし、折れ線グラフを横棒グラフに変更した場合でも、ダッシュボード タイルは引き続き折れ線グラフを表示します。 データは更新されますが、視覚化の種類は変更されません。
 
 ## <a name="next-steps"></a>次の手順
-[ダッシュボードのカード (大きな数字のタイル) を作成する](../visuals/power-bi-visualization-card.md)
-
-[Power BI のダッシュボード](end-user-dashboards.md)  
-
 [データ更新](../refresh-data.md)
 
 [Power BI - 基本的な概念](end-user-basic-concepts.md)
-
-[PowerPoint へのタイルのエクスポート](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
-
-[Reporting Services のアイテムを Power BI ダッシュボードにピン留めする](https://msdn.microsoft.com/library/mt604784.aspx)
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 41f48e886c376f6cc00a76313538e5a6b9ac1c3b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380315"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641944"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -40,7 +40,7 @@ ms.locfileid: "43380315"
             - カスタム ビジュアルは、サーバー API の現在のバージョン (利用可能な場合) と互換性のある以前のバージョンにフォールバックされます。
 
 - **Power BI Desktop (Power BI Report Server 用に最適化)**
-    - *バージョン: 2.61.5192.64 (2018 年 8 月)、リリース日: 2018 年 8 月 15 日*
+    - *バージョン: 2.61.5192.641 (2018 年 8 月)、リリース日: 2018 年 8 月 15 日*
         - Power BI Report Server (2018 年 8 月) との接続に必要な変更が含まれます。         
         
 ## <a name="march-2018"></a>2018 年 3 月

@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908373"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641208"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
@@ -87,7 +87,7 @@ SharePoint Online にレポートを埋め込んだだけで、レポートを�
 
 Power BI サービスでレポートへのアクセスを許可するには 2 つの方法があります。 Office 365 グループを使用して SharePoint Online のチーム サイトを構築している場合は、**Power BI サービス内のアプリ ワークスペース**および **SharePoint ページ**のメンバーとしてユーザーをリストします。 このようにすると、ユーザーはそのグループのコンテンツを表示できるようになります。 詳細については、「[Power BI でのアプリの作成および配布](service-create-distribute-apps.md)」を参照してください。
 
-または、次のようにしてレポートへのアクセスをユーザーに許可することもできます。
+または、以下の手順でレポートへのアクセスをユーザーに許可できます。
 
 1. レポートからダッシュボードにタイルを追加します。
 
@@ -126,7 +126,7 @@ Power BI 環境で多要素認証を使ったサインインが必要な場合�
 1. レポートへのアクセス許可がありません。
 2. レポートが削除されました。
 
-問題を解決するには、SharePoint Online のページの所有者に連絡する必要があります。
+問題を解決するには、SharePoint Online ページの所有者に連絡してください。
 
 ## <a name="known-issues-and-limitations"></a>既知の問題と制限事項
 
@@ -148,11 +148,13 @@ Power BI 環境で多要素認証を使ったサインインが必要な場合�
 
 * 従来の SharePoint はこの Web パーツではサポートされていません。
 
+* [URL フィルター](service-url-filters.md)は SPO Web パーツではサポートされていません。
+
 ## <a name="next-steps"></a>次の手順
 
 [エンドユーザーによる最新式のサイト ページの作成を許可または禁止する](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
 [Power BI でのアプリの作成および配布](service-create-distribute-apps.md)  
 [同僚や他のユーザーとダッシュボードやレポートを共有する](service-share-dashboards.md)  
-[Power BI Premium とは](service-premium.md)  
+[Power BI Premium とは何ですか?](service-premium.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
