@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 88942d4bf304af7a43df3a0f4864b537182cc84c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48272507"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641300"
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI 無料版対 Power BI Pro
 
@@ -30,7 +30,7 @@ Power BI のユーザーは、Power BI 無料版ユーザーまたは Power BI P
 
 |  | 無料 | Pro |
 | --- | --- | --- |
-| **70 以上のデータ ソースへの接続** |![使用可能な機能](media/features-license-type/available.png) |![使用可能な機能](media/features-license-type/available.png) |
+| **70 以上のデータ ソースへの接続** |![機能を利用できます](media/features-license-type/available.png) |![機能を利用できます](media/features-license-type/available.png) |
 | **Web に公開** |![機能を利用できます](media/features-license-type/available.png) |![機能を利用できます](media/features-license-type/available.png) |
 | **ピア ツー ピア共有** |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
 | **PowerPoint、Excel、CSV へのエクスポート** |![機能を利用できます](media/features-license-type/available.png) |![機能を利用できます](media/features-license-type/available.png) |
@@ -44,7 +44,7 @@ Power BI のユーザーは、Power BI 無料版ユーザーまたは Power BI P
 
 ## <a name="next-steps"></a>次の手順
 
-Power BI Premium の詳細を知りたい場合、「[Power BI Premium とは](service-premium.md)」を参照してください。
+Power BI Premium に関心がある場合は、[Power BI Premium とは](service-premium.md)に関するページを参照してください。
 
 サインアップして Power BI で作業を開始するには、「[個人として Power BI にサインアップする](service-self-service-signup-for-power-bi.md)」を参照してください。
 

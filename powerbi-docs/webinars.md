@@ -7,20 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 10/23/2018
 ms.author: maikelson
-ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473959"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952236"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
 今後のウェビナーに登録するか、記録されたオンデマンド セッションをご覧ください。
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
+
+**Power BI: 適切に行われる分析**
+<br>講師: Gohul Shanmugalingam
+<br>*2018 年 11 月 8 日、午後 1 時 00 分から午後 2 時 00 分まで (東部標準時)*
+
+すべての分析および Excel のビジョナリーへ: 人々が利用したい思う美しいレポートを作成し、わかりやすく魅力的な分析情報を共有し、複雑なデータのサイロの壁を安全に取り払ってアクセス可能にする方法について説明します。
+
+私達は製品の新しい革新技術と、最新のエンタープライズ BI およびセルフサービス BI に関するビジョンを共有することになります。これにより、お客様の組織ではデータドリブン カルチャを構築できるようになります。
+
+[11 月 8 日に視聴できるように登録する](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Power BI を使用してデータ モデリング スキルを高める**
+<br>作成者: Kasper de Jonge
+<br>*2018 年 11 月 20 日、午前 11 時 00 分から午後 12 時 00 分まで (太平洋標準時)*
+
+このウェビナーに登録することで、お客様の Power BI モデリング スキルは次のレベルアップへと進みます。 Power BI のインメモリ分析エンジンと、データのリレーションシップを作成し管理する戦略と、Data Analysis Expressions (DAX) フィルター コンテキストを使用する方法について説明します。 Power BI または Azure Analysis Services でのモデリングの課題を克服する方法を紹介します。
+
+[11 月 20 日に視聴できるように登録する](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 

@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/01/2018
-ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.date: 10/20/2018
+ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641208"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100774"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
@@ -42,41 +42,38 @@ SharePoint Online にレポートを埋め込むには、最初にレポート�
 2. **[ファイル]** メニュー項目を選びます。
 
 3. **[SharePoint Online に埋め込む]** を選びます。
-   
-    ![](media/service-embed-report-spo/powerbi-file-menu.png)
+
+    ![[ファイル] メニュー](media/service-embed-report-spo/powerbi-file-menu.png)
 
 4. ダイアログ ボックスから URL をコピーします。
 
-    ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
-
-   > [!NOTE]
-   > また、レポートを表示したときに Web ブラウザーのアドレス バーに表示される URL を使うこともできます。 その URL には、現在表示しているレポート ページが含まれます。 別のページを使用する場合は、URL からレポート セクションを削除する必要があります。
+    ![リンクを埋め込む](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Power BI レポートを SharePoint Online のページに追加する
 
 1. SharePoint Online で目的のページを開き、**[編集]** を選びます。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
+    ![SP の編集ページ](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
     または、SharePoint Online で **[+ 新規]** を選んで、最新式のサイト ページを新しく作成します。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
+    ![SP の新しいページ](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
 2. **[+]** を選び、**[Power BI]** Web パーツを選びます。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
+    ![SP の新しい Web パーツ](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
 3. **[レポートの追加]** を選びます。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
+    ![SP の新しいレポート](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. レポートの URL をプロパティ ウィンドウに貼り付けます。 これは、前の手順でコピーした URL です。 レポートは自動的に読み込まれます。
+4. レポートの URL をプロパティ ウィンドウに貼り付けます。 このレポート URL は、前の手順でコピーした URL です。 レポートは自動的に読み込まれます。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
+    ![SP の新しい Web パーツのプロパティ](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
 5. SharePoint Online のユーザーに変更が表示されるようにするには、**[発行]** を選びます。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
+    ![読み込まれた SP レポート](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
 ## <a name="granting-access-to-reports"></a>レポートへのアクセスを許可する
 
@@ -87,24 +84,12 @@ SharePoint Online にレポートを埋め込んだだけで、レポートを�
 
 Power BI サービスでレポートへのアクセスを許可するには 2 つの方法があります。 Office 365 グループを使用して SharePoint Online のチーム サイトを構築している場合は、**Power BI サービス内のアプリ ワークスペース**および **SharePoint ページ**のメンバーとしてユーザーをリストします。 このようにすると、ユーザーはそのグループのコンテンツを表示できるようになります。 詳細については、「[Power BI でのアプリの作成および配布](service-create-distribute-apps.md)」を参照してください。
 
-または、以下の手順でレポートへのアクセスをユーザーに許可できます。
+あるいは、アプリ内にレポートを埋め込むことによって、レポートをユーザーと直接に共有することができます。 レポートを埋め込むには、アプリをプレインストールしておく必要があります。 **[アプリを自動的にインストールします]** 機能を使用することで、アプリがプレインストールされるように設定することができます。
 
-1. レポートからダッシュボードにタイルを追加します。
+   ![アプリを自動的にインストールします](media/service-embed-report-spo/install-app-automatically.png)
 
-2. レポートへのアクセスを必要とするユーザーとダッシュボードを共有します。 詳しくは、「[同僚や他のユーザーとダッシュボードやレポートを共有する](service-share-dashboards.md)」をご覧ください。
-
-## <a name="web-part-settings"></a>Web パーツの設定
-
-以下では、SharePoint Online 用の Power BI Web パーツに対して調整できる設定について説明します。
-
-![](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
-
-| プロパティ | 説明 |
-| --- | --- |
-| ページ名 |Web パーツによって表示される既定のページを設定します。 ドロップダウンから値を選びます。 ドロップダウンにページが表示されない場合は、レポートが 1 ページであるか、または貼り付けた URL にページ名が含まれています。 特定のページを選ぶには、URL からレポート セクションを削除します。 |
-| 表示 |レポートを SharePoint Online のページ内に適合させる方法を調整するオプションです。 |
-| ナビゲーション ウィンドウの表示 |ページ ナビゲーション ウィンドウの表示と非表示を切り替えます。 |
-| Show Filter Pane (フィルター ウィンドウの表示) |フィルター ウィンドウの表示と非表示を切り替えます。 |
+> [!NOTE]
+> **ユーザーが SharePoint ページ上のレポートを表示するには、SharePoint ページとレポートの両方へのアクセス権が必要です。**
 
 ## <a name="multi-factor-authentication"></a>多要素認証
 
@@ -113,13 +98,26 @@ Power BI 環境で多要素認証を使ったサインインが必要な場合�
 > [!NOTE]
 > Azure Active Directory 2.0 では、多要素認証はまだサポートされていません。 ユーザーは、*エラー*を示すメッセージを受け取ります。 ユーザーがセキュリティ デバイスを使って SharePoint Online に再度サインインした場合、レポートを表示できることがあります。
 
+## <a name="web-part-settings"></a>Web パーツの設定
+
+以下では、SharePoint Online 用の Power BI Web パーツに対して調整できる設定について説明します。
+
+![SP の Web パーツのプロパティ](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
+
+| プロパティ | 説明 |
+| --- | --- |
+| ページ名 |Web パーツによって表示される既定のページを設定します。 ドロップダウンから値を選びます。 ドロップダウンにページが表示されない場合は、レポートが 1 ページであるか、または貼り付けた URL にページ名が含まれています。 特定のページを選ぶには、URL からレポート セクションを削除します。 |
+| 表示 |レポートを SharePoint Online のページ内に適合させる方法を調整するオプションです。 |
+| ナビゲーション ウィンドウの表示 |ページ ナビゲーション ウィンドウの表示と非表示を切り替えます。 |
+| Show Filter Pane (フィルター ウィンドウの表示) |フィルター ウィンドウの表示と非表示を切り替えます。 |
+
 ## <a name="reports-that-do-not-load"></a>読み込まれないレポート
 
 レポートが Power BI Web パーツに読み込まれず、次のメッセージが表示されることがあります。
 
 *このコンテンツは使用できません。*
 
-![](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![レポートが見つからなかったことを示すメッセージ](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 このメッセージには 2 つの一般的な理由があります。
 
@@ -128,13 +126,17 @@ Power BI 環境で多要素認証を使ったサインインが必要な場合�
 
 問題を解決するには、SharePoint Online ページの所有者に連絡してください。
 
+## <a name="licensing"></a>ライセンス
+
+ユーザーが SharePoint 内でレポートを閲覧するには、**Power BI Pro ライセンス**を所有しているか、またはレポートのコンテンツが **[ Power BI Premium 容量 (EM または P SKU)](service-admin-premium-purchase.md)** 内のワークスペースに置かれている必要があります。
+
 ## <a name="known-issues-and-limitations"></a>既知の問題と制限事項
 
 * エラー: "エラーが発生しました。ログアウトしてから再度ログインして、このページに再びアクセスしてください。 関連付け ID: 未定義、http の応答の状態: 400、サーバー エラー コード 10001、メッセージ: 更新トークンが見つかりません"
   
-  このエラーが返された場合は、次のいずれかを試してください。
+  このエラーが返された場合は、以下のトラブルシューティング手順のいずれかをお試しください。
   
-  1. SharePoint をサインアウトしてから再度サインインします。 再度サインインする前に、必ずすべてのブラウザー ウィンドウを閉じてください。
+  1. SharePoint からサインアウトし、再度サインインします。 再度サインインする前に、必ずすべてのブラウザー ウィンドウを閉じてください。
 
   2. ユーザー アカウントに多要素認証 (MFA) が必要な場合は、必ず多要素認証デバイス (電話アプリやスマート カードなど) を使用して SharePoint にサインインしてください。
   
