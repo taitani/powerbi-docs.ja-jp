@@ -1,6 +1,6 @@
 ---
 title: 他のユーザーから共有された ArcGIS マップとの対話
-description: '読み取りビューで ArcGis マップを使用します '
+description: Power BI のレポート コンシューマーとして読み取りビューで ArcGis マップを使用します
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2c7a9d5f6bdbbfff905f3faa8cec255c2b85a0d5
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396804"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003273"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI での ArcGIS マップとの対話
 このトピックは、Power BI サービス、Desktop、またはモバイルで ArcGIS マップを "*使用する*" ユーザーを対象として書かれています。 作成者から ArcGIS マップを共有された場合、さまざまな方法でそのマップと対話できます。  ArcGIS マップの作成の詳細については、[Esri の ArcGIS マップのチュートリアル](../power-bi-visualization-arcgis.md)をご覧ください。
@@ -57,8 +57,12 @@ Power BI の ArcGIS マップでは 3 つの選択モードを使用できます
 ## <a name="interacting-with-an-arcgis-map"></a>ArcGIS マップとの対話
 使うことができる機能は、ユーザーが "*作成者*" (マップを作成したユーザー) か "*使用者*" (誰かから ArcGIS マップを共有されたユーザー) かによって異なります。 コンシューマー ([読み取りビュー](../consumer/end-user-reading-view.md)とも呼ばれる) として ArcGIS マップと対話する場合、以下の操作を使用できます。
 
-* 他の視覚化の種類と同様に、[ダッシュボードへのピン留め](../service-dashboard-pin-tile-from-report.md)、[表示](../consumer/end-user-show-data.md)、[基になるデータのエクスポート](power-bi-visualization-export-data.md)を行うことができ、[フォーカス モード](../consumer/end-user-focus.md)と[全画面表示](../service-fullscreen-mode.md)でマップを表示することができます。    
-* **[フィルター]** ウィンドウを展開し、フィルターを使ってマップを調べることができます。 レポートを閉じるとき、適用したフィルターは保存されません。    
+* "*ビュー*" アクセス許可を持つ Premium コンシューマーである場合、[視覚化の作成に使用されるデータの確認](../consumer/end-user-show-data.md)、[サブスクライブ](../consumer/end-user-subscribe.md)、[フォーカス モードおよび全画面表示モード](../consumer/end-user-focus.md)でのマップの表示、[関連コンテンツの表示](../consumer/end-user-related.md)、"*レポート作成者*" によって設定された[フィルターとの対話](../consumer/end-user-report-filter.md)、[レポートの共有](../service-share-reports.md)などを行うことができます。
+
+* その他の視覚化の種類と同様に、Power BI **Pro** コンシューマーでは、Premium のコンシューマーが実行できるすべてのことに加えて、[基になるデータのエクスポート](power-bi-visualization-export-data.md)、[使用状況メトリックの取得](../service-usage-metrics.md)、コピーの保存と [Web への公開](../service-publish-to-web.md)などを実行できます。
+
+    
+* **[フィルター]** ウィンドウを展開し、フィルターを使ってマップを調べることができます。   
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * マップに参照レイヤーがある場合は、場所を選んでヒントに詳細を表示できます。 次の図では、Adams 郡を選択し、作成者がマップに追加した平均世帯年収参照レイヤーのデータを表示しています。
   
@@ -116,6 +120,9 @@ ArcGIS Maps for Power BI は、次のサービスとアプリケーションで�
 **ArcGIS Maps for Power BI が連携するしくみ**
 Power BI の ArcGIS マップは Esri (www.esri.com) によって提供されます。 Power BI の ArcGIS マップのご利用の際には、Esri の[使用条件](https://go.microsoft.com/fwlink/?LinkID=8263222)および[プライバシー ポリシー](https://go.microsoft.com/fwlink/?LinkID=826323)が適用されます。 Power BI の ArcGIS マップ ビジュアルの使用を希望される Power BI ユーザーは、同意ダイアログを受け入れる必要があります (詳細については「ユーザーの同意」をご覧ください)。  Esri の ArcGIS Maps for Power BI の使用には Esri の使用条件とプライバシー ポリシーが適用され、同意ダイアログからもリンクされています。 各ユーザーは、ArcGIS Maps for Power BI を初めて使う前に同意する必要があります。 ユーザーが同意すると、ビジュアルにバインドされたデータは少なくともジオコーディングのために Esri のサービスに送信され、マップで表すことができる緯度と経度の情報に場所情報が変換されます。 データの視覚エフェクトにバインドされているすべてのデータが Esri のサービスに送信されるものと想定する必要があります。 Esri は、基本マップ、空間分析、ジオコーディングなどのサービスを提供します。ArcGIS Maps for Power BI のビジュアルは、Esri によって提供および保持されている証明書によって保護された SSL 接続を使って、これらのサービスと対話します。 ArcGIS Maps for Power BI に関する追加情報は、Esri の [ArcGIS Maps for Power BI 製品ページ](https://www.esri.com/powerbi)から入手できます。
 
+**Power BI Plus**    
+![Plus アイコンを選択して、サインアップまたはサインインします](media/power-bi-visualizations-arcgis/power-bi-plus.png)
+
 ユーザーが ArcGIS Maps for Power BI を通して Esri によって提供されている Plus サブスクリプションにサインアップすると、ユーザーは Esri と直接的な関係に入ります。 Power BI は、Esri にユーザーの個人情報を送信しません。 ユーザーは、自分の AAD ID を使って、Esri 提供の AAD アプリケーションにサインインして信頼します。 これにより、ユーザーは Esri と直接個人情報を共有します。 ユーザーが Plus コンテンツを ArcGIS Maps for Power BI のビジュアルに追加した場合、他の Power BI ユーザーもその内容を表示または編集するために Esri の Plus サブスクリプションが必要です。 
 
 Esri の ArcGIS Maps for Power BI の仕組みの技術的な詳細については、サポート サイトから Esri に問い合わせてください。
@@ -123,12 +130,12 @@ Esri の ArcGIS Maps for Power BI の仕組みの技術的な詳細について�
 **ArcGIS マップが表示されません。**    
 ArcGIS Maps for Power BI を使うことができないサービスまたはアプリケーションでは、視覚エフェクトが Power BI のロゴを含む空のビジュアルとして表示されます。
 
-**すべての住所がマップに表示されません**    
-住所をジオコード化すると、最初の 1500 個の住所だけがジオコード化されます。 場所の名前または国のジオコード化は、1500 個の住所制限の対象には含まれません。
+**すべての情報がマップに表示されません**    
+マップ上に緯度/経度をジオコーディングする際、最大 30,000 のデータ ポイントが表示されます。 便番号や住所などのデータ ポイントをジオコーディングする場合、ジオコード化されるのは最初の 15,000 データ ポイントのみです。 場所の名前または国のジオコード化は、1500 個の住所制限の対象には含まれません。
 
 **Power BI の ArcGIS マップを使用する場合、料金はかかりますか。**
 
-すべての Power BI ユーザーは追加コストなしで ArcGIS Map for Power BI を使うことができます。 これは **Esri** によって提供されるコンポーネントであり、ご利用の際には、この記事の前述のとおり、**Esri** が示す使用条件およびプライバシー ポリシーが適用されます。
+すべての Power BI ユーザーは追加コストなしで ArcGIS Map for Power BI を使うことができます。 これは **Esri** によって提供されるコンポーネントであり、ご利用の際には、この記事の前述のとおり、**Esri** が示す使用条件およびプライバシー ポリシーが適用されます。 ArcGIS **Plus** にサブスクライブすると、料金が発生します。
 
 **キャッシュに空きがないというエラー メッセージが表示されます**
 
@@ -146,4 +153,3 @@ ArcGIS Maps for Power BI を使うことができないサービスまたはア�
 改善の提案がある場合は、[Power BI のアイデア リスト](https://ideas.powerbi.com)に送信してください。
 
 [Power BI の ArcGIS マップ製品ページ](https://www.esri.com/powerbi)
-

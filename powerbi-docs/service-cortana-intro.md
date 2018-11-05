@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 95fa59d91a73101d7d04f3921a81236bfae7d0bb
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187308"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003250"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Cortana for Power BI を利用し、Power BI データをすばやく見つけ、表示する
 Windows 10 デバイスで Cortana を使って、ビジネスの重要な質問に対する回答を瞬時に取得できます。 Power BI と統合することにより、Cortana は Power BI のダッシュボードとレポートから重要な情報を直接取得できます。 必要なものは、Windows 10 の 2015 年 11 月以降のバージョン、Cortana、Power BI です。また、少なくとも 1 つのデータセットにアクセスできる必要があります。
@@ -22,19 +22,19 @@ Windows 10 デバイスで Cortana を使って、ビジネスの重要な質問
 ![Cortana 検索フィールド](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>Windows 10 の新しい Cortana *ダッシュボード*検索をプレビューで体験する
-[Cortana を利用し、特定の種類のレポート ページを取得する](service-cortana-answer-cards.md)機能をお試しいただいておりましたが、 それに**新しいエクスペリエンス**が追加されました。ダッシュボードも取得できるようになりました。 お試しいただけましたら、[フィードバックをお送りください](mailto:pbicortanasg@microsoft.com)。 この*新しいエクスペリエンス*はさらに拡張され、レポートの Cortana 検索も追加される予定です。  新しいエクスペリエンスの利点の 1 つは、特別な設定が要らないことです。Cortana を有効にしたり、Windows 10 を構成したりしなくても機能します。
+[Cortana を利用し、特定の種類のレポート ページを取得する](service-cortana-answer-cards.md)機能をお試しいただいておりましたが、 それに**新しいエクスペリエンス**が追加されました。ダッシュボードも取得できるようになりました。 お試しいただけましたら、[フィードバックをお送りください](mailto:pbicortanasg@microsoft.com)。 この*新しいエクスペリエンス*はさらに拡張され、レポートの Cortana 検索も追加される予定です。  新しいエクスペリエンスの利点の 1 つは、特別な設定が要らないことです。Cortana を有効にしたり、Windows 10 を構成したりする必要はありません。 すぐに機能します。
 
 > [!NOTE]
 > 機能しない場合、[トラブルシューティング記事](service-cortana-troubleshoot.md)をご覧ください。
 > 
 > 
 
-基礎になっている技術は、[Microsoft の Azure Search サービス]()です。 この検索サービスは、スマート ランキング、エラー修正、オート コンプリートなど、追加機能を提供します。
+基礎になっている技術は、[Microsoft Azure Search サービス](https://docs.microsoft.com/azure/search/)です。 この検索サービスは、スマート ランキング、エラー修正、オート コンプリートなど、追加機能を提供します。
 
 いずれの Cortana エクスペリエンスも共存できます。
 
 ## <a name="cortana-for-power-bi-documentation"></a>Cortana for Power BI ドキュメント
-Cortana for Power BI を設定し、利用するためのガイドを 4 つ用意しています。 この一連の記事では、以下の手順を説明します。
+Cortana for Power BI を設定し、利用するためのガイドが 4 つ用意されています。 この一連の記事では、以下の手順を説明します。
 
 **記事 1** (この記事): Cortana と Power BI を連携させる方法を理解します
 
@@ -54,7 +54,7 @@ Cortana が一致を見つけると、Cortana 画面にダッシュボードま�
 ### <a name="cortana-and-dashboards-the-new-experience"></a>Cortana とダッシュボード (*新しいエクスペリエンス*)
 Cortana は、自分が所有しているか、共有しているダッシュボードで回答を検索できます。 タイトル、キーワード、所有者名、ワークスペース名、アプリ名などを利用して Cortana に質問します。
 
-Cortana に回答を見つけてもらうには、少なくとも 2 つの単語が質問に含まれている必要があります。 名前が 1 文字のダッシュボード (Marketing) で検索する場合、"show"、"Power BI"、"<owner name>" などの単語を質問に追加します。"show Marketing" や "michele hart sample" のようにします。 
+Cortana に回答を見つけてもらうには、少なくとも 2 つの単語が質問に含まれている必要があります。 名前が 1 単語のダッシュボード (Marketing) で検索する場合、"show"、"Power BI" などの単語や所有者名を質問に追加します。"show Marketing" や "michele hart sample" のようにします。 
 
 ダッシュボードのタイトルが複数の単語からなる場合、Cortana は、少なくとも 2 つの単語に一致するか、単語の 1 つと所有者名に一致した場合にのみ、ダッシュボードを返します。 ダッシュボードの名前が "Customer Profitability Sample" の場合: 
 
@@ -65,11 +65,11 @@ Cortana に回答を見つけてもらうには、少なくとも 2 つの単語
     ![2 つ以上の単語による Cortana 検索](media/service-cortana-intro/power-bi-cortana-2-words.png)
 
 ### <a name="cortana-and-reports"></a>Cortana とレポート
- Cortana は、[Cortana で表示するために特別に設計されたページ](service-cortana-answer-cards.md)を含むレポートで回答を検索できます。 このような特別なレポート ページからは、単純にタイトルやキーワードで質問します。  
+ Cortana は、[Cortana で表示するために特別に設計されたページ](service-cortana-answer-cards.md)を含むレポートで回答を検索できます。 このような特別なレポート ページのいずれかから、単純にタイトルやキーワードを使用して質問します。  
 
 レポートの基礎となっている技術は、[Microsoft の Power BI Q&A](consumer/end-user-q-and-a.md) の利用です。
 
-Cortana で質問すると、Power BI は、Cortana のために特別に設計されたページから回答します。 可能性のある回答は、Power BI で既に作成されている Cortana *回答カード* から、Cortana によってその場で直接決定されます。  Power BI で結果を開くだけで、回答をさらに調査できます。
+Cortana で質問すると、Power BI は、Cortana のために特別に設計されたページから回答します。 可能性のある回答は、Power BI で既に作成されている Cortana *回答カード* から、Cortana によってその場で直接決定されます。  回答をさらに調査するには、Power BI で結果を開きます。
 
 > [!NOTE]
 > Cortana が Power BI レポートで回答を見つけられるためには、その前に [Power BI サービスを使ってこの機能を有効にし、Power BI と通信するように Windows を設定する](service-cortana-enable.md)必要があります。  

@@ -2,32 +2,33 @@
 title: 開発者ツールを使ってカスタム ビジュアルを作成する
 description: カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 11/30/2017
-ms.author: maghan
-ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a8aca5e3410d6352d64044cdc1d8575b2449912c
+ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726687"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "50153704"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>開発者ツールを使ってカスタム ビジュアルを作成する
+
 カスタム ビジュアルの作成では、ユーザーのニーズを満たすと共に、アプリのデザインに合わせることができます。 ここでは、開発者ツールを使用して、Power BI 用のカスタム ビジュアルを作成する方法について説明します。
 
 > [!NOTE]
 > このドキュメントを使用すると、起動して実行できるようになります。 詳細については、「[Power BI Visuals git repo](https://github.com/Microsoft/PowerBI-visuals)」 (Power BI ビジュアル Git リポジトリ) にあるリファレンス情報を参照してください。
-> 
-> 
 
 ## <a name="requirements"></a>要件
+
 * NodeJS 4.0 が必要です (5.0 以降を推奨します)。[NodeJS のダウンロード](https://nodejs.org)
 
 ## <a name="install-nodejs-and-the-power-bi-tools"></a>NodeJS および Power BI ツールをインストールする
+
 カスタム ビジュアルを作成するには、NodeJS をインストールする必要があります。 コマンド ライン ツールを実行するために NodeJS が必須となります。
 
 1. [NodeJS](https://nodejs.org) をダウンロードしてインストールします。 要件はバージョン 4.0 以降ですが、バージョン 5.0 以降の使用をお勧めします。
@@ -83,12 +84,11 @@ ms.locfileid: "44726687"
 <a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>サーバー証明書のセットアップ
+
 ビジュアルのライブ プレビューを有効にするには、信頼されている https サーバーが必要です。 開始の前に SSL 証明書をインストールする必要があります。これにより、ビジュアル アセットを Web ブラウザーに読み込むことができるようになります。 
 
 > [!NOTE]
 > これは、開発者のワークステーションでの 1 回限りのセットアップです。
-> 
-> 
 
 証明書を "*作成*" するには、次のコマンドを実行します。
 
@@ -96,9 +96,6 @@ ms.locfileid: "44726687"
 
 > [!NOTE]
 > 証明書の場所のパスを示すメッセージと新しく生成されたパスフレーズが表示されます。
-> 
-> 
-
 
 証明書を "*インストール*" するには、次のコマンドを実行します。
 
@@ -106,8 +103,6 @@ ms.locfileid: "44726687"
 
 > [!NOTE]
 > 新しく生成されたパスフレーズを使用して PFX 証明書をインストールするように指示するメッセージが表示されます。
-> 
-> 
 
 **Windows OS**
 
@@ -131,8 +126,6 @@ ms.locfileid: "44726687"
 
 > [!NOTE]
 > 証明書が認識されない場合は、コンピューターの再起動が必要である可能性があります。
-> 
-> 
 
 **OSX**
 
@@ -149,10 +142,9 @@ ms.locfileid: "44726687"
 
 > [!NOTE]
 > 証明書が認識されない場合は、コンピューターの再起動が必要である可能性があります。
-> 
-> 
 
-## <a name="enable-live-preview-of-developer-visual"></a>開発者向けビジュアルのライブ プレビューを有効にする
+## <a name="enable-a-live-preview-of-the-developer-visual"></a>開発者向けビジュアルのライブ プレビューを有効にする
+
 カスタム ビジュアルのライブ プレビューを有効にするには、以下の手順を実行します。 有効にすると、レポートの編集時に Powerur BI サービス内でビジュアルを使用できます。
 
 1. [app.powerbi.com](https://app.powerbi.com) を参照し、サインインします。
@@ -168,16 +160,16 @@ ms.locfileid: "44726687"
 
    > [!NOTE]
    > この操作を行うには、開発用コンピューター上のビジュアル フォルダーから `pbiviz start` を実行しておく必要があります。 ビジュアルの作成方法の詳細については、この記事の「[新しいビジュアルを作成する](#create-a-new-visual)」をご覧ください。
-   > 
-   > 
+
 5. レポート キャンバスで、ビジュアルを選択します。 他のビジュアルの場合と同じ方法でデータをバインドすることができます。
 
 これでビジュアルの開発を始めることができます。
 
 ## <a name="create-a-new-visual"></a>新しいビジュアルを作成する
+
 新しいビジュアル プロジェクトを作成するには、次のコマンドを実行します。
 
-```
+```powershell
 pbiviz new MyVisualName
 ```
 
@@ -186,18 +178,20 @@ pbiviz new MyVisualName
 このコマンドにより、コマンドが実行されたディレクトリ内に新しいフォルダーが作成されます。 ビジュアル用の基本的なスターター テンプレートも生成されます。 コマンドが完了したら、ディレクトリを開き、使い慣れたエディターを使用して、新しいビジュアルでの作業を開始することができます。
 
 ## <a name="testing-your-visual-in-power-bi"></a>Power BI でビジュアルをテストする
+
 Power BI サービスではレポートおよびダッシュ ボード内で、ビジュアルをテストすることができます。
 
 <a name="running-your-visual"></a>
 
 ### <a name="running-your-visual"></a>ビジュアルを実行する
+
 ビジュアルを実行するには、次の手順に従います。
 
 1. プロンプトを開きます。
 2. ディレクトリを目的のビジュアル フォルダーに切り替えます。 このフォルダーは、`pbiviz.json` ファイルを含むフォルダーです。
 3. 次のコマンドを実行します。
 
-    ```
+    ```powershell
     pbiviz start
     ```
 
@@ -205,7 +199,7 @@ Power BI サービスではレポートおよびダッシュ ボード内で、�
 
 間違った場所から実行すると、次のようなエラーが表示されます。
 
-```
+```powershell
     error  LOAD ERROR Error: pbiviz.json not found. You must be in the root of a visual project to run this command.
         at e (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:67:35)
         at Function.loadVisualPackage (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:62:16)
@@ -220,14 +214,13 @@ Power BI サービスではレポートおよびダッシュ ボード内で、�
 ```
 
 ### <a name="viewing-your-visual-in-power-bi"></a>Power BI でビジュアルを表示する
+
 レポート内にビジュアルを表示するには、該当するレポートに移動し、**[視覚化]** ウィンドウでビジュアルを選択します。
 
 > [!NOTE]
 > この操作を行うには、「[ビジュアルを実行する](#running-your-visual)」セクションの手順に従って `pbiviz start` コマンドを事前に実行しておく必要があります。
-> 
-> 
 
-![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
+![Power BI 開発者向けビジュアルの選択](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
 
 ビジュアル用のスターター テンプレートが表示されます。
 
@@ -237,11 +230,12 @@ Power BI サービスではレポートおよびダッシュ ボード内で、�
 | --- | --- |
 | Refresh visual (ビジュアルの更新) |自動再読み込みが無効になっている場合は、ビジュアルを手動で更新します。 |
 | 自動再読み込みの切り替え |オンにすると、ビジュアル ファイルを保存するたびに、ビジュアルが自動的に更新されます。 |
-| Dataview の表示 |デバッグ用にビジュアルの基になるデータ ビューを示します。 |
+| データ ビューの表示 |デバッグ用にビジュアルの基になるデータ ビューを示します。 |
 | ヘルプを取得 |GitHub 内のドキュメントです。 |
 | フィードバックの送信 |パフォーマンス向上のためにご意見がありましたらお寄せください。 (GitHub アカウントが必要) |
 
 ## <a name="package-your-visual-for-use-in-power-bi-desktop-and-distribution"></a>Power BI Desktop での使用および配布に備えてビジュアルをパッケージ化する
+
 ビジュアルを [Power BI Desktop](https://powerbi.microsoft.com/desktop/) に読み込む場合、またはビジュアルを [Power BI ビジュアル ギャラリー](https://visuals.powerbi.com)でコミュニティと共有する場合は、あらかじめ `pbiviz` ファイルを生成しておく必要があります。
 
 ビジュアルをパッケージ化するには、次の手順に従います。
@@ -250,19 +244,21 @@ Power BI サービスではレポートおよびダッシュ ボード内で、�
 2. ディレクトリを目的のビジュアル フォルダーに切り替えます。 このフォルダーは、`pbiviz.json` ファイルを含むフォルダーです。
 3. 次のコマンドを実行します。
 
-    ```
+    ```powershell
     pbiviz package
     ```
 
 このコマンドは、ビジュアル プロジェクトの `dist/` ディレクトリに `pbiviz` を作成します。 `pbiviz` ファイルが既に存在している場合、そのファイルは上書きされます。
 
 ## <a name="updating-the-visuals-api-version"></a>ビジュアル API バージョンを更新する
+
 `pbiviz new` を使用してビジュアルを作成すると、適切な API の種類の定義と json スキーマのコピーがビジュアルのディレクトリにコピーされます。 `pbiviz update` コマンドを使用すれば、これらのファイルを必要に応じて更新することができます。 この機能は、Microsoft が過去の API バージョンの修正プログラムをリリースする場合、またはユーザーが最新の API バージョンに更新する場合に便利です。
 
 ### <a name="updating-your-existing-api-version"></a>既存の API バージョンを更新する
+
 Microsoft が既存の API に対して更新プログラムをリリースした場合、ユーザーが最新バージョンを取得するには次の手順を実行します。
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -273,9 +269,10 @@ pbiviz update
 これにより、更新された種類の定義とスキーマを含む npm から最新のツールがダウンロードされます。 `pbiviz update` を使用すると、 *pbiviz.json* ファイル内の `apiVersion` プロパティが最新のバージョンで上書きされます。
 
 ### <a name="upgrading-to-a-different-api-version"></a>別の API バージョンにアップグレードする
+
 上記の場合と同じ手順を使用して、別の API バージョンに更新することができます。 使用する API バージョンを明示的に指定することができます。
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -287,10 +284,9 @@ pbiviz update 1.2.0
 
 > [!WARNING]
 > ツールでは常に、安定した API バージョンが既定の API バージョンとして使用されます。 既定の API バージョンより前のバージョンは安定性がなく、変更される可能性があります。 また、予期しない動作をしたり、Power BI サービスと Power BI Desktop とで動作が異なる場合があります。 現在の安定した API バージョンについては、[変更ログ](https://github.com/Microsoft/PowerBI-visuals/blob/master/ChangeLog.md)を参照してください。 プレリリース バージョンの詳細については、[ロードマップ](https://github.com/Microsoft/PowerBI-visuals/blob/master/Roadmap/README.md)を参照してください。
-> 
-> 
 
 ## <a name="inside-the-visual-project"></a>ビジュアル プロジェクトの内部
+
 ビジュアル プロジェクトは、`pbiviz new` コマンドを実行したときに作成されるフォルダーです。 
 
 ### <a name="file-structure"></a>ファイルの構造
@@ -308,6 +304,7 @@ pbiviz update 1.2.0
 | tsconfig.json |TypeScript コンパイラの設定です。 tsconfig.json の詳細については、[こちら](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)を参照してください。 |
 
 ### <a name="pbivizjson"></a>pbiviz.json
+
 このファイルは、ビジュアルの主要な構成ファイルです。 ビジュアルを構築するのに必要な情報として、メタデータとファイルに関する情報が含まれています。
 
 ```
@@ -336,6 +333,7 @@ pbiviz update 1.2.0
 ```
 
 ### <a name="visual-source-typescript"></a>ビジュアルのソース (TypeScript)
+
 ビジュアル コードは TypeScript で記述する必要があります。TypeScript は JavaScript のスーパー セットであり、高度な機能をサポートすると共に ES6/ES7 機能への早期アクセスに対応します。
 
 すべての TypeScript ファイルを `src/` ディレクトリに格納し、`tsconfig.json` の `files` 配列に追加する必要があります。 これにより、TypeScript コンパイラはそれらを任意の順序で読み込むことができます。
@@ -347,6 +345,7 @@ pbiviz update 1.2.0
 TypeScript の詳細については、[こちら](http://www.typescriptlang.org/)を参照してください。
 
 ### <a name="visual-style-less"></a>ビジュアル スタイル (Less)
+
 ビジュアルのスタイル設定は、カスケード スタイル シート (CSS) を使用して処理されます。 わかりやすくするために、入れ子、変数、mixin、条件、ループなどの高度な機能をサポートする Less プリコンパイラを使用します。これらの機能を使用しない場合は、Less ファイル内にプレーンな CSS だけを記述します。
 
 Less ファイルはすべて `style/` ディレクトリに保存します。 `pbiviz.json`ファイル内の `style` フィールドに指定されているファイルが読み込まれます。 追加のファイルを読み込むには、`@import` を使用します。
@@ -354,12 +353,15 @@ Less ファイルはすべて `style/` ディレクトリに保存します。 `
 Less の詳細については、[こちら](http://lesscss.org/)を参照してください。
 
 ## <a name="debugging"></a>デバッグ
+
 カスタム ビジュアルのデバッグに関するヒントについては、[デバッグ ガイド](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md)を参照してください。
 
 ## <a name="submit-your-visual-to-appsource"></a>ビジュアルを AppSource に送信する
+
 他のユーザーが使用できるようにビジュアルをリストすることはできますが、その場合、AppSource に送信する必要があります。 このプロセスの詳細については、「[カスタム ビジュアルを Office ストアに発行する](developer/office-store.md)」を参照してください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
+
 **Pbiviz コマンドが見つかりません (または類似のエラー)**
 
 ターミナル/コマンド ラインで `pbiviz` を実行する場合は、ヘルプ画面を表示する必要があります。 ヘルプ画面が表示されない場合、コマンドは正しくインストールされていません。 バージョン 4.0 以降の NodeJS がインストールされていることを確認します。
@@ -376,8 +378,6 @@ Less の詳細については、[こちら](http://lesscss.org/)を参照して�
 
 > [!NOTE]
 > ビジュアルのデバッグ機能は、現時点では、Power BI サービスでのみ使用可能で、Power BI Desktop とモバイル アプリでは使用できません。 パッケージ化したビジュアルはあらゆる場所で機能します。
-> 
-> 
 
 詳細については、「[開発者向けビジュアルのライブ プレビューを有効にする](#enable-live-preview-of-developer-visual)」を参照してください。
 
@@ -388,11 +388,11 @@ Less の詳細については、[こちら](http://lesscss.org/)を参照して�
 詳細については、「[ビジュアルを実行する](#running-your-visual)」または「[サーバー証明書のセットアップ](#ssl-setup)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
+
 [Power BI での視覚化](visuals/power-bi-report-visualizations.md)  
 [Power BI でのカスタム ビジュアル](power-bi-custom-visuals.md)  
 [カスタム ビジュアルを Office ストアに発行する](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  
 [Less CSS](http://lesscss.org/)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。 

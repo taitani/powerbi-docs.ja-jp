@@ -1,5 +1,5 @@
 ---
-title: ソブリン クラウド顧客向けのアプリケーションに Power BI コンテンツを埋め込む
+title: 政府およびソブリン クラウド顧客向けのアプリケーションに Power BI コンテンツを埋め込む
 description: Power BI API を使って、Web アプリに顧客向けのダッシュボード、タイル、またはレポートを統合する (埋め込む) 方法を説明します。
 author: markingmyname
 ms.author: maghan
@@ -7,16 +7,17 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 07/26/2018
-ms.openlocfilehash: c9e38f3ca1c8ee43ab9d51d621dfc7d835c39db1
-ms.sourcegitcommit: 767c0d770e32e91ff28a176f79595fab523f69eb
+ms.date: 10/25/2018
+ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48039441"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003158"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>チュートリアル: Power BI のダッシュボード、タイル、レポートをソブリン クラウド向けアプリケーションに埋め込む
-顧客向けのダッシュボード、タイル、またはレポートを、Power BI .NET SDK と Power BI JavaScript API を使って Web アプリに統合する (埋め込む) 方法を説明します。 通常、これは ISV のシナリオです。
+
+顧客向けのデータを統合するときに、Power BI .NET SDK と Power BI JavaScript API を使って、ダッシュボード、タイル、またはレポートを Web アプリケーションに埋め込む方法について説明します。
 
 Power BI はソブリン (プライベート) クラウドもサポートしています。
 
@@ -38,17 +39,21 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
 
 > [!NOTE]
 > 代わりに組織向けのダッシュボードを埋め込む場合は、 「[ダッシュボードを組織のアプリに統合する](integrate-dashboard.md)」をご覧ください。
->
 
-ダッシュボードを Web アプリに統合するには、**Power BI** API、および Azure Active Directory (AD) 承認**アクセス トークン**を使って、ダッシュボードを取得します。 次に、埋め込んだトークンを使ってダッシュボードを読み込みます。 **Power BI** API では、特定の **Power BI** リソースへのプログラムによるアクセスが提供されます。 詳細については、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)、[Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp)、[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページをご覧ください。
+ダッシュボードを Web アプリに統合するには、**Power BI** API、および Azure Active Directory (AD) 承認**アクセス トークン**を使って、ダッシュボードを取得します。 次に、埋め込んだトークンを使ってダッシュボードを読み込みます。 **Power BI** API では、特定の **Power BI** リソースへのプログラムによるアクセスが提供されます。 詳細については、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)、[Power BI .NET SDK、[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページをご覧ください。
 
 ## <a name="download-the-sample"></a>サンプルをダウンロードする
-この記事では、GitHub の[顧客向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)で使われているコードを示します。 このチュートリアルの手順を試してみるには、サンプルをダウンロードできます。
+
+この記事では、GitHub の「[App Owns Data sample](https://github.com/Microsoft/PowerBI-Developer-Samples)」(アプリ所有データ サンプル) で使われているコードを示します。 このチュートリアルの手順を試してみるには、サンプルをダウンロードできます。
+
+![アプリ所有データ サンプル](media/embed-sample-for-customers-sovereign-clouds/embed-sample-for-customers-026.png)
 
 * Government Community Cloud (GCC):
-    1. Cloud.config ファイルを GCCCloud.config コンテンツで上書きします。
-    2. web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
-    3. 次のように、web.config ファイルに GCC パラメーターを追加します。
+1. Cloud.config ファイルを GCCCloud.config コンテンツで上書きします。
+
+2. Web.config ファイルの applicationId (ネイティブ アプリ applicationId)、workspaceId、user (マスター ユーザー)、password を更新します。
+
+3. 次のように、web.config ファイルに GCC パラメーターを追加します。
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -58,9 +63,11 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
 ```
 
 * Military Contractors (DoDCON):
-    1. Cloud.config ファイルを TBCloud.config コンテンツで上書きします。
-    2. web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
-    3. 次のように、web.config ファイルに DoDCON パラメーターを追加します。
+1. Cloud.config ファイルを TBCloud.config コンテンツで上書きします。
+
+2. Web.config ファイルの applicationId (ネイティブ アプリ applicationId)、workspaceId、user (マスター ユーザー)、password を更新します。
+
+3. 次のように、web.config ファイルに DoDCON パラメーターを追加します。
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -70,9 +77,11 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
 ```
 
 * Military (DoD):
-    1. Cloud.config ファイルを PFCloud.config コンテンツで上書きします。
-    2. web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
-    3. 次のように、web.config ファイルに DoDCON パラメーターを追加します。
+1. Cloud.config ファイルを PFCloud.config コンテンツで上書きします。
+
+2. Web.config ファイルの applicationId (ネイティブ アプリ applicationId)、workspaceId、user (マスター ユーザー)、password を更新します。
+
+3. 次のように、web.config ファイルに DoDCON パラメーターを追加します。
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -82,9 +91,11 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
 ```
 
 * Germany Cloud 向け Power BI のパラメーター
-    1. Cloud.config ファイルを Germany Cloud 向け Power BI コンテンツで上書きします。
-    2. web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
-    3. 次のように、web.config ファイルに Germany Cloud 向け Power BI のパラメーターを追加します。
+1. Cloud.config ファイルを Germany Cloud 向け Power BI コンテンツで上書きします。
+
+2. Web.config ファイルの applicationId (ネイティブ アプリ applicationId)、workspaceId、user (マスター ユーザー)、password を更新します。
+
+3. 次のように、web.config ファイルに Germany Cloud 向け Power BI のパラメーターを追加します。
 
 ```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
@@ -94,9 +105,11 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
 ```
 
 * China Cloud 向け Power BI のパラメーター
-    1. Cloud.config ファイルを [China Cloud 向け Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) コンテンツで上書きします。
-    2. web.config ファイルの clientid (ネイティブ アプリ クライアント ID)、groupid、user (マスター ユーザー)、password を更新します。
-    3. web.config ファイルに China Cloud 向け Power BI のパラメーターを次のように追加します。
+1. Cloud.config ファイルを [China Cloud 向け Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) コンテンツで上書きします。
+
+2. Web.config ファイルの applicationId (ネイティブ アプリ applicationId)、workspaceId、user (マスター ユーザー)、password を更新します。
+
+3. web.config ファイルに China Cloud 向け Power BI のパラメーターを次のように追加します。
 
 ```xml
 <add key="authorityUrl" value=https://login.chinacloudapi.cn/common/oauth2/authorize/" />
@@ -106,7 +119,8 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
 ```
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>ステップ 1 - Azure AD にアプリを登録する
-REST API を呼び出すには、アプリケーションを Azure AD に登録する必要があります。 詳しくは、「[Azure AD アプリを登録して Power BI コンテンツを埋め込む](register-app.md)」をご覧ください。 ソブリン クラウドにはさまざまな所属があり、アプリケーションを登録するための別個の URL があります。
+
+アプリケーションを Azure AD に登録して、REST API を呼び出します。 詳しくは、「[Azure AD アプリを登録して Power BI コンテンツを埋め込む](register-app.md)」をご覧ください。 ソブリン クラウドにはさまざまな所属があり、アプリケーションを登録するための別個の URL があります。
 
 * Government Community Cloud (GCC) - https://app.powerbigov.us/apps 
 
@@ -118,10 +132,10 @@ REST API を呼び出すには、アプリケーションを Azure AD に登録�
 
 * China Cloud 向け Power BI - https://app.powerbi.cn/apps
 
-[顧客向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をダウンロードした場合、サンプルが Azure AD に対して認証を実行できるように、登録した後で取得する**クライアント ID** を使います。 サンプルを構成するには、*web.config* ファイルの **clientId** を変更します。
-
+[顧客向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をダウンロードした場合、サンプルが Azure AD に対して認証を実行できるように、登録した後で取得する **applicationId** を使います。 サンプルを構成するには、*web.config* ファイルの **applicationId** を変更します。
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>ステップ 2 - Azure AD からアクセス トークンを取得する
+
 アプリケーション内では、Power BI REST API の呼び出しを行う前に、Azure AD から**アクセス トークン**を取得する必要があります。 詳しくは、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。 さまざまなソブリン クラウドの所属があるので、アプリケーションのアクセス トークンを取得するための個別の URL があります。
 
 * Government Community Cloud (GCC) - https://login.microsoftonline.com
@@ -132,15 +146,17 @@ REST API を呼び出すには、アプリケーションを Azure AD に登録�
 
 * Germany Cloud 向け Power BI - https://login.microsoftonline.de
 
-* China Cloud 向け Power BI - https://login.microsoftonline.cn
+* China Cloud 向け Power BI - https://login.chinacloudapi.cn
 
-**Controllers\HomeController.cs** 内の各コンテンツ アイテム タスクで、これの例を見ることができます。
+**Controllers\HomeController.cs** ファイルの各コンテンツ アイテム タスク内で、これらのアクセス トークンの例を確認できます。
 
 ## <a name="step-3---get-a-content-item"></a>ステップ 3 - コンテンツ アイテムを取得する
+
 Power BI コンテンツを正しく埋め込むには、いくつかの作業が必要です。 すべての手順は REST API で直接行うことができますが、サンプル アプリケーションとここの例は .NET SDK で行われています。
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>アクセス トークンを使って Power BI クライアントを作成する
-Power BI API と対話できる Power BI クライアント オブジェクトをアクセス トークンで作成します。 そのためには、AccessToken を *Microsoft.Rest.TokenCredentials* オブジェクトでラップします。
+
+Power BI API と対話できる Power BI クライアント オブジェクトをアクセス トークンで作成します。 AccessToken を *Microsoft.Rest.TokenCredentials* オブジェクトでラップして、Power BI クライアント オブジェクトを作成します。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -157,24 +173,38 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>埋め込むコンテンツ アイテムを取得する
+
 Power BI クライアント オブジェクトを使って、埋め込むアイテムへの参照を取得します。 ダッシュボード、タイル、またはレポートを埋め込むことができます。 指定したワークスペースから最初のダッシュボード、タイル、またはレポートを取得する方法の例を次に示します。
 
-このサンプルは、「[App Owns Data sample](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)」(アプリ所有データ サンプル) の **Controllers\HomeController.cs** にあります。
+サンプルは、「[App Owns Data sample](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)」(アプリ所有データ サンプル) の **Controllers\HomeController.cs** にあります。
 
-**ダッシュボード**
+#### <a name="reports"></a>レポート
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
+
+// Get the first report in the group.
+Report report = reports.Value.FirstOrDefault();
+```
+
+#### <a name="dashboards"></a>ダッシュボード
+
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(workspaceId);
 
 // Get the first report in the group.
 Dashboard dashboard = dashboards.Value.FirstOrDefault();
 ```
 
-**タイル**
+#### <a name="tiles"></a>タイル
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -182,43 +212,31 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // To retrieve the tile, you first need to retrieve the dashboard.
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(workspaceId);
 
 // Get the first report in the group.
 Dashboard dashboard = dashboards.Value.FirstOrDefault();
 
 // Get a list of tiles from a specific dashboard
-ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(GroupId, dashboard.Id);
+ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(workspaceId, dashboard.Id);
 
 // Get the first tile in the group.
 Tile tile = tiles.Value.FirstOrDefault();
 ```
 
-**レポート**
-
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
-
-// Get the first report in the group.
-Report report = reports.Value.FirstOrDefault();
-```
-
 ### <a name="create-the-embed-token"></a>埋め込みトークンを作成する
-JavaScript API から使うことができる埋め込みトークンを生成する必要があります。 埋め込みトークンは、埋め込むアイテムに固有のものです。 つまり、Power BI コンテンツを埋め込むときは常に、そのための埋め込みトークンを新しく作成する必要があります。 使用する **accessLevel** など、詳しくは「[Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken)」 (埋め込みトークン) をご覧ください。
+
+JavaScript API を使用して、埋め込みトークンを生成できます。 埋め込みトークンは、埋め込むアイテムに固有のものです。 Power BI コンテンツを埋め込むときは常に、そのための埋め込みトークンを新しく作成する必要があります。 使用する **accessLevel** など、詳しくは「[Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken)」 (埋め込みトークン) をご覧ください。
 
 > [!IMPORTANT]
 > 埋め込みトークンは開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。
 
-このサンプルは、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)の **Controllers\HomeController.cs** にあります。
+サンプルは、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)の **Controllers\HomeController.cs** にあります。
 
-ここでは **EmbedConfig** および **TileEmbedConfig** のクラスを作成するものとします。 これらのサンプルは、**Models\EmbedConfig.cs** および **Models\TileEmbedConfig.cs** にあります。
+ここでは **EmbedConfig** および **TileEmbedConfig** のクラスを作成するものとします。 サンプルは、**Models\EmbedConfig.cs** および **Models\TileEmbedConfig.cs** にあります。
 
-**ダッシュボード**
+#### <a name="reports"></a>レポート
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -226,7 +244,26 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(GroupId, dashboard.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
+
+// Generate Embed Configuration.
+var embedConfig = new EmbedConfig()
+{
+    EmbedToken = tokenResponse,
+    EmbedUrl = report.EmbedUrl,
+    Id = report.Id
+};
+```
+
+#### <a name="dashboards"></a>ダッシュボード
+
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// Generate Embed Token.
+var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(workspaceId, dashboard.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -237,7 +274,7 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-**タイル**
+#### <a name="tiles"></a>タイル
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -245,7 +282,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token for a tile.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(GroupId, dashboard.Id, tile.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(workspaceId, dashboard.Id, tile.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new TileEmbedConfig()
@@ -257,30 +294,13 @@ var embedConfig = new TileEmbedConfig()
 };
 ```
 
-**レポート**
-
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = report.EmbedUrl,
-    Id = report.Id
-};
-```
 ## <a name="step-4---load-an-item-using-javascript"></a>ステップ 4 - JavaScript を使ってアイテムを読み込む
+
 JavaScript を使用して、Web ページの div 要素にダッシュ ボードを読み込むことができます。 このサンプルでは、EmbedConfig/TileEmbedConfig モデルと、ダッシュボード、タイル、またはレポートのビューを使います。 JavaScript API の使用に関する完全なサンプルについては、「[Microsoft Power BI Embedded Sample](https://microsoft.github.io/PowerBI-JavaScript/demo)」(Microsoft Power BI Embedded のサンプル) をご覧ください。
 
 このアプリケーションのサンプルは、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)にあります。
 
-**Views\Home\EmbedDashboard.cshtml**
+### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -318,7 +338,7 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 </script>
 ```
 
-**Views\Home\EmbedTile.cshtml**
+### <a name="viewshomeembedtilecshtml"></a>Views\Home\EmbedTile.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -360,7 +380,7 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 </script>
 ```
 
-**Views\Home\EmbedReport.cshtml**
+### <a name="viewshomeembedreportcshtml"></a>Views\Home\EmbedReport.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -406,12 +426,15 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 ## <a name="next-steps"></a>次の手順
 
 * GitHub でサンプル アプリケーションを入手して確認できます。 上の例はそのサンプルに基づいています。 詳細については、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をご覧ください。
+
 * JavaScript API の詳細については、[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) のページを参照してください。
+
 * Germany Cloud 向け Power BI の詳細については、「[ドイツ クラウド顧客向け Power BI のよく寄せられる質問](https://docs.microsoft.com/power-bi/service-govde-faq)」を参照してください。
+
 * [Power BI に Power BI ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md)
 
 制限事項と考慮事項
+
 * 現在、GCC アカウントは P および EM 容量のみをサポートします
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-
