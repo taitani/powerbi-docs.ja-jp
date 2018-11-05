@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 98250e30d1ca944aa536e0d8a05e6ee6c227fc61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246911"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546756"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Power BI で Xero に接続する
 Xero は、小規模企業向けに設計されている使いやすいオンライン会計ソフトウェアです。 この Power BI コンテンツ パックは、Xero financials に基づいて説得力のある視覚エフェクトを作成します。 既定のダッシュ ボードには、キャッシュの位置、売上とコスト、損益トレンド、借方日数、投資収益率のような多くの小規模ビジネス メトリックが含まれています。
@@ -46,10 +46,10 @@ Power BI 用 [Xero コンテンツ パック](https://app.powerbi.com/getdata/se
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
+* ダッシュボード上部にある [Q&A ボックスで質問](consumer/end-user-q-and-a.md)してみてください。
 * ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
-* [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
-* データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
+* [タイルを選択](consumer/end-user-tiles.md)して基になるレポートを開くことができます。
+* データセットは毎日更新するようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
 ## <a name="whats-included"></a>含まれるもの
 コンテンツ パックのダッシュ ボードには、さまざまな領域をカバーするタイルとメトリックおよび対応する詳細なレポートが含まれています。  

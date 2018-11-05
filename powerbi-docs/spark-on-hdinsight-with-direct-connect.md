@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f9bc117d4260bb8efa604591703205b405fd63c9
-ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
+ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48016171"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100751"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery を使用する HDInsight 上の Spark
 
@@ -58,7 +58,7 @@ DirectQuery を使用する Azure HDInsight 上の Spark を使えば、Spark �
 
 ## <a name="limitations"></a>制限事項
 
-これらの制限および注意事項については、エクスペリエンスの向上に伴い変更される可能性があります。 その他のドキュメントは、「[Azure HDInsight の Apache Spark での BI ツールの使用](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-use-bi-tools/)」をご覧ください。
+これらの制限および注意事項については、エクスペリエンスの向上に伴い変更される可能性があります。 その他のドキュメントは、「[Azure HDInsight の Apache Spark での BI ツールの使用](/azure/hdinsight/spark/apache-spark-use-bi-tools/)」をご覧ください。
 
 * Power BI サービスでは、Spark 2.0 および HDInsight 3.5 の構成のみをサポートしています。
 * 列の選択やフィルターの追加など、各操作からクエリがデータベースに送信されるようになりました。サイズの大きなフィールドを選択する前に、適切なビジュアルの種類を選択してください。
@@ -76,9 +76,9 @@ DirectQuery を使用する Azure HDInsight 上の Spark を使えば、Spark �
 
 ## <a name="next-steps"></a>次の手順
 
-[概要: HDInsight Linux で Apache Spark クラスターを作成し、Spark SQL を使用して対話型のクエリを実行する](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
+[概要: HDInsight Linux で Apache Spark クラスターを作成し、Spark SQL を使用して対話型のクエリを実行する](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [Power BI とは?](power-bi-overview.md)  
 [Power BI のデータを取得する](service-get-data.md)
-[SSO にオンプレミス ゲートウェイの Kerberos を使用する](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
+[SSO にオンプレミス ゲートウェイの Kerberos を使用する](service-gateway-sso-kerberos.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

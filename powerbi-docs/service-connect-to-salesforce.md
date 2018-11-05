@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136780"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548260"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI で Salesforce に接続する
 Power BI を使用すると、簡単に Salesforce.com アカウントに接続できます。 この接続を作成すると、データが取得され、そのデータに基づいて自動的にダッシュボードおよび関連するレポートが提供されます。
@@ -56,14 +56,16 @@ Power BI 用の [Salesforce コンテンツ パック](https://app.powerbi.com/g
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-希望する方法でデータを表示するように、このダッシュボードを変更できます。 Q&A で質問したり、ダッシュボードでタイルをクリックすることにより[基になるレポートを開いたり](service-dashboard-tiles.md)、[タイルを変更](service-dashboard-edit-tile.md)したりできます。
+希望する方法でデータを表示するように、このダッシュボードを変更できます。 Q&A で質問したり、ダッシュボードでタイルをクリックすることにより[基になるレポートを開いたり](consumer/end-user-tiles.md)、[タイルを変更](service-dashboard-edit-tile.md)したりできます。
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
-* ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
+* ダッシュボード上部にある [Q&A ボックスで質問](consumer/end-user-q-and-a.md)してみてください。
+* ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。<<<<<<< ヘッド
+* [タイルを選択](consumer/end-user-tiles.md)して基になるレポートを開くことができます。=======
 * [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
-* データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
+>>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
+* データセットは毎日更新するようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
 ## <a name="system-requirements-and-considerations"></a>システム要件と考慮事項
 - API アクセスが有効な、Salesforce の正式アカウントに接続している。

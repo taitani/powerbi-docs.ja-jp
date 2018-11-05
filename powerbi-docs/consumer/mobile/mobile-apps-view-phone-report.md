@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 6ea5814cdba7df6d7e7bb4bbb284f52110ca184c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737168"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547800"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
 
@@ -24,7 +24,7 @@ ms.locfileid: "44737168"
 |:--- |:--- |
 | iPhone |Android フォン |
 
-Power BI Desktop で Power BI レポートを作成する際に、電話の Power BI アプリで[表示するために最適化されたレポートのバージョンを作成](../../desktop-create-phone-report.md)することもできます。
+Power BI Desktop または Power BI サービスで Power BI レポートを作成する際に、電話の Power BI アプリで[表示するために最適化されたレポートのバージョンを作成](../../desktop-create-phone-report.md)することもできます。
 
 電話で Power BI レポートを開くと、Power BI はレポートが電話用に最適化されているかどうかを検出し、縦向き表示の最適化されたレポートを自動的に開きます。
 
@@ -79,7 +79,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
     [元に戻す] は、レポート レベルで使用でき、すべてのビジュアルからすべての探索をクリアするか、またはビジュアル レベルで、選択された特定のビジュアルからのすべての探索をクリアします。   
 
 ## <a name="drill-down-in-a-visual"></a>ビジュアルをドリルダウンする
-ビジュアルで階層レベルが定義されている場合、ビジュアルに表示されている詳細情報にドリルダウンした後、ドリルアップして戻ることができます。 [ビジュアルへのドリルダウンの追加](../../power-bi-visualization-drill-down.md)は、Power BI サービスまたは Power BI Desktop で行います。 電話で最適化された Power BI レポートを電話で表示したときにのみ、ドリルダウンは機能します。 
+ビジュアルで階層レベルが定義されている場合、ビジュアルに表示されている詳細情報にドリルダウンした後、ドリルアップして戻ることができます。 [ビジュアルへのドリルダウンの追加](../end-user-drill.md)は、Power BI サービスまたは Power BI Desktop で行います。 電話で最適化された Power BI レポートを電話で表示したときにのみ、ドリルダウンは機能します。 
 
 1. 電話のレポートでは、右上隅にある省略記号 **[...]**、**[フォーカス モードに展開]** の順にタップします。
    

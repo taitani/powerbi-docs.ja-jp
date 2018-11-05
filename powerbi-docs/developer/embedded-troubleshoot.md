@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558578"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474048"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -84,18 +84,18 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 場合によっては、GenerateToken を呼び出す前にアプリケーションのバックエンドで認証トークンを更新する必要があります。
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>認証
 
@@ -229,13 +229,13 @@ IError オブジェクトを取得したら、使用している埋め込みの�
 | OpenConnectionError | ビジュアルを表示できません。 Could not render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | 該当なし | 容量に関連するレポートをセッションで開いているときに容量が一時停止または削除されました |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | このレポートに関連付けられているモデル スキーマを読み込むことができません。 サーバーに接続できることを確認して、もう一度やり直してください。 | 該当なし | <li> 容量が一時停止されました <li> 容量が削除されました |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>埋め込み用のオンボード エクスペリエンス ツール
+## <a name="embedding-setup-tool"></a>埋め込みセットアップ ツール
 
-[オンボード エクスペリエンス ツール](https://aka.ms/embedsetup)を使って、サンプル アプリケーションをすばやくダウンロードできます。 その後、アプリケーションとサンプルを比較できます。
+[埋め込みセットアップ ツール](https://aka.ms/embedsetup)に関するページに移動し、サンプル アプリケーションをすばやくダウンロードすることができます。 その後、アプリケーションとサンプルを比較できます。
 
 ### <a name="prerequisites"></a>前提条件
 
-オンボード エクスペリエンス ツールを使う前に、適切な前提条件がすべてあることを確認します。 **Power BI Pro** アカウントと **Microsoft Azure** サブスクリプションが必要です。
+埋め込みセットアップ ツールを使う前に、適切な前提条件がすべてあることを確認します。 **Power BI Pro** アカウントと **Microsoft Azure** サブスクリプションが必要です。
 
 * **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/en-us/pricing/)してください。
 * Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)してください。
@@ -244,7 +244,7 @@ IError オブジェクトを取得したら、使用している埋め込みの�
 
 ### <a name="common-issues"></a>一般的な問題
 
-オンボード エクスペリエンス ツールを使ってテストするときに発生する可能性がある一般的な問題は次のとおりです。
+埋め込みセットアップ ツールを使ってテストするときに発生する可能性がある一般的な問題は次のとおりです。
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>顧客サンプル アプリケーションへの埋め込みの使用
 
@@ -262,6 +262,10 @@ IError オブジェクトを取得したら、使用している埋め込みの�
 
 このエラーは、サンプル アプリケーションに挿入されていない唯一の値がユーザー パスワードであるために発生します。 ソリューションの Web.config ファイルを開き、pbiPassword フィールドにユーザーのパスワードを入力します。
 
+"AADSTS50079: ユーザーは多要素認証を使用する必要があります" というエラーが表示された場合。
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>組織サンプル アプリケーションへの埋め込みの使用
 
 **組織向けの埋め込み**エクスペリエンスを使用している場合、*PowerBI-Developer-Samples.zip* ファイルを保存して解凍します。 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* フォルダーを開き、*pbi-saas-embed-report.sln* ファイルを実行します。
@@ -275,6 +279,10 @@ IError オブジェクトを取得したら、使用している埋め込みの�
 登録済みのアプリケーションを編集する場合は、[AAD 登録済みアプリケーション](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)の編集方法を確認し、アプリケーションが Web API へのアクセスを提供できるようにします。
 
 Power BI ユーザー プロファイルまたはデータを編集する場合は、[Power BI データ](https://docs.microsoft.com/power-bi/service-basic-concepts)の編集方法をご覧ください。
+
+"AADSTS50079: ユーザーは多要素認証を使用する必要があります" というエラーが表示された場合。
+
+    Need to use an AAD account that does not have MFA enabled.
 
 詳しくは、「[Power BI Embedded に関してよく寄せられる質問](embedded-faq.md)」をご覧ください。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657968"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549916"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI でブックマークを使用して詳細情報を共有し、ストーリーを作成する 
 Power BI の**ブックマーク**を使うと、フィルターの設定やビジュアルの状態など、レポート ページに現在構成されているビューをキャプチャし、後で保存されているブックマークを選ぶだけでその状態に戻すことができます。 
@@ -132,7 +132,7 @@ Power BI Desktop の 2018 年 3 月バージョン以降では、ブックマー
 
 * ブックマークから **[表示]** を選択しているときに選択したブックマークがグループ内にある場合、*そのグループ内*のブックマークのみが表示中のセッションに示されます。 
 
-* 選択したブックマークがグループではない場合、またはトップ レベル (ブックマーク グループの名前など) にある場合、すべてのグループ内のブックマークを含む、レポート全体のブックマークがすべて表示されます。 
+* 選択したブックマークがグループに含まれていない場合、またはトップ レベル (ブックマーク グループの名前など) にある場合、すべてのグループ内のブックマークを含む、レポート全体のブックマークがすべて表示されます。 
 
 ブックマークのグループを解除するには、グループ内の任意のブックマークを選択して、省略記号をクリックし、表示されたメニューから **[グループ解除]** を選択するだけです。 
 
@@ -182,5 +182,5 @@ Power BI Desktop の 2018 年 3 月バージョン以降では、ブックマー
 ブックマークと似た機能またはブックマークと相互作用する機能の詳細については、次の記事をご覧ください。
 
 * [Power BI Desktop でドリルスルーを使用する](desktop-drillthrough.md)
-* [フォーカス モードでダッシュボード タイルまたはレポート ビジュアルを表示する](service-focus-mode.md)
+* [フォーカス モードでダッシュボード タイルまたはレポート ビジュアルを表示する](consumer/end-user-focus.md)
 

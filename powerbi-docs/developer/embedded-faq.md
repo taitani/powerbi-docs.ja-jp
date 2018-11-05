@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.date: 09/17/2018
+ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
+ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558572"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46506801"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -23,7 +23,7 @@ ms.locfileid: "45558572"
 
 ## <a name="general"></a>全般
 
-### <a name="what-is-power-bi-embedded"></a>Power BI Embedded とは何ですか?
+### <a name="what-is-power-bi-embedded"></a>Power BI Embedded とは?
 
 Microsoft Power BI Embedded (PBIE) を利用すれば、アプリケーション開発者は、完全にインタラクティブな優れたレポートをアプリケーションに組み込むことができます。データの視覚化やコントロールを自分で一から構築する必要がなく、時間と費用が節約されます。
 
@@ -84,15 +84,19 @@ Power BI Embedded は一連の API であり、開発者はこれを利用し、
 |コミットメント  |コミットメントなし |年単位  |月単位/年単位 |
 |差別化 |柔軟性に優れ、Azure Portal で、あるいは API 経由でリソースを拡大縮小したり、停止/再開したりできる  |SharePoint Online と Microsoft Teams にコンテンツを埋め込むために使用可能 (モバイル アプリを除く) |アプリケーションの埋め込みを結合し、同じ容量で Power BI Service を使用する |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure で PBIE 容量を作成するための前提条件は何ですか? 
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure で PBIE 容量を作成するための前提条件は何ですか?
 
 * 組織のディレクトリにサインインする必要があります (MSA アカウントはサポートされていません)。
 * Power BI テナントを用意する必要があります。すなわち、ディレクトリの少なくとも 1 名のユーザーを Power BI に登録している必要があります。 
 * 組織のディレクトリに Azure サブスクリプションを用意する必要があります。
 
-### <a name="how-can-i-monitor-capacity-consumption"></a>容量の利用を監視する方法は?
+### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Power BI Embedded の容量の消費はどのように監視できますか?
 
-Azure による監視が短期ロードマップに記載されています。 Azure リソースの Power BI Embedded には、健全性や使用状況を示す監視 KPI が含まれています。
+* [Power BI 管理ポータル](../service-admin-portal.md#power-bi-embedded-settings)を使用します。
+
+* Power BI で [metric app](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) をダウンロードします。
+
+* [Azure 診断ログ](azure-pbie-diag-logs.md)を使用します。
 
 ### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>私の容量はアプリの利用に合わせて調整する目的で自動的に拡大縮小しますか?
 
@@ -276,11 +280,11 @@ Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-cu
 * Q&A、更新、ブックマーク、ダッシュボードとタイルの埋め込み、カスタム メニューなどの新機能は、**Power BI Embedded** ソリューションでのみサポートされます。
 * 容量の課金モデル。
 
-## <a name="onboarding-experience-tool-for-embedding"></a>埋め込み用のオンボード エクスペリエンス ツール
+## <a name="embedding-setup-tool-for-embedding"></a>埋め込み用の埋め込みのセットアップ ツール
 
-### <a name="what-is-the-onboarding-experience-tool"></a>オンボード エクスペリエンス ツールとは
+### <a name="what-is-the-embedding-setup-tool"></a>埋め込みのセットアップ ツールとは
 
-[オンボード エクスペリエンス ツール](https://aka.ms/embedsetup)を使うと、サンプル アプリケーションを簡単にダウンロードして Power BI での埋め込みを始めることができます。
+[埋め込みのセットアップ ツール](https://aka.ms/embedsetup)を使うと、サンプル アプリケーションを簡単にダウンロードして Power BI で埋め込みを開始することができます。
 
 ### <a name="which-solution-should-i-choose"></a>選択するソリューション
 
