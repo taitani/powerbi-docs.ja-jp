@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599183"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238102"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加する必要があります。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 Analysis Services データ ソースは、スケジュールされた更新とライブ接続のどちらにも使用できます。
@@ -150,13 +150,38 @@ UPN マッピングの画面にアクセスするには、次のように操作�
 AD 参照を実行するようにゲートウェイを構成する方法:
 
 1. 最新のゲートウェイをダウンロードしてインストールします。
+
 2. ゲートウェイでは、ドメイン アカウントで実行されるように**オンプレミスのデータ ゲートウェイ サービス**を変更する必要があります (ローカル サービス アカウントは使用しません。これを使用すると、実行時に AD 参照が正しく機能しません)。 変更内容を有効にするには、ゲートウェイ サービスを再起動する必要があります。  コンピューター上のゲートウェイ アプリに進みます ("on-premises data gateway" を検索)。 そのためには、**[サービス設定]、[サービス アカウントの変更]** の順に進みます。 同じコンピューター上で新しいゲートウェイを作成しない場合はゲートウェイを復元する必要があるため、目的のゲートウェイの回復キーがあることを確認してください。 
-3. ゲートウェイのインストール フォルダー (*"C:\Program Files\On-premises data gateway"*) に管理者として移動し、書き込みアクセス許可があることを確認して、次のファイルを編集します。
 
-       Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. AD ユーザーの *"目的の"* Active Directory 属性の構成に従って、次の 2 つの構成値を編集します。 次に示す構成値は単なる例です。Active Directory の構成に基づいて値を指定する必要があります。 
+3. ゲートウェイのインストール フォルダー (*C:\Program Files\On-premises data gateway*) に管理者として移動し、書き込みアクセス許可があることを確認して、Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config のファイルを編集します。 
 
-   ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+4. AD ユーザーの *"ご自分の"* Active Directory 属性の構成に従って、次の 2 つの構成値を編集します。 次に示す構成値は単なる例です。Active Directory の構成に基づいて値を指定する必要があります。 これらの構成では大文字と小文字が区別されるので、必ず Active Directory の値と一致するようにします。
+
+    ![Azure Active Directory の設定](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+
+    ADServerPath 構成の値を指定しない場合、ゲートウェイでは既定のグローバル カタログを使用します。 ADServerPath には複数の値を指定することも可能です。 次の例のとおり、各値はセミコロンで区切る必要があります。
+
+    ```xml
+    <setting name="ADServerPath" serializeAs="String">
+        <value> >GC://serverpath1; GC://serverpath2;GC://serverpath3</value>
+    </setting>
+    ```
+    このゲートウェイは、一致を検出するまで左から右に ADServerPath 値を解析します。 一致する値が見つからない場合、元の UPN が使用されます。 ゲートウェイ サービス (PBIEgwService) を実行しているアカウントが、ADServerPath で指定したすべての AD サーバーにクエリを実行する許可があることを確認します。
+
+    ゲートウェイでは、次の例のように、2 種類の ADServerPath をサポートしています。
+
+    **WinNT**
+
+    ```xml
+    <value="WinNT://usa.domain.corp.contoso.com,computer"/>
+    ```
+
+    **GC**
+
+    ```xml
+    <value> GC://USA.domain.com </value>
+    ```
+
 5. 構成の変更を有効にするには、**オンプレミスのデータ ゲートウェイ** サービスを再起動します。
 
 ### <a name="working-with-mapping-rules"></a>マッピング規則を作成する

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ca2f9e3393df2fd205474983ab9868aa9401ed9d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329203"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417121"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop における DAX の基本事項
 この記事は、Power BI Desktop を初めて使用するユーザー向けです。 さまざまな基本的な計算とデータ分析の問題を解決するために Data Analysis Expressions (DAX) を使用する方法を、手早く簡単に説明します。 いくつかの概念について説明した後、一連のタスクを実行します。学んだ内容をテストするクイズも含まれています。 この記事を完了すると、DAX で最も重要な基本概念をよく理解できるようになります。
@@ -87,25 +87,23 @@ DAX の数式を解釈するときは、数式の各要素を分割し、日常�
     
 2. 数式バーで、新しいメジャー名として「**Previous Quarter Sales**」と入力して、"**Measure**" をそれに置き換えます。
     
-3. 等号の後に「**SUM**」と入力し、開きかっこを入力します。
-    
-   ここでは、列名を入力してすぐに合計する代わりに、別の関数を入力して、合計するデータを *フィルター* によって抽出することにします。
-    
-4. かっこの間に「**CALCULATE**」と入力し、開きかっこを入力します。
-    
+3. 等号の後に、最初の数文字の **CAL** を入力し、使用する関数をダブルクリックします。 この数式では、**CALCULATE** 関数を使用します。
+
    CALCULATE 関数は、CALCULATE 関数に渡す引数に基づいて、合計する金額をフィルター処理するために使用します。 これを、入れ子にした関数と呼びます。 CALCULATE 関数には、少なくとも 2 つの引数が必要です。 1 つ目の引数は評価する式、2 つ目の引数はフィルターです。
    
-5. **CALCULATE** 関数のかっこ **()** の間に、「**Sales[SalesAmount]**」と入力します。 これは、CALCULATE 関数に対する最初の引数となる式です。
+4. **CALCULATE** 関数の始めかっこ **(** の後に、**SUM** ともう 1 つ始めかっこ **(** を入力します。 ここで SUM 関数に引数を渡す必要があります。
+
+5. **Sal** と入力を開始し、**Sales[SalesAmount]** を選択して、閉じかっこ **)** と続けます。 これは、CALCULATE 関数に対する最初の引数となる式です。
     
-6. 最初のフィルターを指定するためにコンマ (**,**) を入力した後、「**PREVIOUSQUARTER**」と入力し、開きかっこを入力します。
+6. 最初のフィルターを指定するために、コンマ (**,**) を入力した後、**PREVIOUSQUARTER** と入力します。 これがフィルターになります。
     
    PREVIOUSQUARTER というタイム インテリジェンス関数を使用すると、前の四半期にフィルター処理して SUM の結果を計算できます。
     
-7. PREVIOUSQUARTER 関数のかっこ **()** の間に、「**Calendar[DateKey]**」と入力します。
+7. PREVIOUSQUARTER 関数の始めかっこ **(** の後に、**Calendar[DateKey]** と入力します。
     
-   PREVIOUSQUARTER 関数には、1 つの引数として、連続した日付範囲を含む列を指定します。
+   PREVIOUSQUARTER 関数には、1 つの引数として、連続した日付範囲を含む列を指定します。 この場合、これは Calendar テーブルの DateKey 列になります。
     
-8. PREVIOUSQUARTER 関数および CALCULATE 関数に渡された両方の引数が、2 つの閉じかっこ **))** で閉じられていることを確認してください。
+8. PREVIOUSQUARTER 関数および CALCULATE 関数に渡された両方の引数が、2 つの閉じかっこ **))** の入力で閉じられていることを確認してください。
     
    数式は、次のようになるはずです。
     

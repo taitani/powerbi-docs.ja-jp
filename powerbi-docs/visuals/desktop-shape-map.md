@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566031"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417328"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
-Power BI Desktop では、**[マップのシェイプ]** のビジュアルを作成し、地図上のさまざまな地域にそれぞれ異なる色を適用することで地域間の相対比較を表示します。 **[マップ]** のビジュアルとは異なり、**[マップのシェイプ]** では、地図上にデータ ポイントの地理的場所を正確に表示することはできません。図形マップの主な目的は、地図上のさまざまな地域にそれぞれ異なる色を適用することで、地域間の相対比較を表示することにあります。
+色を使用して、マップで領域を比較するために **[図形マップ]** ビジュアルを作成します。 **[マップ]** ビジュアルとは異なり、**[図形マップ]** ではマップ上の地理的な場所を正確には表示できません。 代わりに、これの主な用途は、違う色を適用することにより、マップ上の領域を相対的に比較できます。
 
-**[図形のマップ]** のビジュアルは ESRI/TopoJSON マップをベースにしています。このマップの強みは、地理的マップ、座席配置、フロア プランなどユーザーが作成できるカスタム マップを使用できるという点です。 カスタム マップを利用する機能は、このプレビュー リリースの**マップのシェイプ**では使用できません。
+**[図形マップ]** のビジュアルは ESRI/TopoJSON マップをベースにしています。このマップの強みは、ユーザー作成のカスタム マップを使用できることです。 地理、座席配置、フロア プランなどがカスタム マップの例です。 カスタム マップを利用する機能は、このプレビュー リリースの**マップのシェイプ**では使用できません。
 
 ## <a name="creating-shape-maps"></a>図形マップを作成する
 このプレビュー リリースに付属するマップで**マップのシェイプ** コントロールをテストできます。あるいは、次のセクション (**カスタム マップの使用**) にある要件を満たす限り、独自のカスタム マップを使用できます。
@@ -47,7 +47,7 @@ Power BI Desktop は、**[マップのシェイプ]** のビジュアルのデ�
    > 
 
    ![](media/desktop-shape-map/shape-map_3a.png)
-2. **[形式]** 設定ウィンドウで、**[図形]** を展開し、**[標準マップ]** ドロップダウンから選択して、目的のデータを表示します。 この時点で、次の図に示すような地図が描画されます。
+2. **[形式]** 設定ウィンドウで、**[図形]** を展開し、**[標準マップ]** ドロップダウンから選択して、目的のデータを表示します。 この時点で、次の図に示すようにレンダリングが行われます。
 
    ![](media/desktop-shape-map/shape-map_3b.png)
 
@@ -115,7 +115,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="australia-states"></a>オーストラリア: 州
 
-| ID | 省略形 | ISO | 名前 | 郵便 |
+| `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="austria-states"></a>オーストリア: 州
 
-| ID | ISO | 名前 | 名前 (英語) | 郵便 |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna (ウィーン) |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg (フォアアールベルク) |VO |
@@ -142,7 +142,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="brazil-states"></a>ブラジル: 州
 
-| ID |
+| `id` |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -178,7 +178,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="canada-provinces"></a>カナダ: 州
 
-| ID | ISO | 名前 | 郵便 |
+| `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -196,9 +196,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="france-regions"></a>フランス: 地域圏
 
-| ID | 名前 | 名前 (英語) |
+| `id` | `name` | `name-en` |
 | --- | --- | --- |
-| Alsace |Alsace |Alsace (アルザス) |
+| Alsace (アルザス) |Alsace |Alsace (アルザス) |
 | Rhone-Alpes |Rhône-Alpes |Rhone-Alpes (ローヌアルプ) |
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur (プロヴァンス=アルプ=コート ダジュール) |
 | Poitou-Charentes |Poitou-Charentes |Poitou-Charentes (ポアトゥー=シャラント) |
@@ -223,7 +223,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="germany-states"></a>ドイツ: 州
 
-| ID | ISO | 名前 | 名前 (英語) | 郵便 |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin (ベルリン) |BE |
 | de-th |DE-TH |Thüringen |Thuringia (チューリンゲン) |TH |
@@ -244,7 +244,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="ireland-counties"></a>アイルランド: 州
 
-| ID |
+| `id` |
 | --- |
 | Wicklow |
 | Wexford |
@@ -275,7 +275,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="italy-regions"></a>イタリア: 州
 
-| ID | ISO | 名前 | 名前 (英語) | 郵便 |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto (ベネト) |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley (ヴァッレ ダオスタ) |VD |
@@ -300,7 +300,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="mexico-states"></a>メキシコ: 州
 
-| ID | 省略形 | ISO | 名前 | 名前 (英語) | 郵便 |
+| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas (サカテカス) |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan (ユカタン) |YU |
@@ -337,7 +337,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="netherlands-provinces"></a>オランダ: 州
 
-| ID | ISO | 名前 | 名前 (英語) |
+| `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland (南ホラント) |
 | nl-ze |NL-ZE |Zeeland |Zeeland (ゼーラント) |
@@ -354,7 +354,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="uk-countries"></a>英国: 地方
 
-| ID | ISO | 名前 |
+| `id` | `iso` | `name` |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
@@ -363,7 +363,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="usa-states"></a>米国: 州
 
-| ID | 名前 | 郵便 |
+| `id` | `name` | `postal` |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -417,3 +417,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |
 
+## <a name="next-steps"></a>次の手順
+[Power BI のマトリックス ビジュアル](desktop-matrix-visual.md)
+
+[Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)

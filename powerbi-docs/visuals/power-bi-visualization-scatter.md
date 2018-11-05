@@ -8,24 +8,24 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 13bc26eaecdcc9b3a00f22f75f6f9a5322d823f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744433"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448847"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI の散布図とバブル チャート
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
 
 バブル チャートは、データ ポイントをバブルに置き換えます。バブルの*サイズ*は、データの追加のディメンションを表します。
 
-![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+![バブル チャートのサンプル](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-データ ポイントの数を設定することができます。  
+データ ポイント数を最大 10,000 まで設定することができます。  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>散布図とバブル チャートの使い分けについて
 ### <a name="scatter-charts-are-a-great-choice"></a>散布図は、次のような場合に最適な選択肢になります。
@@ -50,7 +50,7 @@ ms.locfileid: "44744433"
 
 次の手順では、「Retail Analysis Sample」を使用します。 作業を進めるために、Power BI サービス (app.powerbi.com) または Power BI Desktop の[サンプルをダウンロード](../sample-datasets.md)します。   
 
-1. 黄色のプラスアイコンを選んで、[空のレポート ページ](../power-bi-report-add-page.md)を作成します。
+1. 編集ビューでレポートを開き、黄色の正符号アイコンを選んで[空のレポート ページ](../power-bi-report-add-page.md)を作成します。
  
 2. [フィールド] ウィンドウで、次のフィールドを選びます。
    - **[Sales]** > **[Sales Per Sq Ft]**
@@ -81,20 +81,20 @@ ms.locfileid: "44744433"
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. バブル チャートに表示するデータ ポイントの数を設定するには、**[視覚化]** ウィンドウの **[形式]** セクションで、**[全般]** カードを展開し、**[データ ボリューム]** を調整します。 10,000 までの任意の値に最大データ量を設定できます。 数字が大きくなったら、最初にテストをして、良いパフォーマンスが得られることを確認することをお勧めします。 
+3. バブル チャートに表示するデータ ポイントの数を設定するには、**[視覚エフェクト]** ウィンドウの **[書式設定]** セクションで、**[全般]** カードを展開し、**[データ ボリューム]** を調整します。 10,000 までの任意の値に最大データ量を設定できます。 数字が大きくなったら、最初にテストをして、良いパフォーマンスが得られることを確認することをお勧めします。 
 
-    ![データ ボリューム](./media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![データ ボリューム](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    > [!NOTE]
    > データ ポイントが多いほど読み込み時間が長くなるので、スケールの上限に制限のあるレポートを発行する場合は、Web とモバイルでレポートをテストし、ユーザーが望むパフォーマンスが得られることを確認する必要があります。 データ ポイントの数が多いときは、異なるフォーム ファクターで結果をテストしてパフォーマンスを確認する必要があります。
 
 4. [視覚化の色、ラベル、タイトル、背景などの書式を設定する](service-getting-started-with-color-formatting-and-axis-properties.md)ことができます。 [アクセシビリティを向上させる](../desktop-accessibility.md)には、行ごとにマーカー図形を追加することを検討します。 各線に別のマーカーの図形を使用すると、レポートの使用者は個々の線 (または領域) を区別するのが容易になります。 マーカーの形状を選ぶには、**[図形]** カードを展開し、マーカーの形状を選びます。
 
-      ![マーカーの図形](./media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+      ![マーカーの図形](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    マーカーの形をひし形、三角形、または正方形に変更することもできます。
 
-   ![正方形のマーカー](./media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+   ![正方形のマーカー](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
@@ -104,8 +104,7 @@ ms.locfileid: "44744433"
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-**[詳細]** 領域にフィールドを追加して、値をグループ化する方法を Power BI に指示してください。 フィールドは、プロットするポイントごとに一意である必要があります。  
-たとえば、行番号や ID フィールドを使用すると、このようになります。
+**[詳細]** 領域にフィールドを追加して、値をグループ化する方法を Power BI に指示してください。 フィールドは、プロットするポイントごとに一意である必要があります。たとえば、シンプルな行番号や ID フィールドを使用すると次のようになります。
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -116,9 +115,8 @@ ms.locfileid: "44744433"
 新しいフィールドを作成するには、[Power BI Desktop クエリ エディターを使ってデータセットにインデックス列を追加します](../desktop-add-custom-column.md)。  その後、この列を視覚化の **[詳細]** 領域に追加します。
 
 ## <a name="next-steps"></a>次の手順
+
+[高密度な散布図](desktop-high-density-scatter-charts.md)
+
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[無料試用版にサインアップ](https://powerbi.microsoft.com/get-started/)  
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

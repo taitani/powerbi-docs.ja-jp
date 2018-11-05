@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544005"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448962"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI の複合グラフ
 Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み合わせた 1 つの視覚化です。 2 つのグラフを 1 つに組み合わせると、データの比較をよりすばやく行うことができます。
@@ -55,9 +55,9 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
     c.  **[Time]** \> **[Fiscal Month]** の順に選択して、**[軸]** に追加します。
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. 視覚化の右上隅にある省略記号 [...] を選び、**[並べ替え: FiscalMonth]** を選びます。 昇順または降順で並べ替えるために、これを 2 回選択することが必要な場合があります。
+5. 視覚エフェクトの右上隅にある省略記号 (...) を選び、**[並べ替え] > [FiscalMonth]** を選択します。 並べ替え順序を変更するには、省略記号をもう一度選び、**[昇順で並べ替え]** または **[降順で並べ替え]** を選択します。
 
-6. 縦棒グラフを複合グラフに変換します。 縦棒グラフを選んだ状態で **[視覚化]** ウィンドウから **[折れ線グラフおよび集合縦棒グラフ]** を選びます。
+6. 縦棒グラフを複合グラフに変換します。 **[折れ線グラフおよび積み上げ縦棒グラフ]** と **[折れ線グラフおよび集合縦棒グラフ]** という 2 つの複合グラフを使用できます。 縦棒グラフを選んだ状態で **[視覚化]** ウィンドウから **[折れ線グラフおよび集合縦棒グラフ]** を選びます。
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. **[フィールド]** ウィンドウで、**[Sales]** \> **[Last Year Sales]** を **[線の値]** バケットにドラッグします。
@@ -71,7 +71,8 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
 ## <a name="create-a-combo-chart-with-two-axes"></a>2 つの軸を持つ複合グラフを作成する
 このタスクでは、粗利と売上を比較します。
 
-1. **前年の粗利 (%)** を**月ごと**に追跡する新しい折れ線グラフを作成します。  1 月の粗利 (%) は 35% で、4 月には最高値の 45% になり、7 月に下がって 8 月に再びピークに達しました。 前年と本年は同じ売上パターンになるでしょうか?
+1. **前年の粗利 (%)** を**月ごと**に追跡する新しい折れ線グラフを作成します。 省略記号を選択して、**月ごと**に**昇順**で並べ替えます。  
+1 月の粗利 (%) は 35% で、4 月には最高値の 45% になり、7 月に下がって 8 月に再びピークに達しました。 前年と本年は同じ売上パターンになるでしょうか?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. **[This Year Sales] > [Value]** と **[Last Year Sales]** を折れ線グラフに追加します。 **[Gross Margin Last Year %]\(前年の粗利 (%)\)** の目盛が **[Sales]\(売上\)** の目盛よりかなり小さいため、比較が困難です。      
@@ -80,7 +81,7 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
 3. ビジュアルの読みやすく分かりやすくするため、折れ線グラフを「折れ線グラフおよび積み上げ縦棒グラフ」に変換します。
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. **[Gross Margin% Last Year]** (前年の粗利 (%)) を **[各棒の値]** から **[線の値]** にドラッグします。 Power BI によって 2 つの軸が作成されるため、各データ セットを異なる縮尺でプロットできます。つまり、左側の測定単位はドル売上高で、右側の測定単位は割合です。
+4. **[Gross Margin% Last Year]** (前年の粗利 (%)) を **[各棒の値]** から **[線の値]** にドラッグします。 Power BI によって 2 つの軸が作成されるため、各データ セットを異なる縮尺でプロットできます。つまり、左側の測定単位はドル売上高で、右側の測定単位は割合です。 質問に対する回答は "はい" であり、同様のパターンとなります。
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -103,20 +104,16 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
 
 ここからは次のことができます。
 
-* [複合グラフをダッシュボード タイルとして追加](../consumer/end-user-tiles.md)します。
+* [複合グラフをダッシュボード タイルとして追加](../service-dashboard-tiles.md)します。
 * [レポートを保存](../service-report-save.md)します。
-* [障碍を持つユーザーのためにレポートをより使いやすくする](../desktop-accessibility.md)
+* [障碍を持つユーザーのためにレポートをより使いやすくします](../desktop-accessibility.md)。
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>クロスハイライトとクロス フィルター処理
 
-複合グラフ内の縦棒または折れ線を強調表示すると、レポートのページ上の他の視覚化がクロスハイライトおよびクロス フィルター処理されます。逆の場合も同様です。 [[ビジュアル対話]](../consumer/end-user-interactions.md) を使用すれば、この既定の動作を変更できます。
+複合グラフ内の縦棒または折れ線を強調表示すると、レポートのページ上の他の視覚化がクロスハイライトおよびクロス フィルター処理されます。逆の場合も同様です。 [[ビジュアル対話]](../service-reports-visual-interactions.md) を使用すれば、この既定の動作を変更できます。
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI レポートでの視覚化の概要](power-bi-report-visualizations.md)
+[Power BI のドーナツ グラフ](power-bi-visualization-doughnut-charts.md)
 
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

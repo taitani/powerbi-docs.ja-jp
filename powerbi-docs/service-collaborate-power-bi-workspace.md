@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543951"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908242"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI アプリ ワークスペースでの共同作業
 Power BI アプリ ワークスペースは、同僚とダッシュ ボード、レポート、およびデータセットで共同作業して*アプリ*を作成するのに最適な場所です。 コラボレーションは Power BI のワークスペースだけで終わるわけではありません。 Office 365 では、OneDrive for Business の共有ファイル、Exchange での会話、共有の予定表、タスクなど、その他のグループ サービスも提供されています。 詳細については、[Office 365 のグループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)を参照してください。
@@ -23,7 +23,7 @@ Power BI アプリ ワークスペースは、同僚とダッシュ ボード、
 > [!NOTE]
 > 新しいワークスペース エクスペリエンス プレビューでは、Power BI ワークスペースと Office 365 グループ間の関係が変わります。 新しいワークスペースのいずれかを作成するたびに、Office 365 グループが自動的に作成されることはありません。 新しいワークスペース (プレビュー) の作成については、[こちら](service-create-the-new-workspaces.md)を参照してください。
 
-アプリ ワークスペースは、[Power BI Pro](service-free-vs-pro.md) でのみ利用できます。
+アプリ ワークスペースは、[Power BI Pro ライセンス](service-features-license-type.md)でのみ利用できます。
 
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>アプリ ワークスペースで Power BI Desktop ファイルに対して共同作業を行う
 Power BI Desktop ファイルを作成した後で、そのファイルを Power BI アプリ ワークスペースに発行すると、ワークスペース内の全員がそのファイルで共同作業を行えるようになります。
@@ -77,7 +77,7 @@ Office 365 で共同作業するには、まず Power BI のアプリ ワーク�
 アプリ ワークスペースの所有者または管理者は、ワークスペース メンバーを追加または削除できます。 詳細については、「[Power BI および Office 365 でのグループ管理](service-manage-app-workspace-in-power-bi-and-office-365.md)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI でアプリとアプリ ワークスペースを作成する](consumer/end-user-create-apps.md)
+* [Power BI でアプリとアプリ ワークスペースを作成する](service-create-distribute-apps.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 * フィードバックがある場合は、 「[Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)」 (Power BI に関するヒント) を参照してください。
 

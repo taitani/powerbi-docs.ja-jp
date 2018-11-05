@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 25e7fe3e47cee2aed7781fff2a20621e3bd860ed
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547570"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908810"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI と Office 365 でアプリ ワークスペースを管理する
-Office 365 または [Power BI でのアプリ ワークスペース](consumer/end-user-apps.md)の作成者または管理者として、Power BI でワークスペースの一部の側面を管理します。 その他の側面は、Office 365 で管理します。 
+Office 365 または [Power BI でのアプリ ワークスペース](service-create-distribute-apps.md)の作成者または管理者として、Power BI でワークスペースの一部の側面を管理します。 その他の側面は、Office 365 で管理します。 
 
 > [!NOTE]
 > 新しいワークスペース エクスペリエンス プレビューでは、Power BI ワークスペースと Office 365 グループ間の関係が変わります。 新しいワークスペースのいずれかを作成するたびに、Office 365 グループが自動的に作成されることはありません。 新しいワークスペース (プレビュー) の作成については、[こちら](service-create-the-new-workspaces.md)を参照してください。
@@ -36,7 +36,7 @@ Office 365 または [Power BI でのアプリ ワークスペース](consumer/e
 * グループの電子メール アドレスを参照します。
 * グループを削除します。
 
-アプリ ワークスペースの管理者またはメンバーになるには、[Power BI Pro](service-free-vs-pro.md) ライセンスが必要です。 アプリ ワークスペースが Power BI Premium 容量にない場合は、アプリ ユーザーにも Power BI Pro ライセンスが必要です。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
+アプリ ワークスペースの管理者またはメンバーになるには、[Power BI Pro](service-features-license-type.md) ライセンスが必要です。 アプリ ワークスペースが Power BI Premium 容量にない場合は、アプリ ユーザーにも Power BI Pro ライセンスが必要です。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Power BI でアプリ ワークスペースを編集する
 1. Power BI サービスで、**[ワークスペース]** の横にある矢印を選択し、目的のワークスペース名の横にある省略記号 (**…**) を選択して、**[ワークスペースの編集]** を選択します。 
@@ -76,7 +76,6 @@ Office 365 または [Power BI でのアプリ ワークスペース](consumer/e
 3. **[保存]** または **[破棄]** を選択します。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI のアプリについて](consumer/end-user-apps.md)
-* [Power BI でダッシュボードとレポートを含むアプリを発行する](consumer/end-user-create-apps.md)
+* [Power BI でダッシュボードとレポートを含むアプリを発行する](service-create-distribute-apps.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

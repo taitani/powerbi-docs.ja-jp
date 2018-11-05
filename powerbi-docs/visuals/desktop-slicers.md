@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 161ea8f20db36c129787e84242ea002980d0f8dd
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: df4afe91de955eabfba6eeea9022cc5f9475cc33
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565868"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336854"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Power BI Desktop でスライサーを使用する
 
@@ -65,6 +65,12 @@ ms.locfileid: "46565868"
 この機能を使うと、スライサーのカスタム グループを作成して同期を保つことができます。 既定の名前が提供されますが、好みに応じて任意の名前を使用できます。 
 
 グループ名を使うとスライサーの柔軟性が増します。 個別のグループを作成して同じフィールドを使用するスライサーを同期したり、異なるフィールドを使用するスライサーを同じグループにしたりできます。 
+
+## <a name="how-filtering-affects-selection-in-slicers"></a>スライサーでの選択に対するフィルター処理の影響
+
+スライサーで選択してから、フィルターを適用した場合 (通常、選択項目は削除される)、選択項目はスライサーの項目リストの下部に残ります。 フィルターが削除されても、スライサーには選択項目がまだ存在しています。 スライサーから項目の選択を解除した場合は、リストに表示されなくなることがわかります。
+
+![スライサーに残っている選択項目](./media/desktop-slicers/retained-selection-in-slicers.gif)
 
 
 ## <a name="next-steps"></a>次の手順

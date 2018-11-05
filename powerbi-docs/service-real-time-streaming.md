@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a3102ff26a4dbf58d8db0073f1af9cf2db5b6515
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329387"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417167"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI のリアルタイム ストリーミング
 Power BI のリアルタイム ストリーミングでは、データをストリームし、リアルタイムでダッシュボードを更新できます。 Power BI で作成可能なビジュアルやダッシュボードは、リアルタイムのデータやビジュアルを表示し、更新するためにも作成できます。 工場のセンサー、ソーシャル メディア ソース、サービス利用指標、および時間依存データの回収元または転送元となるあらゆるものがストリーミング データのデバイスとソースになります。
@@ -65,7 +65,7 @@ Power BI のリアルタイム ストリーミングでは、データをスト�
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> プッシュ可能なデータ量を規定した**プッシュ**制限については、[こちらの MSDN 記事](https://msdn.microsoft.com/library/dn950053.aspx)を参照してください。
+> プッシュ可能なデータ量を規定した**プッシュ**制限については、[こちらの記事](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations)を参照してください。
 > 
 > 
 
@@ -83,14 +83,12 @@ Power BI のリアルタイム ストリーミングでは、データをスト�
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Power BI REST API を使用してデータをプッシュする
 **Power BI REST API** を使用すると、**プッシュ** データセットや**ストリーミング** データセットを作成し、データを送信することができます。 Power BI REST API を使用してデータセットを作成する場合は、*defaultMode* フラグによって、データセットの種類をプッシュまたはストリーミングのいずれにするかを指定します。 *defaultMode* フラグが設定されていない場合、データセットは既定では**プッシュ** データセットに設定されます。
 
-*defaultMode* の値が *pushStreaming* に設定されている場合、データセットは、 **プッシュ** *と* **ストリーミング** を併せ持つデータセットとなり、両方のデータセットの種類の利点が得られます。 REST API の[ **[データセットの作成]** に関する記事](https://msdn.microsoft.com/library/mt203562.aspx)では、ストリーミング データセットの作成方法を説明し、*defaultMode* フラグの動作を示します。
+*defaultMode* の値が *pushStreaming* に設定されている場合、データセットは、 **プッシュ** *と* **ストリーミング** を併せ持つデータセットとなり、両方のデータセットの種類の利点が得られます。 
 
 > [!NOTE]
 > *defaultMode* フラグが *pushStreaming* に設定されたデータセットを使用すると、要求のサイズが**ストリーミング** データセットの 15 KB サイズ制限を超えているが、**プッシュ** データセットの 16 KB サイズ制限内に収まっている場合、要求は成功し、プッシュ データセット内でデータが更新されます。 ただし、ストリーミング タイルは一時的に失敗します。
-> 
-> 
 
-データセットが作成されたら、[こちらの記事](https://msdn.microsoft.com/library/mt203561.aspx)に説明されているように、REST API の [**[行の追加]** API](https://msdn.microsoft.com/library/mt203561.aspx) を使用してデータをプッシュします。
+データセットが作成されたら、REST API の [**PostRows** API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) を使用してデータをプッシュします。
 
 REST API に対する要求はすべて、**Azure AD OAuth** によってセキュリティが保護されます。
 
@@ -159,7 +157,7 @@ Power BI で利用し、視覚化できるリアルタイム ストリーミン�
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-このデータ ストリーム経由で送信されるデータを保存するように Power BI を設定するには、*[履歴データの解析]* を有効にします。集めたデータ ストリームでレポート作成や分析を実行できます。 API に関する説明は[ここ](https://msdn.microsoft.com/library/dn877544.aspx)にあります。
+このデータ ストリーム経由で送信されるデータを保存するように Power BI を設定するには、*[履歴データの解析]* を有効にします。集めたデータ ストリームでレポート作成や分析を実行できます。 API に関する説明は[ここ](https://docs.microsoft.com/rest/api/power-bi/)にあります。
 
 データ ストリームを作成すると、REST API URL エンドポイントが与えられます。これは *POST* 要求を利用し、作成した Power BI **ストリーミング データ** データセットにデータをプッシュすることで呼び出せます。
 
@@ -223,10 +221,10 @@ Power BI におけるリアルタイム ストリーミングの動作は、簡�
 残念ながら、現時点では接続できません。
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>前の質問を考慮の上、リアルタイム データセットに対してモデリングを行うにはどうすればよいですか?
-データが永続的に保存されないため、ストリーミング データセットに対するモデリングは行えません。 プッシュ データセットの場合、[データセット/テーブルの更新] REST API を使用してメジャーとリレーションシップを追加することができます。 詳細については、[テーブル スキーマの更新に関する記事](https://msdn.microsoft.com/library/mt203560.aspx)および[データセットのプロパティに関する記事](https://msdn.microsoft.com/library/mt742155.aspx)を参照してください。
+データが永続的に保存されないため、ストリーミング データセットに対するモデリングは行えません。 プッシュ データセットの場合、[データセット/テーブルの更新] REST API を使用してメジャーとリレーションシップを追加することができます。 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>プッシュ データセット上のすべての値をクリアするにはどうすればよいですか? PubNub ストリーミング データセットについてはどうですか?
-プッシュ データセットに対して、[行の削除] REST API 呼び出しを使用できます。 別途、REST API のラッパーである便利なツールを使用することもできます。 現在、ストリーミング データセットのデータをクリアする方法はありません。ただし、1 時間が経過すると、データは自動的にクリアされます。
+プッシュ データセットに対して、[行の削除] REST API 呼び出しを使用できます。 現在、ストリーミング データセットのデータをクリアする方法はありません。ただし、1 時間が経過すると、データは自動的にクリアされます。
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Power BI に対する Azure Stream Analytics 出力を設定しましたが、Power BI に表示されません。何が悪いのでしょうか?
 この問題をトラブルシューティングするためのチェックリストを次に示します。
@@ -241,9 +239,6 @@ Power BI におけるリアルタイム ストリーミングの動作は、簡�
 ## <a name="next-steps"></a>次の手順
 Power BI でリアルタイム ストリーミングを使用する場合に役に立ついくつかのリンクを次に示します。
 
-* [リアルタイム データを使用する Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)
-* [Power BI REST API の制限事項](https://msdn.microsoft.com/library/dn950053.aspx)
-* [**[データセットの作成]** に関する REST API の記事](https://msdn.microsoft.com/library/mt203562.aspx)
-* [**[行の追加]** Power BI REST API](https://msdn.microsoft.com/library/mt203561.aspx)
+* [リアルタイム データを使用する Power BI REST API の概要](https://docs.microsoft.com/rest/api/power-bi/)
 * [Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)
 

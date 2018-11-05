@@ -2,18 +2,17 @@
 title: Power BI に Power BI ワークスペース コレクション コンテンツを移行する方法
 description: Power BI ワークスペース コレクションから Power BI Embedded に移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。
 author: markingmyname
-manager: kfile
-ms.reviewer: ''
-ms.Embedded: powerbi
+ms.service: powerbi
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: 6de0efe3bad1662d1324488a7030894248056730
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: f53b7e02ac3f744a7eb0fa7dd74b7144a434a42f
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388665"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271856"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法
 Power BI ワークスペース コレクションから Power BI Embedded に移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。
@@ -30,7 +29,7 @@ Power BI Embedded では、1 つの API サーフェスで一貫性のある一�
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
-新しい Power BI Embedded への移行を始める前に、[オンボーディング エクスペリエンス ツール](https://aka.ms/embedsetup)を使って新しい Power BI Embedded 環境を設定するチュートリアルを参照できます。
+新しい Power BI Embedded への移行を始める前に、[埋め込み設定ツール](https://aka.ms/embedsetup)を使って新しい Power BI Embedded 環境を設定するチュートリアルを参照できます。
 
 適切なソリューションを選択します。
 * **顧客向けの埋め込み** - [アプリ所有データ](https://aka.ms/embedsetup/AppOwnsData) ソリューションに興味があるとき。 [顧客向けの埋め込み](embedding.md#embedding-for-your-customers)では、Power BI のアカウントがないユーザーのためにダッシュボードとレポートを埋め込むことができます。 

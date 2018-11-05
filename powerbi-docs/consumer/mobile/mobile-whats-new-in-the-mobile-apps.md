@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 922352c0cdbacd57d3e6706d490b3cc7e65ab8f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744505"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909247"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,25 @@ ms.locfileid: "44744505"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="september-2018"></a>2018 年 9 月
+
+### <a name="phone-report-editing-in-the-browser-all-devices"></a>ブラウザーでのスマートフォン レポートの編集 (すべてのデバイス)
+
+これで、Power BI Desktop だけでなく Power BI サービスで既に発行されているレポートに対して、スマートフォン レポート レイアウトを作成できます。 これは、ブラウザーの編集モードで作成します。
+
+### <a name="dashboard-commenting-ios-and-android"></a>ダッシュボードのコメント (iOS と Android) 
+
+ダッシュボードおよび特定のタイルに直接コメントを追加して、データについて説明できます。コメントは、ダッシュボードを表示していすべてのるユーザーに対して表示されます。 また、@mentioning することで、組織内の他のユーザーをメッセージ交換にプルすることもできます。 @mentioned の対象となったユーザーは、携帯電話へのメッセージでプッシュ通知を受信します。
+
+iOS デバイスと Android デバイスで現在使用できます。 Windows は近日サポートされる予定です。
+
+Power BI の[ダッシュボードのコメントに関するブログ投稿](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)をご覧ください。
+
+### <a name="single-sign-on-windows"></a>シングル サインオン (Windows)
+
+シングル サインオン (SSO) では、Windows 用 Power BI モバイルで最も多く要求された機能の 1 つです。 現在では、プライマリ組織アカウントを使用して、ドメインに参加している Windows モバイル デバイスにサインインするだけでなく、Power BI サービスにもシームレスにサインインすることができます。 [SSO および Windows モバイル アプリ](mobile-windows-10-app-single-sign-on-sso.md)の詳細を参照してください。
+
 
 ## <a name="july-2018"></a>2018 年 7 月
 
@@ -177,7 +196,7 @@ Power BI iOS モバイル アプリでプロキシ設定を使用できるよう
 
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>すべてのデバイス
-**アプリをお気に入りに追加する** ダッシュ ボードは既にお気に入りに追加できるようになっています。 最近、[Power BI にアプリ追加され](../../service-install-use-apps.md)、アプリをお気に入りに追加できるようになりました。 
+**アプリをお気に入りに追加する** ダッシュ ボードは既にお気に入りに追加できるようになっています。 最近、[Power BI にアプリ追加され](../../service-create-distribute-apps.md)、アプリをお気に入りに追加できるようになりました。 
 
 ### <a name="may-2017"></a>2017 年 5 月
 #### <a name="all-devices"></a>すべてのデバイス
@@ -498,7 +517,7 @@ Power BI モバイル アプリの通知センターには、自分と共有さ�
 
 **R タイルと Web ウィジェット** これら新しい種類のタイルがモバイル デバイスのダッシュボードに表示されます。
 
-**Bing ダッシュボード** Power BI サービスで、[Bing の検索結果のダッシュボード](../../service-connect-to-services.md)を作成し、モバイル デバイスで表示できるようになりました。
+**Bing ダッシュボード** Power BI サービスで、[Bing の検索結果のダッシュボード](../end-user-connect-to-services.md)を作成し、モバイル デバイスで表示できるようになりました。
 
 **レポート ページをダッシュボードにタイルとしてピン留め** Power BI サービスで、レポート ページ全体をダッシュボードにピン留めし、iPhone または Android フォン上の Power BI アプリでレポート ページを表示できるようになりました。
 

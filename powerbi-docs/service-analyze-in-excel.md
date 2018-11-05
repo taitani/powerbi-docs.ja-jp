@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e2ff9afcccc9bc32d47359fba386fcb0c704457
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: bbffe00507462c3a41ee07cb86c2376a072e5437
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327639"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271557"
 ---
 # <a name="analyze-in-excel"></a>Excel で分析
 Excel を使用して Power BI にあるデータセットを表示したり、データセットと対話したりする必要が生じる場合があります。 **[Excel で分析]** を使用すれば、Power BI に存在するデータセットに応じて、表示や対話だけでなく、Excel 内で PivotTable、グラフ、スライサーの機能を活用できます。
@@ -26,7 +26,7 @@ Excel を使用して Power BI にあるデータセットを表示したり、�
 * **[Excel で分析]** は、Microsoft Excel 2010 SP1 以降でサポートされています。
 * Excel のピボット テーブルは、数値フィールドのドラッグ アンド ドロップでの集計をサポートしていません。 Power BI でのデータセットには、*メジャーを事前定義する必要があります*。
 * 一部の組織では、グループ ポリシーの規則により、必要な **[Excel で分析]** 更新プログラムを Excel にインストールできないことがあります。 更新プログラムをインストールできない場合は、管理者に問い合わせてください。
-* **[Excel で分析]** には、Pro ライセンスが必要です。 無料ライセンスと Pro ライセンスの機能の違いについては、[Power BI 無料版と Power BI Pro の比較](service-free-vs-pro.md)ページを参照してください。 
+* **[Excel で分析]** には、Pro ライセンスが必要です。 ライセンスの種類の機能の違いについては、「[Power BI features by license type](service-features-license-type.md)」 (Power BI のライセンスの種類別機能) を参照してください。 
 
 ## <a name="how-does-it-work"></a>しくみ
 **Power BI** のデータセットまたはレポートに関連付けられた省略記号のメニュー (...) から **[Excel で分析]** を選択すると、Power BI によって .ODC ファイルが作成され、ブラウザーからお使いのコンピューターにダウンロードされます。

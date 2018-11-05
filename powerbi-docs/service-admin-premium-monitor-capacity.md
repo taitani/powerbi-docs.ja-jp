@@ -8,27 +8,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300163"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909224"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>組織で Power BI Premium 容量を監視する
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Power BI Premium および Power BI Embedded の容量を監視する
 
-この記事では、Power BI Premium 容量のメトリックの監視の概要について説明します。 容量の使用状況を監視することで、情報に基づいた方法で容量を監視することができます。 
+この記事では、Power BI Premium 容量のメトリックの監視の概要について説明します。 容量の使用状況を監視することで、情報に基づいた方法で容量を監視することができます。
 
 Power BI Premium 容量メトリック アプリまたは管理ポータルで容量を監視できます。 より多くの詳細が表示されるためアプリをお勧めしますが、この記事では両方のオプションについて説明します。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>Premium 容量メトリック アプリのインストール
 
 [Premium 容量メトリック アプリ](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)に直接移動するか、Power BI の他のアプリと同じようにインストールします。
-
-> [!IMPORTANT]
-> このアプリをインストールして使用するには、少なくとも 1 つの容量の容量管理者である必要があります。 Power BI 管理者であるだけでは不十分です。 
 
 1. Power BI で **[アプリ]** をクリックします。
 
@@ -42,47 +41,66 @@ Power BI Premium 容量メトリック アプリまたは管理ポータルで�
 
 アプリをインストールしたので、組織で容量に関するメトリックを確認できるようになりました。 利用できる主要なメトリックをいくつか見てみましょう。
 
-## <a name="use-the-metrics-app"></a>メトリックのアプリを使用する 
+## <a name="use-the-metrics-app"></a>メトリックのアプリを使用する
+
 アプリを開くと、管理者権限があるすべての容量の概要を含むダッシュボードが最初に表示されます。
 
-![Premium レポートの概要](media/service-admin-premium-monitor-capacity/app-dashboard.png)
+![トリック アプリ ダッシュボード](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-### <a name="filtering"></a>フィルター処理
+レポートには 3 つのタブがあり、それぞれ次のセクションで詳しく説明します。
 
-**[Filters applied to all pages]\(すべてのページに適用するフィルター\)** タブを使用すると、容量、データセット、過去 7 日間内の日付範囲を選択できます。 これらのフィルターの選択範囲は、このレポート内のすべての関連するページとタイルに適用されます。 何も選択しない場合、レポートは既定で、自分が所有するすべての容量の過去 1 週間のメトリックを表示します。
+* **[Filters applied to all pages]\(すべてのページに適用するフィルター\)**: レポート内の他のページを特定の容量へとフィルター処理できます。
+* **[データセット]**: 容量内のデータセットの正常性に関する詳細なメトリックを提供します。
+* **[システム]**: メモリや CPU の高使用率など、全体的な容量メトリックを提供します。 
 
-![Premium レポートの概要](media/service-admin-premium-monitor-capacity/premium-report-overview.png)
+### <a name="filters-applied-to-all-pages-tab"></a>[Filters applied to all pages]\(すべてのページに適用するフィルター\) タブ
 
-### <a name="summary-tab"></a>概要タブ
+**[Filters applied to all pages]\(すべてのページに適用するフィルター\)** タブを使用すると、容量、データセット、過去 7 日間内の日付範囲を選択できます。 その後、フィルターはレポート内のすべての関連するページおよびタイルに適用されます。 フィルターを選択しない場合、レポートは既定で、自分が所有するすべての容量の過去 1 週間のメトリックを表示します。
 
-**[概要]** タブには、エンティティ、システム、データセットに基づく容量のビューが表示されます。
+![[フィルター] タブ](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
-![すべてのページに適用されるフィルター](media/service-admin-premium-monitor-capacity/premium-summary-report.png)
+### <a name="datasets-tab"></a>データセット タブ
 
-| **領域** | **メトリック** |
+**[データセット]** タブは、アプリのメトリックの大部分を提供します。 タブの上部にある 4 つのボタンを使用して、さまざまな領域: **[概要]**、**[Refreshes]\(更新\)**、**[クエリ]**、および **[データセット]** に移動します。
+
+![データセット タブ](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+#### <a name="summary-area"></a>[概要] 領域
+
+![[概要] ボタン](media/service-admin-premium-monitor-capacity/summary-button.png)
+
+**[概要]** 領域には、エンティティ、システム リソース、およびデータセット ワークロードに基づく容量のビューが表示されます。
+
+| | **メトリック** |
 | --- | --- |
 | **エンティティ** | * 自分が所有する容量の数<br> * 容量内の個別データセットの数<br> * 容量内の個別ワークスペースの数 |
 | **システム** | * 過去 7 日間の平均メモリ使用量 (GB)<br> * 過去 7 日間の最高メモリ消費量 (GB) およびそれが発生したローカル時刻<br> * 過去 7 日間で CPU がしきい値の 80% を超えた回数 (3 分間のバケットに分割)<br> * 過去 7 日間で CPU が 80% を超えた最大回数 (1 時間のバケットに分割) およびそれが発生したローカル時刻<br> * 過去 7 日間で直接クエリ/ライブ接続がしきい値の 80% を超えた回数 (3 分間のバケットに分割)<br> * 過去 7 日間で直接クエリ/ライブ接続が 80% を超えた最大回数 (1 時間のバケットに分割) およびそれが発生したローカル時刻 |
 | **データセットのワークロード** | * 過去 7 日間の更新の合計数<br> * 過去 7 日間の成功した更新の合計数<br> * 過去 7 日間の失敗した更新の合計数<br> * メモリ不足によって失敗した更新の合計数<br> * 平均更新時間は分単位で測定されます (操作完了にかかった時間)<br> * 更新の平均待機時間は分単位で測定されます (スケジュールされた時間と操作の開始の間の平均ラグ)<br> * 過去 7 日間のクエリ実行の合計数<br> * 過去 7 日間の成功したクエリの合計数<br> * 過去 7 日間の失敗したクエリの合計数<br> * 平均クエリ時間は分単位で測定されます (操作完了にかかった時間)<br> * メモリ不足により解放されたモデルの合計数 |
 |  |  |
 
-### <a name="refreshes-tab"></a>更新タブ
+#### <a name="refreshes-area"></a>[Refreshes]\(更新\) タブ
 
-**[Refreshes]\(更新\)** タブでは、完全な更新、成功したメジャー、過去 7 日間のデータセットで分割した更新待機時間の平均値/最大値と更新時間の平均値/最大値が一覧表示されます。 下部にある 2 つのグラフでは、更新とメモリ消費量 (GB)、および 1 時間のバケットに分割された平均待機時間 (ローカル時刻でのレポート) が表示されます。 上部の棒グラフでは、データセットの更新を完了するのにかかった最大時間 (更新時間) と更新の最大待機時間の合計による、上位 5 つのデータセットが一覧表示されます。 複数の更新待機時間の急増は、容量に波があることを示しています。
+![[Refreshes]\(更新\) ボタン](media/service-admin-premium-monitor-capacity/refreshes-button.png)
 
-![Premium 更新レポート](media/service-admin-premium-monitor-capacity/premium-refresh-report.png)
+**[Refreshes]\(更新\)** 領域では、完全な更新、成功したメジャー、過去 7 日間のデータセットで分割された更新待機時間の平均値/最大値と更新時間の平均値/最大値が一覧表示されます。 下部にある 2 つのグラフでは、更新とメモリ消費量 (GB)、および 1 時間のバケットに分割された平均待機時間 (ローカル時刻でのレポート) が表示されます。 上部の棒グラフでは、データセットの更新を完了するのにかかった平均時間 (更新時間) と更新の平均待機時間による、上位 5 つのデータセットが一覧表示されます。 複数の更新待機時間の急増は、容量に波があることを示しています。
 
-### <a name="datasets-tab"></a>データセット タブ
+#### <a name="queries-area"></a>[クエリ] 領域
 
-**[データセット]** タブには、時間単位でメモリ不足によって解放された完全なデータセットが表示されます。
+![[クエリ] ボタン](media/service-admin-premium-monitor-capacity/queries-button.png)
 
-![Premium データセット レポート](media/service-admin-premium-monitor-capacity/premium-datasets-report.png)
+**[クエリ]** 領域では、クエリ実行の合計数、ライブ クエリまたは直接クエリのクエリ待機カウントの合計数、平均/最大実行時間のほか、過去 7 日間のデータセット、ワークスペース、および 1 時間のバケット数で分割された平均/最大待機時間 (ミリ秒単位で報告) が一覧表示されます。 下部にあるグラフには、クエリ カウント、平均実行時間 (ミリ秒単位)、および平均待機時間 (ミリ秒単位) と、メモリ消費量 (GB) が、1 時間のバケット数に分割されて表示されます (現地時刻で報告)。 上部にある 2 つのグラフでは、平均クエリ実行時間と、クエリを完了するのにかかった待機時間による、上位 5 つのデータセットが一覧表示されます。 クエリ実行時間と待機時間が長い場合は、容量に波があることを示しています。 また、1 つのデータセットが問題の原因であり、さらなる調査が必要であることを意味する可能性もあります。
+
+#### <a name="datasets-area"></a>[データセット] 領域
+
+![[データセット] ボタン](media/service-admin-premium-monitor-capacity/datasets-button.png)
+
+**[データセット]** 領域には、時間単位でメモリ不足によって解放された完全なデータセットが表示されます。
 
 ### <a name="system-tab"></a>システム タブ
 
-**[システム]** タブには、CPU の高使用率 (使用率が 80% を超えた回数)、直接クエリ/ライブ接続の高使用率、メモリ消費量が表示されます。
+**[システム]** タブには、CPU が高使用率を示した回数 (使用率が 80% を超えた回数)、直接クエリ/ライブ接続が高使用率を示した回数、およびメモリ消費量が表示されます。
 
-![Premium システム レポート](media/service-admin-premium-monitor-capacity/premium-system-report.png)
+![Premium システム レポート](media/service-admin-premium-monitor-capacity/system-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Power BI Embedded 容量を監視する
 

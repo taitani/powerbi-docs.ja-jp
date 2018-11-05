@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddf08edf7494cd8b918a93d41b384b4e89376d95
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d6793c41cea8da251fd700800e1f11ca88bb0be4
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543352"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416960"
 ---
 # <a name="basic-area-chart"></a>基本的な面グラフ
 基本的な面グラフ (層グラフとも呼ばれます) は、折れ線グラフに基づいています。 軸と折れ線の間の領域は、量を示すために色で塗りつぶされます。 
@@ -55,21 +55,29 @@ ms.locfileid: "46543352"
    c.  **\[Time] \(時間) \> \[Month] \(月)** を選び、[Month] を **[軸]** に追加します。   
    ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
-   d.  月別にグラフを表示するには、(ビジュアルの右上隅にある) 省略記号を選択し、**[Sort by month]** (月別に並べ替え) を選択します。
+   d.  月別にグラフを表示するには、(ビジュアルの右上隅にある) 省略記号を選択し、**[Sort by month]** (月別に並べ替え) を選択します。 並べ替え順序を変更するには、省略記号をもう一度選び、**[昇順で並べ替え]** または **[降順で並べ替え]** を選択します。
 
 ## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
-[フィルター] ウィンドウの使い方については、「[Power BI レポートへのフィルターの追加 (編集ビュー)](../power-bi-report-add-filter.md)」をご覧ください。
+[フィルター] ウィンドウの使用方法については、「[Power BI でのレポートへのフィルターの追加](../power-bi-report-add-filter.md)」をご覧ください。
 
-グラフ内の 1 つの特定の領域を強調表示するには、その領域または上部の境界を選びます。  他の視覚エフェクトの種類とは異なり、同じページに他の視覚エフェクトがある場合、基本的な面グラフを強調表示しても、レポート ページの他の視覚エフェクトはクロス フィルター処理されません。 ただし、面グラフは、レポート ページ上の他の視覚化によってトリガーされたクロス フィルター処理のターゲットになります。 詳しくは、「[Power BI レポートでの視覚化の相互作用](../consumer/end-user-interactions.md)」をご覧ください。
+グラフ内の 1 つの特定の領域を強調表示するには、その領域または上部の境界を選びます。  他の視覚エフェクトの種類とは異なり、同じページに他の視覚エフェクトがある場合、基本的な面グラフを強調表示しても、レポート ページの他の視覚エフェクトはクロス フィルター処理されません。 ただし、面グラフは、レポート ページ上の他の視覚化によってトリガーされたクロス フィルター処理のターゲットになります。 
+
+1. 面グラフを選択し、それを別のレポート ページにコピーして、試してください (CTRL + C および CTRL + V)。
+2. 影付きの領域を 1 つ選択し、次いでもう 1 つ影付きの領域を選択します。 ページのその他の視覚化には、何も影響がないことがわかります。
+
+    ![面グラフ上で選択されている今年の売上](media/power-bi-visualization-basic-area-chart/power-bi-select-area.png)
+
+3. ここで、ページ上の縦棒グラフの 1 本のバーまたは折れ線グラフの 1 月など、その他の視覚化の要素を 1 つ選択します。 面グラフの変化を確認してください。フィルタリングされます。  
+
+    ![選択されている Ft Oglethorpe バー](media/power-bi-visualization-basic-area-chart/power-bi-filter.png) 
+
+詳しくは、「[Power BI レポートでの視覚化の相互作用](../service-reports-visual-interactions.md)」をご覧ください。
 
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング   
 * [障碍を持つユーザーのためにレポートをより使いやすくする](../desktop-accessibility.md)
 * 基本的な面グラフは、複数層の面の重なりによって値がわかりにくくなるため、値の比較には有効ではありません。 Power BI では、面の重なりを示すために透過が使用されます。 ただし、透過は 2 つか 3 つの異なる面についてのみうまく機能します。 4 つ以上のメジャーとトレンドを比較する必要がある場合は、折れ線グラフを使用してみてください。 4 つ以上のメジャーと量を比較する必要がある場合は、ツリーマップを使用してみてください。
 
-## <a name="next-steps"></a>次の手順
-[Power BI のレポート](../consumer/end-user-reports.md)  
-[Power BI レポートでの視覚化](power-bi-report-visualizations.md)  
-[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)  
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+## <a name="next-step"></a>次の手順
+[Power BI のレポート](power-bi-visualization-card.md)  
 

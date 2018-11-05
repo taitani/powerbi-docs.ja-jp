@@ -1,5 +1,5 @@
 ---
-title: Power BI のスライサー
+title: チュートリアル - Power BI のスライサー
 description: Power BI のスライサー
 author: mihart
 manager: kvivek
@@ -7,23 +7,23 @@ ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
-ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: mihart
+ms.topic: tutorial
+ms.date: 09/25/2018
+ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e42504c2c320e4f102cab5e2272e6123bf580cf5
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565086"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448985"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI のスライサー
 レポートを見る人が売り上げ全体の指標を調べることができるだけでなく、個々の地域マネージャーや異なる期間の実績に注目することもできるようにしたい場合があります。 個別レポートや比較グラフを作成してもかまいませんが、スライサーを使用することもできます。 スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。 
 
 このチュートリアルでは、無料の[小売りの分析のサンプル](../sample-retail-analysis.md)を使って、リスト スライサーと日付範囲スライサーを作成、書式設定、使用する手順について説明します。 スライサーを書式設定して使用する方法がわかります。 
 
-![slicer](./media/power-bi-visualization-slicers/slicer2.gif)
+![slicer](media/power-bi-visualization-slicers/slicer2.gif)
 
 ## <a name="when-to-use-a-slicer"></a>スライサーを使用する場合
 スライサーは、次のような場合に最適です。
@@ -46,7 +46,7 @@ Power BI のスライサーには次の制限があります。
 
 初めてレポートを変更する際は、**[既定値にリセット]** のボタンが点灯します。 これは、元のレポート設定に変更を加えたことを知らせるためのものです。 レポートから移動する場合、その変更内容は保存 (保持) されます。 レポートに戻ったときに、レポートを再スライスする必要はありません。  ただし、レポートを作成者の既定の設定にリセットする場合は、上部のメニューバーから **[既定値にリセット]** ボタンを選択します。
 
-![既定値に戻すボタン](./media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+![既定値に戻すボタン](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
 
 > [!NOTE]
 > **[既定値にリセット]** ボタンが無効のままの場合、レポート作成者がレポートの機能を無効にしているか、レポートにカスタム ビジュアルが含まれていることを意味します。 ボタンの上にマウスを置くだけで、説明を示すヒントが表示されます。 
@@ -54,23 +54,23 @@ Power BI のスライサーには次の制限があります。
 **District Manager でデータをフィルター処理する新しいスライサーを作成するには**
 
 1. Power BI Desktop または Power BI サービスで、[小売りの分析のサンプル](../sample-retail-analysis.md)を開きます (Power BI サービスの場合は、左上の **[レポートの編集]** を選びます)。
-2. **[Overview]** ページを開き、キャンバスで何も選択されていない状態で、**[視覚化]** ウィンドウの **[スライサー]** アイコン ![[スライサー] アイコン](./media/power-bi-visualization-slicers/slicer-icon.png) を選択して新しいスライサーを作成します。 
+2. **[Overview]** ページを開き、キャンバスで何も選択されていない状態で、**[視覚化]** ウィンドウの **[スライサー]** アイコン ![[スライサー] アイコン](media/power-bi-visualization-slicers/slicer-icon.png) を選択して新しいスライサーを作成します。 
 3. 新しいスライサーを選択し、**[フィールド]** ウィンドウの **[District]** で **[District Manager]** を選択して、スライサーを設定します。 新しいスライサーは、名の前に選択ボックスの付いたリストです。 
     
-    ![新しいスライサー](./media/power-bi-visualization-slicers/2-slicer.png)
+    ![新しいスライサー](media/power-bi-visualization-slicers/2-slicer.png)
     
 4. キャンバス上のスライサーと他の要素をサイズ変更およびドラッグして、スライサーのスペースを確保します。 スライサーを小さくしすぎると、スライサーの項目が切れてしまうので注意してください。 
 5. スライサーの名前を選択し、ページ上の他の視覚エフェクトに与える影響を確認します。 名前を再び選んで選択を解除した後、**Ctrl** キーを押しながらの複数の名前を選びます。 すべての名前を選ぶと、何も選ばない場合と同じ効果になります。 
 
 >[!TIP]
->リスト スライサーの項目は、既定では英数字の昇順で並べられます。 並べ替え順序を逆の降順にするには、スライサーの右上隅にある省略記号 **[...]** を選択し、ドロップダウン リストで **[District Manager で並べ替え]** を選択します。 
+>リスト スライサーの項目は、既定では英数字の昇順で並べられます。 並べ替え順序を逆の降順にするには、スライサーの右上隅にある省略記号 (**...**) を選択し、ドロップダウン リストで **[District Manager で並べ替え]** を選びます。 
 
 **日付範囲でデータをフィルター処理する新しいスライサーを作成するには**
 
 1. キャンバスを何も選択されていない状態にして、[フィールド] ウィンドウの **[Time]** ドロップダウンの **[Month]** (Power BI サービスの場合は **[Date]**) を [視覚化] ウィンドウの **[値]** ボックスにドラッグして、新しい視覚エフェクトを作成します。
 2. 新しい視覚エフェクトを選択した状態で、**[スライサー]** アイコンを選択して、新しい視覚エフェクトをスライサーに変換します。 このスライサーは、日付範囲が設定されたスライダー コントロールです。
     
-    ![新しい範囲スライサー](./media/power-bi-visualization-slicers/2a-date-slicer.png)
+    ![新しい範囲スライサー](media/power-bi-visualization-slicers/2a-date-slicer.png)
     
 4. キャンバス上のスライサーと他の要素をサイズ変更およびドラッグして、スライサーのスペースを確保します。 スライサーのサイズに合わせてスライダーのサイズも変化しますが、スライサーを小さくしすぎるとスライダーが消えて日付の表示が切れるので注意してください。 
 4. 異なる日付範囲を選択するには、スライダーを使うか、日付フィールドを選択して値を入力するか、カレンダーを表示して正確に選択します。 ページ上の他の視覚化に対する影響を確認してください。
@@ -93,12 +93,12 @@ Power BI のスライサーには次の制限があります。
     - Power BI Desktop では、**[ビジュアル ツール]** の **[書式]** を選択して **[相互作用を編集]** を選択します。
     - Power BI サービスでは、メニュー バーの **[ビジュアル対話]** を選択して **[相互作用を編集]** をオンにします。 
    
-   ページの他のすべてのビジュアルの上に、フィルター コントロール ![フィルター コントロール](./media/power-bi-visualization-slicers/filter-controls.png) が表示されます。 最初は、すべてで **[フィルター]** アイコンが選択されています。
+   ページの他のすべてのビジュアルの上に、フィルター コントロール ![フィルター コントロール](media/power-bi-visualization-slicers/filter-controls.png) が表示されます。 最初は、すべてで **[フィルター]** アイコンが選択されています。
    
 2. **[Total Sales Variance by FiscalMonth and District Manager]** グラフの上の **[なし]** アイコンを選択して、スライサーのフィルター処理を停止します。 
 3. **[Month]** スライサーを選択し、**[Total Sales Variance by FiscalMonth and District Manager]** グラフの上の **[なし]** アイコンを再び選択して、このスライサーのフィルター処理を停止します。 これで、スライサーで名前や日付範囲を選択しても、[Total Sales Variance by FiscalMonth and District Manager] グラフは変更されません。 
 
-相互作用の編集については、「[Power BI レポートでの視覚化の相互作用](../consumer/end-user-interactions.md)」をご覧ください。
+相互作用の編集については、「[Power BI レポートでの視覚化の相互作用](../service-reports-visual-interactions.md)」をご覧ください。
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>他のページでスライサーを同期して使用する
 Power BI の 2018 年 2 月更新以降では、スライサーを同期し、レポートの任意のページまたはすべてのページで使用できます。 
@@ -108,7 +108,7 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 1. **[ビュー]** メニューで、**[スライサーの同期]** (Power BI Desktop の場合) または **[スライサー ウィンドウの同期]** (Power BI サービスの場合) を選択します。 **[スライサーの同期]** ウィンドウが表示されます。 
 2. **[Overview]** ページで、**[District Manager]** スライサーを選択します。 **[District Monthly Sales]** ページにも[ District Manager] スライサーがあるので、このページの **[表示]** 列は既に選択されていますが、**[同期]** 列は選択されていません。 
     
-    ![スライサーを同期する](./media/power-bi-visualization-slicers/9-sync-slicers.png)
+    ![スライサーを同期する](media/power-bi-visualization-slicers/9-sync-slicers.png)
     
 3. **[同期]** 列で **[New Stores]** ページと **[District Monthly Sales]** ページを選択し、**[Overview]** のスライサーをこれらのページと同期します。 
     
@@ -126,7 +126,7 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 
 1. いずれかのページで **[District Manager]** スライサーを選択した状態で、**[視覚化]** ウィンドウで **[書式]** アイコン ![](media/power-bi-visualization-slicers/power-bi-paintroller.png) を選択して書式設定コントロールを表示します。 
     
-    ![書式設定](./media/power-bi-visualization-slicers/3-format.png)
+    ![書式設定](media/power-bi-visualization-slicers/3-format.png)
     
 2. 各カテゴリの横にあるドロップダウン矢印を選択してオプションを表示し、編集します。 
 
@@ -134,25 +134,25 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 1. **[輪郭の色]** で赤を選び、**[輪郭の太さ]** を "2" に変更します。 ヘッダーと項目の輪郭または下線 (有効になっている場合) の色と太さが設定されます。 
 2. **[方向]** の既定値は **[縦]** です。 **[横]** を選択すると、タイルやボタンが横方向に配置され、スライサーに収まらない項目にアクセスするためのスクロール矢印が付いた、スライサーが作成されます。
     
-    ![横](./media/power-bi-visualization-slicers/4-horizontal.png)
+    ![横](media/power-bi-visualization-slicers/4-horizontal.png)
     
 3. ViewScreen とスライサーのサイズに応じて、スライサーの項目のサイズと配置を変更するには、**[レスポンシブ]** レイアウトをオンにします。 リスト スライサーの場合、レスポンシブ レイアウトは横方向でのみ使用でき、小さい画面で項目が切り取られるのを防ぎます。 範囲スライダー スライサーのレスポンシブ書式設定では、スライダーのスタイルが変更されて、より柔軟なサイズ変更を提供します。 どちらの種類のスライサーも、非常に小さいサイズではフィルター アイコンになります。 
     
-    ![レスポンシブ](./media/power-bi-visualization-slicers/5-responsive.png)
+    ![レスポンシブ](media/power-bi-visualization-slicers/5-responsive.png)
     
     >[!NOTE]
     >レスポンシブ レイアウトの変更により、ユーザーが設定した特定の見出しと項目の書式設定がオーバーライドされることがあります。 
     
 4. **[X 方向の位置]**、**[X 方向の位置]**、**[幅]**、**[高さ]** でスライサーの位置とサイズを数値で指定するか、キャンバス上で直接スライサーを移動およびサイズ変更します。 項目のサイズと配置を変えてテストし、それに従ってレスポンシブ書式設定がどのように変化するかを確認してください。  
 
-    ![横並びのボタン](./media/power-bi-visualization-slicers/6-buttons.png)
+    ![横並びのボタン](media/power-bi-visualization-slicers/6-buttons.png)
 
 横方向およびレスポンシブのレイアウトについては、「[Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成](../power-bi-slicer-filter-responsive.md)」をご覧ください。
 
 ### <a name="selection-controls-options-list-slicers-only"></a>[選択範囲のコントロール] のオプション (リスト スライサーのみ)
 1. **[[すべて選択] オプションを表示する]** は既定では **[オフ]** になっています。 すべての項目の選択と選択解除を切り替える **[すべて選択]** 項目をスライサーに追加するには、**[オン]** にします。 すべての項目を選択してから 1 つの項目をクリックまたはタップして選択を解除すると、"is-not" タイプのフィルターを使用できます。 
     
-    ![すべて選択](./media/power-bi-visualization-slicers/7-select-all.png)
+    ![すべて選択](media/power-bi-visualization-slicers/7-select-all.png)
     
 2. **[単一選択]** は既定では **[オン]** になっています。 各項目をクリックまたはタップするとその項目が選択され、**Ctrl** キーを押しながらクリックまたはタップすると複数の項目を選択できます。 **Ctrl** キーを押さなくても複数の項目を選択できるようにするには、**[単一選択]** を **[オフ]** にします。 各項目を再度クリックまたはタップすると選択が解除されます。 
 
@@ -165,7 +165,7 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 1. 項目のテキストと背景の書式を設定し、**[フォントの色]** を黒、**[背景]** を薄い赤、**[テキスト サイズ]** を 10 pt、**[フォント ファミリ]** を Arial にします。 
 2. **[全般]** オプションで設定したサイズと色で各項目を境界線で囲むには、**[アウトライン]** で **[フレーム]** を選択します。 
     
-    ![書式設定済み](./media/power-bi-visualization-slicers/8-formatted.png)
+    ![書式設定済み](media/power-bi-visualization-slicers/8-formatted.png)
     
     >[!TIP]
     >- **[方向] > [横]** の場合、選択されていない項目は指定したテキスト色と背景色で表示され、選択された項目はシステムの既定値 (通常は黒い背景と白いテキスト) を使用します。
@@ -183,15 +183,7 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 - **[罫線]**: スライサーの周囲に 1 ピクセルの枠線を追加し、その色を設定します (このスライサーの枠線は、[全般] の [アウトライン] の設定とは別であり影響を受けません)。 
 
 ## <a name="next-steps"></a>次の手順
-[無料試用版にサインアップ](https://powerbi.microsoft.com/get-started/)
-
-Power BI を改善する方法について、ご意見がありましたら、 [コメントを送信](https://ideas.powerbi.com/forums/265200-power-bi-ideas)してください。
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-
-[視覚化をレポートに追加する](power-bi-report-add-visualizations-i.md)
-
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
+[Power BI のテーブル](power-bi-visualization-tables.md)
 

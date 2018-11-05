@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547639"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908161"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI での組織のコンテンツ パックの概要
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.locfileid: "46547639"
 ダッシュボード、レポート、Excel ブックは読み取り専用ですが、自分のカスタマイズされたバージョンのコンテンツ パックを作成するために、カスタマイズの起点としてダッシュボードとレポートをコピーおよび使用することができます。
 
 > [!NOTE]
-> 組織のコンテンツ パックは、自分と同僚が [Power BI Pro](service-free-vs-pro.md) を持っている場合にのみ利用できます。
+> 組織のコンテンツ パックは、自分と同僚が [Power BI Pro ライセンス](service-features-license-type.md)を持っている場合にのみ利用できます。
 > 
 > 
 
@@ -52,7 +52,7 @@ Power BI Pro のすべてのユーザーは、組織のコンテンツ パック
 1. Power BI Pro で、Nate がコンテンツ パックを作成し、マーケティング配布グループに発行した場合を考えます。 更新設定は、データセットに伴って継承され、Nate だけが変更できます。
    
    > [!NOTE]
-   > Nate が、自分が属する [Power BI アプリ ワークスペース](consumer/end-user-create-apps.md)内からコンテンツ パックを作成した後、そのワークスペースを抜けたとしても、Power BI のワークスペース内の他のユーザーが所有権を引き継ぐことができます。
+   > Nate が、自分が属する [Power BI アプリ ワークスペース](service-create-distribute-apps.md)内からコンテンツ パックを作成した後、そのワークスペースを抜けたとしても、Power BI のワークスペース内の他のユーザーが所有権を引き継ぐことができます。
    > 
    > 
 2. Nate が配布グループにメールを送信して新しいコンテンツ パックについて説明します。
@@ -76,7 +76,7 @@ Power BI Pro のすべてのユーザーは、組織のコンテンツ パック
 
 ## <a name="next-steps"></a>次の手順
 * [組織のコンテンツ パックの作成と発行](service-organizational-content-pack-create-and-publish.md)
-* [Power BI でのアプリの作成および配布](consumer/end-user-create-apps.md) 
+* [Power BI でのアプリの作成および配布](service-create-distribute-apps.md) 
 * [Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

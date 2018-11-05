@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565560"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416868"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI の放射状ゲージ グラフ
 放射状ゲージ グラフには、1 つの円弧があり、目標/KPI に向けた進行状況を測定した 1 つの値が表示されます。  目標 (ターゲット値) は、線 (指針) で示されます。 その目標への進行状況は、網掛け表示で示されます。  また、進行状況を表す値は、円弧の内側に太字で表示されます。考えられるすべての値は、最小値 (左端の値) から最大値 (右端の値) に向けて、円弧に沿って均等に割り振られます。
@@ -92,7 +92,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
 
 ### <a name="step-5-save-your-report"></a>手順 5: レポートを保存する
 1. [レポートを保存](../service-report-save.md)します。
-2. [ゲージ グラフをダッシュボード タイルとして追加](../consumer/end-user-tiles.md)します。 
+2. [ゲージ グラフをダッシュボード タイルとして追加](../service-dashboard-pin-tile-from-report.md)します。 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>書式設定オプションを使用して、手動で最小値、最大値、目標値を設定する
 1. **[最大値]** に **[総売上]** もドラッグします。
@@ -110,14 +110,8 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. 必要に応じて、ゲージ グラフの書式設定を続けます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-step"></a>次の手順
+
+[Power BI のゲージ](power-bi-visualization-kpi.md)
+
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[視覚化をレポートに追加する](power-bi-report-add-visualizations-i.md)
-
-[視覚化をダッシュボードにピン留めする](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

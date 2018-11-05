@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547064"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908833"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI で Microsoft Dynamics CRM に接続する
 Power BI 用 Microsoft Dynamics CRM Online を利用すれば、簡単にデータにアクセスし、分析できます。 Power BI は、OData フィードを使用して記述モデルを作成します。その際、必要なすべてのエンティティやメジャー (取引先企業、活動、営業案件、製品、潜在顧客、ユーザーなど) を含めます。 アプリをインストールすると、Power BI サービス ([https://powerbi.com](https://powerbi.com)) と Power BI モバイル アプリでダッシュボードとレポートを表示できます。 
@@ -26,17 +26,16 @@ Dynamics CRM Online [営業マネージャー](https://msit.powerbi.com/groups/m
 
 ## <a name="how-to-connect"></a>接続する方法
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. **[Microsoft Dynamics CRM Sales Manager]** (Microsoft Dynamics CRM 営業マネージャー) または **[Microsoft Dynamics CRM Service Manager]** (Microsoft Dynamics CRM サービス マネージャー) を選択し、**[接続]** をクリックします。
+3. **[Microsoft Dynamics CRM Sales Manager]** (Microsoft Dynamics CRM 営業マネージャー) または **[Microsoft Dynamics CRM Service Manager]** (Microsoft Dynamics CRM サービス マネージャー) を選択し、**[接続]** をクリックします。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. アカウントと関連付けられているサービスの URL を指定します。  これは、`https://company.crm.dynamics.com` のような形式になります。詳細については、[下の説明](#FindingParams)を参照してください。
+4. アカウントと関連付けられているサービスの URL を指定します。  これは、`https://company.crm.dynamics.com` のような形式になります。詳細については、[下の説明](#FindingParams)を参照してください。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. メッセージが表示されたら、資格情報を指定します (ブラウザーで既にサインインしている場合、この手順は省略される可能性があります)。 認証方式として、「 **oAuth2** 」と入力し、 **[サインイン]** をクリックします。
+5. メッセージが表示されたら、資格情報を指定します (ブラウザーで既にサインインしている場合、この手順は省略される可能性があります)。 認証方式として、「 **oAuth2** 」と入力し、 **[サインイン]** をクリックします。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. 接続後、営業マネージャーまたはサービス マネージャー向けにカスタマイズされたダッシュボードが表示されます。そのダッシュボードには、独自のデータが格納されています。
+6. 接続後、営業マネージャーまたはサービス マネージャー向けにカスタマイズされたダッシュボードが表示されます。そのダッシュボードには、独自のデータが格納されています。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,7 +47,7 @@ Dynamics CRM Online [営業マネージャー](https://msit.powerbi.com/groups/m
 ## <a name="whats-included"></a>含まれるもの
 このセクションでは、[営業マネージャー](#Sales)と[サービス マネージャー](#Service)に含まれるものを詳しく説明します。
 
-追加データは Dynamics CRM Online ユーザーに割り当てられているセキュリティ ロールに基づいて制限されることに注意してください。
+データは Dynamics CRM Online ユーザーに割り当てられているセキュリティ ロールに基づいて制限されることに注意してください。
 
 ダッシュボードとレポートは、チームまたはグループに焦点を当てて短期データについての業務レポートを提供するためのものです。 各クエリは、Dynamics CRM Online から最大 10 万個のレコードを取得するように制限されています。 組織のデータが多くてこの制限を超えた場合、データ更新の Dynamics CRM Online が終了されるためにプロビジョニングは失敗します。 アカウントが大きすぎる場合は、Power BI Desktop を接続してカスタム ソリューションを構築してください。
 
@@ -78,8 +77,8 @@ Dynamics CRM Online [営業マネージャー](https://msit.powerbi.com/groups/m
 
 | CRM エンティティ | 適用されるフィルター |
 | --- | --- |
-| Account |過去 365 日間に変更された関連営業案件のあるすべてのアカウント。 |
-| アクティビティ |過去 90 日間に変更されたすべてのアクティビティ <br> [modifiedon] > 今日 - 90 日 |
+| アカウント |過去 365 日間に変更された関連営業案件のあるすべてのアカウント |
+| Activity |過去 90 日間に変更されたすべてのアクティビティ <br> [modifiedon] > 今日 - 90 日 |
 | ビジネス ユニット |無効ではないすべてのビジネス ユニット <br> [isdisabled] = false |
 | 潜在顧客 |過去 180 日間に変更されたすべての潜在顧客 <br> [modifiedon] > 今日 - 180 日 |
 | 営業案件 |過去 365 日間に変更されたすべての営業案件 <br> [modifiedon] > 今日 - 365 日 |
@@ -117,7 +116,7 @@ Dynamics CRM Online [営業マネージャー](https://msit.powerbi.com/groups/m
 | アクティビティ |過去 90 日間に変更されたすべてのアクティビティ <br> [modifiedon] > 今日 - 90 日 |
 | ケース |過去 90 日間に変更されたすべてのケース <br> [modifiedon] > 今日 - 90 日 |
 | ケース解決アクティビティ |過去 90 日間に変更されたすべてのケース解決アクティビティ <br> [modifiedon] > 今日 - 90 日 |
-| 問い合わせる |過去 90 日間に変更された関連ケースのあるすべての連絡先。 |
+| 問い合わせる |過去 90 日間に変更された関連ケースのあるすべての連絡先 |
 | ナレッジ記事 |ナレッジ記事のすべての最新バージョン  <br> [islatestversion] = true |
 | ナレッジ記事インシデント |過去 90 日間に変更されたすべてのナレッジ記事インシデント <br> [modifiedon] > 今日 - 90 日 |
 | キュー |すべてのアクティブなキュー  <br> [statecode] = 0 |
@@ -154,7 +153,7 @@ CRM Online 2016 以降がない場合は、Power BI Desktop を使用してア�
 "クエリが 100,000 レコードの上限を超えたためデータの更新が失敗しました" というエラーが表示される場合は、Power BI Desktop から直接接続するか、CRM ソリューション テンプレートを活用することを検討してください。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI のアプリについて](consumer/end-user-apps.md)
+* [Power BI のアプリについて](service-create-distribute-apps.md)
 * [Power BI でデータを取得する](service-get-data.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

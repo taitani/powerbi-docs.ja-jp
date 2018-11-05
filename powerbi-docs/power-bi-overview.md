@@ -1,25 +1,25 @@
 ---
 title: Power BI とは?
 description: Power BI の概要と、さまざまなパーツ (Power BI Desktop、Power BI サービス、Power BI モバイル、Report Server、Power BI Embedded) がどのように組み合わさっているか。
-author: davidiseminger
-manager: kfile
+author: mihart
+manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 06/22/2018
-ms.author: davidi
+ms.date: 09/22/2018
+ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b61e60852175ced605ae920a6a31091625f781f
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 61264a2a127ea45f542543d40fd62a9de8c3620d
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186940"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798910"
 ---
 # <a name="what-is-power-bi"></a>Power BI とは?
 **Power BI** はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型洞察を得ることができます。 シンプルな Excel スプレッドシートのデータでも、クラウド ベースとオンプレミス ハイブリッド データ ウェアハウスのコレクションのデータでも、**Power BI** は、そのデータ ソースに簡単に接続し、重要事項を視覚化 (検出) して、それを必要に応じて他のユーザーと共有することができます。
 
-![Power BI 用の入力ソースを示す図](media/power-bi-overview/power-bi-input.png)
+![Power BI 用の入力ソースを示す図](media/power-bi-overview/power-bi-input-new.png)
 
 **Power BI** はシンプルで高速です。つまり、Excel スプレッドシートやローカル データベースから洞察をすばやく作成できます。 同時に、**Power BI** は堅牢なエンタープライス クラスなので、広範なモデリング、リアルタイム分析、およびカスタム開発の準備もできています。 したがって、個人用レポート、視覚化ツールだけでなく、グループ プロジェクト、部門、または会社全体の背後にある分析および意思決定エンジンとしても使用できます。
 
@@ -41,6 +41,12 @@ Power BI の使用方法は、プロジェクトまたはチームにおける�
 
 サービスのリアルタイム ダッシュボードで在庫や製造の進行状況を確認しながら、**Power BI Desktop** を使用して、顧客契約統計に関するレポートを自分のチーム用に作成してもよいでしょう。 Power BI の使用方法は、Power BI のどの機能またはサービスが、ご自身の状況に最適なツールとして使用できるかに基づきますが、Power BI の各要素を使用することはできます。だから Power BI は柔軟で、かつ魅力的なのです。
 
+ロールに関連するドキュメントについては、以下をご覧ください。
+- [***デザイナー***](desktop-what-is-desktop.md)向け Power BI
+- [***利用者***](consumer/end-user-consumer.md)向け Power BI
+- [***開発者***](developer/what-can-you-do.md)向け Power BI
+- [***管理者***](service-admin-administering-power-bi-in-your-organization.md)向け Power BI
+
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI のワークフロー
 Power BI での一般的な作業の流れは、データ ソースに接続し、**Power BI Desktop** でレポートを作成することから始まります。 そのレポートを **Desktop** から **Power BI サービス**に発行して、**サービス**と**モバイル**のユーザーがレポートを "*使用*" (表示と操作) できるように共有します。
 場合によっては、自分と同じアクセス許可 ("*作成者*" 権限) を同僚に与えて、同僚も**サービス**を使用して、レポートの編集、ダッシュボードの作成、および作業の共有を実行できるようにします。
@@ -57,5 +63,5 @@ Power BI レポート サーバーが提供するすぐに使用できるツー�
 Power BI Report Server は、ファイアウォールの背後に展開するソリューションであり、適切なユーザーにさまざまな方法でレポートを配信します。レポートは、Web ブラウザーでもモバイル デバイスでも表示でき、電子メールとして送信することもできます。 Power BI Report Server は、クラウドの Power BI に対応するため、準備ができたらクラウドに移行することができます。
 
 ## <a name="next-steps"></a>次の手順
-[サインインし、データを取得し、Power BI サービスについて学習する](consumer/end-user-experience.md)   
+[サインインし、データを取得し、Power BI サービスについて学習する](service-the-new-power-bi-experience.md)   
 [チュートリアル: Power BI サービスの概要](service-get-started.md)

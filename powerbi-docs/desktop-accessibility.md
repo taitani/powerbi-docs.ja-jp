@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256034"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336877"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop レポートのアクセシビリティ
 Power BI には、障碍のある方がより簡単に Power BI レポートを使用し、レポートと対話できる機能があります。 これらは、レポートでキーボードやスクリーンリーダーを使用したり、ページ上のさまざまなオブジェクトにフォーカスをタブ移動したり、マーカーを使用して気の利いた視覚化を実行するための機能です。
@@ -61,6 +61,8 @@ Tab キーを押すと、スライサー内のコントロール間を移動で�
 ## <a name="tips-for-creating-accessible-reports"></a>アクセスしやすいレポートを作成するためのヒント
 次のヒントを使用すると、よりアクセスしやすい **Power BI Desktop** レポートを作成できます。
 
+### <a name="general-tips-for-accessible-reports"></a>アクセスしやすいレポートに関する一般的なヒント
+
 * **[線]**、**[面]**、**[複合]**、**[散布]**、**[バブル]** の各ビジュアルでは、マーカーをオンにし、線ごとに異なる *[マーカーの図形]* を使用できます。
   
   * *[マーカー]* をオンにするには、**[視覚エフェクト]** ウィンドウで **[書式]** セクションを選択し、**[図形]** セクションを展開して、スクロール ダウンして **[マーカー]** トグルを探し、それを *[オン]* にします。
@@ -80,6 +82,13 @@ Tab キーを押すと、スライサー内のコントロール間を移動で�
 * すべてのビジュアルにタイトル、軸ラベル、データ ラベルを含めます。
 * すべてのレポート ページにわかりやすいタイトルを使用します。
 * できれば、レポートでの装飾用の図形やイメージの使用は避けてください。これらはレポートのタブの順序で含まれます。 レポートに装飾用のオブジェクトを含める必要がある場合は、オブジェクトの代替テキストを更新し、装飾用であることをスクリーン リーダー ユーザーが認識できるようにしてください。
+
+### <a name="arranging-items-in-field-buckets"></a>フィールド バケットでの項目の整理
+2018 年 10 月リリース以降の **Power BI Desktop** では、**[フィールド]** ウェルをキーボードを使って移動し、スクリーン リーダーを操作することができます。 
+
+スクリーン リーダーでのレポートの作成プロセスを向上させるために、コンテキスト メニューを利用できます。これにより、**[フィールド]** リストでウェル内のフィールドを上下に移動したり、**[凡例]** や **[値]** などの他のウェルにフィールドを移動したりすることができます。
+
+![[フィールド] ウェルのコンテキスト メニューを使って、フィールドの上下移動や他の領域への移動を行うことができます](media/desktop-accessibility/accessibility_09.png)
 
 ## <a name="high-contrast-support-for-reports"></a>レポートに対するハイ コントラストのサポート
 

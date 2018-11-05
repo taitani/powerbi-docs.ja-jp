@@ -8,22 +8,22 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548467"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416937"
 ---
 # <a name="funnel-charts"></a>じょうごグラフ
 じょうごグラフは、順番につながっている各段階がある線形プロセスを視覚化するために役立ちます。 たとえば、「潜在顧客」 \> 「見込みのある潜在顧客」 \> 「見込顧客」 \> 「契約」 \> 「契約の締結」という段階にわたって顧客を追跡する販売のじょうごグラフがあります。  じょうごの形状は、追跡しているプロセスの正常性がひとめでわかります。
 
 じょうごの各段階は、全体のうちの割合を表します。 そして、ほとんどの場合、じょうごグラフの形は、最初の段階が最も大きく、それ以降の各段階はその前の段階よりも小さくなり、じょうごのような形になります。  洋ナシの形のじょうごグラフも役立ち、プロセスにおける問題を特定することができます。  ただし、通常は「インテーク」段階と呼ばれる最初の段階が最も大きくなります。
 
-![](media/power-bi-visualization-funnel-charts/funnelplain.png)
+![サンプルの青のじょうご](media/power-bi-visualization-funnel-charts/funnelplain.png)
 
 ## <a name="when-to-use-a-funnel-chart"></a>じょうごグラフを使用すべきケース
 じょうごグラフは、次のような場合に最適な選択肢になります。
@@ -57,11 +57,11 @@ ms.locfileid: "46548467"
 
 1. [空のレポート ページ](../power-bi-report-add-page.md)を開始し、**[SalesStage]** \> **[Sales Stage]** フィールドを選びます。 Power BI サービスを使っている場合は、[編集ビュー](../service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
    
-    ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
+    ![売上ステージの選択](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [グラフを変換](power-bi-report-change-visualization-type.md)してじょうごグラフにします。 **[Sales Stage]** (売上ステージ) が **[Group]** (グループ) に入っていることをご覧ください。 
 3. **[フィールド]** ウィンドウで、**[Fact]** \> **[Opportunity Count]** を選びます。
    
-    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![じょうごグラフの構築](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. 横棒の上にポインターを合わせると、以下の情報が表示されます。
    
    * 段階の名前
@@ -69,8 +69,8 @@ ms.locfileid: "46548467"
    * 全体のコンバージョン率 (潜在顧客のうちの %) 
    * ある段階から次の段階 (ドロップ率とも呼ばれる): これは、前の段階の件数に占める次の段階の件数の % です (この例の場合、Solution Stage ÷ Proposal Stage になります)
      
-     ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [このじょうごグラフをダッシュボード タイルとして追加](../consumer/end-user-tiles.md)します。 
+     ![提案バーの詳細](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
+5. [このじょうごグラフをダッシュボード タイルとして追加](../service-dashboard-tiles.md)します。 
 6. [レポートを保存](../service-report-save.md)します。
 
 ## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
@@ -80,24 +80,20 @@ ms.locfileid: "46548467"
 
 1. じょうごグラフ上で、横棒の **[Proposal]** を選択します。 これにより、ページ上の他の視覚化がクロス強調表示されます。 複数選択を行うには、Ctrl キーを使用してください。
    
-   ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. ビジュアル相互間のクロスフィルター処理とクロス強調表示を設定するには、「[Power BI における視覚エフェクト](../consumer/end-user-interactions.md)」を参照してください。
+   ![ビジュアル対話が表示された短い動画](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
+2. ビジュアル相互間のクロスフィルター処理とクロス強調表示を設定するには、「[Power BI における視覚エフェクト](../service-reports-visual-interactions.md)」を参照してください。
 
-## <a name="create-a-funnel-chart-in-qa"></a>Q&A でのじょうごグラフを作成する
-営業案件分析サンプルのダッシュボード、または営業案件分析サンプルのデータセットからピン留めされた視覚エフェクトを少なくとも 1 つ含む他のダッシュボードを開きます。  Q&A に質問を入力すると、選択したダッシュボードに関連付けられている (タイルがピン留めされている) すべてのデータセット内で回答が検索されます。 詳しくは、「[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)」を参照してください。
+## <a name="create-a-funnel-chart-using-qa"></a>Q&A でのじょうごグラフの作成
+営業案件分析サンプルのダッシュボード、または営業案件分析サンプルのデータセットからピン留めされた視覚エフェクトを少なくとも 1 つ含む他のダッシュボードを開きます。  Q&A に質問を入力すると、選択したダッシュボードに関連付けられている (タイルがピン留めされている) すべてのデータセット内で回答が検索されます。 詳しくは、「[Power BI - 基本的な概念](../service-basic-concepts.md)」を参照してください。
 
 1. 営業案件分析サンプルのダッシュボードで、Q&A の質問ボックスに質問の入力を開始します。
    
-   ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
+   ![質問ボックスとじょうご](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
    
 2. Power BI がユーザーの好みの視覚化の種類を認識できるように、必ず「じょうごグラフで」という語句を追加してください。
 
 ## <a name="next-steps"></a>次の手順
+
+[Power BI のゲージ](power-bi-visualization-radial-gauge-charts.md)
+
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[視覚化をダッシュボードにピン留めする](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

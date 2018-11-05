@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565822"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448916"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI のウォーターフォール図
 ウォーターフォール図では、値が加算または減算された際の累計 (現在の合計) が示されます。 一連の加算と減算の変化によって、初期値 (たとえば、純利益) が、どのように影響を受けるかを理解するために役立ちます。
@@ -39,32 +39,32 @@ ms.locfileid: "46565822"
 
 1. **[データセット]** タブを選択し、新しい [小売りの分析のサンプル] データセットまでスクロールします。  **レポートの作成**アイコンを選択し、レポート編集ビューでデータセットを開きます。 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. **[フィールド]** ウィンドウで、**[セールス] \> [Total Sales Variance]** (総売上差異) を選択します。 **[Total Sales Variance]** (総売上差異) が **[Y 軸]** 領域内にない場合、そこにドラッグします。
-3. グラフを **ウォーターフォール**に変換します。 
+    ![強調表示されている [データセット] タブ](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. **[フィールド]** ウィンドウで、**[セールス] \> [Total Sales Variance]** (総売上差異) を選択します。 
+3. グラフを **ウォーターフォール**に変換します。 **[Total Sales Variance]** (総売上差異) が **[Y 軸]** 領域内にない場合、そこにドラッグします。
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![視覚エフェクトのテンプレート](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. **[時刻]** \> **[FiscalMonth]** を選択して、[Total Sales Variance] を **[カテゴリ]** に追加します。 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![ウォーターフォール](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. 時系列でウォーターフォール図を並べ替えます。 図の右上にある省略記号 [...] を選択し、**[FiscalMonth]** を選択します。
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![[並べ替え] > [FiscalMonth] を選択する](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![新しい昇順並べ替えの結果](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. さらに調べると、月別の変化の要因がわかります。 **[Store]** > **[Territory]** を **[詳細]** バケットにドラッグします。
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![[詳細] バケットでのストアの表示](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. Power BI の既定では、月別の増減に寄与した上位 5 個の要素が追加されます。 ただし、ここでは上位 2 個の要素にのみ興味があります。  [書式設定] ウィンドウで **[詳細]** を選択し、**[最大値]** を 2 に設定します。
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![[書式設定] > [詳細]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     ウォーターフォール図をざっと見ると、オハイオ州とペンシルバニア州の地域が売上の増減に最も大きく貢献していることがわかります。 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. これは興味深い発見です。 オハイオ州とペンシルバニア州の売上が他の地域よりもはるかに高いため、この 2 つの州がこのように重大な影響を及ぼしているのでしょうか。  このようなことも確認するには、 地域別の売上を表示するマップを作成します。  
+    ![ウォーターフォール グラフ](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. これは興味深い発見です。 オハイオ州とペンシルバニア州の売上が他の地域よりもはるかに高いため、この 2 つの州がこのように重大な影響を及ぼしているのでしょうか。  このようなことも確認するには、 今年の売上値と昨年の売上値を地域別に表示するマップを作成します。  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![PA とオハイオがクローズアップされたマップ](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     このマップはこの理論をサポートしています。  これら 2 つの地域は、昨年 (バブルのサイズ) と今年 (バブルの網掛け) の売上値が最高だったことが示されています。
 
@@ -74,13 +74,7 @@ ms.locfileid: "46565822"
 ウォーターフォール図内の縦棒を強調表示すると、レポートのページ上の他の視覚化がクロス フィルター処理されます。逆の場合も同様です。 ただし、[合計] の縦棒では強調表示がトリガーされることも、クロス フィルター処理に反応することもありません。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のレポート](../consumer/end-user-reports.md)
+
+[ビジュアルの相互作用](../service-reports-visual-interactions.md)
 
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI レポートでの視覚化](power-bi-report-visualizations.md)
-
-[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

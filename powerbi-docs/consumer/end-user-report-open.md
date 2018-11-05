@@ -1,84 +1,99 @@
 ---
-title: Power BI サービスの読み取りビューまたは編集ビューでレポートを開く
-description: Power BI レポートを読み取りビューまたは編集ビューで開く
+title: Power BI サービスでレポートを表示する
+description: Power BI レポートを読み取りビューで開きます。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/10/2018
 ms.author: mihart
-ms.openlocfilehash: fe1916b2b287dffd59bf4535cc07e13d10d01321
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565799"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112017"
 ---
-# <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Power BI サービス (app.powerbi.com) でレポートを開く
-レポートは Power BI サービス、Power BI Desktop、Power BI モバイルで使用でき、Power BI Embedded でも使用できます。 この記事は、***Power BI サービス***でレポートを開く場合に適用されます。
+# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Power BI サービスでレポートを表示する (app.powerbi.com)
+レポートは、ビジュアルで構成される 1 つまたは複数のページです。 レポートは Power BI *レポート デザイナー*で作成され、[ユーザーと直接共有されます](end-user-shared-with-me.md)。あるいは[アプリ](end-user-apps.md)の一部として共有されます。 
 
-Power BI サービスには、レポートを表示および操作するための 2 つのモード ([読み取りビューと編集ビュー](end-user-reading-view.md)) があります。 読み取りビューはすべてのユーザーが利用でき、特にレポートの*コンシューマー*向けに設計されていますが、編集ビューはレポートの*作成者*と所有者のみが利用できます。 
+レポートはさまざまな方法で開くことができます。そのうちの 2 つを紹介します。ホーム ページから開く方法とダッシュボードから開く方法です。 
 
-## <a name="open-a-report-from-a-workspace-via-the-reports-content-view-list"></a>ワークスペースからレポートを開く (**[レポート]** コンテンツ ビュー リストを使用)
+<!-- add art-->
 
-1. ワークスペースで開始し、**[レポート]** タブを選んで、そのワークスペース内のすべてのレポートを表示します。  
+
+## <a name="open-a-report-from-your-home-page"></a>ホーム ページからレポートを開く
+それでは、ユーザーと直接共有されているレポートを開いてみましょう。その後で、アプリの一部として共有されたレポートを開いてみましょう。
+
+   ![ホーム ページ](./media/end-user-report-open/power-bi-home.png)
+
+### <a name="open-a-report-that-has-been-shared-with-you"></a>ユーザーと共有されているレポートを開く
+Power BI *デザイナー*では、上部メニュー バーの **[共有]** ボタンをクリックすることでレポートを直接共有できます。 この方法で共有されたコンテンツは左のナビゲーション バーの **[共有アイテム]** コンテナーとホーム ページの **[共有アイテム]** セクションに表示されます。
+
+1. Power BI サービスを開きます (app.powerbi.com)。
+
+2. 左のナビゲーション バーから **[ホーム (プレビュー)]** を選択し、ホーム ページを開きます。  
+
+   ![ホーム ページ](./media/end-user-report-open/power-bi-select-home.png)
    
-   ![ワークスペースの [レポート] タブ](./media/end-user-report-open/power-bi-open-report.png)
-2. レポート名を選択し、読み取りビューで開きます。  
+3. **[共有アイテム]** が表示されるまで下方向にスクロールします。 レポート アイコン ![レポート アイコン](./media/end-user-report-open/power-bi-report-icon.png) を見つけます。 このスクリーンショットには、*Financial* と *Northwind* という 2 つのレポートがあります。 
    
-    ![読み取りビューのレポート](./media/end-user-report-open/power-bi-reading-view.png)
-3. [読み取りビューでは、多くのことができます](end-user-reading-view.md)。  このサンプル レポートには複数のページがあります。最初に、レポート キャンバスの下部にある各タブを選択してみましょう。 
+   ![ホーム ページの [共有アイテム] セクション](./media/end-user-report-open/power-bi-shared.png)
+
+4. レポート カードの 1 つを選択し、レポートを開きます。
+
+   ![レポート ページ](./media/end-user-report-open/power-bi-report1.png)
+
+5. 下にタブが並んでいます。 各タブはレポート *ページ*を表します。 現在、*IT Spend Trend* ページを開いています。 別のタブを選択し、そのレポート ページを開きます。 
+
+   ![レポート ページ タブ](./media/end-user-report-open/power-bi-tabs.png)
+
+6. この時点ではレポート ページの一部だけが表示されます。 ページの表示 (ズーム) を変更するには、**[表示]**、**[ページに合わせる]** の順に選択します。
+
+   ![ズームの変更](./media/end-user-report-open/power-bi-fit.png)
+
+   ![ページに合わせる](./media/end-user-report-open/power-bi-report2.png)
+
+### <a name="open-a-report-that-is-part-of-an-app"></a>アプリの一部となっているレポートを開く
+同僚や AppSource からアプリを受け取っている場合、そのアプリはホーム ページと左のナビゲーション バーの **[アプリ]** コンテナーから利用できます。 [アプリ](end-user-apps.md)はダッシュボードとレポートをまとめたものです。
+
+1. 左のナビゲーション バーから **[ホーム (プレビュー)]** を選択し、ホーム ページに戻ります。
+
+7. **[マイ アプリ]** が表示されるまで下方向にスクロールします。
+
+   ![ホーム ページ](./media/end-user-report-open/power-bi-my-apps.png)
+
+8. アプリの 1 つを選択して開きます。 アプリでは、アプリ *デザイナー*によって設定されたオプションに基づき、ダッシュボードまたはレポートが開きます。 アプリを選択し、
+    - レポートが開いた場合、そこで操作はおしまいです。
+    - ダッシュボードが開いた場合、下の「[ダッシュボードからレポートを開く](#Open-a-report-from-a-dashboard)」を参照してください。
+
+
 
 ## <a name="open-a-report-from-a-dashboard"></a>ダッシュボードからレポートを開く
-他にもさまざまな方法でレポートを開くことができます。たとえば、ダッシュボードで開始し、レポートから作成したタイルを選択する方法もあります。  タイルを選択すると、読み取りビューでレポートが開きます。 作業を進めるために、[売上およびマーケティングのサンプル ダッシュボードを開きます](../sample-datasets.md)。
+レポートはダッシュボードから開くことができます。 ほとんどのダッシュボード タイルはレポートから*ピン留め*されています。 タイルを選択すると、タイルの作成に使用されたレポートが開きます。 
 
-1. ダッシュボードを開き、タイルを選択します。
-
-   [Q&A を使用して作成](../service-dashboard-pin-tile-from-q-and-a.md)されたタイルを選択すると、Q&A 画面が開きます。 [ダッシュボードの **[タイルの追加]** ウィジェットを使用して作成](../service-dashboard-add-widget.md)されたタイルを選択すると、そのウィジェットを編集するためのウィザードが開きます。  
-
-2.  この例では、"Total Units YTD..." という縦棒グラフ タイルを選択しています。
+1. ダッシュボードからタイルを選択します。 この例では、"Total Units YTD..." という縦棒グラフ タイルを選択しています。
 
     ![タイルが選択されているダッシュボード](./media/end-user-report-open/power-bi-dashboard.png)
 
-3.  関連付けられたレポートが読み取りビューで開きます。 "YTD Category" ページが表示されていることがわかります。 これは、ダッシュボードから選択した縦棒グラフを含むレポート ページです。
+2.  関連付けられているレポートが開きます。 "YTD Category" ページが表示されていることがわかります。 これは、ダッシュボードから選択した縦棒グラフを含むレポート ページです。
 
-    ![読み取りビューで開かれたレポート](./media/end-user-report-open/power-bi-report.png)
+    ![読み取りビューで開かれたレポート](./media/end-user-report-open/power-bi-report-new.png)
 
-4. 読み取りビューに留まるか、**[レポートの編集]** を選択して、編集ビューでレポートを開きます。 編集ビューでレポートを開くことができるのは、そのレポートの編集アクセス許可を持つユーザーのみであることに注意してください。
+> [!NOTE]
+> 一部のタイルはレポートに関連付けられていません。 [Q&A を使用して作成](../service-dashboard-pin-tile-from-q-and-a.md)されたタイルを選択すると、Q&A 画面が開きます。 [ダッシュボードの **[タイルの追加]** ウィジェットで作成された](../service-dashboard-add-widget.md)タイルを選択すると、**[タイルを編集]** ウィザードが開きます。  
 
-    ![[レポートの編集] アイコンが表示されたレポート エディター](./media/end-user-report-open/power-bi-edit-report.png)
-
-## <a name="create-a-brand-new-report-from-a-dataset"></a>データセットから新しいレポートを作成する
-データセットからレポートを開くもう 1 つの方法があります。 データセットから開始すると、レポート キャンバスが空白になるため、この方法は、所有しているデータセットに基づいて新しいレポートを作成しようとしているレポートの*作成者*にお勧めします。 上記の例のように、先に進む前に、[売上およびマーケティングのサンプル アプリ](../sample-datasets.md)をダウンロードします。
-
-1. レポートの基礎として使用するデータセットを含むワークスペースから開始します。
-
-   ![アプリ ワークスペースが表示された左ナビゲーション ウィンドウ](./media/end-user-report-open/power-bi-workspace.png)
-
-2. **[データセット]** タブを選択して、そのワークスペースのすべてのデータセットのリストを表示します。 これを、**データセット** コンテンツ ビュー リストといいます。
-   
-   ![データセットのリスト](./media/end-user-report-open/power-bi-dataset.png)
-
-1. データセットを見つけて**レポートの作成**アイコンを選択し、編集ビューでデータセットを開きます。 データセットの編集アクセス許可がない場合は開くことができません。 
-   
-    ![レポートの作成アイコンが表示されたデータセット](./media/end-user-report-open/power-bi-create-report.png)
-
-3. データセットがレポート エディターで開きます。 データ フィールドが右側に表示されるのがわかります。これは、視覚エフェクトの探索と作成が開始されるのをただ待機している状態です。 
-
-   ![レポート キャンバス](./media/end-user-report-open/power-bi-blank-canvas.png)
 
 ##  <a name="still-more-ways-to-open-a-report"></a>レポートを開く他の方法
 Power BI サービスのナビゲーションに慣れてくると、最適なワークフローを見つけ出すことができます。 レポートにアクセスする他の方法をいくつか以下に示します。
-- 左側のナビゲーション ウィンドウから、**[お気に入り]**、**[最近使った項目]**、**[アプリ]**、**[自分と共有]** を使用する。 
-- [[関連の表示]](end-user-related.md) を使用する
-- メールで (他のユーザーに[共有してもらう](../service-share-reports.md)場合、または自分で[アラートを設定する](../service-set-data-alerts.md)場合)。    
-- [通知センター](end-user-notification-center.md)から    
+- 左のナビゲーション ウィンドウにある **[お気に入り]** と **[最近]** を使用する    
+- [[関連の表示]](end-user-related.md) を使用する    
+- メールで (他のユーザーに[共有してもらう](../service-share-reports.md)場合、または自分で[アラートを設定する](../service-set-data-alerts.md)場合)    
+- 自分の [通知センター] から (end-user-notification-center.md)    
 - その他
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のレポート](end-user-reports.md)で詳細を確認する
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。  
+[レポートはさまざまな方法で操作](end-user-reading-view.md)できます。  最初に、レポート キャンバスの下部にある各タブを選択してみましょう。
 

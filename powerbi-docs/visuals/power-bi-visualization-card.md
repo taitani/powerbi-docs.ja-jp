@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
+ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548329"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48874577"
 ---
 # <a name="card-visualizations"></a>カード視覚エフェクト
 Power BI のダッシュボードまたはレポートで追跡すべき最重要の項目が 1 つの数値だけという場合もあります。たとえば、総売上高、対前年比の市場シェア、営業案件の総数などがこれに該当します。 この種の視覚エフェクトは、"*カード*" と呼ばれます。 他のほとんどのネイティブな Power BI 視覚エフェクトと同様に、カードもレポート エディターまたは Q&A を使って作成できます。
 
-![カード視覚エフェクト](./media/power-bi-visualization-card/pbi_opptuntiescard.png)
+![カード視覚エフェクト](media/power-bi-visualization-card/pbi_opptuntiescard.png)
 
 ## <a name="create-a-card-using-the-report-editor"></a>レポート エディターを使ってカードを作成する
 次の手順では、「Retail Analysis Sample」を使用します。 作業を進めるために、Power BI サービス (app.powerbi.com) または Power BI Desktop の[サンプルをダウンロード](../sample-datasets.md)します。   
@@ -32,7 +32,7 @@ Power BI のダッシュボードまたはレポートで追跡すべき最重�
    ![](media/power-bi-visualization-card/pbi_rptnumbertilechart.png)
 2. [視覚化] ウィンドウで [カード] アイコンを選びます。
 
-   ![](media/power-bi-visualization-card/pbi_changechartcard.png)
+   ![](media/power-bi-visualization-card/power-bi-templates.png)
 6. カードをポイントし、ピン留めアイコン ![](media/power-bi-visualization-card/pbi_pintile.png) を選んで、ダッシュボードに視覚エフェクトを追加します。
 
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
@@ -44,20 +44,21 @@ Power BI のダッシュボードまたはレポートで追跡すべき最重�
 
    右上隅の近くに成功メッセージが表示されたら、視覚エフェクトがダッシュボードにタイルとして追加されたことがわかります。
 
-   ![](media/power-bi-visualization-card/power-bi-pin-success-message.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 9. **[ダッシュボードへ移動]** を選びます。 ピン留めされた視覚化の[編集と移動](../service-dashboard-edit-tile.md)をそこで行うことができます。
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Q&A 質問ボックスからカードを作成する
-Q&A の質問ボックスは、カードを作成する最も簡単な方法です。 Q&A 質問ボックスは、Power BI サービス (app.powerbi.com) のダッシュボードまたはレポートから利用できます。 以下の手順では、Power BI サービスのダッシュボードからカードを作成する方法について説明します。 Power BI Desktop で Q&A を使ってカードを作成したい場合は、Desktop レポートの Q&A プレビューに関する[こちらの手順に従って](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA)ください。
+Q&A の質問ボックスは、カードを作成する最も簡単な方法です。 Q&A 質問ボックスは、Power BI サービスのダッシュボードまたはレポート、および Desktop のレポート ビューで利用できます。 以下の手順では、Power BI サービスのダッシュボードからカードを作成する方法について説明します。 Power BI Desktop で Q&A を使ってカードを作成したい場合は、Desktop レポートの Q&A プレビューに関する[こちらの手順に従って](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA)ください。
 
-1. [ダッシュボード](../consumer/end-user-dashboards.md)を作成して、[データを取得](../service-get-data.md)します。 この例では、[営業案件の分析のサンプル](../sample-opportunity-analysis.md)を使います。
+1. [ダッシュボード](../service-dashboards.md)を作成して、[データを取得](../service-get-data.md)します。 この例では、[営業案件の分析のサンプル](../sample-opportunity-analysis.md)を使います。
 
 1. ダッシュボードの上部にある質問ボックスに、データに関する質問を入力します。 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**ヒント**: Power BI サービスのレポートの場合は、[編集ビュー](../consumer/end-user-reading-view.md)の上部メニュー バーから **[質問する]** を選びます。 Power BI Desktop のレポートの場合は、レポートの空いている領域をダブルクリックして質問ボックスを開きます。
+> [!TIP]
+> Power BI サービスのレポートの場合は、編集ビューの上部メニュー バーから **[質問する]** を選びます。 Power BI Desktop のレポートの場合は、レポートの空いている領域をダブルクリックして質問ボックスを開きます。
 
 3. たとえば、質問ボックスに「number of opportunities」(営業案件の数) と入力します。
 
@@ -75,7 +76,7 @@ Q&A の質問ボックスは、カードを作成する最も簡単な方法で�
 
    右上隅の近くに成功メッセージが表示されたら、視覚エフェクトがダッシュボードにタイルとして追加されたことがわかります。  
 
-   ![](media/power-bi-visualization-card/power-bi-success.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 7. **[ダッシュボードへ移動]** を選択して新しいタイルを表示します。 ここでは、ダッシュボード上のタイルに対して、[名前の変更、サイズ変更、ハイパーリンクの追加、位置変更など](../service-dashboard-edit-tile.md)を行うことができます。
 
    ![](media/power-bi-visualization-card/power-bi-pinned.png)
@@ -87,28 +88,24 @@ Q&A の質問ボックスは、カードを作成する最も簡単な方法で�
 ## <a name="format-a-card"></a>カードの書式設定
 ラベル、テキスト、色などを変更するオプションは多数あります。 最善の学習方法は、カードを作成し、[書式設定] ウィンドウを探索することです。 利用可能な書式設定オプションのほんの一部を次に示します。 
 
-1. 最初にペイントブラシのアイコンを選んで、[書式設定] ウィンドウを開きます。 
+1. 最初にペイントローラーのアイコンを選んで、[書式設定] ウィンドウを開きます。 
 
-    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+    ![ペイントローラーが強調表示されたカード](media/power-bi-visualization-card/power-bi-format-card.png)
 2. **[データ ラベル]** を展開し、色、サイズ、フォント ファミリを変更します。 数千の店舗がある場合は、**[表示単位]** を使用して、店舗の数を千単位で表示でき、小数点以下の桁数も制御できます。 たとえば、125,832.00 ではなく 125.8 K のようになります。
 
 3.  **[カテゴリ ラベル]** を展開し、色とサイズを変更します。
 
-    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+    ![濃い青色を選択](media/power-bi-visualization-card/power-bi-card-format.png)
 
 4. **[背景]** を展開し、スライダーを [オン] に移動します。  これで、背景色と透明度を変更できます。
 
-    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+    ![スライダーをオンに設定](media/power-bi-visualization-card/power-bi-format-color.png)
 
 5. カードが希望どおりになるまで書式設定オプションの探索を続けます。 
 
-    ![](media/power-bi-visualization-card/power-bi-formatted.png)
+    ![すべての書式設定が完了した後のカード](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のダッシュボードのタイル](../consumer/end-user-tiles.md)
+[Power BI の複合グラフ](power-bi-visualization-combo-chart.md)
 
-[Power BI のダッシュボード](../consumer/end-user-dashboards.md)
-
-[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+[Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
