@@ -1,21 +1,21 @@
 ---
-title: コンシューマー向けの Power BI フィルター ウィンドウの概要
-description: Power BI サービスのレポート フィルター ウィンドウの概要
+title: レポート フィルターを追加する
+description: コンシューマー向け Power BI サービス内のレポートにフィルターを追加する方法
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c49e075bd7fbe2debb0b577a1ce2771491d5fac4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908281"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473809"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>レポート フィルター ウィンドウの使用方法
 この記事では、Power BI サービスのレポート フィルター ウィンドウについて説明します。
@@ -29,7 +29,7 @@ Power BI でデータをフィルター処理するには、さまざまな方�
 
 ![ブラウザーでのレポート](media/end-user-report-filter/power-bi-expanded.png)
 
-[フィルター] ウィンドウには、レポート *デザイナー*によってレポートに追加されたフィルターが含まれています。 お客様のような*コンシューマー*は、フィルターを操作し、その変更内容を保存できますが、新しいフィルターをレポートに追加することはできません。
+[フィルター] ウィンドウには、レポート *デザイナー*によってレポートに追加されたフィルターが含まれています。 お客様のような*コンシューマー*は、フィルターを操作し、その変更内容を保存できますが、新しいフィルターをレポートに追加することはできません。 たとえば、上のスクリーンショットでは、デザイナーによって "セグメント" と "年" の 2 つのページ レベル フィルターが追加されています。 これらのフィルターを操作および変更することはできますが、3 番目のページ レベル フィルターを追加することはできません。
 
 Power BI サービスでは、フィルター ウィンドウで行う変更がすべてレポートで保持され、その変更はモバイル バージョンのレポートに反映されます。 フィルター ウィンドウを設計者の既定値にリセットするには、上部のメニューバーから **[既定値にリセット]** を選択します。     
 
@@ -40,11 +40,15 @@ Power BI サービスでは、フィルター ウィンドウで行う変更が�
 
 ![フィルターの一覧](media/end-user-report-filter/power-bi-filter-list.png)
 
-いくつかのフィルターの横に **[All]** と表示されているのは、すべての値がフィルターに含まれることを意味します。  たとえば、次のスクリーンショットの **[Chain(All)]** は、このレポート ページにすべてのストア チェーンに関するデータが含まれることを示します。  一方、レポート レベル フィルターの **[FiscalYear is 2013 or 2014]** は、レポートに 2013 年および 2014 年の会計年度のデータのみが含まれることを示します。
+いくつかのフィルターの横に **[All]** と表示されているのは、すべての値がフィルターに含まれることを意味します。  たとえば、上のスクリーンショットの **[Chain(All)]** は、このレポート ページにすべてのストア チェーンに関するデータが含まれることを示します。  一方、レポート レベル フィルターの **[FiscalYear is 2013 or 2014]** は、レポートに 2013 年および 2014 年の会計年度のデータのみが含まれることを示します。
 
 このレポートを表示するユーザーは、だれでもこれらのフィルターを操作できます。
 
-* フィルターの詳細を表示するには、フィルターの横にある矢印の上にカーソルを置いて選択します。
+- ページ、ビジュアル、レポート、ドリルスルー フィルターの各フィルターで検索することで、必要な値を見つけて選択します。 
+
+    ![フィルターで検索する](media/end-user-report-filter/power-bi-filter-search.png)
+
+- フィルターの詳細を表示するには、フィルターの横にある矢印の上にカーソルを置いて選択します。
   
    ![Lindseys が選択されている画面](media/end-user-report-filter/power-bi-expan-filter.png)
 * フィルターを変更します。たとえば、**[Lindseys]** を **[Fashions Direct]** に変更します。
@@ -56,9 +60,11 @@ Power BI サービスでは、フィルター ウィンドウで行う変更が�
     
 * フィルター名の横の **[x]** を選択してフィルターを削除します。
   
+    ![x を強調表示](media/end-user-report-filter/power-bi-delete-filter.png)
+
   フィルターを削除すると一覧に表示されなくなりますが、レポートからデータが削除されることはありません。  たとえば、**FiscalYear is 2013 or 2014** フィルターを削除すると、会計年度のデータはレポートにまだ残っていますが、2013 年と 2014 年だけ表示されるようにフィルター処理されることはなくなります。データに含まれるすべての会計年度が表示されます。  ただし、フィルターを削除すると、一覧から削除されるので再び変更することはできません。 もっとよい方法は、消しゴム アイコン ![消しゴム アイコン](media/end-user-report-filter/power-bi-eraser-icon.png) を選択してフィルターをクリアすることです。
   
-  ![x を強調表示](media/end-user-report-filter/power-bi-delete-filter.png)
+  
 
 
 
@@ -70,14 +76,14 @@ Power BI サービスでは、フィルター ウィンドウで行う変更が�
 ### <a name="list-mode"></a>一覧モード
 チェックボックスをクリックすると、値の選択と選択解除を切り替えられます。 **[すべて]** チェックボックスを使用すると、すべてのチェックボックスの状態をオンまたはオフに切り替えられます。 チェックボックスは、そのフィールドの使用可能なすべての値を表します。  フィルターを調整すると、選択内容を反映して説明文が更新されます。 
 
-![一覧モード フィルター](media/end-user-report-filter/pbi_restatement.png)
+![一覧モード フィルター](media/end-user-report-filter/power-bi-restatement-new.png)
 
-説明文が 「is Amarilla or Carretera」(Amarilla または Carretera です) に変わっています。
+説明文が "Mar、Apr、または May です。" に変わっています。
 
 ### <a name="advanced-mode"></a>詳細モード
 **[詳細なフィルタリング]** を選択して、詳細モードに切り替えます。 ドロップダウン コントロールとテキスト ボックスを使用して、含めるフィールドを識別します。 **[AND]** および **[OR]** を選択すると、複雑なフィルター式を作成できます。 必要な値を設定したら、 **[フィルターの適用]** ボタンを選択します。  
 
-![詳細モード](media/end-user-report-filter/aboutfilters.png)
+![詳細モード](media/end-user-report-filter/power-bi-advanced.png)
 
 ## <a name="types-of-filters-numeric-field-filters"></a>フィルターの種類: 数値フィールド フィルター
 ### <a name="list-mode"></a>一覧モード
@@ -86,7 +92,7 @@ Power BI サービスでは、フィルター ウィンドウで行う変更が�
 ### <a name="advanced-mode"></a>詳細モード
 値が無限である場合、または範囲を表している場合は、フィールド名を選択すると、詳細フィルター モードが開きます。 ドロップダウンおよびテキスト ボックスを使用して、表示する値の範囲を指定します。 
 
-![高度なフィルター](media/end-user-report-filter/pbi_dropdown-and-text.png)
+![高度なフィルター](media/end-user-report-filter/power-bi-dropdown-and-text.png)
 
 **[AND]** および **[OR]** を選択すると、複雑なフィルター式を作成できます。 必要な値を設定したら、 **[フィルターの適用]** ボタンを選択します。
 

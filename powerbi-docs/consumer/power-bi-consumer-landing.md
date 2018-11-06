@@ -1,25 +1,24 @@
 ---
 title: レポート利用者向けの Power BI
 description: Power BI を初めて使いますか? Power BI を構成するさまざまな製品やサービスと、それらを使って何ができるかを説明します。
-author: maggiesMSFT
-manager: kfile
+author: mihart
+manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: landing-page
-ms.date: 10/01/2018
-ms.author: maggies
+ms.date: 10/11/2018
+ms.author: mihart
 layout: landingpage
 LocalizationGroup: Get started
-ms.openlocfilehash: 0e6b68a073dc8ad2a7827da55ce61821d4b93b40
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: 566511622ffd167d3389ab0ba290671f577a759f
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232905"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396580"
 ---
-# <a name="power-bi-for-report-consumers"></a>レポート利用者向けの Power BI
-
-Power BI を初めて使いますか? Power BI を構成するさまざまな製品やサービスと、それらを使って何ができるかを説明します。 ようこそ!
+# <a name="power-bi-for-consumers"></a>利用者向けの Power BI
+"*エンドユーザー*" または "*コンシューマー*" は、同僚からダッシュボード、レポート、アプリを受け取ります。 ***Power BI サービス***を使用して、このコンテンツの確認や操作を行い、ビジネス上の意思決定をします。
 
 上級の Power BI デザイナー、開発者、または管理者ですか。 もちろん、大歓迎です。 まずは、[レポート デザイナー向けの Power BI](../power-bi-creator-landing.md) をご覧になることをお勧めします。
 
@@ -29,12 +28,13 @@ Power BI を初めて使いますか? Power BI を構成するさまざまな製
                                            <div class="cardPadding"> 
                                                           <div class="card"> 
                                                                         <div class="cardText"> 
-                                                                                      <h3>Power BI の概要</h3> 
+                                                                                      <h3>Power BI の使用を開始する</h3> 
                                                                                       <p></p>
                                                                                             <a href="end-user-consumer.md">Power BI コンシューマーとは</a><br/> 
-                                                                                            <a href="end-user-experience.md">Power BI サービスを回避する</a><br/> 
-                                                                                            <a href="end-user-basic-concepts.md">基本的な概念</a><br/>
                                                                                             <a href="../service-get-started.md">入門チュートリアル</a><br/>
+<a href="end-user-report-open.md">レポート</a> | <a href="end-user-dashboard-open.md">ダッシュボード</a> | <a href="end-user-apps.md">アプリ</a>を表示する<br/> 
+                                                                                            <!--<a href="end-user-collaborate.md">Collaborate</a><br/> -->
+                                                                                            <a href="end-user-subscribe.md">レポートまたはダッシュボードにサブスクライブ</a><br/> 
                                                                         </div> 
                                                           </div> 
                                            </div> 
@@ -45,11 +45,12 @@ Power BI を初めて使いますか? Power BI を構成するさまざまな製
                                            <div class="cardPadding"> 
                                                           <div class="card"> 
                                                                         <div class="cardText"> 
-                                                                                      <h3>コンテンツを調べる</h3> 
+                                                                                      <h3>Power BI を理解する</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-related.md">さまざまな種類のコンテンツについて</a><br/> 
-                                                                                            <a href="end-user-q-and-a.md">Q&A を使用してデータに関する質問をする</a><br/> 
-                                                                                            <a href="end-user-report-filter.md">コンテンツをフィルター処理する</a> 
+                                                                                            <a href="end-user-basic-concepts.md">基本的な概念</a><br/>
+                                                                                            <a href="end-user-experience.md">Power BI サービスを回避する</a><br/> 
+                                                                                            <a href="../power-bi-overview.md">Power BI の多様なツールすべてについて学習する</a><br/> 
+                                                                                            <!--<a href="end-user-faq.md">FAQ: Frequently Asked Questions</a> -->
                                                                         </div> 
                                                           </div> 
                                            </div> 
@@ -60,11 +61,12 @@ Power BI を初めて使いますか? Power BI を構成するさまざまな製
                                            <div class="cardPadding"> 
                                                           <div class="card"> 
                                                                         <div class="cardText"> 
-                                                                                      <h3>コンテンツをカスタマイズする</h3> 
+                                                                                      <h3>高度なタスク</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-shared-with-me.md">ダッシュボードとレポートを共有する</a><br/> 
-                                                                                            <a href="end-user-focus.md">フォーカス モードでタイルまたはビジュアルを表示する</a><br/> 
-                                                                                            <a href="end-user-subscribe.md">コンテンツをサブスクライブする</a>
+                                                                                            <a href="end-user-q-and-a.md">Q&A 自然言語検索ボックス</a><br/> 
+                                                                                            <a href="end-user-focus.md">表示設定を変更する</a><br/> 
+                                                                                            <a href="end-user-report-filter.md">レポート フィルターの使用を学習する</a><br> 
+                                                                                            <a href="end-user-insights.md">自動分析情報を生成する</a><br/> 
                                                                         </div> 
                                                           </div> 
                                            </div> 

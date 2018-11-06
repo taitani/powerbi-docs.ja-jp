@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d2aae3abeca51cdcc142660190332f84adcfddfb
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448824"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101464"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードのテーブル
 テーブルは、関連性のあるデータが論理的な一連の行と列に格納されたグリッドです。 ヘッダーと合計行が含まれる場合もあります。 テーブルは、1 つのカテゴリの多くの値を調べるときの定量的な比較で役に立ちます。 たとえば、次の表には**カテゴリ**に対する 5 つの異なるメジャーが表示されています。
 
 ![](media/power-bi-visualization-tables/table.png)
+
+レポート内でテーブルを作成し、そのテーブル内の要素を、同じレポート ページ上の他のビジュアルを使用してクロス強調表示します。  また、行、列、さらには個々のセルを選択して、クロス強調表示することができます。 個々のセルおよび複数のセルの選択範囲をコピーして他のアプリケーションに貼り付けることができます。
 
 ## <a name="when-to-use-a-table"></a>テーブルを使う場合
 テーブルは、次のような場合に最適です。
@@ -108,9 +110,24 @@ ms.locfileid: "47448824"
 6. 視覚化から条件付き書式を削除するには、再度フィールドを右クリックし、**[条件付き書式の削除]** を選択します。
 
 > [!TIP]
-> 条件付き書式は、[書式設定] ウィンドウ (ペイントローラー アイコン) からも使用できます。 値を選択して書式を設定し、**[カラー スケール]** または **[データ バー]** をオンに設定して既定の設定を適用するか、設定をカスタマイズして **[詳細コントロール]** を選択します。
+> 条件付き書式は、[書式設定] ウィンドウ (ペイントローラー アイコン) からも使用できます。 値を選択して書式を設定し、**[カラー スケール]** または **[データ バー]** を **[オン]** に設定して既定の設定を適用するか、設定をカスタマイズして **[詳細コントロール]** を選択します。
 > 
-> 
+## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Power BI のテーブルから値をコピーして他のアプリケーションで使用する
+
+ご利用のテーブルまたはマトリックスには、Dynamics CRM レポート、Excel レポート、さらにはその他の Power BI レポートなど、他のアプリケーションで使用したいコンテンツが含まれている場合があります。 Power BI で右クリックすると、単一のセルまたはセルの選択範囲をクリップボードにコピーして、他のアプリケーションに貼り付けることができます。
+
+
+* 単一のセルの値をコピーするには、セルを選択し、右クリックしてから、**[値のコピー]** を選択します。 書式設定されていセル値がクリップボード上にある場合でも、その値を別のアプリケーションに貼り付けることができるようになりました。
+
+    ![コピー オプション](media/power-bi-visualization-tables/power-bi-copy-value.png)
+
+* 複数のセルをコピーするには、セルの範囲を選択するか、または Ctrl キーを使用して 1 つまたは複数のセルを選択します。 コピーには、列および行のヘッダーが取り込まれます。
+
+    ![コピー オプション](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+
+    コピーには列および行のヘッダーが含まれています。
+
+    ![Excel に貼り付ける](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>テーブルの列の幅を調整する
 Power BI では、レポートまたはダッシュボードの列見出しが切り捨てられることがあります。 列名全体を表示するには、見出しの右側の空白部分をポイントして二重矢印を表示し、選んでドラッグします。

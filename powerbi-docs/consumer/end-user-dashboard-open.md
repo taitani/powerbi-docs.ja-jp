@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 55256d8f8eb47c9a5ec604674041456d2b1d42a1
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 53575f657c2d58f9d6b1908fb42bbb9267c3a3b8
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49113003"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396683"
 ---
 # <a name="view-a-dashboard"></a>ダッシュボードの表示
 Power BI コンシューマーは、ダッシュボードの表示に多くの時間を使います。 ダッシュボードは、基になるレポートとデータセットから特定の情報を強調表示するために設計されています。 Power BI コンシューマーは、その情報を追跡、監視、質問への回答、テストなどに使用して、データ駆動型のビジネス上の意思決定を行います。
@@ -26,18 +26,16 @@ Power BI コンシューマーは、ダッシュボードの表示に多くの�
 Power BI Pro は、ダッシュボードの共有、および共有ダッシュボードの表示の両方に必要です。
 
 ## <a name="open-a-dashboard"></a>ダッシュボードを開く
-ダッシュボードは、Power BI サービスのさまざまな場所から開くことができます。  重要な点は、(たとえばレポートと比較して) どのコンテンツがダッシュボードかを把握することです。 ダッシュボードを特定したら、簡単に開くことができます。クリックするだけで、ダッシュボードが Power BI のキャンバスに表示されます。
+
 
 
 |              |         |
 |------------|--------------------------------|
-|![ダッシュボード アイコン](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |ダッシュボードを特定する最も簡単な方法は、この <br>ダッシュボード アイコンを探すことです。 このアイコンが表示されたコンテンツを見つけて選択すると、ダッシュボードが開きます。 |
+|![ダッシュボード アイコン](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |ダッシュボードは、Power BI サービスのさまざまな場所から開くことができます。 <br> このダッシュボード アイコンを探してください。 ダッシュボードを特定したら、 <br>簡単に開くことができます。それを選択するだけで、 <br>ダッシュボードが Power BI のキャンバスに表示されます。 |
 |                    |          |
 
 ![ダッシュボード アイコン](media/end-user-dashboard-open/opendash.gif)
- 
 
-<!--insert aGIF-->
 
 ダッシュボードは左側のナビゲーション バーにあるすべてのコンテナーで見つけることができます。 
 - **[ホーム]** (プレビュー)
@@ -51,5 +49,3 @@ Power BI Pro は、ダッシュボードの共有、および共有ダッシュ�
 ## <a name="next-steps"></a>次の手順
 * [サンプル ダッシュボード](../sample-tutorial-connect-to-the-samples.md)のツアーを利用してダッシュボードに慣れます。
 * [ダッシュボードのタイル](end-user-tiles.md)およびタイルを選んだときの結果について学習します。
-* ダッシュボードの個々のタイルを追跡し、特定のしきい値に達したときにメールを受け取りたい場合は、 [タイルに通知を作成](end-user-alerts.md)します。
-* ダッシュボードに質問したい場合は、 [Power BI Q&A](end-user-q-and-a.md) を使ってデータについて質問し、視覚化の形式で回答を受け取る方法を学習します。 

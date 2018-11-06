@@ -1,6 +1,6 @@
 ---
-title: Power BI の散布図
-description: Power BI の散布図
+title: Power BI での散布図、バブル チャート、およびドット プロット グラフ
+description: Power BI での散布図、ドット プロット グラフ、およびバブル チャート
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,22 +8,26 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448847"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003181"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI の散布図とバブル チャート
+# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI での散布図、バブル チャート、およびドット プロット グラフ
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
 
-バブル チャートは、データ ポイントをバブルに置き換えます。バブルの*サイズ*は、データの追加のディメンションを表します。
+バブル チャートでは、データ ポイントがバブルに置き換えられます。バブルの "*サイズ*" は、データの追加のディメンションを表します。
 
 ![バブル チャートのサンプル](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+ドット プロット グラフは、数値またはカテゴリ データを X 軸にプロットできることを除き、バブル チャートおよび散布図に似ています。 
+
+![バブル チャートのサンプル](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
 データ ポイント数を最大 10,000 まで設定することができます。  
 
@@ -41,6 +45,9 @@ ms.locfileid: "47448847"
 * それぞれ値のセットを含む 3 つのデータ系列で構成されたデータがある。
 * 財務データを表示する。  バブル サイズを変更すると、特定の値を視覚的に強調できます。
 * 象限 (四分円) を使用する。
+
+### <a name="dot-plot-charts-are-a-great-choice-in-place-of-a-scatter-or-bubble"></a>ドット プロット グラフは、次の場合に散布図またはバブル チャートに代わる最適な選択となる
+* X 軸にカテゴリ データを含める場合
 
 ## <a name="create-a-scatter-chart"></a>散布図を作成する
 このビデオで散布図の作成方法を確認した後、以下の手順に従って自分で作成してみてください。
@@ -63,11 +70,11 @@ ms.locfileid: "47448847"
 
 3. 散布図に変換します。 [視覚化] ウィンドウで、散布図アイコンを選びます。
 
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png)
+   ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png)
 
 4. **[District] \(地域)** を **[詳細]** から **[凡例]** にドラッグします。 これで、**Total Sales Variance %** を Y 軸に、**Sales Per Square Feet** を X 軸にプロットした散布図が作成されます。 データ ポイントの色は地区を表しています。
 
-    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
 次に、3 番目のディメンションを追加してみましょう。
 
@@ -75,18 +82,17 @@ ms.locfileid: "47448847"
 
 1. **[フィールド]** ウィンドウから、**[Sales]** > **[This Year Sales]** > **[値]** を **[サイズ]** 領域にドラッグします。 データ ポイントは、売り上げ高の値に比例してボリュームに展開します。
    
-   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
+   ![ポイントがバブルになる](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
 2. バブルの上にマウスを置きます。 バブルのサイズは、 **[This Year Sales]** の値を反映しています。
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![ツールヒントが表示される](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
 3. バブル チャートに表示するデータ ポイントの数を設定するには、**[視覚エフェクト]** ウィンドウの **[書式設定]** セクションで、**[全般]** カードを展開し、**[データ ボリューム]** を調整します。 10,000 までの任意の値に最大データ量を設定できます。 数字が大きくなったら、最初にテストをして、良いパフォーマンスが得られることを確認することをお勧めします。 
 
     ![データ ボリューム](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-   > [!NOTE]
-   > データ ポイントが多いほど読み込み時間が長くなるので、スケールの上限に制限のあるレポートを発行する場合は、Web とモバイルでレポートをテストし、ユーザーが望むパフォーマンスが得られることを確認する必要があります。 データ ポイントの数が多いときは、異なるフォーム ファクターで結果をテストしてパフォーマンスを確認する必要があります。
+   データ ポイントが多いほど読み込み時間が長くなるので、スケールの上限に制限のあるレポートを発行する場合は、Web とモバイルでレポートをテストし、ユーザーが望むパフォーマンスが得られることを確認する必要があります。 
 
 4. [視覚化の色、ラベル、タイトル、背景などの書式を設定する](service-getting-started-with-color-formatting-and-axis-properties.md)ことができます。 [アクセシビリティを向上させる](../desktop-accessibility.md)には、行ごとにマーカー図形を追加することを検討します。 各線に別のマーカーの図形を使用すると、レポートの使用者は個々の線 (または領域) を区別するのが容易になります。 マーカーの形状を選ぶには、**[図形]** カードを展開し、マーカーの形状を選びます。
 
@@ -95,6 +101,13 @@ ms.locfileid: "47448847"
    マーカーの形をひし形、三角形、または正方形に変更することもできます。
 
    ![正方形のマーカー](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+
+## <a name="create-a-dot-plot"></a>ドット プロットを作成する
+ドット プロットを作成するには、X 軸の数値フィールドをカテゴリ フィールドに置き換えます。
+
+**[X 軸]** ウィンドウで、**[平方フィート単位の売上]** を削除し、**[地区]、[DM]** の順に選択して置き換えます。
+   
+![新しいドット プロット](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング

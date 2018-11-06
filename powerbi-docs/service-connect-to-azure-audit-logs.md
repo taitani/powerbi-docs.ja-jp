@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 903f2a345ba4d87cb217ececa459a3cca14d72fa
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 4faaa63a3845125b4df1ec634d22b084b5ae25f2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134641"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101211"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI で Azure 監査ログに接続する
 Azure 監査ログのコンテンツ パックを利用して、監査ログに格納されている情報を分析したり、視覚化したりすることができます。 Power BI は、データを取得し、そのまま使えるダッシュボードをビルドし、取得したデータに基づくレポートを作成します。
@@ -32,10 +32,10 @@ Azure 監査ログのコンテンツ パックを利用して、監査ログに�
 3. **[Azure 監査ログ]** > **[取得]** の順に選択します。  
    
    ![](media/service-connect-to-azure-audit-logs/azureauditlogs.png)
-4. プロンプトが表示されたら、 **Azure サブスクリプション ID**を入力します。 [サブスクリプション ID](#FindingParams) を確認する方法について詳しくは、以下をご覧ください。   
+4. プロンプトが表示されたら、**Azure サブスクリプション Id** を入力します。[サブスクリプション ID](#FindingParams) を確認する方法について詳しくは、以下をご覧ください。   
    
     ![](media/service-connect-to-azure-audit-logs/parameters.png)
-5. **[認証方法]** として **[oAuth2]** を選択し、**[サイン イン]** をクリックします。
+5. **[認証方法]** として **[oAuth2]** を選択し、\>**[サイン イン]** をクリックします。
    
     ![](media/service-connect-to-azure-audit-logs/creds.png)
 6. アカウントの資格情報を入力して、サインイン プロセスを終了します。
@@ -47,13 +47,13 @@ Azure 監査ログのコンテンツ パックを利用して、監査ログに�
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](power-bi-q-and-a.md)してみてください。
+* ダッシュボード上部にある [Q&A ボックスで質問](consumer/end-user-q-and-a.md)してみてください。
 * ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
-* [タイルを選択](service-dashboard-tiles.md)して基になるレポートを開くことができます。
-* データセットは毎日更新されるようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
+* [タイルを選択](consumer/end-user-tiles.md)して基になるレポートを開くことができます。
+* データセットは毎日更新するようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
 ## <a name="system-requirements"></a>システム要件
-Azure 監査ログのコンテンツ パックには、Azure Portal の監査ログへのアクセスが必要です。 詳しくは、[ここ](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/)をご覧ください。
+Azure 監査ログのコンテンツ パックには、Azure portal の監査ログへのアクセスが必要です。 詳しくは、[ここ](/azure/azure-resource-manager/resource-group-audit/)をご覧ください。
 
 <a name="FindingParams"></a>
 
@@ -63,12 +63,12 @@ Azure 監査ログのコンテンツ パックには、Azure Portal の監査ロ
 1. https://portal.azure.com  -&gt; [参照] -&gt; [サブスクリプション] -&gt; [サブスクリプション ID]
 2. https://manage.windowsazure.com  - &gt; [設定] -&gt; [サブスクリプション ID]
 
-サブスクリプション ID は数字や文字の長いセットで、上記の手順 \#4 の例のようになります。 
+サブスクリプション Id は数字や文字の長いセットで、上記の手順 \#4 の例のようになります。 
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 資格情報エラーまたは、更新しようとして資格情報が正しくないためにエラーが表示される場合は、Azure 監査ログのコンテンツ パックのすべてのインスタンスを削除し、再接続してみてください。
 
 ## <a name="next-steps"></a>次の手順
 [Power BI とは?](power-bi-overview.md)  
-[Power BI - 基本的な概念](service-basic-concepts.md)  
+[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)  
 

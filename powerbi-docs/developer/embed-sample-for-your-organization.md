@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827458"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396867"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>チュートリアル: 組織向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
 
@@ -158,13 +158,13 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
 
     ![User Owns Data アプリケーションのサンプル](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. サンプル アプリケーションで **Cloud.config** ファイルを開きます。 アプリケーションを正常に実行するために設定する必要があるいくつかのフィールド (**ClientID** および **ClientSecret**) があります。
+2. サンプル アプリケーションで **Cloud.config** ファイルを開きます。 アプリケーションを正常に実行するために設定する必要があるいくつかのフィールド (**ApplicationID** および **ApplicationSecret**) があります。
 
     ![Cloud.config ファイル](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    **ClientID** には、Azure から**アプリケーション ID** を設定します。 **ClientID** は、アクセス許可を要求しているユーザーに対して、アプリケーションで自身を識別するために使用されます。
+    **[Application ID]** には、Azure から**アプリケーション ID** を設定します。 **ApplicationID** は、アクセス許可を要求しているユーザーに対して、アプリケーションで自身を識別するために使用されます。
 
-    **ClientID** を取得するには、次の手順に従います。
+    **ApplicationID** を取得するには、次の手順に従います。
 
     1. [Azure portal](https://portal.azure.com) にサインインします。
 
@@ -174,17 +174,17 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
 
         ![アプリの登録の検索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. **ClientID** を使用する必要があるアプリケーションを選択します。
+    1. **ApplicationID** を使用する必要があるアプリケーションを選択します。
 
         ![アプリを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **ClientID** として使います。
+    1. **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **ApplicationID** として使用します。
 
-        ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. **ClientSecret** は、**Azure** の **[アプリの登録]** セクションの **[キー]** セクションから設定します。
+    1. **ApplicationSecret** は、**Azure** の **[アプリの登録]** セクションの **[キー]** セクションから設定します。
 
-    1. **ClientSecret** を取得するには、次の手順に従います。
+    1. **ApplicationSecret** を取得するには、次の手順に従います。
 
         1. [Azure portal](https://portal.azure.com) にサインインします。
 
@@ -194,7 +194,7 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
 
             ![アプリの登録の検索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. **ClientSecret** を使用する必要があるアプリケーションを選択します。
+        1. **ApplicationSecret** を使用する必要があるアプリケーションを選択します。
 
             ![アプリを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 

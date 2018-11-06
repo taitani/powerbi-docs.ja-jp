@@ -7,27 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 10/25/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416822"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101372"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Power BI Desktop でのマトリックス ビジュアルの使用
-**マトリックス** ビジュアル機能を使って、**Power BI Desktop** レポートでマトリックス ビジュアル ("*テーブル*" ともいう) を作成し、他のビジュアルでマトリックス内の要素をクロス強調表示することができます。 また、行、列、さらには個々のセルを選択して、クロス強調表示することができます。 最終的に、レイアウト スペースをより有効に利用するために、マトリックス ビジュアルでは階段状レイアウトがサポートされます。
+**マトリックス** ビジュアル機能を使って、**Power BI Desktop** レポートおよび **Power BI サービス** レポートでマトリックス ビジュアル ("*テーブル*" という場合もある) を作成し、他のビジュアルを使用してマトリックス内の要素をクロス強調表示することができます。 また、行、列、さらには個々のセルを選択して、クロス強調表示することができます。 個々のセルおよび複数のセルの選択範囲をコピーして他のアプリケーションに貼り付けることができます。 最終的に、レイアウト スペースをより有効に利用するために、マトリックス ビジュアルでは階段状レイアウトがサポートされます。
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
 マトリックスに関連付けられている機能は多数あります。この記事の以下のセクションでそれらの機能について説明します。
 
-> [!NOTE]
-> **Power BI Desktop** の 2017 年 7 月のリリース以降、新しいマトリックス ビジュアルおよびテーブル ビジュアルには、適用された**レポートのテーマ**からのスタイル設定 (色を含む) が反映されます。 マトリックス ビジュアルについては目的の色にならない可能性がありますが、**[レポートのテーマ]** 構成で変更することができます。 テーマの詳細については、「[**Power BI Desktop でレポートのテーマを使用する**](../desktop-report-themes.md)」を参照してください。
-> 
-> 
+## <a name="report-themes"></a>レポートのテーマ
+マトリックス ビジュアルおよびテーブル ビジュアルには、適用された**レポートのテーマ**からのスタイル設定 (色を含む) が反映されます。 マトリックス ビジュアルについては目的の色にならない可能性がありますが、**[レポートのテーマ]** 構成で変更することができます。 テーマの詳細については、「[**Power BI Desktop でレポートのテーマを使用する**](../desktop-report-themes.md)」を参照してください。
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Power BI の合計計算方法を理解する
 
@@ -134,6 +132,20 @@ ms.locfileid: "47416822"
 さらに、Ctrl キーを押しながらクリックすることで、クロス強調表示機能を使用することもできます。 たとえば、次の図では、一連のサブカテゴリが**マトリックス** ビジュアルから選ばれています。 ビジュアルから選ばれなかった項目は灰色表示されており、ページの他のビジュアルに、**マトリックス** ビジュアルでの選択内容がどのように反映されるかがわかります。
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
+
+## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>Power BI から値をコピーして他のアプリケーションで使用する
+
+ご利用のマトリックスまたはテーブルには、Dynamics CRM レポート、Excel レポート、さらにはその他の Power BI レポートなど、他のアプリケーションで使用したいコンテンツが含まれている場合があります。 Power BI で右クリックすると、単一のセルまたはセルの選択範囲をクリップボードにコピーして、他のアプリケーションに貼り付けることができます。
+
+![コピー オプション](media/desktop-matrix-visual/power-bi-cell-copy.png)
+
+* 単一のセルの値をコピーするには、セルを選択し、右クリックしてから、**[値のコピー]** を選択します。 書式設定されていセル値がクリップボード上にある場合でも、その値を別のアプリケーションに貼り付けることができるようになりました。
+
+    ![コピー オプション](media/desktop-matrix-visual/power-bi-copy.png)
+
+* 複数のセルをコピーするには、セルの範囲を選択するか、または Ctrl キーを使用して 1 つまたは複数のセルを選択します。 コピーには、列および行のヘッダーが取り込まれます。
+
+    ![Excel に貼り付ける](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>マトリックス ビジュアルでの網掛けとフォントの色
 **マトリックス** ビジュアルでは、**条件付き書式** (色、網掛け) をマトリックス内のセルの背景に適用したり、テキストや値自体に条件付き書式を適用したりできます。

@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112269"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396812"
 ---
 # <a name="export-data-from-visualizations"></a>ビジュアルからデータをエクスポートする
-視覚化を作成するのに使うデータを確認したい場合は、Power BI でデータを表示するか、またはデータを Excel に .xlsx または .csv ファイルとしてエクスポートします。   
+視覚化を作成するのに使うデータを確認したい場合は、Power BI でデータを表示するか、またはデータを Excel に .xlsx または .csv ファイルとしてエクスポートします。 データをエクスポートするオプションを使用するには、Pro ライセンスまたは Premium ライセンスに加えて、データセットとレポートへの編集アクセス許可が必要です。 
 
 Watch では、レポート内のビジュアルの 1 つからデータをエクスポートし、それを .xlsx ファイルとして保存し、Excel で開くことができます。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
 
@@ -92,9 +92,12 @@ Watch では、レポート内のビジュアルの 1 つからデータをエ�
 
 ### <a name="set-the-export-options"></a>エクスポートのオプションを設定する
 Power BI レポート デザイナーは、コンシューマーが使用できるデータ エクスポート オプションの種類を制御します。 次の選択肢があります。
-- 概要のみのエクスポートを許可する (これはレポートの既定です) 
-- 概要データと基になるデータのエクスポートを許可する  
+- 概要データのみのエクスポートを許可する (これは新しいレポートの既定値です) 
+- 概要データと基になるデータのエクスポートを許可する (これは 2018 年 10 月より前の既定値でした) 
 - すべてのデータのエクスポートを許可しない  
+
+    > [!IMPORTANT]
+    > レポート デザイナーには古いレポートに再度アクセスし、必要に応じてエクスポート オプションを手動でリセットすることをお勧めします。
 
 1. これらのオプションを設定するには、Power BI Desktop で開始します。
 

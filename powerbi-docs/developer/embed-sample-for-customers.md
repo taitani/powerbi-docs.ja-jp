@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 06/20/2018
-ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827435"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435490"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>チュートリアル: 顧客向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
 
@@ -36,7 +36,7 @@ ms.locfileid: "48827435"
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>埋め込み分析開発環境を設定する
 
-アプリケーションへのレポート、ダッシュボード、タイルの埋め込みを開始する前に、埋め込めるように環境がセットアップされていることを確認する必要があります。 セットアップの一環として、以下を行う必要があります。
+アプリケーションへのレポート、ダッシュボード、タイルの埋め込みを開始する前に、使用している環境で Power BI での埋め込みが許可されていることを確認する必要があります。
 
 [埋め込みセットアップ ツール](https://aka.ms/embedsetup/AppOwnsData)を使うと、環境の作成とレポートの埋め込みを段階的に行うのに役立つサンプル アプリケーションをすぐに使い始め、ダウンロードすることができます。
 
@@ -44,13 +44,13 @@ ms.locfileid: "48827435"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure Active Directory (Azure AD) にアプリケーションを登録する
 
-アプリケーションを Azure Active Directory に登録すると、アプリケーションは Power BI REST API にアクセスできるようになります。 これにより、アプリケーションの ID を設定し、Power BI REST リソースへのアクセス許可を指定することができます。
+アプリケーションを Azure Active Directory に登録すると、アプリケーションは Power BI REST API にアクセスできるようになります。 アプリケーションを登録すると、アプリケーションの ID を設定し、Power BI REST リソースへのアクセス許可を指定することができます。
 
 1. [Microsoft Power BI API 条項](https://powerbi.microsoft.com/api-terms)に同意します。
 
 2. [Azure Portal ](https://portal.azure.com)にサインインします。
 
-    ![Azure Portal メイン](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+    ![Azure portal メイン](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]**、**[新しいアプリケーションの登録]** の順に選択します。
 
@@ -63,7 +63,7 @@ ms.locfileid: "48827435"
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Azure Active Directory でアプリケーションにアクセス許可を適用する
 
-アプリ登録ページで指定されたものに加え、アプリケーションに対する追加のアクセス許可を有効にする必要があります。 埋め込みに使った "*マスター*" アカウントでログインする必要があります。これは、グローバル管理者アカウントである必要があります。
+アプリ登録ページで指定したものに加え、アプリケーションに対する追加のアクセス許可を有効にします。 埋め込みのために使用する "*マスター*" アカウントでサインインします。 マスター アカウントは、グローバル管理者アカウントである必要があります。
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory ポータルを使用する
 
@@ -91,7 +91,7 @@ ms.locfileid: "48827435"
 
     ![PBI サービスの選択](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. **[デリゲートされたアクセス許可]** のすべてのアクセス許可を選択します。 選択内容を保存するには 1 つずつ選択する必要があります。 完了したら、**[保存]** を選択します。
+7. **[デリゲートされたアクセス許可]** のすべてのアクセス許可を選択します。 完了したら、**[保存]** を選択します。
 
     ![デリゲートされたアクセス許可の選択](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
@@ -107,11 +107,11 @@ ms.locfileid: "48827435"
 
 顧客向けのレポート、ダッシュボード、またはタイルを埋め込む場合は、コンテンツをアプリ ワークスペース内に配置する必要があります。 "*マスター*" アカウントは、アプリ ワークスペースの管理者である必要があります。
 
-1. 最初に、ワークスペースを作成します。 **[ワークスペース]**  > **[アプリのワークスペースの作成]** の順に選びます。 これは、アプリケーションでアクセスする必要のあるコンテンツを配置する場所です。
+1. 最初に、ワークスペースを作成します。 **[ワークスペース]**  > **[アプリのワークスペースの作成]** の順に選びます。 [アプリのワークスペースの作成] では、アプリケーションでアクセスする必要があるコンテンツを配置します。
 
     ![ワークスペースの作成](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. ワークスペースの名前を付けます。 対応する**ワークスペース ID** が使用できない場合は、一意の ID になるように編集します。 これはアプリの名前にもなる必要があります。
+2. ワークスペースの名前を付けます。 対応する**ワークスペース ID** が使用できない場合は、一意の ID になるように編集します。
 
     ![ワークスペース名の指定](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,31 +161,31 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
     ![App Owns Data アプリケーションのサンプル](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. サンプル アプリケーションで Web.config ファイルを開きます。 アプリケーションを正常に実行するには、5 つのフィールドに入力する必要があります。 **clientId**、**groupId**、**reportId**、**pbiUsername**、および **pbiPassword**。
+2. サンプル アプリケーションで Web.config ファイルを開きます。 アプリケーションを正常に実行するには、5 つのフィールドに入力する必要があります。 **applicationId**、**workspaceId**、**reportId**、**pbiUsername**、および **pbiPassword** です。
 
     ![Web Config ファイル](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    **clientId** には、**Azure** から**アプリケーション ID** を設定します。 **clientId** は、アクセス許可を要求しているアプリケーションをユーザーが一意に識別するために使われます。 **clientId** を取得するには、次の手順を行ってください。
+    **applicationId** 情報には、**Azure** の**アプリケーション ID** を入力します。 **applicationId** は、アクセス許可を要求しているユーザーに対して、アプリケーションが自身を識別するために使用します。 **applicationId** を取得するには、次の手順に従います。
 
     [Azure Portal ](https://portal.azure.com)にサインインします。
 
-    ![Azure Portal メイン](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+    ![Azure portal メイン](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-    左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選びます。
+    左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選択します。
 
     ![アプリの登録の検索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    **clientId** を取得するアプリケーションを選びます。
+    **applicationId** を取得するアプリケーションを選択します。
 
     ![アプリの選択](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **clientId** として使います。
+    **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **applicationId** として使用します。
 
-    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    **groupId** には、Power BI から**アプリ ワークスペースの GUID** を設定します。
+    **workspaceId** 情報には、Power BI の**アプリ ワークスペースの GUID** を入力します。
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     **reportId** には、Power BI から**レポートの GUID** を設定します。
 
@@ -214,7 +214,7 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
 アプリケーション内で顧客向けの埋め込みを行うには、**Azure AD** からマスター アカウントの**アクセス トークン**を取得する必要があります。 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) への呼び出しを行う前に、**アプリ所有データ**を使用する Power BI アプリケーションのための [Azure AD アクセス トークン](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)を取得する必要があります。
 
-**アクセス トークン**で Power BI Client を作成するには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) とやりとりするための Power BI クライアント オブジェクトを作成します。 そのためには、**AccessToken** を ***Microsoft.Rest.TokenCredentials*** オブジェクトでラップします。
+**アクセス トークン**を使用して Power BI Client を作成するには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) とやりとりするための Power BI クライアント オブジェクトを作成する必要があります。 そのためには、**AccessToken** を ***Microsoft.Rest.TokenCredentials*** オブジェクトでラップします。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,8 +242,8 @@ Power BI クライアント オブジェクトを使って、埋め込むアイ�
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -263,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -339,12 +339,12 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 
 | 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 仮想コア |0.5 コア、3 GB の RAM |0.5 コア | 1 秒あたり 5 |1-300 |
-| A2 |2 仮想コア |1 コア、5 GB の RAM |1 コア | 1 秒あたり 10 |301-600 |
-| A3 |4 仮想コア |2 コア、10 GB の RAM |2 コア | 1 秒あたり 15 |601-1,200 |
-| A4 |8 仮想コア |4 コア、25 GB の RAM |4 コア |1 秒あたり 30 |1,201-2,400 |
-| A5 |16 仮想コア |8 コア、50 GB の RAM |8 コア |1 秒あたり 60 |2,401-4,800 |
-| A6 |32 仮想コア |16 コア、100 GB の RAM |16 コア |1 秒あたり 120 |4,801-9600 |
+| A1 |1 仮想コア |0.5 コア、3 GB RAM |0.5 コア |1 秒あたり 0.5 |1-300 |
+| A2 |2 仮想コア |1 コア、5 GB RAM |1 コア | 1 秒あたり 10 |301-600 |
+| A3 |4 仮想コア |2 コア、10 GB RAM |2 コア | 1 秒あたり 15 |601-1,200 |
+| A4 |8 仮想コア |4 コア、25 GB RAM |4 コア |1 秒あたり 30 |1,201-2,400 |
+| A5 |16 仮想コア |8 コア、50 GB RAM |8 コア |1 秒あたり 60 |2,401-4,800 |
+| A6 |32 仮想コア |16 コア、100 GB RAM |16 コア |1 秒あたり 120 |4,801-9600 |
 
 **_A SKU の場合、無料 Power BI ライセンスでは Power BI コンテンツにアクセスできません。_**
 
@@ -364,7 +364,7 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 
     ![専用の容量の割り当て](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. **[保存]** を選択した後、アプリ ワークスペース名の横に**ひし形**が表示されます。
+3. **[保存]** を選択すると、アプリ ワークスペース名の横に**ひし形**が表示されます。
 
     ![容量に関連付けられたアプリ ワークスペース](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
