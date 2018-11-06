@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
-ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
+ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46506801"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736966"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -23,7 +23,7 @@ ms.locfileid: "46506801"
 
 ## <a name="general"></a>全般
 
-### <a name="what-is-power-bi-embedded"></a>Power BI Embedded とは?
+### <a name="what-is-power-bi-embedded"></a>Power BI Embedded とは何ですか?
 
 Microsoft Power BI Embedded (PBIE) を利用すれば、アプリケーション開発者は、完全にインタラクティブな優れたレポートをアプリケーションに組み込むことができます。データの視覚化やコントロールを自分で一から構築する必要がなく、時間と費用が節約されます。
 
@@ -92,7 +92,7 @@ Power BI Embedded は一連の API であり、開発者はこれを利用し、
 
 ### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Power BI Embedded の容量の消費はどのように監視できますか?
 
-* [Power BI 管理ポータル](../service-admin-portal.md#power-bi-embedded-settings)を使用します。
+* [Power BI 管理ポータル](../service-admin-portal.md#power-bi-embedded)を使用します。
 
 * Power BI で [metric app](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) をダウンロードします。
 
