@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50160649"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223262"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>チュートリアル: Power BI カスタム ビジュアルへの書式設定オプションの追加
 
@@ -254,6 +254,10 @@ Power BI Desktop レポートを開き、カスタム ビジュアル Circle Car
 
 8. **Circle Card** にカーソルを合わせると、ツールヒントが表示されることに注目してください。
 
+## <a name="debugging"></a>デバッグ
+
+カスタム ビジュアルのデバッグに関するヒントについては、[デバッグ ガイド](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)を参照してください。
+
 ## <a name="next-steps"></a>次の手順
 
-新しく開発したカスタム ビジュアルを発行して他のユーザーが使用できるようにする方法について詳しくは、「[カスタム ビジュアルを AppSource に発行する](office-store.md)」をご覧ください。
+他のユーザーが使用できるように新しく開発したビジュアルをリストすることはできますが、その場合、**AppSource** に送信する必要があります。 このプロセスの詳細については、「[カスタム ビジュアルを AppSource に発行する](office-store.md)」を参照してください。

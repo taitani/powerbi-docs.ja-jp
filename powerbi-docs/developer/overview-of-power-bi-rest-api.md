@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973588"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223170"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Power BI API の開発者向け機能
 
@@ -29,7 +29,7 @@ Power BI API を使って行うことのできる例は以下のとおりです�
 | Power BI ユーザーと Power BI 以外のユーザーのためにダッシュボード、レポート、タイルを埋め込む (アプリ所有データ) |[Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embedding-content.md) |
 | 既存のビジネス ワークフローを拡張して、主要なデータを Power BI ダッシュボードにプッシュします。 |[ダッシュボードにデータをプッシュする](walkthrough-push-data.md) |
 | Power BI に対して認証を行う |[Power BI に対して認証を行う](get-azuread-access-token.md) |
-| カスタム ビジュアルを作成します。 |[開発者ツールを使ってカスタム ビジュアルを作成する](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| カスタム ビジュアルを作成します。 |[Power BI カスタム ビジュアルの開発](custom-visual-develop-tutorial.md) |
 
 > [!NOTE]
 > Power BI API では引き続き、アプリ ワークスペースをグループと呼びます。 したがって、グループと記述されている場合はすべて、アプリ ワークスペースを使用していることを意味します。
@@ -72,7 +72,7 @@ Power BI API を使って、データセットにデータをプッシュでき�
 ## <a name="next-steps"></a>次の手順
 
 [データセットにデータをプッシュする](walkthrough-push-data.md)  
-[カスタム ビジュアル開発者ツールの概要](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Power BI カスタム ビジュアルの開発](custom-visual-develop-tutorial.md)  
 [Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 ms.date: 09/17/2018
-ms.openlocfilehash: ac35e0c61576e561afd495e51d814bc38ab0a3f5
-ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
+ms.openlocfilehash: 5fb4583dccf7b6543881f1c9062227b9a3a68b05
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46473979"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223136"
 ---
-# <a name="what-can-developers-do-with-power-bi"></a>開発者が Power BI でできること
+# <a name="what-can-developers-do-with-power-bi"></a>Power BI の開発者向け機能
 
 開発者は、さまざまな方法で、アプリケーションに Power BI コンテンツを含めることができます。 開発者として、これらのオプション (**Power BI での埋め込み**、**カスタム ビジュアル**、および**Power BI へのデータのプッシュ**など) を使用できます。
 
@@ -44,7 +44,7 @@ Power BI でカスタム ビジュアルを使用し、自分や所属企業に�
 
 ![CV サンプル](media/what-can-you-do/powerbi-custom-visual-store.png)
 
-カスタム ビジュアルの開発についての詳細の学習を開始する場合は、「[Use developer tools to create custom visuals](../service-custom-visuals-getting-started-with-developer-tools.md)」 (開発者ツールを使ってカスタム ビジュアルを作成する) を参照してください。
+カスタム ビジュアルの開発についての詳細の学習を開始する場合は、「[開発者ツールを使ってカスタム ビジュアルを作成する](custom-visual-develop-tutorial.md)」を参照してください。
 
 ## <a name="using-api-automation"></a>API オートメーションの使用
 

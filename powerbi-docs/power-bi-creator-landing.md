@@ -10,12 +10,12 @@ ms.date: 09/24/2018
 ms.author: maggies
 layout: landingpage
 LocalizationGroup: Get started
-ms.openlocfilehash: 21b45d6b907378f9339328cfea1c17f0c73d91c2
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abc57a90f2ae70dcbbbd4ab284418476b071afae
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271626"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223354"
 ---
 # <a name="power-bi-for-report-designers"></a>レポート デザイナー向け Power BI
 
@@ -135,7 +135,7 @@ Power BI では、データ接続、クエリ設計、レポート作成およ�
                                                                                       <h3>Power BI 向けの開発</h3> 
                                                                                       <p></p>
                                                                                             <a href="developer/embedding.md">Power BI で埋め込み</a><br/> 
-                                                                                            <a href="service-custom-visuals-getting-started-with-developer-tools.md">カスタム ビジュアルの開発</a><br/> 
+                                                                                            <a href="developer/custom-visual-develop-tutorial.md">カスタム ビジュアルの開発</a><br/> 
                                                                                             <a href="https://docs.microsoft.com/rest/api/power-bi">Power BI REST API</a>
                                                                         </div> 
                                                           </div> 
