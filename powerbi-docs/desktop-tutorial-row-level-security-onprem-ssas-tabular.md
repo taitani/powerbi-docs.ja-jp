@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456136"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101579"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
 このチュートリアルでは、**Analysis Services 表形式モデル**内に**行レベルのセキュリティ**を実装するために必要な手順と、Power BI レポートでのその使用方法を示します。 このチュートリアルの手順に従って、サンプル データセットを完了することで必要な手順を理解できるようになっています。
@@ -72,6 +72,9 @@ ms.locfileid: "34456136"
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     この数式では、**LOOKUPVALUE** 関数は、**DimUserSecurity[UserName]** が現在ログオンしている Windows ユーザー名と同じで、**DimUserSecurity[SalesTerritoryID]** が **DimSalesTerritory[SalesTerritoryKey]** と同じである場合に、**DimUserSecurity[SalesTerritoryID]** 列のすべての値を返します。
    
+    > [!IMPORTANT]
+    > 行レベルのセキュリティを使用している場合、DAX 関数の [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) はサポートされないことに注意してください。
+
    次に、**LOOKUPVALUE** によって返される Sales セットの SalesTerritoryKey を使用して、**DimSalesTerritory** に示される行が制限されます。 行の **SalesTerritoryKey** が **LOOKUPVALUE** 関数によって返される ID セット内にある行のみが表示されます。
 8. **DimUserSecurity** テーブルについては、**[DAX フィルター]** 列に、次の数式を入力します。
    

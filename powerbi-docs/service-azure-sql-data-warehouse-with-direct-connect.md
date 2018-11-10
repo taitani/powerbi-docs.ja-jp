@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 347a56f75fa7ea9008539e3d75d094d0c22c69d1
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137447"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101303"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse と DirectQuery
-Azure SQL Data Warehouse と DirectQuery を使用すると、Azure SQL Data Warehouse に既に含まれているデータとメトリックに基づいて動的なレポートを作成できます。 DirectQuery を使用すると、データを探索するときにクエリが Azure SQL Data Warehouse に送り返されます。 これを SQL Data Warehouse のスケールと組み合わせることで、ユーザーはテラバイトのデータに対し、分単位で動的なレポートを作成することができます。 さらに、 **[Power BI で開く]** ボタンを使用すると、ユーザーは手動で情報を指定しなくても、Power BI を SQL Data Warehouse に直接接続することができます。
+Azure SQL Data Warehouse と DirectQuery を使用すると、Azure SQL Data Warehouse に既に含まれているデータとメトリックに基づいて動的なレポートを作成できます。 DirectQuery を使用すると、データを探索するときにクエリが Azure SQL Data Warehouse に送り返されます。 リアルタイム クエリを SQL Data Warehouse のスケールと組み合わせることで、ユーザーはテラバイトのデータに対し、分単位で動的なレポートを作成することができます。 さらに、 **[Power BI で開く]** ボタンを使用すると、ユーザーは手動で情報を指定しなくても、Power BI を SQL Data Warehouse に直接接続することができます。
 
 SQL Data Warehouse コネクタを使用する場合:
 
 * 接続するときに、完全修飾のサーバー名を指定します (詳細については後述します)。
 * サーバーのファイアウォール ルールが「Azure サービスに対するアクセスを許可」するように構成されていることを確認してください。
 * 列の選択、フィルターの追加など、どの操作によってもクエリが直接データ ウェアハウスに対して行われます。
-* タイルは、約 15 分ごとに更新するように設定されているため、更新をスケジュール設定する必要はありません。  この動作は、接続するときに [詳細] 設定で調整できます。
+* タイルは、約 15 分ごとに更新するように設定されているため、更新をスケジュール設定する必要はありません。  更新は、接続するときに [詳細] 設定で調整できます。
 * DirectQuery データセットの Q&A は使用できません。
 * スキーマ変更は自動選択されません。
 
@@ -37,9 +37,9 @@ SQL Data Warehouse コネクタを使用する場合:
 > Azure SQL Data Warehouse への接続性を改善しました。  Azure SQL Data Warehouse データ ソースに接続するための操作性を向上させるには、Power BI Desktop を使用します。  モデルとレポートをビルドしたら、Power BI サービスに発行できます。  Power BI サービス内の Azure SQL Data Warehouse への直接接続は、非推奨になりました。
 >
 
-SQL Data Warehouse と Power BI の間で移動する最も簡単な方法は、Azure プレビュー ポータルの **[Power BI で開く]** ボタンを使用することです。 このボタンを使用すると、Power BI で新しいダッシュボードの作成をシームレスに開始できるようになります。
+SQL Data Warehouse と Power BI の間で移動する最も簡単な方法は、Azure portal の **[Power BI で開く]** ボタンを使用することです。 このボタンを使用すると、Power BI で新しいダッシュボードの作成をシームレスに開始できるようになります。
 
-1. 開始するには、Azure プレビュー ポータルの SQL Data Warehouse のインスタンスに移動します。 この時点では、SQL Data Warehouse は Azure プレビュー ポータルにのみ表示されることに注意してください。
+1. 開始するには、Azure portal の SQL Data Warehouse のインスタンスに移動します。 この時点では、SQL Data Warehouse は Azure プレビュー ポータルにのみ表示されることに注意してください。
 2. **[Power BI で開く]** ボタンをクリックする
    
     ![](media/service-azure-sql-data-warehouse-with-direct-connect/openinpowerbi.png)
@@ -78,7 +78,7 @@ SQL Data Warehouse は、Power BI の [データの取得] ページにも表示
     ![](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>パラメーターの値の見つけ方
-完全修飾サーバー名とデータベース名は、Azure プレビュー ポータルで確認できます。 この時点では、SQL Data Warehouse は Azure プレビュー ポータルにのみ表示されることに注意してください。
+完全修飾サーバー名とデータベース名は、Azure portal に表示されています。 この時点では、SQL Data Warehouse は Azure プレビュー ポータルにのみ表示されることに注意してください。
 
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
@@ -89,6 +89,6 @@ SQL Data Warehouse は、Power BI の [データの取得] ページにも表示
 ## <a name="next-steps"></a>次の手順
 [Power BI とは?](power-bi-overview.md)  
 [Power BI のデータの取得](service-get-data.md)  
-[Azure SQL Data Warehouse](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
+[Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

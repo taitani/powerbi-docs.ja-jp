@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: b068516b13b3aab134b20f95939c75a5b6e949b5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337084"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101694"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -341,7 +341,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 
 ### <a name="reporting"></a>レポート
 
-* レポート ページのヒント [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=16s) [[記事]]() [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* レポート ページのツールヒント [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=16s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
 * ブックマークの一般公開 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[記事]](desktop-bookmarks.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
 * テーブルとマトリックスの列の表示単位と精度のコントロール [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[記事]](desktop-slicer-numeric-range.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
 * レポートの読み取りモードでビジュアル ヘッダーをオフにする [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 

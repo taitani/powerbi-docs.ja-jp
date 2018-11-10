@@ -4,18 +4,18 @@ description: Power BI Report Server の概要を読み、SQL Server Reporting Se
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 10/24/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294573"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101397"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server とは
 
@@ -28,6 +28,9 @@ Power BI Report Server は、SQL Server Reporting Services と Power BI オン�
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Report Server のライセンス
 Power BI Report Server は、ソフトウェア アシュアランスを使用した 2 種類のライセンス ([Power BI Premium](../service-premium.md) と [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)) を介して利用できます。 Power BI Premium ライセンスがあれば、クラウドとオンプレミスを混在させたハイブリッド デプロイを作成できます。  
+
+> [!NOTE]
+> Power BI Premium の場合、Power BI Report Server は P SKU のみに含まれます。 EM SKU には含まれません。
 
 ## <a name="web-portal"></a>Web ポータル
 Power BI Report Server のエントリ ポイントは、最新のブラウザーで表示できる安全な Web ポータルです。 Web ポータルではすべてのレポートと KPI にアクセスできます。 Web ポータル上のコンテンツは、従来のフォルダー階層で構成されています。 フォルダー内のコンテンツは、Power BI レポート、モバイル レポート、ページ分割されたレポート、KPI、Excel ブック、さらにレポートの構成要素として使用する共有データセットと共有データ ソースという種類別にグループ化されています。 お気に入りにタグを付けて、1 つのフォルダーで表示することができます。 また、Web ポータルで直接 KPI を作成できます。 
@@ -66,7 +69,7 @@ Power BI レポート サーバーのプログラミング機能を利用する�
 
 ## <a name="next-steps"></a>次の手順
 [Power BI レポート サーバーのインストール](install-report-server.md)  
-[レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

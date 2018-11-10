@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 2ea6f2e557f26358ab6a93d33c890e90c96885f4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6d494ebf00388478bea802dbb713f1025d428439
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34564652"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101234"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>How to find your report server product key (レポート サーバーのプロダクト キーを検索する方法)
 運用環境にインストールするのに必要な Power BI レポート サーバー プロダクト キーの検索方法について説明します。
@@ -47,7 +47,7 @@ SQL Server Enterprise SA 契約がある場合は、[ボリューム ライセ�
 ## <a name="next-steps"></a>次の手順
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  
-[レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

@@ -60,7 +60,7 @@ Power BI では、職場または学校用の電子メール アドレスを使�
 Power BI にサインアップする最も簡単な方法は、Power BI (無料) アカウントにサインアップすることです。 このアカウントにコストはかからず、サービスで利用できる機能の多くを使用することができます。
 
 > [!NOTE]
-> 既に登録されていることを示すメッセージが表示された場合は、 https://app.powerbi.com に移動してサインインをお試しください。
+> 既に登録されていることを示すメッセージが表示された場合は、 [https://app.powerbi.com](https://app.powerbi.com) に移動してサインインをお試しください。
 > 
 > 
 
@@ -80,7 +80,7 @@ Power BI にサインアップするには、次の操作を行うことがで�
 
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. メール内のリンクを選択して、メール アドレスを確認します。 これにより、サインアップ フローに戻ります。 自身に関する追加情報を提供しなければならない場合があります。
-7. https://app.powerbi.com に戻り、無料のユーザーとして Power BI の使用を開始できます。
+7. [https://app.powerbi.com](https://app.powerbi.com) に戻り、無料のユーザーとして Power BI の使用を開始できます。
 
 ### <a name="what-this-looks-like-within-the-service"></a>サービス内での表示例
 サービス内で無料アカウントがあることを確認するには、**歯車**アイコンをクリックして **[パーソナル ストレージの管理]** を選択します。

@@ -1,23 +1,23 @@
 ---
-title: Power BI サービスでレポートを表示する
-description: Power BI レポートを読み取りビューで開きます。
+title: コンシューマー向け Power BI サービスでレポートを表示します。
+description: このトピックによれば、Power BI コンシューマーとエンドユーザーは Power BI レポートを開いて確認する必要がありました。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112017"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396936"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Power BI サービスでレポートを表示する (app.powerbi.com)
-レポートは、ビジュアルで構成される 1 つまたは複数のページです。 レポートは Power BI *レポート デザイナー*で作成され、[ユーザーと直接共有されます](end-user-shared-with-me.md)。あるいは[アプリ](end-user-apps.md)の一部として共有されます。 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>"*コンシューマー*" 向け Power BI サービスでレポートを表示する
+レポートは、ビジュアルで構成される 1 つまたは複数のページです。 レポートは Power BI "*レポート デザイナー*" によって作成され、["*コンシューマー*" と直接共有](end-user-shared-with-me.md)されます。あるいは[アプリ](end-user-apps.md)の一部として共有されます。 
 
 レポートはさまざまな方法で開くことができます。そのうちの 2 つを紹介します。ホーム ページから開く方法とダッシュボードから開く方法です。 
 
@@ -42,7 +42,7 @@ Power BI *デザイナー*では、上部メニュー バーの **[共有]** ボ
    
    ![ホーム ページの [共有アイテム] セクション](./media/end-user-report-open/power-bi-shared.png)
 
-4. レポート カードの 1 つを選択し、レポートを開きます。
+4. レポート "*カード*" の 1 つを選択し、レポートを開きます。
 
    ![レポート ページ](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ Power BI *デザイナー*では、上部メニュー バーの **[共有]** ボ
 
    ![ホーム ページ](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. アプリの 1 つを選択して開きます。 アプリでは、アプリ *デザイナー*によって設定されたオプションに基づき、ダッシュボードまたはレポートが開きます。 アプリを選択し、
+8. アプリの 1 つを選択して開きます。 アプリでは、アプリ "*デザイナー*" によって設定されたオプションに基づき、ダッシュボード、レポート、またはアプリ コンテンツ リストが開きます。 アプリを選択し、
     - レポートが開いた場合、そこで操作はおしまいです。
     - ダッシュボードが開いた場合、下の「[ダッシュボードからレポートを開く](#Open-a-report-from-a-dashboard)」を参照してください。
-
+    - アプリ コンテンツ リストが開かれた場合、**[レポート]** で、レポートを選択してそれを開きます。
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>ダッシュボードからレポートを開く
@@ -83,15 +83,15 @@ Power BI *デザイナー*では、上部メニュー バーの **[共有]** ボ
     ![読み取りビューで開かれたレポート](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> 一部のタイルはレポートに関連付けられていません。 [Q&A を使用して作成](../service-dashboard-pin-tile-from-q-and-a.md)されたタイルを選択すると、Q&A 画面が開きます。 [ダッシュボードの **[タイルの追加]** ウィジェットで作成された](../service-dashboard-add-widget.md)タイルを選択すると、**[タイルを編集]** ウィザードが開きます。  
+> 一部のタイルはレポートに関連付けられていません。 [Q&A を使用して作成](end-user-q-and-a.md)されたタイルを選択すると、Q&A 画面が開きます。 [ダッシュボードの **[タイルの追加]** ウィジェットを使用して作成](../service-dashboard-add-widget.md)されたタイルを選択すると、いくつかの異なる結果になる可能性があります。  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>レポートを開く他の方法
 Power BI サービスのナビゲーションに慣れてくると、最適なワークフローを見つけ出すことができます。 レポートにアクセスする他の方法をいくつか以下に示します。
 - 左のナビゲーション ウィンドウにある **[お気に入り]** と **[最近]** を使用する    
 - [[関連の表示]](end-user-related.md) を使用する    
-- メールで (他のユーザーに[共有してもらう](../service-share-reports.md)場合、または自分で[アラートを設定する](../service-set-data-alerts.md)場合)    
-- 自分の [通知センター] から (end-user-notification-center.md)    
+- メールで (他のユーザーに[共有してもらう](../service-share-reports.md)場合、または自分で[アラートを設定する](end-user-alerts.md)場合)    
+- [通知センター](end-user-notification-center.md)から    
 - その他
 
 ## <a name="next-steps"></a>次の手順
