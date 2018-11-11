@@ -428,6 +428,8 @@ items:
       items:
       - name: Power BI 内のコンテンツの名前を変更する
         href: service-rename.md
+      - name: 全画面表示モード (テレビ モード) でダッシュボードとレポートを表示する
+        href: service-fullscreen-mode.md
       - name: Power BI のクイック インサイト
         href: service-insights.md
       - name: 米国政府組織を登録する
@@ -764,24 +766,6 @@ items:
         href: refresh-troubleshooting-tile-errors.md
       - name: 更新が失敗した場合に Xero コンテンツ パックの資格情報を更新する方法
         href: service-refresh-xero-credentials.md
-    - name: セルフサービスのデータ作成
-      items:
-      - name: データフローを使用したセルフサービスのデータ作成 (プレビュー)
-        href: service-dataflows-overview.md
-      - name: データフローの作成と使用
-        href: service-dataflows-create-use.md
-      - name: Power BI Premium での計算されたエンティティ
-        href: service-dataflows-computed-entities-premium.md
-      - name: オンプレミス データ ソースでのデータフローの使用
-        href: service-dataflows-on-premises-gateways.md
-      - name: データフロー間でエンティティをリンクする (プレビュー)
-        href: service-dataflows-linked-entities.md
-      - name: データフローでの増分更新の使用 (プレビュー)
-        href: service-dataflows-incremental-refresh.md
-      - name: データフロー用の開発者向けリソース
-        href: service-dataflows-developer-resources.md
-      - name: Power BI Desktop でデータフローに接続する
-        href: desktop-connect-dataflows.md
   - name: リソース
     items:
     - name: ビデオ
@@ -792,36 +776,6 @@ items:
       href: supported-languages-countries-regions.md
     - name: ホワイトペーパー
       href: whitepapers.md
-- name: Power BI のページ分割されたレポート
-  items:
-  - name: 概要
-    items:
-    - name: ページ分割されたレポートとは (プレビュー)
-      href: paginated-reports-report-builder-power-bi.md
-  - name: チュートリアル
-    items:
-    - name: ページ分割されたレポートの作成とアップロード
-      href: paginated-reports-quickstart-aw.md
-  - name: 概念
-    items:
-    - name: レポート デザイン ビュー内を移動する
-      href: paginated-reports-report-design-view.md
-    - name: ページ分割されたレポートに関する FAQ
-      href: paginated-reports-faq.md
-  - name: 方法
-    items:
-    - name: 埋め込みデータ ソースを作成する
-      href: paginated-reports-embedded-data-source.md
-    - name: 埋め込みデータセットを作成する
-      href: paginated-reports-create-embedded-dataset.md
-    - name: パラメーターを作成する
-      href: paginated-reports-parameters.md
-    - name: ページ分割されたレポートを発行する
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: ページ分割されたレポートを表示する
-      href: paginated-reports-view-power-bi-service.md
-    - name: パラメーターと対話する
-      href: paginated-reports-view-parameters.md
 - name: 開発者向け Power BI
   items:
   - name: Power BI の開発者向け機能
@@ -1249,9 +1203,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 7c2025a2dd23ce58937cd9987bec8d28b8ffb04c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: a0d2f9e2fcf26f3eca516a1204c9d25a9225010f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508062"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223193"
