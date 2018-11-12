@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6bc8eea6138f2961457d03eaf5ef88d0327a058d
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549916"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909573"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI でブックマークを使用して詳細情報を共有し、ストーリーを作成する 
 Power BI の**ブックマーク**を使うと、フィルターの設定やビジュアルの状態など、レポート ページに現在構成されているビューをキャプチャし、後で保存されているブックマークを選ぶだけでその状態に戻すことができます。 
@@ -44,13 +44,12 @@ Power BI Desktop の 2018 年 3 月バージョン以降では、ブックマー
 
 * 現在のページ
 * フィルター
-* スライサー
+* スライサー、スライサーの種類 (たとえば、ドロップダウンまたはリスト) とスライサーの状態を含みます
+* ビジュアルの選択状態 (クロス強調表示フィルターなど)
 * 並べ替え順序
 * ドリルの場所
 * 表示 (**[選択]** ウィンドウで指定されたオブジェクトの表示)
 * 表示されているオブジェクトのフォーカスまたは **Spotlight** モード
-
-現在、ブックマークではクロス強調表示の状態は保存されません。 
 
 ブックマークで表示させたいようにレポート ページを構成します。 意図したとおりにレポート ページとビジュアルを配置できたら、**[ブックマーク]** ウィンドウの **[追加]** を選んでブックマークを追加します。 
 

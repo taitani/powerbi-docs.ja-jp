@@ -1,5 +1,5 @@
 ---
-title: Power BI から PowerPoint にレポートをエクスポートする (プレビュー)
+title: Power BI から PowerPoint にレポートをエクスポートする
 description: Power BI レポートを PowerPoint にエクスポートする方法について説明します。
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 85a0a34f9c67d29fee7be6335f79e97b482548be
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 661d615ed33b12ae0557fd8feaa0bc47b3a6638f
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565339"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736943"
 ---
-# <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Power BI から PowerPoint にレポートをエクスポートする (プレビュー)
+# <a name="export-reports-from-power-bi-to-powerpoint"></a>Power BI から PowerPoint にレポートをエクスポートする
 Power BI では、レポートを **Microsoft PowerPoint** に発行して、Power BI レポートに基づくスライド デッキを簡単に作成できるようになりました。 **PowerPoint にエクスポート**すると、次のようになります。
 
 * Power BI レポートの各ページは、PowerPoint では個別のスライドになります
@@ -77,9 +77,9 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 * 現在、**R ビジュアル**はサポートされていません。 このようなビジュアルは空の画像として PowerPoint にエクスポートされ、サポートされていないビジュアルであるというエラー メッセージが表示されます。
 * **認定を受けた****カスタム ビジュアル**はサポートされます。 カスタム ビジュアルの認定を受ける方法など、認定を受けたカスタム ビジュアルの詳細については、「[カスタム ビジュアルの*認定*を受ける](../power-bi-custom-visuals-certified.md)」を参照してください。 認定を受けていないカスタム ビジュアルはサポートされず、空の画像として PowerPoint にエクスポートされ、サポートされていないビジュアルであるというエラー メッセージが表示されます。
 * **認定済みカスタム ビジュアル**がサポートされています。 認定済みカスタム ビジュアルとは、Power BI で使用できるように承認され、所定のコードの要件を満たし、厳密なセキュリティ テストに合格したものです。 詳細については、[**認定済みカスタム ビジュアル**に関するページをご覧ください](../power-bi-custom-visuals-certified.md)。
-* 現在、レポート ページが 15 ページを超えるレポートはエクスポートできません。
+* 現在、レポート ページが 30 ページを超えるレポートはエクスポートできません。
 * レポートを PowerPoint にエクスポートする処理には、数分かかる場合があります。 必要な時間に影響する要因としては、レポートの構造や、Power BI サービスの現在の負荷などがあります。
-* Power BI サービスで **[PowerPoint へのエクスポート (プレビュー)]** メニュー項目を使用できない場合は、テナント管理者が機能を無効にしている可能性があります。 詳細については、テナント管理者に問い合わせてください。
+* Power BI サービスで **[PowerPoint へのエクスポート]** メニュー項目を使用できない場合は、テナント管理者が機能を無効にしている可能性があります。 詳細については、テナント管理者に問い合わせてください。
 * 背景画像はグラフの境界領域でトリミングされます。 PowerPoint にエクスポートする前に背景画像を削除することを強くお勧めします。
 * 強調表示、フィルター処理、ドリルダウンなどの**セッション内の対話機能**は、PowerPoint へのエクスポートではまだサポートされていません。 エクスポートされた PowerPoint に表示されるのは、レポートに保存された時点での元のビジュアルです。
 * PowerPoint のページは、Power BI レポートの元のページのサイズまたは寸法に関係なく、常に標準の 9:16 サイズで作成されます。

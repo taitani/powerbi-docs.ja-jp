@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 319c636c660aff3ab651475e2d7b553fef49b8cd
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137332"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909596"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 **Power BI Desktop** では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 **Power BI Desktop** を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。  **Power BI Desktop** は無料でダウンロードできます。
@@ -101,11 +101,35 @@ Microsoft ストアからの **Power BI Desktop** のインストールには、
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
+Power BI Desktop での経験が常に素晴らしいものであることを望んでいます。 そうはいっても、問題が発生する可能性はあるので、このセクションでは、Power BI Desktop で発生することがある問題に対処するための解決策と提案を示します。 
+
+### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop の以前のリリースを使用しているときの問題
+
 古いバージョンの **Power BI Desktop** を使用すると、次のようなエラーが発生するユーザーがいます。 
 
     "We weren't able to restore the saved database to the model" 
 
 通常、Power BI Desktop の最新バージョンに更新すると、この問題は解決します。
+
+### <a name="disabling-notifications"></a>通知の無効化
+最新バージョンの Power BI Desktop に更新し、機能、パフォーマンス、安定性、その他の改善の進歩を活用することをお勧めします。 組織によっては、ユーザーが新しいバージョンのたびに更新することを望まない場合があります。 以下の手順でレジストリを変更することにより、通知を無効にすることができます。
+
+1. レジストリ エディターを使用して、*HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop* に移動します
+2. そこに、*REG_DWORD : DisableUpdateNotification* という設定で新しいエントリを作成します
+3. 新しいエントリの値を **1** に設定します。
+
+変更を有効にするには、コンピューターを再起動する必要があります。
+
+### <a name="power-bi-desktop-loads-with-a-partial-screen"></a>Power BI Desktop で画面の一部を読み込む
+
+特定の画面解像度が構成されている場合など、ある種の状況では、Power BI Desktop で大きな黒い領域を含むコンテンツが表示されることがあります。 これは、一般に、項目の表示方法に影響する最近のオペレーティング システムの更新によるものであり、Power BI Desktop によるコンテンツの表示方法の直接的な結果ではありません。 それでも、大きな黒い領域が表示されるのは目障りなので、次の手順によりこの問題に対処できます。
+
+1. [スタート] ボタンをクリックし、表示される検索バーに "*blurry*" と入力します。
+2. 表示されるダイアログ ボックスで、*Let Windows fix apps that are blurry* (Windows に不明瞭なアプリを修正させる) オプションを選択します。
+3. Power BI Desktop を再起動します。
+
+この問題は、今後の Windows 更新プログラムのリリースで解決される可能性があります。 
+ 
 
 ## <a name="next-steps"></a>次の手順
 以下のガイドは、**Power BI Desktop** をインストールした後で、すばやく作業を開始するのに役立ちます。

@@ -2,20 +2,20 @@
 title: Power BI 管理ポータル
 description: 管理ポータルを使用して、組織内の Power BI のテナントを管理できます。 利用状況の指標、Office 365 管理センターへのアクセス、設定などの項目があります。
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252493"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973260"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -90,6 +90,8 @@ Office 365 管理センターで Power BI のユーザー、グループ、管�
 
 Office 365 セキュリティ/コンプアライアンス センターで Power BI 監査ログを管理します。 **[監査ログ]** タブには、テナントのセキュリティ/コンプアライアンス センターへのリンクが含まれています。 [詳細情報](service-admin-auditing.md)
 
+監査ログを使用するには、設定 [**[内部アクティビティの監査とコンプライアンスのための監査ログの作成]**](#create-audit-logs-for-internal-activity-auditing-and-compliance) を有効にします。
+
 ## <a name="tenant-settings"></a>テナント設定
 
 **[テナント設定]** タブを使うと、組織で利用できる機能をきめ細かく制御できます。 機密データに関して懸念がある場合、一部の機能がお客様の組織に適していない場合や、特定の機能を特定のグループのみが使用できるようにする必要がある場合があります。
@@ -133,7 +135,7 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 ### <a name="share-content-to-external-users"></a>外部ユーザーとコンテンツを共有する
 
-組織内のユーザーは組織外のユーザーとダッシュボードを共有できます。
+組織内のユーザーは組織外のユーザーとダッシュボードを共有できます。 [詳細情報](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
 
 ![外部ユーザーの設定](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -181,40 +183,37 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 組織内のユーザーは、ダッシュボードとレポートを印刷できます。 [詳細情報](consumer/end-user-print.md)
 
-![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
+ダッシュボードを印刷するためのオプションを次の図に示します。
 
-![](media/service-admin-portal/powerbi-admin-print-report.png)
+![ダッシュボードの印刷](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
-## <a name="content-pack-settings"></a>コンテンツ パックの設定
+設定 **[ダッシュボードとレポートを印刷する]** を有効にした場合のレポートの **[ファイル]** メニューを次の図に示します。
 
-### <a name="publish-content-packs-to-the-entire-organization"></a>コンテンツ パックを組織全体に公開する
+![レポートを印刷する](media/service-admin-portal/powerbi-admin-print-report.png)
 
-組織内のユーザーは、コンテンツ パックを組織全体に公開することができます。
+## <a name="content-pack-and-app-settings"></a>コンテンツ パックとアプリの設定
 
-![](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
+### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>コンテンツ パックとアプリを組織全体に発行する
 
-### <a name="create-template-organizational-content-packs"></a>テンプレートの組織のコンテンツ パックを作成する
+組織内のユーザーは、特定のグループだけではなく、組織全体にコンテンツ パックとアプリを発行できます。 [詳細情報](service-organizational-content-pack-manage-update-delete.md)
 
-組織内のユーザーは、Power BI Desktop 内の 1 つのデータ ソース上に構築されたデータセットを使用する、テンプレート コンテンツ パックを作成できます。
+コンテンツ パックを作成するときの **[組織全体]** オプションを次の図に示します。
+
+![コンテンツ パックを組織に発行する](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
+
+### <a name="create-template-organizational-content-packs-and-apps"></a>テンプレートの組織のコンテンツ パックとアプリを作成する
+
+組織内のユーザーは、Power BI Desktop 内に構築されたデータセットを使用する、テンプレート コンテンツ パックを作成できます。 [詳細情報](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>アプリをエンド ユーザーにプッシュする
 
-テナント管理者が **[テナント設定]** でアプリをプッシュする機能を有効にします。
-
-   ![アプリのプッシュを有効にする](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
-
-設定を **[有効]** に切り替えた後、この機能を利用できるユーザーを指定できます (組織全体または特定のセキュリティ グループ)。
-
-> [!NOTE]
-> テナント設定の変更が有効になるまで時間がかかることに注意してください。
-
-アプリのプッシュの詳細については、[こちら](service-create-distribute-apps.md)をご覧ください。
+AppSource からのインストールを要求することなく、ユーザーはエンド ユーザーとアプリを直接共有できます。 [詳細情報](service-create-distribute-apps.md)
 
 ## <a name="integration-settings"></a>統合の設定
 
 ### <a name="ask-questions-about-data-using-cortana"></a>Cortana を使ってデータに関する質問をする
 
-組織内のユーザーは、データについて Cortana を使って質問することができます。
+組織内のユーザーは、データについて Cortana を使って質問することができます。 [詳細情報](service-cortana-enable.md)
 
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。
@@ -264,23 +263,14 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。
 
 ### <a name="usage-metrics-for-content-creators"></a>コンテンツ作成者用の使用状況メトリック
+
 組織内のユーザーは、自分が作成したダッシュボードとレポートの使用状況メトリックを確認できます。 [詳細情報](service-usage-metrics.md)
 
-設定を **[有効]** に切り替えた後、使用状況メトリックを表示できるユーザーを指定できます (組織全体または特定のセキュリティ グループ)。
-
-> [!NOTE]
-> テナント設定の変更が有効になるまで時間がかかることに注意してください。
-
 ### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>コンテンツ作成者用の使用状況メトリックにおけるユーザーごとのデータ
+
 コンテンツ作成者用の使用状況メトリックには、コンテンツにアクセスしているユーザーの表示名とメール アドレスが示されます。 [詳細情報](service-usage-metrics.md)
 
-設定を **[有効]** に切り替えた後、使用状況メトリックで表示名とメール アドレスを表示できるユーザーを指定できます (組織全体または特定のセキュリティ グループ)。
-
 ユーザーごとのデータは利用状況メトリックに対して既定で有効になり、コンテンツ作成者のアカウント情報はメトリック レポートに含まれます。 一部またはすべてのユーザーに対してこの情報を含めない場合は、指定したセキュリティ グループまたは組織全体に対してこの機能を無効にします。 アカウント情報は、*[名前なし]* としてレポートに表示されます。
-
-> [!NOTE]
-> テナント設定の変更が有効になるまで時間がかかることに注意してください。
-
 
 ## <a name="dashboard-settings"></a>ダッシュボードの設定
 
@@ -295,69 +285,79 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 ### <a name="embed-content-in-apps"></a>アプリにコンテンツを埋め込む
 
-組織内のユーザーが、Power BI のダッシュボードとレポートを、サービスとしてのソフトウェア (SaaS) アプリケーションに埋め込むことができます。 この設定を無効にすると、ユーザーが REST API を使用して、Power BI コンテンツをアプリケーションに埋め込むことができなくなります。
+組織内のユーザーが、Power BI のダッシュボードとレポートを、サービスとしてのソフトウェア (SaaS) アプリケーションに埋め込むことができます。 この設定を無効にすると、ユーザーが REST API を使用して、Power BI コンテンツをアプリケーションに埋め込むことができなくなります。 [詳細情報](developer/embedding.md)
+
+## <a name="workspaces-and-import-settings"></a>ワークスペースとインポートの設定
+
+### <a name="author-content-in-workspaces"></a>ワークスペース内でコンテンツを作成する
+
+組織内のユーザーはワークスペースにアクセスして、データへの接続およびコンテンツの作成を行うことができます。 [詳細情報](service-create-the-new-workspaces.md)
+
+### <a name="import-data-into-power-bi"></a>Power BI にデータをインポートする
+
+組織内のユーザーは、Power BI Desktop からのレポートの発行、Power BI レポート ファイルのアップロード、サービスからデータへの直接接続などで、サービスにデータをインポートできます。 [詳細情報](desktop-upload-desktop-files.md)
 
 ## <a name="capacity-settings"></a>容量の設定
 
-### <a name="premium-settings"></a>Premium の設定
+### <a name="power-bi-premium"></a>Power BI Premium
 
-[Premium の設定] タブでは、組織用に購入されたすべての Power BI Premium (Em または P SKU) 容量を管理できます。 組織内のすべてのユーザーに [Premium の設定] タブが表示されますが、そのタブにコンテンツが表示されるのは、ユーザーが、**容量管理者**、または割り当てのアクセス許可を持つユーザーとして割り当てられている場合のみです。 アクセス許可が何も割り当てられていないユーザーには、次のメッセージが表示されます。
+**[Power BI Premium]** タブでは、組織用に購入されたすべての Power BI Premium 容量 (EM または P SKU) を管理できます。 組織内のすべてのユーザーに **[Power BI Premium]** タブが表示されますが、そのタブにコンテンツが表示されるのは、ユーザーが、"*容量管理者*"、または割り当てのアクセス許可を持つユーザーとして割り当てられている場合のみです。 アクセス許可が何も割り当てられていないユーザーには、次のメッセージが表示されます。
 
-![Power BI Premium 管理の設定](media/service-admin-portal/premium-settings-no-access.png "Premium の設定にアクセスできません")
+![Premium の設定にアクセスできません](media/service-admin-portal/premium-settings-no-access.png)
 
 Premium の設定の管理方法について詳しくは、「[Power BI Premium の管理](service-admin-premium-manage.md)」をご覧ください。
 
-### <a name="power-bi-embedded-settings"></a>Power BI Embedded の設定
+### <a name="power-bi-embedded"></a>Power BI Embedded
 
-Power BI Embedded の設定タブを使用すると、顧客用に購入した Power BI Embedded (A SKU) の容量を表示できます。 Azure からは A SKU の購入のみ可能であるため、**Azure Portal** から [Azure の埋め込み容量を管理](developer/azure-pbie-create-capacity.md)できます。
-
-![Power BI Embedded 管理の設定](media/service-admin-portal/manage-pbie-capacities-01.png)
-
-![Power BI Embedded 管理の設定の詳細](media/service-admin-portal/manage-pbie-capacities-02.png)
+**[Power BI Embedded]** タブを使用すると、顧客用に購入した Power BI Embedded (A SKU) の容量を表示できます。 Azure からは A SKU の購入のみ可能であるため、**Azure Portal** から [Azure の埋め込み容量を管理](developer/azure-pbie-create-capacity.md)します。
 
 Power BI Embedded (A SKU) の設定を管理する方法について詳しくは、「[Azure の Power BI Embedded とは何か](developer/azure-pbie-what-is-power-bi-embedded.md)」をご覧ください。
 
 ## <a name="embed-codes"></a>埋め込みコード
 
-![Power BI 管理ポータル内の埋め込みコード](media/service-admin-portal/embed-codes.png)
+管理者は、テナントに対して生成されている埋め込みコードを表示することができます。 コードを取り消したり削除したりすることもできます。 [詳細情報](service-publish-to-web.md)
 
-管理者は、テナントに対して生成されている埋め込みコードを表示することができます。 レポートを表示したり、埋め込みコードを削除して取り消したりすることができます。
+![Power BI 管理ポータル内の埋め込みコード](media/service-admin-portal/embed-codes.png)
 
 ## <a name="organization-visuals"></a>組織のビジュアル
 
-[組織のビジュアル] タブでは、組織内にカスタム ビジュアルを展開し、管理できます。つまり、独自のビジュアルを組織に簡単に展開できます。レポートを作成するとき、カスタム ビジュアルを簡単に見つけ、Power BI Desktop からレポートに直接インポートできます。
+**[組織のビジュアル]** タブでは、組織内にカスタム ビジュアルを展開して管理できます。 組織のビジュアルを使用すると、組織に独自のビジュアルを簡単に展開でき、レポート作成者はそれを検出して、Power BI Desktop からレポートにインポートできます。 [詳細情報](power-bi-custom-visuals-organization.md)
 
-このページには、組織のリポジトリに現在展開されているすべてのカスタム ビジュアルが表示されます。
+> [!WARNING]
+> カスタム ビジュアルには、セキュリティやプライバシー上のリスクを伴うコードが含まれている可能性があります。組織のリポジトリに展開する前に、カスタム ビジュアルの作成者とソースが信頼できることを確認してください。
+
+次の図では、組織のリポジトリに現在展開されているすべてのカスタム ビジュアルを示します。
 
 ![組織の管理のビジュアル](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>新しいカスタム ビジュアルの追加
 
-新しいカスタム ビジュアルを一覧に追加するには、**[カスタム ビジュアルの追加]** を選択します。
+一覧に新しいカスタム ビジュアルを追加するには、次の手順のようにします。 
 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+1. 右側のウィンドウで、**[カスタム ビジュアルの追加]** を選択します。
 
-> [!WARNING]
-> カスタム ビジュアルには、セキュリティやプライバシー上のリスクを伴うコードが含まれている可能性があります。組織のリポジトリに展開する前に、カスタム ビジュアルの作成者とソースが信頼できることを確認してください。
+    ![カスタム ビジュアル フォーム](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
-次のフィールドに入力します。
+1. **[カスタム ビジュアルを追加します]** フォームに入力します。
 
-* .pbiviz ファイルを選択する (必須): アップロードするカスタム ビジュアル ファイルを選択します。 バージョン管理されている API カスタム ビジュアルのみをサポートしています (詳細はここをお読みください)。
+    * **[.pbiviz ファイルの選択]** (必須): アップロードするカスタム ビジュアル ファイルを選択します。 バージョン管理されている API カスタム ビジュアルのみをサポートしています (詳細はここをお読みください)。
 
-カスタム ビジュアルをアップロードする前に、そのビジュアルのセキュリティとプライバシーを調べ、組織の基準に適合することを確認してください。 カスタム ビジュアル セキュリティの詳細情報
+    カスタム ビジュアルをアップロードする前に、そのビジュアルのセキュリティとプライバシーを調べ、組織の基準に適合することを確認してください。
 
-* カスタム ビジュアルに名前を付ける (必須): Power BI Desktop ユーザーにとってわかりやすくなるように、ビジュアルに短いタイトルを付けます。
+    * **[カスタム ビジュアルに名前を付ける]** (必須): Power BI Desktop ユーザーにとってわかりやすくなるように、ビジュアルに短いタイトルを付けます
 
-* アイコン (必須): Power BI Desktop UI に表示されるアイコン ファイルです。
+    * **[アイコン]**: Power BI Desktop UI に表示されるアイコン ファイルです。
 
-* 説明: ユーザーにとってわかりやすくなるようにビジュアルに簡単な説明を与えます。
+    * **[説明]**: ユーザーにとってわかりやすくなるようにビジュアルに簡単な説明を与えます
 
-"適用" を選択し、アップロード要求を開始します。 成功すると、一覧に新しい項目が表示されます。 失敗すると、エラー メッセージが表示されます。
+1. **[追加]** を選択して、アップロード要求を開始します。 成功すると、一覧に新しい項目が表示されます。 失敗すると、エラー メッセージが表示されます。
 
 ### <a name="delete-a-custom-visual-from-the-list"></a>一覧からカスタム ビジュアルを削除する
 
-リポジトリからビジュアルを完全削除するごみ箱アイコンを選択します。
-重要: 削除は元に戻すことができません。 削除の直後から、既存のレポートでそのビジュアルのレンダリングが停止します。 同じビジュアルを再度アップロードしても、削除された以前のビジュアルに代わることにはなりません。新しいビジュアルを再度インポートし、レポートにあるインスタンスを置換できます。
+ビジュアルを完全削除するには、リポジトリでビジュアルのごみ箱アイコンを選択します。
+
+> [!IMPORTANT]
+> 削除は元に戻すことができません。 削除の直後から、既存のレポートでそのビジュアルのレンダリングが停止します。 同じビジュアルをもう一度アップロードしても、削除された前のビジュアルが置き換わることはありません。 ただし、ユーザーは、新しいビジュアルを再度インポートして、レポート内に作成したインスタンスを置き換えることはできます。
 
 ### <a name="disable-a-custom-visual-in-the-list"></a>一覧でカスタム ビジュアルを無効にする
 
@@ -371,15 +371,16 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 更新または管理者による変更の後、Power BI Desktop ユーザーはアプリケーションを再起動するか、Power BI サービスでブラウザーを最新の情報に更新して、更新の内容を確認する必要があります。
 
-### <a name="how-to-update-a-visual"></a>ビジュアルを更新する方法
+### <a name="update-a-visual"></a>ビジュアルを更新する
 
-新しいバージョンのビジュアル (バグ修正、新機能など) があるため、リポジトリ内のビジュアルを更新する場合は、**更新**アイコンを選択し、新しいファイルをアップロードします。 ビジュアル ID が変わらないことを確認します。 新しいファイルで、組織全体のすべてのレポートの以前のファイルが置き換えられます。 ただし、ビジュアルの新しいバージョンのためにビジュアルの以前のバージョンを使用できなくなったり、データ構造が破損されたりする可能性がある場合は、以前のバージョンを置き換えないでください。 代わりに、新しいバージョンのビジュアル用に新しく登録することをお勧めします。 たとえば、新しいバージョン番号 (バージョン X.X) を新しく登録されたビジュアルのタイトルに追加します。 こうすると、バージョン番号が更新されているだけで同じビジュアルであることがわかるので、既存のレポートの機能は中断されません。 この場合も、ビジュアル ID が変わらないことを確認します。 次回ユーザーが Power BI Desktop から組織のリポジトリに入ると、新しいバージョンをインポートできます。レポートに入っている現在のバージョンを置換するように求められます。
+組織のストアからビジュアルを更新するには、歯車アイコンを選択します。 新しいバージョンのビジュアルを参照してアップロードします。
+
+ビジュアル ID が変わらないことを確認します。 新しいファイルで、組織全体のすべてのレポートの以前のファイルが置き換えられます。 ただし、ビジュアルの新しいバージョンのためにビジュアルの以前のバージョンを使用できなくなったり、データ構造が破損されたりする可能性がある場合は、以前のバージョンを置き換えないでください。 代わりに、新しいバージョンのビジュアル用に新しく登録することをお勧めします。 たとえば、新しいバージョン番号 (バージョン X.X) を新しく登録されたビジュアルのタイトルに追加します。 こうすると、バージョン番号が更新されているだけで同じビジュアルであることがわかるので、既存のレポートの機能は中断されません。 この場合も、ビジュアル ID が変わらないことを確認します。 次回ユーザーが Power BI Desktop から組織のリポジトリに入ると、新しいバージョンをインポートできます。レポートに入っている現在のバージョンを置換するように求められます。
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI 管理者の役割について](service-admin-role.md)  
+[組織内の Power BI を管理する](service-admin-administering-power-bi-in-your-organization.md)  [Power BI 管理者の役割について](service-admin-role.md)  
 [組織内の Power BI を監査する](service-admin-auditing.md)  
-[Manage Power BI Premium](service-admin-premium-manage.md) (Power BI Premium の管理)  
-[組織内の Power BI を管理する](service-admin-administering-power-bi-in-your-organization.md)  
+[Power BI Premium の管理](service-admin-premium-manage.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

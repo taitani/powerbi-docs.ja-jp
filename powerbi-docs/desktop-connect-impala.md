@@ -10,37 +10,40 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 781e9f6813fee63b7c5d83a2e7e60e1ed1eeedc0
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1b512a3e6ef3ead8d93e1b554fbab3aaed8a2a5a
+ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39326995"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51027393"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Power BI Desktop で Impala データベースに接続する
-Power BI Desktop では、**Impala** データベースに接続し、Power BI Desktop の他のデータ ソースの場合と同様に基になっているデータを使用できます。
+Power BI Desktop では、**Impala** データベースに接続し、Power BI Desktop の他のデータ ソースの場合と同様に、基になっているデータを使用できます。
 
 ## <a name="connect-to-an-impala-database"></a>Impala データベースに接続する
-**Impala** データベースに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリから **[データベース]** を選択します。**[Impala]** が表示されます。
+**Impala** データベースに接続するには、次の手順のようにします。 
 
-![](media/desktop-connect-impala/connect_impala_2.png)
+1. Power BI Desktop の **[ホーム]** リボンで **[データを取得]** を選択します。 
 
-表示された **[Impala]** ウィンドウ内のボックスに Impala サーバーの名前を入力するか、貼り付けます。**[OK]** をクリックします。 Power BI にデータを直接**インポート**したり、**DirectQuery** を使用したりできます。 詳しくは、「[Power BI Desktop の DirectQuery](desktop-use-directquery.md)」をご覧ください。
+2. 左側のカテゴリから **[データベース]** を選択します。 **Impala** が表示されます。
 
-![](media/desktop-connect-impala/connect_impala_3a.png)
+    ![データの取得](media/desktop-connect-impala/connect_impala_2.png)
 
-プロンプトが表示されたら、資格情報を入力するか、匿名で接続します。 Impala コネクタは、匿名、基本 (ユーザー名とパスワード)、Windows 認証をサポートします。
+3. 表示された **[Impala]** ウィンドウで、ボックスに Impala サーバーの名前を入力するか、貼り付けます。 **[OK]** を選択します。 Power BI にデータを直接**インポート**したり、**DirectQuery** を使用したりできます。 詳しくは、[DirectQuery の使用](desktop-use-directquery.md)に関する記事をご覧ください。
 
-![](media/desktop-connect-impala/connect_impala_4.png)
+    ![Impala ウィンドウ](media/desktop-connect-impala/connect_impala_3a.png)
 
-> [!NOTE]
-> 特定の **Impala** サーバーのユーザー名とパスワードを入力した場合、Power BI Desktop は以降もその同じ資格情報を使用して接続を試みます。 これらの資格情報を変更するには、**[ファイル]、[オプションと設定]、[データ ソース設定]** の順に移動します。
-> 
-> 
+4. プロンプトが表示されたら、資格情報を入力するか、匿名で接続します。 Impala コネクタは、匿名、基本 (ユーザー名とパスワード)、Windows 認証をサポートします。
 
-接続が正常に行われたら、**[ナビゲーター]** ウィンドウが開き、サーバー上で使用可能なデータが表示されます。その中から 1 つまたは複数の要素を選択し、**Power BI Desktop** にインポートして使用することができます。
+    ![Impala コネクタ](media/desktop-connect-impala/connect_impala_4.png)
 
-![](media/desktop-connect-impala/connect_impala_5.png)
+    > [!NOTE]
+    > 特定の **Impala** サーバーのユーザー名とパスワードを入力すると、Power BI Desktop は以降もその同じ資格情報を使用して接続を試みます。 これらの資格情報を変更するには、**[ファイル]、[オプションと設定]、[データ ソース設定]** の順に移動します。
+
+
+5. 接続した後、**[ナビゲーター]** ウィンドウが表示され、サーバーで利用可能なデータが表示されます。 このデータから要素を選択してインポートし、**Power BI Desktop** で使用します。
+
+    ![[ナビゲーター] ウィンドウ](media/desktop-connect-impala/connect_impala_5.png)
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 **Impala** コネクタにはいくつかの制限事項と考慮事項があるので注意してください。
@@ -48,7 +51,7 @@ Power BI Desktop では、**Impala** データベースに接続し、Power BI D
 * Impala コネクタは、3 つのサポートされた認証メカニズムのいずれかを使用して、オンプレミス データ ゲートウェイでサポートされます。
 
 ## <a name="next-steps"></a>次の手順
-Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
+Power BI Desktop を使用して接続できるデータ ソースには、たくさんの種類があります。 データ ソースの詳細については、次のリソースを参照してください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)

@@ -7,41 +7,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c0c6de63292d3087aaa78dd97b73f868ef9d804e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b396b55304e468143fe28fb5ed46ed290bfb3812
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293653"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909527"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Power BI テナントの場所
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fOxaHJPvdM?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Power BI テナントが配置される場所およびその場所を選択する方法について説明します。 サービスを使用するときに影響する可能性があるので、これを理解しておくこと重要です。
+Power BI テナントが配置される場所およびその場所を選択する方法について説明します。 場所はユーザーとサービスのやり取りに影響を与える可能性があるので、場所を理解することは重要です。
 
 ## <a name="how-to-determine-where-your-power-bi-tenant-is-located"></a>Power BI テナントの場所を確認する方法
-テナントの場所は次の方法で確認できます。
 
-1. **[?]** ( Power BI サービス) を選択します。
-2. **[About Power BI]** (Power BI のバージョン情報) を選択します。
-3. **[データの保存先]** の隣の値を確認します。 これがテナントの場所です。
+テナントが存在するリージョンを調べるには、次の手順のようにします。
 
-![](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
+1. Power BI サービスの上部のメニューで、ヘルプ **[?]** を選択して、**[Power BI について]** を選択します。
+
+1. **[データの保存先]** の隣の値を確認します。 これは、テナントが存在しているリージョンです。
+
+    ![データ領域](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 
 ## <a name="how-the-data-region-is-selected"></a>データ領域を選択する方法
-データ領域は、テナントを最初に作成するときに選択した国に基づいています。 この情報は共有されるので、これは Power BI だけでなく Office 365 のサインアップにも適用されます。 新しいテナントの場合、サインアップ時に国のドロップダウンが表示されます。
 
-![](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
+データ リージョンは、テナントを作成するときに選択した国に基づきます。 この情報は共有されるので、これは Power BI だけでなく Office 365 のサインアップにも適用されます。 新しいテナントの場合は、サインアップするときに、一覧から適切な国を選択します。
 
-この選択により、データの格納場所が決まります。 Power BI では、この選択に最も近いデータ領域が使用されます。
+![国の選択](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
-> [!WARNING]
-> この選択は変更できません。
-> 
-> 
+Power BI によってこの選択に最も近いデータ リージョンが選択され、テナントのデータの保存場所が決まります。
+
+> [!IMPORTANT]
+> テナントを作成した後で、この選択を変更することはできません。
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

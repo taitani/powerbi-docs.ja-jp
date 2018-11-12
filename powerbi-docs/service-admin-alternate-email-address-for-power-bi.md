@@ -7,59 +7,68 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/08/2018
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5013c70e4d3998eb39e0de2a92f890417175fd62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 41b3a0b1032616045b854e4a4776ba82bffffe47
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240908"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909425"
 ---
 # <a name="using-an-alternate-email-address"></a>代替メール アドレスの使用
-既定では、Power BI へのサインアップに使用するメール アドレスを使用して、Power BI のアクティビティに関する更新情報をユーザーに送信します。  たとえば、他のユーザーから送信される共有の招待は、このアドレスに配信されます。
 
-最初に Power BI にサインアップしたときに使用したメール アドレスとは別の代替メール アドレスに、これらのメールを配信させることができます。
+Power BI にサインアップするときには、メール アドレスを入力します。 既定では、Power BI はこのアドレスを使用して、サービスのアクティビティに関する更新を送信します。 たとえば、他のユーザーから送信される共有の招待は、このアドレスに配信されます。
 
-## <a name="updating-through-office-365-personal-info-page"></a>Office 365 の個人情報ページからの更新
-1. [Office 365 の個人情報ページ](https://portal.office.com/account/#personalinfo)に移動します。  プロンプトが表示されたら、Power BI で使用しているメール アドレスとパスワードを使ってサインインします。
-2. [連絡先の詳細] セクションにある [編集] リンクをクリックします。  
-   
-   > [!NOTE]
-   > [編集] リンクが表示されない場合、お使いのメール アドレスは Office 365 管理者によって管理されているため、管理者に連絡を取ってメール アドレスを更新する必要があります。
-   > 
-   > 
-   
-   ![](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
-3. [代替メール] フィールドに、Power BI の更新情報の宛先メール アドレスを入力します。
+場合によっては、サインアップ時のものとは異なるメール アドレスにメールを配信してほしいことがありあります。 この記事では、PowerShell および Office 365 で代替アドレスを指定する方法について説明します。 また、Azure Active Directory (Azure AD) においてメール アドレスが解決される方法についても説明します。
 
 > [!NOTE]
-> この設定を変更しても、サービスの更新情報、ニュースレター、およびその他のプロモーション用通信の送信に使用されるメール アドレスは変わりません。  これらのメールは常に、最初に Power BI に登録したときに使用したメール アドレスに送信されます。
-> 
-> 
+> 代替アドレスを指定しても、サービス更新、ニュースレター、その他のプロモーション通信に Power BI で使用されるメール アドレスに影響はありません。  これらの通信は常に、Power BI へのサインアップ時に使用したメール アドレスに送信されます。
 
-## <a name="updating-through-azure-active-directory"></a>Azure Active Directory からの更新
-Power BI の Azure Active Directory (AAD) 埋め込みトークンをキャプチャするときは、3 種類のメールを使うことができます。 次の 3 種類です。
+## <a name="use-office-365"></a>Office 365 を使用する
 
-* ユーザーの AAD アカウントに関連付けられている主なメール アドレス
-* UserPrincipalName (UPN) メール アドレス
-* "その他" のメール アドレス配列属性
+Office 365 で代替アドレスを指定するには、次の手順のようにします。
 
-Power BI は、次の条件に基づいて、使うメール アドレスを選びます。
-1.  AAD テナントのユーザー オブジェクトにメール属性が存在する場合、Power BI はそのメール属性をメール アドレスに使います
-2.  UPN メールが **\*.onmicrosoft.com** ドメイン メール アドレス ("\@" 記号の後の情報) では "*ない*" 場合、Power BI はそのメール属性をメール アドレスに使います
-3.  AAD ユーザー オブジェクトに "他の" メール配列属性が存在する場合、そのリストの最初のメール (この属性にはメールのリストが存在する可能性があるため) が使われます
-4. 上記のどの条件も存在しない場合は、UPN アドレスが使われます
+1. [Office 365 の個人情報ページ](https://portal.office.com/account/#personalinfo)を開きます。 プロンプトが表示されたら、Power BI で使用しているメール アドレスとパスワードを使ってサインインします。
 
-## <a name="updating-with-powershell"></a>PowerShell での更新
-もう 1 つの方法として、Azure Active Directory の PowerShell を使って代替メール アドレスを更新することもできます。 それには [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) コマンドを使います。
+1. 左側のメニューで、**[個人情報]** を選択します。
 
-```
+1. **[連絡先の詳細]** セクションで、**[編集]** を選択します。
+
+    詳細を編集できない場合は、メール アドレスが Office 365 管理者によって管理されていることを意味します。 メール アドレスの更新を管理者に依頼してください。
+
+    ![連絡先の詳細](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+
+1. **[連絡用メール アドレス]** フィールドに、Power BI の更新情報の宛先メール アドレスを入力します。
+
+## <a name="use-powershell"></a>PowerShell を使用する
+
+PowerShell で代替アドレスを指定するには、[Set-AzureADUser](/powershell/module/azuread/set-azureaduser/) コマンドを使用します。
+
+```powershell
 Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.com"
 ```
 
-詳しくは、「[Azure Active Directory PowerShell Version 2](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2)」(Azure Active Directory PowerShell バージョン 2) をご覧ください。
+## <a name="email-address-resolution-in-azure-ad"></a>Azure AD でのメール アドレスの解決
+
+Power BI 用に Azure AD 埋め込みトークンをキャプチャするときは、3 種類のメールを使うことができます。
+
+* ユーザーの Azure AD アカウントに関連付けられている主なメール アドレス
+
+* UserPrincipalName (UPN) メール アドレス
+
+* "*その他のメール アドレス*" 配列属性
+
+Power BI では、次の順序で使用するメール アドレスが選択されます。
+
+1. Azure AD テナントのユーザー オブジェクトにメール属性が存在する場合、Power BI はそのメール属性をメール アドレスに使います。
+
+1. UPN メールが **\*.onmicrosoft.com** ドメイン メール アドレス ("\@" 記号の後の情報) では "*ない*" 場合、Power BI はそのメール属性をメール アドレスに使います。
+
+1. Azure AD ユーザー オブジェクトに "*他のメール アドレス*" 配列属性が存在する場合、そのリストの最初のメール (この属性にはメールのリストが存在する可能性があるため) が使われます。
+
+1. 上記のどの条件も存在しない場合は、UPN アドレスが使われます。
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

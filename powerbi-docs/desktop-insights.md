@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a4c73cc81a09a3747ff34e6a20508b4ff19eafa8
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280296"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909619"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop の分析情報を利用し、ビジュアル内で観察される増減について説明する (プレビュー)
 
@@ -36,7 +36,7 @@ ms.locfileid: "39280296"
 
 
 ## <a name="using-insights"></a>インサイトの使用
-グラフ上で確認される増減を説明する目的で分析情報を使用するには、棒グラフまたは折れ線グラフでデータ ポイントを右クリックし、**[分析]、[増加について説明してください]** (または *[減少について説明してください]*。すべての分析情報は前のデータ ポイントからの変化に基づくため) の順に選択します。
+グラフ上で確認される増減を説明する目的で分析情報を使用するには、棒グラフまたは折れ線グラフでデータ ポイントを右クリックし、**[分析] > [増加について説明してください]** (または *[減少について説明してください]*。すべての分析情報は前のデータ ポイントからの変化に基づくため) の順に選択します。
 
 ![分析情報メニューの表示](media/desktop-insights/insights_02.png)
 
@@ -113,7 +113,6 @@ ms.locfileid: "39280296"
 * 上位 N フィルター
 * 含める/除外するフィルター
 * メジャー フィルター
-* 非加法メジャーと集計
 * 数値以外のメジャー
 * "値の表示方法" の使用
 * フィルターが適用された指標 - フィルターが適用された指標とは、特定のフィルター (*フランスの売上合計*など) が適用されたビジュアル レベルの計算結果であり、分析情報機能によって作成された一部のビジュアルで使用されます。
