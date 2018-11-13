@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 636dbceae129d7a5288fa6dfc8a281d5257a087f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564994"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507671"
 ---
 # <a name="printing-from-power-bi-service"></a>Power BI サービスからの印刷
 Power BI サービスから、ダッシュボード全体、ダッシュボード タイル、レポート ページ、またはレポートのビジュアルを印刷します。 レポートは、一度に 1 ページのみを印刷できます。レポート全体を一度に印刷することはできません。
@@ -47,7 +47,7 @@ Power BI サービスから、ダッシュボード全体、ダッシュボー�
 1. 省略記号を選んでフォーカス アイコン ![フォーカス アイコン](./media/end-user-print/power-bi-focus-icon.png) を選び、[タイルをフォーカス モードで開きます](end-user-focus.md)。
    
     ![省略記号メニュー](./media/end-user-print/menu-options.png)
-2. 上部ナビゲーション バーの全画面表示アイコン ![全画面表示アイコン](./media/end-user-print/power-bi-full-screen-icon.png) を選ぶことにより、[全画面表示モード](../service-fullscreen-mode.md)でタイルを開きます。
+2. 上部ナビゲーション バーの全画面表示アイコン ![全画面表示アイコン](./media/end-user-print/power-bi-full-screen-icon.png) を選ぶことにより、[全画面表示モード](end-user-focus.md)でタイルを開きます。
 3. タイルの上にカーソルを移動して、[オプション] メニューを表示します。
    
     ![全画面表示オプション メニュー](./media/end-user-print/menu-options-new.png)

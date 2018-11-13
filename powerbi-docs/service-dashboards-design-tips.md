@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544968"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507855"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>優れた Power BI ダッシュボードのデザインに関するヒント
 ダッシュボードの作成が完了し、タイルもいくつか追加したので、ダッシュボードの外観をよくすることに加えて、機能的なものにする方法についても考えてみましょう。 通常、この改良は、最も重要な情報を目立つようにしたり、簡潔ですっきりとした外観にしたりすることです。
@@ -43,7 +43,7 @@ Microsoft Principal Program Manager と Power BI ダッシュボード エキス
 ダッシュボードに情報を詰め込みすぎて雑然としていませんか。  不可欠な情報以外のすべてを削除して、読みやすく、分かりやすいものにします。
 
 ## <a name="make-use-of-full-screen-mode"></a>全画面表示モードの使用
-余計なものに気を取られることなく、ダッシュボードを[全画面表示](service-fullscreen-mode.md)で表示します。
+余計なものに気を取られることなく、ダッシュボードを[全画面表示](consumer/end-user-focus.md)で表示します。
 
 ## <a name="make-the-most-important-information-biggest"></a>最も重要な情報を最も大きくする
 ダッシュボード上のテキストと視覚化がすべて同じサイズの場合、閲覧者は最も重要なことを見つけるのに苦労します。 たとえば、次のようなカードの視覚化は、重要な数値を目立つように表示するための優れた方法です。  

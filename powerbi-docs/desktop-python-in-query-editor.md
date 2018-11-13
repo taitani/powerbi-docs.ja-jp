@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 873b83221aa5a1a728d648cccf7a23d5924dfb6d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: c3664eee2d3836fc802d1728bbfe7fce3e03e18d
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975497"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297207"
 ---
 # <a name="using-python-in-query-editor"></a>クエリ エディターでの Python の使用
 Power BI Desktop **クエリ エディター**では、統計学者、データ科学者、データ分析官によって広く使用されているプログラミング言語、**Python** を使用できます。 Python と**クエリ エディター**を統合することで、Python を使用したデータ クレンジングを実行したり、データセットで高度なデータ シェイプおよびデータ分析 (失ったデータを埋める、予測、クラスター化など) を実行したりできます。 **Python** は高度な言語であり、**クエリ エディター**で使用し、ご自分のデータ モデルを用意したり、レポートを作成したりできます。
@@ -75,9 +75,7 @@ Power BI Desktop の**クエリ エディター**で **Python** を使用する�
 そのビジュアルが完成したら (**Power BI Desktop** を使用して作成する必要がある任意の他のビジュアル)、**Power BI Desktop** ファイルを保存し (.pbix ファイルとして保存)、Power BI サービスでデータ モデル (その一部である Python スクリプトが含まれる) を使用できます。
 
 > [!NOTE]
-> 以上の手順を完了した .pbix ファイルをご覧になる場合は、 上記の例で使用されている **Power BI Desktop** ファイルの完成したものを[ここから](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete Values with Python in PQ.pbix)ダウンロードできます。
-> 
-> 
+> 以上の手順を完了した .pbix ファイルをご覧になる場合は、 上記の例で使用されている **Power BI Desktop** ファイルの完成したものを[ここから](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)ダウンロードできます。
 
 .pbix ファイルを Power BI サービスにアップロードしたら、さらにいくつかの手順を行い、(サービスで) データ更新を有効にし、サービスでビジュアルの更新を有効にする必要があります (ビジュアルを更新するには、データが Python にアクセスする必要があります)。 追加の手順は次のとおりです。
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/09/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 4f65371d0f94c8336b9b6667bae32ef0bdfdf5e3
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473927"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507606"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI サービスの利用者向けのダッシュボード
 
@@ -26,7 +26,7 @@ Power BI の "***ダッシュボード***" は、視覚化を使ってストー�
 ダッシュボードに表示される視覚化は "*タイル*" と呼ばれ、レポートからダッシュボードに "*ピン留め*" されます。 Power BI を初めて使うときは、[Power BI の基本的な概念](end-user-basic-concepts.md)に関するページを読むと基礎がよくわかります。
 
 > [!NOTE]
-> ダッシュボードは、Power BI サービスの機能であり、Power BI Desktop では使用できません。 モバイル デバイスでは、ダッシュボードを作成することはできませんが、[表示して共有する](/mobile/mobile-apps-view-dashboard.md)ことはできます。
+> ダッシュボードは、Power BI サービスの機能であり、Power BI Desktop では使用できません。 モバイル デバイスでは、ダッシュボードを作成することはできませんが、[表示して共有する](mobile/mobile-apps-view-dashboard.md)ことはできます。
 > 
 > 
 

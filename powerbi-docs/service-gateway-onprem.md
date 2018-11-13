@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558449"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297138"
 ---
 # <a name="on-premises-data-gateway"></a>オンプレミス データ ゲートウェイ
 
@@ -47,9 +47,9 @@ ms.locfileid: "45558449"
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイをダウンロードし、インストールする
 
-ゲートウェイをダウンロードするには、[ダウンロード] メニューで **[データ ゲートウェイ]** を選択します。 [オンプレミス データ ゲートウェイ](http://go.microsoft.com/fwlink/?LinkID=820925)をダウンロードします。 
+ゲートウェイをダウンロードするには、[ダウンロード] メニューで **[データ ゲートウェイ]** を選択します。 [オンプレミス データ ゲートウェイ](http://go.microsoft.com/fwlink/?LinkID=820925)をダウンロードします。
 
-このセクションで説明されているように、オンプレミス データ ゲートウェイの更新は、ゲートウェイの再インストールによって実現されます。 (再インストールして) ゲートウェイを更新しても、既存のゲートウェイの設定は保持されます。
+このセクションで説明されているように、オンプレミス データ ゲートウェイは、ゲートウェイの再インストールによって更新されます。 新しいバージョンのゲートウェイをインストールする限りは、既存の設定は保持されます。 同じバージョンをインストールした場合は、完全な再インストールとして処理され、設定は保持されません。
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -118,7 +118,7 @@ Power BI にサインインし、クラウド サービスにゲートウェイ�
 [データ ソースの管理 - Oracle](service-gateway-onprem-manage-oracle.md)  
 [データ ソースの管理 - インポート/スケジュールされた更新](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [オンプレミス データ ゲートウェイの詳細](service-gateway-onprem-indepth.md)  
-[オンプレミス データ ゲートウェイ (個人用モード) - 新しいバージョンのパーソナル ゲートウェイ](service-gateway-personal-mode.md)
+[オンプレミス データ ゲートウェイ (個人用モード) - 新しいバージョンのパーソナル ゲートウェイ](service-gateway-personal-mode.md)  
 [オンプレミス データ ゲートウェイのプロキシ設定を構成する](service-gateway-proxy.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

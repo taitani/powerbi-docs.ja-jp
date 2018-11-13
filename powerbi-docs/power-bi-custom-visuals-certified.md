@@ -2,6 +2,7 @@
 title: 認定済みの Power BI カスタム ビジュアル
 description: 認定のためにカスタム ビジュアルを送信する場合の要件とプロセス。 認定済みのカスタム ビジュアルの一覧。
 author: mihart
+ms.author: mihart
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,45 +10,46 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mihart
-ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252401"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223446"
 ---
 # <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
+
 ## <a name="what-is-meant-by-certified"></a>*認定* とは
+
 *認定済みカスタム ビジュアル*とは、一連のコードの要件を満たし、厳密なセキュリティ テストに合格したものです。  カスタム ビジュアルが認定されたら、[PowerPoint にエクスポートすることができ](consumer/end-user-powerpoint.md)、ユーザーが[レポート ページをサブスクライブ](consumer/end-user-subscribe.md)したときに受け取るメールにそれが表示されます。 もちろん、[標準カスタム ビジュアル](power-bi-custom-visuals.md)として使用したり、Power BI サービスと Power BI Desktop レポートに追加したり、Power BI モバイルで表示したり、埋め込んだりすることもできます。
 
-独自の視覚エフェクトを作成して [Microsoft AppSource](https://appsource.microsoft.com) に追加することに興味がある Web 開発者の方は、 「[開発者ツールの概要](service-custom-visuals-getting-started-with-developer-tools.md)」をご覧ください。
-
+独自の視覚エフェクトを作成して [Microsoft AppSource](https://appsource.microsoft.com) に追加することに興味がある Web 開発者の方は、 「[Power BI カスタム ビジュアルを開発する](developer/custom-visual-develop-tutorial.md)」をご覧ください。
 
 ## <a name="certification-requirements"></a>認定要件
-* Microsoft AppSource による承認済み    
-* カスタム ビジュアルがバージョン管理された API 1.2 以降で記述されていること    
-* レビュー用にコード リポジトリが使用可能なこと (たとえば、ビジュアル コードが GitHub を通じて利用できること)    
-* 公開レビュー可能な OSS コンポーネントのみを使用すること    
-* 外部のサービスまたはリソースにアクセスしないこと    
+
+* Microsoft AppSource による承認済み
+* カスタム ビジュアルがバージョン管理された API 1.2 以降で記述されていること
+* レビュー用にコード リポジトリが使用可能なこと (たとえば、ビジュアル コードが GitHub を通じて利用できること)
+* 公開レビュー可能な OSS コンポーネントのみを使用すること
+* 外部のサービスまたはリソースにアクセスしないこと
 
 > **ヒント**: 送信する前に、EsLint と既定のセキュリティ ルールセットを使用して、コードを事前検証することをお勧めします。
-> 
-> 
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>認定のためにカスタム ビジュアルを送信するプロセス
+
 認定のためにカスタム ビジュアルを送信するには、次の手順に従います。
 
 1. Power BI カスタム ビジュアルのサポート (pbicvsupport@microsoft.com) に電子メールを送信します。 電子メールには、次の情報を含めます。    
 
-   * 件名: ビジュアル認定の要求    
-   * ビジュアルのソース コードがホストされている GitHub リポジトリへのリンク    
-   * 要件 (上記参照) の遵守    
-   * コードとセキュリティ レビューの提出    
+   * 件名: ビジュアル認定の要求
+   * ビジュアルのソース コードがホストされている GitHub リポジトリへのリンク
+   * 要件 (上記参照) の遵守
+   * コードとセキュリティ レビューの提出
 
 2. カスタム ビジュアルが認定され、認定リスト (下記) に追加された場合、または修正する必要がある問題のレポートで拒否された場合は、マイクロソフトのカスタム ビジュアル チームによって通知されます。 マイクロソフトとの連絡手段を維持し、必要に応じて認定済みのビジュアルを更新するのは、開発者の責任です。
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI の認定済みのカスタム ビジュアルの削除
+
 マイクロソフトは独自の裁量で認定リストからビジュアルを削除できます。  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>認定されているカスタム ビジュアルの一覧
@@ -142,10 +144,11 @@ ms.locfileid: "50252401"
 | [ワード クラウド](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [ビデオ](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>次の手順
-[カスタム ビジュアル開発者ツール (プレビュー) の概要](service-custom-visuals-getting-started-with-developer-tools.md)      
-[YouTube の Microsoft カスタム ビジュアル プレイリスト](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Power BI での視覚化](visuals/power-bi-report-visualizations.md)  
-[Power BI でのカスタム ビジュアル](power-bi-custom-visuals.md)  
-[Microsoft AppSource へのカスタム ビジュアルの公開](developer/office-store.md)  
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 
+* [Power BI カスタム ビジュアルの開発](developer/custom-visual-develop-tutorial.md)
+* [YouTube の Microsoft カスタム ビジュアル プレイリスト](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
+* [Power BI での視覚化](visuals/power-bi-report-visualizations.md)  
+* [Power BI でのカスタム ビジュアル](power-bi-custom-visuals.md)  
+* [Microsoft AppSource へのカスタム ビジュアルの公開](developer/office-store.md)  
+
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

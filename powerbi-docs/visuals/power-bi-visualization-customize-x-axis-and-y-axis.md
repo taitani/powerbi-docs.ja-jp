@@ -8,15 +8,15 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545947"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265911"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X 軸と Y 軸のプロパティのカスタマイズ
 このチュートリアルでは、視覚化に含まれる X 軸と Y 軸をカスタマイズする、さまざまな方法について説明します。 ただし、軸のない視覚化や、カスタマイズできない視覚化もあります。たとえば、円グラフに軸はありません。 カスタマイズのオプションは視覚化によって異なるため、数が多すぎて 1 つの記事では扱いきれません。 そこで、よく使われる軸のカスタマイズをいくつか見ていくほか、Power BI レポート キャンバスで使用する視覚的な書式設定タブについて説明します。  
@@ -86,30 +86,33 @@ Power BI サービスにサインインし、**小売りの分析のサンプル
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
-> 1. 1 月の粗利 (%) は 35% で、4 月には最高値の 45% になり、7 月に下がって 8 月に再びピークに達しました。 前年と本年は同じ売上パターンになるでしょうか?
-> 2. **[This Year Sales] > [Value]** と **[Last Year Sales]** を折れ線グラフに追加します。 **[GM% Last Year]** (0M% のグリッド線に沿った青い線) の目盛が **[Sales]** の目盛よりかなり小さいため、比較が困難です。 また、Y 軸のラベルのパーセンテージがおかしくなっています。      
+    > [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+    1 月の粗利 (%) は 35% で、4 月には最高値の 45% になり、7 月に下がって 8 月に再びピークに達しました。 前年と本年は同じ売上パターンになるでしょうか?
+     
+3. **[This Year Sales] > [Value]** と **[Last Year Sales]** を折れ線グラフに追加します。 **[GM% Last Year]** (0M% のグリッド線に沿った青い線) の目盛が **[Sales]** の目盛よりかなり小さいため、比較が困難です。 また、Y 軸のラベルのパーセンテージがおかしくなっています。      
+
+    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+
 5. ビジュアルの読みやすく分かりやすくするため、折れ線グラフを「折れ線グラフおよび積み上げ縦棒グラフ」に変換します。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
 6. **[Gross Margin% Last Year]** (前年の粗利 (%)) を **[各棒の値]** から **[線の値]** にドラッグします。 上で作成した積み上げ縦棒グラフに***加えて***、折れ線グラフが表示されるようになりました   (上で学んだことを使って、必要に応じて、軸のフォントの色とサイズを設定してください)。
    
-
    Power BI によって 2 つの軸が作成されるため、各データ セットを異なる縮尺でプロットできます。つまり、左側の測定単位はドルで、右側の測定単位は割合です。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
 
 ### <a name="format-the-secondary-y-axis"></a>2 番目の Y 軸の書式を設定する
-1. **[視覚化]** ウィンドウで、ペイント ローラーのアイコンを選択して、書式設定のオプションを表示します。
-2. 下矢印を選択して、Y 軸のオプションを展開します。
-3. **[セカンダリを表示]** のオプションが見つかるまで、リストをスクロールします。 **[セカンダリを表示]** を **[オフ]** から **[オン]** に切り替えます。
+1. **[視覚化]** ウィンドウで、ペイント ローラーのアイコンを選択して、書式設定のオプションを表示します。    
+2. 下矢印を選択して、Y 軸のオプションを展開します。    
+3. **[セカンダリを表示]** のオプションが見つかるまで、リストをスクロールします。 **[セカンダリを表示]** を **[オフ]** から **[オン]** に切り替えます。    
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
+
 4. (省略可能) 2 つの軸をカスタマイズします。 棒の軸または線の軸の**位置**を切り替えた場合、2 つの軸の左右が切り替わります。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axes-options.png)
@@ -120,7 +123,7 @@ Power BI サービスにサインインし、**小売りの分析のサンプル
 1. **「Y 軸 (棒)」** と **「Y 軸 (折れ線)」** の **[タイトル]** を **[オン]** に切り替えます。
 2. **[スタイル]** を **[タイトルの表示のみ]** に設定します。
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    
 3. これで、複合グラフに 2 つの軸がともにタイトル付きで表示されます。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)
