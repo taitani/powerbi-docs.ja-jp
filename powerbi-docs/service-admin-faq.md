@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ec687e4751c6003fe558f2088825eae0bf4be11
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973398"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157082"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -38,7 +38,7 @@ ms.locfileid: "50973398"
 
 * [組織内のユーザーの ID を管理する方法はどのように変わりますか。](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Power BI を管理するにはどうすればよいですか。](#how-do-we-manage-power-bi)
-* [Microsoft によってユーザーに対して作成されたテナントを管理するにはどうすればよいですか。](#what-is-the-process-to-manage-a-tenant-created-by-Microsoft-for-my-users)
+* [Microsoft によってユーザーに対して作成されたテナントを管理するにはどうすればよいですか。](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [複数のドメインがある場合、ユーザーが追加される Office 365 テナントを制御できますか。](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
 * [Power BI に既にサインアップしているユーザーを削除するにはどうすればよいですか。](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [新しいユーザーがいつテナントに参加したかを確認するにはどうすればよいですか。](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -241,7 +241,7 @@ Power BI SLA (サービス レベル アグリーメント) については、Mi
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI は、国、地域、および業界固有のコンプライアンス要件を満たしていますか。
 
-Power BI のコンプライアンスの詳細については、[Microsoft セキュリティ センター](http://go.microsoft.com/fwlink/?LinkId=785324)を参照してください。
+Power BI のコンプライアンスの詳細については、[Microsoft セキュリティ センター](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx)を参照してください。
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI のセキュリティはどのように機能していますか。
 

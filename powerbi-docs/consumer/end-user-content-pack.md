@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507717"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679112"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>組織のコンテンツ パックを検索して接続する
 
@@ -38,7 +38,7 @@ ms.locfileid: "51507717"
 ## <a name="connect-to-an-organizational-content-pack"></a>組織のコンテンツ パックに接続する
 * **[今すぐ入手する]** を選択して、コンテンツ パックに接続し、アクティブなワークスペースにそれを追加します。 新しいダッシュボード、レポート、Excel ブック、データセットには、黄色のアスタリスクが付けられます。
 
-コンテンツ パックに Excel ブックがある場合は、ブックを表示するアクセス許可がないと、警告が表示されることがあります。 その場合は、コンテンツ パックの所有者に [OneDrive for Business でブックを共有する](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)ように依頼してください。 
+コンテンツ パックに Excel ブックがある場合は、ブックを表示するアクセス許可がないと、警告が表示されることがあります。 その場合は、コンテンツ パックの所有者に [OneDrive for Business でブックを共有する](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)ように依頼してください。 
 
 コンテンツ パックがロックされます。 [ダッシュボードとレポートの自分用のコピーを保存](../service-organizational-content-pack-copy-refresh-access.md)できます。 
 

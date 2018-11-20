@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297138"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679020"
 ---
 # <a name="on-premises-data-gateway"></a>オンプレミス データ ゲートウェイ
 
@@ -100,7 +100,7 @@ Power BI にサインインし、クラウド サービスにゲートウェイ�
 ## <a name="enabling-outbound-azure-connections"></a>Azure の送信接続を有効にする
 
 オンプレミス データ ゲートウェイは、クラウド接続の際に Azure Service Bus に依存します。それに応じて、関連付けられている Azure リージョンへの送信接続を確立します。 既定では、これは Power BI テナントの場所となります。 「[Power BI テナントの場所](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)」を参照してください。
-送信接続がファイアウォールでブロックされている場合は、オンプレミス データ ゲートウェイから関連付けられている Azure リージョンへの送信接続を許可するようにファイアウォールを構成する必要があります。 各 Azure データ センターの IP アドレス範囲の詳細については、「[Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=41653)」 (Microsoft Azure データセンターの IP 範囲) を参照してください。
+送信接続がファイアウォールでブロックされている場合は、オンプレミス データ ゲートウェイから関連付けられている Azure リージョンへの送信接続を許可するようにファイアウォールを構成する必要があります。 各 Azure データ センターの IP アドレス範囲の詳細については、「[Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/download/details.aspx?id=41653)」 (Microsoft Azure データセンターの IP 範囲) を参照してください。
 > [!NOTE]
 > IP アドレスの範囲は時間の経過と共に変わる可能性があるため、必ず最新情報を定期的にダウンロードしてください。 
 

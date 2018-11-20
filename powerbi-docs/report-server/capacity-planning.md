@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561818"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679294"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server のキャパシティ プランニング ガイダンス
 Power BI Report Server はセルフ サービスの BI およびエンタープライズ レポート ソリューションであり、ユーザーはファイアウォールの内側のオンプレミスに展開できます。 Power BI Desktop の対話型レポート機能と、SQL Server Reporting Services のオンプレミスのサーバー プラットフォームが組み合わされています。 企業では分析とレポートが大量に使用され、さらに増え続けており、エンタープライズ ユーザー ベースへの拡張に必要なハードウェア インフラストラクチャやソフトウェア ライセンスの予算が問題になる場合があります。 このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 レポート、クエリ、使用のパターンは組織によって大きく異なりますが、ここで示す結果と、実際に使われたテストおよび実行方法の詳細な説明は、Power BI Report Server の展開の早期計画プロセスで参考になります。
@@ -82,7 +82,7 @@ Power BI Report Server の展開は、次の仮想マシンで構成されてい
 | **ページ分割されたレポートの処理量が多い** |同時ユーザー100 人 |同時ユーザー160 人 |
 
 ### <a name="total-user-capacity"></a>ユーザーの合計容量
-Microsoft の運用環境には Power BI Report Server が展開されており、複数のチームがそれを使っています。 この環境の実際の使用状況を分析すると、特定の時点 (毎日のピーク負荷時でも) の同時ユーザー数は、総ユーザー ベースの 5% を超えないことがわかります。 この 5% という同時ユーザー数の割合をベンチマークとして使い、Power BI Report Server が 99% の信頼性で処理できるユーザー ベースの総数を推定しました。
+Microsoft の運用環境には Power BI Report Server が展開されており、複数のチームがそれを使っています。 この環境の実際の使用状況を分析すると、特定の時点 (毎日のピーク負荷時でも) の同時ユーザー数は、総ユーザー ベースの 5% を超えないことがわかります。 この 5% というコンカレンシーの割合をベンチマークとして使い、Power BI Report Server が 99% の信頼性で処理できるユーザー ベースの総数を推定しました。
 
 | ワークロード | 8 コア/32 GB | 16 コア/64 GB |
 | --- | --- | --- |
@@ -105,7 +105,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 
 <iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
-## <a name="summary"></a>まとめ
+## <a name="summary"></a>サマリー
 各ロード テストの実行で、Power BI Report Server マシンのピーク負荷時に最も負荷がかかるリソースは CPU でした。 このため、最初に増やす必要があるリソースはコアの数です。 または、トポロジに Power BI Report Server をホストするサーバーを追加することによるスケールアウトも検討できます。
 
 このホワイト ペーパーで示した結果は、特定のデータ セットを使う特定のレポート セットを特定の方法で繰り返すことにより得られたものです。 参考としては役に立ちますが、実際の使用状況は Power BI Report Server の実際のレポート、クエリ、使用パターン、および展開に依存することに留意してください。
@@ -114,7 +114,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 ### <a name="1-topology"></a>1 トポロジ
 **1.1 Power BI Report Server のトポロジ**
 
-異なる構成での Power BI Report Server の動作にのみ注目するため、各マシンの種類 (Power BI Report Server をホストしているマシンを除きます) の VM の構成は固定にしました。 各マシンを、Premium Storage ディスクを使う第 2 世代 (v2) D シリーズ マシンに従ってプロビジョニングしました。 各 VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/) を参照してください。
+異なる構成での Power BI Report Server の動作にのみ注目するため、各マシンの種類 (Power BI Report Server をホストしているマシンを除きます) の VM の構成は固定にしました。 各マシンを、Premium Storage ディスクを使う第 2 世代 (v2) D シリーズ マシンに従ってプロビジョニングしました。 各 VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/) を参照してください。
 
 | 仮想マシンの種類 | プロセッサ | メモリ | Azure VM のサイズ |
 | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 
 **1.2 Power BI Report Server の仮想マシンの構成** 
 
-Power BI Report Server をホストする仮想マシンには、異なる構成のプロセッサとメモリを使いました。 他の VM とは異なり、このマシンは、Premium Storage ディスクを使う第 3 世代 (v3) D シリーズ マシンに従ってプロビジョニングしました。 この VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/) を参照してください。
+Power BI Report Server をホストする仮想マシンには、異なる構成のプロセッサとメモリを使いました。 他の VM とは異なり、このマシンは、Premium Storage ディスクを使う第 3 世代 (v3) D シリーズ マシンに従ってプロビジョニングしました。 この VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/) を参照してください。
 
 | 仮想マシン | プロセッサ | メモリ | Azure VM のサイズ |
 | --- | --- | --- | --- |

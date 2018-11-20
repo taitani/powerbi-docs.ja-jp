@@ -1,21 +1,21 @@
 ---
 title: Q&A の言語スキーマの編集と言い回しの追加 - Power BI
 description: Power BI Desktop を使って、Power BI の Q&A で使われる言語スキーマを編集する方法です。
-author: willthom
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: mihart
+ms.reviewer: willthom
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5d57ab76b97ea6b810169710553597e2e8a5d55f
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: ea11394c8b559b38f3c01fe339afac4ce3b0d863
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435421"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717955"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop で Q&A の言語スキーマを編集し、言い回しを追加する 
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 データが回答になる場合にはさらに効果的です。Power BI の Q&A ではこれが可能です。 Power BI の Q&A に質問すると、Q&A は質問にできるだけ正しく回答します。 

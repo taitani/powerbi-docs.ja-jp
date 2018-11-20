@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003296"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679457"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop における DAX の基本事項
 この記事は、Power BI Desktop を初めて使用するユーザー向けです。 さまざまな基本的な計算とデータ分析の問題を解決するために Data Analysis Expressions (DAX) を使用する方法を、手早く簡単に説明します。 いくつかの概念について説明した後、一連のタスクを実行します。学んだ内容をテストするクイズも含まれています。 この記事を完了すると、DAX で最も重要な基本概念をよく理解できるようになります。
@@ -142,7 +142,7 @@ DAX に含まれる関数のカテゴリは次のとおりです: [日付と時�
 * DAX には、さまざまなタイム インテリジェンス関数が含まれています。 これらの関数では、日付範囲を定義または選択し、それに基づいて動的な計算を実行できます。 たとえば、対応する期間ごとに合計を比較できます。
 * Excel には、VLOOKUP というよく使用される関数があります。 DAX 関数では、Excel での VLOOKUP のようには、セルまたはセル範囲を参照することがありません。 DAX 関数では、列またはテーブルを参照として受け取ります。 また、Power BI Desktop ではリレーショナル データ モデルを取り扱うという点に注意してください。 別のテーブル内の値を検索することは非常に簡単な操作で、ほとんどの場合、数式を作成する必要はまったくありません。
   
-  ご覧のとおり、DAX の関数を使用すると非常に強力な数式を作成できます。 ここでは、関数のごく基礎的な部分だけを紹介しました。 DAX のスキルが増すにつれて、多くの異なる関数を使用して数式を作成できるようになります。 各 DAX 関数の詳細について学ぶ最適な資料の 1 つは、「[DAX 関数リファレンス](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference)」です。
+  ご覧のとおり、DAX の関数を使用すると非常に強力な数式を作成できます。 ここでは、関数のごく基礎的な部分だけを紹介しました。 DAX のスキルが増すにつれて、多くの異なる関数を使用して数式を作成できるようになります。 各 DAX 関数の詳細について学ぶ最適な資料の 1 つは、「[DAX 関数リファレンス](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)」です。
 
 ### <a name="functions-quickquiz"></a>関数クイズ
 1. 関数が常に参照するものは何ですか?

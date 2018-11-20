@@ -1,7 +1,7 @@
 ---
 title: Power BI サービスでデータ アラートを設定する
 description: Microsoft Power BI サービスで設定した制限を超えてダッシュボード内のデータが変更された場合に通知されるように、アラートを設定する方法について説明します。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d7251cea6a8244562b22d6511df754d3287587af
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 52f5d7e8bbf6f22f930ad7b4703587ea3af3dc94
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726342"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717518"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI サービスでのデータ アラート
 アラートを設定すると、ダッシュボード内のデータが設定した制限を超えて変更された場合に通知されます。 

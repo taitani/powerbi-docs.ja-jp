@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909320"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157404"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI を Office 365 パートナー サブスクリプションに追加できない
 
@@ -23,7 +23,7 @@ Office 365 では、企業が独自のソリューションとバンドルおよ
 
 Office 365 サブスクリプションに加えて Power BI のご利用に関心をお持ちの場合は、お客様のパートナーにお問い合わせください。 現在パートナーで Power BI が提供されていない場合は、他のオプションを利用できます。
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>パートナーから Power BI を購入する
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>パートナーから Power BI を購入する
 
 Power BI Pro または Power BI Premium へのサブスクリプションを購入する場合、パートナーに問い合わせて選択できるオプションについて検討します。
 
@@ -31,7 +31,7 @@ Power BI Pro または Power BI Premium へのサブスクリプションを購�
 
 * パートナーは、Power BI を Microsoft から直接、または Power BI を提供している別のパートナーから購入できるモデルにお客様を移行することができます。
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>Microsoft または別のチャネルから購入する
+## <a name="purchase-from-microsoft-or-another-channel"></a>Microsoft または別のチャネルから購入する
 
 パートナーとの関係によっては、Microsoft または別のパートナーから Power BI を直接購入できる場合があります。 Office 365 管理ポータルで、Power BI サブスクリプションを追加できるかどうかを確認できます (全体管理者または課金管理者のロールのメンバーシップが必要)。
 

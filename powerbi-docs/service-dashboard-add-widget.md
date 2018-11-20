@@ -1,7 +1,7 @@
 ---
 title: 画像、テキスト、ビデオ、ストリーミング データをダッシュボードに追加する
 description: '[タイルの追加] ウィジェットを使用して画像、ビデオ、テキスト ボックス、Web コード、ストリーミング データ タイルをダッシュボードに追加する方法に関するドキュメント。'
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 68195883f2aad0f3131ec14c508334ac41cd918b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 01af6707cf53f1a5be3f1e7446e967b2306e993b
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545868"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717925"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>画像、テキスト、ビデオ、その他をダッシュボードに追加する
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>

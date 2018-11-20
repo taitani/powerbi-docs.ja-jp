@@ -1,21 +1,21 @@
 ---
 title: 'Power BI の売上およびマーケティングのサンプル: 使ってみる'
 description: 'Power BI の売上およびマーケティングのサンプル: 使ってみる'
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5e69f9416f1de84cd4e2268964620b6a114d4016
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944493"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717587"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI の売上およびマーケティングのサンプル: 使ってみる
 
@@ -24,7 +24,7 @@ ms.locfileid: "36944493"
 
 VanArsdel 社には多くの競合他社が存在しますが、その業界における市場リーダーです。 CMO は市場シェアの拡大と成長の機会を狙っています。 しかし何らかの理由から、VanArsdel 社の市場シェアが縮小し始め、6 月には急激な落ち込みを見せました。
 
-このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、obviEnce (www.obvience.com) が収集している匿名化された実データです。
+このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、匿名化された obviEnce (www.obvience.com) 社の実際のデータです。
 
 ![](media/sample-sales-and-marketing/sales1.png)
 
