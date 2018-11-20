@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223055"
+ms.locfileid: "51266095"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
@@ -22,13 +22,14 @@ ms.locfileid: "51223055"
 
 | ホワイト ペーパー | 説明 | 日付 |
 | --- | --- | --- |
+| [Power BI and Dataflows (Power BI とデータフロー)](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| このホワイト ペーパーでは、データフローの技術的な詳細およびデータフロー機能の背後にある機能とイニシアティブについて説明します。 | 2018 年 11 月 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Power BI Premium の起動時の状態と展開方法について説明します。 | 2017 年 10 月 |
 | [Power BI Premium の計画と展開](https://aka.ms/Premium-Capacity-Planning-Deployment)| このホワイト ペーパーでは、適切に定義されたワークロードの Premium 容量を計画して展開するためのガイダンスとベスト プラクティスを提供します。| 2017 年 11 月 |
 | [Power BI Premium による埋め込み分析のための容量を分析する](https://aka.ms/pbiewhitepaper) |この白書は、アプリ開発者/ISV がそのビジネスに最適な容量を決定するための指針を提供します。 | 2017 年 10 月 |
 | [Power BI のエンタープライズ展開の計画](https://aka.ms/pbienterprisedeploy) |これは、組織で効果的かつ安全に Power BI を展開するための考慮事項をまとめた技術白書です。 | 2018 年 7 月 |
 | [Power BI Report Server のキャパシティ プランニング ガイダンス](report-server/capacity-planning.md) |このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 | 2018 年 3 月 |
 | [セキュリティ](service-admin-power-bi-security.md) |Power BI でのセキュリティについて詳細に説明します。 | 2018 年 7 月 |
-| [Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](https://aka.ms/powerbi-b2b-whitepaper)|この資料では、Azure Active Directory Business-to-business (AAD B2B) の統合を使用して組織外のユーザーにコンテンツを配布する方法について説明します。| 2018 年 3 月 |
+| [Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](https://aka.ms/powerbi-b2b-whitepaper)|このホワイト ペーパーでは、Azure Active Directory Business-to-business (AAD B2B) の統合を使用して組織外のユーザーにコンテンツを配布する方法について説明します。| 2018 年 3 月 |
 | [Power BI を使用した高度な分析](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |予測分析、カスタム視覚化、R の統合、データ分析式などの、Power BI の高度な分析機能について説明します。 | 2017 年 2 月 |
 | [レポートとビジュアルのデザインに関するベスト プラクティス](visuals/power-bi-visualization-best-practices.md) |Power BI でレポートをデザインするためのベスト プラクティスを示します。 | 2018 年 6 月 |
 | [双方向フィルタリング](desktop-bidirectional-filtering.md) |Power BI Desktop での双方向のクロス フィルタリングについて説明します (同じ動作の SQL Server Analysis Services 2016 についても説明されています)。 | 2018 年 7 月 |

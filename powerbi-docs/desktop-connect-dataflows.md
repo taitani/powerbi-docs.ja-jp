@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop で Power BI データフローによって作成されたデータに接続する (プレビュー)
+title: Power BI Desktop で Power BI データフローによって作成されたデータに接続する (ベータ版)
 description: Power BI Desktop でデータフローに簡単に接続して使用します
 author: davidiseminger
 manager: kfile
@@ -7,58 +7,46 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3964b96f8f282772f6d511c9c412e0caabd1d00
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: f87db1f715118f346e3b8069897e92fd157f881c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512909"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265934"
 ---
-# <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-preview"></a>Power BI Desktop で Power BI データフローによって作成されたデータに接続する (プレビュー)
+# <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Power BI Desktop で Power BI データフローによって作成されたデータに接続する (ベータ版)
 **Power BI Desktop** では、Power BI Desktop の他のデータ ソースと同様に、**Power BI データフロー**によって作成されたデータに接続できます。
 
 ![データフローへの接続](media/desktop-connect-dataflows/connect-dataflows_01.png)
 
-**Power BI データフロー (プレビュー)** コネクタを使用すると、Power BI サービスでデータフローによって作成されたエンティティに接続できます。 データフローはプレビュー段階なので、システムでデータフロー コネクタを使用できるようにするためにいくつかの手順を行う必要があります。 
-
-
-## <a name="download-and-enable-the-power-bi-dataflows-connector-preview"></a>Power BI データフロー コネクタをダウンロードして有効にする (プレビュー)
-
-**Power BI データフロー** コネクタのコピーをダウンロードし、コンピューター上の特定の場所にコピーする必要があります。 Power BI Desktop の次回の月次更新プログラムでは、データ コネクタの一覧にこのコネクタが自動的に含まれるので、この手順は不要になります。
-
-**Power BI データフロー コネクタ**は次の場所からダウンロードできます: [Power BI データフロー コネクタ](https://visuals.azureedge.net/cds-analytics/PublicPreview/CDSA.mez)
-
-**Power BI データフロー** コネクタ (プレビュー) をコンピューターで使用できるようにするには、次の手順を行います。
-
-1. .MEZ ファイル (データ コネクタ ファイル) のコピーをダウンロードします。 プライベート プレビューのお客様は、.MEZ ファイルのダウンロード情報を Microsoft から直接受信します。
-
-2. ダウンロードされたデータ コネクタ ファイルを、コンピューター上の**ドキュメント > Power BI Desktop > カスタム コネクタ フォルダー**に配置します。
-
-3. Power BI Desktop で、**[ファイル]、[オプションと設定]、[オプション]** の順に選択し、左側のウィンドウで **[プレビュー機能]** を選択します。
-
-    ![カスタム コネクタの有効化](media/desktop-connect-dataflows/connect-dataflows_02.png)
-
-4. **[カスタム データ コネクタ]** ボックスがオンになっていない場合は、オンにします。 
-
-5. **Power BI Desktop** を再起動して、コネクタを表示します。
-
-## <a name="use-the-power-bi-dataflows-connector-preview"></a>Power BI データフロー コネクタを使用する (プレビュー)
-**Power BI Desktop** が再起動されると、コネクタが利用可能なデータ ソースとして表示されます。 データプールに接続するには、次の図に示すように、**[データの取得]、[オンライン サービス]、[Power BI データフロー (ベータ)]** の順に選択します。
-
-![データフローへの接続](media/desktop-connect-dataflows/connect-dataflows_01.png)
+**Power BI データフロー (ベータ版)** コネクタを使用すると、Power BI サービスでデータフローによって作成されたエンティティに接続できます。 
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
-このプレビュー バージョンの **Power BI データフロー コネクタ**を使用するには、最新バージョンの **Power BI Desktop** を実行している必要があります。 最新バージョンを確保するために、いつでも [Power BI Desktop をダウンロード](desktop-get-the-desktop.md)し、コンピューターにインストールできます。  
+このベータ版の **Power BI データフロー コネクタ**を使用するには、最新バージョンの **Power BI Desktop** を実行している必要があります。 最新バージョンを確保するために、いつでも [Power BI Desktop をダウンロード](desktop-get-the-desktop.md)し、コンピューターにインストールできます。  
 
-注: **Power BI Desktop** の次回の月次更新プログラムで Power BI データフロー コネクタが表示されたら、このダウンロードされた .MEZ ファイルを**ドキュメント > Power BI Desktop > カスタム コネクタ** フォルダーから削除する*必要があります*。 
+> [!NOTE]
+> 以前のバージョンの Power BI データフロー コネクタでは、.MEZ ファイルをダウンロードしてフォルダーに配置する必要がありました。 現在のバージョンの **Power BI Desktop** には Power BI データフロー コネクタが含まれているため、このファイルは不要であり、付属のバージョンのコネクタとの競合の原因になる可能性があります。 この .MEZ ファイルをフォルダーに手動で配置した場合は、ダウンロードした .MEZ ファイルを **Documents > Power BI Desktop > カスタム コネクタ** フォルダーから削除して、競合を回避する "*必要があります*"。 
+
+## <a name="desktop-performance"></a>デスクトップのパフォーマンス
+**Power BI Desktop** は、インストールされているコンピューター上でローカルに実行します。 データフローのインジェストのパフォーマンスは、さまざまな要因によって決まります。 これらの要因には、データのサイズ、コンピューターの CPU と RAM、ネットワーク帯域幅、データ センターからの距離などが含まれます。
+
+データフローのデータ インジェストのパフォーマンスを向上することができます。 たとえば、取り込むデータのサイズが大きすぎて **Power BI Desktop** によってコンピューター上で管理できない場合は、データフロー内のリンクおよび計算されたエンティティを使用して (データフロー内の) データを集約し、あらかじめ準備された集約データだけを取り込むことができます。 この方法では、大規模なデータの処理が **Power BI Desktop** の実行中のインスタンス内でローカルに実行されるのではなく、データフロー内でオンライン実行されます。 このアプローチにより、Power BI Desktop では少量のデータを取り込んで、データフローの応答性と迅速性を確保することができます。
 
 
 ## <a name="next-steps"></a>次の手順
-Power BI データ接続を使用して、さまざまな目的の処理を実行できます。また、**Power BI Desktop** に関する次の記事を参照すると役立ちます。
+Power BI データフローを使用して、さまざまな目的の処理を実行できます。 詳細については、次のリソースをご覧ください。
+
+* [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
+* [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
+* [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
+* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
+* [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+
+**Power BI Desktop** に関する以下の記事が役立つ場合もあります。
 
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)

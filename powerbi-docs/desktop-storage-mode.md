@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: df61b9c68407ef0d00d1d5981c57021e7659cfff
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359748"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619496"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop のストレージ モード (プレビュー)
 
@@ -43,16 +43,6 @@ Power BI Desktop のストレージ モード設定は、次の 3 つの関連�
 
 * **ストレージ モード**: どのビジュアルでバックエンド データ ソースへのクエリを必要とするかを指定できるようになりました。 クエリを必要としないビジュアルは、それらが DirectQuery に基づいている場合でもインポートされます。 この機能はパフォーマンスの向上とバック エンドの負荷の軽減に役立ちます。 以前は、スライサーなどのシンプルなビジュアルでも、バックエンド ソースに送信されるクエリが開始されました。 ストレージ モードについては、この記事で詳しく説明します。
 
-## <a name="enable-the-storage-mode-preview-feature"></a>ストレージ モード プレビュー機能を有効にする
-
-ストレージ モード機能はプレビュー段階であり、Power BI Desktop で有効にする必要があります。 ストレージ モードを有効にするには、**[ファイル]** > **[オプションと設定]** > **[オプション]** > **[プレビュー機能]** の順に選択し、**[複合モデル]** チェックボックスをオンにします。 
-
-![[プレビュー機能] ウィンドウ](media/desktop-composite-models/composite-models_02.png)
-
-機能を有効にするには、Power BI Desktop を再起動します。
-
-![[この機能は再起動が必要です] ウィンドウ](media/desktop-composite-models/composite-models_03.png)
-
 ## <a name="use-the-storage-mode-property"></a>ストレージ モード プロパティを使用する
 
 ストレージ モードは、モデルの各テーブルに設定できるプロパティです。 ストレージ モードを設定するには、**[フィールド]** ウィンドウで、プロパティを設定するテーブルを右クリックし、**[プロパティ]** を選択します。
@@ -75,19 +65,7 @@ Power BI Desktop のストレージ モード設定は、次の 3 つの関連�
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery テーブルとデュアル テーブルに関する制約
 
-デュアル テーブルの制約は、DirectQuery テーブルのものと同じです。 これらの制約には、計算列での M 変換の制限や DAX 関数の制限が含まれます。 詳細については、「[DirectQuery を使用する影響](desktop-directquery-about.md#implications-of-using-directquery)」を参照してください。
-
-## <a name="relationship-rules-on-tables-with-different-storage-modes"></a>ストレージ モードが異なるテーブルのリレーションシップ ルール
-
-リレーションシップは、関連テーブルのストレージ モードに基づくルールに従う必要があります。 このセクションでは、有効な組み合わせの例を紹介します。 詳細については、「[Many-to-many relationships in Power BI Desktop (preview)](desktop-many-to-many-relationships.md)」 (Power BI Desktop の多対多のリレーションシップ (プレビュー)) を参照してください。
-
-データ ソースが 1 つのデータセットでは、以下の *1 対多の*のリレーションシップの組み合わせが有効です。
-
-| *多*側のテーブル | *1* 側のテーブル |
-| ------------- |----------------------| 
-| デュアル          | デュアル                 | 
-| インポート        | インポートまたはデュアル       | 
-| DirectQuery   | DirectQuery またはデュアル  | 
+デュアル テーブルの機能的な制約は、DirectQuery テーブルのものと同じです。 これらの制約には、計算列での M 変換の制限や DAX 関数の制限が含まれます。 詳細については、「[DirectQuery を使用する影響](desktop-directquery-about.md#implications-of-using-directquery)」を参照してください。
 
 ## <a name="propagation-of-dual"></a>デュアルの伝達
 次の単純なモデルを考えてみましょう。このモデルでは、すべてのテーブルがインポートと DirectQuery をサポートする単一のソースのテーブルです。
@@ -98,14 +76,11 @@ Power BI Desktop のストレージ モード設定は、次の 3 つの関連�
 
 ![ストレージ モードの警告ウィンドウ](media/desktop-storage-mode/storage-mode_05.png)
 
-前述のリレーションシップ ルールに準拠するには、ディメンション テーブル (*Customer* (顧客)、*Date* (日付)、*Geography* (地域)) を **[デュアル]** に設定する必要があります。 これらのテーブルは、事前に **[デュアル]** に設定しなくても、単一の操作で設定できます。
+データセットにある弱いリレーションシップの数を減らし、パフォーマンスを向上させるために、ディメンション テーブル (*Customer* (顧客)、*Geography* (地域)、*Date* (日付)) を **[デュアル]** に設定する場合があります。 通常、弱いリレーションシップは、結合のロジックをソース システムにプッシュできない 1 つ以上の DirectQuery テーブルと関係しています。 **[デュアル]** テーブルは DirectQuery、インポートのどちらとしても動作できるため、これを回避するのに役立ちます。
 
 伝達ロジックは、多数のテーブルが含まれるモデルに役立つように設計されています。 たとえば、テーブル数が 50 個のモデルがあり、特定のファクト (トランザクション) テーブルのみをキャッシュする必要があるとします。 Power BI Desktop のロジックによって、**[デュアル]** に設定する必要があるディメンション テーブルの最小セットが計算されるので、ユーザーが行う必要はありません。
 
 伝達ロジックは、**1 対多**のリレーションシップの一方向に対してのみ横断されます。
-
-* (*SurveyResponse* を変更する代わりに) *Customer* (顧客) テーブルを **[インポート]** に変更することはできません。これは、DirectQuery テーブル *Sales* (売上) と *SurveyResponse* (アンケート回答) テーブルに対するリレーションシップであるためです。
-* (*SurveyResponse* を変更する代わりに) *Customer* (顧客) テーブルを **[デュアル]** に変更することはできます。 伝達ロジックでも、*Geography* (地域) テーブルが **[デュアル]** に設定されます。
 
 ## <a name="storage-mode-usage-example"></a>ストレージ モードの使用例
 前のセクションの例を続けて、次のストレージ モードのプロパティ設定を適用してみましょう。
@@ -191,4 +166,3 @@ DirectQuery を使用する際の既存の制限事項は、複合モデルを�
 * [Power BI Desktop での多対多のリレーションシップ (プレビュー)](desktop-many-to-many-relationships.md)
 * [Power BI で DirectQuery を使用する](desktop-directquery-about.md)
 * [Power BI の DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
-

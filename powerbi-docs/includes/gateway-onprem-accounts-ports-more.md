@@ -61,14 +61,14 @@
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>TLS 1.1/1.2 のサポート
+## <a name="support-for-tls-12"></a>TLS 1.2 のサポート
 
-オンプレミス データ ゲートウェイでは、**Power BI サービス**と通信するために、既定でトランスポート層セキュリティ (TLS) 1.1 または 1.2 が使用されます。 オンプレミス データ ゲートウェイの以前のバージョンでは、既定で TLS 1.0 が使用されました。 TLS 1.0 のサポートは 2018 年 3 月 15 日に終了します。TLS 1.0 を使用する **Power BI サービス**とやり取りする機能も使用できなくなります。 ゲートウェイを引き続き利用するには、オンプレミス データ ゲートウェイのインストールをアップグレードする必要があります。
+既定では、オンプレミス データ ゲートウェイでは、Power BI サービスと通信するためにトランスポート層セキュリティ (TLS) 1.2 が使用されます。 すべてのゲートウェイ トラフィックで TLS 1.2 が使用されるように、ゲートウェイ サービスを実行しているコンピューター上で次のレジストリ キーを追加または変更することが必要になる場合があります。
 
-11 月 1 日まではオンプレミス データ ゲートウェイで引き続き TLS 1.0 がサポートされ、フォールバック メカニズムとしてゲートウェイに使用されることに注意してください。 すべてのゲートウェイ トラフィックで TLS 1.1 または 1.2 が使用されるように (また、ゲートウェイで TLS 1.0 の使用を防止するために)、ゲートウェイ サービスを実行しているコンピューターで次のレジストリ キーを追加または変更する必要があります。
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > これらのレジストリ キーを追加したり、変更したりすると、すべての .NET アプリケーションに変更が適用されます。 他のアプリケーションの TLS に影響を与えるレジストリ変更については、[トランスポート層セキュリティ (TLS) レジストリ設定](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)をご覧ください。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298207"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273335"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>オンプレミス データ ゲートウェイ (個人用モード)
 ゲートウェイを利用し、オンプレミス データ ソースを使用したり、Power BI のレポートやダッシュボードを作成したりできます。 **ゲートウェイ**は、プライベートのオンプレミス ネットワークに保存されているデータへのアクセスを促進し、**Power BI サービス**など、オンライン サービスでそのデータを使用することを可能にするソフトウェアです。 **オンプレミス データ ゲートウェイ (個人用モード)** は最近公開された、Power BI ゲートウェイの更新プログラムであり、個人が自分のコンピューターにゲートウェイをインストールし、オンプレミス データにアクセスすることを可能にします。
@@ -132,7 +132,7 @@ Spark のサポートは、2017 年度の後半に計画されています。
   * **回答**: レポートを現在のゲートウェイで更新すると、更新が停止します。 新しい更新スケジュールを設定する唯一の方法は、新しいゲートウェイをインストールし、設定することです。
 * R スクリプトを使用しています。 これには対応していますか。
   
-  * **回答**: R スクリプトには間もなく対応する予定です。
+  * **回答:** R スクリプトは、個人用モードでサポートされています。
 * **Power BI サービス**にゲートウェイ更新メッセージが表示されません。
   
   * **回答**: おそらく、1 つまたは複数のデータセットに含まれるデータ ソースが現在未対応です。

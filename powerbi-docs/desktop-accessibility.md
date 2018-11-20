@@ -7,25 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223377"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619634"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop レポートのアクセシビリティ
 Power BI には、障碍のある方がより簡単に Power BI レポートを使用し、レポートと対話できる機能があります。 これらは、レポートでキーボードやスクリーンリーダーを使用したり、ページ上のさまざまなオブジェクトにフォーカスをタブ移動したり、マーカーを使用して気の利いた視覚化を実行するための機能です。
 
 ![アクセシビリティ向上のための線および面グラフでのさまざまなマーカーの使用](media/desktop-accessibility/accessibility_01.png)
-
-> [!NOTE]
-> これらのアクセシビリティ機能は、2017 年 6 月の **Power BI Desktop** 以降のリリースで利用できます。 また、今後のリリースでさらにアクセシビリティ機能が追加される計画です。
-> 
-> 
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>キーボードまたはスクリーン リーダーでの Power BI Desktop レポートの使用
 2017 年 9 月リリースの **Power BI Desktop** より、**?** キーを押すと、 **Power BI Desktop** で利用できるアクセシビリティ キーボード ショートカットについて説明するウィンドウが開くようになりました。
@@ -116,12 +111,26 @@ Power BI サービスでも、Windows 用に選択されているハイ コン�
 * ナレーターを使用する場合、HTML テーブルとしての [データの表示] の移動に関する制限がいくつあります。
 
 ## <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
+キーボード ショートカットは、キーボードを使用して Power BI レポートの中を移動するのに役立ちます。 Power BI レポート内で使用できるショートカットについて、次の表で説明します。 Power BI Desktop でのこれらのキーボード ショートカットの使用に加えて、各ショートカットは次のエクスペリエンスでも同様に機能します。
+
+* [Q&A Explorer] ダイアログ
+* [作業の開始] ダイアログ
+* [ファイル] メニューおよび [バージョン情報] ダイアログ
+* [警告] バー
+* [ファイルの復元] ダイアログ
+* [Frowns]\(問題点\) ダイアログ
+
+Microsoft はアクセシビリティを改善する取り組みを続けています。前の一覧のエクスペリエンスでは、スクリーン リーダーやハイ コントラスト設定もサポートされています。
+
+
 ### <a name="frequently-used-shortcuts"></a>頻繁に使用されるショートカット
 | 操作の内容           | 押すキー                |
 | :------------------- | :------------------- |
 | セクション間でフォーカスを移動します  | Ctrl + F6 |
 | セクション内でフォーカスを移動します | Tab         |
 | セクション内でフォーカスを逆方向に移動します | Shift + Tab |
+| オブジェクトを選択または選択解除します | Enter または Space |
+| オブジェクトを複数選択します | Ctrl + Space |
 
 ### <a name="on-visual"></a>視覚エフェクト上で
 | 操作の内容           | 押すキー                |

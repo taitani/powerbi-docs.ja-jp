@@ -9,12 +9,12 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641743"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266072"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium 容量のリソースの管理と最適化
 
@@ -26,6 +26,7 @@ ms.locfileid: "49641743"
 
 * メモリに読み込まれるデータセット
 * データセットの更新 (スケジュールとオンデマンドの両方)
+* 容量でサポートされるワークロード
 * レポート クエリ
 
 容量内のパブリッシュされたデータセットに対して要求が発行されると、そのデータセットが永続ストレージからメモリに読み込まれます (これはイメージの読み込みとも呼ばれます)。 データセットをメモリに読み込まれたままにすると、このデータセットに対するそれ以降のクエリに速く応答できるようになります。 データセットをメモリに読み込まれたままにするための必要なメモリに加えて、レポートのクエリおよびデータセットの更新によって追加のメモリが消費されます。
@@ -51,6 +52,10 @@ Power BI Premium には、容量を*オーバーコミット*できる利点が�
 削除しても必要なメモリを確保できない場合、更新は再試行のためにキューに格納されます。 サービスは、更新が成功するまで、または新しい更新アクションが開始するまで再試行します。
 
 容量内のいずれかのデータセットに対して対話型クエリが発行され、実行中の更新のために十分なメモリを使用できない場合、その要求は失敗し、ユーザーによって再試行される必要があります。
+
+### <a name="workloads"></a>ワークロード
+
+既定では、**Power BI Premium** と **Power BI Embedded** の容量でサポートされるのは、クラウド内で実行中の Power BI クエリに関連付けられているワークロードのみです。 現在では、2 つの追加ワークロード (**ページ分割されたレポート**および**データフロー**) に対応したプレビュー版サポートが用意されています。 有効な場合、これらのワークロードは容量におけるメモリ使用量に影響する可能性があります。 詳細については、「[ワークロードを構成する](service-admin-premium-manage.md#configure-workloads)」を参照してください。
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Premium 容量における CPU リソースの管理
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329916"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619611"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop での Azure Consumption Insights への接続 (Beda)
 **Azure Consumption Insights** コネクタを使用すれば、**Power BI Desktop** で Azure に接続して、組織における Azure サービスの使用状況に関する詳細なデータと情報を得ることができます。 また、メジャー、カスタム列、およびビジュアルを作成して、組織での Azure の使用状況についてレポートを作成し、共有することができます。 このリリースの **Azure Consumption Insights** コネクタはベータ版であり、変更される可能性があります。
@@ -49,9 +49,20 @@ ms.locfileid: "39329916"
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-*アクセス キー*を指定して **[接続]** を選択すると、**[ナビゲーター]** ウィンドウが開き、使用可能な 4 つのテーブル (*Summary*、*Usage*、*PriceSheet*、および *MarketPlace*) が表示されます。 テーブルの横にあるチェック ボックスをオンにすれば、プレビューを表示できます。 1 つ以上のテーブルを選択するには、名前の横のチェック ボックスをオンにしてから **[読み込み]** を選択します。
+"*アクセス キー*" を指定して **[接続]** を選択すると、**[ナビゲーター]** ウィンドウが開き、使用可能な 9 つのテーブルが表示されます。 
+* **Budgets**: 既存の予算目標に対する実際のコストや使用状況を表示するための予算の詳細が提供されます。 
+* **MarketPlace**: 使用状況に基づく Azure Marketplace の料金が提供されます。
+* **PriceSheets**: 登録のメーターごとに適用できる割合が提供されます。
+* **RICharges**: 過去 24 か月の間の予約インスタンスに関連付けられている料金が提供されます。
+* **RIRecommendations_Single**: 過去 7 日、30 日、または 60 日の間の 1 つのサブスクリプション上での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
+* **RIRecommendations_Shared**: 過去 7 日、30 日、または 60 日の間のサブスクリプション全体での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
+* **RIUsage**: 過去 1 か月の間の既存の予約インスタンスの消費に関する詳細が提供されます。
+* **Summaries**: 残高、新規購入、Azure Marketplace サービス料金、調整、および超過料金の全体に関する月単位の概要が提供されます。
+* **UsageDetails**: 登録の消費量と見積もり料金の内訳を提供します。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
+テーブルの横にあるチェック ボックスをオンにすれば、プレビューを表示できます。 1 つ以上のテーブルを選択するには、名前の横のチェック ボックスをオンにしてから **[読み込み]** を選択します。
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > *Summary* と *PriceSheet* テーブルを使用できるのは、登録レベルの API キーの場合のみです。 また、これらのテーブル内のデータには、既定で *Usage* と *PriceSheet* の現在の月のデータが含まれます。 *Summary* と *MarketPlace* テーブルは現在の月に制限されません。
@@ -152,7 +163,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | Consumed Quantity |consumedQuantity |Consumed Quantity |いいえ |
 | Consumed Service |consumedService |Consumed Service |いいえ |
 | ConsumedServiceId |consumedServiceId | |はい |
-| Cost |cost |ExtendedCost |いいえ |
+| コスト |cost |ExtendedCost |いいえ |
 | Cost Center |costCenter |Cost Center |いいえ |
 | 日付 |日付 |日付 |いいえ |
 | 日 | |日 |いいえ |
@@ -168,7 +179,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |いいえ |
 | MeterId |meterId |Meter ID |いいえ |
 | 月 | |月 |いいえ |
-| Product |製品 |Product |いいえ |
+| 製品 |製品 |製品 |いいえ |
 | ProductId |productId | |はい |
 | リソース グループ |resourceGroup |リソース グループ |いいえ |
 | Resource Location |resourceLocation |Resource Location |いいえ |

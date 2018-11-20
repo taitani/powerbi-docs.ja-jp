@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909247"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297230"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,26 @@ ms.locfileid: "48909247"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="october-2018"></a>2018 年 10 月
+
+### <a name="paginated-report-preview-all-devices"></a>ページ分割されたレポートのプレビュー (すべてのデバイス)
+
+ページ分割されたレポートを、Power BI サービスで使用できるようになりました。 Power BI サービスでページ分割されたレポートにアクセスできるユーザーは、モバイル アプリからもそれらのレポートにアクセスできます。 
+
+Power BI の[モバイルでのページ分割されたレポートに関するブログ記事](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)をご覧ください。
+
+### <a name="shared-credentials-ios"></a>共有資格情報 (iOS)
+
+モバイル アプリからの Power BI へのサインインが、これまでより容易になりました。 共有資格情報により、デバイスで他の Office 365 アプリの資格情報を使用して Power BI サービスでの認証を行うことで、サインイン プロセスが簡素化されました。
+
+### <a name="in-app-urls-ios"></a>アプリ内 URL (iOS) 
+
+他の Power BI 成果物を参照するレポート内のリンクが、アプリの内部で直接開くようになりました。 これにより、カスタム ナビゲーション フローを作成できます (レポートからダッシュボードへのリンクなど)。
+
+### <a name="ios12-and-watchos-5-support"></a>iOS12 と watchOS 5 のサポート 
+
+iOS 向け Power BI アプリが更新され、モバイル デバイスやウォッチの新しい OS でシームレスに動作するようになりました。
 
 ## <a name="september-2018"></a>2018 年 9 月
 
@@ -41,10 +61,11 @@ Power BI の[ダッシュボードのコメントに関するブログ投稿](ht
 
 シングル サインオン (SSO) では、Windows 用 Power BI モバイルで最も多く要求された機能の 1 つです。 現在では、プライマリ組織アカウントを使用して、ドメインに参加している Windows モバイル デバイスにサインインするだけでなく、Power BI サービスにもシームレスにサインインすることができます。 [SSO および Windows モバイル アプリ](mobile-windows-10-app-single-sign-on-sso.md)の詳細を参照してください。
 
+## <a name="previous-months"></a>先月
 
-## <a name="july-2018"></a>2018 年 7 月
+### <a name="july-2018"></a>2018 年 7 月
 
-### <a name="ios-and-android-only"></a>iOS と Android のみ
+#### <a name="ios-and-android-only"></a>iOS と Android のみ
 
 **共有のフィルター**
 
@@ -55,127 +76,125 @@ Power BI の[ダッシュボードのコメントに関するブログ投稿](ht
 モバイル デバイスでレポートを横向きモードで表示するとき、Web 上の Power BI と同じ背景画像を利用できます。
 
 
-## <a name="june-2018"></a>2018 年 6 月
+### <a name="june-2018"></a>2018 年 6 月
 
-### <a name="full-canvas-reports"></a>フル キャンバス レポート
+#### <a name="full-canvas-reports"></a>フル キャンバス レポート
 
 上下のアクション バーは、レポートの読み込み後、すぐに非表示になります。その分、レポートで一度に表示される部分が増えます。
 
-### <a name="increased-phone-report-canvas-size"></a>スマートフォン レポートのキャンバス サイズの拡大
+#### <a name="increased-phone-report-canvas-size"></a>スマートフォン レポートのキャンバス サイズの拡大
 
 スマートフォン レポートのキャンバス サイズを拡大し、ビジュアルのための場所を以前より多くしました。
 
-## <a name="may-2018"></a>2018 年 5 月
+### <a name="may-2018"></a>2018 年 5 月
 
-### <a name="mobile-drill-through-all-mobile-apps"></a>モバイル ドリルスルー: すべてのモバイル アプリ
+#### <a name="mobile-drill-through-all-mobile-apps"></a>モバイル ドリルスルー: すべてのモバイル アプリ
 
 レポート作成者がアクションを定義していた場合、選択したデータ ポイントからモバイル アプリ内の他のレポート ページにドリルスルーできます。 
 
-### <a name="back-button-all-mobile-apps"></a>[戻る] ボタン: すべてのモバイル アプリ
+#### <a name="back-button-all-mobile-apps"></a>[戻る] ボタン: すべてのモバイル アプリ
 
 スワイプするか、操作バーのレポート ページを選択するか、ドリルスルーを使用してレポート内を移動しているときに、[戻る] ボタンを使用すると、閲覧していた前のページに戻ります。 
 
-### <a name="dashboard-themes-all-mobile-apps"></a>ダッシュボード テーマ: すべてのモバイル アプリ
+#### <a name="dashboard-themes-all-mobile-apps"></a>ダッシュボード テーマ: すべてのモバイル アプリ
 
 レポート作成者が Power BI サービスのダッシュボード テーマをカスタマイズすると、モバイル アプリでもダッシュボードの外観と雰囲気が変更されます。 ただし、背景画像は表示されません。
 
-### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
 
 IT 管理者は MDM ツールを使用し、レポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成できるようになりました。 詳細については、「[Configure Power BI iOS mobile app access to a report server remotely](../../report-server/configure-powerbi-mobile-apps-remote.md)」 (リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する) を参照してください。
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality アプリ (プレビュー)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality アプリ (プレビュー)
 
 Power BI for Mixed Reality アプリが Microsoft ストアに登場しました。 仮想世界に専念した状態でダッシュボードとレポートを表示するか、あるいは使用環境のコンテキストで特定の場所にダッシュボードとレポートを配置して表示します。 コンテキストのために新しい「[Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss)」(Hololens での Power BI の紹介) のビデオを見るか、新しい [Power BI for Mixed Reality](mobile-mixed-reality-app.md) に関する記事をご覧ください。
 
 
-## <a name="april-2018"></a>2018 年 4 月
+### <a name="april-2018"></a>2018 年 4 月
 
-### <a name="mobile-drill-down-and-drill-up"></a>モバイルでのドリルダウンとドリルアップ
+#### <a name="mobile-drill-down-and-drill-up"></a>モバイルでのドリルダウンとドリルアップ
 
 モバイル デバイスでドリルダウンとドリルアップを行って、レポートのビジュアルを調べることができます。 この新しい機能にアクセスするには、レポートのビジュアルを長押ししてツールヒント メニューを開いた後、データを掘り下げるためのドリル ボタンをタップします。 詳細については、[モバイル アプリのドリルアップとドリルダウン](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/)に関するページをご覧ください。
 
-### <a name="persistent-filters"></a>永続的フィルター
+#### <a name="persistent-filters"></a>永続的フィルター
 
 レポートのフィルターとスライサーが最近更新され、Web 上の Power BI からPower BI モバイル アプリに自動的に保存されるようになりました。 現在、モバイル アプリで設定したフィルターとスライサーは、Web 上の Power BI に自動的に保存されます。
 
 
-## <a name="march-2018"></a>2018 年 3 月
+### <a name="march-2018"></a>2018 年 3 月
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality アプリ (プレビュー)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality アプリ (プレビュー)
 
 最新のデータ傾向に応じて、Power BI for Mixed Reality アプリが作成されました。 仮想世界に専念した状態でダッシュボードとレポートを表示するか、あるいは使用環境のコンテキストで特定の場所にダッシュボードとレポートを配置して表示します。 詳細については、新しい [Power BI for Mixed Reality アプリ](mobile-mixed-reality-app.md)に関するページを参照してください。
 
-### <a name="share-reports-and-dashboards-externally"></a>レポートおよびダッシュボードを外部と共有する
+#### <a name="share-reports-and-dashboards-externally"></a>レポートおよびダッシュボードを外部と共有する
 
 ダッシュボードおよびレポートを、組織の外部にいるユーザーと、アプリから直接共有します。 外部共有は、組織とソーシャル アカウントの両方に対して有効です。 
 
-### <a name="persistent-filters"></a>永続的フィルター
+#### <a name="persistent-filters"></a>永続的フィルター
 
 Web 上の Power BI でフィルターおよびスライサーを設定すると、フィルターの選択はモバイル アプリにも保存されるので、中断したところから再開できます。
 
-### <a name="refresh-reports-on-the-ipad"></a>iPad でレポートを更新する
+#### <a name="refresh-reports-on-the-ipad"></a>iPad でレポートを更新する
 
 iPad アプリの Power BI レポートに更新ボタンが追加されました。
 
-## <a name="february-2018"></a>2018 年 2 月
+### <a name="february-2018"></a>2018 年 2 月
 
-### <a name="share-reports"></a>レポートの共有
+#### <a name="share-reports"></a>レポートの共有
 
 モバイル アプリからレポートを直接共有できるようになりました。 [モバイル アプリからのダッシュボードとレポートの共有](mobile-share-dashboard-from-the-mobile-apps.md)について、詳細を確認してください。
 
-### <a name="improved-tooltips"></a>改善されたツールヒント
+#### <a name="improved-tooltips"></a>改善されたツールヒント
 
 レポート ビジュアルでタップを長押ししてツールヒントにアクセスする際に、ビジュアル上で指をドラッグし、途中で各データ ポイントに関する詳細を調べられるようになりました。
 
-## <a name="january-2018"></a>2018 年 1 月
+### <a name="january-2018"></a>2018 年 1 月
 
-### <a name="report-favorites"></a>レポートのお気に入り
+#### <a name="report-favorites"></a>レポートのお気に入り
 
 レポートにお気に入りのタグを付け、**[お気に入り]** ページに表示します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 
-### <a name="view-shared-reports"></a>共有レポートを表示する
+#### <a name="view-shared-reports"></a>共有レポートを表示する
 
 誰かとレポートを共有すると、ダッシュボードの他に、**[共有アイテム]** ページにレポートが一覧表示されます。
 
-### <a name="improved-hyperlink-support"></a>ハイパーリンク サポートの改善
+#### <a name="improved-hyperlink-support"></a>ハイパーリンク サポートの改善
 
 カスタム ビジュアルのリンクをタップし、モバイル ブラウザーで開くことができるようになりました。
 
-### <a name="intune-integration-android"></a>Intune 統合 (Android)
+#### <a name="intune-integration-android"></a>Intune 統合 (Android)
 
 Intune モバイル デバイス管理を利用した、条件付きアクセスのサポート。
 
-## <a name="december-2017"></a>2017 年 12 月
+### <a name="december-2017"></a>2017 年 12 月
 
-### <a name="improved-security-management"></a>改善されたセキュリティ管理 
+#### <a name="improved-security-management"></a>改善されたセキュリティ管理 
 
 組織のデータに対するセキュリティを強化するために、Android デバイスの条件付きアクセス (CA) と Microsoft Intune モバイル デバイス管理 (MDM) のサポートを追加しました。 iOS では既に利用可能になっています。
 
-### <a name="improved-permission-management"></a>アクセス許可の管理の強化
+#### <a name="improved-permission-management"></a>アクセス許可の管理の強化
 
 データセット、ダッシュボード、レポートへのユーザー アクセス許可をより正確に管理できるようにするいくつかの変更を行いました。
 
-### <a name="auto-installed-apps"></a>自動インストール済みアプリ
+#### <a name="auto-installed-apps"></a>自動インストール済みアプリ
 
 Power BI に一部のアプリをインストールする必要はまったくありません。 組織内の Power BI アプリ作成者は、ダッシュボードとレポートのコレクションを含む*アプリ* を作成することができます。 その後、アプリを発行し、Power BI サービスと Power BI モバイル アプリに自動的にインストールされるように設定できます。 アプリが自動的にインストールされるように設定している場合は、次のように **[アプリ]** メニューに自動的に表示されます。
 
 ![Power BI モバイル アプリの [アプリ]](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
-## <a name="november-2017"></a>2017 年 11 月
-### <a name="iphone-x-optimization"></a>iPhone X 向けの最適化
+### <a name="november-2017"></a>2017 年 11 月
+#### <a name="iphone-x-optimization"></a>iPhone X 向けの最適化
 
 さまざまなデバイスで適切にデータを探索できるように、iPhone X 用のアプリのレイアウトを最適化しました。
 
-## <a name="october-2017"></a>2017 年 10 月
-### <a name="filters-for-phone-reports-in-android"></a>Android の電話レポート用フィルター
+### <a name="october-2017"></a>2017 年 10 月
+#### <a name="filters-for-phone-reports-in-android"></a>Android の電話レポート用フィルター
 
 Power BI Desktop で電話用に最適化されたページを使用してレポートを作成した場合で、そのレポートにフィルターがある場合、それらのフィルターを Android の電話レポートで適用できるようになりました。 詳細については、Android の Power BI レポート用フィルターに関する記事を参照してください。
 
-### <a name="show-data-in-reports"></a>レポートでのデータの表示
+#### <a name="show-data-in-reports"></a>レポートでのデータの表示
 
 レポート内の視覚エフェクトをテーブル ビューに切り替えて、データの背後にある数値を確認できるようになりました。 この機能を使用するには、レポートで視覚エフェクトの [...] メニューから [データの表示] をタップするか、展開された視覚エフェクトの操作メニューで新しいアイコンをタップします。
-
-## <a name="previous-months"></a>先月
 
 ### <a name="september-2017"></a>2017 年 9 月
 #### <a name="filters-for-phone-reports-in-iphones"></a>iPhone の電話レポート用フィルター

@@ -8,15 +8,15 @@ featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548030"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266049"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Esri が提供する Power BI サービスおよび Power BI Desktop の ArcGIS マップ
 このチュートリアルは、ArcGIS マップを作成するユーザーの観点から書かれています。 作成者が同僚と ArcGIS マップを共有すると、その同僚はマップを表示および操作できますが、変更を保存することはできません。 ArcGIS マップの表示方法について詳しくは、「[Power BI での ArcGIS マップとの対話](visuals/power-bi-visualizations-arcgis.md)」をご覧ください。
@@ -26,7 +26,7 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
  モバイル デバイスでは、ArcGIS マップを作成することはできませんが、表示して操作することはできます。 「[Power BI での ArcGIS マップとの対話](visuals/power-bi-visualizations-arcgis.md)」をご覧ください。
 
 > [!TIP]
-> GIS は Geographic Information Science (地理情報科学) の略です。
+> GIS は Geographic Information System (地理情報システム) の略です。
 
 
 次の例では、濃い灰色のキャンバスを使用して、2016 年の平均可処分所得の人口統計レイヤーに対するヒートマップとして、地域の売上を示しています。 読み進めるとわかるように、ArcGIS マップを使用すると、強化されたマップ機能、人口統計データ、さらにより説得力のあるマップの視覚エフェクトが提供されるため、最適なストーリーを伝えることができます。

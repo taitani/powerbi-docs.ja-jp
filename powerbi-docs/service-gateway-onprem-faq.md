@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299633"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273312"
 ---
 # <a name="on-premises-data-gateway-faq"></a>オンプレミス データ ゲートウェイに関してよく寄せられる質問 (FAQ)
 <!-- Shared FAQ shared Include -->
@@ -68,6 +68,9 @@ ms.locfileid: "34299633"
 
 **質問:** ゲートウェイは ExpressRoute と連携して動作しますか?  
 **回答:** はい。 ExpressRoute と Power BI の詳細については、「[Power BI と ExpressRoute](service-admin-power-bi-expressroute.md)」を参照してください。
+
+**質問:** R スクリプトを使用しています。 これには対応していますか。
+**回答:** R スクリプトは、個人用モードでのみサポートされています。
 
 ## <a name="next-steps"></a>次の手順
 [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  

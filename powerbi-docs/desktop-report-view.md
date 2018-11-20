@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8239c271bff5dff6dc068b1c547b8ab2d7731da5
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c4b4114d21d7afc6652d8706235dab4ad0ba0c37
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327731"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619774"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop のレポート ビュー
 Power BI を操作したことがあるユーザーは、レポートを作成して動的なパースペクティブとデータへの洞察を得ることがいかに簡単であるかをご存知でしょう。 Power BI では、Power BI Desktop にさらに多くの高度な機能を備えています。 Power BI Desktop を使用すると、高度なクエリの作成、複数のソースからのデータのマッシュアップ、テーブル間のリレーションシップの作成などを行えます。
@@ -27,35 +27,46 @@ Power BI Desktop には、**[レポート] ビュー**が含まれています�
 ## <a name="lets-take-a-look"></a>では、見てみましょう。
 最初にデータを Power BI Desktop に読み込むとき、**[レポート] ビュー**が空白のキャンバスであることがわかります。
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
+![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
 左側のナビゲーション バーのアイコンを選択して、**[レポート] ビュー**、**[データ] ビュー**、**[リレーションシップ] ビュー**の間で切り替えることができます。
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
+![レポート ビュー アイコン](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
 一部のデータを追加すると、キャンバスの新しい視覚化にフィールドを追加できます。
 
-![](media/desktop-report-view/pbid_reportview_addvis.gif)
+![フィールド ウィンドウからドラッグしてビジュアルを追加する](media/desktop-report-view/pbid_reportview_addvis.gif)
 
 視覚化の種類を変更するには、リボンの **[視覚化]** グループから視覚化を選択するか、右クリックして **[視覚化の種類を変更]** アイコンから別の視覚化を選択します。
 
-![](media/desktop-report-view/pbid_reportview_changevis.gif)
+![新しいものを選択してビジュアルを変更する](media/desktop-report-view/pbid_reportview_changevis.gif)
 
 > [!TIP]
 > 必ず複数の視覚化の種類をお試しください。 データの情報を明確に伝える視覚化を使用することが重要です。
-> 
-> 
 
 レポートは、1 つ以上の空白ページから開始します。 ページは、キャンバスの左側にある [ナビゲーター] ウィンドウに表示されます。 あらゆる種類の視覚化をページに追加できますが、過剰にならないように注意します。 ページに視覚化が多すぎると、込み入った表示になり、適切な情報を見つけにくくなります。 レポートには新しいページを追加することができます。 リボンの **[新しいページ]** をクリックするだけです。
 
-![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
+![新しいページ アイコン](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 
 ページを削除するには、[レポート] ビューの下部にあるページのタブで、**[X]** をクリックします。
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
+![レポートにページを追加する](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
 
 > [!NOTE]
 > レポートと視覚化は、Power BI Desktop からダッシュボードにピン留めすることはできません。 これを行うには、Power BI サイトに [[Power BI Desktop からの発行]](desktop-upload-desktop-files.md) を行う必要があります。
+
+## <a name="copy-and-paste-between-reports"></a>レポートのコピーと貼り付け
+
+1 つの Power BI Desktop レポートからビジュアルを取得して、別のレポートに簡単に貼り付けることができます。 単純にキーボード ショートカット **CTRL + C** キーを使用してレポートのビジュアルをコピーし、**CTRL + V** キーを使用して他の Power BI Desktop レポートにビジュアルを貼り付けます。 一度に 1 つのビジュアルを選択するか、またはページ上のすべてのビジュアルを選択してコピーし、コピー先の Power BI Desktop レポートに張り付けることができます。 
+
+複数のレポートを頻繁に構築したり更新したりするユーザーにとっては、ビジュアルのコピーと貼り付け機能が便利です。 ファイル間でコピーする場合、書式設定ウィンドウで明示的に設定した設定と書式は持ち越されますが、テーマや既定の設定に依存するビジュアル要素はコピー先レポートのテーマと一致するように自動的に更新されます。 そのため、ビジュアルの書式や外観をうまく設定できたら、うまくいった書式設定をすべて保持したまま、そのビジュアルをコピーして新しいレポートに張り付けることができます。
+
+![ビジュアルのコピー/貼り付けのエラー - データ フィールドがありません](media/desktop-report-view/report-view_05.png)
+
+モデル内のフィールドが異なる場合、ビジュアルに関するエラーと、存在しないフィールドに関する警告が表示されます。 このエラーは、ビジュアルが使用しているモデル内のフィールドを削除するときに表示されるエクスペリエンスに似ています。 エラーを修正するには、ビジュアルを貼り付けたレポート内のモデルの使用したいフィールドで、壊れたフィールドを単純に置き換えます。 カスタム ビジュアルを使用している場合は、コピー先のレポートにもそのカスタム ビジュアルをインポートする必要があります。
+
+
+
 
 ## <a name="hide-report-pages"></a>レポート ページを非表示にする
 
@@ -63,13 +74,13 @@ Power BI Desktop には、**[レポート] ビュー**が含まれています�
 
 レポート ページは簡単に非表示にできます。 レポート ページ タブを右クリックし、表示されたメニューから **[非表示]** を選択するだけです。
 
-![](media/desktop-report-view/report-view_05.png)
+![ページの非表示オプション](media/desktop-report-view/report-view_05.png)
 
 レポート ページを非表示にするとき、注意すべきことがいくつかあります。
 
 * ページのタイトルが淡色表示になっていても、**Power BI Desktop** の使用中、非表示レポート ページを見ることができます。次の画像ではページ 4 が非表示です。
 
-    ![](media/desktop-report-view/report-view_06.png)
+    ![非表示の淡色表示ページ](media/desktop-report-view/report-view_06.png)
 
 * **Power BI サービス**でレポートを表示するとき、非表示レポート ページを表示することは*できません*。
 

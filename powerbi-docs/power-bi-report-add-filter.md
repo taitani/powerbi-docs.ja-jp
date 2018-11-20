@@ -1,25 +1,27 @@
 ---
-title: Power BI でビジュアル、ページ、ドリルスルー、レポートにフィルターを追加する
-description: Power BI でレポートにページ フィルター、視覚エフェクト フィルター、レポート フィルター、ドリルスルー フィルターを追加します
+title: Power BI レポートへのフィルターの追加
+description: Power BI でレポートにページ フィルター、視覚化フィルター、またはレポート フィルターを追加する
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 11/08/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c70e29bf7dcd5a307cbcb4762595716595dfa523
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
+ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973283"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51611154"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Power BI サービス レポートへのフィルターの追加 (編集ビュー)
 
 この記事では、Power BI でレポートにページ フィルター、視覚エフェクト フィルター、レポート フィルター、ドリルスルー フィルターを追加する方法を説明します。 この記事の例は、Power BI サービスのものです。 Power BI Desktop でも手順はほとんど同じです。
+
+**ご存知でしたか?** Power BI には新しいフィルター エクスペリエンスがあります (現在プレビュー段階)。 詳細については、[Power BI レポートの新しいフィルター エクスペリエンス](power-bi-report-filter-preview.md)に関する記事をご覧ください。
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>編集ビューまたは読み取りビューでのフィルター
 レポートの操作は、読み取りビューと編集ビューの 2 種類のビューで行うことができます。 使用できるフィルター処理機能は、どのビューを使用しているかによって異なります。 詳しくは、「[Power BI レポートのフィルターと強調表示について](power-bi-reports-filters-and-highlighting.md)」をご覧ください。
@@ -75,7 +77,7 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 
 次に、新しいフィールドをビジュアル レベル フィルターとして視覚エフェクトに追加します。
    
-1. [フィールド] ウィンドウで新しいビジュアル レベル フィルターとして追加するフィールドを選び、**[ビジュアル レベル フィルター]** 領域までドラッグします。  この例では、**District Manager** を **[ビジュアル レベル フィルター]** バケットにドラッグし、「**an**」を検索して、3 人のマネージャーを選択します。 
+1. [フィールド] ウィンドウで新しいビジュアル レベル フィルターとして追加するフィールドを選び、**[ビジュアル レベル フィルター]** 領域までドラッグします。  この例では、**District Manager** を **[ビジュアル レベル フィルター]** バケットにドラッグし、「**an**」を検索して、それらの 3 人のマネージャーを選択します。 
      
     ![](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -97,7 +99,7 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 3. [フィールド] ウィンドウで新しいページ レベル フィルターとして追加するフィールドを選び、**[ページ レベル フィルター]** 領域までドラッグします。  
 4. フィルターを適用する値を選び、フィルター処理コントロールとして**基本**または**高度**を設定します。
    
-   ページでこのフィルターの影響を受けるすべての視覚化が、変更を反映するように再描画されます。 
+   ページ上にある、このフィルターの影響を受けるすべての視覚化が、変更を反映するように再描画されます。 
    
    ![](media/power-bi-report-add-filter/filterpage.gif)
 
@@ -109,7 +111,7 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
 ### <a name="create-a-drillthrough-filter"></a>ドリルスルー フィルターを作成する
 最初に、お客様の収益性のサンプルを編集ビューで開きます。 Executive ビジネス領域に注目したページを作成します。   
 
-1. レポートに新しいページを追加し、「**Team Executive**」という名前を付けます。 これが "*ドリルスルー先*" ページになります。
+1. レポートに新しいページを追加し、「**Team Executive**」という名前を付けます。 このページが "*ドリルスルー先*" になります。
 2. チーム エグゼクティブ ビジネス分野の主要指標を追跡するための視覚化を追加します。    
 3. [ドリル スルー フィルター] ウェルに **[Executive] > [Executive Name]** を追加します。    
    
@@ -144,7 +146,7 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
 
 - ビジュアル レベル フィルターとページ レベル フィルターが異なる結果を返すことがあります。  たとえば、ビジュアル レベル フィルターを追加すると、Power BI は集計結果をフィルター処理します。  既定の集計は合計ですが、[集計の種類を変更](service-aggregates.md)することもできます。  
 
-    その後、ページ レベル フィルターを追加すると、Power BI は集計せずにフィルター処理します。  これは、ページには、それぞれさまざまな集計の種類を利用できるさまざまなビジュアルが適用されている可能性があるためです。  そのため、フィルターは各データ行に適用されます。
+    その後、ページ レベル フィルターを追加すると、Power BI は集計せずにフィルター処理します。  集計しない理由は、それぞれが異なる集計の種類を利用するビジュアルが、多数ページに含まれている可能性があるためです。  そのため、フィルターは各データ行に適用されます。
 
 - [フィールド] ウィンドウが表示されない場合は、レポートが[編集ビュー](service-interact-with-a-report-in-editing-view.md)になっていることを確認してください。    
 - フィルターに多くの変更を加えた後で、レポート作成者の初期設定に戻す場合、一番上のメニュー バーから **[既定値にリセット]** を選択します。

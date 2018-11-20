@@ -1,23 +1,23 @@
 ---
 title: Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件
-description: ここでは、Power BI レポート サーバーをインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。
+description: この記事では、Power BI Report Server をインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780572"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507908"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件
-ここでは、Power BI レポート サーバーをインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。
+この記事では、Power BI Report Server をインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>プロセッサ、メモリ、およびオペレーティング システムの要件
 
@@ -43,18 +43,19 @@ SQL Server は、レポート サーバー データベースをホストする�
 * SQL Server 2014
 * SQL Server 2012
 
-リモート コンピューターにレポート サーバー データベースを作成するには、ネットワーク アクセスが可能なドメイン ユーザー アカウントまたはサービス アカウントを使用する接続を構成する必要があります。 リモートの SQL Server インスタンスを使用する場合は、SQL Server インスタンスへの接続に、レポート サーバーでどの資格情報を使用するかをよく検討してください。 詳細については、「[Configure a Report Server Database Connection](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)」(レポート サーバー データベース接続を構成する) を参照してください。
+リモート コンピューターにレポート サーバー データベースを作成するときは、ネットワーク アクセスが可能なドメイン ユーザー アカウントまたはサービス アカウントを使用する接続を構成する必要があります。 リモートの SQL Server インスタンスを使用する場合は、SQL Server インスタンスへの接続に、レポート サーバーでどの資格情報を使用するかをよく検討してください。 詳細については、「[Configure a Report Server Database Connection](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)」(レポート サーバー データベース接続を構成する) を参照してください。
 
 ## <a name="considerations"></a>考慮事項
 Power BI レポート サーバーは、既定値をインストールして、レポート サーバーの動作に必要なコア設定を構成します。 次の要件があります。
 
 * セットアップが終了した後、レポート サーバー用にデータベースを構成する前に、SQL Server データベース エンジンを使用できる状態にする必要があります。 データベース エンジンのインスタンスは、Reporting Services Configuration Manager が作成するレポート サーバー データベースをホストします。 データベース エンジンは、実際のセットアップ エクスペリエンスには必要ありません。
-* セットアップの実行に使うユーザー アカウントは、ローカル Administrators グループのメンバーである必要があります。
-* Reporting Services Configuration Manager に使うユーザー アカウントには、レポート サーバー データベースをホストするデータベース エンジン インスタンスのデータベースにアクセスしたり、インスタンスにデータベースを作成したりするためのアクセス許可が必要です。
+- 「[SQL Server 2016 の各エディションがサポートする Reporting Services の機能](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)」では、SQL Server のエディション間の違いについて説明されています。
+* セットアップを実行するユーザー アカウントは、ローカル Administrators グループのメンバーである必要があります。
+* Reporting Services Configuration Manager を実行するユーザー アカウントには、レポート サーバー データベースをホストするデータベース エンジン インスタンスのデータベースにアクセスしたり、インスタンスにデータベースを作成したりするためのアクセス許可が必要です。
 * セットアップでは、既定値を使用して、レポート サーバーと Web ポータルにアクセスする URL を予約できる必要があります。 既定値は、ポート 80、強力なワイルドカード、および **ReportServer** と **Reports** の形式の仮想ディレクトリ名です。
 
 ## <a name="read-only-domain-controller-rodc"></a>読み取り専用ドメイン コントローラー (RODC)
- レポート サーバーは読み取り専用ドメイン コント ローラー (RODC) が存在する環境にインストールできますが、Reporting Services が正常に機能するには、読み取り/書き込み可能なドメイン コントローラーへのアクセスが必要です。 Reporting Services が RODC にしかアクセスできない場合は、サービスを管理しようとするとエラーが発生する可能性があります。
+ 読み取り専用ドメイン コント ローラー (RODC) が存在する環境に、レポート サーバーをインストールできます。 ただし、Reporting Services が正常に機能するには、読み取り/書き込み可能なドメイン コントローラーへのアクセスが必要です。 Reporting Services が RODC にしかアクセスできない場合は、サービスを管理しようとするとエラーが発生する可能性があります。
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI レポートおよび Analysis Services のライブ接続
 表形式または多次元インスタンスに対してライブ接続を使用することができます。 Analysis Services サーバーが正常に動作するには、適切なバージョンとエディションを満たす必要があります。
@@ -69,7 +70,7 @@ Power BI レポート サーバーは、既定値をインストールして、�
 [Power BI Report Server とは](get-started.md)  
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
-[レポート ビルダーをインストールする](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

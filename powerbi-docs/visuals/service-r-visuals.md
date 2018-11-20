@@ -1,5 +1,5 @@
 ---
-title: Power BI で R スクリプトを使用して高度な分析とビジュアルを作成する
+title: R スクリプトを使用して高度な分析とビジュアルを作成する
 description: Power BI で R スクリプトを使用して高度な分析と高度なビジュアルを作成する
 author: mihart
 manager: kvivek
@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 409a2ee486d0153e0dec2f715ff0e2ea19e236d7
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566351"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297115"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI サービスで R ビジュアルを作成する
 Power BI サービスでは、R スクリプトで作成したビジュアルの表示と操作がサポートされています。 R スクリプトで作成したビジュアルは一般的に *R ビジュアル*と呼ばれ、R の豊富な分析と視覚化の機能を使用した高度なデータ整形と予測などの分析に使用できます。
 
 > [!NOTE]
-> [R プログラミング言語](https://www.r-project.org/)は、統計学者、データ科学者、ビジネス アナリストの間で最も広く使用されているプログラミング言語です。 R 言語には、7,000 を超えるアドオン パッケージを提供しているオープン ソース コミュニティや、広く利用されている [R ユーザー グループ](http://msdsug.microsoft.com/)があります。 Power BI サービスに展開されている R のバージョンは *Revolution R Open 3.2.2* です。
+> [R プログラミング言語](https://www.r-project.org/)は、統計学者、データ科学者、ビジネス アナリストの間で最も広く使用されているプログラミング言語です。 R 言語には、7,000 を超えるアドオン パッケージを提供しているオープン ソース コミュニティや、広く利用されている R ユーザー グループがあります。 Power BI サービスに展開されている R のバージョンは *Revolution R Open 3.2.2* です。
 > 
 > 
 

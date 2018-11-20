@@ -4,22 +4,24 @@ description: この記事では、Power BI Report Server と Power BI サービ�
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 11/06/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908533"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507694"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
 Power BI Report Server と Power BI サービスには、多くの類似点と重要な相違点があります。 次の表で、これらについて説明します。
+
+## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの機能
 
 | 機能 | Power BI Report Server | Power BI サービス | 注
 |---------|---------|---------|---------|
@@ -39,14 +41,14 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | Q&A | いいえ | はい | [Power BI サービスと Power BI Desktop の Q&A](../consumer/end-user-q-and-a.md) 
 | クイック分析情報 | いいえ | はい | [Power BI を使用してデータ インサイトを自動的に生成する](../consumer/end-user-insights.md) 
 | Excel で分析 | いいえ | はい | [Excel で分析](../service-analyze-in-excel.md) 
-| ページ分割されたレポート | はい | いいえ | Power BI サービスではページ分割されたレポートは利用できませんが、[ページ分割されたレポート アイテムを Power BI ダッシュボードにピン留め](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)できます
+| ページ分割されたレポート | はい | はい | [Power BI サービスでページ分割されたレポートを使用する](../paginated-reports-report-builder-power-bi.md) (プレビュー)
 | Power BI モバイル アプリ | はい | はい | [Power BI モバイル アプリの概要](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | ArcGIS マップ | いいえ | はい | [Esri が提供する Power BI サービスおよび Power BI Desktop の ArcGIS マップ](../power-bi-visualization-arcgis.md)
 | Power BI レポートの電子メールのサブスクリプション | いいえ | はい | Power BI サービスで[レポートまたはダッシュボードをサブスクライブする](../consumer/end-user-subscribe.md) 
 | ページ分割されたレポートの電子メールのサブスクリプション | はい | いいえ | [Reporting Services での電子メール配信](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | データ アラート | いいえ | はい | Power BI サービスで[データ アラート](../service-set-data-alerts.md)を設定する
 | 行レベルのセキュリティ | DirectQuery モードのデータ ソースを通してのみ | DirectQuery (データ ソース) とインポート モードの両方で利用可能 | Power BI での[行レベルのセキュリティ (RLS)](../service-admin-rls.md) 
-| 全画面表示モード | いいえ | はい | Power BI サービスの[全画面表示モード](../service-fullscreen-mode.md) 
+| 全画面表示モード | いいえ | はい | Power BI サービスの[全画面表示モード](../consumer/end-user-focus.md) 
 | Office 365 の高度な共同作業 | いいえ | はい | Office 365 を使用した[アプリ ワークスペースでの共同作業](../service-collaborate-power-bi-workspace.md) 
 | R ビジュアル | いいえ | はい | Power BI サービスで [R ビジュアルを作成する](../visuals/service-r-visuals.md)  
 | プレビュー機能 | いいえ | はい | [Power BI サービスのプレビュー機能のオプトイン](../consumer/end-user-preview-features.md) 

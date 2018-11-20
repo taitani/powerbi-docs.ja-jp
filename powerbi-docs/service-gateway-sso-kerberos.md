@@ -1,5 +1,5 @@
 ---
-title: Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) にオンプレミス ゲートウェイの Kerberos を使用する
+title: オンプレミス データ ソースへのシングル サインオン (SSO) に Kerberos を使用する
 description: Power BI からオンプレミス データ ソースへの SSO を有効にするようにゲートウェイの Kerberos を構成します
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: b66799df83095ce2104196b076482cc232c9bfae
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101625"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508039"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する
 
@@ -27,8 +27,10 @@ ms.locfileid: "50101625"
 
 * SQL Server
 * SAP HANA
+* SAP BW
 * Teradata
 * Spark
+* Impala
 
 [Security Assertion Markup Language (SAML)](service-gateway-sso-saml.md) を使用した SAP HANA もサポートされています。
 
@@ -158,7 +160,7 @@ Azure AD が既に (Azure AD DirSync/Connect を使って) ローカルの Activ
 
 1. **[ユーザー権利の割り当て]** のポリシーの一覧から、**[オペレーティング システムの一部として機能 (SeTcbPrivilege)]** を選びます。 アカウントの一覧にゲートウェイ サービス アカウントが含まれることも確認します。
 
-18. **オンプレミス データ ゲートウェイ** サービス プロセスを再起動します。
+1. **オンプレミス データ ゲートウェイ** サービス プロセスを再起動します。
 
 SAP HANA を使用している場合は、次のパフォーマンスが若干向上させるために次の追加手順を実行することをお勧めします。
 
@@ -200,9 +202,11 @@ SAP HANA を使用している場合は、次のパフォーマンスが若干�
 
 Kerberos がゲートウェイと連携するしくみを理解できたので、SAP Business Warehouse (SAP BW) に対して SSO を構成できます。 次の手順は、この記事で前述したように、[Kerberos の制約付き委任の準備](#preparing-for-kerberos-constrained-delegation)が既にできていることを前提としています。
 
-### <a name="install-sap-bw-components"></a>SAP BW コンポーネントをインストールする
+このガイドは、可能な限り包括的になるように書かれています。 一部の手順を既に完了している場合は、それをスキップできます。たとえば、BW サーバーのサービス ユーザーを既に作成して SPN をマップしてある場合や、gsskrb5 ライブラリを既にインストールしてある場合です。
 
-クライアント コンピューターおよび SAP BW アプリケーション サーバーで SAP gsskrb5 と gx64krb5 をセットアップしていない場合は、このセクションをすべて実行します。 このセットアップを既に完了している (BW サーバーのサービス ユーザーを作成し、SPN をマップしている) 場合は、このセクションの一部をスキップできます。
+### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>クライアント コンピューターと BW サーバーに gsskrb5 をセットアップする
+
+ゲートウェイを介して SSO 接続を完了するには、クライアントとサーバーの両方で gsskrb5 が使用されている必要があります。 Common Crypto Library (sapcrypto) は現在サポートされていません。
 
 1. [SAP Note 2115486](https://launchpad.support.sap.com/) から gsskrb5/gx64krb5 をダウンロードします (SAP S-User が必要)。 バージョン 1.0.11.x 以降の gsskrb5.dll および gx64krb5.dll があることを確認します。
 
@@ -212,15 +216,15 @@ Kerberos がゲートウェイと連携するしくみを理解できたので�
 
 1. クライアント コンピューターとサーバー コンピューター上で、SNC\_LIB 環境変数と SNC\_LIB\_64 環境変数を、それぞれ gsskrb5.dll と gx64krb5.dll の場所を指すように設定します。
 
-### <a name="complete-the-gateway-configuration-for-sap-bw"></a>SAP BW に対してゲートウェイ構成を実行する
+### <a name="create-a-bw-service-user-and-enable-snc-communication-using-gsskrb5-on-the-bw-server"></a>BW サービス ユーザーを作成し、BW サーバー上の gsskrb5 を使用した SNC 通信を有効にする
 
 既に実行したゲートウェイ構成に加えて、SAP BW 固有のいくつかの追加手順があります。 このドキュメントの「[**ゲートウェイ サービス アカウントで委任設定を構成する**](#configure-delegation-settings-on-the-gateway-service-account)」セクションは、基になるデータ ソースに対して SPN を既に構成していることを前提としています。 SAP BW に対してこの構成を実行するには、次の手順に従います。
 
-1. Active Directory ドメイン コントローラーで、Active Directory 環境内の BW アプリケーション サーバーに対してサービス ユーザー (最初は単純な Active Directory ユーザー) を作成します。 その後、このユーザーに SPN を割り当てます。
+1. Active Directory ドメイン コントローラー サーバーで、Active Directory 環境内の BW アプリケーション サーバーに対してサービス ユーザー (最初は単純な Active Directory ユーザー) を作成します。 その後、このユーザーに SPN を割り当てます。
 
-    割り当てられる SPN は先頭が SAP/ である**必要があります**。 SAP/ の後に続く文字は開発者次第です。1 つのオプションとしては、BW サーバーのサービス ユーザーのユーザー名を使用します。 たとえば、サービス ユーザーとして BWServiceUser@\<ドメイン\> を作成した場合、SPN SAP/BWServiceUser を使用できます。 SPN のマッピングを設定する方法の 1 つは、setspn コマンドです。 たとえば、先ほど作成したサービス ユーザーの SPN を設定するには、ドメイン コントローラー コンピューターでコマンド ウィンドウからコマンド: `setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser` を実行します。
+    SAP では SAP/ で SPN を始めることが推奨されていますが、HTTP/ などの他のプレフィックスも使用できるはずです。 SAP/ の後に続く文字は開発者次第です。1 つのオプションとしては、BW サーバーのサービス ユーザーのユーザー名を使用します。 たとえば、サービス ユーザーとして BWServiceUser@\<ドメイン\> を作成した場合、SPN SAP/BWServiceUser を使用できます。 SPN のマッピングを設定する方法の 1 つは、setspn コマンドです。 たとえば、先ほど作成したサービス ユーザーの SPN を設定するには、ドメイン コントローラー コンピューターでコマンド ウィンドウからコマンド: `setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser` を実行します。 詳しくは、SAP BW のドキュメントをご覧ください。
 
-1. サービス ユーザーに、BW アプリケーション サーバー インスタンスへのアクセス権を付与します。
+1. サービス ユーザーに、BW アプリケーション サーバーへのアクセス権を付与します。
 
     1. BW サーバー コンピューターで、BW サーバーのローカル管理者グループにサービス ユーザーを追加します。[コンピューターの管理] プ ログラムを開き、サーバーのローカル管理者グループをダブルクリックします。
 
@@ -238,7 +242,7 @@ Kerberos がゲートウェイと連携するしくみを理解できたので�
 
 1. SAP GUI/ログオンでサーバーにサインインし、RZ10 トランザクションを使用して次のプロファイル パラメーターを設定します。
 
-    1. snc/identity/as プロファイル パラメーターを p:\<作成した BW サービス ユーザー\> (p:BWServiceUser@MYDOMAIN.COM など) に設定します。 サービス ユーザーの UPN の前にある p: に注意してください。
+    1. snc/identity/as プロファイル パラメーターを p:\<作成した BW サービス ユーザー\> (p:BWServiceUser@MYDOMAIN.COM など) に設定します。 サービス ユーザーの UPN の前に付いている p: に注意してください。SNC ライブラリとして Common Crypto Lib を使用するときのような、p:CN= ではありません。
 
     1. snc/gssapi\_lib プロファイル パラメーターを \<サーバー コンピューター上の gsskrb5.dll/gx64krb5.dll へのパス (使用するライブラリは OS のビット数によって異なります)\> に設定します。 BW アプリケーション サーバーがアクセスできる場所にライブラリを配置してください。
 
@@ -259,7 +263,7 @@ Kerberos がゲートウェイと連携するしくみを理解できたので�
 
 1. これらのプロファイル パラメーターを設定してから、サーバー コンピューターで SAP 管理コンソールを開き、BW インスタンスを再起動します。 サーバーが起動しない場合は、プロファイル パラメーターを正しく設定したことを再確認します。 プロファイル パラメーターの設定の詳細については、[SAP のドキュメント](https://help.sap.com/saphelp_nw70ehp1/helpdata/en/e6/56f466e99a11d1a5b00000e835363f/frameset.htm)を参照してください。 また、問題が発生した場合、このセクションで後述するトラブルシューティング情報も参照できます。
 
-### <a name="map-azure-ad-users-to-sap-bw-users"></a>Azure AD ユーザーを SAP BW ユーザーにマップする
+### <a name="map-a-bw-user-to-an-active-directory-user"></a>BW ユーザーを Active Directory ユーザーにマップする
 
 Active Directory ユーザーを SAP BW アプリケーション サーバー ユーザーにマップし、SAP GUI/ログオンで SSO 接続をテストします。
 
@@ -275,7 +279,7 @@ Active Directory ユーザーを SAP BW アプリケーション サーバー �
 
 1. 保存アイコン (画面の左上隅近くにあるフロッピー ディスク) を選びます。
 
-### <a name="verify-sign-in-using-sso"></a>SSO を使用してサインインを確認する
+### <a name="test-sign-in-using-sso"></a>SSO を使用したサインインをテストする
 
 SSO 経由で SAP ログオン/SAP GUI を使用して、先ほど SSO アクセスを有効にした対象の Active Directory ユーザーとして、サーバーにサインインできることを確認します。
 
@@ -287,11 +291,11 @@ SSO 経由で SAP ログオン/SAP GUI を使用して、先ほど SSO アクセ
 
 1. 次のページで、アプリケーション サーバー、インスタンス番号、システムの ID などの該当する詳細情報を入力し、**[完了]** を選びます。
 
-1. 新しい接続を右クリックし、**[プロパティ]** を選びます。 **[ネットワーク]** タブを選びます。**[SNC Name]/(SNC 名/)** ウィンドウに、「p:\<BW サービス ユーザーの UPN\>」(p:BWServiceUser@MYDOMAIN.COM など) と入力します。
+1. 新しい接続を右クリックし、**[プロパティ]** を選びます。 **[ネットワーク]** タブを選びます。**[SNC Name]\(SNC 名\)** ウィンドウで、「p:\<BW サービス ユーザーの UPN\>」 (例: p:BWServiceUser@MYDOMAIN.COM) と入力して、**[OK]** を選択します。
 
     ![システム エントリ プロパティ](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
-1. **[OK]** を選択します。 ここで、先ほど作成した接続をダブルクリックして、サービスへの SSO 接続を試行します。 この接続に成功した場合は、次の手順に進みます。 そうでない場合は、このドキュメントの前述の手順を参照して、接続が正常に完了したことを確認するか、または次のトラブルシューティングのセクションを参照します。 このコンテキストで SSO を使用して BW サーバーに接続できない場合は、ゲートウェイのコンテキストで SSO を使用して BW サーバーに接続することはできません。
+1. 先ほど作成した接続をダブルクリックして、BW サーバーへの SSO 接続を試みます。 この接続に成功した場合は、次の手順に進みます。 そうでない場合は、このドキュメントの前述の手順を参照して、接続が正常に完了したことを確認するか、または次のトラブルシューティングのセクションを参照します。 このコンテキストで SSO を使用して BW サーバーに接続できない場合は、ゲートウェイのコンテキストで SSO を使用して BW サーバーに接続することはできません。
 
 ### <a name="troubleshoot-installation-and-connections"></a>インストールと接続のトラブルシューティングを行う
 
@@ -309,15 +313,33 @@ SSO 経由で SAP ログオン/SAP GUI を使用して、先ほど SSO アクセ
 
 1. "(SNC エラー) the specified module could not be found (指定したモジュールが見つかりませんでした)": これは通常、アクセスするのに高度な特権 (管理者権限) を必要とする場所に gsskrb5.dll/gx64krb5.dll を配置したことが原因で発生します。
 
-### <a name="add-registry-entries"></a>レジストリ エントリを追加する
+### <a name="add-registry-entries-to-the-gateway-machine"></a>ゲートウェイ コンピューターにレジストリ エントリを追加する
 
-ゲートウェイがインストールされているコンピューターのレジストリに、必要なレジストリ エントリを追加します。 その後、必要なゲートウェイ構成パラメーターを設定します。
+ゲートウェイがインストールされているコンピューターのレジストリに、必要なレジストリ エントリを追加します。
 
 1. コマンド ウィンドウで、次のコマンドを実行します。
 
     1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 
     1. REG ADD HKLM\SOFTWARE\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
+
+### <a name="set-configuration-parameters-on-the-gateway-machine"></a>ゲートウェイ コンピューターで構成パラメーターを設定する
+
+ユーザーが Azure AD ユーザーとして Power BI サービスにサインインできるように Azure AD DirSync を構成してあるかどうかにより、構成パラメーターの設定には 2 つのオプションがあります。
+
+Azure AD DirSync を構成してある場合は、以下の手順のようにします。
+
+1. メインのゲートウェイ構成ファイル *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll* を開きます。 このファイルは、既定では *C:\Program Files\On-premises data gateway* に格納されています。
+
+1. **FullDomainResolutionEnabled** プロパティが True に設定されていて、**SapHanaSsoRemoveDomainEnabled** が False に設定されていることを確認します。
+
+1. 構成ファイルを保存します。
+
+1. タスク マネージャーの [サービス] タブ (右クリックして [再起動] をクリック) を使用して、ゲートウェイ サービスを再起動します
+
+    ![ゲートウェイを再起動する](media/service-gateway-sso-kerberos/restart-gateway.png)
+
+Azure AD DirSync を構成していない場合は、**Azure AD ユーザーにマップするすべての Power BI サービス ユーザー**に対し、以下の手順のようにします。 次の手順では、BW にサインインするアクセス許可を持つ Active Directory ユーザーに、Power BI サービスのユーザーを手動でリンクします。
 
 1. メインのゲートウェイ構成ファイル Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll を開きます。 このファイルは、既定では C:\Program Files\On-premises data gateway に格納されています。
 
@@ -327,19 +349,21 @@ SSO 経由で SAP ログオン/SAP GUI を使用して、先ほど SSO アクセ
 
     ![ゲートウェイを再起動する](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-### <a name="set-azure-ad-properties"></a>Azure AD のプロパティを設定する
+1. BW ユーザーにマップした Active Directory ユーザーの msDS-cloudExtensionAttribute1 プロパティを、Kerberos SSO を有効にする対象の Power BI サービス ユーザーに設定します。 msDS-cloudExtensionAttribute1 プロパティを設定する方法の 1 つは、[Active Directory ユーザーとコンピューター] MMC スナップインを使用することです (他の方法を使用こともできます)。
 
-(「Azure AD ユーザーを SAP BW ユーザーにマップする」の手順で) BW ユーザーにマップした Active Directory ユーザーの msDS-cloudExtensionAttribute1 プロパティを、Kerberos SSO を有効にする対象の Power BI サービス ユーザーに設定します。 msDS-cloudExtensionAttribute1 プロパティを設定する方法の 1 つは、[Active Directory ユーザーとコンピューター] MMC スナップインを使用することです (他の方法を使用こともできます)。
+    1. 管理者ユーザーとしてドメイン コントローラー コンピューターにサインインします。
 
-1. 管理者ユーザーとしてドメイン コントローラー コンピューターにサインインします。
+    1. スナップイン ウィンドウで**ユーザー** フォルダーを開き、BW ユーザーにマップした Active Directory ユーザーをダブルクリックします。
 
-1. スナップイン ウィンドウで**ユーザー** フォルダーを開き、BW ユーザーにマップした Active Directory ユーザーをダブルクリックします。
+    1. **[属性エディター]** タブを選びます。
 
-1. **[属性エディター]** タブを選びます。このタブが表示されない場合は、このタブを有効にする手順を確認するか、または別の方法を使用して msDS cloudExtensionAttribute1 プロパティを設定する必要があります。 いずれかの属性を選び、'm' キーを押して、Active Directory の先頭が 'm' のプロパティに移動します。 msDS-cloudExtensionAttribute1 プロパティを見つけてダブルクリックします。 その値を、Power BI サービスへのサインインに使用するユーザー名に設定します。 **[OK]** を選択します。
+        このタブが表示されない場合は、このタブを有効にする手順を確認するか、または別の方法を使用して msDS cloudExtensionAttribute1 プロパティを設定する必要があります。 いずれかの属性を選び、'm' キーを押して、Active Directory の先頭が 'm' のプロパティに移動します。 msDS-cloudExtensionAttribute1 プロパティを見つけてダブルクリックします。 その値を、Power BI サービスへのサインインに使用するユーザー名 (YourUser@YourDomain の形式) に設定します。
 
-    ![属性を編集する](media/service-gateway-sso-kerberos/edit-attribute.png)
+    1. **[OK]** を選択します。
 
-1. **[適用]** を選びます。 [値] 列に正しい値が設定されていることを確認します。
+        ![属性を編集する](media/service-gateway-sso-kerberos/edit-attribute.png)
+
+    1. **[適用]** を選びます。 [値] 列に正しい値が設定されていることを確認します。
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Power BI サービスに新しい BW アプリケーション サーバー データ ソースを追加する
 
@@ -347,17 +371,19 @@ SSO 経由で SAP ログオン/SAP GUI を使用して、先ほど SSO アクセ
 
 1. データ ソース構成ウィンドウで、Power BI Desktop から BW サーバーにサインインする際と同様に、アプリケーション サーバーの **[ホスト名]**、**[システム番号]**、および **[クライアント ID]** を入力します。 **[認証方法]** で、**[Windows]** を選びます。
 
-1. **[SNC パートナー名]** フィールドに、サーバーの snc/identity/as プロファイル パラメーターに格納されている値を、*p: と ID の残りの部分との間に SAP/ を追加して*入力します。 たとえば、サーバーの ID が p:BWServiceUser@MYDOMAIN.COM の場合、[SNC パートナー名] 入力ボックスに「p:SAP/BWServiceUser@MYDOMAIN.COM」と 入力する必要があります。
+1. **[SNC パートナー名]** フィールドに、「p:\<BW サービス ユーザーにマップした SPN\>」と入力します。 たとえば、SPN が SAP/BWServiceUser@MYDOMAIN.COM の場合は、**[SNC パートナー名]** フィールドに「p:SAP/BWServiceUser@MYDOMAIN.COM」と入力する必要があります。
 
 1. SNC ライブラリでは、SNC\_LIB または SNC\_LIB\_64 を選びます。
 
 1. **[ユーザー名]** と **[パスワード]** は、SSO を使用して BW サーバーにサインインする権限のある Active Directory ユーザー (SU01 トランザクションを使用して BW ユーザーにマップされている Active Directory ユーザー) のユーザー名とパスワードにする必要があります。 これらの資格情報は、**[Use SSO via Kerberos for DirectQuery queries]/(DirectQuery クエリに Kerberos 経由で SSO を使用する/)** ボックスがオンになって*いない*場合にのみ使用されます。
 
-1. **[Use SSO via Kerberos for DirectQuery queries]/(DirectQuery クエリに Kerberos 経由で SSO を使用する/)** ボックスをオンにし、**[適用]** を選びます。 テスト接続が成功しなかった場合は、前のセットアップおよび構成手順が正常に完了したことを確認します。
+1. **[DirectQuery クエリには Kerberos 経由で SSO を使用します]** ボックスをオンにして、**[適用]** を選択します。 テスト接続が成功しなかった場合は、前のセットアップおよび構成手順が正常に完了したことを確認します。
+
+    ゲートウェイは常に入力された資格情報を使用してサーバーへのテスト接続を確立し、インポート ベースのレポートのスケジュールされた更新を行います。 **[DirectQuery クエリには Kerberos 経由で SSO を使用します]** がオンになっていて、ユーザーが直接クエリ ベースのレポートまたはデータセットにアクセスしている場合にのみ、ゲートウェイは SSO 接続の確立を試みます。
 
 ### <a name="test-your-setup"></a>セットアップをテストする
 
-Power BI Desktop から Power BI サービスに DirectQuery レポートを発行して、セットアップをテストします。 msDS-cloudExtensionAttribute1 プロパティを設定した対象のユーザーとして、Power BI サービスにログインしていることを確認します。 セットアップが正常に完了したら、Power BI サービスで発行済みのデータセットに基づいてレポートを作成し、レポート内のビジュアルを通してデータを取り込むことができます。
+Power BI Desktop から Power BI サービスに DirectQuery レポートを発行して、セットアップをテストします。 Azure AD ユーザーとして、または Azure AD ユーザーの msDS-cloudExtensionAttribute1 プロパティにマップしたユーザーとして、Power BI サービスにサインインしていることを確認します。 セットアップが正常に完了したら、Power BI サービスで発行済みのデータセットに基づいてレポートを作成し、レポート内のビジュアルを通してデータを取り込むことができます。
 
 ### <a name="troubleshooting-gateway-connectivity-issues"></a>ゲートウェイ接続の問題のトラブルシューティング
 

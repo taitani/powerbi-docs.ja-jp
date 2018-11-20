@@ -7,17 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 11/09/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ce1769d343f5a5923b1a436a2cc0c97428f74152
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: b3b461bedc9eb60607f56c82c5af8de0ed690c06
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101137"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507601"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Power BI 用 SQL Database Auditing コンテンツ パック
+
+> [!IMPORTANT]
+> SQL Database Auditing コンテンツ パックは非推奨となり、利用できなくなりました。
+ 
 Azure [SQL Database Auditing](/azure/sql-database/sql-database-auditing/) 用 Power BI コンテンツ パックは、データベース アクティビティを理解し、ビジネスに関する懸念やセキュリティ違反の疑いを示す可能性のある不一致や異常に関する洞察を得るうえで役立ちます。 
 
 Power BI 用 [SQL Database Auditing コンテンツ パック](https://app.powerbi.com/getdata/services/sql-db-auditing)に接続します。

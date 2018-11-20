@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336900"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619818"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -30,8 +30,6 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 > [!NOTE]
 > Power BI チームは **Power BI Desktop** や **Power BI サービス**で利用できるデータ ソースを継続的に拡張しています。 そのため、*ベータ*や*プレビュー*などのマークが付いた、未完成の早期バージョンのデータ ソースが頻繁に公開されています。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されています。運用環境では利用しないでください。
-> 
-> 
 
 ## <a name="data-sources"></a>データ ソース
 データ型は、次のカテゴリに分類されます。
@@ -39,8 +37,8 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * すべて
 * ファイル
 * データベース
-* する
-* アジュール
+* Power BI
+* Azure
 * オンライン サービス
 * その他
 
@@ -80,15 +78,14 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Impala
 * Google BigQuery
 * Snowflake
+* BI コネクタ
+* Exasol
 * Dremio (ベータ)
-* Exasol (ベータ)
 * Jethro (ベータ)
 * Kyligence Enterprise (ベータ)
 
 > [!NOTE]
 > 一部のデータベース コネクタの場合、有効にするためには、**[ファイル]、[オプションと設定]、[オプション]** の順に選択し、**[プレビュー機能]** を選択し、コネクタを有効にする必要があります。 前途コネクタの一部が表示されず、その中に使用したいコネクタも含まれている場合は、**[プレビュー機能]** を確認してください。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されていることにもご注意ください。運用環境では利用しないでください。
-> 
-> 
 
 次の図は、 **[データベース]** の **[データの取得]** ウィンドウを示しています。
 
@@ -111,11 +108,11 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure BLOB ストレージ
 * Azure テーブル ストレージ
 * Azure Cosmos DB (ベータ版)
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 対話型クエリ
-* Azure KustoDB (Beta)
+* Azure Data Explorer (ベータ)
 
 次の図は、 **[Azure]** の **[データの取得]** ウィンドウを示しています。
 
@@ -131,7 +128,8 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Dynamics 365 Business Central (オンプレミス)
 * アプリ用 Common Data Service (ベータ)
 * Microsoft Azure Consumption Insights (Beta)
-* Visual Studio Team Services (Beta)
+* Azure DevOps (ベータ)
+* Azure DevOps Server (ベータ)
 * Salesforce オブジェクト
 * Salesforce レポート
 * Google アナリティクス
@@ -187,8 +185,6 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 > [!NOTE]
 > 現時点では、Azure Active Directory を使用して保護されているカスタム データ ソースに接続することはできません。
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>データ ソースへの接続
 データ ソースに接続するには、 **[データの取得]** ウィンドウでデータ ソースを選択し、 **[接続]** を選びます。 次の図の場合、 **[その他]** データ接続カテゴリで **[Web]** が選択されています。

@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop で複合モデルを使用する (プレビュー)
+title: Power BI Desktop で複合モデルを使用する
 description: Power BI Desktop で複数のデータ接続と多対多のリレーションシップを使用するデータ モデルを作成する
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435398"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619703"
 ---
-# <a name="use-composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop で複合モデルを使用する (プレビュー)
+# <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop で複合モデルを使用する
 
 Power BI Desktop の以前のバージョンでは、レポートに DirectQuery を使用した場合、そのレポートで他のデータ接続&mdash;DirectQuery でもインポートでも&mdash;を使用することはできませんでした。 複合モデルでは、その制限が除外されます。 複数の DirectQuery またはインポート データ接続からのデータ接続を、任意の組み合わせでシームレスにレポートに含めることができるようになりました。
 
@@ -30,16 +30,6 @@ Power BI Desktop の複合モデル機能は、3 つの関連する機能で構�
 * **多対多のリレーションシップ**: *複合モデル*では、テーブル間で*多対多のリレーションシップ*を確立することができます。 このアプローチでは、テーブル内の一意の値の要件が除外されます。 また、リレーションシップを作成するためだけに新しいテーブルを導入するなどの以前の回避策も除外されます。 詳細については、「[Power BI Desktop での多対多のリレーションシップ (プレビュー)](desktop-many-to-many-relationships.md)」をご覧ください。
 
 * **ストレージ モード**: どのビジュアルでバックエンド データ ソースへのクエリを必要とするかを指定できるようになりました。 クエリを必要としないビジュアルは、それらが DirectQuery に基づいている場合でもインポートされます。 この機能はパフォーマンスの向上とバック エンドの負荷の軽減に役立ちます。 以前は、スライサーなどのシンプルなビジュアルでも、バックエンド ソースに送信されるクエリが開始されました。 詳細については、「[Power BI Desktop のストレージ モード (プレビュー)](desktop-storage-mode.md)」をご覧ください。
-
-## <a name="enable-the-composite-models-preview-feature"></a>複合モデルのプレビュー機能を有効にする
-
-複合モデル機能はプレビュー段階であり、Power BI Desktop で有効にする必要があります。 複合モデルを有効にするには、**[ファイル]** > **[オプションと設定]** > **[オプション]** > **[プレビュー機能]** の順に選択し、**[複合モデル]** チェックボックスをオンにします。 
-
-![[プレビュー機能] ウィンドウ](media/desktop-composite-models/composite-models_02.png)
-
-機能を有効にするには、Power BI Desktop を再起動する必要があります。
-
-![[この機能は再起動が必要です] ウィンドウ](media/desktop-composite-models/composite-models_03.png)
 
 
 ## <a name="use-composite-models"></a>複合モデルを使用する

@@ -4,19 +4,18 @@ description: Power BI のレポート コンシューマーとして読み取り
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003273"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266026"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI での ArcGIS マップとの対話
 このトピックは、Power BI サービス、Desktop、またはモバイルで ArcGIS マップを "*使用する*" ユーザーを対象として書かれています。 作成者から ArcGIS マップを共有された場合、さまざまな方法でそのマップと対話できます。  ArcGIS マップの作成の詳細については、[Esri の ArcGIS マップのチュートリアル](../power-bi-visualization-arcgis.md)をご覧ください。
@@ -24,7 +23,7 @@ ms.locfileid: "50003273"
 ArcGIS マップと Power BI を組み合わせると、マッピングをマップ上のポイントの表現を越える、まったく新しいレベルに引き上げることができます。 基本マップ、場所の種類、テーマ、記号のスタイル、および参照レイヤーで使用可能なオプションを選択して、すばらしい有益なマップの視覚エフェクトを作成します。 空間分析を使用してマップ上で権限のあるデータのレイヤー (国勢調査データなど) を組み合わせることで、より深く理解できる視覚化されたデータを伝達します。
 
 > [!TIP]
-> GIS は Geographic Information Science (地理情報科学) の略です。
+> GIS は Geographic Information System (地理情報システム) の略です。
 > 
 
 ここで使用している例は、[Esri の ArcGIS マップのチュートリアル](../power-bi-visualization-arcgis.md)で作成されるものと同じ ArcGIS マップです。 このチュートリアルでは、都市別の前年の売上を調べ、ストリート ベースマップとバブル シンボルを使って、サイズと平均世帯年収の参照レイヤーを表します。 マップには、3 つのピンと 1 つのドライブ時間半径 (紫) が含まれています。

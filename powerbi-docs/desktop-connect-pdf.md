@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fe13e5776648342aa4f7e86dce657e6ffcca11b9
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 2ecd4b8e6295431f520dea61454bbf868bfab254
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512923"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619678"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Power BI Desktop で PDF ファイルに接続する (プレビュー)
 Power BI Desktop では、Power BI Desktop の他のデータ ソースと同様に、**PDF ファイル**に接続してこのファイルに含まれるデータを使用できます。
@@ -45,6 +45,10 @@ PDF コネクタは **Power BI Desktop** のプレビュー段階にあり、有
 ![PDF ファイルのデータへの接続](media/desktop-connect-pdf/connect-pdf_04.png)
 
 PDF ファイル内の検出された要素の横にあるチェック ボックスをオンにすると、これらの要素が右側のウィンドウに表示されます。 インポートする準備ができたら、**[読み込み]** ボタンを選択して、そのデータを **Power BI Desktop** に取り込みます。
+
+2018 年 11 月リリース以降の **Power BI Desktop** では、PDF 接続用の省略可能なパラメーターとして、**[開始ページ]** と **[最終ページ]** を選択できます。 また、以下の形式を使用して、M 式言語内でこれらのパラメーターを指定することもできます。
+
+`Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
 
 ## <a name="next-steps"></a>次の手順
