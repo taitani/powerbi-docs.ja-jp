@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641670"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268299"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium の Multi-Geo のサポート (プレビュー)
 
@@ -94,6 +94,7 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 - リモート リージョンに格納されているキャッシュ クエリは、保存時はそのリージョン内に残ります。 ただし、転送中の他のデータは、複数の地域間を行き来する可能性があります。
 - Multi-Geo 環境でデータを別のリージョンに移行する場合、ソース データは、データが移行された元のリージョンに最大 30 日間残る可能性があります。 その間、エンド ユーザーはそのデータにアクセスできません。 30 日の期間中に、そのデータはこのリージョンから削除され、破棄されます。
 - 一般的に、Multi-Geo でパフォーマンスが向上することはありません。 レポートとダッシュボードの読み込み処理の場合、ホーム リージョンに対してメタデータを要求する必要があります。
+- [データフロー](service-dataflows-overview.md)の機能 (プレビュー) は、この時点では Multi-GEO でサポートされていません。
 
 ## <a name="next-steps"></a>次の手順
 

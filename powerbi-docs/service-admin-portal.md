@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266118"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268368"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
 
@@ -301,7 +301,7 @@ AppSource からのインストールを要求することなく、ユーザー�
 
 ### <a name="create-and-use-dataflows-preview"></a>データフローを作成して使用する (プレビュー)
 
-組織内のユーザーはデータフローを作成して使用できます。 [詳細情報](service-dataflows-overview.md)
+組織内のユーザーはデータフローを作成して使用できます。 データフローの概要については、「[Power BI でのセルフサービスのデータ準備 (プレビュー)](service-dataflows-overview.md)」をご覧ください。 Premium 容量でのデータフローを有効にするには、「[ワークロードを構成する](service-admin-premium-manage.md#configure-workloads)」を参照してください。
 
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。
