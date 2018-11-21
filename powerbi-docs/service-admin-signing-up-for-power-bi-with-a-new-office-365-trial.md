@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5089be0cb8bd96573a0d1b3e25c742c1f559253b
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736851"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850386"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>新しい Office 365 試用版で Power BI にサインアップする
 
@@ -27,7 +27,7 @@ ms.locfileid: "50736851"
 
 1. そのサインアップ プロセスが完了すると、you@yourcompany.onmicrosoft.com のような新しいサインイン名が与えられます。 これは、Power BI で使用するサインインです。
 
-1. [このリンクを使って](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1) Power BI にサインアップします。 サインイン画面が表示されたら、前のステップで Office 365 用に選んだサインイン名とパスワードを使ってサインインします。
+1. [このリンクを使って](https://app.powerbi.com/signupredirect?pbi_source=web) Power BI にサインアップします。 サインイン画面が表示されたら、前のステップで Office 365 用に選んだサインイン名とパスワードを使ってサインインします。
 
 1. これで完了です。 完了すると、Power BI にリダイレクトされます。 新しいアカウントでのサインインに問題がある場合は、プライベート ブラウザー セッションを使ってみてください。
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736966"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679434"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -119,7 +119,7 @@ https://app.powerbi.com/ > ? > Power BI について
 ![Power BI について](media/embedded-faq/about-01.png)
 ![テナント リージョン](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>CSP (Communicating Sequential Processes) チャネルでは何がサポートされていますか?
+### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>クラウド ソリューション プロバイダー (CSP) チャネルでは何がサポートされていますか?
 
 * サブスクリプションの種類が CSP の場合、ご自身のテナントに対して PBIE を作成できます。
 * パートナー アカウントは顧客テナントにサインインし、顧客テナントの代わりに PBIE を購入し、Power BI 容量の管理者として顧客テナント ユーザーを指定できます。

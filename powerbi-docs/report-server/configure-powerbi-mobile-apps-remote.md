@@ -1,5 +1,5 @@
 ---
-title: リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
+title: リモートでレポート サーバーへの iOS モバイル アプリのアクセスを構成する
 description: レポート サーバー用にリモートで iOS モバイル アプリを構成する方法を説明します。
 author: maggiesMSFT
 manager: kfile
@@ -7,21 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: bbade67c9510b8d316364d991c09444712309514
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722180"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157427"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
 
 この記事では、組織の MDM ツールを使用して、レポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する方法について説明します。 これを設定するために、IT 管理者は、アプリにプッシュする必要な情報でアプリ構成ポリシーを作成します。 
 
  レポート サーバー接続が既に構成されているため、Power BI iOS モバイル アプリのユーザーは組織のレポート サーバーにより簡単に接続できます。 
-
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>MDM ツールでアプリ構成ポリシーを作成する 
 
@@ -39,7 +38,7 @@ ms.locfileid: "34722180"
 | com.microsoft.powerbi.mobile.ServerURL | 文字列 | レポート サーバー URL </br> 先頭は http/https である必要があります |
 | com.microsoft.powerbi.mobile.ServerUsername | 文字列 | (省略可能) </br> サーバーの接続に使用するユーザー名。 </br> 存在しない場合、アプリで、ユーザーに接続用のユーザー名の入力を求めるメッセージが表示されます。| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | 文字列 | (省略可能) </br> 既定値は "Report server" です </br> サーバーを表すためにアプリで使用されるフレンドリ名 | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | ブール値 | 既定値は True です </br> "True" に設定すると、モバイル デバイスに既に存在するレポート サーバー定義がオーバーライドされます (既に構成されている既存のサーバーは削除されます)。 </br> また、オーバーライドを True に設定すると、ユーザーはその構成を削除できなくなります。 </br> "False" に設定すると、既存の設定はそのままで、プッシュされた値が追加されます。 </br> モバイル アプリで同じサーバー URL が既に構成されている場合、アプリではその構成がそのまま保持され、ユーザーに対して同じサーバーの再認証が求められることはありません。 |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | ブール値 | 既定値は True です </br>“True” に設定されている場合、モバイル デバイスに既にあるレポート サーバーのすべての定義がオーバーライドされます。 既に構成されているサーバーは、削除されます。 </br> また、オーバーライドを True に設定すると、ユーザーはその構成を削除できなくなります。 </br> "False" に設定すると、既存の設定はそのままで、プッシュされた値が追加されます。 </br> 同じサーバー URL がモバイル アプリに既に構成されている場合、アプリはその構成をそのままにします。 アプリは、同じサーバーへの再認証をユーザーに求めません。 |
 
 Intune を使用して構成ポリシーを設定する例を以下に示します。
 
@@ -47,7 +46,7 @@ Intune を使用して構成ポリシーを設定する例を以下に示しま�
 
 ## <a name="end-users-connecting-to-a-report-server"></a>レポート サーバーに接続しているエンドユーザー
 
-アプリ構成ポリシーが発行された後で、そのポリシーに対して定義されている配布リストに属するデバイスとユーザーが Power BI iOS モバイル アプリを起動する場合のエクスペリエンスは次のとおりです。 
+ 配布リスト用にアプリの構成ポリシーを発行したとします。 その配布リストのユーザーとデバイスが iOS モバイル アプリを起動した場合、次のようなエクスペリエンスがあります。 
 
 1. レポート サーバーでモバイル アプリが構成されていることを示すメッセージを確認し、**[サインイン]** をタップします。
 

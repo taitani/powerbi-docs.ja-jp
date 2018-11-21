@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/24/2018
+ms.date: 11/14/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: cdc406ddd9c086114ca118130bb4973737de3ed1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909017"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717897"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI で新しいワークスペース (プレビュー) を作成する
 
@@ -168,7 +168,7 @@ Power BI では、新しいワークスペース エクスペリエンスがプ�
 
 次のような既知の問題があり、修正プログラムが開発中です。
 
-- メールにサブスクリプションの受信者として追加された無料ユーザーやユーザー グループが、受信できるはずのメールを受信できない場合があります。 新しいワークスペース エクスペリエンスが Premium 容量にあるものの、サブスクリプションを作成するユーザーのマイ ワークスペースが Premium 容量にない場合に、この問題が発生します。 マイ ワークスペースが Premium 容量にある場合、無料ユーザーおよびユーザー グループはメールを受信します。
+- メールにサブスクリプションの受信者として追加された無料ユーザーやユーザー グループが、受信できるはずのメールを受信できない場合があります。 新しいワークスペースの 1 つが Premium 容量にあるものの、サブスクリプションを作成するユーザーのマイ ワークスペースが Premium 容量にない場合に、この問題が発生します。 マイ ワークスペースが Premium 容量にある場合、無料ユーザーおよびユーザー グループはメールを受信します。
 - ワークスペースが Premium 容量から共有容量に移動された後、場合によっては、無料ユーザーおよびユーザー グループが受信できないはずのメールを引き続き受信します。 サブスクリプションを作成するユーザーのマイ ワークスペースが Premium 容量にある場合に、この問題が発生します。
 
 ## <a name="next-steps"></a>次の手順

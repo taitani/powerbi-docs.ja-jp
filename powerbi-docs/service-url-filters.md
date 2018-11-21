@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973375"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850593"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -47,7 +47,7 @@ URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
 
 * **文字列**は単一引用符で囲む必要があります (例: 'manager name')。
 * **数値**には特別な書式設定は必要ありません。
-* **日付と時刻**は単一引用符で囲み、前に **DateTime** という単語を付ける必要があります。
+* **日付と時刻**は単一引用符で囲む必要があります。 OData v3 では、これらの前には datetime という単語が必要ですが、OData v4 では datetime は必要ありません。
 
 以下では構文についてさらに詳しく説明します。  
 
@@ -97,10 +97,10 @@ URL にパラメーターを追加し、複数のフィールドでフィルタ�
 
 Power BI では、'**and**' に加え、多くの演算子がサポートされています。 次の表に、その演算子とサポートされるコンテンツの種類を一覧表示します。
 
-|演算子  | 定義 | 文字列  | 数値 | Date |  例|
+|演算子  | 定義 | 文字列  | 数値 | 日付 |  例|
 |---------|---------|---------|---------|---------|---------|
 |**and**     | および |  はい      | はい |  はい|  product/price le 200 and price gt 3.5 |
-|**eq**     | 指定の値に等しい |  はい      | はい   |  はい       | Address/City eq 'Redmond' |
+|**eq**     | equals |  はい      | はい   |  はい       | Address/City eq 'Redmond' |
 |**ne**     | 等しくない |   はい      | はい  | はい        |  Address/City ne 'London' |
 |**ge**     |  以上       | いいえ | はい |はい |  product/price ge 10
 |**gt**     | より大きい        |いいえ | はい | はい  | product/price gt 20

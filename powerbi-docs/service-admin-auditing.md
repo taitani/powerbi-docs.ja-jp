@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 294fb3a0142908ce0ab068e075ce39f950a0b124
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973352"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850478"
 ---
 # <a name="using-auditing-within-your-organization"></a>組織内での監査の使用
 
@@ -139,83 +139,100 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 次のアクティビティは Power BI によって監査されます。
 
-* AddDatasourceToGateway
-* AddGroupMembers
-* AnalyzedByExternalApplication
-* AnalyzeInExcel
-* AttachDataflowStorageAccount
-* BindToGateway
-* ChangeCapacityState
-* ChangeGatewayAdministrators
-* ChangeGatewayDatasourceUsers
-* CreateApp
-* CreateDashboard
-* CreateDataflow
-* CreateDataset
-* CreateEmailSubscription
-* CreateFolder
-* CreateGateway
-* CreateGroup
-* CreateOrgApp
-* CreateReport
-* DeleteComment
-* DeleteDashboard
-* DeleteDataflow
-* DeleteDataset
-* DeleteEmailSubscription
-* DeleteFolder
-* DeleteGateway
-* DeleteGroup
-* DeleteGroupMembers
-* DeleteOrgApp
-* DeleteReport
-* DownloadReport
-* EditDataset
-* EditReport
-* ExportDataflow
-* ExportReport
-* ExportTile
-* GenerateDataflowSasToken
-* GenerateEmbedToken
-* GetDatasources
-* インポート
-* InstallApp
-* MigrateWorkspaceIntoCapacity
-* OptInForProTrial
-* PostComment
-* PrintDashboard
-* PrintReport
-* PublishToWebReport
-* RefreshDataset
-* RemoveDatasourceFromGateway
-* RemoveWorkspacesFromCapacity
-* RenameDashboard
-* SetAllConnections
-* SetScheduledRefresh
-* SetScheduledRefreshOnDataflow
-* ShareDashboard
-* ShareReport
-* TakeOverDataset
-* TakeOverDatasource
-* UnpublishApp
-* UpdateApp
-* UpdateCapacityAdmins
-* UpdateCapacityDisplayName
-* UpdateCapacityResourceGovernanceSettings
-* UpdateCapacityUsersAssignment
-* UpdatedAdminFeatureSwitch
-* UpdateDataflow
-* UpdateDatasetParameters
-* UpdateDatasourceCredentials
-* UpdateDatasources
-* UpdateEmailSubscription
-* UpdateFolder
-* UpdateFolderAccess
-* ViewDashboard
-* ViewDataflow
-* ViewReport
-* ViewTile
-* ViewUsageMetrics
+| フレンドリ名                                     | 操作名                              | 注                                  |
+|---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Power BI Gateway にデータ ソースを追加しました             | AddDatasourceToGateway                      |                                          |
+| Power BI フォルダーへのアクセスを追加しました                      | AddFolderAccess                             | 現在使用されていません                       |
+| Power BI グループ メンバーを追加しました                      | AddGroupMembers                             |                                          |
+| 管理者がテナントにデータフローのストレージ アカウントをアタッチしました | AdminAttachedDataflowStorageAccountToTenant | 現在使用されていません                       |
+| Power BI データセットの分析                         | AnalyzedByExternalApplication               |                                          |
+| Power BI レポートを分析しました                          | AnalyzeInExcel                              |                                          |
+| ゲートウェイに対するバインドされた Power BI データセット                | BindToGateway                               |                                          |
+| 容量の状態を変更しました                            | ChangeCapacityState                         |                                          |
+| 容量のユーザー割り当てを変更しました                  | UpdateCapacityUsersAssignment               |                                          |
+| Power BI データセットの接続を変更しました              | SetAllConnections                           |                                          |
+| 変更された Power BI Gateway の管理者                   | ChangeGatewayAdministrators                 |                                          |
+| 変更された Power BI ゲートウェイ データ ソースのユーザー        | ChangeGatewayDatasourceUsers                |                                          |
+| 組織の Power BI コンテンツ パックを作成しました      | CreateOrgApp                                |                                          |
+| Power BI アプリを作成しました                              | CreateApp                                   |                                          |
+| Power BI ダッシュボードを作成しました                        | CreateDashboard                             |                                          |
+| Power BI データフローを作成しました                         | CreateDataflow                              |                                          |
+| Power BI データセットを作成しました                          | CreateDataset                               |                                          |
+| Power BI メール サブスクリプションを作成しました               | CreateEmailSubscription                     |                                          |
+| Power BI フォルダーを作成しました                           | CreateFolder                                |                                          |
+| Power BI Gateway の作成                          | CreateGateway                               |                                          |
+| Power BI グループを作成しました                            | CreateGroup                                 |                                          |
+| Power BI レポートを作成しました                           | CreateReport                                |                                          |
+| 外部ストレージ アカウントにデータフローを移行しました     | DataflowMigratedToExternalStorageAccount    | 現在使用されていません                       |
+| データフローのアクセス許可を追加しました                        | DataflowPermissionsAdded                    | 現在使用されていません                       |
+| データフローのアクセス許可を削除しました                      | DataflowPermissionsRemoved                  | 現在使用されていません                       |
+| 組織の Power BI コンテンツ パックを削除しました      | DeleteOrgApp                                |                                          |
+| Power BI コメントを削除しました                          | DeleteComment                               |                                          |
+| Power BI ダッシュボードを削除しました                        | DeleteDashboard                             | 現在使用されていません                       |
+| Power BI データフローを削除しました                         | DeleteDataflow                              | 現在使用されていません                       |
+| Power BI データセットを削除しました                          | DeleteDataset                               |                                          |
+| Power BI メール サブスクリプションを削除しました               | DeleteEmailSubscription                     |                                          |
+| Power BI フォルダーを削除しました                           | DeleteFolder                                |                                          |
+| Power BI フォルダーへのアクセスを削除しました                    | DeleteFolderAccess                          | 現在使用されていません                       |
+| Power BI Gateway の削除                          | DeleteGateway                               |                                          |
+| Power BI グループを削除しました                            | DeleteGroup                                 |                                          |
+| Power BI レポートを削除しました                           | DeleteReport                                |                                          |
+| Power BI データセットのデータ ソースを検出しました          | GetDatasources                              |                                          |
+| Power BI レポートのダウンロード                        | DownloadReport                              |                                          |
+| Power BI の証明書に対する権限を編集しました          | EditCertificationPermission                 | 現在使用されていません                       |
+| Power BI ダッシュボードを編集しました                         | EditDashboard                               | 現在使用されていません                       |
+| Power BI データセットを編集しました                           | EditDataset                                 |                                          |
+| Power BI データセット プロパティを編集しました                | EditDatasetProperties                       | 現在使用されていません                       |
+| Power BI レポートを編集しました                            | EditReport                                  |                                          |
+| Power BI データフローをエクスポートしました                        | ExportDataflow                              |                                          |
+| Power BI レポートのビジュアル データをエクスポートしました              | ExportReport                                |                                          |
+| Power BI タイル データをエクスポートしました                       | ExportTile                                  |                                          |
+| データフローのアクセス許可の追加に失敗しました                | FailedToAddDataflowPermissions              | 現在使用されていません                       |
+| データフローへのアクセス許可の削除に失敗しました             | FailedToRemoveDataflowPermissions           | 現在使用されていません                       |
+| Power BI のデータ フローの SAS トークンを生成しました             | GenerateDataflowSasToken                    |                                          |
+| Power BI の埋め込みトークンを生成しました                    | GenerateEmbedToken                          |                                          |
+| Power BI にファイルをインポートしました                         | インポート                                      |                                          |
+| Power BI アプリをインストールしました                            | InstallApp                                  |                                          |
+| 容量にワークスペースを移行しました                  | MigrateWorkspaceIntoCapacity                |                                          |
+| Power BI コメントを投稿しました                           | PostComment                                 |                                          |
+| Power BI ダッシュボードを出力しました                        | PrintDashboard                              |                                          |
+| Power BI レポート ページを出力しました                      | PrintReport                                 |                                          |
+| Power BI レポートを Web に発行しました                  | PublishToWebReport                          |                                          |
+| Key Vault からの Power BI データフロー シークレットを受信しました  | ReceiveDataflowSecretFromKeyVault           | 現在使用されていません                       |
+| Power BI Gateway からのデータ ソースの削除         | RemoveDatasourceFromGateway                 |                                          |
+| Power BI グループ メンバーを削除しました                    | DeleteGroupMembers                          |                                          |
+| 容量からのワークスペースを削除しました                 | RemoveWorkspacesFromCapacity                |                                          |
+| Power BI ダッシュボードを名前変更しました                        | RenameDashboard                             |                                          |
+| Power BI データフローの更新を要求しました               | RequestDataflowRefresh                      | 現在使用されていません                       |
+| Power BI データセットの更新を要求しました                | RefreshDataset                              |                                          |
+| Power BI ワークスペースを取得しました                     | GetWorkspaces                               |                                          |
+| Power BI のデータフローへのスケジュールされた更新を設定しました        | SetScheduledRefreshOnDataflow               |                                          |
+| Power BI のデータセットへのスケジュールされた更新を設定しました         | SetScheduledRefresh                         |                                          |
+| Power BI ダッシュボードを共有しました                         | ShareDashboard                              |                                          |
+| Power BI レポートを共有しました                            | ShareReport                                 |                                          |
+| Power BI の延長した評価期間の開始                   | OptInForExtendedProTrial                    | 現在使用されていません                       |
+| Power BI の試用版を開始しました                            | OptInForProTrial                            |                                          |
+| Power BI データソースを引継ぎました                   | TakeOverDatasource                          |                                          |
+| Power BI データセットを引き継ぎました                        | TakeOverDataset                             |                                          |
+| 未発行の Power BI アプリ                          | UnpublishApp                                |                                          |
+| 容量リソース管理設定の更新      | UpdateCapacityResourceGovernanceSettings    | 現在 Office 365 管理ポータルにない |
+| 容量管理者を更新しました                            | UpdateCapacityAdmins                        |                                          |
+| 容量表示名を更新しました                     | UpdateCapacityDisplayName                   |                                          |
+| 組織の Power BI 設定を更新しました          | UpdatedAdminFeatureSwitch                   |                                          |
+| Power BI アプリを更新しました                              | UpdateApp                                   |                                          |
+| Power BI データフローを更新しました                         | UpdateDataflow                              |                                          |
+| Power BI データセット データ ソースを更新しました             | UpdateDatasources                           |                                          |
+| Power BI データセット パラメーターを更新しました               | UpdateDatasetParameters                     |                                          |
+| Power BI メール サブスクリプションを更新しました               | UpdateEmailSubscription                     |                                          |
+| Power BI フォルダーを更新しました                           | UpdateFolder                                |                                          |
+| Power BI フォルダーへのアクセスを更新しました                    | UpdateFolderAccess                          |                                          |
+| Power BI ゲートウェイ データ ソースの資格情報を更新しました  | UpdateDatasourceCredentials                 |                                          |
+| Power BI ダッシュボードを参照しました                         | ViewDashboard                               |                                          |
+| Power BI データフローを参照しました                          | ViewDataflow                                |                                          |
+| Power BI レポートを参照しました                            | ViewReport                                  |                                          |
+| Power BI タイルを参照しました                              | ViewTile                                    |                                          |
+| Power BI の使用状況メトリックを参照しました                     | ViewUsageMetrics                            |                                          |
+|                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>次の手順
 

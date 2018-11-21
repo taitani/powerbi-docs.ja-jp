@@ -10,24 +10,32 @@ ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 416f022ee3c413c69650e6f1736cc94edcd58f13
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0449d7953b5cefb4c76d89f05ec5b3fa70e9c0da
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641254"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679386"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>大規模なデータセットに対する Power BI Premium のサポート
 
-Power BI Premium は、最大 10 GB のサイズの Power BI Desktop ファイル (.pbix) のアップロードをサポートします。 アップロードが完了すると、データセットのサイズは最大 12 GB まで更新できます。 大規模なデータセットを使用するには、そのデータセットを Premium 容量に割り当てられているワークスペースに発行します。 この記事では、大規模なデータセットを操作するための考慮事項およびベスト プラクティスについて説明します。
+Power BI Premium は、最大 10 GB のサイズの Power BI Desktop ファイル (.pbix) のアップロードをサポートします。 アップロードが完了すると、データセットのサイズは最大 12 GB まで更新できます。 大規模なデータセットを使用するには、そのデータセットを Premium 容量に割り当てられているワークスペースに発行します。
+ 
+## <a name="best-practices"></a>ベスト プラクティス
 
-**大規模なモデルは、容量のリソースを大量に消費します**。 1 GB を超えるモデルには少なくとも P1 SKU をお勧めします。 次の表に、さまざまな .pbix のサイズに対して推奨される SKU を示します。
+このセクションでは、大規模なデータセットを操作するためのベスト プラクティスについて説明します。
+
+**大規模なモデルは、容量のリソースを大量に消費します**。 1 GB を超えるモデルには少なくとも P1 SKU をお勧めします。 大規模なモデルを、最大 A3 までの A SKU に支えられたワークスペースに発行すると機能する場合がありますが、更新した場合は機能しません。
+
+次の表に、さまざまな .pbix のサイズに対して推奨される SKU を示します。
 
    |SKU  |.pbix のサイズ   |
    |---------|---------|
    |P1    | < 3 GB        |
    |P2    | < 6 GB        |
-   |P3、P4、P5    | 最大 10 GB |
+   |P3、P4、P5    | 最大 10 GB   |
+
+Power BI Embedded の A4 SKU は P1 SKU と、A5 は P2 と、A6 は P3 とそれぞれ同等です。 なお、大規模なモデルを A および EM SKU に発行した場合、共有された容量のサイズ制限エラーに固有ではないエラーが返される場合があります。 A および EM SKU の大規模なモデルの更新エラーは、タイムアウトを示す可能性があります。 これらのシナリオでのエラー メッセージの改善に取り組んでいます。
 
 **.pbix ファイルは、圧縮率の高い状態のデータを表しています**。 データはメモリに読み込まれるときに数回展開される場合があります。データの更新中に、そこからさらに数回展開される場合があります。
 

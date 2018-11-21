@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスの [分析] ウィンドウ
+title: ビジュアルの動的な参照線を作成する
 description: Power BI サービスでビジュアルの動的な参照線を作成します
 author: mihart
 manager: kfile
@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244518"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717702"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>Power BI サービスの [分析] ウィンドウ
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI サービスでビジュアルの動的な参照線を作成します
+
 **Power BI サービス**の **[分析]** ウィンドウによって、動的な*参照線*を視覚化に追加して、重要な傾向や情報に注目させることができます。
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ ms.locfileid: "34244518"
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>[分析] ウィンドウを使用する
+## <a name="use-the-analytics-pane"></a>[分析] ウィンドウを使用する
 **[分析]** ウィンドウでは、次の種類の動的参照線を作成できます (ビジュアルの種類によっては使用できないものがあります)。
 
 * X 軸の定数線

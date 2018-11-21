@@ -1,5 +1,5 @@
 ---
-title: 'チュートリアル: iOS アプリの Q&A 仮想アナリストで質問する - Power BI'
+title: 'チュートリアル: iOS アプリの Q&A 仮想アナリストで質問する'
 description: このチュートリアルでは、iOS デバイス上の Power BI モバイル アプリで Q&A 仮想アナリストを使用して、自分の言葉でサンプル データについて質問します。
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: tutorial
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547131"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157151"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>チュートリアル: iOS アプリの Q&A 仮想アナリストでデータについて質問する - Power BI
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>チュートリアル: Power BI iOS アプリの Q&A 仮想アナリストでデータについて質問する
 
 データについて学習する最も簡単な方法は、自分の言葉でデータについて質問することです。 このチュートリアルでは、iPad、iPhone、iPod Touch で Microsoft Power BI モバイル アプリの Q&A 仮想アナリストを使用して、サンプル データについて質問したり、おすすめの分析情報を見たりします。 
 

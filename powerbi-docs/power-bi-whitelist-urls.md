@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222107"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157128"
 ---
 # <a name="power-bi-urls"></a>Power BI の URL
 
@@ -69,7 +69,7 @@ OneDrive などの特定のデータ ソースからデータを取得するに�
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |
 | 1 | **必須:** AppSource (Power BI の内部または外部のアプリ) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
-| 2 | **必須:** サインインし、コンテンツ パックのデータを取得する | *.github.com  | TCP 443 |
+| 2 | **省略可能:** サインインし、コンテンツ パックのデータを取得する | 使用しているコンテンツパックによって異なる | 使用しているコンテンツパックによって異なる |
 | 3 | **オプション:** 個人用 OneDrive からのファイルのインポート | 「[Required URLs and ports for OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports)」 (OneDrive に必要な URL とポート) を参照 | 該当なし |
 | 4 | **オプション:** Power BI の 60 秒間のチュートリアル ビデオ | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **オプション:** PubNub ストリーミング データ ソース | [PubNub のドキュメント](https://support.pubnub.com/support/solutions/articles/14000043522)を参照 | 該当なし |
