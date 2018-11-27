@@ -390,42 +390,54 @@ items:
     items:
     - name: Power BI サービスの新機能
       href: service-whats-new.md
-    - name: 基本的な概念
+    - name: デザイナーの基本的な概念
       href: service-basic-concepts.md
-    - name: セルフサービス サインアップ
-      href: service-self-service-signup-for-power-bi.md
-    - name: Power BI 用の Cortana の概要
-      href: service-cortana-intro.md
-    - name: Power BI でのデータの更新
-      href: refresh-data.md
-    - name: 米国政府用 Power BI
-      href: service-govus-overview.md
-    - name: ライセンスの種類別の機能
-      href: service-features-license-type.md
     - name: ヘルプを得るための 10 のヒント
       href: service-tips-for-finding-help.md
-    - name: Power BI レポートのフィルターと強調表示について
-      href: power-bi-reports-filters-and-highlighting.md
-    - name: ファイルからデータを取得
-      href: service-get-data-from-files.md
-    - name: レポート エディター...紹介を見る
-      href: service-the-report-editor-take-a-tour.md
-    - name: Power BI での視覚化
-      href: visuals/power-bi-report-visualizations.md
-    - name: Power BI のデータ ソース
-      href: service-get-data.md
-    - name: Extended Pro Trial のアクティブ化
-      href: service-extended-pro-trial.md
-    - name: Microsoft Flow と Power BI
-      href: service-flow-integration.md
-    - name: ドイツのクラウド ユーザー向けの Power BI に関するよく寄せられる質問
-      href: service-govde-faq.md
-    - name: Power BI でのサード パーティのアプリの概要
-      href: service-power-bi-get-started-third-party-apps.md
-    - name: Power BI での集計 (合計、平均値、最大値など)
-      href: service-aggregates.md
-    - name: Power BI レポートのページ表示設定
-      href: power-bi-report-display-settings.md
+    - name: ライセンス
+      items:
+      - name: セルフサービス サインアップ
+        href: service-self-service-signup-for-power-bi.md
+      - name: ライセンスの種類別の機能
+        href: service-features-license-type.md
+      - name: Extended Pro Trial のアクティブ化
+        href: service-extended-pro-trial.md
+      - name: 米国政府用 Power BI
+        href: service-govus-overview.md
+      - name: ドイツのクラウド ユーザーに関するよく寄せられる質問
+        href: service-govde-faq.md
+    - name: データ
+      items:
+      - name: Power BI のデータ ソース
+        href: service-get-data.md
+      - name: ファイルからデータを取得
+        href: service-get-data-from-files.md
+      - name: 集計 (合計、平均値、最大値など)
+        href: service-aggregates.md
+      - name: Power BI でのデータの更新
+        href: refresh-data.md
+      - name: Azure と Power BI
+        href: service-azure-and-power-bi.md
+      - name: Power BI と Azure エグレス
+        href: service-azure-egress-power-bi.md
+    - name: レポート デザイン
+      items:
+      - name: レポート エディター...紹介を見る
+        href: service-the-report-editor-take-a-tour.md
+      - name: Power BI での視覚化
+        href: visuals/power-bi-report-visualizations.md
+      - name: レポート内のフィルターと強調表示について
+        href: power-bi-reports-filters-and-highlighting.md
+      - name: Power BI レポートのページ表示設定
+        href: power-bi-report-display-settings.md
+      - name: Power BI 用の Cortana の概要
+        href: service-cortana-intro.md
+    - name: その他
+      items:
+      - name: Microsoft Flow と Power BI
+        href: service-flow-integration.md
+      - name: サードパーティのアプリの概要
+        href: service-power-bi-get-started-third-party-apps.md
   - name: 方法
     items:
     - name: 一般的なタスク
@@ -548,13 +560,13 @@ items:
         href: service-connect-to-zuora.md
     - name: ファイルからのデータ
       items:
-      - name: Excel ブックから魅力的なレポートを即座に作成する
+      - name: Excel での魅力的なレポート作成
         href: service-from-excel-to-stunning-report.md
       - name: Excel ブック ファイルからデータを取得する
         href: service-excel-workbook-files.md
       - name: Power BI Desktop ファイルからデータを取得する
         href: service-desktop-files.md
-      - name: データセットのパラメーターの設定
+      - name: パラメーターの編集
         href: service-parameters.md
       - name: コンマ区切り値 (.csv) ファイルからデータを取得する
         href: service-comma-separated-value-files.md
@@ -562,7 +574,7 @@ items:
         href: service-real-time-streaming.md
       - name: Excel 2016 から Power BI へ発行する
         href: service-publish-from-excel.md
-      - name: Power BI で表示する Excel ブックのサイズを減らす
+      - name: Excel ブックのサイズを減らす
         href: reduce-the-size-of-an-excel-workbook.md
     - name: データベースからのデータ
       items:
@@ -574,23 +586,19 @@ items:
         href: spark-on-hdinsight-with-direct-connect.md
       - name: Power BI の SQL Server Analysis Services ライブ データ
         href: sql-server-analysis-services-tabular-data.md
-      - name: Azure と Power BI
-        href: service-azure-and-power-bi.md
-      - name: Power BI と Azure エグレス
-        href: service-azure-egress-power-bi.md
     - name: データ更新
       items:
       - name: スケジュールされた更新の構成
         href: refresh-scheduled-refresh.md
-      - name: Power BI Desktop ファイルから作成されたデータセットを更新する
+      - name: Power BI Desktop ファイルからデータセットを更新する - ローカル
         href: refresh-desktop-file-local-drive.md
-      - name: Power BI Desktop ファイルから作成されたデータセットを更新する - クラウド
+      - name: Power BI Desktop ファイルからデータセットを更新する - クラウド
         href: refresh-desktop-file-onedrive.md
-      - name: Excel ブックから作成されたデータセットを更新する - ローカル
+      - name: Excel ブックからデータセットを更新する - ローカル
         href: refresh-excel-file-local-drive.md
-      - name: Excel ブックから作成されたデータセットを更新する - クラウド
+      - name: Excel ブックからデータセットを更新する - クラウド
         href: refresh-excel-file-onedrive.md
-      - name: OneDrive のコンマ区切り値 (.csv) ファイルから作成されたデータセットを更新する
+      - name: OneDrive の .csv ファイルから作成されたデータセットを更新する
         href: refresh-csv-file-onedrive.md
       - name: 更新に関するトラブルシューティング シナリオ
         href: refresh-troubleshooting-refresh-scenarios.md
@@ -604,25 +612,25 @@ items:
         href: service-dashboard-create.md
       - name: ダッシュボードのコピーを作成
         href: service-dashboard-copy.md
-      - name: レポートから Power BI ダッシュボードにタイルをピン留め
+      - name: レポートからダッシュボードにタイルをピン留め
         href: service-dashboard-pin-tile-from-report.md
-      - name: ダッシュボードから別のダッシュボードにタイルをピン留め
+      - name: ダッシュボードから別のダッシュボードにタイルをピン留めする
         href: service-pin-tile-to-another-dashboard.md
-      - name: Excel から Power BI ダッシュボードにタイルをピン留めする
+      - name: Excel からダッシュボードにタイルをピン留めする
         href: service-dashboard-pin-tile-from-excel.md
-      - name: Q&A 質問ボックスから Power BI ダッシュボードにタイルをピン留めする
+      - name: Q&A からダッシュボードにタイルをピン留めする
         href: service-dashboard-pin-tile-from-q-and-a.md
-      - name: レポート ページ全体を Power BI ダッシュボードにピン留めする
+      - name: レポート ページ全体をダッシュボードにピン留めする
         href: service-dashboard-pin-live-tile-from-report.md
       - name: ダッシュボード用の利用状況の指標
         href: service-usage-metrics.md
-      - name: イメージ、テキスト ボックス、ビデオ、Web コードをダッシュボードに追加する
+      - name: イメージ、テキスト ボックス、ビデオ、コードをダッシュボードに追加する
         href: service-dashboard-add-widget.md
-      - name: タイルの編集 - サイズ変更、移動、名前の変更、ピン留め、削除、ハイパーリンクの追加
+      - name: タイルを編集します。
         href: service-dashboard-edit-tile.md
-      - name: 優れた Power BI ダッシュボードのデザインに関するヒント
+      - name: 優れたダッシュボードのデザインに関するヒント
         href: service-dashboards-design-tips.md
-      - name: Power BI クイック インサイト用のデータの最適化
+      - name: クイック分析情報用のデータを最適化する
         href: service-insights-optimize.md
       - name: ダッシュボードの Phone ビューを作成する
         href: service-create-dashboard-mobile-phone-view.md
@@ -708,7 +716,7 @@ items:
         href: service-collaborate-power-bi-workspace.md
       - name: Power BI および Office 365 でのグループ管理
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
-      - name: OneDrive for Business 上の Excel ブックにリンクするダッシュボードを共有する
+      - name: OneDrive 上の Excel ブックにリンクするダッシュボードを共有する
         href: service-share-dashboard-that-links-to-excel-onedrive.md
     - name: コンテンツ パック
       items:
@@ -936,6 +944,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: 概念
       items:
+      - name: Power BI ビジュアルのガイドライン
+        href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: 機能を使用する
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: データ ビューのマッピング
@@ -1255,9 +1265,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6be9e4865dd91817bd4b73c2763d6f7d374e1013
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289291"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331852"
