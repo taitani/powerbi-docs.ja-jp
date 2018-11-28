@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 098447f4d0c0b1dc9534c91e84827c4cefb8850c
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223400"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452547"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI の DirectQuery でサポートされるデータ ソース
 **Power BI Desktop** と **Power BI サービス**には、接続してデータへのアクセスを可能にする多数のデータ ソースがあります。 この記事では、Power BI のどのデータ ソースが **DirectQuery** と呼ばれる接続方法をサポートしているかを説明します。 DirectQuery の詳細については、「[**Power BI での DirectQuery**](desktop-directquery-about.md)」を参照してください。
@@ -38,7 +38,7 @@ ms.locfileid: "51223400"
 * Spark (ベータ) (バージョン 0.9 以降)
 * SQL Server
 * Teradata データベース
-* Vertica (Beta)
+* Vertica (ベータ)
 
 名前の後に **(ベータ)** または **(プレビュー)** と書かれているデータ ソースは、変更される可能性があり、運用環境での使用はサポートされていません。 **Power BI サービス**にレポートを発行した後はサポートされない可能性もあるので、発行されたレポートを開いたり、データセットを探したりした場合にエラーが発生することがあります。
 
@@ -62,7 +62,7 @@ ms.locfileid: "51223400"
 | Amazon Redshift |いいえ |
 | Impala (バージョン 2.x) |はい |
 | Snowflake |はい |
-| Spark (ベータ) バージョン 0.9 以降 |現時点では、**Power BI サービス**でサポート対象外 |
+| Spark (ベータ) バージョン 0.9 以降 |はい |
 | Azure HDInsight Spark (Beta) |いいえ |
 | IBM Netezza |はい |
 | SAP Business Warehouse Application サーバー |はい |

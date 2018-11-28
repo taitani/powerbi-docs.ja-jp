@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33d8911ee819bbc1ac37976f077edabee368f5aa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 1f60c24a244b05aca93b312921b943e261d4d266
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850570"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452685"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI クイック インサイト用のデータの最適化
 クイック インサイトの結果を改善する必要がありますか。  データセット所有者の場合は、以下を試します。
@@ -23,7 +23,7 @@ ms.locfileid: "51850570"
 * データセットの列を表示または非表示にします。 Power BI クイック インサイトでは、非表示の列は検索されません。  そのため、重複する列や不要な列を非表示にして、興味のある列を表示します。
 * 名前、時刻、日付、数値などのさまざまなデータの種類を組み合わせて使用します。
 * 情報が重複している列を避けます (非表示にします)。  これは、意味のあるパターンの検索から貴重な時間を奪います。  たとえば、ある列に状態名を略さずに含め、別の列に省略名を含めるなどです。
-* データが統計的に有意でないことを示すエラー メッセージが表示される場合があります。  これは、ごく単純なモデルやデータが少ないモデル、日付または数値の列がないモデルの場合に発生することがあります。 インサイトを生成するには、データセットに少なくとも 1 つのディメンションと 1 つのメジャーが必要です。
+* データが統計的に有意でないことを示すエラー メッセージが表示される場合があります。  これは、ごく単純なモデルやデータが少ないモデル、日付または数値の列がないモデルの場合に発生することがあります。
 
 ### <a name="next-steps"></a>次の手順
 [Power BI クイック インサイト](consumer/end-user-insights.md)

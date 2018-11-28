@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ba27b42d6449d38fef2659507f035144c67f23fd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 7982c2b29d5d92a992a115c92cbc7f0d128cb9d6
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223216"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452593"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>チュートリアル: Power BI サービスでデータ アラートを設定する
 アラートを設定すると、ダッシュボード内のデータが設定した制限を超えて変更された場合に通知されます。 
@@ -75,7 +75,7 @@ Amanda がダッシュボードのタイルにアラートを追加するとこ�
    ![Power BI サービスの通知アイコン](media/end-user-alerts/powerbi-alert-notifications.png)
 3. アラートの詳細を見るには通知センターを開きます。
    
-    ![アラートを読む](media/end-user-alerts/powerbi-alert-notfication.png)
+    ![アラートを読む](media/end-user-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > アラートは更新されたデータでのみ動作します。 データが更新されると、Power BI はそのデータにアラートが設定されているかどうかを確認します。 データがアラートのしきい値に達した場合、アラートがトリガーされます。

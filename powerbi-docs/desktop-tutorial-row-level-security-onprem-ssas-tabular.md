@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101579"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452754"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
 このチュートリアルでは、**Analysis Services 表形式モデル**内に**行レベルのセキュリティ**を実装するために必要な手順と、Power BI レポートでのその使用方法を示します。 このチュートリアルの手順に従って、サンプル データセットを完了することで必要な手順を理解できるようになっています。
@@ -50,7 +50,7 @@ ms.locfileid: "50101579"
    これらのユーザーは以降のタスクで使用します。
 4. 次に、**DimSalesTerritory** テーブルで*内部結合*を行います。このテーブルには、ユーザーに関連付けられている地域の詳細が示されます。 以下のコードで*内部結合*を実行します。*内部結合*が正常に行われると、テーブルはその下の図のようになります。
    
-       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. 上の図に販売地域ごとの担当ユーザーなどの情報が示されていることに注目してください。 **手順 2.** でリレーションシップを作成したため、このようなデータが表示されます。 また、ユーザー **Jon Doe がオーストラリアの販売地域に含まれている**ことにも注目してください。 Jon Doe は以降の手順とタスクでも使用します。
