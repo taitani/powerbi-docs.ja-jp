@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 09ce2e2db94116d70824b276b9b67b9dbe163d11
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679319"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331990"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織での Power BI のライセンス
 
 Power BI サービスでは、次の 2 種類のライセンスにより、ユーザー機能が定義されます。
 
-* **ユーザーごと** - *無料ライセンスおよび Power BI Pro ライセンス*。 無料ライセンスでは、Power BI サービスの一部の機能にアクセスできます。 Pro ライセンスは、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可するライセンスであり、他の Pro ユーザーとコンテンツを共有して共同で作業するための機能が含まれています。 Pro ユーザーだけが、アプリ ワークスペースに対するコンテンツの発行と使用、ダッシュボードの共有、ダッシュボードとレポートのサブスクライブを行うことができます。 詳細については、「[Power BI service features by license type](service-features-license-type.md)」 (Power BI サービスのライセンスの種類別機能) を参照してください。
+* **ユーザーごと** - *Power BI Pro ライセンスおよび無料ライセンス*。 Power BI Pro ライセンスは、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可するライセンスであり、他の Pro ユーザーとコンテンツを共有して共同で作業するための機能が含まれています。 Pro ユーザーだけが、アプリ ワークスペースに対するコンテンツの発行と使用、ダッシュボードの共有、ダッシュボードとレポートのサブスクライブを行うことができます。 無料ライセンスでは、Power BI サービスの一部の機能にアクセスできます。 詳細については、「[Power BI service features by license type](service-features-license-type.md)」 (Power BI サービスのライセンスの種類別機能) を参照してください。
 
-* **容量ベース** - *Power BI Premium ライセンス*. Premium では、専用の容量を提供し、より一貫したパフォーマンスを実現して、Power BI での大規模なデータ ボリュームをサポートします。 Premium では、Pro ユーザーが、個々のユーザーにコンテンツを広範囲にわたって配布できます。受信者は、Pro のライセンスがなくてもそのコンテンツを参照できます。 詳しくは、「[Power BI Premium - what is it?](service-premium.md)」 (Power BI Premium とは) を参照してください。
+* **容量ベース** - *Power BI Premium ライセンス*. Premium では、専用の容量を提供し、より一貫したパフォーマンスを実現して、Power BI での大規模なデータ ボリュームをサポートします。 Premium では、Pro ユーザーが、個々のユーザーにコンテンツを広範囲に配布できます。受信者は、Pro のライセンスがなくてもそのコンテンツを参照できます。 詳しくは、「[Power BI Premium - what is it?](service-premium.md)」 (Power BI Premium とは) を参照してください。
 
 この記事では、管理者の観点からのユーザーごとのライセンスについて説明します。
 
@@ -73,17 +73,11 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
 ## <a name="manage-power-bi-free-licenses"></a>Power BI の無料ライセンスの管理
 
-組織内のユーザーは、2 種類の方法で Power BI の無料ライセンスにアクセスできます。 ユーザーが個人として Power BI にサインアップする方法と、管理者が Office 365 管理ポータルでユーザーに Power BI ライセンスを割り当てる方法です。
+組織内のユーザーは、2 種類の方法で Power BI の無料ライセンスにアクセスできます。
 
-個人のサインアップを許可する方法では、Power BI に関心のあるユーザーが無料でサインアップできるようにすることにより、組織の管理者の負担を減少できます。
+* Office 365 管理ポータル内から、ユーザーに Power BI ライセンスを割り当てることができます。
 
-ただし、ユーザーが個人としてのサインアップできないようにすると、より多くの制御ができるようになります。そしてこれは監査サービスを使用する必要がある場合に、非常に良い選択肢となります。
-
-### <a name="power-bi-free-for-individuals"></a>Power BI の個人向けの無料ライセンス
-
-組織内のユーザーは、既定で個人として Power BI の無料ライセンスにサインアップできます。 詳細については、「[個人として Power BI にサインアップする](service-self-service-signup-for-power-bi.md)」を参照してください。
-
-個人としてサインアップできないようにするには、この記事で後述する「[Azure Active Directory で個人ユーザーのサインアップを有効化または無効化する](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)」を参照してください。
+* ユーザーが [Power BI Pro の試用版にサインアップ](service-self-service-signup-for-power-bi.md)し、試用版の期限が切れた場合、無料ライセンスが割り当てられます。
 
 ### <a name="requesting-and-assigning-free-licenses"></a>無料ライセンスの要求と割り当て
 

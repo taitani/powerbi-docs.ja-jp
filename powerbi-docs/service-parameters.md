@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスでデータセット パラメーターの設定を表示および編集する
+title: Power BI サービスのパラメーター設定を編集する
 description: クエリ パラメーターは Power BI Desktop で作成されますが、Power BI サービスで確認および更新できます
 author: mihart
 manager: kfile
@@ -7,25 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 11/21/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: ac271e8013bce5824931153351a651644a716a2f
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: b379812a16bbdbbc16517b86d9ce4e941ac45f01
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965161"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331875"
 ---
-# <a name="what-is-a-query-parameter"></a>クエリ パラメーターとは
-クエリ パラメーターは、レポート作成者によって Power BI Desktop に追加されます。 パラメーターを使用すると、1 つまたは複数のパラメーターの*値*に応じてレポートの一部を作成することができます。 たとえば、レポート作成者は、1 つの国または地域に対してデータを制限するパラメーターや日付、時刻、テキストなどのフィールドに使用できる形式を定義するパラメーターを作成できます。
+# <a name="edit-parameter-settings-in-the-power-bi-service"></a>Power BI サービスのパラメーター設定を編集する
+レポートの作成者は Power BI Desktop でレポートにクエリ パラメーターを追加します。 パラメーターを使用すると、1 つまたは複数のパラメーターの*値*に基づいてレポートの各部分を作成できます。 たとえば、レポート作成者は、1 つの国または地域に対してデータを制限するパラメーターや日付、時刻、テキストなどのフィールドに使用できる形式を定義するパラメーターを作成できます。
 
 ![Desktop で [パラメーターの管理] オプションを表示している [ホーム] タブ](media/service-parameters/power-bi-manage-parameters.png)
 
-
 ## <a name="review-and-edit-parameters-in-power-bi-service"></a>Power BI サービスでパラメーターを確認および編集する
 
-パラメーターが Desktop で定義されると、[レポートが Power BI サービスに発行される](desktop-upload-desktop-files.md)ときに、パラメーターの設定と選択がレポートと共に移動されます。 一部のパラメーターの設定は、Power BI サービスで確認および編集できます。利用可能なデータを制限するパラメーターを操作することはできませんが、使用できる値を定義して説明するパラメーターは操作できます。
+レポートの作成者は Desktop でパラメーターを定義します。 [そのレポートを Power BI サービスに発行する](desktop-upload-desktop-files.md)と、パラメーターの設定と選択も共に移動します。 一部のパラメーターは Power BI サービスで確認し、編集できます。利用できるデータを制限するパラメーターは編集できませんが、使用できる値を定義して表現するパラメーターは編集できます。
 
 1. Power BI サービスで、![歯車アイコン](media/service-parameters/power-bi-cog.png) を選択して、**[設定]** を開きます。
 

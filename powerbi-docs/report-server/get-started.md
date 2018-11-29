@@ -4,27 +4,27 @@ description: Power BI Report Server の概要を読み、SQL Server Reporting Se
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 10/24/2018
+ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: ee8086a149e752d68aa8d6801844676d038257e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101397"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289153"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server とは
 
-Power BI Report Server は、オンプレミスのレポート サーバーです。レポートと KPI を表示および管理できる Web ポータルと、Power BI レポート、ページ分割されたレポート、モバイル レポート、および KPI を作成できるツールを備えています。 ユーザーは、さまざまな方法でレポートにアクセスできます。Web ブラウザーやモバイル デバイスで表示したり、受信ボックスのメールとして表示したりすることができます。
+Power BI Report Server は Web ポータルのあるオンプレミス レポート サーバーです。その Web ポータルでレポートや KPI を表示し、管理します。 Power BI レポート、ページ分割されたレポート、モバイル レポート、KPI を作成するためのツールを備えています。 ユーザーは、さまざまな方法でレポートにアクセスできます。Web ブラウザーやモバイル デバイスで表示したり、受信ボックスのメールとして表示したりすることができます。
 
 ![Power BI レポート サーバーの Web ポータル](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Power BI Report Server の比較 
-Power BI Report Server は、SQL Server Reporting Services と Power BI オンライン サービスの両方に似ていますが、さまざまな相違点があります。 Power BI サービスと同様に、Power BI Report Server は Power BI レポート (.PBIX) と Excel ファイルをホストします。 Reporting Services と同様に、Power BI Report Server はオンプレミスにあり、ページ分割されたレポート (.RDL) をホストします。 Power BI Report Server は、Reporting Services のスーパーセットです。つまり、Reporting Services でできることはすべて、Power BI Report Server でできます。さらに、Power BI Report Server では Power BI レポートもサポートされています。 詳細については、「[Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md)」(Power BI Report Server と Power BI サービスの比較) を参照してください。
+Power BI Report Server は、SQL Server Reporting Services と Power BI オンライン サービスの両方に似ていますが、さまざまな相違点があります。 Power BI サービスと同様に、Power BI Report Server は Power BI レポート (.PBIX) と Excel ファイルをホストします。 Reporting Services と同様に、Power BI Report Server はオンプレミスにあり、ページ分割されたレポート (.RDL) をホストします。 Power BI Report Server は、Reporting Services のスーパーセットです。つまり、Reporting Services でできることはすべて Power BI Report Server でできる上に Power BI Report Server では Power BI レポートもサポートされています。 詳細については、「[Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md)」(Power BI Report Server と Power BI サービスの比較) を参照してください。
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Report Server のライセンス
 Power BI Report Server は、ソフトウェア アシュアランスを使用した 2 種類のライセンス ([Power BI Premium](../service-premium.md) と [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)) を介して利用できます。 Power BI Premium ライセンスがあれば、クラウドとオンプレミスを混在させたハイブリッド デプロイを作成できます。  
@@ -33,7 +33,7 @@ Power BI Report Server は、ソフトウェア アシュアランスを使用�
 > Power BI Premium の場合、Power BI Report Server は P SKU のみに含まれます。 EM SKU には含まれません。
 
 ## <a name="web-portal"></a>Web ポータル
-Power BI Report Server のエントリ ポイントは、最新のブラウザーで表示できる安全な Web ポータルです。 Web ポータルではすべてのレポートと KPI にアクセスできます。 Web ポータル上のコンテンツは、従来のフォルダー階層で構成されています。 フォルダー内のコンテンツは、Power BI レポート、モバイル レポート、ページ分割されたレポート、KPI、Excel ブック、さらにレポートの構成要素として使用する共有データセットと共有データ ソースという種類別にグループ化されています。 お気に入りにタグを付けて、1 つのフォルダーで表示することができます。 また、Web ポータルで直接 KPI を作成できます。 
+Power BI Report Server のエントリ ポイントは、最新のブラウザーで表示できる安全な Web ポータルです。 ここで、すべてのレポートと KPI にアクセスします。 Web ポータル上のコンテンツは、従来のフォルダー階層で構成されています。 フォルダーでは、コンテンツが種類別にグループ化されています。グループには、Power BI レポート、モバイル レポート、ページ分割されたレポート、KPI、Excel ブックがあります。 共有データセットと共有データ ソースはそれぞれの専用フォルダーにあり、レポートの構成要素として使用されます。 お気に入りにタグを付けると、1 つのフォルダーで表示されます。 また、KPI は Web ポータルで直接作成します。 
 
 ![Power BI レポート サーバーの Web ポータル](media/get-started/web-portal.png)
 
@@ -51,11 +51,11 @@ Power BI レポートは、データ モデルのマルチパースペクティ�
 [Power BI Report Server 向けに最適化された Power BI Desktop](quickstart-create-powerbi-report.md) をインストールします。
 
 ## <a name="paginated-reports"></a>ページ分割されたレポート
-ページ分割されたレポート (.RDL) は、視覚化されたドキュメント スタイルのレポートです。必要に応じてテーブルを水平方向と垂直方向に展開してすべてのデータを表示したり、複数のページにデータを連続表示したりすることができます。 これは、PDF や Word などの印刷用に最適化された固定レイアウトの完璧なピクセルのドキュメントを生成するのに適しています。
+ページ分割されたレポート (.RDL) は、視覚化されたドキュメント スタイルのレポートです。必要に応じてテーブルを水平方向と垂直方向に展開してすべてのデータを表示したり、複数のページにデータを連続表示したりすることができます。 これは、PDF や Word などの印刷用に最適化された固定レイアウトの完璧なピクセルのドキュメントを生成するのに適しています。 
 
 ![Power BI Report Server のページ分割されたレポート](media/get-started/paginated-reports.png)
 
-[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) で[レポート ビルダー](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)またはレポート デザイナーを使用して、現代的な外観のレポートを作成できます。
+[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) で[レポート ビルダー](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)またはレポート デザイナーを使用して、現代的な外観のレポートを作成できます。 
 
 ## <a name="reporting-services-mobile-reports"></a>Reporting Services のモバイル レポート
 モバイル レポートはオンプレミス データに接続し、さまざまなデバイスとさまざまな保持方法に対応してレイアウトが調整されます。 モバイル レポートは SQL Server Mobile Report Publisher を使用して作成します。
@@ -63,7 +63,7 @@ Power BI レポートは、データ モデルのマルチパースペクティ�
 詳細については、[Reporting Services のモバイル レポート](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)に関するページを参照してください。 
 
 ## <a name="report-server-programming-features"></a>Report Server のプログラミング機能
-Power BI レポート サーバーのプログラミング機能を利用すると、レポート作成機能を拡張してカスタマイズしたり、API を使用してデータとレポート処理をカスタム アプリケーションに統合または拡張することができます。
+Power BI Report Server のプログラミング機能を利用すると、レポートを拡張してカスタマイズしたり、API を使用してデータとレポート処理をカスタム アプリケーションに統合または拡張したりできます。
 
 詳細は、「[Report Server developer documentation](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation)」 (Report Server の開発者向けドキュメント) をご覧ください。
 

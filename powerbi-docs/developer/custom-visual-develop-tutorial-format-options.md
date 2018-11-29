@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223262"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289176"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>チュートリアル: Power BI カスタム ビジュアルへの書式設定オプションの追加
 
-このチュートリアルでは、ビジュアルに共通プロパティを追加していく方法について説明します。
+このチュートリアルでは、ビジュアルに共通プロパティを追加する方法について説明します。
 
 このチュートリアルで学習する内容は次のとおりです。
 > [!div class="checklist"]
@@ -32,7 +32,7 @@ ms.locfileid: "51223262"
 
     次のメッセージが表示されます - "*このビジュアルに対して書式設定オプションは使用できません*"。
 
-    ![書式設定ペイントブラシ](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![書式設定ペイントブラシ](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. **Visual Studio Code** で、*capabilities.json* ファイルを開きます。
 
@@ -41,7 +41,7 @@ ms.locfileid: "51223262"
     ```json
     "objects": {},
     ```
-    ![オブジェクトの追加](media/custom-visual-develop-tutorial/add-objects.png)
+    ![オブジェクトの追加](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. **capabilities.json** ファイルを保存します。
 
@@ -50,13 +50,13 @@ ms.locfileid: "51223262"
     > [!Note]
     > 書式設定オプションが変化していない場合は、**[Reload Custom Visual]\(カスタム ビジュアルの再読み込み\)** を選択します。
 
-    ![書式設定オプションを表示する](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![書式設定オプションを表示する](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. **[タイトル]** オプションを "*オフ*" に設定します。 ビジュアルの左上隅にメジャー名が表示されなくなったことを確認します。
 
-    ![タイル オプションをオフにする](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![タイル オプションをオフにする](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![名前なしのタイル](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![名前なしのタイル](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>カスタム書式設定オプションの追加
 
@@ -64,7 +64,7 @@ ms.locfileid: "51223262"
 
 1. PowerShell で、カスタム ビジュアルを停止します。
 
-2. Visual Studio Code で、**capabilities.json** ファイルの **objects** オブジェクトに次の JSON フラグメントを挿入します。
+2. Visual Studio Code で、**capabilities.json** ファイルにある **objects** というラベルのオブジェクトに次の JSON フラグメントを挿入します。
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ ms.locfileid: "51223262"
                  }
              }
          }
-     }
+     },
     ```
 
     この JSON フラグメントには circle という名前のグループが記述されています。これは、circleColor と circleThickness という 2 つのオプションで構成されています。
 
-   ![円の太さに関するコード](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![円の太さに関するコード](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. **capabilities.json** ファイルを保存します。
 
@@ -112,7 +112,7 @@ ms.locfileid: "51223262"
     }
     ```
 
-    ![モジュール クラス](media/custom-visual-develop-tutorial/module-classes.png)
+    ![モジュール クラス](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     このモジュールでは、2 つのクラスが定義されます。 **CircleSettings** クラスでは、**capabilities.json** ファイル内で定義されるオブジェクト (**circleColor** と **circleThickness**) の名前と一致する 2 つのプロパティが定義されます。また規定値も設定されています。 **VisualSettings** クラスでは **DataViewObjectParser** クラスが継承され、**circle** という名前のプロパティが追加されます。これは *capabilities.json* ファイル内で定義されるオブジェクトと一致しており、**CircleSettings** のインスタンスを返します。
 
@@ -127,7 +127,7 @@ ms.locfileid: "51223262"
     ```
     このプロパティには **VisualSettings** オブジェクトへの参照が格納され、ビジュアルの設定が記述されます。
 
-    ![ビジュアル クラスを追加する](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![ビジュアル クラスを追加する](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. **Visual** クラスで、**update** メソッドの前に次のメソッドを追加します。 このメソッドは、書式設定オプションを設定するために使用されます。
 
@@ -140,7 +140,7 @@ ms.locfileid: "51223262"
     ```
     このメソッドは、書式設定オプションを設定するために使用されます。
 
-    ![ビジュアル設定オブジェクト](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![ビジュアル設定オブジェクト](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. **update** メソッドの **radius** 変数の宣言の後に、次のコードを追加します。
 
@@ -150,7 +150,7 @@ ms.locfileid: "51223262"
     ```
     このコードは書式設定オプションを取得します。 ここでは **circleThickness** プロパティに渡される値が調整されます。負の値は 0 に変換され、10 より大きい値は 10 に変換されます。
 
-    ![Radius 変数](media/custom-visual-develop-tutorial/radius.png)
+    ![Radius 変数](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. **circle の要素**で、**fill の style** に渡される値を次の式に変更します。
 
@@ -158,7 +158,7 @@ ms.locfileid: "51223262"
     this.visualSettings.circle.circleColor
     ```
 
-    ![circle の要素の fill](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![circle の要素の fill](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. **circle の要素**で、**stroke-width の style** に渡される値を次の式に変更します。
 
@@ -166,7 +166,7 @@ ms.locfileid: "51223262"
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Circle の Stroke-width](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Circle の Stroke-width](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. visual.ts ファイルを保存します。
 
@@ -180,7 +180,7 @@ ms.locfileid: "51223262"
 
 16. **ビジュアルの書式**オプションで、**[Circle]** を展開します。
 
-    ![Circle の書式](media/custom-visual-develop-tutorial/circle-format.png)
+    ![Circle の書式](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     **[色]** オプションと **[太さ]** オプションを変更します。
 
@@ -198,7 +198,7 @@ ms.locfileid: "51223262"
 
     **[視覚化]** ウィンドウでアイコンにカーソルを合わせると、表示名が表示されます。
 
-    ![表示名のビジュアル](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![表示名のビジュアル](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. **description** プロパティに次のテキストを入力します。
 
@@ -216,7 +216,7 @@ ms.locfileid: "51223262"
 
 10. アイコンを確認します。
 
-    ![視覚化ウィンドウのイメージ](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![視覚化ウィンドウのイメージ](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. Visual Studio Code で、すべてのファイルが保存されていることを確認します。
 
@@ -226,7 +226,7 @@ ms.locfileid: "51223262"
     pbiviz package
     ```
 
-    ![dist フォルダー](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![dist フォルダー](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 パッケージがプロジェクトの **dist** フォルダーに出力されました。 パッケージには、カスタム ビジュアルを Power BI サービスまたは Power BI Desktop レポートにインポートするために必要なものがすべて含まれています。 これでカスタム ビジュアルのパッケージ化が完了し、使用する準備が整いました。
 
@@ -238,7 +238,7 @@ Power BI Desktop レポートを開き、カスタム ビジュアル Circle Car
 
 2. **_[視覚化]_** ウィンドウで**省略記号**を選択し、ファイルから **[インポート]** を選択します。
 
-    ![デスクトップにカスタム ビジュアルを追加する](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![デスクトップにカスタム ビジュアルを追加する](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. **インポート ウィンドウ**で、**[インポート]** を選択します。
 
@@ -250,7 +250,7 @@ Power BI Desktop レポートを開き、カスタム ビジュアル Circle Car
 
 7. ビジュアルが **_[視覚化]_** ウィンドウに追加されたことを確認します。
 
-    ![PBI Desktop 視覚化ウィンドウのビュー](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![PBI Desktop 視覚化ウィンドウのビュー](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. **Circle Card** にカーソルを合わせると、ツールヒントが表示されることに注目してください。
 

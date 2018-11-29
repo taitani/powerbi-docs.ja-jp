@@ -1,54 +1,48 @@
 ---
-title: Power BI サービスのダッシュボード
-description: ダッシュボードは、Power BI サービスの主要な機能です。
+title: Power BI デザイナーのダッシュボードの概要
+description: ダッシュボードは、Power BI サービスの主要な機能です。 これでは、ストーリーをしばしばキャンバスと呼ばれる 1 つのページで視覚化します。
 author: maggieMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7f94d47452fb9d1ea24c950dba2988c6c80c053
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473730"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331944"
 ---
-# <a name="dashboards-in-the-power-bi-service"></a>Power BI サービスのダッシュボード
+# <a name="intro-to-dashboards-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードの概要
 
-Power BI の "***ダッシュボード***" は、視覚化を使ってストーリーを伝える単一のページであり、キャンバスと呼ばれることもよくあります。 ダッシュボードは 1 ページに制限されているため、適切に設計されたダッシュボードには、そのストーリーの最も重要な要素のみが含まれます。
+Power BI の***ダッシュボード***は、ストーリーをしばしばキャンバスと呼ばれる 1 つのページで視覚化します。 これは 1 ページに制限されているため、適切に設計されたダッシュボードには、そのストーリーの最も重要な要素のみが含まれます。 リーダーは、その詳細を関連レポートで表示できます。
 
 ![ダッシュボード](media/service-dashboards/power-bi-dashboard2.png)
 
-ダッシュボードは、Power BI サービスの機能であり、Power BI Desktop では使用できません。 モバイル デバイスでは、ダッシュボードを作成することはできませんが、[表示して共有する](mobile-apps-view-dashboard.md)ことはできます。
+ダッシュボードは、Power BI サービスの機能です。 これは Power BI Desktop では利用できません。 ダッシュボードはモバイル デバイスで作成できますが、そこで[参照し共有する](mobile-apps-view-dashboard.md)ことができます。
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>ダッシュボードの "作成者" とダッシュボードの "利用者"
-自分の役割に応じて、自分で使用するために、または同僚と共有するためにダッシュ ボードを作成する場合があります。 自分に適した情報は、**作成者向けのダッシュボード**に記載されています。 他のユーザーからダッシュボードを受け取る場合は、 ダッシュボードを理解して操作する方法を理解する必要があります。 これは、そんなあなたのための記事です。
+## <a name="dashboard-basics"></a>ダッシュボードの基礎 
 
-
-### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>ダッシュボードを受け取って利用する場合
-
-ダッシュボードに表示される視覚エフェクトは "*タイル*" と呼ばれ、ダッシュボードの*作成者*によって、レポートからダッシュボードに "*ピン留め*" されます。 Power BI を初めて使うときは、[Power BI の基本的な概念](service-basic-concepts.md)に関するページを読むと基礎がよくわかります。
+ダッシュボードに表示される視覚化は、*タイル*と呼ばれます。 タイルはレポートからダッシュボードに*ピン留め*します。 Power BI を初めて使うときは、[Power BI の基本的な概念](service-basic-concepts.md)に関するページを読むと基礎がよくわかります。
 
 > [!IMPORTANT]
-> [Power BI Pro](service-free-vs-pro.md) は、共有ダッシュボードの表示に必須です。
+> ダッシュボードを作成するには、[Power BI Pro](service-free-vs-pro.md) のライセンスが必要です。
 
-ダッシュボード上の視覚化はレポートから取得され、各レポートは 1 つのデータセットが基になっています。 実際、ダッシュボードは基になっているレポートとデータセットへの入り口と考えることもできます。 視覚化を選ぶと、その作成に使われたレポート (およびデータセット) に行き着きます。
+ダッシュボード上の視覚化はレポートから取得され、各レポートは 1 つのデータセットが基になっています。 ダッシュボードは基になっているレポートとデータセットへの入り口と考えることもできます。 視覚化を選ぶと、その作成に使われたレポート (およびデータセット) に行き着きます。
 
 ![ダッシュボード、レポート、データセット間の関係を示す図](media/service-dashboards/power-bi-diagram.png)
 
-
-
 ## <a name="advantages-of-dashboards"></a>ダッシュボードの利点
-ダッシュボードは、ビジネスを注視し、答えを探し、すべての最も重要なメトリックを一目で見るための、素晴らしい手段です。 ダッシュボード上の視覚化は、1 つまたは複数の基になっているデータセット、および 1 つまたは複数の基になっているレポートから取得できます。 ダッシュボードは、オンプレミスのデータとクラウドで生成されたデータを結合し、データの存在する場所に関係なく統合された表示を提供します。
+ダッシュボードは、ビジネスを注視し、最も重要なすべてのメトリックをひとめで見るための、素晴らしい手段です。 ダッシュボード上の視覚化は、1 つまたは複数の基になっているデータセット、および 1 つまたは複数の基になっているレポートから取得できます。 ダッシュボードは、オンプレミスのデータとクラウド データを結合し、存在する場所に関係なくデータを統合して表示します。
 
-ダッシュボードは単なる美しい画像ではありません。高度な対話機能を備え、基になっているデータが変化するとタイルが更新されます。
+ダッシュボードは単なるきれいな絵ではありません。 高度な対話機能を備え、基になっているデータが変化するとタイルが更新されます。
 
 ## <a name="dashboards-versus-reports"></a>ダッシュボードとレポート
-[レポート](service-reports.md)も視覚化が表示されたキャンバスであるため、ダッシュボードと混同されることがよくあります。 しかし、Power BI の利用者には大きな違いがいくつかあります。
+[レポート](service-reports.md)とダッシュボードは、両方とも視覚エフェクトがたくさんあるキャンバスであるため似ているように思えます。 しかし、大きな違いがあります。
 
 | **機能** | **ダッシュボード** | **レポート** |
 | --- | --- | --- |
@@ -66,6 +60,6 @@ Power BI の "***ダッシュボード***" は、視覚化を使ってストー�
 
 ## <a name="next-steps"></a>次の手順
 * [サンプル ダッシュボード](sample-tutorial-connect-to-the-samples.md)のツアーを利用してダッシュボードに慣れます。
-* [ダッシュボードのタイル](service-dashboard-tiles.md)およびタイルを選んだときの結果について学習します。
+* [ダッシュボードのタイル](service-dashboard-tiles.md)について学習します。
 * ダッシュボードの個々のタイルを追跡し、特定のしきい値に達したときにメールを受け取りたい場合は、 [タイルに通知を作成](service-set-data-alerts.md)します。
-* ダッシュボードに質問したい場合は、 [Power BI Q&A](power-bi-tutorial-q-and-a.md) を使ってデータについて質問し、視覚化の形式で回答を受け取る方法を学習します。
+* [Power BI Q&A](power-bi-tutorial-q-and-a.md) を使ってデータについて質問し、視覚化の形式で回答を受け取る方法を学習します。

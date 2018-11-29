@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/20/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 4a5d124ffd213c54d628ff15e32ece18e56913eb
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157569"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289199"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI サービスのコンテンツ パック プログラムの概要
 コンテンツ パックは、ユーザーがソースからすぐに洞察を得られるようにするための既定のコンテンツのセットです。 コンテンツ パックは、通常、役割、ドメイン、またはワークフローの洞察を提供する特定のビジネス シナリオに焦点を当てています。
@@ -78,7 +78,7 @@ Power BI サービス コンテンツ パックはあらゆる REST API また�
 [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) までメールでお気軽にお問い合わせください。
 
 ## <a name="support"></a>サポート
-開発中のサポートのために、[https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) を使用してください。 これは積極的に監視および管理されています。 顧客のインシデントは、すみやかに該当するチームに伝わります。
+開発中のサポートのために、[https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) を使用してください。 顧客のインシデントは、すみやかに該当するチームに伝わります。
 
 ## <a name="next-step"></a>次の手順
 [作成](template-content-pack-authoring.md)

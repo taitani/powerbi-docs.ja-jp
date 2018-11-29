@@ -1,56 +1,73 @@
 ---
 title: 認定済みの Power BI カスタム ビジュアル
 description: 認定のためにカスタム ビジュアルを送信する場合の要件とプロセス。 認定済みのカスタム ビジュアルの一覧。
-author: mihart
-ms.author: mihart
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: fd352cd78225e647acf53c2af899e4d2fc662376
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223446"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289268"
 ---
-# <a name="getting-a-custom-visual-certified"></a>カスタム ビジュアルの *認定* を受ける
+# <a name="certified-custom-visuals"></a>認定済みカスタム ビジュアル
 
-## <a name="what-is-meant-by-certified"></a>*認定* とは
+## <a name="what-are-certified-custom-visuals"></a>**_認定済み_** カスタム ビジュアルとは何ですか?
 
-*認定済みカスタム ビジュアル*とは、一連のコードの要件を満たし、厳密なセキュリティ テストに合格したものです。  カスタム ビジュアルが認定されたら、[PowerPoint にエクスポートすることができ](consumer/end-user-powerpoint.md)、ユーザーが[レポート ページをサブスクライブ](consumer/end-user-subscribe.md)したときに受け取るメールにそれが表示されます。 もちろん、[標準カスタム ビジュアル](power-bi-custom-visuals.md)として使用したり、Power BI サービスと Power BI Desktop レポートに追加したり、Power BI モバイルで表示したり、埋め込んだりすることもできます。
+認定済みカスタム ビジュアルとは**マーケットプレース**内のビジュアルであり、**特定のコード**要件を満たしていることを **Microsoft Power BI チーム**がテストし、承認したものです。 カスタム ビジュアルが認定されると、機能が増えます。 たとえば、[PowerPoint にエクスポート](consumer/end-user-powerpoint.md)したり、ユーザーが[レポート ページを定期購読する](consumer/end-user-subscribe.md)と受信するメールにビジュアルを表示したりできます。
 
-独自の視覚エフェクトを作成して [Microsoft AppSource](https://appsource.microsoft.com) に追加することに興味がある Web 開発者の方は、 「[Power BI カスタム ビジュアルを開発する](developer/custom-visual-develop-tutorial.md)」をご覧ください。
+**認定済みカスタム ビジュアル**は[標準カスタム ビジュアル](power-bi-custom-visuals.md)のように使用されます。 認定済みカスタム ビジュアルは、**Power BI サービス** (**Power BI Desktop レポート**) に追加し、**Power BI Mobile** や **Power BI Embedded** で表示できます。
 
-## <a name="certification-requirements"></a>認定要件
+実行されたテストは、ビジュアルが外部のサービスやリソースにアクセスしないことを確認するように作られています。 **Microsoft** はサードパーティ製のカスタム ビジュアルの作成者では*ありません*。サードパーティ製のビジュアルの機能については、作成者に直接お問い合わせいただくことをお客様にお勧めしています。
 
-* Microsoft AppSource による承認済み
-* カスタム ビジュアルがバージョン管理された API 1.2 以降で記述されていること
-* レビュー用にコード リポジトリが使用可能なこと (たとえば、ビジュアル コードが GitHub を通じて利用できること)
-* 公開レビュー可能な OSS コンポーネントのみを使用すること
-* 外部のサービスまたはリソースにアクセスしないこと
+認定プロセスは任意のプロセスであり、マーケットプレースのビジュアルを認定してもらうかどうかは開発者次第です。  
 
-> **ヒント**: 送信する前に、EsLint と既定のセキュリティ ルールセットを使用して、コードを事前検証することをお勧めします。
+**認定されていないカスタム ビジュアル**が安全ではないとは限りません。 一部のビジュアルは 1 つまたは複数の[認定要件](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)を満たしていないために認定されていません。 たとえば、地図ビジュアルのような外部サービスや商用ライブラリを利用するビジュアルに接続する場合です。
+
+独自の視覚エフェクトを作成して  **[Microsoft AppSource](https://appsource.microsoft.com)** に追加することに興味がある Web 開発者の方は、  **[Power BI カスタム ビジュアルを開発する](developer/custom-visual-develop-tutorial.md)** 方法に関するページをご覧ください。
+
+## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI の認定済みのカスタム ビジュアルの削除
+
+マイクロソフトは独自の裁量で[認定リスト](#list-of-custom-visuals-that-have-been-certified)からビジュアルを削除できます。
+
+## <a name="getting-a-custom-visualcertified"></a>カスタム ビジュアルの認定を受ける
+
+### <a name="certification-requirements"></a>認定要件
+
+[カスタム ビジュアルを認定してもらう](#certified-custom-visuals)には、カスタム ビジュアルが以下の基準を満たしている必要があります。  
+
+* Microsoft AppSource が承認していること。 カスタム ビジュアルは Microsoft の[マーケットプレース](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)に表示されるはずです。
+* カスタム ビジュアルがバージョン管理された API 1.2 以降で記述されていること。
+* Power BI チームがレビューするためのコード リポジトリが用意されていること (たとえば、GitHub に人間が読める形式のソース コード (JavaSCriptS や TypeScript) を用意しておきます)。
+
+    >[!Note]
+    > Github でコードを一般公開する必要はありません。
+
+* 公開レビュー可能な OSS コンポーネントのみを使用すること (一般公開の JS ライブラリまたは TypeScript。 ソース コードがレビューできて、既知の脆弱性がない)。 Microsoft は商用コンポーネントを利用してカスタム ビジュアルを検証することかできません。
+
+* 外部のサービスやリソースにアクセスしない。これには HTTP/S 要求や WebSocket 要求を Power BI から外部のサービスに送信できないことが含まれますが、それに限定されません。 
+
+> [!TIP]
+> 送信する前に、EsLint と既定のセキュリティ ルールセットを使用して、コードを事前検証することをお勧めします。
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>認定のためにカスタム ビジュアルを送信するプロセス
 
 認定のためにカスタム ビジュアルを送信するには、次の手順に従います。
 
-1. Power BI カスタム ビジュアルのサポート (pbicvsupport@microsoft.com) に電子メールを送信します。 電子メールには、次の情報を含めます。    
+1. Power BI カスタム ビジュアルのサポート チーム (pbicvsupport@microsoft.com) に電子メールを送信します。 電子メールには、次の情報を含めます。
+    * 件名: ビジュアル認定の要求
+    * 人間が読めるソース コードがホストされている GitHub リポジトリへのリンク
+    * [要件の遵守](#certification-requirements)
+    * コード レビューに合格する
 
-   * 件名: ビジュアル認定の要求
-   * ビジュアルのソース コードがホストされている GitHub リポジトリへのリンク
-   * 要件 (上記参照) の遵守
-   * コードとセキュリティ レビューの提出
-
-2. カスタム ビジュアルが認定され、認定リスト (下記) に追加された場合、または修正する必要がある問題のレポートで拒否された場合は、マイクロソフトのカスタム ビジュアル チームによって通知されます。 マイクロソフトとの連絡手段を維持し、必要に応じて認定済みのビジュアルを更新するのは、開発者の責任です。
-
-## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI の認定済みのカスタム ビジュアルの削除
-
-マイクロソフトは独自の裁量で認定リストからビジュアルを削除できます。  
+2. カスタム ビジュアルが認定され、[認定リスト](#list-of-custom-visuals-that-have-been-certified)に追加されたら、あるいは却下され、修正すべき問題が報告されたら、Microsoft カスタム ビジュアル チームから通知が届きます。 Microsoft との連絡手段を維持し、必要に応じて認定済みのビジュアルを更新するのは、開発者の責任です。
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>認定されているカスタム ビジュアルの一覧
 

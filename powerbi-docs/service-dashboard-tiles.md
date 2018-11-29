@@ -1,31 +1,31 @@
 ---
-title: Power BI サービスのダッシュボードのタイル
-description: Power BI のダッシュボードのタイルの概要 これには、SQL Server Reporting Services (SSRS) から作成されるタイルが含まれます。
+title: Power BI デザイナーのダッシュボードのタイルの概要
+description: Power BI のダッシュボードのタイルの概要 これには、SQL Server Reporting Services (SSRS) のレポートから作成されるタイルが含まれます。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/3/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: de99c04077a58f1c0c060561674fefa9041fa144
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717403"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331967"
 ---
-# <a name="dashboard-tiles-in-power-bi"></a>Power BI のダッシュボードのタイル
-ダッシュボードおよびダッシュボード タイルは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードのタイルを作成またはピン留めすることはできませんが、[表示して共有する](mobile-tiles-in-the-mobile-apps.md)ことはできます。 また、Power BI モバイルでは、[iPhone アプリでダッシュボードに画像を追加する](mobile-iphone-app-get-started.md)ことができます。
+# <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードのタイルの概要
 
-## <a name="dashboard-tiles"></a>データのプッシュ時の
+タイルは、ダッシュボードにピン留めされた、データのスナップショットです。 タイルは、レポート、データセット、ダッシュボード、Q&A ボックス、Excel、SQL Server Reporting Services (SSRS) レポートなどから作成できます。  次のスクリーンショットは、ダッシュボードにピン留めされているさまざまなタイルを示しています。
+
 ![Power BI ダッシュボード](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-タイルは、ダッシュボードにピン留めされた、データのスナップショットです。 タイルは、レポート、データセット、ダッシュボード、Q&A ボックス、Excel、SQL Server Reporting Services (SSRS) などから作成できます。  次のスクリーンショットは、ダッシュボードにピン留めされているさまざまなタイルを示しています。
+ダッシュボードおよびダッシュボード タイルは、Power BI Desktop ではなく、Power BI サービスの機能です。 ダッシュボードはモバイル デバイスで作成できますが、そこで[参照し共有する](mobile-apps-view-dashboard.md)ことができます。
 
-ピン留めだけでなく、[タイルの追加](service-dashboard-add-widget.md)を使ってダッシュボードに直接作成できるスタンドアロンのタイルもあります。 スタンドアロン タイルには、テキスト ボックス、画像、ビデオ、ストリーミング データ、Web コンテンツが含まれます。
+ピン留めするだけでなく、[タイルの追加](service-dashboard-add-widget.md)を使ってダッシュボードに直接、スタンドアロンのタイルを作成できます。 スタンドアロン タイルには、テキスト ボックス、画像、ビデオ、ストリーミング データ、Web コンテンツが含まれます。
 
 Power BI を構成する要素を理解するうえで助けが必要ですか?  「[Power BI - 基本的な概念](service-basic-concepts.md)」をご覧ください。
 
@@ -43,7 +43,7 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 * [OneDrive for Business 上の Excel ブック](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher for Excel](publisher-for-excel.md)
 * [クイック分析情報](service-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
+* [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 また、[[タイルの追加]](service-dashboard-add-widget.md) を使って、画像、テキスト ボックス、ビデオ、ストリーミング データ、Web コンテンツ用のスタンドアロン タイルをダッシュボードに直接作成できます。
 
@@ -78,7 +78,7 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 3. 操作メニューを閉じるには、キャンバスの空白領域を選びます。
 
 ### <a name="select-click-a-tile"></a>タイルの選択 (クリック)
-タイルを選択したときに次に生じる動作は、タイルの作成方法、および[カスタム リンク](service-dashboard-edit-tile.md)があるかどうかによって異なります。 カスタム リンクがある場合、タイルを選択するとそのリンクに移動します。 それ以外の場合、タイルを選択すると、そのタイルを作成するために使われたレポート、Excel Online ブック、オンプレミスの SSRS レポート、Q&A の質問に移動します。
+タイルを選択したときに次に生じる動作は、タイルの作成方法によって異なります。 また、[カスタム リンク](service-dashboard-edit-tile.md)がある場合、タイルを選択するとそのリンクに移動できます。 それ以外の場合、タイルを選択すると、そのタイルを作成するために使われたレポート、Excel Online ブック、オンプレミスの Reporting Services レポート、Q&A の質問に移動できます。
 
 > [!NOTE]
 > 例外は、**[タイルを追加]** を使ってダッシュボードに直接作成したビデオ タイルの場合です。 (この方法で作成された) ビデオ タイルを選択すると、ダッシュボード上で直接ビデオが再生されます。   
@@ -86,11 +86,12 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
+
 * 視覚エフェクトの作成に使われたレポートが保存されなかった場合は、タイルを選択してもアクションは発生しません。
-* Excel Online のブックから作成されたタイルの場合、そのブックに対して少なくとも読み取りのアクセス許可がないと、タイルを選択したときにブックが Excel Online で開かれません。
-* **[タイルの追加]** を使ってダッシュボード上に直接作成されたタイルについては、カスタム ハイパーリンクが設定されている場合は、タイトル、サブタイトル、またはタイルを選択したときにその URL が開かれます。  それ以外の場合、既定では、イメージ、Web コード、またはテキスト ボックスのためにダッシュボード上に直接作成されたこれらのタイルのいずれかを選択しても、アクションは実行されません。
-* SSRS 内のレポートに対する権限がない場合、SSRS から作成されたタイルを選択すると、アクセス権がないことを示すページが生成されます (rsAccessDenied)。
-* SSRS サーバーが置かれたネットワークへのアクセス権がない場合、SSRS から作成されたタイルを選択すると、サーバーが見つからないことを示すページが生成されます (HTTP 404)。 レポートを表示するには、デバイスにレポート サーバーへのネットワーク アクセスが必要です。
+* タイルが Excel Online のブックから作成された場合、少なくともそのブックに対する読み取りアクセス許可が必要です。 ない場合、タイルを選択しても Excel Online でブックは開けません。
+* **[タイルの追加]** を使用してダッシュボードに直接タイルを作成し、それに対してカスタム ハイパーリンクを設定したとします。 その場合、タイトル、サブタイトル、またはタイルを選択すると、その URL が開きます。 それ以外の場合、既定では、イメージ、Web コード、またはテキスト ボックスのためにダッシュボード上に直接作成されたタイルを選択しても、何も起こりません。
+* Reporting Services 内のレポートに対する権限がない場合、Reporting Services レポートから作成されたタイルを選択すると、アクセス権がないことを示すページに移動します (rsAccessDenied)。
+* Reporting Services サーバーが置かれたネットワークへのアクセス権がない場合、Reporting Services から作成されたタイルを選択すると、サーバーが見つからないことを示すページに移動します (HTTP 404)。 レポートを表示するには、デバイスにレポート サーバーへのネットワーク アクセスが必要です。
 * タイルの作成に使った元の視覚エフェクトが変更された場合、タイルは変更されません。  たとえば、レポートからの折れ線グラフをピン留めし、折れ線グラフを横棒グラフに変更した場合でも、ダッシュボード タイルは引き続き折れ線グラフを表示します。 データは更新されますが、視覚化の種類は変更されません。
 
 ## <a name="next-steps"></a>次の手順
