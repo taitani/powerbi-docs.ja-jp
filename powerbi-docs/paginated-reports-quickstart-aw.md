@@ -9,12 +9,12 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 91cf4e2115b2eaae3178b2fb25e487e0501e3a6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268128"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452826"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>チュートリアル: ページ分割されたレポートを作成して Power BI サービスにアップロードする
 
@@ -108,7 +108,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
     - 住所
     - Customer
-    - 製品
+    - Product
     - ProductCategory
     - SalesOrderDetail
     - SalesOrderHeader
@@ -249,7 +249,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
     ![通貨値を含むセルを選択する](media/paginated-reports-quickstart-aw/power-bi-paginated-select-money-cells.png)
 
-2. **[ホーム]** タブでドル (**$**) の通貨記号を選択し、**[プレースホルダーのスタイル]** の隣の矢印を選択して、**[サンプルの値]** を選択します。
+2. **[ホーム]** タブでドル (**$**) の通貨記号を選択し、**[プレースホルダーのスタイル]** の隣の矢印を選択して、 > **[サンプルの値]** を選択します。
  
     ![サンプルの値を表示する](media/paginated-reports-quickstart-aw/power-bi-paginated-format-currency.png)
 

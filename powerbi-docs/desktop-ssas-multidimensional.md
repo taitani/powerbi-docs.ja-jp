@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c9a8144ba9b8f465f4e607be60d075ea6ccb5fa
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813344"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452800"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop で SSAS 多次元モデルに接続する
 Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも呼ばれる) にアクセスできます。
@@ -81,6 +81,7 @@ Power BI は、イメージの URL (Uniform Resource Locator) を含むフィー
 * Power BI Desktop SSAS MD コネクタが機能するには、サーバーは SQL Server 2012 SP1 CU4 以降のバージョンの Analysis Services を実行する必要があります。
 * *アクション* および *名前付きセット* は Power BI には公開されませんが、 *アクション* または *名前付きセット* も含むキューブに接続し、ビジュアルおよびレポートを作成することはできます。
 * Power BI に SSAS モデルのメタデータが表示されても、モデルのデータを取得できない問題が発生することがあります。 この問題は、システムに 32 ビット版の MSOLAP プロバイダーがインストールされ、64 ビット版がインストールされていない場合に発生します。 64 ビット版をインストールすると、この問題が解決することがあります。
+* SSAS 多次元モデルにライブ接続されているレポートを作成する場合、'レポート レベル' のメジャーは作成できません。 使用できるメジャーは MD モデルで定義されているもののみです。
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop  での SSAS MD のサポートされている機能
 Power BI Desktop では、SSAS MD の次の機能がサポートされています。

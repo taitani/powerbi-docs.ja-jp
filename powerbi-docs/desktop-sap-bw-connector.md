@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336923"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452869"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop で SAP BW Connector を使用する
 Power BI Desktop で、**SAP BusinessWarehouse (BW)** のデータにアクセスできます。
@@ -197,11 +197,28 @@ Implementation 2.0 は以下のオプションをサポートします。
            </item>
    
    このエラーを解決するには、Power BI で使われている SAPBW ユーザーに *BAPI_USER_GET_DETAIL* の実行権限を付与するよう、SAP 管理者に依頼する必要があります。 また、このトラブルシューティング ソリューションで前述したように、ユーザーが必要な *DCPFM* 値を持つことを確認することもお勧めします。
+   
 2. **SAP BEx クエリ用の接続**
    
    Power BI Desktop で **BEx** クエリを実行するには、次の図に示すように特定のプロパティを有効にします。
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
+   
+3. **[ナビゲーター]** ウィンドウにデータ プレビューが表示されず、代わりに "*オブジェクト参照がオブジェクトのインスタンスに設定されていない*" というエラー メッセージが表示されます。
+   
+   SAP ユーザーは、メタデータを取得し、SAP BW の InfoProviders からデータを取得するために、特定の BAPI 関数モジュールにアクセスする必要があります。 次のようなものが含まれます。
+   * BAPI_MDPROVIDER_GET_CATALOGS
+   * BAPI_MDPROVIDER_GET_CUBES
+   * BAPI_MDPROVIDER_GET_DIMENSIONS
+   * BAPI_MDPROVIDER_GET_HIERARCHYS
+   * BAPI_MDPROVIDER_GET_LEVELS
+   * BAPI_MDPROVIDER_GET_MEASURES
+   * BAPI_MDPROVIDER_GET_MEMBERS
+   * BAPI_MDPROVIDER_GET_VARIABLES
+   * BAPI_IOBJ_GETDETAIL
+
+   この問題を解決するために、ユーザーが *BAPI_IOBJ_GETDETAIL* に加えてさまざまな *MDPROVIDER* モジュールにアクセスできることを確認します。 これと同じまたは類似した問題をさらにトラブルシューティングするためには、Power BI Desktop の "*オプション*" 内で "*診断*" ウィンドウの "*トレースを有効にする*" を選択します。 トレースがアクティブになっている間に SAP BW からデータを取得し、詳細についてトレース ファイルを調べてみます。
+
 
 ## <a name="next-steps"></a>次の手順
 SAP と DirectQuery については、次のリソースをご覧ください。

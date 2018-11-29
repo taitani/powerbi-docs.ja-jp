@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952236"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452662"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -22,23 +22,13 @@ ms.locfileid: "49952236"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-**Power BI: 適切に行われる分析**
-<br>講師: Gohul Shanmugalingam
-<br>*2018 年 11 月 8 日、午後 1 時 00 分から午後 2 時 00 分まで (東部標準時)*
+**患者のアウトカムと収益性の両方を向上させる実績のある医療ソリューション**
+<br>作成者: Stephen Cracknell/Stuart Macanliss (US Medical IT)
+<br>*2018 年 11 月 28 日、午前 11 時 00 分から午後 12 時 00 分まで (太平洋標準時)*
 
-すべての分析および Excel のビジョナリーへ: 人々が利用したい思う美しいレポートを作成し、わかりやすく魅力的な分析情報を共有し、複雑なデータのサイロの壁を安全に取り払ってアクセス可能にする方法について説明します。
+医療機関は、膨大な量のデータを患者に関する分析情報に変え、またその分析情報をアクションに変えるという課題に直面しています。 このウェビナーに登録して、ご自身の組織のデータを患者に関する有益な分析情報に変換するのに役立つ、わかりやすい医療レポートをデザインする方法について学習しましょう。 US Medical IT の創設者/CEO である Stephen Cracknell、Healthcare IT のディレクターである Stuart Macanliss、およびテキサスを拠点とするリウマチ専門医 Dr.John P. Lavery から、エキスパートの戦略とアドバイスを学びましょう。
 
-私達は製品の新しい革新技術と、最新のエンタープライズ BI およびセルフサービス BI に関するビジョンを共有することになります。これにより、お客様の組織ではデータドリブン カルチャを構築できるようになります。
-
-[11 月 8 日に視聴できるように登録する](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Power BI を使用してデータ モデリング スキルを高める**
-<br>作成者: Kasper de Jonge
-<br>*2018 年 11 月 20 日、午前 11 時 00 分から午後 12 時 00 分まで (太平洋標準時)*
-
-このウェビナーに登録することで、お客様の Power BI モデリング スキルは次のレベルアップへと進みます。 Power BI のインメモリ分析エンジンと、データのリレーションシップを作成し管理する戦略と、Data Analysis Expressions (DAX) フィルター コンテキストを使用する方法について説明します。 Power BI または Azure Analysis Services でのモデリングの課題を克服する方法を紹介します。
-
-[11 月 20 日に視聴できるように登録する](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+[11 月 28 日に視聴できるように登録する](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -54,9 +44,17 @@ ms.locfileid: "49952236"
 <br>作成者: Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
 
+**Power BI を使用してデータ モデリング スキルを高める**
+<br>作成者: Kasper de Jonge
+<br>[登録して今すぐ見る](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
 **Power BI で実行する Microsoft - 財務の計画と分析を簡単に**
 <br>作成者: Cory Hrncirik と Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI: 適切に行われる分析**
+<br>講師: Gohul Shanmugalingam
+<br>[登録して今すぐ見る](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
 **Power BI データを視覚化: 中心となるグラフの種類とその利用方法**
 <br>作成者: Miranda Li
@@ -70,9 +68,9 @@ ms.locfileid: "49952236"
 <br>作成者: Miranda Li
 <br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**PowerBI.Tips の所有者による Power BI のテクニック、ヒント、およびツール**
-<br>作成者: Mike Carlo と Seth Bauer
-<br>[今すぐ見る](https://www.youtube.com/watch?v=fnj1_e3HXow)
+**Microsoft Flow および PowerApps が及ぼす総合的な経済効果**
+<br>作成者: Jonathan Lipsitz と Enrique Plaza Garcia
+<br>[登録して今すぐ見る](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 >[コミュニティの専門家による Power BI オンデマンド ウェビナーを参照する](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -112,10 +110,6 @@ ms.locfileid: "49952236"
 <br>作成者: Scott Ball (Esri) と Enrique Plaza (Microsoft)
 <br>[登録して今すぐ見る](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
-**医療での収益の増加**
-<br>作成者: Stephen Cracknell/Stuart Macanliss (US Medical IT)
-<br>[登録して今すぐ見る](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
-
 **セールスおよびサービスのインテリジェンスを適用する**
 <br>作成者: Ed Bobrin (Avanade)
 <br>[登録して今すぐ見る](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
@@ -129,6 +123,10 @@ ms.locfileid: "49952236"
 <br>[登録して今すぐ見る](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 ### <a name="community"></a>コミュニティ ###
+
+**PowerBI.Tips の所有者による Power BI のテクニック、ヒント、およびツール**
+<br>作成者: Mike Carlo と Seth Bauer
+<br>[今すぐ見る](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **データと Power BI でのストーリーテリング**
 <br>作成者: Tristan Malherbe

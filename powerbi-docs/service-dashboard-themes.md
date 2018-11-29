@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4e0f8dac3a5d254594c512f0a9804773308c9eb7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3e1c08e2dd9515ea49279cbd5c331d358b3b9ed4
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717286"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452570"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI サービスのダッシュボード テーマを使用する
 **ダッシュボード テーマ**では、企業の色、季節の色、または適用する可能性がある他の色のテーマなど、色のテーマをダッシュボード全体に適用することができます。 **ダッシュボード テーマ**を適用すると、ダッシュボードのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。
@@ -46,7 +46,7 @@ Power BI ダッシュボードの既定のテーマは **[明るい]** です。
 
 ![ドロップダウン リストから [カスタム] を選択する](media/service-dashboard-themes/power-bi-theme-custom.png)
 
-カスタム オプションを使用して、独自のダッシュボードのテーマを作成します。 背景画像を追加する場合は、画像の解像度を 1920 x 1080 以上にすることをお勧めします。 画像を背景として使用するには、画像をパブリック Web サイトにアップロードし、URL をコピーして **[画像の URL]** フィールドに貼り付けます。 
+カスタム オプションを使用して、独自のダッシュボードのテーマを作成します。 背景画像を追加する場合は、画像の解像度を 1920 x 1080 以上にすることをお勧めします。 画像を背景として使用するには、その画像をパブリックな Web サイトにアップロードし、その URL をコピーして **[画像の URL]** フィールドに貼り付けます。 
 
 ### <a name="using-json-themes"></a>JSON テーマの使用
 カスタム テーマを作成するもう 1 つの方法は、ダッシュボードで使用するすべての色の設定を含む JSON ファイルをアップロードすることです。 Power BI Desktop では、レポート作成者は JSON ファイルを使用して、[レポートのテーマを作成](desktop-report-themes.md)します。 これらの同じ JSON ファイルをダッシュボード用にアップロードすることができます。また、Power BI コミュニティの[テーマ ギャラリー ページ](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery)で、JSON ファイルを見つけてアップロードすることもできます。 
