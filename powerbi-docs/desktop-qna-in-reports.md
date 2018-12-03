@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 507cc25d324f47f00434430461d78013baa7210f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8c0736728d1dfce5a571eb1950670bc9fc9fa1c1
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546938"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670764"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>自然言語クエリに Power BI Desktop で Q&A を使用する
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 データが回答になる場合にはさらに効果的です。**Power BI Desktop** の Q&A ではこれが可能です。

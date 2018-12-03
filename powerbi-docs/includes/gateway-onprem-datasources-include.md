@@ -20,6 +20,7 @@
 | SAP HANA |はい |はい |
 | SharePoint リスト (オンプレミス) |いいえ |はい |
 | Snowflake |はい |はい |
+| Spark |はい |はい |
 | SQL Server |はい |はい |
 | Sybase |いいえ |はい |
 | Teradata |はい |はい |

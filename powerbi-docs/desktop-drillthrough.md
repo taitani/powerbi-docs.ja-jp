@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4989e981c3f39a637b3bb4927c427be0005c7776
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: ddf0ab52aae38a28f30de94904c6d966d0fd24a8
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027439"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669798"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop でドリルスルーを使用する
 **Power BI Desktop** の**ドリルスルー**を利用すると、サプライヤー、顧客、メーカーなど、特定のエンティティに焦点を置くページをレポートに作成できます。 ユーザーは、他のレポート ページでデータ ポイントを右クリックできます。 その後、フォーカスされたページまでドリルスルーし、そのコンテキストに合わせてフィルター処理された詳細を取得できます。

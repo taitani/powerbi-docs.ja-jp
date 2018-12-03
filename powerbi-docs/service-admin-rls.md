@@ -7,18 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/02/2018
 ms.author: mblythe
+ms.date: 01/02/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b99f346102ae8b5f31db8101e499fb6915d870de
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850409"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578430"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI での行レベルのセキュリティ (RLS)
-Power BI で行レベル セキュリティ (RLS) を使用すると、特定のユーザーのデータ アクセスを制限できます。 フィルターでは行レベルでデータ アクセスが制限され、ロール内でフィルターを定義することができます。 Power BI サービスでは、ワークスペースのメンバーがそのワークスペース内のデータセットにアクセスできることに注意してください。 RLS では、このデータ アクセスは制限されません。 
+
+Power BI で行レベル セキュリティ (RLS) を使用すると、特定のユーザーのデータ アクセスを制限できます。 フィルターでは行レベルでデータ アクセスが制限され、ロール内でフィルターを定義することができます。 Power BI サービスでは、ワークスペースのメンバーがそのワークスペース内のデータセットにアクセスできることに注意してください。 RLS では、このデータ アクセスは制限されません。
 
 Power BI Desktop で Power BI にインポートされたデータ モデルの RLS を構成できます。 SQL Server などの DirectQuery を使用しているデータセットに RLS を構成することもできます。 これまで、RLS を実装できるのは、Power BI の外部にあるオンプレミスの Analysis Services モデル内だけでした。 Analysis Services のライブ接続では、オンプレミスのモデルに行レベルのセキュリティを構成します。 このセキュリティ オプションは、ライブ接続データセットには表示されません。
 
@@ -34,6 +35,7 @@ Power BI Desktop で Power BI にインポートされたデータ モデルの 
 [!INCLUDE [include-short-name](./includes/rls-desktop-view-as-roles.md)]
 
 ## <a name="manage-security-on-your-model"></a>モデルのセキュリティの管理
+
 データ モデルのセキュリティを管理するには、次の操作を行います。
 
 1. データセットの**省略記号 [...]** を選択します。
@@ -46,7 +48,9 @@ Power BI Desktop で Power BI にインポートされたデータ モデルの 
 Power BI Desktop 内でのみ、役割を作成または変更できます。
 
 ## <a name="working-with-members"></a>メンバーの操作
+
 ### <a name="add-members"></a>メンバーの追加
+
 役割にメンバーを追加するには、追加するユーザー、セキュリティ グループ、または配布リストのメール アドレスまたは名前を入力します。 このメンバーは、組織内に存在する必要があります。 Power BI 内に作成したグループは追加できません。
 
 ![](media/service-admin-rls/rls-add-member.png)
@@ -56,11 +60,13 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 ![](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>メンバーの削除
+
 メンバーを削除するには、メンバー名の横の [X] を選択します。 
 
 ![](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Power BI サービス内でのロールの検証
+
 役割をテストすることで、定義した役割が正しく動作することを検証することができます。 
 
 1. 役割の横にある**省略記号 (...)** を選択します。
@@ -83,12 +89,11 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
 ## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Power BI での RLS とアプリ ワークスペースの使用
+
 Power BI サービス内のアプリ ワークスペースに Power BI Desktop レポートを発行した場合、役割は読み取り専用のメンバーに適用されます。 メンバーはアプリ ワークスペース設定内の Power BI コンテンツだけを表示できることを示す必要があります。
 
 > [!WARNING]
 > メンバーが編集アクセス許可を持つようにアプリ ワークスペースを構成している場合、RLS の役割は適用されません。 ユーザーはすべてのデータを確認できます。
-> 
-> 
 
 ![](media/service-admin-rls/rls-group-settings.png)
 
@@ -100,4 +105,3 @@ Power BI サービス内のアプリ ワークスペースに Power BI Desktop �
 [Power BI Desktop での行レベルのセキュリティ (RLS)](desktop-rls.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-

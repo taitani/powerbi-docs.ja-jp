@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e35c842af47bac9dfd6667ecfa885a8df8a8785c
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: efb936a4fadbd45c3d9fce809963415bb27e321e
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328099"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578476"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop で計算テーブルを使用する
 計算テーブルを使うと、モデルに新しいテーブルを追加できます。 しかし、値のクエリを実行してデータ ソースから新しいテーブルの列に値を読み込む代わりに、テーブルの値を定義する Data Analysis Expressions (DAX) 数式を作成することができます。 Power BI Desktop では、レポート ビューまたはデータ ビューの [新しいテーブル] 機能を使用して計算テーブルを作成します。
@@ -65,7 +65,7 @@ Western Region Employees という名前の新しいテーブルが作成され�
 DAX による計算テーブルを使うと、分析上の多くの課題を解決できます。 ここでは、計算テーブルについて簡単に紹介するだけにします。 計算テーブルを使用する際に役立つ一般的な DAX テーブル関数には、次のようなものが含まれています。
 
 * DISTINCT
-* VALUES
+* 値
 * CROSSJOIN
 * UNION
 * NATURALINNERJOIN

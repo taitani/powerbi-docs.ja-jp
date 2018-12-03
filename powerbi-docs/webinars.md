@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452662"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670419"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -22,13 +22,7 @@ ms.locfileid: "52452662"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-**患者のアウトカムと収益性の両方を向上させる実績のある医療ソリューション**
-<br>作成者: Stephen Cracknell/Stuart Macanliss (US Medical IT)
-<br>*2018 年 11 月 28 日、午前 11 時 00 分から午後 12 時 00 分まで (太平洋標準時)*
-
-医療機関は、膨大な量のデータを患者に関する分析情報に変え、またその分析情報をアクションに変えるという課題に直面しています。 このウェビナーに登録して、ご自身の組織のデータを患者に関する有益な分析情報に変換するのに役立つ、わかりやすい医療レポートをデザインする方法について学習しましょう。 US Medical IT の創設者/CEO である Stephen Cracknell、Healthcare IT のディレクターである Stuart Macanliss、およびテキサスを拠点とするリウマチ専門医 Dr.John P. Lavery から、エキスパートの戦略とアドバイスを学びましょう。
-
-[11 月 28 日に視聴できるように登録する](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
+まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -105,6 +99,10 @@ ms.locfileid: "52452662"
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>パートナー ###
+
+**患者のアウトカムと収益性の両方を向上させる実績のある医療ソリューション**
+<br>作成者: Stephen Cracknell/Stuart Macanliss (US Medical IT)
+<br>[登録して今すぐ見る](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 **Location Intelligence で BI を強化する**
 <br>作成者: Scott Ball (Esri) と Enrique Plaza (Microsoft)

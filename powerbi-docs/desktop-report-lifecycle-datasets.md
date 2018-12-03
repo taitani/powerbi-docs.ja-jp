@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c4fbb5ea019ca439ecf063c91a69348ef33bbc2
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 3679a2f3ab98e1f54ead364e4ef4bf65d382a9d5
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624001"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578591"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop から Power BI サービスのデータセットに接続する
 Power BI サービスの共有データセットへのライブ接続を確立し、同じデータセットから多数の異なるレポートを作成できます。 つまり、Power BI Desktop で完全なデータ モデルを作成し、それを Power BI サービスに発行した後、その同じ共通のデータ モデルから複数の異なるレポート (異なる .pbix ファイル) を作成できます。 この機能は、**Power BI サービス ライブ接続**と呼ばれます。
