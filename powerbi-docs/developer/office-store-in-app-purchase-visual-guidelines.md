@@ -29,7 +29,7 @@ ms.locfileid: "52332161"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP 機能のある Power BI ビジュアルとは
 
-IAP ビジュアルは、無料のビジュアルで無料の機能があります。しかしこれに加え、操作に追加費用を支払う必要がある追加の機能もあります。 開発者は、操作にはどの機能を追加購入する必要があるか、ビジュアルの説明でユーザーに通知する必要があります。 現在、Microsoft では、アプリ内購入をサポートするネイティブ アプリケーション プログラミング インターフェイス (API) およびアドインは用意していません。開発者は、このような購入には、サードパーティ製の支払いシステムを使用する必要があります。 弊社のストア [ポリシー](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)を参照してください。
+IAP ビジュアルは、無料のビジュアルで無料の機能があります。しかしこれに加え、操作に追加費用を支払う必要がある追加の機能もあります。 開発者は、操作にはどの機能を追加購入する必要があるか、ビジュアルの説明でユーザーに通知する必要があります。 現在、Microsoft では、アプリおよびアドイン内での購入をサポートするネイティブ アプリケーション プログラミング インターフェイス (API) は用意していません。開発者は、このような購入には、サードパーティ製の支払いシステムを使用する必要があります。 弊社のストア [ポリシー](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)を参照してください。
 
 ## <a name="logo-guidelines"></a>ロゴのガイドライン
 
