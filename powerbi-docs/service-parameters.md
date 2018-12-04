@@ -1,21 +1,21 @@
 ---
 title: Power BI サービスのパラメーター設定を編集する
 description: クエリ パラメーターは Power BI Desktop で作成されますが、Power BI サービスで確認および更新できます
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: b379812a16bbdbbc16517b86d9ce4e941ac45f01
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: eefb863b4dde9fb6e368e244fa9d55c0af7c6001
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331875"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829598"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Power BI サービスのパラメーター設定を編集する
 レポートの作成者は Power BI Desktop でレポートにクエリ パラメーターを追加します。 パラメーターを使用すると、1 つまたは複数のパラメーターの*値*に基づいてレポートの各部分を作成できます。 たとえば、レポート作成者は、1 つの国または地域に対してデータを制限するパラメーターや日付、時刻、テキストなどのフィールドに使用できる形式を定義するパラメーターを作成できます。

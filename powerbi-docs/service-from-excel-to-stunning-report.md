@@ -1,21 +1,21 @@
 ---
 title: Excel ブックから魅力的なレポートを即座に作成する
 description: Excel ブックから魅力的なレポートを即座に作成する
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/28/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ebbca73f781946f989b2f3afa65aa0a940f7a680
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e3b7a6ca4471fb1a6454f6efb9fba1f89b8ae1da
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545132"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829989"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Excel ブックから魅力的なレポートを即座に作成する
 最新の売上データを直前のキャンペーンの感触と組み合わせて、上司にレポートを今日中に提出しなければなりません。 しかし、最新のデータはさまざまなサード パーティ システムと、自分のノート PC 内のファイルに散在しています。 以前に、ビジュアルとレポート書式を作成するのに何時間もかかった経験があります。 次第に不安が募ります。

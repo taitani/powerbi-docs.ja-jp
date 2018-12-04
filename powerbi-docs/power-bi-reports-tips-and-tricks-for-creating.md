@@ -1,21 +1,21 @@
 ---
 title: 美しいレポートを作成するためのヒント
 description: Power BI サービス と Power BI Desktop でレポートを作成するときのヒントとテクニックです
-author: mihart
+author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
-ms.author: mihart
+ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 0397921d239ec1d07312e69061890f8898e9687b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549962"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829836"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop と Power BI サービスでのレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop、Power BI サービス、"*および*" Power Pivot のアドインを有効にし、Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションで、レポートを作成する場合に役立つヒントとテクニックをまとめました。
