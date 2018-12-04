@@ -89,9 +89,9 @@ GitHub アカウントをまだ持っていない場合、このチュートリ�
 
 12. 「**by month**」と入力します。
  
-    ![月別のプル要求](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-ask-question-by-month.png)
+    ![月別の Pull requests](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-ask-question-by-month.png)
 
-     Power BI は、月別のプル要求の数を示す横棒グラフを作成します。
+     Power BI は、月別の pull requests の数を示す横棒グラフを作成します。
 
 13. **[Q&A の終了]** を選びます。
 
@@ -99,7 +99,7 @@ GitHub アカウントをまだ持っていない場合、このチュートリ�
 
 1. GitHub ダッシュボードで、縦棒と折れ線の複合グラフ **Pull Requests by Month** を選んで、関連するレポートを開きます。
 
-    ![月別プル要求の複合グラフ](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-pull-requests-combo-chart.png)
+    ![月別 pull request の複合グラフ](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-pull-requests-combo-chart.png)
 
 2. **Total pull requests by user** グラフでユーザー名を選ぶと、この例のように、3 月は合計平均より平均時間が多かったことがわかります。
 

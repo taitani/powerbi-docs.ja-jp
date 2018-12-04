@@ -598,7 +598,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * [Excel ファイル全体の取り込み](service-excel-workbook-files.md): OneDrive for Business に格納されているどの Excel ブックでも Power BI に取り込み、そのブック全体を Excel Online での場合とまったく同様に表示できます。
 * [CSV ファイルの取り込み](service-get-data-from-files.md): Excel や Power BI Desktop ファイルと同様に、コンマ区切り値 (CSV) テキスト ファイルも、Power BI のダッシュボードとレポートのデータセットにできます。
 * Excel、Power BI Desktop、CSV のファイルの置き換え: 更新されたバージョンのファイルを Power BI にアップロードし、既存のデータセットをそのファイルで置換できます。 このデータセットに接続されているすべてのレポートとダッシュボードが、この新しいバージョンを自動的に使用するようになります。
-* 今週の Power BI の更新では、[Visual Studio Online コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)で、作業項目の追跡機能が提供されるようになりました。 この更新には、Git リポジトリ、プル要求、および初期バージョンに含まれているバージョン管理のコンテンツに関する重要なメトリックのほか、新しいダッシュボード、レポート、および作業項目に関する洞察を提供する更新されたデータ セットが含まれます。 開始方法の詳細については、[Power BI 用 Visual Studio Online コンテンツ パックのヘルプ ページ](service-connect-to-quickbooks-online.md)をご覧ください。
+* 今週の Power BI の更新では、[Visual Studio Online コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)で、作業項目の追跡機能が提供されるようになりました。 この更新には、Git リポジトリ、pull requests、および初期バージョンに含まれているバージョン管理のコンテンツに関する重要なメトリックのほか、新しいダッシュボード、レポート、および作業項目に関する洞察を提供する更新されたデータ セットが含まれます。 開始方法の詳細については、[Power BI 用 Visual Studio Online コンテンツ パックのヘルプ ページ](service-connect-to-quickbooks-online.md)をご覧ください。
 
 **2015 年 7 月 14 日**
 
