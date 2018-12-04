@@ -1,7 +1,7 @@
 items:
 - name: Power BI Desktop
   items:
-  - name: 概要
+  - name: Overview
     items:
     - name: Power BI Desktop とは何ですか?
       href: desktop-what-is-desktop.md
@@ -282,6 +282,8 @@ items:
         href: desktop-create-phone-report.md
       - name: '[データを表示] と [レコードを表示] を使用'
         href: desktop-see-data-see-records.md
+      - name: レポートを作成するためのヒント
+        href: desktop-tips-and-tricks-for-creating-reports.md
     - name: 視覚化
       items:
       - name: 視覚化のベスト プラクティス
@@ -312,7 +314,7 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: X 軸と Y 軸のプロパティのカスタマイズ
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: Power BI での ArcGIS
+      - name: Power BI での ArcGIS マップ
         href: power-bi-visualization-arcgis.md
       - name: 基本的な面グラフ
         href: visuals/power-bi-visualization-basic-area-chart.md
@@ -346,6 +348,8 @@ items:
         href: visuals/power-bi-visualization-treemaps.md
       - name: Power BI のウォーターフォール図
         href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: 動的な参照線を作成する
+        href: service-analytics-pane.md
     - name: トラブルシューティング
       items:
       - name: Power BI Desktop と Power Query での Access データベースと Excel スプレッドシートのインポート問題を解決する
@@ -376,16 +380,16 @@ items:
       href: desktop-admin-sign-in-form.md
 - name: Power BI サービス
   items:
-  - name: 概要
+  - name: Overview
     items:
     - name: Power BI とは?
       href: power-bi-overview.md
   - name: チュートリアル
     items:
-    - name: GitHub サンプルへの接続
-      href: service-tutorial-connect-to-github.md
     - name: Power BI の概要
       href: service-get-started.md
+    - name: GitHub サンプルへの接続
+      href: service-tutorial-connect-to-github.md
   - name: 概念
     items:
     - name: Power BI サービスの新機能
@@ -644,40 +648,28 @@ items:
         href: service-dashboard-themes.md
     - name: レポート
       items:
-      - name: 既存のレポートから新しいレポートを作成
-        href: power-bi-report-copy.md
-      - name: レポートにページを追加する
-        href: power-bi-report-add-page.md
+      - name: データセットから新しいレポートを作成
+        href: service-report-create-new.md
       - name: レポートにフィルターを追加する
         href: power-bi-report-add-filter.md
       - name: Power BI でレポートを保存する
         href: service-report-save.md
-      - name: データセットから新しいレポートを作成
-        href: service-report-create-new.md
       - name: 編集ビューでレポートと対話する
         href: service-interact-with-a-report-in-editing-view.md
       - name: Excel で分析
         href: service-analyze-in-excel.md
       - name: レポートの作成に関するヒントとテクニック
         href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: 分析ウィンドウ
-        href: service-analytics-pane.md
       - name: レポート用の利用状況の指標
         href: service-usage-metrics.md
       - name: レポートの QR コードを作成する
         href: service-create-qr-code-for-report.md
-      - name: レポートでページを並べ替える
-        href: service-report-reorder-pages.md
-      - name: レポート ページの複製
-        href: power-bi-report-copy-paste-page.md
       - name: サービスから Power BI Desktop にレポートをエクスポートする (プレビュー)
         href: service-export-to-pbix.md
       - name: URL のパラメーターを使用してレポートをフィルター処理する
         href: service-url-filters.md
       - name: 高速で信頼性の高いレポートを作成するためのベスト プラクティス
         href: power-bi-reports-performance.md
-      - name: ArcGIS マップとの対話
-        href: visuals/power-bi-visualizations-arcgis.md
     - name: データに関する質問
       items:
       - name: Q&A を使用して視覚化およびレポートを作成する
@@ -792,6 +784,30 @@ items:
         href: service-dataflows-developer-resources.md
       - name: Power BI Desktop でデータフローに接続する
         href: desktop-connect-dataflows.md
+    - name: Power BI のページ分割されたレポート
+      items:
+      - name: ページ分割されたレポートとは (プレビュー)
+        href: paginated-reports-report-builder-power-bi.md
+      - name: ページ分割されたレポートに関する FAQ
+        href: paginated-reports-faq.md
+      - name: ページ分割されたレポートの作成とアップロード
+        href: paginated-reports-quickstart-aw.md
+      - name: レポート デザイン ビュー内を移動する
+        href: paginated-reports-report-design-view.md
+      - name: ページ分割されたレポートに直接データを入力する
+        href: paginated-reports-enter-data.md
+      - name: 埋め込みデータ ソースを作成する
+        href: paginated-reports-embedded-data-source.md
+      - name: 埋め込みデータセットを作成する
+        href: paginated-reports-create-embedded-dataset.md
+      - name: パラメーターを作成する
+        href: paginated-reports-parameters.md
+      - name: ページ分割されたレポートを発行する
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: ページ分割されたレポートを表示する
+        href: paginated-reports-view-power-bi-service.md
+      - name: パラメーターと対話する
+        href: paginated-reports-view-parameters.md
   - name: リソース
     items:
     - name: ビデオ
@@ -802,45 +818,13 @@ items:
       href: supported-languages-countries-regions.md
     - name: ホワイトペーパー
       href: whitepapers.md
-- name: Power BI のページ分割されたレポート
-  items:
-  - name: 概要
-    items:
-    - name: ページ分割されたレポートとは (プレビュー)
-      href: paginated-reports-report-builder-power-bi.md
-  - name: チュートリアル
-    items:
-    - name: ページ分割されたレポートの作成とアップロード
-      href: paginated-reports-quickstart-aw.md
-  - name: 概念
-    items:
-    - name: レポート デザイン ビュー内を移動する
-      href: paginated-reports-report-design-view.md
-    - name: ページ分割されたレポートに関する FAQ
-      href: paginated-reports-faq.md
-  - name: 方法
-    items:
-    - name: ページ分割されたレポートに直接データを入力する
-      href: paginated-reports-enter-data.md
-    - name: 埋め込みデータ ソースを作成する
-      href: paginated-reports-embedded-data-source.md
-    - name: 埋め込みデータセットを作成する
-      href: paginated-reports-create-embedded-dataset.md
-    - name: パラメーターを作成する
-      href: paginated-reports-parameters.md
-    - name: ページ分割されたレポートを発行する
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: ページ分割されたレポートを表示する
-      href: paginated-reports-view-power-bi-service.md
-    - name: パラメーターと対話する
-      href: paginated-reports-view-parameters.md
 - name: 開発者向け Power BI
   items:
   - name: Power BI の開発者向け機能
     href: developer/what-can-you-do.md
   - name: 埋め込み分析
     items:
-    - name: 概要
+    - name: Overview
       items:
       - name: Power BI での埋め込みとは
         href: developer/embedding.md
@@ -932,7 +916,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848281
   - name: カスタム ビジュアルを開発する
     items:
-    - name: 概要
+    - name: Overview
       items:
       - name: カスタム ビジュアルを Power BI に追加する
         href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
@@ -976,7 +960,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848277
   - name: オートメーション
     items:
-    - name: 概要
+    - name: Overview
       items:
       - name: Power BI API の機能
         href: developer/overview-of-power-bi-rest-api.md
@@ -1026,7 +1010,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848274
 - name: Power BI Report Server
   items:
-  - name: 概要
+  - name: Overview
     items:
     - name: Power BI Report Server とは
       href: report-server/get-started.md
@@ -1130,7 +1114,7 @@ items:
       href: report-server/capacity-planning.md
 - name: ゲートウェイ
   items:
-  - name: 概要
+  - name: Overview
     items:
     - name: Power BI ゲートウェイとは
       href: service-gateway-getting-started.md
@@ -1186,7 +1170,7 @@ items:
       href: service-gateway-onprem-tshoot.md
 - name: 管理
   items:
-  - name: 概要
+  - name: Overview
     items:
     - name: Power BI 管理とは
       href: service-admin-administering-power-bi-in-your-organization.md
@@ -1265,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331852"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830403"
