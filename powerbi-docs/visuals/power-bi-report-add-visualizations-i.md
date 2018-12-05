@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545270"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829805"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>パート I、Power BI レポートへの視覚化の追加
 この記事では、Power BI サービスまたは Power BI Desktop を使用してレポートで視覚化を作成する方法を簡単に説明します。  より高度な内容を調べるには、「[パート II](power-bi-report-add-visualizations-ii.md)」をご覧ください。 Amanda がレポート キャンバスでのビジュアルの作成、編集、書式設定についてさまざまな方法を示します。 このデモの後に、[売上およびマーケティングのサンプル](../sample-datasets.md)を使用して、レポートを作成してみてください。
@@ -29,7 +29,7 @@ ms.locfileid: "46545270"
 2. フィールド ウィンドウが表示されない場合は、矢印アイコンを選んで開きます。 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
-3. [空白ページをレポートに追加](../power-bi-report-add-page.md)します。
+3. 空のページをレポートに追加します。
 
 ## <a name="add-visualizations-to-the-report"></a>視覚化をレポートに追加する
 1. 視覚化を作成するため、 **[フィールド]** ウィンドウでフィールドを選びます。  

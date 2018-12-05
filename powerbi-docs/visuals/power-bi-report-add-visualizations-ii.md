@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a15975f456bab94fd04fa7501760c9874fabf952
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 01051ab47304713fe3cf0f9128f5cd99af58bffe
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736898"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830219"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>パート 2、Power BI レポートへの視覚化の追加
 [パート 1](power-bi-report-add-visualizations-ii.md) では、フィールド名の横にあるチェックボックスを選んで、基本的な視覚化を作成しました。  パート 2 では、ドラッグ アンド ドロップを使用し、 **[フィールド]** ウィンドウと **[視覚化]** をウィンドウを最大限活用して、視覚化を作成および変更する方法について説明します。
@@ -32,7 +32,7 @@ ms.locfileid: "44736898"
 1. 小売りの分析のサンプルの .PBIX ファイルを Power BI Desktop で開きます。 
    ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
 
-2.  [新しいページを追加](../power-bi-report-add-page.md)するため、キャンバスの下部にある黄色の正符号アイコンを選びます。
+2. キャンバスの下部にある黄色のプラス アイコンを選び、新しいページを追加します。
 
 ### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>この年と前年の売上比較を示す視覚化を追加します。
 1. **[セールス]** テーブルで **[This Year Sales]** (今年の売上) > **[値]**、**[Last Year Sales]** (前年の売上) を選びます。 Power BI によって縦棒グラフが作成されます。  興味深い内容であるため、詳しく分析していきましょう。 月別の売上はどのような状況でしょうか?  

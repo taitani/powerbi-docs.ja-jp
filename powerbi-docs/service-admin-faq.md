@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157082"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830311"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -174,11 +174,15 @@ Power BI 管理ポータルにアクセスするには、アカウントが Offi
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft によってユーザーに対して作成されたテナントを管理するにはどうすればよいですか。
 
-テナントが Microsoft によって作成された場合は、次の手順に従うことで、そのテナントを管理できるようになります。
+セルフサービスのユーザーは、Azure AD を使用しているクラウド サービスにサインアップするときに、各自の電子メール ドメインに基づいて Azure AD のアンマネージド ディレクトリに追加されます。 "*管理者引き継ぎ*" と呼ばれるプロセスを使って作成されたテナントを、管理できるようになります。 実行する引き継ぎの種類は、ご自身のドメインに関連付けられている既存のマネージド テナントが存在するかどうかによって異なります。
 
-1. 管理するテナントのドメインに対応するメール アドレスのドメインを使用して Power BI にサインアップすることで、テナントに参加します。 たとえば、Microsoft によって contoso.com テナントが作成されている場合は、@contoso.com で終わるメール アドレスを使用してテナントに参加します。
+* ドメインに対して新しいマネージド テナントを作成するには、"*内部の引き継ぎ*" を使用します。
 
-1. ドメインの所有権を確認することで、管理権を要求します。テナントに参加した後、ドメインの所有権を確認することで、自分自身を *[グローバル管理者]* ロールに昇格させることができます。 これを行うには、[Office 365 ドキュメント](/office365/admin/misc/become-the-admin)の手順に従います。
+* 既存のマネージド テナントにドメインを移動するには、"*外部の引き継ぎ*" を使用します。
+
+詳細については、「[Azure Active Directory の非管理対象ディレクトリを管理者として引き継ぐ](/azure/active-directory/users-groups-roles/domains-admin-takeover)」をご覧ください。
+
+外部の引き継ぎを実行すると、引き継ぎの前に作成した Power BI コンテンツは [Power BI アーカイブ済みワークスペース](service-admin-power-bi-archived-workspace.md)内に配置されます。 新しいテナントで使いたいコンテンツは、すべて手動で移行する必要があります。
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>複数のドメインがある場合、ユーザーが追加される Office 365 テナントを制御できますか。
 
