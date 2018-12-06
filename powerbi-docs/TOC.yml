@@ -1,7 +1,7 @@
 items:
 - name: Power BI Desktop
   items:
-  - name: Overview
+  - name: 概要
     items:
     - name: Power BI Desktop とは何ですか?
       href: desktop-what-is-desktop.md
@@ -378,9 +378,9 @@ items:
       href: desktop-accessibility.md
     - name: Power BI Desktop のサインイン フォームを管理する
       href: desktop-admin-sign-in-form.md
-- name: Power BI サービス
+- name: ダッシュボード
   items:
-  - name: Overview
+  - name: 概要
     items:
     - name: Power BI とは?
       href: power-bi-overview.md
@@ -444,22 +444,10 @@ items:
         href: service-power-bi-get-started-third-party-apps.md
   - name: 方法
     items:
-    - name: 一般的なタスク
-      items:
-      - name: Power BI 内のコンテンツの名前を変更する
-        href: service-rename.md
-      - name: Power BI のクイック インサイト
-        href: service-insights.md
-      - name: 米国政府組織を登録する
-        href: service-govus-signup.md
-      - name: Power BI サービスでのデータ アラート
-        href: service-set-data-alerts.md
-      - name: Power BI Q&A の概要
-        href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: Power BI のほとんどすべてのものを削除する
-        href: service-delete.md
     - name: サービスへの接続
       items:
+      - name: サービスへの接続
+        href: service-connect-to-services.md
       - name: Acumatica
         href: service-connect-to-acumatica.md
       - name: Adobe Analytics
@@ -574,7 +562,7 @@ items:
         href: service-parameters.md
       - name: コンマ区切り値 (.csv) ファイルからデータを取得する
         href: service-comma-separated-value-files.md
-      - name: Power BI のリアルタイム ストリーミング (プレビュー)
+      - name: Power BI のリアルタイム ストリーミング
         href: service-real-time-streaming.md
       - name: Excel 2016 から Power BI へ発行する
         href: service-publish-from-excel.md
@@ -626,6 +614,8 @@ items:
         href: service-dashboard-pin-tile-from-q-and-a.md
       - name: レポート ページ全体をダッシュボードにピン留めする
         href: service-dashboard-pin-live-tile-from-report.md
+      - name: Power BI サービスでのデータ アラート
+        href: service-set-data-alerts.md
       - name: ダッシュボード用の利用状況の指標
         href: service-usage-metrics.md
       - name: イメージ、テキスト ボックス、ビデオ、コードをダッシュボードに追加する
@@ -634,8 +624,6 @@ items:
         href: service-dashboard-edit-tile.md
       - name: 優れたダッシュボードのデザインに関するヒント
         href: service-dashboards-design-tips.md
-      - name: クイック分析情報用のデータを最適化する
-        href: service-insights-optimize.md
       - name: ダッシュボードの Phone ビューを作成する
         href: service-create-dashboard-mobile-phone-view.md
       - name: タイルの QR コードを作成する
@@ -648,7 +636,7 @@ items:
         href: service-dashboard-themes.md
     - name: レポート
       items:
-      - name: データセットから新しいレポートを作成
+      - name: データセットからレポートを作成する
         href: service-report-create-new.md
       - name: レポートにフィルターを追加する
         href: power-bi-report-add-filter.md
@@ -664,7 +652,7 @@ items:
         href: service-usage-metrics.md
       - name: レポートの QR コードを作成する
         href: service-create-qr-code-for-report.md
-      - name: サービスから Power BI Desktop にレポートをエクスポートする (プレビュー)
+      - name: レポートを Power BI Desktop にエクスポートする (プレビュー)
         href: service-export-to-pbix.md
       - name: URL のパラメーターを使用してレポートをフィルター処理する
         href: service-url-filters.md
@@ -672,18 +660,24 @@ items:
         href: power-bi-reports-performance.md
     - name: データに関する質問
       items:
+      - name: Power BI Q&A の概要
+        href: power-bi-visualization-introduction-to-q-and-a.md
       - name: Q&A を使用して視覚化およびレポートを作成する
         href: power-bi-tutorial-q-and-a.md
       - name: データを Q&A でうまく使う方法
         href: service-prepare-data-for-q-and-a.md
-      - name: Cortana を Power BI で使用可能にする
-        href: service-cortana-enable.md
       - name: Q&A のおすすめの質問を作成する
         href: service-q-and-a-create-featured-questions.md
-      - name: Power BI での視覚化の種類
+      - name: Q&A での視覚化の種類
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: ライブ接続で Q&A を使用する
         href: service-q-and-a-direct-query.md
+      - name: Cortana を Power BI で使用可能にする
+        href: service-cortana-enable.md
+      - name: Power BI のクイック インサイト
+        href: service-insights.md
+      - name: クイック分析情報用のデータを最適化する
+        href: service-insights-optimize.md
     - name: 作業の共有
       items:
       - name: 共同作業および共有を行う方法
@@ -710,28 +704,6 @@ items:
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
       - name: OneDrive 上の Excel ブックにリンクするダッシュボードを共有する
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-    - name: コンテンツ パック
-      items:
-      - name: 組織のコンテンツ パックを管理、更新、削除する
-        href: service-organizational-content-pack-manage-update-delete.md
-      - name: '組織のコンテンツ パック: コピー、更新、アクセスする'
-        href: service-organizational-content-pack-copy-refresh-access.md
-      - name: '組織のコンテンツ パック: 概要'
-        href: service-organizational-content-pack-introduction.md
-      - name: 組織のコンテンツ パックの作成と発行
-        href: service-organizational-content-pack-create-and-publish.md
-      - name: 組織のコンテンツ パックに対する接続を削除する
-        href: service-organizational-content-pack-disconnect.md
-      - name: 認定
-        items:
-        - name: コンテンツ パック認定プログラム
-          href: service-content-pack-overview.md
-        - name: テンプレート コンテンツ パックのオーサリング
-          href: template-content-pack-authoring.md
-        - name: テンプレート コンテンツ パックのテスト
-          href: template-content-pack-testing.md
-        - name: テンプレート コンテンツ パックのエクスペリエンス
-          href: template-content-pack-experience.md
     - name: 公開
       items:
       - name: Power BI Publisher for Excel
@@ -788,26 +760,56 @@ items:
       items:
       - name: ページ分割されたレポートとは (プレビュー)
         href: paginated-reports-report-builder-power-bi.md
-      - name: ページ分割されたレポートに関する FAQ
+      - name: ページ分割されたレポートに関する FAQ (プレビュー)
         href: paginated-reports-faq.md
-      - name: ページ分割されたレポートの作成とアップロード
+      - name: ページ分割されたレポートの作成とアップロード (プレビュー)
         href: paginated-reports-quickstart-aw.md
-      - name: レポート デザイン ビュー内を移動する
+      - name: レポート デザイン ビュー内を移動する (プレビュー)
         href: paginated-reports-report-design-view.md
-      - name: ページ分割されたレポートに直接データを入力する
+      - name: ページ分割されたレポートに直接データを入力する (プレビュー)
         href: paginated-reports-enter-data.md
-      - name: 埋め込みデータ ソースを作成する
+      - name: 埋め込みデータ ソースを作成する (プレビュー)
         href: paginated-reports-embedded-data-source.md
-      - name: 埋め込みデータセットを作成する
+      - name: 埋め込みデータセットを作成する (プレビュー)
         href: paginated-reports-create-embedded-dataset.md
-      - name: パラメーターを作成する
+      - name: パラメーターを作成する (プレビュー)
         href: paginated-reports-parameters.md
-      - name: ページ分割されたレポートを発行する
+      - name: ページ分割されたレポートを発行する (プレビュー)
         href: paginated-reports-save-to-power-bi-service.md
-      - name: ページ分割されたレポートを表示する
+      - name: ページ分割されたレポートを表示する (プレビュー)
         href: paginated-reports-view-power-bi-service.md
-      - name: パラメーターと対話する
+      - name: パラメーターと対話する (プレビュー)
         href: paginated-reports-view-parameters.md
+    - name: その他のタスク
+      items:
+      - name: Power BI 内のコンテンツの名前を変更する
+        href: service-rename.md
+      - name: 米国政府組織を登録する
+        href: service-govus-signup.md
+      - name: Power BI のほとんどすべてのものを削除する
+        href: service-delete.md
+      - name: コンテンツ パック
+        items:
+        - name: 組織のコンテンツ パックを管理、更新、削除する
+          href: service-organizational-content-pack-manage-update-delete.md
+        - name: '組織のコンテンツ パック: コピー、更新、アクセスする'
+          href: service-organizational-content-pack-copy-refresh-access.md
+        - name: '組織のコンテンツ パック: 概要'
+          href: service-organizational-content-pack-introduction.md
+        - name: 組織のコンテンツ パックの作成と発行
+          href: service-organizational-content-pack-create-and-publish.md
+        - name: 組織のコンテンツ パックに対する接続を削除する
+          href: service-organizational-content-pack-disconnect.md
+        - name: 認定
+          items:
+          - name: コンテンツ パック認定プログラム
+            href: service-content-pack-overview.md
+          - name: テンプレート コンテンツ パックのオーサリング
+            href: template-content-pack-authoring.md
+          - name: テンプレート コンテンツ パックのテスト
+            href: template-content-pack-testing.md
+          - name: テンプレート コンテンツ パックのエクスペリエンス
+            href: template-content-pack-experience.md
   - name: リソース
     items:
     - name: ビデオ
@@ -824,7 +826,7 @@ items:
     href: developer/what-can-you-do.md
   - name: 埋め込み分析
     items:
-    - name: Overview
+    - name: 概要
       items:
       - name: Power BI での埋め込みとは
         href: developer/embedding.md
@@ -916,7 +918,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848281
   - name: カスタム ビジュアルを開発する
     items:
-    - name: Overview
+    - name: 概要
       items:
       - name: カスタム ビジュアルを Power BI に追加する
         href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
@@ -960,7 +962,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848277
   - name: オートメーション
     items:
-    - name: Overview
+    - name: 概要
       items:
       - name: Power BI API の機能
         href: developer/overview-of-power-bi-rest-api.md
@@ -1008,9 +1010,9 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848273
       - name: .NET SDK ダウンロード
         href: https://go.microsoft.com/fwlink/?linkid=848274
-- name: Power BI Report Server
+- name: Power BI レポート
   items:
-  - name: Overview
+  - name: 概要
     items:
     - name: Power BI Report Server とは
       href: report-server/get-started.md
@@ -1114,7 +1116,7 @@ items:
       href: report-server/capacity-planning.md
 - name: ゲートウェイ
   items:
-  - name: Overview
+  - name: 概要
     items:
     - name: Power BI ゲートウェイとは
       href: service-gateway-getting-started.md
@@ -1170,7 +1172,7 @@ items:
       href: service-gateway-onprem-tshoot.md
 - name: 管理
   items:
-  - name: Overview
+  - name: 概要
     items:
     - name: Power BI 管理とは
       href: service-admin-administering-power-bi-in-your-organization.md
@@ -1249,9 +1251,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830403"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900384"
