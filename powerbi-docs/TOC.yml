@@ -246,10 +246,6 @@ items:
         href: visuals/desktop-slicer-filter-date-range.md
       - name: グループ化とビン分割を使用
         href: desktop-grouping-and-binning.md
-      - name: リボン グラフ
-        href: visuals/desktop-ribbon-charts.md
-      - name: 新しいマトリックス ビジュアルを使用する
-        href: visuals/desktop-matrix-visual.md
       - name: R を使用した Power BI ビジュアルの作成
         href: desktop-r-visuals.md
       - name: R を利用したカスタム ビジュアルを使用する
@@ -290,6 +286,8 @@ items:
         href: visuals/power-bi-visualization-best-practices.md
       - name: Power BI レポートでの視覚化の種類の変更
         href: visuals/power-bi-report-change-visualization-type.md
+      - name: ビジュアルの種類別のデータ ポイントの制限
+        href: visuals/power-bi-data-points.md
       - name: 色の書式設定と軸のプロパティの概要
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
       - name: Power BI における色の書式設定に関するヒントとコツ
@@ -332,10 +330,14 @@ items:
         href: desktop-high-density-sampling.md
       - name: KPI ビジュアル
         href: visuals/power-bi-visualization-kpi.md
+      - name: マトリックス ビジュアル
+        href: visuals/desktop-matrix-visual.md
       - name: Power BI で R スクリプトを使用して高度な分析とビジュアルを作成する
         href: visuals/service-r-visuals.md
       - name: Power BI の放射状ゲージ グラフ
         href: visuals/power-bi-visualization-radial-gauge-charts.md
+      - name: リボン グラフ
+        href: visuals/desktop-ribbon-charts.md
       - name: Power BI の散布図
         href: visuals/power-bi-visualization-scatter.md
       - name: 高密度な散布図
@@ -1251,9 +1253,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 066aa4a3b87375e29e14d1611e7e67ab58dfd482
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900384"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979676"

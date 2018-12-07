@@ -1,5 +1,5 @@
 ---
-title: レポート ビルダーでページ分割されたレポートにデータを直接入力する
+title: レポート ビルダーでページ分割されたレポートにデータを直接入力する (プレビュー)
 description: この記事では、レポート ビルダーでページ分割されたレポートにデータを直接入力する方法について説明します。
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 201a81eaef81015c73d70b54e8e862c2ccc29b1d
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52290070"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900407"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>レポート ビルダーでページ分割されたレポートにデータを直接入力する - Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>レポート ビルダーでページ分割されたレポートにデータを直接入力する (プレビュー) - Power BI
 
 この記事では、新しいバージョンの SQL Server 2016 レポート ビルダーに搭載された、埋め込みデータセットとして RDL レポートにデータを直接入力できる機能を紹介します。  この機能は Power BI Desktop によく似ています。 レポートのデータセットにデータを直接入力したり、Microsoft Excel など、別のプログラムから貼り付けたりできます。 データを入力してデータセットを作成したら、作成した他の埋め込みデータセットの場合と同じようにそれを利用できます。 また、複数のテーブルを追加したり、他のテーブルのフィルターとしてテーブルを利用したりできます。 この機能は特に、レポート パラメーターなど、レポートで場合によっては使用する必要がある、少量の固定データセットに便利です。
  

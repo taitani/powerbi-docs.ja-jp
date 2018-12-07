@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスでのページ分割されたレポートの埋め込みデータ ソース | Microsoft Docs
+title: Power BI サービスでのページ分割されたレポートの埋め込みデータ ソース (プレビュー)
 description: この記事では、Power BI サービスでページ分割されたレポートの埋め込みデータ ソースを作成および変更する方法について説明します。
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: f3e305f70bb21011bbb395d453721ef65011844c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 3c1340d9cae7e7002e8bbbdc3d6888e19b1ce7ff
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268315"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900200"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポート用の埋め込みデータ ソースを作成する
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI サービスでページ分割されたレポート用の埋め込みデータ ソースを作成する (プレビュー)
 この記事では、Power BI サービスでページ分割されたレポートの埋め込みデータ ソースを作成および変更する方法について説明します。 埋め込みデータ ソースは、1 つのレポートで定義し、そのレポート内のみで使用します。 現時点では、Power BI サービスに発行されるページ分割されたレポートには、埋め込みデータセットと埋め込みデータ ソースが必要であり、次のデータ ソースに接続できます。
 
 - Azure SQL Database と Data Warehouse

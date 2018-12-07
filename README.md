@@ -1,8 +1,13 @@
-# powerbi-content-pr
-You've found the GitHub repository for the technical documentation that is published to the Power BI Documentation Center at [http://powerbi.microsoft.com/documentation](http://powerbi.microsoft.com/documentation).
+# <a name="microsoft-power-bi-documentation"></a>Microsoft Power BI ドキュメント
 
-This repository also contains guidance to help you contribute to our technical documentation. For a list of the articles in the contributors' guide, see [the index](contributor-guide/contributor-guide-index.md).
+これは、**Power BI** の技術的な製品ドキュメント用の GitHub リポジトリです。 このドキュメントは [https://docs.microsoft.com/power-bi](https://docs.microsoft.com/power-bi) に公開されます。
 
-## Code of conduct
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## <a name="how-to-contribute"></a>投稿する方法
 
+Microsoft 製品やサービスに関するテクニカル コンテンツの拠点である、[Docs.microsoft.com](https://docs.microsoft.com/) への投稿に関心をお寄せいただき、ありがとうございます。
+
+このリポジトリのコンテンツに投稿する方法については、最初に[共同作成者ガイド](https://docs.microsoft.com/contribute)をご覧ください。 Microsoft の従業員である場合は、このガイドの[内部バージョン](https://aka.ms/docsguidescontribute)にアクセスしてください。
+
+## <a name="code-of-conduct"></a>倫理規定
+
+このプロジェクトでは、[Microsoft オープン ソース倫理規定](https://opensource.microsoft.com/codeofconduct/)が採用されています。 詳細については「[Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)」(倫理規定 FAQ) を参照し、さらに疑問や意見がある場合は [opencode@microsoft.com](mailto:opencode@microsoft.com) にご連絡ください。

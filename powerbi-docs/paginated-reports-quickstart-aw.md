@@ -1,5 +1,5 @@
 ---
-title: 'チュートリアル: ページ分割されたレポートを作成して Power BI サービスにアップロードする | Microsoft Docs'
+title: 'チュートリアル: ページ分割されたレポートを作成して Power BI サービスにアップロードする (プレビュー)'
 description: このチュートリアルでは、サンプルの Azure SQL データベースに接続します。 その後、レポート ビルダーのウィザードを使用してページ分割されたレポートを作成します。 次に、Power BI サービスで Premium 容量のワークスペースにページ分割されたレポートをアップロードします。
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452826"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900614"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>チュートリアル: ページ分割されたレポートを作成して Power BI サービスにアップロードする
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>チュートリアル: ページ分割されたレポートを作成して Power BI サービスにアップロードする (プレビュー)
 
 このチュートリアルでは、サンプルの Azure SQL データベースに接続します。 その後、レポート ビルダーのウィザードを使用して、複数のページにラップするテーブルを含むページ分割されたレポートを作成します。 次に、Power BI サービスで Premium 容量のワークスペースにページ分割されたレポートをアップロードします。 Power BI サービスでのページ分割されたレポートは、現在プレビュー段階です。
 
@@ -108,7 +108,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
     - 住所
     - Customer
-    - Product
+    - 製品
     - ProductCategory
     - SalesOrderDetail
     - SalesOrderHeader

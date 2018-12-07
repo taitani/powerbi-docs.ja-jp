@@ -1,5 +1,5 @@
 ---
-title: ページ分割されたレポートを Power BI サービスに発行する | Microsoft Docs
+title: ページ分割されたレポートを Power BI サービスに発行する (プレビュー)
 description: このチュートリアルでは、ページ分割されたレポートをローカル コンピューターからアップロードすることによって Power BI サービスに発行することを学びます。
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6f2d1a4e4de87ea6eb63826b59286a9abd54b94f
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 1114f1949c68e4bebf2d636906bf754e7de77273
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267973"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900269"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>ページ分割されたレポートを Power BI サービスに発行する
+# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>ページ分割されたレポートを Power BI サービスに発行する (プレビュー)
 
 この記事では、ページ分割されたレポートをローカル コンピューターからアップロードすることによって Power BI サービスに発行することについて学びます。 ワークスペースが Premium 容量である限り、ページ分割されたレポートをマイ ワークスペースまたは他のワークスペースにアップロードできます。 ワークスペース名の横にあるダイヤモンド形のアイコン ![Power BI Premium 容量のダイヤモンド形のアイコン](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) を探します。 
 

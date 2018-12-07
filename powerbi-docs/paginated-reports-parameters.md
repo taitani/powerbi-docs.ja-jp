@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスでページ分割されたレポートのパラメーターを作成する | Microsoft Docs
+title: Power BI サービスでページ分割されたレポートのパラメーターを作成する (プレビュー)
 description: この記事では、Power BI サービスでページ分割されたレポートのパラメーターを作成する方法について説明します。
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 3a1d497f112e84aeb958b86658ee3ffae3e87c6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d36f8e26282ae794976b0d679feb426ea04a981b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267932"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900292"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポートのパラメーターを作成する
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI サービスでページ分割されたレポートのパラメーターを作成する (プレビュー)
 
 この記事では、Power BI サービスでページ分割されたレポートのパラメーターを作成する方法について説明します。  レポート パラメーターは、レポート データを選択し、レポートの体裁を変更する方法を提供します。 ユーザーが既定値および使用可能な値の一覧を指定し、レポート閲覧者が選択内容を変更できます。  
 
