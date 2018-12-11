@@ -7,18 +7,18 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9c9a99e2bfe0ae90607da4f27d77cb0a2a78a7c8
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: cba5f971e81a425de661e03ac66c5c6d5fe82049
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507648"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979377"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
-Power BI では、*アプリ*が関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。 組織内のユーザーは主要なビジネス情報でアプリを作成し、配布できます。 既にご利用中かもしれませんが、Google アナリティクスや Microsoft Dynamics CRM など、[外部サービス](end-user-connect-to-services.md)も Power BI アプリを提供します。 
+Power BI では、*アプリ*が関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。 組織内のユーザーは主要なビジネス情報でアプリを作成し、配布できます。 既にご利用中かもしれませんが、Google アナリティクスや Microsoft Dynamics CRM など、[外部サービス](../service-connect-to-services.md)も Power BI アプリを提供します。 
 
 ![Power BI のアプリ](./media/end-user-apps/power-bi-apps-navbar.png)
 
@@ -47,7 +47,7 @@ Power BI では、*アプリ*が関連のあるダッシュボードやレポー
 ### <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource からアプリを取得する
 アクセス許可のあるアプリを、Microsoft AppSource から検索してインストールすることもできます。 
 
-1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png)、**[アプリの取得]** の順に選択します。 
+1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png) > **[アプリの取得]** の順に選択します。 
    
      ![[アプリの取得] アイコン](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
 2. [AppSource] の **[My organization]\(自分の組織\)** で、結果を絞り込むための検索を行って、探しているアプリを見つけます。
@@ -63,5 +63,5 @@ Power BI では、*アプリ*が関連のあるダッシュボードやレポー
 
 
 ## <a name="next-steps"></a>次の手順
-[外部サービス用の Power BI アプリ](end-user-connect-to-services.md)
+[外部サービス用の Power BI アプリ](../service-connect-to-services.md)
 
