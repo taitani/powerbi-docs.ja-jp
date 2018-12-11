@@ -4,18 +4,19 @@ description: Power BI Desktop で SAP HANA を使用する
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ba49fc09fb7b5a3885dbbcdf61086026e822ae03
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 7f4ff77522f083c103210dce4cdc3a7cd2325ec5
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669614"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025152"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop で SAP HANA を使用する
 Power BI Desktop を利用し、 **SAP HANA** データベースにアクセスできるようになりました。 **SAP HANA**を使用するには、Power BI Desktop **SAP HANA** データ接続が機能するように、SAP HANA ODBC ドライバーをローカルのクライアント コンピューターにインストールする必要があります。 SAP HANA ODBC ドライバーは、[SAP Software Download Center](https://support.sap.com/swdc) からダウンロードできます。 SAP Software Download Center で、Windows コンピューター用の SAP HANA CLIENT を検索します。 **SAP Software Download Center** は構成が頻繁に変更されるので、サイトのナビゲーションに関する具体的なガイダンスはありません。
@@ -30,7 +31,7 @@ SAP HANA データベースに接続するとき、*server:port* の形式でサ
 
 このリリースで、[DirectQuery](desktop-directquery-sap-hana.md) モードの **SAP HANA** が Power BI Desktop と Power BI サービスでサポートされるようになりました。DirectQuery モードの **SAP HANA** を使用するレポートを Power BI サービスに公開したり、アップロードしたりできます。 DirectQuery モードで **SAP HANA** を使用しないときも、Power BI サービスにレポートを公開したり、アップロードしたりできます。
 
-### <a name="supported-features-for-sap-hana"></a>SAP HANA でサポートされる機能
+## <a name="supported-features-for-sap-hana"></a>SAP HANA でサポートされる機能
 このリリースでは、次の一覧に示すように **SAP HANA**向けに多くの機能が用意されています。
 
 * **SAP HANA** 向け Power BI コネクタでは SAP ODBC ドライバーを使用し、最適なユーザー エクスペリエンスを提供
@@ -40,8 +41,7 @@ SAP HANA データベースに接続するとき、*server:port* の形式でサ
 * HANA モデル向けに最適化されたナビゲーションを採用
 * Power BI は、 **SAP HANA** の変数および入力パラメーターをサポート
 
-### <a name="installing-the-sap-hana-odbc-driver"></a>SAP HANA ODBC ドライバーのインストール
-### <a name="limitations-of-sap-hana"></a>SAP HANA の制限
+## <a name="limitations-of-sap-hana"></a>SAP HANA の制限
 **SAP HANA**を使用する場合、次に示すいくつかの制限があります。
 
 * NVARCHAR 文字列は最大 4,000 文字の Unicode 文字に切り捨てられる

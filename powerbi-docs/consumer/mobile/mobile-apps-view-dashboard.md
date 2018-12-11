@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 1b5f62e965a5a5df97a16c20f60043db534b8f77
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9738660ced6b8dbe32e7308b86f671f21c8c312c
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547593"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979492"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリにおけるダッシュボードとレポートの表示
 適用対象:
@@ -31,7 +31,7 @@ ms.locfileid: "46547593"
 モバイル デバイスでダッシュボードとレポートを表示するには、Web ブラウザーでこれらを作成するか、これらに接続する必要があります。 
 
 1. Power BI サービス ([https://www.powerbi.com](https://www.powerbi.com)) に移動し、[アカウントにサインアップします](../../service-self-service-signup-for-power-bi.md)。
-2. [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) や [Adobe Analytics](../../service-connect-to-adobe-analytics.md) など、さまざまなサービス向けの [独自の Power BI ダッシュボードやレポートを作成](../../service-get-started.md)するか、既存の [Power BI アプリ](../end-user-connect-to-services.md)に接続します。
+2. [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) や [Adobe Analytics](../../service-connect-to-adobe-analytics.md) など、さまざまなサービス向けの [独自の Power BI ダッシュボードやレポートを作成](../../service-get-started.md)するか、既存の [Power BI アプリ](../../service-connect-to-services.md)に接続します。
 
 ここで Power BI サービスでの Power BI ダッシュボードを示します。
 

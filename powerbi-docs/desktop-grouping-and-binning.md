@@ -4,25 +4,26 @@ description: Power BI Desktop で要素をグループ化およびビン分割�
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6363cbe3afdce351acc728fe29af8662702b8254
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 64ec167a295255a6813244ef6cb222b4eccb50f3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670695"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025244"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Power BI Desktop でグループ化とビン分割を使用する
 **Power BI Desktop** は、ビジュアルを作成するとき、基になっているデータで見つかった値に基づいて、データをチャンク (またはグループ) にまとめて集計します。 多くの場合は問題ありませんが、チャンクの表示方法の調整が必要になる場合もあります。 たとえば、3 つの製品カテゴリを 1 つの大きなカテゴリ (1 つの *グループ*) にしたい場合などです。 または、売上を均等に分割した 923,983 ドルではなく 1,000,000 ドルのビン サイズにしたいこともあります。
 
 Power BI Desktop では、データ ポイントを**グループ化**して、ビジュアルでのデータと傾向の表示、分析、調査をいっそう明確にすることができます。 また、**ビン サイズ** (*ビン分割*とも呼ばれます) を定義して、意味のある方法でデータを視覚化しやすくする等しいサイズのグループに値をまとめることもできます。
 
-### <a name="using-grouping"></a>グループ化の使用
+## <a name="using-grouping"></a>グループ化の使用
 グループ化を使用するには、Ctrl キーを押しながら複数の要素をクリックして選択します。 次に、複数選択した要素の 1 つを右クリックし、表示されるメニューで **[グループ]** を選択します。
 
 ![](media/desktop-grouping-and-binning/grouping-binning_1.png)
@@ -45,10 +46,8 @@ Power BI Desktop では、データ ポイントを**グループ化**して、�
 
 > [!NOTE]
 > 既存のビジュアルで複数選択することなく、**[フィールド]** で任意のフィールドのグループを作成することもできます。 フィールドを右クリックし、表示されるメニューの **[グループ]** を選択するだけです。
-> 
-> 
 
-### <a name="using-binning"></a>ビン分割の使用
+## <a name="using-binning"></a>ビン分割の使用
 **Power BI Desktop** の数値フィールドと時間フィールドに対してビンのサイズを設定できます。 ビン分割を使って、**Power BI Desktop** に表示されるデータを適切なサイズに設定できます。
 
 ビンのサイズを適用するには、**[フィールド]** を右クリックし、**[グループ]** を選択します。
