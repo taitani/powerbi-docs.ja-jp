@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 8689c9a2fded5e283740d82923d674b73434e6a1
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: aca89b1e45c2ce236a4b5a960436077e089a5b01
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850455"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900568"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
@@ -37,7 +37,7 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | ダッシュボード | いいえ | はい | [Power BI サービスのダッシュボード](../consumer/end-user-dashboards.md) 
 | アプリを使用した一群のレポートの配布 | いいえ | はい | [Power BI でダッシュボードとレポートを含むアプリを作成して発行する](../service-create-distribute-apps.md) 
 | コンテンツ パック | いいえ | はい | [組織のコンテンツ パック: 概要](../service-organizational-content-pack-introduction.md) 
-| Salesforce などのサービスへの接続 | はい | はい | Power BI サービスのコンテンツ パックで[使用するサービスに接続する](../consumer/end-user-connect-to-services.md)。 Power BI Report Server で、サービスに接続するには認定されたコネクタを使用する。 詳細については、「[Power BI Report Server での Power BI レポート データ ソース](data-sources.md)」を参照。
+| Salesforce などのサービスへの接続 | はい | はい | Power BI サービスのコンテンツ パックで[使用するサービスに接続する](../service-connect-to-services.md)。 Power BI Report Server で、サービスに接続するには認定されたコネクタを使用する。 詳細については、「[Power BI Report Server での Power BI レポート データ ソース](data-sources.md)」を参照。
 | Q&A | いいえ | はい | [Power BI サービスと Power BI Desktop の Q&A](../consumer/end-user-q-and-a.md) 
 | クイック分析情報 | いいえ | はい | [Power BI を使用してデータ インサイトを自動的に生成する](../consumer/end-user-insights.md) 
 | Excel で分析 | いいえ | はい | [Excel で分析](../service-analyze-in-excel.md) 

@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331990"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900476"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織での Power BI のライセンス
 
-Power BI サービスでは、次の 2 種類のライセンスにより、ユーザー機能が定義されます。
-
-* **ユーザーごと** - *Power BI Pro ライセンスおよび無料ライセンス*。 Power BI Pro ライセンスは、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可するライセンスであり、他の Pro ユーザーとコンテンツを共有して共同で作業するための機能が含まれています。 Pro ユーザーだけが、アプリ ワークスペースに対するコンテンツの発行と使用、ダッシュボードの共有、ダッシュボードとレポートのサブスクライブを行うことができます。 無料ライセンスでは、Power BI サービスの一部の機能にアクセスできます。 詳細については、「[Power BI service features by license type](service-features-license-type.md)」 (Power BI サービスのライセンスの種類別機能) を参照してください。
-
-* **容量ベース** - *Power BI Premium ライセンス*. Premium では、専用の容量を提供し、より一貫したパフォーマンスを実現して、Power BI での大規模なデータ ボリュームをサポートします。 Premium では、Pro ユーザーが、個々のユーザーにコンテンツを広範囲に配布できます。受信者は、Pro のライセンスがなくてもそのコンテンツを参照できます。 詳しくは、「[Power BI Premium - what is it?](service-premium.md)」 (Power BI Premium とは) を参照してください。
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 この記事では、管理者の観点からのユーザーごとのライセンスについて説明します。
 

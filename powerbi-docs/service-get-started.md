@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908747"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900553"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>チュートリアル: Power BI サービスの概要 (app.powerbi.com)
 このチュートリアルは、初めて ***Power BI サービス***を使うときに役立ちます。 Power BI サービスと他の Power BI 製品の関係を理解するため、最初に「[Power BI とは?](power-bi-overview.md)」を読むことを強くお勧めします。
@@ -158,5 +158,5 @@ CSV ファイルからデータを取得する例を次に示します。 この
 さらに試してみる準備ができましたか。  次の方法で Power BI を調べることができます。
 
 > [!div class="nextstepaction"]
-> [使用するオンライン サービスに接続する](consumer/end-user-connect-to-services.md)
+> [使用するオンライン サービスに接続する](service-connect-to-services.md)
 

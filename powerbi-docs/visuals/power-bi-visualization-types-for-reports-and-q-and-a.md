@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448939"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900536"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
@@ -129,7 +129,7 @@ ms.locfileid: "47448939"
 ### <a name="matrix"></a>マトリックス
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
-詳しくは、[Power BI のマトリックス マップ](desktop-shape-map.md)に関するページを参照してください。
+詳しくは、[Power BI のマトリックス マップ](desktop-matrix-visual.md)に関するページを参照してください。
 
 ### <a name="pie-charts"></a>円グラフ
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
