@@ -262,19 +262,19 @@ items:
         href: desktop-inline-hierarchy-labels.md
       - name: 数値範囲スライサーを使用
         href: desktop-slicer-numeric-range.md
-      - name: サイズを変更することが可能なレスポンシブ スライサーの作成
+      - name: サイズを変更できるスライサーを作成する
         href: power-bi-slicer-filter-responsive.md
-      - name: Cortana 用にカスタムの Power BI 回答カードを作成する
+      - name: Cortana 用のカスタム回答カードを作成する
         href: service-cortana-answer-cards.md
       - name: 行レベルのセキュリティ
         href: desktop-rls.md
-      - name: Power BI Desktop でのヒントのカスタマイズ
+      - name: カスタマイズのヒント
         href: desktop-custom-tooltips.md
-      - name: Power BI Desktop での条件付きテーブルの書式設定
+      - name: テーブルの条件付き書式設定
         href: desktop-conditional-table-formatting.md
       - name: Power BI Desktop での列による並べ替え
         href: desktop-sort-by-column.md
-      - name: Power BI 電話アプリ用に最適化したレポートを作成する
+      - name: モバイル アプリ向けに最適化されたレポートを作成する
         href: desktop-create-phone-report.md
       - name: '[データを表示] と [レコードを表示] を使用'
         href: desktop-see-data-see-records.md
@@ -284,23 +284,23 @@ items:
       items:
       - name: 視覚化のベスト プラクティス
         href: visuals/power-bi-visualization-best-practices.md
-      - name: Power BI レポートでの視覚化の種類の変更
+      - name: レポートの視覚化の種類を変更する
         href: visuals/power-bi-report-change-visualization-type.md
       - name: ビジュアルの種類別のデータ ポイントの制限
         href: visuals/power-bi-data-points.md
       - name: 色の書式設定と軸のプロパティの概要
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-      - name: Power BI における色の書式設定に関するヒントとコツ
+      - name: 色の書式設定に関するヒントとテクニック
         href: visuals/service-tips-and-tricks-for-color-formatting.md
-      - name: Power BI での視覚化のコピーと貼り付け
+      - name: 視覚化のコピーと貼り付け
         href: visuals/power-bi-visualization-copy-paste.md
       - name: 視覚エフェクトの作成に使用されたデータをエクスポートする
         href: visuals/power-bi-visualization-export-data.md
-      - name: Power BI レポートでの視覚化の移動、サイズ変更、ポップアウト
+      - name: レポート内で視覚化を移動、サイズ変更、ポップアウトさせる
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: テーブル内のハイパーリンク
         href: power-bi-hyperlinks-in-tables.md
-      - name: Power BI レポートのテキスト ボックスへのハイパーリンクの追加
+      - name: レポートのテキスト ボックスへのハイパーリンクの追加
         href: service-add-hyperlink-to-text-box.md
       - name: レポート内のビジュアルの相互作用を変更します。
         href: service-reports-visual-interactions.md
@@ -598,7 +598,7 @@ items:
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: ダッシュボード
       items:
-      - name: Power BI ダッシュボード
+      - name: ダッシュボードの概要
         href: service-dashboards.md
       - name: データのプッシュ時の
         href: service-dashboard-tiles.md
@@ -692,6 +692,8 @@ items:
         href: service-create-workspaces.md
       - name: 新しいワークスペース (プレビュー) を作成する
         href: service-create-the-new-workspaces.md
+      - name: ワークスペースでデータ ストレージを管理する
+        href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: フィルター処理されたレポートを共有する
         href: service-share-reports.md
       - name: Power BI から Web への公開
@@ -1261,9 +1263,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 0189fe52981e1bc926ae8a836791e7111e4b530e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181015"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280968"
