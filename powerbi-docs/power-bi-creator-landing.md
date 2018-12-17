@@ -8,14 +8,14 @@ ms.component: powerbi-service
 ms.topic: landing-page
 ms.date: 11/19/2018
 ms.author: maggies
-layout: landingpage
+layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 70ea5374c3249e0abe38aeaaf8bb6253e50d8a08
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 4e585c573e9df1e0189eebb67914b2fa168b9b45
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157335"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111512"
 ---
 # <a name="power-bi-for-report-designers"></a>レポート デザイナー向け Power BI
 
@@ -47,7 +47,7 @@ Power BI では、データ接続、クエリ設計、レポート作成およ�
                                                                                       <h3>Power BI のライセンス</h3> 
                                                                                       <p></p>
                                                                                             <a href="service-admin-licensing-organization.md">組織での Power BI のライセンス</a><br/> 
-                                                                                            <a href="service-premium.md">Power BI Premium とは</a> 
+                                                                                            <a href="service-premium.md">Power BI Premium:説明</a> 
                                                                         </div> 
                                                           </div> 
                                            </div> 
@@ -61,7 +61,7 @@ Power BI では、データ接続、クエリ設計、レポート作成およ�
                                                                                       <h3>データへの接続</h3> 
                                                                                       <p></p>
                                                                                             <a href="desktop-quickstart-connect-to-data.md">Power BI Desktop におけるデータへの接続</a><br/> 
-                                                                                            <a href="service-dataflows-overview.md">データフロー: セルフサービスのデータ作成</a><br/> 
+                                                                                            <a href="service-dataflows-overview.md">データフロー:セルフサービスのデータ作成</a><br/> 
                                                                                             <a href="service-gateway-install.md">オンプレミス データのゲートウェイ</a>
                                                                         </div> 
                                                           </div> 
