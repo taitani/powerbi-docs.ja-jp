@@ -1,20 +1,21 @@
 ---
-title: コンシューマー向け Power BI サービスでレポートを表示します。
+title: レポートの表示
 description: このトピックによれば、Power BI コンシューマーとエンドユーザーは Power BI レポートを開いて確認する必要がありました。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: df28cd585998b8877a788e709eaf6b22474e6122
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396936"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281055"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>"*コンシューマー*" 向け Power BI サービスでレポートを表示する
 レポートは、ビジュアルで構成される 1 つまたは複数のページです。 レポートは Power BI "*レポート デザイナー*" によって作成され、["*コンシューマー*" と直接共有](end-user-shared-with-me.md)されます。あるいは[アプリ](end-user-apps.md)の一部として共有されます。 
@@ -38,7 +39,7 @@ Power BI *デザイナー*では、上部メニュー バーの **[共有]** ボ
 
    ![ホーム ページ](./media/end-user-report-open/power-bi-select-home.png)
    
-3. **[共有アイテム]** が表示されるまで下方向にスクロールします。 レポート アイコン ![レポート アイコン](./media/end-user-report-open/power-bi-report-icon.png) を見つけます。 このスクリーンショットには、*Financial* と *Northwind* という 2 つのレポートがあります。 
+3. **[共有アイテム]** が表示されるまで下方向にスクロールします。 レポート アイコン ![レポート アイコン](./media/end-user-report-open/power-bi-report-icon.png) を見つけます。 このスクリーンショットには 2 つのレポートがあります:*Financial* と *Northwind* です。 
    
    ![ホーム ページの [共有アイテム] セクション](./media/end-user-report-open/power-bi-shared.png)
 

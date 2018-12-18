@@ -6,19 +6,20 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 50858dcab91980e85e71fd82dec4189139eea2b4
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641751"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280537"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI - Power BI サービスの***コンシューマー***の基本的な概念
+# <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI サービス ***コンシューマー***の基本的な概念
 
 ## <a name="power-bi-consumers-and-designers"></a>Power BI の*コンシューマー*と*デザイナー*
 この記事は、[Power BI の概要](../power-bi-overview.md)に関するページを既に読んでいて、ご自分を Power BI ***コンシューマー***と認識していることを前提としています。 コンシューマーは、仕事仲間からダッシュボードやレポートなどの Power BI のコンテンツを受け取ります。 コンシューマーは、Power BI の Web サイト ベースのバージョンである Power BI サービスを使用します。 
@@ -33,21 +34,21 @@ Power BI コンシューマーのほとんどは Power BI サービスを入手�
 
 開始するには、単純にブラウザーを開いて、「**app.powerbi.com**」と入力します。 まったく初めて Power BI サービスを開くと、このようなものが表示されます。
 
-![](media/end-user-basic-concepts/power-bi-open.png)
+![Power BI サービスのようこそ画面](media/end-user-basic-concepts/power-bi-open.png)
 
 Power BI を使用するときに、Web サイトを開くたびに表示する内容をカスタマイズします。  たとえば、一部の人は [ホーム] ページを Power BI で開くことを好み、一方、最初に表示したいお気に入りのダッシュボードがある人もいます。 ご安心ください。この操作を行う方法について説明します。 
 - [ホームのプレビュー](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
 - [コンテンツを**おすすめ**に設定](end-user-featured.md) 
 
-![](media/end-user-basic-concepts/power-bi-first.png)
+![ホーム ページ ビューとダッシュボード ビューの表示](media/end-user-basic-concepts/power-bi-first.png)
 
 しかし、さらに進める前に、話を戻して Power BI サービスを構成する文書パーツについて説明しましょう。
 
 ## <a name="power-bi-content"></a>Power BI の***コンテンツ***
 ### <a name="introduction-to-building-blocks"></a>文書パーツの概要
-Power BI コンシューマーの場合、文書パーツは 5 つあります。***視覚エフェクト***、***ダッシュボード***、***レポート***、***アプリ***、および***データセット***です。 これらは *Power BI* の***コンテンツ***と呼ばれる場合があります。 *コンテンツ*は***ワークスペース***内に存在します。 一般的なワークフローには、これらすべての文書パーツが関係します。Power BI *デザイナー* (以下の図の黄色) は、*データセット*からデータを収集し、分析のために Power BI に移動し、関心のある事実や分析情報を強調表示する完全な*視覚エフェクト*の*レポート*を作成し、レポートからダッシュボードに視覚エフェクトをピン留めし、*アプリ*の形式またはその他の種類の共有コンテンツで、お客様のような*コンシューマー* (以下の図の黒色) とレポートやダッシュボードを共有します。 
+Power BI コンシューマーの場合、文書パーツは 5 つあります。***視覚エフェクト***、***ダッシュボード***、***レポート***、***アプリ***、および***データセット***です。 これらは *Power BI* の***コンテンツ***と呼ばれる場合があります。 *コンテンツ*は***ワークスペース***内に存在します。 一般的なワークフローには、これらすべての文書パーツが関係します。Power BI "*デザイナー*" (以下の図の黄色) は、"*データセット*" からデータを収集し、分析のために Power BI に移動し、関心のある事実や分析情報を強調表示する完全な "*視覚化*" の "*レポート*" を作成し、レポートからダッシュボードに視覚エフェクトをピン留めし、"*アプリ*" の形式またはその他の種類の共有コンテンツで、ご自身のような "*コンシューマー*" (以下の図の黒色) とレポートやダッシュボードを共有します。 
 
-![](media/end-user-basic-concepts/power-bi-workflow.png)
+![フロー チャート、基本](media/end-user-basic-concepts/power-bi-workflow.png)
 
 突き詰めれば、次のとおりです。 
 * ![視覚エフェクト アイコン](media/end-user-basic-concepts/visual.png) ***視覚エフェクト*** (*ビジュアル*) は、*レポート*と*データセット*のデータを使用して、Power BI *デザイナー*によってビルドされたグラフの種類です。 通常、*デザイナー*は Power BI Desktop でビジュアルをビルドします。 
@@ -58,11 +59,11 @@ Power BI コンシューマーの場合、文書パーツは 5 つあります�
 
 * ![ダッシュボード アイコン](media/end-user-basic-concepts/dashboard.png) *ダッシュボード*は対話型のビジュアル、テキスト、グラフィックを含む単一の画面です。 ダッシュボードでは、ストーリーを伝えたり、質問に回答したりするために、ご自分の最も重要なメトリックを収集します (1 つの画面上)。 ダッシュボードのコンテンツは、1 つ以上のレポートおよび 1 つ以上のデータセットからのものです。
 
-    詳細については、「[Power BI サービスのダッシュボード**](end-user-dashboards.md)」を参照してください
+    詳細については、「[Power BI サービスのダッシュボード*consumers*](end-user-dashboards.md)」を参照してください
 
 * ![レポート アイコン](media/end-user-basic-concepts/report.png) *レポート*は、単一のレポートをまとめて構成する対話型のビジュアル、テキスト、グラフィックの 1 ページまたは複数のページです。 レポートは、単一のデータセットに基づいています。 レポート ページは、アドレスごとに関心の中心部を表し、単一の質問に回答するように整理されることが多いです。
 
-    詳細については、「[Power BI のレポート**](end-user-reports.md)」のコンシューマーに関するセクションを参照してください
+    詳細については、「[Power BI のレポート*consumers*](end-user-reports.md)」のコンシューマーに関するセクションを参照してください
 
 * ![アプリ アイコン](media/end-user-basic-concepts/app.png) *アプリ*は、*デザイナー*が管理するダッシュボードとレポートをまとめてバンドルおよび共有する方法です。 *コンシューマー*は一部のアプリを自動的に受け取りますが、仕事仲間やコミュニティによって作成されたその他のアプリを検索することができます。 たとえば、既にご利用中かもしれませんが、Google アナリティクスや Microsoft Dynamics CRM などの外部サービスでは、Power BI アプリを提供します。
 
@@ -78,7 +79,7 @@ _______________________________________________________
 
 デザイナーがアプリをお客様と共有する場合、アプリに含まれるデータセットを確認できます。 
 
-![](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![選択されたアプリと、キャンバスの [データセット] セクションを指している矢印](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **1 つの** データセットを...
 
@@ -117,14 +118,14 @@ Power BI レポートは、視覚エフェクト、グラフィック、テキ�
 * 1 つのデータセットのみからデータを使用して作成されます。  
 * 複数のアプリの一部である可能性があります
   
-  ![](media/end-user-basic-concepts/drawing5.png)
+  ![レポートのリレーションシップの図](media/end-user-basic-concepts/drawing5.png)
 
 ________________________________________________
 
 ## <a name="dashboards"></a>ダッシュボード
 ダッシュボードは、基になるデータセットの一部のサブセットのカスタマイズしたビューを表します。 *デザイナー*はダッシュボードをビルドし、個別またはアプリの一部として*コンシューマー*と共有します。 ダッシュボードは*タイル*、グラフィック、テキストを含む、1 つのキャンバスです。 
 
-  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+  ![サンプル ダッシュボード](media/end-user-basic-concepts/power-bi-dashboard.png)
 
 タイルは、*デザイナー*が、(たとえば、レポートからダッシュボードに) *ピン留めする*ビジュアルのレンダリングです。  ピン留めされたタイルはそれぞれ、データセットから作成され、ダッシュボードにピン留めされた[視覚エフェクト](end-user-visualizations.md)が表示されます。 また、タイルにはレポート ページ全体を含めることもでき、ライブ ストリーミング データまたはビデオを含めることができます。 *デザイナー*でダッシュボードにタイルを追加する方法は多数ありますが、多すぎるためこの概要トピックでは紹介できません。 詳しくは、「[Power BI のダッシュボードのタイル](end-user-tiles.md)」をご覧ください。 
 
@@ -144,20 +145,20 @@ ________________________________________________
 * 多くの異なるレポートの視覚エフェクトを表示できます。
 * 他のツール (Excel など) からピン留めされた視覚エフェクトを表示できます。
   
-  ![](media/end-user-basic-concepts/drawing1.png)
+  ![ダッシュボードのリレーションシップの図](media/end-user-basic-concepts/drawing1.png)
 
 ________________________________________________
 
 ## <a name="apps"></a>アプリ
 これらのダッシュボードとレポートのコレクションは、関連するコンテンツが 1 つのパッケージにまとめて整理されます。 Power BI *Designers* は、これらをビルドし、個人、グループ、組織全体、またはパブリックと共有します。 コンシューマーとして、お客様と仕事仲間が同じデータ (単一の真実の信頼されたバージョン) を操作することに自信を持つことができます。 
 
-![](media/end-user-basic-concepts/power-bi-app.png)
+![左のナビゲーションで選択されているアプリ](media/end-user-basic-concepts/power-bi-app.png)
 
 アプリは Power BI サービス (https://powerbi.com)) とご利用のモバイル デバイスで簡単に検索してインストールすることができます。 アプリのインストール後は、さまざまなダッシュボードの名前を覚えておく必要がありません。ブラウザー内やモバイル デバイス上では 1 つのアプリにまとめて表示されるためです。 
 
 このアプリには、単一のアプリを構成する 3 つの関連するダッシュボードと 3 つの関連するレポートがあります。
 
-![](media/end-user-basic-concepts/power-bi-app-list.png)
+![選択したアプリの関連コンテンツ](media/end-user-basic-concepts/power-bi-app-list.png)
 
 アプリの作者が更新プログラムを公開するたびに、自動的に変更が反映されます。 作成者はデータの更新頻度も制御するため、最新の状態が維持されているかを気にする必要はありません。
 
