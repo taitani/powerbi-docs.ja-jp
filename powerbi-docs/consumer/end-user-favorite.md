@@ -3,20 +3,21 @@ title: Power BI サービスのお気に入り (ダッシュボード、レポ�
 description: Power BI サービスでダッシュボード、レポート、アプリをお気に入りとして設定する方法についてのドキュメント
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: cc94f352c550d7fba96f71f894e8d81ba5bc487a
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452501"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280190"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Power BI サービスのお気に入りのダッシュボード、レポート、アプリ
 コンテンツを "*お気に入り*" に登録すると、すべてのワークスペースからアクセスすることができます。  お気に入りは、通常、最も頻繁に利用するコンテンツです。
@@ -71,7 +72,7 @@ Amanda がワークスペースにお気に入りを追加する様子を見て�
    ![[お気に入り] 画面](./media/end-user-favorite/power-bi-unfavorites-screen.png)
 2. お気に入りから外すコンテンツの横にある黄色の星を選びます。
 
-> **注**: ダッシュボード、レポート、アプリ自体をお気に入りから外すこともできます。 コンテンツを開き、黄色のアイコンの選択を解除します。   
+> **注**:ダッシュボード、レポート、アプリ自体をお気に入りから外すこともできます。 コンテンツを開き、黄色のアイコンの選択を解除します。   
 > 
 > 
 

@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abddbf3e4ae0b51dbb46f949e6d4f287d084f873
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271765"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281033"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>同僚や他のユーザーと自分の Power BI ダッシュボードやレポートを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の異なる方法でダッシュボードでの共同作業を行ったり、ダッシュボードやレポートを配布](service-how-to-collaborate-distribute-dashboards-reports.md)したりできます。
@@ -29,7 +29,7 @@ Power BI サービスでは、ほとんどの場所からダッシュボード�
 
 [任意の Power BI モバイル アプリからダッシュボードを共有する](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)こともできます。 ダッシュボードの共有は、Power BI Desktop からではなく、Power BI サービスおよび Power BI モバイル アプリから行うことができます。
 
-## <a name="video-share-a-dashboard"></a>ビデオ: ダッシュボードの共有
+## <a name="video-share-a-dashboard"></a>ビデオ:ダッシュボードの共有
 Amanda が社内および社外の同僚とダッシュボードを共有するところをご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0tUwn8DHo3s?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -96,7 +96,7 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>組織外のユーザーとダッシュボードまたはレポートを共有する
 組織外のユーザーと共有すると、共有相手は共有されたダッシュボードまたはレポートへのリンクを含むメールを受け取ります。ユーザーがそれを表示するには、Power BI にサインインする必要があります。 Power BI Pro ライセンスがない共有相手は、リンクをクリックした後でライセンスにサインアップできます。
 
-サインインした後は、通常の Power BI ポータルではなく、左側にナビゲーション ウィンドウのない専用のブラウザー ウィンドウに、共有されたダッシュボードまたはレポートが表示されます。 共有相手がこのダッシュボードまたはレポートを後でアクセスできるようにするには、このリンクをブックマークする必要があります。
+サインインした後は、通常の Power BI ポータルではなく、左側にナビゲーション ウィンドウのない専用のブラウザー ウィンドウに、共有されたダッシュボードまたはレポートが表示されます。 後でこのダッシュボードまたはレポートにアクセスできるようにするには、このリンクをブックマークする必要があります。
 
 共有相手は、このダッシュボードまたはレポートのコンテンツを編集できません。 共有相手はグラフを操作して、レポートのフィルターやスライサーを変更できますが、その変更を保存することはできません。
 
@@ -111,7 +111,7 @@ Power BI モバイル アプリから組織外のユーザーにリンクを送�
 
 * 一般に、自分と同僚はダッシュボードまたはレポート内の同じデータを表示することになります。 そのため、自分の方がより多くのデータを表示できるアクセス許可を持っている場合、相手はこちらのダッシュボードまたはレポートのすべてのデータを表示できることになります。 ただし、ダッシュボードまたはレポートの基になるデータセットに[行レベル セキュリティ (RLS)](service-admin-rls.md) が適用されている場合は、各ユーザーの資格情報を使用して各々がアクセスできるデータが決定されます。
 * ダッシュボードのすべての共有相手は、[読み取りビュー](consumer/end-user-reading-view.md)でダッシュボードを表示し、関連するレポートを操作できます。 同僚はレポートを作成したり、既存のレポートへの変更を保存したりすることはできません。
-* どの共有相手も、データセットの表示やダウンロードは行えません。
+* データセットを表示またはダウンロードすることはできませんが、Excel の分析機能を使ってデータセットに直接アクセスすることができます。 管理者は、グループ内の全員に対して機能を制限することで、Excel の分析機能を使うユーザーの機能を制限できます。 ただし、これはそのグループ内の全員に対して、そのグループが属しているすべてのワークスペースに対して制限されます。
 * [データの更新](refresh-data.md)はだれでも手動で行えます。
 * 電子メールに Office 365 を使用している場合は、配布グループに関連付けられた電子メール アドレスを入力することにより、配布グループのメンバーと共有できます。
 * 自分と同じ電子メール ドメインに属している同僚と、ドメインが異なっていても同じテナントに登録されている同僚は、ダッシュボードを他のユーザーと共有できます。 たとえば、ドメイン contoso.com と contoso2.com が同じテナント内に登録されているとします。 自分の電子メール アドレスが konrads@contoso.com の場合、ravali@contoso.com と gustav@contoso2.com は、共有のアクセス許可が付与されていれば、共有が可能です。

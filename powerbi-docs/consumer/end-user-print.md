@@ -1,22 +1,23 @@
 ---
-title: Power BI サービスからの印刷
+title: Power BI サービスから印刷する
 description: Power BI からダッシュボード、タイル、またはレポート ページを印刷します。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: bb3ecb8a343d2ed3f3693dd136b11b7543cabc70
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507671"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280744"
 ---
 # <a name="printing-from-power-bi-service"></a>Power BI サービスからの印刷
 Power BI サービスから、ダッシュボード全体、ダッシュボード タイル、レポート ページ、またはレポートのビジュアルを印刷します。 レポートは、一度に 1 ページのみを印刷できます。レポート全体を一度に印刷することはできません。
@@ -77,16 +78,16 @@ Power BI サービスから、ダッシュボード全体、ダッシュボー�
 2. 上記の「*レポート ページの印刷*」にある手順 2 ～ 3 に従って操作します。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-* Q: **[印刷]** ボタンが見つかりません。    
-* A: Power BI Desktop を使用している場合、印刷はサポートされていません。  印刷は、Power BI サービスでのみ機能します。
-* Q: すべてのレポート ページを一度に印刷できません。    
-* A: これは正しい動作です。 レポートは、一度に 1 ページのみ印刷できます。
-* Q: PDF に出力できません。    
-* A: このオプションは、ブラウザーに PDF ドライバーを構成している場合のみ表示されます。    
-* Q: **[印刷]** を選択したときに表示される画面が、ここに示されている図と一致しません。    
-* A: 印刷画面は、ブラウザーとソフトウェアのバージョンによって異なります。
-* Q: 印刷の拡大/縮小が正しく行われません。  ダッシュボードがページに収まりません。 印刷の向きなどに問題があります。    
-* A: 印刷結果が Power BI サービスでの表示と必ず同じになることは保証できません。 拡大/縮小、余白、ビジュアルの詳細、向き、サイズなどは、Power BI によって制御されません。 このような問題については、お使いのブラウザーのマニュアルを参照してください。      
+* Q:**[印刷]** ボタンが見つかりません。    
+* A:Power BI Desktop を使用している場合、印刷はサポートされていません。  印刷は、Power BI サービスでのみ機能します。
+* Q:すべてのレポート ページを一度に印刷できません。    
+* A:これは正しい動作です。 レポートは、一度に 1 ページのみ印刷できます。
+* Q:PDF に出力できません。    
+* A:このオプションは、ブラウザーに PDF ドライバーを構成している場合のみ表示されます。    
+* Q:**[印刷]** を選択したときに表示される画面が、ここに示されている図と一致しません。    
+* A:印刷画面は、ブラウザーとソフトウェアのバージョンによって異なります。
+* Q:印刷の拡大縮小が正しく行われません。  ダッシュボードがページに収まりません。 印刷の向きなどに問題があります。    
+* A:印刷結果が Power BI サービスでの表示と必ず同じになることは保証できません。 拡大/縮小、余白、ビジュアルの詳細、向き、サイズなどは、Power BI によって制御されません。 このような問題については、お使いのブラウザーのマニュアルを参照してください。      
 
 ## <a name="next-steps"></a>次の手順
 [同僚や他のユーザーとダッシュボードやレポートを共有する](../service-share-dashboards.md)

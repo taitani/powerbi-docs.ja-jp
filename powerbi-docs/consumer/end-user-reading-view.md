@@ -5,21 +5,21 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kvivek
-backup: ''
+ms.custom: seodec18
 editor: ''
 tags: ''
 ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396522"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280123"
 ---
 <!-- once the sample aps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>クイック スタート: ***コンシューマー***向けの Power BI の機能について学習する
@@ -43,7 +43,7 @@ Power BI サービスのその他のレポート モードは[編集ビュー](.
 ### <a name="view-an-app"></a>アプリを表示する
 Power BI では、"*アプリ*" によって関連するダッシュボードやレポートが 1 つの場所にまとめられます。
 
-1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png)、**[アプリの取得]** の順に選択します。 
+1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png) > **[アプリの取得]** の順に選択します。 
    
      ![[アプリの取得] アイコン](./media/end-user-reading-view/power-bi-get-app.png)
 2. [AppSource] の **[My organization]\(自分の組織\)** で、結果を絞り込むための検索を行って、探しているアプリを見つけます。
@@ -175,7 +175,7 @@ Power BI では、"*アプリ*" によって関連するダッシュボードや
 
 ![フォーカス モード](media/end-user-reading-view/powerbi-focus-mode.png)
 
-その同じ視覚エフェクトを、メニュー バー、フィルター ウィンドウ、他の Chrome に影響を与えずに表示するには、上部メニュー バー ![](media/end-user-reading-view/power-bi-focus-icon.png) の **[全画面表示]** アイコンを選択します。
+その同じ視覚化を、メニュー バー、フィルター ウィンドウ、他の Chrome に影響を与えずに表示するには、上部メニュー バーの **[全画面表示]** アイコンを選択します ![[全画面表示アイコン]](media/end-user-reading-view/power-bi-focus-icon.png)。
 
 ![全画面表示モード](media/end-user-reading-view/power-bi-full-screen.png)
 

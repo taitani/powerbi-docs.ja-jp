@@ -1,23 +1,24 @@
 ---
-title: Power BI コンシューマーとは
+title: Power BI "コンシューマー" とは
 description: Power BI の概要と、さまざまなパーツ (Power BI Desktop、Power BI サービス、Power BI モバイル、Report Server、Power BI Embedded) がどのように組み合わさっているか。
 author: mihart
 manager: kvivek
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 10/13/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 15cdd66e6062c4199b2f736208192c452bcbd0af
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 392593c6bceed7555a82916b2a992200438dffab
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396588"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280176"
 ---
 # <a name="power-bi-for-consumers"></a>利用者向けの Power BI
-Power BI をどのように操作するかは、ご自分の仕事上の役割により異なります。 *エンドユーザー*または*コンシューマー*であるあなたは、同僚からダッシュボード、レポート、アプリを受け取ります。 あなたは、***Power BI サービス***を使用して、このコンテンツを確認したり操作したりして、ビジネス上の意思決定をします。
+Power BI をどのように操作するかは、ご自分の仕事上の役割により異なります。 *エンドユーザー*または*コンシューマー*であるあなたは、同僚からダッシュボード、レポート、アプリを受け取ります。 ***Power BI サービス***を使用して、このコンテンツの確認や操作を行い、ビジネス上の意思決定をします。
 
 ![Power BI ダッシュボード](media/end-user-consumer/power-bi-service.png)
 

@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473867"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280813"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>クイック スタート - Power BI サービス内の移動
 
@@ -40,7 +41,7 @@ Power BI の基本を理解したので、**Power BI サービス**の操作に�
 
     Power BI サービスがサンプルをインポートしてダッシュボードを表示します。 ダッシュボードは、Power BI サービスが Power BI Desktop と異なる点です。 サンプルにはレポートとデータセットも含まれます。これには後でアクセスします。
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![ダッシュボードの表示](media/end-user-experience/power-bi-dashboard.png)
 
 Amanda が Power BI サービスのナビゲーション操作を説明するツアーのビデオをご覧ください。  その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
 
@@ -50,7 +51,7 @@ Amanda が Power BI サービスのナビゲーション操作を説明するツ
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>コンテンツの表示 (ダッシュボード、レポート、ワークスペース、データセット、ワークスペース、アプリ)
 最初に、基本コンテンツ (ダッシュボード、レポート、データセット、ブック) がどのようにまとめられるか確認してみましょう。 コンテンツはワークスペースのコンテキスト内で表示されます。 この時点では、**[マイ ワークスペース]** という名前のワークスペースが 1 つだけあります。 通常、コンシューマーは他のワークスペースを必要とせず、使用しません。 [マイ ワークスペース] には、ユーザーが所有しているすべてのコンテンツが格納されます。 これは、個人用サンドボックスまたはユーザーのコンテンツの作業領域と考えることができます。 マイ ワークスペースは、ダウンロードした小売りの分析のサンプルが保存されている場所です。 
 
-[マイ ワークスペース] でコンテンツは、ダッシュボード、レポート、ブックおよびデータセットの 4 つのタブにまとめられます。
+[マイ ワークスペース] 内では、コンテンツは次の 4 つのタブにまとめられます:ダッシュボード、レポート、ブック、データセット。
 
 ![[マイ ワークスペース] 画面](./media/end-user-experience/power-bi-my-workspace.png)
 

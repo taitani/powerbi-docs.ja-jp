@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331944"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280583"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードの概要
 
@@ -48,15 +48,15 @@ Power BI の***ダッシュボード***は、ストーリーをしばしばキ�
 | --- | --- | --- |
 | ページ |1 ページ |1 ページ以上 |
 | データ ソース |ダッシュボードごとに、1 つ以上のレポートおよび 1 つ以上のデータセット |レポートごとに 1 つのデータセット |
-| Power BI Desktop での使用可能性 |いいえ |はい。***作成者***は Desktop でレポートを作成および表示することができます |
+| Power BI Desktop での使用可能性 |いいえ | Power BI Desktop でレポートを作成および表示することができます |
 | 受信登録する |ダッシュボードをサブスクライブできます |レポート ページはサブスクライブできます。 |
 | フィルター処理 |フィルター処理またはスライスはできません |さまざまな方法でフィルター処理、強調表示、スライスできます |
 | おすすめ |1 つのダッシュボードを "おすすめの" ダッシュボードとして設定できます |おすすめのレポートを作成することはできません |
 | お気に入り | ダッシュボードを*お気に入り*として設定できます | レポートを*お気に入り*として設定できます
 | 通知の設定 |特定の状況でダッシュボードのタイルを使用できます |レポートからは利用できません |
-| 自然言語クエリ |ダッシュボードから利用できます |レポートからは利用できません |
+| 自然言語クエリ (Q&A) |ダッシュボードで使用可能 | レポートで使用可能 |
 | 基になっているデータセットのテーブルとフィールドの表示 |いいえ。 データをエクスポートすることはできますが、ダッシュボード自体でテーブルとフィールドを表示することはできません。 |はい。 データセットのテーブル、フィールド、値を表示することができます。 |
-| カスタマイズ |いいえ |読み取りビューでは、発行、埋め込み、フィルター、エクスポート、.pbix としてのダウンロード、関連コンテンツの表示、QR コードの生成、Excel での分析、その他を行うことができます。  |
+
 
 ## <a name="next-steps"></a>次の手順
 * [サンプル ダッシュボード](sample-tutorial-connect-to-the-samples.md)のツアーを利用してダッシュボードに慣れます。

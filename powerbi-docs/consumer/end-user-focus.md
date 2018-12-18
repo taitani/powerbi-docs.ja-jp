@@ -4,19 +4,20 @@ description: フォーカス モードまたは全画面表示モードでの Po
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 70e7fcb9f38c6dbf52adf58f8477f671156c9da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 13032e011446fad765961dacdb83fbb8bd5a2f6e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507963"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279962"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>コンテンツを詳細に表示する: フォーカス モードと全画面表示モード
 
@@ -83,7 +84,7 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
     全画面表示レポートでは、矢印を利用してレポートのページ間を移動します。    
   * 全画面表示モードを終了するには、**[全画面表示を閉じる]** アイコンを選択します。
 
-      ![](media/end-user-focus/exit-fullscreen-new.png)
+      ![[全画面表示を閉じる] アイコン](media/end-user-focus/exit-fullscreen-new.png)
 
 ## <a name="working-in-focus-mode"></a>フォーカス モードでの操作
 フォーカス モードを開には、ダッシュボードのタイルでの方法と、レポートの視覚エフェクトでの方法の 2 種類があります。
@@ -130,7 +131,7 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
     ![フォーカス モードの終了](media/end-user-focus/power-bi-exit-focus-report.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-* レポートのビジュアルでフォーカス モードを使用する場合は、すべてのフィルター (ビジュアル レベル、ページ レベル、ドリルスルー、レポート レベル) を表示して操作できます。    
+* レポート内のビジュアルと共にフォーカス モードを使用する場合は、すべてのフィルターを表示して操作できます:ビジュアル レベル、ページ レベル、ドリルスルー、レポート レベル。    
 * ダッシュボードの視覚化でフォーカス モードを使用する場合は、ビジュアル レベルのフィルターのみを表示して、操作することができます。
 
 ## <a name="next-steps"></a>次の手順

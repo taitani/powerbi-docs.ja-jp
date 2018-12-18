@@ -4,25 +4,26 @@ description: Power BI ワークスペースでコンテンツを検索し、並�
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 3c66a428fabadaf53e2b1f7745b6de9668a9e532
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 7f56cb4ec9859750c218975d25f3b8e2dd8a0469
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49113023"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280468"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>ナビゲーション: Power BI サービスでコンテンツの検索、探索、並べ替えを行う
 Power BI サービスでコンテンツ間を移動する方法はたくさんあります。 ワークスペース内のコンテンツは、種類 (ダッシュボード、レポート、ブック、データセット) ごとにまとめられています。  また、コンテンツは使用方法 (お気に入り、最近、アプリ、自分と共有、おすすめ) によっても整理されています。 ワン ストップ ナビゲーションの場合、ホーム ページにはすべてのコンテンツを 1 ページにまとめます。 コンテンツへのこれらの異なる経路により、Power BI サービス内で必要な情報をすばやく見つけることができます。  
 
 ## <a name="navigation-within-workspaces"></a>ワークスペース内のナビゲーション
 
-Power BI *コンシューマー*には、通常、**[マイ ワークスペース]** という 1 つのワークスペースしかありません。 **[マイ ワークスペース]** には、Microsoft のサンプルをダウンロードした場合、または独自のコンテンツを作成またはダウンロードした場合にのみコンテンツが表示されます。  
+通常、Power BI "*コンシューマー*" には 1 つのワークスペースしかありません:**[マイ ワークスペース]** です。 **[マイ ワークスペース]** には、Microsoft のサンプルをダウンロードした場合、または独自のコンテンツを作成またはダウンロードした場合にのみコンテンツが表示されます。  
 
 **[マイ ワークスペース]** 内には、Power BI サービスでは、種類 (ダッシュボード、レポート、ブック、データセット) によってコンテンツが分かれています。 ワークスペースを選ぶと、この編成方法で表示されます。 この例で、**[マイ ワークスペース]** には 1 つのダッシュボード、2 つのレポート、0 個のワークブック、2 つのデータセットが含まれています。
 

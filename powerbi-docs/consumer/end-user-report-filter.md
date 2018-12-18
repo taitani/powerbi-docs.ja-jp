@@ -1,21 +1,22 @@
 ---
-title: レポート フィルターを追加する
+title: レポートにフィルターを追加する
 description: コンシューマー向け Power BI サービス内のレポートにフィルターを追加する方法
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: ea219071b475bf5bb9123e1aa3bbaca412507a8e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473809"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280767"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>レポート フィルター ウィンドウの使用方法
 この記事では、Power BI サービスのレポート フィルター ウィンドウについて説明します。
@@ -29,14 +30,14 @@ Power BI でデータをフィルター処理するには、さまざまな方�
 
 ![ブラウザーでのレポート](media/end-user-report-filter/power-bi-expanded.png)
 
-[フィルター] ウィンドウには、レポート *デザイナー*によってレポートに追加されたフィルターが含まれています。 お客様のような*コンシューマー*は、フィルターを操作し、その変更内容を保存できますが、新しいフィルターをレポートに追加することはできません。 たとえば、上のスクリーンショットでは、デザイナーによって "セグメント" と "年" の 2 つのページ レベル フィルターが追加されています。 これらのフィルターを操作および変更することはできますが、3 番目のページ レベル フィルターを追加することはできません。
+[フィルター] ウィンドウには、レポート *デザイナー*によってレポートに追加されたフィルターが含まれています。 お客様のような*コンシューマー*は、フィルターを操作し、その変更内容を保存できますが、新しいフィルターをレポートに追加することはできません。 たとえば、上のスクリーンショットでは、デザイナーによって 2 つのページ レベル フィルターが追加されています:"セグメント" と "年" です。 これらのフィルターを操作および変更することはできますが、3 番目のページ レベル フィルターを追加することはできません。
 
 Power BI サービスでは、フィルター ウィンドウで行う変更がすべてレポートで保持され、その変更はモバイル バージョンのレポートに反映されます。 フィルター ウィンドウを設計者の既定値にリセットするには、上部のメニューバーから **[既定値にリセット]** を選択します。     
 
 ## <a name="open-the-filters-pane"></a>フィルター ウィンドウを開く
 レポートを開くと、レポート キャンバスの右側にフィルター ウィンドウが表示されます。 ウィンドウが表示されない場合は、右上隅にある矢印を選択すると開きます。  
 
-この例で選択したビジュアルには 6 個のフィルターがあります。 レポート ページにもフィルターが適用されていて、**[ページ レベル フィルター]** という見出しの下に表示されています。 [ドリルスルー フィルター](../power-bi-report-add-filter.md)が 1 つあり、レポート全体にも "**FiscalYear** is 2013 or 2014" というフィルターがあります。
+この例で選択したビジュアルには 6 個のフィルターがあります。 レポート ページにもフィルターが適用されていて、**[ページ レベル フィルター]** という見出しの下に表示されています。 [ドリルスルー フィルター](../power-bi-report-add-filter.md)が 1 つあり、レポート全体にも次のフィルターがあります:"**FiscalYear** is 2013 or 2014"。
 
 ![フィルターの一覧](media/end-user-report-filter/power-bi-filter-list.png)
 
