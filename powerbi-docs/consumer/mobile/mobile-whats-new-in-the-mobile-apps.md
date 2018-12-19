@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297230"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979552"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -100,7 +100,7 @@ Power BI の[ダッシュボードのコメントに関するブログ投稿](ht
 
 レポート作成者が Power BI サービスのダッシュボード テーマをカスタマイズすると、モバイル アプリでもダッシュボードの外観と雰囲気が変更されます。 ただし、背景画像は表示されません。
 
-#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS:リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
 
 IT 管理者は MDM ツールを使用し、レポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成できるようになりました。 詳細については、「[Configure Power BI iOS mobile app access to a report server remotely](../../report-server/configure-powerbi-mobile-apps-remote.md)」 (リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する) を参照してください。
 
@@ -219,9 +219,9 @@ Power BI iOS モバイル アプリでプロキシ設定を使用できるよう
 
 ### <a name="may-2017"></a>2017 年 5 月
 #### <a name="all-devices"></a>すべてのデバイス
-**新しいメニュー: 自分と共有** モバイル アプリ メニューの [自分と共有] に移動すると、自分と共有されているすべてのコンテンツが表示されます。
+**新しいメニュー:自分と共有** モバイル アプリ メニューの [自分と共有] に移動すると、自分と共有されているすべてのコンテンツが表示されます。
 
-**新しいメニュー: アプリ** アプリは組織が作成したダッシュボードとレポートの集まりであり、データに基づく意思決定を短時間で簡単に行うための主要な指標を提供します。
+**新しいメニュー:アプリ** アプリは組織が作成したダッシュボードとレポートの集まりであり、データに基づく意思決定を短時間で簡単に行うための主要な指標を提供します。
 
 Power BI コンテンツの編成については[ここ](mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。
 
@@ -300,7 +300,7 @@ Android タブレット用 **Power BI モバイル アプリ**がグローバル
 #### <a name="android"></a>Android
 **Active Directory フェデレーション サービス (ADFS) プレビューを使った SSRS 認証** 組織のアカウントを使って、モバイル デバイスからオンプレミスの SQL Server Reporting Services サーバーにサインインできるようになりました。 詳しくは、「[Using OAuth to connect to Reporting Services](mobile-oauth-ssrs.md)」 (OAuth を使って Reporting Services に接続する) をご覧ください。
 
-**新機能と強化された機能: インサイトの簡単な注釈付けと共有** Android デバイスで、共有と注釈付けが完全に機能するようになりました。 改良されたメニューにより、インサイトの注釈付けと共有が簡単にすばやくできるようになり、注釈を付けたレポートを Power BI アプリから直接共有することもできます。
+**新機能と強化された機能:インサイトの簡単な注釈付けと共有** Android デバイスで、共有と注釈付けが完全に機能するようになりました。 改良されたメニューにより、インサイトの注釈付けと共有が簡単にすばやくできるようになり、注釈を付けたレポートを Power BI アプリから直接共有することもできます。
 
 ### <a name="december-2016"></a>2016 年 12 月
 [2016 年 12 月のモバイル アプリの機能の概要を示したブログ](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016)をお読みください。
@@ -329,7 +329,7 @@ iOS 用 Power BI モバイル アプリから、タイル、レポート、視�
 #### <a name="iphone"></a>iPhone
 **Apple Watch の機能強化**
 
-Apple Watch のデータを Watch アプリから直接更新できるようになりました。 データを更新するには、ダッシュボードのインデックス ページを強めに押します (これを行うためには、iPhone のバック グラウンドで Power BI モバイル アプリが実行されている必要があります)。
+Apple Watch のデータを Watch アプリから直接更新できるようになりました。 データを更新するには、ダッシュボードのインデックス ページを強めに押します  (これを行うためには、iPhone のバック グラウンドで Power BI モバイル アプリが実行されている必要があります)。
 
 #### <a name="android"></a>Android
 **イメージ タイル上のカスタム URL**
@@ -346,7 +346,7 @@ Apple Watch のデータを Watch アプリから直接更新できるように�
 * [Android タブレットで Reporting Services モバイル レポートと KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) をお試しください。
 
 #### <a name="android-devices"></a>Android デバイス
-**プレビュー: Intune モバイル アプリケーション管理** Android デバイスで Power BI Pro を使用している場合、Microsoft Intune モバイル アプリケーション管理 (MAM) の Power BI プレビューをプレビューできます。 
+**プレビュー:Intune モバイル アプリケーション管理** Android デバイスで Power BI Pro を使用している場合、Microsoft Intune モバイル アプリケーション管理 (MAM) の Power BI プレビューをプレビューできます。 
 
 **お気に入り** Android デバイスでお気に入りのダッシュボードにタグを付けてください。[お気に入りの Power BI ダッシュボード、Reporting Services モバイル レポート、KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) がすべて 1 つの場所に集められ、表示されるので便利です。 
 
@@ -458,8 +458,8 @@ Power BI モバイル アプリの通知センターには、自分と共有さ�
 ### <a name="may-2016"></a>2016 年 5 月
 #### <a name="ios-devices-and-android-phones"></a>iOS デバイスと Android フォン
 * **QR コード** を**レポート**にも使用できるようになりました。 Power BI アプリでコードをスキャンして、関連するレポートに直接アクセスできます。ナビゲーションや検索は必要ありません。
-* SQL Server 2016 Reporting Services の**データ管理が改善されました**: デバイスの読み込み時間とデータ消費量が軽減されました。
-* **SQL Server 2016 テーマのモバイル レポート**: デバイスのモバイル レポートのテーマを参照してください。
+* **データ管理が改善された** SQL Server 2016 Reporting Services:デバイスの読み込み時間が短縮され、データ消費量が削減されています。
+* **SQL Server 2016 テーマのモバイル レポート**:デバイスのモバイル レポートのテーマを参照してください。
 * **場所フィルター:** 現在地でレポートをフィルターします。
 
 ### <a name="april-2016"></a>2016 年 4 月
@@ -523,7 +523,7 @@ Power BI モバイル アプリの通知センターには、自分と共有さ�
 
 [Windows 10 Phone でレポート](mobile-reports-in-the-mobile-apps.md)を表示できます。
 
-より早い [Windows 10 モバイル ダッシュボードでの洞察の獲得](mobile-tiles-in-the-mobile-apps.md): タイルのスナップショットを共有したり、ダッシュボードから直接レポートを開いたりできます。
+より短時間での [Windows 10 モバイル ダッシュボードでの分析情報の獲得](mobile-tiles-in-the-mobile-apps.md):タイルのスナップショットを共有したり、ダッシュボードから直接レポートを開いたりできます。
 
 ### <a name="january-2016"></a>2016 年 1 月
 1 月の機能強化はすべて、2015 年 12 月にリリースされた新しい [Windows 10 Phone 用の Power BI アプリ](mobile-windows-10-phone-app-get-started.md)に既に組み込まれています。 他のモバイル デバイス用の Power BI アプリへの展開は現在進行中です。 これらの機能強化については、ブログ投稿をお読みください。
@@ -536,7 +536,7 @@ Power BI モバイル アプリの通知センターには、自分と共有さ�
 
 **R タイルと Web ウィジェット** これら新しい種類のタイルがモバイル デバイスのダッシュボードに表示されます。
 
-**Bing ダッシュボード** Power BI サービスで、[Bing の検索結果のダッシュボード](../end-user-connect-to-services.md)を作成し、モバイル デバイスで表示できるようになりました。
+**Bing ダッシュボード** Power BI サービスで、[Bing の検索結果のダッシュボード](../../service-connect-to-services.md)を作成し、モバイル デバイスで表示できるようになりました。
 
 **レポート ページをダッシュボードにタイルとしてピン留め** Power BI サービスで、レポート ページ全体をダッシュボードにピン留めし、iPhone または Android フォン上の Power BI アプリでレポート ページを表示できるようになりました。
 
@@ -600,21 +600,21 @@ Power BI アプリの SQL Server モバイル レポートを iOS デバイス (
 Power BI モバイル アプリの向上 -- Android、iOS (iPhone と iPad)、Windows。 [Power BI モバイルに関するブログの 9 月中旬の投稿](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx)をお読みください。
 
 #### <a name="android"></a>Android
-* グループ ワークスペースのサポート: グループ ワークスペース内の同僚と共同作業。 
-* 認証されていないユーザーのサポート: ユーザーがアプリにサインインできないいくつかのシナリオで、サポートへの連絡とフィードバックの送信を行うための早くて便利な方法が追加されました。
+* グループ ワークスペースのサポート:グループ ワークスペース内で同僚と共同作業できるようになりました。 
+* 認証されていないユーザーのサポート:ユーザーがアプリにサインインできないいくつかのシナリオで、サポートへの連絡とフィードバックの送信を行うための早くて便利な方法が追加されました。
 * ロールベースのセキュリティを使用してダッシュボードにアクセスする場合のユーザー エクスペリエンスの向上。          
 * グラフのデータ書式設定とすべてのダッシュボード タイルの配置の改善。 
 
 #### <a name="ios-iphone-and-ipad"></a>iOS (iPhone と iPad)
-* 新規および改善されたナビゲーション: 新しいドロワー ナビゲーションは画面スペースを最大化し、アプリ全体のナビゲーションを向上します。 
-* グループ ワークスペース: グループ ワークスペース内の同僚と共同作業。 
+* 新規および改善されたナビゲーション:新しいドロワー ナビゲーションにより画面スペースが最大化され、アプリ全体のナビゲーションが改善されました。 
+* グループ ワークスペース:グループ ワークスペース内で同僚と共同作業できるようになりました。 
 * 認証プロセスのアップグレードや、品質、パフォーマンス、機能の改善により、SSO (シングル サインオン) のサポートなど、アプリの認証プロセスが拡張されます。 
 * 折れ線グラフのデータ表現の向上による X 軸の圧縮の向上。
 * ロールベースのセキュリティを使用する場合のユーザー エクスペリエンスの向上。
-* マトリックス グラフ タイルのタッチ最適化の改善: マトリックスのデータのスクロールが簡単になり、すべてのデータを容易かつ直観的に表示できます。
+* マトリックス グラフ タイルのタッチ最適化の改善:マトリックスのデータのスクロールが簡単になり、すべてのデータを容易かつ直観的に表示できます。
 * グラフのデータ書式設定とダッシュボード タイルの配置の改善。 
-* iOS 7 サポートの廃止: Power BI の最高のセキュリティ標準を維持するため、iOS 7 がインストールされているデバイスはサポートされなくなりました。 iOS 8 以上が必要です。 
-* フィードバックとレーティングの送信をアプリに追加: コミュニティの影響をロードマップに一層反映し、アプリから簡単かつ直接的に問題を報告できるように、フィードバックの送信とレーティングの入力を行うアプリ内蔵機能が追加されました。
+* iOS 7 サポートの廃止:Power BI の最高のセキュリティ標準を維持するため、iOS 7 がインストールされているデバイスはサポートされなくなりました。 iOS 8 以上が必要です。 
+* フィードバックとレーティングの送信をアプリに追加:コミュニティの影響をロードマップに一層反映し、アプリから簡単かつ直接的に問題を報告できるように、フィードバックの送信とレーティングの入力を行うアプリ内蔵機能が追加されました。
 
 #### <a name="windows"></a>Windows
 * インフォーカス モードでのマップ タイルのレンダリングを改善することによる画面スペースの最大化。

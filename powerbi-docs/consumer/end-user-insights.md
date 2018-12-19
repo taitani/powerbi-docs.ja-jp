@@ -1,24 +1,25 @@
 ---
-title: Power BI を使用してデータ インサイトを自動的に生成する
-description: データセットとダッシュボード タイルに関する詳細情報を取得する方法を説明します。
+title: 分析を実行し、ダッシュボード タイルの分析情報を表示する
+description: Power BI のエンド ユーザーとして、ダッシュボード タイルに関する分析情報を取得する方法を説明します。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112040"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180532"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI を使用してデータ インサイトを自動的に生成する
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI を使用してダッシュボード タイルに関するデータの分析情報を表示する
 ダッシュボード上の各視覚化タイルはデータ実行の入り口です。 タイルを選択すると、レポートが開き、レポートの背後ではデータセットをフィルター処理し、並べ替えて掘り下げることができます。 また、インサイトを実行すると、Power BI でデータの探索が自動的に実行されます。
 
 クイック インサイトを実行して、データに基づいて、興味のある対話型の視覚化を生成します。 特定のダッシュボード タイルでクイック インサイトを実行することができます。インサイトに対してインサイトを実行することもできます。
@@ -40,7 +41,9 @@ ms.locfileid: "49112040"
 4. 興味をそそる情報がありましたか? 詳細に確認するには、その分析情報カードを選択します。 選択した分析情報が左側に表示され、右側には、その単一の分析情報に含まれるデータのみに基づく新しい分析情報カードが表示されます。    
 
  ## <a name="interact-with-the-insight-cards"></a>インサイト カードとの対話
-   * 視覚エフェクトをフィルター処理します。  フィルターを表示するには、右上の矢印を選択し、[フィルター] ウィンドウを展開します。
+分析情報を開いたら、引き続き探索してください。
+
+   * キャンバス上のビジュアルをフィルター処理します。  フィルターを表示するには、右上の矢印を選択し、[フィルター] ウィンドウを展開します。
 
      ![[フィルター] メニューが展開された分析情報](./media/end-user-insights/power-bi-insights-on-insights.png)
    

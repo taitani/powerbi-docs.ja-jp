@@ -2,17 +2,18 @@
 title: Power BI コンシューマー向け用語集
 description: Power BI には、多くの新しい用語と、使い慣れた用語の新しい使い方が導入されています。 用語集を使用して、Power BI の用語に慣れてください。
 services: power-bi
+ms.custom: seodec18
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/12/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026348"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280790"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -42,7 +43,7 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **AppSource** ダッシュボード、レポート、データセット、およびダウンロードするアプリを参照して見つけることができる集約型のオンライン リポジトリ。
 
-**ArcGIS Maps for Power BI** ArcGIS は ESRI 社によって作成されたマッピングおよび分析プラットフォームです。 Power BI ビジュアル ライブラリに含まれるビジュアルのことを、ArcGIS Maps for Power BI といいます。
+**Power BI 用 ArcGIS** ArcGIS は ESRI 社によって作成されたマッピングおよび分析プラットフォームです。 Power BI ビジュアル ライブラリに含まれるビジュアルのことを、Power BI 用 ArcGIS といいます。
 
 **割り当てる** [Power BI Premium] 専用容量に対するワークスペースの移動に関する動詞。 専用容量にワークスペースを移動する場合は昇格を使用しないでください。専用容量が共有容量より上位であるという意味合いが含まれるためです。  
 
