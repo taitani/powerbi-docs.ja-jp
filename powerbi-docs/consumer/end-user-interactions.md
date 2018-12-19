@@ -1,23 +1,24 @@
 ---
-title: レポートでのビジュアルの相互作用の概要 (レポート ユーザーの場合)
+title: レポート内でビジュアルがどのように相互作用するか (レポート コンシューマー向け)
 description: レポート ページでビジュアルがどのように相互作用するかについて説明する Power BI エンド ユーザー向けドキュメント。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c87f99b768f52fe7f6b565c47ed7e434b167a046
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 838b881622dd19eb881aa53ac895f223cf9bc460
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112063"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180509"
 ---
-# <a name="visualization-interactions-in-a-power-bi-report"></a>Power BI レポートでの視覚化の相互作用
+# <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Power BI のレポート内でビジュアルがどのように相互作用するか
 Power BI の優れた機能の 1 つは、レポート ページ上のすべてのビジュアルが相互接続される方法です。 ビジュアルのいずれかのデータ ポイントを選択すると、そのデータを含むページ上の他のすべてのビジュアルが選択に基づいて変化します。 
 
 ![ビジュアルの相互作用のビデオ](media/end-user-interactions/interactions.gif)

@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.author: mihart
-ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508016"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026348"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -23,7 +23,7 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **アカウント** さまざまな種類の Power BI アカウントがあります。  Power BI Pro アカウントは、月単位の有料サブスクリプションです。  Power BI の無料アカウントでは、Power BI Premium 容量でホストされているコンテンツを表示できます。  
 
-**管理ポータル** Power BI 管理者が所属組織内の Power BI のユーザー、機能、および、設定を管理する場所  (注: Office 365、Azure、および PowerApps では管理センターが使用されます)。
+**管理ポータル** Power BI 管理者が所属組織内の Power BI のユーザー、機能、および、設定を管理する場所  (注:Office 365、Azure、および PowerApps では管理センターが使用されます)。
 
 **集約** 複数行の値を入力または条件としてまとめてグループ化し、より重要な意味や測定の単一の値を形成する場合。
 
@@ -40,9 +40,9 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
  
 **アプリ ワークスペース** 現時点では、マイ ワークスペースを除く、Power BI のすべてのワークスペースがアプリ ワークスペースとなります。 コンテンツは Power BI アプリにバンドルすることができます。 Premium 容量に格納されているものを、無料ユーザーと共有できます。 個人用ワークスペース (マイ ワークスペースの下にある) を Premium 容量でホストできます。  
 
-**AppSource**
+**AppSource** ダッシュボード、レポート、データセット、およびダウンロードするアプリを参照して見つけることができる集約型のオンライン リポジトリ。
 
-**Power BI 用 ArcGIS** ArcGIS は ESRI 社によって作成されたマッピングおよび分析プラットフォームです。 Power BI ビジュアル ライブラリに含まれるビジュアルのことを、Power BI 用 ArcGIS といいます。
+**ArcGIS Maps for Power BI** ArcGIS は ESRI 社によって作成されたマッピングおよび分析プラットフォームです。 Power BI ビジュアル ライブラリに含まれるビジュアルのことを、ArcGIS Maps for Power BI といいます。
 
 **割り当てる** [Power BI Premium] 専用容量に対するワークスペースの移動に関する動詞。 専用容量にワークスペースを移動する場合は昇格を使用しないでください。専用容量が共有容量より上位であるという意味合いが含まれるためです。  
 
@@ -69,7 +69,7 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **コンテンツ リスト** アプリのコンテンツ インデックス。
 
-**コンテンツ パック**
+**コンテンツ パック** 事前にパッケージされたデータセット、レポート、およびダッシュボードのコレクション。 **アプリ**については、[新しいワークスペース エクスペリエンスの詳細](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces)を確認してください。 
 
 **コンテンツ ビュー**
 
@@ -92,11 +92,11 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 **データ モデル、Excel データ モデル**
 
 
-**データセット**と**データ ソース**
+**データセット** vs **データ ソース** **データセット**は視覚エフェクトとレポートを作成するために使用されるデータのコレクションです。
 
 **専用の容量** [Power BI Premium] 大規模な一貫したパフォーマンスを確保するのに役立つ、Microsoft クラウド データ センター内の専用ハードウェア上で実行されているデータ モデル。 BI ソリューションは、Power BI ライセンスに関係なく、組織全体に提供されます。
 
-**Desktop** 最初のインスタンス: Power BI Desktop、以降の言及: Desktop
+**Desktop** 最初のインスタンス:Power BI Desktop の後続のメンション:デスクトップ
 
 
 **ひし形** Power BI Premium。 ワークスペースが Premium 容量ワークスペースであることを示すアイコンの図形。
@@ -110,6 +110,8 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 **省略記号** ...
 
 **埋め込みコード** インターネット全体の共通基準。 Power BI では、顧客は埋め込みコードを生成し、それをコピーして、Web サイトやブログにレポート ビジュアルなどのコンテンツを配置できます。
+
+**Embedded** Power BI Embedded をご覧ください。 
 
 **埋め込み** Power BI の開発者向けサービスにおける、Power BI REST API と Power BI SDK を使用してアプリに分析を統合するプロセス。
 
@@ -133,7 +135,7 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 ## <a name="g"></a>G
 
-**ゲートウェイ**または**オンプレミス データ ゲートウェイ** 基になるデータ ソースへのブリッジ。 Power BI サービスとオンプレミス データ ソース (更新をサポート) 間のデータ転送を迅速かつ安全に行います。 通常は IT で管理されます。 オンプレミス データ ゲートウェイ
+**ゲートウェイ**または**オンプレミス データ ゲートウェイ** 基になるデータ ソースへのブリッジ。 Power BI サービスとオンプレミス データ ソース (更新をサポート) 間のデータ転送を迅速かつ安全に行います。 通常は IT で管理されます。 
 
 ## <a name="h"></a>H
 **高密度のビジュアル** Power BI で表示できる数より多くのデータ ポイントがあるビジュアル。 Power BI では、図形や外れ値を表示するためにデータをサンプリングします。
@@ -160,7 +162,7 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 ## <a name="m"></a>M
 
-**メジャー** DAX コードまたはクイック メジャーを使用して Power BI Desktop で記述されるカスタム計算。
+**モバイル アプリ** Power BI を iOS、Android、Windows デバイスで実行することを許可するアプリ。
 
 **モデリング**[Power BI Desktop] Power BI で使用する準備を整えるために接続したデータを取得すること。 これには、複数のデータ ソース内のテーブル間のリレーションシップの作成、メジャーの作成、およびメトリックの割り当てが含まれます。
 
@@ -180,6 +182,9 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 ## <a name="o"></a>O
 
 **OneDrive for Business** と **OneDrive** OneDrive は個人用アカウントであり、OneDrive for Business は職場アカウント用です。  
+
+**オンプレミス データ ゲートウェイ**
+
 
 
 ## <a name="p"></a>P
@@ -202,7 +207,7 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **Power BI**、**Power BI サービス**、**Power BI Desktop**、**Power BI Mobile**、一部の Power BI サービス。 *Power BI* は一般的な用語です。 多くの場合、*Power BI サービス*や *Power BI Mobile* などの完全な製品名の代わりに、最初の言及の後に使用されます。
 
-**Power BI Desktop** *Desktop* ともいいます。
+**Power BI Desktop** *Desktop* ともいいます。 ローカル コンピューターにインストールできる Power BI の無料の Windows アプリケーションで、データへの接続、変換、および視覚化を行うことができます。 レポート デザイナーと管理者によって使用されます。 詳しくは、「[Power BI とは](../power-bi-overview.md)」をご覧ください。
 
 **Power BI Embedded** 開発者が自分のアプリ、サイト、およびツールに Power BI ダッシュボードやレポートを埋め込むために使用される製品。
 
@@ -210,8 +215,9 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **Power BI Pro ライセンス** 月単位のユーザー ライセンス。ダッシュボードの構築、共有データでの共同作業、自動的にデータを最新の状態に保持、データのアクセスと使用方法の監査と管理のための機能が提供されます。また、配布するコンテンツをパッケージ化する機能が提供されます (Power BI アプリ)。
 
-**Power BI Report Server** 組織が分散型ハイブリッド BI システム (クラウドとオンプレミス デプロイの組み合わせ) を構築できるようにするために、Power BI Premium で起動される SSRS の新しいブランド サービス。
-豊富な、ページ分割されたレポート機能、および (Power BI Desktop を使用して作成された Power BI レポートを提供し、そのレポートを Power BI Mobile アプリで配信する機能と連動する) モバイル レポートを備えた SQL Server Reporting Services に基づきます。 従来の SSRS も引き続き販売されます。
+**Power BI Report Server** 組織が分散型ハイブリッド BI システム (クラウドとオンプレミス デプロイの組み合わせ) を構築できるようにするために、Power BI Premium で起動される SSRS の新しいブランド サービス。 Embedded は Power BI のレポートを格納して管理するためのローカライズされた方法を提供します。
+
+**Power BI サービス** オンラインの SaaS (サービスとしてのソフトウェア) サービス。 詳しくは、「[Power BI とは](../power-bi-overview.md)」をご覧ください。
 
 **Power BI サービス コネクタ** このコネクタを使用することで、Power BI Desktop ユーザーは Desktop から Power BI サービス内のデータセットに接続できます。 モデルを一度作成したら、それを多くのレポートやダッシュボードで再利用することができます。
 

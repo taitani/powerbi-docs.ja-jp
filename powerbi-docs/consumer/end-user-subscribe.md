@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/04/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a44630f8c5ad7f521ad7f3e8794486cd1b758358
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 635e16a6c7deaf6d2bdb3617d29625e8fda005d2
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336785"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280222"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI サービスでレポートまたはダッシュボードをサブスクライブする 
 最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールの受信頻度は日に 1 回から週に 1 回の範囲で選択できます。 
@@ -82,7 +82,6 @@ Pro ライセンスの有効期限が切れた場合、所有者がダッシュ�
 * メール サブスクリプションは、この時点では、R を利用したカスタム ビジュアルをサポートしていません。  
 * ダッシュボード タイルに行レベルのセキュリティ (RLS) が適用されている場合、そのタイルは表示されません。
 * メール サブスクリプションは、レポートの既定のフィルターとスライサーの状態で送信されます。 サブスクライブした後に既定値を変更しても、メールには反映されません。    
-* メール サブスクリプションは、Power BI Desktop のサービスへのライブ接続機能で作成されたレポート ページではまだサポートされていません。  
 * ダッシュボードのサブスクリプションに限り、特定の種類のタイルはまだサポートされていません。  ストリーミング タイル、ビデオ タイル、カスタム Web コンテンツ タイルなどです。     
 * メールのサイズ制限のため、ダッシュボードまたはレポートに非常に大きい画像が含まれると、サブスクリプションが失敗する場合があります。    
 * Power BI は、2 か月より長くアクセスされていないダッシュボードおよびレポートに関連付けられているデータセットの更新を自動的に一時停止します。  ただし、ダッシュボードまたはレポートにサブスクリプションを追加した場合は、アクセスがなくても一時停止されません。    

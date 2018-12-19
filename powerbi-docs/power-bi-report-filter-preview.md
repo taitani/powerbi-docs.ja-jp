@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d2d8bef9689fd2e9db99c0a521a5ee326845b1de
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611362"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026249"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI レポートの新しいフィルター エクスペリエンス (プレビュー)
 
@@ -98,7 +98,7 @@ Power BI Desktop を再起動すると、作成するすべての新しいレポ
 
     ![書式設定アイコンを選択する](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
-1. **[フィルター ウィンドウ]** を展開して背景、フォント、アイコン、左の境界線の色を設定し、レポート ページを補完します。
+1. **[フィルター ウィンドウ]** を展開して背景、アイコン、左の境界線の色を設定し、レポート ページを補完します。
 
     ![フィルター ウィンドウを展開する](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
 

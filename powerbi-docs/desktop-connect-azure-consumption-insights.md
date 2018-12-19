@@ -1,21 +1,22 @@
 ---
-title: Power BI Desktop での Azure Consumption Insights データへの接続 (Beda)
+title: Azure Consumption Insights データへの接続 (ベータ版)
 description: Power BI Desktop を使用して、Azure に簡単に接続し、使用状況を把握できます
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619611"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026790"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop での Azure Consumption Insights への接続 (Beda)
 **Azure Consumption Insights** コネクタを使用すれば、**Power BI Desktop** で Azure に接続して、組織における Azure サービスの使用状況に関する詳細なデータと情報を得ることができます。 また、メジャー、カスタム列、およびビジュアルを作成して、組織での Azure の使用状況についてレポートを作成し、共有することができます。 このリリースの **Azure Consumption Insights** コネクタはベータ版であり、変更される可能性があります。
@@ -50,15 +51,15 @@ ms.locfileid: "51619611"
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 "*アクセス キー*" を指定して **[接続]** を選択すると、**[ナビゲーター]** ウィンドウが開き、使用可能な 9 つのテーブルが表示されます。 
-* **Budgets**: 既存の予算目標に対する実際のコストや使用状況を表示するための予算の詳細が提供されます。 
-* **MarketPlace**: 使用状況に基づく Azure Marketplace の料金が提供されます。
-* **PriceSheets**: 登録のメーターごとに適用できる割合が提供されます。
-* **RICharges**: 過去 24 か月の間の予約インスタンスに関連付けられている料金が提供されます。
-* **RIRecommendations_Single**: 過去 7 日、30 日、または 60 日の間の 1 つのサブスクリプション上での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
-* **RIRecommendations_Shared**: 過去 7 日、30 日、または 60 日の間のサブスクリプション全体での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
-* **RIUsage**: 過去 1 か月の間の既存の予約インスタンスの消費に関する詳細が提供されます。
-* **Summaries**: 残高、新規購入、Azure Marketplace サービス料金、調整、および超過料金の全体に関する月単位の概要が提供されます。
-* **UsageDetails**: 登録の消費量と見積もり料金の内訳を提供します。
+* **Budgets**:既存の予算目標に対する実際のコストや使用状況を表示するための予算の詳細が提供されます。 
+* **MarketPlace**:使用状況に基づく Azure Marketplace の料金が提供されます。
+* **PriceSheets**:登録のメーターごとに適用できる割合が提供されます。
+* **RICharges**:過去 24 か月の間の予約インスタンスに関連付けられている料金が提供されます。
+* **RIRecommendations_Single**:過去 7 日、30 日、または 60 日の間の 1 つのサブスクリプション上での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
+* **RIRecommendations_Shared**:過去 7 日、30 日、または 60 日の間のすべてのサブスクリプション上での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
+* **RIUsage**:過去 1 か月の間の既存の予約インスタンスの消費に関する詳細が提供されます。
+* **Summaries**:残高、新規購入、Azure Marketplace サービス料金、調整、および超過料金の全体に関する月単位の概要が提供されます。
+* **UsageDetails**:登録の消費量と見積もり料金の内訳を提供します。
 
 テーブルの横にあるチェック ボックスをオンにすれば、プレビューを表示できます。 1 つ以上のテーブルを選択するには、名前の横のチェック ボックスをオンにしてから **[読み込み]** を選択します。
 
@@ -108,10 +109,10 @@ Azure には、空のクエリを使用して取得できる、サンプルの�
 
 顧客が新しい **Azure Consumption Insights** コネクタに移行し、カスタム ダッシュボードまたはレポートを作成する際に行った作業を保持できるように、以下の手順では新しいコネクタへの移動方法を示します。
 
-### <a name="step-1-connect-to-azure-using-the-new-connector"></a>手順 1: 新しいコネクタを使用して Azure に接続する
+### <a name="step-1-connect-to-azure-using-the-new-connector"></a>手順 1:新しいコネクタを使用して Azure に接続する
 最初の手順では、**Azure Consumption Insights** コネクタを使用して接続します (詳細については、この記事の前半で説明しました)。 この手順では、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得]、[空のクエリ]** の順に選択します。
 
-### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>手順 2: 詳細エディターを使用してクエリを作成する
+### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>手順 2:詳細エディターを使用してクエリを作成する
 **クエリ エディター**で、**[ホーム]** リボンの **[クエリ]** セクションから **[詳細エディター]** を選択します。 表示された **[詳細エディター]** ウィンドウで、次のクエリを入力します。
 
     let    
@@ -127,7 +128,7 @@ Azure には、空のクエリを使用して取得できる、サンプルの�
 
 **[詳細エディター]** ウィンドウで **[完了]** を選択すると、プレビューが更新され、テーブルの指定された月の範囲からのデータが表示されます。 **[閉じて適用]** を選択して戻ります。
 
-### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>手順 3: メジャーとカスタム列を新しいレポートに移動する
+### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>手順 3:メジャーとカスタム列を新しいレポートに移動する
 次に、新しい詳細テーブルに、作成したカスタム列またはメジャーを移動する必要があります。 この手順を以下に示します。
 
 1. メモ帳 (または他のテキスト エディター) を開きます。
@@ -137,14 +138,14 @@ Azure には、空のクエリを使用して取得できる、サンプルの�
 3. *Query1* を元の詳細テーブルの名前に変更します。
 4. テーブルを右クリックし、**[新しいメジャー]** を選択して、テーブルに新しいメジャーとカスタム列を作成します。次に格納されているメジャーと列を切り取って貼り付けます (すべてのメジャーと列に対して繰り返します)。
 
-### <a name="step-4-re-link-tables-that-had-relationships"></a>手順 4: リレーションシップを持つテーブルを再リンクする
+### <a name="step-4-re-link-tables-that-had-relationships"></a>手順 4:リレーションシップを持つテーブルを再リンクする
 多くのダッシュボードには、日付テーブルやカスタム プロジェクトで使用されるテーブルなど、検索またはフィルタリングに使用されるテーブルが追加されています。 これらのリレーションシップを再確立することで、未解決のほとんどの問題が解決されます。 その方法を次に示します。
 
 - **Power BI Desktop** の **[モデリング]** タブで、**[リレーションシップの管理]** を選択し、モデル内のリレーションシップを管理できるウィンドウを表示します。 必要に応じて、テーブルを再リンクします。
    
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
-### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>手順 5: ビジュアルを確認し、必要に応じてフィールドの書式設定を調整する
+### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>手順 5:ビジュアルを確認し、必要に応じてフィールドの書式設定を調整する
 これで、元のビジュアル、テーブル、およびドリルダウンのほとんどは予期したとおりに動作するはずです。 ただし、すべて予期したとおり適切に動作するように、書式設定するには微調整がいくつか必要な場合があります。 ダッシュボードとビジュアルをそれぞれ調べて、予期したとおりに動作することを確認するには少し時間がかかります。
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Azure Consumption Insights (ACI) API を使用して使用量データを取得する
@@ -178,7 +179,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | Meter Region |meterRegion |Meter Region |いいえ |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |いいえ |
 | MeterId |meterId |Meter ID |いいえ |
-| 月 | |月 |いいえ |
+| Month | |Month |いいえ |
 | 製品 |製品 |製品 |いいえ |
 | ProductId |productId | |はい |
 | リソース グループ |resourceGroup |リソース グループ |いいえ |

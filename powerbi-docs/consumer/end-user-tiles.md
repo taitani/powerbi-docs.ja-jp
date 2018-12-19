@@ -7,23 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: b4ce5c811b2aa18803483ed9780c6b73a6b04bb1
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331898"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979239"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI のダッシュボードのタイル
-ダッシュボードおよびダッシュボード タイルは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードのタイルを作成またはピン留めすることはできませんが、[表示して共有する](mobile/mobile-tiles-in-the-mobile-apps.md)ことはできます。 
+タイルは、*デザイナー*によってダッシュボードにピン留めされた、データのスナップショットです。 タイルは、レポート、データセット、ダッシュボード、Q&A 質問ボックス、Excel、SQL Server Reporting Services (SSRS) などから作成できます。  次のスクリーンショットは、ダッシュボードにピン留めされているさまざまなタイルを示しています。
 
-## <a name="dashboard-tiles"></a>データのプッシュ時の
 ![Power BI ダッシュボード](./media/end-user-tiles/power-bi-dashboard.png)
 
-タイルは、*デザイナー*によってダッシュボードにピン留めされた、データのスナップショットです。 タイルは、レポート、データセット、ダッシュボード、Q&A 質問ボックス、Excel、SQL Server Reporting Services (SSRS) などから作成できます。  次のスクリーンショットは、ダッシュボードにピン留めされているさまざまなタイルを示しています。
 
 レポートからピン留めされたタイルに加え、*デザイナー*は **[タイルの追加]** を利用し、ダッシュボードに直接、スタンドアロンのタイルを追加できます。 スタンドアロン タイルには、テキスト ボックス、画像、ビデオ、ストリーミング データ、Web コンテンツが含まれます。
 
@@ -32,7 +30,6 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>ダッシュボードのタイルと対話する
 
-### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>タイルにカーソルを置いて動作と外観を変更する
 1. タイルにマウス カーソルを置き、省略記号を表示します。
    
     ![タイルの省略記号](./media/end-user-tiles/ellipses_new.png)
