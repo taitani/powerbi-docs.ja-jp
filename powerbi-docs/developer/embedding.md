@@ -1,6 +1,6 @@
 ---
-title: Power BI で埋め込み
-description: Power BI には、ダッシュボードとレポートをアプリケーションに埋め込むための API があります。
+title: Power BI を使用した埋め込み分析
+description: Power BI には、ダッシュボードとレポート用の埋め込み分析をアプリケーションで利用するための API があります。 PaaS 環境と SaaS 環境の両方で、埋め込み分析ソフトウェア、埋め込み分析ツール、または埋め込みビジネス インテリジェンス ツールを使用した、Power BI を使用した埋め込みの詳細について説明します。
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,15 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
-ms.date: 07/31/2018
-ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973772"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180332"
 ---
-# <a name="embedding-with-power-bi"></a>Power BI で埋め込み
+# <a name="embedded-analytics-with-power-bi"></a>Power BI を使用した埋め込み分析
 
 Power BI サービス (SaaS) と Azure (PaaS) の Power BI Embedded サービスには、ダッシュボードとレポートの埋め込み用の API があります。 この機能は、コンテンツを埋め込む際に、ダッシュボード、ゲートウェイ、アプリ ワークスペースなどの最新の Power BI 機能を用意してそれらにアクセスできることを意味します。
 
@@ -61,7 +62,7 @@ Power BI ライセンスのない顧客やユーザーの場合、同じ API を
 
 Power BI Embedded は ISV とその開発者、顧客に対して利点があります。 たとえば、ISV は、Power BI Desktop を使用して無料でビジュアルの作成を開始できます。 ISV は、ビジュアル分析開発の労力を最小化することで市場投入までの時間を短縮でき、差別化されたデータによって競合他社の中で際立つことができます。 ISV はさらに埋め込み分析によって生じる付加価値に対する追加料金を請求することも選択できます。
 
-Power BI Embedded を使用する場合、顧客は Power BI について何も知る必要がなくなります。 埋め込みアプリケーションを作成するために必要な Power BI Pro アカウントは 1 つのみです。 Power BI Pro アカウントは、アプリケーションのマスター アカウントとして機能します (プロキシ アカウントと考えることができます)。 Power BI Pro アカウントを使用して、アプリケーションが所有/管理する Power BI サービス内のダッシュボードとレポートにアクセスできる埋め込みトークンも生成できます。
+Power BI Embedded を使用する場合、顧客は Power BI について何も知る必要がなくなります。 埋め込みアプリケーションを作成するために必要な Power BI Pro アカウントは 1 つのみです。 Power BI Pro アカウントは、アプリケーションのマスター アカウントとして機能します (このマスター アカウントをプロキシ アカウントと考えることができます)。 Power BI Pro アカウントを使用して、アプリケーションが所有/管理する Power BI サービス内のダッシュボードとレポートにアクセスできる埋め込みトークンも生成できます。
 
 開発者は Power BI Embedded を使用すると、ビジュアルと分析の開発ではなく、自社のアプリケーションのコア コンピテンシーの構築に時間を費やすことができます。 開発者は顧客のレポートとダッシュボードの需要をすばやく満たし、完全に文書化された API と SDK に簡単に埋め込むことができます。 ナビゲーションが簡単なデータ探索をアプリで有効にすることで、ISV の顧客は、どのデバイスからでも迅速にデータ ドリブンの意思決定を下すことができるようになります。
 
@@ -70,7 +71,7 @@ Power BI Embedded を使用する場合、顧客は Power BI について何も�
 
 運用環境に移行する準備ができたら、アプリ ワークスペースを専用の容量に割り当てる必要があります。 Microsoft Azure の Power BI Embedded には、アプリケーションに使用できる[専用の容量](azure-pbie-create-capacity.md)が用意されています。
 
-埋め込み方法の詳細については、「[Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embed-sample-for-customers.md)」を参照してください。
+埋め込み方法について詳しくは、「[Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embed-sample-for-customers.md)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 

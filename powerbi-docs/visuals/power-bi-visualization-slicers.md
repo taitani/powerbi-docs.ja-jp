@@ -1,22 +1,22 @@
 ---
 title: チュートリアル - Power BI のスライサー
 description: Power BI のスライサー
-author: mihart
+author: v-thepet
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/25/2018
-ms.author: v-thepet
+ms.date: 10/25/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e42504c2c320e4f102cab5e2272e6123bf580cf5
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: e6b738060875685a7de8e07a55d28afaf071b32e
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448985"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979653"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI のスライサー
 レポートを見る人が売り上げ全体の指標を調べることができるだけでなく、個々の地域マネージャーや異なる期間の実績に注目することもできるようにしたい場合があります。 個別レポートや比較グラフを作成してもかまいませんが、スライサーを使用することもできます。 スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。 
@@ -177,10 +177,10 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 
 ### <a name="other-formatting-options"></a>その他の書式設定オプション
 その他の書式設定オプションは既定ではオフです。 **オン**にすると次のようになります。 
-- **[タイトル]**: スライサーの上部に (ヘッダーとは別に) タイトルを追加して書式設定します。 
-- **[背景]**: スライサー全体に背景色を追加し、透過性を設定します。
-- **[縦横比を固定する]**: スライサーのサイズを変更するときに形状を維持します。
-- **[罫線]**: スライサーの周囲に 1 ピクセルの枠線を追加し、その色を設定します (このスライサーの枠線は、[全般] の [アウトライン] の設定とは別であり影響を受けません)。 
+- **[タイトル]**:スライサーの上部に (ヘッダーとは別に) タイトルを追加して書式設定します。 
+- **[背景]**:スライサー全体に背景色を追加し、透過性を設定します。
+- **[縦横比を固定する]**:スライサーのサイズを変更するときに形状を維持します。
+- **[罫線]**:スライサーの周囲に 1 ピクセルの枠線を追加し、その色を設定します。 (このスライサーの枠線は、[全般] の [アウトライン] の設定とは別であり影響を受けません)。 
 
 ## <a name="next-steps"></a>次の手順
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578430"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025123"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI での行レベルのセキュリティ (RLS)
 
@@ -41,7 +42,7 @@ Power BI Desktop で Power BI にインポートされたデータ モデルの 
 1. データセットの**省略記号 [...]** を選択します。
 2. **[セキュリティ]** を選択します。
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![両方向にセキュリティ フィルターを適用する](media/service-admin-rls/rls-security.png)
 
 移動先の RLS ページで、Power BI Desktop で作成した役割にメンバーを追加できます。 [セキュリティ] は、データセットの所有者のみに表示されます。 データセットがグループ内にある場合、セキュリティ オプションは、グループの管理者だけに表示されます。 
 
@@ -53,17 +54,17 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 
 役割にメンバーを追加するには、追加するユーザー、セキュリティ グループ、または配布リストのメール アドレスまたは名前を入力します。 このメンバーは、組織内に存在する必要があります。 Power BI 内に作成したグループは追加できません。
 
-![](media/service-admin-rls/rls-add-member.png)
+![メンバーの追加](media/service-admin-rls/rls-add-member.png)
 
 役割名または [メンバー] の横のかっこ内の数字は、その役割に属しているメンバーの数を示します。
 
-![](media/service-admin-rls/rls-member-count.png)
+![役割に属しているメンバー](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>メンバーの削除
 
 メンバーを削除するには、メンバー名の横の [X] を選択します。 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![メンバーの削除](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Power BI サービス内でのロールの検証
 
@@ -72,15 +73,15 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 1. 役割の横にある**省略記号 (...)** を選択します。
 2. **[ロールとしてデータをテスト]** を選択します。
 
-![](media/service-admin-rls/rls-test-role.png)
+![ロールとしてテスト](media/service-admin-rls/rls-test-role.png)
 
 この役割で使用できるレポートが表示されます。 このビューにはダッシュ ボードは表示されません。 上部の青色のバーの中に、適用される内容が表示されます。
 
-![](media/service-admin-rls/rls-test-role2.png)
+![現在 <役割> として表示しています](media/service-admin-rls/rls-test-role2.png)
 
 **[Now viewing as (次の表示)]** を選択することで、その他の役割、または役割の組み合わせをテストすることができます。
 
-![](media/service-admin-rls/rls-test-role3.png)
+![その他の役割のテスト](media/service-admin-rls/rls-test-role3.png)
 
 特定のユーザーとしてデータを表示できます。または、役割の組み合わせを選択してそれらの動作を検証できます。 
 
@@ -95,7 +96,7 @@ Power BI サービス内のアプリ ワークスペースに Power BI Desktop �
 > [!WARNING]
 > メンバーが編集アクセス許可を持つようにアプリ ワークスペースを構成している場合、RLS の役割は適用されません。 ユーザーはすべてのデータを確認できます。
 
-![](media/service-admin-rls/rls-group-settings.png)
+![グループ設定](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

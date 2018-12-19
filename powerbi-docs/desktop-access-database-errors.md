@@ -4,29 +4,30 @@ description: Power BI Desktop と Power Query での Access データベース�
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 76423f26203da23658b621d7d01565c04ca21709
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: a1a350a8348dce5ba2553873077a0dfb102a187c
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578177"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53024731"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Power BI Desktop での Access ファイルと .XLS ファイルのインポートに関する問題を解決する
 **Power BI Desktop** では、**Access データベース**と初期バージョンの **Excel ブック** (Excel 97-2003 タイプの .XLS ファイル) の両方で *Access Database Engine* が使用されます。 Access データベース エンジンが正常に動作しない場合、一般的に、次の 3 つの状況が考えられます。
 
-### <a name="situation-1-no-access-database-engine-installed"></a>状況 1: Access Database Engine がインストールされていない
+## <a name="situation-1-no-access-database-engine-installed"></a>状況 1:Access Database Engine がインストールされていない
 Power BI Desktop のエラー メッセージで Access Database Engine がインストールされていないことが判明した場合、お使いの Power BI Desktop バージョンに合わせ、32 ビット版か 64 ビット版の Access Database Engine をインストールする必要があります。 Access Database Engine は[ダウンロード ページ](http://www.microsoft.com/download/details.aspx?id=13255)からインストールできます。
 
 >[!NOTE]
 >インストールした Access Database Engine のビット版がお使いの Microsoft Office のビット版と異なる場合、Office アプリケーションで Access Database Engine を利用できません。
 
-### <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>状況 2: Access Database Engine のビット版 (32 ビットまたは 64 ビット) がお使いの Power BI Desktop のビット版と異なる
+## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>状況 2:Access Database Engine のビット版 (32 ビットまたは 64 ビット) がお使いの Power BI Desktop のビット版と異なる
 この状況は、多くの場合、インストールした Microsoft Office のバージョンが 32 ビットで、Power BI Desktop のバージョンが 64 ビットのときに発生します。 また、反対の場合もあります。ビット版の不一致はいずれの場合にも発生します (Office 365 サブスクリプションを使っている場合は、「**状況 3**」で別の問題と解決策を参照してください)。 次のどの解決策でも、このビット版不一致エラーを解決できます。
 
 1. お使いの Microsoft Office のビット版に合わせて Power BI Desktop のバージョンを変更します。 Power BI Desktop のビット版を変更するには、Power BI Desktop をアンインストールし、お使いの Office に一致するバージョンの Power BI Desktop をインストールします。 Power BI Desktop のバージョンを選択するには、デスクトップのダウンロード ページで、 **[ダウンロードの詳細オプション]** を選択します。
@@ -47,11 +48,11 @@ Power BI Desktop のエラー メッセージで Access Database Engine がイ�
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-### <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>状況 3: Office 365 サブスクリプションで Access または .XLS ファイルを使うことによる問題
+## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>状況 3:Office 365 サブスクリプションで Access または .XLS ファイルを使うことによる問題
 Office 365 サブスクリプション (**Office 2013** または **Office 2016**) を使っている場合、Access データベース エンジン プロバイダーは、Office プロセス*だけ*がアクセスできる仮想レジストリの場所に登録されます。 その結果、Office プロセスではない Mashup エンジン (Office 365 ではない Excel および Power BI Desktop を実行します) は、Access データベース エンジン プロバイダーを使うことができません。
 
 このような状況を解決するには、Power BI Desktop のインストールのビット版と一致する [Access データベース エンジン再頒布可能パッケージをダウンロードしてインストール](http://www.microsoft.com/download/details.aspx?id=13255)します (ビット版について詳しくは、前のセクションをご覧ください)。
 
-### <a name="other-situations-that-cause-import-issues"></a>インポートの問題が発生するその他の状況
+## <a name="other-situations-that-cause-import-issues"></a>インポートの問題が発生するその他の状況
 Access または .XLS ファイルで発生するできる限り多くの問題に対応するように作業しています。 この記事で説明されていない問題が発生した場合は、問題に関する質問を [Power BI サポート](https://powerbi.microsoft.com/support/)にお送りください。 多くのお客様に影響を与える可能性がある問題を常に注視し、記事にしています。
 

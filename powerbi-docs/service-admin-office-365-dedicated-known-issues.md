@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: cedb3e1572fbf20a32abe4f28b38030539502124
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8f9ab0a9a4beddf9be3fc933174f92ac4ae96a6b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238147"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026502"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 Dedicated カスタマー - 既知の問題
 Power BI は Office 365 Dedicated のカスタマーにもサポートされるようになりました。  O365 Dedicated のカスタマーは、そのテナントのアカウントでサインインすれば、Power BI を使用できます。 現在 2 つの既知の問題があります。
@@ -23,7 +24,7 @@ Power BI は Office 365 Dedicated のカスタマーにもサポートされる�
 ## <a name="groups"></a>グループ
 [グループ] のコンテキスト メニューで **[メンバー]** または **[カレンダー]** を選択すると、メール アプリにリダイレクトされます。  **[ファイル]** と **[会話]** は正常に動作します。
 
-![](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
+![Power BI からのグループ](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
 
 ## <a name="iphone-app---sign-in-with-vanity-domain-leads-to-error"></a>iPhone アプリ - バニティ ドメインを使用してサインインするとエラーが発生する
 iPhone アプリでサインインするときに、バニティ ドメインでログインすると、エラーが発生する場合があります。
@@ -33,7 +34,7 @@ iPhone アプリでサインインするときに、バニティ ドメインで
 
 この問題を回避するには、カスタム ドメインではなく、Power BI サービス内のユーザー アイコンをクリックすると一覧表示されるメール アドレスを使ってサインインしてください。
 
-![](media/service-admin-office-365-dedicated-known-issues/sign-in-address.png)
+![サインインする電子メール](media/service-admin-office-365-dedicated-known-issues/sign-in-address.png)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

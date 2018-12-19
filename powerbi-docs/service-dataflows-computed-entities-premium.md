@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8131722d0e035f28fcb88827b1a68c2da97959cb
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268092"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180670"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Power BI Premium での計算されたエンティティの使用 (プレビュー)
 
@@ -77,16 +77,21 @@ Power BI サービスのデータフロー作成ツールで **[エンティテ�
 
 Power BI Premium 容量からワークスペースを削除した場合、関連付けられているデータフローが更新されなくなることに注意してください。 
 
+組織の Azure Data Lake Storage Gen2 アカウント内で作成されたデータフローで作業をしているとき、リンクされたエンティティと計算されたエンティティは、そのエンティティが同じストレージ アカウントに存在するときにのみ機能します。 詳しくは、「[データ フロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)」をご覧ください。
+
+さらに、CDM フォルダーから作成されたデータフローには、リンクされたエンティティは使用できません。 「[データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)](service-dataflows-add-cdm-folder.md)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 
 この記事では、Power BI サービスで使用できる計算されたエンティティとデータフローについて説明しました。 他にも役に立つ記事がいくつかあります。
 
-
 * [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
 * [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
 * [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [ワークスペース データ フローの設定の構成 (プレビュー)](service-dataflows-configure-workspace-storage-settings.md)
+* [データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)](service-dataflows-add-cdm-folder.md)
+* [データ フロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Power Query とスケジュールされた更新について詳しくは、次の記事をご覧ください。
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)

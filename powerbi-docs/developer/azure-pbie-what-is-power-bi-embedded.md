@@ -1,25 +1,26 @@
 ---
-title: Azure Power BI Embedded の概要 | Microsoft Docs
-description: Power BI Embedded は、ISV や開発者が Power BI の機能を使いやすくすることを目的としており、目を見張るようなビジュアル、レポート、ダッシュボードをアプリに簡単に追加できるようになっています。
+title: Azure Power BI Embedded と埋め込み分析の概要 | Microsoft Docs
+description: Power BI Embedded は、ISV や開発者が Power BI の機能を使いやすくする埋め込み分析ツールを意図しており、目を見張るようなビジュアル、レポート、ダッシュボードをアプリに簡単に追加できます。 Power BI Embedded を使用して、埋め込み分析ソフトウェア、埋め込み分析ツール、または埋め込みビジネス インテリジェンス ツールを使用する方法について説明します。
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.component: ''
 ms.devlang: csharp, javascript
 ms.topic: overview
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: b46508aeca35769fb27324fb20f502ac66cb55ab
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 70cb8f72e5749f7eed70d4476f3af87e272813f4
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360556"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180693"
 ---
-# <a name="what-is-power-bi-embedded-in-azure"></a>Azure の Power BI Embedded とは何か 
+# <a name="what-is-power-bi-embedded-in-azure"></a>Azure の Power BI Embedded とは何か
 
-Power BI Embedded は、ISV や開発者が Power BI の機能を使いやすくすることを目的としています。 Power BI Embedded では Power BI の各種機能がシンプルになりました。目を見張るようなビジュアル、レポート、ダッシュボードをアプリに簡単に追加できます。 Microsoft Azure で開発されたアプリと同様に、機械学習と IoT を使用します。 ISV がナビゲーションが簡単なデータ探索をアプリで有効にすることで、ISV の顧客は十分な情報を得た上で迅速に意思決定できます。
+Power BI Embedded は、ISV や開発者が Power BI の機能と埋め込み分析を使いやすくすることを目的としています。 Power BI Embedded では Power BI の各種機能がシンプルになりました。目を見張るようなビジュアル、レポート、ダッシュボードをアプリに簡単に追加できます。 Microsoft Azure で開発されたアプリと同様に、機械学習と IoT を使用します。 ISV がナビゲーションが簡単なデータ探索をアプリで有効にすることで、ISV の顧客は十分な情報を得た上で迅速に意思決定できます。
 
 > [!VIDEO https://www.youtube.com/embed/iEHfUuoZseo]
 
@@ -27,7 +28,7 @@ Power BI Embedded は、ISV や開発者が Power BI の機能を使いやすく
 
 Power BI Embedded を利用することで、ISV や開発者は Power BI API を利用してアプリにインテリジェンスを埋め込むとき、さらに柔軟な手法を採用しています。 ISV や開発者は Microsoft の超一流の分析エンジンをアプリに組み込むことで開発労力を最小限に抑え、個性的なアプリを開発し、短期間で市場に投入できます。 同様に、開発者は視覚的分析機能を開発するより、顧客の要望を満たすソリューションに集中的に取り組むことに時間をかけられます。 また、Power BI Embedded では、使い慣れている開発環境内で作業できます (Visual Studio や Azure)。
 
-Power BI Premium を利用して Power BI コンテンツを埋め込んだアプリをお持ちですか。 アプリを開発する ISV や開発者か、そのアプリを使用する組織は何も行う必要がありません。 開発者もお客様も中断なくアプリの使用を続けられます。 Power BI Workspace Collections で開発したアプリをお持ちで、統合 API サーフェスや新しい容量ベースの Azure SKU にご関心がございましたら、移行ガイドをご覧ください。
+Power BI Premium を利用して Power BI コンテンツを埋め込んだアプリをお持ちですか。 アプリを開発する ISV や開発者であっても、そのアプリを使用する組織であっても、何も行う必要がありません。 開発者もお客様も中断なくアプリの使用を続けられます。 Power BI Workspace Collections で開発したアプリをお持ちで、統合 API サーフェスや新しい容量ベースの Azure SKU にご関心がございましたら、移行ガイドをご覧ください。
 
 ## <a name="comparing-power-bi-embedded-with-power-bi-premium"></a>Power BI Embedded と Power BI Premium の比較
 
@@ -39,7 +40,7 @@ Power BI Premium を利用して Power BI コンテンツを埋め込んだア�
 
 Power BI Embedded を利用すれば、開発者が最も得意とすること、すなわち、優れたアプリを開発することに集中できます。 既にお持ちのツールやスキルを Power BI Embedded と共に利用して管理したり、開発したりできます。
 
-* [**Azure Portal**](https://portal.azure.com/): すべての Azure サービスを管理するための Web ベースのアプリケーション
+* [**Azure portal**](https://portal.azure.com/):すべての Azure サービスを管理するための Web ベースのアプリケーション
 * [**Visual Studio Code**](https://code.visualstudio.com/docs): Windows、macOS、Linux 向けのオープンソースのコード エディターであり、無料でダウンロードできます。拡張機能をサポートします
 * [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/): 機能が豊富な視覚的分析付き対話型レポートを作成するためのツールです。無料でダウンロードできます
 
@@ -47,9 +48,9 @@ REST API を利用する Power BI Embedded では、あらゆる言語で開発�
 
 ## <a name="engage-with-the-power-bi-engineering-team"></a>Power BI エンジニアリング チームと交流する
 
-* [コミュニティ](https://community.powerbi.com/): Power BI について質問する
-* [Power BI のアイデア](https://ideas.powerbi.com): 機能を要望する/機能に投票する
-* [Reddit](https://www.reddit.com/r/PowerBI/): Power BI について話し合う
+* [コミュニティ](https://community.powerbi.com/):Power BI について質問する
+* [Power BI のアイデア](https://ideas.powerbi.com):機能を要望する/機能に投票する
+* [Reddit](https://www.reddit.com/r/PowerBI/):Power BI について話し合う
 
 ## <a name="next-steps"></a>次の手順
 
@@ -57,4 +58,4 @@ REST API を利用する Power BI Embedded では、あらゆる言語で開発�
 
 Power BI Embedded 容量の作成方法については、「[Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md)」 (Azure Portal で Power BI Embedded 要領を作成する) を参照してください。
 
-Power BI コンテンツの埋め込みについては、[Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/)に関するページをご覧ください。
+Power BI コンテンツの埋め込みについて詳しくは、[Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/)に関するページをご覧ください。

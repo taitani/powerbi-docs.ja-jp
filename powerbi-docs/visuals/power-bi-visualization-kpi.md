@@ -8,15 +8,15 @@ featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/24/2018
+ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0492390ae47c8d5aa0930a063370712c80d61de2
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c726ba8d50f077a640879f666fd441e27b19d3c7
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829644"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979348"
 ---
 # <a name="kpi-visuals"></a>KPI ビジュアル
 主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 KPI の詳細については、[Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050) を参照してください。
@@ -49,7 +49,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
 1. レポート ビューでレポートを開き、黄色のタブを選択して新しいページを追加します。    
 2. [フィールド] ウィンドウで、**[Sales]\(売上\)、[Total Units This Year]\(今年の合計単位\)** の順に選択します。  これがインジケーターになります。
 3. **[時間] > [FiscalMonth]** を追加します。  これはトレンドを表します。
-4. 重要: **FiscalMonth** 単位でグラフを並べ替えます。 ビジュアルを KPI に変換すると、並べ替えオプションはなくなります。
+4. 重要:**FiscalMonth** 単位でグラフを並べ替えます。 ビジュアルを KPI に変換すると、並べ替えオプションはなくなります。
 
     ![](media/power-bi-visualization-kpi/power-bi-chart.png)
 5. [視覚化] ウィンドウから [KPI] アイコンを選択して、ビジュアルを KPI に変換します。

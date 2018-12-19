@@ -4,25 +4,26 @@ description: Power BI のコンテンツ パック、PBIX ファイル、Excel �
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: fa6c6094e4fdfefebd0c7bb1f9ec8fa87d41766b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e46cfffc28bd77685e0a34b492e54234a76afa35
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717794"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180900"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI で使用できるサンプル データ
 Power BI を初めて試してみたくてもデータがない場合や、  データセットはあっても Power BI の動作が (まだ) よくわからないためデータセットが壊れるのではないかと心配になる場合があります。
 
 でも大丈夫です。 obviEnce ([www.obvience.com](http://www.obvience.com/)) と Microsoft から、Power BI を使い慣れていないユーザーのためのサンプルが提供されています。  データは匿名化されており、金融、人材、販売など、さまざまな業種のものがあります。 また、Power BI のオンライン ドキュメントを読むと、チュートリアルや例でこれらのサンプルが使われているのがわかります。これは実際に試してみることができます。      
 
-   ![](media/sample-datasets/power-bi-samples.png)
+   ![入手可能なサンプル](media/sample-datasets/power-bi-samples.png)
 
 これらのサンプルはいずれも、コンテンツ パック、個別の Excel ブック、.pbix ファイルなどの複数の形式で利用できます。 内容や入手方法がわからなくても心配することはありません。 この記事ではそれについて説明します。 各サンプルについて、サンプルのストーリーとさまざまなシナリオについて説明する *ツアー* が用意されています。 マネージャーの質問に答える、競争力について詳しく調べる、レポートやダッシュボードを作成して共有する、ビジネスのシフトを説明するなど、さまざまなシナリオがあります。   
 
@@ -48,42 +49,42 @@ ObviEnce は、Microsoft Business Intelligence に重点を置いた ISV およ�
 ## <a name="available-samples"></a>入手可能なサンプル
 8 つのサンプルを使用できます。  それぞれが異なる業種を表します。
 
-### <a name="customer-profitability-sample--mediasample-datasetspower-bi-cp2png"></a>お客様の収益性のサンプル  ![](media/sample-datasets/power-bi-cp2.png)
+### <a name="customer-profitability-sample--customer-profitability-samplemediasample-datasetspower-bi-cp2png"></a>お客様の収益性のサンプル  ![お客様の収益性のサンプル](media/sample-datasets/power-bi-cp2.png)
 [お客様の収益性のサンプルを使ってみる](sample-customer-profitability.md)
 
 この業界サンプルは、経営陣、製品、および顧客に関する CFO の主要な指標を分析します。 会社の収益性に影響を与える要因を調査することができます。
 
-### <a name="human-resources-sample--mediasample-datasetspower-bi-hrpng"></a>人事のサンプル  ![](media/sample-datasets/power-bi-hr.png)
+### <a name="human-resources-sample--human-resources-samplemediasample-datasetspower-bi-hrpng"></a>人事のサンプル  ![人事のサンプル](media/sample-datasets/power-bi-hr.png)
 [人事のサンプルを使ってみる](sample-human-resources.md)
 
 この業界サンプルは、新規採用者、アクティブな従業員、および退職した従業員を分析することにより、会社の採用戦略に焦点を合わせています。  データを探索することにより、自主退職の傾向と採用戦略の偏りを調べることができます。
 
-### <a name="it-spend-analysis-sample-mediasample-datasetspower-bi-itpng"></a>IT 支出分析のサンプル ![](media/sample-datasets/power-bi-it.png)
+### <a name="it-spend-analysis-sample-it-spend-analysis-samplemediasample-datasetspower-bi-itpng"></a>IT 支払い分析のサンプル ![IT 支払い分析のサンプル](media/sample-datasets/power-bi-it.png)
 [IT 支出分析のサンプルを使ってみる](sample-it-spend.md)
 
 この業界サンプルは、会社の IT 部門の予定コストと実績コストを比較分析します。 比較することで当年度における予算が適切に組まれたかどうかを把握し、当初の計画から大きく乖離している分野を調べることができます。 この例の会社では年間予算が組まれ、四半期ごとに最新予測 (LE) が出されて当該会計年度における IT 支出の変化を分析しています。
 
-### <a name="opportunity-analysis-sample--mediasample-datasetspower-bi-oapng"></a>営業案件の分析のサンプル  ![](media/sample-datasets/power-bi-oa.png)
+### <a name="opportunity-analysis-sample--opportunity-analysis-samplemediasample-datasetspower-bi-oapng"></a>営業案件の分析のサンプル  ![営業案件の分析のサンプル](media/sample-datasets/power-bi-oa.png)
 [営業案件の分析のサンプルを使ってみる](sample-opportunity-analysis.md)
 
 この業界サンプルは、ソフトウェア会社の販売チャネルを調べます。 セールス マネージャーは直販と代理店の販売チャネルをモニターするため、地域、商談の規模、チャネルごとの営業案件と売上を追跡します。
 
-### <a name="procurement-analysis-sample--mediasample-datasetspower-bi-papng"></a>調達の分析のサンプル  ![](media/sample-datasets/power-bi-pa.png)
+### <a name="procurement-analysis-sample--procurement-analysis-samplemediasample-datasetspower-bi-papng"></a>調達の分析のサンプル  ![調達の分析のサンプル](media/sample-datasets/power-bi-pa.png)
 [調達の分析のサンプルを使ってみる](sample-procurement.md)
 
 この業界サンプルは、経営陣、製品、および顧客に関する CFO の主要な指標を分析します。 会社の収益性に影響を与える要因を調査することができます。
 
-### <a name="retail-analysis-sample--mediasample-datasetspower-bi-rspng"></a>小売の分析のサンプル  ![](media/sample-datasets/power-bi-rs.png)
+### <a name="retail-analysis-sample--retail-analysis-samplemediasample-datasetspower-bi-rspng"></a>小売りの分析のサンプル  ![小売りの分析のサンプル](media/sample-datasets/power-bi-rs.png)
 [小売りの分析のサンプルを使ってみる](sample-retail-analysis.md)
 
 この業界サンプルは、複数の店舗や地域で販売されたアイテムの小売店の売上データを分析したものです。 メトリックは、売上、出荷単位、粗利、差異、および新店舗の分析に関して、本年度と昨年度の業績を比較します。
 
-### <a name="sales-and-marketing-sample--mediasample-datasetspower-bi-smpng"></a>売上およびマーケティングのサンプル  ![](media/sample-datasets/power-bi-sm.png)
+### <a name="sales-and-marketing-sample--sales-and-marketing-samplemediasample-datasetspower-bi-smpng"></a>売上およびマーケティングのサンプル  ![売上およびマーケティングのサンプル](media/sample-datasets/power-bi-sm.png)
 [売上およびマーケティングのサンプルを使ってみる](sample-sales-and-marketing.md)
 
 この業界サンプルは、製造会社 VanArsdel Ltd を分析します。これにより、最高マーケティング責任者は業界動向と VanArsdel の市場シェアを監視できます。  このサンプルを調査することにより、会社の市場シェア、製品の数量、売り上げ、およびセンチメントを見つけることができます。
 
-### <a name="supplier-quality-sample--mediasample-datasetspower-bi-sqpng"></a>サプライヤー クオリティ分析のサンプル  ![](media/sample-datasets/power-bi-sq.png)
+### <a name="supplier-quality-sample--supplier-quality-samplemediasample-datasetspower-bi-sqpng"></a>サプライヤー クオリティ分析のサンプル  ![サプライヤー クオリティ分析のサンプル](media/sample-datasets/power-bi-sq.png)
 [サプライヤー品質のサンプルを使ってみる](sample-supplier-quality.md)
 
 この業界サンプルは、典型的なサプライ チェーンの課題の 1 つである、サプライヤー クオリティ分析に焦点を合わせています。 この分析では、欠陥の総数と、欠陥が引き起こす総ダウンタイムという 2 つの主要な指標を確認できます。 このサンプルには、2 つの主要な目的があります。1 つは品質の点で最良と最悪のサプライヤーを把握すること、2 つ目はどのプラントがより的確に欠陥を検出して排除し、ダウンタイムを最小化しているかを特定することです。
@@ -100,16 +101,16 @@ ObviEnce は、Microsoft Business Intelligence に重点を置いた ISV およ�
 1. Power BI サービス (app.powerbi.com) を開いてログインします。
 2. 左下隅にある **[データの取得]** を選びます。
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![[Get Data]\(データの取得\) アイコン](media/sample-datasets/power-bi-get-data.png)
 3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
 
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+   ![サンプル アイコン](media/sample-datasets/power-bi-samples-icon.png)
 4. サンプルの 1 つを選び、そのサンプルの説明を開きます。 次に、**[接続]** を選びます。  
 
-   ![](media/sample-datasets/power-bi-connect.png)
+   ![サンプルを選択して [接続] を選択](media/sample-datasets/power-bi-connect.png)
 5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 サンプルを使って Power BI を試してみます。  
 
-   ![](media/sample-datasets/power-bi-asterisk.png)
+   ![新しいコンテンツのアスタリスク*](media/sample-datasets/power-bi-asterisk.png)
 
 データが用意できたので、それを使ってみてください。  サンプルのコンテンツ パックを使ってチュートリアルを試したり、単に Power BI サービスを開いて調べたりできます。
 
@@ -128,10 +129,10 @@ ObviEnce は、Microsoft Business Intelligence に重点を置いた ISV およ�
    * [売上およびマーケティングのサンプル](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. ダウンロードしたファイルを保存します。 どこにファイルを保存するかによって違いがあります。
 
-   * ![](media/sample-datasets/power-bi-local-file2.png)  **ローカル** - コンピューターのローカル ドライブまたは組織内の別の場所にファイルを保存した場合、ファイルを Power BI にインポートできます。 実際はファイルがローカル ドライブに残ったままになるため、本当にファイル全体が Power BI にインポートされるわけではありません。 実際には、Power BI サイトに新しいデータセットが作成され、データ (場合によってはデータ モデル) がデータセットに読み込まれるという処理が発生しています。 ファイルにレポートが含まれている場合、これらのレポートは Power BI サイトの [レポート] に表示されます。
-   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - ビジネス用** - OneDrive for Business を利用していて、Power BI にサインインするときと同じアカウントを使ってサインインした場合、Excel、Power BI、または .CSV ファイル内の作業内容と Power BI のデータセット、レポート、およびダッシュボードとを最も効果的に同期できます。 Power BI と OneDrive はどちらもクラウドにあるため、Power BI は約 1 時間ごとに OneDrive 上のファイルに接続します。 なんらかの変更が見つかった場合には、データセット、レポート、およびダッシュボードが Power BI で自動的に更新されます。
-   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 個人用** – OneDrive アカウントにファイルを保存すると、OneDrive for Business の場合と同じメリットが多数得られます。 最も大きな違いは、([データの取得]、[ファイル]、[OneDrive - 個人用] の順に選択して) ファイルに初めて接続するときに、Microsoft アカウントを使って OneDrive にサインインする必要があるという点です (このアカウントは通常、Power BI へのサインインに使うものとは異なります)。 Microsoft アカウントを使って OneDrive にサインインするときは、[サインインしたままにする] オプションを必ず選択してください。 これにより、Power BI は、約 1 時間ごとにファイルに接続して、Power BI のデータセットの同期を保つことができます。
-   * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint チーム サイト** – Power BI のファイルを SharePoint – チーム サイトに保存することは、OneDrive for Business に保存することとほぼ同じです。 最も大きな違いは、Power BI からファイルに接続する方法にあります。 URL を指定したり、ルート フォルダーに接続したりできます。
+   * ![ローカル](media/sample-datasets/power-bi-local-file2.png)  **ローカル** - コンピューター上のローカル ドライブまたは組織内の別の場所にファイルを保存した場合、ファイルを Power BI にインポートできます。 実際はファイルがローカル ドライブに残ったままになるため、本当にファイル全体が Power BI にインポートされるわけではありません。 実際には、Power BI サイトに新しいデータセットが作成され、データ (場合によってはデータ モデル) がデータセットに読み込まれるという処理が発生しています。 ファイルにレポートが含まれている場合、これらのレポートは Power BI サイトの [レポート] に表示されます。
+   * ![OneDrive Business](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Business** - OneDrive for Business を利用していて、Power BI にサインインするときと同じアカウントを使ってサインインした場合、Excel、Power BI、または .CSV ファイル内の作業内容と Power BI のデータセット、レポート、およびダッシュボードとを最も効果的に同期できます。 Power BI と OneDrive はどちらもクラウドにあるため、Power BI は約 1 時間ごとに OneDrive 上のファイルに接続します。 なんらかの変更が見つかった場合には、データセット、レポート、およびダッシュボードが Power BI で自動的に更新されます。
+   * ![OneDrive 個人用](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 個人用** – OneDrive アカウントにファイルを保存すると、OneDrive for Business の場合と同じメリットが多数得られます。 最も大きな違いは、([データの取得]、[ファイル]、[OneDrive - 個人用] の順に選択して) ファイルに初めて接続するときに、Microsoft アカウントを使って OneDrive にサインインする必要があるという点です (このアカウントは通常、Power BI へのサインインに使うものとは異なります)。 Microsoft アカウントを使って OneDrive にサインインするときは、[サインインしたままにする] オプションを必ず選択してください。 これにより、Power BI は、約 1 時間ごとにファイルに接続して、Power BI のデータセットの同期を保つことができます。
+   * ![SharePoint チーム サイト](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint チーム サイト** – Power BI のファイルを SharePoint – チーム サイトに保存することは、OneDrive for Business に保存することとほぼ同じです。 最も大きな違いは、Power BI からファイルに接続する方法にあります。 URL を指定したり、ルート フォルダーに接続したりできます。
 3. Power BI サービス (app.powerbi.com) を開いてログインします。
 
    > [!TIP]
@@ -140,23 +141,23 @@ ObviEnce は、Microsoft Business Intelligence に重点を置いた ISV およ�
    >
 4. 左下隅にある **[データの取得]** を選びます。
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![[Get Data]\(データの取得\) アイコン](media/sample-datasets/power-bi-get-data.png)
 5. 表示される [データの取得] ページで、**[ファイル] > [取得]** を選びます。
 
-     ![](media/sample-datasets/power-bi-files.png)
+     ![[ファイル] > [Get]\(取得\)](media/sample-datasets/power-bi-files.png)
 6. サンプルをダウンロードして保存した場所に移動します。
 
-   ![](media/sample-datasets/power-bi-files3.png)
+   ![サンプルを保存した場所](media/sample-datasets/power-bi-files3.png)
 7. ファイルを選び (この例では、OneDrive for Business に保存した **Procurement Analysis Sample.xlsx**)、**[接続]** を選びます。
 
-   ![](media/sample-datasets/power-bi-connect2.png)
+   ![[One Drive for Business] > [接続]](media/sample-datasets/power-bi-connect2.png)
 8. データをインポートするか、またはブックを Power BI に取り込んで Excel Online とまったく同じように表示するかを選びます。
 
-    ![](media/sample-datasets/power-bi-import.png)
+    ![[インポート] または [接続]](media/sample-datasets/power-bi-import.png)
 9. **[インポート]** を選んだ場合、Power BI はサンプル ブックをインポートし、"**調達の分析のサンプル**" という名前の新しいデータセットとして追加します。  ブックに Power View のシート、テーブル、または範囲や、データ モデルがある場合、Power BI でも (同じ名前の) レポートが作成されます。 そして、ダッシュボードをまだ開いていない場合は、新しいダッシュボードが自動的に作成されます  (**[データの取得]** をクリックするときにダッシュボードを開いてあった場合は、ダッシュボードに新しい空のタイルが表示されて、  そのタイルをクリックすると、追加したデータセットのレポートに移動します)。 新しいコンテンツにはサンプルにちなんだ名前が付けられ、黄色いアスタリスクで示されます。
 10. **[データセットの準備ができました]**  画面が表示されたら、**[データセットの表示]** または **[クイック分析情報を入手する]** を選ぶか、単に Power BI の左側のナビゲーション バーを使って関連するレポートまたはダッシュボードを探して開きます。  
 
-     ![](media/sample-datasets/power-bi-ready.png)
+     ![データセットの表示](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(省略可能) Excel 自体で Excel のサンプルを表示する
 Excel ブックのデータが Power BI のデータセットやレポートにどのように変換されるのかを確認したい場合は、 Excel のサンプルを ***Excel で***開いてワークシートを調べると、理解する役に立ちます。
@@ -187,13 +188,13 @@ Excel ブックのデータが Power BI のデータセットやレポートに�
 
 1. Power BI Desktop で **[ファイル]、[開く]** の順に選択し、サンプル .pbix を保存した場所に移動します。
 
-   ![](media/sample-datasets/power-bi-desktop-open.png)
+   ![[ファイル] > [Open in Power BI Desktop]\(Power BI Desktop で開く\)](media/sample-datasets/power-bi-desktop-open.png)
 4. .pbix ファイルを選択して、Power BI Desktop で開きます。
 
 ## <a name="next-steps"></a>次の手順
 [Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
 
-[チュートリアル: Power BI のサンプルに接続する](sample-tutorial-connect-to-the-samples.md)
+[チュートリアル:Power BI のサンプルに接続する](sample-tutorial-connect-to-the-samples.md)
 
 [Power BI のデータ ソース](service-get-data.md)
 

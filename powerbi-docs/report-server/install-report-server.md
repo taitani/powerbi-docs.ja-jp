@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 12/07/2018
 ms.author: maggies
-ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: a4914bf0fb6945bc5ee45bdf6559ca75bbd7c2b5
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565914"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180946"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
@@ -26,6 +26,10 @@ Power BI Report Server をダウンロードするには、「[Power BI Report S
 
 ## <a name="before-you-begin"></a>始める前に
 Power BI Report Server をインストールする前に、「[Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件](system-requirements.md)」を確認することをお勧めします。
+
+ > [!IMPORTANT]
+ > Power BI Report Server は、読み取り専用ドメイン コントローラー (RODC) がある環境にインストールできます。ただし、Power BI Report Server が正常に機能するためには、読み取り/書き込みドメイン コントローラーにアクセスできることが必要です。 Power BI Report Server が RODC にしかアクセスできない場合は、サービスを管理しようとしたときにエラーが発生する可能性があります。
+
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Report Server のプロダクト キー
 

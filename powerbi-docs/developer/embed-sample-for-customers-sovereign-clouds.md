@@ -1,23 +1,25 @@
 ---
-title: 政府およびソブリン クラウド顧客向けのアプリケーションに Power BI コンテンツを埋め込む
-description: Power BI API を使って、Web アプリに顧客向けのダッシュボード、タイル、またはレポートを統合する (埋め込む) 方法を説明します。
+title: 政府およびソブリン クラウド顧客向けのアプリケーションに Power BI コンテンツを埋め込むための埋め込み分析
+description: Power BI API を使って、アプリケーションに顧客向けの分析情報用のレポート、ダッシュボード、タイルを統合する (埋め込む) 方法について説明します。 埋め込み分析ソフトウェア、埋め込み分析ツール、または埋め込みビジネス インテリジェンス ツールを使って、ご自身のアプリケーションに Power BI を統合する方法について説明します。
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003158"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180624"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>チュートリアル: Power BI のダッシュボード、タイル、レポートをソブリン クラウド向けアプリケーションに埋め込む
+# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>チュートリアル:Power BI のダッシュボード、タイル、レポートをソブリン クラウド向けアプリケーションに埋め込む
 
-顧客向けのデータを統合するときに、Power BI .NET SDK と Power BI JavaScript API を使って、ダッシュボード、タイル、またはレポートを Web アプリケーションに埋め込む方法について説明します。
+分析コンテンツをご自身のソブリン クラウド向けのビジネス プロセス アプリケーション内に埋め込む方法について説明します。 Power BI .NET SDK と Power BI JavaScript API を使って、ご自身の Web アプリケーションにレポート、ダッシュボード、またはタイルを埋め込むことができます。
 
 Power BI はソブリン (プライベート) クラウドもサポートしています。
 
@@ -132,7 +134,7 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
 
 * China Cloud 向け Power BI - https://app.powerbi.cn/apps
 
-[顧客向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をダウンロードした場合、サンプルが Azure AD に対して認証を実行できるように、登録した後で取得する **applicationId** を使います。 サンプルを構成するには、*web.config* ファイルの **applicationId** を変更します。
+[顧客向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をダウンロードした場合、サンプルが Azure AD に対して認証を実行できるように、取得する **applicationId** を使います。 サンプルを構成するには、*web.config* ファイルの **applicationId** を変更します。
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>ステップ 2 - Azure AD からアクセス トークンを取得する
 

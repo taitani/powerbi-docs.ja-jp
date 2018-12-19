@@ -1,21 +1,22 @@
 ---
-title: OneDrive のコンマ区切り値 (.csv) ファイルから作成されたデータセットを更新する
+title: OneDrive の .csv ファイルから作成されたデータセットを更新する
 description: OneDrive のコンマ区切り値 (.csv) ファイルから作成されたデータセットを更新する
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 6e6ce7a80e810ac8c05f6a4ab70c2d19f2201262
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c06d9c56051ccb02d17d695561bc6caa462e99c3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670357"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025536"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online の .CSV ファイルから作成されたデータセットを更新する
 ## <a name="what-are-the-advantages"></a>使用する利点

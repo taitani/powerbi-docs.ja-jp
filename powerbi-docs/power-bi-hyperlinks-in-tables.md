@@ -1,28 +1,30 @@
 ---
-title: テーブルにハイパーリンクを追加する方法
-description: テーブル内のハイパーリンク
-author: maggiesMSFT
-manager: kfile
+title: テーブルにハイパーリンクを追加する
+description: Power BI Desktop を使用してハイパーリンクを作成します。 次に、Desktop または Power BI サービスを使って、レポートのテーブルとマトリックスにハイパーリンクを追加します。
+author: mihart
+manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/22/2018
-ms.author: maggies
+ms.date: 12/06/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c1fc61d4a667b10728af8b7496e20803d024a83
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 92224e00da95714125a8e15c27432e8d305ae0f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187561"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180555"
 ---
-# <a name="hyperlinks-in-tables"></a>テーブル内のハイパーリンク
-このトピックでは、Power BI Desktop を使ってハイパーリンクを作成する方法を説明します。 作成した後は、Desktop または Power BI サービスを使って、レポートのテーブルとマトリックスにハイパーリンクを追加します。 
+# <a name="add-hyperlinks-to-a-table"></a>テーブルにハイパーリンクを追加する
+このトピックでは、Power BI Desktop を使ってハイパーリンクを作成する方法を説明します。 次に、Desktop または Power BI サービスを使って、レポートのテーブルとマトリックスにハイパーリンクを追加します。 
 
-![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
+![ハイパーリンク付きのテーブル](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
-> **注**: [ダッシュボード上のタイル](service-dashboard-edit-tile.md)内および[ダッシュボード上のテキスト ボックス](service-dashboard-add-widget.md)内のハイパーリンクは、Power BI サービスを使ってその場で作成できます。 [レポートのテキスト ボックス](service-add-hyperlink-to-text-box.md)内のハイパーリンクは、Power BI サービスと Power BI Desktop を使ってその場で作成できます。
+> [!NOTE]
+> [ダッシュボード上のタイル](service-dashboard-edit-tile.md)内および[ダッシュボード上のテキスト ボックス](service-dashboard-add-widget.md)内のハイパーリンクは、Power BI サービスを使ってその場で作成できます。 [レポートのテキスト ボックス](service-add-hyperlink-to-text-box.md)内のハイパーリンクは、Power BI サービスと Power BI Desktop を使ってその場で作成できます。
 > 
 > 
 
@@ -36,17 +38,20 @@ Power BI Desktop ではテーブルやマトリックス内にハイパーリン
 1. ハイパーリンクがデータセット内のフィールドとして存在していない場合は、Desktop を使用し、[カスタム列](desktop-common-query-tasks.md)として追加します。
 2. データ ビューで、その列を選び、**[モデリング]** タブで **[データ カテゴリ]** のドロップダウンを選びます。
    
-    ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
+    ![[データ カテゴリ] のドロップダウン リスト](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. **[Web URL]** を選びます。
 4. レポート ビューに切り替え、Web URL としてカテゴリ化されたフィールドを使用してテーブルまたはマトリックス作成します。 ハイパーリンクは、青色で下線付きの表示です。
-    ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
-> **注**: URL は、**http:// 、 https://**、**www** のいずれかで始まっている必要があります。
-> 
->   
-5. テーブルに長い URL が表示されないようにするには、代わりにハイパーリンク アイコン ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) を表示することができます。 マトリックスにはアイコンを表示できないことに注意してください。
+
+    ![青色で下線付きのリンク](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+
+    > [!NOTE]
+    > URL は、**http:// 、 https://**、**www** のいずれかで始まっている必要があります。
+    >
+   
+1. テーブルに長い URL が表示されないようにするには、代わりにハイパーリンク アイコン  ![ハイパーリンク アイコン](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) を表示できます。 マトリックスにはアイコンを表示できないことに注意してください。
    
    * グラフを選んでアクティブにします。
-   * ペイント ローラー アイコン ![](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) を選んで、[書式設定] タブを開きます。
+   * ペイント ローラー アイコン ![ペイント ローラー アイコン](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) を選んで [書式設定] タブを開きます。
    * **[値]** を展開し、**[URL アイコン]** を探して、**[オン]** にします。
 6. (省略可能) [レポートを Desktop から Power BI サービスに発行](guided-learning/publishingandsharing.yml?tutorial-step=2)し、Power BI サービスでレポートを開きます。 ハイパーリンクは同様に機能します。
 
@@ -64,26 +69,27 @@ Power BI のテーブルおよびマトリックスにハイパーリンクを�
 1. Excel でブックを開きます。
 2. **[PowerPivot]** タブを選び、 **[管理]** を選びます。
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
-3. PowerPivot が開いたら、**[詳細設定]** タブを選びます。
+   ![Excel で PowerPivot を開く](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
+1. PowerPivot が開いたら、**[詳細設定]** タブを選びます。
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
+   ![PowerPivot の [詳細設定] タブ](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
 4. Power BI テーブル内でハイパーリンクに変換する URL が含まれている列に、カーソルを置きます。
    
-   > **注**: URL は、**http:// 、 https://**、**www** のいずれかで始まっている必要があります。
-   > 
+   > [!NOTE]
+   > URL は、**http:// 、 https://**、**www** のいずれかで始まっている必要があります。
    > 
 5. **[レポートのプロパティ]** グループで、 **[データ カテゴリ]** ドロップダウンを選び、 **[Web URL]** を選びます。 
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
+   ![Excel 内の [データ カテゴリ] ドロップダウン リスト](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
+
 6. Power BI サービスまたは Power BI Desktop から、このブックに接続するか、このブックをインポートします。
 7. [URL] フィールドが含まれるテーブル視覚化を作成します。
    
-   ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+   ![Power BI で [URL] フィールド付きのテーブルを作成する](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-Q: カスタム URL を、テーブルまたはマトリックス内のハイパーリンクとして使用できますか。    
-A: いいえ。 リンク アイコンを使用できます。 ハイパーリンク用のカスタム テキストが必要で、URL の一覧が短い場合には、代わりにテキスト ボックスを使うことができます。
+質問:カスタム URL を、テーブルまたはマトリックス内のハイパーリンクとして使用できますか。    
+回答:いいえ。 リンク アイコンを使用できます。 ハイパーリンク用のカスタム テキストが必要で、URL の一覧が短い場合には、代わりにテキスト ボックスを使うことができます。
 
 
 ## <a name="next-steps"></a>次の手順

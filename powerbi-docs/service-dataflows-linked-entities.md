@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268009"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180647"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Power BI のデータフロー間でエンティティをリンクする (データフロー)
 
@@ -32,6 +32,12 @@ Power BI のデータフローでは、単一のデータ ストレージ ソー
 リンクされたエンティティでは、[Power BI Premium](service-premium.md) サブスクリプションを更新する必要があります。 リンクされたエンティティは、Power BI Premium 容量でホストされているワークスペース上のデータフローで使用できます。 ソース データフローに関する制限はありません。
 
 リンクされたエンティティは、新しい Power BI ワークスペースでのみ正しく動作します。 [新しい Power BI ワークスペース](service-create-the-new-workspaces.md)についての詳細をご覧ください。 すべてのリンクされたデータフローは、正しく動作する新しいワークスペースに存在する必要があります。
+
+> [!NOTE]
+> エンティティは、それが標準エンティティか計算されたエンティティかによって異なります。 標準エンティティ (多くの場合は単にエンティティと呼ばれる) は、SQL データベースなどの外部データ ソースをクエリします。 計算されたエンティティは、Power BI 上に Premium 容量が必要であり、すでに Power BI のストレージ内にあるデータに対して変換を実行します。 
+>
+>ご自身のデータフローが Premium 容量ワークスペースにない場合でも、単一のクエリは引き続き参照できます。また、その変換がストレージ内変換として定義されていない限りは、2 つ以上のクエリを組み合わせることもできます。 このような参照は標準エンティティと見なされます。 これを行うには、データが具体化されず、かつストレージに取り込まれないように、参照されたクエリの **[読み込みを有効にする]** オプションをオフにします。 そこから、これらの **Enable load = false** クエリを参照できます。具体化を希望する結果のクエリに対してのみ **[読み込みを有効にする]** を **[オン]** に設定します。
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>データフロー間でエンティティをリンクする方法
 

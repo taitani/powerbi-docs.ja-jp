@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268110"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180578"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Power BI でのデータフローの作成と使用 (プレビュー)
 
@@ -143,6 +143,10 @@ Power BI のデータフローでは、Power BI のデータ更新プロセス�
 
 エンティティを選択して **[読み込み]** ボタンを選択すると、**Power BI Desktop** の **[フィールド]** ウィンドウにエンティティが表示され、他のデータ セットからの**テーブル**と同じように表示されて動作します。
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>Azure Data Lake Storage Gen2 に格納されたデータ フローの使用
+
+組織によっては、データ フローの作成と管理に独自のストレージを使用することを希望する場合があります。 要件に従い、アクセス許可を適切に管理する場合は、データ フローを Azure Data Lake Storage Gen2 と統合することができます。 概要ドキュメント「[データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)」を始めとする、このアプローチのすべての要件に関するドキュメントが用意されています。
+
 
 ## <a name="troubleshooting-data-connections"></a>データ接続のトラブルシューティング
 
@@ -160,6 +164,7 @@ Power BI のデータフローでは、Power BI のデータ更新プロセス�
 * [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
 * [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
 * [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
 * [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)

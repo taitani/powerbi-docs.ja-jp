@@ -1,31 +1,32 @@
 ---
-title: 組織向けのアプリケーションに Power BI コンテンツを埋め込む
-description: Power BI API を使って、組織向けの Web アプリにレポート、ダッシュボード、タイルを統合する (埋め込む) 方法を説明します。
+title: ご自身の組織向けのアプリケーションに Power BI コンテンツを埋め込むための埋め込み分析
+description: Power BI API を使って、アプリケーションにご自身の組織向けの分析情報用のレポート、ダッシュボード、タイルを統合する (埋め込む) 方法について説明します。 埋め込み分析ソフトウェア、埋め込み分析ツール、または埋め込みビジネス インテリジェンス ツールを使って、ご自身のアプリケーションに Power BI を統合する方法について説明します。
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.topic: tutorial
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.topic: tutorial
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396867"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180762"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>チュートリアル: 組織向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
+# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
 
-このチュートリアルでは、レポートをアプリケーションに統合する方法を示します。 Power BI .NET SDK と Power BI JavaScript API を使用して、組織向けのアプリケーションに Power BI を埋め込みます。 Power BI では、**ユーザー所有データ**を使用して、レポート、ダッシュボード、またはタイルをアプリケーションに埋め込むことができます。 **ユーザー所有データ**を使用すれば、アプリケーションで Power BI サービスを拡張することができます。
+**Power BI** では、ユーザー所有データを使用して、レポート、ダッシュボード、またはタイルをアプリケーションに埋め込むことができます。 **ユーザー所有データ**を使用すれば、アプリケーションで埋め込み分析を使用するように Power BI サービスを拡張できます。 このチュートリアルでは、レポートをアプリケーションに統合する方法を示します。 Power BI .NET SDK と Power BI JavaScript API を使用して、組織向けのアプリケーションに Power BI を埋め込みます。
 
 ![Power BI 埋め込みレポート](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 このチュートリアルでは、以下のタスクについて説明します。
->[!div class="checklist"]
->* Azure にアプリケーションを登録します。
->* Power BI レポートをアプリケーションに埋め込みます。
+> [!div class="checklist"]
+> * Azure にアプリケーションを登録します。
+> * Power BI レポートをアプリケーションに埋め込みます。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -40,9 +41,9 @@ ms.locfileid: "49396867"
 
 アプリケーションへのレポート、ダッシュボード、タイルの埋め込みを開始する前に、埋め込めるように環境が設定されていることを確認します。 セットアップの一環として、次のアクションのいずれかを実行します。
 
-- [埋め込みセットアップ ツール](https://aka.ms/embedsetup/UserOwnsData)を使うと、環境の作成とレポートの埋め込みを段階的に行うサンプル アプリケーションをすぐに使い始め、ダウンロードすることができます。
+* [埋め込みセットアップ ツール](https://aka.ms/embedsetup/UserOwnsData)を使うと、環境の作成とレポートの埋め込みを段階的に行うサンプル アプリケーションをすぐに使い始め、ダウンロードすることができます。
 
-- 環境を手動で設定することにした場合は、次のセクションの手順を行います。
+* 環境を手動で設定することにした場合は、次のセクションの手順を行います。
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Azure Active Directory にアプリケーションを登録する
 
@@ -60,13 +61,13 @@ ms.locfileid: "49396867"
 
     ![新しいアプリの登録](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. 画面の指示に従って、新しいアプリケーションを作成します。 **ユーザー所有データ**の場合、**[アプリケーションの種類]** には **[Web アプリ/API]** を使用します。 また、Azure AD でトークン応答を返すために使用する、**[サインオン URL]** を指定する必要もあります。 アプリケーション固有の値を入力します。 たとえば、「`http://localhost:13526/`」と入力します。
+4. 画面の指示に従って、新しいアプリケーションを作成します。 **ユーザー所有データ**の場合、**[アプリケーションの種類]** には **[Web アプリ/API]** を使用します。 Azure AD でトークン応答を返すために使用する、**[サインオン URL]** を指定します。 アプリケーション固有の値を入力します。 たとえば、「`http://localhost:13526/`」と入力します。
 
     ![アプリの作成](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Azure Active Directory でアプリケーションにアクセス許可を適用する
 
-アプリ登録ページで指定したものに加え、アプリケーションに対するアクセス許可を有効にする必要があります。 アクセス許可を有効にするには、グローバル管理者アカウントでサインインします。
+アプリ登録ページで指定したものに加え、アプリケーションに対するアクセス許可を有効にしてください。 アクセス許可を有効にするには、グローバル管理者アカウントでサインインします。
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory ポータルを使用する
 
@@ -158,7 +159,7 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
 
     ![User Owns Data アプリケーションのサンプル](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. サンプル アプリケーションで **Cloud.config** ファイルを開きます。 アプリケーションを正常に実行するために設定する必要があるいくつかのフィールド (**ApplicationID** および **ApplicationSecret**) があります。
+2. サンプル アプリケーションで **Cloud.config** ファイルを開きます。 アプリケーションを正常に実行するには、**[ApplicationID]** フィールドと **[ApplicationSecret]** フィールドを設定する必要があります。
 
     ![Cloud.config ファイル](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
@@ -168,69 +169,69 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
 
     1. [Azure portal](https://portal.azure.com) にサインインします。
 
-        ![Azure portal のダッシュボード](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure portal のダッシュボード](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    1. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選択します。
+    2. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選択します。
 
-        ![アプリの登録の検索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![アプリの登録の検索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. **ApplicationID** を使用する必要があるアプリケーションを選択します。
+    3. **ApplicationID** を使用する必要があるアプリケーションを選択します。
 
-        ![アプリを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![アプリを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **ApplicationID** として使用します。
+    4. **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **ApplicationID** として使用します。
 
         ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. **ApplicationSecret** は、**Azure** の **[アプリの登録]** セクションの **[キー]** セクションから設定します。
+    **ApplicationSecret** は、**Azure** の **[アプリの登録]** セクションの **[キー]** セクションから設定します。
 
-    1. **ApplicationSecret** を取得するには、次の手順に従います。
+    **ApplicationSecret** を取得するには、次の手順に従います。
 
-        1. [Azure portal](https://portal.azure.com) にサインインします。
+    1. [Azure portal](https://portal.azure.com) にサインインします。
 
-            ![Azure Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-        1. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選択します。
+    2. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選択します。
 
-            ![アプリの登録の検索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![アプリの登録の検索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. **ApplicationSecret** を使用する必要があるアプリケーションを選択します。
+    3. **ApplicationSecret** を使用する必要があるアプリケーションを選択します。
 
-            ![アプリを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![アプリを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-        1. **[設定]** を選択します。
+    4. **[設定]** を選択します。
 
-            ![[設定] を選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+       ![[設定] を選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-        1. **[キー]** を選択します。
+    5. **[キー]** を選択します。
 
-            ![[キー] を選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+       ![[キー] を選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    1. **[説明]** ボックスに名前を入力し、期間を選択します。 次に、**[保存]** を選択して、アプリケーションの**値**を取得します。 キーの値を保存した後で **[キー]** ウィンドウを閉じると、値フィールドは非表示としてのみ表示されます。 その時点では、キー値を取得することはできません。 キー値をなくした場合は、Azure portal で新しいものを作成します。
+    6. **[説明]** ボックスに名前を入力し、期間を選択します。 次に、**[保存]** を選択して、アプリケーションの**値**を取得します。 キーの値を保存した後で **[キー]** ウィンドウを閉じると、値フィールドは非表示としてのみ表示されます。 その時点では、キー値を取得することはできません。 キー値をなくした場合は、Azure portal で新しいものを作成します。
 
-        ![キー値](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+          ![キー値](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    1. **groupId** には、Power BI からアプリ ワークスペースの GUID を入力します。
+    7. **groupId** には、Power BI からアプリ ワークスペースの GUID を入力します。
 
-        ![groupId を入力する](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+       ![groupId を入力する](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    1. **reportId** には、Power BI からレポート GUID を入力します。
+    8. **reportId** には、Power BI からレポート GUID を入力します。
 
-        ![reportId を入力する](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+       ![reportId を入力する](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
 3. 次のようにして、アプリケーションを実行します。
 
-    1. 最初に、**Visual Studio** で **[実行]** を選びます。
+    **Visual Studio** で **[実行]** を選びます。
 
-        ![アプリケーションの実行](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+    ![アプリケーションの実行](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    1. 次に、**[レポートを取得]** を選択します。
+    次に、**[レポートを取得]** を選択します。
 
-        ![コンテンツを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+    ![コンテンツを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    1. サンプル アプリケーションでレポートを表示できるようになります。
+    サンプル アプリケーションでレポートを表示できるようになります。
 
-        ![アプリケーションでレポートを表示する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    ![アプリケーションでレポートを表示する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>アプリケーション内にコンテンツを埋め込む
 

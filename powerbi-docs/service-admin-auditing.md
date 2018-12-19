@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850478"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026824"
 ---
 # <a name="using-auditing-within-your-organization"></a>組織内での監査の使用
 
@@ -73,13 +74,13 @@ Power BI 監査ログは、[Office 365 セキュリティ/コンプアライア�
 
 選択した日付範囲が 90 日間よりも大きい場合は、エラーが表示されます。 最大の日付範囲である 90 日を使用する場合は、**[開始日]** として現在の時刻を選択してください。 そうしないと、開始日が終了日より前であるというエラーが表示されます。 過去 90 日間に監査を有効にしている場合、監査を有効にした日付より前から日付範囲を開始することはできません。
 
-![](media/service-admin-auditing/search-audit-log-by-date.png)
+![日付で検索する](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>監査ログをユーザーで検索する
 
 特定のユーザーが実行したアクティビティの監査ログ エントリを検索できます。 これを行うには、**[ユーザー]** フィールドに 1 つまたは複数のユーザー名を入力します。 ユーザー名は電子メール アドレスに似ています。これはユーザーが Power BI にログインするために使用したアカウントです。 このボックスを空白のままにすると、組織のすべてのユーザー (およびサービス アカウント) のエントリが返されます。
 
-![日付で検索する](media/service-admin-auditing/search-audit-log-by-user.png)
+![ユーザーで検索する](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>検索結果を表示する
 

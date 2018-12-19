@@ -4,18 +4,19 @@ description: Power BI Desktop におけるデータへの接続
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e0430455131b0669dfa744c7a1df6691bda4c782
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 0fc366ad5b42f84f8677be36d1f2093a4ac0fa23
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578154"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025559"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop におけるデータへの接続
 Power BI Desktop を使用すれば、拡大し続けるデータの世界に簡単につながることができます。 Power BI Desktop をお持ちでない場合は、[ダウンロード](http://go.microsoft.com/fwlink/?LinkID=521662)してインストールできます。
@@ -24,6 +25,7 @@ Power BI Desktop では、 *あらゆる種類* のデータ ソースを使用�
 
 ![](media/desktop-connect-to-data/getdatavid_smallv2.gif)
 
+## <a name="example-of-connecting-to-data"></a>データへの接続方法の例
 この例では、 **Web** データ ソースに接続します。
 
 あなたは退職を間近に控えて、陽当たりが良く、税制が有利で、医療が充実した場所への移転を考えているとします。 あるいは、データ アナリストとして、顧客のサポートにそのような情報を必要としているかもしれません。 たとえば、レインコートを製造するクライアントに降雨量が *多い* 場所を販売ターゲットとするよう促す場合です。
@@ -64,7 +66,7 @@ Power BI Desktop では、 *あらゆる種類* のデータ ソースを使用�
 
 もちろん、これはデータ接続が 1 つしかない単純なモデルです。ほとんどの Power BI Desktop のレポートは、さまざまなデータ ソースに接続していて、豊富なデータ モデルを生み出すリレーションシップがあり、ユーザーのニーズに合わせて整形されます。 
 
-### <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)

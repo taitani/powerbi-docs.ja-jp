@@ -1,37 +1,36 @@
 ---
-title: Power BI のサンプルの使用
-description: Power BI のサンプルの使用
+title: Power BI サービス内のサンプルに接続する
+description: Power BI サービスにサンプルをインストールして探索する方法について説明します。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718024"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180969"
 ---
-# <a name="the-power-bi-samples"></a>Power BI のサンプル
+#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI サービス内のサンプルに接続する
 
-最初に「[Power BI で使用できるサンプル データ](sample-datasets.md)」を読むことをお勧めします。 入手方法、保存場所、使用方法、各サンプルのストーリーなどがわかります。 基本的なことがわかったら、このチュートリアルに戻ってください。   
+このチュートリアルでは、次の方法について説明します。 
+- サンプル コンテンツ パックをインポートして Power BI サービスに追加し、コンテンツを開く。 *コンテンツ パック*は、データセットにダッシュボードやレポートがバンドルされているタイプのサンプルです。 
+- Power BI Desktop でサンプルの .pbix ファイルを開く。
 
-### <a name="prerequisites"></a>前提条件
+最初にバックグラウンド情報についての知識を増やしたい場合は、「[Power BI のサンプル データセットに関する記事](sample-datasets.md)」をお読みになることをお勧めします。 入手方法、保存場所、使用方法、各サンプルのストーリーなどがわかります。 基本的なことがわかったら、このチュートリアルに戻ってください。   
+
+## <a name="prerequisites"></a>前提条件
 このサンプルは、Power BI サービスでも Power BI Desktop でも利用できます。 作業を進めるには、小売りの分析のサンプルを開きます。
 
 このチュートリアルで使う *小売の分析* のサンプル コンテンツ パックは、ダッシュボード、レポート、データセットで構成されています。
 特定のコンテンツ パックとそのシナリオに慣れるには、始める前に、「[take a tour of the Retail Analysis sample](sample-retail-analysis.md)」 (Power BI の小売りの分析のサンプル: 使ってみる) を読んでください。
-
-## <a name="about-this-tutorial"></a>このチュートリアルについて
-このチュートリアルでは、 
-- サンプル コンテンツ パックのインポートおよび Power BI サービスへの追加方法と、コンテンツの開き方について説明します。 *コンテンツ パック*は、データセットにダッシュボードやレポートがバンドルされているタイプのサンプルです。 
--  Power BI Desktop でのサンプル .pbix ファイルの開き方
-
 
 ## <a name="samples-and-power-bi-service"></a>サンプルと Power BI サービス
 

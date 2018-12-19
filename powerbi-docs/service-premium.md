@@ -9,13 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
+ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717633"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025444"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium とは何ですか?
 
@@ -31,7 +32,7 @@ Microsoft Power BI Premium には、組織が Power BI サービスを実行す�
 
 ![Power BI Premium の図](media/service-premium/premium-chart.png)
 
-| 領域 | 説明 |
+| 面 | 説明 |
 | --- | --- |
 | **(1)** Premium 容量内の項目 | <ul><li>アプリ ワークスペースへのアクセス (メンバーまたは管理者として) およびアプリの発行には、Power BI Pro ライセンスが必要です。<li>アプリの共有には Pro ライセンスが必要ですが、アプリの利用では必要ありません。<li>割り当てられているライセンスに関係なく、すべてのダッシュボードの受信者が、データ アラートを設定できます。<li>埋め込み用の REST API では、ユーザー アカウントではなく、Pro ライセンスが付与されたサービス アカウントを使用します。</ul> |
 | **(2)** 共有された容量のマイ ワークスペース | <ul><li>アプリの共有にも利用にも、Pro ライセンスが必要です。</ul> |
@@ -45,11 +46,11 @@ Microsoft Power BI Premium には、組織が Power BI サービスを実行す�
 |  | 共有された容量 | Power BI Premium 容量 |
 | --- | --- | --- |
 | **更新間隔** |8/日 |48/日 |
-| **専用ハードウェアでの分離** |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能") |
+| **専用ハードウェアでの分離** |![利用不可](media/service-premium/not-available.png) |![利用可能](media/service-premium/available.png) |
 | _**すべてのユーザー**_**へのエンタープライズ配布** | | |
-| アプリと共有 |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能")<sup>1</sup> |
-| 埋め込み API とコントロール |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能")<sup>2</sup> |
-| **Power BI レポートのオンプレミスでの発行** |![](media/service-premium/not-available.png "利用不可") |![](media/service-premium/available.png "利用可能") |
+| アプリと共有 |![利用不可](media/service-premium/not-available.png) |![利用可能](media/service-premium/available.png) |
+| 埋め込み API とコントロール |![利用不可](media/service-premium/not-available.png) |![利用可能](media/service-premium/available.png)<sup>2</sup> |
+| **Power BI レポートのオンプレミスでの発行** |![利用不可](media/service-premium/not-available.png) |![利用可能](media/service-premium/available.png) |
 | | | |
 
 *<sup>1</sup> 詳細については、[ライセンス タイプ別機能](service-features-license-type.md)に関する記事を参照してください。*  
@@ -88,7 +89,7 @@ Power BI Premium は、さまざまな v コア容量を含むノード構成で
 
 Power BI におけるワークロードを、ユーザーに公開可能な多数のサービスのうちの 1 つとして考えてみましょう。 既定では、**Power BI Premium** と **Power BI Embedded** の容量でサポートされるのは、クラウド内で実行中の Power BI クエリに関連付けられているワークロードのみです。
 
-現在では、2 つの追加ワークロード (**ページ分割されたレポート**および**データフロー**) に対応したプレビュー版サポートが用意されています。 これらのワークロードを Power BI 管理ポータルで、または Power BI REST API を使用して有効にします。 また、各ワークロードで使用できる最大メモリを設定するので、異なるワークロードが相互に及ぼす影響を制御できます。 詳細については、「[ワークロードを構成する](service-admin-premium-manage.md#configure-workloads)」を参照してください。
+現在では、2 つの追加ワークロード(**ページ分割されたレポート**および**データフロー**) に対応したプレビュー版サポートが用意されています。 これらのワークロードを Power BI 管理ポータルで、または Power BI REST API を使用して有効にします。 また、各ワークロードで使用できる最大メモリを設定するので、異なるワークロードが相互に及ぼす影響を制御できます。 詳細については、「[ワークロードを構成する](service-admin-premium-manage.md#configure-workloads)」を参照してください。
 
 ### <a name="default-memory-settings"></a>既定のメモリ設定
 
@@ -98,7 +99,7 @@ Power BI におけるワークロードを、ユーザーに公開可能な多�
 
 |                     | EM3                      | P1                       | P2                      | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| ページ分割されたレポート | 該当なし | 20% (既定値)、10% (最小値) | 20% (既定値)、5% (最小値) | 20% (既定値)、2.5% (最小値) |
+| ページ分割されたレポート | N/A | 20% (既定値)、10% (最小値) | 20% (既定値)、5% (最小値) | 20% (既定値)、2.5% (最小値) |
 | データフロー | 20% (既定値)、8% (最小値)  | 20% (既定値)、4% (最小値)  | 20% (既定値)、2% (最小値) | 20% (既定値)、1% (最小値)  |
 | | | | | |
 
@@ -106,18 +107,18 @@ Power BI におけるワークロードを、ユーザーに公開可能な多�
 
 |                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| ページ分割されたレポート | 該当なし                      | 該当なし                      | 該当なし                     | 20% (既定値)、10% (最小値) | 20% (既定値)、5% (最小値) | 20% (既定値)、2.5% (最小値) |
+| ページ分割されたレポート | N/A                      | 該当なし                      | N/A                     | 20% (既定値)、10% (最小値) | 20% (既定値)、5% (最小値) | 20% (既定値)、2.5% (最小値) |
 | データフロー         | 27% (既定値)、27% (最小値) | 20% (既定値)、16% (最小値) | 20% (既定値)、8% (最小値) | 20% (既定値)、4% (最小値)  | 20% (既定値)、2% (最小値) | 20% (既定値)、1% (最小値)   |
 
 ### <a name="considerations-for-paginated-reports"></a>ページ分割されたレポートに関する考慮事項
 
 ページ分割されたレポート ワークロードを使用する場合は、次の点に注意してください。
 
-* **ページ分割されたレポートにおけるメモリの割り当て**: ページ分割されたレポートでは、レポートを表示する際に独自のコードを実行できます (コンテンツに基づくテキストの色の動的な変更など)。 この事実をふまえて、容量内に含まれている領域でページ分割されたレポートを実行することによって Power BI Premium 容量を保護します。 ワークロードがアクティブかどうかに関係なく、指定した最大メモリをこの領域に割り当てます。 Power BI レポートまたはデータフローを同じ容量内で使用する場合は、他のワークロードに悪影響を及ぼさない程度の少量のメモリをページ分割されたレポートに対して設定してください。
+* **ページ分割されたレポートにおけるメモリの割り当て**:ページ分割されたレポートでは、レポートを表示する際に独自のコードを実行できます (コンテンツに基づくテキストの色の動的な変更など)。 この事実をふまえて、容量内に含まれている領域でページ分割されたレポートを実行することによって Power BI Premium 容量を保護します。 ワークロードがアクティブかどうかに関係なく、指定した最大メモリをこの領域に割り当てます。 Power BI レポートまたはデータフローを同じ容量内で使用する場合は、他のワークロードに悪影響を及ぼさない程度の少量のメモリをページ分割されたレポートに対して設定してください。
 
-* **ページ分割されたレポートを使用できない**: まれに、ページ分割されたレポート ワークロードを使用できなくなる場合があります。 その場合、管理ポータルではワークロードがエラー状態であると表示され、ユーザーに対してはレポートの表示がタイムアウトしたと表示されます。 この問題を軽減するには、ワークロードを無効にしてからもう一度有効にしてください。
+* **ページ分割されたレポートを使用できない**:まれに、ページ分割されたレポート ワークロードを使用できなくなる場合があります。 その場合、管理ポータルではワークロードがエラー状態であると表示され、ユーザーに対してはレポートの表示がタイムアウトしたと表示されます。 この問題を軽減するには、ワークロードを無効にしてからもう一度有効にしてください。
 
-## <a name="power-bi-report-server"></a>Power BI Report Server
+## <a name="power-bi-report-server"></a>Power BI レポート
 
 Power BI Premium には、組織内で Power BI Report Server をオンプレミスで実行する機能も含まれます。 詳細については、「[Power BI Report Server とは](report-server/get-started.md)」を参照してください。
 

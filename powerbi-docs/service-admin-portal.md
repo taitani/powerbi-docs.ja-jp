@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268368"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026709"
 ---
-# <a name="power-bi-admin-portal"></a>Power BI 管理ポータル
+# <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
 管理ポータルを使用すると、組織の Power BI "*テナント*" を管理できます。 ポータルには、利用状況の指標、Office 365 管理センターへのアクセス、設定などの項目が含まれています。
 
@@ -105,15 +106,15 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 次の 3 つの状態を設定できます。
 
-* **組織全体に対して無効にする**: 組織のどのユーザーもこの機能を使用できません。
+* **組織全体に対して無効にする**:組織内の誰もこの機能を使用できません。
 
     ![すべて無効にする設定](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **組織全体に対して有効にする**: 組織のすべてのユーザーがこの機能を使用できます。
+* **組織全体に対して有効にする**:組織内の誰でもこの機能を使用できます。
 
     ![すべて有効にする設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **組織のサブセットに対して有効にする**: 組織のユーザーまたはグループの特定のサブセットがこの機能を使用できます。
+* **組織のサブセットに対して有効にする**:組織のユーザーまたはグループの特定のサブセットがこの機能を使用できます。
 
     特定のユーザーのグループを除いて、組織全体に対して機能を有効にすることができます。
 
@@ -355,7 +356,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
     * **[カスタム ビジュアルに名前を付ける]** (必須): Power BI Desktop ユーザーにとってわかりやすくなるように、ビジュアルに短いタイトルを付けます
 
-    * **[アイコン]**: Power BI Desktop UI に表示されるアイコン ファイルです。
+    * **アイコン**:Power BI Desktop UI に表示されるアイコン ファイルです。
 
     * **[説明]**: ユーザーにとってわかりやすくなるようにビジュアルに簡単な説明を与えます
 

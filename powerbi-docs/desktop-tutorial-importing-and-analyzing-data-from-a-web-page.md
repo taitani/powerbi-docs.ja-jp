@@ -1,23 +1,24 @@
 ---
-title: 'チュートリアル: Power BI Desktop を使用して Web ページからデータをインポートおよび分析する'
-description: 'チュートリアル: Power BI Desktop を使用して Web ページからデータをインポートおよび分析する'
+title: チュートリアル:Web ページからデータをインポートおよび分析する
+description: チュートリアル:Power BI Desktop を使用して Web ページからデータをインポートおよび分析する
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d0c37ff2a48315b72c699ab53238416eeb0f04b5
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 0c712807ad5fd855986c3929a760c2542b33f01f
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578844"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026624"
 ---
-# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>チュートリアル: Power BI Desktop を使用して Web ページのデータを分析する
+# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>チュートリアル:Power BI Desktop を使用して Web ページのデータを分析する
 
 昔からのサッカー ファンなら、UEFA 欧州選手権 (ユーロ カップ) の優勝国が気になります。 Power BI Desktop を使うと、このデータを Web ページからレポートにインポートして、データを表示する視覚エフェクトを作成できます。 このチュートリアルでは、Power BI Desktop を使って次のことを行う方法を学習します。
 
@@ -172,7 +173,7 @@ Web 接続の確立には基本認証のみが使用されることに注意し�
 ![書式設定されたマップの視覚エフェクト](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web18.png)
    
 ### <a name="change-the-visualization-type"></a>視覚化の種類の変更
-視覚エフェクトの種類を変更するには、視覚エフェクトを選び、**[視覚化]** ウィンドウの上部で別のアイコンを選びます。 たとえば、マップ視覚エフェクトにはロシア連邦とチェコ共和国のデータが表示されていません。これらの国が世界地図に存在しなくなったためです。 ツリーマップや円グラフのような別の種類の視覚エフェクトの方が、すべての値が表示されるためいっそう正確です。 
+視覚エフェクトの種類を変更するには、視覚エフェクトを選び、**[視覚化]** ウィンドウの上部で別のアイコンを選びます。 たとえば、マップ視覚エフェクトにはソ連とチェコスロバキアのデータが表示されていません。これらの国が世界地図に存在しなくなったためです。 ツリーマップや円グラフのような別の種類の視覚エフェクトの方が、すべての値が表示されるためいっそう正確です。 
 
 マップを円グラフに変更するには、マップを選んだ後、**[視覚化]** ウィンドウで **[円グラフ]** アイコンを選びます。 
    

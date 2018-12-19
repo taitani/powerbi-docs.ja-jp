@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547248"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180992"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -105,6 +105,16 @@ Power BI Desktop または Power BI サービスでレポートをデザイン�
 ドリルスルーすると、[戻る] ボタンで前のレポート ページに戻ることができます。
 
 [Power BI Desktop でドリルスルーを追加する](../../desktop-drillthrough.md)方法をご確認ください。
+
+## <a name="show-data-and-copy-values"></a>データを表示して値をコピーする
+
+視覚化の右上隅にあるメニュー オプションの省略記号 (**...**) を選択してから **[データを表示します]** を選択すると、視覚化の基礎となるデータを表示できます。
+
+![Power BI モバイルに表示されているメニュー オプション](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+表示されたテーブル内のセルをロング タップすると、選択およびコピーのためのネイティブのメニューが表示され、テーブル (またはテーブル全体) からデータをコピーすることを選択できます。
+
+![Power BI モバイルのドリルスルー レポート](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>次の手順
 * [電話用に最適化された Power BI レポートの表示と対話](mobile-apps-view-phone-report.md)

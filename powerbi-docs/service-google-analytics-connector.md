@@ -1,27 +1,26 @@
 ---
-title: 'サード パーティのサービス: Power BI Desktop のGoogle アナリティクス コネクタ'
-description: 'サード パーティのサービス: Power BI Desktop のGoogle アナリティクス コネクタ'
+title: サード パーティのサービス:Google アナリティクス コネクタ
+description: サード パーティのサービス:Power BI Desktop のGoogle アナリティクス コネクタ
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0c98a8f65529575cb70fccec927c1ee00d9a089
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b7451f156503d88baf4bdf3f3ae2cb99c04a94c1
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669430"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025605"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop のGoogle アナリティクス コネクタ
 > [!NOTE]
 > Power BI Desktop に含まれる Google アナリティクス コンテンツ パックおよびコネクタは、Google アナリティクス Core Reporting API に依存します。 そのため、機能と可用性は、時間の経過と共に変わる場合があります。
-> 
-> 
 
 Google アナリティクス データへの接続には、**Google アナリティクス** コネクタを使用します。 接続するには、次の手順を実行します。
 
