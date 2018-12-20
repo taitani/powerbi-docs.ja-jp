@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 706fe9f3014ef14ff34100ff336fbf04b44e709c
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026790"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281014"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop での Azure Consumption Insights への接続 (Beda)
 **Azure Consumption Insights** コネクタを使用すれば、**Power BI Desktop** で Azure に接続して、組織における Azure サービスの使用状況に関する詳細なデータと情報を得ることができます。 また、メジャー、カスタム列、およびビジュアルを作成して、組織での Azure の使用状況についてレポートを作成し、共有することができます。 このリリースの **Azure Consumption Insights** コネクタはベータ版であり、変更される可能性があります。
@@ -70,7 +70,7 @@ ms.locfileid: "53026790"
 > 
 > 
 
-**[読み込み]** を選択すると、**Power BI Desktop** にデータが読み込まれます。
+**[読み込み]** を選択すると、**Power BI Desktop** にデータが読み込まれます。  コネクタは、テーブルの既定の期間に応じてデータを読み込みます。  期間をカスタマイズする必要がある場合は、[カスタム クエリを設定することができます](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights)。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 

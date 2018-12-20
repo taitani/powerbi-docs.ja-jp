@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979552"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280928"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,36 @@ ms.locfileid: "52979552"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="november-2018"></a>2018 年 11 月
+
+### <a name="modern-visual-header"></a>最新のビジュアル ヘッダー 
+
+新しい '最新のビジュアル ヘッダー' を使用するレポートでは、ヘッダーのスペースが割り当てられなくなります。その結果、空きスペースが少なくなり、視覚エフェクトのスペースが増えます。
+
+### <a name="enhance-presentation-mode-windows"></a>プレゼンテーション モードの強化 (Windows)
+
+Surface Hub および Windows 10 デバイスのプレゼンテーション モードが強化されました。  プレゼンテーションとコラボレーションのツールが改善され、クロムレスで大画面に最適化されたビューによる強化によりデータに集中しやすくなった Surface Hub の会議室操作をお試しください。 プレゼンテーション モードでは効果的なプレゼンテーションと、データに関するディスカッションを行うために役立つインクのようなツールも提供されます。 プレゼンテーション モードの詳細については、[こちら](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/)をご覧ください。
+
+### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>タブレットの縦向きレイアウト (iOS と Android)
+
+縦向きモードのタブレットでレポートを表示するために、電話レポート レイアウトが使用されるようになりました (存在する場合)。 Power BI サービスまたは Power BI Desktop で電話レイアウトを作成する方法については、[こちら](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/)をご覧ください。
+
+### <a name="supporting-report-query-string"></a>レポートのクエリ文字列のサポート 
+
+クエリ文字列を含むレポート リンクがモバイル アプリで開き、クエリ文字列で定義された条件に基づいて事前にフィルターされるようになりました。 クエリ文字列を含むレポートの URL を作成する方法については、[こちら](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)をご覧ください。  
+
+### <a name="shared-credentials-now-in-android"></a>資格情報の共有 (Android)
+
+モバイル アプリからの Power BI へのサインインが、これまでより容易になりました。 共有資格情報により、デバイスで他の Office 365 アプリの資格情報を使用して Power BI サービスでの認証を行うことで、サインイン プロセスが簡素化されました。
+
+### <a name="in-app-urls-now-in-android"></a>アプリ内の URL (Android) 
+
+他の Power BI 成果物を参照するレポート内のリンクが、アプリの内部で直接開くようになりました。 これにより、カスタム ナビゲーション フローを作成できます (レポートからダッシュボードへのリンクなど)。
+
+### <a name="show-data-and-copy-values"></a>データを表示して値をコピーする
+
+レポートのビジュアルの操作メニュー (...) から、基になるデータをテーブル形式で表示できるようになりました。 テーブル内でテーブルの値を長押しすると、選択してコピーすることができます (Intune のポリシーによりコピーが制限されていない場合)。
 
 ## <a name="october-2018"></a>2018 年 10 月
 

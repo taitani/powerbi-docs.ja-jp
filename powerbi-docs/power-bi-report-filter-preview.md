@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: fb25ae7408ddb19d7e8bc9c91c0e1b0f65d2bf42
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026249"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280629"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI レポートの新しいフィルター エクスペリエンス (プレビュー)
 
@@ -34,11 +34,11 @@ ms.locfileid: "53026249"
 
 ## <a name="turn-on-the-new-filter-experience"></a>新しいフィルター エクスペリエンスを有効にする 
 
-Power BI Desktop で新しいエクスペリエンスを有効にします。 そうすると、そこか Power BI サービス (https://app.powerbi.com) 内でフィルターを変更できるようになります。 この新しいフィルター エクスペリエンスはプレビュー段階のため、最初に Power BI Desktop で有効にする必要があります。 
+Power BI Desktop で新しいエクスペリエンスを有効にします。 そうすると、そこか Power BI サービス (https://app.powerbi.com) 内でフィルターを変更できるようになります。 この新しいフィルター エクスペリエンスはプレビュー段階のため、最初に Power BI Desktop で有効にする必要があります。 Power BI サービスでレポートを作成して開始する場合は、新しいフィルターを設定できません。
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>新しいレポートすべてに対して新しいフィルターを有効にする
 
-1. **[ファイル]** > **[オプションと設定]** > **[オプション]** > **[プレビュー機能]** の順に選択し、**[新しいフィルター エクスペリエンス]** チェックボックスをオンにします。 
+1. Power BI Desktop で、**[ファイル]** > **[オプションと設定]** > **[オプション]** > **[プレビュー機能]** の順に選択し、**[新しいフィルター エクスペリエンス]** チェックボックスをオンにします。 
 2. Power BI Desktop を再起動して、すべての新しいレポートに新しいフィルター エクスペリエンスがあることを確認します。
 
 Power BI Desktop を再起動すると、作成するすべての新しいレポートに対してこれが既定で有効になります。  
@@ -47,7 +47,7 @@ Power BI Desktop を再起動すると、作成するすべての新しいレポ
 
 既存のレポートに対して新しいフィルターを有効にすることもできます。
 
-1. 既存のレポート内で、**[ファイル]** > **[オプションと設定]** > **[オプション]** を選択します。
+1. Power BI Desktop の既存のレポート内で、**[ファイル]** > **[オプションと設定]** > **[オプション]** を選択します。
 2. **[レポートの設定]** の下で、**[このレポートに関して、更新されたフィルター ウィンドウを有効にし、ビジュアル ヘッダーにフィルターを表示する]** を選択します。
 
 ## <a name="build-the-new-filter-pane"></a>新しいフィルター ウィンドウを構築する

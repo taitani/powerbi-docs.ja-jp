@@ -1,33 +1,34 @@
 ---
-title: Power BI レポートでのグラフの並べ替え方法の変更
+title: レポートでのグラフの並べ替え方法の変更
 description: Power BI レポートでのグラフの並べ替え方法の変更
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979340"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280008"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI レポートでのグラフの並べ替え方法の変更
 Power BI レポートのほとんどの視覚エフェクトは、グラフ内のカテゴリ名のアルファベット順や、各カテゴリの数値順に、並べ替えることができます。 たとえば、このグラフは**店舗名**のカテゴリを基準に並べ替えられています。
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![X 軸がアルファベット順で並べ替えられた横棒グラフ](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 カテゴリ (店舗名) から値 (平方フィートごとの売上) に、並べ替えの基準を簡単に変更できます。
 
 1. 省略記号 ([...]) を選び、**[並べ替え] > [Sales Per Sq Ft]\(平方フィートごとの売上\)** を選びます。
 2. 必要に応じて、もう一度省略記号を選び、**[降順で並べ替え]** を選びます。
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![[並べ替え]、[昇順で並べ替え]、[降順で並べ替え] の順に選択しているビデオ](media/end-user-change-sort/sort.gif)
 
    **注**:すべてのビジュアルが並べ替え可能なわけではありません。  たとえば、次の視覚化は並べ替えできません。ツリーマップ、マップ、塗り分け地図、散布図、ゲージ、カード、複数行のカード、ウォーターフォールなどのビジュアルは並べ替えできません。
 

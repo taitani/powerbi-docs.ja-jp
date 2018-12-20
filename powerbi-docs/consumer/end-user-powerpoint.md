@@ -1,21 +1,22 @@
 ---
-title: 利用者向けの Power BI から PowerPoint にレポートをエクスポートする
+title: Power BI から PowerPoint にレポートをエクスポートする
 description: Power BI レポートを PowerPoint にエクスポートする方法について説明します。
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: a865c98a5bacd526a553354ea828e86fa0155a79
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 9f17cd76a733dff22ebf0b54eabc3d9b6c8f6839
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979262"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281071"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Power BI から PowerPoint にレポートをエクスポートする
 Power BI では、レポートを **Microsoft PowerPoint** に発行して、Power BI レポートに基づくスライド デッキを簡単に作成できます。 **PowerPoint にエクスポート**すると、次のようになります。
@@ -29,35 +30,35 @@ Power BI では、レポートを **Microsoft PowerPoint** に発行して、Pow
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Power BI レポートを PowerPoint にエクスポートする方法
 Power BI サービスで、レポートを選択してそれをキャンバス上に表示します。 また、**[ホーム]** ページや **[アプリ]** など、左側のナビゲーション ウィンドウで選択した場所からのレポートを選択することもできます。
 
-![](media/end-user-powerpoint/power-bi-publish.png)
+![メニュー バーの [ファイル]、[PowerPoint へのエクスポート] を指している矢印](media/end-user-powerpoint/power-bi-publish.png)
 
 PowerPoint にエクスポートするレポートがキャンバスに表示されている場合は、Power BI サービスのメニュー バーから **[ファイル] > [PowerPoint へのエクスポート]** を選択します。
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+![左のナビゲーション バーの [マイ ワークスペース]、[ファイル] ドロップダウンが選択された状態のクローズ アップ](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
 
 レポートが PowerPoint にエクスポートされていることを示す通知バナーが、Power BI サービス ブラウザー ウィンドウの右上隅に表示されます。 これには数分間かかる場合があり、レポートのエクスポート中も Power BI で作業を進めることができます。
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![PowerPoint へのエクスポートが実行中であることの通知](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
 
 完了すると、Power BI サービスのエクスポート処理が終了したことが通知バナーで示されます。
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
+![成功メッセージの表示](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
 
 ファイルは、ブラウザーがダウンロードしたファイルを表示する場所から使用できます。 次の図では、ブラウザー ウィンドウ下部のダウンロード バナーとして表示されています。
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
+![画面の下部のブラウザーの通知を指している矢印](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 
 これで完了です。 ファイルをダウンロードし、PowerPoint で開き、他の PowerPoint デッキと同様に変更したり拡張したりできます。
 
 ## <a name="checking-out-your-exported-powerpoint-file"></a>エクスポートした PowerPoint ファイルの確認
 Power BI でエクスポートした PowerPoint ファイルを開くと、便利な要素がいくつかあることに気付きます。 次の図を見てから、番号に対応する説明で機能を確認してください。
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_5.png)
+![PowerPoint が開きます](media/end-user-powerpoint/powerbi_to_powerpoint_5.png)
 
 1. スライド デッキの最初のページには、レポートの名前と、スライド デッキの基になっているレポートを表示する **[Power BI で表示する]** リンクが含まれます。
 2. レポートに関する有用な情報も表示されます。エクスポートされたレポートの基になっている *前回のデータ更新* 日時や、Power BI レポートを PowerPoint ファイルにエクスポートした日時を示す *ダウンロード* 日時などです。
 3. 左側のナビゲーション ウィンドウを見るとわかるように、各レポート ページは異なるスライドになっています。 
-4. 公開されたレポートは Power BI の言語設定かブラウザーのロケール設定に基づいてレンダリングされます。 言語の優先順位を表示または設定するには、歯車アイコン ![](media/end-user-powerpoint/power-bi-settings-icon.png) **、[設定]、[全般]、[言語]** の順に選択します。 ロケール情報については、「[Power BI でサポートされる言語と国/地域](../supported-languages-countries-regions.md)」を参照してください。
+4. 公開されたレポートは Power BI の言語設定かブラウザーのロケール設定に基づいてレンダリングされます。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](media/end-user-powerpoint/power-bi-settings-icon.png) **、[設定]、[全般]、[言語]** の順に選択します。 ロケール情報については、「[Power BI でサポートされる言語と国/地域](../supported-languages-countries-regions.md)」を参照してください。
 5. PowerPoint プレゼンテーションにはカバー スライドが含まれますが、そこには正しいタイム ゾーンの時刻がエクスポートされます。
 
 個々のスライドを見ると、各ビジュアルが独立した画像になっていることがわかります。
@@ -66,7 +67,7 @@ Power BI でエクスポートした PowerPoint ファイルを開くと、便�
 > レポート ページごとにビジュアルを 1 つ含める動作は、新しい動作となります。 ビジュアルごとに独立したイメージを指定していた以前の動作は、現在実装されていません。 
  
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_6.png)
+![各ビジュアルを示すイメージは別個のイメージです](media/end-user-powerpoint/powerbi_to_powerpoint_6.png)
 
 PowerPoint デッキや高解像度画像についての作業を自由に行うことができます。
 
@@ -84,7 +85,7 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 * Power BI テナント ドメイン外のユーザーによって所有されているレポート (組織外のユーザーが所有していて、そのユーザーから共有されているレポートなど) は、PowerPoint に発行できません。
 * 組織外の人 (つまり、Power BI テナント内にいないユーザー) とダッシュボードを共有している場合、そのユーザーは共有されたダッシュ ボードに関連付けられているレポートを PowerPoint にエクスポートできません。 たとえば、ユーザー aaron@contoso.com は david@cohowinery.com と共有することができます。 しかし、david@cohowinery.com は関連付けられたレポートを PowerPoint にエクスポートできません。
 * 前述のように、各レポート ページは、PowerPoint ファイルに単一のイメージとしてエクスポートされます。
-* Power BI サービスでは、Power BI の言語設定を PowerPoint のエクスポート用の言語として使用します。 言語の優先順位を表示または設定するには、歯車アイコン ![](media/end-user-powerpoint/power-bi-settings-icon.png) **、[設定]、[全般]、[言語]** の順に選択します。
+* Power BI サービスでは、Power BI の言語設定を PowerPoint のエクスポート用の言語として使用します。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](media/end-user-powerpoint/power-bi-settings-icon.png) **、[設定]、[全般]、[言語]** の順に選択します。
 * エクスポートした PowerPoint ファイルの、表紙スライドの **[Downloaded at]\(ダウンロードした時刻\)** は、お使いのコンピューターのタイム ゾーンにおけるエクスポート時の時刻に設定されます。
 
 ## <a name="next-steps"></a>次の手順
