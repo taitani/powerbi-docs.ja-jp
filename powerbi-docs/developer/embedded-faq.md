@@ -114,7 +114,7 @@ PBIE 容量はご自身の PBI テナント リージョンに対してのみ作
 
 PBI ポータルで PBI テナント リージョンを確認できます。
 
-https://app.powerbi.com/ > ? > Power BI について
+[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Power BI について
 
 ![Power BI について](media/embedded-faq/about-01.png)
 ![テナント リージョン](media/embedded-faq/tenant-location-01.png)
