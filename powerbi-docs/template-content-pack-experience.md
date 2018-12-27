@@ -9,17 +9,17 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 723aa8e1a6817551f5e8f1c0cf096d185b1e53ae
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 23a8875479197f1d200a9f086fcfd27d483faf40
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543781"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900223"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI でのテンプレート コンテンツ パックのエクスペリエンス
-このセクションでは、ISV [コンテンツ パック](consumer/end-user-connect-to-services.md)に接続するユーザーの標準的なエクスペリエンスに注目します。
+このセクションでは、ISV [コンテンツ パック](service-connect-to-services.md)に接続するユーザーの標準的なエクスペリエンスに注目します。
 
-https://app.powerbi.com/getdata/services でリリースされたコンテンツ パック (以下に説明されている [GitHub コンテンツ パック](https://app.powerbi.com/getdata/services/github)など) に接続して、自分で接続エクスペリエンスを試してみることができます。
+ https://app.powerbi.com/getdata/services でリリースされたコンテンツ パック (以下に説明されている [GitHub コンテンツ パック](https://app.powerbi.com/getdata/services/github)など) に接続して、自分で接続エクスペリエンスを試してみることができます。
 
 ## <a name="connect"></a>接続
 使い始めるには、ユーザーはコンテンツ パック ギャラリーを参照し、接続するコンテンツ パックを選択します。 コンテンツ パック エントリは、名前、アイコン、およびユーザーに詳細を提供する説明テキストを提供します。
