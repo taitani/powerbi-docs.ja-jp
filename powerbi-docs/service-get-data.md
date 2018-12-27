@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a23a725ecad5641c3f82fa4c57ee1a0bc951e28
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: e0721efaaca879ffb2915315af9aea4dbafca3ca
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670389"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900246"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI サービスのデータ ソース
 データは Power BI の中核です。 データを探索したり、グラフとダッシュボードを作成したり、Q&A で質問したりする場合、表示されるすべての視覚エフェクトと回答は、データセットの基になるデータから取得されます。 しかし、そのデータセットはどこから得られるでしょうか。 データ ソースからです。
@@ -44,7 +44,7 @@ XML テーブル (.xml) やテキスト (.txt) ファイルなど、その他の
 
 コンテンツ パックには、必要なすべてのデータとレポートが含まれています。 Power BI では、2 種類のコンテンツ パック (Google アナリティクス、Marketo、Salesforce などのサービスのコンテンツ パックと、ユーザーの組織内で作成され、共有されたコンテンツ パック) があります。
 
-**サービス** – Power BI 用のコンテンツ パックを含むサービスは文字どおり数十個あり、また常に増え続けています。 ほとんどのサービスではアカウントが必要です。 詳しくは、[サービスへの接続](consumer/end-user-connect-to-services.md)に関するページをご覧ください。
+**サービス** – Power BI 用のコンテンツ パックを含むサービスは文字どおり数十個あり、また常に増え続けています。 ほとんどのサービスではアカウントが必要です。 詳しくは、[サービスへの接続](service-connect-to-services.md)に関するページをご覧ください。
 
 **組織** – ユーザーおよび組織内の他のユーザーが Power BI Pro のアカウントを持っている場合、コンテンツ パックを作成、共有、使用できます。 詳しくは、「[組織のコンテンツ パック](service-organizational-content-pack-introduction.md)」をご覧ください。
 
