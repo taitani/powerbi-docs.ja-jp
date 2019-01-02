@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96cd04385bec6d4b9b47e3e05a30820b2f19f3dd
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180877"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301875"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>チュートリアル:顧客向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
 
@@ -338,14 +338,14 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 
 下の表を参照し、自分のニーズに最適な Power BI Embedded 容量を判断します。
 
-| 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限 | ピーク時の最大のページ レンダリング数 |
+| 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限|
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 仮想コア |0.5 コア、3 GB RAM |0.5 コア |1 秒あたり 0.5 |1-300 |
-| A2 |2 仮想コア |1 コア、5 GB RAM |1 コア | 1 秒あたり 10 |301-600 |
-| A3 |4 仮想コア |2 コア、10 GB RAM |2 コア | 1 秒あたり 15 |601-1,200 |
-| A4 |8 仮想コア |4 コア、25 GB RAM |4 コア |1 秒あたり 30 |1,201-2,400 |
-| A5 |16 仮想コア |8 コア、50 GB RAM |8 コア |1 秒あたり 60 |2,401-4,800 |
-| A6 |32 仮想コア |16 コア、100 GB RAM |16 コア |1 秒あたり 120 |4,801-9600 |
+| A1 |1 仮想コア |0.5 コア、3 GB RAM |0.5 コア |1 秒あたり 0.5 |
+| A2 |2 仮想コア |1 コア、5 GB RAM |1 コア | 1 秒あたり 10 |
+| A3 |4 仮想コア |2 コア、10 GB RAM |2 コア | 1 秒あたり 15 |
+| A4 |8 仮想コア |4 コア、25 GB RAM |4 コア |1 秒あたり 30 |
+| A5 |16 仮想コア |8 コア、50 GB RAM |8 コア |1 秒あたり 60 |
+| A6 |32 仮想コア |16 コア、100 GB RAM |16 コア |1 秒あたり 120 |
 
 **_A SKU の場合、無料 Power BI ライセンスでは Power BI コンテンツにアクセスできません。_**
 

@@ -6,7 +6,7 @@
 | Analysis Services 多次元 |はい |はい |
 | ファイル |いいえ |はい |
 | フォルダー |いいえ |はい |
-| IBM DB2 |いいえ |はい |
+| IBM DB2 |はい |はい |
 | IBM Informix データベース |いいえ |はい |
 | IBM Netezza |はい |はい |
 | Impala |はい |はい |
