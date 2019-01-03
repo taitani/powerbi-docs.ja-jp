@@ -65,7 +65,7 @@ Power BI Desktop を実行すると、 *[ようこそ]* 画面が表示されま
 
 ![](media/desktop-getting-started/designer_gsg_startsplashscreen.png)
 
-*[ようこそ]* 画面で (左ウィンドウのリンクから)、直接**データを取得**したり、**最近使用したソース**を表示したり、**他の****レポートを開いたり**することができます。 画面を閉じた場合 (右上隅の **[x]** を選択)、Power BI Desktop の **レポート** ビューが表示されます。
+*[ようこそ]* 画面で (左ウィンドウのリンクから)、直接**データを取得**したり、**最近使用したソース**を表示したり、**他の** **レポートを開いたり**することができます。 画面を閉じた場合 (右上隅の **[x]** を選択)、Power BI Desktop の **レポート** ビューが表示されます。
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
