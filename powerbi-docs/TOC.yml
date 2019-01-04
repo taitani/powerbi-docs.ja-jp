@@ -126,7 +126,7 @@ items:
         href: desktop-connect-pdf.md
       - name: Adobe Analytics への接続
         href: desktop-connect-adobe-analytics.md
-      - name: Oracle データベースに接続する
+      - name: Oracle データベースへの接続
         href: desktop-connect-oracle-database.md
       - name: Power BI Desktop での Python スクリプトの実行
         href: desktop-python-scripts.md
@@ -282,7 +282,7 @@ items:
         href: desktop-see-data-see-records.md
       - name: レポートを作成するためのヒント
         href: desktop-tips-and-tricks-for-creating-reports.md
-    - name: 視覚エフェクト
+    - name: 視覚化
       items:
       - name: Power BI での視覚化
         href: visuals/power-bi-report-visualizations.md
@@ -378,7 +378,7 @@ items:
     items:
     - name: Power BI Desktop のビデオ
       href: desktop-videos.md
-    - name: Power BI Desktop に対する以前の月ごとの更新
+    - name: Power BI Desktop に対する以前の毎月の更新
       href: desktop-latest-update-archive.md
     - name: Power BI Desktop "気に入った機能の報告" のプライバシーに関する声明
       href: desktop-send-smile-privacy-statement.md
@@ -386,7 +386,7 @@ items:
       href: desktop-accessibility.md
     - name: Power BI Desktop のサインイン フォームを管理する
       href: desktop-admin-sign-in-form.md
-- name: Power BI サービス
+- name: ダッシュボード
   items:
   - name: 概要
     items:
@@ -482,7 +482,7 @@ items:
         href: service-azure-sql-database-with-direct-connect.md
       - name: DirectQuery を使用する HDInsight 上の Spark
         href: spark-on-hdinsight-with-direct-connect.md
-      - name: Power BI での SQL Server Analysis Services ライブ データ
+      - name: Power BI の SQL Server Analysis Services ライブ データ
         href: sql-server-analysis-services-tabular-data.md
     - name: データの更新
       items:
@@ -504,7 +504,7 @@ items:
       items:
       - name: ダッシュボードの概要
         href: service-dashboards.md
-      - name: ダッシュボードのタイル
+      - name: データのプッシュ時の
         href: service-dashboard-tiles.md
       - name: レポートからダッシュボードを作成する
         href: service-dashboard-create.md
@@ -610,7 +610,7 @@ items:
         href: service-share-dashboards.md
       - name: フィルター処理されたレポートを共有する
         href: service-share-reports.md
-      - name: Power BI から Web への発行
+      - name: Power BI から Web への公開
         href: service-publish-to-web.md
       - name: SharePoint Online にレポートを埋め込む
         href: service-embed-report-spo.md
@@ -828,7 +828,7 @@ items:
           href: service-organizational-content-pack-disconnect.md
       - name: コンテンツ パック証明書
         items:
-        - name: コンテンツ パック証明書プログラム
+        - name: コンテンツ パック認定プログラム
           href: service-content-pack-overview.md
         - name: テンプレート コンテンツ パックのオーサリング
           href: template-content-pack-authoring.md
@@ -840,7 +840,7 @@ items:
     items:
     - name: ビデオ
       href: videos.md
-    - name: ウェビナー
+    - name: Web セミナー
       href: webinars.md
     - name: サポートされる言語と国/地域
       href: supported-languages-countries-regions.md
@@ -1222,6 +1222,8 @@ items:
         href: service-admin-premium-manage.md
       - name: Power BI Premium の監視
         href: service-admin-premium-monitor-capacity.md
+      - name: Premium 容量の再起動
+        href: service-admin-premium-restart.md
       - name: 大規模なデータセットのサポート
         href: service-premium-large-datasets.md
       - name: 増分更新
@@ -1260,7 +1262,7 @@ items:
       href: service-admin-power-bi-expressroute.md
     - name: Azure AD B2B を使用する
       href: service-admin-azure-ad-b2b.md
-    - name: Power BI を使用した行レベルのセキュリティ
+    - name: Power BI での行レベルのセキュリティ
       href: service-admin-rls.md
     - name: Power BI アーカイブ済みワークスペース
       href: service-admin-power-bi-archived-workspace.md
@@ -1281,9 +1283,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 8c0c1c309fc1225e3f5f8535bdb8578294c6ba3f
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: bb2600fea9af9578ab9b9dd7260e358a8de7e646
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983901"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008881"
