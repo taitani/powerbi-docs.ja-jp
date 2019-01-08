@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908833"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008812"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI で Microsoft Dynamics CRM に接続する
 Power BI 用 Microsoft Dynamics CRM Online を利用すれば、簡単にデータにアクセスし、分析できます。 Power BI は、OData フィードを使用して記述モデルを作成します。その際、必要なすべてのエンティティやメジャー (取引先企業、活動、営業案件、製品、潜在顧客、ユーザーなど) を含めます。 アプリをインストールすると、Power BI サービス ([https://powerbi.com](https://powerbi.com)) と Power BI モバイル アプリでダッシュボードとレポートを表示できます。 
@@ -78,7 +78,7 @@ Dynamics CRM Online [営業マネージャー](https://msit.powerbi.com/groups/m
 | CRM エンティティ | 適用されるフィルター |
 | --- | --- |
 | アカウント |過去 365 日間に変更された関連営業案件のあるすべてのアカウント |
-| Activity |過去 90 日間に変更されたすべてのアクティビティ <br> [modifiedon] > 今日 - 90 日 |
+| アクティビティ |過去 90 日間に変更されたすべてのアクティビティ <br> [modifiedon] > 今日 - 90 日 |
 | ビジネス ユニット |無効ではないすべてのビジネス ユニット <br> [isdisabled] = false |
 | 潜在顧客 |過去 180 日間に変更されたすべての潜在顧客 <br> [modifiedon] > 今日 - 180 日 |
 | 営業案件 |過去 365 日間に変更されたすべての営業案件 <br> [modifiedon] > 今日 - 365 日 |
@@ -116,7 +116,7 @@ Dynamics CRM Online [営業マネージャー](https://msit.powerbi.com/groups/m
 | アクティビティ |過去 90 日間に変更されたすべてのアクティビティ <br> [modifiedon] > 今日 - 90 日 |
 | ケース |過去 90 日間に変更されたすべてのケース <br> [modifiedon] > 今日 - 90 日 |
 | ケース解決アクティビティ |過去 90 日間に変更されたすべてのケース解決アクティビティ <br> [modifiedon] > 今日 - 90 日 |
-| 問い合わせる |過去 90 日間に変更された関連ケースのあるすべての連絡先 |
+| 連絡先 |過去 90 日間に変更された関連ケースのあるすべての連絡先 |
 | ナレッジ記事 |ナレッジ記事のすべての最新バージョン  <br> [islatestversion] = true |
 | ナレッジ記事インシデント |過去 90 日間に変更されたすべてのナレッジ記事インシデント <br> [modifiedon] > 今日 - 90 日 |
 | キュー |すべてのアクティブなキュー  <br> [statecode] = 0 |

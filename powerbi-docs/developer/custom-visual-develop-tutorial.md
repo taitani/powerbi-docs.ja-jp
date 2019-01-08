@@ -8,15 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: c98abde63942724d4ff42136aaea7e8786e08975
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223423"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056158"
 ---
-# <a name="tutorial-developing-a-power-bi-custom-visual"></a>チュートリアル: Power BI カスタム ビジュアルを開発する
+# <a name="tutorial-developing-a-power-bi-custom-visual"></a>チュートリアル:Power BI カスタム ビジュアルを開発する
 
 開発者が Power BI にカスタム ビジュアルを簡単に追加して、ダッシュボードとレポートで使用できるようにします。 すぐに始められるように、すべての視覚化のコードが GitHub で公開されています。
 
