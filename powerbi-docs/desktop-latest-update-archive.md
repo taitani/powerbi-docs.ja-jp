@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3e8e8359742a422049751a348bce6a5d4015bd72
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 129649367efa3a2b23fbf3be181e14df158eba02
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619864"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329857"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -33,6 +33,57 @@ ms.locfileid: "51619864"
 この記事にある **[最新の更新プログラム]** ビデオを最初から視聴することもできます。ビデオを見るには、更新一覧の下にあるビデオ画像の**再生**アイコンをクリックします。
 
 次のセクションでは、**Power BI Desktop** の以前の月の更新について説明します。
+
+## <a name="november-2018-update-2645285461"></a>2018 年 11 月の更新 (2.64.5285.461)
+
+11 月の更新プログラムには、多数の新機能が含まれていました。 そのため、データや分析に詳しい仲間と一緒に、意見を交換し合い、さまざまな更新プログラムを詳しく調べたことでしょう。 
+
+以下の更新は、11 月の **Power BI Desktop** の新しい機能です。
+
+### <a name="reporting"></a>レポート
+
+* マトリックスの行ヘッダーを展開したり折りたたんだりする [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=16) [[記事]](power-bi-reports-filters-and-highlighting.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
+* Desktop ファイル間でコピーと貼り付けを行う [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=199) [[記事]](desktop-report-view.md#copy-and-paste-between-reports) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
+* 更新されたフィルター処理エクスペリエンス (プレビュー) [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=410) [[記事]](power-bi-reports-filters-and-highlighting.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
+* レポートのアクセシビリティの機能強化 [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=1036) [[記事]](desktop-accessibility.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+
+### <a name="analytics"></a>分析
+
+* ビジュアルでの色の彩度で条件付き書式を使用できるようにアップグレード [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=1224) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
+* Q&A エクスプローラーで質問をフォローアップする [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=1429) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+
+
+### <a name="modeling"></a>モデリング
+
+* 新しいモデルリング ビュー (プレビュー) [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=1642) [[記事]](desktop-modeling-view.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
+* 複合モデルの一般公開 [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=1941) [[記事]](desktop-composite-models.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
+* モデリングのアクセシビリティの機能強化 [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=2023) [[記事]](desktop-accessibility.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
+* 新しい DAX 関数 [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=2066) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+
+### <a name="custom-visuals"></a>カスタム ビジュアル
+
+* 5 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=2108) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+
+### <a name="data-connectivity"></a>データ接続
+
+* Azure DevOps Server コネクタ[[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=2641) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
+* PDF コネクタでのスタート ページおよび最終ページ パラメーターのサポート [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=2667) [[記事]](desktop-connect-pdf.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
+* Azure Consumption Insights コネクタの機能強化 [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=2704) [[記事]](desktop-connect-azure-consumption-insights.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+
+
+> [!NOTE]
+> [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
+
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+
+
+次のビデオ チャネルは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
+
 
 ## <a name="october-2018-update-263327240262"></a>2018 年 10 月更新 (2.63.3272.40262)
 
@@ -363,7 +414,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 ### <a name="analytics"></a>分析
 
 * 言語スキーマの更新  [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[記事]](power-bi-custom-visuals-organization.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
-* 新しい DAX 関数: COMBINEVALUES()  [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
+* 新しい DAX 関数:COMBINEVALUES()  [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
 ### <a name="custom-visuals"></a>カスタム ビジュアル
 
@@ -373,7 +424,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 ### <a name="data-connectivity"></a>データ接続
 
 * Adobe Analytics コネクタの一般公開 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=32m) [[記事]](desktop-multi-select.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
-* SAP HANA コネクタの改善: ポートの選択  [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=32m44s)  [[記事]](desktop-directquery-sap-hana.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
+* SAP HANA コネクタの機能強化:ポートの選択  [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=32m44s)  [[記事]](desktop-directquery-sap-hana.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
 * Dynamics 365 Business Central コネクタ  [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=34m10s)  [[記事]](desktop-directquery-sap-hana.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
 
 
@@ -1913,7 +1964,7 @@ Power BI Desktop の新機能を完全に利用できます。
 - 1 回のクリックですべてのクエリ エディターのプレビューを更新する [すべてのプレビューの更新]
 - パフォーマンスの向上
     - [列の選択] ダイアログ: 幅の広いテーブルの処理が早くなります
-    - オートフィルタと展開/集計のポップアップ: 多数の値/フィールドに対してさらに高速になります
+    - オートフィルターと展開/集計のポップアップ: 多数の値/フィールドに対してさらに高速になります
 
 次のビデオでは、これらの機能について詳しく説明します。
 

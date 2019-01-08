@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: 3d9e8e46fdd84edbeb5b4ff5e8f7efe4a4291049
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: bc5d5b7151643764b174d0bbec09e7f47ea2b1b2
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679257"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "53553860"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Power BI カスタム ビジュアルのトラブルシューティング
 
@@ -26,7 +26,7 @@ ms.locfileid: "51679257"
 
 **[視覚化] タブで "ビジュアルのデバッグ" が見つかりません**
 
-"ビジュアルのデバッグ" は、**[視覚化]** タブ内でプロンプト アイコンのように表示されます。
+"ビジュアルのデバッグ" は、[**視覚化**] タブ内でプロンプト アイコンのように表示されます。
 
 ![ビジュアルの選択](media/power-bi-custom-visuals-troubleshoot/powerbi-developer-visual-selection.png)
 
@@ -39,6 +39,8 @@ ms.locfileid: "51679257"
 
 ビジュアル プロジェクトのルートから、ターミナルのコマンド ラインで `pbiviz start` コマンドを使用してビジュアル サーバーを実行します。 サーバーが動作していない場合、SSL 証明書が正しくインストールされていない可能性があります。
 
+ご質問、ご意見、問題がございましたら、カスタム ビジュアルのサポート チームまでお気軽にお問い合わせください。アドレスは  *pbicvsupport@microsoft.com*  です。
+
 ## <a name="next-steps"></a>次の手順
 
-詳細情報と質問の回答については、[Power BI カスタム ビジュアルについてよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-custom-visuals)に関するページをご覧ください。
+詳細については、[Power BI カスタム ビジュアルに関してよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-custom-visuals)のページにアクセスしてください。

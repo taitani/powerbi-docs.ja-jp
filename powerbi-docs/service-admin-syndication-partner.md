@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/18/2018
 ms.locfileid: "52157404"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI を Office 365 パートナー サブスクリプションに追加できない
@@ -53,7 +53,7 @@ Power BI Pro の無料試用版にサインアップできます。 試用期間
 
 ### <a name="enable-ad-hoc-subscriptions"></a>アドホック サブスクリプションを有効にする
 
-既定では、個別のサインアップ (アドホック サブスクリプションとも呼ばれます) は無効になっています。 この場合、サインアップしようとすると、"*IT 部門により Microsoft Power BI のサインアップはオフにされています*" というメッセージが表示されます。
+既定では、個別のサインアップ (アドホック サブスクリプションとも呼ばれます) は無効になっています。 この場合、サインアップしようとすると次のメッセージが表示されます。*Your IT department has turned off signup for Microsoft Power BI. (あなたの所属する組織の IT 部門により、Microsoft Power BI のサインアップが無効にされています。)*
 
 ![サインアップ不可画像](media/service-admin-syndication-partner/sorry.png)
 

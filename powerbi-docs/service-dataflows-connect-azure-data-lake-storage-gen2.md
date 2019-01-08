@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200651"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649047"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)
 
@@ -76,7 +76,7 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
 ご利用のストレージ アカウントを Power BI に追加するには、事前に *powerbi* という名前のファイル システムを作成しておく必要があります。 このようなファイル システムを作成するには、Azure Databricks、HDInsight、AZCopy、または Azure Storage Explorer を使用するなど、多数の方法があります。 このセクションでは、Azure Storage Explorer を使用してファイル システムを作成する簡単な方法を示します。
 
-この手順では、Azure Storage Explorer をインストールすることが要件になります。 Windows、Macintosh、または Linux 用の Azure Storage Explorer をインストールするには、「[Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)」を参照してください。
+この手順を実行するには、Azure Storage Explorer バージョン 1.6.1 以降をインストールする必要があります。 Windows、Macintosh、または Linux 用の Azure Storage Explorer をインストールするには、「[Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)」を参照してください。
 
 1. Azure Storage Explorer のインストールに成功すると、初回の起動時に [Microsoft Azure Storage Explorer - 接続] ウィンドウが表示されます。 Storage Explorer では、ストレージ アカウントに接続する複数の方法を提供していますが、必須の設定で現在サポートされているのは 1 つの方法だけです。 
 
@@ -108,11 +108,11 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
     ![AAD エンタープライズ アプリケーション](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. 検索バーに「*Power*」と入力すると、Power BI および Power Query アプリケーションのオブジェクト ID のコレクションが表示されます。
+4. 検索バーに「*Power*」と入力すると、Power BI および Power Query アプリケーションのオブジェクト ID のコレクションが表示されます。 3 つの値はすべて、後続の手順で必要になります。  
 
     ![Power アプリケーションを検索する](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. 検索結果から、Power BI サービスのオブジェクト ID を選択してコピーします。 以降の手順でその値を貼り付けられるように準備しておきます。
+5. 検索結果から、Power BI サービスと Power BI Premium のオブジェクト ID を両方選択してコピーします。 以降の手順でこの 2 つの値を貼り付けられるように準備しておきます。
 
 7. 次に、**Azure Storage Explorer** を使用して、前のセクションで作成した *powerbi* ファイル システムに移動します。 「[Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)」(Azure Storage Explorer を使用したファイルとディレクトリ レベルのアクセス許可の設定) の記事にある「[Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)」(アクセスの管理) セクションの手順に従います。
 
@@ -120,7 +120,7 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
    ![両方に対して、3 つすべてを割り当てる](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. 手順 5 で収集した Power Query Online のオブジェクト ID では、**[書き込み]**、**[実行]** のアクセスと既定の ACL を *powerbi* ファイル システムに割り当てます。
+9. 手順 4 で収集した Power Query Online のオブジェクト ID では、**[書き込み]**、**[実行]** のアクセスと既定の ACL を *powerbi* ファイル システムに割り当てます。
 
    ![次に、書き込みと実行を割り当てる](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
@@ -198,7 +198,7 @@ Power BI Desktop の顧客は、データフローの所有者である場合か
 データフロー、CDM、および Azure Data Lake Storage Gen2 について詳しくは、次の記事をご覧ください。
 
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
-* [ワークスペース データフローの設定の構成 (プレビュー)](service-dataflows-configure-workspace-storage-settings.md)
+* [ワークスペース データ フローの設定の構成 (プレビュー)](service-dataflows-configure-workspace-storage-settings.md)
 * [データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)](service-dataflows-add-cdm-folder.md)
 
 データフロー全体について詳しくは、次の記事をご覧ください。
@@ -208,7 +208,7 @@ Power BI Desktop の顧客は、データフローの所有者である場合か
 * [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
 * [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
 
-Azure Storage について詳しくは、次の記事をご覧ください。
+Azure Storage の詳細については、次の記事をご覧ください。
 * [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
@@ -216,4 +216,4 @@ Common Data Model について詳しくは、次の概要記事をご覧くだ�
 * [CDM フォルダー](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM モデル ファイル定義](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-また、[Power BI コミュニティへの質問の投稿](http://community.powerbi.com/)は、いつでもご利用いただけます。
+[Power BI コミュニティへの質問](http://community.powerbi.com/)は、いつでも行うことができます。

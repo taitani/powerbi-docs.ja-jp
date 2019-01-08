@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 0b5693dfa53feba35acb559bf8606b1d03f97fdb
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223324"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329788"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop のレポート ページを基にしてヒントを作成する
 **Power BI Desktop** で作成したレポート ページを基にして、ビジュアルをマウス ポインターでポイントすると表示されるさまざまな視覚的**レポート ヒント**を作成できます。 ヒントとして機能するレポート ページを作成することにより、レポート ページで作成したビジュアル、イメージ、その他の項目のコレクションを、カスタム ヒントに含めることができます。 
@@ -25,17 +25,6 @@ ms.locfileid: "51223324"
 必要なだけいくつでもヒント ページを作成することができます。 各ヒント ページをレポート内の 1 つ以上のフィールドと関連付けることにより、選択したフィールドを含むビジュアルをマウス ポインターでポイントすると、ヒント ページで作成したヒントが、ポイントしたデータポイントでフィルター処理されて表示されます。 
 
 レポート ヒントではさまざまなことができます。 以下では、ヒントを作成する方法と、それを構成するために行う必要があることを説明します。
-
-### <a name="enable-the-tooltips-preview"></a>ヒントのプレビューを有効にする 
-**Power BI Desktop** の 2018 年 9 月のリリースとして、ヒントは一般公開されており、有効にする必要はありません。 
-
-以前のバージョンの **Power BI Desktop** を使用している場合は、Power BI Desktop で **[ファイル]、[オプションと設定]、[オプション]、[プレビュー機能]** の順に選択して、プレビュー機能として有効にすると、**[レポート ページのヒント]** の横にあるチェックボックスを選択できます。 
-
-![レポート ヒントのプレビュー機能を有効にする](media/desktop-tooltips/desktop-tooltips_01.png)
-
-選択を行った後、プレビュー バージョンのレポート ヒントを有効にするには、**Power BI Desktop** を再起動する必要があります。
-
-常に、**Power BI Desktop** の最新リリースにアップグレードすることをお勧めします。これは、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」内のリンクから取得できます。 
 
 ## <a name="create-a-report-tooltip-page"></a>レポート ヒント ページを作成する
 最初に、**Power BI Desktop** キャンバス下端のページ タブ領域にある **[+]** ボタンをクリックして、新しいレポート ページを作成します。 ボタンはレポートの最後のページにあります。 
@@ -123,8 +112,7 @@ ms.locfileid: "51223324"
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 **ヒント**に関して注意すべきいくつかの制限事項と考慮事項があります。
 
-* 2018 年 9 月リリースの **Power BI Desktop** より、ヒントが一般公開され、カード ビジュアルでもヒントがサポートされています。
-* **Power BI Desktop** の 2018 年 7 月のリリース以降、ツールヒントについてテーブルとマトリックスのビジュアルがサポートされています。 
+* **Power BI Desktop** の 2018 年 12 月リリースより、ボタン ビジュアルでもツールヒントがサポートされます。
 * モバイル アプリでレポートを表示するときには、レポート ヒントはサポートされていません。 
 * カスタム ビジュアルでは、レポート ヒントはサポートされません。 
 * 現在、クラスターはレポート ヒントに表示できるフィールドとしてサポートされません。 

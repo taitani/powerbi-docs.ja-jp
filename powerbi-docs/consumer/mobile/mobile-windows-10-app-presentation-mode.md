@@ -1,31 +1,29 @@
 ---
 title: Surface Hub および Windows 10 でプレゼンテーション モードを表示する - Power BI
 description: Surface Hub で Power BI レポートを表示する方法と、Windows 10 デバイスで Power BI のダッシュボード、レポート、タイルを全画面表示モードで表示する方法について説明します。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.date: 12/10/2018
+ms.author: mshenhav
+ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507935"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301760"
 ---
-# <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Surface Hub および Windows 10 でプレゼンテーション モードのレポートを表示する - Power BI
-Surface Hub ではレポートをプレゼンテーション モードで表示し、Windows 10 デバイスではダッシュボード、レポート、タイルを全画面表示モードで表示できます。 
+# <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub と Windows 10 デバイスで、プレゼンテーション モードでレポートとダッシュボードを表示する
+Windows 10 デバイスと Surface Hub で、プレゼンテーション モードを使用し、レポートとダッシュボードを全画面表示できます。 
 
 ![全画面表示モードでのレポート](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
 
-プレゼンテーション モードと全画面表示モードは、会議やカンファレンス、またはオフィスの専用プロジェクターで Power BI を表示する場合やく、小さい画面上の領域を最大化する場合に役立ちます。 
+プレゼンテーション モードは、会議やカンファレンス、またはオフィスの専用プロジェクターで Power BI を表示する場合やく、小さい画面上の領域を最大化する場合に役立ちます。 
 
-Power BI モバイル アプリの全画面表示モードでは、ナビゲーション バーやメニュー バーなどの枠が、レポートのページ タブとフィルター ウィンドウを除いてすべて非表示になります。
-
-Surface Hub のプレゼンテーション モードでレポートを表示すると、さまざまな色のインクでページに書き込みをしたり、レポートのページ間を移動したりできます。
+Windows 10 向け Power BI モバイル アプリのプレゼンテーション モードでは、ナビゲーション バーやメニュー バーなど、すべての "chrome" が取り除かれ、チーム メンバーも含め、ユーザーはレポートのデータに集中できます。 アクションを含むツール バーが利用可能になり、プレゼンテーション モードで表示中、データをやりとりしたり、データで共同作業したりすることができます。
 
 また、Web 上の [Power BI サービスから全画面表示モードでダッシュボードとレポートを表示](../end-user-focus.md)することもできます。
 
@@ -34,44 +32,24 @@ Surface Hub のプレゼンテーション モードでレポートを表示す�
 > 
 > 
 
-## <a name="display-dashboards-reports-and-tiles-in-full-screen-mode"></a>ダッシュボード、レポート、タイルを全画面表示モードで表示する
-1. Power BI モバイル アプリのダッシュボード、レポート、タイルで **[全画面表示]** アイコン ![[全画面表示] アイコン](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) をタップすると、全画面表示モードに切り替わります。
-2. プレゼンテーション モードで、レポートをフィルター処理したり、その他のダッシュボードやレポートを検索したりすることができます。
-   
-    フィルターを設定または解除するには、フィルター ウィンドウを展開します。
-   
-    ![フィルター ウィンドウ](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-filter.png)
-   
-     [検索] アイコン ![[検索] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) をタップすると、他のダッシュ ボードを探すことができます。
-   
-    ![検索結果](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-search.png)
-3. 全画面表示モードを終了するには、ツールバーにある内向きの 2 つの矢印の付いたアイコン ![全画面表示モードを終了](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) をタップするか、または上から下にスワイプし、内向きの 2 つの矢印をタップします。 ![全画面表示モードを終了](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+## <a name="use-presentation-mode"></a>プレゼンテーション モードを使用する
+Power BI モバイル アプリで **[全画面表示]** アイコンをタップすると、全画面表示モードに切り替わります。
+![[全画面表示] アイコン](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) アプリの chrome が消え、画面の一番下か左右にツール バーが表示されます (表示場所はお使いの画面のサイズによって変わります)。
 
-## <a name="turn-on-presentation-mode-for-surface-hub"></a>Surface Hub のプレゼンテーション モードを有効にする
-既定では、Surface Hub のプレゼンテーション モードは有効ですが、このモードが無効になっている場合は、有効に戻すことができます。
+![全画面表示モードのレポート。横にツール バーが表示されています](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
 
-1. 左側のナビゲーション バーの下部にある [設定] アイコン ![[設定] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-settings-icon.png) をタップします。
-2. **[オプション]** をタップし、**[Microsoft Surface Hub プレゼンテーション モードの有効化]** を **[オン]** にします。
-   
-    ![プレゼンテーション モードを有効にする](./media/mobile-windows-10-app-presentation-mode/power-bi-turn-on-presentation-mode.png)
+このツール バーから次の操作を実行できます。
 
-## <a name="display-and-draw-on-reports-on-surface-hub"></a>Surface Hub でのレポートの表示とレポートへの書き込み
-1. レポートで **[全画面表示]** アイコン ![[全画面表示] アイコン](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) をタップして、Surface Hub をプレゼンテーション モードに切り替えます。
-   
-    画面の両側に折りたたみ可能な操作バーが表示されます。 
-   
-   * 操作バーを開くには、内側にスワイプするか、ハンドルをタップします。
-   * 操作バーを閉じるには、外側にスワイプするか、上部にある [X] をタップします。
-2. ペンによる書き込みがサポートされているデバイスでは、すぐに書き込みを始めることができます。 
-3. インクの色を変更するには、左または右の操作バーでペンをタップします。
-   
-    ![Surface Hub インク](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-ink.png)
-4. インクを部分的にまたは全部削除するには、消しゴムまたは元に戻す矢印をタップします。
-5. レポートの内容を最新の情報に更新するには、円形の矢印をタップします。
-6. レポート内の他のページに移動するには、横の矢印をタップします。
-   
-    ![他のページへの横向き矢印](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-arrows.png)
-7. 全画面表示モードを終了するには、上から下にスワイプし、内向きの 2 つの矢印 ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png) をタップします。
+1. [戻る] アイコンをタップすると、 ![[戻る] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 前のページに戻ります。 アイコンを長押しすると、階層リンク ウィンドウが表示されます。このウィンドウから、レポートまたはダッシュボードが含まれるフォルダーに移動できます。
+2. [インク] アイコンをタップすると、 ![[インク] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) Surface ペンでレポート ページに線を引いたり、注釈を付けたりするときの色を選択できます。 
+3. [ページ] アイコンを使用すると、 ![[改ページ] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 現在表示しているレポート ページが別のページに代わります。
+4. [検索] アイコン ![[検索] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) をタップし、Power BI で他の成果物を検索します。
+5. プレゼンテーション モードを終了するには、ツールバーにある内向きの 2 つの矢印の付いたアイコン ![全画面表示モードを終了](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) をタップします。
+
+ツール バーを切り離し、画面上の任意の場所までドラッグし、そこに置くことができます。 これは大きな画面の場合に便利です。レポートの特定の領域に集中的に取り組むとき、その隣にツールを配置します。 ツール バーを指で触れ、レポート キャンバスまでスワイプします。
+
+![プレゼンテーション モードのレポートと切り離されたツール バー](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI サービスから全画面表示モードでダッシュボードとレポートを表示する](../end-user-focus.md)

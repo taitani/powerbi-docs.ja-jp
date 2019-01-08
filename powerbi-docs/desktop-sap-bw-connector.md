@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452869"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451446"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop で SAP BW Connector を使用する
 Power BI Desktop で、**SAP BusinessWarehouse (BW)** のデータにアクセスできます。
@@ -66,7 +66,7 @@ Power BI Desktop でバージョン 1 の **SAP BW Connector** を使うと、**
 
 ![SAP サーバーの接続設定](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-また、**[Advanced options]** (詳細設定オプション) として、言語コードと、指定したサーバーに対して実行するカスタム MDX ステートメントの 2 つを指定できます。
+また、**[詳細設定オプション]** として、言語コードと、指定したサーバーに対して実行するカスタム MDX ステートメントの 2 つを指定できます。
 
 ![追加の接続情報](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -78,8 +78,8 @@ MDX ステートメントを指定しなかった場合、**[ナビゲーター]
 
 **[ナビゲーター]** ウィンドウではいくつかの **[表示オプション]** を選ぶことができ、以下のことが可能です。
 
-* ***[選択された項目のみ]* または *[All Items]* (すべての項目) (既定のビュー) を表示:** このオプションは、選択した項目の最終セットを確認するのに役立ちます。 *[プレビュー]* エリアの*列名*を選択しても、同様の確認ができます。
-* **[Enable Data Previews]\(データ プレビューの有効化) (既定の動作):** このダイアログ内でデータ プレビューを表示するかどうかを選択できます。 データ プレビューを無効にすると、プレビューのためのデータが必要なくなるため、サーバー呼び出しの量が減ります。
+* ***[選択された項目のみ]* または *[All Items]\(すべての項目\)* (既定のビュー) を表示:** このオプションは、選択した項目の最終セットを確認するのに役立ちます。 *[プレビュー]* エリアの*列名*を選択しても、同様の確認ができます。
+* **[Enable Data Previews]\(データ プレビューの有効化\) (既定の動作):** このダイアログ内でデータ プレビューを表示するかどうかを選択できます。 データ プレビューを無効にすると、プレビューのためのデータが必要なくなるため、サーバー呼び出しの量が減ります。
 * **[技術名]:** SAP BW はキューブ内のオブジェクトの*技術名*の概念をサポートしています。 技術名を使うと、キューブの所有者がキューブ内のオブジェクトの*物理名*だけでなく、*ユーザー フレンドリ*名も公開できます。
 
 ![[ナビゲーター] ウィンドウ](media/desktop-sap-bw-connector/sap_bw_6.png)

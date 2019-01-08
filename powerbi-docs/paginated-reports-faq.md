@@ -1,5 +1,5 @@
 ---
-title: 'Power BI のページ分割されたレポート: FAQ (プレビュー)'
+title: Power BI のページ分割されたレポート:よくあるご質問 (プレビュー)
 description: この記事では、ページ分割されたレポートについてよく寄せられる質問に答えます。 これらのレポートは、印刷や PDF 生成用に最適化されている、高度に書式設定されたピクセル単位で完璧な出力です。
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0ddf95563c52af135ac7ae4fe71aeddcd2ce7313
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d3fdf9b568aa13ba5a8437c684835e0fce803d19
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268081"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649447"
 ---
-# <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI のページ分割されたレポート: FAQ (プレビュー)
+# <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI のページ分割されたレポート:よくあるご質問 (プレビュー)
 
 この記事では、ページ分割されたレポートについてよく寄せられる質問に答えます。 これらのレポートは、印刷や PDF 生成用に最適化されている、高度に書式設定されたピクセル単位で完璧な出力です。 これらは、複数のページにちょうど収まるように設定されているため "ページ分割された" と呼ばれます。 ページ分割されたレポートは、SQL Server Reporting Services の RDL レポート テクノロジに基づいています。 
 
@@ -59,7 +59,7 @@ Power BI レポートとページ分割されたレポートを区別するた�
 
 ### <a name="can-i-monitor-this-workload-through-the-premium-capacity-monitoring-app"></a>Premium 容量監視アプリを使ってこのワークロードを監視できますか。
 
-まだできません。 パブリック プレビューでは、既存レポートの新しいタブで、Power BI データセットと同じ関連する詳細を監視できます。
+はい。Power BI データセットと同じ関連詳細が含まれる新しいタブで監視できます。
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>ページ分割されたレポートを作成して発行するには、Pro ライセンスが必要ですか。
 
@@ -73,9 +73,9 @@ Power BI レポートとページ分割されたレポートを区別するた�
 
 ページ分割されたレポートに対する各 Premium SKU の既定のメモリは次のとおりです。
 
-- **P1/A4**: 20% (既定値)、10% (最小値)
-- **P2/A5**: 10% (既定値)、5% (最小値)
-- **P3/A6**: 5% (既定値)、2.5% (最小値)
+- **P1/A4**:20% (既定値)、10% (最小値)
+- **P2/A5**:20% (既定値)、5% (最小値)
+- **P3/A6**:20% (既定値)、2.5% (最小値)
 
 ## <a name="general"></a>全般
 
@@ -113,15 +113,12 @@ Power BI レポートは、探索と対話性に最適化されています。  
 - ブックマーク
 - Bing マップ レイヤー
 - カスタム フォント
-- 非表示パラメーター
-
-切り替えと対話式の並べ替えは、まだ運用段階ではありませんが、間もなく提供される予定です。    
 
 切り替え/並べ替え以外の Power BI サービスでサポートされていない機能を含むファイルをアップロードしようとすると、エラー メッセージが表示されます。
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>ページ分割されたレポートに対して現在サポートされているデータ ソースは何ですか。
 
-Azure SQL Database、SQL Server、およびオンプレミス ゲートウェイを使用する SQL Server Analysis Services (SSAS) の表形式モデルが、サポートされています。 SSAS 多次元 (MDX) モデルは現在サポートされていません。
+Azure SQL Database、SQL Server、オンプレミス ゲートウェイを使用する SQL Server Analysis Services (SSAS) の表形式モデル (DAX) と多次元式モデル (MDX) の両方がサポートされています。
 
 ゲートウェイを介した SSAS へのアクセスが機能するには、資格情報が格納されているユーザーに管理者特権のアクセス許可が必要です。
 
@@ -135,7 +132,7 @@ Azure SQL Database、SQL Server、およびオンプレミス ゲートウェイ
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>ゲートウェイを介してストアド プロシージャを使用できますか。
 
-ゲートウェイを介してストアド プロシージャを使用することはできますが、ストアド プロシージャにパラメーターがある場合はできません。
+ゲートウェイ経由でストアド プロシージャを使用できますが、ストアド プロシージャにパラメーターが指定されている場合、特定のシナリオで問題が発生することがあります。
 
 ### <a name="what-export-formats-are-available-for-my-report-in-the-power-bi-service"></a>Power BI サービスでレポートにはどのようなエクスポート形式を使用できますか。
 
@@ -143,15 +140,15 @@ Microsoft Excel、Microsoft Word、Microsoft PowerPoint、PDF、.CSV、XML、MHT
 
 ### <a name="can-i-print-paginated-reports"></a>ページ分割されたレポートを印刷できますか。
 
-現在は、PDF にエクスポートして、ファイルを印刷できます。 ページ分割されたレポートからの直接印刷は、近日中に使用できるようになります。 
+はい。ページ分割されたレポートは印刷できます。印刷プレビュー機能が新しくなり、改善されています。 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>メール サブスクリプションはページ分割されたレポートに対して使用できますか。
 
-いいえ、メール サブスクリプションは今後提供されます。
+いいえ。ただし、メール サブスクリプションは近日開始する予定です。
 
 ### <a name="what-features-from-ssrs-will-you-be-supporting-in-the-power-bi-service"></a>Power BI サービスではサポート SSRS のどのような機能がサポートされていますか。
 
-2 つの製品間のパリティが可能な限り近くなるように提供することを計画しています。  Power BI での異なるアクセス許可モデルなど、SSRS と Power BI に関する特定の事柄は、既存の SSRS パターンに合わせるため変更しようとしても意味がありませんが、この種の決定についてはお客様やパートナーからのフィードバックをお待ちしています。
+Microsoft の計画では、多くのシナリオで機能を均衡させる予定です。ただし、SSRS と Power BI の一部の項目については、既存の SSRS パターンに合わせて変更することに意味がない場合があります。  たとえば、Power BI のさまざまなアクセス許可モデルは SSRS に逆マッピングできません。  Microsoft はこの種の決定を行うために、お客様やパートナーにフィードバックをお願いしています。
 
 ### <a name="can-i-run-custom-code-in-my-report"></a>レポートでカスタム コードを実行できますか。
 
@@ -171,7 +168,7 @@ Microsoft Excel、Microsoft Word、Microsoft PowerPoint、PDF、.CSV、XML、MHT
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Power BI アプリを使って、ページ分割されたレポートの内容を共有できますか。
 
-現在は、ポータルでの共有アクションを使用して、他のユーザーと個々のページ分割されたレポートを共有できます。 アプリでの共有はまだサポートされていませんが、間もなくサポートされる予定です。 ツール バーにも共有ボタンを設けます。
+現在のところ、ポータルでの共有アクションを使用するか、ツール バーを使用する方法で、個々のページ分割されたレポートを他のユーザーと共有できます。 アプリでの共有はまだサポートされていませんが、間もなくサポートされる予定です。 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>ダッシュボードへのレポート タイルのピン留めのような Power BI での他のレポート固有機能は、ページ分割されたレポートで動作しますか。
 
@@ -179,15 +176,15 @@ Microsoft Excel、Microsoft Word、Microsoft PowerPoint、PDF、.CSV、XML、MHT
 
 ### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>Power BI サービスでページ分割されたレポート用に新しい作成ツールを作成する予定はありますか。  レポート ビルダーで必要なすべてのことを今すぐ行うことはできません。
 
-最適なツールにするためのさまざまなオプションをまだ模索していますが、ALM やカスタム拡張機能など、SSRS 用作成ツールのいずれかにのみ含まれる可能性のある機能はサポートするので安心してください。 
+Power BI のページ分割されたレポートについては、最良のツールを与えるべく、現在もさまざまな選択肢を検討しています。 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>SSRS の顧客が Power BI に既存のレポートと資産を移動できる移行ツールは計画されていますか。
 
-はい、Power BI サービスでサポートされる一連のコア機能が完了するまでは提供されません。
+Power BI にコンテンツを移動するとき、自動化を取り入れるべく、Microsoft はさまざまな選択肢を検討しています。ただし、これは GA まで利用できません。
 
 ### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>1 つの作成ツールでページ分割されたレポートと Power BI レポートの両方を作成できるようになりますか。
 
-現在は単一の作成ツールは計画されていませんが、作成ツールも一緒に単一の BI スイートとして配布するか、または個別のダウンロード/分ランドにする可能性を検討しています。
+潜在的には可能です。  現在のところ、このシナリオを可能にする方法を模索しています。また、単一の BI スイートと共に作成ツールを配布するか、個別のダウンロード/ブランディングを用意するか検討しています。
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスにはページ分割されたレポート用のレポート ビューアー コントロールがありますか。
 
@@ -200,4 +197,4 @@ Microsoft Excel、Microsoft Word、Microsoft PowerPoint、PDF、.CSV、XML、MHT
 ## <a name="next-steps"></a>次の手順
 
 - [Microsoft ダウンロード センターからレポート ビルダーをインストールする](https://www.microsoft.com/download/details.aspx?id=53613)
-- [チュートリアル: ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)
+- [チュートリアル:ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)

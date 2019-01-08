@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619818"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329742"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -65,7 +65,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * SQL Server Analysis Services
 * Oracle データベース
 * IBM DB2 データベース
-* IBM Informix データベース (Beta)
+* IBM Informix データベース (ベータ版)
 * IBM Netezza
 * MySQL データベース
 * PostgreSQL データベース
@@ -78,6 +78,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Impala
 * Google BigQuery
 * Snowflake
+* Essbase (ベータ)
 * BI コネクタ
 * Exasol
 * Dremio (ベータ)
@@ -105,8 +106,8 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure SQL Database
 * Azure SQL Data Warehouse
 * Azure Analysis Services データベース
-* Azure BLOB ストレージ
-* Azure テーブル ストレージ
+* Azure Blob Storage
+* Azure Table Storage
 * Azure Cosmos DB (ベータ版)
 * Azure Data Lake Storage
 * Azure HDInsight (HDFS)
@@ -127,34 +128,34 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (オンプレミス)
 * アプリ用 Common Data Service (ベータ)
-* Microsoft Azure Consumption Insights (Beta)
+* Microsoft Azure Consumption Insights (ベータ)
 * Azure DevOps (ベータ)
 * Azure DevOps Server (ベータ)
 * Salesforce オブジェクト
 * Salesforce レポート
 * Google アナリティクス
 * Adobe Analytics
-* appFigures (Beta)
+* appFigures (ベータ)
 * comScore Digital Analytix (Beta)
 * Dynamics 365 for Customer Insights (ベータ)
-* Data.World - データセットの取得 (Beta)
+* Data.World - データセットの取得 (ベータ)
 * Facebook
 * GitHub (Beta)
 * MailChimp (Beta)
 * Marketo (Beta)
-* Mixpanel (Beta)
-* Planview Enterprise One - PRM (Beta)
-* Planview Projectplace (Beta)
-* QuickBooks Online (Beta)
+* Mixpanel (ベータ)
+* Planview Enterprise One - PRM (ベータ)
+* Planview Projectplace (ベータ)
+* QuickBooks Online (ベータ)
 * Smartsheet
-* SparkPost (Beta)
-* Stripe (Beta)
-* SweetIQ (Beta)
-* Planview Enterprise One - CMT (Beta)
-* Twilio (Beta)
+* SparkPost (ベータ)
+* Stripe (ベータ)
+* SweetIQ (ベータ)
+* Planview Enterprise One - CMT (ベータ)
+* Twilio (ベータ)
 * tyGraph (Beta)
 * Webtrends (Beta)
-* Zendesk (Beta)
+* Zendesk (ベータ)
 * TeamDesk (Beta)
 
 次の図は、**[オンライン サービス]** の **[データの取得]** ウィンドウを示しています。

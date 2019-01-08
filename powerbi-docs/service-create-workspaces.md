@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452639"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451423"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Power BI で同僚と一緒にワークスペースを作成する
 
@@ -27,7 +27,7 @@ Power BI では、*ワークスペース*を作成することができます。
 
 **ご存知でしたか?**  Power BI では、新しいワークスペース エクスペリエンスをプレビューしています。 今後、ワークスペースがどのように変更されるかについては、「[新しいワークスペース (プレビュー) を作成する](service-create-the-new-workspaces.md)」を参照してください。 
 
-## <a name="video-apps-and-app-workspaces"></a>ビデオ: アプリとアプリ ワークスペース
+## <a name="video-apps-and-app-workspaces"></a>ビデオ:アプリとアプリ ワークスペース
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>Office 365 グループに基づいてアプリ ワークスペースを作成する
