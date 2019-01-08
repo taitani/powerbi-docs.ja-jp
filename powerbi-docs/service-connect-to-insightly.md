@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87d294c81cbf9a342ce238bb198173516c1f3215
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548628"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008007"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Power BI で Insightly に接続する
 Insightly コンテンツ パックを使うと、Insightly CRM データを Power BI で視覚化して共有できます。 Insightly API キーを使って Power BI に接続し、CRM データからレポートやダッシュボードを作成して表示します。 Power BI があれば、新しい方法でデータを分析できます。説得力のあるグラフやチャートを作成したり、地図上に連絡先、潜在顧客、組織を表示したりできます。

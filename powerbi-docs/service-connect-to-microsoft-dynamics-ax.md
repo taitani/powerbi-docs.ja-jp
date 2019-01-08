@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8466d57340feb80650af93e4f400b82436d11b05
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544856"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008122"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Power BI で Microsoft Dynamics AX コンテンツ パックに接続する
 Microsoft Dynamics AX には、異なるビジネス ユーザーを対象とした 3 つの Power BI コンテンツ パックがあります。 CFO 専用に設計された財務実績コンテンツ パックは、組織の財務業績に関する洞察を提供します。 リテール チャネル実績コンテンツ パックは、販売実績に注目するチャネル マネージャーを対象にしており、小売および取引データから直接描画することで、傾向を予測して洞察を導き出します。 コスト管理は、COO と CFO 向けに設計されており、経営実績の詳細を提供します。
