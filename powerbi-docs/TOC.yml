@@ -98,18 +98,12 @@ items:
       href: desktop-connect-to-data.md
     - name: Power BI Desktop からの発行
       href: desktop-upload-desktop-files.md
-    - name: Power BI でのカスタム ビジュアル
-      href: power-bi-custom-visuals.md
-    - name: Power BI での組織のカスタム ビジュアル
-      href: power-bi-custom-visuals-organization.md
     - name: パート I、Power BI レポートへの視覚化の追加
       href: visuals/power-bi-report-add-visualizations-i.md
     - name: パート 2、Power BI レポートへの視覚化の追加
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: 視覚化タイトル、背景、および凡例のカスタマイズ
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: カスタム ビジュアルのトラブルシューティング
-      href: power-bi-custom-visuals-troubleshoot.md
     - name: データへの接続
       items:
       - name: Power BI Desktop のデータ ソース
@@ -880,7 +874,7 @@ items:
         href: developer/power-bi-permissions.md
     - name: 方法
       items:
-      - name: アプリから埋め込む方法
+      - name: アプリからの埋め込み
         href: developer/embed-from-apps.md
       - name: Azure Active Directory テナントを作成する
         href: developer/create-an-azure-active-directory-tenant.md
@@ -890,8 +884,6 @@ items:
         href: developer/get-azuread-access-token.md
       - name: 埋め込みに関する Q&A
         href: developer/qanda.md
-      - name: 埋め込みアプリケーションのトラブルシューティング
-        href: developer/embedded-troubleshoot.md
       - name: Azure で容量を管理する
         items:
         - name: Azure で容量を作成する
@@ -902,6 +894,10 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Azure で容量を一時停止し、開始する
           href: developer/azure-pbie-pause-start.md
+      - name: トラブルシューティング
+        items:
+        - name: 埋め込みアプリケーションのトラブルシューティング
+          href: developer/embedded-troubleshoot.md
       - name: ワークスペース コレクションから移行する
         items:
         - name: Power BI ワークスペース コレクションから移行する方法
@@ -944,12 +940,12 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: スタック オーバーフロー
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: カスタム ビジュアルを開発する
+  - name: カスタム ビジュアル
     items:
     - name: 概要
       items:
-      - name: カスタム ビジュアルを Power BI に追加する
-        href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
+      - name: Power BI でのカスタム ビジュアル
+        href: power-bi-custom-visuals.md
     - name: チュートリアル
       items:
       - name: Power BI カスタム ビジュアルを開発する
@@ -958,6 +954,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: 概念
       items:
+      - name: Power BI での組織のカスタム ビジュアル
+        href: power-bi-custom-visuals-organization.md
       - name: Power BI ビジュアルのガイドライン
         href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: カスタム ビジュアルのよくあるご質問
@@ -978,8 +976,12 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: カスタム ビジュアルを AppSource に発行する
         href: developer/office-store.md
-      - name: カスタム ビジュアルのトラブルシューティング
-        href: power-bi-custom-visuals-troubleshoot.md
+      - name: Power BI で R を利用したカスタム ビジュアルを使用する
+        href: desktop-r-powered-custom-visuals.md
+      - name: トラブルシューティング
+        items:
+        - name: カスタム ビジュアルの開発のトラブルシューティング
+          href: power-bi-custom-visuals-troubleshoot.md
     - name: リファレンス
       items:
       - name: API
@@ -1283,9 +1285,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: bb2600fea9af9578ab9b9dd7260e358a8de7e646
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 2e6a77d0aadd85cce05d8dc4fb5fdb60e4cbe91d
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008881"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072338"

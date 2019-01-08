@@ -8,13 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: bc5d5b7151643764b174d0bbec09e7f47ea2b1b2
-ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
+ms.openlocfilehash: 264794346a046ceb85c67f77d2fe6d80556d342d
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "53553860"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54055997"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Power BI カスタム ビジュアルのトラブルシューティング
 
@@ -26,7 +27,7 @@ ms.locfileid: "53553860"
 
 **[視覚化] タブで "ビジュアルのデバッグ" が見つかりません**
 
-"ビジュアルのデバッグ" は、[**視覚化**] タブ内でプロンプト アイコンのように表示されます。
+"ビジュアルのデバッグ" は、**[視覚化]** タブ内でプロンプト アイコンのように表示されます。
 
 ![ビジュアルの選択](media/power-bi-custom-visuals-troubleshoot/powerbi-developer-visual-selection.png)
 
