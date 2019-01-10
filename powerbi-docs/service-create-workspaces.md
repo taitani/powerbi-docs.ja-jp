@@ -7,25 +7,25 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: 55f592101954ae5c0724fb5b48fb2571a1bdfc51
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451423"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983694"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Power BI で同僚と一緒にワークスペースを作成する
 
-Power BI では、*ワークスペース*を作成することができます。このワークスペースは、同僚と共同でダッシュボードとレポートのコレクションを作成して調整するための場所です。 その後、それらをまとめて*アプリ* にバンドルできます。これにより、所属の組織全体や特定のユーザーまたはグループに配布することができます。 
+Power BI では、*ワークスペース*を作成することができます。このワークスペースは、同僚と共同でダッシュボードとレポートのコレクションを作成して調整するための場所です。 その後、それらのコレクションをまとめて*アプリ* にバンドルできます。これにより、所属の組織全体や特定のユーザーまたはグループに配布することができます。 
 
 ![Power BI アプリ](media/service-create-workspaces/power-bi-apps-left-nav.png)
 
 ワークスペースを作成するときに、基になる、関連する Office 365 グループを作成します。 ワークスペースの管理はすべて Office 365 で行われます。 こうしたワークスペースには、メンバーまたは管理者として、同僚を追加することができます。 ワークスペースでは、より広範な対象ユーザーに発行する予定のダッシュボード、レポート、およびその他の記事で、全員が共同作業を行うことできます。 アプリ ワークスペースに追加するすべてのユーザーに、Power BI Pro のライセンスが必要となります。 
 
-**ご存知でしたか?**  Power BI では、新しいワークスペース エクスペリエンスをプレビューしています。 今後、ワークスペースがどのように変更されるかについては、「[新しいワークスペース (プレビュー) を作成する](service-create-the-new-workspaces.md)」を参照してください。 
+**ご存知でしたか?**  Power BI では、新しいワークスペース エクスペリエンスをプレビューしています。 新しいワークスペースの詳細については、[新しいワークスペースでの作業の整理 (プレビュー)](service-new-workspaces.md) に関する記事を参照してください。 
 
 ## <a name="video-apps-and-app-workspaces"></a>ビデオ:アプリとアプリ ワークスペース
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -84,12 +84,12 @@ Power BI でサポートされるすべてのサード パーティ サービス
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>アプリと組織のコンテンツ パックとの違いは何ですか?
 アプリは、組織のコンテンツ パックが進化したものです。 組織のコンテンツ パックが既にある場合は、アプリと並行して使用することになります。 アプリとコンテンツ パックには、大きな違いがいくつかあります。 
 
-* ビジネス ユーザーがコンテンツ パックをインストールすると、グループ化された ID が失われ、他のダッシュボードやレポートと混在した単なるダッシュボードとレポートの一覧になります。 一方、アプリではインストール後もグループ化および ID が維持されます。 このため、ビジネス ユーザーは時間が経っても簡単にアクセスすることができます。
+* ビジネス ユーザーがコンテンツ パックをインストールすると、グループ化された ID が失われ、他のダッシュボードやレポートと混在した単なるダッシュボードとレポートの一覧になります。 一方、アプリではインストール後もグループ化および ID が維持されます。 このグループ化により、ビジネス ユーザーは時間が経っても簡単にアクセスすることができます。
 * 任意のワークスペースから複数のコンテンツ パックを作成できますが、アプリとそのワークスペースの間には 1 対 1 の関係があります。 
 * 将来的には、組織のコンテンツ パックは廃止される予定のため、今後はアプリを作成することをお勧めします。  
 * 新しいワークスペース エクスペリエンス プレビューの提供は、組織のコンテンツ パックの廃止への第一歩となります。 組織のコンテンツ パックをプレビュー ワークスペースで利用したり、作成したりすることはできません。
 
-「[How are the new app workspaces different from existing app workspaces?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces)」(新しいアプリ ワークスペースと現在のアプリ ワークスペースの違いは何ですか?) を参照して、現在のアプリ ワークスペースと新しいアプリ ワークスペースを比較してください。 
+「[新しいアプリ ワークスペースと現在のアプリ ワークスペースの違いは何ですか?](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces)」を参照して、2 つを比較してください。 
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI にアプリをインストールし、使用する](service-create-distribute-apps.md)

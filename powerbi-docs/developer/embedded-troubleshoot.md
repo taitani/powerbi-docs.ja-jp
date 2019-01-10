@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/12/2018
-ms.openlocfilehash: 010a26076fe139401eb2dbbc363c712d67c637fb
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.date: 12/20/2018
+ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329719"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008444"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -166,7 +166,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 **_根本原因:_**</br>
 ユーザーの同意がテナントに対して無効です。
 
-**_いくつかの修正方法が可能です: _**
+**_いくつかの修正方法が可能です:_** 
 
 *テナント全体に対するユーザーの同意を有効にする (すべてのユーザー、すべてのアプリケーション)*
 
@@ -291,3 +291,7 @@ Power BI ユーザー プロファイルまたはデータを編集する場合�
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 
 さらなる支援が必要な場合は、[サポートに問い合わせる](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)か、[Azure portal でサポート チケットを作成](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)し、発生したエラー メッセージを指定してください。
+
+## <a name="performance"></a>パフォーマンス
+
+[Power BI Embedded のパフォーマンス](embedded-performance-best-practices.md)
