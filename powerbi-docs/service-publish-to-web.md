@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/13/2018
+ms.date: 01/08/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: ab5f891b8769657f18861863562c0ab866044a18
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558541"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136624"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -26,6 +26,9 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 > [!WARNING]
 > **[Web に公開]** を使用した場合、インターネット上のすべてのユーザーが、その公開したレポートまたはビジュアルを表示できることにご注意ください。 これらのレポートを表示するときに認証は使用されません。 インターネット上の誰でも (一般の非認証メンバー) 見て差し支えないレポートやデータのみに [Web に公開] をご使用ください。 これには、レポートで集計される詳細レベルのデータが含まれます。 このレポートを公開する前に、データや視覚エフェクトを一般向けに共有する権限があることをご確認ください。 機密情報は公開しないでください。 不確かな場合は、発行する前に組織のポリシーを確認します。
 
+>[!Note]
+>ご自分のコンテンツを内部ポータルや Web サイトに安全に埋め込むには、[[埋め込む]](service-embed-secure.md) または [[SharePoint Online に埋め込む]](service-embed-report-spo.md) オプションを使います。 これにより、ユーザーが内部データを表示するときに、アクセス許可とデータ セキュリティがすべて適用されます。
+
 ## <a name="how-to-use-publish-to-web"></a>[Web に公開] の使用方法
 
 **[Web に公開]** は編集可能な個人用またはグループ用ワークスペースにあるレポートで使用できます。  他のユーザーが自分と共有したレポート、または行レベル セキュリティを使用してデータを保護しているレポートには [Web に公開] を使用できません。 Web への公開がサポートされない場合をすべて示した一覧については、以下の「**制限事項**」のセクションを参照してください。 [Web に公開] を使用する前に、前述の「**警告**」をご確認ください。
@@ -34,46 +37,45 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
-
 次の手順では、 **Publish to Web**を使用する方法について説明します。
 
 1. ワークスペースにある編集可能なレポートで、**[ファイル] > [Web に公開]** を選びます。
-   
-   ![](media/service-publish-to-web/publish_to_web1.png)
+
+   ![PtW1](media/service-publish-to-web/publish_to_web1.png)
 
 2. ダイアログの内容を確認し、次のダイアログにある **[埋め込みコードの作成]** を選びます。
-   
-   ![](media/service-publish-to-web/publish_to_web2_ga.png)
+
+   ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
 3. 次のダイアログに表示されている警告を確認し、データをパブリックな Web サイトに埋め込んでも問題がないことを確認します。 問題がなければ、 **[発行]** を選びます。
-   
-   ![](media/service-publish-to-web/publish_to_web3_ga.png)
+
+   ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
 4. リンクが記載されたダイアログが表示されます。これをコードに埋め込んで (iFrame など) メールで送信できます。あるいは、Web ページまたはブログに直接貼り付けることができます。
-   
-   ![](media/service-publish-to-web/publish_to_web4.png)
+
+   ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
 5. 以前にレポート用に埋め込みコードを作成している場合は、その埋め込みコードがすぐに表示されます。 各レポートに 1 つだけ埋め込みコードを作成できます。
-   
-   ![](media/service-publish-to-web/publish_to_web5.png)
+
+   ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
 ## <a name="tips-and-tricks-for-view-modes"></a>表示モードのヒントとテクニック
 
 ブログの投稿でコンテンツを埋め込む際、通常、特定のサイズの画面に収まるようにする必要があります。  必要に応じて、iFrame タグで高さと幅を調整することもできますが、レポートが iFrame の特定の領域内に収まることを確認しなければならない場合もあります。そのため、レポートの編集時に、適切な表示モードを設定する必要もあります。
 
-以下の表では、表示モードとそれが埋め込まれた場合にどのように表示されるかについての指針を示します。 
+以下の表では、表示モードとそれが埋め込まれた場合にどのように表示されるかについての指針を示します。
 
 | 表示モード | 埋め込まれた場合の表示方法 |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**[ページに合わせる]** は、レポートのページの高さと幅に合わせます。 ページを 16:9 や 4:3 などの "動的な" 比率に設定した場合、コンテンツは指定した iFrame に合わせてスケーリングされます。 iFrame に埋め込んだ場合、**[ページに合わせる]** を使うと、**レターボックス処理**が行われ、iFrame に合わせてコンテンツが拡大縮小された後、iFrame の領域にグレーの背景が表示されます。 できるだけレターボックス処理が行われないようにするには、iFrame の高さと幅を適切に設定します。 |
-| ![](media/service-publish-to-web/publish_to_web6d.png) |**[実際のサイズ]** では、レポートのサイズはレポート ページで設定された内容に保たれます。 その結果、iFrame にスクロール バーが表示されることがあります。 スクロール バーが表示されないように iFrame の高さと幅を設定します。 |
-| ![](media/service-publish-to-web/publish_to_web6c.png) |**[幅に合わせる]** は、iFrame の水平方向の領域内に収まるようにコンテンツを調整します。 この場合にも境界線は表示されますが、水平方向の表示スペース全体を使用するよう、コンテンツは拡大縮小されます。 |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**[ページに合わせる]** は、レポートのページの高さと幅に合わせます。 ページを 16:9 や 4:3 などの "動的な" 比率に設定した場合、コンテンツは指定した iFrame に合わせてスケーリングされます。 iFrame に埋め込んだ場合、**[ページに合わせる]** を使うと、**レターボックス処理**が行われ、iFrame に合わせてコンテンツが拡大縮小された後、iFrame の領域にグレーの背景が表示されます。 できるだけレターボックス処理が行われないようにするには、iFrame の高さと幅を適切に設定します。 |
+| ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**[実際のサイズ]** では、レポートのサイズはレポート ページで設定された内容に保たれます。 その結果、iFrame にスクロール バーが表示されることがあります。 スクロール バーが表示されないように iFrame の高さと幅を設定します。 |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**[幅に合わせる]** は、iFrame の水平方向の領域内に収まるようにコンテンツを調整します。 この場合にも境界線は表示されますが、水平方向の表示スペース全体を使用するよう、コンテンツは拡大縮小されます。 |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame の高さと幅に関するヒントとテクニック
 
 [Web に公開] を実行した後に受け取る埋め込みコードは、次のようになります。
 
-![](media/service-publish-to-web/publish_to_web7.png)
+![PtW7](media/service-publish-to-web/publish_to_web7.png)
 
 幅と高さを手動で編集して、埋め込み先のページにどのように収めるかを細かく調整できます。
 
@@ -93,20 +95,20 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 **[Web に公開]** 埋め込みコードを作成したら、作成したコードを Power BI サービスの **[設定]** メニューで管理できます。 埋め込みコードの管理には、コードの宛先ビジュアルやレポートを削除できる (埋め込みコードを使用できなくする) ことや、埋め込みコードをもう一度入手することが含まれます。
 
 1. **Publish to web** 埋め込みコードを管理するには、 **[設定]** の歯車を開き、 **[埋め込みコードの管理]** を選びます。
-   
-   ![](media/service-publish-to-web/publish_to_web8.png)
+
+   ![PtW8](media/service-publish-to-web/publish_to_web8.png)
 
 2. 次の図のように、作成した埋め込みコードの一覧が表示されます。
-   
-   ![](media/service-publish-to-web/publish_to_web9.png)
+
+   ![PtW9](media/service-publish-to-web/publish_to_web9.png)
 
 3. 一覧にある **Web に公開**される埋め込みコードに対して、埋め込みコードの取得、または埋め込みコードの削除を実行できます。削除した場合、そのレポートまたはビジュアルへのリンクは機能しなくなります。
-   
-   ![](media/service-publish-to-web/publish_to_web10.png)
+
+   ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
 4. **[削除]** を選んだ場合、埋め込みコードを本当に削除するか確認されます。
-   
-   ![](media/service-publish-to-web/publish_to_web11.png)
+
+   ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
 ## <a name="updates-to-reports-and-data-refresh"></a>レポートへの更新とデータ更新
 
@@ -118,7 +120,7 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 
 ## <a name="data-refresh"></a>データ更新
 
-データ更新は、埋め込まれたレポートまたはビジュアルに自動的に反映されます。 更新されたデータが埋め込みコードから表示できるようになるまで、約 1 時間かかることがあります。 レポートで使用されるデータセットのスケジュールで **[更新しない]** を選べば、自動更新を無効にできます。  
+データ更新は、埋め込まれたレポートまたはビジュアルに自動的に反映されます。 更新されたデータが埋め込みコードから表示できるようになるまで、約 1 時間かかることがあります。 レポートで使用されるデータセットのスケジュールで**更新しない**を選べば、自動更新を無効にできます。  
 
 ## <a name="custom-visuals"></a>カスタム ビジュアル
 
@@ -138,6 +140,7 @@ Power BI で **Web に公開**すると、対話型の Power BI の視覚化を�
 - レポート レベルの DAX メジャーを含むレポート
 - シングル サインオン データ クエリ モデル
 - [機密情報をセキュリティで保護する](#publish-to-web-from-power-bi)
+- **[埋め込む]** オプションを使って提供される自動認証機能は、Power BI JavaScript API では動作しません。 Power BI JavaScript API の場合は、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)の方法を使って埋め込みを行います。 詳細については、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)に関するページをご覧ください。
 
 ## <a name="tenant-setting"></a>テナントの設定
 
@@ -167,7 +170,7 @@ Web サイトまたはブログに埋め込まれた **[Web に公開]** コン�
 
 問題を報告するには、表示している [Web に公開] レポートの下部にあるバーの **[フラグ]** アイコンを選びます。
 
-![](media/service-publish-to-web/publish_to_web12_ga.png)
+![PtW12](media/service-publish-to-web/publish_to_web12_ga.png)
 
 ## <a name="licensing-and-pricing"></a>ライセンスと価格
 
@@ -178,5 +181,11 @@ Web サイトまたはブログに埋め込まれた **[Web に公開]** コン�
 **[Web に公開]** を使用して埋め込みコードを作成すると、インターネット上のユーザーがレポートを見られるようになります。 公開であるため、閲覧者は今後ソーシャル メディアを通してレポートを簡単に共有できます。 直接パブリック URL を開くか、Web ページやブログに埋め込まれているレポートを表示して、ユーザーがレポートを表示すると、Power BI はレポート定義と、レポートを表示するために必要なクエリの結果をキャッシュします。 この方法によって、パフォーマンスに影響を及ぼすことなく大勢のユーザーが同時にレポートを表示することができます。
 
 キャッシュは長期間存在します。そのため、レポート定義を更新する (たとえば、その表示モードを変更する場合)、またはレポート データを更新する場合、ユーザーが表示するレポートのバージョンに変更が反映されるまで、約 1 時間かかる場合があります。 したがって、作業を前もって計画的に行い、設定に問題がないことを十分に確認してから、**Web に公開**される埋め込みコードを作成するようお勧めします。
+
+## <a name="next-steps"></a>次の手順
+
+- [SharePoint Online レポート Web パーツ](service-embed-report-spo.md) 
+
+- [セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む](service-embed-secure.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973329"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136601"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
@@ -75,7 +75,7 @@ SharePoint Online にレポートを埋め込むには、最初にレポート�
 
     ![読み込まれた SP レポート](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>レポートへのアクセスを許可する
+## <a name="grant-access-to-reports"></a>レポートへのアクセスを許可する
 
 SharePoint Online にレポートを埋め込んだだけで、レポートを表示するアクセス許可が自動的にユーザーに与えられることはありません。 レポートを表示するアクセス許可は、Power BI サービスで設定します。
 
@@ -152,7 +152,7 @@ Power BI 環境で多要素認証を使ったサインインが必要な場合�
 
 ## <a name="known-issues-and-limitations"></a>既知の問題と制限事項
 
-* エラー: "エラーが発生しました。ログアウトしてから再度ログインして、このページに再びアクセスしてください。 関連付け ID: 未定義、http の応答の状態: 400、サーバー エラー コード 10001、メッセージ: 更新トークンが見つかりません"
+* エラー:"エラーが発生しました。ログアウトしてから再度ログインして、このページに再びアクセスしてください。 関連付け ID: 未定義、http の応答の状態: 400、サーバー エラー コード 10001、メッセージ: 更新トークンが見つかりません"
   
   このエラーが返された場合は、以下のトラブルシューティング手順のいずれかをお試しください。
   
@@ -174,9 +174,10 @@ Power BI 環境で多要素認証を使ったサインインが必要な場合�
 
 ## <a name="next-steps"></a>次の手順
 
-[エンドユーザーによる最新式のサイト ページの作成を許可または禁止する](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Power BI でのアプリの作成および配布](service-create-distribute-apps.md)  
-[同僚や他のユーザーとダッシュボードやレポートを共有する](service-share-dashboards.md)  
-[Power BI Premium とは何ですか?](service-premium.md)  
+* [エンドユーザーによる最新式のサイト ページの作成を許可または禁止する](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
+* [Power BI でのアプリの作成および配布](service-create-distribute-apps.md)  
+* [同僚や他のユーザーとダッシュボードやレポートを共有する](service-share-dashboards.md)  
+* [Power BI Premium とは何ですか?](service-premium.md)
+* [セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む](service-embed-secure.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
