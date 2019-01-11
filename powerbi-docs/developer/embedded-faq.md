@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 106d971a06777f7d22d1fb3cd2ba3995b95a21d9
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008421"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136647"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -204,6 +204,10 @@ RLS の場合、ISV の開発者が、モデルの作成と埋め込みトーク
 
 詳細については、[RLS と JavaScript のフィルター](embedded-row-level-security.md#using-rls-vs-javascript-filters)に関するページをご覧ください。
 
+### <a name="what-are-the-best-practices-to-improve-performance"></a>パフォーマンスを向上するベスト プラクティスについては、次を参照してください。
+
+[Power BI Embedded のパフォーマンス](embedded-performance-best-practices.md)
+
 ## <a name="licensing"></a>ライセンス
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>Power BI Embedded の購入方法は?
@@ -264,8 +268,8 @@ Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-cu
 
 3. 運用する準備ができたら、**Power BI Embedded** の専用容量を購入し、その容量に Power BI のコンテンツ (ワークスペース) を割り当てます。
 
-> [!Note]
-> **Power BI Embedded** ソリューションを使って開発を行いながら、並行して **Power BI ワークスペース コレクション**を使い続けることができます。 準備ができたら、顧客を新しい **Power BI Embedded** ソリューションに移動し、**Power BI ワークスペース コレクション** ソリューションの使用を終了します。
+    > [!Note]
+    > **Power BI Embedded** ソリューションを使って開発を行いながら、並行して **Power BI ワークスペース コレクション**を使い続けることができます。 準備ができたら、顧客を新しい **Power BI Embedded** ソリューションに移動し、**Power BI ワークスペース コレクション** ソリューションの使用を終了します。
 
 詳しくは、「[Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)」をご覧ください。
 
@@ -318,10 +322,6 @@ AAD 登録済みアプリケーションの編集方法は、[こちら](https:/
 
 Power BI データの編集方法は、[こちら](https://docs.microsoft.com/power-bi/service-basic-concepts)をご覧ください。
 
-詳しくは、「[埋め込みアプリケーションのトラブルシューティング](embedded-troubleshoot.md)」をご覧ください
+詳しくは、「[埋め込みアプリケーションのトラブルシューティング](embedded-troubleshoot.md)」をご覧ください。
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-
-### <a name="what-are-the-best-practices-to-improve-performance"></a>パフォーマンスを向上するベスト プラクティスについては、次を参照してください。
-
-[Power BI Embedded のパフォーマンス](embedded-performance-best-practices.md)

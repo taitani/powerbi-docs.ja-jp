@@ -1,5 +1,5 @@
 ---
-title: Power BI で組織のカスタム ビジュアルを使用する
+title: Power BI の組織のカスタム ビジュアル
 description: Power BI で組織のカスタム ビジュアルを使用、管理、作成する
 author: markingmyname
 ms.author: maghan
@@ -8,18 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/29/2018
+ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 6622625f27f62d9d8ffc35ecfddf4550f2a7e16e
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223101"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072154"
 ---
-# <a name="use-organizational-custom-visuals-in-power-bi"></a>Power BI で組織のカスタム ビジュアルを使用する
+# <a name="organizational-custom-visuals-in-power-bi"></a>Power BI の組織のカスタム ビジュアル
 
-Power BI でカスタム ビジュアルを使用し、独自のビジュアルを作成したり、伝えたいことをデータ インサイトで作成したりできます。 多くの場合、このようなカスタム ビジュアルは開発者が作成します。Power BI にたくさん付属しているビジュアルでは要件を満たさないときに作成されます。 
+Power BI でカスタム ビジュアルを使い、ご自身の目的に合った独自のビジュアルを作成することができます。 カスタム ビジュアルは開発者が作成します。これは多くの場合、Power BI に付属している多くのビジュアルが各自の要件を満たしていないときに作成されます。
 
 カスタム ビジュアルが重要視される組織もあります。その組織に特有のデータやインサイトを伝えるために必要だからです。その組織だけのビジネス手法を反映し、データに特別な要件が求められることもあります。 そのような組織はカスタム ビジュアルを開発し、組織全体で共有し、適切に保守管理する必要があります。 Power BI カスタム ビジュアルではその機能を利用できます。
 
@@ -27,13 +27,13 @@ Power BI でカスタム ビジュアルを使用し、独自のビジュアル�
 
 ![カスタム ビジュアルの図](media/power-bi-custom-visuals-organizational/custom-visual-org-01.jpg)
 
-組織のビジュアルが展開されます。これは Power BI 管理者が管理ポータルから管理します。 組織のリポジトリに展開されると、組織のユーザーは簡単に見つけて、Power BI Desktop から直接、自分のレポートに組織のカスタム ビジュアルをインポートできます。
+組織のビジュアルは、Power BI 管理者が管理ポータルから展開および管理します。 組織のリポジトリに展開されると、組織のユーザーは簡単に見つけて、Power BI Desktop から直接、自分のレポートに組織のカスタム ビジュアルをインポートできます。
 
-作成したレポートで組織のカスタム ビジュアルを使用する方法については、組織のカスタム ビジュアルをレポートにインポートする方法を紹介している[この記事](power-bi-custom-visuals.md)を参照してください。
+作成したレポートで組織のカスタム ビジュアルを使用する方法については、[組織のカスタム ビジュアルをレポートにインポートする方法](power-bi-custom-visuals.md)に関する記事をご覧ください。
 
 ## <a name="administer-organizational-custom-visuals"></a>組織のカスタム ビジュアルを管理する
 
-組織のカスタム ビジュアルを管理し、展開する方法については、組織のカスタム ビジュアルの展開と管理について説明している[この記事](https://go.microsoft.com/fwlink/?linkid=866790)を参照してください。
+組織のカスタム ビジュアルを管理し、展開する方法については、[組織のカスタム ビジュアルの展開と管理](https://go.microsoft.com/fwlink/?linkid=866790)に関する記事をご覧ください。
 
 > [!WARNING]
 > カスタム ビジュアルには、セキュリティやプライバシーのリスクがあるコードが含まれる場合があります。 組織のリポジトリに展開する前に、カスタム ビジュアルの作成者とソースを信頼できることを確認してください。
@@ -44,7 +44,7 @@ Power BI でカスタム ビジュアルを使用し、独自のビジュアル�
 
 管理者:
 
-* レガシ カスタム ビジュアル (新しいバージョンの API に基づいて作成されていないカスタム ビジュアルなど) はサポートされていません。
+* レガシ カスタム ビジュアル (新しいバージョンの API に基づいて作成されていないカスタム ビジュアルなど) はサポートされていません
 
 * カスタム ビジュアルがリポジトリから削除されると、削除されたそのビジュアルを利用している既存のレポートでレンダリングが停止します。 リポジトリからの削除は元に戻せません。 カスタム ビジュアルを一時的に無効にするには、[無効にする] 機能を使用します。
 

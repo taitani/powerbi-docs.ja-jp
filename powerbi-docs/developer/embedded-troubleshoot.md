@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: db782cea1d47dc31abf2908b82a756404fda513d
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008444"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136532"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -219,6 +219,10 @@ IError オブジェクトを取得したら、使用している埋め込みの�
 
 ## <a name="content-rendering"></a>コンテンツ レンダリング
 
+### <a name="performance"></a>パフォーマンス
+
+[Power BI Embedded のパフォーマンス](embedded-performance-best-practices.md)
+
 ### <a name="rendering-or-consumption-of-embedded-content-fails-or-times-out"></a>埋め込みコンテンツをレンダリングできない、使用できない、またはタイムアウトになる
 
 埋め込みトークンの有効期限が切れていないことを確認します。 埋め込みトークンの有効期限を確認し、更新してください。 詳細については、「[Refresh token using JavaScript SDK](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example)」 (JavaScript SDK を利用してトークンを更新する) を参照してください。
@@ -292,6 +296,8 @@ Power BI ユーザー プロファイルまたはデータを編集する場合�
 
 さらなる支援が必要な場合は、[サポートに問い合わせる](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)か、[Azure portal でサポート チケットを作成](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)し、発生したエラー メッセージを指定してください。
 
-## <a name="performance"></a>パフォーマンス
+## <a name="next-steps"></a>次の手順
 
-[Power BI Embedded のパフォーマンス](embedded-performance-best-practices.md)
+詳細については、[よくあるご質問](embedded-faq.md)をご覧ください。
+
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

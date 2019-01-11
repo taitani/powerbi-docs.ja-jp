@@ -11,24 +11,24 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/21/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedfbd8da9b0582c84224ef846cd0ba1c14d0683
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 73350a579096e4126ea2f65654a7d1ed7a4980c1
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223239"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072269"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI レポートでの視覚エフェクト
 
-視覚エフェクト (ビジュアルとも呼ばれる) は、データ内で検出された洞察を表示します。 Power BI レポートは、ビジュアルが 1 つ使用された単一のページのこともあれば、ビジュアルが多数含まれる複数ページから成ることもあります。 Power BI サービスでは、ビジュアルを[レポートからダッシュボードにピン留め](../service-dashboard-pin-tile-from-report.md)することができます。 
+視覚エフェクト (ビジュアルとも呼ばれる) は、データ内で検出された洞察を表示します。 Power BI レポートは、ビジュアルが 1 つ使用された単一のページのこともあれば、ビジュアルが多数含まれる複数ページから成ることもあります。 Power BI サービスでは、ビジュアルを[レポートからダッシュボードにピン留め](../service-dashboard-pin-tile-from-report.md)することができます。
 
 レポート*作成者*とレポート *コンシューマー*を区別することが重要です。レポートの作成または変更を担当している場合は、レポート作成者になります。  作成者には、レポートとその基になるデータセットに対して編集のためのアクセス許可が付与されています。 これは、Power BI Desktop では、データ ビューでデータセットを開き、レポート ビューでビジュアルを作成できることを意味し、 Power BI サービスでは、レポート エディターの[編集ビュー](../consumer/end-user-reading-view.md)でデータセットまたはレポートを開くことができることを意味します。 自分がレポートまたはダッシュボードの[共有相手](../consumer/end-user-shared-with-me.md)である場合は、レポート **コンシューマー**となります。 レポートとそのビジュアルを表示および操作することはできますが、変更内容を保存することはできません。
 
-さまざまな種類のビジュアルが Power BI の [視覚化] ウィンドウから直接使用できます。 
+さまざまな種類のビジュアルが Power BI の [視覚化] ウィンドウから直接使用できます。
 
 ![](media/power-bi-report-visualizations/power-bi-templates.png)
 
-この他にも多くのビジュアルが利用できます。[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)にアクセスし、Microsoft およびコミュニティによって提供されている[カスタム ビジュアル](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)を見つけてダウンロードしてください。    
+さらに多くの選択肢については、[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)にアクセスし、Microsoft およびコミュニティによって提供されている[カスタム ビジュアル](../developer/custom-visual-develop-tutorial.md)を見つけて[ダウンロード](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ ms.locfileid: "51223239"
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>カスタムの視覚化をアップロードして Power BI で使用する
 
-自分で作成した、または [Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)で見つけたカスタムの視覚エフェクトを追加します。 自分でカスタマイズする場合は、 ソース コードを調べ、[開発者ツール](../developer/custom-visual-develop-tutorial.md)を使用して新しい視覚エフェクトの種類を作成して、[コミュニティと共有](../developer/office-store.md)してみてください。
+自分で作成した、または [Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)で見つけたカスタムの視覚エフェクトを追加します。 自分でカスタマイズする場合は、 ソース コードを調べ、[開発者ツール](../developer/custom-visual-develop-tutorial.md)を使用して新しい視覚化の種類を作成して、[コミュニティと共有](../developer/office-store.md)してください。 カスタム ビジュアルの開発について詳しくは、「[Power BI カスタム ビジュアルを開発する](../developer/custom-visual-develop-tutorial.md)」をご覧ください。
 
 ## <a name="change-the-visualization-type"></a>視覚化の種類の変更
 
@@ -53,4 +53,5 @@ Power BI サービスでは、希望する視覚エフェクトができたら�
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [カスタム ビジュアル](../power-bi-custom-visuals.md)
