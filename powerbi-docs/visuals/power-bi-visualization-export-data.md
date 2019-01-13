@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 8d79d92577da25a316eba8e789a1b7b004a9967a
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830104"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983763"
 ---
 # <a name="export-data-from-visualizations"></a>ビジュアルからデータをエクスポートする
-視覚化を作成するのに使うデータを確認したい場合は、Power BI でデータを表示するか、またはデータを Excel に .xlsx または .csv ファイルとしてエクスポートします。 データをエクスポートするオプションを使用するには、Pro ライセンスまたは Premium ライセンスに加えて、データセットとレポートへの編集アクセス許可が必要です。 
+視覚化を作成するのに使うデータを確認したい場合は、[Power BI でデータを表示する](service-reports-show-data.md)か、データを Excel に .xlsx または .csv ファイルとしてエクスポートします。 データをエクスポートするオプションを使用するには、Pro ライセンスまたは Premium ライセンスに加えて、データセットとレポートへの編集アクセス許可が必要です。 
 
 Watch では、レポート内のビジュアルの 1 つからデータをエクスポートし、それを .xlsx ファイルとして保存し、Excel で開くことができます。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
 
@@ -38,7 +38,7 @@ Watch では、レポート内のビジュアルの 1 つからデータをエ�
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>レポート内のビジュアルから
-先に進む前に、[調達の分析サンプル レポート](../sample-procurement.md)を[編集ビュー](../consumer/end-user-reading-view.md)で開いてください。 新しい空のレポート ページを追加します。 その後、手順に従って、集計および視覚化レベルのフィルターを追加します。
+先に進む前に、[調達の分析サンプル レポート](../sample-procurement.md)を編集ビューで開いてください。 新しい空のレポート ページを追加します。 その後、手順に従って、集計および視覚化レベルのフィルターを追加します。
 
 1. 新しい縦棒グラフを作成します。  フィールド ウィンドウで、**"Location" > "City"** および **"Invoice" > "Discount Percent"** を選びます。  場合によっては、**"Discount Percent"** も値ウェルに移動する必要があります。 
 
@@ -129,9 +129,6 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
   2. **[データ]** タブで、**[外部データの取り込み]** > **[テキストから]** の順に選択します。
 * Power BI 管理者は、データのエクスポートを無効にできます。
 
-## <a name="next-steps"></a>次の手順
-[Power BI のダッシュボード](../consumer/end-user-dashboards.md)  
-[Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

@@ -9,13 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e839fabffc685ac0f97146cb7ee5218039df1c18
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830150"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056181"
 ---
 # <a name="certified-custom-visuals"></a>認定済みカスタム ビジュアル
 
@@ -62,7 +63,7 @@ ms.locfileid: "52830150"
 認定のためにカスタム ビジュアルを送信するには、次の手順に従います。
 
 1. Power BI カスタム ビジュアルのサポート チーム (pbicvsupport@microsoft.com) に電子メールを送信します。 電子メールには、次の情報を含めます。
-    * 件名: ビジュアル認定の要求
+    * 件名:ビジュアル認定の要求
     * 人間が読めるソース コードがホストされている GitHub リポジトリへのリンク
     * [要件の遵守](#certification-requirements)
     * コード レビューに合格する
@@ -73,6 +74,7 @@ ms.locfileid: "52830150"
 
 | AppSource へのリンク | 動画のリンク |
 | --- | --- |
+| [3AG Systems - 相対差異を含む縦棒グラフ](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
 | [アスター プロット](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft カレンダー](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ Software による Bowtie Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [ビデオ](https://youtu.be/So5xKMSpVJI) |

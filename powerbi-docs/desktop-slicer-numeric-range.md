@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a2402872744b3029e37bf49eaaeae27a3ad95734
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669844"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983625"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop で数値範囲スライサーを使用する
 **数値範囲スライサー**を使用して、データ モデルの数値列にあらゆるフィルターを適用することができます。 フィルターの種類は、数値の**範囲**、数値**以下**、数値**以上**から選択できます。 これは単純なようですが、データをフィルターするには非常に強力な方法です。
@@ -54,6 +54,14 @@ ms.locfileid: "52669844"
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>数値範囲スライサーを整数にスナップする
 
 基礎とするフィールドのデータ型が**整数**の場合、数値範囲スライサーは整数にスナップします。 スライサーで整数がきれいに整列させることができます。 **10 進数**型のフィールドでは、ある数の分数を入力または選択できます。 数値をさらに正確に入力または選択できますが、テキスト ボックスに適用される書式設定は、フィールドに設定されている書式設定に一致します。
+
+## <a name="display-formatting-with-the-date-range-slicer"></a>日付範囲スライサーによる表示書式設定
+
+スライサーを使用して日付範囲を表示または設定すると、日付の形式は常に、ユーザーのブラウザーやオペレーティング システム ロケールに基づき、**[短い日付]** 形式を利用して表示されます。 基になるデータやモデルのデータ型設定に関係なく、これが表示形式になります。 
+
+たとえば、基礎になるデータ型の日付形式が "長い日付" の場合 ("*dddd, MMMM d, yyyy*" など)、他のビジュアルや状況では日付が "*Wednesday, March 14, 2001*" のように書式設定されますが、日付範囲スライサーでは、"*03/14/2001*" のようにスライサーに表示されます。
+
+スライサーで **[短い日付]** 形式を表示することで、文字列の長さに一貫性が与えられ、スライサー内でコンパクトに収まります。 
 
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項

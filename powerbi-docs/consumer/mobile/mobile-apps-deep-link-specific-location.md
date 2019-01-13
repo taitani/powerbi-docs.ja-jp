@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 63b9129c56b064f224eef0720e5f585c86d80a93
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1f9503980ba19b290fa5d0fd1f521bb85ef93759
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742860"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983579"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの特定の場所へのリンクを作成する
 URI (Uniform Resource Identifier) を作成して使用することで、すべてのモバイル プラットフォーム (iOS、Android デバイス、Windows 10) で Power BI モバイル アプリ内の特定の場所にリンクすることができます (*ディープ リンク*)。
@@ -69,6 +69,12 @@ Power BI モバイル アプリの特定のレポートを開くには、次の 
 レポートの 36 文字のオブジェクト ID を検索するには、Power BI サービス (https://powerbi.com) で特定のレポートに移動します。 たとえば、次の URL の強調表示された部分を見てください。
 
 `https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+
+レポートがマイ ワークスペース以外のグループにある場合は、レポート ID の前または後に `&GroupObjectId=<36-character-group-id>` を追加します。 次はその例です。 
+
+mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+
+2 つの間のアンパサンド (&) に注意してください。
 
 ## <a name="open-to-a-specific-report-page"></a>特定のレポート ページを開く
 Power BI モバイル アプリの特定のレポート ページを開くには、次の URI を使います。

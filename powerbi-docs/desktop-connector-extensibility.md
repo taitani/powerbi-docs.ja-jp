@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257019"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983418"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI でのコネクタの機能拡張
 
@@ -42,7 +42,7 @@ Power BI では、顧客や開発者はデータ ソースを拡張し、それ�
 * [(Recommended) Only allow certified extensions to load]\(推奨) 認定されている拡張機能のみ読み込みを許可する\
 * [(Not Recommended) Allow any extension to load without warning]\(非推奨) あらゆる拡張機能の読み込みを警告なしで許可する\
 
-**カスタム コネクタ**、あるいは自分かサードパーティが開発して配布したコネクタを使用する予定の場合、**[(Not Recommended) Allow any extension to load without warning]\((非推奨) あらゆる拡張機能の読み込みを警告なしで許可する\)** を選択する必要があります。 **カスタム コネクタ**を実行する予定がない限り、このセキュリティ設定はお勧めしません。
+**カスタム コネクタ**、あるいは自分かサードパーティが開発して配布したコネクタを使用する予定の場合、**[(Not Recommended) Allow any extension to load without warning]\((非推奨) あらゆる拡張機能の読み込みを警告なしで許可する\)** を選択する必要があります。 カスタム コネクタを全面的に信頼しているのでなければ、このセキュリティ設定はお勧めしません。コードによって資格情報が処理され (たとえば、HTTP 経由で送信されます)、プライバシー レベルが無視されるためです。
 
 **[(推奨)]** セキュリティ設定を選択している場合、お使いのシステムにカスタム コネクタが存在すると、エラーが表示され、セキュリティに基づいてコネクタを読み込めないと説明されます。
 

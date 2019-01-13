@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: e1f1a8fdc5094fd13fc2894d9728951d9f6bde96
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180463"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983556"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI ワークスペースでデータ ストレージを管理する
 
@@ -24,14 +24,15 @@ ms.locfileid: "53180463"
 
 ユーザーとアプリ ワークスペースには固有のデータ容量が割り当てられています。
 
-* すべてのユーザーが最大 10 GB のデータ記憶域を持っています。
+* すべてのユーザーに最大 10 GB のデータ記憶域が与えられます。
 * Power BI Pro ライセンスを所有するユーザーはアプリ ワークスペースを作成することができ、それぞれのデータ記憶域の上限は 10 GB です。
+* Premium 容量のアプリ ワークスペースは、Power BI Pro ユーザーの記憶域に加算されません。
 
 テナント レベルでは、テナント内のすべての Pro ユーザーとアプリ ワークスペースにおいて、総使用量が Pro ユーザー 1 人あたり 10 GB を超えることはできません。
 
 「[Power BI 料金モデル](https://powerbi.microsoft.com/pricing)」のその他の特徴もご覧ください。
 
-データ記憶域には、ユーザー個人のデータセットと Excel レポートに加えて、他のユーザーと共有したデータセットと Excel レポートも含まれます。 データセットとは、アップロードまたは接続しているデータ ソースのことで、これには使用している Power BI Desktop ファイルや Excel ブックも含まれます。 データ容量には以下も含まれます。
+データ記憶域には、ユーザー個人のデータセットと Excel レポートに加えて、他のユーザーと共有したデータセットと Excel レポートも含まれます。 データセットとは、アップロードまたは接続しているデータ ソースのことです。 使用中の Power BI Desktop ファイルや Excel ブックも含まれます。 データ容量には以下も含まれます。
 
 * ダッシュボードにピン留めされたExcel の範囲。
 * Power BI ダッシュボードにピン留めされた Reporting Services オンプレミス ビジュアル効果。
@@ -41,7 +42,8 @@ ms.locfileid: "53180463"
 
 <a name="manage"/>
 
-## <a name="manage-items-owned-by-you"></a>所有する項目の管理
+## <a name="manage-items-you-own"></a>自分が所有する項目を管理する
+
 Power BI アカウントで使用しているデータ記憶域を確認して、アカウントを管理します。
 
 1. 自分の記憶域を管理するには、左側のナビゲーション ウィンドウの **[マイ ワークスペース]** に移動します。
@@ -55,9 +57,9 @@ Power BI アカウントで使用しているデータ記憶域を確認して�
    
     データセットとレポートは、2 つのタブに分かれています。
    
-    **[自分の所有]:** あなたが自分の Power BI アカウントにアップロードしたレポートやデータセットで、Salesforce や Dynamics CRM などのサービス データセットが含まれます。  
+    **[自分の所有]:** 自分の Power BI アカウントに、Salesforce や Dynamics CRM などのサービス データセットを含む、これらのレポートやデータセットをアップロードしています。  
     **[他のユーザーの所有]:** 他のユーザーから共有を受けたレポートやデータセットです。
-3. データセットやレポートを削除するには、ごみ箱のアイコン ![ごみ箱のアイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+1. データセットやレポートを削除するには、ごみ箱のアイコン ![ごみ箱のアイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 データセットが、自分や他のユーザーが作成したレポートやダッシュボードの基になっている可能性があることにご注意ください。 そのデータセットを削除してしまうと、これらのレポートやダッシュボードは機能しなくなります。
 
@@ -73,7 +75,7 @@ Power BI アカウントで使用しているデータ記憶域を確認して�
    
     データセットとレポートは、2 つのタブに分かれています。
    
-    **[わたしたちの所有]:** 自分か他の誰かがグループの Power BI アカウントにアップロードしたレポートやデータセットで、Salesforce や Dynamics CRM などのサービス データセットが含まれます。
+    **[わたしたちの所有]:** 自分か他の誰かがグループの Power BI アカウントに、Salesforce や Dynamics CRM などのサービス データセットを含む、これらのレポートやデータセットをアップロードしています。
     **[他のユーザーの所有]:** 他のユーザーから自分のグループが共有を受けたレポートやデータセットです。
 3. データセットやレポートを削除するには、ごみ箱のアイコン ![ごみ箱のアイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
@@ -87,18 +89,18 @@ Power BI アカウントで使用しているデータ記憶域を確認して�
 ## <a name="dataset-limits"></a>データセットの制限
 Power BI にインポートされるデータセットごとに 1 GB の制限があります。 データをインポートするのではなく、Excel でのエクスペリエンスを維持することを選択した場合、データセットは 250 MB に制限されます。
 
-## <a name="what-happens-when-you-hit-a-limit"></a>上限に達したときの動作
+## <a name="what-happens-when-you-reach-a-limit"></a>上限に達したときの動作
 利用できるデータ容量の上限に達すると、サービス内にメッセージが表示されます。 
 
 歯車アイコン ![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)を選択すると、データ容量の上限を超えていることを示す赤いバーが表示されます。
 
-![Storage limit reached]\(記憶域の上限に達しました\)](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![記憶域の上限に達しました](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
-また、 **[パーソナル ストレージの管理]** 内にも、同様のバーが表示されます。
+この上限は、**[パーソナル ストレージの管理]** 内でも表示されます。
 
  ![パーソナル ストレージの管理、記憶域の上限に達しました](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- データ容量の上限を超えるアクションを実行しようとすると、上限を超えることを示すメッセージが表示されます。 記憶域を適切に[管理する](#manage)ことで、記憶域のデータ量を削減し、制限に対処することができます。
+ データ容量の上限を超えるアクションを実行しようとすると、上限を超えることを示すメッセージが表示されます。 記憶域を[管理](#manage)し、記憶域の量を減らしたり、上限を超えたりできます。
 
  ![ストレージの上限を超えています](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 

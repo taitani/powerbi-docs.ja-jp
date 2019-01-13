@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 12/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e00537db4ffbcb6c1a154cb69fb2c856bd7596
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565661"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983372"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI における色の書式設定に関するヒントとコツ
 Power BI は、ダッシュボードとレポートをカスタマイズするためのさまざまな方法を提供しています。 この記事では、Power BI の視覚化を、説得力のある興味をひくものにして、お客様のニーズに合わせてカスタマイズできる各種ヒントについて詳しく説明しています。
@@ -29,38 +29,35 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 * 左右逆方向のカラー スケールを使用する
 * Power BI で元に戻す方法
 
-変更を行うには、レポートを編集している必要があります。つまり、次の図に示すように、**[マイ ワークスペース]** ウィンドウから **[レポート]** を選んでから、上部のメニュー領域で **[レポートの編集]** を選びます。
+変更を行うには、レポートを編集している必要があります。つまり、次の図に示すように、**[マイ ワークスペース]** ウィンドウから **[レポート]** を選んでから、上部のメニュー領域で **[レポートの編集]** を選びます。 この例では、**人事サンプル**が使用されています。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_1.png)
+![レポート キャンバス。[レポートの編集] が強調表示されています](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 **[視覚化]** ウィンドウが **[レポート]** キャンバスの右側に表示されたら、カスタマイズを開始できます。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_2.png)
+![レポート。[書式設定] ウィンドウが表示されています](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>1 つのデータ ポイントの色を変更する
-特定の 1 つのデータ ポイントを強調表示したい場合があります。 このようなデータ ポイントには、発売した新製品の売上高や、新しい計画が開始した後に向上した品質のスコアなどがあります。 Power BI を使用すれば、特定のデータ ポイントの色を変更することで、それを強調表示できます。
+特定の 1 つのデータ ポイントを強調表示したい場合があります。 このようなデータ ポイントには、発売した新製品の売上高や、新しい計画が開始した後に向上した品質のスコアなどがあります。 Power BI を使用すれば、ほとんどの視覚化タイプの場合、特定のデータ ポイントの色を変更することで、それを強調表示できます。
 
-次の視覚化では、生活費に関する状態を順位付けしています。 
+次の画像では、既定の色を使用し、従業員による販売利益が視覚化されています。 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_3.png)
+![面グラフ](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
 
-ここで、この順位付けされた一覧での Washington の位置を、色を使用してすばやく示したいとします。 この手順を以下に示します。
+Annelie の領域が見えにくいので、色を使って目立たせましょう。 この手順を以下に示します。
 
 **[データの色]** セクションを展開します。 次のように表示されます。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_4.png)
+![[書式設定] の下にある [データの色] セクション領域](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
 
-**[すべて表示]** を **[オン]** に設定します。 これにより、視覚化内の各データ要素の色が表示されます。 データ ポイントにポインターを合わせるとスクロールが有効になり、任意のデータ ポイントを変更できるようになります。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_5.png)
+ここでは、Valery に使われている色に類似しない濃く明るい色を選択しましょう。 Annelie の色ボックス内にある下向き矢印を選択し、**[カスタム色]** を選択し、明るい青を選択します。
 
-ここでは、 **Washington** を緑に変更してみましょう。 **Washington** までスクロールして、その色のボックス内の下矢印を選ぶと、色を選ぶためのウィンドウが表示されます。
+![色の選択](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+選択すると、Annelie の領域を他の従業員と簡単に区別できます。 
 
-緑を選ぶと、 **Washington** のデータ ポイントが緑の網掛けになり、確実に目立ちます。
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_7.png)
+![面グラフ、Annalie の領域が明るい青になりました](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
 
 視覚化の種類を変更してから処理を終了した場合でも、Power BI では選んだ内容が記憶され、 **Washington** を緑のままに保ちます。
 
@@ -103,7 +100,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_13.png)
 
-## <a name="use-diverging-color-scales"></a>[左右逆方向] のカラー スケールを使用する
+## <a name="use-diverging-color-scales"></a>左右逆方向のカラー スケールを使用する
 データに、もともと左右逆方向の尺度がある場合があります。 たとえば、温度の範囲には氷点に中央があり、収益性スコアには中間点 (ゼロ) があります。
 
 左右逆方向のカラー スケールを使用するには、 **[左右逆方向]** スライダーを **[オン]** にスライドさせます。 **[左右逆方向]** がオンの場合、追加のカラー セレクターと値ボックス (ともに **[中央]** という) が次の図のように表示されます。
