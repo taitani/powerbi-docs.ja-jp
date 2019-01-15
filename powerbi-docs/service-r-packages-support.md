@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b88b17e428633e9d610724a8c3daa145c9928ae2
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: e74b0399ffdf2b5ca79eecb6451ccd676c1095db
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026870"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296715"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI サービスの R パッケージ
 Power BI サービスでビジュアルを作成するには、強力な [R プログラミング言語](https://www.r-project.org/)を使用できます。 多くの R パッケージが Power BI サービスでサポートされています (また、常にサポート対象は増えています) が、一部のパッケージはサポートされていません。
@@ -677,7 +677,7 @@ R パッケージにはいくつかの要件と制限があります。
 |relimp| 1.0-5| https://cran.r-project.org/web/packages/relimp/index.html |
 |rematch| 1.0.1| https://cran.r-project.org/web/packages/rematch/index.html |
 |Renext| 3.1-0| https://cran.r-project.org/web/packages/Renext/index.html |
-|レポートの視覚エフェクトを表示できます。| 0.1.4| https://cran.r-project.org/web/packages/reports/index.html |
+|レポート| 0.1.4| https://cran.r-project.org/web/packages/reports/index.html |
 |reshape| 0.8.6| https://cran.r-project.org/web/packages/reshape/index.html |
 |reshape2| stats| stats4|
 |reshape2| scales (>= 0.4.1)| stats|

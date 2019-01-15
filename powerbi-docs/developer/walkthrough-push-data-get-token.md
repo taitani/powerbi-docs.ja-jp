@@ -5,18 +5,18 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cba79a98400ba517bca8e61fca743bc0024a122
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812631"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288867"
 ---
-# <a name="step-2-get-an-authentication-access-token"></a>手順 2: 認証アクセス トークンを取得する
+# <a name="step-2-get-an-authentication-access-token"></a>手順 2:認証アクセス トークンを取得する
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
 チュートリアル「データセットにデータをプッシュする」の**手順 1**「[アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)」では、クライアント アプリを Azure AD に登録しました。 この手順では、認証アクセス トークンを取得します。 Power BI アプリは **Azure AD** と統合されており、それによってセキュリティで保護されたサインインと承認をアプリで行うことができます。 トークンを使って **Azure AD** に対して認証を行い、Power BI リソースにアクセスします。
@@ -24,7 +24,7 @@ ms.locfileid: "34812631"
 ここでは、認証アクセス トークンを取得する方法を説明します。
 
 ## <a name="get-an-authentication-access-token"></a>認証アクセス トークンを取得する
-> **注**: 作業を開始する前に、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の前の手順を完了してください。
+> **注**:作業を開始する前に、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の前の手順を完了してください。
 > 
 > 
 

@@ -1,20 +1,20 @@
 ---
 title: Windows 10 モバイル アプリで SSRS のモバイル レポートと KPI を表示する - Power BI
 description: Windows 10 用 Power BI モバイル アプリにより、タッチ対応のモバイルからオンプレミスの重要なビジネス情報に簡単にアクセスできるようになります。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 12a2816937c9883ca5fe4d64367c439ef897cd2d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 98c76fd5903a44c8cc1ef5b175f235f1ec4382e9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744120"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289373"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 の Power BI モバイル アプリで Reporting Services (SSRS) のモバイル レポートと KPI を表示する
 Windows 10 用 Power BI モバイル アプリを使って、タッチ対応のモバイルから、SQL Server 2016 Reporting Services のオンプレミスの重要なビジネス情報に簡単にアクセスできます。 
@@ -100,7 +100,7 @@ Power BI モバイル アプリから一度に接続できるのは、1 つの�
 2. 接続を望まないサーバー名をタップしてそのまま押さえます。
 3. **[サーバーの削除]** をタップします。
    
-    ![[サーバーの削除]](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
+    ![サーバーの削除](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
 
 ## <a name="create-reporting-services-mobile-reports-and-kpis"></a>Reporting Services のモバイル レポートと KPI を作成する
 Power BI モバイル アプリでは、Reporting Services KPI とモバイル レポートを作成できません。 作成するには、SQL Server Mobile Report Publisher と SQL Server 2016 Reporting Services Web ポータルを使用します。

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 516f468702b9731347d3ceacf3ee77ab8ac7f5aa
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181553"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291949"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>ワークスペース データフローの設定の構成 (プレビュー)
 
@@ -107,7 +107,7 @@ Power BI Pro、Premium、および埋め込みのワークスペース:
 **Power BI Desktop** の顧客は、データフローの所有者である場合を除いて、Azure Data Lake Storage Gen2 アカウント内に格納されているデータフローにはアクセスできません。 次の状況を検討します。
 
 1.  アンナは新しいアプリのワークスペースを作成して、組織内の Data Lake にデータフローを格納するように構成しました。
-2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得したいと考えています。
+2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得することを考えています。
 3.  ベンは Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受信します。
 
     ![データフローの使用を試行した際のエラー](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
@@ -123,17 +123,17 @@ Power BI Pro、Premium、および埋め込みのワークスペース:
 * [データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)](service-dataflows-add-cdm-folder.md)
 * [データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
-データフロー全体について詳しくは、次の記事をご覧ください。
+データフロー全般については、次の記事をご覧ください。
 
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
 * [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
 * [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
 * [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
 
-Azure Storage について詳しくは、次の記事をご覧ください。
+Azure Storage の詳細については、次の記事をご覧ください。
 
 * [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
-* [Azure Data Services から GitHub サンプルを開始する](https://aka.ms/cdmadstutorial)
+* [Azure Data Services からの github サンプルの開始](https://aka.ms/cdmadstutorial)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
 
@@ -141,4 +141,4 @@ Common Data Model について詳しくは、次の概要記事をご覧くだ�
 * [CDM フォルダー](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM モデル ファイル定義](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-また、[Power BI コミュニティへの質問の投稿](http://community.powerbi.com/)は、いつでもご利用いただけます。
+[Power BI コミュニティへの質問](http://community.powerbi.com/)は、いつでも行うことができます。

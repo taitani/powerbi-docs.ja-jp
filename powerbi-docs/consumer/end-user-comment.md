@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 96c4014dbb38b84fb7e682dafaa0fab3338d6669
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 45ea01fb575ae7134177fe548279d36b7792b27a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280146"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289189"
 ---
 # <a name="add-comments-to-a-visualization"></a>コメントを視覚エフェクトに追加する
 個人のコメントを追加するか、同僚と視覚エフェクトに関する会話を開始します。 **コメント**機能は、*コンシューマー*が視覚エフェクトを操作できる方法の 1 つにすぎません。 

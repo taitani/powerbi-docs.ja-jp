@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.openlocfilehash: 5c388a15132c7f433a50c2975aa4b45195c55bf9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238102"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285049"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加する必要があります。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 Analysis Services データ ソースは、スケジュールされた更新とライブ接続のどちらにも使用できます。
@@ -153,7 +153,7 @@ AD 参照を実行するようにゲートウェイを構成する方法:
 
 2. ゲートウェイでは、ドメイン アカウントで実行されるように**オンプレミスのデータ ゲートウェイ サービス**を変更する必要があります (ローカル サービス アカウントは使用しません。これを使用すると、実行時に AD 参照が正しく機能しません)。 変更内容を有効にするには、ゲートウェイ サービスを再起動する必要があります。  コンピューター上のゲートウェイ アプリに進みます ("on-premises data gateway" を検索)。 そのためには、**[サービス設定]、[サービス アカウントの変更]** の順に進みます。 同じコンピューター上で新しいゲートウェイを作成しない場合はゲートウェイを復元する必要があるため、目的のゲートウェイの回復キーがあることを確認してください。 
 
-3. ゲートウェイのインストール フォルダー (*C:\Program Files\On-premises data gateway*) に管理者として移動し、書き込みアクセス許可があることを確認して、Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config のファイルを編集します。 
+3. ゲートウェイのインストール フォルダー (*"C:\Program Files\On-premises data gateway"*) に管理者として移動し、書き込みアクセス許可があることを確認して、次のファイルを編集します。Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
 4. AD ユーザーの *"ご自分の"* Active Directory 属性の構成に従って、次の 2 つの構成値を編集します。 次に示す構成値は単なる例です。Active Directory の構成に基づいて値を指定する必要があります。 これらの構成では大文字と小文字が区別されるので、必ず Active Directory の値と一致するようにします。
 

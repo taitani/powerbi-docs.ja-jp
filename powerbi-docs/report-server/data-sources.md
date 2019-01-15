@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310454"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291764"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。
@@ -39,11 +39,11 @@ Power BI レポートは、複数のデータ ソースに接続できます。 
 | Access データベース |はい |はい |いいえ |
 | Active Directory |はい |はい |いいえ |
 | Amazon Redshift |はい |いいえ |いいえ |
-| Azure BLOB ストレージ |はい |はい |いいえ |
+| Azure Blob Storage |はい |はい |いいえ |
 | Azure Data Lake Store |はい |いいえ |いいえ |
 | Azure HDInsight (HDFS) |はい |いいえ |いいえ |
 | Azure HDInsight (Spark) |はい |はい |いいえ |
-| Azure テーブル ストレージ |はい |はい |いいえ |
+| Azure Table Storage |はい |はい |いいえ |
 | Dynamics 365 (オンライン) |はい |いいえ |いいえ |
 | Facebook |はい |いいえ |いいえ |
 | フォルダー |はい |はい |いいえ |
@@ -60,7 +60,7 @@ Power BI レポートは、複数のデータ ソースに接続できます。 
 | OLE DB |はい |はい |いいえ |
 | Oracle データベース |はい |はい |はい |
 | PostgreSQL データベース |はい |はい |いいえ |
-| Power BI サービス |いいえ |いいえ |いいえ |
+| ダッシュボード |いいえ |いいえ |いいえ |
 | R スクリプト |はい |いいえ |いいえ |
 | Salesforce オブジェクト |はい |いいえ |いいえ |
 | Salesforce レポート |はい |いいえ |いいえ |
@@ -72,41 +72,41 @@ Power BI レポートは、複数のデータ ソースに接続できます。 
 | Snowflake |はい |いいえ |いいえ |
 | Sybase データベース |はい |はい |いいえ |
 | Teradata データベース |はい |はい |はい |
-| TEXT/CSV |はい |はい |いいえ |
+| テキスト/CSV |はい |はい |いいえ |
 | Web |はい |はい |いいえ |
 | XML |はい |はい |いいえ |
-| appFigures (Beta) |はい |いいえ |いいえ |
+| appFigures (ベータ) |はい |いいえ |いいえ |
 | Azure Analysis Services データベース |はい |いいえ |はい |
 | Azure Cosmos DB (ベータ版) |はい |いいえ |いいえ |
 | Azure HDInsight Spark (Beta) |はい |いいえ |いいえ |
 | Common Data Service (Beta) |はい |いいえ |いいえ |
-| comScore Digital Analytix (Beta) |はい |いいえ |いいえ |
+| comScore Digital Analytix (ベータ) |はい |いいえ |いいえ |
 | Dynamics 365 for Customer Insights (ベータ) |はい |いいえ |いいえ |
 | Dynamics 365 for Financials (Beta) |はい |いいえ |いいえ |
 | GitHub (Beta) |はい |いいえ |いいえ |
 | Google BigQuery (ベータ版) |はい |いいえ |いいえ |
-| IBM Informix データベース (Beta) |はい |いいえ |いいえ |
-| IBM Netezza (ベータ) |はい |いいえ |いいえ |
+| IBM Informix データベース (ベータ版) |はい |いいえ |いいえ |
+| IBM Netezza (ベータ版) |はい |いいえ |いいえ |
 | Kusto (Beta) |はい |いいえ |いいえ |
-| MailChimp (Beta) |はい |いいえ |いいえ |
-| Microsoft Azure Consumption Insights (Beta) |はい |いいえ |いいえ |
-| Mixpanel (Beta) |はい |いいえ |いいえ |
+| MailChimp (ベータ) |はい |いいえ |いいえ |
+| Microsoft Azure Consumption Insights (ベータ) |はい |いいえ |いいえ |
+| Mixpanel (ベータ) |はい |いいえ |いいえ |
 | Planview Enterprise (Beta) |はい |いいえ |いいえ |
 | Projectplace (Beta) |はい |いいえ |いいえ |
-| QuickBooks Online (Beta) |はい |いいえ |いいえ |
+| QuickBooks Online (ベータ) |はい |いいえ |いいえ |
 | Smartsheet |はい |いいえ |いいえ |
-| Spark (Beta) |はい |いいえ |いいえ |
-| SparkPost (Beta) |はい |いいえ |いいえ |
+| Spark (ベータ) |はい |いいえ |いいえ |
+| SparkPost (ベータ) |はい |いいえ |いいえ |
 | SQL Sentry |はい |いいえ |いいえ |
-| Stripe (Beta) |はい |いいえ |いいえ |
-| SweetIQ (Beta) |はい |いいえ |いいえ |
+| Stripe (ベータ) |はい |いいえ |いいえ |
+| SweetIQ (ベータ) |はい |いいえ |いいえ |
 | Troux (Beta) |はい |いいえ |いいえ |
-| Twilio (Beta) |はい |いいえ |いいえ |
-| tyGraph (Beta) |はい |いいえ |いいえ |
-| Vertica (Beta) |はい |いいえ |いいえ |
-| Visual Studio Team Services (Beta) |はい |いいえ |いいえ |
-| Webtrends (Beta) |はい |いいえ |いいえ |
-| Zendesk (Beta) |はい |いいえ |いいえ |
+| Twilio (ベータ) |はい |いいえ |いいえ |
+| tyGraph (ベータ) |はい |いいえ |いいえ |
+| Vertica (ベータ) |はい |いいえ |いいえ |
+| Visual Studio Team Services (ベータ) |はい |いいえ |いいえ |
+| Webtrends (ベータ) |はい |いいえ |いいえ |
+| Zendesk (ベータ) |はい |いいえ |いいえ |
 
 > [!IMPORTANT]
 > 環境内で Kerberos が正しく構成されている場合は、データ ソースで構成されている行レベルのセキュリティが、特定の DirectQuery (SQL Server、Azure SQL Database、Oracle、Teradata) およびライブ接続に対して機能します。
@@ -126,11 +126,11 @@ Power BI Report Server では、モデル更新のための認証方法として
 | Azure SQL Data Warehouse |いいえ |いいえ |はい |いいえ |
 | Active Directory |いいえ |いいえ |はい |はい |
 | Amazon Redshift |いいえ |いいえ |いいえ |いいえ |
-| Azure BLOB ストレージ |はい |はい |いいえ |いいえ |
+| Azure Blob Storage |はい |はい |いいえ |いいえ |
 | Azure Data Lake Store |いいえ |いいえ |いいえ |いいえ |
 | Azure HDInsight (HDFS) |いいえ |いいえ |いいえ |いいえ |
 | Azure HDInsight (Spark) |はい |はい |いいえ |いいえ |
-| Azure テーブル ストレージ |いいえ |はい |いいえ |いいえ |
+| Azure Table Storage |いいえ |はい |いいえ |いいえ |
 | Dynamics 365 (オンライン) |いいえ |いいえ |いいえ |いいえ |
 | Facebook |いいえ |いいえ |いいえ |いいえ |
 | フォルダー |いいえ |いいえ |いいえ |はい |
@@ -146,7 +146,7 @@ Power BI Report Server では、モデル更新のための認証方法として
 | OLE DB |はい |いいえ |はい |はい |
 | Oracle データベース |いいえ |いいえ |はい |はい |
 | PostgreSQL データベース |いいえ |いいえ |はい |いいえ |
-| Power BI サービス |いいえ |いいえ |いいえ |いいえ |
+| ダッシュボード |いいえ |いいえ |いいえ |いいえ |
 | R スクリプト |いいえ |いいえ |いいえ |いいえ |
 | Salesforce オブジェクト |いいえ |いいえ |いいえ |いいえ |
 | Salesforce レポート |いいえ |いいえ |いいえ |いいえ |
@@ -158,38 +158,38 @@ Power BI Report Server では、モデル更新のための認証方法として
 | Snowflake |いいえ |いいえ |いいえ |いいえ |
 | Sybase データベース |いいえ |いいえ |はい |はい |
 | Teradata データベース |いいえ |いいえ |はい |はい |
-| appFigures (Beta) |いいえ |いいえ |いいえ |いいえ |
+| appFigures (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Azure Analysis Services データベース (ベータ版) |いいえ |いいえ |いいえ |いいえ |
 | Azure Cosmos DB (ベータ版) |いいえ |いいえ |いいえ |いいえ |
 | Azure HDInsight Spark (Beta) |いいえ |いいえ |いいえ |いいえ |
 | Common Data Service (Beta) |いいえ |いいえ |いいえ |いいえ |
-| comScore Digital Analytix (Beta) |いいえ |いいえ |いいえ |いいえ |
+| comScore Digital Analytix (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Dynamics 365 for Customer Insights (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Dynamics 365 for Financials (Beta) |いいえ |いいえ |いいえ |いいえ |
 | GitHub (Beta) |いいえ |いいえ |いいえ |いいえ |
 | Google BigQuery (ベータ版) |いいえ |いいえ |いいえ |いいえ |
-| IBM Informix データベース (Beta) |いいえ |いいえ |いいえ |いいえ |
-| IBM Netezza (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| IBM Informix データベース (ベータ版) |いいえ |いいえ |いいえ |いいえ |
+| IBM Netezza (ベータ版) |いいえ |いいえ |いいえ |いいえ |
 | Kusto (Beta) |いいえ |いいえ |いいえ |いいえ |
-| MailChimp (Beta) |いいえ |いいえ |いいえ |いいえ |
-| Microsoft Azure Consumption Insights (Beta) |いいえ |いいえ |いいえ |いいえ |
-| Mixpanel (Beta) |いいえ |いいえ |いいえ |いいえ |
+| MailChimp (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| Microsoft Azure Consumption Insights (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| Mixpanel (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Planview Enterprise (Beta) |いいえ |いいえ |いいえ |いいえ |
 | Projectplace (Beta) |いいえ |いいえ |いいえ |いいえ |
-| QuickBooks Online (Beta) |いいえ |いいえ |いいえ |いいえ |
+| QuickBooks Online (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Smartsheet |いいえ |いいえ |いいえ |いいえ |
-| Spark (Beta) |いいえ |いいえ |いいえ |いいえ |
-| SparkPost (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Spark (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| SparkPost (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | SQL Sentry |いいえ |いいえ |いいえ |いいえ |
-| Stripe (Beta) |いいえ |いいえ |いいえ |いいえ |
-| SweetIQ (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Stripe (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| SweetIQ (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Troux (Beta) |いいえ |いいえ |いいえ |いいえ |
-| Twilio (Beta) |いいえ |いいえ |いいえ |いいえ |
-| tyGraph (Beta) |いいえ |いいえ |いいえ |いいえ |
-| Vertica (Beta) |いいえ |いいえ |いいえ |いいえ |
-| Visual Studio Team Services (Beta) |いいえ |いいえ |いいえ |いいえ |
-| Webtrends (Beta) |いいえ |いいえ |いいえ |いいえ |
-| Zendesk (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Twilio (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| tyGraph (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| Vertica (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| Visual Studio Team Services (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| Webtrends (ベータ) |いいえ |いいえ |いいえ |いいえ |
+| Zendesk (ベータ) |いいえ |いいえ |いいえ |いいえ |
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>DirectQuery でサポートされている認証方法の一覧
 

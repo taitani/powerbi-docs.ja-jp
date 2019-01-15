@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266095"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295817"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
@@ -26,7 +26,7 @@ ms.locfileid: "51266095"
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Power BI Premium の起動時の状態と展開方法について説明します。 | 2017 年 10 月 |
 | [Power BI Premium の計画と展開](https://aka.ms/Premium-Capacity-Planning-Deployment)| このホワイト ペーパーでは、適切に定義されたワークロードの Premium 容量を計画して展開するためのガイダンスとベスト プラクティスを提供します。| 2017 年 11 月 |
 | [Power BI Premium による埋め込み分析のための容量を分析する](https://aka.ms/pbiewhitepaper) |この白書は、アプリ開発者/ISV がそのビジネスに最適な容量を決定するための指針を提供します。 | 2017 年 10 月 |
-| [Power BI のエンタープライズ展開の計画](https://aka.ms/pbienterprisedeploy) |これは、組織で効果的かつ安全に Power BI を展開するための考慮事項をまとめた技術白書です。 | 2018 年 7 月 |
+| [Power BI のエンタープライズ展開の計画](https://go.microsoft.com/fwlink/?linkid=2057861) |これは、組織で効果的かつ安全に Power BI を展開するための考慮事項をまとめた技術白書です。 | 2018 年 7 月 |
 | [Power BI Report Server のキャパシティ プランニング ガイダンス](report-server/capacity-planning.md) |このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 | 2018 年 3 月 |
 | [セキュリティ](service-admin-power-bi-security.md) |Power BI でのセキュリティについて詳細に説明します。 | 2018 年 7 月 |
 | [Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](https://aka.ms/powerbi-b2b-whitepaper)|このホワイト ペーパーでは、Azure Active Directory Business-to-business (AAD B2B) の統合を使用して組織外のユーザーにコンテンツを配布する方法について説明します。| 2018 年 3 月 |

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388642"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290405"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移行ツール
 この移行ツールを使用して、Power BI Embedded Azure サービス (PaaS) のレポートを Power BI サービス (SaaS) にコピーできます。
@@ -39,7 +39,7 @@ ms.locfileid: "39388642"
 1. **[ファイル]** > **[New Migration Plan]\(新しい移行プラン\)** を選択します。
    
     ![](media/migrate-tool/migrate-tool-plan.png)
-2. **[Select Power BI Embedded Resource Group (Power BI Embedded リソース グループの選択)]** ダイアログで [環境 ドロップダウンを選択し、製品を選択します。
+2. **Select Power BI Embedded Resource Group (Power BI Embedded リソース グループの選択)** ダイアログで 環境 ドロップダウンを選択し、製品を選択します。
 3. サインインするように求められます。 Azure サブスクリプションのログイン アカウントを使用します。
    
    > [!IMPORTANT]
@@ -84,7 +84,7 @@ ms.locfileid: "39388642"
     ![](media/migrate-tool/migrate-tool-open-plan.png)
 2. 移行ファイルを選択し、**[開く]** を選択します。
 
-## <a name="step-1-analyze--plan-migration"></a>手順 1: 移行の分析と計画
+## <a name="step-1-analyze--plan-migration"></a>手順 1:移行の分析と計画
 **[Analyze & Plan Migration]/(移行の分析と計画/)** タブには、Azure サブスクリプションのリソース グループの現在の内容が表示されます。
 
 ![[移行の分析と計画] タブ](media/migrate-tool/migrate-tool-step1.png)
@@ -108,7 +108,7 @@ PaaS トポロジ内の項目を選択して、レポート セクションに�
 ### <a name="target-structure"></a>ターゲット構造
 **ターゲット構造**は、ダウンロード先とアップロード方法をツールに指示するための場所です。
 
-#### <a name="download-plan"></a>[Download Plan]/(ダウンロード プラン/)
+#### <a name="download-plan"></a>ダウンロード プラン
 パスは自動的に作成されます。 このパスは必要に応じて変更できます。 パスを変更する場合は、**[Update paths]\(パスの更新\)** を選択する必要があります。
 
 > [!NOTE]
@@ -137,7 +137,7 @@ Power BI サービス内で作成されるアプリ ワークスペースに使�
 > 
 > 
 
-## <a name="step-2-download"></a>手順 2: ダウンロードする
+## <a name="step-2-download"></a>手順 2:ダウンロード
 **[ダウンロード]** タブには、レポートとそれに関連するメタデータの一覧が表示されます。 エクスポート状態が前のエクスポート状態と共に表示されます。
 
 ![](media/migrate-tool/migrate-tool-download-tab.png)
@@ -153,7 +153,7 @@ Power BI サービス内で作成されるアプリ ワークスペースに使�
 
 ダウンロードが完了したら、**[Create Groups]/(グループの作成/)** タブを選択します。
 
-## <a name="step-3-create-groups"></a>手順 3: グループを作成する
+## <a name="step-3-create-groups"></a>手順 3:グループの作成
 使用できるレポートをダウンロードしたら、**[Create Groups]/(グループの作成/)** タブを選択します。このタブでは、作成した移行プランに基づいて、Power BI サービス内にアプリ ワークスペースが作成されます。 **[Analyze & Plan Migration]/(移行の分析と計画/)** 内の **[アップロード]** タブで指定した名前のアプリ ワークスペースが作成されます。
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)
@@ -172,7 +172,7 @@ Power BI にサインインしてワークスペースが存在することを�
 
 ワークスペースの作成後は、**[アップロード]** タブに移動できます。
 
-## <a name="step-4-upload"></a>手順 4: アップロード
+## <a name="step-4-upload"></a>手順 4:アップロード
 **[アップロード]** タブで、レポートを Power BI サービスにアップロードします。 [ダウンロード] タブでダウンロードしたレポートの一覧と、移行プランに基づいたターゲット グループ名が表示されます。
 
 ![](media/migrate-tool/migrate-tool-upload-tab.png)
