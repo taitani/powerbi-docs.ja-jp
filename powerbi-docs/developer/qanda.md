@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
-ms.openlocfilehash: d1fd42f059f8050662adc80018748d11c1e73e2b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 208c1e2a0e188622f989faa6ba391d9742dd7967
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813758"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277987"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded での Q&A
 Power BI Embedded では、アプリケーションに Q&amp;A を組み込む手段が提供されており、ユーザーは、自然言語を使って質問し、チャートやグラフなどのビジュアルの形式ですぐに回答を受け取ることができます。

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 123cb794a1ba307439a47bdb949e2c76297e7ba2
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: acd2ad2afe9b380a8888dee7a4b9d4707d79b41f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979549"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279828"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>Power BI でのマトリックス ビジュアルの使用
 **マトリックス** ビジュアル機能を使って、**Power BI Desktop** レポートおよび **Power BI サービス** レポートでマトリックス ビジュアル ("*テーブル*" という場合もある) を作成し、他のビジュアルを使用してマトリックス内の要素をクロス強調表示することができます。 また、行、列、さらには個々のセルを選択して、クロス強調表示することができます。 個々のセルおよび複数のセルの選択範囲をコピーして他のアプリケーションに貼り付けることができます。 最終的に、レイアウト スペースをより有効に利用するために、マトリックス ビジュアルでは階段状レイアウトがサポートされます。

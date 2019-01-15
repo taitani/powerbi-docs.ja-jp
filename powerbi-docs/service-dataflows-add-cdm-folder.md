@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ce2f993e2745cb0e5b359bfbc492e6e7aea25493
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 3c5b33b4b056a5d2dfeeffd4c72ea878cf7d79c0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181560"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280288"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
 
@@ -96,14 +96,14 @@ Power BI Desktop:
 * [ワークスペース データフローの設定の構成 (プレビュー)](service-dataflows-configure-workspace-storage-settings.md)
 * [データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
-データフロー全体について詳しくは、次の記事をご覧ください。
+データフロー全般については、次の記事をご覧ください。
 
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
 * [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
 * [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
 * [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
 
-Azure Storage について詳しくは、次の記事をご覧ください。
+Azure Storage の詳細については、次の記事をご覧ください。
 * [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
 * [スケジュールされた更新の構成](refresh-scheduled-refresh.md)
 * [Azure Data Services から GitHub サンプルを開始する](https://aka.ms/cdmadstutorial)
@@ -113,5 +113,5 @@ Common Data Model について詳しくは、次の概要記事をご覧くだ�
 * [CDM フォルダー](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM モデル ファイル定義](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-また、[Power BI コミュニティへの質問の投稿](http://community.powerbi.com/)は、いつでもご利用いただけます。
+[Power BI コミュニティへの質問](http://community.powerbi.com/)は、いつでも行うことができます。
 

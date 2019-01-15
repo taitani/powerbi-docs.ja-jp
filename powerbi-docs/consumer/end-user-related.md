@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: cc2369f6e1e074231267ceb41c19585eccfdb6f9
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: e3b7731dec23c6fda49d31716d6e450231ab4bc5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280726"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276608"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI サービスで関連するコンテンツを表示する
 **[関連するコンテンツ]** ペインには、Power BI サービスのコンテンツ (ダッシュボード、レポート、データセット) がどのように相互接続されているかが示されます。 [関連するコンテンツ] ペインは、操作を実行するための起動パッドでもあります。 ここから、更新、名前変更、分析情報の生成を始めとするさまざまな操作を実行できます。 関連するレポートやダッシュボードを選ぶと、Power BI ワークスペースに表示されます。   

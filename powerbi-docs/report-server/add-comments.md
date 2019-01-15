@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: e0053660263f4cbed55050b9431b67228bf74c29
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 14540dc9ecaf1c3baa513b6e8cd12323de973d3d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157358"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275389"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>レポート サーバーのレポートにコメントを追加する - Power BI Report Server
 レポート サーバーの Web ポータル内で、Power BI レポートなどのレポートにコメントを追加することができます。 コメントはレポートと共に保存され、適切なアクセス許可を持つすべてのユーザーがレポートのコメントを表示できます。 詳細については、下記の「[アクセス許可](#permissions)」セクションを参照してください。
@@ -28,7 +28,7 @@ ms.locfileid: "52157358"
     既存のコメントがあれば、[コメント] ウィンドウに表示されます。
 3. コメントを入力し、**[コメントを投稿]** を選択します。
    
-    ![[コメントを投稿]](media/add-comments/report-server-web-portal-comments-pane.png)
+    ![コメントを投稿](media/add-comments/report-server-web-portal-comments-pane.png)
    
     このコメントは、以前のコメントと共に Web ポータルのウィンドウに表示されます。 Power BI モバイル アプリのレポートには表示されません。
    
