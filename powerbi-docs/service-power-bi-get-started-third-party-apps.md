@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: 7ac6cee3331333b40119d6f5ab014b2e39d2ef23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9e2c37c6518f3484aa0350203e4e93711a7543ec
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251751"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289994"
 ---
 # <a name="get-started-with-third-party-apps"></a>サード パーティのアプリの概要
 Power BI では、Microsoft 以外の会社または個人によってビルドされたアプリを使用できます。 たとえば、カスタムにビルドされた Web アプリケーションに統合されるサード パーティ製アプリを使用することも可能です。 サード パーティ製アプリを使用する場合は、Power BI アカウントとリソースへの特定のアクセスをそのアプリケーションに許可することを求められます。 既知で信頼のおけるアプリケーションにだけ、アクセス許可を付与することが重要です。 アプリケーションへのアクセス許可は、いつでも取り消すことができます。 「[サード パーティ製のアプリのアクセス許可の取り消し](#revoke)」を参照してください。
