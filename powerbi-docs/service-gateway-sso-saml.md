@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8762e575574b717965ac55d4cf32a5c925c298ab
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: cb4d53166c848bcdb111b667ff413d96da9e72d5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507786"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290523"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへのシングル サインオン (SSO) に Security Assertion Markup Language (SAML) を使用します。
 
@@ -37,7 +37,7 @@ SAML を使用するには、最初に SAML ID プロバイダーの証明書を
     openssl req -newkey rsa:2048 -nodes -keyout samltest.key -x509 -days 365 -out samltest.crt
     ```
 
-1. SAP HANA Studio で、SAP HANA サーバーを右クリックし、**[Security]\(セキュリティ\)**、**[Open Security Console]\(セキュリティ コンソールを開く\)**、**[SAML Identity Provider]\(SAML ID プロバイダー\)**、**[OpenSSL Cryptographic Library]\(OpenSSL 暗号化ライブラリ\)** の順に移動します。
+1. SAP HANA Studio で、SAP HANA サーバーを右クリックし、**[Security]\(セキュリティ\)** > **[Open Security Console]\(セキュリティ コンソールを開く\)** > **[SAML Identity Provider]\(SAML ID プロバイダー\)** > **[OpenSSL Cryptographic Library]\(OpenSSL 暗号化ライブラリ\)** の順に移動します。
 
 1. **[Import]\(インポート\)** を選択し、samltest.crt を参照してそれをインポートします。
 
@@ -114,11 +114,11 @@ SAML を使用するには、最初に SAML ID プロバイダーの証明書を
 
 1. ゲートウェイ コンピューターに pfx ファイルをコピーします。
 
-    1. samltest.pfx をダブルクリックし、**[ローカル コンピューター]**、**[次へ]** の順に選択します。
+    1. samltest.pfx をダブルクリックし、**[ローカル コンピューター]** > **[次へ]** の順に選択します。
 
     1. パスワードを入力し、**[次へ]** を選択します。
 
-    1. **[証明書をすべて次のストアに配置する]** を選択し、**[参照]**、**[個人]**、**[OK]** を選択します。
+    1. **[証明書をすべて次のストアに配置する]** を選択し、**[参照]** > **[個人]** > **[OK]** を選択します。
 
     1. **[次へ]** を選択し、**[完了]** を選択します。
 
@@ -134,13 +134,13 @@ SAML を使用するには、最初に SAML ID プロバイダーの証明書を
 
         ![スナップインを追加する](media/service-gateway-sso-saml/add-snap-in.png)
 
-    1. **[証明書]**、**[追加]** の順に選択し、**[コンピューター アカウント]**、**[次へ]** の順に選択します。
+    1. **[証明書]** > **[追加]** の順に選択し、**[コンピューター アカウント]** > **[次へ]** の順に選択します。
 
-    1. **[ローカル コンピューター]**、**[完了]**、**[OK]** の順に選択します。
+    1. **[ローカル コンピューター]** > **[完了]**** > **[OK]** の順に選択します。
 
-    1. **[証明書]**、**[個人]**、**[証明書]** の順に展開し、証明書を見つけます。
+    1. **[証明書]** > **[個人]** > **[証明書]** の順に展開し、証明書を見つけます。
 
-    1. 証明書を右クリックし、**[すべてのタスク]**、**[Manage Private Keys]\(秘密キーの管理\)** の順に移動します。
+    1. 証明書を右クリックし、**[すべてのタスク]** > **[Manage Private Keys]\(秘密キーの管理\)** の順に移動します。
 
         ![秘密キーを管理する](media/service-gateway-sso-saml/manage-private-keys.png)
 

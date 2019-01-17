@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: ea36b9aabe3d721a1eeb476507b6e6079397add8
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: f27bc96fc1bea9ff4720d320bda7b448687739a8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54009034"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282197"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium 容量を再起動する
 
@@ -41,7 +41,7 @@ Power BI では、Premium 容量の利用者をこのような問題から守る
 
 1. **CapacityRestart** *機能フラグ*を容量 URL に追加します。 https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true.
 
-1. **[詳細設定]** の **[容量の再起動]** で **[容量を再起動する]** を選択します。
+1. **[詳細設定]** >  の **[容量の再起動]** で **[容量を再起動する]** を選択します。
 
     ![容量を再起動する](media/service-admin-premium-restart/restart-capacity.png)
 

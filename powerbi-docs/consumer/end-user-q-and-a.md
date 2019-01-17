@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: e8245eaf6c93b74e47b37df0c2596447e6773cc3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53279580"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280587"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **コンシューマー**のための Q&A
 ## <a name="what-is-qa"></a>Q&A とは
@@ -68,7 +68,7 @@ Q&A は、表示されているデータに基づいて最適な視覚化を選�
 **回答 1**:質問ボックスが表示されない場合、最初に設定を確認してください。 それを行うには、Power BI ツール バーの右上隅にある歯車アイコンを選択します。   
 ![歯車アイコン](media/end-user-q-and-a/power-bi-settings.png)
 
-次に、**[設定]**、**[ダッシュボード]** の順に選択します。 **[このダッシュボードに Q&A 検索ボックスを表示する]** の隣にチェックマークがあることを確認します。
+次に、**[設定]** > **[ダッシュボード]** の順に選択します。 **[このダッシュボードに Q&A 検索ボックスを表示する]** の隣にチェックマークがあることを確認します。
 ![ダッシュボードの Q&A 設定](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 
