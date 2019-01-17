@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1749fc932b3aa6cfb86de87bc9ecd71f78d92af5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6cc26f386a77ad8482d7f1af69fd0fdf2b7de5ac
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281967"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324022"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium とは何ですか?
 
-Microsoft Power BI Premium には、組織が Power BI サービスを実行するための専用のリソースが用意されています。 より信頼できるパフォーマンスが提供され、より大きなデータ ボリュームを利用できます。 また、Premium ではコンテンツを広範囲に配布でき、コンテンツ コンシューマーに対してユーザーごとの Pro ライセンスを購入する必要はありません。 購入については、「[Power BI Premium の購入方法](service-admin-premium-purchase.md)」を参照してください。
+Microsoft Power BI Premium には、組織が Power BI サービスを実行するための専用のリソースが用意されています。 より信頼できるパフォーマンスが提供され、より大きなデータ ボリュームを利用できます。 また、Premium ではコンテンツを広範囲に配布でき、コンテンツ コンシューマーに対してユーザーごとの Pro ライセンスを購入する必要はありません。 購入については、「[Power BI Premium の購入方法](service-admin-premium-purchase.md)」を参照してください。   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -46,19 +46,16 @@ Microsoft Power BI Premium には、組織が Power BI サービスを実行す�
 |  | 共有された容量 | Power BI Premium 容量 |
 | --- | --- | --- |
 | **更新間隔** |8/日 |48/日 |
-| **専用ハードウェアでの分離** |![利用不可](media/service-premium/not-available.png) |![利用可能](media/service-premium/available.png) |
-| _**すべてのユーザー**_**へのエンタープライズ配布** | | |
-| アプリと共有 |![利用不可](media/service-premium/not-available.png) |![利用可能](media/service-premium/available.png) |
-| 埋め込み API とコントロール |![利用不可](media/service-premium/not-available.png) |![利用可能](media/service-premium/available.png)<sup>2</sup> |
-| **Power BI レポートのオンプレミスでの発行** |![利用不可](media/service-premium/not-available.png) |![利用可能](media/service-premium/available.png) |
+| 専用ハードウェアでの分離 |![利用不可](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| "*すべてのユーザー*" へのエンタープライズ配布 | | |
+| アプリと共有 |![利用不可](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| 埋め込み API とコントロール |![利用不可](media/service-premium/not-available.png) |![](media/service-premium/available.png)<sup>[1](#fnt1)</sup> |
+| Power BI レポートのオンプレミスでの発行 |![利用不可](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
 | | | |
 
-*<sup>1</sup> 詳細については、[ライセンス タイプ別機能](service-features-license-type.md)に関する記事を参照してください。*  
-*<sup>2</sup> Power BI Premium は今後さらに機能が拡張されます。*
+<a name="fnt1">1</a> Power BI Premium は今後さらに機能が拡張されます。
 
-Premium 容量にワークスペースを割り当てる方法の詳細については、「[Power BI Premium の管理](service-admin-premium-manage.md).」を参照してください。
 
-<a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>Premium 容量ノード
 
@@ -68,22 +65,19 @@ Power BI Premium は、さまざまな v コア容量を含むノード構成で
 
 * EM ノードは、埋め込み展開でのみ使用できます。 EM ノードでは Premium 容量にアクセスできません。たとえば、Power BI Pro ライセンスを持っていないユーザーとアプリを共有することはできません。
 
->[!NOTE]
->この表のリンクが正しく動作するのは、Office 365 の全体管理者ロールの場合のみです。 その他のユーザーの場合、404 エラーが表示されます。
-
-| 容量ノード | 合計 v コア数<br/>*(バックエンド + フロントエンド)* | バックエンド v コア数 | フロントエンド v コア数 | DirectQuery/ライブ接続の制限 | 使用できるかどうか |
-| --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (月極め)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 v コア |0.5 v コア、2.5 GB RAM |0.5 v コア |1 秒あたり 3.75 |利用可能 |
-| [EM2 (月極め)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v コア |1 v コア、5 GB RAM |1 v コア |1 秒あたり 7.5 |利用可能 |
-| [EM3 (月極め)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v コア |2 v コア、10 GB RAM |2 v コア | |利用可能 |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v コア |4 v コア、25 GB RAM |4 v コア |1 秒あたり 30 |使用可能 ([月極め](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)も使用可能) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 v コア |8 v コア、50 GB RAM |8 v コア |1 秒あたり 60 |利用可能 |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 v コア |16 v コア、100 GB RAM |16 v コア |1 秒あたり 120 |利用可能 |
+| 容量ノード | 合計 v コア数<br/>*(バックエンド + フロントエンド)*  | バックエンド V コア数 <sup>[1](#fn1)</sup> | フロントエンド V コア数 <sup>[2](#fn2)</sup> | DirectQuery/ライブ接続の制限 | 最大同時更新 |  使用できるかどうか
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| EM1 (月極め) |1 v コア |0.5 v コア、2.5 GB RAM |0.5 v コア |1 秒あたり 3.75 |  1 | 利用可能 |
+| EM2 (月極め) |2 v コア |1 v コア、5 GB RAM |1 v コア |1 秒あたり 7.5 |  2 | 利用可能 |
+| EM3 (月極め) |4 v コア |2 v コア、10 GB RAM |2 v コア | | 3 |  利用可能 |
+| P1 |8 v コア |4 v コア、25 GB RAM |4 v コア |1 秒あたり 30 | 6 | 使用可能 (月極めも使用可能) |
+| P2 |16 v コア |8 v コア、50 GB RAM |8 v コア |1 秒あたり 60 | 12 | 利用可能 |
+| P3 |32 v コア |16 v コア、100 GB RAM |16 v コア |1 秒あたり 120 | 24 | 利用可能 |
 | | | | | | | |
 
-* フロントエンド v コアは、Web サービス、ダッシュボードとレポート ドキュメントの管理、アクセス権の管理、スケジューリング、API、アップロードとダウンロード、および一般にユーザー エクスペリエンスに関連するすべてについて責任があります。
+<a name="fn1">1</a>:フロントエンド v コアは、Web サービスについて責任があります。 たとえば、ダッシュボードとレポート ドキュメントの管理、アクセス権の管理、スケジューリング、API、アップロードとダウンロード、および一般にユーザー エクスペリエンスに関連するすべてがあげられます。 
 
-* バックエンド v コアは、手間のかかる作業、つまり、クエリ処理、キャッシュ管理、R サーバーの実行、データ更新、自然言語処理、リアルタイム フィード、およびサーバー側のレポートとイメージのレンダリングについて責任があります。 また、バックエンド v コアでは、一定量のメモリが予約されています。 十分なメモリを確保することは、特に、大きなデータ モデルまたは大量のアクティブ データセットを処理する場合に重要になります。
+<a name="fn2">2</a>:バックエンド v コアは、手間のかかる作業、たとえば、クエリ処理、キャッシュ管理、R サーバーの実行、データ更新、自然言語処理、リアルタイム フィード、およびサーバー側のレポートとイメージのレンダリングについて責任があります。 また、バックエンド v コアでは、一定量のメモリが予約されています。 十分なメモリを確保することは、特に、大きなデータ モデルまたは大量のアクティブ データセットを処理する場合に重要になります。
 
 ## <a name="workloads-in-premium-capacity"></a>Premium の容量内のワークロード
 
@@ -112,11 +106,9 @@ Power BI におけるワークロードを、ユーザーに公開可能な多�
 
 ### <a name="considerations-for-paginated-reports"></a>ページ分割されたレポートに関する考慮事項
 
-ページ分割されたレポート ワークロードを使用する場合は、次の点に注意してください。
+ページ分割されたレポート ワークロードを使用した場合、レポートを表示する際に独自のコードを実行できることに注意してください (コンテンツに基づくテキストの色の動的な変更など)。 この事実をふまえて、容量内に含まれている領域でページ分割されたレポートを実行することによって Power BI Premium 容量を保護します。 ワークロードがアクティブかどうかに関係なく、指定した最大メモリをこの領域に割り当てます。 Power BI レポートまたはデータフローを同じ容量内で使用する場合は、他のワークロードに悪影響を及ぼさない程度の少量のメモリをページ分割されたレポートに対して設定してください。
 
-* **ページ分割されたレポートにおけるメモリの割り当て**:ページ分割されたレポートでは、レポートを表示する際に独自のコードを実行できます (コンテンツに基づくテキストの色の動的な変更など)。 この事実をふまえて、容量内に含まれている領域でページ分割されたレポートを実行することによって Power BI Premium 容量を保護します。 ワークロードがアクティブかどうかに関係なく、指定した最大メモリをこの領域に割り当てます。 Power BI レポートまたはデータフローを同じ容量内で使用する場合は、他のワークロードに悪影響を及ぼさない程度の少量のメモリをページ分割されたレポートに対して設定してください。
-
-* **ページ分割されたレポートを使用できない**:まれに、ページ分割されたレポート ワークロードを使用できなくなる場合があります。 その場合、管理ポータルではワークロードがエラー状態であると表示され、ユーザーに対してはレポートの表示がタイムアウトしたと表示されます。 この問題を軽減するには、ワークロードを無効にしてからもう一度有効にしてください。
+まれに、ページ分割されたレポート ワークロードを使用できなくなる場合があります。 その場合、管理ポータルではワークロードがエラー状態であると表示され、ユーザーに対してはレポートの表示がタイムアウトしたと表示されます。 この問題を軽減するには、ワークロードを無効にしてからもう一度有効にしてください。
 
 ## <a name="power-bi-report-server"></a>Power BI レポート
 
@@ -129,6 +121,5 @@ Power BI Premium には、組織内で Power BI Report Server をオンプレミ
 [Power BI Premium の管理](service-admin-premium-manage.md)
 [Microsoft Power BI Premium のホワイトペーパー](https://aka.ms/pbipremiumwhitepaper)
 [Power BI のエンタープライズ展開の計画に関するホワイト ペーパー](https://aka.ms/pbienterprisedeploy)
-[組織内の Power BI を管理する](service-admin-administering-power-bi-in-your-organization.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

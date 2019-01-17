@@ -10,18 +10,26 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d098b55367e4d8ff13dc2fd22593af00dffe611f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eab760a3bfbb590a1a6242984aa1be88064409f
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286935"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54323953"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop で Python スクリプトを実行する
 **Power BI Desktop** で Python スクリプトを直接実行し、生成されたデータセットを Power BI Desktop データ モデルにインポートできます。
 
 ## <a name="install-python"></a>Python をインストールする
 Power BI Desktop で Python スクリプトを実行するには、ローカル コンピューターに **Python** をインストールする必要があります。 **Python** はさまざまな場所から無料でダウンロードし、インストールできます。たとえば、[公式 Python ダウンロード ページ](https://www.python.org/)や [Anaconda](https://anaconda.org/anaconda/python/) があります。 Power BI Desktop での Python スクリプトの現在のリリースでは、インストール パスで Unicode 文字とスペース (空の文字) がサポートされています。
+
+### <a name="install-required-python-packages"></a>必要な Python パッケージをインストールする
+Power BI Python 統合では、2 つの Python パッケージがインストールされている必要があります (Pandas および Matplotlib)。  pip コマンド ライン ツールを使って、次の 2 つのパッケージをインストールします。
+
+```
+pip install pandas
+pip install matplotlib
+```
 
 ## <a name="run-python-scripts"></a>Python スクリプトを実行する
 Power BI Desktop で数回の手順を踏むことで、Python スクリプトを実行し、データ モデルを作成し、データ モデルからレポートを作成し、Power BI サービスで共有できます。
