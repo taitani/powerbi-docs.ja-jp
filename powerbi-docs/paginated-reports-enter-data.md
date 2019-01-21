@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 9556a501832502a8d5653967408b9fac8d0704a5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900407"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295603"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>レポート ビルダーでページ分割されたレポートにデータを直接入力する (プレビュー) - Power BI
 
@@ -28,7 +28,7 @@ ms.locfileid: "52900407"
 
 ## <a name="get-started"></a>作業の開始
 
-レポート ビルダーをダウンロードし、インストールしたら、埋め込みのデータ ソースやデータセットをレポートに追加するときと同じワークフローを実行します。 次の手順で、**[データ ソース]** の下に **[データの入力]** という新しいオプションが表示されます。  このデータ ソースはレポートで 1 回だけ設定します。 その後、その 1 つのデータ ソースを使用し、入力したデータから複数のテーブルを個々のデータセットとして作成できます。
+レポート ビルダーをダウンロードし、インストールしたら、埋め込みのデータ ソースやデータセットをレポートに追加するときと同じワークフローを実行します。 次の手順で、**[データ ソース]** の下に次の新しいオプションが表示されます:**[データの入力]**。  このデータ ソースはレポートで 1 回だけ設定します。 その後、その 1 つのデータ ソースを使用し、入力したデータから複数のテーブルを個々のデータセットとして作成できます。
 
 1. **[レポート データ]** ペインで、**[新規作成]**、**[データセット]** を選択します。
 

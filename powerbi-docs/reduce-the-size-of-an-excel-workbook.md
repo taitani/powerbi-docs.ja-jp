@@ -5,26 +5,26 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e0151931d0ad9f610c24dd9aedf8f06d79e167c3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670119"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282266"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Power BI で表示する Excel ブックのサイズを減らす
 1 GB 未満のすべての Excel ブックを Power BI にアップロードできます。 Excel ブックは 2 つの部分で構成されていることがあります。つまり、データ モデルと、レポートの残りの部分 (コアなワークシート コンテンツ) です。 レポートが次のサイズの制限を満たしている場合は、**OneDrive for Business** に保存して、Power BI からこれに接続し、Excel Online で表示できます。
 
 * ブック全体のサイズは最大 1 GB まで許容されます。
-* コアなワークシート コンテンツのサイズは最大 10 MB まで許容されます。
+* コアなワークシート コンテンツのサイズは最大 30 MB まで許容されます。
 
-## <a name="what-makes-core-worksheet-contents-larger-than-10-mb"></a>コアなワークシート コンテンツが 10 MB を超える原因
-コアなワークシート コンテンツが 10 MB を超える原因となり得る要素をいくつか示します。
+## <a name="what-makes-core-worksheet-contents-larger-than-30-mb"></a>コアなワークシート コンテンツが 30 MB を超える原因
+コアなワークシート コンテンツが 30 MB を超える原因となり得る要素をいくつか示します。
 
 * 画像。
 * 影付きセル。 [セルの網掛け形式を削除](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e)します。
@@ -44,14 +44,14 @@ ms.locfileid: "52670119"
 [SharePoint Online での Excel ブックのファイル サイズ制限](https://support.office.com/article/File-size-limits-for-workbooks-in-SharePoint-Online-9e5bc6f8-018f-415a-b890-5452687b325e)についての詳しい情報をご覧ください。
 
 ## <a name="remove-data-from-worksheets"></a>ワークシートからデータを削除する
-[Power Query] タブまたは [Excel データ] タブから Excel にデータをインポートする場合、ブックは Excel テーブルとデータ モデルで同じデータを持つ場合があります。 Excel ワークシートに大きなテーブルが含まれていると、コアなワークシート コンテンツが 10 MB を超える場合があります。 Excel でテーブルを削除して、データをデータ モデルに保持することで、レポートのコアなワークシート コンテンツを大幅に削減できます。 
+[Power Query] タブまたは [Excel データ] タブから Excel にデータをインポートする場合、ブックは Excel テーブルとデータ モデルで同じデータを持つ場合があります。 Excel ワークシートに大きなテーブルが含まれていると、コアなワークシート コンテンツが 30 MB を超える場合があります。 Excel でテーブルを削除して、データをデータ モデルに保持することで、レポートのコアなワークシート コンテンツを大幅に削減できます。 
 
 データを Excel にインポートするときには、次の手順に従います。
 
-* **Power Query で** **[Load to worksheet]** (ワークシートに読み込む) ボックスをクリアします。
+* **Power Query で**:**[ワークシートへの読み込み]** ボックスをオフにします。
   
   データはデータ モデルにのみインポートされ、Excel ワークシートにデータは入りません。
-* **[Excel データ] タブから**、以前にインポート ウィザードで**テーブル**をチェック済みの場合、**既存の接続**\>に移動し、接続をクリックして、\>**接続のみを作成します**。 元のテーブルまたは最初のインポート中に作成されたテーブルを削除します。
+* **[Excel データ] タブから**、以前にインポート ウィザードで **[テーブル]** をオンにした場合:**[既存の接続]** に移動し、接続をクリックして、**[接続の作成のみ]** をクリックします。 元のテーブルまたは最初のインポート中に作成されたテーブルを削除します。
 * **[Excel データ] タブから**、 **[Import Data]** (データのインポート) ボックスの **[Table]** (テーブル) をチェックしないでください。
 
 ## <a name="workbook-size-optimizer"></a>ブック サイズ オプティマイザー

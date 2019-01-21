@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679457"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282588"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop における DAX の基本事項
 この記事は、Power BI Desktop を初めて使用するユーザー向けです。 さまざまな基本的な計算とデータ分析の問題を解決するために Data Analysis Expressions (DAX) を使用する方法を、手早く簡単に説明します。 いくつかの概念について説明した後、一連のタスクを実行します。学んだ内容をテストするクイズも含まれています。 この記事を完了すると、DAX で最も重要な基本概念をよく理解できるようになります。
@@ -33,10 +33,10 @@ Microsoft Excel で数式を作成する操作に慣れていれば、その知�
 
 **ブックの例**
 
-DAX について学習する最善の方法は、基本的な数式を作成し、それを実際のデータに対して使用して、その結果を自分で見ることです。 この記事で取り上げる例とタスクでは、Contoso Sales Sample for Power BI Desktop Preview ファイルを使用します。 これは、「[チュートリアル: Power BI Desktop で独自のメジャーを作成する](desktop-tutorial-create-measures.md)」の記事で使用しているのと同じサンプル ファイルです。 ここから[サンプル ファイル](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)をダウンロードできます。
+DAX について学習する最善の方法は、基本的な数式を作成し、それを実際のデータに対して使用して、その結果を自分で見ることです。 この記事で取り上げる例とタスクでは、Contoso Sales Sample for Power BI Desktop Preview ファイルを使用します。 このサンプル ファイルは、「[チュートリアル:Power BI Desktop で独自のメジャーを作成する](desktop-tutorial-create-measures.md)」の記事で使用されているものと同じです。 ここから[サンプル ファイル](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)をダウンロードできます。
 
 ## <a name="lets-begin"></a>さあ始めましょう!
-DAX について説明するにあたり、この記事では、 *構文*、 *関数*、および *コンテキスト*という 3 つの基本的な概念を土台にします。 もちろん、DAX にはこれ以外にも重要な概念がありますが、これら 3 つの概念を理解することは、DAX のスキルを構築するための最適な土台を提供します。
+DAX について説明するにあたり、この記事では次の 3 つの基本的な概念を土台にします:*構文*、*関数*、*コンテキスト*。 もちろん、DAX にはこれ以外にも重要な概念がありますが、これら 3 つの概念を理解することは、DAX のスキルを構築するための最適な土台を提供します。
 
 ### <a name="syntax"></a>構文
 独自の数式を作成する前に、DAX の数式の構文を見てみましょう。 構文には、数式を構成するさまざまな要素が含まれています。さらに単純に言うと、数式をどのように書くか、ということが構文です。 たとえば、次のメジャー用の単純な DAX 数式を見てみましょう。
@@ -80,12 +80,12 @@ DAX の数式を解釈するときは、数式の各要素を分割し、日常�
 
 シンプルな数式を作成してみましょう。 このタスクを実行すると、数式の構文について理解を深め、数式バーに表示される提案機能がどのように役立つかを知ることができます。
 
-### <a name="task-create-a-measure-formula"></a>タスク: メジャーの式を作成する
+### <a name="task-create-a-measure-formula"></a>タスク:メジャーの式を作成する
 このタスクを完了するには、Contoso Sales Sample Power BI Desktop ファイルを開く必要があります。
     
-1. レポート ビューのフィールド リストで **Sales** テーブルを右クリックし、[新しいメジャー] をクリックします。
+1. レポート ビューのフィールド リストで **Sales** テーブルを右クリックし、**[新しいメジャー]** をクリックします。
     
-2. 数式バーで、新しいメジャー名として「Previous Quarter Sales」と入力して、"**Measure**" をそれに置き換えます。
+2. 数式バーで、新しいメジャー名として「**Previous Quarter Sales**」と入力して、"**Measure**" をそれに置き換えます。
     
 3. 等号の後に、最初の数文字の **CAL** を入力し、使用する関数をダブルクリックします。 この数式では、**CALCULATE** 関数を使用します。
 
@@ -134,7 +134,7 @@ DAX の数式を解釈するときは、数式の各要素を分割し、日常�
 ### <a name="functions"></a>関数
 関数は、特定の順序または構造で並んだ特定の値 (引数と呼びます) を使用して計算を実行する、定義済みの数式です。 引数として指定できるのは、別の関数、別の数式、式、列参照、数値、テキスト、TRUE または FALSE などの論理値、または定数です。
 
-DAX に含まれる関数のカテゴリは次のとおりです: [日付と時刻](https://msdn.microsoft.com/library/ee634786.aspx)、[タイム インテリジェンス](https://msdn.microsoft.com/library/ee634763.aspx)、[情報](https://msdn.microsoft.com/library/ee634552.aspx)、[論理](https://msdn.microsoft.com/library/ee634365.aspx)、[数学](https://msdn.microsoft.com/library/ee634241.aspx)、[統計](https://msdn.microsoft.com/library/ee634822.aspx)、[テキスト](https://msdn.microsoft.com/library/ee634938.aspx)、[親子](https://msdn.microsoft.com/library/mt150102.aspx)、および[その他](https://msdn.microsoft.com/library/mt150101.aspx)の関数。 Excel の数式の関数に慣れている読者は、DAX 関数の多くが Excel 関数に似ていると感じるかもしれません。ただし、DAX 関数は、次のような点が特有です。
+DAX に含まれる関数のカテゴリは次のとおりです:[日付と時刻](https://msdn.microsoft.com/library/ee634786.aspx)、[タイム インテリジェンス](https://msdn.microsoft.com/library/ee634763.aspx)、[情報](https://msdn.microsoft.com/library/ee634552.aspx)、[論理](https://msdn.microsoft.com/library/ee634365.aspx)、[数学](https://msdn.microsoft.com/library/ee634241.aspx)、[統計](https://msdn.microsoft.com/library/ee634822.aspx)、[テキスト](https://msdn.microsoft.com/library/ee634938.aspx)、[親子](https://msdn.microsoft.com/library/mt150102.aspx)、および[その他](https://msdn.microsoft.com/library/mt150101.aspx)の関数。 Excel の数式の関数に慣れている読者は、DAX 関数の多くが Excel 関数に似ていると感じるかもしれません。ただし、DAX 関数は、次のような点が特有です。
 
 * DAX 関数は、常に、列全体またはテーブルを参照します。 テーブルまたは列の特定の値だけを使用する場合は、数式にフィルターを追加します。
 * 行ごとに計算をカスタマイズする必要がある場合、DAX は、現在の行の値または関連する値を一種の引数として使用し、コンテキストによって異なる計算を実行する機能を提供しています。 コンテキストについては、後で詳しく説明します。
@@ -160,7 +160,7 @@ DAX に含まれる関数のカテゴリは次のとおりです: [日付と時�
 
 **フィルター コンテキスト**
 
-フィルター コンテキストは、行コンテキストよりも理解するのが難しい考え方です。 最も簡単に考えると、結果または値を決定する計算に適用される 1 つまたは複数のフィルターのことを、フィルター コンテキストと考えることができます。
+フィルター コンテキストは、行コンテキストよりも理解するのが難しい考え方です。 フィルター コンテキストを最も簡単に考えるとすると、結果または値を決定する計算において適用される 1 つまたは複数のフィルターのことです。
 
 フィルター コンテキストは、行コンテキストの代わりにはなりません。むしろ、行コンテキストに追加して適用されるものです。 たとえば、計算に含める値をさらに絞り込むために、行コンテキストを指定するだけでなく、その行コンテキスト内の特定の値 (フィルター) のみを指定するフィルター コンテキストを適用できます。
 
@@ -186,7 +186,7 @@ DAX でフィルター コンテキストが非常に重要なのはなぜでし
 
 **F.**  コンマ (**,**) は、式の最初の引数とフィルター引数を分離します。
 
-**G.**  完全修飾された参照列 **Channel[ChannelName]** です。 この例では、これが行コンテキストです。 この列の各行には、販売経路 (Store、Online、その他) が指定されています。
+**G.**  完全修飾された参照列 **Channel[ChannelName]** です。 この例では、これが行コンテキストです。 この列の各行には、次の販売経路が指定されています:Store、Online、その他。
 
 **H.**  フィルターとして指定した特定の値 (**Store**) です。 この例では、これがフィルター コンテキストです。
 
