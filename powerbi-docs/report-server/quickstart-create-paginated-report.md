@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289130"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284429"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server のページ分割されたレポートを作成する
 名前からわかるように、ページ分割されたレポートは多数のページに対して実行できます。 固定形式でレイアウトされた、正確なカスタマイズを提供します。 ページ分割されたレポートは .rdl ファイルです。
@@ -25,7 +25,7 @@ SQL Server Reporting Services (SSRS) の Web ポータルと同様に、Power BI
 
 レポート ビルダーまたはレポート デザイナーでページ分割されたレポートを既に作成している場合は、Power BI Report Server のページ分割されたレポートを作成する準備ができています。 そうでない場合は、始めるために次の簡単な手順を実行します。
 
-## <a name="step-1-install-and-start-report-builder"></a>手順 1: レポート ビルダーをインストールして起動する
+## <a name="step-1-install-and-start-report-builder"></a>手順 1:レポート ビルダーをインストールして起動する
 SSRS サーバーのレポートを作成するためにレポート ビルダーを既にインストールしている可能性があります。 レポート ビルダーの同じバージョンを使用して、Power BI レポート サーバーのレポートを作成できます。 レポート ビルダーをまだインストールしていない場合は、プロセスは簡単です。
 
 1. Power BI Report Server の Web ポータルで **[新規]** > **[ページ分割されたレポート]** の順に選択します。
@@ -46,7 +46,7 @@ SSRS サーバーのレポートを作成するためにレポート ビルダ�
    
     グラフ ウィザードでは、レポートで基本的なグラフを作成する手順を説明します。 ここから、ほぼ無制限にレポートをカスタマイズできます。
 
-## <a name="step-2-go-through-the-chart-wizard"></a>手順 2: グラフ ウィザードを完了する
+## <a name="step-2-go-through-the-chart-wizard"></a>手順 2:グラフ ウィザードを完了する
 グラフ ウィザードでは、レポートに視覚エフェクトを作成する基本的な手順について説明します。
 
 ページ分割されたレポートは、Microsoft SQL Server、Microsoft Azure SQL Database の他にも Oracle、Hyperion など、さまざまなデータ ソースに接続できます。 ページ分割されたレポートでサポートされるデータ ソースについては、[こちら](connect-data-sources.md)をご覧ください。
@@ -55,18 +55,18 @@ SSRS サーバーのレポートを作成するためにレポート ビルダ�
 
 1. **[参照]** > サーバー上の共有データセットを選択 > **[開く]** > **[次へ]** の順に選択します。
    
-    ![グラフ ウィザード: データセットの選択](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
+    ![グラフ ウィザード:データセットを選択する](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
      データセットを作成する必要がある場合は、 「[Create a shared or embedded dataset](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)」 (共有または埋め込みデータセットの作成) を参照してください。
 2. グラフの種類、この場合は横棒グラフを選択します。
    
-    ![グラフ ウィザード: グラフの種類](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
+    ![グラフ ウィザード:グラフの種類](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
 3. フィールドを **[カテゴリ]**、**[系列]**、および **[値]** ボックスにドラッグして配置します。
    
-    ![グラフ ウィザード: フィールドの配置](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
+    ![グラフ ウィザード:フィールドの配置](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
 4. **[次へ]** > **[完了]** の順に選択します。
 
-## <a name="step-3-design-your-report"></a>手順 3: レポートをデザインする
+## <a name="step-3-design-your-report"></a>手順 3:レポートをデザインする
 現在、レポート デザイン ビューが表示されています。 データがユーザーのデータではなく、プレースホルダーのデータになっていることに注目してください。
 
 ![レポート デザイン ビュー](media/quickstart-create-paginated-report/reportserver-paginated-preview-report.png)
@@ -82,7 +82,7 @@ SSRS サーバーのレポートを作成するためにレポート ビルダ�
 
 ![レポート ビルダーのデザイン ビュー](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>手順 4: レポート サーバーにレポートを保存する
+## <a name="step-4-save-your-report-to-the-report-server"></a>手順 4:レポート サーバーにレポートを保存する
 レポートの準備ができたら、Power BI Report Server に保存します。
 
 1. **[ファイル]** メニューで、**[名前を付けて保存]** を選択し、レポート サーバーに保存します。 

@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a1ae30097e0af90d5da8acd0d41b11f513756f88
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3bee2d5a4bbb470ed85d2ec0ae501d3dcc875e7f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135906"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286291"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database と DirectQuery
 Azure SQL Database に直接接続し、ライブ データを使用するレポートを作成する方法について説明します。 Power BI ではなくソースにデータを保持できます。
@@ -51,6 +51,10 @@ SSO を有効にするには、データセットの設定に移動し、**[デ�
 SSO オプションが有効になっている場合、データ ソースを基に作成されたレポートにユーザーがアクセスすると、Power BI は Azure SQL Database へのクエリで、認証済みの Azure AD 資格情報を送信します。 これにより、Power BI はデータ ソース レベルで構成されているセキュリティ設定を適用できます。
 
 SSO オプションは、このデータ ソースを使うすべてのデータセットで有効になります。 インポートのシナリオに使われる認証方法には影響しません。
+
+> [!Note]
+> Azure Multi-Factor Authentication (MFA) はサポートされていません。 Azure SQL DirectQuery で SSO の使用を望むユーザーは、MFA から除外する必要があります。
+>
 
 ## <a name="finding-parameter-values"></a>パラメーターの値の見つけ方
 完全修飾サーバー名とデータベース名は、Azure Portal に記されています。

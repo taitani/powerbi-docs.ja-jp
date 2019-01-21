@@ -5,17 +5,17 @@ author: mihart
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: c35f418362c5036331030bf100d9bfca6b943a4a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900660"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295818"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -24,7 +24,7 @@ ms.locfileid: "52900660"
 - [Power BI Desktop の新機能](desktop-latest-update.md)  
 - [Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI チーム ブログ](https://powerbi.microsoft.com/blog/)
-- Dynamics 365 の [2018 年春のビジネス アプリケーション リリース ノート](http://aka.ms/businessappsreleasenotes): ビジネス アプリケーションの最新の更新、およびプラットフォーム上でアプリケーションと拡張機能を構築するための新機能。 
+- Dynamics 365 の [2018 年春のビジネス アプリケーション リリース ノート](http://aka.ms/businessappsreleasenotes):ビジネス アプリケーションの最新の更新、およびプラットフォーム上でアプリケーションと拡張機能を構築するための新機能。 
 
 "新機能" および機能に関する情報を、YouTube チャンネルで確認することもできます。
 
@@ -119,7 +119,7 @@ ms.locfileid: "52900660"
 * Power BI SharePoint Web パーツをすべてのユーザーが利用できます。
 * [データ コネクタ SDK](https://powerbi.microsoft.com/blog/data-connectors-developer-preview/) を使用して、Power BI を任意のデータ ソースに接続します。
 * 複数の URL フィルター パラメーターを持つレポートに移動します。
-* プレビュー: [Power BI アプリを使用](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)して、ダッシュボードとレポートを多数の対象ユーザーに広く配布します。
+* プレビュー:[Power BI アプリを使用](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)して、ダッシュボードとレポートを多数の対象ユーザーに広く配布します。
 
 ### <a name="march-2017"></a>2017 年 3 月
 * [詳細な管理コントロール](https://powerbi.microsoft.com/blog/announcing-granular-tenant-settings-in-power-bi/)によって、組織での Power BI の使用方法を微調整します。
@@ -128,13 +128,13 @@ ms.locfileid: "52900660"
 * [カスタム キャッシュ更新スケジュール](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/)により、データセットをより細かく制御します。
 * [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/) に接続します。
 * [Office ストアの Power BI カスタム視覚エフェクト](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)を参照します。
-* プレビュー: [レポート ページをサブスクライブ](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)して、データを完全に掌握します。
+* プレビュー:[レポート ページをサブスクライブ](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)して、データを完全に掌握します。
 * Azure AD のコンテンツ パックを使用して、従業員やパートナーが Azure AD をどのように使用しているかを詳細に把握します。
 
 ### <a name="february-2017"></a>2017 年 2 月
 * [ナビゲーション プレビュー機能の強化](https://powerbi.microsoft.com/blog/power-bi-service-february-feature-summary/) – ワークスペース間の切り替えが容易になり、現在のワークスペースのコンテンツに対してアクションが実行しやすくなりました。 
 * カスタム アプリケーションに [Power BI ダッシュボードを埋め込み](https://powerbi.microsoft.com/blog/embed-dashboard/)ます。
-* プレビュー: [SharePoint Online で Power BI レポートを統合](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)します。 
+* プレビュー:[SharePoint Online で Power BI レポートを統合](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)します。 
 
 ### <a name="january-2017"></a>2017 年 1 月
 * [Power BI 管理者ロール](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)を使用して、Power BI を管理します。
@@ -142,25 +142,25 @@ ms.locfileid: "52900660"
 * [開発ツールおよびカスタム ビジュアル API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) バージョン 1.4 がリリースされました。
 * [リアルタイム ストリーミング機能セット](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)の一般公開が開始されました。
 * コード行を記述せずに、[Microsoft Flow を使用して Power BI にデータをプッシュ](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)します。
-* プレビュー: [レポート ページをサブスクライブ](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)して、データを完全に掌握します。
+* プレビュー:[レポート ページをサブスクライブ](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)して、データを完全に掌握します。
 * Azure AD のコンテンツ パックを使用して、従業員やパートナーが Azure AD をどのように使用しているかを詳細に把握します。
 
 ## <a name="2016"></a>2016
 ### <a name="november-2016"></a>2016 年 11 月
-* プレビュー: [Power BI サービスの新しいナビゲーション、powerbi.com](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/) を試す
-* プレビュー: [Power BI レポートを PowerPoint にエクスポートする](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/)。
-* プレビュー: Power BI Desktop で編集できるように、Power BI サービスから [Power BI レポート (PBIX ファイル) をダウンロード](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/)する。
+* プレビュー:[Power BI サービスの新しいナビゲーション、powerbi.com](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/) を試します
+* プレビュー:[Power BI レポートを PowerPoint にエクスポートします](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/)。
+* プレビュー:Power BI Desktop で編集できるように、Power BI サービスから [Power BI レポート (PBIX ファイル) をダウンロード](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/)します。
 * [液体注入ゲージ](https://powerbi.microsoft.com/blog/visual-awesomeness-unlocked-liquid-fill-gauge/)を作成します。これは円形のゲージであり、波打つ液体のアニメーションで百分率の値を表します。
 * この Power BI コンテンツ パックで [Jira プロジェクト管理データ](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/)を試す
 * この Power BI コンテンツ パックで [Insightcentr データ](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/)を試す
 * [インフォグラフィック デザイナー カスタム ビジュアル](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/)でインフォグラフィックを簡単に作成する
-* プライベート プレビュー: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) では、Power BI ストリーミング データセットが出力されます。このデータセットで、ストリーミング タイルを作成できます。
-* プレビュー: [ESRI ArcGIS Maps Visualizations](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/) をレポートやダッシュボードに追加する
+* プライベート プレビュー:[Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) では、Power BI ストリーミング データセットが出力されます。このデータセットで、ストリーミング タイルを作成できます。
+* プレビュー:[ESRI ArcGIS Maps Visualizations](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/) をレポートやダッシュボードに追加します
 
 ### <a name="october-2016"></a>2016 年 10 月
 * [新しいマイクロソフト チームと Power BI の統合](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)を活用する。
 * R の知識なしで、Power BI で [R の視覚エフェクト](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/)を設計する。
-* プレビュー: [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/) があれば、BI のプロフェッショナルは、クラウドまたはオンプレミスのデータに基づいて BI セマンティック モデルを作成し、データの表示をわかりやすく作り替えたものをビジネス ユーザーに提供できます。
+* プレビュー:[Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/) があれば、BI のプロフェッショナルは、クラウドまたはオンプレミスのデータに基づいて BI セマンティック モデルを作成し、データの表示をわかりやすく作り替えたものをビジネス ユーザーに提供できます。
 * Power BI 管理ポータルへのアクセスを与えるが、その他の Office 365 管理アクセスは与えないユーザーには、新しい [Power BI サービスの監理者のロール](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/)を割り当てることができます。
 * [Power BI で MYOB Advanced データ](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/)を試す。
 * 監理者以外のユーザーが [Power BI 監査ログ](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/)を見る方法
@@ -184,52 +184,52 @@ ms.locfileid: "52900660"
 ### <a name="june-2016"></a>2016 年 6 月
 ***クイック分析情報***
 
-* 複雑なフィルターの使用方法 (クイック分析情報): シングル タイルを対象とするクイック分析情報で複雑なフィルターが取り上げられたことをご報告します。
+* 複雑なフィルターの使用方法 (クイック分析情報):シングル タイルを対象とするクイック分析情報で複雑なフィルターが取り上げられたことをご報告します。
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)をご覧ください。
 
 ### <a name="may-2016"></a>2016 年 5 月
 ***データの取得***
 
-* ファイル サイズの上限が 1 GB に増える: Excel ブックと Power BI Desktop ファイルのファイル サイズの上限が 1 GB に増えました。
-* SSAS サーバーの設定、Enterprise Gateway およびその他の Gateway の更新プログラムを検出する: Enterprise Gateway を設定するとき、会社のユーザーはデータの取得ページを介して Power BI サービスのサーバーにアクセスできるようになりました。 また、ゲートウェイを利用し、SAP Business Warehouse Server のデータを含むデータセットを更新できるようになりました。ゲートウェイで Analysis Services を使用するとき、UPN マッピング ルールを作成できるようになりました。
+* ファイル サイズの上限が 1 GB に増える:Excel ブックと Power BI Desktop ファイルのファイル サイズの上限が 1 GB に増えました。
+* SSAS サーバーの設定、Enterprise Gateway およびその他のゲートウェイの更新プログラムを検出する:Enterprise Gateway を設定するとき、会社のユーザーはデータの取得ページを介して Power BI サービスのサーバーにアクセスできるようになりました。 また、ゲートウェイを利用し、SAP Business Warehouse Server のデータを含むデータセットを更新できるようになりました。ゲートウェイで Analysis Services を使用するとき、UPN マッピング ルールを作成できるようになりました。
 
 ***行レベルのセキュリティ (RLS)***
 
-* Azure Active Directory (AAD) グループ サポート: ユーザーは AAD グループ (セキュリティ グループと配信一覧) をロールに割り当てることができるようになりました。 大きなユーザー グループにロールを一度に割り当てる作業がこれで簡単になります。
-* [RLS が適用されたデータで支援されたレポートで RLS ロールをテストする](service-admin-rls.md#validating-the-role-within-power-bi-desktop): 特定のロールとしてデータセットをテストできる機能を RLS プレビューに追加しました。 ユーザーがダッシュボードを使用する前に、ロールが予想どおり動作することを確認できます。
-* 直接のクエリに基づき、RLS を定義し、クラウド モデルに適用する: 直接のクエリ データ ソースに対して RLS ルールを作成し、適用できるようになりました。
+* Azure Active Directory (AAD) グループ サポート:ユーザーは AAD グループ (セキュリティ グループと配信一覧) をロールに割り当てることができるようになりました。 大きなユーザー グループにロールを一度に割り当てる作業がこれで簡単になります。
+* [RLS が適用されたデータで支援されたレポートで RLS ロールをテストする](service-admin-rls.md#validating-the-role-within-power-bi-desktop):特定のロールとしてデータセットをテストできる機能を RLS プレビューに追加しました。 ユーザーがダッシュボードを使用する前に、ロールが予想どおり動作することを確認できます。
+* 直接のクエリに基づき、RLS を定義し、クラウド モデルに適用する:直接のクエリ データ ソースに対して RLS ルールを作成し、適用できるようになりました。
 
 ***ダッシュボード***
 
-* ダッシュボードをお気に入りに設定する: 頻繁に利用するダッシュボードに簡単にアクセスできるように、ダッシュボードをお気に入りに設定する機能を追加しました。あらゆる作業空間から簡単にアクセスできます。
+* ダッシュボードをお気に入りに設定する:頻繁に利用するダッシュボードに簡単にアクセスできるように、ダッシュボードをお気に入りに設定する機能を追加しました。あらゆる作業空間から簡単にアクセスできます。
 
 ***Excel で分析***
 
-* ダウンロードが簡単に: 新しいダイアログが追加され、Excel で分析機能に更新を簡単にダウンロードできます。
-* RLS 対応: RLS を設定すると、Excel でデータを分析するとき、データに適用するルールが全体に反映されます。
-* オンプレミス Analysis Services データベースのエラー メッセージ機能が改善: 以前は、Excel で未サポートのデータ ソースに対して分析を選択した場合、ODC ファイルをダウンロードし、Power BI への接続を試行するまでエラー メッセージは表示されませんでした。 今後は、未サポートのデータ ソースに対して Excel で分析を選択すると、メッセージがすぐに表示され、そのデータ ソースには対応していないことが伝えられます。
+* ダウンロードが簡単に:新しいダイアログが追加され、Excel で分析機能に更新を簡単にダウンロードできます。
+* RLS 対応:RLS を設定すると、Excel でデータを分析するとき、データに適用するルールが全体に反映されます。
+* オンプレミス Analysis Services データベースのエラー メッセージ機能が改善:以前は、Excel で未サポートのデータ ソースに対して分析を選択した場合、ODC ファイルをダウンロードし、Power BI への接続を試行するまでエラー メッセージは表示されませんでした。 今後は、未サポートのデータ ソースに対して Excel で分析を選択すると、メッセージがすぐに表示され、そのデータ ソースには対応していないことが伝えられます。
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)をご覧ください。
 
-* [SQL Server 2016 Analysis Services 表形式モデルの Power BI Q&A サポート](service-q-and-a-direct-query.md): Power BI Q&A が使いやすくなったことと、企業のゲートウェイに接続されているデータ ソースを対象に、Power BI Q&A の公開プレビューが開始されることを謹んでお知らせ申し上げます。始めに SQL Server 2016 Analysis Services 表形式モデルがサポートされます。 詳細については、[ブログの投稿を参照してください](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)。
-* [Excel レポートのローカル ファイル サポート](service-excel-workbook-files.md#local-excel-workbooks): ローカル ドライブまたはその他のストレージ サービスから Excel ファイルをアップロードし、Power BI の利点が追加された Excel Online の場合と同様に Excel レポートを使用できるようになりました。 詳細については、[ブログの投稿を参照してください](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)。
+* [SQL Server 2016 Analysis Services 表形式モデルの Power BI Q&A サポート](service-q-and-a-direct-query.md):Power BI Q&A が使いやすくなったことと、企業のゲートウェイに接続されているデータ ソースを対象に、Power BI Q&A の公開プレビューが開始されることを謹んでお知らせ申し上げます。始めに SQL Server 2016 Analysis Services 表形式モデルがサポートされます。 詳細については、[ブログの投稿を参照してください](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)。
+* [Excel レポートのローカル ファイル サポート](service-excel-workbook-files.md#local-excel-workbooks):ローカル ドライブまたはその他のストレージ サービスから Excel ファイルをアップロードし、Power BI の利点が追加された Excel Online の場合と同様に Excel レポートを使用できるようになりました。 詳細については、[ブログの投稿を参照してください](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)。
 
 **2016 年 4 月 28 日**
 
-* [ダッシュボード タイルのクイック分析情報](consumer/end-user-insights.md): フォーカス モードでタイルを表示するとき、[詳細情報の取得] をクリックすると、タイルとその関連データの相関関係、異常値、傾向、季節性、傾向の中の変化点、主要要因が数秒で自動検索されます。
+* [ダッシュボード タイルのクイック分析情報](consumer/end-user-insights.md):フォーカス モードでタイルを表示するとき、[詳細情報の取得] をクリックすると、タイルとその関連データの相関関係、異常値、傾向、季節性、傾向の中の変化点、主要要因が数秒で自動検索されます。
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)をご覧ください。
 
 **2016 年 4 月 26 日**
 
-* Power BI の説明: データや視覚化を操作するとき、このカスタム ビジュアルは、アナリストが書いたかと思われるようなナレーション形式で分析情報を動的に届けます。 このビジュアルを支えるのが [Narrative Science Quill](https://www.narrativescience.com/quill) です。
+* Power BI の説明:データや視覚化を操作するとき、このカスタム ビジュアルは、アナリストが書いたかと思われるようなナレーション形式で分析情報を動的に届けます。 このビジュアルを支えるのが [Narrative Science Quill](https://www.narrativescience.com/quill) です。
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/get-natural-language-narratives-in-power-bi-reports/)をご覧ください。
 
 **2016 年 4 月 16 日**
 
-* Microsoft セキュリティ センター: Power BI は、Microsoft 製品のコンプライアンス認定を記録するためのシングル ソースである Microsoft セキュリティ センターに参加しました。 Power BI の認定には、ISO 27001、ISO 27018、EU Model Clauses、HIPAA BAA、UK G-Cloud があります。
+* Microsoft セキュリティ センター:Power BI は、Microsoft 製品のコンプライアンス認定を記録するためのシングル ソースである Microsoft セキュリティ センターに参加しました。 Power BI の認定には、ISO 27001、ISO 27018、EU Model Clauses、HIPAA BAA、UK G-Cloud があります。
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/power-bi-added-to-microsoft-trust-center/)をご覧ください。
 
@@ -238,11 +238,11 @@ ms.locfileid: "52900660"
 ***Enterprise***
 
 * [ExpressRoute](service-admin-power-bi-expressroute.md): Power BI へのプライベートなマネージド接続の確立に使用します。
-* [RLS のコンテンツ パック サポート](service-admin-rls.md) (プレビュー): コンテンツ パックの一部として提供されているこれらのダッシュボードやレポートに対して RLS が定義されている場合、これらのコンテンツ パックにセキュリティ ルールが適用されます。
+* [RLS のコンテンツ パック サポート](service-admin-rls.md) (プレビュー):コンテンツ パックの一部として提供されているこれらのダッシュボードやレポートに対して RLS が定義されている場合、これらのコンテンツ パックにセキュリティ ルールが適用されます。
 
 ***ダッシュボード***
 
-* [Vimeo ビデオのタイトル](service-dashboard-add-widget.md):  ダッシュボードから、埋め込まれた Vimeo プレーヤーを含むタイルを追加します。
+* [Vimeo ビデオのタイル](service-dashboard-add-widget.md):ダッシュボードから、埋め込まれた Vimeo プレーヤーを含むタイルを追加します。
 
 ***Excel で分析***
 
@@ -266,7 +266,7 @@ ms.locfileid: "52900660"
 
 ***Q&A***
 
-* "is" に対するオート コンプリート: 列名の後に "is" を入力すると、Q&A によって値候補が表示されます。
+* "is" に対するオート コンプリート:列名の後に "is" を入力すると、Q&A によって値候補が表示されます。
 
 ***モバイル***
 
@@ -403,7 +403,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * 視覚化の拡張機能:
   
   1. テーブル ビジュアルでの並べ替え状態の視覚的な合図
-  2. 新規ビジュアル: 積み上げ面グラフ
+  2. 新規ビジュアル:積み上げ面グラフ
   3. ポイント時の面グラフと折れ線グラフのスマートなツールヒント
   4. デカルト ビジュアルの参照行/領域の作成機能
   5. 改良された円グラフと散布図のデータ ラベル
@@ -421,10 +421,10 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
   1. SSAS 多次元サポート - 階層のサポート (プレビュー機能)
   2. Stripe コネクタ
   3. Smartsheet コネクタ
-  4. "データの入力": データを貼り付けるか入力して、テーブルを作成
-  5. DirectQuery の向上: T-SQL と SAP HANA のすべてのデータ型をサポートし、パフォーマンスが向上
-  6. ODBC コネクタ: ユーザー DSN とシステム DSN の選択をサポート
-  7. CSV コネクタ: [ソース] ダイアログで列区切り記号を指定するための機能
+  4. "データの入力":データを貼り付けるか入力して、テーブルを作成
+  5. DirectQuery の向上:T-SQL と SAP HANA のすべてのデータ型をサポートし、パフォーマンスが向上。
+  6. ODBC コネクタ:ユーザー DSN とシステム DSN の選択をサポート
+  7. CSV コネクタ:[ソース] ダイアログで列区切り記号を指定するための機能
 
 詳しい説明と、更新内容の多くを紹介するビデオについては、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)をご覧ください。
 
@@ -447,8 +447,8 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * [Power BI で VMob データを視覚化できるようになりました](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI を Cortana と統合できるようになりました](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [企業向けの Power BI ゲートウェイのプレビューが公開されました](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* 新しいコンテンツ パックが導入されました: [Power BI ダッシュボードで Bing の検索分析を利用できます](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
-* 開発者向けの新しい拡張機能が追加されました: [2 つの新しい API、アプリの登録の簡素化](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
+* 新しいコンテンツ パックの導入:[Power BI ダッシュボードで Bing の検索分析を利用できます](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* 開発者向けの新しい拡張機能:[2 つの新しい API、アプリの登録の簡素化](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **2015 年 11 月 24 日**
 
@@ -541,7 +541,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * 1x1 から 5x5 のタイル サイズが追加され、ダッシュボードを柔軟にカスタマイズできるようになりました。
 * 自分の領域と同様に、[グループ領域からダッシュボードを共有](service-collaborate-power-bi-workspace.md) (または共有を解除) できるようになりました。 同僚が共有の招待を承認すると、共有されたダッシュボード (と関連するレポート) は読み取り専用アクセス許可で同僚の領域に追加されます。
-* 5 つの[業界に関連するサンプル](sample-datasets.md) (お客様の収益性、人事、営業案件の分析、調達の分析、売上およびマーケティングのサンプル) を Power BI に追加しました。
+* 次の 5 つの[業界に関連するサンプル](sample-datasets.md)を Power BI に追加しました:お客様の収益性、人事、営業案件の分析、調達の分析、売上およびマーケティングのサンプル。
 * Stripe は、オンライン ビジネスの高度な支払いプラットフォームです。 新興企業から Fortune 500 に含まれる大企業まで、数千社が Stripe を使用して、世界各国の 130 種の通貨で支払いを処理しています。 既存の Stripe アカウントを使用して Power BI に接続すると、[Power BI Stripe コンテンツ パックを使用して Stripe アクティビティを監視、調査、視覚化できるようになります。](service-connect-to-stripe.md)
 
 [私たちのブログをご覧ください](http://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)。
@@ -592,11 +592,11 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 **2015 年 7 月 24 日**
 
 * Power BI の一般提供 (GA) リリースを発表しました。 [Power BI Pro](service-self-service-signup-for-power-bi.md) に今すぐ新規登録してください。 GA リリースの一環として、以下の優れた新機能を提供します。
-* 新しい視覚化とレポート作成エクスペリエンス: 新しいレポート キャンバスでは、視覚化の選択肢が増え、タイトル、凡例、軸、色、背景などの書式設定をさらに制御できます。
+* 新しい視覚化とレポート作成エクスペリエンス:新しいレポート キャンバスでは、視覚化の選択肢が増え、タイトル、凡例、軸、色、背景などの書式設定をさらに制御できます。
 * [Power BI のグループ](service-create-distribute-apps.md): グループにより、Office 365 グループ上に構築された、強力なコラボレーション エクスペリエンスが提供されます。
-* [組織のコンテンツ パック](service-organizational-content-pack-introduction.md): Power BI では、ダッシュボードとレポートの作成が非常にシンプルになり、ユーザーはこれらのコンテンツを組織のコンテンツ ギャラリーに公開できるようになりました。
-* [Excel ファイル全体の取り込み](service-excel-workbook-files.md): OneDrive for Business に格納されているどの Excel ブックでも Power BI に取り込み、そのブック全体を Excel Online での場合とまったく同様に表示できます。
-* [CSV ファイルの取り込み](service-get-data-from-files.md): Excel や Power BI Desktop ファイルと同様に、コンマ区切り値 (CSV) テキスト ファイルも、Power BI のダッシュボードとレポートのデータセットにできます。
+* [組織のコンテンツ パック](service-organizational-content-pack-introduction.md):Power BI では、ダッシュボードとレポートの作成が非常にシンプルになり、ユーザーはこれらのコンテンツを組織のコンテンツ ギャラリーに公開できるようになりました。
+* [Excel ファイル全体の取り込み](service-excel-workbook-files.md):OneDrive for Business に格納されているどの Excel ブックでも Power BI に取り込み、そのブック全体を Excel Online での場合とまったく同様に表示できます。
+* [CSV ファイルの取り込み](service-get-data-from-files.md):Excel や Power BI Desktop ファイルと同様に、コンマ区切り値 (CSV) テキスト ファイルも、Power BI のダッシュボードとレポートのデータセットにできます。
 * Excel、Power BI Desktop、CSV のファイルの置き換え: 更新されたバージョンのファイルを Power BI にアップロードし、既存のデータセットをそのファイルで置換できます。 このデータセットに接続されているすべてのレポートとダッシュボードが、この新しいバージョンを自動的に使用するようになります。
 * 今週の Power BI の更新では、[Visual Studio Online コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)で、作業項目の追跡機能が提供されるようになりました。 この更新には、Git リポジトリ、pull requests、および初期バージョンに含まれているバージョン管理のコンテンツに関する重要なメトリックのほか、新しいダッシュボード、レポート、および作業項目に関する洞察を提供する更新されたデータ セットが含まれます。 開始方法の詳細については、[Power BI 用 Visual Studio Online コンテンツ パックのヘルプ ページ](service-connect-to-quickbooks-online.md)をご覧ください。
 

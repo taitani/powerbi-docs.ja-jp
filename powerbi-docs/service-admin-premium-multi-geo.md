@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 4b91ac08001118c6a0241cdd1caf32ebfd9098f2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268299"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291719"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium の Multi-Geo のサポート (プレビュー)
 
@@ -43,7 +43,7 @@ Multi-Geo は、Power BI Embedded でも使用できるようになりました�
 
 容量を作成すると、そのリージョン内に残り、作成されるすべてのワークスペースのコンテンツはそのリージョンに保存されます。 ワークスペースの設定画面のドロップダウンから、ワークスペースを別のリージョンに移行することができます。
 
-![ワークスペースの編集: 利用可能な容量を選択します。 Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
+![ワークスペースの編集:利用可能な容量を選択します。 Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
 変更を確認するこのメッセージが表示されます。
 
@@ -98,7 +98,7 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 
 ## <a name="next-steps"></a>次の手順
 
-- [Power BI Premium とは](service-premium.md)
+- [Power BI Premium:説明](service-premium.md)
 - [Power BI Embedded の容量に対する Multi-Geo](developer/embedded-multi-geo.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

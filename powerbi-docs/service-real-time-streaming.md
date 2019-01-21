@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 196d2ef3eb0d8ed8b7f008eef1b247d9e7f1cd18
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417167"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296503"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI のリアルタイム ストリーミング
 Power BI のリアルタイム ストリーミングでは、データをストリームし、リアルタイムでダッシュボードを更新できます。 Power BI で作成可能なビジュアルやダッシュボードは、リアルタイムのデータやビジュアルを表示し、更新するためにも作成できます。 工場のセンサー、ソーシャル メディア ソース、サービス利用指標、および時間依存データの回収元または転送元となるあらゆるものがストリーミング データのデバイスとソースになります。
@@ -44,7 +44,7 @@ Power BI のリアルタイム ストリーミングでは、データをスト�
 * ビジュアルがダッシュボードにピン留めされたら、**Q&A** を使用して、自然言語でプッシュ データセットに関する質問をすることができます。 **Q&A** クエリを実行したら、結果として生成されたビジュアルをダッシュボードに再びピン留めすることができます。そのダッシュボード *も* リアルタイムで更新されます。
 
 ### <a name="streaming-dataset"></a>ストリーミング データセット
-**ストリーミング データセットの場合**も、データは Power BI サービスにプッシュされます。ただし、重要な相違点があります。それは、Power BI がデータを一時的なキャッシュ (すぐに有効期限が切れる) に格納するだけであるということです。 一時的なキャッシュは、1 時間の時間枠を持つ折れ線グラフなど、履歴が一時的に意味をなすビジュアルを表示する場合にのみ使用されます。
+**ストリーミング データセット**の場合も、データは Power BI サービスにプッシュされます。ただし、重要な相違点があります。それは、Power BI がデータを一時的なキャッシュ (すぐに有効期限が切れる) に格納するだけであるということです。 一時的なキャッシュは、1 時間の時間枠を持つ折れ線グラフなど、履歴が一時的に意味をなすビジュアルを表示する場合にのみ使用されます。
 
 **ストリーミング データセット**の場合、基になるデータベースは *ありません* ので、ストリームから流れ込むデータを使用してレポートのビジュアルを作成することは *できません* 。 そのため、フィルター処理、カスタム ビジュアル、その他のレポート関数など、レポート機能を利用することはできません。
 

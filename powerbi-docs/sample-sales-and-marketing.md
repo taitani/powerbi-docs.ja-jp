@@ -1,30 +1,30 @@
 ---
-title: 'Power BI の売上およびマーケティングのサンプル: 使ってみる'
-description: 'Power BI の売上およびマーケティングのサンプル: 使ってみる'
+title: Power BI の売上およびマーケティングのサンプル:ツアーを開始する
+description: Power BI の売上およびマーケティングのサンプル:ツアーを開始する
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717587"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289235"
 ---
-# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI の売上およびマーケティングのサンプル: 使ってみる
+# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI の売上およびマーケティングのサンプル:ツアーを開始する
 
 ## <a name="overview-of-the-sales-and-marketing-sample"></a>売上およびマーケティングのサンプルの概要
 **売上およびマーケティングのサンプル** には、VanArsdel Ltd という名前の架空の製造会社のダッシュボードとレポートが含まれています。このダッシュボードは VanArsdel 社の最高マーケティング責任者 (CMO) によって作成され、業界動向、マーケットに占める会社の製品のシェア、製品の数量や売上、センチメントなどについて確認できます。
 
 VanArsdel 社には多くの競合他社が存在しますが、その業界における市場リーダーです。 CMO は市場シェアの拡大と成長の機会を狙っています。 しかし何らかの理由から、VanArsdel 社の市場シェアが縮小し始め、6 月には急激な落ち込みを見せました。
 
-このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、匿名化された obviEnce (www.obvience.com) 社の実際のデータです。
+このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 これは、obviEnce (www.obvience.com) が収集している非特定化された実データです。
 
 ![](media/sample-sales-and-marketing/sales1.png)
 
@@ -134,5 +134,5 @@ VanArsdel 社には多くの競合他社が存在しますが、その業界に�
 
 これは、試してみるのに安全な環境です。 変更内容を保存しないようにいつでも選択できます。 一方、保存すると、常にこのサンプルの新しいコピーに対する **データの取り込み** に進むことができます。
 
-## <a name="next-steps-connect-to-your-data"></a>次の手順: データへの接続
+## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
 この記事から、Power BI ダッシュボード、Q&A、レポートから売上およびマーケティング データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータを接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、「[Power BI の概要](service-get-started.md)」をご覧ください。  

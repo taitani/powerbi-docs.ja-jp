@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298345"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275918"
 ---
 # <a name="manage-your-data-source---oracle"></a>データ ソースの管理 - Oracle
 オンプレミス データ ゲートウェイをインストールしたら、ゲートウェイで使用できるデータ ソースを追加する必要があります。 この記事では、ゲートウェイとデータ ソースの操作方法について説明します。 スケジュールされた更新または DirectQuery のどちらに対しても Oracle データ ソースを使用できます。
@@ -39,7 +39,7 @@ Power BI Desktop の **64 ビット** バージョンまたはオンプレミス
 
 * [64-bit ODAC 12.2c Release 1 (12.2.0.1.0) for Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
-インストールした後は、データベースの適切な情報で tnsnames.ora ファイルを構成する必要があります。 Power BI Desktop とゲートウェイは、tnsnames.ora ファイルで定義されている net_service_name を使用します。 構成されていない場合は接続できません。 tnsnames.ora の既定のパスは `[Oracle Home Directory]\Network\Admin\tnsnames.ora` です。 tnsnames.ora ファイルの構成方法の詳細は、「[Oracle: Local Naming Parameters (tnsnames.ora) (Oracle: ローカル名パラメーター (tnsnames.ora))](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)」をご覧ください。
+インストールした後は、データベースの適切な情報で tnsnames.ora ファイルを構成する必要があります。 Power BI Desktop とゲートウェイは、tnsnames.ora ファイルで定義されている net_service_name を使用します。 構成されていない場合は接続できません。 tnsnames.ora の既定のパスは `[Oracle Home Directory]\Network\Admin\tnsnames.ora` です。 tnsnames.ora ファイルの構成方法の詳細は、「[Oracle:Local Naming Parameters (tnsnames.ora) (Oracle: ローカル名パラメーター (tnsnames.ora))](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)」をご覧ください。
 
 ### <a name="example-tnsnamesora-file-entry"></a>tnsnames.ora ファイルのエントリの例
 tnsname.ora のエントリの基本的な形式は次のとおりです。
@@ -157,11 +157,11 @@ Power BI Desktop とゲートウェイ用に構成されているデータ ソ�
 ## <a name="troubleshooting"></a>トラブルシューティング
 名前付けの構文が正しくない、または適切に構成されていない場合、Oracle でエラーが発生する可能性があります。
 
-* ORA-12154: TNS: could not resolve the connect identifier specified (指定された接続識別子を解決できませんでした)  
-* ORA-12514: TNS listener does not currently know of service requested in connect descriptor (リスナーは接続記述子で要求されたサービスを現在認識していません)  
-* ORA-12541: TNS: no listener (リスナーがありません)  
-* ORA-12170: TNS:Connect timeout occurred (接続のタイムアウトが発生しました)  
-* ORA-12504: TNS listener was not given the SERVICE_NAME in CONNECT_DATA (リスナーは CONNECT_DATA で SERVICE_NAME を指定されませんでした)  
+* ORA-12154:TNS: could not resolve the connect identifier specified (指定された接続識別子を解決できませんでした)  
+* ORA-12514:TNS listener does not currently know of service requested in connect descriptor (リスナーは接続記述子で要求されたサービスを現在認識していません)  
+* ORA-12541:TNS: no listener (リスナーがありません)  
+* ORA-12170:TNS:Connect timeout occurred (接続のタイムアウトが発生しました)  
+* ORA-12504:TNS listener was not given the SERVICE_NAME in CONNECT_DATA (リスナーは CONNECT_DATA で SERVICE_NAME を指定されませんでした)  
 
 Oracle クライアントがインストールされていない場合、または適切に構成されていない場合、これらのエラーが発生する可能性があります。 インストールされている場合は、tnsnames.ora ファイルが正しく構成されていること、および適切な net_service_name を使用していることを確認してください。 また、Power BI Desktop を使用しているコンピューターとゲートウェイを実行しているコンピューターで、net_service_name が一致していることも確認する必要があります。 詳細については、「[Oracle クライアントのインストール](#installing-the-oracle-client)」をご覧ください。
 

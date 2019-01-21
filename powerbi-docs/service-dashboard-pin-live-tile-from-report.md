@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 447257ba715b473c233b1d13c6319ff4958f33fa
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717173"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285808"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Power BI ダッシュボードにレポート ページ全体をライブ タイルとしてピン留めする
 新しい[ダッシュボード タイル](consumer/end-user-tiles.md)を追加する別の方法は、レポート ページ全体をピン留めする方法です。 これは、複数の視覚化を一度にピン留めする簡単な方法です。  さらに、ページ全体をピン留めする場合、タイルは *ライブ* であり、ダッシュボードで直接それらのタイルと対話できます。 レポート エディターで視覚化に加えるすべての変更 (フィルターの追加、またはチャートで使用されるフィールドの変更など) は、ダッシュボード タイルにも反映されます。  
@@ -38,7 +38,7 @@ ms.locfileid: "51717173"
 2. 視覚化が選択されていない状態で、メニューバーから **[ライブ ページをピン留めする]** を選択します。
    
    ![[ライブ ページをピン留めする] アイコン](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. タイルを既存のダッシュボードまたは新しいダッシュボードにピン留めします。 強調表示されているテキストにご注目ください。*ライブ ページをピン留めすると、ページを更新したときにレポートへの変更がダッシュボード タイルに表示されるようになります。*
+3. タイルを既存のダッシュボードまたは新しいダッシュボードにピン留めします。 強調表示されているテキストに注目してください。"*ライブ ページをピン留めすると、ページを更新したときにレポートへの変更がダッシュボード タイルに表示されるようになります。*"
    
    * 既存のダッシュボード: ドロップダウンから、ダッシュボードの名前を選びます。 共有してもらったダッシュボードはドロップダウンに表示されません。
    * 新しいダッシュボード: 新しいダッシュボードの名前を入力します。

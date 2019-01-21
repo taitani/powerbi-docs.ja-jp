@@ -6,22 +6,22 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92c5ad6be98e77c7fb844d45ab135bfb9d1cd141
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 6b438b9d9e66d336b94122fe96a707f0602261b4
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829966"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278006"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>レポートのテキスト ボックスへのハイパーリンクの追加
 テキスト ボックスは、レポートに追加したり、レポートからダッシュボードにピン留めしたり、ダッシュボードに直接追加したりできます。 テキスト ボックスが存在する場所に関係なく、テキスト ボックスにハイパーリンクを追加することができます。  
 
-> **注**: Power BI のテーブル内およびマトリックス内のハイパーリンクについては、「[テーブル内のハイパーリンク](power-bi-hyperlinks-in-tables.md)」をご覧ください。 **ダッシュボード**にテキスト ボックスを追加する方法ついては、「[ダッシュボードからタイルを直接追加する](service-dashboard-add-widget.md)」をご覧ください。 
+> **注**:Power BI のテーブル内およびマトリックス内のハイパーリンクについては、「[テーブル内のハイパーリンク](power-bi-hyperlinks-in-tables.md)」をご覧ください。 **ダッシュボード**にテキスト ボックスを追加する方法ついては、「[ダッシュボードからタイルを直接追加する](service-dashboard-add-widget.md)」をご覧ください。 
 > 
 > 
 

@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 398737276e55e15273a2245a4b7a72fdca938438
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100751"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287717"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery を使用する HDInsight 上の Spark
 
@@ -76,7 +76,7 @@ DirectQuery を使用する Azure HDInsight 上の Spark を使えば、Spark �
 
 ## <a name="next-steps"></a>次の手順
 
-[概要: HDInsight Linux で Apache Spark クラスターを作成し、Spark SQL を使用して対話型のクエリを実行する](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
+[概要:HDInsight Linux で Apache Spark クラスターを作成し、Spark SQL を使用して対話型のクエリを実行する](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [Power BI とは?](power-bi-overview.md)  
 [Power BI のデータを取得する](service-get-data.md)
 [SSO にオンプレミス ゲートウェイの Kerberos を使用する](service-gateway-sso-kerberos.md)

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670203"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285624"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel ブック ファイルからデータを取得する
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -43,7 +43,7 @@ Excel を使って外部データ ソースに接続する場合、ブックを 
 Power View シート、ピボットテーブル、グラフが Power BI でどのように表示される (または表示されない) かは、ブック ファイルの保存場所と Power BI への取り込み方法によって異なります。 これについては、以下で詳しく説明します。
 
 ## <a name="data-types"></a>データ型
-Power BI では、整数、10 進数、通貨、日付、True/False、テキストがデータ型としてサポートされています。 Excel でデータを特定のデータ型としてマークすることで、Power BI エクスペリエンスが向上します。
+Power BI では、次のデータ型がサポートされています:整数、10 進数、通貨、日付、True/False、テキスト。 Excel でデータを特定のデータ型としてマークすることで、Power BI エクスペリエンスが向上します。
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Power BI のためのブックの準備
 Power BI のために Excel ブックを準備する方法を学習するには、こちらの役に立つビデオをご覧ください。
@@ -119,7 +119,7 @@ Excel 2016 で **Power BI へ発行する機能**を使うことは、ファイ�
 ## <a name="troubleshooting"></a>トラブルシューティング
 ブック ファイルが大きすぎると考えられる場合は、 「[Power BI で表示する Excel ブックのサイズを減らす](reduce-the-size-of-an-excel-workbook.md)」をご覧ください。
 
-現時点では、[インポート] を選択すると、Power BI は名前付きのテーブルまたはデータ モデルの一部となっているデータのみをインポートします。 その結果、ブックに名前のないテーブル、Power View シート、または Excel データ モデルがあると、**"Excel ブックにデータが見つかりませんでした"** というエラーが表示されることがあります。 [この記事](service-admin-troubleshoot-excel-workbook-data.md)では、ブックを修正し、再インポートする方法について説明します。
+現時点では、[インポート] を選択すると、Power BI は名前付きのテーブルまたはデータ モデルの一部となっているデータのみをインポートします。 その結果、ブックに名前のないテーブル、Power View シート、または Excel データ モデルがあると、次のようなエラーが表示されることがあります:**"Excel ブックにデータが見つかりませんでした"**。 [この記事](service-admin-troubleshoot-excel-workbook-data.md)では、ブックを修正し、再インポートする方法について説明します。
 
 ## <a name="next-steps"></a>次の手順
 **データの探索** - ファイルのデータとレポートを Power BI に取得したら、次は探索です。 新しいデータセットを右クリックして [探索] をクリックします。 手順 4. で OneDrive 上のブック ファイルへの接続を選択した場合、ブックは [レポート] に表示されます。 それをクリックすると、Excel Online を使用した場合と同じように Power BI で開かれます。

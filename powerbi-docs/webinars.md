@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670419"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283141"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -46,15 +46,15 @@ ms.locfileid: "52670419"
 <br>作成者: Cory Hrncirik と Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: 適切に行われる分析**
+**Power BI:適切に行われる分析**
 <br>講師: Gohul Shanmugalingam
 <br>[登録して今すぐ見る](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
-**Power BI データを視覚化: 中心となるグラフの種類とその利用方法**
+**Power BI データを視覚化:中心となるグラフの種類とその利用方法**
 <br>作成者: Miranda Li
 <br>[登録して今すぐ見る](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
 
-**Power BI、Excel、Office 365: 企業データを最適化する**
+**Power BI、Excel、Office 365:企業データを最適化する**
 <br>作成者: Olaf Hubel と Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
@@ -78,7 +78,7 @@ ms.locfileid: "52670419"
 <br>作成者: Charles Sterling
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**組み合わせて、もっと便利に: Excel ユーザーが Power BI を使用することで得られる 5 つのメリット**
+**組み合わせて、もっと便利に:Excel ユーザーが Power BI を使用することで得られる 5 つのメリット**
 <br>作成者: Carlos Otero/Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
@@ -112,7 +112,7 @@ ms.locfileid: "52670419"
 <br>作成者: Ed Bobrin (Avanade)
 <br>[登録して今すぐ見る](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
-**製造業: 業界が経験しているデジタル変革 - 分析の活用によるリーダーシップの維持と収益の最大化**
+**製造業:業界が経験しているデジタル変革 - 分析の活用によるリーダーシップの維持と収益の最大化**
 <br>作成者: Jon Thompson (Blue Margin)/Jim Pastor (Elgin Fastener Group)
 <br>[登録して今すぐ見る](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
@@ -142,7 +142,7 @@ ms.locfileid: "52670419"
 <br>作成者: Kasper de Jonge
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**パートナーに聞く: Power BI 用カスタム ビジュアルの開発**
+**パートナーに聞く:Power BI 用カスタム ビジュアルの開発**
 <br>作成者: Ted Pattison
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
@@ -155,11 +155,11 @@ ms.locfileid: "52670419"
 
 **[Power BI 導入フレームワーク ウェビナー シリーズ](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
 <br>作成者: Manu Kanwarpal と Paul Henwood
-<br>[登録して今すぐ見る - 第 1 部 - 導入: データドリブン カルチャの導入](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
-<br>[登録して今すぐ見る - 第 2 部 - ガバナンス: Power BI 使用量の管理](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[登録して今すぐ見る - 第 3 部 - サービス管理: Power BI サービス管理インサイト](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[登録して今すぐ見る - 第 4 部 - セキュリティ: Power BI を使ってデータをセキュリティで保護する](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[今すぐ登録して視聴する - 第 5 部 - ロールアウト: Power BI の上手なロールアウト](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[登録して今すぐ見る - 第 1 部 - 導入:データドリブン カルチャの導入](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[登録して今すぐ見る - 第 2 部 - ガバナンス:Power BI 使用量の管理](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[登録して今すぐ見る - 第 3 部 - サービス管理:Power BI サービス管理インサイト](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[登録して今すぐ見る - 第 4 部 - セキュリティ:Power BI を使ってデータをセキュリティで保護する](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[今すぐ登録して視聴する - 第 5 部 - ロールアウト:Power BI の上手なロールアウト](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Office 365 金融専門家ウェビナー シリーズ**
 <br>講師: Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky、Miguel Martinez

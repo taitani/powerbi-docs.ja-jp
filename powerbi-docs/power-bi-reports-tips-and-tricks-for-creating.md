@@ -5,17 +5,17 @@ author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829836"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290500"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop と Power BI サービスでのレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop、Power BI サービス、"*および*" Power Pivot のアドインを有効にし、Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションで、レポートを作成する場合に役立つヒントとテクニックをまとめました。
@@ -167,7 +167,7 @@ DAX は、Power BI Desktop で使用される計算式言語です。  それは
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI サービス "*および*" Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>「[Power BI レポートのデザインの原則](visuals/power-bi-visualization-best-practices.md)」を参照してください。
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>次のホワイトペーパーをお読みください:「[Power BI レポートのデザインの原則](visuals/power-bi-visualization-best-practices.md)」
 このホワイト ペーパーでは、Power BI でレポートをデザインするためのベスト プラクティスについて説明します。 計画から始めて、レポートと、レポートを構成するページおよび個々のビジュアルに適用できる、デザインの原則について説明します。 これらのベスト プラクティスの多くは、ダッシュボードのデザインにも当てはまります。
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>"Power BI で視覚的に美しいレポート (とダッシュボード) をデザインする方法" を読む/見る

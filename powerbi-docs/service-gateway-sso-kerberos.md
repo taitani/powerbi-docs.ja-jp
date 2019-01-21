@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508039"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295261"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する
 
-[Kerberos の制約付き委任](https://technet.microsoft.com/library/jj553400.aspx)を使用して、シームレスなシングル サインオン接続を有効にします。 SSO を有効にすると、Power BI レポートおよびダッシュボードはオンプレミスのソースからデータを簡単に更新できるようになります。
+[Kerberos の制約付き委任](/windows-server/security/kerberos/kerberos-constrained-delegation-overview)を使用して、シームレスなシングル サインオン接続を有効にします。 SSO を有効にすると、Power BI レポートおよびダッシュボードはオンプレミスのソースからデータを簡単に更新できるようになります。
 
 ## <a name="supported-data-sources"></a>サポートされているデータ ソース
 
@@ -50,11 +50,11 @@ Kerberos を使って SAP HANA に対するシングル サインオンのセッ
 
 Kerberos の制約付き委任が正しく機能するためには、*サービス プリンシパル名* (SPN) やサービス アカウントでの委任の設定など、いくつかのことを構成する必要があります。
 
-### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>前提条件 1: オンプレミス データ ゲートウェイをインストールして構成する
+### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>前提条件 1:オンプレミス データ ゲートウェイをインストールして構成する
 
 オンプレミス データ ゲートウェイのこのリリースでは、インプレース アップグレードだけでなく既存のゲートウェイの引き継ぎの設定がサポートされています。
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>前提条件 2: ゲートウェイの Windows サービスをドメイン アカウントとして実行する
+### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>前提条件 2:ゲートウェイの Windows サービスをドメイン アカウントとして実行する
 
 標準のインストールでは、ゲートウェイは、次の図のようにコンピューター ローカル サービス アカウントとして実行されます (具体的には、*NT Service\PBIEgwService*)。
 
@@ -65,7 +65,7 @@ Azure AD が既に (Azure AD DirSync/Connect を使って) ローカルの Activ
 > [!NOTE]
 > Azure AD DirSync/Connect が構成されていて、ユーザー アカウントが同期されている場合、ゲートウェイは実行時にローカル AD 参照を実行する必要はなく、ゲートウェイ サービスに対して (ドメイン アカウントを要求する代わりに) ローカル サービス SID を使うことができます。 この記事で説明する Kerberos の制約付き委任の構成手順は、その構成と同じです (ドメイン アカウントではなく、Active Directory のゲートウェイのコンピューター オブジェクトに単に適用されます)。
 
-### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>前提条件 3: SPN (SetSPN) および Kerberos 制約付き委任の設定を構成するためのドメイン管理者権限がある
+### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>前提条件 3:SPN (SetSPN) および Kerberos 制約付き委任の設定を構成するためのドメイン管理者権限がある
 
 ドメイン管理者権限を要求せず、ドメイン管理者が SPN および Kerberos 委任を構成する権限を一時的または永続的に他のユーザーに許可することは技術的には可能ですが、そのような方法はお勧めできません。 次のセクションで、**前提条件 3** に必要な構成手順を詳しく説明します。
 
@@ -111,10 +111,10 @@ Azure AD が既に (Azure AD DirSync/Connect を使って) ローカルの Activ
 
 次の手順では、ゲートウェイ コンピューターと、SQL Server を実行しているデータベース サーバーの 2 つのコンピューターで構成されるオンプレミス環境を想定しています。 また、この例では次の設定と名前を使用します。
 
-* ゲートウェイのコンピューター名: **PBIEgwTestGW**
-* ゲートウェイのサービス アカウント: **PBIEgwTest\GatewaySvc** (アカウントの表示名: Gateway Connector)
-* SQL Server データ ソースのコンピューター名: **PBIEgwTestSQL**
-* SQL Server データ ソースのサービス アカウント: **PBIEgwTest\SQLService**
+* ゲートウェイ コンピューターの名前:**PBIEgwTestGW**
+* ゲートウェイ サービス アカウント:**PBIEgwTest\GatewaySvc** (アカウントの表示名:Gateway Connector)
+* SQL Server データ ソースのコンピューター名:**PBIEgwTestSQL**
+* SQL Server データ ソースのサービス アカウント:**PBIEgwTest\SQLService**
 
 これらの例の名前と設定を使うと、構成手順は次のようになります。
 
@@ -164,7 +164,7 @@ Azure AD が既に (Azure AD DirSync/Connect を使って) ローカルの Activ
 
 SAP HANA を使用している場合は、次のパフォーマンスが若干向上させるために次の追加手順を実行することをお勧めします。
 
-1. ゲートウェイのインストール ディレクトリで、構成ファイル: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* を見つけて開きます。
+1. ゲートウェイのインストール ディレクトリで、次の構成ファイルを見つけて開きます:*Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*。
 
 1. *FullDomainResolutionEnabled* プロパティを見つけて、その値を *True* に変更します。
 

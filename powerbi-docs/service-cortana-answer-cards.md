@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829897"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54273089"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI サービスまたは Power BI Desktop を使用して Cortana のカスタム回答ページを作成する
 Power BI のすべての機能を使って、Cortana の質問に回答するために特別に設計された *Cortana 回答ページ* (*Cortana 回答カード*と呼ばれることもあります) と呼ばれる特別なレポート ページを作成できます。
@@ -30,13 +30,13 @@ Power BI のすべての機能を使って、Cortana の質問に回答するた
 ## <a name="before-you-begin"></a>始める前に
 Cortana for Power BI を設定し、利用するための 4 つのガイドがあります。 まだご覧になっていない場合、記事 1 からお読みください。 記事 2 は Cortana 回答ページの利用を開始するための手順を説明しており、特に重要です。
 
-**記事 1**: [Cortana と Power BI を連携させる方法を理解します](service-cortana-intro.md)
+**記事 1**:[Cortana と Power BI を連携させる方法を理解します](service-cortana-intro.md)
 
-**記事 2**: [Power BI レポートの検索: Cortana、Power BI、Windows の統合を有効にします](service-cortana-enable.md)
+**記事 2**:[Power BI レポートの検索:Cortana、Power BI、Windows の統合を有効にします](service-cortana-enable.md)
 
-**記事 3**: この記事
+**記事 3**:この記事です
 
-**記事 4**: [問題をトラブルシューティングします](service-cortana-troubleshoot.md)
+**記事 4**:[問題をトラブルシューティングします](service-cortana-troubleshoot.md)
 
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Cortana 専用に設計された Cortana 回答ページを作成する
 レポート内の *Cortana 回答ページ*は Cortana 専用のサイズになっているので、Cortana は質問への回答としてカードを画面に表示できます。 Cortana の回答ページを作成するには:

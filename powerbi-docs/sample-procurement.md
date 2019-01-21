@@ -1,23 +1,23 @@
 ---
-title: '調達の分析のサンプル: 使ってみる'
-description: 'Power BI の調達の分析のサンプル: 使ってみる'
+title: '調達の分析のサンプル: ツアーを開始する'
+description: Power BI の調達の分析のサンプル:ツアーを開始する
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3b0c6fcc72e5b2f95b06f1184341298d449bf57e
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717150"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287350"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の調達の分析のサンプル: 使ってみる
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の調達の分析のサンプル:ツアーを開始する
 
 ## <a name="overview-of-the-procurement-analysis-sample"></a>調達の分析のサンプルの概要
 この業界サンプル ダッシュボードと基になるレポートは、製造会社のカテゴリと場所ごとのベンダー支出を分析します。 このサンプルでは、次の領域を調べます。
@@ -71,10 +71,10 @@ ms.locfileid: "51717150"
 
 以下の点にご注意ください。
 
-* **[Total Invoice by Month and Category]** (月およびカテゴリ別の合計請求) 折れ線グラフ: **[Direct]** (直接) カテゴリにはほぼ安定した支出、 **[Logistics]** (物流) には 12 月のピーク時の支出、 **[Other]** (その他) には 2 月のスパイクが含まれます。
-* **[Total Invoice by Country/Region]** (国または地域ごとの合計請求) マップ: 支出のほとんどは米国内です。
-* **\[Total Invoice by Sub Category]** \(サブ カテゴリ別の合計請求) 縦棒グラフ: **\[Hardware]** \(ハードウェア) および **\[Indirect Goods & Services]** \(間接的な商品およびサービス) は最も大きな支出カテゴリです。
-* \[Total Invoice by Tier] \(層別の合計請求) 横棒グラフ: 当社のビジネスのほとんどは、第 1 層 (上位 10 社) のベンダーと行われています。 これはベンダーとの関係の管理向上に役立ちます。
+* **[Total Invoice by Month and Category]\(月およびカテゴリ別の合計請求\)** 折れ線グラフ:**[Direct]\(直接\)** カテゴリにはほぼ安定した支出、**[Logistics]\(物流\)** には 12 月のピーク時の支出、**[Other]\(その他\)** には 2 月のスパイクが含まれます。
+* **[Total Invoice by Country/Region]\(国または地域ごとの合計請求\)** マップ:支出のほとんどは米国内です。
+* **[Total Invoice by Sub Category]\(サブ カテゴリ別の合計請求\)** 縦棒グラフ:**[Hardware]\(ハードウェア\)** および **[Indirect Goods & Services]\(間接的な商品およびサービス\)** は最も大きな支出カテゴリです。
+* [Total Invoice by Tier]\(層別の合計請求\) 横棒グラフ:私たちのビジネスのほとんどは、第 1 層 (上位 10 社) のベンダーと行われています。 これはベンダーとの関係の管理向上に役立ちます。
 
 ## <a name="spending-in-mexico"></a>メキシコでの支出
 メキシコでの支出分野を見てみましょう。
@@ -139,5 +139,5 @@ ms.locfileid: "51717150"
 
 これは、試してみるのに安全な環境です。 変更内容を保存しないようにいつでも選択できます。 保存すると、いつでもこのサンプルの新しいコピーの **[データの取得]** に進むことができます。
 
-## <a name="next-steps-connect-to-your-data"></a>次の手順: データへの接続
+## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
 この記事から、Power BI ダッシュボードおよびレポートから調達データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータに接続してください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、「[Power BI の概要](service-get-started.md)」をご覧ください。

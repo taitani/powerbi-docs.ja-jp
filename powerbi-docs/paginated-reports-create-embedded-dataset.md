@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900430"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281070"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Power BI サービスのページ分割されたレポート用の埋め込みデータセットを作成する (プレビュー)
 この記事では、埋め込みデータ ソースに基づいて、Power BI サービスのページ分割されたレポート用の埋め込みデータセットを作成する方法について説明します。 埋め込みデータセットは、1 つのページ分割されたレポートに (そのレポートで使用するために) 含まれています。 現時点では、Power BI サービスに発行されるページ分割されたレポートには、埋め込みデータセットと埋め込みデータ ソースが必要です。 埋め込みデータ ソースとデータセットは、レポートの作成時にレポート ビルダーで作成します。 
@@ -56,6 +56,6 @@ ms.locfileid: "52900430"
 ## <a name="next-steps"></a>次の手順 
 
 - [Power BI Premium のページ分割されたレポートとは(プレビュー)](paginated-reports-report-builder-power-bi.md)  
-- [チュートリアル: ページ分割されたレポートを作成して Power BI サービスにアップロードする](paginated-reports-quickstart-aw.md)
+- [チュートリアル:ページ分割されたレポートを作成して Power BI サービスにアップロードする](paginated-reports-quickstart-aw.md)
 - [ページ分割されたレポートを Power BI サービスに発行する](paginated-reports-save-to-power-bi-service.md)
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: reference
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b7387f633f0a53db840653a648ba9750b33c180f
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f153ea866404066ce2ada6ab509de2aa8259d6a5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578614"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293058"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop でのデータ型
 この記事では、Power BI Desktop と Data Analysis Expressions (DAX) でサポートされるデータ型について説明します。 
@@ -35,7 +35,7 @@ Power BI Desktop では、列のデータ型を、クエリ エディターで�
 
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
-クエリ エディターの [データ型] ドロップダウンには、現時点でデータ ビューまたはレポート ビューに存在しない 2 つのデータ型である **日付/時刻/タイムゾーン** と **期間**が含まれています。 これらのデータ型の列をモデルに読み込んでデータ ビューまたはレポート ビューで表示すると、日付/時刻/タイムゾーンデータ型の列は日付/時刻に変換され、期間データ型の列は 10 進数に変換されます。
+クエリ エディターの [データ型] ドロップダウンには、現時点でデータ ビューまたはレポート ビューに存在しない次の 2 つのデータ型が含まれています:**日付/時刻/タイムゾーン**、**期間**。 これらのデータ型の列をモデルに読み込んでデータ ビューまたはレポート ビューで表示すると、日付/時刻/タイムゾーンデータ型の列は日付/時刻に変換され、期間データ型の列は 10 進数に変換されます。
 
 ### <a name="number-types"></a>数値型
 Power BI Desktop では、次の 3 つの数値型がサポートされています。

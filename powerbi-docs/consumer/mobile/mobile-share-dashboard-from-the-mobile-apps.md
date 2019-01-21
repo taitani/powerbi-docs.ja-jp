@@ -1,20 +1,20 @@
 ---
 title: Power BI モバイル アプリからダッシュボードまたはレポートを共有する
 description: Power BI モバイル アプリからリンクを共有することにより、ダッシュボードやレポートを見るよう他のユーザーを招待します。 ここでは、その方法について説明します。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
-ms.author: maggies
-ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.author: mshenhav
+ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271649"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283669"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI モバイル アプリからダッシュボードまたはレポートを共有する
 適用対象:
@@ -51,8 +51,8 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    このダッシュボードまたはレポートを共有している仕事仲間の一覧と、次のフレーズが表示されます。
    
-   * **[表示可能]**: 表示できますが、再共有はできません。
-   * **[表示および招待可能]**: 表示し、他の仕事仲間と共有できます。
+   * **[表示可能]**:表示できますが、再共有はできません。
+   * **[表示および招待可能]**:表示し、他の仕事仲間と共有できます。
 1. **[編集]** をタップします。
    
     ![[編集] アイコン](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-edit-invite-dashboard.png)
@@ -80,8 +80,8 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    このダッシュボードまたはレポートを共有している仕事仲間の一覧と、次のフレーズが表示されます。
    
-   * **[表示可能]**: 表示できますが、再共有はできません。
-   * **[表示および招待可能]**: 表示し、他の仕事仲間と共有できます。
+   * **[表示可能]**:表示できますが、再共有はできません。
+   * **[表示および招待可能]**:表示し、他の仕事仲間と共有できます。
 2. **[編集]** をタップします。
 3. 共有を解除するには、名前の横の赤い円をタップし、 **[削除]** をタップします。
 
@@ -93,8 +93,8 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
 
     ダッシュボードまたはレポートの所有者の場合は、このダッシュボードを共有している相手の仕事仲間の一覧が、次のような注記と一緒に表示されます。
 
-    -   **[表示可能]**: 表示できますが、再共有はできません。
-    -   **[表示と再共有が可能]**: 表示し、他の仕事仲間と共有できます。
+    -   **[表示可能]**:表示できますが、再共有はできません。
+    -   **[表示と再共有が可能]**:表示し、他の仕事仲間と共有できます。
 
 1. ダッシュボードの招待状に添える電子メール アドレスとメッセージを入力します。 入力しない場合、Power BI によって既定のメッセージが送信されます。
 2. 再共有を許可するには、 **[受信者にこのダッシュボードの共有を許可する]** をオンのままにします。
@@ -126,9 +126,9 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    ダッシュボードの所有者の場合は、このダッシュボードを共有している相手の仕事仲間の一覧が、次のような注記と一緒に表示されます。
    
-   **[表示可能]**: 表示できますが、再共有はできません。
+   **[表示可能]**:表示できますが、再共有はできません。
    
-   **[表示と再共有が可能]**: 表示し、他の仕事仲間と共有できます。
+   **[表示と再共有が可能]**:表示し、他の仕事仲間と共有できます。
 2. 招待状に添える電子メール アドレスとメッセージを入力します。 入力しない場合、Power BI によって既定のメッセージが送信されます。
    
    ![[招待] ダイアログ ボックス](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)

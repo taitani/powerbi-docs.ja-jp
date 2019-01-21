@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548513"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286684"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI マップの視覚エフェクトに関するヒントとテクニック
 Power BI は Bing マップと統合されており、既定のマップ座標 (ジオコーディングと呼ばれるプロセス) が提供されているため、マップを作成できます。 正しい位置を特定するアルゴリズムも使用されますが、それが最適な推測の場合もあります。 Power BI の試行でマップの視覚化が自動的に作成されない場合は、Bing マップの機能を利用してください。 
@@ -76,7 +76,7 @@ Power BI では、使っているデータセットに経度と緯度のフィ�
 ![緯度と経度](./media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
 ## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>地理階層を使用し、場所のさまざまな "レベル" をドリルダウンする
-データセットに複数レベルの場所データが既にある場合、自分と同僚は Power BI を使用して*地理階層*を作成できます。 地理階層を作成するには、複数のフィールドを **[場所]** バケットにドラッグします。 このような操作で、フィールドは地理階層になります。 下の例では、国/地域、都道府県、市区町村の地理フィールドを追加しました。 Power BI では、自分と同僚がこの地理階層を使用してドリルアップ/ダウンすることができます。
+データセットに複数レベルの場所データが既にある場合、自分と同僚は Power BI を使用して*地理階層*を作成できます。 地理階層を作成するには、複数のフィールドを **[場所]** バケットにドラッグします。 このような操作で、フィールドは地理階層になります。 下の例では、次の地理フィールドが追加されています:国/地域、都道府県、市区町村。 Power BI では、自分と同僚がこの地理階層を使用してドリルアップ/ダウンすることができます。
 
   ![[場所] フィールド](./media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)
 

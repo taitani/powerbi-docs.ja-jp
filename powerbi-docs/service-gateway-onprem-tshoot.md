@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580542"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296572"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのトラブルシューティング
 
@@ -60,17 +60,17 @@ ms.locfileid: "51580542"
 
 このファイルは既定で *\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config* に置かれています。保持するログ ファイルの数を構成するには、最初の数字を変更します。`GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50` の場合、20 です。
 
-### <a name="error-failed-to-create-a-gateway-try-again"></a>エラー: ゲートウェイを作成できませんでした。 もう一度お試しください
+### <a name="error-failed-to-create-a-gateway-try-again"></a>エラー:ゲートウェイを作成できませんでした。 再試行してください
 
 すべての詳細情報を利用できますが、Power BI サービスの呼び出しでエラーが返されました。 エラーとアクティビティ ID が表示されています。 このエラーは、さまざまな理由で発生することがあります。 以下で説明するように、ログを収集して内容を確認し、詳細を調査することができます。
 
 このエラーは、プロキシの構成上の問題によって発生することもあります。 ユーザー インターフェイスからは、プロキシを構成することはできません。 [プロキシ構成の変更](service-gateway-proxy.md)の詳細をご覧ください。
 
-### <a name="error-failed-to-update-gateway-details-please-try-again"></a>エラー: ゲートウェイの詳細を更新できませんでした。 もう一度お試しください
+### <a name="error-failed-to-update-gateway-details-please-try-again"></a>エラー:ゲートウェイの詳細を更新できませんでした。 もう一度お試しください
 
 Power BI サービスからの情報がゲートウェイで受信されました。 この情報はローカルの Windows サービスに渡されましたが、必要な値を返すことができませんでした。 あるいは、対称キーの生成に失敗しました。 **[詳細を表示する]** には内部例外が表示されます。 さらに詳細を得るには、以下で説明するように、ログを収集して内容を確認できます。
 
-### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>エラー: Power BI サービスからローカル ゲートウェイが到達不可という報告がありました。 ゲートウェイを再起動してからもう一度お試しください
+### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>エラー:Power BI サービスからローカル ゲートウェイが到達不可という報告がありました。 ゲートウェイを再起動してからもう一度お試しください
 
 構成の最後に、Power BI サービスがもう一度呼び出されてゲートウェイが検証されます。 Power BI サービスは、ゲートウェイを *ライブ* 状態として報告しませんでした。 Windows サービスを再起動すると、通信が成功する場合があります。 以下で説明するように、ログを収集して内容を確認し、詳細を調査することができます。
 
@@ -78,7 +78,7 @@ Power BI サービスからの情報がゲートウェイで受信されまし�
 
 オンプレミス データ ゲートウェイの構成の一部として、Power BI にサインインしたとき、スクリプト エラーが表示される場合があります。 次のセキュリティ更新プログラムをインストールすると、問題は解決します。 これは、Windows Update を介してインストールできます。
 
-[MS16-051: Internet Explorer のセキュリティ更新プログラム: 2016 年 5 月 10 日 (KB 3154070)](https://support.microsoft.com/kb/3154070)
+[MS16-051:Internet Explorer のセキュリティ更新プログラム:2016 年 5 月 10 日 (KB 3154070)](https://support.microsoft.com/kb/3154070)
 
 ### <a name="gateway-configuration-failed-with-a-null-reference-exception"></a>ゲートウェイの構成が null 参照例外で失敗する
 
@@ -117,7 +117,7 @@ Power BI サービスからの情報がゲートウェイで受信されまし�
 
 ## <a name="data-sources"></a>データ ソース
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>エラー: 接続できません。 詳細: "接続の資格情報が正しくありません"
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>エラー:接続できません。 詳細:"接続の資格情報が正しくありません"
 
 **[詳細を表示する]** には、データ ソースから受信したエラー メッセージが表示されます。 SQL Server の場合、次のように表示されます。
 
@@ -125,7 +125,7 @@ Power BI サービスからの情報がゲートウェイで受信されまし�
 
 ユーザー名とパスワードが正しいことを確認します。 また、これらの資格情報を使用してデータ ソースに正常に接続できることを確認します。 使用されているアカウントが、 **[認証方法]** と一致していることを確認してください。
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>エラー: 接続できません。 詳細: "データベースに接続できません"
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>エラー:接続できません。 詳細:"データベースに接続できません"
 
 サーバーには接続できましたが、指定されたデータベースには接続できませんでした。 データベースの名前を確認し、そのデータベースにアクセスできる適切なアクセス許可がユーザー資格情報に付与されていることを確認します。
 
@@ -133,7 +133,7 @@ Power BI サービスからの情報がゲートウェイで受信されまし�
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>エラー: 接続できません。 詳細: "Unknown error in data gateway" (データ ゲートウェイでの不明なエラー)
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>エラー:接続できません。 詳細:"Unknown error in data gateway" (データ ゲートウェイでの不明なエラー)
 
 このエラーは、さまざまな理由で発生する可能性があります。 ゲートウェイをホストしているコンピューターからデータ ソースに接続できることを必ず確認してください。 サーバーにアクセスできない場合も、このエラーが表示されることがあります。
 
@@ -141,7 +141,7 @@ Power BI サービスからの情報がゲートウェイで受信されまし�
 
 また、[イベント ログ]、**[アプリケーションとサービス ログ]** > **[On-premises Data Gateway Service]\(オンプレミス データ ゲートウェイ サービス\)** で、詳細を確認することができます。
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>エラー: <server> に接続しようとしているときにエラーが発生しました。 詳細: "data gateway に到達しましたが、ゲートウェイがオンプレミスのデータ ソースにアクセスできません。"
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>エラー:<server> に接続しようとしているときにエラーが発生しました。 詳細:"data gateway に到達しましたが、ゲートウェイがオンプレミスのデータ ソースにアクセスできません。"
 
 指定したデータ ソースに接続できませんでした。 そのデータ ソースについて提供された情報を検証してください。
 
@@ -182,17 +182,17 @@ Analysis Service サーバーがユーザーとは異なるドメインにあり
 
 ゲートウェイ構成内のデータ ソースの **[ユーザー]** タブに、自分のアカウントが表示されていることを確認します。 ゲートウェイへのアクセス権がない場合は、ゲートウェイの管理者に連絡して確認を依頼してください。 **[ユーザー]** の一覧にあるアカウントのみが、Analysis Services の一覧にあるデータ ソースを参照できます。
 
-### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>エラー: このデータセットのデータ ソースにゲートウェイがインストールされていないか、構成されていません
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>エラー:このデータセットのデータ ソースにゲートウェイがインストールされていないか、構成されていません
 
 「[データ ソースの追加](service-gateway-manage.md#add-a-data-source)」の説明に従って、ゲートウェイに 1 つまたは複数のデータ ソースを追加しておきます。 管理ポータルの **[ゲートウェイの管理]** にゲートウェイが表示されない場合は、ブラウザーのキャッシュをクリアするか、サービスからサインアウトして再度サインインしてみてください。
 
 ## <a name="datasets"></a>データセット
 
-### <a name="error-there-is-not-enough-space-for-this-row"></a>エラー: この行に十分な領域がありません
+### <a name="error-there-is-not-enough-space-for-this-row"></a>エラー:この行に十分な領域がありません
 
 このエラーは、1 つのサイズが 4 MB を超える行がある場合に発生します。 データ ソースから行を特定し、その行をフィルターで除外するか、その行のサイズを減らす必要があります。
 
-### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>エラー: 指定されたサーバー名が、SQL Server SSL 証明書のサーバー名と一致しません
+### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>エラー:指定されたサーバー名が、SQL Server SSL 証明書のサーバー名と一致しません
 
 このエラーは、証明書の CN がサーバーの完全修飾ドメイン名 (FQDN) に対するものであるときに、サーバーの NetBIOS 名だけを指定すると発生します。 これにより、証明書の不一致が発生します。 この問題を解決するには、ゲートウェイのデータ ソースおよび PBIX ファイルのサーバー名で、サーバーの FQDN を使うようにする必要があります。
 
@@ -204,7 +204,7 @@ Analysis Service サーバーがユーザーとは異なるドメインにあり
 2. ゲートウェイ構成内のデータ ソースの **[ユーザー]** タブに、自分のアカウントが表示されていません。 ゲートウェイの管理者に依頼して、そのリストに追加してもらう必要があります。
 3. Power BI Desktop ファイルに複数のデータ ソースがあり、ゲートウェイですべてのデータ ソースが構成されていません。 スケジュールされている更新にゲートウェイを表示させるには、ゲートウェイで各データ ソースを定義する必要があります。
 
-### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>エラー: ゲートウェイ クライアントで受信した非圧縮データが制限を超えています
+### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>エラー:ゲートウェイ クライアントで受信した非圧縮データが制限を超えています
 
 テーブルごとの非圧縮データの上限は 10 GB です。 この問題か発生した場合、最適化してこの問題を回避することができる適切な選択肢があります。 特に、不変性が高く長い文字列値の使用を減らし、代わりに正規化されたキーを使用するか、(使用されていない列の場合は) 列を削除する方法があります。
 
@@ -217,7 +217,7 @@ Analysis Service サーバーがユーザーとは異なるドメインにあり
 1. データ ソースの情報が、基になるデータセットの情報と一致しません。 オンプレミス データ ゲートウェイ用に定義されているデータ ソースと Power BI Desktop で指定するものとの間では、サーバーとデータベース名が一致している必要があります。 Power BI Desktop で IP アドレスを使用する場合は、オンプレミス データ ゲートウェイ用のデータ ソースでも IP アドレスを使用する必要があります。
 2. 組織内のゲートウェイには、使用可能なデータ ソースがありません。 新規または既存のオンプレミス データ ゲートウェイでデータ ソースを構成できます。
 
-### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>エラー: データ ソースのアクセス エラー。 ゲートウェイの管理者にお問い合わせください
+### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>エラー:データ ソースのアクセス エラー。 ゲートウェイの管理者にお問い合わせください
 
 このレポートで Analysis Services ライブ接続を使用している場合、有効でないか、Analysis Services コンピューターへのアクセス許可のない EffectiveUserName に渡される値に関する問題が発生することがあります。 通常、認証の問題は、EffectiveUserName に渡される値がローカルのユーザー プリンシパル名 (UPN) と一致していない場合に発生します。
 
@@ -459,7 +459,7 @@ ImpersonationLevel は、SPN の設定またはローカル ポリシーの設�
 1. オンプレミス ゲートウェイ用に SPN を設定します
 2. Active Directory (AD) で制約付きの委任を設定します
 
-### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: ユーザーの userid の Windows ID を作成できませんでした
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException:ユーザーの userid の Windows ID を作成できませんでした
 
 FailedToImpersonateUserException は、別のユーザーを偽装できない場合に発生します。 この問題は、偽装しようとしているアカウントが、ゲートウェイ サービス ドメインとは別のドメインのアカウントの場合にも発生する可能性があります (これは制限です)。
 
@@ -500,7 +500,7 @@ FailedToImpersonateUserException は、別のユーザーを偽装できない�
         <value>AADEmail</value>
 ```
 
-### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Communication link failure;-10709 Connection failed (RTE:[-1] Kerberos エラー。 メジャー: "Miscellaneous failure [851968]"、マイナー: "No credentials are available in the security package"
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Communication link failure;-10709 Connection failed (RTE:[-1] Kerberos エラー。 メジャー:"その他のエラー [851968]"、マイナー:"セキュリティ パッケージで利用できる資格情報がありません"
 
 AD で委任が正しく構成されていない場合は、-10709 Connection failed エラー メッセージが表示されます。
 

@@ -5,16 +5,16 @@ author: parthsha
 manager: kfile
 ms.reviewer: maghan
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679294"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296664"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server のキャパシティ プランニング ガイダンス
 Power BI Report Server はセルフ サービスの BI およびエンタープライズ レポート ソリューションであり、ユーザーはファイアウォールの内側のオンプレミスに展開できます。 Power BI Desktop の対話型レポート機能と、SQL Server Reporting Services のオンプレミスのサーバー プラットフォームが組み合わされています。 企業では分析とレポートが大量に使用され、さらに増え続けており、エンタープライズ ユーザー ベースへの拡張に必要なハードウェア インフラストラクチャやソフトウェア ライセンスの予算が問題になる場合があります。 このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 レポート、クエリ、使用のパターンは組織によって大きく異なりますが、ここで示す結果と、実際に使われたテストおよび実行方法の詳細な説明は、Power BI Report Server の展開の早期計画プロセスで参考になります。
@@ -42,7 +42,7 @@ Power BI Report Server の展開は、次の仮想マシンで構成されてい
 
 * Active Directory ドメイン コントローラー: これは、SQL Server データベース エンジン、SQL Server Analysis Services、および Power BI Report Server が安全にすべての要求を認証するために必要でした。
 * SQL Server データベース エンジンと SQL Server Analysis Services: ここには、レポートが表示されるときに使われるすべてのデータベースが格納されました。
-* Power BI Report Server
+* Power BI レポート
 * Power BI Report Server データベース。 Report Server データベースは、SQL Server データベース エンジンとメモリ、CPU、ネットワーク、およびディスク リソースを競合することがないように、Power BI Report Server とは別のマシンでホストされていました。
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -60,9 +60,9 @@ Power BI Report Server の展開は、次の仮想マシンで構成されてい
 すべてのテストは、エンド ツー エンドの操作 (レポートの表示、新しいデータ ソースの作成など) を実行するように作成されました。 操作は、(API によって) レポート サーバーに 1 つまたは複数の Web 要求を行うことによって実現します。 実際には、これらのエンド ツー エンド操作を行うためにユーザーはいくつかの中間操作を実行することが必要な場合があります。 たとえば、レポートを表示するには、ユーザーは Web ポータルにアクセスしてレポートがあるフォルダーに移動し、レポートをクリックして表示する必要があります。 テストではエンド ツー エンドのタスクの完了に必要なすべての操作は実行されませんが、それでも、Power BI Report Server で発生する負荷はだいたいわかります。 GitHub プロジェクトを調べることで、使われているさまざまな種類のレポートおよび実行されているさまざまな操作について詳しく知ることができます。
 
 ### <a name="workloads"></a>ワークロード
-テストで使われているワークロード プロファイルには、Power BI レポートの処理量が多いものとページ分割されたレポートの処理量が多いものの 2 種類があります。 次の表では、Report Server に対して実行される要求の分布について説明します。
+テストで使われているワークロード プロファイルには、次の 2 種類があります。Power BI レポートの処理量が多いものと、ページ分割されたレポートの処理量が多いものです。 次の表では、Report Server に対して実行される要求の分布について説明します。
 
-| Activity | Power BI レポートの処理量が多い、実行の頻度 | ページ分割されたレポートの処理量が多い、実行の頻度 |
+| アクティビティ | Power BI レポートの処理量が多い、実行の頻度 | ページ分割されたレポートの処理量が多い、実行の頻度 |
 | --- | --- | --- |
 | **Power BI レポートの表示** |60% |10% |
 | **ページ分割された (RDL) レポートの表示** |30% |60% |

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900536"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296802"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
@@ -26,7 +26,7 @@ ms.locfileid: "52900536"
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI で利用可能な視覚化の一覧
 これらすべての視覚化は、Power BI レポートに追加し、Q&A で指定し、ダッシュボードにピン留めできます。
 
-### <a name="area-charts-basic-layered-and-stacked"></a>面グラフ: 基本 (階層) と積み上げ
+### <a name="area-charts-basic-layered-and-stacked"></a>面グラフ:基本 (階層) と積み上げ
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
@@ -42,10 +42,10 @@ ms.locfileid: "52900536"
 >[!TIP]
 >横棒グラフは、異なるカテゴリの特定の値を調べるときの標準的なグラフです。
 
-### <a name="cards-multi-row"></a>カード: 複数行
+### <a name="cards-multi-row"></a>カード:複数行
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
-### <a name="cards-single-number"></a>カード: 単一数値
+### <a name="cards-single-number"></a>カード:単一数値
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 詳しくは、[カードの作成 (大きな数字のタイル)](power-bi-visualization-card.md) に関するトピックをご覧ください。
@@ -96,7 +96,7 @@ ms.locfileid: "52900536"
 >[!TIP]
 >通常、時間の経過に伴う一連の値すべての全体的な形を強調します。
 
-### <a name="maps-basic-maps"></a>マップ: 基本マップ
+### <a name="maps-basic-maps"></a>マップ:基本マップ
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -104,12 +104,12 @@ ms.locfileid: "52900536"
 
 詳しくは、「[Power BI マップの視覚エフェクトに関するヒントとテクニック](power-bi-map-tips-and-tricks.md)」をご覧ください。
 
-### <a name="maps-arcgis-maps"></a>マップ: ArcGIS マップ
+### <a name="maps-arcgis-maps"></a>マップ:ArcGIS マップ
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 詳しくは、[Power BI の ArcGIS マップ](../power-bi-visualization-arcgis.md)に関するページを参照してください。
 
-### <a name="maps-filled-maps-choropleth"></a>マップ: 塗り分け地図 (コロプレス)
+### <a name="maps-filled-maps-choropleth"></a>マップ:塗り分け地図 (コロプレス)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -117,7 +117,7 @@ ms.locfileid: "52900536"
 
 詳しくは、[Power BI の塗り分け地図](power-bi-visualization-filled-maps-choropleths.md)に関するページを参照してください。
 
-### <a name="maps-shape-maps"></a>マップ: 図形マップ
+### <a name="maps-shape-maps"></a>マップ:図形マップ
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]

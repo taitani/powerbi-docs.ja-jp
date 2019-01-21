@@ -5,23 +5,23 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34285970"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296365"
 ---
-# <a name="step-1-register-an-app-with-azure-ad"></a>手順 1: アプリを Azure AD に登録する
+# <a name="step-1-register-an-app-with-azure-ad"></a>手順 1:アプリを Azure AD に登録する
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
 Power BI データセットにデータをプッシュする最初の手順では、Azure AD にアプリを登録します。 Azure AD でアプリを識別する **クライアント ID** を取得するために、この手順を最初に実行する必要があります。 **クライアント ID**がないと、Azure AD はアプリを認証できません。
 
-> **注**: Power BI 用アプリを登録する前に、[Power BI にサインアップする](create-an-azure-active-directory-tenant.md)必要があります。
+> **注**:Power BI 用アプリを登録する前に、[Power BI にサインアップする](create-an-azure-active-directory-tenant.md)必要があります。
 > 
 > 
 
@@ -47,7 +47,7 @@ Azure AD にアプリを登録する手順は次のとおりです。
 ## <a name="next-steps"></a>次の手順
 [Power BI にサインアップする](create-an-azure-active-directory-tenant.md)  
 [認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)  
-[チュートリアル: データセットにデータをプッシュする](walkthrough-push-data.md)  
+[チュートリアル:データセットにデータをプッシュする](walkthrough-push-data.md)  
 [アプリケーションを登録する](register-app.md)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 

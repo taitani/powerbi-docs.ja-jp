@@ -5,24 +5,24 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 55e496656046037226a7414c994697b670bcf8c9
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 92191c96409a3a75ad44f8d3472805a3e98da7dd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669729"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275711"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop でのデータ分類
 **Power BI Desktop** では、ユーザーが列に対してデータ カテゴリを指定すれば、Power BI Desktop が視覚化するときにその列の値をどのように扱うべきかを自動的に見極めます。
 
 Power BI Desktop にデータがインポートされると、データそのものだけでなく、テーブル名と列名、主キーがあるかどうかなどの情報も取得されます。Power BI Desktop はその情報を利用して推測し、視覚化を作成するときの既定のユーザー エクスペリエンスの質を高めます。 
 
-たとえば、Power BI Desktop は、列に数値が含まれていることを検出すると、ユーザーはその列を何らかの方法で集計するだろうと判断して、その列を [値] 領域に置きます。 あるいは、列に日付/時刻値が含まれている場合は、ユーザーはその列を折れ線グラフの時間階層軸として使用するだろうと推測します。
+次に例を示します。Power BI Desktop で列に数値が含まれていることが検出されると、ユーザーはおそらくその列を何らかの方法で集計するので、その列は [値] 領域に置かれます。 あるいは、列に日付/時刻値が含まれている場合は、ユーザーはその列を折れ線グラフの時間階層軸として使用するだろうと推測します。
 
 しかし、地理的な場所など、判断がもう少し難しい場合があります。 Excel ワークシートにある次の表について考えてみましょう。
 

@@ -6,15 +6,15 @@ manager: kfile
 ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: cf489f842d114dbf0ac1add561a93c2ce5499971
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4654534d9643b9c5cf5911249a0eda33b5cc32af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780579"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277901"
 ---
 # <a name="dataset-properties"></a>データセットのプロパティ
 
@@ -50,7 +50,7 @@ isHidden     | ブール値        | true の場合、クライアント ツー�
 dataType     |  文字列       |  サポートされている [EDM データ型](https://msdn.microsoft.com/library/ee382832.aspx) と制限事項です。 [データ型の制限事項](#DataTypeRestrictions) を参照してください。      |  False       | True        
 formatString     | 文字列        | 値が表示されるときの値の書式設定を示す文字列です。 文字列の書式設定の詳細については、[「FORMAT_STRING Contents」](https://msdn.microsoft.com/library/ms146084.aspx) (FORMAT_STRING の内容) を参照してください。      | False        | False        
 sortByColumn    | 文字列        |   同一テーブル内の列の文字列名であり、現在の列を並べ替えるために使用されます。     | False        | False       
-dataCategory     | 文字列        |  この列のデータを説明するデータのカテゴリで使用される文字列です。 一般的に使用される値: Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
+dataCategory     | 文字列        |  この列のデータを説明するデータのカテゴリで使用される文字列です。 一般的に使用される値:Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
 isHidden    |  ブール値       |  列がビューで非表示になっているかどうかを示すプロパティです。 既定値は false です。       | False        | False        
 summarizeBy     | 文字列        |  列の既定の集計方法です。 含まれる値: default、none、sum、min、max、count、average、distinctCount     |  False       | False
 
@@ -68,7 +68,7 @@ isHidden     | 文字列        |  true の場合、クライアント ツール
 名前  |タイプ  |説明  |読み取り専用  |必須 
 ---------|---------|---------|---------|---------
 名前     | 文字列        | リレーションシップのユーザー定義名です。 リレーションシップの識別子としても使用されます。        | False       | True        
-crossFilteringBehavior     | 文字列        |    リレーションシップのフィルターの方向: OneDirection (既定値)、BothDirections、Automatic       | False        | False        
+crossFilteringBehavior     | 文字列        |    リレーションシップのフィルターの方向:OneDirection (既定値)、BothDirections、Automatic       | False        | False        
 fromTable     | 文字列        | 外部キー テーブルの名前です。        | False        | True         
 fromColumn    | 文字列        | 外部キー列の名前です。        | False        | True         
 toTable    | 文字列        | 主キー テーブルの名前です。        | False        | True         

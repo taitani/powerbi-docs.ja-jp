@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452731"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289925"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop で Q&A の言語スキーマを編集し、言い回しを追加する 
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 データが回答になる場合にはさらに効果的です。Power BI の Q&A ではこれが可能です。 Power BI の Q&A に質問すると、Q&A は質問にできるだけ正しく回答します。 
@@ -49,7 +49,7 @@ ms.locfileid: "52452731"
 言語スキーマの YAML ファイルを編集するには、Visual Studio Code を使うことをお勧めします。 Visual Studio Code は YAML ファイルを既定でサポートしており、特に Power BI 言語スキーマ形式を検証するように拡張できます。
 1. [Visual Studio Code](https://code.visualstudio.com/) をインストールします。    
 
-2. 前に保存した [YAML ファイル](https://go.microsoft.com/fwlink/?linkid=871858) (SummerOlympics.lsdl.yaml) のサンプル言語スキーマを選びます。    
+2. 前に保存した次のファイルのサンプル言語スキーマを選択します:[YAML ファイル](https://go.microsoft.com/fwlink/?linkid=871858) (SummerOlympics.lsdl.yaml)。    
 4. **Visual Studio Code** を選び、**[常にこのアプリを使って .yaml ファイルを開く]** を選びます。
 
     ![このファイルを開く方法](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
@@ -78,7 +78,7 @@ Q&A は、このすべての情報と、データ モデラーがよりよい応
 
 
 ## <a name="edit-a-linguistic-schema"></a>言語スキーマを編集する
-Power BI Desktop から言語スキーマを初めてエクスポートすると、ファイル内のコンテンツのほとんどまたはすべては、Q&A エンジンによって自動的に生成されます。 これらの生成されたエンティティ、単語 (シノニム)、リレーションシップ、言い回しは、**State: Generated** タグで示され、主に情報提供を目的としてファイルに含まれますが、これを基にして独自の変更を行うと便利です。 
+Power BI Desktop から言語スキーマを初めてエクスポートすると、ファイル内のコンテンツのほとんどまたはすべては、Q&A エンジンによって自動的に生成されます。 これらの生成されたエンティティ、単語 (シノニム)、リレーションシップ、言い回しは、**State:Generated** タグで示され、主に情報提供を目的としてファイルに含まれますが、これを基にして独自の変更を行うと便利です。 
 
 > [!NOTE]
 > このチュートリアルに含まれる YAML ファイルのサンプルは、このチュートリアルのために特に準備されたものなので、**State: Generated** タグまたは **State: Deleted** タグは含まれません。 これらのタグを見るには、未編集の .pbix ファイルをリレーションシップ ビューで開き、言語スキーマをエクスポートしてください。
@@ -86,7 +86,7 @@ Power BI Desktop から言語スキーマを初めてエクスポートすると
 ![State: Generated が示されている YAML](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-Power BI Desktop に言語スキーマ ファイルをインポートすると、**State: Generated** としてマークされているものはすべて無視されるので (また、後で再生成されます)、生成されたコンテンツを変更する場合は、対応する **State: Generated** タグの削除も行ってください。 同様に、生成されたコンテンツを削除する場合は、言語スキーマ ファイルをインポートするときに再生成されないように、**State: Generated** タグを **State: Deleted** に変更する必要があります。
+Power BI Desktop に言語スキーマ ファイルをインポートすると、**State:Generated** としてマークされているものはすべて無視されるので (また、後で再生成されます)、生成されたコンテンツを変更する場合は、対応する **State:Generated** タグの削除も行ってください。 同様に、生成されたコンテンツを削除する場合は、**State:Generated** タグを **State:Deleted** に変更して、言語スキーマ ファイルをインポートするときに再生成されないようにする必要があります。
 
 1. Power BI Desktop の "*リレーションシップ ビュー*" でデータセットを開きます。 
 2. **[モデリング]** タブを選び、**[言語スキーマのエクスポート]** を選びます。

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 102198c4524903098ad0c6b0b9fd7e231c3f1fdc
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 703ccbc0c1c541fe161f409480701788d0cd12af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578292"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280253"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop で Analysis Services の表形式データを使用する
 Power BI Desktop では、2 つの方法で SQL Server Analysis Services 表形式モデルに接続し、データを取得することができます。ライブ接続を使用して探索するか、項目を選択して Power BI Desktop にインポートします。
@@ -76,7 +76,7 @@ Power BI Desktop で動的なレポートを作成したら、Power BI サイト
 
 **質問:** ナビゲーターに、モデルとパースペクティブが表示されています。 違いは何ですか?
 
-**回答**: パースペクティブは、表形式モデルの特定のビューです。 固有のデータ分析のニーズに応じて、特定のテーブル、列、またはメジャーのみが含まれています。 表形式モデルには、常に 1 つ以上のパースペクティブがあります。それに、モデル内のすべてが含まれています。 どちらを選択すればよいか分からない場合は、管理者に確認してください。
+**回答:** パースペクティブは、表形式モデルの特定のビューです。 固有のデータ分析のニーズに応じて、特定のテーブル、列、またはメジャーのみが含まれています。 表形式モデルには、常に 1 つ以上のパースペクティブがあります。それに、モデル内のすべてが含まれています。 どちらを選択すればよいか分からない場合は、管理者に確認してください。
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>初回接続後にサーバー名を変更するには
 ライブ接続探索で Power BI Desktop ファイルを作成した後に、別のサーバーに接続を切り替えたくなる場合があるかもしれません。 たとえば、開発サーバーに接続して Power BI Desktop ファイルを作成した後に、接続を実稼働サーバーに切り替えてから Power BI サービスに発行したい場合などです。
@@ -92,5 +92,5 @@ Power BI Desktop で動的なレポートを作成したら、Power BI サイト
 ## <a name="troubleshooting"></a>トラブルシューティング 
 次の一覧は、SQL Server Analysis Services (SSAS) または Azure Analysis Services に接続するときのすべての既知の問題を示しています。 
 
-* **エラー: モデル スキーマを読み込めませんでした** - このエラーは通常、Analysis Services に接続するユーザーがデータベース/モデルへのアクセス許可を持っていない場合に発生します。
+* **エラー:モデル スキーマを読み込めませんでした** - このエラーは通常、Analysis Services に接続するユーザーがデータベース/モデルへのアクセス許可を持っていない場合に発生します。
 

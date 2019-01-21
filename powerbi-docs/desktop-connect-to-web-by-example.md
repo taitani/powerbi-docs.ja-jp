@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d7012006ca18cf43c530c4d79ed02e6ed73f33f
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: ec221939d6eb96567469a3221f914509a6789839
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679271"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280081"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>例を指定して Web ページからデータを取得する
 
@@ -52,7 +52,7 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 ![例を指定したデータ](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
-> 注: 値の候補に含まれるのは、長さが 128 文字以下の値のみです。
+> 注:値の候補に含まれるのは、長さが 128 文字以下の値のみです。
 
 Web ページから抽出されたデータに満足したら、**[OK]** を選択して **[クエリ エディター]** に移動します。クエリ エディターではさらに変換を適用したり、データを整形したりすることができます (このデータを他のデータ ソースと組み合わせるなど)。
 

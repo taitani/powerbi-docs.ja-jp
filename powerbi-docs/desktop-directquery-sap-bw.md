@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670741"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278080"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery と SAP Business Warehouse (BW)
 **SAP Business Warehouse (BW)** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP BW は OLAP/多次元的な性質があるため、SAP BW での DirectQuery と SQL Server などのリレーショナル ソース間では多数の重要な違いがあります。 これらの相違点は次のとおりです。
@@ -35,8 +35,8 @@ Power BI で DirectQuery を使用して SAP BW に接続する場合のモデ�
 * **計算列のサポートがない:** 計算列を作成する機能は無効です。 これは、計算列を作成するグループ化とクラスタリングも使用できないことを意味します。
 * **メジャーのその他の制限:** メジャーで使用できる、SAP BW のサポート レベルを反映する DAX 式の制限がこの他にもあります。
 * **リレーションシップの定義のサポートがない:** リレーションシップは外部 SAP ソースに内在しており、モデルではリレーションシップを追加定義できません。
-* **データ ビューがない:** **[データ ビュー]** は、通常詳細レベル データをテーブルに表示します。 SAP BW などの OLAP のソースの性質から、このビューは SAP BW では使用できません。
-* **列とメジャーの詳細は固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりすることはできません (ただし、名前変更は可能です)。
+* **データ ビューがない:****[データ ビュー]** は、通常詳細レベル データをテーブルに表示します。 SAP BW などの OLAP のソースの性質から、このビューは SAP BW では使用できません。
+* **列とメジャーの詳細が固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりすることはできません (ただし、名前変更は可能です)。
 * **DAX のその他の制限:** メジャーの定義で使用できる DAX には、ソースの制限と一致する制限がこの他にもあります。 たとえば、テーブルに集計関数は使用できません。
 
 ## <a name="additional-visualization-restrictions"></a>視覚エフェクトのその他の制限
@@ -72,7 +72,7 @@ Power BI で DirectQuery を使用して SAP BW に接続する場合の視覚�
 | エンドユーザーの言語設定 |SAP BW への接続に使用されるロケールは、接続の詳細の一部として設定されるもので、レポートの最終コンシューマーのロケールとは一致しません。 |
 | テキストの変数 |SAP BW では、("$YEAR$ Actuals" など) 変数のプレースホルダーをフィールド名に含めることができます。これは、その後、選択した値で置き換えられます。 たとえば、変数に 2016 年を選択した場合、BEx ツールでは、フィールドに "2016 Actuals" と表示されます。 <br/> <br/> Power BI の列名は、変数の値によっては変わらず、したがって "$YEAR$ Actuals" と表示されます。  ただし、Power BI で列名を変更することはできます。 |
 | Customer Exit 変数 | Customer Exit 変数はパブリック API では公開されず、Power BI では使用できません。 |
-| 特性構造 | 基礎となる SAP BW ソースの特性構造の結果として、Power BI にはメジャーの ‘エクスプロージョン’ が公開されます。 たとえば、Sales と Costs という 2 つのメジャーと、Budget と Actual を含む 1 つの特性構造がある場合、Sales.Budget、Sales.Actual、Costs.Budget、Costs.Actual という 4 つのメジャーが公開されます。 |
+| 特性構造 | 基礎となる SAP BW ソースの特性構造の結果として、Power BI にはメジャーの ‘エクスプロージョン’ が公開されます。 たとえば、Sales と Costs という 2 つのメジャーと、Budget と Actual を含む 1 つの特性構造がある場合、次の 4 つのメジャーが公開されます:Sales.Budget、Sales.Actual、Costs.Budget、Costs.Actual。 |
 
 
 ## <a name="next-steps"></a>次の手順

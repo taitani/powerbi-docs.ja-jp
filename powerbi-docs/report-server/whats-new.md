@@ -6,15 +6,15 @@ ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101257"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292455"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
@@ -122,7 +122,7 @@ Kerberos での SAP HANA SSO 直接クエリのサポートが Power BI レポ�
 
 ### <a name="analytics"></a>分析
 
-- [新しい DAX 関数: COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
+- [新しい DAX 関数:COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
 - [ドリルスルーの測定](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#measureDrillthrough)
 - [異なるフィールドによる条件付き書式設定](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingField)
 - [値による条件付き書式設定](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingValue)
@@ -167,8 +167,8 @@ IT 管理者は、組織の MDM ツールを使用し、レポート サーバ�
 
 ブックマークと言えば、レポートのデータでストーリーを伝えるブックマークを作成します。
 
-- [ブックマークのクロス強調表示](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): ブックマークには、ブックマークを作成した時点のレポート ページのクロス強調表示状態が維持され、表示されます。
-- [ブックマークの柔軟性の向上](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): ブックマークはレポートで設定したプロパティを反映し、選択したビジュアルのみに影響します。
+- [ブックマークのクロス強調表示](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting):ブックマークには、ブックマークを作成した時点のレポート ページのクロス強調表示状態が維持され、表示されます。
+- [ブックマークの柔軟性の向上](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility):ブックマークはレポートで設定したプロパティを反映し、選択したビジュアルのみに影響します。
 
 #### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[複数のグラフにまたがってデータ ポイントを複数選択する](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
@@ -216,7 +216,7 @@ IT 管理者は、組織の MDM ツールを使用し、レポート サーバ�
 - [他のビジュアルの詳細フィルター](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [複数の行カードに対する多次元 AS モデルのセル レベルの書式設定](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
 
-### <a name="performance"></a>Performance
+### <a name="performance"></a>パフォーマンス
 
 - [フィルター処理のパフォーマンスの向上](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [DirectQuery のパフォーマンスの向上](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -266,13 +266,13 @@ OData フィードを使って Power BI Desktop から共有データセット�
 
 管理者は、サーバー ファームの SSMS 詳細プロパティで、次のプロパティを設定できます。
 
-* EnableCustomVisuals: True/False
-* EnablePowerBIReportEmbeddedModels: True/False
-* EnablePowerBIReportExportData: True/False
-* MaxFileSizeMb: 既定値が 1000 になりました
-* ModelCleanupCycleMinutes: メモリからのモデルの削除をチェックする頻度
-* ModelExpirationMinutes: 最終使用時刻に基づく、モデルの有効期限が切れて削除されるまでの時間
-* ScheduleRefreshTimeoutMinutes: モデルのデータ更新にかけられる時間。 既定では 2 時間です。  ハード上限はありません。
+* EnableCustomVisuals:True/False
+* EnablePowerBIReportEmbeddedModels:True/False
+* EnablePowerBIReportExportData:True/False
+* MaxFileSizeMb:既定値が 1000 になりました
+* ModelCleanupCycleMinutes:メモリからのモデルの削除をチェックする頻度
+* ModelExpirationMinutes:最終使用時刻に基づく、モデルの有効期限が切れて削除されるまでの時間
+* ScheduleRefreshTimeoutMinutes:モデルのデータ更新にかけられる時間。 既定では 2 時間です。  ハード上限はありません。
 
 **構成ファイル rsreportserver.config**
 

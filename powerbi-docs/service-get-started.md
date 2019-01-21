@@ -6,19 +6,19 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900553"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291987"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>チュートリアル: Power BI サービスの概要 (app.powerbi.com)
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>チュートリアル:Power BI サービスの概要 (app.powerbi.com)
 このチュートリアルは、初めて ***Power BI サービス***を使うときに役立ちます。 Power BI サービスと他の Power BI 製品の関係を理解するため、最初に「[Power BI とは?](power-bi-overview.md)」を読むことを強くお勧めします。
 
 ![デスクトップ、サービス、モバイルの間のリレーションシップを示すアート](media/service-get-started/power-bi-components.png)
@@ -59,7 +59,7 @@ Excel ファイルまたは CSV ファイルに重要なデータがある場合
 
 その他のすべての方法については、「[Power BI のデータの取得](service-get-data.md)」を参照してください。
 
-## <a name="step-1-get-data"></a>手順 1: データの取得
+## <a name="step-1-get-data"></a>手順 1:データの取得
 CSV ファイルからデータを取得する例を次に示します。 このチュートリアルに従って作業しますか? [このサンプル CSV ファイルをダウンロード](http://go.microsoft.com/fwlink/?LinkID=521962)してください。
 
 1. [Power BI にサインイン](http://www.powerbi.com/)します。 アカウントをお持ちではありませんか。 心配はご無用です。無料の試用版にご登録いただけます。
@@ -93,7 +93,7 @@ CSV ファイルからデータを取得する例を次に示します。 この
    > 
  
 
-## <a name="step-2-start-exploring-your-dataset"></a>手順 2: データセットを探索する
+## <a name="step-2-start-exploring-your-dataset"></a>手順 2:データセットを探索する
 データに接続したので、探索を開始します。  何か興味深いものを発見したときは、ダッシュボードを作成し、時間経過によってどのように変化するかを監視できます。 そのしくみを見てみましょう。
     
 1. レポート エディターで、ページの右側にある **[フィールド]** ウィンドウを使って視覚エフェクトを作成します。  **[Gross Sales]** (総売り上げ) の横にあるチェック ボックスを選び、**[日付]** を選びます。
@@ -128,7 +128,7 @@ CSV ファイルからデータを取得する例を次に示します。 この
    
    ダッシュボード上の新しいタイルを選ぶと、いつでもレポートに戻ることができます。 Power BI の表示が読み取りビューのレポート エディターに戻ります。 編集ビューに戻すには、上部のメニュー バーから **[レポートの編集]** を選びます。 編集ビューになったら、タイルの調査とピン留めを続けます。 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>手順 3: Q&A で探索を続行する (自然言語によるクエリ)
+## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>手順 3:Q&A で探索を続行する (自然言語によるクエリ)
 1. データのクイック探索については、Q & A ボックスで質問してください。 Q&A の質問ボックスは、ダッシュボードの上部 (**[データについて質問する]**) と、レポートの上部メニュー バー (**[質問する]**) にあります。 たとえば、「what segment had the most revenue」(最も収益が高いセグメントはどれですか) と入力してみてください。
    
    ![Q&A キャンバス](media/service-get-started/powerbi-qna.png)

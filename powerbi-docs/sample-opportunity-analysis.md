@@ -1,23 +1,23 @@
 ---
-title: 'Power BI の営業案件の分析のサンプル: 使ってみる'
-description: 'Power BI の営業案件の分析のサンプル: 使ってみる'
+title: Power BI の営業案件の分析のサンプル:ツアーを開始する
+description: Power BI の営業案件の分析のサンプル:ツアーを開始する
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 12bc6039f7b6580782d3dfac181443caa6557447
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717495"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275527"
 ---
-# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の営業案件の分析のサンプル: 使ってみる
+# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の営業案件の分析のサンプル:ツアーを開始する
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>営業案件の分析のサンプルの概要
 **営業案件の分析のサンプル** には、"*直接*" と "*パートナー*" という 2 つの販売チャネルを持つソフトウェア企業向けのダッシュボード (および関連するレポート) が含まれています。 地域、案件のサイズ、チャネル別に営業案件と売上を追跡するために、セールス マネージャーがこのダッシュボードを作成しました。
@@ -121,7 +121,7 @@ CFO はこのページを使用して、ワークロードを管理します。 
 
 これは、試してみるのに安全な環境です。 変更内容を保存しないようにいつでも選択できます。 一方、保存すると、常にこのサンプルの新しいコピーに対する **データの取り込み** に進むことができます。
 
-## <a name="next-steps-connect-to-your-data"></a>次の手順: データへの接続
+## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
 この記事から、Power BI ダッシュボード、Q&A、レポートから営業案件の追跡データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータを接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、「[Power BI の概要](service-get-started.md)」をご覧ください。
 
 [サンプルをダウンロードする](sample-datasets.md)  

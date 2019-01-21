@@ -4,17 +4,17 @@ description: Cortana を Power BI で使用して、データから回答を得�
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003250"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292596"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Cortana for Power BI を利用し、Power BI データをすばやく見つけ、表示する
 Windows 10 デバイスで Cortana を使って、ビジネスの重要な質問に対する回答を瞬時に取得できます。 Power BI と統合することにより、Cortana は Power BI のダッシュボードとレポートから重要な情報を直接取得できます。 必要なものは、Windows 10 の 2015 年 11 月以降のバージョン、Cortana、Power BI です。また、少なくとも 1 つのデータセットにアクセスできる必要があります。
@@ -38,11 +38,11 @@ Cortana for Power BI を設定し、利用するためのガイドが 4 つ用�
 
 **記事 1** (この記事): Cortana と Power BI を連携させる方法を理解します
 
-**記事 2**: [Power BI レポートの検索: Cortana、Power BI、Windows の統合を有効にします](service-cortana-enable.md)
+**記事 2**: [Power BI レポートの検索:Cortana、Power BI、Windows の統合を有効にします](service-cortana-enable.md)
 
 **記事 3**: [Power BI レポートの検索: 特別な *Cortana 回答カード*を作成する](service-cortana-answer-cards.md)
 
-**記事 4**: [問題をトラブルシューティングします](service-cortana-troubleshoot.md)
+**記事 4**:[問題をトラブルシューティングします](service-cortana-troubleshoot.md)
 
 ## <a name="how-do-cortana-and-power-bi-work-together"></a>Cortana と Power BI が連携するしくみ
 Cortana を使って質問するとき、Cortana が回答を探す場所の 1 つとして Power BI を使うことができます。 Power BI と連携することで、Cortana は、*Cortana 回答カード* と呼ばれる特殊な種類のレポート ページを含む Power BI レポートから、また、Power BI ダッシュボードから豊富なデータに基づく回答を見つけることができます。

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 379f80e1e87181ffdacdaab01d87ff435f2a9501
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473776"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291075"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop での多対多のリレーションシップ (プレビュー)
 
@@ -25,11 +25,11 @@ Power BI Desktop の "*多対多のリレーションシップ*" 機能を使用
 
 Power BI Desktop の "*多対多のリレーションシップ*" 機能は、関連する 3 つの機能の 1 つです。
 
-* **複合モデル**: DirectQuery 接続やインポートなど、2 つ以上のデータ接続を任意の組み合わせでレポートに含めることができます。 詳細については、「[Power BI Desktop の複合モデル (プレビュー)](desktop-composite-models.md)」をご覧ください。
+* **複合モデル**:DirectQuery 接続やインポートなど、2 つ以上のデータ接続を任意の組み合わせでレポートに含めることができます。 詳細については、「[Composite models in Power BI Desktop (preview)](desktop-composite-models.md)」 (Power BI Desktop の複合モデル (プレビュー)) を参照してください。
 
-* **多対多のリレーションシップ**: "*複合モデル*" と共に、テーブル間で "*多対多のリレーションシップ*" を作成することができます。 このアプローチでは、テーブル内の一意の値の要件が除外されます。 また、リレーションシップを作成するためだけに新しいテーブルを導入するなどの以前の回避策も除外されます。 この機能については、この記事で詳しく説明します。
+* **多対多のリレーションシップ**:"*複合モデル*" では、テーブル間で "*多対多のリレーションシップ*" を確立することができます。 このアプローチでは、テーブル内の一意の値の要件が除外されます。 また、リレーションシップを作成するためだけに新しいテーブルを導入するなどの以前の回避策も除外されます。 この機能については、この記事で詳しく説明します。
 
-* **ストレージ モード**: どのビジュアルがバックエンド データ ソースへのクエリを要求するか指定できるようになりました。 クエリを必要としないビジュアルは、それらが DirectQuery に基づいている場合でもインポートされます。 この機能はパフォーマンスの向上とバック エンドの負荷の軽減に役立ちます。 以前は、スライサーのような単純なビジュアルでも、バックエンド ソースに送信されるクエリが開始されました。 詳細については、「[Power BI Desktop のストレージ モード (プレビュー)](desktop-storage-mode.md)」をご覧ください。
+* **ストレージ モード**:どのビジュアルでバックエンド データ ソースへのクエリが必要かを指定できるようになりました。 クエリを必要としないビジュアルは、それらが DirectQuery に基づいている場合でもインポートされます。 この機能はパフォーマンスの向上とバック エンドの負荷の軽減に役立ちます。 以前は、スライサーのような単純なビジュアルでも、バックエンド ソースに送信されるクエリが開始されました。 詳細については、「[Power BI Desktop のストレージ モード (プレビュー)](desktop-storage-mode.md)」をご覧ください。
 
 ## <a name="enable-the-many-to-many-relationships-preview-feature"></a>"*多対多のリレーションシップ*" プレビュー機能を有効にする
 
@@ -37,7 +37,7 @@ Power BI Desktop の "*多対多のリレーションシップ*" 機能は、関
 
 ![[プレビュー機能] ウィンドウ](media/desktop-composite-models/composite-models_02.png)
 
-機能を有効にするには、Power BI Desktop を起動する必要があります。
+機能を有効にするには、Power BI Desktop を再起動する必要があります。
 
 ![[この機能は再起動が必要です] ウィンドウ](media/desktop-composite-models/composite-models_03.png)
 

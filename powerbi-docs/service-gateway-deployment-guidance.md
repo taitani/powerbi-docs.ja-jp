@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e07575658ed25e3f4933a7840ef4bc970264b23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296022"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279851"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI のデータ ゲートウェイを展開するためのガイダンス
 
@@ -40,7 +40,7 @@ ms.locfileid: "34296022"
 **Power BI** には*レポート*あたり *1 つ*のゲートウェイのみが許可されるという制約があり、そのためレポートが複数のデータソースを基にしている場合でも、そのすべてのデータソースが 1 つのゲートウェイを通過する必要があります。 ただし、ダッシュ ボードが*複数*のレポートを基にしている場合、関係しているレポートごとに専用のゲートウェイを使用して、それによってその単一のダッシュ ボードに関係している複数のレポート間でゲートウェイの負荷を分散することができます。
 
 ### <a name="connection-type"></a>接続の種類
-**Power BI** は、**DirectQuery** と**インポート**という 2 つの接続の種類を提供します。 すべてのデータソースが両方の接続の種類をサポートするわけではありません。セキュリティ条件、パフォーマンス、データの制限、データ モデルのサイズといった多くの理由でどちらかの種類が選択されます。 接続の種類およびサポートされているデータ ソースの詳細については、[オンプレミス データ ゲートウェイの記事](service-gateway-onprem.md)の*使用可能なデータ ソースの種類の一覧*のセクションを参照してください。
+**Power BI** では、次の 2 種類の接続が提供されます:**DirectQuery** と**インポート**。 すべてのデータソースが両方の接続の種類をサポートするわけではありません。セキュリティ条件、パフォーマンス、データの制限、データ モデルのサイズといった多くの理由でどちらかの種類が選択されます。 接続の種類およびサポートされているデータ ソースの詳細については、[オンプレミス データ ゲートウェイの記事](service-gateway-onprem.md)の*使用可能なデータ ソースの種類の一覧*のセクションを参照してください。
 
 使用する接続の種類に応じて使用して、ゲートウェイの使用量が異なる場合があります。 たとえば、可能な場合は常に、**DirectQuery** データ ソースを**スケジュールされた更新**データ ソースから分離する必要があります (それらが異なるレポートにあり、分離可能であると仮定します)。 このようにすることで、朝にスケジュールされている会社のメイン ダッシュボードで使用される大きなサイズのデータ モデルの更新と同時に、ゲートウェイで数千の DirectQuery 要求がキューに入れられるのを防ぎます。 それぞれの考慮事項を次に示します。
 

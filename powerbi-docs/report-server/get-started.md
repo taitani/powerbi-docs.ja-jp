@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: ee8086a149e752d68aa8d6801844676d038257e3
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289153"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291977"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server とは
 
@@ -27,13 +27,13 @@ Power BI Report Server は Web ポータルのあるオンプレミス レポー
 Power BI Report Server は、SQL Server Reporting Services と Power BI オンライン サービスの両方に似ていますが、さまざまな相違点があります。 Power BI サービスと同様に、Power BI Report Server は Power BI レポート (.PBIX) と Excel ファイルをホストします。 Reporting Services と同様に、Power BI Report Server はオンプレミスにあり、ページ分割されたレポート (.RDL) をホストします。 Power BI Report Server は、Reporting Services のスーパーセットです。つまり、Reporting Services でできることはすべて Power BI Report Server でできる上に Power BI Report Server では Power BI レポートもサポートされています。 詳細については、「[Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md)」(Power BI Report Server と Power BI サービスの比較) を参照してください。
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Report Server のライセンス
-Power BI Report Server は、ソフトウェア アシュアランスを使用した 2 種類のライセンス ([Power BI Premium](../service-premium.md) と [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)) を介して利用できます。 Power BI Premium ライセンスがあれば、クラウドとオンプレミスを混在させたハイブリッド デプロイを作成できます。  
+Power BI Report Server は、次の 2 種類のライセンスによって利用できます:[Power BI Premium](../service-premium.md) とソフトウェア アシュアランス付きの [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)。 Power BI Premium ライセンスがあれば、クラウドとオンプレミスを混在させたハイブリッド デプロイを作成できます。  
 
 > [!NOTE]
 > Power BI Premium の場合、Power BI Report Server は P SKU のみに含まれます。 EM SKU には含まれません。
 
 ## <a name="web-portal"></a>Web ポータル
-Power BI Report Server のエントリ ポイントは、最新のブラウザーで表示できる安全な Web ポータルです。 ここで、すべてのレポートと KPI にアクセスします。 Web ポータル上のコンテンツは、従来のフォルダー階層で構成されています。 フォルダーでは、コンテンツが種類別にグループ化されています。グループには、Power BI レポート、モバイル レポート、ページ分割されたレポート、KPI、Excel ブックがあります。 共有データセットと共有データ ソースはそれぞれの専用フォルダーにあり、レポートの構成要素として使用されます。 お気に入りにタグを付けると、1 つのフォルダーで表示されます。 また、KPI は Web ポータルで直接作成します。 
+Power BI Report Server のエントリ ポイントは、最新のブラウザーで表示できる安全な Web ポータルです。 ここで、すべてのレポートと KPI にアクセスします。 Web ポータル上のコンテンツは、従来のフォルダー階層で構成されています。 フォルダーでは、コンテンツは次の種類にグループ化されています:Power BI レポート、モバイル レポート、ページ分割されたレポート、KPI、Excel ブック。 共有データセットと共有データ ソースはそれぞれの専用フォルダーにあり、レポートの構成要素として使用されます。 お気に入りにタグを付けると、1 つのフォルダーで表示されます。 また、KPI は Web ポータルで直接作成します。 
 
 ![Power BI レポート サーバーの Web ポータル](media/get-started/web-portal.png)
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 73d9d84552d49ca507fe4b6f9ec022bb7fb98866
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670856"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285118"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>更新に関するトラブルシューティング シナリオ
 ここでは、Power BI サービス内のデータを更新するときに直面する可能性のあるさまざまなシナリオに関する情報を提供します。
@@ -37,7 +37,7 @@ ms.locfileid: "52670856"
 ## <a name="gatewaynotreachable-when-setting-credentials"></a>資格情報を設定するときの GatewayNotReachable
 データ ソースの資格情報を設定するときに、GatewayNotReachable が発生する可能性があります。 これは、ゲートウェイが期限切れになった場合に発生する可能性があります。  最新のゲートウェイをインストールし、もう一度お試しください。
 
-## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>処理エラー: 次のシステム エラーが発生しました: 型が一致しません
+## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>処理エラー:次のシステム エラーが発生しました:型が一致しません
 Power BI Desktop ファイルまたは Excel ブック内の M スクリプトに問題がある可能性があります。  Power BI Desktop のバージョンが古いことが原因である可能性もあります。
 
 ## <a name="tile-refresh-errors"></a>タイルの更新エラー

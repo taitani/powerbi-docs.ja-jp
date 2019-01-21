@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3ef719f85690297cd523a6fefb7f0ba5f77c9199
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 0ad902fc08592addb234517af99faedf1851503a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717610"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280942"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium および Power BI Embedded の容量を管理する
 
@@ -42,9 +42,9 @@ Power BI Premium および Power BI Embedded の容量を管理する方法に�
 
 専用の容量を利用するには、Office 365 管理センター内で Power BI Premium を購入するか、Microsoft Azure portal 内で Power BI Embedded リソースを作成する必要があります。 詳しくは、次の各記事をご覧ください。
 
-* **Power BI Premium:** [Power BI Premium の購入方法](service-admin-premium-purchase.md)
+* **Power BI Premium:**[Power BI Premium の購入方法](service-admin-premium-purchase.md)
 
-* **Power BI Embedded:** [Azure Portal での Power BI Embedded 容量の作成](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
+* **Power BI Embedded:**[Azure portal での Power BI Embedded 容量の作成](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 Power BI Premium または Embedded SKU を購入すると、実行している容量で使うための、対応する数の仮想コアがご利用のテナントに届きます。 たとえば、Power BI Premium P3 SKU を購入すると、32 個の仮想コアがテナントに提供されます。 SKU の詳細については、「[Premium 容量ノード](service-premium.md#premium-capacity-nodes)」を参照してください。
 
@@ -56,7 +56,7 @@ Power BI Premium または Embedded SKU を購入すると、実行している�
 
 ## <a name="configure-workloads"></a>ワークロードを構成する
 
-既定では、Power BI Premium と Power BI Embedded の容量でサポートされるのは、クラウド内で実行中の Power BI クエリに関連付けられているワークロードのみです。 現在では、2 つの追加ワークロード (**ページ分割されたレポート**および**データフロー**) に対応したプレビュー版サポートが用意されています。 詳細については、「[Premium 容量内のワークロード](service-premium.md#workloads-in-premium-capacity)」を参照してください。
+既定では、Power BI Premium と Power BI Embedded の容量でサポートされるのは、クラウド内で実行中の Power BI クエリに関連付けられているワークロードのみです。 現在では、2 つの追加ワークロード(**ページ分割されたレポート**および**データフロー**) に対応したプレビュー版サポートが用意されています。 詳細については、「[Premium 容量内のワークロード](service-premium.md#workloads-in-premium-capacity)」を参照してください。
 
 Power BI 管理ポータルでワークロードを有効にするには、次の手順に従います。
 

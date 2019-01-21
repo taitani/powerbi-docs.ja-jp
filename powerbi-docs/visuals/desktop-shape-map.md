@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417328"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290891"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
 色を使用して、マップで領域を比較するために **[図形マップ]** ビジュアルを作成します。 **[マップ]** ビジュアルとは異なり、**[図形マップ]** ではマップ上の地理的な場所を正確には表示できません。 代わりに、これの主な用途は、違う色を適用することにより、マップ上の領域を相対的に比較できます。
@@ -113,7 +113,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 ## <a name="region-keys"></a>地域キー
 このプレビュー リリースでは、次の**地域キー**を使用して、**[マップのシェイプ]** をテストしてください。
 
-### <a name="australia-states"></a>オーストラリア: 州
+### <a name="australia-states"></a>オーストラリア:州
 
 | `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>オーストリア: 州
+### <a name="austria-states"></a>オーストリア:州
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | at-ka |AT-2 |Kärnten |Carinthia (ケルンテン) |KA |
 | at-bu |AT-1 |Burgenland |Burgenland (ブルゲンラント) |BU |
 
-### <a name="brazil-states"></a>ブラジル: 州
+### <a name="brazil-states"></a>ブラジル:州
 
 | `id` |
 | --- |
@@ -176,7 +176,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>カナダ: 州
+### <a name="canada-provinces"></a>カナダ:州
 
 | `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
@@ -194,7 +194,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-bc |CA-BC |British Columbia |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>フランス: 地域圏
+### <a name="france-regions"></a>フランス:地域
 
 | `id` | `name` | `name-en` |
 | --- | --- | --- |
@@ -219,9 +219,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Bourgogne |Bourgogne |Burgundy (ブルゴーニュ) |
 | Basse-Normandie |Basse-Normandie |Lower Normandy (バス ノルマンディー) |
 | Auvergne |Auvergne |Auvergne (オーベルニュ) |
-| Aquitaine |Aquitaine |Aquitaine (アキテーヌ) |
+| Aquitaine |Aquitaine |Aquitaine |
 
-### <a name="germany-states"></a>ドイツ: 州
+### <a name="germany-states"></a>ドイツ:州
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -242,7 +242,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | de-by |DE-BY |Bayern |Bavaria (バイエルン) |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg (バーデン=ウュルテンベルク) |BW |
 
-### <a name="ireland-counties"></a>アイルランド: 州
+### <a name="ireland-counties"></a>アイルランド:郡
 
 | `id` |
 | --- |
@@ -273,7 +273,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>イタリア: 州
+### <a name="italy-regions"></a>イタリア:地域
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -298,7 +298,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | it-pu |IT-75 |Apulia |Puglia (プーリア) |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo (アブルッツィ) |AB |
 
-### <a name="mexico-states"></a>メキシコ: 州
+### <a name="mexico-states"></a>メキシコ:州
 
 | `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
@@ -335,7 +335,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California (バハ カリフォルニア) |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes (アグアスカリエンテス) |AG |
 
-### <a name="netherlands-provinces"></a>オランダ: 州
+### <a name="netherlands-provinces"></a>オランダ:州
 
 | `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
@@ -352,7 +352,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | nl-fl |NL-FL |Flevoland |Flevoland (フレヴォラント) |
 | nl-dr |NL-DR |Drenthe |Drenthe (ドレンテ) |
 
-### <a name="uk-countries"></a>英国: 地方
+### <a name="uk-countries"></a>英国:国
 
 | `id` | `iso` | `name` |
 | --- | --- | --- |
@@ -361,7 +361,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | gb-nir |GB-NIR |Northern Ireland |
 | gb-eng |GB-ENG |England |
 
-### <a name="usa-states"></a>米国: 州
+### <a name="usa-states"></a>米国:州
 
 | `id` | `name` | `postal` |
 | --- | --- | --- |

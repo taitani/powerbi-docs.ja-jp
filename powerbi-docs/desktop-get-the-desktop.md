@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909596"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281921"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 **Power BI Desktop** では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 **Power BI Desktop** を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。  **Power BI Desktop** は無料でダウンロードできます。
@@ -95,8 +95,8 @@ Microsoft ストアからの **Power BI Desktop** のインストールには、
 * .NET 4.5
 * Internet Explorer 9 以降
 * **メモリ (RAM):** 1 GB 以上使用可能、1.5 GB 以上を推奨します。
-* **表示**: 1440 x 900 以上または 1600 x 900 (16:9) を推奨します。 1024 x 768 または 1280 x 800 などのより低い解像度は推奨されていません。特定のコントロール (起動画面を閉じるなど) は、これらの解像度を超えて表示されるためです。
-* **Windows の表示の設定:** テキスト、アプリ、その他の項目のサイズが 100% より大きくなるように表示設定を変更してある場合、**Power BI Desktop** の使用を続けるために閉じたり応答したりする必要がある特定のダイアログを表示できないことがあります。 この問題が発生した場合は、Windows で **[設定] > [システム] > [表示]** に移動して **[表示設定]** を確認し、スライダーを使って表示設定を 100% に戻します。
+* **ディスプレイ:** 1440 x 900 以上または 1600 x 900 (16:9) を推奨します。 1024 x 768 または 1280 x 800 などのより低い解像度は推奨されていません。特定のコントロール (起動画面を閉じるなど) は、これらの解像度を超えて表示されるためです。
+* **Windows 表示設定:** テキスト、アプリ、その他の項目のサイズが 100% より大きくなるように表示設定を変更してある場合、**Power BI Desktop** の使用を続けるために閉じたり応答したりする必要がある特定のダイアログを表示できないことがあります。 この問題が発生した場合は、Windows で **[設定] > [システム] > [表示]** に移動して **[表示設定]** を確認し、スライダーを使って表示設定を 100% に戻します。
 * **CPU:** 1 ギガヘルツ (GHz) または高速な x86 ビットまたは x64 ビットのプロセッサを推奨します。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
@@ -115,7 +115,7 @@ Power BI Desktop での経験が常に素晴らしいものであることを望
 最新バージョンの Power BI Desktop に更新し、機能、パフォーマンス、安定性、その他の改善の進歩を活用することをお勧めします。 組織によっては、ユーザーが新しいバージョンのたびに更新することを望まない場合があります。 以下の手順でレジストリを変更することにより、通知を無効にすることができます。
 
 1. レジストリ エディターを使用して、*HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop* に移動します
-2. そこに、*REG_DWORD : DisableUpdateNotification* という設定で新しいエントリを作成します
+2. そこに、次の設定で新しいエントリを作成します:*REG_DWORD :DisableUpdateNotification*
 3. 新しいエントリの値を **1** に設定します。
 
 変更を有効にするには、コンピューターを再起動する必要があります。
@@ -125,7 +125,7 @@ Power BI Desktop での経験が常に素晴らしいものであることを望
 特定の画面解像度が構成されている場合など、ある種の状況では、Power BI Desktop で大きな黒い領域を含むコンテンツが表示されることがあります。 これは、一般に、項目の表示方法に影響する最近のオペレーティング システムの更新によるものであり、Power BI Desktop によるコンテンツの表示方法の直接的な結果ではありません。 それでも、大きな黒い領域が表示されるのは目障りなので、次の手順によりこの問題に対処できます。
 
 1. [スタート] ボタンをクリックし、表示される検索バーに "*blurry*" と入力します。
-2. 表示されるダイアログ ボックスで、*Let Windows fix apps that are blurry* (Windows に不明瞭なアプリを修正させる) オプションを選択します。
+2. 表示されるダイアログで、次のオプションを選択します:*[Let Windows fix apps that are blurry]\(Windows に不明瞭なアプリを修正させる\)*。
 3. Power BI Desktop を再起動します。
 
 この問題は、今後の Windows 更新プログラムのリリースで解決される可能性があります。 

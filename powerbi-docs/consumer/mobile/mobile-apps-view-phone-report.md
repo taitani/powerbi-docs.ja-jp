@@ -1,20 +1,20 @@
 ---
 title: 電話用に最適化された Power BI レポートを表示する
 description: Power BI 電話アプリで表示するように最適化されたレポート ページとの対話について説明しています。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547800"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276908"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
 
@@ -70,7 +70,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 
 * ビジュアルに表示される情報に**ドリルダウン**します。 詳しくは、電話レポートの[ドリルダウンとドリルアップ](mobile-apps-view-phone-report.md#drill-down-in-a-visual)に関するページを参照してください。
 * ビジュアル内の値を**並べ替え**ます。
-* **[元に戻す]**: ビジュアルで使用した探索手順をクリアし、レポートの作成時に設定された定義に戻します。
+* **[元に戻す]**:ビジュアルで使用した探索手順をクリアし、レポートの作成時に設定された定義に戻します。
   
     ビジュアルからすべての探索をクリアするには、省略記号 **[...]****[元に戻す]** の順にタップします。
   

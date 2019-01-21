@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 2c909f1f7d2c1b500d37de0e4617e10c79977c96
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101464"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284773"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードのテーブル
 テーブルは、関連性のあるデータが論理的な一連の行と列に格納されたグリッドです。 ヘッダーと合計行が含まれる場合もあります。 テーブルは、1 つのカテゴリの多くの値を調べるときの定量的な比較で役に立ちます。 たとえば、次の表には**カテゴリ**に対する 5 つの異なるメジャーが表示されています。
@@ -135,7 +135,7 @@ Power BI では、レポートまたはダッシュボードの列見出しが�
 ![列のサイズ変更をクローズアップするビデオ](media/power-bi-visualization-tables/resizetable.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-* 列の書式設定を適用する場合、選択できる配置オプションは 1 列あたり 1 つのみです (自動、左、中央、右)。 通常、列に含まれるのはテキストのみか、数値のみであり、混在することはありません。 ただし、列に数値とテキストの両方が含まれる場合、**[自動]** ではテキストは左に、数値は右に配置されます。 この動作は、左から右に読む言語をサポートします。   
+* 列の書式設定を適用する場合、選択できる配置オプションは 1 列あたり 1 つのみです:自動、左、中央、右。 通常、列に含まれるのはテキストのみか、数値のみであり、混在することはありません。 ただし、列に数値とテキストの両方が含まれる場合、**[自動]** ではテキストは左に、数値は右に配置されます。 この動作は、左から右に読む言語をサポートします。   
 
 ## <a name="next-steps"></a>次の手順
 

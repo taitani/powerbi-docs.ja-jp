@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8024756159b4974ef4a23ab60a055d57b0dfa590
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 1b587edb82f60ac8a9ff22716e42bcf941e0c794
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670603"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276539"
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery と SAP HANA
 **SAP HANA** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP HANA には 2 つの方法で接続できます。
@@ -67,8 +67,8 @@ DirectQuery を使用して SAP HANA に接続する (多次元ソースとし�
 * **計算列のサポートがない:** 計算列を作成する機能は無効です。 これは、計算列を作成するグループ化とクラスタリングも使用できないことを意味します。
 * **メジャーのその他の制限:** メジャーで使用できる、SAP HANA のサポート レベルを反映する DAX 式の制限がこの他にもあります。
 * **リレーションシップ定義のサポートがない:** 1 つのレポート内では、1 つのビューにのみクエリを実行できます。そのため、リレーションシップ定義はサポートされていません。
-* **データ ビューがない:** **[データ ビュー]** は、通常詳細レベル データをテーブルに表示します。 SAP HANA などの OLAP ソースの性質から、このビューは SAP HANA では使用できません。
-* **列とメジャーの詳細は固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりできません (ただし、名前変更は可能です)。
+* **データ ビューがない:****[データ ビュー]** は、通常詳細レベル データをテーブルに表示します。 SAP HANA などの OLAP ソースの性質から、このビューは SAP HANA では使用できません。
+* **列とメジャーの詳細が固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりできません (ただし、名前変更は可能です)。
 * **DAX のその他の制限:** メジャーの定義で使用できる DAX には、ソースの制限と一致する制限がこの他にもあります。 たとえば、テーブルに集計関数は使用できません。
 
 ### <a name="additional-visualization-restrictions"></a>視覚エフェクトのその他の制限

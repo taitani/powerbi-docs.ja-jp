@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8856a8641b38b7a8256b199acccd54e030bdce40
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: dd4ee055501974345c819f7604ff30174cd4c5ba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984634"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279008"
 ---
 # <a name="organize-work-in-the-new-workspaces-preview-in-power-bi"></a>Power BI で、新しいワークスペースで作業を整理する (プレビュー)
 
@@ -43,7 +43,7 @@ Power BI 管理ポータルの詳細については[こちら](service-admin-por
 
 ## <a name="roles-in-the-new-workspaces"></a>新しいワークスペースのロール
 
-新しいワークスペースには、ユーザー グループや個人をメンバー、共同作成者、または管理者として追加します。 ユーザー グループのすべてのユーザーには、定義されたロールが与えられます。 個人が複数のユーザー グループ内に存在する場合は、ロールによって提供される最高レベルのアクセス許可が与えられます。  さまざまなロールの説明については、この記事の後述の「[新しいワークスペースのロール](#roles-in-the-new-workspaces)」を参照してください。
+新しいワークスペースには、ユーザー グループや個人をメンバー、共同作成者、または管理者として追加します。 ユーザー グループのすべてのユーザーには、定義されたロールが与えられます。 個人が複数のユーザー グループ内に存在する場合は、ロールによって提供される最高レベルのアクセス許可が与えられます。
 
 ワークスペースに追加するすべてのユーザーに、Power BI Pro のライセンスが必要となります。 ワークスペースでは、より広範な対象ユーザーや、場合によっては組織全体に発行する予定のダッシュボードやレポートで、これらすべてのユーザーが共同作業を行うことができます。 組織内部の他のユーザーにコンテンツを配布する場合は、Power BI Pro ライセンスをそのユーザーに割り当てるか、Power BI Premium 容量にワークスペースを配置することができます。
 
@@ -83,9 +83,7 @@ Power BI 管理ポータルの詳細については[こちら](service-admin-por
 
 新しいワークスペースが一般公開 (GA) された場合は、古いものを自動的に移行するよう選択できます。 GA 後のある時点で、移行する必要があります。
 
-## <a name="power-bi-apps-faq"></a>Power BI アプリに関する FAQ
-
-### <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>新しいワークスペースと現在のワークスペースの違いは何ですか?
+## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>新しいワークスペースと現在のワークスペースの違いは何ですか?
 
 新しいワークスペースでは、一部の機能が再設計されています。 プレビューと、永続的となることが予想される変更は以下のようになります。 
 
@@ -94,6 +92,13 @@ Power BI 管理ポータルの詳細については[こちら](service-admin-por
 - 現在のワークスペースから組織のコンテンツ パックを作成することができます。 新しいワークスペースからは作成できません。
 - 現在のワークスペースから組織のコンテンツ パックを利用することができます。 新しいワークスペースからは利用できません。
 - プレビュー期間中は、新しいワークスペースについては一部の機能をご利用いただけません。 詳細については、[予定されている新しいアプリ ワークスペース プレビューの機能](service-new-workspaces.md#planned-new-workspace-preview-features)に関する次のセクションを参照してください。
+
+## <a name="limitations-and-considerations"></a>制限事項と考慮事項
+
+注意すべき制限事項:
+
+- ワークスペースに格納できるのは、最大で 1,000 データセット、またはデータセットあたり 1,000 レポートです。 
+- Power BI Pro ライセンスを持つユーザーは、最大 250 ワークスペースのメンバーになることができます。
 
 ## <a name="planned-new-workspace-preview-features"></a>予定されている新しいワークスペース プレビューの機能
 

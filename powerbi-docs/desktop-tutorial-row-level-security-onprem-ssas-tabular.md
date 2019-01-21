@@ -6,17 +6,17 @@ manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452754"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292639"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
 このチュートリアルでは、**Analysis Services 表形式モデル**内に**行レベルのセキュリティ**を実装するために必要な手順と、Power BI レポートでのその使用方法を示します。 このチュートリアルの手順に従って、サンプル データセットを完了することで必要な手順を理解できるようになっています。
@@ -34,7 +34,7 @@ ms.locfileid: "52452754"
 
 このチュートリアルの手順に従うには、**AdventureworksDW2012** データベース (**[リポジトリ](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** からダウンロードできます) が必要です。
 
-## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>タスク 1: ユーザーのセキュリティ テーブルを作成し、データのリレーションシップを定義する
+## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>タスク 1:ユーザーのセキュリティ テーブルを作成し、データのリレーションシップを定義する
 **SQL Server Analysis Services (SSAS) 表形式**モデルを使用して行レベルの動的なセキュリティを定義する方法を説明する記事は多数あります。 サンプルについては、記事「[行フィルターを使用した動的なセキュリティの実装](https://msdn.microsoft.com/library/hh479759.aspx)」を参照してください。 以下の手順では、このチュートリアルの最初のタスクについて説明します。
 
 1. サンプルでは、**AdventureworksDW2012** リレーショナル データベースを使用します。 そのデータベースで、次の図のように、**DimUserSecurity** テーブルを作成します。 このサンプルでは、SQL Server Management Studio (SSMS) を使用してテーブルを作成します。
@@ -55,7 +55,7 @@ ms.locfileid: "52452754"
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. 上の図に販売地域ごとの担当ユーザーなどの情報が示されていることに注目してください。 **手順 2.** でリレーションシップを作成したため、このようなデータが表示されます。 また、ユーザー **Jon Doe がオーストラリアの販売地域に含まれている**ことにも注目してください。 Jon Doe は以降の手順とタスクでも使用します。
 
-## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>タスク 2: ファクト テーブルとディメンション テーブルを持つ表形式モデルを作成する
+## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>タスク 2:ファクト テーブルとディメンション テーブルを持つ表形式モデルを作成する
 1. リレーショナル データ ウェアハウスが準備できたら、表形式モデルを定義します。 モデルは **SQL Server Data Tools (SSDT)** を使用して作成できます。 表形式モデルを定義する方法の詳細については、[Create a New Tabular Model Project](https://msdn.microsoft.com/library/hh231689.aspx) (新しい表形式モデル プロジェクトの作成) してください。
 2. 次に示すように、モデルに必要なすべてのテーブルをインポートします。
    
@@ -83,7 +83,7 @@ ms.locfileid: "52452754"
     この数式は、すべての列が false ブール条件に解決されるように指定します。したがって、**DimUserSecurity** テーブルの列をクエリすることはできません。
 1. この時点で、モデルを処理してデプロイする必要があります。 モデルのデプロイの際に支援が必要な場合は、[デプロイに関する記事](https://msdn.microsoft.com/library/hh231693.aspx)を参照してください。
 
-## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>タスク 3: オンプレミス データ ゲートウェイ内のデータ ソースを追加する
+## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>タスク 3:オンプレミス データ ゲートウェイ内のデータ ソースを追加する
 1. 表形式モデルをデプロイし、使用できるようになったら、Power BI ポータルでオンプレミスの Analysis Services 表形式サーバーへのデータ ソース接続を追加する必要があります。
 2. **Power BI サービス** がオンプレミスの分析サービスにアクセスできるようにするには、使用している環境で**[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)** をインストールして構成する必要があります。
 3. ゲートウェイを正しく構成したら、**Analysis Services** 表形式インスタンス用のデータ ソース接続を作成する必要があります。 この記事は、[Power BI ポータルでデータ ソースを追加する](service-gateway-enterprise-manage-ssas.md)場合に役立ちます。
@@ -91,7 +91,7 @@ ms.locfileid: "52452754"
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 4. 前の手順が完了していれば、ゲートウェイは構成されており、オンプレミスの **Analysis Services** データ ソースと対話できるようになっています。
 
-## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>タスク 4: Power BI Desktop を使用して Analysis Services 表形式モデルに基づくレポートを作成する
+## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>タスク 4:Power BI Desktop を使用して Analysis Services 表形式モデルに基づくレポートを作成する
 1. **Power BI Desktop** を起動して、**[データの取得]、[データベース]** の順に選択します。
 2. データ ソースのリストから、**[SQL Server Analysis Services データベース]** を選択して、**[接続]** を選択します。
    
@@ -109,7 +109,7 @@ ms.locfileid: "52452754"
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 8. レポートの準備ができたら、Power BI ポータルに直接発行できます。 **Power BI Desktop** の **[ホーム]** リボンで、**[発行]** を選択します。
 
-## <a name="task-5-creating-and-sharing-a-dashboard"></a>タスク 5: ダッシュボードを作成して共有する
+## <a name="task-5-creating-and-sharing-a-dashboard"></a>タスク 5:ダッシュボードを作成して共有する
 1. レポートを作成し、**Power BI Desktop** で **[発行]** をクリックしたため、レポートは **Power BI** サービスに発行されます。 これで、サービスで、前の手順で作成した例を使用してモデル セキュリティ シナリオを示すことができます。
    
    役割が**販売マネージャーの Sumit** は、あらゆる販売地域からのデータを表示することができます。 したがって、Sumit はこのレポート (前のタスクの手順で作成したレポート) を作成し、Power BI サービスに発行します。
@@ -127,7 +127,7 @@ ms.locfileid: "52452754"
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 4. お疲れ様でした。 オンプレミスの **Analysis Services** 表形式モデルで定義された動的な行レベル セキュリティは、**Power BI** サービスに正常に反映され、確認されました。 Power BI は **effectiveusername** プロパティを使用して、現在の Power BI ユーザーの資格情報をオンプレミス データ ソースに送信してクエリを実行します。
 
-## <a name="task-6-understanding-what-happens-behind-the-scenes"></a>タスク 6: バックグラウンドでの動作を理解する
+## <a name="task-6-understanding-what-happens-behind-the-scenes"></a>タスク 6:バックグラウンドでの動作を理解する
 1. このタスクは SQL Profiler に慣れていることを前提とします。オンプレミスの SSAS 表形式インスタンスで SQL Server プロファイラー トレースをキャプチャする必要があるためです。
 2. ユーザー (ここでは Jon Doe) が Power BI サービスのダッシュ ボードにアクセスすると、すぐにセッションが初期化されます。 **salesterritoryusers** 役割は、**<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>** などの有効なユーザー名ですぐに有効になることがわかります。
    

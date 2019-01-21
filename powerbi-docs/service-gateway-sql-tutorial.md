@@ -1,23 +1,23 @@
 ---
-title: 'チュートリアル: SQL Server でオンプレミス データに接続する'
+title: チュートリアル:SQL Server でオンプレミス データに接続する
 description: データを更新する方法など、SQL Server をゲートウェイ データ ソースとして使用する方法について説明します。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 33b88c728a5a79f2b1edf6e1728850723ce76fec
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: 96ea117ff0ba28a158eb9f0eaf748d66b25f90d5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257138"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278931"
 ---
-# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>チュートリアル: SQL Server でオンプレミス データに接続する
+# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>チュートリアル:SQL Server でオンプレミス データに接続する
 
 オンプレミス データ ゲートウェイは、オンプレミス ネットワーク内にインストールするソフトウェアです。ゲートウェイがあると、そのネットワーク内のデータに簡単にアクセスできるようになります。 このチュートリアルでは、SQL Server からインポートされたサンプル データに基づいて Power BI Desktop でレポートを作成します。 次に、レポートを Power BI サービスに発行し、サービスがオンプレミス データにアクセスできるようにゲートウェイを構成します。 このアクセスは、レポートを最新の状態に保つためにサービスがデータを更新できることを意味します。
 

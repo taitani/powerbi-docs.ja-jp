@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92e86817231e959db50af3c32fe8eba761c79a61
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: dd7360761cc78aed9b01eb99165de9f0b4b91ffe
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448870"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274768"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI のツリーマップ
 ツリーマップでは、入れ子になった一連の四角形で階層データが表示されます。  階層の各レベルは、色付きの四角形 (「ブランチ (枝)」) で表され、ブランチには他の四角形 (「リーフ (葉)」) が含まれます。  各四角形内の面積は、測定される値に基づいて割り当てられます。 各四角形は大きさの順に左上 (最大) から右下 (最小) に向かって配置されます。
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
 
-たとえば、売上を分析する場合、最上位レベルの四角形 (*ブランチ* ともいう) を衣料カテゴリの **Urban (都市部向け)**、**Rural (地方向け)**、**Youth (若者向け)**、および **Mix (組み合わせ)** にすることができます。  カテゴリの四角形は、そのカテゴリ内の衣料メーカー用のより小さい四角形 (*リーフ*ともいう) に分割されます。 また、これらのより小さい四角形は売上数に基づいてサイズが決まり、網掛け表示されます。  
+たとえば、売上を分析する場合、最上位レベルの四角形 (*ブランチ* ともいう) を次の衣料カテゴリにすることができます:**Urban (都市部向け)**、**Rural (地方向け)**、**Youth (若者向け)**、**Mix (組み合わせ)**。  カテゴリの四角形は、そのカテゴリ内の衣料メーカー用のより小さい四角形 (*リーフ*ともいう) に分割されます。 また、これらのより小さい四角形は売上数に基づいてサイズが決まり、網掛け表示されます。  
 
 上の **Urban** ブランチでは、`Maximus` の衣料の売上が多く、`Natura` と `Fama` の売上はそれよりも少なく、`Leo` の売上は非常に少なくなっています。  そのため、このツリーマップの **Urban** ブランチは次のようになります。
 * 左上隅にある `Maximus` の四角形が最も大きい

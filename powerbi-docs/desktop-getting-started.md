@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670930"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291650"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop の概要
 「**Power BI Desktop 概要ガイド**」へようこそ。 この短いツアーでは、Power BI Desktop の機能を説明し、その動作の実例を示します。これにより、強力なデータ モデルと優れたレポートをより迅速に作成できるようになり、ビジネス インテリジェンスの作業を拡張できます。 
@@ -69,9 +69,9 @@ Power BI Desktop を実行すると、 *[ようこそ]* 画面が表示されま
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Power BI Desktop には、**レポート** ビュー、**データ** ビュー、**リレーションシップ** ビューという 3 つのビューがあります。 Power BI Desktop には、**クエリ エディター**も含まれています。クエリ エディターは別のウィンドウで開きます。 **クエリ エディター**では、クエリを作成してデータを変換し、その調整されたデータ モデルを Power BI Desktop に読み込み、レポートを作成することができます。
+Power BI Desktop には 3 つのビューがあります。**[レポート]** ビュー、**[データ]** ビュー、**[リレーションシップ]** ビューです。 Power BI Desktop には、**クエリ エディター**も含まれています。クエリ エディターは別のウィンドウで開きます。 **クエリ エディター**では、クエリを作成してデータを変換し、その調整されたデータ モデルを Power BI Desktop に読み込み、レポートを作成することができます。
 
-次の画面では、Power BI Desktop の左側に沿って 3 つのビューのアイコン ( **レポート**、 **データ**、および **リレーションシップ**) が上から下に表示されています。 現在表示されているビューは、左側の黄色のバーで示されています。 このケースでは、 **レポート** ビューが現在表示されています。 ビューを変更するには、これら 3 つのアイコンのいずれかを選択します。
+次の画面では、Power BI Desktop の左側に沿って次の 3 つのビューのアイコンが表示されます:上から下に **[レポート]**、**[データ]**、**[リレーションシップ]**。 現在表示されているビューは、左側の黄色のバーで示されています。 このケースでは、 **レポート** ビューが現在表示されています。 ビューを変更するには、これら 3 つのアイコンのいずれかを選択します。
 
 ![](media/desktop-getting-started/designer_gsg_viewtypes.png)
 

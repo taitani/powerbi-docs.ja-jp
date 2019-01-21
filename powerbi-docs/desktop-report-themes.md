@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027462"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277436"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポートのテーマを使用する
 **レポートのテーマ**では、企業の色、季節の色、または他の配色テーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます。 例外がいくつかあり、それについてはこの記事の後半で説明します。
@@ -83,11 +83,11 @@ Power BI Desktop レポートにレポート テーマを適用するには、�
 
 この JSON ファイルには次のような必須行があります。
 
-* **name**: テーマ名で、唯一の必須フィールドです。
+* **name**:テーマ名で、唯一の必須フィールドです。
 
-* **dataColors**: Power BI Desktop ビジュアルのデータで使用する色の 16 進コードのリストです。 このリストには、必要な数の色を含めることができます。
+* **dataColors**:Power BI Desktop ビジュアルのデータで使用する色の 16 進コードのリストです。 このリストには、必要な数の色を含めることができます。
 
-* **background**、**foreground**、**tableAccent**: さまざまな種類のビジュアルで適用される必要がある色です。 
+* **background**、**foreground**、**tableAccent**:さまざまな種類のビジュアルで適用される必要がある色です。 
   - **foreground** はテキストボックス テキスト、KPI 目標テキスト、複数行カード テキスト、カード値テキスト、ゲージ吹き出しテキスト、垂直スライサー要素テキスト、**テーブル**と**マトリックス** の合計と値のテキストに適用されます。 
   - **background** はボタン入力の塗りつぶしとコンボ チャート ラベルの背景に適用されます。 これらの色の使用方法は、適用される特定のビジュアルのスタイルによって異なります。 
   - **テーブル** ビジュアルおよび**マトリックス** ビジュアルには、既定ではこれらのスタイルが適用されます。
@@ -178,9 +178,9 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 ## <a name="report-theme-json-file-format"></a>レポート テーマの JSON ファイル書式
 基本 JSON ファイルには、5 つの必須行があります。
 
-* **name**: テーマ名で、唯一の必須フィールドです。
-* **dataColors**: Power BI Desktop ビジュアルのデータで使用する色の 16 進コードのリストです。 このリストには、必要な数の色を含めることができます。
-* **background**、**foreground**、**tableAccent**: さまざまな種類のビジュアルで適用される必要がある色です。 **foreground** はテキストボックス テキスト、KPI 目標テキスト、複数行カード テキスト、カード値テキスト、ゲージ吹き出しテキスト、垂直スライサー要素テキスト、**テーブル**と**マトリックス** の合計と値のテキストに適用されます。 **background** はボタン入力の塗りつぶしとコンボ チャート ラベルの背景に適用されます。 これらの色の使用方法は、適用される特定のビジュアルのスタイルによって異なります。 **テーブル** ビジュアルおよび**マトリックス** ビジュアルには、既定ではこれらのスタイルが適用されます。
+* **name**:テーマ名で、唯一の必須フィールドです。
+* **dataColors**:Power BI Desktop ビジュアルのデータで使用する色の 16 進コードのリストです。 このリストには、必要な数の色を含めることができます。
+* **background**、**foreground**、**tableAccent**:さまざまな種類のビジュアルで適用される必要がある色です。 **foreground** はテキストボックス テキスト、KPI 目標テキスト、複数行カード テキスト、カード値テキスト、ゲージ吹き出しテキスト、垂直スライサー要素テキスト、**テーブル**と**マトリックス** の合計と値のテキストに適用されます。 **background** はボタン入力の塗りつぶしとコンボ チャート ラベルの背景に適用されます。 これらの色の使用方法は、適用される特定のビジュアルのスタイルによって異なります。 **テーブル** ビジュアルおよび**マトリックス** ビジュアルには、既定ではこれらのスタイルが適用されます。
 
 書式設定がより細かく制御された拡張形式 JSON ファイルを作成するには、JSON ファイルに **visualStyles** セクションを追加する必要もあります。 **visualStyles** セクションに、書式の詳細を入れ子にします。 **visualStyles** セクションの書式は次のようになります。
 
@@ -222,7 +222,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 | comboChart |
 | donutChart |
 | filledMap |
-| funnel |
+| じょうご |
 | gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
@@ -231,7 +231,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| map |
+| マップ |
 | multiRowCard |
 | pieChart |
 | pivotTable |
@@ -241,64 +241,64 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 | slicer |
 | stackedAreaChart |
 | tableEx |
-| treemap |
+| ツリーマップ |
 | waterfallChart |
 
 次の表では、*cardName* 値を定義します。 各セルの最初の値は、JSON ファイルでの用語です。 2 つ目の値は、**Power BI Desktop** のユーザー インターフェイスで表示されるカードの名前です。
 
 | **cardName** |
 | --- |
-| axis: ゲージの軸 |
-| breakdown: 詳細 |
-| bubbles: バブル |
-| calloutValue: 吹き出しの値 |
-| card: カード |
-| cardTitle: カード タイトル |
-| categoryAxis: X 軸 |
-| categoryLabels: カテゴリ ラベル |
-| columnFormatting: フィールドの書式 |
-| columnHeaders: 列見出し |
-| dataLabels: データ ラベル |
-| fill: 塗りつぶし |
-| fillPoint: フィル ポイント |
-| forecast: 予測 |
-| general: 全般 |
-| goals: 目標 |
-| grid: グリッド |
-| header: ヘッダー |
-| imageScaling: 拡大縮小 |
-| indicator: インジケーター |
-| items: 項目 |
-| labels: データ ラベル |
-| legend: 凡例 |
-| lineStyles: 図形 |
-| mapControls: マップの制御 |
-| mapStyles: マップ スタイル |
-| numericInputStyle: 数値入力 |
-| percentBarLabel: コンバージョン レート ラベル |
-| plotArea: プロット エリア |
-| plotAreaShading: 対称網掛け |
-| ratioLine: 比率線 |
-| referenceLine: 定数線 |
-| ribbonChart: リボン |
-| rotation: 回転 |
-| rowHeaders: 行見出し |
-| selection: 選択範囲のコントロール |
-| sentimentColors: センチメント カラー |
-| shape: シェイプ |
-| slider: スライダー |
-| status: 色の設定 |
-| subTotals: 小計 |
-| target: 対象 |
-| total: 総計 |
-| trend: 傾向線 |
-| trendline: トレンド軸 |
-| valueAxis: Y 軸 |
-| values: 値 |
-| wordWrap: 右端での折り返し |
-| xAxisReferenceLine: X 軸の定数線 |
-| y1AxisReferenceLine: 定数線 |
-| zoom: ズーム |
+| axis:ゲージの軸 |
+| breakdown:詳細 |
+| bubbles:バブル |
+| calloutValue:吹き出しの値 |
+| card:カード |
+| cardTitle:カード タイトル |
+| categoryAxis:X 軸 |
+| categoryLabels:カテゴリ ラベル |
+| columnFormatting:フィールドの書式 |
+| columnHeaders:列見出し |
+| dataLabels:データ ラベル |
+| fill:塗りつぶし |
+| fillPoint:フィル ポイント |
+| forecast:予測 |
+| general:全般 |
+| goals:目標 |
+| grid:グリッド |
+| header:ヘッダー |
+| imageScaling:スケーリング |
+| indicator:インジケーター |
+| items:項目 |
+| labels:データ ラベル |
+| legend:凡例 |
+| lineStyles:図形 |
+| mapControls:マップの制御 |
+| mapStyles:マップ スタイル |
+| numericInputStyle:数値入力 |
+| percentBarLabel:コンバージョン レート ラベル |
+| plotArea:プロット エリア |
+| plotAreaShading:対称網掛け |
+| ratioLine:比率線 |
+| referenceLine:定数線 |
+| ribbonChart:リボン |
+| rotation:回転 |
+| rowHeaders:行見出し |
+| selection:選択範囲のコントロール |
+| sentimentColors:センチメント カラー |
+| shape:図形 |
+| slider:スライダー |
+| status:色の設定 |
+| subTotals:小計 |
+| target:ターゲット |
+| total:総計 |
+| trend:傾向線 |
+| trendline:トレンド軸 |
+| valueAxis:Y 軸 |
+| values:値 |
+| wordWrap:右端での折り返し |
+| xAxisReferenceLine:X 軸の定数線 |
+| y1AxisReferenceLine:定数線 |
+| zoom:ズーム |
 
 ### <a name="properties-within-each-card"></a>各カード内のプロパティ
 次のセクションでは、各カードに含まれるプロパティを定義します。

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: cd9a68d10e0da0aaa883dae1a3979eff6a6b4ce6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619726"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290730"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop での集計 (プレビュー)
 
@@ -59,10 +59,10 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 
 次のディメンション テーブルは、高いビジネス価値を持つクエリに最もよく使用されるとします。 これらのテーブルは、*一対多* (または*多対一*) リレーションシップを使用して、**Sales Agg** をフィルター処理できます。
 
-* Geography
-* Customer
+* 地理
+* 顧客
 * 日付
-* Product Subcategory (製品サブカテゴリ)
+* 製品サブカテゴリ
 * Product Category (製品カテゴリ)
 
 次の図に、このモデルを示します。
@@ -261,7 +261,7 @@ Hadoop ベースのビッグ データ モデルには、ディメンション �
 
 ![Sales Agg 集計テーブル](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> 注: このモデルでは、**Date** テーブルが詳細テーブルのため、[管理の集計] ダイアログを入力するためには、このテーブルが DirectQuery モードである必要があります。 これは、プレビューの制限で、一般公開では削除される予定です。
+> 注:このモデルでは、**Date** テーブルが詳細テーブルのため、[管理の集計] ダイアログを入力するためには、このテーブルが DirectQuery モードである必要があります。 これは、プレビューの制限で、一般公開では削除される予定です。
 
 ### <a name="query-examples"></a>クエリ例
 

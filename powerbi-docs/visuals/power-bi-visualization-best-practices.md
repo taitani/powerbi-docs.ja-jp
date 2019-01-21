@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77802d2db59ddff94123991e209441b4c491f98b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548605"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296726"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>レポートとビジュアルのデザインに関するベスト プラクティス
 <!-- Shared newnav Include -->
@@ -65,7 +65,7 @@ Power BI レポートの作成と使用に関する詳しいガイダンスと�
 
 ![](media/power-bi-visualization-best-practices/power-bi-example1newa.png)
 
-**図 1:    多くの作業が必要な見づらいレポート ページ**
+**図 1:  多くの作業が必要な見づらいレポート ページ**
 
 上の例には、スペース (レイアウト) に関するデザイン上の問題が多くあります。以下ではそれらについて説明します。
 
@@ -95,19 +95,19 @@ Power BI レポートの作成と使用に関する詳しいガイダンスと�
 
 ![](media/power-bi-visualization-best-practices/power-bi-example2new.png)
 
-**図 2:    見づらいレポートがレイアウトの編集によって改善された例**
+**図 2:  見づらいレポートがレイアウトの編集によって改善された例**
 
 Power BI には、ビジュアルを配置するためのツールが含まれています。 Power BI Desktop では、複数のビジュアルを選択し、**[ビジュアル ツール]** リボン タブの **[配置]/[整列]** オプションを使用して、ビジュアルの位置を揃えることができます。
 
 ![](media/power-bi-visualization-best-practices/power-bi-visualization.png)
 
-**図 3:    Power BI Desktop でビジュアル配置する**
+**図 3:  Power BI Desktop でビジュアル配置する**
 
 Power BI オンラインおよび Power BI Desktop では、すべてのビジュアルの書式設定ウィンドウの **[全般]** タブで、ビジュアルのサイズと位置を正確に制御することもできます。
 
 ![](media/power-bi-visualization-best-practices/power-bi-align-vizs.png)
 
-**図 4:    ビジュアルの正確な位置を設定する**
+**図 4:  ビジュアルの正確な位置を設定する**
 
 レポート ページの例 (図 2) では、2 つのカードと大きい境界線の **[X 方向の位置]** が 200 に設定されています。
 
@@ -121,11 +121,11 @@ Power BI オンラインおよび Power BI Desktop では、すべてのビジ�
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-before.png)
 
-**図 5a:    4:3 のページ サイズにしたレポート**
+**図 5a:  4:3 のページ サイズにしたレポート**
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-after.png)
 
-**図 5b:    16:9 のページ サイズ比率にしたレポート**
+**図 5b:  16:9 のページ サイズ比率にしたレポート**
 
 レポートは、4:3、16:9、またはそれ以外の比率で表示されますか? 小さい画面ですか、大きい画面ですか? それとも、可能なすべての縦横比とサイズの画面に表示されますか?  このことを念頭に置いてデザインします。
 
@@ -133,7 +133,7 @@ Power BI オンラインおよび Power BI Desktop では、すべてのビジ�
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-size.png)
 
-**図 6:    ページの高さを大きくする**
+**図 6:  ページの高さを大きくする**
 
 #### <a name="reduce-clutter"></a>乱雑さを減らす
 乱雑なレポート ページは、ひとめ見て理解するのが困難であり、読者が読む気にならなくなる可能性があります。  必要のないレポート要素をすべて取り除きます。 理解やナビゲーションの役に立たない余計なものを追加しないようにします。 レポートのページでは、可能な限り明確に、すばやく、まとめて、情報を伝達する必要があります。
@@ -146,7 +146,7 @@ Edward Tufte は、『 *The Visual Display of Quantitative Information* 』の�
 
 ![](media/power-bi-visualization-best-practices/power-bi-example3newer.png)
 
-**図 7:    見づらいレポートから乱雑さを取り除いた例**
+**図 7:  見づらいレポートから乱雑さを取り除いた例**
 
 ### <a name="tell-a-story-at-a-glance"></a>ひとめでストーリーが伝わるようにする
 全体的なテストとして、事前に何も知らされていない人が誰からも説明を受けずにレポートをすばやく理解できることを確認する必要があります。 ひとめ見ただけで、読者がページや各グラフ/表の内容をすばやく理解できるようにする必要があります。   
@@ -160,13 +160,13 @@ Power BI サービスの上部メニュー バーから、**[テキスト ボッ
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-boxes.png)
 
-**図 8:    テキスト ボックスを追加する**
+**図 8:  テキスト ボックスを追加する**
 
 空のボックスにテキストを入力し、下部にあるコントロールを使ってフォント フェイス、サイズ、配置などを設定します。 ハンドルを使ってボックスのサイズを変更します。
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-**図 9:    テキスト ボックスの書式を設定する**
+**図 9:  テキスト ボックスの書式を設定する**
 
 ただし、やり過ぎは禁物です。 レポートのテキストが多すぎると、ビジュアルから注意がそれて、ビジュアルの価値が下がります。 レポート ページの理解に大量のテキストが必要であることがわかった場合は、最初からやり直します。  それだけでストーリーをよりよく伝えることができる別のビジュアルを選択できますか? ビジュアルの本来のタイトルを調整してよりわかりやすくできますか?   
 
@@ -178,23 +178,23 @@ Power BI サービスの上部メニュー バーから、**[テキスト ボッ
 
 ![](media/power-bi-visualization-best-practices/shapes.png)
 
-**図 10a:    Power BI サービスの図形**
+**図 10a:  Power BI サービスの図形**
 
 ![](media/power-bi-visualization-best-practices/power-bi-desktop-shapes2new.png)
 
-**図 10b:    Power BI Desktop の図形**
+**図 10b:  Power BI Desktop の図形**
 
 この記事のページの例はどのようになったでしょうか。  図 11 は、テキスト フェイス、フォント、色を統一することで明確になり、乱雑さが減少したページです。  左上隅にあるページ タイトルを見ると、ページの内容がわかります。
 
 ![](media/power-bi-visualization-best-practices/power-bi-example4new.png)
 
-**図 11: テキスト ガイドラインを適用してタイトルを追加したレポート例**
+**図 11:  テキスト ガイドラインを適用してタイトルを追加したレポート例**
 
 この例では、読者が最初に見る場所である左上隅に、レポート ページのタイトルを追加しました。 28 のフォント サイズと Segoe Bold のフォントを使って、ページの他の部分より目立たせています。  この記事のテキスト スタイル ガイドでは、背景を使わず、タイトル、凡例、ラベルを黒にするように要求されており、ページの設定可能なすべてのビジュアルにそれを適用してあります (コンボ グラフの軸とラベルは編集できません)。  さらに、次のように設定しています。
 
-* カード: **[カテゴリ ラベル]** を [オフ]、**[タイトル]** を [オン] にし、黒、12 ポイント、中央揃えに設定してあります。
+* カード:**[カテゴリ ラベル]** を [オフ]、**[タイトル]** を [オン] にし、黒、12 ポイント、中央揃えに設定してあります。
 * ビジュアル タイトル: [オン] で、12 ポイントの左揃えに設定してあります。
-* スライサー: **[ヘッダー]** を [オフ]、**[タイトル]** を [オン] に設定してあります。 **[項目]** > **[テキスト]** はグレーの 10 ポイントのままにしてあります。
+* スライサー:**[ヘッダー]** を [オフ]、**[タイトル]** を [オン] に設定してあります。 **[項目]** > **[テキスト]** はグレーの 10 ポイントのままにしてあります。
 * 散布図および縦棒グラフ: X 軸と Y 軸および X 軸と Y 軸のタイトルのフォントを黒に設定してあります (使う場合)。
 
 #### <a name="color"></a>色
@@ -205,7 +205,7 @@ Power BI サービスの上部メニュー バーから、**[テキスト ボッ
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-background.png)
 
-**図 12: レポートの背景を設定する**
+**図 12:レポートの背景を設定する**
 
 芸術作品ではなく機能を備えたレポートを作成しているのです。 レポートの要素が読みやすく目立つような色を選びます。  
 
@@ -221,7 +221,7 @@ Web ページでの色と視覚化の使用の研究では、色の間のコン�
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-title.png)
 
-**図 13: ページ タイトルを追加する**
+**図 13:ページ タイトルを追加する**
 
 **カード**
 
@@ -233,25 +233,25 @@ Web ページでの色と視覚化の使用の研究では、色の間のコン�
 
 ![](media/power-bi-visualization-best-practices/power-bi-slicer-background.png)
 
-**図 14: スライサーの背景色を変更する**
+**図 14:スライサーの背景色を変更する**
 
 細くて白い境界線を追加します。
 
 ![](media/power-bi-visualization-best-practices/power-bi-slicer-outline.png)
 
-**図 15: スライサーに境界線を追加する**
+**図 15:スライサーに境界線を追加する**
 
 水色の背景に対してグレーのフォントは見づらいので、**[項目]** の色を白に変更します。
 
 ![](media/power-bi-visualization-best-practices/power-bi-slicer-items.png)
 
-**図 16: スライサーのフォントの色を変更する**
+**図 16:スライサーのフォントの色を変更する**
 
 最後に、**[タイトル]** で、**[フォントの色]** を白に変更し、黒の **[背景色]** を追加します。
 
 ![](media/power-bi-visualization-best-practices/power-bi-card-formatting.png)
 
-**図 17: スライサーのタイトルを書式設定する**
+**図 17:スライサーのタイトルを書式設定する**
 
 **四角の図形**
 
@@ -259,7 +259,7 @@ Web ページでの色と視覚化の使用の研究では、色の間のコン�
 
 ![](media/power-bi-visualization-best-practices/power-bi-shape-format.png)
 
-**図 18: 図形の書式を設定する**
+**図 18:図形の書式を設定する**
 
 **縦棒グラフ、バブル チャート、塗り分け地図、ツリー マップ**
 
@@ -267,15 +267,15 @@ Web ページでの色と視覚化の使用の研究では、色の間のコン�
 
 ![](media/power-bi-visualization-best-practices/power-bi-background.png)
 
-**図 19: 残りの視覚化に白の背景を追加する**
+**図 19:残りの視覚化に白の背景を追加する**
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**図 20: 色のベスト プラクティスを適用したレポートの例 (黒い背景)**
+**図 20:色のベスト プラクティスを適用したレポートの例 (黒い背景)**
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5b.png)
 
-**図 21: 色のベスト プラクティスを適用したレポートの例 (白い背景)**
+**図 21:  色のベスト プラクティスを適用したレポートの例 (白い背景)**
  
 
 ### <a name="aesthetics"></a>見栄え
@@ -319,13 +319,13 @@ TDI ブロガーであり TechTarget の業界アナリストである Wayne Eck
 
 ![](media/power-bi-visualization-best-practices/corp-success-distorted.png)
 
-**図 22: 現実が歪曲されているグラフ**
+**図 22:  現実が歪曲されているグラフ**
 
 この例では、4 つの企業の間に大きな差があり、CorpB が他の 3 社より大きく成功しているかのように見えます。  しかし、X 軸が 0 から描かれていず、企業間の差は誤差の範囲内かもしれないことに注意してください。  同じデータを X 軸が 0 から始まるグラフにすると次のようになります。
 
 ![](media/power-bi-visualization-best-practices/corp-success.png)
 
-**図 23: 現実的なグラフ**
+**図 23:  現実的なグラフ**
 
 読者は、普通、X 軸は 0 から始まることを期待し、そう想定します。 0 から始めない場合は、結果を歪曲しないような方法で行い、視覚的な合図またはテキスト ボックスを追加して標準的な方法とは異なることを指摘することを考えます。  
 
@@ -347,11 +347,11 @@ TDI ブロガーであり TechTarget の業界アナリストである Wayne Eck
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-before.png)
 
-**図 24: 修正前**
+**図 24:  修正前**
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-after.png)
 
-**図 25: 修正後**
+**図 25:  修正後**
 
 **軸のタイトルをオンまたはオフにするには**
 
@@ -359,7 +359,7 @@ TDI ブロガーであり TechTarget の業界アナリストである Wayne Eck
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-titles.png)
 
-**図 26: 軸のタイトルをオンまたはオフにする**
+**図 26:  軸のタイトルをオンまたはオフにする**
 
 **軸のラベルをオンまたはオフにするには**
 
@@ -367,7 +367,7 @@ TDI ブロガーであり TechTarget の業界アナリストである Wayne Eck
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-labels.png)
 
-**図27: 軸のラベルをオンまたはオフにする**
+**図 27:軸のラベルをオンまたはオフにする**
 
 > [!TIP]
 > Y 軸のラベルをオフにするシナリオの 1 つは、**[データ ラベル]** をオンにした場合です。
@@ -380,7 +380,7 @@ TDI ブロガーであり TechTarget の業界アナリストである Wayne Eck
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-off.png)
 
-**図 28: ビジュアルからタイトルを削除する**
+**図 28:  ビジュアルからタイトルを削除する**
 
 読者がレポートをどのように表示するかを考えて、ビジュアルとテキストの大きさと色の濃さが読むのに十分であることを確認します。 ページに比率的に大きいビジュアルがある場合、読者はそれが最も重要であると考える可能性があります。 レポートが乱雑および混乱した見た目にならないように、ビジュアルの間の十分なスペースを設けます。  読者の目を誘導するようにビジュアルを配置します。
 
@@ -390,7 +390,7 @@ TDI ブロガーであり TechTarget の業界アナリストである Wayne Eck
 
 ![](media/power-bi-visualization-best-practices/power-bi-drag-handles.png)
 
-**図 29: ビジュアルのサイズを変更する**
+**図 29:ビジュアルのサイズを変更する**
 
 **ビジュアルを移動するには**
 
@@ -398,7 +398,7 @@ TDI ブロガーであり TechTarget の業界アナリストである Wayne Eck
 
 ![](media/power-bi-visualization-best-practices/power-bi-move.png)
 
-**図 30: ビジュアルを移動する**
+**図 30:ビジュアルを移動する**
 
 #### <a name="titles-and-labels-that-are-part-of-the-visualizations"></a>視覚化の一部であるタイトルとラベル
 タイトルとラベルが読みやすく、わかりやすい内容であることを確認します。 タイトルとラベルのテキストは、最適なサイズと、目立つ色 (既定のグレーではなく黒など) にする必要があります。 スタイル ガイドを思い出してください (前記の「テキスト」を参照)。 色とサイズの数を制限します。フォント サイズや色の種類が多すぎると乱雑でわかりにくくなります。  レポート ページのすべてのビジュアルのタイトルには同じサイズと色のフォントを使うことを検討し、レポート ページのすべてのタイトルに同じ配置を選びます。  
@@ -409,13 +409,13 @@ TDI ブロガーであり TechTarget の業界アナリストである Wayne Eck
 
 ![](media/power-bi-visualization-best-practices/power-bi-paintbrush.png)
 
-**図 31: 書式設定ウィンドウを開く**
+**図 31:書式設定ウィンドウを開く**
 
-その後、ビジュアル要素を選び、調整して、[オン] に設定します。 ビジュアル要素の例としては、**X 軸**、**Y 軸**、**タイトル**、**データ ラベル**、**凡例**などがあります。 次に示すのは**タイトル**要素の例です。
+その後、ビジュアル要素を選び、調整して、[オン] に設定します。 ビジュアル要素の例としては継ぎ物があります:**X 軸**、**Y 軸**、**タイトル**、**データ ラベル**、**凡例**。 次に示すのは**タイトル**要素の例です。
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-formatting.png)
 
-**図 32: ビジュアルのタイトルの書式を設定する**
+**図 32:ビジュアルのタイトルの書式を設定する**
 
 **テキストのサイズを設定する**
 
@@ -443,7 +443,7 @@ TDI ブロガーであり TechTarget の業界アナリストである Wayne Eck
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-**図 33: テキスト ボックスで使用するフォントの書式を設定する**
+**図 33:テキスト ボックスで使用するフォントの書式を設定する**
 
 #### <a name="sorting"></a>並べ替え
 すばやく洞察を提供するとても簡単な方法は、ビジュアルの並べ替えを設定することです。 たとえば、横棒グラフを棒の値に基づいて昇順または降順に並べ替えると、余分なスペースを使うことなく、重要な情報を増分的にすばやく示すことができます。
@@ -455,7 +455,7 @@ Power BI の最も魅力的な機能の 1 つは、グラフが相互作用す�
 
 ![](media/power-bi-visualization-best-practices/power-bi-visual-interactions.png)
 
-**図 34: ビジュアル対話**
+**図 34:ビジュアル対話**
 
 次に、ページ上の各ビジュアルについて、選んだビジュアルを使ってフィルター処理を行うか、強調表示を行うか、または何も行わないかを決めます。 強調表示できないビジュアルもあり、そのようなビジュアルの強調表示コントロールは利用できなくなります。 詳しくは、「[Power BI レポートでの視覚化の相互作用](../consumer/end-user-interactions.md)」をご覧ください。
 
@@ -485,13 +485,13 @@ Power BI の最も魅力的な機能の 1 つは、グラフが相互作用す�
 
 ![](media/power-bi-visualization-best-practices/power-bi-data-color.png)
 
-**図 35: 色を使ってストーリーを伝える**
+**図 35:  色を使ってストーリーを伝える**
 
 データ ポイントの色は、書式設定ウィンドウの **[データの色]** タブで変更できます。 各データ ポイントを個別にカスタマイズするには、**[すべて表示]** を [オン] に設定します。
 
 ![](media/power-bi-visualization-best-practices/power-bi-colors.png)
 
-**図 36: データ ポイントの色を設定する**
+**図 36:データ ポイントの色を設定する**
 
 > [!NOTE]
 > Power BI は、既定のテーマをレポートのビジュアルに適用します。  テーマの色は、多様性とコントラストを提供するために選ばれています。 既定のテーマ パレットから変更するには、**[ユーザー設定の色]** を選びます。
@@ -500,19 +500,19 @@ Power BI の最も魅力的な機能の 1 つは、グラフが相互作用す�
 
 ![](media/power-bi-visualization-best-practices/power-bi-custom-color.png)
 
-**図 37: ユーザー設定の色を選ぶ**
+**図 37:ユーザー設定の色を選ぶ**
 
 Power BI Desktop では、2 番目の系列を使って、外れ値または線の一部分を強調表示することもできます。
 
 ![](media/power-bi-visualization-best-practices/power-bi-outliers.png)
 
-**図 38: Desktop を使って外れ値をプロットする**
+**図 38:  Desktop を使って外れ値をプロットする**
 
 ここで、"Outliers" 系列の値は、8 月の平均気温が 60 度より下がった場合にのみ存在します。 これは、次の式を使って DAX 計算列を作成することにより実現しました。
 
 Outliers = if(Editions[Temp]<60, Editions[Temp], BLANK())
 
-この例では、1952 年、1956 年、2000 年の 3 つの外れ値が存在しました。
+この例では、次の 3 つの外れ値が存在しました:1952 年、1956 年、2000 年。
 
 **ラベルとタイトルの色**
 
@@ -524,13 +524,13 @@ Outliers = if(Editions[Temp]<60, Editions[Temp], BLANK())
 
 ![](media/power-bi-visualization-best-practices/power-bi-bubble-color.png)
 
-**図 39: 既定の色の適用**
+**図 39:既定の色の適用**
 
 Power BI で使われる既定の色は、カテゴリ別の値を区別しやすい色分けになるように選択されています。 企業固有の方式などと一致するように色を変更することがありますが、問題になる可能性があります。
 
 ![](media/power-bi-visualization-best-practices/power-bi-bubble-color2.png)
 
-**図 40: 1 つの色の異なる色合いとして適用された色**
+**図 40:1 つの色の異なる色合いとして適用された色**
 
 色を単一にして色の濃さで変化を付けようとすることにより、このビジュアルは、カテゴリ間に順序があるように誤って認識される可能性があります。 暗いバブルは明るいバブルより何段階か高いまたは低いことを暗示します。 通常、この種のカテゴリ別の値には、アルファベット順以外に本質的な順序はありません。
 既定の色を変更するには、書式設定ウィンドウを開き、**[データの色]** を選びます。
@@ -541,39 +541,39 @@ Power BI で使われる既定の色は、カテゴリ別の値を区別しや�
 
 ![](media/power-bi-visualization-best-practices/power-bi-saturation.png)
 
-**図 41: 値によってデータ ポイントに色を付ける**
+**図 41:値によってデータ ポイントに色を付ける**
 
 このグラフを作成するには、[色の彩度] フィールドに値を追加し、書式設定ウィンドウで色を調整します。
 
 ![](media/power-bi-visualization-best-practices/power-bi-saturation2.png)
 
-**図 42: [色の彩度] フィールドを追加する**
+**図 42:[色の彩度] フィールドを追加する**
 
 ![](media/power-bi-visualization-best-practices/power-bi-color-controls.png)
 
-**図 43: 彩度に使われる色を調整する**
+**図 43:彩度に使われる色を調整する**
 
 色は、中央値からの差異を強調するためにも使用できます。 たとえば、正の値は緑にし、負の値は赤にするといった場合です。 正または負の値に色を割り当てるときは、文化の違いに注意してください。すべての文化で、赤は不良、緑は良を意味しているわけではありません。
 
 ![](media/power-bi-visualization-best-practices/power-bi-color.png)
 
-**図 44: 色を使って中央値からの差異を強調する**
+**図 44:  色を使って中央値からの差異を強調する**
  
 
 ### <a name="principles-of-visual-design--applied-to-example-report-page"></a>ビジュアル デザインの原則 – レポート ページの例への適用
 これまで説明してきたビジュアルの原則を、サンプルのレポートに適用してみましょう。
 
-適用前
+より前
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**図 45: レポートの例 (適用前)**
+**図 45:  レポートの例 (適用前)**
 
-適用後
+後
 
 ![](media/power-bi-visualization-best-practices/power-bi-example6anew.png)
 
-**図 46: レポートの例 (適用後)**
+**図 46:レポートの例 (適用後)**
 
 #### <a name="what-did-we-do"></a>変更内容
 1. スライサー: ページ レベルのフィルターを追加し、金、銀、銅のみを選ぶことで、スライサーからブランクを削除しました。 **[単一選択]** と **[すべて選択]** の **[選択範囲のコントロール]** を [オフ] に変更しました。
@@ -595,7 +595,7 @@ Power BI では、多くのビジュアルの種類が既定で提供されて�
 
 ![](media/power-bi-visualization-best-practices/power-bi-line-chart.png)
 
-**図 47: 折れ線グラフ**
+**図 47:  折れ線グラフ**
 
 #### <a name="best-practices"></a>ベスト プラクティス
 * 折れ線グラフで最初に目がいくのは、曲線の形状です。  つまり、時間カテゴリや分布カテゴリなど、曲線が意味のあるものになるように X 軸を選ぶ必要があります。  製品や地理のようなカテゴリ別フィールドを X 軸にすると、曲線の形状が意味のある情報を提供しないので、折れ線グラフは興味を引くものになりません。
@@ -604,7 +604,7 @@ Power BI では、多くのビジュアルの種類が既定で提供されて�
   
   ![](media/power-bi-visualization-best-practices/power-bi-start-end.png)
   
-  **図 48: 始点と終点を設定する**
+  **図 48:始点と終点を設定する**
 * 始点と終点を明示的に設定する理由としてもう 1 つあるのは、同じ Y 軸フィールドを使って、同じページで複数のグラフを比較する場合です。  たとえば、累積的な種目の数を見る場合、イギリスは 1 ～ 70 の範囲で、オーストラリアは1 ～ 12 の範囲なので、2 つの折れ線グラフの Y 軸の範囲は大きく異なります (図 49)。 ひとめで比較するのは困難です。 代わりに、同じ Y 軸の範囲を使うようにグラフを設定します (図 50)。
   
   ![](media/power-bi-visualization-best-practices/power-bi-line-chart2.png)
@@ -628,14 +628,14 @@ Power BI では、多くのビジュアルの種類が既定で提供されて�
 
 ![](media/power-bi-visualization-best-practices/power-bi-horizontal-scroll.png)
 
-**図 51: 横棒グラフ**
+**図 51:横棒グラフ**
 
 #### <a name="best-practices"></a>ベスト プラクティス
 * 値のデータ ラベルを表示します。  これにより、特定の値を識別しやすくなります。 これを行うには、書式設定ウィンドウを開き、**[データ ラベル]** を [オン] に設定します。
   
   ![](media/power-bi-visualization-best-practices/power-bi-data-labels.png)
   
-  **図 52: データ ラベルを有効にする**
+  **図 52:データ ラベルを有効にする**
 * 上のような横棒グラフは、**特定の一時点において** 1 つのメジャーを多くのメジャーと比較するのにとても役立ちます。  折れ線グラフが時間経過によるトレンドを示したのに対し、横棒グラフは特定時点での 1 つのカテゴリのトレンドを示します。  横棒グラフを見ると、ひとめで、スペインは失業率 (25%) が世界で最悪の国の 1 つであることがわかります。
 * 横棒/縦棒グラフ全体が割り当てられたスペースに収まらない場合は、自動的にスクロール バーが追加されます。 可能であり、意味がある場合は、読者が分布の全体像を理解できるよう、グラフ全体が表示されるようにビジュアルとレポートを構成します。  上の例では、世界中の国の数が多いためこれは不可能です。
   
@@ -644,13 +644,13 @@ Power BI では、多くのビジュアルの種類が既定で提供されて�
   
   ![](media/power-bi-visualization-best-practices/power-bi-drill.png)
   
-  **図 53: ドリルダウン**
+  **図 53:ドリルダウン**
 
 横棒グラフと縦棒グラフの詳細については以下を参照してください。
 
 * [横棒グラフ 101](http://blog.newscred.com/article/data-visualization-101-bar-charts)
-* [データ視覚化カタログ: 横棒グラフ](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
-* [データ視覚化カタログ: 複数セット横棒グラフ](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
+* [データ視覚化カタログ:横棒グラフ](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
+* [データ視覚化カタログ:複数セット横棒グラフ](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 
 ### <a name="stacked-barcolumn-charts"></a>積み上げ横棒/縦棒グラフ
 ![](media/power-bi-visualization-best-practices/power-bi-stacked.png)
@@ -659,13 +659,13 @@ Power BI では、多くのビジュアルの種類が既定で提供されて�
 
 ![](media/power-bi-visualization-best-practices/power-bi-deloite.png)
 
-**図 54: 積み上げ縦棒グラフ**
+**図 54:積み上げ縦棒グラフ**
 
 この積み上げ縦棒グラフでは、収益合計が時間の経過と共に増加していること、そしてコマーシャルと放送のカテゴリが着実に増加して、全体的な収益増加に寄与していることが示されています。  しかし、このグラフでは、3 つのカテゴリのそれぞれが相互に与える影響を簡単に比較できません。 たとえば、コマーシャルの成長と放送または試合日の成長を比較するにはどうすればよいでしすか?  このようなデータに対するさらに良い選択としては、折れ線グラフをこのデータに付随するビジュアルとして使用します。  
 
 ![](media/power-bi-visualization-best-practices/power-bi-deloite2.png)
 
-**図 55: 折れ線グラフに変換する**
+**図 55:折れ線グラフに変換する**
 
 この折れ線グラフを見ると、成長の大きさはコマーシャル、放送、試合日の順であることがわかります。
 
@@ -678,17 +678,17 @@ Power BI では、多くのビジュアルの種類が既定で提供されて�
   
   ![](media/power-bi-visualization-best-practices/power-bi-deloite3.png)
   
-  **図 56: 積み上げ横棒グラフ**
+  **図 56:積み上げ横棒グラフ**
 
 積み上げグラフの詳細については、以下をご覧ください。
 
-* [データ視覚化カタログ: 積み上げ横棒グラフ](http://www.datavizcatalogue.com/methods/stacked_bar_graph.html#top)
+* [データ視覚化カタログ:積み上げ横棒グラフ](http://www.datavizcatalogue.com/methods/stacked_bar_graph.html#top)
 * [100% 積み上げ横棒グラフが役に立つ場合](http://www.perceptualedge.com/blog/?p=2239)
 
 ### <a name="combo-barcolumn-charts"></a>横棒/縦棒複合グラフ
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-Power BI では、縦棒グラフと折れ線グラフを複合グラフに組み合わせることができます。 選択肢は、[折れ線グラフおよび積み上げ縦棒グラフ] と [折れ線グラフおよび集合縦棒グラフ] です。 2 つの異なるビジュアルを 1 つに組み合わせることにより、キャンバスの貴重なスペースを節約できます。
+Power BI では、縦棒グラフと折れ線グラフを複合グラフに組み合わせることができます。 次の選択肢があります。[折れ線グラフおよび積み上げ縦棒グラフ]、[折れ線グラフおよび集合縦棒グラフ]。 2 つの異なるビジュアルを 1 つに組み合わせることにより、キャンバスの貴重なスペースを節約できます。
 
 次の 2 つのスクリーンショットは、組み合わせる前と後を示したものです。  最初のページには、ある期間の人口を示す縦棒グラフと、同じ期間の GDP を示す折れ線グラフが、2 つの異なるビジュアルとして含まれます。 これらのグラフは、X 軸 (年) と値 (2002 年から 2012 年まで) が同じなので、複合グラフにするのに適した候補です。  2 つの傾向を 1 つのビジュアルにまとめることで、  データの比較をよりすばやく行うことができます。
 
@@ -696,11 +696,11 @@ Power BI では、縦棒グラフと折れ線グラフを複合グラフに組�
 
 ![](media/power-bi-visualization-best-practices/power-bi-spain-line.png)
 
- **図 57: 2 つの異なるグラフの場合**
+ **図 57:2 つの異なるグラフの場合**
 
 ![](media/power-bi-visualization-best-practices/power-bi-spain-combo.png)
 
- **図 58: 1 つの複合グラフの場合**
+ **図 58:1 つの複合グラフの場合**
 
 #### <a name="best-practices"></a>ベスト プラクティス
 複合グラフは、両方のビジュアルの少なくとも 1 つの軸が共通である場合に最適です。
@@ -709,7 +709,7 @@ Power BI では、縦棒グラフと折れ線グラフを複合グラフに組�
 
    ![](media/power-bi-visualization-best-practices/power-bi-dual-line.png)
 
-   **図 59: 失敗した折れ線グラフ**
+   **図 59:失敗した折れ線グラフ**
 
 同じように、縦棒グラフと折れ線グラフが異なるメジャーを使っていて、共通の軸を作成していない場合、意味のある複合グラフにはできません。  たとえば、ドルと % のような場合です。 読者がグラフを理解するのに役立つように、両方の軸と軸ラベルを設定します。
 
@@ -717,11 +717,11 @@ Power BI では、縦棒グラフと折れ線グラフを複合グラフに組�
 
 ![](media/power-bi-visualization-best-practices/power-bi-show-secondary-new.png)
 
-**図 60: セカンダリ軸を表示する**
+**図 60:セカンダリ軸を表示する**
 
 ![](media/power-bi-visualization-best-practices/power-bi-combo-chart.png)
 
-**図 61: 代わりに複合グラフを作成する**
+**図 61:代わりに複合グラフを作成する**
 
 * 二重軸を活用してください。 値の範囲が異なる複数のメジャーを比較する場合に優れた手段です。 また、2 つのメジャーの間の相関関係を 1 つのビジュアルで示す場合にも適しています。
 
@@ -741,7 +741,7 @@ Power BI では、縦棒グラフと折れ線グラフを複合グラフに組�
 
 ![](media/power-bi-visualization-best-practices/power-bi-bubble.png)
 
-**図 62: バブル チャートで表した南アメリカの GDP と人口**
+**図 62:バブル チャートで表した南アメリカの GDP と人口**
 
 再生軸を追加すれば、Hans Rosling のように時間経過のあるストーリーを伝えることができます (https://www.youtube.com/watch?v=PbaDBJWCeD4))。 再生軸を追加するには、日時フィールドを **[再生軸]** にドラッグします。
 
@@ -766,18 +766,18 @@ Power BI では、縦棒グラフと折れ線グラフを複合グラフに組�
 
 ![](media/power-bi-visualization-best-practices/power-bi-treemap3.png)
 
-**図 63: ツリー マップを使用した南アメリカの GDP の比較**
+**図 63:ツリー マップを使用した南アメリカの GDP の比較**
 
 ここで別のデータ レベルとして地域を追加すると、地域別の GDP に対する全体的な寄与と共に、地域内での相対的な影響を確認できます。 累積的ではないメジャー (平均など) でこれを行うと、詳細の合計が集計レベルの実際の値を表さない可能性があることに注意してください。
 
 ![](media/power-bi-visualization-best-practices/power-bi-treemap2.png)
 
-**図 64: ツリー マップを使用した地域別および国別の GDP**
+**図 64:ツリー マップを使用した地域別および国別の GDP**
 
 ツリー マップの詳細については、以下をご覧ください。
 
 * [ツリー マップの概要](http://www.perceptualedge.com/articles/b-eye/treemaps.pdf)
-* [データ視覚化カタログ: ツリー マップ](http://www.datavizcatalogue.com/methods/treemap.html#.VYhylI3bL7Y)
+* [データ視覚化カタログ:ツリー マップ](http://www.datavizcatalogue.com/methods/treemap.html#.VYhylI3bL7Y)
 
 ### <a name="other-charts"></a>その他のグラフ
 #### <a name="pie-or-donut-charts"></a>円グラフまたはドーナツ グラフ
@@ -809,7 +809,7 @@ KPI では、値、ステータス、目標、目標との差、トレンドが�
 ここで説明したベスト プラクティスを、自分でテストしてみてください。  そして、あなた自身のベスト プラクティスを教えてください。 推奨事項にとらわれず、"ルールを破る" ために適した理由を見つけてください。  これらについての意見もお待ちしています。  
 
 ### <a name="book-recommendations"></a>推薦図書
-ビジュアル デザインの技法を習得するための優れた書籍が多数あります。 Stephen Few の本『 *Information Dashboard Design* 』は必読です。 彼の他の 2 冊の本『 *Show Me the Numbers* 』と『 *Now You See It* 』ではさらに詳しく解説されています。 Few 等が影響を受けた Edward R. Tufte の本『 *The Visual Display of Quantitative Information* 』はこの分野のクラシックと考えられます。 Tufte は、『 *Visual Explanations* 』、『*Envisioning Information* 』、『 *Beautiful Evidence* 』も書いています。 Andy Kirk の新しい本『*Data Visualization: A Handbook for Data Driven Design* 』も優れた内容です。 他には、Lachlan James、William McKnight、Boris Evelson (Forrester)、Darkhorse Analytics などの著作がお勧めです。
+ビジュアル デザインの技法を習得するための優れた書籍が多数あります。 Stephen Few の本『 *Information Dashboard Design* 』は必読です。 彼の他の 2 冊の本『 *Show Me the Numbers* 』と『 *Now You See It* 』ではさらに詳しく解説されています。 Few 等が影響を受けた Edward R. Tufte の本『 *The Visual Display of Quantitative Information* 』はこの分野のクラシックと考えられます。 Tufte は、『 *Visual Explanations* 』、『*Envisioning Information* 』、『 *Beautiful Evidence* 』も書いています。 Andy Kirk の新しい本『*Data Visualization:A Handbook for Data Driven Design*』も優れた内容です。 他には次の著者がお勧めです:Lachlan James、William McKnight、Boris Evelson (Forrester)、Darkhorse Analytics。
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

@@ -1,23 +1,23 @@
 ---
-title: '人事のサンプル: 使ってみる'
-description: 'Power BI の人事のサンプル: 使ってみる'
+title: '人事のサンプル: ツアーを開始する'
+description: Power BI の人事のサンプル:ツアーを開始する
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c0f1df47501c297e65e7dc3ccdb8d745c84b2e55
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 1670fffd33e741962db5e7312f2a27273151980d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717874"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293942"
 ---
-# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI の人事のサンプル: 使ってみる
+# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI の人事のサンプル:ツアーを開始する
 
 ## <a name="overview-of-the-human-resources-sample"></a>人事のサンプルの概要
 業界や規模が違っても、人事部が使用するレポート モデルはどの企業でも変わりがありません。 このサンプルでは、新規採用者、在職者、退職者を調査して、採用戦略の傾向を明らかにすることを試みます。 主な目的は次を理解することです。
@@ -141,5 +141,5 @@ ms.locfileid: "51717874"
 
 これは、試してみるのに安全な環境です。 変更内容を保存しないようにいつでも選択できます。 保存すると、いつでもこのサンプルの新しいコピーの **[データの取得]** に進むことができます。
 
-## <a name="next-steps-connect-to-your-data"></a>次の手順: データへの接続
+## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
 この記事から、Power BI ダッシュボード、Q&A、レポートから人事データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータを接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、「[Power BI の概要](service-get-started.md)」をご覧ください。  

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
 ms.author: maghan
-ms.openlocfilehash: 36f9665f0e42ee62e5a1a4a7584a2492bea276b0
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37597914"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288936"
 ---
 # <a name="custom-layouts"></a>カスタム レイアウト
 
@@ -64,9 +64,9 @@ enum DisplayOption {
 }
 ```
 
-- `pageSize`: キャンバス領域のサイズ (つまり、レポートの空白領域) を制御するには、ページ サイズを使います。
-- `displayOptions`: 使用できる値は、FitToWidth、FitToPage、ActualSize です。 iframe に収まるようにキャンバスを拡大縮小する方法を制御します。
-- `pagesLayout`: 各ビジュアルのレイアウトを制御します。 詳しくは、「ページ レイアウト」をご覧ください。
+- `pageSize`:キャンバス領域のサイズ (つまり、レポートの空白領域) を制御するには、ページ サイズを使います。
+- `displayOptions`:使用できる値は次のとおりです:FitToWidth、FitToPage、ActualSize。 iframe に収まるようにキャンバスを拡大縮小する方法を制御します。
+- `pagesLayout`:各ビジュアルのレイアウトを制御します。 詳しくは、「ページ レイアウト」をご覧ください。
 
 ## <a name="pages-layout"></a>ページ レイアウト
 
@@ -111,9 +111,9 @@ enum VisualContainerDisplayMode {
 }
 ```
 
-- `x,y,z`: ビジュアルの新しい位置を定義します。
-- `width`、height: ビジュアルの新しいサイズを定義します。
-- `displayState`: ビジュアルを表示するかどうかを定義します。
+- `x,y,z`:ビジュアルの新しい位置を定義します。
+- `width`、height:ビジュアルの新しいサイズを定義します。
+- `displayState`:ビジュアルを表示するかどうかを定義します。
 
 
 ## <a name="update-layout"></a>レイアウトの更新

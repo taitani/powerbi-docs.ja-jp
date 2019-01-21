@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: a5762964b75d73d8dabceac58c47f616753b94cc
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 31a7221d3b284e6342b192384f92616a52e12631
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830185"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280256"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>データセットをインポートすることで Power BI サービス内で新しいレポートを作成する
 [Power BI のレポート](consumer/end-user-reports.md)を読んで、次は自分のレポートを作成しようと思われるでしょう。 レポートを作成するには、さまざまな方法があります。この記事ではまず、Power BI サービスを使用して Excel データセットからごく基本的なレポートを作成します。 レポート作成の基本を理解した後、その下にある「**次の手順**」で、より高度なレポートに関するトピックを示します。  
@@ -46,7 +46,7 @@ ms.locfileid: "52830185"
    
    ![レポート エディター](media/service-report-create-new/power-bi-blank-report.png)
 
-> **ヒント**: レポート編集キャンバスに慣れていない場合や、使い方を思い出す必要がある場合は、作業を進める前に[レポート エディターのツアー](service-the-report-editor-take-a-tour.md)を実行してください。
+> **ヒント**:レポート編集キャンバスに慣れていない場合や、使い方を思い出す必要がある場合は、作業を進める前に[レポート エディターのツアー](service-the-report-editor-take-a-tour.md)を実行してください。
 > 
 > 
 

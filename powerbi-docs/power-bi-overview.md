@@ -4,17 +4,17 @@ description: Power BI の概要と、さまざまなパーツ (Power BI Desktop�
 author: davidiseminger
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: overview
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 357af2f995fc927e7b55283c762e5f4b52376444
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: bc712b892cd35259bc036f41b6e3e16a5388ffad
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619588"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293073"
 ---
 # <a name="what-is-power-bi"></a>Power BI とは?
 **Power BI** はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型洞察を得ることができます。 シンプルな Excel スプレッドシートのデータでも、クラウド ベースとオンプレミス ハイブリッド データ ウェアハウスのコレクションのデータでも、**Power BI** は、そのデータ ソースに簡単に接続し、重要事項を視覚化 (検出) して、それを必要に応じて他のユーザーと共有することができます。
@@ -64,4 +64,4 @@ Power BI Report Server は、ファイアウォールの背後に展開するソ
 
 ## <a name="next-steps"></a>次の手順
 [サインインし、データを取得し、Power BI サービスについて学習する](service-the-new-power-bi-experience.md)   
-[チュートリアル: Power BI サービスの概要](service-get-started.md)
+[チュートリアル:Power BI サービスの概要](service-get-started.md)

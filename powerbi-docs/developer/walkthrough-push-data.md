@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974186"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278495"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
 
@@ -24,11 +24,11 @@ Power BI API を使うと、Power BI データセットにデータをプッシ�
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>データセットにデータをプッシュする手順
 
-* 手順 1: [アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)
-* 手順 2: [認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)
-* 手順 3: [Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)
-* 手順 4: [Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)
-* 手順 5: [Power BI テーブルに行を追加する](walkthrough-push-data-add-rows.md)
+* 手順 1:[アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)
+* 手順 2:[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)
+* 手順 3:[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)
+* 手順 4:[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)
+* 手順 5:[Power BI テーブルに行を追加する](walkthrough-push-data-add-rows.md)
 
 次のセクションでは、データをプッシュする Power BI API 操作の概要を説明します。
 
@@ -59,7 +59,7 @@ Power BI でデータセットを作成するには、Power BI サービスに J
         ]
     }
 
-したがって、Sales Marketing データセットの例では、以下のような JSON 文字列を渡すことになります。 この例では **SalesMarketing** がデータセットの名前、 **Product** がテーブルの名前です。 テーブルを定義した後は、テーブル スキーマを定義します。 **SalesMarketing** データセットの場合、テーブル スキーマには、ProductID、Manufacturer、Category、Segment、Product、IsCompete の列が含まれています。
+したがって、Sales Marketing データセットの例では、以下のような JSON 文字列を渡すことになります。 この例では **SalesMarketing** がデータセットの名前、 **Product** がテーブルの名前です。 テーブルを定義した後は、テーブル スキーマを定義します。 **SalesMarketing** データセットの場合、テーブル スキーマには次の列が含まれています:ProductID、Manufacturer、Category、Segment、Product、IsCompete。
 
 **データセット オブジェクト JSON の例**
 
@@ -112,7 +112,7 @@ Power BI のテーブル スキーマでは、次のデータ型を使うこと�
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI へのデータのプッシュに関する詳細
 
-データセットへのデータのプッシュを始める方法については、左側のナビゲーション ウィンドウにある「[手順 1: アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)」をご覧ください。
+データセットへのデータのプッシュを始める方法については、「[手順 1:アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)」 (左側のナビゲーション ウィンドウ) をご覧ください。
 
 [次の手順 >](walkthrough-push-data-register-app-with-azure-ad.md)
 

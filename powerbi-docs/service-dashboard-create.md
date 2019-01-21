@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717426"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294271"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
 [Power BI のダッシュボード](service-dashboards.md)を読んで、次は自分のダッシュボードを作成しようと思われるでしょう。 ダッシュボードを作成するには、レポートから、何もない状態から、データセットから、既存のダッシュボードを複製して、それ以外の方法など、さまざまな方法があります。  
@@ -25,13 +25,13 @@ ms.locfileid: "51717426"
 ## <a name="who-can-create-a-dashboard"></a>ダッシュボードを作成できるユーザー
 ダッシュボードの作成は**作成者**の機能であり、レポートに対する編集のアクセス許可が必要です。 編集のアクセス許可はレポート作成者と、作成者からアクセス許可を付与された同僚が使用できます。 たとえば、David が WorkspaceABC でレポートを作成し、そのワークスペースのメンバーとしてユーザーを追加した場合、David とそのユーザーの両方に編集のアクセス許可があることになります。 これに対して、直接または [Power BI アプリ](service-create-distribute-apps.md)の一部としてレポートが共有されている場合 (ユーザーはレポートを**使用**します)、ダッシュボードにタイルをピン留めすることはできません。
 
-> **注**: ダッシュボードは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードを作成することはできませんが、[表示して共有する](consumer/mobile/mobile-apps-view-dashboard.md)ことはできます。
+> **注**:ダッシュボードは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードを作成することはできませんが、[表示して共有する](consumer/mobile/mobile-apps-view-dashboard.md)ことはできます。
 >
 > 
 
 ![ダッシュボード](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
-## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>ビデオ: レポートからビジュアルとイメージをピン留めすることでダッシュボードを作成する
+## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>ビデオ:レポートからビジュアルとイメージをピン留めすることでダッシュボードを作成する
 レポートからの視覚化をピン留めして、新しいダッシュボードを作成する手順をご覧ください。 その後は、ビデオで説明されている手順に従い、調達の分析のサンプルを使ってご自身でお試しください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
@@ -65,7 +65,7 @@ Power BI サンプル データセットの 1 つをインポートし、それ�
 1. 同じワークスペースにとどまった状態で、**[レポート]** タブを選択します。新しくインポートしたレポートが、黄色のアスタリスク付きで表示されます。 レポート名を選択してレポートを開きます。
 
     ![レポート タブ](media/service-dashboard-create/power-bi-reports.png)
-2. 読み取りビューでレポートが開きます。 下部に 2 つのタブがあります。割引分析と支出概要です。 各タブはレポートのページを表します。
+2. 読み取りビューでレポートが開きます。 下部に 2 つのタブがあります。"割引分析" と "支出概要" です。 各タブはレポートのページを表します。
     **[レポートの編集]** を選んで、編集ビューでレポートを開きます。
 
     ![読み取りビューのレポート](media/service-dashboard-create/power-bi-reading-view.png)

@@ -4,26 +4,26 @@ description: Power BI Q&A を使ってダッシュボードとレポートに新
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c139d5561a19dab147610914bc11e1bfd9e9e481
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830012"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277367"
 ---
-# <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>チュートリアル: Q&A を使用して視覚エフェクトおよびレポートを作成する方法
+# <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>チュートリアル:Q&A を使用して視覚エフェクトおよびレポートを作成する方法
 [Q&A の概要](consumer/end-user-q-and-a.md)に関する記事では、Power BI Q&A について紹介し、"*利用者*" (ダッシュボードとレポートの共有を受けているユーザー) と "*作成者*" (基になるレポートとデータセットを所有しているユーザー) の違いを説明しました。 このチュートリアルの前半は、主に Power BI サービスを使ってダッシュボードを利用するユーザー向けに書かれています。 後半は、Power BI サービスまたは Power BI Desktop を使ってレポートを作成するユーザーを対象にしています。 [Q&A と Power BI モバイル](consumer/mobile/mobile-apps-ios-qna.md)および [Q&A と Power BI Embedded](developer/qanda.md) については、別の記事で説明します。
 
 Q&A は対話型で楽しく、視覚化によってさらに調べるべき点が見つかるため、たいていは 1 つの質問が多数の他の質問につながります。 Q&A を使って視覚エフェクトを作成し、それを詳しく調べて、ダッシュボードに表示する、Amanda のデモンストレーションをご覧ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qMf7OLJfCz8?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-## <a name="part-1-use-qa-on-a-dashboard-in-power-bi-service-apppowerbicom"></a>パート 1: Power BI サービス (app.powerbi.com) のダッシュボードで Q&A を使う
+## <a name="part-1-use-qa-on-a-dashboard-in-power-bi-service-apppowerbicom"></a>パート 1:Power BI サービス (app.powerbi.com) のダッシュボードで Q&A を使う
 ダッシュボードには 1 つ以上のデータセットからピン留めされたタイルが含まれているので、いずれかのデータセットに含まれるいずれかのデータに関して質問することができます。 ダッシュボードの作成に使われたレポートとデータセットを見るには、メニュー バーの **[関連の表示]** を選びます。
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
@@ -58,7 +58,7 @@ Q&A は対話型で楽しく、視覚化によってさらに調べるべき点�
 
    ![](media/power-bi-tutorial-q-and-a/pbi_qna_finish-typing-question.jpg)
 
-##    <a name="part-2-use-qa-in-a-report-in-power-bi-service-or-power-bi-desktop"></a>パート 2: Power BI サービスおよび Power BI Desktop のレポートで Q&A を使う
+##    <a name="part-2-use-qa-in-a-report-in-power-bi-service-or-power-bi-desktop"></a>パート 2:Power BI サービスおよび Power BI Desktop のレポートで Q&A を使う
 
 Q&A を使ってデータセットを探索し、レポートとダッシュボードに視覚エフェクトを追加します。 レポートは単一のデータセットに基づいており、完全に空白にすることも、ページいっぱいに視覚エフェクトを表示することもできます。 ただし、レポートが空白でも探索するデータが何もないということではありません。データセットはレポートにリンクされており、ユーザーが探索を行って視覚エフェクトを作成するのを待っているのです。  レポートの作成に使われているデータセットを確認するには、Power BI サービスの読み取りビューでレポートを開き、メニュー バーから **[関連の表示]** を選びます。
 
@@ -104,7 +104,7 @@ Q&A では、データ自身に語らせるだけでなく、Power BI に回答�
 
 ## <a name="next-steps"></a>次の手順
 「[Power BI での Q&A](consumer/end-user-q-and-a.md) 」に戻る  
-[チュートリアル: 小売りの分析のサンプルで Q&A を使う](power-bi-visualization-introduction-to-q-and-a.md)   
+[チュートリアル:小売りの分析のサンプルで Q&A を使う](power-bi-visualization-introduction-to-q-and-a.md)   
 [Q&A で質問するためのヒント](consumer/end-user-q-and-a-tips.md)   
 [Q&A のためのブックの準備](service-prepare-data-for-q-and-a.md)  
 [Q&A 用にオンプレミスのデータセットを準備する](service-q-and-a-direct-query.md)

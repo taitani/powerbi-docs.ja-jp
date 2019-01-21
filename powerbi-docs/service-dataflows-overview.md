@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 83961f3ad469a4a7a76ceb6e1e4dba846a6edb04
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072223"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287638"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI でのセルフサービスのデータ準備 (プレビュー)
 
@@ -92,7 +92,7 @@ Azure Data Lake Storage Gen2 とデータフローの統合の詳細について
 |データフローでリンクされたエンティティ| |        +|
 |Common Data Model の標準化されたスキーマ/組み込みのサポート|  +|  +|
 
-Premium 容量でデータフロー ワークロードを有効にする方法について詳しくは、Power BI Premium 向けの[ワークロードの構成](service-admin-premium-manage.md#configure-workloads)に関する記事をご覧ください。
+Premium 容量でデータフロー ワークロードを有効にする方法について詳しくは、Power BI Premium 向けの[ワークロードの構成](service-admin-premium-manage.md#configure-workloads)に関する記事をご覧ください。 現在、データフロー ワークロードは Muti-Geo 容量では使用できません。
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI でのビッグ データ用のセルフサービス データ準備の概要
 この記事で既に説明したように、**データフロー**によりビジネス データの制御が向上して分析情報の取得が速くなる複数のシナリオと例があります。 Common Data Model によって定義されている標準データ モデル (スキーマ) を使用すると、データフローで貴重なビジネス データをインポートし、これまでは数か月以上もかかっていた BI 分析情報のモデリングと作成のためのデータの準備を、非常に短い期間で行うことができます。 

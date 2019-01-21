@@ -1,20 +1,20 @@
 ---
 title: "\"Android System Webview の更新が必要である\" を修正する - Power BI"
 description: Android モバイル アプリにサインインするとき、Android System Webview の更新が必要であるというメッセージが表示されることがあります。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: cf976e87acd2d131b99322446ff80a4e376d0985
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 53d0deaf68c2c0fde4f5243394914a44b9c59feb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736772"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274929"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>"Android System Webview の更新が必要である" を修正する
 Microsoft Power BI 用 Android モバイル アプリにサインインするとき、Android System Webview の更新が必要であるというメッセージが表示されることがあります。 
@@ -23,7 +23,7 @@ Google Play Store にアクセスして Android System Webview を更新した�
 
 Android デバイスが Android 7 以降を実行している場合、Android System Webview の更新を求めるメッセージが再び表示されることがあります。 
 
-## <a name="solution-upgrade-your-version-of-the-chrome-app"></a>解決方法: Chrome アプリのバージョンをアップグレードします
+## <a name="solution-upgrade-your-version-of-the-chrome-app"></a>解決方法:Chrome アプリのバージョンをアップグレードします
 実際には、Chrome アプリのアップグレードが必要であることがわかっています。 
 
 * Google Play Store に戻り、Chrome を検索して、アップグレードを入手します。

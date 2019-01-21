@@ -4,17 +4,17 @@ description: ここでは、アプリケーション内に Power BI コンテン
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.openlocfilehash: 901c087c486598019e905598ee83382664842cc8
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578775"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284175"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI の埋め込みコンテンツで行レベルのセキュリティを使用する
 
@@ -48,13 +48,13 @@ RLS は Power BI Desktop で作成します。 データセットとレポート
 このスキーマについては注意することがいくつかあります。
 
 * **Total Sales** などのすべてのメジャーは、**Sales** ファクト テーブルに格納されます。
-* 他に **Item**、**Time**、**Store**、**District** の 4 つの関連ディメンション テーブルがあります。
+* 他に次の 4 つの関連ディメンション テーブルがあります:**Item**、**Time**、**Store**、**District**。
 * リレーションシップの線の矢印は、テーブル間でフィルターが適用される方向を示します。 たとえば、現在のスキーマの **Time[Date]** にフィルターを設定すると、**Sales** テーブルの値だけにフィルターが適用されます。 リレーションシップを示す線のすべての矢印は Sales テーブルを向いており、逆向きはないので、このフィルターによって他のテーブルは影響を受けません。
 * **District** テーブルは、各地域のマネージャーを示します。
   
     ![District テーブル内の行](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-このスキーマを基にすると、**District** テーブルの **District Manager** 列にフィルターを適用し、そのフィルターがレポートを表示しているユーザーと一致した場合、そのフィルターはさらに **Store** と **Sales** テーブルに適用されて、その地域のマネージャーのデータだけが表示されます。
+このスキーマを基にすると、**District** テーブルの **District Manager** 列にフィルターを適用し、そのフィルターがレポートを表示しているユーザーと一致した場合、そのフィルターはさらに **Store** と **Sales** テーブルに適用されて、その地域のマネージャーのデータが表示されます。
 
 次にその方法を示します。
 
@@ -239,6 +239,75 @@ Power BI Embedded アプリケーションで CustomData() 機能の設定を開
 
 ユーザーが短縮、スコープ設定、またはフィルター処理されたデータのビューを利用できるようにするためには、[JavaScript のフィルター](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters)を使います。 ただし、ユーザーは引き続きモデル スキーマのテーブル、列、およびメジャーにアクセスできるため、潜在的にはそこにあるすべてのデータにアクセスできます。 データへのアクセス制限は RLS を使う場合にのみ適用でき、クライアント側のフィルター処理 API を使う場合は適用できません。
 
+## <a name="token-based-identity-with-azure-sql-database-preview"></a>Azure SQL Database でのトークン ベースの ID (プレビュー)
+
+**トークン ベースの ID** では、**Azure SQL Database** に対する **Azure Active Directory (AAD)** のアクセス トークンを使用して、埋め込みトークンに対する有効な ID を指定することができます。
+
+**Azure SQL Database** にデータを保持するお客様は、**Power BI Embedded** と統合すると、新しい機能を利用して、ユーザーと Azure SQL 内のデータへのユーザーのアクセスを管理することができます。
+
+埋め込みトークンを生成するときに、Azure SQL でのユーザーの有効な ID を指定できます。 サーバーに AAD アクセス トークンを渡すことによって、ユーザーの有効な ID を指定できます。 アクセス トークンは、その特定のセッションにおいて、Azure SQL からそのユーザーに関連するデータだけをプルするために使用されます。
+
+Azure SQL で各ユーザーのビューを管理したり、マルチテナント DB において特定の顧客として Azure SQL にサインインしたりするために使用できます。 また、Azure SQL でそのセッションに対して行レベルのセキュリティを適用し、そのセッションに関連のあるデータのみを取得して、Power BI で RLS を管理する必要が内容にするためにも使用できます。
+
+このような有効な ID の発行は、Azure SQL Server での RLS ルールに直接適用されます。 Power BI Embedded では、Azure SQL Server のデータのクエリを実行するときに、提供されたアクセス トークンが使用されます。 (アクセス トークンの提供対象である) ユーザーの UPN には、USER_NAME() SQL 関数の結果としてアクセスできます。
+
+トークン ベースの ID は、Azure SQL Database に接続されている専用容量での DirectQuery モデルに対してのみ動作します。これは、AAD 認証を許可するように構成されています ([Azure SQL Database に対する AAD 認証の詳細](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins))。 トークン ベースの ID を使用するには、エンド ユーザーの OAuth2 資格情報を使用するように、データセットのデータ ソースを構成する必要があります。
+
+   ![Azure SQL Server を構成する](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
+
+### <a name="token-based-identity-sdk-additions"></a>トークン ベースの ID に関して SDK に追加されたもの
+
+ID BLOB プロパティが、トークン生成のシナリオの有効な ID に追加されました。
+
+```JSON
+[JsonProperty(PropertyName = "identityBlob")]
+public IdentityBlob IdentityBlob { get; set; }
+```
+
+IdentityBlob 型は、値の文字列プロパティを保持する単純な JSON 構造です。
+
+```JSON
+[JsonProperty(PropertyName = "value")]
+public string value { get; set; }
+```
+
+次の呼び出しを使用して、ID BLOB で EffectiveIdentity を作成できます。
+
+```C#
+public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null, IdentityBlob identityBlob = null);
+```
+
+ID BLOB は、次の呼び出しを使用して作成できます。
+
+```C#
+public IdentityBlob(string value);
+```
+
+### <a name="token-based-identity-rest-api-usage"></a>トークン ベースの ID に関する REST API の使用方法
+
+[REST API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetoken#definitions) を呼び出す場合は、各 ID の内部に ID BLOB を追加できます。
+
+```JSON
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "datasets": ["fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc"],
+        “identityBlob”: {
+            “value”: “eyJ0eXAiOiJKV1QiLCJh….”
+         }
+        }
+    ]
+}
+```
+
+ID BLOB で提供する値は、Azure SQL Server に対する (リソース URL が <https://database.windows.net/> の) 有効なアクセス トークンである必要があります。
+
+   > [!Note]
+   > Azure SQL に対するアクセス トークンを作成できるためには、Azure portal の AAD アプリ登録構成において、**Azure SQL Database** API に対する **Azure SQL DB と Data Warehouse へのアクセス**の委任されたアクセス許可を、アプリケーションに設定する必要があります。
+
+   ![アプリの登録](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
 * Power BI サービス内でのロールへのユーザーの割り当ては、埋め込みトークンを使用したときの RLS には反映されません。
@@ -248,5 +317,11 @@ Power BI Embedded アプリケーションで CustomData() 機能の設定を開
 * 基になるデータセットで RLS が必要ない場合、GenerateToken 要求に有効な ID が含まれていては**なりません**。
 * 基になるデータセットがクラウド モデル (キャッシュされたモデルまたは DirectQuery) の場合は、有効な ID に少なくとも 1 つのロールが含まれている必要があります。そうでない場合、ロールの割り当ては行われません。
 * ID のリストを使うと、ダッシュボードの埋め込みに複数の ID トークンを使うことができます。 他のすべてのアーティファクトでは、リストには単一の ID が含まれます。
+
+### <a name="token-based-identity-limitations-preview"></a>トークン ベースの ID の制限 (プレビュー)
+
+* この機能では、Power BI Premium での使用のみが制限されます。
+* この機能は、オンプレミスの SQL Server では動作しません。
+* この機能は、Multi-Geo では動作しません。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

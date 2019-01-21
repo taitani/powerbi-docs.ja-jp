@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250432"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291673"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Report Server 用の REST API を使って開発する
 
@@ -30,10 +30,10 @@ REST API の要求/応答ペアは、5 つのコンポーネントに分ける�
 
 * **要求 URI**。`{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}` で構成されます。 要求 URI は要求メッセージ ヘッダーに含まれていますが、ほとんどの言語やフレームワークでは要求メッセージとは別に渡す必要があるため、ここでは独立した項目にしてあります。
   
-  * URI スキーム: 要求の送信に使われるプロトコルを示します。 たとえば、`http` や `https` などです。
-  * URI ホスト: REST サービス エンドポイントがホストされているサーバーのドメイン名または IP アドレスを指定します。たとえば、`myserver.contoso.com` などです。
-  * リソース パス: リソースまたはリソース コレクションを指定します。リソースの選択を決定するときにサービスによって使われる複数のセグメントを含むことができます。 たとえば、`CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` を使って、CatalogItem の指定したプロパティを取得できます。
-  * クエリ文字列 (省略可能): API のバージョンやリソースの選択条件など、簡単な追加パラメーターを提供します。
+  * URI スキーム:要求の送信に使われるプロトコルを示します。 たとえば、`http` や `https` などです。
+  * URI ホスト:REST サービス エンドポイントがホストされているサーバーのドメイン名または IP アドレスを指定します。たとえば、`myserver.contoso.com` などです。
+  * リソース パス:リソースまたはリソース コレクションを指定します。リソースの選択を決定するときにサービスによって使われる複数のセグメントを含むことができます。 たとえば、`CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` を使って、CatalogItem の指定したプロパティを取得できます。
+  * クエリ文字列 (省略可能):API のバージョンやリソースの選択条件など、簡単な追加パラメーターを提供します。
 * HTTP 要求メッセージ ヘッダーのフィールド:
   
   * 必須の [HTTP メソッド](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) (操作または動詞とも呼ばれます)。要求する操作の種類をサービスに通知します。 Reporting Services REST API は、DELETE、GET、HEAD、PUT、POST、PATCH の各メソッドをサポートします。

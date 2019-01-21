@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 763b79b50266678a78dc956372f504f30836c4fc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507908"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292963"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件
 この記事では、Power BI Report Server をインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。
@@ -25,9 +25,9 @@ ms.locfileid: "51507908"
 | --- | --- |
 | .NET Framework |4.6<br><br>.NET Framework は、「[Microsoft .NET Framework 4.6 (Web Installer) for Windows](http://support.microsoft.com/kb/3045560)」(Windows 用 Microsoft.NET Framework 4.6 (Web インストーラー)) から手動でインストールできます。<br/><br/> .NET Framework 4.6 の詳細情報、推奨事項、およびガイダンスについては、「[.NET Framework 配置ガイド (開発者向け)](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)」をご覧ください。<br/><br/>Windows 8.1 および Windows Server 2012 R2 では、.NET Framework 4.6 をインストールする前に、[KB2919355](http://support.microsoft.com/kb/2919355) をインストールする必要があります。 |
 | ハード ディスク |Power BI レポート サーバーには、最低 1 GB の使用可能なハード ディスク空き領域が必要です。<br><br>レポート サーバーのデータベースをホストしているデータベース サーバーには、追加の領域が必要です。 |
-| メモリ |**最低:** 1 GB<br/><br/> **推奨:** 4 GB 以上 |
-| プロセッサ速度 |**最低:** x64 プロセッサ: 1.4 GHz<br/><br/> **推奨:** 2.0 GHz 以上 |
-| プロセッサの種類 |x64 プロセッサ: AMD Opteron、AMD Athlon 64、Intel Xeon (Intel EM64T サポート付き)、Intel Pentium IV (EM64T サポート付き) |
+| メモリ |**最小:** 1 GB<br/><br/> **推奨:** 4 GB 以上 |
+| プロセッサ速度 |**最低:** x64 プロセッサ:1.4 GHz<br/><br/> **推奨:** 2.0 GHz 以上 |
+| プロセッサの種類 |x64 プロセッサ:AMD Opteron、AMD Athlon 64、Intel Xeon (Intel EM64T サポート付き)、Intel Pentium IV (EM64T サポート付き) |
 | オペレーティング システム |Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
 > [!NOTE]

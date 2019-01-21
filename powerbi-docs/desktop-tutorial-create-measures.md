@@ -1,23 +1,23 @@
 ---
-title: 'チュートリアル: Power BI Desktop で独自のメジャーを作成する'
-description: 'チュートリアル: Power BI Desktop で独自のメジャーを作成する'
+title: チュートリアル:Power BI Desktop での独自のメジャーの作成
+description: チュートリアル:Power BI Desktop での独自のメジャーの作成
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 85c16822a51bc3c4a59bbfaa363f742f77552b72
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578637"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287590"
 ---
-# <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>チュートリアル: Power BI Desktop で独自のメジャーを作成する
+# <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>チュートリアル:Power BI Desktop での独自のメジャーの作成
 Power BI Desktop でメジャーを使用すると、強力なデータ分析ソリューションを作成できます。 メジャーは、ユーザーがレポートで操作するデータに対して計算を実行するために役立ちます。 このチュートリアルでは、メジャーの基本について説明し、独自のメジャーを Power BI Desktop で作成する手順を紹介します。
 
 ### <a name="prerequisites"></a>前提条件
@@ -85,7 +85,7 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
     
     ![列の選択](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    式は、常に、始めかっこと終わりかっこの間に入ります。 式には SUM 関数に渡す 1 つの引数 (SalesAmount 列) が含まれます。 リストに 1 つの値 "Sales (SalesAmount)" が残るまで、「SalesAmount」と入力します。 テーブル名の前にある列名は、列の*完全修飾名*と呼ばれます。 列の完全修飾名を使用すると、式を読みやすくなります。 
+    式は、常に、始めかっこと終わりかっこの間に入ります。 式には SUM 関数に渡す 1 つの引数 (SalesAmount 列) が含まれます。 リストに次の 1 つの値が残るまで、「SalesAmount」と入力します:Sales(SalesAmount)。 テーブル名の前にある列名は、列の*完全修飾名*と呼ばれます。 列の完全修飾名を使用すると、式を読みやすくなります。 
     
     ![SalesAmount の選択](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
@@ -128,7 +128,7 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
 
 ![国別の売上高と純売上高](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
 
-グラフには、自動的に合計された SalesAmount と、作成した Net Sales メジャーの 2 つのメジャーが使用されるようになりました。 各メジャーは別フィールド RegionCountryName のコンテキストで計算されました。
+グラフでは、次の 2 つのメジャーが使用されるようになりました:自動的に合計された SalesAmount と、作成した Net Sales メジャー。 各メジャーは別フィールド RegionCountryName のコンテキストで計算されました。
     
 ### <a name="use-your-measure-with-a-slicer"></a>スライサーでメジャーを使用する
 

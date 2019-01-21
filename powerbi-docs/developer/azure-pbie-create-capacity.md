@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.author: maghan
 ms.service: power-bi-embedded
-ms.component: ''
+ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300048"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288545"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal での Power BI Embedded 容量の作成
 
@@ -29,10 +29,10 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 このクイック スタートを完了するには、以下が必要です。
 
-* **Azure サブスクリプション:** [Azure 無料試用版](https://azure.microsoft.com/free/)にアクセスし、アカウントを作成してください。
+* **Azure サブスクリプション:**[Azure 無料試用版](https://azure.microsoft.com/free/)にアクセスし、アカウントを作成してください。
 * **Azure Active Directory:** お使いのサブスクリプションは Azure Active Directory (AAD) テナントに関連付けられている必要があります。 また、***そのテナントのアカウントで Azure にサインインする必要があります***。 Microsoft アカウントはサポートされていません。 詳細については、「[認証とユーザーのアクセス許可](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)」を参照してください。
 * **Power BI テナント:** ご利用の AAD テナントの少なくとも 1 つのアカウントを Power BI に登録しておく必要があります。
-* **リソース グループ:** 既にお持ちのリソース グループを使用するか、[新規作成](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)してください。
+* **リソース グループ:** 既にあるリソース グループを使用するか、[新しく作成](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)します。
 
 ## <a name="create-a-capacity"></a>容量を作成する
 

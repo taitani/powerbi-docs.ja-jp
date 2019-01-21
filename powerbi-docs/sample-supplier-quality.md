@@ -1,23 +1,23 @@
 ---
-title: 'Power BI のサプライヤー クオリティ分析のサンプル: 使ってみる'
-description: 'Power BI のサプライヤー クオリティ分析のサンプル: 使ってみる'
+title: Power BI のサプライヤー クオリティ分析のサンプル:ツアーを開始する
+description: Power BI のサプライヤー クオリティ分析のサンプル:ツアーを開始する
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b214e2c08e6a39e4b09643c02bccedb56d5b9f4
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717656"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292984"
 ---
-# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI のサプライヤー クオリティ分析のサンプル: 使ってみる
+# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI のサプライヤー クオリティ分析のサンプル:ツアーを開始する
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>サプライヤー クオリティ分析サンプルの概要
 この業界サンプル ダッシュボードおよび基になるレポートは、典型的なサプライ チェーンの課題の 1 つである、サプライヤー クオリティ分析に焦点を合わせています。
@@ -167,5 +167,5 @@ ms.locfileid: "51717656"
 
 これは、試してみるのに安全な環境です。 変更内容を保存しないようにいつでも選択できます。 一方、保存すると、常にこのサンプルの新しいコピーに対する **データの取り込み** に進むことができます。
 
-## <a name="next-steps-connect-to-your-data"></a>次の手順: データへの接続
+## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
 この記事を通じて、Power BI ダッシュボード、Q&A、レポートからサプライヤーの品質データへの洞察をどのように得られるかをご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータを接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、「[Power BI の概要](service-get-started.md)」をご覧ください。

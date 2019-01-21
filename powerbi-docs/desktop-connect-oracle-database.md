@@ -5,22 +5,22 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5b5dc41ee3f4d41f2e38053470054a8f453e4fb3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670295"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284497"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle データベースへの接続
 **Power BI Desktop** を使用して Oracle データベースに接続するには、Power BI Desktop を実行しているコンピューター上に適切な Oracle クライアント ソフトウェアをインストールする必要があります。 使用する Oracle クライアント ソフトウェアは、インストールした Power BI Desktop のバージョン ( **32 ビット**バージョンか **64 ビット**バージョン) によって異なります。
 
-**サポートされるバージョン**: Oracle 9 以降、Oracle クライアント ソフトウェア 8.1.7 以降。
+**サポートされるバージョン**:Oracle 9 以降、Oracle クライアント ソフトウェア 8.1.7 以降。
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>インストールされている Power BI Desktop バージョンの特定
 どのバージョンの Power BI Desktop がインストールされているかを特定するには、**[ファイル] > [ヘルプ] > [バージョン情報]** の順に選択し、次に **[バージョン]** 行を確認します。 次の図の場合、Power BI Desktop の 64 ビット バージョンがインストールされています。
@@ -42,7 +42,7 @@ Power BI Desktop の **64 ビット** バージョンの場合、次のリンク
 1. [データの取得] ウィンドウから、**[データベース] > [Oracle データベース]** を選択します。
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. 表示される **[Oracle データベース]** ダイアログでサーバーの名前を指定し、**[接続]** を選択します。 SID が必要な場合、"*サーバー名/SID*" の形式で指定します。SID はデータベースの一意名です。 "*サーバー名/SID*" の形式でうまくいかない場合は、"*サーバー名/サービス名*" を試してください。サービス名は接続時に使用した別名です。
+2. 表示される **[Oracle データベース]** ダイアログでサーバーの名前を指定し、**[接続]** を選択します。 SID が必要な場合、次の形式を使用して指定できます:"*サーバー名/SID*"。SID はデータベースの一意名です。 "*サーバー名/SID*" の形式でうまくいかない場合は、"*サーバー名/サービス名*" を試してください。サービス名は接続時に使用した別名です。
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. ネイティブ データベース クエリを使用してデータをインポートする場合、**[Oracle データベース]** ダイアログで **[詳細オプション]** セクションを展開して **[SQL ステートメント]** ボックスを開き、クエリを入力します。

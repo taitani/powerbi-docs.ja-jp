@@ -1,23 +1,23 @@
 ---
-title: 'Power BI の小売りの分析のサンプル: 使ってみる'
-description: 'Power BI の小売りの分析のサンプル: 使ってみる'
+title: Power BI の小売りの分析のサンプル:ツアーを開始する
+description: Power BI の小売りの分析のサンプル:ツアーを開始する
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c07c33cb6ae859c9cf202ae67119dbfb8dd45e26
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717679"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291466"
 ---
-# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の小売りの分析のサンプル: 使ってみる
+# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の小売りの分析のサンプル:ツアーを開始する
 
 この業界サンプル ダッシュボードと基になるレポートは、複数の店舗や地域で販売されたアイテムの小売店の売上データを分析したものです。 メトリックは、売上、出荷単位、粗利、差異、新店舗の分析に関して、本年度と昨年度の業績を比較します。 これは、obviEnce ([www.obvience.com](http://www.obvience.com)) が収集している匿名化された実データです。
 
@@ -86,7 +86,7 @@ ms.locfileid: "51717679"
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Power BI の Q&A で作成されたタイルを確認する
 さらに詳細を取得しましょう。
 
-1. 質問ボックスに「this year sales **by district**」と追加します。 結果を確認します。自動的に横棒グラフに結果が表示され、他の語句が提案されます。
+1. 質問ボックスに「this year sales **by district**」と追加します。 結果を観察します。自動的に横棒グラフに結果が表示され、他の語句が提案されます。
 
    ![](media/sample-retail-analysis/retail8.png)
 2. ここで、質問を「this year sales **by zip and chain**」に変更します。

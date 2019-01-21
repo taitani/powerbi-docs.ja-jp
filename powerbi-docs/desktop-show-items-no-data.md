@@ -5,21 +5,21 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072890"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279989"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Power BI でデータのない項目を表示する
 
-Power BI では、さまざまなソースのあらゆる種類のデータを視覚化することができます。 ビジュアルを作成する場合、データの提示および表示方法を適切に管理するために、Power BI ではビジュアル作成時に適切なデータのみが表示されます。 Power BI では、ビジュアルの構成と基になるデータ モデルに基づいて、どのデータが適切か判断します。 この記事では、適切なデータを判断する際の Power BI の動作のしくみについて、判断方法を示す例を使って説明します。
+Power BI では、さまざまなソースのあらゆる種類のデータを視覚化することができます。 ビジュアルを作成するとき、Power BI では、データの提示および表示方法が適切に管理されるように、ビジュアル作成時に関連するデータのみが表示されます。 Power BI では、ビジュアルの構成と基になるデータ モデルに基づいて、どのデータが適切か判断します。 この記事では、適切なデータを判断する際の Power BI の動作のしくみについて、判断方法を示す例を使って説明します。
 
 ![[データのない項目を表示する] 機能を有効にする方法](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -65,7 +65,7 @@ Power BI では、さまざまなソースのあらゆる種類のデータを�
 
 **4.関連付けられていない別のテーブルからのグループ**
 
-サンプル モデルにはこの組み合わせが含まれていませんが、関連付けられていない別のテーブルからのグループが存在した場合は、Power BI で 2 つの列を関連付けることができず、結果は各列の値すべてのクロス積となります。 そのような状況では、(このようなクロス結合はデータベースのコンピューティング コストが高いため) "*制限のない結合*" という種類のエラーが Power BI で発生し、ユーザーに多くの情報は表示されません。 
+サンプル モデルにはこの組み合わせが含まれていませんが、関連付けられていない別のテーブルからのグループが存在した場合は、Power BI で 2 つの列を関連付けることができます。 結果は各列のすべての値のクロス積になります。 そのような状況では、(このようなクロス結合はデータベースのコンピューティング コストが高いため) "*制限のない結合*" という種類のエラーが Power BI で発生し、ユーザーに多くの情報は表示されません。 
 
 ![制限のない結合に関して表示されるエラー](media/desktop-show-items-no-data/show-items-no-data_01.png)
 
@@ -76,7 +76,7 @@ Power BI では、さまざまなソースのあらゆる種類のデータを�
 
 **[データのない項目を表示する]** 機能を使うと、(メジャー データを含まない (空白のメジャー値) データ行と列を含めて) まさにそれを実行できます。
 
-**[データのない項目を表示する]** 機能を有効にするには、次の図に示すように、ビジュアルを選択し、**[フィールド]** 内で、フィールドを右クリックして表示されるメニューの **[データのない項目を表示する]** を選択します。
+**データのないアイテムの表示**機能を有効にするには、次の図に示すように、ビジュアルを選択し、**[フィールド]** 内で、フィールドを右クリックして表示されるメニューの **[データのないアイテムの表示]** を選択します。
 
 ![[データのない項目を表示する] 機能を有効にする方法](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -195,4 +195,4 @@ Power BI では、さまざまなソースのあらゆる種類のデータを�
 
 この記事では、Power BI で **[データのない項目を表示する]** 機能を有効にする方法について説明しました。 次の記事にも興味をもたれるかもしれません。 
 
-* [Power BI Desktop のデータ ソース](desktop-data-sources.md)
+* [Power BI での多次元モデルの既定のメンバー](desktop-default-member-multidimensional-models.md)

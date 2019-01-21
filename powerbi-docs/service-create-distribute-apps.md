@@ -4,17 +4,17 @@ description: アプリの発行方法について説明します。アプリは�
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100820"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294065"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリを発行する
 
@@ -31,14 +31,14 @@ Power BI では、関連するダッシュボードとレポートのコレク�
 ## <a name="apps-and-organizational-content-packs"></a>アプリと組織のコンテンツ パック
 アプリは、組織のコンテンツ パックが進化したものです。 新しいプレビュー版のワークスペース エクスペリエンスでは、コンテンツ パックを使用できません。 新しいワークスペース エクスペリエンスが一般公開された後に新しく作成されたワークスペースでは、コンテンツ パックを使用できなくなります。 まだインストールしていない場合は、コンテンツ パックのアプリへの移行を開始してください。
 
-## <a name="video-apps-and-app-workspaces"></a>ビデオ: アプリとアプリ ワークスペース
+## <a name="video-apps-and-app-workspaces"></a>ビデオ:アプリとアプリ ワークスペース
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="licenses-for-apps"></a>アプリのライセンス
 アプリ ワークスペースのメンバーには Power BI Pro ライセンスが必要です。 アプリ ユーザーの場合は 2 つのオプションがあります。
 
-* オプション 1: すべてのビジネス ユーザーに、アプリを表示するための **Power BI Pro** ライセンスが必要です。 
-* オプション 2: Power BI Premium 容量内にあるアプリの場合、組織内の無料のユーザーはアプリのコンテンツを表示できます。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
+* オプション 1:すべてのビジネス ユーザーに、アプリを表示するための **Power BI Pro** ライセンスが必要です。 
+* オプション 2:Power BI Premium 容量内にあるアプリの場合、組織内の無料のユーザーはアプリのコンテンツを表示できます。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
 
 ## <a name="publish-your-app"></a>アプリの発行
 ワークスペース内のダッシュボードとレポートの準備ができたら、発行するダッシュボードとレポートを選択し、アプリとして発行します。 その対象ユーザーに直接リンクを送信することも、対象ユーザー自身が **[ストアからアプリを取得するにはクリックします]** を選択して、[アプリ] タブからアプリを検索することもできます。 

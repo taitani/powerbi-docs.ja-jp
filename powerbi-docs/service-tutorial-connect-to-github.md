@@ -1,25 +1,25 @@
 ---
-title: 'チュートリアル: Power BI で GitHub サンプルに接続する'
+title: チュートリアル:Power BI で GitHub サンプルに接続する
 description: このチュートリアルでは、Power BI で GitHub サービスの実際のデータに接続します。Power BI でダッシュボードとレポートが自動的に作成されます。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88be0aa477b5e4b2df4f53c42dfb6fde3dda0184
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900499"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295680"
 ---
-# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>チュートリアル: Power BI で GitHub サンプルに接続する
-このチュートリアルでは、Power BI で GitHub サービスの実際のデータに接続します。Power BI でダッシュボードとレポートが自動的に作成されます。 Power BI のコンテンツ パブリック リポジトリ (単に "*リポジトリ*" とも呼ばれます) に接続すると、さまざまな情報が表示されます。たとえば、Power BI のパブリック コンテンツに寄稿しているユーザーの数のほか、 最も寄稿が多いユーザーは誰か、 最も寄稿が多いのは何曜日か、 などといった疑問に対する答えがわかります。 
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>チュートリアル:Power BI で GitHub サンプルに接続する
+このチュートリアルでは、Power BI で GitHub サービスの実際のデータに接続します。Power BI でダッシュボードとレポートが自動的に作成されます。 Power BI のコンテンツ パブリック リポジトリ (単に "*リポジトリ*" とも呼ばれます) に接続すると、さまざまな情報が表示されます。Power BI のパブリック コンテンツに寄稿しているユーザーの数、 最も寄稿が多いユーザーは誰か、 最も寄稿が多いのは何曜日か、 などといった疑問に対する答えがわかります。 
 
 ![Power BI での GitHub レポート](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 

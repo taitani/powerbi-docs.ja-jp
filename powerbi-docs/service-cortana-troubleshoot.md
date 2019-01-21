@@ -6,26 +6,26 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d15dfa17280a8c289f223719961cd48a97cb92bc
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187538"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296319"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI 用 Cortana のトラブルシューティング
 この記事はシリーズの一部です。 次の 3 つの記事をまだ読んでいない場合は、読むことをお勧めします。
 
-**記事 1**: [Cortana と Power BI が連動し、Power BI のダッシュボードとレポートを検索するしくみを理解する](service-cortana-intro.md)
+**記事 1**:[Cortana と Power BI が連動し、Power BI のダッシュボードとレポートを検索するしくみを理解する](service-cortana-intro.md)
 
-**記事 2**: [レポートの検索: Cortana、Power BI、Windows の統合を有効にします](service-cortana-enable.md)
+**記事 2**:[レポートの検索: Cortana、Power BI、Windows の統合を有効にする](service-cortana-enable.md)
 
-**記事 3**: [レポートの検索: 特別な *Cortana 回答カード*を作成する](service-cortana-answer-cards.md)
+**記事 3**:[レポートの検索: 特別な *Cortana 回答カード*を作成する](service-cortana-answer-cards.md)
 
 Cortana と Power BI の統合にまだ問題がある場合は、ここでその解決方法を説明します。 以下の手順に従って問題を診断し、解決してください。
 

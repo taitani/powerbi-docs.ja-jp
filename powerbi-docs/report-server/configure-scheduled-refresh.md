@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: d8283f1abf05ab788336413bd18582ea71d4e43f
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 4ca6d7c5ed47433614dc194db7d09162d5e96eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "34296266"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285716"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI レポートのスケジュールされた更新を構成する方法
 Power BI レポートのデータを更新するには、スケジュールされた更新計画を作成する必要があります。 これは、Power BI レポートの *[管理]* 領域で行います。
@@ -79,7 +79,7 @@ Web ポータルでスケジュールされた更新計画の状態を表示し�
    | データの更新中 |モデル内のデータを更新しています。 |
    | Removing credentials from the model \(モデルから資格情報を削除中\) |データ ソースへの接続に使われた資格情報をモデルから削除しました。 |
    | Saving model to the catalog \(カタログにモデルを保存中\) |データの更新が完了し、更新されたモデルがレポート サーバーのカタログ データベースに保存されています。 |
-   | 完了: データ更新 |更新は完了しています。 |
+   | 完了:データ更新 |更新は完了しています。 |
    | エラー: |更新中にエラーが発生し、表示されています。 |
 
 現在の状態を表示するには、Web ページを更新する必要があります。 状態は自動的には変更されません。

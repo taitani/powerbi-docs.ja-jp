@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 71ed70344281dec3353b73c8698594d62ef32eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983372"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285601"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI における色の書式設定に関するヒントとコツ
 Power BI は、ダッシュボードとレポートをカスタマイズするためのさまざまな方法を提供しています。 この記事では、Power BI の視覚化を、説得力のある興味をひくものにして、お客様のニーズに合わせてカスタマイズできる各種ヒントについて詳しく説明しています。
@@ -29,41 +29,38 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 * 左右逆方向のカラー スケールを使用する
 * Power BI で元に戻す方法
 
-変更を行うには、レポートを編集している必要があります。つまり、次の図に示すように、**[マイ ワークスペース]** ウィンドウから **[レポート]** を選んでから、上部のメニュー領域で **[レポートの編集]** を選びます。 この例では、**人事サンプル**が使用されています。
+変更を行うには、レポートを編集している必要があります。 レポートを開き、次の図のように上部のメニュー領域で **[レポートの編集]** を選択します。
 
-![レポート キャンバス。[レポートの編集] が強調表示されています](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
-**[視覚化]** ウィンドウが **[レポート]** キャンバスの右側に表示されたら、カスタマイズを開始できます。
+**[視覚化]** ウィンドウが **[レポート]** キャンバスの右側に表示されたら、カスタマイズを開始できます。 ウィンドウが表示されない場合は、右上隅の矢印を選択して開きます。
 
-![レポート。[書式設定] ウィンドウが表示されています](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>1 つのデータ ポイントの色を変更する
-特定の 1 つのデータ ポイントを強調表示したい場合があります。 このようなデータ ポイントには、発売した新製品の売上高や、新しい計画が開始した後に向上した品質のスコアなどがあります。 Power BI を使用すれば、ほとんどの視覚化タイプの場合、特定のデータ ポイントの色を変更することで、それを強調表示できます。
+特定の 1 つのデータ ポイントを強調表示したい場合があります。 このようなデータ ポイントには、発売した新製品の売上高や、新しい計画が開始した後に向上した品質のスコアなどがあります。 Power BI を使用すれば、特定のデータ ポイントの色を変更することで、それを強調表示できます。
 
-次の画像では、既定の色を使用し、従業員による販売利益が視覚化されています。 
+次の視覚エフェクトでは、製品区分別に販売されたユニット数がランク付けされています。 
 
-![面グラフ](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-grey.png)
 
-Annelie の領域が見えにくいので、色を使って目立たせましょう。 この手順を以下に示します。
+ここで、**Convenience** 区分を取り出して、この新しい区分のパフォーマンスを色を使用して示すものとします。 この手順を以下に示します。
 
-**[データの色]** セクションを展開します。 次のように表示されます。
+**[データの色]** セクションを展開し、**[すべて表示]** のスライダーをオンにします。 これにより、視覚化内の各データ要素の色が表示されます。 データ ポイントにポインターを合わせるとスクロールが有効になり、任意のデータ ポイントを変更できるようになります。
 
-![[書式設定] の下にある [データの色] セクション領域](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
+**Convenience** をオレンジ色に設定します。 
 
-ここでは、Valery に使われている色に類似しない濃く明るい色を選択しましょう。 Annelie の色ボックス内にある下向き矢印を選択し、**[カスタム色]** を選択し、明るい青を選択します。
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-orange.png)
 
-![色の選択](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+選択すると、**Convenience** のデータ ポイントがオレンジの網掛けになり、確実に目立ちます。
 
-選択すると、Annelie の領域を他の従業員と簡単に区別できます。 
+視覚化の種類を変更してから処理を終了した場合でも、Power BI では選んだ内容が記憶され、 **Convenience** をオレンジのままに保ちます。
 
-![面グラフ、Annalie の領域が明るい青になりました](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
+視覚エフェクトの 1 つ、複数、またはすべてのデータ要素について、データ ポイントの色を変更できます。 おそらく、企業の色に似たビジュアルにしたいのではないですか。 
 
-視覚化の種類を変更してから処理を終了した場合でも、Power BI では選んだ内容が記憶され、 **Washington** を緑のままに保ちます。
-
-複数のデータ要素のデータ ポイントの色を変更することもできます。 次の図では、 **Arizona** が赤で **Washington** は緑のままです。
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_8.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
 色を使用すると、さまざまなことを行えます。 次のセクションでは、グラデーションを確認してみましょう。
 
@@ -73,16 +70,27 @@ Annelie の領域が見えにくいので、色を使って目立たせましょ
 次のセクションでは、ある数値に基づいて色を決めるためのさまざまな方法を示します。
 
 ## <a name="base-the-color-of-data-points-on-a-value"></a>データ ポイントの色を 1 つの値に基づいて決める
-1 つの値に基づいて色を変更するには、色の基準となるフィールドを、 **[フィールド]** ウィンドウの **\[Color Saturation] \(色の彩度)** 領域にドラッグします。 次の図では、 **Profit before tax (税引き前利益)** が **\[Color Saturation] \(色の彩度)** にドラッグされています。 グラフを見れば分かるように、 **Velo** の方が **Gross Sales (総売上)** は高い (縦棒がより高い) ものの、 **Amarilla** の方が **Profit before tax (税引き前利益)** はより大きくなっています (縦棒の色の彩度が高い)。
+1 つの値に基づいて色を変更するには、色の基準となるフィールドを、**[フィールド]** ウィンドウの **[色の彩度]** 領域にドラッグします。 次の図では、**%Market Share SPLY YTD** が **[色の彩度]** にドラッグされています。 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_9.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-color-saturation.png)
+
+また、[書式] ウィンドウの **[データの色]** で、縦棒グラフでの **%Market Share SPLY YTD** の値による色と網掛けの変更方法を決定します。 この例では、%Market Share の値が小さいほど明るい青、大きいほど濃い青になります。
+
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
+
+見ると分かるように、販売されたユニット数では **Productivity** と **Extreme** の方が多くなっていますが (棒が高い)、**%Market Share SPLY YTD** では **Moderation** の方が多くなっています (色が濃い)。
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-saturation.png)
 
 ## <a name="customize-the-colors-used-in-the-color-scale"></a>カラー スケールで使用する色をカスタマイズする
-カラー スケールで使用する色もカスタマイズすることができます。 **[データの色]** を展開すると、データの視覚化に使用する色のグラデーションが表示されます。 既定では、データ内の最小値が最も低い彩度の色にマップされ、最大値が最も彩度の高い色にマップされます。
+カラー スケールで使用する色もカスタマイズすることができます。 既定では、データ内の最小値が最も低い彩度の色にマップされ、最大値が最も彩度の高い色にマップされます。 上の図では、青のグラデーションを使用しました。 
 
-色の範囲は、 **[最小]** と **[最大]** の色の値の間にスペクトルが表示されるグラデーション バーに示され、 **最小** 値の色が左側、 **最大** 値の色が右側になります。
+**[データの色]** を展開すると、データの視覚化に使用する色のグラデーションが表示されます。 色の範囲は、 **[最小]** と **[最大]** の色の値の間にスペクトルが表示されるグラデーション バーに示され、 **最小** 値の色が左側、 **最大** 値の色が右側になります。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_10.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
 
 異なる範囲の色を使用するためにスケールを変更するには、 **[最小]** または **[最大]** の横にある色のドロップダウンを選んでから、色を選びます。 次の図では、黒に変更された **[最大]** の色が示され、グラデーション バーには、**[最小]** と **[最大]** の間に新しい色のスペクトルが示されています。
 

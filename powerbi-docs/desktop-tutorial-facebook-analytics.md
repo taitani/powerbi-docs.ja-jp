@@ -1,23 +1,23 @@
 ---
-title: 'チュートリアル: Power BI Desktop を使用して Facebook を分析する'
-description: 'チュートリアル: Power BI Desktop を使用して Facebook を分析する'
+title: チュートリアル:Power BI Desktop を使用した Facebook の分析
+description: チュートリアル:Power BI Desktop を使用した Facebook の分析
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578499"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276976"
 ---
-# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>チュートリアル: Power BI Desktop を使用して Facebook を分析する
+# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>チュートリアル:Power BI Desktop を使用した Facebook の分析
 
 このチュートリアルでは、Facebook からデータをインポートして Power BI Desktop で使用する方法を学習します。 ここでは、Power BI Facebook ページに接続してデータをインポートし、インポートしたデータに変換を適用し、レポートの視覚化でデータを使用します。
 
@@ -187,7 +187,7 @@ Facebook ページからデータをインポートしたら、視覚化を使�
 2. Power Query エディターで **Number of comments** 列を選択し、次のいずれかの方法でデータ型を **[整数]** に変更します。 
    - **Number of comments** 列ヘッダーの横にある **1.2** アイコンを選択し、ドロップダウンから **[整数]** を選択します
    - 列ヘッダーを右クリックして **[型の変更] > [整数]** の順に選択します
-   - [ホーム] タブの **[変換]** グループまたは **[変換]** タブの **[任意の列]** グループで **[データの種類: 10 進数]** を選択し、**[整数]** を選択します。
+   - **[データの種類:10 進数]** を [ホーム] タブの **[変換]** グループまたは **[変換]** タブの **[任意の列]** グループで選択し、**[整数]** を選択します。
    
    列ヘッダーのアイコンは整数のデータ型であることを示す **123** に変わります。
    

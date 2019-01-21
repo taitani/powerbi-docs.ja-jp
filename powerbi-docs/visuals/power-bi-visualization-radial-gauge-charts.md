@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416868"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282565"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI の放射状ゲージ グラフ
 放射状ゲージ グラフには、1 つの円弧があり、目標/KPI に向けた進行状況を測定した 1 つの値が表示されます。  目標 (ターゲット値) は、線 (指針) で示されます。 その目標への進行状況は、網掛け表示で示されます。  また、進行状況を表す値は、円弧の内側に太字で表示されます。考えられるすべての値は、最小値 (左端の値) から最大値 (右端の値) に向けて、円弧に沿って均等に割り振られます。
@@ -44,7 +44,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>手順 1: 財務サンプルの Excel ファイルを開く
+### <a name="step-1-open-the-financial-sample-excel-file"></a>手順 1:財務サンプルの Excel ファイルを開く
 1. まだお持ちでない場合は、[サンプルの財務 Excel ファイルをダウンロード](../sample-financial-download.md)します。 ファイルを保存した場所を忘れないようにします。
 
 2. **[データの取得] \> [ファイル]** を選択し、ファイルが保存されている場所を選んで、***Power BI サービス***でファイルを開きます。 **[インポート]** を選択します。 [財務サンプル] がデータセットとしてワークスペースに追加されます。
@@ -53,7 +53,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
 
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
-### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>手順 2: 総売上を追跡するためにゲージを作成する
+### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>手順 2:総売上を追跡するためにゲージを作成する
 1. **[フィールド]** ペインで、 **[総売上]** を選択します。
    
    ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
@@ -66,7 +66,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
    
    ![](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
 
-### <a name="step-3-set-a-target-value"></a>手順 3: 対象値を設定する
+### <a name="step-3-set-a-target-value"></a>手順 3:対象値を設定する
 1. **[COGS]** も **[ターゲット値]** にドラッグします。
 2. 集計を **[平均]** に変更します。
    Power BI により、ターゲット値の **145.48K ドル**を示す指針が追加されます。 ターゲットを超えていることに注目してください。
@@ -78,7 +78,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
    > 
    > 
 
-### <a name="step-4-set-a-maximum-value"></a>手順 4: 最大値を設定する
+### <a name="step-4-set-a-maximum-value"></a>手順 4:最大値を設定する
 手順 2 では、Power BI は [値] フィールドを使用して、自動的に最小値 (開始) と最大値 (終了) を設定していました。  独自に最大値を設定するには、どうすればよいのでしょうか。  可能な最大値として、現在の 2 倍の値を使用するのではなく、データセット内で最大の総売上額を設定することにしましょう。 
 
 1. **[フィールド]** リストから、 **[最大値]** に **[総売上]** もドラッグします。
@@ -90,7 +90,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
    
    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>手順 5: レポートを保存する
+### <a name="step-5-save-your-report"></a>手順 5:レポートの保存
 1. [レポートを保存](../service-report-save.md)します。
 2. [ゲージ グラフをダッシュボード タイルとして追加](../service-dashboard-pin-tile-from-report.md)します。 
 

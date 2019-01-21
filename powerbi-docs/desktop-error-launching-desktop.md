@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 78cfcd51a951095353ce5d0f25c4511cc720c632
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f527fa17ab242f6835ca99a3ff3ef3e2525a001f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578223"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277137"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Power BI Desktop が起動しない問題を解決する
 **Power BI Desktop** では、以前のバージョンの **Power BI オンプレミス データ ゲートウェイ**をインストールして実行していたユーザーが Power BI Desktop を起動できないことがあります。これは、Power BI オンプレミス データ ゲートウェイがローカル コンピューターの名前付きパイプに設定した管理ポリシー制限が原因で発生します。 
@@ -23,13 +23,13 @@ ms.locfileid: "52578223"
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>オンプレミス データ ゲートウェイと Power BI Desktop での問題を解決する
 オンプレミス データ ゲートウェイに関する問題を解決して、Power BI Desktop を起動できるようにするには、3 つのオプションがあります。
 
-### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>解決方法 1: 最新バージョンの Power BI オンプレミス データ ゲートウェイをインストールする
+### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>解決方法 1:最新バージョンの Power BI オンプレミス データ ゲートウェイをインストールする
 Power BI オンプレミス データ ゲートウェイの最新バージョンでは、ローカル コンピューターの名前付きパイプに制限が設定されないため、Power BI Desktop を正常に起動できます。 引き続き Power BI オンプレミス データ ゲートウェイを使う必要がある場合は、この解決方法をお勧めします。 最新バージョンの Power BI オンプレミス データ ゲートウェイは、[こちら](https://go.microsoft.com/fwlink/?LinkId=698863)からダウンロードできます。 なお、このリンクはインストール用の実行可能ファイルへの直接ダウンロード リンクですのでご注意ください。
 
-### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>解決方法 2: Power BI オンプレミス データ ゲートウェイの Windows サービスをアンインストールまたは停止する
+### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>解決方法 2:Power BI オンプレミス データ ゲートウェイの Windows サービスをアンインストールまたは停止する
 Power BI オンプレミス データ ゲートウェイが不要になった場合は、これをアンインストールするか、Power BI オンプレミス データ ゲートウェイの Windows サービスを停止すれば、ポリシー制限が解除され、Power BI Desktop を起動できるようになります。
 
-### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>解決方法 3: 管理者特権を使って Power BI Desktop を実行する
+### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>解決方法 3:管理者特権を使って Power BI Desktop を実行する
 別の方法として、Power BI Desktop を管理者として正常に起動できれば、Power BI Desktop も正常に起動できます。 この場合でも、前述のとおり Power BI オンプレミス データ ゲートウェイの最新バージョンをインストールすることを勧めします。
 
 Power BI Desktop はマルチプロセス アーキテクチャとして設計されており、複数のプロセスが Windows 名前付きパイプを使って通信していることに注意することが重要です。 これらの名前付きパイプを干渉する他のプロセスがある可能性があります。 このような干渉の最も一般的な理由はセキュリティであり、ウイルス対策ソフトウェアやファイアウォールがパイプをブロックしたり、特定のポートにトラフィックをリダイレクトしたりしている場合があります。 管理者特権で Power BI Desktop を起動すると、その問題が解決する可能性があります。 管理者特権で起動できない場合は、管理者に連絡し、適用されているどのセキュリティ ルールによって名前付きパイプの正しい通信が妨げられているかを確認し、Power BI Desktop とその各サブプロセスをホワイトリストに登録してください。

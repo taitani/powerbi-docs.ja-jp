@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 01af6707cf53f1a5be3f1e7446e967b2306e993b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717925"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287073"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>画像、テキスト、ビデオ、その他をダッシュボードに追加する
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -28,7 +28,7 @@ ms.locfileid: "51717925"
 1. 上部のメニュー バーから **[タイルの追加]** を選択します。 領域の制限によって、プラス ![プラス記号](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png) 記号のみが表示される場合があります。
    
     ![タイルの追加アイコン](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
-2. 次の中から追加するタイルを選択します。**[イメージ]**、**[テキスト ボックス]**、**[ビデオ]**、**[Web コンテンツ]**、または **[カスタム ストリーミング データ]**。
+2. 次の中から追加するタイルを選択します:**[イメージ]**、**[テキスト ボックス]**、**[ビデオ]**、**[Web コンテンツ]**、**[カスタム ストリーミング データ]**。
    
     ![タイルの追加ウィンドウ](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "51717925"
 ## <a name="add-a-text-box-or-dashboard-heading"></a>テキスト ボックスまたはダッシュボードの見出しを追加する
 1. **[テキスト ボックス] > [次へ]** を選択します。
    
-   > **注**: ダッシュボードの見出しを追加するには、テキスト ボックスに見出しを入力して、フォントを大きくします。
+   > **注**:ダッシュボードの見出しを追加するには、テキスト ボックスに見出しを入力して、フォントを大きくします。
    > 
 2. テキスト ボックスの書式を設定します。
    

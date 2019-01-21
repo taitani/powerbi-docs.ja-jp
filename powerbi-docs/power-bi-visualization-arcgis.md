@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: e559cb3ed460c8d81406ae8c8b01fe33eceaf461
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266049"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293918"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Esri が提供する Power BI サービスおよび Power BI Desktop の ArcGIS マップ
 このチュートリアルは、ArcGIS マップを作成するユーザーの観点から書かれています。 作成者が同僚と ArcGIS マップを共有すると、その同僚はマップを表示および操作できますが、変更を保存することはできません。 ArcGIS マップの表示方法について詳しくは、「[Power BI での ArcGIS マップとの対話](visuals/power-bi-visualizations-arcgis.md)」をご覧ください。
@@ -112,7 +112,7 @@ Watch では、何種類かの ArcGIS マップ ビジュアルを作成でき�
 
 ## <a name="features-overview"></a>機能の概要
 ### <a name="base-maps"></a>ベースマップ
-キャンバス (ダーク グレー)、キャンバス (ライト グレー)、オープン ストリート マップ、ストリートという 4 つのベースマップが提供されます。  ストリートは、ArcGIS の標準的なベースマップです。
+次の 4 つのベースマップが提供されています:キャンバス (ダーク グレー)、キャンバス (ライト グレー)、オープン ストリート マップ、ストリート。  ストリートは、ArcGIS の標準的なベースマップです。
 
 ベースマップを適用するには、作業ウィンドウで選択します。
 
@@ -207,7 +207,7 @@ ArcGIS Online で、組織はパブリック Web マップを発行すること�
 2. 検索語句を入力し、マップ レイヤーを選択します。 この例では、米国の下院選挙区を選択しました。
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
-3. 詳細を表示するには、網掛け部分を選択して *[Select from reference layer]* (参照レイヤーから選択) を開きます。この場合、参照レイヤーの選択ツールを使用して、参照レイヤーの境界またはオブジェクトを選択します。
+3. 詳細を表示するには、網掛け部分を選択して *[Select from reference layer]\(参照レイヤーから選択\)* を開きます。この場合、参照レイヤーの選択ツールを使用して、参照レイヤーの境界またはオブジェクトを選択します。
 
 <br/>
 
@@ -325,7 +325,7 @@ Esri の ArcGIS Maps for Power BI の仕組みの技術的な詳細について�
 
 **キャッシュに空きがないというエラー メッセージが Power BI Desktop で表示されます**
 
-これは対処中のバグです。  解決するまで、キャッシュを削除するには C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF にあるファイルを削除してから、Power BI を再起動してみてください。
+これは対処中のバグです。  解決するまで、キャッシュを削除するには、C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF にあるファイルを削除してから、Power BI を再起動してみてください。
 
 **Power BI の ArcGIS マップで Esri シェープファイルはサポートされますか。**
 

@@ -1,22 +1,22 @@
 ---
-title: 'クイック スタート: モバイル アプリでダッシュボードとレポートを調べる'
+title: クイック スタート:モバイル アプリでダッシュボードとレポートを調べる
 description: このクイック スタートでは、Power BI モバイル アプリでサンプルのダッシュボードとレポートを調べます。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/16/2018
-ms.author: maggies
-ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.author: mshenhav
+ms.openlocfilehash: 9bb6dec4cdb689d2a21812b1dab8ebeb49090542
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157266"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279115"
 ---
-# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>クイック スタート: Power BI モバイル アプリでダッシュボードとレポートを調べる
+# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>クイック スタート:Power BI モバイル アプリでダッシュボードとレポートを調べる
 このクイック スタートでは、Android フォンで Power BI モバイル アプリを使ってサンプルのダッシュボードとレポートを調べます。 他のモバイル アプリでも同じようにできます。 
 
 適用対象:
@@ -153,5 +153,5 @@ Power BI は、Android 5.0 以降のオペレーティング システムを搭�
 このクイック スタートでは、Android デバイスを使ってサンプルのダッシュボードとレポートを調べました。 Power BI サービスでの作業についてさらにご覧ください。 
 
 > [!div class="nextstepaction"]
-> [クイック スタート: Power BI サービス内の移動](../end-user-experience.md)
+> [クイック スタート:Power BI サービス内の移動](../end-user-experience.md)
 

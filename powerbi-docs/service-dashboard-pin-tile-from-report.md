@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8ee878efe78e0f266e27b7404aa645dc8a0fd3bf
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: a9d3856f643eed0ccb5383f2dda55ea57a32908a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717725"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284934"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードにタイルをピン留め
 ## <a name="pinning-tiles-from-a-report"></a>レポートからタイルをピン留め
@@ -26,7 +26,7 @@ ms.locfileid: "51717725"
 
 他のユーザーと共有したレポートから、または Power BI Desktop から、タイルをピン留めすることはできません。 
 
-> **ヒント**: 一部の視覚エフェクトでは、背景画像が使われています。 背景画像が大きすぎる場合、ピン留めが動作しない可能性があります。  画像のサイズを小さくするか、画像の圧縮を使ってみてください。  
+> **ヒント**:一部の視覚エフェクトでは、背景画像が使われています。 背景画像が大きすぎる場合、ピン留めが動作しない可能性があります。  画像のサイズを小さくするか、画像の圧縮を使ってみてください。  
 > 
 > 
 
