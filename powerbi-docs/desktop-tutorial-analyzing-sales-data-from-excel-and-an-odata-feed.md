@@ -1,23 +1,23 @@
 ---
-title: 'チュートリアル: Power BI Desktop で Excel と OData フィードのデータを結合する'
-description: 'チュートリアル: Excel と OData フィードのデータを結合します'
+title: チュートリアル:Power BI Desktop で Excel と OData フィードのデータを結合する
+description: チュートリアル:Excel と OData フィードのデータを結合します
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: 0ec22bd142f7509935691ff7bfcd38cb51a04fb2
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280112"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285762"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル: Excel と OData フィードの売上データを結合する
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル:Excel と OData フィードの売上データを結合する
 
 製品情報を入れるデータベースと売上情報を入れるデータベースが異なるなど、データが複数のデータ ソースにまたがることは珍しくありません。 **Power BI Desktop** では、異なるソースからのデータを組み合わせて、興味深く説得力のあるデータ分析と視覚エフェクトを作成できます。 
 
@@ -56,7 +56,7 @@ ms.locfileid: "39280112"
 
 結合されたレポートでは、Excel ブックの **ProductID**、**ProductName**、**QuantityPerUnit**、**UnitsInStock** 列だけを使うので、他の列は削除できます。 
 
-1. **Power Query エディター**で、**ProductID**、**ProductName**、**QuantityPerUnit**、および **UnitsInStock** 列 を選びます (1 つ以上の列を選ぶには **Ctrl** キーを押しながら**クリック**し、隣り合う複数の列を選ぶには **Shift** キーを押しながら**クリック**します)。
+1. **Power Query エディター**で、**ProductID**、**ProductName**、**QuantityPerUnit**、および **UnitsInStock** 列 を選びます (1 つ以上の列を選ぶには **Ctrl**+ キーを押しながら**クリック**し、隣り合う複数の列を選ぶには **Shift** キーを押しながら**クリック**します)。
    
 2. 選んだいずれかの列のヘッダーを右クリックし、ドロップダウンから **[他の列の削除]** を選んで、選んだ列を除くすべての列をテーブルから削除します。 
    **[ホーム]** リボン タブの **[列の管理]** グループから **[列の削除]** > **[他の列の削除]** を選んでもかまいません。 
