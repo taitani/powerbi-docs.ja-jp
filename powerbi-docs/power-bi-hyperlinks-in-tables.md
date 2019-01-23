@@ -1,22 +1,22 @@
 ---
 title: テーブルにハイパーリンクを追加する
 description: Power BI Desktop を使用してハイパーリンクを作成します。 次に、Desktop または Power BI サービスを使って、レポートのテーブルとマトリックスにハイパーリンクを追加します。
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279897"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406663"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>テーブルにハイパーリンクを追加する
 このトピックでは、Power BI Desktop を使ってハイパーリンクを作成する方法を説明します。 次に、Desktop または Power BI サービスを使って、レポートのテーブルとマトリックスにハイパーリンクを追加します。 
@@ -25,7 +25,6 @@ ms.locfileid: "54279897"
 
 > [!NOTE]
 > [ダッシュボード上のタイル](service-dashboard-edit-tile.md)内および[ダッシュボード上のテキスト ボックス](service-dashboard-add-widget.md)内のハイパーリンクは、Power BI サービスを使ってその場で作成できます。 [レポートのテキスト ボックス](service-add-hyperlink-to-text-box.md)内のハイパーリンクは、Power BI サービスと Power BI Desktop を使ってその場で作成できます。
-> 
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Power BI Desktop を使ってテーブルまたはマトリックスにハイパーリンクを作成するには
@@ -56,7 +55,7 @@ Power BI Desktop ではテーブルやマトリックス内にハイパーリン
 6. (省略可能) [レポートを Desktop から Power BI サービスに発行](guided-learning/publishingandsharing.yml?tutorial-step=2)し、Power BI サービスでレポートを開きます。 ハイパーリンクは同様に機能します。
 
 ### <a name="for-data-connected-with-directquery"></a>DirectQuery を使用して接続したデータの場合
-DirectQuery モードでは新しい列を作成することはできません。  ただし、データに URL が既に含まれている場合は、それらの URL をハイパーリンクに変えることができます。
+DirectQuery モードでは新しい列を作成できません。  ただし、データに URL が既に含まれている場合は、それらの URL をハイパーリンクに変えることができます。
 
 1. レポート ビューで、URL が含まれるフィールドを使用してテーブルを作成します。
 2. その列を選び、**[モデリング]** タブで **[データ カテゴリ]** のドロップダウンを選びます。

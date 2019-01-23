@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: d4eeebca1505d376a403bf18f125782efb0d656d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283876"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394755"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server での Power BI のスケジュールされた更新
 Power BI レポートのスケジュールされた更新は、レポートのデータを最新の状態に保つことができます。
@@ -49,7 +49,7 @@ Power BI レポートによっては、スケジュールされた更新計画�
 * レポートに DirectQuery を使うデータ ソースが含まれている。
 * レポートにデータ ソースが含まれていない。 たとえば、データが *[データの入力]* を使って手動で入力されている場合や、レポートに画像やテキストなどの静的コンテンツのみが含まれている場合。
 
-上記のリストだけでなく、*インポート* モードのデータ ソースに関する特定のシナリオでは、更新計画を作成できません。
+上記の一覧だけでなく、*インポート* モードのデータ ソースに関する特定のシナリオでも、更新計画を作成できません。
 
 * *ファイル* または *フォルダー* データ ソースが使われていて、ファイルのパスがローカル パス (例: C:\Users\user\Documents) である場合、更新計画を作成することはできません。 パスは、ネットワーク共有のようにレポート サーバーが接続できるパスである必要があります。 たとえば、*\\myshare\Documents* などです。
 * OAuth (Facebook、Google Analytics、Salesforce など) を使うことによってのみ接続できるデータ ソースの場合、キャッシュ更新計画を作成することはできません。 現時点では、ページ分割されたレポート、モバイル レポート、または Power BI レポートのいずれでも、RS はすべてのデータ ソースについて OAuth 認証をサポートしません。

@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4d121a469257c79e37212ab0e357bb9ee8be68ec
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279207"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420788"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>クイック スタート:Power BI Desktop におけるデータへの接続
 
@@ -28,7 +28,7 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 ## <a name="prerequisites"></a>前提条件
 
 この記事の手順を完了するには、以下が必要です。
-* **Power BI Desktop** をダウンロードしてインストールします。このアプリケーションは無料であり、ローカル コンピューター上で動作します。 [**Power BI Desktop** を直接ダウンロードする](https://powerbi.microsoft.com/desktop)か、[**Microsoft ストア**](http://aka.ms/pbidesktopstore)から取得できます。
+* **Power BI Desktop** をダウンロードしてインストールします。このアプリケーションは無料であり、ローカル コンピューター上で動作します。 [**Power BI Desktop**](https://powerbi.microsoft.com/desktop) を直接ダウンロードするか、[**Microsoft ストア**](http://aka.ms/pbidesktopstore)から入手することができます。
 * [このサンプル Excel ブックをダウンロード](http://go.microsoft.com/fwlink/?LinkID=521962)し、この Excel ファイルを保存できる *C:\PBID-qs* という名前のフォルダーを作成します。 このクイックスタートの以降の手順では、それがダウンロード済みの Excel ブックのファイルの場所であることを前提とします。
 
 ## <a name="launch-power-bi-desktop"></a>Power BI Desktop を起動する
@@ -39,13 +39,13 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 
 ## <a name="connect-to-data"></a>データへの接続
 
-**Power BI Desktop** では、多数の異なる種類のデータに接続できます。 Microsoft Excel ファイルなどの基本的なデータ ソースに接続でき、あらゆる種類のデータが含まれている Salesforce、Microsoft Dynamics、Azure Blob Storage などのオンライン サービスにも接続できます。 
+**Power BI Desktop** では、多数の異なる種類のデータに接続できます。 Microsoft Excel ファイルなどの基本的なデータ ソースに接続でき、あらゆる種類のデータが含まれている Salesforce、Microsoft Dynamics、Azure Blob Storage などのオンライン サービスにも接続できます。
 
 データに接続するには、**[ホーム]** リボンの **[データの取得]** を選択します。
 
 ![データの取得](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-**[データの取得]** ウィンドウが表示され、**Power BI Desktop** が接続できる多数の異なるデータ ソースから選択できます。 このクイックスタートでは、この記事の始めの「*前提条件*」セクションで説明したダウンロード済みの Excel ブックを使用します。 
+**[データの取得]** ウィンドウが表示され、**Power BI Desktop** が接続できる多数の異なるデータ ソースから選択できます。 このクイックスタートでは、この記事の始めの「*前提条件*」セクションで説明したダウンロード済みの Excel ブックを使用します。
 
 ![データの取得](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
@@ -69,10 +69,8 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 
 これで完了です。 **Power BI Desktop** でデータに接続し、そのデータを読み込んで、それらのテーブル内のすべての利用可能なフィールドを表示しました。
 
-
 ## <a name="next-steps"></a>次の手順
+
 データに接続したら、ビジュアルとレポートの作成などのさまざまな操作を **Power BI Desktop** で行うことができます。 操作を開始するには、次のリソースを参照してください。
 
 * [Power BI Desktop のファースト ステップ ガイド](desktop-getting-started.md)
-
-

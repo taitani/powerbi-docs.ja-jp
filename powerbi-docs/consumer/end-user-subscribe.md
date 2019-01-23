@@ -1,6 +1,6 @@
 ---
-title: Power BI サービスのレポートとダッシュボードを購読する
-description: Power BI レポートやダッシュボードのスナップショットを自分や他のユーザーが購読する方法を説明します。
+title: Power BI コンシューマーがレポートとダッシュボードを購読する
+description: Power BI レポートやダッシュボードの電子メールでのスナップショットを自分で購読する方法を説明します。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,15 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/17/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 226d36690d2e3e98588802aa1e4fd9d5f7128ef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b07d3c1d8dec979c70eed86c01307f69af3e8396
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293012"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394628"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI サービスでレポートまたはダッシュボードをサブスクライブする 
 最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールの受信頻度は日に 1 回から週に 1 回の範囲で選択できます。 

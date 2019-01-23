@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 23b78ba20666d1a1d942c7a5bd59991205991bc1
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291977"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394826"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server とは
 
@@ -51,7 +51,7 @@ Power BI レポートは、データ モデルのマルチパースペクティ�
 [Power BI Report Server 向けに最適化された Power BI Desktop](quickstart-create-powerbi-report.md) をインストールします。
 
 ## <a name="paginated-reports"></a>ページ分割されたレポート
-ページ分割されたレポート (.RDL) は、視覚化されたドキュメント スタイルのレポートです。必要に応じてテーブルを水平方向と垂直方向に展開してすべてのデータを表示したり、複数のページにデータを連続表示したりすることができます。 これは、PDF や Word などの印刷用に最適化された固定レイアウトの完璧なピクセルのドキュメントを生成するのに適しています。 
+ページ分割されたレポート (.RDL) は、視覚化されたドキュメント スタイルのレポートです。必要に応じてテーブルを水平方向と垂直方向に展開してすべてのデータを表示したり、複数のページにデータを連続表示したりすることができます。 これは、PDF や Word などでの印刷に最適化された固定レイアウトの完璧なピクセルのドキュメントを生成するのに適しています。 
 
 ![Power BI Report Server のページ分割されたレポート](media/get-started/paginated-reports.png)
 

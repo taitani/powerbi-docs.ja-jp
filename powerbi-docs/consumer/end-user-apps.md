@@ -1,5 +1,5 @@
 ---
-title: Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
+title: Power BI とは?
 description: Power BI では、アプリが関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。
 author: mihart
 manager: kvivek
@@ -8,61 +8,42 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859deefd829a696d2a99e896439481357c698e4a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e741076bf345f093e249b398995a72a683ae84d6
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275159"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394793"
 ---
-# <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
-Power BI では、*アプリ*が関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。 組織内のユーザーは主要なビジネス情報でアプリを作成し、配布できます。 既にご利用中かもしれませんが、Google アナリティクスや Microsoft Dynamics CRM など、[外部サービス](../service-connect-to-services.md)も Power BI アプリを提供します。 
+# <a name="apps-in-power-bi"></a>Power BI のアプリ
+## <a name="what-is-a-power-bi-app"></a>Power BI とは?
+*アプリ*とは、関連するダッシュ ボードとレポートがすべて 1 か所にまとめられた Power BI のコンテンツの種類です。 アプリでは、1 つ以上のダッシュ ボードと 1 つ以上のレポートをすべてまとめることができます。 アプリは、あなたのような*コンシューマー*に、アプリを配布するおよび共有する Power BI *デザイナー*によって作成されます。 
 
-![Power BI のアプリ](./media/end-user-apps/power-bi-apps-navbar.png)
+ご使用のアプリは、**[アプリ]** コンテンツ リストにまとめられます。
 
-アプリは Power BI サービスとご利用のモバイル デバイスで簡単に検索してインストールすることができます。 アプリのインストール後は、さまざまなダッシュボードの名前を覚えておく必要がありません。ブラウザー内やモバイル デバイス上では 1 つのアプリにまとめて表示されるためです。
+![Power BI のアプリ](./media/end-user-apps/power-bi-apps-nav.png)
+
+## <a name="app-designers-and-app-consumers"></a>アプリの***デザイナー***とアプリの***コンシューマー***
+自分の役割に応じて、あなたは自分で使用したり、同僚と共有したりするアプリの作成者 (デザイナー) である場合があります。 または、他のユーザーが作成したアプリを受け取りダウンロードするコンシューマーである場合があります。 この記事は、アプリの*コンシューマー*を対象としています。
+
+## <a name="advantages-of-apps"></a>アプリの利点
+アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) とご利用のモバイル デバイスに簡単に検索してインストールできます。 アプリのインストール後は、さまざまなダッシュボードの名前を覚えておく必要がありません。ブラウザー内やモバイル デバイス上では 1 つのアプリにまとめて表示されるためです。
+
 
 アプリの作者が更新プログラムを公開するたびに、自動的に変更が反映されます。 作成者はデータの更新頻度も制御するため、最新の状態が維持されているかを気にする必要はありません。 
 
+<!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>新しいアプリを取得する
-さまざまな方法でアプリを入手できます。 アプリの作成者は、ユーザーの Power BI アカウントに自動的にアプリをインストールしたり、アプリへの直接リンクを送信したりできます。あるいはユーザーが AppSource でアプリを検索することもできます。AppSource にはユーザーがアクセスできるアプリがすべて表示されます。 モバイル デバイスの Power BI の場合、直接リンクからのみインストールできます。AppSource からはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。
-
-### <a name="install-an-app-from-a-direct-link"></a>直接リンクからのアプリをインストールする
-新しいアプリを自分でインストールする最も簡単な方法は、アプリの作成者から直接リンクを取得することです。 Power BI では、作成者が送信できるインストール リンクが作成されます。
-
-**コンピューターで** 
-
-メールのリンクを選択して Power BI サービス ([https://powerbi.com](https://powerbi.com)) をブラウザーで開きます。 アプリのインストールを確認すると、アプリのランディング ページが開きます。
-
-![Power BI サービスのアプリ ランディング ページ](./media/end-user-apps/power-bi-get-app.png)
-
-**iOS または Android モバイル デバイスで** 
-
-モバイル デバイスで電子メールにあるリンクを選択すると、アプリが自動的にインストールされ、モバイル アプリでアプリのコンテンツ リストが開きます。 
-
-![モバイル デバイスのアプリ コンテンツ リスト](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
-
-### <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource からアプリを取得する
-アクセス許可のあるアプリを、Microsoft AppSource から検索してインストールすることもできます。 
-
-1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png) > **[アプリの取得]** の順に選択します。 
-   
-     ![[アプリの取得] アイコン](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
-2. [AppSource] の **[My organization]\(自分の組織\)** で、結果を絞り込むための検索を行って、探しているアプリを見つけます。
-   
-     ![AppSource の [自分の所属組織]](./media/end-user-apps/power-bi-appsource-my-org.png)
-3. **[Get it now (今すぐ取得)]** を選択して、[アプリ] ページにアプリを追加します。 
-
-## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>アプリのダッシュボードとレポートを操作する
-これで、アプリのダッシュボードおよびレポートのデータを探索できます。 フィルター処理、強調表示、並べ替え、ドリル ダウンなど、Power BI の標準機能にすべてアクセスできます。 [Power BI でレポートを使用する方法](end-user-reading-view.md)に関するページをご覧ください。 
-
-![Power BI ビジュアルからデータをエクスポートする](./media/end-user-apps/power-bi-service-export-data-visual.png)
+さまざまな方法でアプリを入手できます。 
+- アプリの作成者が、アプリを Power BI アカウントに自動的にインストールすると、Power BI を次回開いたときに、新しいアプリが **[アプリ]** コンテンツ リストに表示されます。 
+- アプリの作成者は、アプリの直接リンクをメールで送信できます。 このリンクを選択すると、アプリが Power BI で開きます。
+- アプリは、アクセスできるすべてのアプリが表示される AppSource で検索することができます。 AppSource には、社内と社外の両方のレポート デザイナーが公開したアプリがあります。 たとえば、AppSource には、Google Analytics、GitHub または Microsoft Dynamics など、既に使用しているサービスのアプリがあります。 
+- モバイル デバイスの Power BI では、直接リンクからのみアプリをインストールできます。AppSource からはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。
 
 
-
-## <a name="next-steps"></a>次の手順
-[外部サービス用の Power BI アプリ](../service-connect-to-services.md)
+## <a name="next-step"></a>次の手順
+* [アプリを開いて操作する](end-user-app-view.md)
 
