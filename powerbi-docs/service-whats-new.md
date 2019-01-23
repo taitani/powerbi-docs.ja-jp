@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406755"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488916"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -197,7 +197,7 @@ ms.locfileid: "54406755"
 ***行レベルのセキュリティ (RLS)***
 
 * Azure Active Directory (AAD) グループ サポート:ユーザーは AAD グループ (セキュリティ グループと配信一覧) をロールに割り当てることができるようになりました。 大きなユーザー グループにロールを一度に割り当てる作業がこれで簡単になります。
-* [RLS が適用されたデータで支援されたレポートで RLS ロールをテストする](service-admin-rls.md#validating-the-role-within-power-bi-desktop):特定のロールとしてデータセットをテストできる機能を RLS プレビューに追加しました。 ユーザーがダッシュボードを使用する前に、ロールが予想どおり動作することを確認できます。
+* [RLS が適用されたデータで支援されたレポートで RLS ロールをテストする](service-admin-rls.md#validate-the-roles-within-power-bi-desktop):特定のロールとしてデータセットをテストできる機能を RLS プレビューに追加しました。 ユーザーがダッシュボードを使用する前に、ロールが予想どおり動作することを確認できます。
 * 直接のクエリに基づき、RLS を定義し、クラウド モデルに適用する:直接のクエリ データ ソースに対して RLS ルールを作成し、適用できるようになりました。
 
 ***ダッシュボード***
