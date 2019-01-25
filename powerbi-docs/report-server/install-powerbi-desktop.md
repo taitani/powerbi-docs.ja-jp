@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 01/14/2019
 ms.author: maggies
-ms.openlocfilehash: 943e81c8c49a4a0707ed41b593093fc27a85a01e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295883"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488824"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
 Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール方法について説明します。
@@ -31,7 +31,7 @@ Power BI Report Server 向けに最適化された Power BI Desktop のバージ
 
     ![Web ポータルから Power BI Desktop をダウンロードする](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Microsoft ダウンロード センターの (Power BI Report Server (2018 年 8 月) 向けに最適化された) [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) に直接移動することもできます。
+    または、Microsoft ダウンロード センターの (Power BI Report Server (2019 年 1 月) 向けに最適化された) [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) に直接移動します。
 
 2. ダウンロード センター ページで、**[ダウンロード]** を選択します。
 
@@ -41,7 +41,7 @@ Power BI Report Server 向けに最適化された Power BI Desktop のバージ
 
     - **PBIDesktopRS_x64.msi** (64 ビット バージョン)
 
-1. インストーラーをダウンロードしたら、Power BI Desktop (2018 年 8 月) のセットアップ ウィザードを実行します。
+1. インストーラーをダウンロードしたら、Power BI Desktop (2019 年 1 月) のセットアップ ウィザードを実行します。
 
 2. インストールの最後に、**[Start Power BI Desktop now]** \(今すぐ Power BI Desktop を起動する\) をオンにします。
    

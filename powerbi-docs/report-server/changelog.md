@@ -9,18 +9,41 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292033"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488870"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
 この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
 
 新機能の詳細については、「[Power BI レポート サーバーの新機能](whats-new.md)」を参照してください。 
+
+## <a name="january-2019"></a>2019 年 1 月
+- **Power BI Report Server**            
+    - *バージョン 1.4.6960.38798 (ビルド 15.0.1102.222)、リリース日: 2019 年 1 月 22 日*
+        - 機能
+            - Power BI レポート 
+                - 行レベルのセキュリティのサポート
+                - マトリックス行ヘッダーの展開と折りたたみ
+                - .pbix ファイル間でのコピーと貼り付け
+                - スマート配置ガイド
+                - SAP BW 2.0 コネクタのサポート
+            - 管理者
+                - レポート サーバーにアップロードできるリソースの拡張子を制限する機能
+                - サポートされるハイパーリンク スキームを制限する機能
+        - バグの修正
+            - HTML インジェクションの脆弱性
+            - PDF にエクスポートした場合、ユーロ通貨記号は表示されません。
+            - Power BI レポート内の複数のデータ ソースに対して 1 つのパスワードを保存すると、変更されていないパスワードは無効になります
+            - Power BI Mobile アプリ内でアイドル状態になると、ビジュアルによって問題が表示されます。
+
+- **Power BI Desktop (Power BI Report Server 用に最適化)**
+    - *バージョン:2.65.5313.1421 (2019 年 1 月)、リリース日:2019 年 1 月 22 日*
+        - Power BI Report Server (2019 年 1 月) との接続に必要な変更が含まれます。  
 
 ## <a name="august-2018"></a>2018 年 8 月
 - **Power BI Report Server**

@@ -8,31 +8,47 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/22/2019
+ms.openlocfilehash: 2a65baf94abcb79dac7bb9419ad67124f2b65bb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292455"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488939"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
 Power BI レポート サーバーの新機能について説明します。 この記事は主要な機能領域を網羅しており、新しいアイテムがリリースされるたびに更新されます。
 
-Power BI Report Server および Power BI Report Server 向けに最適化された Power BI Desktop をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」を参照してください。
-
-また、次のソースをチェックして、Power BI Report Server の新機能に関する最新情報を常に把握してください。
-
-* [Microsoft Power BI ブログ](https://powerbi.microsoft.com/blog/)
-* [SQL Server Reporting Services チームのブログ](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [Guy in a Cube の YouTube チャネル](https://aka.ms/guyinacube)
+Power BI Report Server および Power BI Report Server 向けに最適化された Power BI Desktop の最新バージョンをダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」を参照してください。
 
 関連するPower BI の最新情報については、以下を参照してください。
 
 * [Power BI サービスの新機能](../service-whats-new.md)
 * [Power BI Desktop の新機能](../desktop-latest-update.md)
 * [Power BI 用モバイル アプリの新機能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2019"></a>2019 年 1 月
+
+Power BI レポートでは、次の機能がサポートされています。
+
+[**行レベルのセキュリティ**](row-level-security-report-server.md) Power BI Report Server を使用して行レベルのセキュリティ (RLS) を設定すると、特定のユーザーについてデータ アクセス権を制限することができます。 フィルターでは行レベルでデータ アクセスが制限され、ロール内でフィルターを定義することができます。
+
+[**マトリックス行ヘッダーでの展開と折りたたみ**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) 個々の行ヘッダーの展開/折りたたみ機能を追加しました。これは最も要望の多かったビジュアル機能の 1 つです。
+
+[**.pbix ファイル間でのコピーと貼り付け**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) .pbix ファイル間で、ビジュアルをコピーして (ビジュアルのコンテキスト メニューまたは標準的な Ctrl + C キーボード ショートカットを使用)、それを別のレポートに貼り付ける (Ctrl + V キーを使用) ことができます。
+
+[**スマート配置ガイド**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) レポートのページ上でオブジェクトを移動するときにスマート配置ガイドが表示され (PowerPoint で表示されるように)、ページ上で行うあらゆる配置が楽に行えます。 ご利用のページ上で何かをドラッグまたはサイズ変更する場合は常にスマート ガイドが表示されます。 オブジェクトを別のオブジェクトの近くに移動する場合、移動するオブジェクトは他方のオブジェクトと揃えられた位置に配置されます。
+
+**アクセシビリティ機能**一覧されるアクセシビリティ機能が多すぎます: たとえば、[フィールド一覧ペインのアクセシビリティ サポート](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 フィールド一覧ペインには、完全にアクセスできます。 キーボードとスクリーン リーダーを使用するだけで、ウィンドウ内を移動することができ、さらにコンテキスト メニューを使用することで、ご利用のレポート ページにフィールドを追加できます。
+
+### <a name="administrator-settings"></a>管理者の設定
+
+管理者は、サーバー ファームの SSMS 詳細プロパティで、次のプロパティを設定できます。
+
+**AllowedResourceExtensionsForUpload** レポート サーバーにアップロードできるリソースの拡張子を設定します。 &ast;.rdl や &ast;.pbix などの組み込みのファイル形式に対する拡張子を含める必要はありません。 既定値は、“&ast;、&ast;.xml、&ast;.xsd、&ast;.xsl、&ast;.png、&ast;.gif、&ast;.jpg、&ast;.tif、&ast;.jpeg、&ast;.tiff、&ast;.bmp、&ast;.pdf、&ast;.svg、&ast;.rtf、&ast;.txt、&ast;.doc、&ast;.docx、&ast;.pps、&ast;.ppt、&ast;.pptx” です。 
+
+**SupportedHyperlinkSchemes** レンダリングが許可されるハイパーリンク アクション上で定義することが許可される URI スキームのコンマ区切り一覧を設定するか、すべてのハイパーリンク スキームを有効にする “&ast;” を設定します。 たとえば、"http,https" を設定した場合、"https://www. contoso.com” へのハイパーリンクは許可されますが、“mailto:bill@contoso.com” または “javascript:window.open(‘www.contoso.com’, ‘_blank’)” へのハイパーリンクは削除されます。 既定値は “&ast;” です。
 
 ## <a name="august-2018"></a>2018 年 8 月
 
@@ -325,10 +341,10 @@ Power BI Report Server は、Power BI の新しいテーブル ビジュアル�
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI Report Server とは](get-started.md) 
-[管理者向けハンドブック](admin-handbook-overview.md)  
-[Power BI レポート サーバーのインストール](install-report-server.md)  
-[レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
+次のソースをチェックして、Power BI Report Server の新機能に関する最新情報を常に把握してください。
+
+* [Microsoft Power BI ブログ](https://powerbi.microsoft.com/blog/)
+* [SQL Server Reporting Services チームのブログ](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Guy in a Cube の YouTube チャネル](https://aka.ms/guyinacube)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
