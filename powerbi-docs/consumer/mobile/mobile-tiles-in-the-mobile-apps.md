@@ -103,7 +103,7 @@ ms.locfileid: "54286406"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   "*この横棒グラフでは、**Decor** バーの値はグラフの上部に表示されます。*"
+   "*この横棒グラフでは、 **Decor** バーの値はグラフの上部に表示されます。*"
    
    **[全画面表示]** アイコン ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) をタップすると、タイルが全画面表示モードで開き、ナビゲーション バーとメニュー バーは表示されません。
    

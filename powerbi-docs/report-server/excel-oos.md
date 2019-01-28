@@ -57,7 +57,7 @@ Office Online Server を実行するサーバーで以下の手順を実行し�
 1. [ボリューム ライセンス サービス センター (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) から Office Online Server をダウンロードします。 ダウンロードは、VLSC ポータルの Office 製品の下にあります。 開発目的の場合、MSDN サブスクライバー ダウンロードから OOS をダウンロードできます。
 2. Setup.exe を実行します。
 3. **[マイクロソフト ソフトウェア ライセンス条項をお読みください]** ページで、**[「マイクロソフト ソフトウェア ライセンス条項」に同意します]** を選択し、**[続行]** を選択します。
-4. **[ファイルの場所を選択してください]** ページで、Office Online Server ファイルをインストールするフォルダーを選択し (例: C:\Program Files\Microsoft Office Web Apps*)、**[今すぐインストール]** を選択します。 指定したフォルダーが存在しない場合、自動的に作成されます。
+4. **[ファイルの場所を選択してください]** ページで、Office Online Server ファイルをインストールするフォルダーを選択し (例: C:\Program Files\Microsoft Office Web Apps*)、 **[今すぐインストール]** を選択します。 指定したフォルダーが存在しない場合、自動的に作成されます。
 
     Office Online Server はシステム ドライブにインストールすることが推奨されます。
 
