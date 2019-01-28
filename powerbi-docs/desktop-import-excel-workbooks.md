@@ -66,6 +66,6 @@ Power BI Desktop には、ブックをインポートする際に次のような
 * **階層:** 現在は、Power BI Desktop でこの種類のデータ モデル オブジェクトはサポートされていません。 そのため、Power BI Desktop への Excel ブックのインポートの一部として、階層はスキップされます。
 * **バイナリ データ列:** 現在は、Power BI Desktop でこの種類のデータ モデル列はサポートされていません。 バイナリ データ列は、Power BI Desktop の結果のテーブルから削除されます。
 * **サポートされていない Power View の要素:** テーマや特定の種類の視覚化 (再生軸のある散布図、ドリルダウン動作) など、Power View のいくつかの機能が Power BI Desktop で利用できません。 これらの視覚化はサポートされていないため、Power BI Desktop レポートの該当する場所に *サポートされていない視覚化* というメッセージが表示され、必要に応じてこれを削除したり、再構成したりできます。
-* **Power Query の** ***[ソース テーブル]*****、または M の** ***Excel.CurrentWorkbook*** **を使用した名前付き範囲**:この名前付き範囲のデータの Power BI Desktop へのインポートは現在サポートされていませんが、Power BI Desktop の更新プログラムに含まれる予定です。 現時点では、これらの名前付き範囲は、外部の Excel ブックへの接続として Power BI Desktop に読み込まれます。
+* **Power Query の** ***[ソース テーブル]***、 **または M の**  ***Excel.CurrentWorkbook*** **を使用した名前付き範囲**:この名前付き範囲のデータの Power BI Desktop へのインポートは現在サポートされていませんが、Power BI Desktop の更新プログラムに含まれる予定です。 現時点では、これらの名前付き範囲は、外部の Excel ブックへの接続として Power BI Desktop に読み込まれます。
 * **PowerPivot から SSRS:** PowerPivot の SQL Server Reporting Services (SSRS) への外部接続は現在サポートされていません。これは、そのデータ ソースが現在 Power BI Desktop で利用できないためです。
 

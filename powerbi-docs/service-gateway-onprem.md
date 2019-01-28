@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287901"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899252"
 ---
 # <a name="on-premises-data-gateway"></a>オンプレミス データ ゲートウェイ
 
@@ -96,7 +96,9 @@ Power BI にサインインし、クラウド サービスにゲートウェイ�
 
 ## <a name="tenant-level-administration"></a>テナント レベルの管理
 
-現在、テナント管理者が、他のユーザーがインストールおよび構成しているすべてのゲートウェイを管理できる場所がありません。  テナント管理者である場合は、組織内のユーザーに対して、インストールされているすべてのゲートウェイに管理者として追加することを求めるようお勧めします。 これにより、[ゲートウェイ設定] ページまたは [PowerShell コマンド](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)を介して組織内のすべてのゲートウェイを管理することができます。 
+テナント管理者は自分のテナント内にインストールされているオンプレミス データ ゲートウェイをすべて表示し、管理できます。 この機能は現在パブリック プレビューです。 詳細については、「[Power プラットフォーム管理センター](/power-platform/admin/onpremises-data-gateway-management)」を参照してください。
+
+あるいは、テナント管理者の場合は、組織内のユーザーに対して、インストールされているすべてのゲートウェイに対して管理者としての追加を依頼することをお勧めします。 これにより、[ゲートウェイ設定] ページまたは [PowerShell コマンド](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters)を介して組織内のすべてのゲートウェイを管理することができます。 
 
 ## <a name="enabling-outbound-azure-connections"></a>Azure の送信接続を有効にする
 
