@@ -60,8 +60,8 @@ Azure 監査ログのコンテンツ パックには、Azure portal の監査ロ
 ## <a name="finding-parameters"></a>パラメーターの見つけ方
 サブスクリプション ID を確認するには、2 つの簡単な方法があります。
 
-1. https://portal.azure.com  -&gt; [参照] -&gt; [サブスクリプション] -&gt; [サブスクリプション ID]
-2. https://manage.windowsazure.com  - &gt; [設定] -&gt; [サブスクリプション ID]
+1. https://portal.azure.com -&gt;[参照] -&gt; [サブスクリプション] -&gt; [サブスクリプション ID]
+2. https://manage.windowsazure.com -&gt;[設定] -&gt; [サブスクリプション ID]
 
 サブスクリプション Id は数字や文字の長いセットで、上記の手順 \#4 の例のようになります。 
 
