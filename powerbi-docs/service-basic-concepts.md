@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/18/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 487a67f48913ee774904377956eee85ccbae49fc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296687"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147452"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI サービスのデザイナー向けの基本的な概念
 
@@ -56,7 +56,7 @@ Power BI の 4 つの主要な構成要素は、 **_ダッシュボード_** 、
 次に、Power BI の構成要素について説明します。 ダッシュボードやレポートは、データがないと使用できません (空のダッシュボードや空のレポートを設けることもできますが、データが取り込まれるまでは利用価値がありません)。そのため、**データセット**から始めましょう。
 
 ## <a name="datasets"></a>データセット
-*データセット*は、*インポート先*または*接続先*となるデータの集まりです。 Power BI を使うと、あらゆる種類のデータセットに接続してインポートし、すべてを 1 か所にまとめることができます。  
+*データセット* は、*インポート先*または*接続先*となるデータのコレクションです。 Power BI を使うと、あらゆる種類のデータセットに接続してインポートし、すべてを 1 か所にまとめることができます。  
 
 データセットは "*ワークスペース*" と関連付けられており、1 つのデータセットが多くのワークスペースの一部になることができます。 ワークスペースを開くと、関連付けられているデータセットが **[データセット]** タブに一覧表示されます。表示されている各データセットは、データの 1 つのソースを表します。たとえば、OneDrive の Excel ブック、オンプレミスの SSAS 表形式データセット、Salesforce データセットなどです。 多くのさまざまなデータ ソースがサポートされており、頻繁に新しいデータソースが追加されていきます。 [Power BI で使用できるデータセットの種類の一覧を参照してください](service-get-data.md)。
 
@@ -223,7 +223,6 @@ Q&A では、質問の入力を開始するとすぐに Q&A ページが表示�
 
 ## <a name="next-steps"></a>次の手順
 - [Power BI とは?](power-bi-overview.md)  
-- [ナビゲーション:Power BI サービス内の移動](service-the-new-power-bi-experience.md)
 - [Power BI のビデオ](videos.md)  
 - [レポート エディター...紹介を見る](service-the-report-editor-take-a-tour.md)
 
