@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277229"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899298"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI サービスのデータ ソース
 データは Power BI の中核です。 データを探索したり、グラフとダッシュボードを作成したり、Q&A で質問したりする場合、表示されるすべての視覚エフェクトと回答は、データセットの基になるデータから取得されます。 しかし、そのデータセットはどこから得られるでしょうか。 データ ソースからです。
@@ -29,7 +29,7 @@ ms.locfileid: "54277229"
 ## <a name="files"></a>ファイル
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (.xlsx、xlxm) - Excel は特有で、ワークシートに自分で入力したデータ、および Power Query (Excel 2016 の [取得と変換]) や Power Pivot を使用して外部データ ソースからデータをクエリして読み込んだデータの両方を、ブックに含めることができます。 ワークシートのテーブル内のデータ (データはテーブルに含まれる*必要があります*) またはデータ モデルに読み込まれたデータを、インポートできます。 詳しくは、[Excel からのデータの取得](service-get-data-from-files.md)に関するページをご覧ください。
+**Excel** (.xlsx、.xlsm) - Excel は特有で、ワークシートに自分で入力したデータ、および Power Query (Excel 2016 の [取得と変換]) や Power Pivot を使用して外部データ ソースからデータをクエリして読み込んだデータの両方を、ブックに含めることができます。 ワークシートのテーブル内のデータ (データはテーブルに含まれる*必要があります*) またはデータ モデルに読み込まれたデータを、インポートできます。 詳しくは、[Excel からのデータの取得](service-get-data-from-files.md)に関するページをご覧ください。
 
 **Power BI Desktop** (.pbix) - Power BI Desktop を使うと、外部データ ソースのデータのクエリや読み込み、メジャーやリレーションシップを使ったデータ モデルの拡張、レポートの作成を行うことができます。 Power BI Desktop ファイルを Power BI サイトにインポートできます。 Power BI Desktop はデータ ソース、データ クエリや変換、データ モデリングの概念をよく理解している上級ユーザー向けに最適です。 詳しくは、「[Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)」をご覧ください。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284497"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899229"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle データベースへの接続
 **Power BI Desktop** を使用して Oracle データベースに接続するには、Power BI Desktop を実行しているコンピューター上に適切な Oracle クライアント ソフトウェアをインストールする必要があります。 使用する Oracle クライアント ソフトウェアは、インストールした Power BI Desktop のバージョン ( **32 ビット**バージョンか **64 ビット**バージョン) によって異なります。
@@ -51,3 +51,11 @@ Power BI Desktop の **64 ビット** バージョンの場合、次のリンク
 4. [Oracle データベース] ダイアログに Oracle データベース情報 (SID やネイティブ データベース クエリといったオプションの情報を含む) を入力したら、**[OK]** を選択して接続します。
 5. Oracle データベースがデータベース ユーザー資格情報を必要とする場合、ダイアログで指示が表示されたら資格情報を入力します。
 
+
+## <a name="troubleshooting"></a>トラブルシューティング
+
+Microsoft Store から Power BI Desktop をダウンロードした場合、Oracle ドライバーの問題により Oracle データベースに接続できない可能性があります。 この問題が発生した場合は、"オブジェクト参照が設定されていません" というエラー メッセージが返されます。 この問題に対処するには、次のいずれかの操作を行ってください。
+
+* 代わりに https://powerbi.microsoft.com/desktop から Power BI Desktop をダウンロードします。
+
+* Microsoft Store から取得したバージョンを使用する場合は、ご利用のローカル コンピューター上で、_12.X.X\client_X_ から _12.X.X\client_X\bin_ に oraons.dll をコピーします。 X はバージョンおよびディレクトリの番号を表します。

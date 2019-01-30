@@ -1,6 +1,6 @@
 ---
-title: Power BI サービスの概要 (Power BI オンライン)
-description: Power BI オンラインの概要 (app.powerbi.com)
+title: Power BI サービスの概要
+description: Power BI オンライン サービスの概要 (app.powerbi.com)
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,20 +8,20 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291987"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147498"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>チュートリアル:Power BI サービスの概要 (app.powerbi.com)
+# <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>チュートリアル:Power BI サービスの概要 (app.powerbi.com)
 このチュートリアルは、初めて ***Power BI サービス***を使うときに役立ちます。 Power BI サービスと他の Power BI 製品の関係を理解するため、最初に「[Power BI とは?](power-bi-overview.md)」を読むことを強くお勧めします。
 
-![デスクトップ、サービス、モバイルの間のリレーションシップを示すアート](media/service-get-started/power-bi-components.png)
+![Power BI Desktop、サービス、モバイルの間のリレーションシップを示すアート](media/service-get-started/power-bi-components.png)
 
 このチュートリアルでは、以下の手順を実行します。
 
@@ -35,25 +35,25 @@ ms.locfileid: "54291987"
 > * Q&A 自然言語ツールを利用し、別の視覚化をダッシュボードに追加します
 > * データセット、レポート、ダッシュボードを削除してリソースをクリーンアップします
 
-## <a name="sign-up-for-power-bi-service"></a>Power BI サービスにサインアップする
+## <a name="sign-up-for-the-power-bi-service"></a>Power BI サービスにサインアップする
 Power BI にサインアップしていない場合は、始める前に[無料の Power BI Pro 試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
 
-アカウントが既にある場合は、ブラウザーを開き、「app.powerbi.com」と入力すると Power BI サービスが開きます。 
+アカウントを既に持っている場合は、ブラウザーを開き、「app.powerbi.com」と入力すると Power BI サービスが開きます。 
 
 ![無料のサインインまたはサインアップ](media/service-get-started/power-bi-sign-up.png)
 
-Power BI Desktop のヘルプを探している場合は、「[デスクトップを使う](desktop-getting-started.md)」をご覧ください。 Power BI モバイルについては、「[モバイル デバイス用の Power BI アプリ](consumer/mobile/mobile-apps-for-mobile-devices.md)」をご覧ください。
+Power BI Desktop のヘルプを探している場合は、「[Power BI Desktop の概要](desktop-getting-started.md)」をご覧ください。 Power BI モバイルについては、「[モバイル デバイス用の Power BI アプリ](consumer/mobile/mobile-apps-for-mobile-devices.md)」をご覧ください。
 
 > [!TIP]
 > 自分のペースで進められる無料のトレーニング コースを代わりに選択しますか? [EdX の Analyzing and Visualizing Data (データの分析と視覚化) コースに登録](http://aka.ms/edxpbi)してください。
 
-[YouTube の再生リスト](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)を参照してください。 始めるのに役に立つビデオは、「Introduction to Power BI service」 (Power BI サービスの概要) です。
+[YouTube の再生リスト](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)を参照してください。 使い始める場合は、次のビデオ「Introduction to Power BI service」 (Power BI サービスの概要) が役に立ちます。
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-## <a name="what-is-power-bi-service"></a>Power BI サービスとは何ですか?
-Microsoft Power BI サービスとは、Power BI オンラインまたは app.powerbi.com とも呼ばれています。 Power BI を利用すると、自分にとって重要な事柄について常に最新情報を得ることができます。  Power BI サービスの***ダッシュボード***を使うと、ビジネスの最新情報を入手できます。  ダッシュボードに***タイル***が表示されます。タイルをクリックすると、***レポート***を開いてさらに調査できます。  複数の***データ セット***に接続し、関連するすべてのデータを 1 か所にまとめます。 Power BI を構成する要素を理解するうえで助けが必要ですか?  「[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)」をご覧ください。
+## <a name="what-is-the-power-bi-service"></a>Power BI サービスとは何ですか?
+Microsoft Power BI サービスは、Power BI オンラインまたは app.powerbi.com とも呼ばれています。 Power BI を利用すると、自分にとって重要な事柄について常に最新情報を得ることができます。  Power BI サービスの***ダッシュボード***を使うと、ビジネスの実情を正確に把握することができます。  ダッシュボードに***タイル***が表示されます。タイルをクリックすると、***レポート***を開いてさらに調査できます。  複数の***データ セット***に接続し、関連するすべてのデータを 1 か所にまとめます。 Power BI を構成する要素を理解するうえで助けが必要ですか?  「[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)」をご覧ください。
 
 Excel ファイルまたは CSV ファイルに重要なデータがある場合、Power BI ダッシュボードを作成し、どこにいても通知が受けられるようにし、他のユーザーと洞察を共有できるようにすることができます。  Salesforce などの SaaS アプリケーションへのサブスクリプションを使用していますか。  Salesforce に接続してそのデータから自動的にダッシュボードを作成するか、接続可能な[その他のすべての SaaS アプリケーションをチェックアウト](service-get-data.md)すると、一歩進んだスタートが切れます。 組織に属している場合は、[アプリ](service-create-distribute-apps.md)が自分に公開されているかどうかを確認します。
 

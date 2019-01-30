@@ -8,21 +8,21 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284433"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147406"
 ---
-# <a name="tour-of-the-report-editor-in-power-bi"></a>Power BI のレポート エディターのツアー
+# <a name="tour-the-report-editor-in-power-bi"></a>Power BI でのレポート エディターのツアー
 
 Power BI サービスの*レポート エディター*と Power BI Desktop のレポート エディターは似ています。 ビデオでは Power BI Desktop のレポート エディターを、この記事では Power BI サービスのレポート エディターを説明します。 
 
-レポート作成者は、ダッシュボードとレポートを作成し、編集します。 その後、レポートの利用者に配布します。 レポートの利用者は Power BI サービスの読み取りビューでダッシュボードやレポートを閲覧できますが、編集はできません。 Power BI サービスのレポートの読み取りビューと編集ビューの違いについては[こちら](consumer/end-user-reading-view.md)をお読みください 
+レポート作成者は、ダッシュボードとレポートを作成し、編集します。 その後、レポートの利用者に配布します。 レポートの利用者は Power BI サービスの読み取りビューでダッシュボードやレポートを閲覧できますが、編集はできません。 詳細については、[Power BI サービスでレポート コンシューマーが行うことができる内容](consumer/end-user-reading-view.md)に関するページを参照してください。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -65,18 +65,18 @@ Power BI レポート エディターには 3 つのセクションがありま�
 詳細については、「[Power BI レポートへの視覚化の追加](visuals/power-bi-report-add-visualizations-i.md)」を参照してください。
 
 ### <a name="format-your-visuals"></a>ビジュアルの書式設定
-ペイント ローラー アイコンを選択して書式ウィンドウを表示します。 使用可能なオプションは、選んだ視覚化の種類によって異なります。
+ペイント ローラー アイコンを選択して書式ウィンドウを表示します。 使用可能なオプションは、選択した視覚エフェクトの種類に応じて異なります。
 
 ![レポート エディターの書式設定ウィンドウ](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
 書式設定の可能性は、ほぼ無限です。  詳しくは、実際に使ってみるか、次の記事を参照してください。
 
-* [視覚化タイトル、背景、および凡例のカスタマイズ](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [視覚エフェクト タイトル、背景、および凡例のカスタマイズ](visuals/power-bi-visualization-customize-title-background-and-legend.md)
 * [色の書式設定](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
 * [X 軸と Y 軸のプロパティのカスタマイズ](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>視覚化に分析を追加する
-拡大鏡アイコンを選択して分析ウィンドウを表示します。 使用可能なオプションは、選んだ視覚化の種類によって異なります。
+拡大鏡アイコンを選択して分析ウィンドウを表示します。 使用可能なオプションは、選択した視覚エフェクトの種類に応じて異なります。
 
 ![レポート エディターの分析ウィンドウ](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
 Power BI サービスの分析ウィンドウでは、視覚化に動的な基準線を追加し、重要な傾向や洞察にフォーカスを設定できます。 詳細については、「[Power BI サービスの [分析] ウィンドウ](service-analytics-pane.md)」または「[Power BI Desktop の [分析] ウィンドウ](desktop-analytics-pane.md)」を参照してください。
@@ -85,7 +85,7 @@ Power BI サービスの分析ウィンドウでは、視覚化に動的な基�
 ## <a name="the-filters-pane"></a>フィルター ウィンドウ
 フィルター ウィンドウを使うと、ページ、レポート、ドリルスルーおよびビジュアルの各レベルでレポートの固定フィルターの閲覧、設定、変更ができます。 そうです。ビジュアルの要素を選ぶか、スライサーのようなツールを使うと、レポート ページとビジュアルに対してアドホック フィルター処理ができますが、フィルター ウィンドウを使うと、フィルターの状態はレポートとともに保存されます。 
 
-フィルター ウィンドウにはもう 1 つ強力な機能があります。それは***レポート内のビジュアルでまだ使われていない***フィールドを使ったフィルター処理の機能です。 説明しましょう。 レポート ページを作成するときに、Power BI は視覚エフェクトで使用しているすべてのフィールドを、フィルター ウィンドウのビジュアル レベル フィルター領域に自動的に追加します。  ただし、視覚エフェクトで現在使用されていないフィールドを使うビジュアル フィルター、ページ フィルター、ドリルスルー フィルター、レポート フィルターを設定する場合は、フィルター バケットの 1 つにそれをドラッグします。   
+フィルター ウィンドウにはもう 1 つ強力な機能があります。それは***ご利用のレポート内のビジュアルのいずれかでまだ使われていない***フィールドを使ったフィルター処理の機能です。 説明しましょう。 レポート ページを作成するときに、Power BI は視覚エフェクトで使用しているすべてのフィールドを、フィルター ウィンドウのビジュアル レベル フィルター領域に自動的に追加します。  ただし、視覚エフェクトで現在使用されていないフィールドを使うビジュアル フィルター、ページ フィルター、ドリルスルー フィルター、レポート フィルターを設定する場合は、フィルター バケットの 1 つにそれをドラッグします。   
 
 ![フィルター ウィンドウ](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -121,7 +121,7 @@ Power BI サービスの分析ウィンドウでは、視覚化に動的な基�
 上部のナビゲーション バーからさまざまな操作を実行できます。新しい操作が常時追加されています。 特定の操作については、Power BI ドキュメントの目次や検索ボックスを使用してください。
 
 ## <a name="3-the-report-canvas"></a>3.レポート キャンバス
-レポート キャンバスは、作業内容が表示される場所です。 フィールド、フィルター、視覚化のウィンドウを使用してビジュアルを作成すると、ビジュアルはレポート キャンバスで構築され、表示されます。 キャンバスの下部にあるタブは、それぞれレポートのページを表します。 タブを選択すると、そのページが開きます。 
+レポート キャンバスは、作業内容が表示される場所です。 フィールド、フィルター、視覚化のウィンドウを使用してビジュアルを作成すると、ビジュアルはレポート キャンバスで構築され、表示されます。 キャンバスの下部にあるタブは、それぞれレポート内のページを表します。 タブを選択すると、そのページが開きます。 
 
 ## <a name="next-steps"></a>次の手順
 [レポートの作成](service-report-create-new.md)

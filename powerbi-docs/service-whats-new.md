@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488916"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147567"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
 
+- Microsoft ビジネス アプリケーション グループからの[ビジネス インテリジェンスの新機能 (2018 年 10 月)](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) に関するリリース ノート: Microsoft のビジネス アプリケーションに対する最新の更新プログラム。
 - [Power BI Desktop の新機能](desktop-latest-update.md)  
 - [Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI チーム ブログ](https://powerbi.microsoft.com/blog/)
-- Dynamics 365 の [2018 年春のビジネス アプリケーション リリース ノート](http://aka.ms/businessappsreleasenotes):ビジネス アプリケーションの最新の更新、およびプラットフォーム上でアプリケーションと拡張機能を構築するための新機能。 
 
-"新機能" および機能に関する情報を、YouTube チャンネルで確認することもできます。
+"新機能" および機能に関する情報を、YouTube チャンネルでも確認します。
 
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)

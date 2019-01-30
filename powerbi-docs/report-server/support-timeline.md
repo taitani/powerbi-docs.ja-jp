@@ -8,21 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: e24cf43c5797293f83c7f678dee328d502ac2243
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/24/2019
+ms.openlocfilehash: b2ddf1e55f54b9c671a92df497c0a2ae1afdcced
+ms.sourcegitcommit: d12d84583e65ebecc8aa947b0cd5720cffdc7978
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280547"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54907524"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI レポート サーバーのサポート タイムライン
 
-Power BI レポート サーバーは、1 年間に何回かリリースされます。 セキュリティ更新プログラムと重要な更新プログラムは、次のリリースが一般公開 (GA) になるまで使用できます。 次のリリースの後、前のリリースでは残りの 12 か月のリリース有効期間の間、セキュリティ更新プログラムを引き続き受け取ります。
+Power BI Report Server は、1 年間に何回かリリースされます。 セキュリティ更新プログラムと重要な更新プログラムは、次のリリースが一般公開 (GA) になるまで使用できます。 次のリリースの後、前のリリースでは残りの 12 か月のリリース有効期間の間、セキュリティ更新プログラムを引き続き受け取ります。
 
 このサポート ポリシーにより、Microsoft はお客様に迅速に革新技術を提供できる一方、お客様は自分のペースで柔軟に技術革新を導入できます。
 
-* セキュリティ更新プログラムと重要な更新プログラムの提供フェーズ - 現在の最新バージョンの Power BI レポート サーバーを実行すると、セキュリティ更新プログラムと重要な更新プログラムの両方を受け取ります。
+* セキュリティ更新プログラムと重要な更新プログラムの提供フェーズ - 現在の最新バージョンの Power BI Report Server を実行すると、セキュリティ更新プログラムと重要な更新プログラムの両方を受け取ります。
 * セキュリティ更新プログラム (のみ) の提供フェーズ - 新しいバージョンがリリースされた後、古いバージョンのサポートは残り 12 か月のサポート有効期間の間、セキュリティ更新プログラムのみに縮小されます (図 1 を参照)。
 
     ![サポート期間を示すグラフ](media/support-timeline/report-server-support-timeline-overall.png)
@@ -31,10 +31,11 @@ Power BI レポート サーバーは、1 年間に何回かリリースされ�
 
 | **バージョン** | **可用性日付** | **サポート終了日** |
 | --- | --- | --- |
-| 2017 年 6 月 |2017 年 6 月 12 日 |サポートされていません |
-| 2017 年 10 月 |2017 年 10 月 31 日 |2018 年 10 月 31 日 |
+| 2017 年 6 月 |2017 年 6 月 12 日 |サポートされなくなった |
+| 2017 年 10 月 |2017 年 10 月 31 日 | サポートされなくなった |
 | 2018 年 3 月 | 2018 年 3 月 19 日 | 2019 年 3 月 19 日 |
 | 2018 年 8 月 | 2018 年 8 月 15 日 | 2019 年 8 月 15 日 |
+| 2019 年 1 月 | 2019 年 1 月 23 日 | 2020 年 1 月 23 日 |
 
 Power BI Report Server および Power BI Report Server 向けに最適化された Power BI Desktop をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」を参照してください。
 

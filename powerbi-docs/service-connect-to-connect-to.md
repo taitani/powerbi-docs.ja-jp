@@ -64,7 +64,7 @@ Power BI コンテンツ パックを使用して、Power BI 内の comScore Dig
 
 接続先のデータ センターは、comScore で移動する URL によって決定されます。
 
-https://dax.comscore.comを使用する場合は「US」と入力し、 https://dax.comscore.eu を使用する場合は「EU」と入力します。
+https://dax.comscore.com を使用する場合は「US」と入力し、 https://dax.comscore.eu を使用する場合は「EU」と入力します。
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 
