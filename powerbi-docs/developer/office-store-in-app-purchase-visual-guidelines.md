@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: f95b778daa9112324c20b0f358e21dd004092060
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294044"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430006"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Power BI ビジュアルの追加購入のガイドライン
 
@@ -62,7 +62,7 @@ IAP ビジュアルは、無料のビジュアルで無料の機能がありま�
 
 ## <a name="faq"></a>よく寄せられる質問
 
-詳細情報と質問の回答については、[ビジュアルの追加購入についてよく寄せられる質問](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases)に関する記事をご覧ください。
+詳細情報と質問の回答については、[ビジュアルの追加購入についてよく寄せられる質問](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases)に関する記事をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: d09312ecf462e557ef33851d9d2b1f91ec936dae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289212"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430719"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI の埋め込み分析でマルチテナントを管理する
 
@@ -29,7 +29,7 @@ Power BI Embedded では、テナント間の分離を維持するための基�
 
 ## <a name="concepts-and-terminology"></a>概念と用語
 
-**[AAD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)** - Azure Active Directory。
+**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** - Azure Active Directory。
 
 **AAD アプリケーション** - AAD でのアプリケーション ID。 認証には、AAD アプリケーションが必要です。
 
@@ -105,7 +105,7 @@ Power BI Embedded では、Multi-Geo のデプロイ (プレビュー機能) が
 
 ### <a name="cost"></a>コスト
 
-[Power BI Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/) の購入モデルは **Power BI Premium** のようなリソース ベースです。 固定のコンピューティング能力とメモリで 1 つまたは複数の容量を購入します。 この容量は、**Power BI Embedded** を使用するときの主なコスト項目です。 容量を使用するユーザーの数に制限はありません。 唯一の制限は、容量のパフォーマンスです。 *マスター* ユーザーごと、または Power BI ポータルにアクセスする必要がある特定のユーザーごとに、[Power BI Pro ライセンス](../service-admin-licensing-organization.md)が必要です。
+[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) の購入モデルは **Power BI Premium** のようなリソース ベースです。 固定のコンピューティング能力とメモリで 1 つまたは複数の容量を購入します。 この容量は、**Power BI Embedded** を使用するときの主なコスト項目です。 容量を使用するユーザーの数に制限はありません。 唯一の制限は、容量のパフォーマンスです。 *マスター* ユーザーごと、または Power BI ポータルにアクセスする必要がある特定のユーザーごとに、[Power BI Pro ライセンス](../service-admin-licensing-organization.md)が必要です。
 
 ライブ環境と使用状況をシミュレートし、容量に対してロード テストを実行して、容量で予想される負荷をテストおよび測定することをお勧めします。 Azure 容量または [Premium 容量メトリック アプリ](../service-admin-premium-monitor-capacity.md)で使用できるさまざまなメトリックで、負荷とパフォーマンスを測定できます。
 
@@ -132,17 +132,17 @@ Power BI ワークスペースに基づく分離では、1 つの Power BI テ�
 
 SaaS アプリケーションのストレージでテナントごとに個別のデータベースが保持されている場合の、Power BI での自然な選択は、シングルテナント データセットと、データセットごとに対応するデータベースを指す接続文字列を使用することです。
 
-SaaS アプリケーションのストレージで、すべてのテナントについてマルチテナント データベースが使用されている場合は、ワークスペースによってテナントを簡単に分離できます。 関連するテナントのデータのみを取得するパラメーター化されたデータベース クエリを使用して、Power BI のデータセットに対するデータベース接続を構成できます。 [Power BI Desktop](../desktop-query-overview.md) を使用するか、またはクエリで [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) と[パラメーター](https://docs.microsoft.com/en-us/rest/api/power-bi/datasets/updateparametersingroup)を使用して、接続を更新できます。
+SaaS アプリケーションのストレージで、すべてのテナントについてマルチテナント データベースが使用されている場合は、ワークスペースによってテナントを簡単に分離できます。 関連するテナントのデータのみを取得するパラメーター化されたデータベース クエリを使用して、Power BI のデータセットに対するデータベース接続を構成できます。 [Power BI Desktop](../desktop-query-overview.md) を使用するか、またはクエリで [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) と[パラメーター](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)を使用して、接続を更新できます。
 
 ### <a name="data-isolation"></a>データの分離
 
-このテナント モデルのデータは、ワークスペース レベルで分離されます。 ワークスペースとテナントの間の簡単なマッピングにより、あるテナントのユーザーから別のテナントのコンテンツを見ることができないようにします。 1 つの "*マスター*" ユーザーを使用するには、すべての異なるワークスペースに対するアクセス権を持っている必要があります。 エンド ユーザーに表示するデータの構成は、[埋め込みトークンの生成](https://docs.microsoft.com/en-us/rest/api/power-bi/embedtoken)、エンド ユーザーが見ることのできないバックエンド専用プロセスで、または変更の間に定義されます。
+このテナント モデルのデータは、ワークスペース レベルで分離されます。 ワークスペースとテナントの間の簡単なマッピングにより、あるテナントのユーザーから別のテナントのコンテンツを見ることができないようにします。 1 つの "*マスター*" ユーザーを使用するには、すべての異なるワークスペースに対するアクセス権を持っている必要があります。 エンド ユーザーに表示するデータの構成は、[埋め込みトークンの生成](https://docs.microsoft.com/rest/api/power-bi/embedtoken)、エンド ユーザーが見ることのできないバックエンド専用プロセスで、または変更の間に定義されます。
 
 分離を強化するには、アプリケーション開発者は、複数のワークスペースにアクセスできる "*マスター*" ユーザーまたはアプリケーションではなく、アプリケーションごとの "*マスター*" ユーザーまたはワークスペースを定義できます。 これにより、ヒューマン エラーまたは資格情報のリークが発生しても、複数の顧客のデータが漏えいしないようにできます。
 
 ### <a name="scalability"></a>スケーラビリティ
 
-このモデルの利点の 1 つは、テナントごとの複数のデータセットにデータを分離することで、[単一データセットのサイズ制限](https://docs.microsoft.com/en-us/power-bi/service-premium-large-datasets) (現在、容量 10 GB) が適用されないことです。 容量がオーバーロードになったら、[未使用のデータセットを削除](../service-premium-understand-how-it-works.md)して、アクティブなデータセットのためにメモリを解放できます。 1 つの大規模なデータセットでは、このようなことはできません。 複数のデータセットを使用すると、必要に応じて、複数の Power BI 容量にテナントを分離することもできます。 [容量の動作について詳しくは、こちらをご覧ください](../service-admin-premium-manage.md)。
+このモデルの利点の 1 つは、テナントごとの複数のデータセットにデータを分離することで、[単一データセットのサイズ制限](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (現在、容量 10 GB) が適用されないことです。 容量がオーバーロードになったら、[未使用のデータセットを削除](../service-premium-understand-how-it-works.md)して、アクティブなデータセットのためにメモリを解放できます。 1 つの大規模なデータセットでは、このようなことはできません。 複数のデータセットを使用すると、必要に応じて、複数の Power BI 容量にテナントを分離することもできます。 [容量の動作について詳しくは、こちらをご覧ください](../service-admin-premium-manage.md)。
 
 このような利点はありますが、将来的に SaaS アプリケーションが達する可能性のあるスケールを考慮する必要があります。 たとえば、管理できる成果物の数に関する制限に到達する可能性があります。 詳細については、この記事で後述されているデプロイに関する[制限](#summary-comparison-of-the-different-approaches)をご覧ください。 使用されている容量 SKU により、データセットが収まる必要のあるメモリのサイズ、[同時に実行できる更新の数](../service-premium-understand-how-it-works.md)、データ更新の最大頻度についての制限が適用されます。 数百または数千のデータセットを管理するときは、テストすることをお勧めします。 また、平均とピーク時の使用量、および他のテナントとは管理が異なる大きいデータセットを持つ特定のテナントや使用パターンが異なるテナントについて、考慮することをお勧めします。
 

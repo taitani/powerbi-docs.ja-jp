@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324045"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431248"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -37,15 +37,15 @@ ms.locfileid: "54324045"
 
 ### <a name="enhance-presentation-mode-windows"></a>プレゼンテーション モードの強化 (Windows)
 
-Surface Hub および Windows 10 デバイスのプレゼンテーション モードが強化されました。  プレゼンテーションとコラボレーションのツールが改善され、クロムレスで大画面に最適化されたビューによる強化によりデータに集中しやすくなった Surface Hub の会議室操作をお試しください。 プレゼンテーション モードでは効果的なプレゼンテーションと、データに関するディスカッションを行うために役立つインクのようなツールも提供されます。 プレゼンテーション モードの詳細については、[こちら](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/)をご覧ください。
+Surface Hub および Windows 10 デバイスのプレゼンテーション モードが強化されました。  プレゼンテーションとコラボレーションのツールが改善され、クロムレスで大画面に最適化されたビューによる強化によりデータに集中しやすくなった Surface Hub の会議室操作をお試しください。 プレゼンテーション モードでは効果的なプレゼンテーションと、データに関するディスカッションを行うために役立つインクのようなツールも提供されます。 プレゼンテーション モードの詳細については、[こちら](https://powerbi.microsoft.com/blog/presentation-mode-in-power-bi-windows-app/)をご覧ください。
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>タブレットの縦向きレイアウト (iOS と Android)
 
-縦向きモードのタブレットでレポートを表示するために、電話レポート レイアウトが使用されるようになりました (存在する場合)。 Power BI サービスまたは Power BI Desktop で電話レイアウトを作成する方法については、[こちら](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/)をご覧ください。
+縦向きモードのタブレットでレポートを表示するために、電話レポート レイアウトが使用されるようになりました (存在する場合)。 Power BI サービスまたは Power BI Desktop で電話レイアウトを作成する方法については、[こちら](https://docs.microsoft.com/power-bi/desktop-create-phone-report/)をご覧ください。
 
 ### <a name="supporting-report-query-string"></a>レポートのクエリ文字列のサポート 
 
-クエリ文字列を含むレポート リンクがモバイル アプリで開き、クエリ文字列で定義された条件に基づいて事前にフィルターされるようになりました。 クエリ文字列を含むレポートの URL を作成する方法については、[こちら](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)をご覧ください。  
+クエリ文字列を含むレポート リンクがモバイル アプリで開き、クエリ文字列で定義された条件に基づいて事前にフィルターされるようになりました。 クエリ文字列を含むレポートの URL を作成する方法については、[こちら](https://docs.microsoft.com/power-bi/service-url-filters/)をご覧ください。  
 
 ### <a name="shared-credentials-now-in-android"></a>資格情報の共有 (Android)
 
@@ -65,7 +65,7 @@ Surface Hub および Windows 10 デバイスのプレゼンテーション モ�
 
 ページ分割されたレポートを、Power BI サービスで使用できるようになりました。 Power BI サービスでページ分割されたレポートにアクセスできるユーザーは、モバイル アプリからもそれらのレポートにアクセスできます。 
 
-Power BI の[モバイルでのページ分割されたレポートに関するブログ記事](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)をご覧ください。
+Power BI の[モバイルでのページ分割されたレポートに関するブログ記事](https://powerbi.microsoft.com/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)をご覧ください。
 
 ### <a name="shared-credentials-ios"></a>共有資格情報 (iOS)
 

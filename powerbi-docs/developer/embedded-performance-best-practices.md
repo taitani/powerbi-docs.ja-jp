@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 025d843158795e7c36a5a278f2022349a9b72ca6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 50fbb175640e38431db62df34276417f1080e42a
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277160"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430352"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded のパフォーマンスのベスト プラクティス
 
@@ -26,7 +26,7 @@ Powerbi.embed() メソッドはレポート、ダッシュボード、タイル�
 
 ### <a name="embed-url"></a>埋め込み URL
 
-埋め込み URL を自分で生成することは避けてください。 その代わりに、[レポートの取得](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Freports%2Fgetreportsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=22lkqRM2w1MQfrM8dooedaPqqIU8PufTq9TT4VDzRo0%3D&reserved=0)、[ダッシュボードの取得](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgetdashboardsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=nfWRgbSoXVF42Rg%2Ba9491u19uksXp%2FAyz%2Fa%2Ba7%2FCtdA%3D&reserved=0)、[タイルの取得](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgettilesingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256178318&sdata=LgZ27TynNpqQJDrb3aHWGQXIS%2FzichAO9De5M2uhF1Q%3D&reserved=0) API を呼び出す方法で埋め込み URL を用意してください。 Microsoft は **_config_** という名称の新しいパラメーターを URL に追加しました。これはパフォーマンス改善に利用されます。
+埋め込み URL を自分で生成することは避けてください。 その代わりに、[レポートの取得](/rest/api/power-bi/reports/getreportsingroup)、[ダッシュボードの取得](/rest/api/power-bi/dashboards/getdashboardsingroup)、[タイルの取得](/rest/api/power-bi/dashboards/gettilesingroup) API を呼び出す方法で埋め込み URL を用意してください。 Microsoft は **_config_** という名称の新しいパラメーターを URL に追加しました。これはパフォーマンス改善に利用されます。
 
 ### <a name="permissions"></a>アクセス許可
 
@@ -58,7 +58,7 @@ Powerbi.preload() によって後でレポートに埋め込む javascript、css
 
 ツールと SDK パッケージを最新の状態で維持します。
 
-* 最新版の [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) を常に使用してください。
+* 最新版の [Power BI Desktop](https://powerbi.microsoft.com/desktop/) を常に使用してください。
 
 * 最新版の [Power BI クライアント SDK](https://github.com/Microsoft/PowerBI-JavaScript) をインストールします。 今後も拡張機能が追加リリースされます。折に触れて最新の状態に更新してください。
 

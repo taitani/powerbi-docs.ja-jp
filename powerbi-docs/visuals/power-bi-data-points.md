@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295376"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430443"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>ビジュアルの種類別のデータ ポイントの制限と戦略
 
@@ -40,7 +40,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 ## <a name="statistics"></a>統計
 特定のモデルは特定の列の値の数に関する統計情報を提供できます。 このような情報が存在するとき、ビジュアルが戦略の値の数を明示的にオーバーライドしない場合は、複数の階層間の均衡を図るためにその情報を活用します。
 
-詳しくは、「[What's new in Analysis Services](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)」(Analysis Services の新機能) をご覧ください
+詳しくは、「[What's new in Analysis Services](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)」(Analysis Services の新機能) をご覧ください
 
 ## <a name="dynamic-limits"></a>動的制限
 上記の戦略に加えて、グループ化列 (軸と凡例、またはカテゴリと系列) の 2 つの階層があるビジュアルは、"*動的制限*" と呼ばれる 1 つの追加戦略を使用します。  動的制限は、データ ポイントの均衡を図るよう設計されています。 
@@ -128,7 +128,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 - 値:一度に 200 行のウィンドウを使用することによる仮想化
 
 ### <a name="scatter-chart-high-density"></a>散布図 (高密度)
-[高密度な散布図](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts)に関する記事をご覧ください
+[高密度な散布図](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)に関する記事をご覧ください
 
 ### <a name="pie"></a>円
 - 最大ポイント数:3,500

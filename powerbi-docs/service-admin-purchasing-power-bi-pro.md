@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 538d7d67c1a29a18333d998a79b599510cb89f88
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 76288ca77f184b27b5839377190a1708c69567af
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285394"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430696"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro のライセンスを購入して割り当てる
 
@@ -25,7 +25,7 @@ Power BI Pro は、Power BI サービスのすべてのコンテンツと機能�
 
 ## <a name="prerequisites"></a>前提条件
 
-Office 365 で[**全体管理者**ロールまたは**課金管理者**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) ロールのメンバーである必要があります。
+Office 365 で[**全体管理者**ロールまたは**課金管理者**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) ロールのメンバーである必要があります。
 
 Azure でライセンスの割り当てを行うユーザーは、Power BI が Active Directory 参照で使用する Azure サブスクリプションの所有者である必要があります。
 

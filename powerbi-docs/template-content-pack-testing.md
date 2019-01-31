@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281231"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430673"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Power BI 用のテンプレート コンテンツ パックをテストする
 送信して発行する前に、コンテンツ パックをテストするための複数の方法があります。  
@@ -68,7 +68,7 @@ ms.locfileid: "54281231"
 <a name="submission"></a>
 
 ## <a name="submission"></a>送信
-[Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app) 経由の送信プロセスでは、PowerBI.com のサービス コンテンツ パック ギャラリーにテンプレート コンテンツ パックを公開できます。また、[Microsoft AppSource](http://appsource.microsoft.com) にコンテンツ パックを一覧表示できます。
+[Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app) 経由の送信プロセスでは、PowerBI.com のサービス コンテンツ パック ギャラリーにテンプレート コンテンツ パックを公開できます。また、[Microsoft AppSource](http://appsource.microsoft.com) にコンテンツ パックを一覧表示できます。
 
 ### <a name="before-submission"></a>送信の前に
 * コンテンツ パック内の各成果物の作成ヒントを確認します
@@ -77,7 +77,7 @@ ms.locfileid: "54281231"
 * コンテンツ パックが Q&A に正しく応答していることを確認するため、データ モデルから少なくとも 30 の各種質問をテストすることをお勧めします。 (独自の[データ コネクタ](https://aka.ms/DataConnectors)を開発した場合、この手順を省略してください)
 
 ### <a name="submission"></a>送信
-送信する準備ができたら、[AppSource でアプリ送信ページ](https://appsource.microsoft.com/en-us/partners/list-an-app)にアクセスし、情報を送信します。 必ず製品の一覧から Power BI を選択してください
+送信する準備ができたら、[AppSource でアプリ送信ページ](https://appsource.microsoft.com/partners/list-an-app)にアクセスし、情報を送信します。 必ず製品の一覧から Power BI を選択してください
 
 Power BI チームは送信内容を確認し、すべての成果物が提出要件を満たしていることを確認するために連絡します。 完全である以外に、ダッシュボードおよび提供されているレポートの品質を検証し、アプリケーションで説明されているビジネス シナリオを満たしていることを確認します。
 

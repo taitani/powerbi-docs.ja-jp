@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 474001a183540edb65d8e2b2ed4c0d6c55dc28d9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283485"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430103"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>自然言語クエリに Power BI Desktop で Q&A を使用する
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 データが回答になる場合にはさらに効果的です。**Power BI Desktop** の Q&A ではこれが可能です。
@@ -25,7 +25,7 @@ Q&A が回答可能な質問の大規模なコレクションを正常に解釈�
 > [!NOTE]
 > Q&A は、**インポートされた**データを含むモデルを処理するときにのみ使用可能です。 SSAS へのライブ接続および DirectQuery モデルはサポートされていません。
 >
-> Windows 10 以前のバージョンの Windows を使用している場合、Q&A には次の C ランタイムの更新プログラムが必要です。 重要な更新プログラムを Windows Update からインストールしてみることも、Microsoft からの必須コンポーネント (KB2999226) を手動でインストールすることもできます。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
+> Windows 10 以前のバージョンの Windows を使用している場合、Q&A には次の C ランタイムの更新プログラムが必要です。 重要な更新プログラムを Windows Update からインストールしてみることも、Microsoft からの必須コンポーネント (KB2999226) を手動でインストールすることもできます。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 

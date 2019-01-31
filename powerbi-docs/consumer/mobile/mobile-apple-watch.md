@@ -9,18 +9,18 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278908"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430903"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch の Power BI モバイル アプリでデータを探索する
 Power BI Apple Watch アプリを使用すると、ウォッチ上で Power BI ダッシュボードから KPI とカード タイルを表示できます。 KPI とカード タイルは、小さな画面でハートビートを測定するのに最適です。 iPhone から、または Watch 自体から、ダッシュボードを更新できます。
 
 ## <a name="install-the-apple-watch-app"></a>Apple Watch アプリのインストール
-Power BI Apple Watch アプリは Power BI for iOS アプリにバンドルされているため、Apple App Store から [iPhone にこの Power BI アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone アプリをダウンロード")すると、自動的に Power BI Watch アプリもダウンロードされます。 Apple のガイドでは、[Apple Watch アプリケーションをインストールする](https://support.apple.com/en-us/HT204784)方法を説明しています。
+Power BI Apple Watch アプリは Power BI for iOS アプリにバンドルされているため、Apple App Store から [iPhone にこの Power BI アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone アプリをダウンロード")すると、自動的に Power BI Watch アプリもダウンロードされます。 Apple のガイドでは、[Apple Watch アプリケーションをインストールする](https://support.apple.com/HT204784)方法を説明しています。
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Apple Watch での Power BI アプリの使用
 Power BI Apple Watch アプリケーションに移動するには、ウォッチのスプリングボードから、または直接ウォッチの文字盤で Power BI ウィジェット (構成されている場合) をクリックします。
@@ -69,7 +69,7 @@ Power BI タイルは、Apple Watch の文字盤で指定して直接表示す�
 Power BI Apple Watch ウィジェットは、データの更新時刻に近い時刻に更新されるため、必要な情報が常に最新の状態に保たれます。
 
 ### <a name="add-a-power-bi-widget-to-your-watch-face"></a>ウォッチの文字盤への Power BI ウィジェットの追加
-Apple のガイドの「[Apple Watch の文字盤をカスタマイズする](https://support.apple.com/en-us/HT205536)」をご覧ください。
+Apple のガイドの「[Apple Watch の文字盤をカスタマイズする](https://support.apple.com/HT205536)」をご覧ください。
 
 ### <a name="change-the-text-on-the-widget"></a>ウィジェットのテキストの変更
 Apple Watch の文字盤のスペースは小さいため、Power BI Apple Watch アプリでは、小さなスペースに収まるようウィジェットのタイトルを変更できます。

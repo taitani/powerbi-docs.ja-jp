@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 660f76b5bf04f742d435df928e068e434ca70531
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281990"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430604"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI サービス ***コンシューマー***の基本的な概念
 
@@ -37,7 +37,7 @@ Power BI コンシューマーのほとんどは Power BI サービスを入手�
 ![Power BI サービスのようこそ画面](media/end-user-basic-concepts/power-bi-open.png)
 
 Power BI を使用するときに、Web サイトを開くたびに表示する内容をカスタマイズします。  たとえば、一部の人は [ホーム] ページを Power BI で開くことを好み、一方、最初に表示したいお気に入りのダッシュボードがある人もいます。 ご安心ください。この操作を行う方法について説明します。 
-- [ホームのプレビュー](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [ホームのプレビュー](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
 - [コンテンツを**おすすめ**に設定](end-user-featured.md) 
 
 ![ホーム ページ ビューとダッシュボード ビューの表示](media/end-user-basic-concepts/power-bi-first.png)

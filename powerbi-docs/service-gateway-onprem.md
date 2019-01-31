@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899252"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430788"
 ---
 # <a name="on-premises-data-gateway"></a>オンプレミス データ ゲートウェイ
 
@@ -91,7 +91,7 @@ Power BI にサインインし、クラウド サービスにゲートウェイ�
 
 * [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
 ) は現在サポートされていません。
-* [Access Online](https://products.office.com/en-us/access) は現在サポートされていません。
+* [Access Online](https://products.office.com/access) は現在サポートされていません。
 * R スクリプトは、ゲートウェイが個人モードで実行されている場合にのみサポートされます。
 
 ## <a name="tenant-level-administration"></a>テナント レベルの管理
@@ -102,7 +102,7 @@ Power BI にサインインし、クラウド サービスにゲートウェイ�
 
 ## <a name="enabling-outbound-azure-connections"></a>Azure の送信接続を有効にする
 
-オンプレミス データ ゲートウェイは、クラウド接続の際に Azure Service Bus に依存します。それに応じて、関連付けられている Azure リージョンへの送信接続を確立します。 既定では、これは Power BI テナントの場所となります。 「[Power BI テナントの場所](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)」を参照してください。
+オンプレミス データ ゲートウェイは、クラウド接続の際に Azure Service Bus に依存します。それに応じて、関連付けられている Azure リージョンへの送信接続を確立します。 既定では、これは Power BI テナントの場所となります。 「[Power BI テナントの場所](https://powerbi.microsoft.com/documentation/powerbi-admin-where-is-my-tenant-located/)」を参照してください。
 送信接続がファイアウォールでブロックされている場合は、オンプレミス データ ゲートウェイから関連付けられている Azure リージョンへの送信接続を許可するようにファイアウォールを構成する必要があります。 各 Azure データ センターの IP アドレス範囲の詳細については、「[Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/download/details.aspx?id=41653)」 (Microsoft Azure データセンターの IP 範囲) を参照してください。
 > [!NOTE]
 > IP アドレスの範囲は時間の経過と共に変わる可能性があるため、必ず最新情報を定期的にダウンロードしてください。 

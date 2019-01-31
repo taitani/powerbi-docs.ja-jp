@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 001fab5caae7663a70b0f4d4272a1f9abbb1765e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394772"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429914"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
@@ -50,7 +50,7 @@ Web ブラウザーと勤務先の電子メール アドレスだけです。 .g
 Power BI は、コンシューマー電子メール サービスまたは通信プロバイダーが提供している電子メール アドレスをサポートしていません。 [Power BI のセルフサービス サインアップのプロセス](../service-self-service-signup-for-power-bi.md)の詳細をご覧ください。
 
 ## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI には行政機関、教育機関、および非営利団体向け価格もありますか?
-はい。マイクロソフトから直接購入する場合に、非営利団体向け価格で購入できます。 [Microsoft Nonprofits](https://www.microsoft.com/en-us/nonprofits/power-bi) サイトで詳細を確認することや、サインアップすることができます。 行政機関向けおよび教育機関向けの価格サービスは、MOSP/Direct、EA、オープン ライセンス プログラムを通じて提供されます。 行政機関向け価格は Syndication でも提供されます。 
+はい。マイクロソフトから直接購入する場合に、非営利団体向け価格で購入できます。 [Microsoft Nonprofits](https://www.microsoft.com/nonprofits/power-bi) サイトで詳細を確認することや、サインアップすることができます。 行政機関向けおよび教育機関向けの価格サービスは、MOSP/Direct、EA、オープン ライセンス プログラムを通じて提供されます。 行政機関向け価格は Syndication でも提供されます。 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI はモバイル デバイスをサポートしていますか?
 はい。 Power BI には、Android フォンおよびタブレット、iOS デバイス、Windows 10 デバイス用のネイティブ アプリがあります。 [Power BI モバイル アプリ](https://powerbi.microsoft.com/mobile)の 1 つを次のうち該当するストアからダウンロードします。  

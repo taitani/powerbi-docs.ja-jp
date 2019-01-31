@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/26/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 8717e4938ef558eb4bb8c0614990b651d2b59c28
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 142096ca30422549227ddc1dc2d07e129e22e9af
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277712"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430880"
 ---
 # <a name="azure-and-power-bi"></a>Azure と Power BI
 
@@ -55,7 +55,7 @@ Azure と Power BI を使用して必要な限りの拡張を行えます。 複
 
 ## <a name="context-insights-with-power-bi-embedded-analytics"></a>Power BI Embedded アナリティクスによるコンテキストの分析情報
 
-魅力的でインタラクティブなデータ視覚化を、アプリケーション、Web サイト、ポータル、などに埋め込むことで、ビジネス データを活用できます。 [Azure のリソースとして Power BI Embedded を使用すると](https://azure.microsoft.com/services/power-bi-embedded/)、インタラクティブなレポートやダッシュボードを簡単に埋め込むことができるため、ユーザーはデバイスの種類にかかわらず一貫した再現性に優れた製品体験を楽しむことができます。  分析を埋め込んで Power BI を使用することで、データからナレッジ、分析情報、行動へと、体験を進めることができます。  さらに、[社内のアプリケーションやポータルに](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/)分析を埋め込むことで、Power BI Azure をさらに活用できるようになります。
+魅力的でインタラクティブなデータ視覚化を、アプリケーション、Web サイト、ポータル、などに埋め込むことで、ビジネス データを活用できます。 [Azure のリソースとして Power BI Embedded を使用すると](https://azure.microsoft.com/services/power-bi-embedded/)、インタラクティブなレポートやダッシュボードを簡単に埋め込むことができるため、ユーザーはデバイスの種類にかかわらず一貫した再現性に優れた製品体験を楽しむことができます。  分析を埋め込んで Power BI を使用することで、データからナレッジ、分析情報、行動へと、体験を進めることができます。  さらに、[社内のアプリケーションやポータルに](https://powerbi.microsoft.com/developers/embedded-analytics/organization/)分析を埋め込むことで、Power BI Azure をさらに活用できるようになります。
 
 [Power BI デベロッパー ポータル](http://dev.powerbi.com)には、Power BI API に関する詳細が示されています。
 

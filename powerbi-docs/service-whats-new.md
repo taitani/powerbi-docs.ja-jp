@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147567"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431087"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -40,7 +40,7 @@ ms.locfileid: "55147567"
 * Power BI の[レポート URL フィルター](service-url-filters.md)の機能強化。
 
 ### <a name="july-2018"></a>2018 年 7 月
-* [永続的フィルター](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)のカスタム ビジュアルのサポート。
+* [永続的フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)のカスタム ビジュアルのサポート。
 * Power BI 管理者用の [API および PowerShell コマンドレット](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)。
 * Power BI Premium の [Multi-Geo のサポート](service-admin-premium-multi-geo.md)。
 
