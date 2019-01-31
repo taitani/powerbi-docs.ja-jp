@@ -608,6 +608,8 @@ items:
         href: service-share-dashboards.md
       - name: フィルター処理されたレポートを共有する
         href: service-share-reports.md
+      - name: 自分や他のユーザーをサブスクライブする
+        href: service-report-subscribe.md
       - name: SharePoint Online にレポートを埋め込む
         href: service-embed-report-spo.md
       - name: セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
@@ -1050,7 +1052,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848273
       - name: .NET SDK ダウンロード
         href: https://go.microsoft.com/fwlink/?linkid=848274
-- name: Power BI レポート
+- name: Power BI Report Server
   items:
   - name: 概要
     items:
@@ -1248,6 +1250,8 @@ items:
       href: service-admin-role.md
     - name: よく寄せられる質問 (FAQ)
       href: service-admin-faq.md
+    - name: 高可用性とフェールオーバーの FAQ
+      href: service-admin-failover.md
   - name: 方法
     items:
     - name: ライセンスとサインアップ
@@ -1295,9 +1299,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 5b2dc80f12aba21c7d5a1f0da71f8eb31d242c5b
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234487"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431110"
