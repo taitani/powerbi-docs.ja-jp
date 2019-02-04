@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/03/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296802"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234303"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
@@ -82,6 +82,11 @@ ms.locfileid: "54296802"
 
 詳しくは、[Power BI でのゲージ グラフ](power-bi-visualization-radial-gauge-charts.md)に関するページを参照してください。
 
+<!-- ### Key influencers chart
+![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+
+A key influencer chart displays the major contributors to a selected result or value. -->
+
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
@@ -107,7 +112,7 @@ ms.locfileid: "54296802"
 ### <a name="maps-arcgis-maps"></a>マップ:ArcGIS マップ
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-詳しくは、[Power BI の ArcGIS マップ](../power-bi-visualization-arcgis.md)に関するページを参照してください。
+詳しくは、[Power BI の ArcGIS マップ](power-bi-visualization-arcgis.md)に関するページを参照してください。
 
 ### <a name="maps-filled-maps-choropleth"></a>マップ:塗り分け地図 (コロプレス)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,6 +138,13 @@ ms.locfileid: "54296802"
 
 ### <a name="pie-charts"></a>円グラフ
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+円グラフでは、全体に対する部分の関係が示されます。 
+
+### <a name="ribbon-chart"></a>リボン グラフ
+![リボン グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+リボン グラフでは、どのデータ カテゴリが最高ランク (最大値) かが示されます。 リボン グラフでは、ランクの変化を効果的に確認できます。各期間を対象に、最高位の範囲 (値) が常に一番上に表示されます。
 
 ### <a name="scatter-and-bubble-charts"></a>散布図およびバブル チャート
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

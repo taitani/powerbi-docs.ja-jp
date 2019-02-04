@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 2a0fc921ba576803f02ede8fd269370584c61efe
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284221"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234418"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) を利用し、Excel ブックをホストするようにレポート サーバーを構成する
 
@@ -57,7 +57,7 @@ Office Online Server を実行するサーバーで以下の手順を実行し�
 1. [ボリューム ライセンス サービス センター (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) から Office Online Server をダウンロードします。 ダウンロードは、VLSC ポータルの Office 製品の下にあります。 開発目的の場合、MSDN サブスクライバー ダウンロードから OOS をダウンロードできます。
 2. Setup.exe を実行します。
 3. **[マイクロソフト ソフトウェア ライセンス条項をお読みください]** ページで、**[「マイクロソフト ソフトウェア ライセンス条項」に同意します]** を選択し、**[続行]** を選択します。
-4. **[ファイルの場所を選択してください]** ページで、Office Online Server ファイルをインストールするフォルダーを選択し (例: C:\Program Files\Microsoft Office Web Apps*)、 **[今すぐインストール]** を選択します。 指定したフォルダーが存在しない場合、自動的に作成されます。
+4. **[ファイルの場所を選択してください]** ページで、Office Online Server ファイルをインストールするフォルダーを選択し (例: C:\Program Files\Microsoft Office Web Apps\*)、**[今すぐインストール]** を選択します。 指定したフォルダーが存在しない場合、自動的に作成されます。
 
     Office Online Server はシステム ドライブにインストールすることが推奨されます。
 

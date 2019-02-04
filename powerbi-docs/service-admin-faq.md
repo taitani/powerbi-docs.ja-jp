@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296825"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430284"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -45,6 +45,7 @@ ms.locfileid: "54296825"
 * [他に何か準備する必要があることはありますか。](#are-there-any-additional-things-i-should-be-prepared-for)
 * [Power BI テナントの場所](#where-is-my-power-bi-tenant-located)
 * [Power BI SLA (サービス レベル アグリーメント) とは何ですか。](#what-is-the-power-bi-sla)
+* [Power BI では高可用性とフェールオーバーはどのように処理されますか。](#how-does-power-bi-handle-high-availability-and-failover)
 
 ### <a name="security-in-power-bi-section"></a>Power BI のセキュリティ セクション
 
@@ -241,11 +242,15 @@ Power BI テナントが存在するデータ リージョンについて詳し�
 
 Power BI SLA (サービス レベル アグリーメント) については、Microsoft ライセンス Web サイトの「**Licensing**」(ライセンス) セクションにある「[Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)」(ライセンス条項とドキュメント) という記事をご覧ください。
 
+### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI では高可用性とフェールオーバーはどのように処理されますか。
+
+高可用性とフェールオーバーの詳細については、「[Power BI high availability, failover, and disaster recovery FAQ](service-admin-failover.md)」 (Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ) を参照してください。
+
 ## <a name="security-in-power-bi"></a>Power BI のセキュリティ
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI は、国、地域、および業界固有のコンプライアンス要件を満たしていますか。
 
-Power BI のコンプライアンスの詳細については、[Microsoft セキュリティ センター](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx)を参照してください。
+Power BI のコンプライアンスの詳細については、[Microsoft セキュリティ センター](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/default.aspx)を参照してください。
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI のセキュリティはどのように機能していますか。
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 4fff6b19b9a17b626d11545a8d4baa8464ffc324
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294085"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431225"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -99,6 +99,14 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 ## <a name="authentication"></a>認証
 
+### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>AADSTS90002 で認証が失敗しました:テナント 'authorize' が見つかりません
+
+ ***error: invalid_request, error_description:AADSTS90002:テナント 'authorize' が見つかりません*** などのログインに関するメッセージを受信している場合、ADAL 4.x で権限 URL として "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" がサポートされていないことが原因です。
+ 
+この問題を解決するには、権限 URL の末尾から "oauth2/authorize/" をトリミングする必要があります。[Power BI の開発者向けサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples)に関するページを参照してください。
+
+ ADAL 4.x リリース ノートの「[Better Authority validation](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation)」 (権限検証の改善) を確認してください。
+ 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 または AADSTS50053 で認証が失敗しました
 
 **_(AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました)_**
@@ -243,7 +251,7 @@ Power BI Desktop から、あるいは powerbi.com 内でファイルを開き�
 
 埋め込みセットアップ ツールを使う前に、適切な前提条件がすべてあることを確認します。 **Power BI Pro** アカウントと **Microsoft Azure** サブスクリプションが必要です。
 
-* **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/en-us/pricing/)してください。
+* **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/pricing/)してください。
 * Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)してください。
 * 独自の [Azure Active Directory テナント](create-an-azure-active-directory-tenant.md)のセットアップが必要です。
 * [Visual Studio](https://www.visualstudio.com/) がインストールされている必要があります (バージョン 2013 以降)。
@@ -294,7 +302,7 @@ Power BI ユーザー プロファイルまたはデータを編集する場合�
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 
-さらなる支援が必要な場合は、[サポートに問い合わせる](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)か、[Azure portal でサポート チケットを作成](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)し、発生したエラー メッセージを指定してください。
+さらなる支援が必要な場合は、[サポートに問い合わせる](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded)か、[Azure portal でサポート チケットを作成](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)し、発生したエラー メッセージを指定してください。
 
 ## <a name="next-steps"></a>次の手順
 

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 7d76d874712f328344b60fc8b146f69e1aca55db
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394669"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234533"
 ---
 # <a name="add-comments-to-a-dashboard"></a>ダッシュボードにコメントを追加する
 個人のコメントを追加するか、同僚とダッシュボードに関する会話を開始します。 **コメント**機能は、*コンシューマー*が共同作業するための方法の 1 つにすぎません。 
@@ -73,7 +73,7 @@ ms.locfileid: "54394669"
 5. **[閉じる]** を選択して、ダッシュボードまたはレポートに戻ります。
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>@ 記号を使用して同僚の注目を得る
-ダッシュボードにコメントする場合でも、特定のビジュアルにコメントする場合でも、"@" 記号を使用すると、同僚の注目を集めることができます。  "@" 記号を入力すると、Power BI では、組織のユーザーを検索および選択できるドロップダウンが開かれます。 "@" 記号が前につく検証済みのすべての名前は、青のフォントで表示されます。 
+ダッシュボードにコメントする場合でも、特定のビジュアルにコメントする場合でも、"\@" 記号を使用すると、同僚の注目を集めることができます。  "\@" 記号を入力すると、Power BI では、組織のユーザーを検索および選択できるドロップダウンが開かれます。 "\@" 記号が前につく検証済みのすべての名前は、青のフォントで表示されます。 
 
 これは、視覚エフェクトの*デザイナー*と行っている会話です。 @ 記号を使用して、コメントを確認するようにしています。 このコメントは自分に対するものであることはわかっています。 Power BI でこのアプリ ダッシュボードを開くときに、ヘッダーから **[コメント]** を選択します。 **[コメント]** ウィンドウに会話が表示されます。
 

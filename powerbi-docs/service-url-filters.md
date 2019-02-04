@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 74d261098ee8385721a0b72d808a6ecb1b89be7c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283807"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234441"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -106,10 +106,10 @@ Power BI では、'**and**' に加え、多くの演算子がサポートされ�
 |**gt**     | より大きい        |いいえ | はい | はい  | product/price gt 20
 |**le**     |   以下      | いいえ | はい | はい  | product/price le 100
 |**lt**     |  より小さい       | いいえ | はい | はい |  product/price lt 20
-|**in****     |  含む       | はい | はい |  はい | Student/Age in (27, 29)
+|**in\*\***     |  含む       | はい | はい |  はい | Student/Age in (27, 29)
 
 
-\** **in** を使用する場合、**in** の右側の値をかっこで囲んだコンマ区切りのリストにすることができます。あるいは、コレクションを返す単一の式にすることもできます。
+\*\* **in** を使用する場合、**in** の右側の値をかっこで囲んだコンマ区切りのリストにすることができます。または、コレクションを返す単一の式にすることもできます。
 
 ### <a name="numeric-data-types"></a>数値データ型
 
