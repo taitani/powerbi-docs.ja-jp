@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 01/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7a6e6979a6281ef6b00a84cff138818869b113e6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008030"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482685"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Power BI で comScore Digital Analytix に接続する
 Power BI コンテンツ パックを使用して、Power BI 内の comScore Digital Analytix データを表示および探索します。 データは、1 日 1 回自動的に更新されることになります。
@@ -63,8 +63,6 @@ Power BI コンテンツ パックを使用して、Power BI 内の comScore Dig
 **データ センター**
 
 接続先のデータ センターは、comScore で移動する URL によって決定されます。
-
-[https://dax.comscore.com](https://dax.comscore.com) を使用する場合は「US」と入力し、 https://dax.comscore.eu を使用する場合は「EU」と入力します。
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 
