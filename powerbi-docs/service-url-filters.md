@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/31/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
+ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234441"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "55648699"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -40,6 +40,14 @@ URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
 
 * **テーブル**と**フィールド**の名前では大文字と小文字が区別されますが、**値**では区別されません。
 * レポート ビューに表示されないフィールドをフィルター処理することもできます。
+
+### <a name="reports-in-apps"></a>アプリ内のレポート
+
+アプリ内のレポートに URL フィルターを追加する場合は、書式設定が少し異なります。 アプリ内のレポートへのリンクには、URL に追加されるクエリ パラメーター (ctid) が含まれます。 クエリ パラメーターは、アンパサンド (&) で区切る必要があります。 そのため、"?filter=" の代わりに "&filter=" を (ctid パラメーターの後ろで) 使ってクエリをアペンドする必要があります。 
+
+次の例のようにします。
+
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
 
 ### <a name="field-types"></a>フィールドの型
 
@@ -118,10 +126,10 @@ Power BI の URL フィルターには、次の形式で数値を含めること
 |数値型  |例  |
 |---------|---------|
 |**integer**     |   5      |
-|**long**     |   5L、5l      |
+|**long**     |   5 L または 5 l      |
 |**double**     |   5.5、55e-1、0.55e+1、5D、5d、0.5e1D、0.5e1d、5.5D、5.5d、55e-1D、55e-1d     |
-|**decimal**     |   5M、5m、5.5M、5.5m      |
-|**float**     | 5F、5f、0.5e1F、0.5e-1d        |
+|**decimal**     |   5 M、5 m、5.5 M、または 5.5 m      |
+|**float**     | 5 F、5 f、0.5e1 F、または 0.5e-1 d        |
 
 ### <a name="date-data-types"></a>日付データ型
 
