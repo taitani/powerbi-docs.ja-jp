@@ -2,21 +2,22 @@
 title: 認証アクセス トークンを取得する
 description: データをプッシュするチュートリアル - 認証アクセス トークンを取得する
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 1381706801a1a817927c891fcc205950cef24cbb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 2d4e59badf394153dcb6877a270d2ecea63f5df6
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430857"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761963"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>手順 2:認証アクセス トークンを取得する
+
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
 チュートリアル「データセットにデータをプッシュする」の**手順 1**「[アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)」では、クライアント アプリを Azure AD に登録しました。 この手順では、認証アクセス トークンを取得します。 Power BI アプリは **Azure AD** と統合されており、それによってセキュリティで保護されたサインインと承認をアプリで行うことができます。 トークンを使って **Azure AD** に対して認証を行い、Power BI リソースにアクセスします。
@@ -24,15 +25,16 @@ ms.locfileid: "55430857"
 ここでは、認証アクセス トークンを取得する方法を説明します。
 
 ## <a name="get-an-authentication-access-token"></a>認証アクセス トークンを取得する
+
 > **注**:作業を開始する前に、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の前の手順を完了してください。
 > 
 > 
 
 1. Visual Studio 2015 で、 **コンソール アプリケーション** プロジェクトを作成します。
 2. [Azure AD Authentication Library for .NET NuGet パッケージ](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)をインストールします。 .NET アプリで認証セキュリティ トークンを取得するには、このパッケージを使います。 パッケージをインストールする方法を次に示します。
-   
+
      a. Visual Studio 2015 で、**[ツール]** > **[NuGet パッケージ マネージャー]** > **[パッケージ マネージャー コンソール]** を選びます。
-   
+
      b. **[パッケージ マネージャー コンソール]** で、「Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612」と入力します。
 3. Program {...} クラスに、以下のコードを追加します。
 4. "{ClientID}" を、アプリを登録したときに取得した **クライアント ID** で置き換えます。 「[アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)」をご覧ください。
@@ -113,6 +115,7 @@ ms.locfileid: "55430857"
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>完全なコード リスト
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
@@ -172,10 +175,10 @@ ms.locfileid: "55430857"
         }
     }
 
-
 [次の手順 >](walkthrough-push-data-create-dataset.md)
 
 ## <a name="next-steps"></a>次の手順
+
 [Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)  
 [アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)  
 [Azure AD Authentication Library for .NET NuGet パッケージ](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
@@ -183,4 +186,3 @@ ms.locfileid: "55430857"
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 [Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

@@ -2,21 +2,22 @@
 title: Power BI Embedded からコンテンツを移行するためのコード スニペット
 description: ここでは、コンテンツの移行に必要な基本処理のコード スニペットを紹介します
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/30/2018
-ms.author: maghan
-ms.openlocfilehash: ddb0e95e20a22fd6e7e832c415462504d2ef3652
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: f53549e0a046195c353362368e2e3682df152af9
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429975"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762515"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI ワークスペース コレクションからコンテンツを移行するためのコード スニペット
+
 ここでは、コンテンツの移行に必要な基本処理のコード スニペットを紹介します。 各レポートの種類に関連するフローについては、「[Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md#content-migration)」をご覧ください。
 
 Power BI Embedded (PaaS) から Power BI サービス (SaaS) にコンテンツをコピーする際に役立つ**移行ツール**を使用することができます。 これは特に、多くのコンテンツがある場合に役立ちます。 詳細については、「[Power BI Embedded 移行ツール](migrate-tool.md)」を参照してください。
@@ -25,7 +26,7 @@ Power BI Embedded (PaaS) から Power BI サービス (SaaS) にコンテンツ�
 
 以下のコード スニペットを実行するには、次の名前空間を使用してください。
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.PowerBI.Api.V1;
 using Microsoft.PowerBI.Api.V1.Models;
@@ -46,8 +47,8 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-
 ## <a name="export-report-from-paas-workspace"></a>PaaS ワークスペースからレポートをエクスポートする
+
 ```
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
@@ -72,6 +73,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="import-report-to-saas-workspace"></a>SaaS ワークスペースにレポートをインポートする
+
 ```
     AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
@@ -85,6 +87,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="extract-directquery-connection-string-from-paas-report"></a>PaaS レポートから DirectQuery 接続文字列を抽出する
+
 SaaS に移行した後に PBIX を更新する場合の例です。
 
 ```
@@ -105,6 +108,7 @@ SaaS に移行した後に PBIX を更新する場合の例です。
 ```
 
 ## <a name="update-directquery-connection-string-is-saas-workspace"></a>SaaS ワークスペースの DirectQuery 接続文字列を更新する
+
 ```
     public class ConnectionString
     {
@@ -123,6 +127,7 @@ SaaS に移行した後に PBIX を更新する場合の例です。
 ```
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>SaaS ワークスペースの DirectQuery 資格情報を設定する
+
 このスニペットでは、わかりやすくするために暗号化されていない資格情報を使用していますが、暗号化された資格情報の送信もサポートされています。
 
 ```
@@ -159,6 +164,7 @@ SaaS に移行した後に PBIX を更新する場合の例です。
 ```
 
 ## <a name="push-dataset--report"></a>プッシュ データセットとレポート
+
 作成したデータセットのレポートを再構築する必要があります。
 
 このスニペットでは、プッシュ可能なデータセットが SaaS 環境内のアプリ ワークスペースに既に存在すると想定しています。 プッシュ API の詳細については、「[Power BI データセットにデータをプッシュする](walkthrough-push-data.md)」を参照してください。
@@ -223,6 +229,7 @@ SaaS に移行した後に PBIX を更新する場合の例です。
 ```
 
 ## <a name="next-steps"></a>次の手順
+
 [Power BI Embedded 移行ツール](migrate-tool.md)  
 [Power BI で埋め込み](embedding.md)  
 [Power BI に Power BI Embedded ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md)  
@@ -234,4 +241,3 @@ SaaS に移行した後に PBIX を更新する場合の例です。
 [Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-

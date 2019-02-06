@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: b535e3cc42956818fce0c1c127fd775b6b4d4664
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 2d095f117fdaafa34a1b9636d03045d0119f4dd8
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431294"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762469"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI のレポート、ダッシュボード、タイルを埋め込む
+# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
 
 **Power BI** では、ユーザー所有データを使用して、レポート、ダッシュボード、またはタイルをアプリケーションに埋め込むことができます。 **ユーザー所有データ**を使用すれば、アプリケーションで埋め込み分析を使用するように Power BI サービスを拡張できます。 このチュートリアルでは、レポートをアプリケーションに統合する方法を示します。 Power BI .NET SDK と Power BI JavaScript API を使用して、組織向けのアプリケーションに Power BI を埋め込みます。
 

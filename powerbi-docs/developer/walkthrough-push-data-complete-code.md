@@ -2,26 +2,28 @@
 title: 完全なコード リスト
 description: データをプッシュするチュートリアル - 完全なコード リスト
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429938"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762239"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>データセットにデータをプッシュする処理の完全なコード リスト
+
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
 チュートリアル「**データセットにデータをプッシュする**」の手順 2 から 5 を実行した後、完全なソース コードは次のようになります。
 
 ## <a name="push-data-to-dataset-code"></a>データセットにデータをプッシュする
+
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -219,8 +221,8 @@ ms.locfileid: "55429938"
           }
       }
 
-
 ## <a name="next-steps"></a>次の手順
+
 [Power BI データセットにデータをプッシュする](walkthrough-push-data.md)  
 [チュートリアル - Power BI データセットにデータをプッシュする](walkthrough-push-data.md)  
 [アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)  
@@ -231,6 +233,4 @@ ms.locfileid: "55429938"
 [Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 
-
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

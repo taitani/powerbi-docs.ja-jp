@@ -2,21 +2,22 @@
 title: 行を追加するためにデータセットを取得する
 description: データをプッシュするチュートリアル - Power BI テーブルに行を追加するためにデータセットを取得する
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: cd7f1eabc104da7e310abbfbce2929f047f0e5d8
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: fbde44136f403e3aff0c32d8d4acef4d1970830a
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430834"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762492"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>手順 4:Power BI テーブルに行を追加するためにデータセットを取得する
+
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
 チュートリアル「データセットにデータをプッシュする」の**手順 3**「[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)」では、[データセットの作成](https://docs.microsoft.com/rest/api/power-bi/datasets)操作を呼び出して Power BI でデータセットを作成しました。 この手順では、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作と Newtonsoft.Json を使ってデータセット ID を取得します。データセットに行を追加するには、手順 4 で取得したデータセット ID を使います。 
@@ -26,14 +27,13 @@ Power BI データセットにデータをプッシュするには、データ�
 データセットを取得する方法は次のとおりです。
 
 ## <a name="get-a-power-bi-dataset"></a>Power BI データセットを取得する
+
 > **注**:作業を開始する前に、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の前の手順を完了してください。
-> 
-> 
 
 1. データをプッシュするチュートリアルの手順 2:「[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)」で作成したコンソール アプリケーション プロジェクトに、Newtonsoft.Json NuGet パッケージをインストールします。 パッケージをインストールする方法を次に示します。
-   
+
      a. Visual Studio 2015 で、**[ツール]** > **[NuGet パッケージ マネージャー]** > **[パッケージ マネージャー コンソール]** を選びます。
-   
+
      b. **[パッケージ マネージャー コンソール]** で、「Install-Package Newtonsoft.Json」と入力します。
 2. パッケージをインストールした後、「 **using Newtonsoft.Json;** 」を Program.cs に追加します。
 3. Program.cs に、 **データセット ID**を取得するために以下のコードを追加します。
@@ -110,6 +110,7 @@ Power BI データセットにデータをプッシュするには、データ�
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>完全なコード リスト
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -265,6 +266,7 @@ Power BI データセットにデータをプッシュするには、データ�
 [次の手順 >](walkthrough-push-data-add-rows.md)
 
 ## <a name="next-steps"></a>次の手順
+
 [Power BI テーブルに行を追加する](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
 [データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
@@ -273,4 +275,3 @@ Power BI データセットにデータをプッシュするには、データ�
 [Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

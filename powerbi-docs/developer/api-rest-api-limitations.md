@@ -2,23 +2,23 @@
 title: Power BI REST API の制限事項
 description: Power BI REST API には、次のような制限があります
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: df17563d384359fe33123ed87743754bb33bf04d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ebca3dd6bcdbb831960da111fc167f59b5ab0623
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277976"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762009"
 ---
 # <a name="power-bi-rest-api-limitations"></a>Power BI REST API の制限事項  
   
-**行を POST するには**  
+**行を POST するには**
   
 * 列数の上限は 75
 * テーブル数の上限は 75
@@ -26,8 +26,8 @@ ms.locfileid: "54277976"
 * 1 つのデータセットの 1 時間あたりの追加行数は 1,000,000 行  
 * 1 つのデータセットの保留の「行の POST」要求の数は 5 つまで  
 * 1 つのデータセットの「行の POST」要求数は 1 分間あたり 120 個
-* テーブルの行数が 250,000 以上の場合は、1 つのデータセットの「行の POST」要求数は 1 時間あたり 120 個    
-* FIFO データセット内の 1 テーブルごとに保存される最大行数は 200,000 行  
+* テーブルの行数が 250,000 以上の場合は、1 つのデータセットの「行の POST」要求数は 1 時間あたり 120 個
+* FIFO データセット内の 1 テーブルごとに保存される最大行数は 200,000 行
 * 「保持ポリシーなし」のデータセット内の 1 テーブルごとに保存される最大行数は 5,000,000 行  
 * 行の POST 操作における文字列型の列の値 1 つあたりの最大文字数は 4,000 文字
   

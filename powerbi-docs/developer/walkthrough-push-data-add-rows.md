@@ -4,19 +4,20 @@ description: データをプッシュするチュートリアル - Power BI テ�
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/01/2018
-ms.openlocfilehash: 798bfbb5d1ebf127e7b958e02166dea5f1af81ef
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430490"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761986"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>手順 5:Power BI テーブルに行を追加する
+
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
 チュートリアル「データセットにデータをプッシュする」の**手順 4**「[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)」では、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作と Newtonsoft.Json を使ってデータセット ID を取得しました。この手順では、そのデータセット ID と [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を使って **Power BI** のデータセットに行を追加します。 
@@ -28,10 +29,9 @@ ms.locfileid: "55430490"
 Power BI API を使ってデータセットに行を追加する方法を次に示します。
 
 ## <a name="add-rows-to-a-power-bi-table"></a>Power BI テーブルに行を追加する
+
 > [!NOTE]
 > 作業を開始する前に、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の前の手順を完了してください。
-> 
-> 
 
 1. データをプッシュするチュートリアルの手順 2「[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)」で作成したコンソール アプリケーション プロジェクトに、以下のコードを追加します。
 2. コンソール アプリを実行し、Power BI アカウントにログインします。 コンソール ウィンドウに、 **追加された行** が表示されるはずです。 Power BI にログインして、データセットに追加された行を表示することもできます。
@@ -57,7 +57,8 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
   
        //Add rows to a Power BI table
        AddRows(datasetId, "Product");
-   }     
+   }
+
   ```
 * AddRows() メソッドを追加します。
 

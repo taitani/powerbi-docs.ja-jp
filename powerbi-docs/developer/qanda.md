@@ -2,21 +2,22 @@
 title: Power BI Embedded での Q&A
 description: Power BI Embedded では、アプリケーションに Q&amp;A を組み込む手段が提供されており、ユーザーは自然言語を使って質問できます。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.author: maghan
-ms.openlocfilehash: 208c1e2a0e188622f989faa6ba391d9742dd7967
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 23e0f7a938116185e05e583f5c7f208efed3ca4d
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277987"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761917"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded での Q&A
+
 Power BI Embedded では、アプリケーションに Q&amp;A を組み込む手段が提供されており、ユーザーは、自然言語を使って質問し、チャートやグラフなどのビジュアルの形式ですぐに回答を受け取ることができます。
 
 ![埋め込みフレームでの Q&A の対話的な質問](media/qanda/embedded-qanda.gif)
@@ -47,13 +48,14 @@ var qna = powerbi.embed(qnaContainer, config);
 ```
 
 ## <a name="set-question"></a>設定済みの質問
+
 設定済みの質問で**結果モード**を使う場合、追加の質問をフレームに挿入し、すぐに得られる回答で前の結果を置き換えることができます。 新しい質問と一致する新しいビジュアルが表示されます。
 
 この使用例の 1 つは、よく寄せられる質問の一覧です。 ユーザーは質問を選んで、同じ埋め込みパーツ内で回答を見ることができます。
 
 **JS SDK を使った場合のコード スニペット:**  
 
-```        
+```
 // Get a reference to the embedded Q&A HTML element
 var qnaContainer = $('#qnaContainer')[0];
 
@@ -70,6 +72,7 @@ qna.setQuestion("This year sales")
 ```
 
 ## <a name="visual-rendered-event"></a>ビジュアル レンダリング イベント
+
 **対話式**モードでは、アプリケーションはレンダリングされたビジュアルが変化するたびにデータ変更イベントの通知を受信して、入力時に、更新済みの入力クエリを対象とすることができます。
 
 *visualRendered* イベントをリッスンすると、後で使うために質問を保存することができます。 
@@ -93,10 +96,11 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>埋め込みトークン
+
 Q&A パーツを開始するためのデータセットの埋め込みトークンを作成します。 詳細については、[トークンの生成](https://docs.microsoft.com/rest/api/power-bi/embedtoken)に関するページをご覧ください。
 
 ## <a name="next-steps"></a>次の手順
+
 Q&A の埋め込みを試してみるなら、[JavaScript の埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)をご覧ください。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-

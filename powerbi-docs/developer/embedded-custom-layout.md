@@ -2,22 +2,21 @@
 title: Power BI の埋め込みコンテンツによるカスタム レイアウト
 description: アプリケーションに Power BI コンテンツを埋め込むときのカスタム レイアウトについて説明します。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.author: maghan
-ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288936"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762308"
 ---
 # <a name="custom-layouts"></a>カスタム レイアウト
-
 
 カスタム レイアウトを使って、元のレポートとは異なるレイアウトでレポートを埋め込みます。 新しいレイアウトの定義は、ページ サイズのみを定義する場合と、ビジュアルのサイズ、位置、可視性を制御する場合では異なります。
 
@@ -115,7 +114,6 @@ enum VisualContainerDisplayMode {
 - `width`、height:ビジュアルの新しいサイズを定義します。
 - `displayState`:ビジュアルを表示するかどうかを定義します。
 
-
 ## <a name="update-layout"></a>レイアウトの更新
 
 レポートが読み込まれている間であればいつでも、updateSettings メソッドを使って、レポートのレイアウトを更新できます。 「[設定の更新](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Update-Settings)」をご覧ください。
@@ -173,9 +171,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-
 ## <a name="see-also"></a>参照
 
 [Power BI ダッシュボード、レポート、およびタイルを埋め込む](embedding-content.md)   
 [Power BI コミュニティに質問する](https://community.powerbi.com/)
-

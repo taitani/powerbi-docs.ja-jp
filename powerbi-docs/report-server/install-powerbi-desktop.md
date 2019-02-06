@@ -2,21 +2,22 @@
 title: Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
 description: Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール方法の詳細
 author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/24/2019
-ms.author: maggies
-ms.openlocfilehash: c118e3c2f8b30635982a37c47da9fb9e337aff05
-ms.sourcegitcommit: d12d84583e65ebecc8aa947b0cd5720cffdc7978
+ms.openlocfilehash: 63550950b21231909c32ac63f5f2930ebf93c0af
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54907525"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762216"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
+
 Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール方法について説明します。
 
 Power BI Report Server の Power BI レポートを作成するには、Power BI Report Server 向けに最適化された Power BI Desktop をダウンロードしてインストールする必要があります。 このリリースは、Power BI サービスで使用される Power BI Desktop とは別のものです。 たとえば、Power BI サービス向けの Power BI Desktop 版にはプレビュー機能が含まれていていますが、これらのプレビュー機能は Power BI Report Server 版にはなく、それらがリリースされて初めて含められます。 このリリースを使用すると、レポート サーバーが、既知のバージョンのレポートおよびモデルと対話できることを確認できます。 
@@ -44,7 +45,7 @@ Power BI Report Server 向けに最適化された Power BI Desktop のバージ
 1. インストーラーをダウンロードしたら、Power BI Desktop (2019 年 1 月) のセットアップ ウィザードを実行します。
 
 2. インストールの最後に、**[Start Power BI Desktop now]** \(今すぐ Power BI Desktop を起動する\) をオンにします。
-   
+
     Power BI Desktop が自動的に起動し、すぐに使えます。
 
 ## <a name="verify-youre-using-the-correct-version"></a>正しいバージョンを使用していることを確認する
@@ -64,9 +65,11 @@ Power BI Desktop をインストールし、次に Power BI Report Server 向け
 Power BI Report Server 内で Power BI レポートを編集したり、Web ポータルから新しい Power BI レポートを作成すると、適切なバージョンの Power BI Desktop が常に開きます。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
+
 Power BI Report Server、Power BI サービス (http://app.powerbi.com))、Power BI モバイル アプリの Power BI レポートは、ほぼ同じように機能しますが、いくつかの機能は異なります。
 
 ### <a name="in-a-browser"></a>ブラウザー
+
 Power BI レポート サーバーのレポートは、次を含むすべての視覚エフェクトをサポートします。
 
 * カスタム ビジュアル
@@ -79,6 +82,7 @@ Power BI レポート サーバーのレポートは、次をサポートしま�
 * Power BI Desktop のプレビュー機能
 
 ### <a name="in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリ
+
 Power BI レポート サーバーのレポートは、次を含む [Power BI モバイル アプリ](../consumer/mobile/mobile-apps-for-mobile-devices.md)のすべての基本機能をサポートします。
 
 * [電話のレポート レイアウト](../desktop-create-phone-report.md):Power BI モバイル アプリのレポートを最適化することができます。 携帯電話では、最適化されたレポートに特別なアイコン ![電話レポート レイアウト アイコン](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png)、およびレイアウトが提供されます。
@@ -100,10 +104,10 @@ Power BI レポート サーバーのレポートは、Power BI モバイル ア
 - Microsoft Power BI Desktop ([Power BI Report Server (2018 年 8 月) 向けに最適化](https://www.microsoft.com/download/details.aspx?id=57271))
 
 ## <a name="next-steps"></a>次の手順
+
 Power BI Desktop をインストールしたので、Power BI レポートの作成を開始できます。
 
 [Power BI Report Server の Power BI レポートの作成](quickstart-create-powerbi-report.md)  
 [Power BI Report Server とは](get-started.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-
