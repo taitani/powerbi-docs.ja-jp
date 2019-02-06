@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488870"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482754"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -24,6 +24,17 @@ ms.locfileid: "54488870"
 
 ## <a name="january-2019"></a>2019 年 1 月
 - **Power BI Report Server**            
+    - "*バージョン 1.4.6969.7395 (ビルド 15.0.1102.235)、リリース日: 2019 年 1 月 30 日*"
+        - バグの修正
+            - Power BI レポート
+                - 直接クエリを使う場合の基本資格情報に関する問題の修正
+                - 行レベルのセキュリティ フィルターを適用した双方向リレーションシップの修正
+                - スケールアウト環境でのモデルの更新後の古いデータの修正
+                - Firefox 63 以降でのテーブル/マトリックスの二重スクロール バーの修正
+                - Internet Explorer での +/- アイコンのサイズの修正
+            - ページ分割されたレポート
+                - レポートの共有データソースの使用方法の更新に関する問題の修正
+
     - *バージョン 1.4.6960.38798 (ビルド 15.0.1102.222)、リリース日: 2019 年 1 月 22 日*
         - 機能
             - Power BI レポート 
@@ -35,6 +46,10 @@ ms.locfileid: "54488870"
             - 管理者
                 - レポート サーバーにアップロードできるリソースの拡張子を制限する機能
                 - サポートされるハイパーリンク スキームを制限する機能
+            - プログラミング
+                - 新しい Web API: /PowerBIReports({Id})/DataModelRoles (GET)
+                - 新しい Web API: /PowerBIReports({Id})/DataModelRoleAssignments (GET & PUT)
+                - 詳細については、「[Power BI Report Server REST API (Power BI Report Server の REST API)](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0)」をご覧ください。
         - バグの修正
             - HTML インジェクションの脆弱性
             - PDF にエクスポートした場合、ユーロ通貨記号は表示されません。
@@ -42,6 +57,10 @@ ms.locfileid: "54488870"
             - Power BI Mobile アプリ内でアイドル状態になると、ビジュアルによって問題が表示されます。
 
 - **Power BI Desktop (Power BI Report Server 用に最適化)**
+    - *バージョン:2.65.5313.1562 (2019 年 1 月)、リリース日:2019 年 1 月 30 日*"
+        - Power BI Report Server のアンインストール後もショートカットとピン留めされたアイコンが残る
+        - スタート メニューに Power BI Report Server をピン留めすると黒のアイコン上に黒のテキストが表示される問題の修正
+
     - *バージョン:2.65.5313.1421 (2019 年 1 月)、リリース日:2019 年 1 月 22 日*
         - Power BI Report Server (2019 年 1 月) との接続に必要な変更が含まれます。  
 
