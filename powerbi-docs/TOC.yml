@@ -870,6 +870,8 @@ items:
       items:
       - name: のパフォーマンスのベスト プラクティス
         href: developer/embedded-performance-best-practices.md
+      - name: サービス プリンシパル
+        href: developer/embed-service-principal.md
       - name: 行レベルのセキュリティ
         href: developer/embedded-row-level-security.md
       - name: マルチテナントを管理する
@@ -888,7 +890,7 @@ items:
         href: developer/create-an-azure-active-directory-tenant.md
       - name: アプリケーションを登録する
         href: developer/register-app.md
-      - name: Power BI サービスを認証する
+      - name: Azure AD アクセス トークンを取得する
         href: developer/get-azuread-access-token.md
       - name: 埋め込みに関する Q&A
         href: developer/qanda.md
@@ -1036,6 +1038,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: テーブルに行を追加する
         href: developer/walkthrough-push-data-add-rows.md
+      - name: 資格情報の暗号化
+        href: developer/encrypt-credentials.md
     - name: リファレンス
       items:
       - name: REST API
@@ -1234,9 +1238,9 @@ items:
         href: service-admin-premium-purchase.md
       - name: Power BI Premium の管理
         href: service-admin-premium-manage.md
-      - name: アプリで Premium 容量を監視する
+      - name: アプリで容量を監視する
         href: service-admin-premium-monitor-capacity.md
-      - name: 管理ポータルで Premium 容量を監視する
+      - name: 管理ポータルでの容量を監視する
         href: service-admin-premium-monitor-portal.md
       - name: Premium 容量の再起動
         href: service-admin-premium-restart.md
@@ -1301,9 +1305,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
-ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
+ms.openlocfilehash: 27de32e6dda7f6eba069eaee56582a449dca858c
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55760397"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794494"
