@@ -8,17 +8,17 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: f7e83c2d0cd2f1c3344bf61f9f90ca43f09f7189
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234349"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794298"
 ---
-# <a name="visualizations-for-power-bi-consumers"></a>Power BI **コンシューマー**の視覚化
+# <a name="interact-with-visualizations-in-reports-dashboards-and-apps"></a>レポート、ダッシュボード、アプリで視覚化を操作する
 
 基本的に、***視覚化*** (または*ビジュアル*) は、*レポート*と*データセット*のデータを使用して、Power BI *デザイナー*によってビルドされたグラフの種類です。 
 
@@ -27,13 +27,14 @@ ms.locfileid: "55234349"
 
 ## <a name="what-can-i-do-with-visualizations"></a>視覚化で実行できること
 
-視覚化は、レポートとダッシュボードの*デザイナー*によって作成され、*コンシューマー*と共有されます。 コンシューマーの場合、視覚化と対話するさまざまなオプションがあり、分析情報を明らかにして、データ駆動型のビジネス上の意思決定を行います。 このようなオプションはすべて、以下の詳細な手順にリンクされています。
+視覚化は、レポートとダッシュボードの*デザイナー*によって作成され、*コンシューマー*と共有されます。 コンシューマーの場合、視覚化と対話するさまざまなオプションがあり、分析情報を明らかにして、データ駆動型のビジネス上の意思決定を行います。 次の表では、このようなオプションを網羅した一覧と、詳細な説明へのリンクを示します。
 
-まず始めに Q&A について説明します。 Q&A は Power BI の自然言語検索ツールです。 自然言語を使用して質問を入力すると、Q&A は視覚化の形でその質問に答えます。 コンシューマーは Q&A を使用して独自の視覚化を作成できます。 ただし、Q&A を使用して作成した視覚化は保存できません。 データから学びたい具体的な何かがあり、デザイナーがそれをレポートやダッシュボードに含めなかった場合、Q&A がお勧めです。 Q&A の詳細については、[コンシューマー向けの Q&A](end-user-q-and-a.md) に関するページを参照してください。
+> [!IMPORTANT]
+> まず始めに Q&A について説明します。 Q&A は Power BI の自然言語検索ツールです。 自然言語を使用して質問を入力すると、Q&A は視覚化の形でその質問に答えます。 コンシューマーは Q&A を使用して独自の視覚化を作成できます。 ただし、Q&A を使用して作成した視覚化は保存できません。 データから学びたい具体的な何かがあり、デザイナーがそれをレポートやダッシュボードに含めなかった場合、Q&A がお勧めです。 Q&A の詳細については、[コンシューマー向けの Q&A](end-user-q-and-a.md) に関するページを参照してください。
 
 
 
-|列 1  |ダッシュボード上  |レポート内  | Q&A 内
+|タスク  |ダッシュボード上  |レポート内  | Q&A 内
 |---------|---------|---------|--------|
 |[自分用に視覚化にコメントを追加するか、視覚化について同僚と会話を開始します](end-user-comment.md)。     |  はい       |   いいえ      |  いいえ  |
 |[視覚化が作成されたレポートを開いて探索します](end-user-tiles.md)。     |    はい     |   na      |  na |

@@ -9,28 +9,28 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291627"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794721"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>開発者向けハンドブックの概要、Power BI レポート サーバー
 Power BI レポート サーバーの開発者向けハンドブックへようこそ。Power BI レポート サーバーは、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。
 
 ![](media/developer-handbook-overview/admin-handbook.png)
 
-このハンドブックでは、開発者として Power BI レポート サーバーを使用するためのオプションについて主に説明します。
+このハンドブックでは、開発者として Power BI Report Server を使用するためのオプションについて主に説明します。
 
 ## <a name="embedding"></a>埋め込み
-クエリ文字列パラメーター `?rs:Embed=true` を URL に追加することで、Power BI レポート サーバー内の任意のレポートを iFrame 内に埋め込むことができます。 これは、Power BI レポートと、その他のレポートの種類でも機能します。
+クエリ文字列パラメーター `?rs:Embed=true` を URL に追加することで、Power BI レポート サーバー内の任意のレポートを iFrame 内に埋め込むことができます。 この手法は、Power BI レポートと、その他のレポートの種類でも機能します。
 
 ### <a name="report-viewer-control"></a>レポート ビューアー コントロール
 ページ分割されたレポートには、レポート ビューアー コントロールが利用できます。 これにより、.NET Windows 内または Web アプリケーション内にコントロールを配置できます。 詳細については、「[Get started with the Report Viewer Control](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)」 (レポート ビューアー コントロールを使ってみる) を参照してください。
 
 ## <a name="apis"></a>API
-Power BI レポート サーバーと対話する複数の API オプションがあります。 これには次のものが含まれます。
+Power BI レポート サーバーと対話する複数の API オプションがあります。 この手法には次のものが含まれます。
 
 * [REST API](rest-api.md)
 * [URL アクセス](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
@@ -39,7 +39,7 @@ Power BI レポート サーバーと対話する複数の API オプション�
 オープン ソースの [PowerShell ユーティリティ](https://github.com/Microsoft/ReportingServicesTools)を使用してレポート サーバーを管理することもできます。
 
 > [!NOTE]
-> 現在、PowerShell ユーティリティでは、Power BI Desktop ファイル (.pbix) をサポートしていません。
+> 現在、PowerShell ユーティリティでは、Power BI Desktop ファイル (.pbix) はサポートされていません。
 > 
 > 
 

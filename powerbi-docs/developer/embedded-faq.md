@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/17/2018
-ms.openlocfilehash: da005c7b1dcf04a61873f2b712083b10a5365329
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 54d768e4d2ad1b2eab4559ee5d9db0705fb55542
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430581"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762653"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -25,7 +25,7 @@ ms.locfileid: "55430581"
 
 ### <a name="what-is-power-bi-embedded"></a>Power BI Embedded とは何ですか?
 
-Microsoft Power BI Embedded (PBIE) を利用すれば、アプリケーション開発者は、完全にインタラクティブな優れたレポートをアプリケーションに組み込むことができます。データの視覚化やコントロールを自分で一から構築する必要がなく、時間と費用が節約されます。
+[Microsoft Power BI Embedded (PBIE)](azure-pbie-what-is-power-bi-embedded.md) を利用すれば、アプリケーション開発者は、完全にインタラクティブな優れたレポートをアプリケーションに組み込むことができます。データの視覚化やコントロールを自分で一から構築する必要がなく、時間と費用が節約されます。
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded の対象者は誰ですか?
 
@@ -33,7 +33,7 @@ Microsoft Power BI Embedded (PBIE) を利用すれば、アプリケーション
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Power BI Embedded と Power BI サービスの違いは何ですか?
 
-アプリケーションを開発するとき、お客様の意思決定に役立てるよう、アプリケーションにビジュアルを組み込みたいが、分析ソリューションを一から構築することは望まない ISV または開発者を Power BI Embedded は対象としています。 埋め込み分析では、ビジネス ユーザーはビジネス データにアクセスしてクエリを実行し、アプリケーション内でこのデータを利用してインサイトを生成できます。
+アプリケーションを開発するとき、お客様の意思決定に役立てるよう、アプリケーションにビジュアルを組み込みたいが、分析ソリューションを一から構築することは望まない ISV または開発者を Power BI Embedded は対象としています。 [埋め込み分析](embedding.md)では、ビジネス ユーザーはビジネス データにアクセスしてクエリを実行し、アプリケーション内でこのデータを利用してインサイトを生成できます。
 
 Power BI は、サービスとしてのソフトウェアの分析ソリューションです。組織はその最も重要なビジネス データを 1 つのビューで見ることができます。
 
@@ -51,13 +51,13 @@ ISV (通常、大規模な ISV) が P SK を利用し、事前パッケージ済
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>埋め込みトークンはいくつ作成できますか?
 
-PRO ライセンスの埋め込みトークンは、開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、[容量を購入する](#technical)必要があります。 容量を購入する場合、生成できる埋め込みトークンの数に上限はありません。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、[使用可能な機能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)に関するページに移動します。
+埋め込みトークンと PRO ライセンスの組み合わせは、開発テストを意図したものです。そのため、Power BI マスター アカウントまたは[サービス プリンシパル](embed-service-principal.md)で生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、[容量を購入](#technical)してください。 容量を購入する場合、生成できる埋め込みトークンの数に上限はありません。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、[使用可能な機能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)に関するページに移動します。
 
 ## <a name="technical"></a>技術的な質問
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure の A SKU と Office 365 の EM SKU の違いは何ですか?
 
-PowerBI.com は、ソーシャル コラボレーションや電子メール サブスクリプションなど、多彩な機能が SaaS オファーに含まれる企業向けソリューションです。
+PowerBI.com は、ソーシャル コラボレーションや電子メール サブスクリプションなど、多彩な機能を SaaS (サービスとしてのソフトウェア) オファリングに含める 企業向けソリューションです。
 
 Power BI Embedded は一連の API であり、開発者はこれを利用し、PaaS (サービスとしてのプラットフォーム) で埋め込み分析ソリューションを開発できます。 埋め込み分析シナリオの場合、PowerBI.com が ISV や開発者がその埋め込み分析ソリューション コンテンツやテナント レベル設定を管理する助けとなります。
 
@@ -86,7 +86,7 @@ Power BI Embedded は一連の API であり、開発者はこれを利用し、
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure で PBIE 容量を作成するための前提条件は何ですか?
 
-* 組織のディレクトリにサインインする必要があります (MSA アカウントはサポートされていません)。
+* 組織のディレクトリにサインインします (MSA アカウントはサポートされていません)。
 * Power BI テナントを用意する必要があります。すなわち、ディレクトリの少なくとも 1 名のユーザーを Power BI に登録している必要があります。 
 * 組織のディレクトリに Azure サブスクリプションを用意する必要があります。
 
@@ -98,9 +98,9 @@ Power BI Embedded は一連の API であり、開発者はこれを利用し、
 
 * [Azure 診断ログ](azure-pbie-diag-logs.md)を使用します。
 
-### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>私の容量はアプリの利用に合わせて調整する目的で自動的に拡大縮小しますか?
+### <a name="can-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>容量はアプリの利用に合わせて調整する目的で自動的に拡大縮小できますか?
 
-現在、拡大縮小は自動化されていませんが、API はすべていつでも拡大縮小できます。
+現在、自動的な拡大縮小はありませんが、API を利用してはすべていつでも拡大縮小できます。
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>容量を作成、拡張、再開すると、容量が中断状態になります。なぜでしょうか?
 
@@ -119,7 +119,7 @@ PBI ポータルで PBI テナント リージョンを確認できます。
 ![Power BI について](media/embedded-faq/about-01.png)
 ![テナント リージョン](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>クラウド ソリューション プロバイダー (CSP) チャネルでは何がサポートされていますか?
+### <a name="what-is-supported-by-the-cloud-solution-provider-csp-channel"></a>クラウド ソリューション プロバイダー (CSP) チャネルでは何がサポートされていますか?
 
 * サブスクリプションの種類が CSP の場合、ご自身のテナントに対して PBIE を作成できます。
 * パートナー アカウントは顧客テナントにサインインし、顧客テナントの代わりに PBIE を購入し、Power BI 容量の管理者として顧客テナント ユーザーを指定できます。
@@ -157,15 +157,15 @@ Power BI では、組織のアカウントでサインアップすることが�
 
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Power BI Embedded の認証モデルは何ですか?
 
-Power BI Embedded では、マスター ユーザー (Power BI Pro のライセンスが与えられた指名ユーザー) の認証に、引き続き Azure AD が利用されます。アプリケーションは Power BI 内で認証されます。
+Power BI Embedded では、マスター ユーザー (Power BI Pro のライセンスが与えられた指名ユーザー) の認証に引き続き Azure AD が利用されます。Power BI 内でアプリケーションを認証するときは[サービス プリンシパル](embed-service-principal.md)が使用されます。  
 
 アプリケーション ユーザーの認証と承認は ISV が実装します。ISV はそのアプリケーションに独自の認証を実装できます。
 
 Azure AD テナントを既に用意している場合、既存のディレクトリを利用できます。あるいは、埋め込みアプリケーション コンテンツ セキュリティに新しい Azure AD テナントを作成できます。
 
-AAD トークンを取得するには、Azure Active Directory 認証ライブラリ (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries) のいずれかを使用できます。 複数のプラットフォームで利用可能なクライアント ライブラリがあります。
+AAD トークンを取得するには、[Azure Active Directory 認証ライブラリ](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)のいずれかを使用できます。 複数のプラットフォームで利用可能なクライアント ライブラリがあります。
 
-### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-an-user-owns-data-scenario"></a>私はアプリケーションのユーザー認証に AAD を既に使用しています。 "ユーザーがデータを所有する" シナリオでは、Power BI に認証するとき、この ID をどのように利用できますか?
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>私はアプリケーションのユーザー認証に AAD を既に使用しています。 "ユーザーがデータを所有する" シナリオでは、Power BI に認証するとき、この ID をどのように利用できますか?
 
 これは標準的な OAuth 代理フローです (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)。Power BI サービスに対するアクセス許可を (必要な範囲で) 要求するようにアプリケーションを構成する必要があります。アプリのユーザー トークンが与えられたら、ユーザー アクセス トークンを利用して ADAL API AcquireTokenAsync を呼び出し、リソース ID として Power BI リソース URL を指定します。下のコード抜粋をご覧ください。この方法が示されています。
 
@@ -178,7 +178,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded とその他の Azure サービスの違いは何ですか?
 
-ISV/開発者は Azure で Power BI Embedded を購入する前に Power BI アカウントを用意する必要があります。 Power BI Embedded のデプロイ リージョンはお使いの Power BI アカウントによって決まります。 Azure の Power BI Embedded リソースを次の目的で管理します。
+ISV/開発者は Azure で Power BI Embedded を購入する前に Power BI アカウントを用意する必要があります。 Power BI Embedded のデプロイ リージョンによって Power BI アカウントが決まります。 Azure の Power BI Embedded リソースを次の目的で管理します。
 
 * 拡大/縮小
 * 容量管理者の追加
@@ -192,7 +192,7 @@ PowerBI.com を利用し、Power BI Embedded 容量のワークスペースの�
 
 ### <a name="what-type-of-content-pack-data-can-be-embedded"></a>どのような種類のコンテンツ パック データを埋め込むことができますか?
 
-コンテンツ パックのデータセットから構築された**ダッシュボード**と**タイル**を埋め込むことは "*できません*" が、コンテンツ パックのデータセットから構築された**レポート**を埋め込むことは "*できます*"。
+コンテンツ パックのデータセットから構築された**ダッシュボード**と**タイル**を埋め込むことは*できません*が、コンテンツ パックのデータセットから構築された**レポート**を埋め込むことは*できます*。
 
 ### <a name="what-is-the-difference-between-using-rls-vs-javascript-filters"></a>RLS の使用とJavaScript のフィルターの違いは何ですか?
 
@@ -203,6 +203,34 @@ RLS の場合、ISV の開発者が、モデルの作成と埋め込みトーク
 クライアント側のフィルター処理 (JavaScript) の場合、ISV では最初のビューでエンド ユーザーに表示されるものを決める場合はありますが、ISV ではエンドユーザーがビュー自体に適用する可能性がある変更を制御することはできません。 データのフィルター処理がバックエンドで発生する可能性もありますが、それは JavaScript クライアント コードによってトリガーされたものであり、そのためエンド ユーザーがこれを変更でき、セキュリティで保護されていると見なすことはできません。
 
 詳細については、[RLS と JavaScript のフィルター](embedded-row-level-security.md#using-rls-vs-javascript-filters)に関するページをご覧ください。
+
+### <a name="how-do-i-manage-permissions-for-service-principals-with-power-bi"></a>Power BI では、どのような方法でサービス プリンシパルのアクセス許可を管理しますか?
+
+Power BI で[サービス プリンシパル](embed-service-principal.md)を使用できるようにすると、アプリケーションの AD アクセス許可は無効になります。 アプリケーションのアクセス許可はその後、Power BI 管理ポータルを介して管理されます。
+
+サービス プリンシパルは、対象セキュリティ グループの Power BI テナントのすべての設定のアクセス許可を継承します。 アクセス許可を制限するには、サービス プリンシパル専用のセキュリティ グループを作成し、関連する有効な Power BI 設定の [特定のセキュリティ グループを除く] リストに追加します。
+
+このような状況は、新しいワークスペースに**管理者**としてサービス プリンシパルを追加するときに問題となります。 このタスクは [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) または Power BI サービスを使用して管理できます。
+
+### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>アプリケーション ID とサービス プリンシパル オブジェクト ID はそれぞれどのような状況で使用しますか?
+
+**[アプリケーション ID](embed-sample-for-customers.md#application-id)** は、認証のためにアプリケーション ID を渡すときに、アクセス トークンを作成する目的で使用されます。
+
+ワークスペースに管理者としてサービス プリンシパルを適用するなど、サービス プリンシパルを各種操作または変更のために参照するには、**[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)** を使用します。
+
+### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>サービス プリンシパルでオンプレミス データ ゲートウェイを管理できますか?
+
+マスター アカウントの場合のようにオンプレミス データ ゲートウェイ (データ ゲートウェイ) を管理することは、[サービス プリンシパル](embed-service-principal.md)ではできません。
+
+マスター アカウントを利用すれば、データ ゲートウェイをインストールし、そのゲートウェイにユーザーを追加したり、データ ソースに接続したり、その他の管理タスクを実行したりできます。
+
+サービス プリンシパルを利用すれば、SQL Server Analysis Services (SSAS) オンプレミス ライブ接続データ ソースを使用し、[行レベルセキュリティ (RLS)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview) を構成できます。 サービス プリンシパルを使用して **Power BI Embedded** と統合するとき、SSAS でユーザーとデータへのユーザー アクセスをこの方法で管理できます。
+
+### <a name="can-you-sign-into-the-power-bi-service-with-service-principal"></a>サービス プリンシパルで Power BI サービスにサインインできますか?
+
+いいえ - サービス プリンシパルを使用して Power BI にサインインすることはできません。
+
+また、埋め込みトークンの生成時のみ、外部アプリケーション (SaaS 埋め込み) でユーザーとしてコンテンツを利用できません。
 
 ### <a name="what-are-the-best-practices-to-improve-performance"></a>パフォーマンスを向上するベスト プラクティスについては、次を参照してください。
 
@@ -228,15 +256,15 @@ Power BI Embedded は Azure からお買い求めいただけます。
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Power BI Embedded の使用状況は請求書にどのように表示されますか?
 
-Power BI Embedded は、デプロイしたノードの種類に基づき、予測可能な時間レートで課金されます。 リソースが有効である限り、使用していなくても課金されます。 課金を停止するには、積極的にリソースを一時停止する必要があります。
+Power BI Embedded は、デプロイしたノードの種類に基づき、予測可能な時間レートで課金されます。 リソースが有効である限り、使用していなくても課金されます。 課金を停止するには、自分からリソースを一時停止する必要があります。
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Power BI Embedded に Power BI Pro のライセンスを必要とするのはどのようなユーザーですか? また、その理由は?
 
-Power BI ワークスペースにレポートを追加する必要のあるすべてのアナリストには、Power BI のライセンスが必要です。 REST API を使用する必要のあるすべての開発者には、Power BI Pro のライセンスが必要です。 Power BI のテナントと容量を管理する必要のあるすべてのテナント管理者には、Power BI Pro のライセンスが必要です。
+REST API を使用する必要のあるすべての開発者には、Power BI Pro のライセンスまたは[サービス プリンシパル](embed-service-principal.md)が必要です。 Power BI ワークスペースにレポートを追加する必要のあるすべてのアナリストは、Power BI Pro のライセンスを用意するか、サービス プリンシパルを使用できます。 Power BI のテナントと容量を管理する必要のあるすべてのテナント管理者には、Power BI Pro のライセンスが必要です。
 
 Power BI Embedded では、埋め込みコンテンツの管理と検証に Power BI ポータルを利用できるため、PowerBI.com 内でアプリを認証し、正しいリポジトリのレポートにアクセスするには、Power BI Pro ライセンスが必要です。
 
-ただし、ご自身のアプリケーション内で[埋め込みレポートを作成または編集する](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View)場合、エンド ユーザーは Power BI ユーザーである必要がないため、Pro ライセンスは必要ありません。
+ただし、自分のアプリケーション内で[埋め込みレポートを作成または編集する](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View)場合、エンド ユーザーは Power BI ユーザーである必要がないため、Pro ライセンスは必要ありません。
 
 ### <a name="can-i-get-started-for-free"></a>無料で始めることはできますか?
 
@@ -289,7 +317,7 @@ Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-cu
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>PBI ワークスペース コレクションから Power BI Embedded に移行しなければならないのはなぜですか?
 
-**Power BI ワークスペース コレクション**では使用できない新機能が、**Power BI Embedded** ソリューションに導入されています。
+**Power BI ワークスペース コレクション**では使用できない新機能がいくつか、**Power BI Embedded** ソリューションに導入されています。
 
 次のような機能です。
 

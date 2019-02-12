@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234633"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794847"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 レポート、ダッシュボード、アプリ、Q&A では視覚化が使用されています。 これらの視覚化の種類には、Power BI でパッケージ化されているものと、"*カスタム ビジュアル*" として作成されているものがあります。 カスタム ビジュアルは、Power BI の外部で作成され、"*レポート デザイナー*" でそれを Power BI のレポート、ダッシュボード、アプリに追加できるようになっています。 
@@ -26,7 +26,7 @@ ms.locfileid: "55234633"
 > カスタム ビジュアルについては、[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) の **[Power BI visuals]** セクションで探してください。 ビジュアルごとに、説明、作成者の情報、スクリーンショットまたはビデオを確認できます。 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI で利用可能な視覚化の一覧
-これらの視覚化はすべて、Power BI のアプリ、ダッシュボード、レポートで表示でき、[Q&A で指定する](#gna)ことができます。
+これらの視覚化はすべて、Power BI のアプリ、ダッシュボード、レポートで表示でき、[Q&A で指定する](#qna)ことができます。 視覚化を操作する方法については、「[Interact with visualizations in reports, dashboards, and apps](end-user-visualizations.md)」 (レポート、ダッシュボード、アプリで視覚化を操作する) を参照してください。
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>面グラフ:基本 (階層) と積み上げ
 ![面グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ Power BI Q&A で自然言語クエリを入力するときに、クエリ内で�
 ![Q&A セッション](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>次の手順
-[Power BI レポートでの視覚化](end-user-visualizations.md)    
+[レポート、ダッシュボード、アプリで視覚化を操作する](end-user-visualizations.md)    
 [sqlbi.com の正しい視覚エフェクト参照](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

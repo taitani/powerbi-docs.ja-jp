@@ -2,32 +2,32 @@
 title: アプリを Azure AD に登録する
 description: チュートリアル - データセットにデータをプッシュする - アプリを Azure AD に登録する
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: a3154a7b74d196f3c0aa2969e7c25bf56000a662
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296365"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762032"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>手順 1:アプリを Azure AD に登録する
+
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
 Power BI データセットにデータをプッシュする最初の手順では、Azure AD にアプリを登録します。 Azure AD でアプリを識別する **クライアント ID** を取得するために、この手順を最初に実行する必要があります。 **クライアント ID**がないと、Azure AD はアプリを認証できません。
 
 > **注**:Power BI 用アプリを登録する前に、[Power BI にサインアップする](create-an-azure-active-directory-tenant.md)必要があります。
-> 
-> 
 
 Azure AD にアプリを登録する手順は次のとおりです。
 
 ## <a name="register-an-app-in-azure-ad"></a>Azure AD にアプリを登録する
+
 1. dev.powerbi.com/apps に移動します。
 2. **[既存のアカウントでサインインする]** をクリックして、Power BI アカウントにサインインします。
 3. **[アプリ名]** を入力します (例: ダッシュボードにデータをプッシュするサンプル)。
@@ -38,13 +38,14 @@ Azure AD にアプリを登録する手順は次のとおりです。
 
 **[Power BI にアプリケーションを登録する]** ページは、次のようなものです。
 
-![](media/walkthrough-push-data-register-app-with-azure-ad/powerbi-developer-sample-register-app.png)
+![アプリの登録](media/walkthrough-push-data-register-app-with-azure-ad/powerbi-developer-sample-register-app.png)
 
 次の手順では、[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)方法について説明します。
 
 [次の手順 >](walkthrough-push-data-get-token.md)
 
 ## <a name="next-steps"></a>次の手順
+
 [Power BI にサインアップする](create-an-azure-active-directory-tenant.md)  
 [認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)  
 [チュートリアル:データセットにデータをプッシュする](walkthrough-push-data.md)  
@@ -52,4 +53,3 @@ Azure AD にアプリを登録する手順は次のとおりです。
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-

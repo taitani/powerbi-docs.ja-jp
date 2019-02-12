@@ -4,18 +4,17 @@ description: Power BI Embedded のホーム リージョン以外のリージョ
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/31/2018
-LocalizationGroup: Embedded
-ms.openlocfilehash: ab1b0f7ea7dbee13f39fbf47505a00e2ed6d41ea
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280426"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762423"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Power BI Embedded の Multi-Geo のサポート (プレビュー)
 
@@ -56,7 +55,9 @@ Powerbi.com の管理ポータルでも確認できます。 管理ポータル�
 Power BI コンテンツを別のリージョンに移動するには、次の手順を実行します。
 
 1. 別のリージョンに[新しい容量を作成](azure-pbie-create-capacity.md)します。
+
 2. すべてのワークスペースを既存の容量から新しい容量に割り当てます。
+
 3. 古い容量を削除または一時停止します。
 
 重要で注意を要するのは、コンテンツを再割り当てすることなく容量を削除すると、その容量内のすべてのコンテンツがホーム リージョン内の共有容量に移ることです。
@@ -66,7 +67,9 @@ Power BI コンテンツを別のリージョンに移動するには、次の�
 Multi-Geo で API を使用して容量を管理できるように、既存の API に次の変更を加えました。
 
 1. **[容量を取得する](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** - API はユーザーがアクセスできる容量の一覧を返します。 応答には容量の場所を示す 'region' という追加のプロパティが含まれるようになります。
-2. **[容量に割り当てる](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API は指定のワークスペースを容量に割り当てることを許可します。 この操作は、ワークスペースをホーム リージョン以外の容量に割り当てることや、ワークスペースを異なるリージョン間の容量に移動することを許可しません。 この操作を実行するには、ユーザーは引き続きワークスペースに対する管理アクセス許可、およびターゲット容量に対する管理アクセス許可または割り当てアクセス許可が必要です。
+
+2. **[容量に割り当てる](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API は指定のワークスペースを容量に割り当てることを許可します。 この操作は、ワークスペースをホーム リージョン以外の容量に割り当てることや、ワークスペースを異なるリージョン間の容量に移動することを許可しません。 この操作を実行するには、ユーザーまたは[サービス プリンシパル](embed-service-principal.md)は引き続きワークスペースに対する管理アクセス許可、およびターゲット容量に対する管理アクセス許可または割り当てアクセス許可が必要です。
+
 3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - *Create* や *Delete* を含む、Azure Resource Manager API の操作はすべて Multi-Geo をサポートします。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項

@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431156"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762676"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>チュートリアル:Power BI のダッシュボード、タイル、レポートをソブリン クラウド向けアプリケーションに埋め込む
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>チュートリアル:Power BI コンテンツをソブリン クラウド向けアプリケーションに埋め込む
 
 分析コンテンツをご自身のソブリン クラウド向けのビジネス プロセス アプリケーション内に埋め込む方法について説明します。 Power BI .NET SDK と Power BI JavaScript API を使って、ご自身の Web アプリケーションにレポート、ダッシュボード、またはタイルを埋め込むことができます。
 
@@ -37,7 +37,7 @@ Power BI はソブリン (プライベート) クラウドもサポートして�
 
 ![埋め込まれたダッシュボード](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-このチュートリアルを開始するには、**Power BI** アカウントが必要です。 アカウントを設定していない場合は、ソブリン クラウドの種類に応じて、[U. S. Government Power BI アカウント](../service-govus-signup.md)、[Germany Cloud 向け Power BI アカウント](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)、または [China Cloud 向け Power BI アカウント](http://www.21vbluecloud.com/powerbi/)にサインアップすることができます。
+このチュートリアルを開始するには、**Power BI** アカウントが必要です。 アカウントを設定していない場合、政府や国の種類に基づき、適切なソブリン クラウドを選択できます。 [U. S. Government Power BI アカウント](../service-govus-signup.md)、[Germany Cloud 向け Power BI アカウント](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)、または [China Cloud 向け Power BI アカウント](http://www.21vbluecloud.com/powerbi/)にサインアップできます。
 
 > [!NOTE]
 > 代わりに組織向けのダッシュボードを埋め込む場合は、 「[ダッシュボードを組織のアプリに統合する](integrate-dashboard.md)」をご覧ください。
@@ -435,7 +435,7 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 
 * [Power BI に Power BI ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md)
 
-制限事項と考慮事項
+考慮事項と制限事項
 
 * 現在、GCC アカウントは P および EM 容量のみをサポートします
 
