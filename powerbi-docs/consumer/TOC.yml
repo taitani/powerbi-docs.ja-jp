@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: 一般的なタスク
       items:
+      - name: コンテンツの所有者と最終更新日時を検索する
+        href: end-user-fresh.md
       - name: フォーカスと全画面モードを使用してコンテンツを拡大するさまざまな方法
         href: end-user-focus.md
       - name: Power BI でのお気に入りのダッシュボード、レポート、アプリ
@@ -191,9 +193,9 @@ items:
     items:
     - name: モバイル アプリでサポートされる言語
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 39f29c1fdc719defe1afe1f9bcdb5ef98a34c3c5
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: f0e5454a60f1434b1098484e7ef3cc74d3ce3be5
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794537"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086565"
