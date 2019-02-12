@@ -2,24 +2,24 @@
 title: Azure Portal での Power BI Embedded 容量の作成 | Microsoft Docs
 description: この記事では、Microsoft Azure で Power BI Embedded の容量を作成する方法について説明します。
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.reviewer: zakharb
+ms.date: 02/05/2019
+ms.openlocfilehash: 1d829dc31bc6e2419d4f2c187b40d6945f963f69
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288545"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762561"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal での Power BI Embedded 容量の作成
 
-この記事では、Microsoft Azure で Power BI Embedded の容量を作成する方法について説明します。 Power BI Embedded では Power BI の各種機能がシンプルになりました。目を見張るようなビジュアル、レポート、ダッシュボードをアプリに簡単に追加できます。
+この記事では、Microsoft Azure で [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) の容量を作成する方法について説明します。 Power BI Embedded では Power BI の各種機能がシンプルになりました。目を見張るようなビジュアル、レポート、ダッシュボードをアプリに簡単に追加できます。
 
 Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/)してください。
 
@@ -38,13 +38,11 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 1. [Azure Portal ](https://portal.azure.com/)にサインインします。
 
-2. **[リソースの作成]** > **[データ + 分析]** の順に選択します。
+2. 検索ボックスで *Power BI Embedded* を検索します。
 
-3. 検索ボックスで *Power BI Embedded* を検索します。
+3. Power BI Embedded 内で **[作成]** を選択します。
 
-4. Power BI Embedded 内で **[作成]** を選択します。
-
-5. 必須情報を入力し、**[作成]** を選択します。
+4. 必須情報を入力し、**[作成]** を選択します。
 
     ![新しい容量を作成するために入力するフィールド](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
@@ -57,9 +55,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
     |**場所**|お使いのテナントの Power BI がホストされている場所。 既定の場所はホーム領域ですが、[Multi-Geo オプション](embedded-multi-geo.md)を使用して場所を変更できます。
     |**価格レベル**|自分のニーズに合った SKU (仮想コア数とメモリ サイズ) を選択してください。  詳細については、「[Power BI Embedded の価格](https://azure.microsoft.com/pricing/details/power-bi-embedded/)」を参照してください。|
 
-6. **[作成]** を選択します。
-
-作成は通常 1 分以内に完了します。数秒で終わることもあります。 **[ダッシュボードにピン留めする]** を選択した場合、ダッシュボードに移動し、新しい容量を確認できます。 あるいは、**[すべてのサービス]** > **[Power BI Embedded]** の順に移動し、容量を使用する準備ができているか確認できます。
+**[すべてのサービス]**、**[Power BI Embedded]** の順に移動し、容量を使用する準備ができているか確認できます。 あるいは、通知セクションまたはブレード内から **[ダッシュボードにピン留めする]** を選択し、ダッシュボードに移動して新しい容量を確認できます。
 
 ![Power BI Embedded 容量を含む Azure Portal ダッシュボード](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 
