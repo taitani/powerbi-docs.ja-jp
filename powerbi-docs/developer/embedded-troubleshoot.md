@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762101"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223837"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -161,7 +161,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 許可には管理者権限が必要です
 
-**_症状:_**</br>
+**_症状:_**<br>
 同意を与えるとき、管理者以外のユーザーがアプリケーションに初めてサインインすると、次のいずれかのエラーが返されます。
 
 * ConsentTest は、管理者のみが付与することができる組織内のリソースへのアクセス許可を必要とします。 アプリケーションを使用するには、まず管理者に依頼してこのアプリにアクセス許可を付与してください。
@@ -171,7 +171,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 管理者ユーザーは正常にサインインし、同意を許可することができます。
 
-**_根本原因:_**</br>
+**_根本原因:_**<br>
 ユーザーの同意がテナントに対して無効です。
 
 **_いくつかの修正方法が可能です:_** 

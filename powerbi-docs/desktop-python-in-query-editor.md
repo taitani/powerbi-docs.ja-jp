@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d97c59b7c5d25e85dee5f3b5b5b6ae8d24ae6cb2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283324"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56217047"
 ---
 # <a name="using-python-in-query-editor"></a>クエリ エディターでの Python の使用
 Power BI Desktop **クエリ エディター**では、統計学者、データ科学者、データ分析官によって広く使用されているプログラミング言語、**Python** を使用できます。 Python と**クエリ エディター**を統合することで、Python を使用したデータ クレンジングを実行したり、データセットで高度なデータ シェイプおよびデータ分析 (失ったデータを埋める、予測、クラスター化など) を実行したりできます。 **Python** は高度な言語であり、**クエリ エディター**で使用し、ご自分のデータ モデルを用意したり、レポートを作成したりできます。
@@ -43,10 +43,12 @@ Power BI Desktop の**クエリ エディター**で **Python** を使用する�
    ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. この例では、次のスクリプト コードを入力します。
    
+    ```python
        import pandas as pd
        completedData = dataset.fillna(method='backfill', inplace=False)
        dataset["completedValues"] =  completedData["SMI missing values"]
-   
+   ```
+
    > [!NOTE]
    > 前のスクリプト コードを正しく動作させるためには、Python 環境に *pandas* ライブラリをインストールする必要があります。 pandas をインストールするには、Python のインストールで |      > pip install pandas コマンドを実行します。
    > 

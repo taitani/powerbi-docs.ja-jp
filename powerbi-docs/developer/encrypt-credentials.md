@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mahirdiab
-ms.openlocfilehash: 050628dfe179a39ca24d2df72f1296acf48aa261
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763126"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223515"
 ---
 # <a name="encrypt-credentials"></a>資格情報を暗号化する
 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) を使用して**エンタープライズ オンプレミス ゲートウェイ**で[データソースの作成](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource)または[データソースの更新](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)を呼び出すときは、ゲートウェイの公開キーを使用して資格情報の値を暗号化する必要があります。
@@ -24,28 +24,28 @@ ms.locfileid: "55763126"
 下の EncodeCredentials メソッドに渡す資格情報は、資格情報の種類に応じて、次のいずれかの形式にする必要があります。
 
 **基本/Windows 資格情報**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **キー資格情報**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **OAuth2 資格情報**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
 
 **匿名資格情報**
-```
+```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **資格情報を暗号化する**
-```
+```csharp
 public static class AsymmetricKeyEncryptionHelper
 {
 

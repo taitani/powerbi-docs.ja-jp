@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1302ede9c28cc42b3605e55705f07620f2974990
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430972"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216058"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop での Azure Consumption Insights への接続 (Beda)
 **Azure Consumption Insights** コネクタを使用すれば、**Power BI Desktop** で Azure に接続して、組織における Azure サービスの使用状況に関する詳細なデータと情報を得ることができます。 また、メジャー、カスタム列、およびビジュアルを作成して、組織での Azure の使用状況についてレポートを作成し、共有することができます。 このリリースの **Azure Consumption Insights** コネクタはベータ版であり、変更される可能性があります。
@@ -179,7 +179,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | Meter Region |meterRegion |Meter Region |いいえ |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |いいえ |
 | MeterId |meterId |Meter ID |いいえ |
-| Month | |Month |いいえ |
+| 月 | |月 |いいえ |
 | 製品 |製品 |製品 |いいえ |
 | ProductId |productId | |はい |
 | リソース グループ |resourceGroup |リソース グループ |いいえ |

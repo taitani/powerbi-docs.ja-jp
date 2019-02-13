@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 51eb5c2947dc6d621e6c2ef6d3e2361a4542a0f1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee7b69bbf8857f12cabb6f7147f8e1d779b2a17e
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276931"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215069"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイの高可用性クラスター
 
@@ -59,13 +59,13 @@ PowerShell スクリプトは、オンプレミス データ ゲートウェイ�
 1. 管理者として、PowerShell コマンド ウィンドウを開きます。
 2. その後、以下の 1 回限りの PowerShell コマンドを実行します (ここでは、現在のコンピューターで PowerShell コマンドを実行したことがないと仮定します)。
 
-    ```
+    ```powershell
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
 3. 次に、PowerShell ウィンドウでオンプレミス データ ゲートウェイのインストール フォルダーに移動して、以下のコマンドを使用して必要なモジュールをインポートします。
 
-    ```
+    ```powershell
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 

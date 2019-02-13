@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: bb87bc95e9d0bbde4d9239d172d341cbebb716cc
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234418"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216840"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) を利用し、Excel ブックをホストするようにレポート サーバーを構成する
 
@@ -32,13 +32,13 @@ Office Online Server を実行するサーバーで以下の手順を実行し�
 
     **Windows Server 2012 R2:**
 
-    ```
+    ```powershell
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,InkandHandwritingServices,NET-Framework-Features,NET-Framework-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
 
     **Windows Server 2016:**
 
-    ```
+    ```powershell
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
 
@@ -80,7 +80,7 @@ Office Online Server 言語パックを利用すれば、Web ベースの Office
 
 次の例のように、New-OfficeWebAppsFarm コマンドを使用し、1 台のサーバーから構成される Office Online Server ファームを新規作成します。
 
-```
+```powershell
 New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "https://wacweb01.contoso.com" -CertificateName "OfficeWebApps Certificate"
 ```
 
@@ -94,7 +94,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 次の例のように、New-OfficeWebAppsFarm コマンドを使用し、1 台のサーバーから構成される Office Online Server ファームを新規作成します。
 
-```
+```powershell
 New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 ```
 
@@ -113,11 +113,11 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 Office Online Server が正常に動作すると、Web ブラウザーに Web Application Open Platform Interface Protocol (WOPI) 検出 XML ファイルが表示されます。 そのファイルの最初の数行は次のようになります。
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?> 
-- <wopi-discovery>
-- <net-zone name="internal-http">
-- <app name="Excel" favIconUrl="<InternalUrl>/x/_layouts/images/FavIcon_Excel.ico" checkLicense="true">
+<wopi-discovery>
+<net-zone name="internal-http">
+<app name="Excel" favIconUrl="<InternalUrl>/x/_layouts/images/FavIcon_Excel.ico" checkLicense="true">
 <action name="view" ext="ods" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
 <action name="view" ext="xls" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
 <action name="view" ext="xlsb" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
@@ -128,7 +128,7 @@ Office Online Server が正常に動作すると、Web ブラウザーに Web Ap
 
 Power BI Report Server では、すべてのファイルにおいて、最大ファイル サイズは 100 MB となります。 それとの同期を維持するには、OOS でこれを手動設定する必要があります。
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelWorkbookSizeMax 100
 ```
 
@@ -140,7 +140,7 @@ Analysis Services にライブ接続するには、Excel ブック内の接続�
 
 OOS サーバーで次の PowerShell コマンドを実行します。
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelUseEffectiveUserName:$true
 Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 Set-OfficeWebAppsFarm -ExcelWarnOnDataRefresh:$false
@@ -152,13 +152,13 @@ Analysis Services Power Pivot モード インスタンスをインストール�
 
 OOS で Power Pivot モード インスタンスを使用するには、次のコマンドを実行します。
 
-```
+```powershell
 New-OfficeWebAppsExcelBIServer -ServerId <server_name>\POWERPIVOT
 ```
 
 外部データをまだ許可していない場合、上記の Analysis Services 手順から、次のコマンドを実行します。
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 ```
 

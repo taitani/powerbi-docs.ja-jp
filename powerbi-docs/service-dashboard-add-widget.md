@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287073"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215714"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>画像、テキスト、ビデオ、その他をダッシュボードに追加する
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -101,12 +101,12 @@ HTML コンテンツを貼り付けるか、入力します。  Power BI によ�
 ## <a name="tips-for-embedding-web-content"></a>Web コンテンツを埋め込むためのヒント
 * iframe には、セキュリティで保護されたソースを使います。 iframe の埋め込みコードを入力したときにタイルが空白になった場合は、iframe のソースに **http** を使っているかどうか確認してください。  その場合は、 **https**に変更してください。
   
-  ```
+  ```html
   <iframe src="https://xyz.com">
   ```
 * 幅と高さの情報を編集します。 この埋め込みコードでは、ビデオを埋め込み、ビデオ プレーヤーを 560 x 315 ピクセルに設定します。  タイルのサイズを変更しても、このサイズは変更されません。
   
-  ```
+  ```html
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
@@ -114,14 +114,14 @@ HTML コンテンツを貼り付けるか、入力します。  Power BI によ�
   
   タイルのサイズに合わせてプレイヤーのサイズを変更するには、幅と高さを 100% に設定します。
   
-  ```
+  ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
 * このコードでは、ツイートを埋め込み、**AFK** ポッドキャスト、**@GuyInACube の Twitter ページ**、**フォロー**、**#analytics**、**返信**、**リツイート**、**いいね**についてダッシュボードに別個のリンクを保持しています。  タイルそのものを選択すると、Twitter のポッドキャストに移動します。
   
-  ```
+  ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
   <p lang="en" dir="ltr">Listen to
   <a href="https://twitter.com/GuyInACube">@GuyInACube</a> talk to

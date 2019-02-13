@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 353104bcc99b65bdabe83f58edffd2653c48731c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55761986"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215920"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>手順 5:Power BI テーブルに行を追加する
 
@@ -42,7 +42,7 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
 
 * static void Main(string[] args) では、以下のように入力します。
   
-  ```
+  ```csharp
    static void Main(string[] args)
    {
   
@@ -62,7 +62,7 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
   ```
 * AddRows() メソッドを追加します。
 
-```
+```csharp
     #region Add rows to a Power BI table
     private static void AddRows(string datasetId, string tableName)
     {
@@ -111,6 +111,8 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>完全なコード リスト
+
+```csharp
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -307,6 +309,7 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
             #endregion
         }
     }
+```
 
 ただし、上のコードでは**_//Get the first id_** と指定しています。正しい操作は、データセットを名前で検索することです。
 

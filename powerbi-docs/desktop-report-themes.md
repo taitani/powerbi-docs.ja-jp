@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277436"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215737"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポートのテーマを使用する
 **レポートのテーマ**では、企業の色、季節の色、または他の配色テーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます。 例外がいくつかあり、それについてはこの記事の後半で説明します。
@@ -101,6 +101,7 @@ Power BI Desktop レポートにレポート テーマを適用するには、�
 
 次に示すのは、独自の JSON ファイルの作成に使用できる *St Patrick's Day.json* ファイルのテキストです。
 
+```json
     {
         "name": "St Patricks Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
@@ -108,6 +109,7 @@ Power BI Desktop レポートにレポート テーマを適用するには、�
         "foreground": "#3A6108",
         "tableAccent": "#568410"
     }
+```
 
 そこから、選択した色に対応する独自の色の 16 進コードを入力できます。
 
@@ -158,6 +160,7 @@ JSON ファイルを作成する利点はさまざまです。 たとえば、�
 
 Valentine's Day の JSON ファイルは、ダウンロードするのではなく、コードで提供します。
 
+```json
     {
         "name": "Valentine's Day",
         "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
@@ -165,6 +168,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
         "foreground": "#ee7799",
         "tableAccent": "#990011"
     }
+```
 
 **テーマのレポート**を使用すれば、Power BI Desktop レポートで個人、組織、さらには現在の季節や休暇の色鮮やかなレポートを作成することができます。 
 
@@ -303,7 +307,8 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 ### <a name="properties-within-each-card"></a>各カード内のプロパティ
 次のセクションでは、各カードに含まれるプロパティを定義します。
 
-    "general":
+```json
+      "general":
         "responsive": {
           "type": [
             "bool"
@@ -371,7 +376,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "categoryAxis": {
+      "categoryAxis": {
         "show": {
           "type": [
             "bool"
@@ -557,7 +562,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "valueAxis": {
+      "valueAxis": {
         "show": {
           "type": [
             "bool"
@@ -865,7 +870,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "dataPoint": {
+      "dataPoint": {
         "defaultColor": {
           "type": [
             "fill"
@@ -901,7 +906,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "labels": {
+      "labels": {
         "show": {
           "type": [
             "bool"
@@ -1019,7 +1024,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "lineStyles": {
+      "lineStyles": {
         "strokeWidth": {
           "type": [
             "numeric"
@@ -1094,7 +1099,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "plotArea": {
+      "plotArea": {
         "transparency": {
           "type": [
             "numeric"
@@ -1107,7 +1112,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "trend": {
+      "trend": {
         "show": {
           "type": [
             "bool"
@@ -1297,7 +1302,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "referenceLine": {
+      "referenceLine": {
         "show": {
           "type": [
             "bool"
@@ -1433,7 +1438,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "line": {
+      "line": {
         "lineColor": {
           "type": [
             "fill"
@@ -1470,7 +1475,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "fill": {
+      "fill": {
         "show": {
           "type": [
             "bool"
@@ -1499,7 +1504,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "rotation": {
+      "rotation": {
         "angle": {
           "type": [
             "numeric"
@@ -1509,7 +1514,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "categoryLabels": {
+      "categoryLabels": {
         "show": {
           "type": [
             "bool"
@@ -1546,7 +1551,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "wordWrap": {
+      "wordWrap": {
         "show": {
           "type": [
             "bool"
@@ -1556,7 +1561,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "dataLabels": {
+      "dataLabels": {
         "color": {
           "type": [
             "fill"
@@ -1585,7 +1590,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "cardTitle": {
+      "cardTitle": {
         "color": {
           "type": [
             "fill"
@@ -1614,7 +1619,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "card": {
+      "card": {
         "outline": {
           "type": [
             "enumeration"
@@ -1695,7 +1700,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "percentBarLabel": {
+      "percentBarLabel": {
         "show": {
           "type": [
             "bool"
@@ -1732,7 +1737,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "axis": {
+      "axis": {
         "min": {
           "type": [
             "numeric"
@@ -1758,7 +1763,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "target": {
+      "target": {
         "show": {
           "type": [
             "bool"
@@ -1817,7 +1822,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "calloutValue": {
+      "calloutValue": {
         "show": {
           "type": [
             "bool"
@@ -1860,7 +1865,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "forecast": {
+      "forecast": {
         "show": {
           "type": [
             "bool"
@@ -1927,7 +1932,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "bubbles": {
+      "bubbles": {
         "bubbleSize": {
           "type": [
             "formatting"
@@ -1937,7 +1942,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "mapControls": {
+      "mapControls": {
         "autoZoom": {
           "type": [
             "bool"
@@ -1962,7 +1967,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "mapStyles": {
+      "mapStyles": {
         "mapTheme": {
           "type": [
             "enumeration"
@@ -1972,7 +1977,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "shape": {
+      "shape": {
         "map": {
           "type": [
             "geoJson"
@@ -1990,7 +1995,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "zoom": {
+      "zoom": {
         "autoZoom": {
           "type": [
             "bool"
@@ -2025,7 +2030,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "xAxisReferenceLine": {
+      "xAxisReferenceLine": {
         "show": {
           "type": [
             "bool"
@@ -2150,7 +2155,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "fillPoint": {
+      "fillPoint": {
         "show": {
           "type": [
             "bool"
@@ -2160,7 +2165,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "colorByCategory": {
+      "colorByCategory": {
         "show": {
           "type": [
             "bool"
@@ -2170,7 +2175,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "plotAreaShading": {
+      "plotAreaShading": {
         "show": {
           "type": [
             "bool"
@@ -2213,7 +2218,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "ratioLine": {
+      "ratioLine": {
         "show": {
           "type": [
             "bool"
@@ -2253,7 +2258,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "grid": {
+      "grid": {
         "outlineColor": {
           "type": [
             "fill"
@@ -2373,7 +2378,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "columnHeaders": {
+      "columnHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2448,7 +2453,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "values": {
+      "values": {
         "outline": {
           "type": [
             "enumeration"
@@ -2567,7 +2572,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "total": {
+      "total": {
         "outline": {
           "type": [
             "enumeration"
@@ -2631,7 +2636,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "columnFormatting": {
+      "columnFormatting": {
         "fontColor": {
           "type": [
             "fill"
@@ -2687,7 +2692,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "rowHeaders": {
+      "rowHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2776,7 +2781,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "subTotals": {
+      "subTotals": {
         "outline": {
           "type": [
             "enumeration"
@@ -2848,7 +2853,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "selection": {
+      "selection": {
         "selectAllCheckboxEnabled": {
           "type": [
             "bool"
@@ -2866,7 +2871,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "header": {
+      "header": {
         "show": {
           "type": [
             "bool"
@@ -2919,7 +2924,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "items": {
+      "items": {
         "fontColor": {
           "type": [
             "fill"
@@ -2964,7 +2969,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "numericInputStyle": {
+      "numericInputStyle": {
         "fontColor": {
           "type": [
             "fill"
@@ -3001,7 +3006,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "slider": {
+      "slider": {
         "show": {
           "type": [
             "bool"
@@ -3019,7 +3024,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "dateRange": {
+      "dateRange": {
         "includeToday": {
           "type": [
             "bool"
@@ -3029,7 +3034,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "sentimentColors": {
+      "sentimentColors": {
         "increaseFill": {
           "type": [
             "fill"
@@ -3063,7 +3068,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "breakdown": {
+      "breakdown": {
         "maxBreakdowns": {
           "type": [
             "integer"
@@ -3076,7 +3081,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "indicator": {
+      "indicator": {
         "indicatorDisplayUnits": {
           "type": [
             "formatting"
@@ -3108,7 +3113,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "trendline": {
+      "trendline": {
         "show": {
           "type": [
             "bool"
@@ -3118,7 +3123,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "goals": {
+      "goals": {
         "showGoal": {
           "type": [
             "bool"
@@ -3136,7 +3141,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       },
-    "status": {
+      "status": {
         "direction": {
           "type": [
             "enumeration"
@@ -3170,13 +3175,14 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
           ]
         }
       }
-
+```
 
 
 
 ### <a name="enumerations-in-the-json-file"></a>JSON ファイルでの列挙
 次のセクションでは、JSON ファイルで使用できる列挙を定義します。
 
+```json
     {
         "legend": {
             "position": [
@@ -4205,3 +4211,4 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
          ]
        }
     }
+```

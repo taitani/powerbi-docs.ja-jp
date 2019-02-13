@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ef8146501969697b15a3d1ff3cae2c605cabaacc
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295749"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216817"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>オンプレミス データ ゲートウェイ (個人用モード)
 ゲートウェイを利用し、オンプレミス データ ソースを使用したり、Power BI のレポートやダッシュボードを作成したりできます。 **ゲートウェイ**は、プライベートのオンプレミス ネットワークに保存されているデータへのアクセスを促進し、**Power BI サービス**など、オンライン サービスでそのデータを使用することを可能にするソフトウェアです。 **オンプレミス データ ゲートウェイ (個人用モード)** は最近公開された、Power BI ゲートウェイの更新プログラムであり、個人が自分のコンピューターにゲートウェイをインストールし、オンプレミス データにアクセスすることを可能にします。
@@ -86,11 +86,11 @@ ms.locfileid: "54295749"
    ```
 2. ファイルの下部に次のテキストを追加します。
    
-       ```
-       <setting name="EnableFastCombine" serializeAs="String">```
+    ```xml
+       <setting name="EnableFastCombine" serializeAs="String">
        <value>true</value>
-       </setting>
-       ```
+    </setting>
+    ```
 3. 完了すると、約 1 分で設定が適用されます。 正常に動作していることを確認するには、**Power BI サービス**でオンデマンド更新を試し、**高速結合**が動作していることを確認します。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
