@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147406"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971696"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI でのレポート エディターのツアー
 
-Power BI サービスの*レポート エディター*と Power BI Desktop のレポート エディターは似ています。 ビデオでは Power BI Desktop のレポート エディターを、この記事では Power BI サービスのレポート エディターを説明します。 
+Power BI サービスの*レポート エディター*と Power BI Desktop のレポート エディターは似ています。 通常は、Power BI Desktop でレポートを作成することから始めます。 次に、それらを Power BI サービスに公開します。ここで引き続きそれを変更できます。 Power BI サービスでは、レポートに基づくダッシュボードを作成することもできます。
 
-レポート作成者は、ダッシュボードとレポートを作成し、編集します。 その後、レポートの利用者に配布します。 レポートの利用者は Power BI サービスの読み取りビューでダッシュボードやレポートを閲覧できますが、編集はできません。 詳細については、[Power BI サービスでレポート コンシューマーが行うことができる内容](consumer/end-user-reading-view.md)に関するページを参照してください。 
+ダッシュボードとレポートを作成した後、それらをレポート コンシューマーに配布します。 その共有方法によっては、エンド ユーザーは Power BI サービスの読み取りビューでそれらを操作できます。ただし、編集はできません。 詳細については、[Power BI サービスでレポート コンシューマーが実行できる操作](consumer/end-user-reading-view.md)に関するページをご覧ください。 
+
+この動画では、Power BI Desktop のレポート エディターをご覧いただけます。 この記事では、Power BI サービスのレポート エディターについて示します。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -79,7 +81,7 @@ Power BI レポート エディターには 3 つのセクションがありま�
 拡大鏡アイコンを選択して分析ウィンドウを表示します。 使用可能なオプションは、選択した視覚エフェクトの種類に応じて異なります。
 
 ![レポート エディターの分析ウィンドウ](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
-Power BI サービスの分析ウィンドウでは、視覚化に動的な基準線を追加し、重要な傾向や洞察にフォーカスを設定できます。 詳細については、「[Power BI サービスの [分析] ウィンドウ](service-analytics-pane.md)」または「[Power BI Desktop の [分析] ウィンドウ](desktop-analytics-pane.md)」を参照してください。
+Power BI サービスの分析ウィンドウでは、視覚化に動的な参照行を追加し、重要な傾向や分析情報にフォーカスを設定できます。 詳細については、[Power BI サービスの分析ウィンドウ](service-analytics-pane.md)または [Power BI Desktop の分析ウィンドウ](desktop-analytics-pane.md)に関する記事をご覧ください。
 
 - - -
 ## <a name="the-filters-pane"></a>フィルター ウィンドウ
@@ -90,6 +92,12 @@ Power BI サービスの分析ウィンドウでは、視覚化に動的な基�
 ![フィルター ウィンドウ](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 詳細については、「[レポートへのフィルターの追加](power-bi-report-add-filter.md)」を参照してください。
+
+新しいフィルター エクスペリエンスが現在プレビュー段階にあります。 新しいフィルターでは、それをレポート自体のように書式設定できます。 また、フィルターをロックしたり、それをレポート コンシューマーから非表示にしたりもできます。 
+
+![新しいフィルター エクスペリエンス](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+詳細については、[新しいフィルター エクスペリエンス](power-bi-report-filter-preview.md)に関する記事をご覧ください。
 
 - - -
 ## <a name="the-fields-pane"></a>フィールド ウィンドウ

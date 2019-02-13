@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 02/07/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 82c1a719e757e471b5c278cb26132a3629ca0d74
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 2a38d53a121f0a58c18f627370bf81413cf36982
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794229"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888212"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium および Power BI Embedded の容量を管理する
 
@@ -25,11 +25,11 @@ Power BI Premium および Power BI Embedded の容量を管理する方法に�
 
 ## <a name="what-is-capacity"></a>容量とは
 
-*容量*は Power BI Premium および Power BI Embedded サービスの中核となるものです。 容量は、組織専用に予約されたリソースのセットです。 専用の容量を持つことで、組織全体のユーザー用にユーザーごとのライセンスを購入しなくても、これらのユーザーに対してダッシュボード、レポート、データセットを公開できます。 また、それによって、容量内でホストされているコンテンツに対して信頼性の高い、一貫性のあるパフォーマンスも提供されます。 詳しくは、「[Power BI Premium - what is it?](service-premium.md)」 (Power BI Premium とは) を参照してください。
+*容量*は Power BI Premium および Power BI Embedded サービスの中核となるものです。 これは、組織専用に予約されたリソースのセットです。 専用の容量を持つことで、組織全体のユーザー用にユーザーごとのライセンスを購入しなくても、これらのユーザーに対してダッシュボード、レポート、データセットを公開できます。 また、それによって、容量内でホストされているコンテンツに対して信頼性の高い、一貫性のあるパフォーマンスも提供されます。 詳しくは、「[Power BI Premium - what is it?](service-premium.md)」 (Power BI Premium とは) を参照してください。
 
 ### <a name="capacity-admins"></a>容量管理者
 
-*容量の容量管理者*として容量に割り当てられたユーザーは、容量とその管理機能を完全に制御できます。 Power BI 管理ポータルでは、さらに容量管理者を追加したり、ユーザーに容量割り当てのアクセス許可を付与したりできます。 容量にワークスペースを一括して割り当て、容量の使用状況の指標を表示できます。
+*容量の容量管理者*として容量に割り当てられたユーザーは、容量とその管理機能を完全に制御できます。 Power BI 管理ポータルでは、さらに容量管理者を追加したり、ユーザーに容量割り当てのアクセス許可を付与したりできます。 容量にワークスペースを一括して割り当て、容量の利用状況の指標を表示できます。
 
 > [!NOTE]
 > Power BI Embedded の場合、容量管理者は Microsoft Azure portal 内で定義されます。
