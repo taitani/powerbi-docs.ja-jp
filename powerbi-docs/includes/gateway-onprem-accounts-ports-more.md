@@ -43,7 +43,7 @@
 
 ゲートウェイと Azure Service Bus との間の通信に、直接 TCP ではなく HTTPS を使用するように強制できます。 HTTPS の使用はパフォーマンスに影響を与える場合があります。 この操作を行うには、この段落の直後に続くコード スニペットに示すように、値を `AutoDetect` から `Https` に変更して、*Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* ファイルを変更します。 このファイルは、既定では *C:\Program Files\On-premises data gateway* にあります。
 
-```
+```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
     <value>Https</value>
 </setting>
