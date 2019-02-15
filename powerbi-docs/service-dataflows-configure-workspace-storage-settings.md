@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291949"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086427"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>ワークスペース データフローの設定の構成 (プレビュー)
 
 Power BI とデータフローを使用すると、ワークスペースのデータフロー定義ファイルとデータ ファイルをお使いの Azure Data Lake Storage Gen2 アカウントに格納できます。 ワークスペース管理者はそのために、Power BI を構成できます。この記事では、これを行うために必要な手順について説明します。 
 
-ワークスペースのデータフロー ストレージの場所を構成できるように、会社のグローバル管理者が、事前に組織のストレージ アカウントから Power BI に接続して、該当のストレージ アカウントに対するストレージ割り当てのアクセス許可を有効にしておく必要があります。 * [データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
+ワークスペースのデータフロー ストレージの場所を構成できるように、会社のグローバル管理者が、事前に組織のストレージ アカウントから Power BI に接続して、該当のストレージ アカウントに対するストレージ割り当てのアクセス許可を有効にしておく必要があります。 *[データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)* 
 
 ワークスペースのデータフロー ストレージ設定を構成するには、次の 2 つの方法があります。 
 

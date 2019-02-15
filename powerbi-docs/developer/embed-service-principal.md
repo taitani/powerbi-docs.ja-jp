@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763097"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971673"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI でのサービス プリンシパル (プレビュー)
 
@@ -108,9 +108,6 @@ Power BI の成果物とリソースが[新しい Power BI ワークスペース
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > AAD セキュリティ グループを作成できるのは、AAD のグローバル管理者だけです。
-
 3. Power BI 管理者は、Power BI 管理ポータルの **[開発者向け設定]** でサービス プリンシパルを有効にする必要があります。 Azure AD で作成したセキュリティ グループを、**[開発者向け設定]** の **[特定のセキュリティ グループ]** セクションに追加します。
 
    > [!Important]
@@ -173,6 +170,7 @@ PowerShell でサービス プリンシパル オブジェクト ID を取得す
 * Power BI 管理ポータル内の開発者向け設定でサービス プリンシパルを有効にするには、Power BI 管理者権限が必要です。
 * サービス プリンシパルを使用して、オンプレミス データ ゲートウェイをインストールまたは管理することはできません。
 * [組織のアプリケーションへの埋め込み](embed-sample-for-your-organization.md)では、サービス プリンシパルを使用することはできません。
+* [データフロー](../service-dataflows-overview.md)管理はサポートされていません。
 
 ## <a name="next-steps"></a>次の手順
 

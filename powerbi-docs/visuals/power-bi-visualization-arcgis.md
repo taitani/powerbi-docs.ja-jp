@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-visuals
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 279fea3f1b36a86e7606f3b6d69f19ab42763805
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 6b3f1c3780b60efc2ade444960a92234afecc71e
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234626"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086588"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Esri が提供する Power BI サービスおよび Power BI Desktop の ArcGIS マップ
-このチュートリアルは、ArcGIS マップを作成するユーザーの観点から書かれています。 作成者が同僚と ArcGIS マップを共有すると、その同僚はマップを表示および操作できますが、変更を保存することはできません。 ArcGIS マップの表示方法について詳しくは、「[Power BI での ArcGIS マップとの対話](../consumer/power-bi-visualizations-arcgis.md)」をご覧ください。
+このチュートリアルは、ArcGIS マップを作成するユーザーの観点から書かれています。 作成者が同僚と ArcGIS マップを共有すると、その同僚はマップを表示および操作できますが、変更を保存することはできません。 ArcGIS マップの表示方法について詳しくは、「[Power BI での ArcGIS マップとの対話](power-bi-visualizations-arcgis.md)」をご覧ください。
 
 ArcGIS マップと Power BI を組み合わせると、マッピングをマップ上のポイントの表現を越える、まったく新しいレベルに引き上げることができます。 基本マップ、場所の種類、テーマ、記号のスタイル、および参照レイヤーから選択して、すばらしい有益なマップの視覚エフェクトを作成します。 空間分析を使用してマップ上で権限のあるデータのレイヤーを組み合わせることで、より深く理解できる視覚化されたデータを伝達します。
 
- モバイル デバイスでは、ArcGIS マップを作成することはできませんが、表示して操作することはできます。 「[Power BI での ArcGIS マップとの対話](../consumer/power-bi-visualizations-arcgis.md)」をご覧ください。
+ モバイル デバイスでは、ArcGIS マップを作成することはできませんが、表示して操作することはできます。 「[Power BI での ArcGIS マップとの対話](power-bi-visualizations-arcgis.md)」をご覧ください。
 
 > [!TIP]
 > GIS は Geographic Information System (地理情報システム) の略です。
@@ -175,7 +175,8 @@ Power BI の ArgGIS マップは、マップでのデータの最適な表示方
     ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
 
 1. **[Drive time]** タブを選び、単一選択ツールまたは複数選択ツールを選びます。 Washington D.C. を指すピンを 1 つ選びます。
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
+
+   ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
    
    > [!TIP]
    > マップを拡大した方が場所を簡単に選択できます ([+] アイコンを使用)。
@@ -340,7 +341,7 @@ Power BI の ArcGIS マップは、国/地域、都道府県、郵便番号な�
 まだできません。 [このアイデアに投票](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases)していただければ、この機能への取り組みを開始したときに電子メールをお送りします。  
 
 ## <a name="next-steps"></a>次の手順
-[他のユーザーから共有された ArcGIS マップとの対話](../consumer/power-bi-visualizations-arcgis.md)
+[他のユーザーから共有された ArcGIS マップとの対話](power-bi-visualizations-arcgis.md)
 
 [Power BI の ArcGIS マップの可用性を発表するブログの投稿](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

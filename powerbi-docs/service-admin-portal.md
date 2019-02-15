@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
-ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
+ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55888235"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086473"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -236,12 +236,17 @@ AppSource からのインストールを要求することなく、ユーザー�
 
 ## <a name="custom-visuals-settings"></a>カスタム ビジュアルの設定
 
-### <a name="enable-custom-visuals-for-the-entire-organization"></a>組織全体のカスタム ビジュアルを有効にする
+### <a name="add-and-use-custom-visuals"></a>カスタム視覚化の追加と使用
 
 組織内のユーザーは、カスタム ビジュアルを操作して共有することができます。 [詳細情報](power-bi-custom-visuals.md)
 
 > [!NOTE]
-> この設定は、組織全体に適用され、特定のグループに限定することはできません。
+> この設定は組織全体に適用するか、特定のグループに限定することができます。
+
+### <a name="allow-only-certified-visuals"></a>認定済みビジュアルのみを許可する
+
+カスタム ビジュアルを追加し、使用する許可が与えられた組織のユーザー ([カスタム視覚化の追加と使用] 設定に示されています) は、[認定済みのカスタム ビジュアル](https://go.microsoft.com/fwlink/?linkid=2002010)のみを使用できます (認定のないビジュアルはブロックされ、使用すると、エラー メッセージが表示されます)。 
+
 
 ## <a name="r-visuals-settings"></a>R ビジュアルの設定
 
