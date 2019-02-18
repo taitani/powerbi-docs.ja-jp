@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282358"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216587"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI での視覚エフェクトのドリル モード
 
@@ -212,7 +212,7 @@ Power BI では、1 つまたはすべてのサブセットを展開できます
 視覚エフェクトとは別に、各レポートにレンダリングされるデータに反映された階層も確認できます。 次の表は、1 つの担当地域またはすべての担当地域をドリルダウンしたレポートでの **[データの表示]** の結果です。 ドリルダウンすると、1 つのレポートがより具体的になり、"すべてのテリトリ" レポートのデータが増えることがわかります。
 
 
-| 展開モード|担当地域|市|郵便番号|名前|
+| 展開モード|担当地域|市区町村|郵便番号|名前|
 | ---|:---:|:---:|:---:|---|
 |単一|![1 つの担当地域](./media/end-user-drill/power-bi-hierarchical-territory.png)|![1 つの都市](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![1 つの郵便番号](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![1 つの名前](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
 |すべて|![すべての担当地域](./media/end-user-drill/power-bi-hierarchical-territory.png)|![すべての都市](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![すべての郵便番号](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![すべての名前](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|

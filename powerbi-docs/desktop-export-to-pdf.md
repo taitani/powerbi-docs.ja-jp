@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 59e1f4eda6bf48e85841d4646824407d3c839485
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7b835231356ad14ab434b86a2d1f99aa7212358d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290620"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215644"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Power BI Desktop からレポートを PDF にエクスポートする
 **Power BI Desktop** では、レポートを PDF ファイルにエクスポートすることができます。これにより、ご利用のレポートをその PDF で容易に共有したり印刷したりできます。
 
 ![PDF にエクスポート](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
-**Power BI Desktop** から PDF にレポートをエクスポートすると、その PDF を印刷または他のユーザーと共有できるようになります。このエクスポート処理は簡単です。 Power BI Deskop で **[ファイル]、[PDF にエクスポート]** の順に選択するだけです。
+**Power BI Desktop** から PDF にレポートをエクスポートすると、その PDF を印刷または他のユーザーと共有できるようになります。このエクスポート処理は簡単です。 Power BI Desktop で **[ファイル] > [PDF にエクスポート]** の順に選択するだけです。
 
 **[PDF にエクスポート]** 処理では、レポート内に*表示されている*すべてのページがエクスポートされ、各レポート ページは PDF 内の単一ページにエクスポートされます。 現在表示されていないレポート ページ (ツール ヒントまたは非表示ページなど) は、PDF ファイルにはエクスポートされません。 
 

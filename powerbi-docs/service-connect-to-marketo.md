@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008628"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223791"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI で Marketo に接続する
 Power BI 用 Marketo コンテンツ パックを使用すると、Marketo アカウントに関する情報 (潜在顧客とそのアクティビティに関するデータを含む) を入手できます。この接続を作成すると、データが取得され、そのデータに基づいて自動的にダッシュボードおよび関連するレポートが提供されます。
@@ -59,7 +59,7 @@ Power BI は、本日から過去 1 年間のアクティビティーに関し�
 | テーブル名 | 説明 |
 | --- | --- |
 | EmailActivities |潜在顧客/取引先担当者に送られた電子メールに関するデータ。これには、デバイス、カテゴリ、バウンスの回数とパーセンテージ、クリックした回数とパーセンテージ、開かれた回数とパーセンテージ、プログラム名などが含まれます。 Power BI に表示される電子メール アクティビティは純然たる電子メール配信レポートであり、データに対する追加のロジックは適用されません。 そのため、Marketo クライアントと Power BI の間で結果が異なる可能性があります。 |
-| ProgramActivites |状態が変更されたプログラムに関するデータ。 これには、理由、成功、プログラム取得の回数とパーセンテージ、プログラム成功の回数とパーセンテージなどの詳細が含まれます。 |
+| ProgramActivities |状態が変更されたプログラムに関するデータ。 これには、理由、成功、プログラム取得の回数とパーセンテージ、プログラム成功の回数とパーセンテージなどの詳細が含まれます。 |
 | WebPageActivities |ユーザーの Web ページ アクセスに関するデータ (検索のエージェント、ユーザー エージェント、Web ページ、時間など)。 |
 | Datetable |現在および過去の年の日付。  日付で Marketo データを分析することができます。 |
 | Leads |潜在顧客に関する情報。たとえば、会社、収益のサイズ、従業員の数、国、業種、潜在顧客のスコア、潜在顧客の状態などです。 潜在顧客は、電子メール、プログラム、Web ページのアクティビティ データにおけるプレゼンスに基づいて取得されます。 |

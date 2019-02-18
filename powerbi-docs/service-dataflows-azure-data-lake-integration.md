@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 763b331fd0a5ff47263ea54d17f6cb17516de79d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296779"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215604"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>データフローと Azure Data Lake の統合 (プレビュー)
 
@@ -65,7 +65,7 @@ Power BI ファイル システム内で CDM フォルダーを作成および�
 
 Active Directory OAuth ベアラー トークンと POSIX ACL により、CDM フォルダーをデータ コンシューマー (データを読み取る必要があるユーザーやサービスなど) とより簡単に共有できるようになりました。 これにより、管理者は、どのユーザーが CDM フォルダーにアクセスしたかを監視できます。 必要なアクションは、選択した Active Directory オブジェクト (ユーザー グループやサービスなど) へのアクセス権を CDM フォルダーに付与することのみです。 データ プロデューサー以外の ID については、CDM フォルダーへのアクセス権をすべて読み取り専用として付与することをお勧めします。 これにより、プロデュ－サーで生成されるデータの整合性が保護されます。
 
-CDM フォルダーを Power BI に追加するには、CDM フォルダーを追加するユーザーが、CDM フォルダー自体とその中のすべてのファイルやフォルダーに対して、の*読み取り*アクセス権 (ACL) を持っている必要があります。 さらには、CDM フォルダー自体とその中のすべてのフォルダーに対して、*実行*アクセス権 (ACL) も持っている必要があります。 「[Access control lists on files and directory](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)」 (ファイルとディレクトリに対するアクセス制御リスト)、および「[Best practices for using Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices)」 (Azure Data Lake Storage Gen2 の使用に関するベスト プラクティス) の両方をご覧になって、詳細を確認することをお勧めします。
+CDM フォルダーを Power BI に追加するには、CDM フォルダーを追加するユーザーが、CDM フォルダー自体とその中のすべてのファイルやフォルダーに対して、の*読み取り*アクセス権 (ACL) を持っている必要があります。 さらには、CDM フォルダー自体とその中のすべてのフォルダーに対して、*実行*アクセス権 (ACL) も持っている必要があります。 詳細については、「[ファイルとディレクトリのアクセス制御リスト](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)」および「[Azure Data Lake Storage Gen2 の使用に関するベスト プラクティス](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices)」をご覧になることをお勧めします。
 
 
 ### <a name="alternative-forms-of-authorization"></a>代替形式の許可

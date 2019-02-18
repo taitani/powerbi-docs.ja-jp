@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762354"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216380"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移行ツール
 
@@ -45,7 +45,7 @@ ms.locfileid: "55762354"
 
     ![ツール プラン](media/migrate-tool/migrate-tool-plan.png)
 
-2. **[Select Power BI Embedded Resource Group (Power BI Embedded リソース グループの選択)]** ダイアログで [環境 ドロップダウンを選択し、製品を選択します。
+2. [**Select Power BI Embedded Resource Group (Power BI Embedded リソース グループの選択)**] ダイアログで [環境] ドロップダウンを選択し、製品を選択します。
 
 3. サインインするように求められます。 Azure サブスクリプションのログイン アカウントを使用します。
 
@@ -207,7 +207,7 @@ Power BI にサインインしてワークスペースが存在することを�
 
 上の例では、重複するレポートの 1 つが同じ名前のレポートが存在するために失敗していることが表示されています。 移行プランの XML を開くと、次のような内容が表示されます。
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ Power BI にサインインしてワークスペースが存在することを�
 
 失敗した項目については、SaaSTargetReportName の名前を変更できます。
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ Power BI に戻ると、レポートとデータセットがアプリ ワーク�
 
 ローカル バージョンの Power BI Desktop ファイルをアップロードできます。 ツールを閉じ、XML を編集し、**PbixPath** プロパティにローカル PBIX の完全なパスを指定します。
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,9 +255,9 @@ XML を編集した後は、移行ツール内でプランを再び開き、レ�
 
 ### <a name="directquery-reports"></a>DirectQuery レポート
 
-DirectQuery レポートの接続文字列をアップロードするには、更新する必要があります。 この操作は *powerbi.com* 内で実行するか、Power BI Embedded (PaaS) から接続文字列をプログラムでクエリを実行することができます。 例については、「[PaaS レポートから DirectQuery 接続文字列を抽出する](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)」を参照してください。
+DirectQuery レポートの接続文字列をアップロードするには、更新する必要があります。 これは、*powerbi.com* 内で行うか、または Power BI Embedded (PaaS) から接続文字列をプログラムでクエリを実行して行うことができます。 例については、「[PaaS レポートから DirectQuery 接続文字列を抽出する](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)」を参照してください。
 
-Power BI サービス (SaaS) 内のデータセットの接続文字列を更新し、データ ソースの資格情報を設定することができます。 その方法については、次の例を参照してください。
+その後、Power BI サービス (SaaS) 内のデータセットの接続文字列を更新し、データ ソースの資格情報を設定することができます。 その方法については、次の例を参照してください。
 
 * [SaaS ワークスペースの DirectQuery 接続文字列を更新する](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [SaaS ワークスペースの DirectQuery 資格情報を設定する](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)

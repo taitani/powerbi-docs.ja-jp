@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: c363d71b9d8796f1bd05ac01e12e9424a499a439
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430604"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216196"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI サービス ***コンシューマー***の基本的な概念
 
@@ -61,7 +61,7 @@ Power BI コンシューマーの場合、文書パーツは 5 つあります�
 
     詳細については、「[Power BI サービスのダッシュボード*consumers*](end-user-dashboards.md)」を参照してください
 
-* ![レポート アイコン](media/end-user-basic-concepts/report.png) *レポート*は、単一のレポートをまとめて構成する対話型のビジュアル、テキスト、グラフィックの 1 ページまたは複数のページです。 レポートは、単一のデータセットに基づいています。 レポート ページは、アドレスごとに関心の中心部を表し、単一の質問に回答するように整理されることが多いです。
+* ![レポート アイコン](media/end-user-basic-concepts/report.png) *レポート*は、単一のレポートをまとめて構成する対話型のビジュアル、テキスト、グラフィックの 1 ページまたは複数のページです。 レポートは、単一のデータセットに基づいています。 多くの場合、レポート ページは、アドレスごとに関心の中心部を表すか、または単一の質問に回答するように整理されます。
 
     詳細については、「[Power BI のレポート*consumers*](end-user-reports.md)」のコンシューマーに関するセクションを参照してください
 

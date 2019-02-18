@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287004"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223308"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X 軸と Y 軸のプロパティのカスタマイズ
 このチュートリアルでは、視覚化に含まれる X 軸と Y 軸をカスタマイズする、さまざまな方法について説明します。 ただし、軸のない視覚化や、カスタマイズできない視覚化もあります。たとえば、円グラフに軸はありません。 カスタマイズのオプションは視覚化によって異なるため、数が多すぎて 1 つの記事では扱いきれません。 そこで、よく使われる軸のカスタマイズをいくつか見ていくほか、Power BI レポート キャンバスで使用する視覚的な書式設定タブについて説明します。  
@@ -136,7 +136,7 @@ X 軸が日付型としてレポートの所有者別に分類されている場
 ## <a name="next-steps"></a>次の手順
 [Power BI レポートでの視覚化](power-bi-report-visualizations.md)についての詳細を参照する
 
-[視覚エフェクトの](power-bi-visualization-customize-title-background-and-legend.md)[タイトル、背景、および凡例のカスタマイズ](power-bi-visualization-customize-title-background-and-legend.md)
+[タイトル、背景、凡例のカスタマイズ](power-bi-visualization-customize-title-background-and-legend.md)
 
 [色と軸のプロパティのカスタマイズ](service-getting-started-with-color-formatting-and-axis-properties.md)
 

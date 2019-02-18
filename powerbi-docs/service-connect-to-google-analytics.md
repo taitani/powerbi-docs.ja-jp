@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f8777774981e89a88f1fb4f85573fd5a7e078dd6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 9d0eafea7f1ec25d8af86bf05fa130abb1bbd9c2
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008398"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216288"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Power BI で Google Analytics に接続する
 Power BI で Google アナリティクスに接続するには、最初に Google アナリティクス アカウントに接続します。 Power BI ダッシュ ボードと一連の Power BI レポートが表示され、お客様のサイト トラフィックとユーザー ディメンションに関する詳細情報が提供されます。 ダッシュボードとレポートは操作できますが、変更内容は保存できません。 データは、1 日 1 回自動的に更新されることになります。
@@ -52,7 +52,7 @@ Power BI Desktop では、[Google アナリティクス コネクタ](service-go
 Power BI から接続するには、[Google アナリティクス](https://www.google.com/analytics/) アカウントを用意する必要があります。 Google アナリティクス アカウントに結び付けられていない他の Google アカウントを使用すると、認証エラーが表示されます。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
-**Credentials**。複数の Google アカウントを持っている場合は、正しいアカウントが使用されるように、接続時に必ず匿名モードやプライベート モードのブラウザー ウィンドウを使用してください。
+**資格情報**。複数の Google アカウントを持っている場合は、正しいアカウントが使用されるように、接続時に必ず匿名モードやプライベート モードのブラウザー ウィンドウを使用してください。
 
 Google にサインインできても、資格情報が無効であることを示すエラーが表示される場合は、[Google アナリティクス](https://www.google.com/analytics/) アカウントを持っていることを確認してください。
 

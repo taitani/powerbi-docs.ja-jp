@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b8c436088bcd7538c09d4acf0fd5d529f9c8a8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278844"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56224021"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop の分析情報を利用し、ビジュアル内で観察される増減について説明する (プレビュー)
 
@@ -116,7 +116,7 @@ ms.locfileid: "54278844"
 * メジャー フィルター
 * 数値以外のメジャー
 * "値の表示方法" の使用
-* フィルターが適用された指標 - フィルターが適用された指標とは、特定のフィルター (*フランスの売上合計*など) が適用されたビジュアル レベルの計算結果であり、分析情報機能によって作成された一部のビジュアルで使用されます。
+* フィルターが適用された指標 - フィルターが適用された指標とは、特定のフィルター ("*フランスの売上合計*" など) が適用されたビジュアル レベルの計算結果であり、分析情報機能によって作成された一部のビジュアルで使用されます。
 * X 軸のカテゴリ列 (スカラーである列で並べ替えが定義されている場合を除く)。 階層を使用する場合は、アクティブな階層内のすべての列がこの条件と一致する必要があります。
 
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281162"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225916"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -77,11 +77,14 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Amazon Redshift
 * Impala
 * Google BigQuery
+* Vertica
 * Snowflake
 * Essbase (ベータ)
-* BI コネクタ
+* Dremio
 * Exasol
-* Dremio (ベータ)
+* MarkLogic (ベータ)
+* AtScale キューブ (ベータ)
+* BI コネクタ
 * Jethro (ベータ)
 * Kyligence Enterprise (ベータ)
 
@@ -136,8 +139,6 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Google アナリティクス
 * Adobe Analytics
 * appFigures (ベータ)
-* comScore Digital Analytix (Beta)
-* Dynamics 365 for Customer Insights (ベータ)
 * Data.World - データセットの取得 (ベータ)
 * Facebook
 * GitHub (Beta)
@@ -157,6 +158,8 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Webtrends (Beta)
 * Zendesk (ベータ)
 * TeamDesk (Beta)
+* Emigo Data Source (ベータ)
+* Microsoft Graph Security (ベータ)
 
 次の図は、**[オンライン サービス]** の **[データの取得]** ウィンドウを示しています。
 
@@ -164,7 +167,6 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 **[その他]** カテゴリには、次のデータ接続があります。
 
-* Vertica
 * Web
 * SharePoint リスト
 * OData フィード
@@ -176,8 +178,12 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Python スクリプト
 * ODBC
 * OLE DB
+* Workforce Dimensions (ベータ)
 * Denado
 * Paxata (ベータ)
+* SurveyMonkey (ベータ)
+* QubolePresto (ベータ)
+* Quick Base (ベータ)
 * 空のクエリ
 
 次の図は、 **[その他]** の **[データの取得]** ウィンドウを示しています。
@@ -190,7 +196,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 ## <a name="connecting-to-a-data-source"></a>データ ソースへの接続
 データ ソースに接続するには、 **[データの取得]** ウィンドウでデータ ソースを選択し、 **[接続]** を選びます。 次の図の場合、 **[その他]** データ接続カテゴリで **[Web]** が選択されています。
 
-![Web への接続](media/desktop-data-sources/data-sources_08a.png)
+![Web への接続](media/desktop-data-sources/data-sources_08.png)
 
 対象のデータ接続に固有の接続ウィンドウが表示されます。 資格情報が必要な場合には、入力を求めるプロンプトが表示されます。 次の図には、Web データ ソースに接続するために URL を入力している様子が示されています。
 

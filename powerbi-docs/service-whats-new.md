@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431087"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216863"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -31,10 +31,41 @@ ms.locfileid: "55431087"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="september-2018"></a>2018 年 9 月
-* Power BI サービスの[ダッシュボードのコメント](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
 
-## <a name="previous-months-2018"></a>前の月 (2018)
+## <a name="february-2019"></a>2019 年 2 月
+* [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)でのワークロードとアクティブなデータセットのサイズのメトリック。
+* PDF へのエクスポートと、オンデマンドでの電子メール サブスクリプション (service-report-subscribe.md)。
+* 管理ポータルでの一括操作。
+
+## <a name="previous-months-2019"></a>前の月 (2019)
+### <a name="january-2019"></a>2019 年 1 月
+* 内部ポータルまたは Web サイトでの[セキュリティ保護された Power BI レポートの埋め込み](service-embed-secure.md)。
+* 新しいコネクタでの[データフロー](service-dataflows-overview.md) エディターへの更新と、ネイティブ SQL クエリおよび Power Query Online 変換のサポート。
+* Power BI サービスでの[個人用ブックマーク](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。
+* 電子メール サブスクリプションでの時間ベースのスケジュール。
+
+## <a name="2018"></a>2018
+### <a name="december-2018"></a>2018 年 12 月
+* Power BI ホームでの AI によって強化された[おすすめのアプリ](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)。
+* 管理ポータルでの[ワークスペース管理](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/)。
+* [データフロー](service-dataflows-overview.md)での Power BI データフローと Azure Data Lake Storage Gen2 統合のプレビュー。
+* Power BI ソリューション テンプレートはオープン ソースになりました。
+
+### <a name="november-2018"></a>2018 年 11 月
+* [データフロー](service-dataflows-overview.md)で使用可能な Power BI のデータ準備のパブリック プレビュー。
+* Power BI Premium での[ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)のパブリック プレビュー。
+* [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)でのメモリ内のデータ サイズとデータセット数。
+
+### <a name="october-2018"></a>2018 年 10 月
+* Power BI サービスでの集計 [desktop-aggregations.md]。
+* Power BI が新たに次の 3 つのリージョンでサポートされるようになりました:インド中部、オーストラリア東部、米国中部 (アイオワ)。 
+* PowerPoint へのエクスポートの一般提供開始。
+
+### <a name="september-2018"></a>2018 年 9 月
+* Power BI サービスの[ダッシュボードのコメント](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
+* [Power BI ホームとグローバル検索](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)のパブリック プレビュー。
+* [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)での[クエリ監視](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)の機能。
+
 ### <a name="august-2018"></a>2018 年 8 月
 * Power BI Premium の[容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
 * Power BI の[レポート URL フィルター](service-url-filters.md)の機能強化。
@@ -78,7 +109,7 @@ ms.locfileid: "55431087"
 *   Azure Analysis Services (AAS) でスケジュールされた更新をサポート。
 
 ## <a name="previous-months-2017"></a>先月 (2017)
-## <a name="october-and-november-2017"></a>2017 年 10 月と 11 月
+### <a name="october-and-november-2017"></a>2017 年 10 月と 11 月
 *   [Power BI アプリ](service-create-distribute-apps.md)でコンテンツを選択して公開。
 *   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) による外部ユーザー ディストリビューション。
 * AI を活用したアプリ推奨。
@@ -86,7 +117,7 @@ ms.locfileid: "55431087"
 * アプリの電子メール サブスクリプション サポート。 
 * [Web への公開](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings)を管理者が細かく制御。
 
-## <a name="september-2017"></a>2017 年 9 月
+### <a name="september-2017"></a>2017 年 9 月
 * Premium 容量では、Power BI Pro ライセンスを持たないユーザーとダッシュボードを共有します。
 * 仮想コア プールでビジネス ニーズに合わせて容量を割り当てます。
 * ワンクリックですぐに容量をスケールアップまたはスケールダウンします。

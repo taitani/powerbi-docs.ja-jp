@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 416313f9271950c2f12a554107ab74933c5c31b7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 82844a1e928d30db12ba5659edcee7b07eaaf7b3
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277758"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215356"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Power BI Desktop の分析情報を利用し、販売総数が異なる箇所を見つける (プレビュー)
 
@@ -38,7 +38,7 @@ ms.locfileid: "54277758"
 > 
 
 ## <a name="using-insights"></a>インサイトの使用
-分析情報を利用してグラフ上の販売総数が異なる箇所を見るには、データ ポイント (あるいは、グラフ全体) を右クリックし、**[分析]、[Find where the distribution is different]\(分布が異なる部分を見つける\)** の順にクリックします。
+分析情報を利用してグラフ上の販売総数が異なる箇所を見るには、データ ポイント (または、グラフ全体) を右クリックし、**[分析] > [Find where the distribution is different]\(分布が異なる部分を見つける\)** の順にクリックします。
 
 ![右クリックで分析情報を得る](media/desktop-insights-find-where-different/find-where-different_03.png)
 
@@ -131,7 +131,7 @@ ms.locfileid: "54277758"
 * メジャー フィルター
 * 数値以外のメジャー
 * "値の表示方法" の使用
-* フィルターが適用された指標 - フィルターが適用された指標とは、特定のフィルター (*フランスの売上合計*など) が適用されたビジュアル レベルの計算結果であり、分析情報機能によって作成された一部のビジュアルで使用されます。
+* フィルターが適用された指標 - フィルターが適用された指標とは、特定のフィルター ("*フランスの売上合計*" など) が適用されたビジュアル レベルの計算結果であり、分析情報機能によって作成された一部のビジュアルで使用されます。
 
 さらに、次のモデルの種類とデータ ソースは現在、インサイトではサポートされていません。
 

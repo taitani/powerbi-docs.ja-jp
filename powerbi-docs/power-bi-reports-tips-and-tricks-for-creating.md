@@ -1,7 +1,7 @@
 ---
 title: 美しいレポートを作成するためのヒント
 description: Power BI サービス と Power BI Desktop でレポートを作成するときのヒントとテクニックです
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290500"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223814"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop と Power BI サービスでのレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop、Power BI サービス、"*および*" Power Pivot のアドインを有効にし、Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションで、レポートを作成する場合に役立つヒントとテクニックをまとめました。
@@ -145,7 +145,7 @@ Power BI Desktop では、計算フィールドを使ってヒストグラムを
 4. **CustomerNames** クエリで、リボンの **[追加]** オプションを選択し、 **Temp**クエリを選択します。
 5. **CustomerNames** クエリで **[重複を削除]** を選択します。
 
-これで、相互にすべての値を含む CustomerIndicents と WorkItems を関連付けるために使用できるディメンション テーブルが作成されました。  
+これで、相互にすべての値を含む CustomerIncidents と WorkItems を関連付けるために使用できるディメンション テーブルが作成されました。  
 
 ### <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>クエリ エディターの使用をジャンプ スタートできるパターン
 クエリ エディターは非常に強力なツールで、整形するデータを操作したり、クリーンアップして視覚化またはモデル化に備えたりすることができます。 覚えておくべきパターンがいくつかあります。
