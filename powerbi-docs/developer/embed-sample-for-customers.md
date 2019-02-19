@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: eb1147875accff47b80dcdaf8a4051b57e627625
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: adeb3f09e52d039937ba3cf54afb72f8ed1287f3
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762630"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249162"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>チュートリアル:顧客向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -97,7 +97,7 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
     <center>
 
-    | **MasterUser** </br> (Power BI Pro ライセンス) | **ServicePrincipal** </br> (アプリ専用トークン)|
+    | **MasterUser** <br> (Power BI Pro ライセンス) | **ServicePrincipal** <br> (アプリ専用トークン)|
     |---------------|-------------------|
     | [applicationId](#application-id) | [applicationId](#application-id) |
     | [workspaceId](#workspace-id) | [workspaceId](#workspace-id) |
@@ -139,11 +139,11 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
 **workspaceId** 情報には、Power BI のアプリ ワークスペース (グループ) の GUID を入力します。 この情報は、Power BI サービスにサインインしたときに URL から取得するか、PowerShell を使用して取得できます。
 
-URL </br>
+URL <br>
 
 ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-PowerShell </br>
+PowerShell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test"
@@ -157,11 +157,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test"
 
 **reportId** には、Power BI からレポートの GUID を設定します。 この情報は、Power BI サービスにサインインしたときに URL から取得するか、PowerShell を使用して取得できます。
 
-URL</br>
+URL<br>
 
 ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
-PowerShell </br>
+PowerShell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport

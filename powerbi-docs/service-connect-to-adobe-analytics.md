@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ea62f894b01143997850f3c15f2a069b93d7c26
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: bcd92dc0288fc347c5f5931d40b94cf769f5293f
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008697"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249024"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Power BI で Adobe Analytics に接続する
 Power BI で Adobe Analytics に接続するには、最初に Adobe Analytics Marketing Cloud アカウントに接続します。 アプリに Power BI ダッシュ ボードと一連の Power BI レポートが表示され、お客様のサイト トラフィックとユーザー ディメンションに関する詳細情報が提供されます。 データは、1 日に 1 回自動的に更新されます。 ダッシュボードとレポートは操作できますが、変更内容は保存できません。
@@ -53,19 +53,19 @@ Power BI では、Adobe Analytics レポート API を使用して、次の表�
 
 | **テーブル名** | **列の詳細** |
 | --- | --- |
-| 製品 |要素 =  "product" (上位 25) </br> メトリック = "cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units" |
-| ブラウザー |要素 = "browser" (上位 25)</br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"uniquevisitors"、"totaltimespent"、"pageviews" |
-| ページ |要素 = "page" (上位 25)</br>  メトリック = "cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units"、"visits"、"uniquevisitors"、"pageviews"、"bounces"、"bouncerate"、"totaltimespent" |
+| 製品 |要素 =  "product" (上位 25) <br> メトリック = "cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units" |
+| ブラウザー |要素 = "browser" (上位 25)<br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"uniquevisitors"、"totaltimespent"、"pageviews" |
+| ページ |要素 = "page" (上位 25)<br>  メトリック = "cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units"、"visits"、"uniquevisitors"、"pageviews"、"bounces"、"bouncerate"、"totaltimespent" |
 | JavaScript が有効 |要素 =  "javascriptenabled"、"browser" (上位 25) |
-| モバイル OS |要素 = "mobileos"(上位 25)</br> メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"checkouts"、"revenue"、"units"、"pageviews" |
-| 検索エンジンのキーワード |要素 = "searchengine"、"searchenginekeyword"</br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units"、"pageviews" |
-| 製品に対する検索エンジン |要素 = "searchengine"、"product"</br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units"、"pageviews" |
-| 参照元ページ |要素 = "referrer" (上位 15)、“page" (上位 10)</br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units"、"pageviews" |
-| Geocountry ページ |要素 = "geocountry" (上位 20)、"page"</br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units"、"pageviews" |
-| Geocountry 製品 |上位 = "geocountry" (上位 20)、"product"</br> メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units" |
-| 国および地域の参照 |要素 = "geocountry" (上位 200)</br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units" |
-| 言語 |要素 = "language"、"browser" (上位 25)</br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"uniquevisitors"、"totaltimespent"、"pageviews"、"cartadditions"、"cartremovals"、"checkouts"、"carts"、"cartviews" |
-| 検索エンジンの参照 |要素 = "searchengine" (上位 100)</br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units" |
+| モバイル OS |要素 = "mobileos"(上位 25)<br> メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"checkouts"、"revenue"、"units"、"pageviews" |
+| 検索エンジンのキーワード |要素 = "searchengine"、"searchenginekeyword"<br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units"、"pageviews" |
+| 製品に対する検索エンジン |要素 = "searchengine"、"product"<br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units"、"pageviews" |
+| 参照元ページ |要素 = "referrer" (上位 15)、“page" (上位 10)<br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units"、"pageviews" |
+| Geocountry ページ |要素 = "geocountry" (上位 20)、"page"<br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units"、"pageviews" |
+| Geocountry 製品 |上位 = "geocountry" (上位 20)、"product"<br> メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units" |
+| 国および地域の参照 |要素 = "geocountry" (上位 200)<br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units" |
+| 言語 |要素 = "language"、"browser" (上位 25)<br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"uniquevisitors"、"totaltimespent"、"pageviews"、"cartadditions"、"cartremovals"、"checkouts"、"carts"、"cartviews" |
+| 検索エンジンの参照 |要素 = "searchengine" (上位 100)<br>  メトリック = "bounces"、"bouncerate"、"visitors"、"visits"、"entries"、"uniquevisitors"、"totaltimespent"、"cartadditions"、"cartremovals"、"carts"、"cartviews"、"checkouts"、"revenue"、"units" |
 | ブラウザーの参照 |要素 = "browser" (上位 25) |
 
 ## <a name="system-requirements"></a>システム要件

@@ -11,18 +11,18 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276999"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324865"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI のオンプレミス ゲートウェイを管理する
 
-[Power BI データ ゲートウェイをインストール](service-gateway-install.md)したら、要件に基づいてこれを管理します。 このトピックでは、データ ソースとユーザーを追加および削除する方法、ゲートウェイを再起動する方法、ゲートウェイを移行、復元、引き継ぎ、および削除する方法について説明します。 
+[Power BI データ ゲートウェイをインストール](service-gateway-install.md)したら、要件に基づいてこれを管理します。 このトピックでは、データ ソースとユーザーを追加および削除する方法、ゲートウェイを再起動する方法、ゲートウェイを移行、復元、引き継ぎ、および削除する方法について説明します。
 
-Power BI サービスの **[ゲートウェイの管理]** 領域を通して、ローカル コンピューター上のゲートウェイ アプリで PowerShell スクリプトを使用してゲートウェイを管理できます。 この記事では、Power BI サービスを中心に説明します。 
+Power BI サービスの **[ゲートウェイの管理]** 領域を通して、ローカル コンピューター上のゲートウェイ アプリで PowerShell スクリプトを使用してゲートウェイを管理できます。 この記事では、Power BI サービスを中心に説明します。
 
 ゲートウェイをインストールした直後であれば、[データ ソースの追加](#add-a-data-source)と[ユーザーの追加](#add-users-to-a-data-source)を行って、ユーザーがデータ ソースにアクセスできるようにすることをお勧めします。
 

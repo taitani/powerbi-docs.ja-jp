@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 35448142ecad249289542493261dfff612a348ad
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ccfc25496b7bfacaea21e70f93c662600ab9cf5f
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283347"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249001"
 ---
 # <a name="using-r-in-query-editor"></a>クエリ エディターで R を使用する
 Power BI Desktop **クエリ エディター**では、統計学者、データ科学者、データ分析官によって広く使用されているプログラミング言語、**R** を使用できます。 R と**クエリ エディター**を統合することで、R によるデータ クレンジングを実行したり、データセットで高度なデータ シェイプ/データ分析 (失ったデータを埋める、予測、クラスター化など) を実行したりできます。 **R** は高度な言語であり、**クエリ エディター**で使用し、データ モデルを用意したり、レポートを作成したりできます。
@@ -44,11 +44,13 @@ Power BI Desktop の**クエリ エディター**で **R** を実行するには
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
 6. この例では、次のスクリプト コードを入力します。
 
+    ```r
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
        completedData <- complete(tempData,1)
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
+    ```
 
    > [!NOTE]
    > 前のスクリプト コードを正しく動作させるためには、R 環境に *mice* ライブラリをインストールする必要があります。 mice をインストールするには、R のインストールで |      > install.packages('mice') コマンドを実行します。

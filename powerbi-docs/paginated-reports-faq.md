@@ -1,20 +1,20 @@
 ---
 title: Power BI のページ分割されたレポート:よくあるご質問 (プレビュー)
 description: この記事では、ページ分割されたレポートについてよく寄せられる質問に答えます。 これらのレポートは、印刷や PDF 生成用に最適化されている、高度に書式設定されたピクセル単位で完璧な出力です。
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: d86f52b45dfac4252dfd2e7de29de64c16a566ca
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294121"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324740"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI のページ分割されたレポート:よくあるご質問 (プレビュー)
 

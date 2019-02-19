@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
+ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971673"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248909"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI でのサービス プリンシパル (プレビュー)
 
@@ -53,7 +53,7 @@ Power BI の成果物とリソースが[新しい Power BI ワークスペース
 
 認証に対するサービス プリンシパルと標準のマスター アカウント (Power BI Pro ライセンス) の使用には違いがあります。 次の表では、いくつかの重要な違いを示します。
 
-| 関数の呼び出し | マスター ユーザー アカウント </br> (Power BI Pro ライセンス) | サービス プリンシパル </br> (アプリ専用トークン) |
+| 関数の呼び出し | マスター ユーザー アカウント <br> (Power BI Pro ライセンス) | サービス プリンシパル <br> (アプリ専用トークン) |
 |------------------------------------------------------|---------------------|-------------------|
 | Power BI サービスにサインインできる  | はい | いいえ |
 | Power BI 管理ポータルで有効にする | いいえ | はい |

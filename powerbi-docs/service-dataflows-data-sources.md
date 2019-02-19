@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280556"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324923"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Power BI データフロー用のデータ リソースに接続する (プレビュー)
 
@@ -76,6 +76,7 @@ Power BI データフローを利用すると、さまざまなデータ ソー�
 * SQL Server データベース
 * Sybase データベース
 * Teradata データベース
+* Vertica
 
 **[Power BI]** カテゴリには、次のデータフロー用データ接続が含まれています。
 
@@ -91,7 +92,8 @@ Power BI データフローを利用すると、さまざまなデータ ソー�
 
 **[オンライン サービス]** には、次のデータフロー用データ接続が含まれています。
 
-* アプリ用 Common Data Service
+* Amazon Redshift
+* Common Data Service for Apps
 * Microsoft Exchange Online
 * Salesforce オブジェクト
 * Salesforce レポート
@@ -154,12 +156,8 @@ Power BI データフロー ユーザー インターフェイスに表示され
 
 以下は、M クエリをコピーし、空のクエリに貼り付けることで使用できるコネクタの現時点の一覧です。
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* Analysis Services
 * Azure analysis Services
-* Google アナリティクス
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ Power BI データフロー ユーザー インターフェイスに表示され
 * Azure HDInsight (HDFS)
 * Hadoop ファイル HDFS
 * Informix (ベータ)
-* Vertica
 
 Power BI データフローのデータ ソースに接続する作業はこれで完了です。
 

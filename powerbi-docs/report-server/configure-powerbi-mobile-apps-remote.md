@@ -1,20 +1,20 @@
 ---
 title: リモートでレポート サーバーへの iOS モバイル アプリのアクセスを構成する
 description: レポート サーバー用にリモートで iOS モバイル アプリを構成する方法を説明します。
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 6a815d3b8042a53bd7196902e59019d3a6b61220
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: c50f9c482ba689fe81ee22b2b52564dec3cbf1d6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293582"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324371"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
 
@@ -35,10 +35,10 @@ ms.locfileid: "54293582"
 
 |キー  |種類  |説明  |
 |---------|---------|---------|
-| com.microsoft.powerbi.mobile.ServerURL | 文字列 | レポート サーバー URL </br> 先頭は http/https である必要があります |
-| com.microsoft.powerbi.mobile.ServerUsername | 文字列 | (省略可能) </br> サーバーの接続に使用するユーザー名。 </br> 存在しない場合、アプリで、ユーザーに接続用のユーザー名の入力を求めるメッセージが表示されます。| 
-| com.microsoft.powerbi.mobile.ServerDisplayName | 文字列 | (省略可能) </br> 既定値は "Report server" です </br> サーバーを表すためにアプリで使用されるフレンドリ名 | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | ブール値 | 既定値は True です </br>“True” に設定されている場合、モバイル デバイスに既にあるレポート サーバーのすべての定義がオーバーライドされます。 既に構成されているサーバーは、削除されます。 </br> また、オーバーライドを True に設定すると、ユーザーはその構成を削除できなくなります。 </br> "False" に設定すると、既存の設定はそのままで、プッシュされた値が追加されます。 </br> 同じサーバー URL がモバイル アプリに既に構成されている場合、アプリはその構成をそのままにします。 アプリは、同じサーバーへの再認証をユーザーに求めません。 |
+| com.microsoft.powerbi.mobile.ServerURL | 文字列 | レポート サーバー URL <br> 先頭は http/https である必要があります |
+| com.microsoft.powerbi.mobile.ServerUsername | 文字列 | (省略可能) <br> サーバーの接続に使用するユーザー名。 <br> 存在しない場合、アプリで、ユーザーに接続用のユーザー名の入力を求めるメッセージが表示されます。| 
+| com.microsoft.powerbi.mobile.ServerDisplayName | 文字列 | (省略可能) <br> 既定値は "Report server" です <br> サーバーを表すためにアプリで使用されるフレンドリ名 | 
+| com.microsoft.powerbi.mobile.OverrideServerDetails | ブール値 | 既定値は True です <br>“True” に設定されている場合、モバイル デバイスに既にあるレポート サーバーのすべての定義がオーバーライドされます。 既に構成されているサーバーは、削除されます。 <br> また、オーバーライドを True に設定すると、ユーザーはその構成を削除できなくなります。 <br> "False" に設定すると、既存の設定はそのままで、プッシュされた値が追加されます。 <br> 同じサーバー URL がモバイル アプリに既に構成されている場合、アプリはその構成をそのままにします。 アプリは、同じサーバーへの再認証をユーザーに求めません。 |
 
 Intune を使用して構成ポリシーを設定する例を以下に示します。
 

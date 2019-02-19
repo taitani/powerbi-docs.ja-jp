@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 1f4dd67b76754f7eda19bd280dd5c9e454b34184
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762124"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248932"
 ---
 # <a name="dataset-properties"></a>データセットのプロパティ
 
@@ -90,7 +90,7 @@ DateTime    |   データの読み込み中に、日時分数の値を 1/300 秒
 ## <a name="example"></a>例
 次のコード サンプルには、上記のプロパティが複数含まれています。
 
-```
+```json
 {
 
   "name": "PushAdvanced",

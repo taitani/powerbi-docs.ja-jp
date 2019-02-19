@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 39a62950260789b50be034c2f55808e6991764db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294067"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249070"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>ホワイトリスト登録用の Power BI の URL
 
@@ -69,10 +69,10 @@ OneDrive などの特定のデータ ソースからデータを取得するに�
 
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |
-| 1 | **必須:** AppSource (Power BI の内部または外部のアプリ) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
+| 1 | **必須:** AppSource (Power BI の内部または外部のアプリ) | appsource.microsoft.com <br> *.s-microsoft.com  | TCP 443 |
 | 2 | **オプション:** サインインしてコンテンツ パックのデータを取得する | 使用しているコンテンツパックによって異なる | 使用しているコンテンツパックによって異なる |
 | 3 | **オプション:** 個人用 OneDrive からのファイルのインポート | 「[Required URLs and ports for OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports)」 (OneDrive に必要な URL とポート) を参照 | N/A |
-| 4 | **オプション:** Power BI の 60 秒間のチュートリアル ビデオ | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
+| 4 | **オプション:** Power BI の 60 秒間のチュートリアル ビデオ | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
 | 5 | **オプション:** PubNub ストリーミング データ ソース | [PubNub のドキュメント](https://support.pubnub.com/support/solutions/articles/14000043522)を参照 | N/A |
 | | | |
 
@@ -91,8 +91,8 @@ Power BI は、カスタム ビジュアルを表示してアクセスするた�
 
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |
-| 1 | **必須:** Marketplace インターフェイスまたはファイルからカスタム ビジュアルをインポートする | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **オプション:** Bing 地図 | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
+| 1 | **必須:** Marketplace インターフェイスまたはファイルからカスタム ビジュアルをインポートする | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 2 | **オプション:** Bing 地図 | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **オプション:** PowerApps | PowerApps のシステム要件のサイトの「[必要なサービス](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)」セクションを参照 | N/A |
 | 4 | **オプション:** Visio | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)、[SharePoint Online と OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) に関する Office 365 ドキュメントを参照 | N/A |
 | | | |
@@ -103,12 +103,12 @@ Power BI は、カスタム ビジュアルを表示してアクセスするた�
 
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |
-| 1 | **オプション:** コミュニティ サイト | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **オプション:** ドキュメントのサイト | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
+| 1 | **オプション:** コミュニティ サイト | community.powerbi.com <br> oxcrx34285.i.lithium.com | TCP 443 |
+| 2 | **オプション:** ドキュメントのサイト | docs.microsoft.com <br> img-prod-cms-rt-microsoft-com.akamaized.net <br> statics-uhf-eas.akamaized.net <br> cdnssl.clicktale.net <br> ing-district.clicktale.net | TCP 443 |
 | 3 | **オプション:** ダウンロード サイト (Power BI Desktop など) | download.microsoft.com | TCP 443 |
-| 4 | **オプション:** 外部リダイレクト | aka.ms </br> go.microsoft.com | TCP 443 |
-| 5 | **オプション:** アイデアのフィードバック サイト| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
+| 4 | **オプション:** 外部リダイレクト | aka.ms <br> go.microsoft.com | TCP 443 |
+| 5 | **オプション:** アイデアのフィードバック サイト| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
 | 6 | **オプション:** Power BI サイト - ランディング ページ、詳細情報のリンク、サポート サイト、ダウンロード リンク、パートナー ショーケースなど | powerbi.microsoft.com | TCP 443 |
 | 7 | **オプション:** Power BI デベロッパー センター | dev.powerbi.com | TCP 443 |
-| 8 | **オプション:** サポート サイト | support.powerbi.com </br> s3.amazonaws.com </br> *.olark.com </br> logx.optimizely.com </br> mscom.demdex.net </br> tags.tiqcdn.com | TCP 443 |
+| 8 | **オプション:** サポート サイト | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296319"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249047"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI 用 Cortana のトラブルシューティング
 この記事はシリーズの一部です。 次の 3 つの記事をまだ読んでいない場合は、読むことをお勧めします。
@@ -79,7 +79,7 @@ Cortana と Power BI の統合にまだ問題がある場合は、ここでそ�
 
    ![回答カード](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
-   </br>
+   <br>
 
    ![Power BI の [回答カード] タブ](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
 4. 初めて **[Utterance]** (発話) フィールドに何か入力したとき、何も起こらないことがあります。 その場合はシステムが準備中と考え、トラブルシューティング ツールが起動するまで待ってください。 **[Utterance]** (発話) フィールドの内容を切り取って貼り付けるか、再入力してください、 この例では、回答カードの名前は "**Cortana stores**" です。 **Cortana stores** をツールに貼り付けるか入力すると、**[Interpretations]** (解釈) フィールドに 1 つの結果が表示されます。 クリックすると、Cortana ウィンドウに回答カードが表示されます。この場合、**Cortana stores** です。

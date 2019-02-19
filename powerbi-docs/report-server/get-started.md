@@ -2,20 +2,20 @@
 title: Power BI Report Server とは
 description: Power BI Report Server の概要を読み、SQL Server Reporting Services (SSRS) やその他の Power BI とどのように適合するかについて理解してください。
 keywords: ''
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 23b78ba20666d1a1d942c7a5bd59991205991bc1
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: cd3dbc21c094c0db3f8d32d8d976339a1d1061f4
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394826"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325176"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server とは
 

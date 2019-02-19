@@ -1,20 +1,20 @@
 ---
 title: Power BI Report Server の Power BI レポートの作成
 description: Power BI レポート サーバーの Power BI レポートをいくつかの簡単な手順で作成する方法について説明します。
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
-ms.author: maggies
-ms.openlocfilehash: dd3da287d976b9fe84ab56b425a5f08fba31d224
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: 7d97e375f7743b381f222d64e230d71133060464
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288361"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324876"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server の Power BI レポートの作成
 Power BI サービス (https://powerbi.com)) のクラウドで Power BI レポートを格納する場合と同じように、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで格納して管理することができます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
@@ -99,7 +99,7 @@ Power BI Desktop でのレポートを作成するために役立つ多くの優
 * [Power BI Desktop の概要](../desktop-getting-started.md)
 * ガイド付き学習:[Power BI Desktop の概要](../guided-learning/gettingdata.yml?tutorial-step=2)
 
-### <a name="power-bi-report-server"></a>Power BI レポート
+### <a name="power-bi-report-server"></a>Power BI Report Server
 * [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  
 * [Power BI Report Server とは](get-started.md)  
 

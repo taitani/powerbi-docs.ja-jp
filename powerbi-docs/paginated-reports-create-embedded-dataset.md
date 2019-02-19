@@ -1,22 +1,23 @@
 ---
 title: Power BI のページ分割されたレポート用の埋め込みデータセットを作成する (プレビュー)
 description: この記事では、埋め込みデータ ソースに基づいて、Power BI サービスのページ分割されたレポート用の埋め込みデータセットを作成する方法について説明します。
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.author: maggies
-ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c625f394fd35c0b1c6b7ccf0fc617f5653533ea1
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281070"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324555"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Power BI サービスのページ分割されたレポート用の埋め込みデータセットを作成する (プレビュー)
+
 この記事では、埋め込みデータ ソースに基づいて、Power BI サービスのページ分割されたレポート用の埋め込みデータセットを作成する方法について説明します。 埋め込みデータセットは、1 つのページ分割されたレポートに (そのレポートで使用するために) 含まれています。 現時点では、Power BI サービスに発行されるページ分割されたレポートには、埋め込みデータセットと埋め込みデータ ソースが必要です。 埋め込みデータ ソースとデータセットは、レポートの作成時にレポート ビルダーで作成します。 
 
 データセットを作成する前にデータ ソースを作成する必要があります。 方法については、Power BI サービスの[ページ分割されたレポートの埋め込みデータ ソース](paginated-reports-embedded-data-source.md)に関するページを参照してください。
