@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086473"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408186"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -172,11 +172,11 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 > [!NOTE]
 > また、**[データのエクスポート]** を無効にして、ユーザーが **[Excel で分析]** 機能と、Power BI サービスのライブ接続を使用できないように設定することもできます。
 
-### <a name="export-reports-as-powerpoint-presentations"></a>PowerPoint プレゼンテーションとしてレポートをエクスポート
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>PowerPoint プレゼンテーションまたは PDF ドキュメントとしてレポートをエクスポート
 
-組織内のユーザーは、Power BI レポートを PowerPoint ファイルとしてエクスポートできます。 [詳細情報](consumer/end-user-powerpoint.md)
+組織内のユーザーは、Power BI レポートを PowerPoint ファイルまたは PDF ドキュメントとしてエクスポートできます。 [詳細情報](consumer/end-user-powerpoint.md)
 
-**[PowerPoint プレゼンテーションとしてレポートをエクスポート]** 設定を有効にした場合のレポートの **[ファイル]** メニューを次の図に示します。
+**[PowerPoint プレゼンテーションまたは PDF ドキュメントとしてレポートをエクスポート]** 設定を有効にした場合のレポートの **[ファイル]** メニューを次の図に示します。
 
 ![PowerPoint プレゼンテーションとしてレポートをエクスポート](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 ![コンテンツ パックを組織に発行する](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>テンプレートの組織のコンテンツ パックとアプリを作成する
+### <a name="create-template-apps"></a>テンプレート アプリの作成
 
-組織内のユーザーは、Power BI Desktop 内に構築されたデータセットを使用する、テンプレート コンテンツ パックを作成できます。 [詳細情報](template-content-pack-authoring.md)
+組織内のユーザーは、Power BI Desktop 内に構築されたデータセットを使用する、テンプレート アプリを作成できます。 テンプレート アプリの詳細は[こちら](template-content-pack-authoring.md)をご覧ください。
 
 ### <a name="push-apps-to-end-users"></a>アプリをエンド ユーザーにプッシュする
 
@@ -301,6 +301,18 @@ AppSource からのインストールを要求することなく、ユーザー�
 
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。
+
+## <a name="template-apps-settings-preview"></a>テンプレート アプリの設定 (プレビュー)
+
+テンプレート アプリは 2 つの設定によって制御されます。 
+
+![Power BI 管理ポータルのテンプレート アプリ設定](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+最初の設定である **[テンプレート アプリの作成]** では、テンプレート アプリを作成できる組織の人が制御されます。 テンプレート アプリの作成者は AppSource かその他の配布方法を利用し、組織の外部にいるクライアントにアプリを配布できます。
+
+![Power BI 管理ポータル、テンプレート アプリの作成設定](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+2 つ目の設定である **[テンプレート アプリのインストール]** では、AppSource または別のソースからテンプレート アプリをダウンロードし、インストールできる組織の人を制御します。
 
 ## <a name="capacity-settings"></a>容量の設定
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0418016fd7a194ff2e37e979219b97e94520f9ae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282105"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408140"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI カスタム ビジュアルに関してよく寄せられる質問
 
@@ -98,6 +98,9 @@ IAP カスタム ビジュアルを作成している、あるいは既に用意
 カスタム ビジュアルにロゴが入っている場合、それがロゴのガイドライン (色、場所、サイズ、アクション トリガー) を満たしていることを確認してください。
 
 ガイドラインにはベスト プラクティスに関する注記もあります。  
+> [!Note]
+> すべての無料ビジュアルでは、以前に提供されていたものと同じ無料の機能をそのまま使用する必要があります。 古い無料機能の上に、オプションの高度な有料機能が追加されることがあります。 高度な機能を備えた IAP ビジュアルは新しいビジュアルとして送信し、古い無料のビジュアルを更新しないようにすることをお勧めします。
+
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>IAP カスタム ビジュアルを認定してもらうことはできますか。
 

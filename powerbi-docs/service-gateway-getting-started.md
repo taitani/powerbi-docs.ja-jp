@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0a2c1cb446a0a975a574f5d3f2684ddf80f4f273
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274722"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324486"
 ---
 # <a name="what-are-power-bi-gateways"></a>Power BI ゲートウェイとは
 
@@ -53,7 +53,7 @@ Power BI では 2 つのゲートウェイを提供しますが、それらは�
 クエリとデータ フロー:
 
 1. クラウド サービスによって、オンプレミス データ ソースの暗号化された資格情報付きのクエリが作成されます。 その後、処理するためにゲートウェイのキューに送信されます。
-2. ゲートウェイ クラウド サービスは、クエリを分析し、要求を Azure Service Bus にプッシュします。
+2. ゲートウェイ クラウド サービスは、クエリを分析し、要求を Azure Service Bus にプッシュします。 Power BI ではサービス バスが自動的に管理されるので、追加のコストまたは構成手順は必要ありません。
 3. オンプレミス データ ゲートウェイは、Azure Service Bus へのポーリングを実行して保留中の要求の有無を確認します。
 4. ゲートウェイはクエリを取得して資格情報の暗号化を解除し、その資格情報を使用してデータ ソースに接続します。
 5. クエリは、ゲートウェイによってデータ ソースへ送信され、実行されます。

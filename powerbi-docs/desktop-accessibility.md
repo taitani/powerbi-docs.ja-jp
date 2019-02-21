@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280058"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249116"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop レポートのアクセシビリティ
 Power BI には、障碍のある方がより簡単に Power BI レポートを使用し、レポートと対話できる機能があります。 これらは、レポートでキーボードやスクリーンリーダーを使用したり、ページ上のさまざまなオブジェクトにフォーカスをタブ移動したり、マーカーを使用して気の利いた視覚化を実行するための機能です。
@@ -141,6 +141,11 @@ Microsoft はアクセシビリティを改善する取り組みを続けてい�
 ### <a name="pane-navigation"></a>ウィンドウのナビゲーション
 | 操作の内容           | 押すキー                |
 | :------------------- | :------------------- |
+| 複数選択 | Ctrl + Space |
+| 1 つのテーブルを折りたたむ | ← キー |
+| 1 つのテーブルを展開する | → キー |
+| すべてのテーブルを折りたたむ | Alt + Shift + 1 |
+| すべてのテーブルを展開する | Alt + Shift + 9 |
 | コンテキスト メニューを開く | <ul><li>Windows のキーボード:Windows コンテキスト キー + F10。  Windows コンテキスト キーは左側の Alt キーと左側の矢印キーの間にあります</li><li>その他のキーボード:Shift + F10</li></ul> |
 
 ### <a name="slicer"></a>スライサー

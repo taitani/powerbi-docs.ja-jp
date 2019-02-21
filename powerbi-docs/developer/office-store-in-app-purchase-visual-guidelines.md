@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430006"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408071"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Power BI ビジュアルの追加購入のガイドライン
 
@@ -22,6 +22,10 @@ ms.locfileid: "55430006"
 
 > [!Note]
 > ビジュアルが認定されるには、外部サービスやリソースにはアクセスしないようにする必要があります。
+
+> [!Note]
+> すべての無料ビジュアルでは、以前に提供されていたものと同じ無料の機能をそのまま使用する必要があります。 古い無料機能の上に、オプションの高度な有料機能が追加されることがあります。 高度な機能を備えた IAP ビジュアルは新しいビジュアルとして送信し、古い無料のビジュアルを更新しないようにすることをお勧めします。
+
 
 ## <a name="whats-changing-in-the-submission-process"></a>送信プロセスの変更点
 

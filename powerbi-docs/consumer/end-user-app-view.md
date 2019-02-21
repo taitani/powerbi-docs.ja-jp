@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: b48feeaacc5ec0beff3b9b250f22b1aa605de9f7
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: f4e6f0204ed9832a3ed3c3ed8347a44300f606df
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068053"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249392"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 これで[アプリの基礎を理解](end-user-apps.md)できたので、次はアプリを開いて操作する方法を学習しましょう。 
@@ -25,7 +25,7 @@ ms.locfileid: "55068053"
 
 モバイル デバイスの Power BI では、直接リンクからのみアプリをインストールできます。AppSource からはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。
 
-### <a name="install-an-app-from-a-direct-link"></a>直接リンクからのアプリをインストールする
+## <a name="install-an-app-from-a-direct-link"></a>直接リンクからのアプリをインストールする
 新しいアプリをご自分でインストールする最も簡単な方法は、アプリの作成者からメールでの直接リンクを得ることです。  
 
 **コンピューターで** 
@@ -40,7 +40,7 @@ ms.locfileid: "55068053"
 
 ![モバイル デバイスのアプリ コンテンツ リスト](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
 
-### <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource からアプリを取得する
+## <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource からアプリを取得する
 アプリを Microsoft AppSource から検索してインストールすることもできます。 アクセスできる (つまり、アプリの作成者があなたまたはすべてのユーザーにアクセス許可を与えた) アプリのみが表示されます。
 
 1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png) > **[アプリの取得]** の順に選択します。 

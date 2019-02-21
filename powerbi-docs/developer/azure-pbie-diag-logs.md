@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: bdb9e2dcf5e8e22aaaa3bf35035b746777a387b9
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40126637"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249139"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure の Power BI Embedded の診断ログ
 
@@ -114,13 +114,13 @@ PowerShell を使用してメトリックと診断ログを有効にするには
 |    監査ログアウト    |    追跡開始以降のエンジン イベントからの切断を、すべて記録します。    |
 |    エラー    |    追跡開始以降のエンジン エラーのイベントを、すべて記録します。    |
 
-</br>
-</br>
+<br>
+<br>
 
 | プロパティ名 | Vertipaq クエリの終了の例 | プロパティの説明 |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | イベント クラスを使用してイベントを分類します。 |
-| EventSubclass | 0 | イベントのサブクラスは、各イベント クラスに関する追加情報を提供します。 (たとえば、0: VertiPaq スキャン) |
+| EventSubclass | 0 | イベントのサブクラスは、各イベント クラスに関する追加情報を提供します。 (たとえば、0:VertiPaq Scan) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | ルート アクティビティの ID です。 |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | イベントが開始された時刻です (使用可能な場合)。 |
 | StartTime | 2018-04-06T18:30:11.9137358Z | イベントが開始された時刻です (使用可能な場合)。 |
@@ -138,7 +138,7 @@ PowerShell を使用してメトリックと診断ログを有効にするには
 | Severity | 0 | 例外の重要度レベルです。 |
 | 成功 | 1 | 1 = 成功。 0 = 失敗 (たとえば、1 は権限チェックの成功を表し、0 は失敗を表します)。 |
 | エラー | 0 | 指定されたイベントのエラー番号です。 |
-| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes): 850 6800] | イベントに関連付けられたテキスト データです。 |
+| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes):850 6800] | イベントに関連付けられたテキスト データです。 |
 | ConnectionID | 3 | 一意な接続 ID です。 |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | ユーザーのステートメントが実行されているデータセットの ID です。 |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | セッション GUID です。 |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279322"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325016"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>オンプレミス データ ゲートウェイの詳細
 組織のユーザーはオンプレミス データ (アクセス認証を取得済みの) にアクセスできますが、オンプレミス データ ソースに接続するには、事前にオンプレミス データ ゲートウェイをインストールし、設定しておく必要があります。 このゲートウェイにより、クラウドのユーザーとオンプレミス データ ソースの間のバックグラウンドの通信が迅速かつ安全な方法で確立されます。
@@ -90,7 +90,7 @@ Azure AD Connect を利用すると、UPN は AAD とローカル Active Directo
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>ゲートウェイについて
-ゲートウェイは、クラウドとオンプレミス サーバー間のブリッジとして機能します。 クラウドとゲートウェイ間のデータ転送は、[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview) を介してセキュリティで保護されます。 Service Bus は、ゲートウェイでの送信接続を使用して、クラウドとオンプレミスのサーバーの間にセキュリティで保護されたチャネルを作成します。  オンプレミス ファイアウォールで開く必要のある受信接続はありません。
+ゲートウェイは、クラウドとオンプレミス サーバー間のブリッジとして機能します。 クラウドとゲートウェイ間のデータ転送は、[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview) を介してセキュリティで保護されます。 Service Bus は、ゲートウェイでの送信接続を使用して、クラウドとオンプレミスのサーバーの間にセキュリティで保護されたチャネルを作成します。  オンプレミス ファイアウォールで開く必要のある受信接続はありません。 Power BI ではサービス バスが自動的に管理されるので、追加のコストまたは構成手順は必要ありません。
 
 Analysis Services データ ソースを持っている場合は、Analysis Services サーバーと同じフォレストまたはドメインに結合しているコンピューターにゲートウェイをインストールする必要があります。
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 02/14/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1ddcee1e39f8704eda7cc94cffb27c1a8b6b75f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c45900d98dfa25dd991ae0cee1f165a41964c51e
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290339"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324770"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop で SAP BW Connector を使用する
 Power BI Desktop で、**SAP BusinessWarehouse (BW)** のデータにアクセスできます。
@@ -218,6 +218,29 @@ Implementation 2.0 は以下のオプションをサポートします。
    * BAPI_IOBJ_GETDETAIL
 
    この問題を解決するために、ユーザーが *BAPI_IOBJ_GETDETAIL* に加えてさまざまな *MDPROVIDER* モジュールにアクセスできることを確認します。 これと同じまたは類似した問題をさらにトラブルシューティングするためには、Power BI Desktop の "*オプション*" 内で "*診断*" ウィンドウの "*トレースを有効にする*" を選択します。 トレースがアクティブになっている間に SAP BW からデータを取得し、詳細についてトレース ファイルを調べてみます。
+
+## <a name="sap-bw-connection-support"></a>SAP BW 接続のサポート
+
+次の表では、SAP BW の現在のサポートについて説明します。
+
+
+
+|製品  |モード  |認証  |コネクタ  |SNC ライブラリ  |サポートされている  |
+|---------|---------|---------|---------|---------|---------|
+|Power BI Desktop     |任意         | ユーザー/パスワード  | アプリケーション サーバー | N/A  | はい  |
+|Power BI Desktop     |任意         | Windows          | アプリケーション サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
+|Power BI Desktop     |任意         | 借用による Windows | アプリケーション サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
+|Power BI Desktop     |任意         | ユーザー/パスワード        | メッセージ サーバー | N/A  | はい  |
+|Power BI Desktop     |任意         | Windows        | メッセージ サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
+|Power BI Desktop     |任意         | 借用による Windows | メッセージ サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
+|Power BI Gateway     |インポート      | Power BI Desktop と同じ |         |   |   |
+|Power BI Gateway     |DirectQuery | ユーザー/パスワード        | アプリケーション サーバー | N/A  | はい  |
+|Power BI Gateway     |DirectQuery | 借用による Windows (固定ユーザー、SSO なし) | アプリケーション サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
+|Power BI Gateway     |DirectQuery | DirectQuery クエリ オプションには Kerberos 経由で SSO を使用する | アプリケーション サーバー | gsskrb5/gx64krb5 *の場合のみ*   | はい  |
+|Power BI Gateway     |DirectQuery | ユーザー/パスワード        | メッセージ サーバー | N/A  | はい  |
+|Power BI Gateway     |DirectQuery | 借用による Windows (固定ユーザー、SSO なし) | メッセージ サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
+|Power BI Gateway     |DirectQuery | DirectQuery クエリ オプションには Kerberos 経由で SSO を使用する | メッセージ サーバー | sapcrypto + gsskrb5/gx64krb5  | いいえ  |
+
 
 
 ## <a name="next-steps"></a>次の手順

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 68d350035732d8335079bf76a859919d696e2721
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 5e1bd67ba14ed35a97d91e5ed76f7a3bd8de56ea
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223676"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324831"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI でのセルフサービスのデータ準備 (プレビュー)
 
@@ -52,6 +52,9 @@ Power BI では、ばらばらのソースからデータを取りまとめて�
 ## <a name="how-to-use-dataflows"></a>データフローを使用する方法
 
 前のセクションでは、Power BI でデータフローを使用して強力な分析をすばやく作成するさまざまな方法について説明しました。 このセクションでは、組織でデータフローを使用して分析情報をすばやく作成する方法と、BI プロフェッショナルが独自のデータフローを作成し、自分の組織に合わせて分析情報をカスタマイズする方法を説明します。
+
+> [!NOTE]
+> データフローを使用するには Power BI Pro アカウントや Power BI Premium アカウントなどの有料の Power BI アカウントが必要ですが、データフローの使用に対して別途請求されることはありません。 
 
 ### <a name="extend-the-common-data-model-for-your-business-needs"></a>ビジネス ニーズに合わせて Common Data Model を拡張する
 Common Data Model (CDM) を拡張したいビジネス インテリジェンス プロフェッショナルは、データフローを使用して標準エンティティをカスタマイズしたり、新しいエンティティを作成したりできます。 データ モデルのカスタマイズに対するこのセルフサービス アプローチをデータフローで使用して、組織に合わせて調整されたアプリと Power BI ダッシュボードを構築できます。

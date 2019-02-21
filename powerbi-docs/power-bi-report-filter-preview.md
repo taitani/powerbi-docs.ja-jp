@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: b130ccbe6b3fe6fa09b9a4c4efe388f79350c500
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482708"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298824"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI レポートの新しいフィルター エクスペリエンス (プレビュー)
 
 この記事では、新しいフィルター エクスペリエンスについて詳しく説明します。Power BI のフィルターに、新しい機能と新しいデザインが追加されます。 Power BI Desktop または Power BI サービスでレポートを設計するときに、フィルター ウィンドウをレポート全体に見えるように作成し、それと連携させることができます。 新しいエクスペリエンスでは、古いフィルター ウィンドウがフィルターの編集ウィンドウのように機能し、新しいフィルター ウィンドウだけが自分のレポートのコンシューマーに表示されます。 
  
 ![既定のビュー (追加カスタマイズなし)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
+
+> [!NOTE]
+> 新しいフィルター エクスペリエンスがプレビュー段階にあります。 新しいビルドにより、既に設定してある書式設定がオーバーライドされる可能性があります。
 
 レポート デザイナーが新しいフィルターを使って実行できることは次のとおりです。
 
@@ -83,6 +86,7 @@ Power BI Desktop を再起動すると、作成するすべての新しいレポ
 - 背景の透明度
 - フィルター ウィンドウの境界線のオンまたはオフ
 - フィルター ウィンドウの境界線の色
+- フィルター ウィンドウのタイトルとヘッダーのフォント、色、テキスト サイズ
 
 また、フィルター カードに対しても、それが適用されている (何かに設定されている) か、または使用可能 (オフ) かに応じて、これらの要素を書式設定することができます。 
 
@@ -90,6 +94,8 @@ Power BI Desktop を再起動すると、作成するすべての新しいレポ
 - 背景の透明度
 - 境界線: オンまたはオフ
 - 境界線の色
+- フォント、色、テキスト サイズ
+- 入力ボックスの色
 
 ### <a name="set-the-format-for-the-filters-pane-and-cards"></a>フィルター ウィンドウとカードの書式を設定する
 
@@ -100,11 +106,11 @@ Power BI Desktop を再起動すると、作成するすべての新しいレポ
 
 1. **[フィルター ウィンドウ]** を展開して背景、アイコン、左の境界線の色を設定し、レポート ページを補完します。
 
-    ![フィルター ウィンドウを展開する](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
+    ![フィルター ウィンドウを展開する](media/power-bi-report-filter-preview/power-bi-filter-format-pane-font.png)
 
 1. **[フィルター カード]** を展開して、色と境界線の **[使用可能]** と **[適用済み]** を設定します。 カードのさまざまな色を使用可能にして適用すれば、どのフィルターが適用されているか明確になります。 
   
-    ![フィルター カードを展開する](media/power-bi-report-filter-preview/power-bi-filter-format-card.png)
+    ![フィルター カードを展開する](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>閲覧モードでビジュアルのフィルターを表示する
 
