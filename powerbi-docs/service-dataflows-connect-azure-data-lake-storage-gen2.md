@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216518"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426725"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)
 
@@ -70,6 +70,8 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 **[ロール割り当ての追加]** ウィンドウで、**[閲覧者]** ロールを選択して Power BI サービスに割り当てます。 次に、検索を利用して、**[Power BI サービス]** を探します。 次に示す画像では、Power BI サービスに **[閲覧者]** ロールが割り当てられています。
 
 ![[閲覧者] ロールが割り当てられた Power BI サービス](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
+
+注:ポータルから Power BI へのアクセス許可が反映されるまで少なくとも 30 分は見込んでください。 ポータルでアクセス許可を変更した場合は、Power BI に反映されるまで必ず 30 分待ってから再試行してください。 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Power BI 用のファイル システムの作成

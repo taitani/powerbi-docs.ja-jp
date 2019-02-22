@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794847"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426771"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 レポート、ダッシュボード、アプリ、Q&A では視覚化が使用されています。 これらの視覚化の種類には、Power BI でパッケージ化されているものと、"*カスタム ビジュアル*" として作成されているものがあります。 カスタム ビジュアルは、Power BI の外部で作成され、"*レポート デザイナー*" でそれを Power BI のレポート、ダッシュボード、アプリに追加できるようになっています。 
@@ -98,10 +98,12 @@ ms.locfileid: "55794847"
 - 1 つの測定基準の正常性を示す
 - ひとめでわかるように情報を表示する
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>主要なインフルエンサのグラフ
+![主要なインフルエンサ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+主要なインフルエンサのグラフは、選択した結果または値の主な要因を示しています。
+
+重要なメトリックに影響する要因を理解する場合、主要なインフルエンサが重要な選択肢となります。 たとえば、*顧客が 2 番目に何を注文するかに影響するもの*や、* 先の 6 月に売上が急上昇した原因*などです。 
 
 ### <a name="kpis"></a>KPI
 ![KPI](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)

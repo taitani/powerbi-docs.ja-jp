@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb550bb2a009c5f227541db41a9bc45fc708d1e1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279046"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426633"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Power BI でのデータフローの作成と使用 (プレビュー)
 
@@ -155,6 +155,10 @@ Power BI のデータフローでは、Power BI のデータ更新プロセス�
 * **Salesforce コネクタ** - データフローで Salesforce の試用版アカウントを使用すると、情報が提供されずに接続エラーになります。 これを解決するには、運用環境の Salesforce アカウントまたはテスト用の開発者アカウントを使用します。
 
 * **SharePoint コネクタ** - サブフォルダーまたはドキュメントを含めずに、SharePoint サイトのルート アドレスを指定していることを確認します。 たとえば、 https://microsoft.sharepoint.com/teams/ObjectModel/ のようなリンクを使用します。 
+
+* **JSON ファイル コネクタ** - 現在、JSON ファイルに接続する方法は基本認証のみです。  URL (たとえば https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg...) 内での資格情報の入力による JSON ファイルへの接続は、現在サポートされて**いません**。  
+
+* **Azure SQL Data Warehouse** - データフローは現在、Azure SQL Data Warehouse での Azure Active Directory (AAD) 認証をサポートしていません。 このシナリオでは、基本認証を使用します。
 
 ## <a name="next-steps"></a>次の手順
 

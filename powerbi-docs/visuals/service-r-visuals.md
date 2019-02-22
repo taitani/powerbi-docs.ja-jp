@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48e1ddbc498e234c43bf755d3a23a2e10e4cc856
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290216"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426610"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI サービスで R ビジュアルを作成する
 Power BI サービスでは、R スクリプトで作成したビジュアルの表示と操作がサポートされています。 R スクリプトで作成したビジュアルは一般的に *R ビジュアル*と呼ばれ、R の豊富な分析と視覚化の機能を使用した高度なデータ整形と予測などの分析に使用できます。
@@ -66,11 +66,19 @@ R スクリプトでエラーが発生した場合、R ビジュアルはプロ�
 ## <a name="licensing"></a>ライセンス
 R ビジュアルのレポートでの表示、更新、フィルター、クロス フィルターには、[Power BI Pro](../service-self-service-signup-for-power-bi.md) のライセンスが必要です。 Power BI Pro のライセンスの詳細および無料ライセンスとの違いについては、「[Power BI Pro コンテンツとは](../service-premium.md)」を参照してください。
 
-Power BI 無料版のユーザーは、共有されたタイルのみを使用できます。 詳細については、「[Power BI Pro を購入する](../service-admin-purchasing-power-bi-pro.md)」を参照してください。
+Power BI 無料版のユーザーは、Premium ワークスペースで共有されたタイルのみを使用できます。 詳細については、「[Power BI Pro を購入する](../service-admin-purchasing-power-bi-pro.md)」を参照してください。
 
 次の表に、R ビジュアルの機能をライセンス別に示します。
 
-![](media/service-r-visuals/r-visuals-service_6a.png)
+
+|  |Power BI Desktop で R ビジュアルを作成する  | R ビジュアルを使って PBI サービス レポートを作成する |レポートで R ビジュアルを表示する  | ダッシュボードで R タイルを表示する |
+|---------|---------|---------|---------|--------|
+|**ゲスト** (Power BI embedded)     |  関連性がない|  関連性がない       | サポートされていません  | 関連性がない |
+|**アンマネージド テナント** (未確認のドメイン) | サポートされている | サポートされていません |  サポートされていません |サポートされている (B2B のシナリオ) |
+|無料ライセンスの**マネージド テナント**    |  サポートされている       |  サポートされていません       |    Premium 容量のみでサポートされている    | サポートされている |
+Pro ライセンスを持つ**マネージド テナント**     |   サポートされている      | サポートされている      | サポートされている    |サポートされている|
+
+
 
 ## <a name="known-limitations"></a>既知の制限事項
 Power BI サービスの R ビジュアルには、一定の制限があります。
