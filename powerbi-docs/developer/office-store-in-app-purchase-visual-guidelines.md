@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408071"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426541"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Power BI ビジュアルの追加購入のガイドライン
 
@@ -33,7 +33,10 @@ ms.locfileid: "56408071"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP 機能のある Power BI ビジュアルとは
 
-IAP ビジュアルは、無料のビジュアルで無料の機能があります。しかしこれに加え、操作に追加費用を支払う必要がある追加の機能もあります。 開発者は、操作にはどの機能を追加購入する必要があるか、ビジュアルの説明でユーザーに通知する必要があります。 現在、Microsoft では、アプリおよびアドイン内での購入をサポートするネイティブ アプリケーション プログラミング インターフェイス (API) は用意していません。開発者は、このような購入には、サードパーティ製の支払いシステムを使用する必要があります。 弊社のストア [ポリシー](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)を参照してください。
+IAP ビジュアルは無料のビジュアルであり、無料の機能で提供されていますが、それ以外にも操作に追加料金がかかる機能もあります。 開発者は、操作にはどの機能を追加購入する必要があるか、ビジュアルの説明でユーザーに通知する必要があります。 現在、Microsoft では、アプリおよびアドイン内での購入をサポートするネイティブ アプリケーション プログラミング インターフェイス (API) は用意していません。開発者は、このような購入には、サードパーティ製の支払いシステムを使用する必要があります。 弊社のストア [ポリシー](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)を参照してください。
+
+> [!NOTE]
+> 無料機能では透かしを使用できません。 開発者が有効なライセンスがない状態で高度な有料機能を使用すると、ポップアップ ウィンドウまたは透かしが表示されます。  
 
 ## <a name="logo-guidelines"></a>ロゴのガイドライン
 
