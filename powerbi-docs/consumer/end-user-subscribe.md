@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 26ba6d0ea23451863d05b13a79e57d483b15881f
-ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
+ms.openlocfilehash: e8d849c711bb190951feffca072a883137275af7
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56298847"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661786"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI サービスでレポートまたはダッシュボードをサブスクライブする 
 最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールを受信する頻度 (毎日、毎週、データ更新時) を Power BI に指示します。 特定の日時に Power BI でメールが送信されるように設定することも、今すぐ実行することもできます。  

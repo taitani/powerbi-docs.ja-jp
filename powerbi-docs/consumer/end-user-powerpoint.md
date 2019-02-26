@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9e1ed67302b3fc4d7bf990040259e9e4615794a5
-ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
+ms.openlocfilehash: 3563c19630d481f1d3601e314ee13e1aef5c597d
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56298916"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661815"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Power BI から PowerPoint にレポートをエクスポートする
 Power BI では、レポートを **Microsoft PowerPoint** に発行して、Power BI レポートに基づくスライド デッキを簡単に作成できます。 **PowerPoint にエクスポート**すると、次のようになります。

@@ -11,18 +11,16 @@ ms.topic: conceptual
 ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b1a99279087f2d6557da9a70c1e02aae649dc9b4
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: a048f589b19acd1a7c38a5b81cf781d1e76b7b5b
+ms.sourcegitcommit: 187d20180d9bae5a2ec53748cede9e7301e0343e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794549"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "56725342"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium とは何ですか?
 
-Microsoft Power BI Premium には、組織が Power BI サービスを実行するための専用のリソースが用意されています。 より信頼できるパフォーマンスが提供され、より大きなデータ ボリュームを利用できます。 また、Premium ではコンテンツを広範囲に配布でき、コンテンツ コンシューマーに対してユーザーごとの Pro ライセンスを購入する必要はありません。 購入については、「[Power BI Premium の購入方法](service-admin-premium-purchase.md)」を参照してください。   
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+Microsoft Power BI Premium には、組織が Power BI サービスを実行するための専用のリソースが用意されています。 より信頼できるパフォーマンスが提供され、より大きなデータ ボリュームを利用できます。 また、Premium ではコンテンツを広範囲に配布でき、コンテンツ コンシューマーに対してユーザーごとの Pro ライセンスを購入する必要はありません。  
 
 ## <a name="premium-capacity-and-shared-capacity"></a>Premium 容量と共有された容量
 

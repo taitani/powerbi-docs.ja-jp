@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a4dff6ca2020a349c3f06e5c828e186b3e11bdb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 62172546e38069253ccc01626dc2101b7e2e4799
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288706"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56663071"
 ---
 # <a name="view-a-dashboard"></a>ダッシュボードの表示
 Power BI コンシューマーは、ダッシュボードの表示に多くの時間を使います。 ダッシュボードは、基になるレポートとデータセットから特定の情報を強調表示するために設計されています。 Power BI コンシューマーは、その情報を追跡、監視、質問への回答、テストなどに使用して、データ駆動型のビジネス上の意思決定を行います。

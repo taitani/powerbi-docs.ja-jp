@@ -2,22 +2,23 @@
 title: Power BI の DirectQuery でサポートされるデータ ソース
 description: DirectQuery を使用できるデータ ソースの一覧を取得します。
 author: davidiseminger
+ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ecb1ba1cf10395a7c193d16281eece80868a52e7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285555"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826562"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI の DirectQuery でサポートされるデータ ソース
+
 **Power BI Desktop** と **Power BI サービス**には、接続してデータへのアクセスを可能にする多数のデータ ソースがあります。 この記事では、Power BI のどのデータ ソースが **DirectQuery** と呼ばれる接続方法をサポートしているかを説明します。 DirectQuery の詳細については、「[**Power BI での DirectQuery**](desktop-directquery-about.md)」を参照してください。
 
 次のデータ ソースは、Power BI で DirectQuery をサポートしています。
@@ -32,7 +33,7 @@ ms.locfileid: "54285555"
 * Impala (バージョン 2.x)
 * Oracle データベース (バージョン 12 以降)
 * SAP Business Warehouse Application サーバー
-* SAP Business Warehouse メッセージ サーバー (Beta)
+* SAP Business Warehouse メッセージ サーバー (ベータ版)
 * SAP HANA
 * Snowflake
 * Spark (ベータ) (バージョン 0.9 以降)
