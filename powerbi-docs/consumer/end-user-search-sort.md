@@ -4,19 +4,19 @@ description: Power BI ワークスペースでコンテンツを検索し、並�
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
+ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef8d7c61d35f15517db4fdbbea347a525a130f31
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288223"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661884"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>ナビゲーション: Power BI サービスでコンテンツの検索、探索、並べ替えを行う
 Power BI サービスでコンテンツ間を移動する方法はたくさんあります。 ワークスペース内のコンテンツは、種類 (ダッシュボード、レポート、ブック、データセット) ごとにまとめられています。  また、コンテンツは使用方法 (お気に入り、最近、アプリ、自分と共有、おすすめ) によっても整理されています。 ワン ストップ ナビゲーションの場合、ホーム ページにはすべてのコンテンツを 1 ページにまとめます。 コンテンツへのこれらの異なる経路により、Power BI サービス内で必要な情報をすばやく見つけることができます。  

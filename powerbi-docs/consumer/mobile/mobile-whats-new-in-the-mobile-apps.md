@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431248"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826723"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,16 @@ ms.locfileid: "55431248"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="january---february-2019"></a>2019 年 1 月 - 2 月
+ 
+### <a name="visio-visuals"></a>Visio ビジュアル
+
+Visio ビジュアルでのシングル サインオン (SSO) の有効化。これにより、アプリで Visio ビジュアルを使ってレポートを表示するときに追加のサインイン手順が不要になります。 
+
+### <a name="dashboard-commenting-is-coming-to-power-bi-mobile-windows-app"></a>Power BI Mobile の Windows アプリに対するダッシュボードのコメントの追加
+
+ダッシュボードおよび特定のタイルに直接コメントを追加して、データについて説明できます。コメントは、ダッシュボードを表示していすべてのるユーザーに対して表示されます。 
 
 ## <a name="december-2018"></a>2018 年 12 月
 

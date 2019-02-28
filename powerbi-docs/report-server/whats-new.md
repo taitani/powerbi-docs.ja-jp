@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325199"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662459"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
@@ -41,6 +41,10 @@ Power BI レポートでは、次の機能がサポートされています。
 [**スマート配置ガイド**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) レポートのページ上でオブジェクトを移動するときにスマート配置ガイドが表示され (PowerPoint で表示されるように)、ページ上で行うあらゆる配置が楽に行えます。 ご利用のページ上で何かをドラッグまたはサイズ変更する場合は常にスマート ガイドが表示されます。 オブジェクトを別のオブジェクトの近くに移動する場合、移動するオブジェクトは他方のオブジェクトと揃えられた位置に配置されます。
 
 **アクセシビリティ機能**一覧されるアクセシビリティ機能が多すぎます: たとえば、[フィールド一覧ペインのアクセシビリティ サポート](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 フィールド一覧ペインには、完全にアクセスできます。 キーボードとスクリーン リーダーを使用するだけで、ウィンドウ内を移動することができ、さらにコンテキスト メニューを使用することで、ご利用のレポート ページにフィールドを追加できます。
+
+#### <a name="custom-visuals"></a>カスタム ビジュアル
+
+- このリリースに付属する API バージョンは 2.3 です。
 
 ### <a name="administrator-settings"></a>管理者の設定
 
