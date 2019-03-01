@@ -1242,12 +1242,12 @@ items:
         href: service-premium-understand-how-it-works.md
       - name: Power BI Premium を購入する
         href: service-admin-premium-purchase.md
-      - name: Power BI Premium の管理
-        href: service-admin-premium-manage.md
       - name: アプリで容量を監視する
         href: service-admin-premium-monitor-capacity.md
-      - name: 管理ポータルでの容量を監視する
+      - name: 管理ポータルで容量を監視する
         href: service-admin-premium-monitor-portal.md
+      - name: ワークロードを構成する
+        href: service-admin-premium-workloads.md
       - name: Premium 容量の再起動
         href: service-admin-premium-restart.md
       - name: 大規模なデータセットのサポート
@@ -1313,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b6d9e25d9b4eb357038c5daa56df1b4d3f4d9e78
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892438"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014325"
