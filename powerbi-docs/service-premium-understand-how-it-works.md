@@ -9,12 +9,12 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
-ms.openlocfilehash: e31f67d978471f4dcc6472860fc5f8315212e563
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: d7cebbd569d16192f4acfa1c96394130731efa17
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794870"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014578"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium 容量のリソースの管理と最適化
 
@@ -55,7 +55,7 @@ Power BI Premium には、容量を*オーバーコミット*できる利点が�
 
 ### <a name="workloads"></a>ワークロード
 
-既定では、**Power BI Premium** と **Power BI Embedded** の容量でサポートされるのは、クラウド内で実行中の Power BI クエリに関連付けられているワークロードのみです。 現在では、2 つの追加ワークロード(**ページ分割されたレポート**および**データフロー**) に対応したプレビュー版サポートが用意されています。 有効な場合、これらのワークロードは容量におけるメモリ使用量に影響する可能性があります。 詳細については、「[ワークロードを構成する](service-admin-premium-manage.md#configure-workloads)」を参照してください。
+既定では、**Power BI Premium** と **Power BI Embedded** の容量でサポートされるのは、クラウド内で実行中の Power BI クエリに関連付けられているワークロードのみです。 現在では、2 つの追加ワークロード(**ページ分割されたレポート**および**データフロー**) に対応したプレビュー版サポートが用意されています。 有効な場合、これらのワークロードは容量におけるメモリ使用量に影響する可能性があります。 
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Premium 容量における CPU リソースの管理
 
@@ -116,6 +116,3 @@ Azure で Power BI Embedded の容量を使って異なる SKU をテストし�
 
 場合によっては、モデルの Power BI Desktop (.pbix) ファイルをコンピューターで開き、メモリと CPU の消費量を確認すると、問題について多くの情報が得られます。 非常に大きいモデルにはこの方法は使えませんが、小さいモデルの場合は、お使いのコンピューターからモデルを開き、更新し、クエリを行ってみてください。 モデルを開いたときに消費されるモデル サイズ、メモリ、CPU を確認します。 更新とクエリを実行します。 タスク マネージャーを使って、ローカル ファイルの CPU とメモリの消費量を確認します。 場合によっては、コンピューター自体のこれらのメトリックにより、P1/P2 のような低い Premium 容量では目的のソリューションで動作しないことがわかる可能性があります。
 
-## <a name="next-steps"></a>次の手順
-
-[Power BI Premium および Power BI Embedded の容量を管理する](service-admin-premium-manage.md)

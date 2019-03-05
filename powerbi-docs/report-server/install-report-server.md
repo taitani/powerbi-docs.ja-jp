@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.openlocfilehash: 377e601bde58c0e0a8e5634cd798e3373ebee7b7
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324900"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014440"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
@@ -37,11 +37,11 @@ Power BI Report Server をインストールする前に、「[Power BI レポ�
 
 Power BI Premium を購入した場合は、Power BI 管理者ポータルの **[Premium 設定]** タブ内で、Power BI Report Server のプロダクト キーにアクセスできます。 これが可能なのは、グローバル管理者、または Power BI サービス管理者ロールが割り当てられているユーザーのみです。
 
-![Premium 設定](../media/service-admin-premium-manage/pbirs-product-key.png "Premium 設定の Power BI Report Server キー")
+![Premium 設定](../report-server/media/install-report-server/pbirs-product-key.png "Premium 設定の Power BI Report Server キー")
 
 **[Power BI Report Server キー]** を選択すると、プロダクト キーを含むダイアログが表示されます。 これをコピーして、インストールで使用することができます。
 
-![プロダクト キー](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Power BI Report Server のプロダクト キー")
+![プロダクト キー](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Power BI Report Server のプロダクト キー")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
 

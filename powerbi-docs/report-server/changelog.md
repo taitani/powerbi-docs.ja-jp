@@ -1,6 +1,7 @@
 ---
 title: Power BI Report Server の変更ログ
 description: この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
+ms.author: jtarquino
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -8,13 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.author: jtarquino
-ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9589c2cf5277995459a9f43f573b6e19c4c8f748
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224044"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327966"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -23,6 +23,7 @@ ms.locfileid: "56224044"
 新機能の詳細については、「[Power BI レポート サーバーの新機能](whats-new.md)」を参照してください。 
 
 ## <a name="january-2019"></a>2019 年 1 月
+
 - **Power BI Report Server**            
     - "*バージョン 1.4.6969.7395 (ビルド 15.0.1102.235)、リリース日: 2019 年 1 月 30 日*"
         - バグの修正
@@ -65,6 +66,7 @@ ms.locfileid: "56224044"
         - Power BI Report Server (2019 年 1 月) との接続に必要な変更が含まれます。  
 
 ## <a name="august-2018"></a>2018 年 8 月
+
 - **Power BI Report Server**
     - *バージョン 1.3.6816.37243 (ビルド 15.0.2.557)、リリース日:2018 年 8 月 30 日*
         - バグの修正
@@ -86,6 +88,7 @@ ms.locfileid: "56224044"
         - Power BI Report Server (2018 年 8 月) との接続に必要な変更が含まれます。         
         
 ## <a name="march-2018"></a>2018 年 3 月
+
 - **Power BI Report Server**
     - *バージョン 1.2.6690.34729 (ビルド 15.0.2.402)、リリース日:2018 年 4 月 27 日*
         - バグの修正

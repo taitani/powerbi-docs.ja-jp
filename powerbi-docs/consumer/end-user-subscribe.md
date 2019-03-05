@@ -2,20 +2,21 @@
 title: レポートとダッシュボードをサブスクライブする
 description: Power BI のレポートやダッシュボードのスナップショットの電子メール配布を自分や同僚がサブスクライブする方法を説明します。
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/14/2019
+ms.date: 02/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e8d849c711bb190951feffca072a883137275af7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 99501c6acc54188e2e87f0ae93354cac8116273c
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661786"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327943"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI サービスでレポートまたはダッシュボードをサブスクライブする 
 最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールを受信する頻度 (毎日、毎週、データ更新時) を Power BI に指示します。 特定の日時に Power BI でメールが送信されるように設定することも、今すぐ実行することもできます。  

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408186"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014647"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -297,7 +297,7 @@ AppSource からのインストールを要求することなく、ユーザー�
 
 ### <a name="create-and-use-dataflows-preview"></a>データフローを作成して使用する (プレビュー)
 
-組織内のユーザーはデータフローを作成して使用できます。 データフローの概要については、「[Power BI でのセルフサービスのデータ準備 (プレビュー)](service-dataflows-overview.md)」をご覧ください。 Premium 容量でのデータフローを有効にするには、「[ワークロードを構成する](service-admin-premium-manage.md#configure-workloads)」を参照してください。
+組織内のユーザーはデータフローを作成して使用できます。 データフローの概要については、「[Power BI でのセルフサービスのデータ準備 (プレビュー)](service-dataflows-overview.md)」をご覧ください。 Premium 容量でのデータフローを有効にするには、「[ワークロードを構成する](service-admin-premium-workloads.md)」を参照してください。
 
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。
@@ -321,8 +321,6 @@ AppSource からのインストールを要求することなく、ユーザー�
 **[Power BI Premium]** タブでは、組織用に購入されたすべての Power BI Premium 容量 (EM または P SKU) を管理できます。 組織内のすべてのユーザーに **[Power BI Premium]** タブが表示されますが、そのタブにコンテンツが表示されるのは、ユーザーが、"*容量管理者*"、または割り当てのアクセス許可を持つユーザーとして割り当てられている場合のみです。 アクセス許可が何も割り当てられていないユーザーには、次のメッセージが表示されます。
 
 ![Premium の設定にアクセスできません](media/service-admin-portal/premium-settings-no-access.png)
-
-Premium の設定の管理方法について詳しくは、「[Power BI Premium の管理](service-admin-premium-manage.md)」をご覧ください。
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -410,6 +408,5 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 [組織内の Power BI を管理する](service-admin-administering-power-bi-in-your-organization.md)  [Power BI 管理者の役割について](service-admin-role.md)  
 [組織内の Power BI を監査する](service-admin-auditing.md)  
-[Power BI Premium の管理](service-admin-premium-manage.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

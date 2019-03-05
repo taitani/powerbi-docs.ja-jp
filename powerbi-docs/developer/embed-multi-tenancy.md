@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430719"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014256"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI の埋め込み分析でマルチテナントを管理する
 
@@ -142,7 +142,7 @@ SaaS アプリケーションのストレージで、すべてのテナントに
 
 ### <a name="scalability"></a>スケーラビリティ
 
-このモデルの利点の 1 つは、テナントごとの複数のデータセットにデータを分離することで、[単一データセットのサイズ制限](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (現在、容量 10 GB) が適用されないことです。 容量がオーバーロードになったら、[未使用のデータセットを削除](../service-premium-understand-how-it-works.md)して、アクティブなデータセットのためにメモリを解放できます。 1 つの大規模なデータセットでは、このようなことはできません。 複数のデータセットを使用すると、必要に応じて、複数の Power BI 容量にテナントを分離することもできます。 [容量の動作について詳しくは、こちらをご覧ください](../service-admin-premium-manage.md)。
+このモデルの利点の 1 つは、テナントごとの複数のデータセットにデータを分離することで、[単一データセットのサイズ制限](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (現在、容量 10 GB) が適用されないことです。 容量がオーバーロードになったら、[未使用のデータセットを削除](../service-premium-understand-how-it-works.md)して、アクティブなデータセットのためにメモリを解放できます。 1 つの大規模なデータセットでは、このようなことはできません。 複数のデータセットを使用すると、必要に応じて、複数の Power BI 容量にテナントを分離することもできます。
 
 このような利点はありますが、将来的に SaaS アプリケーションが達する可能性のあるスケールを考慮する必要があります。 たとえば、管理できる成果物の数に関する制限に到達する可能性があります。 詳細については、この記事で後述されているデプロイに関する[制限](#summary-comparison-of-the-different-approaches)をご覧ください。 使用されている容量 SKU により、データセットが収まる必要のあるメモリのサイズ、[同時に実行できる更新の数](../service-premium-understand-how-it-works.md)、データ更新の最大頻度についての制限が適用されます。 数百または数千のデータセットを管理するときは、テストすることをお勧めします。 また、平均とピーク時の使用量、および他のテナントとは管理が異なる大きいデータセットを持つ特定のテナントや使用パターンが異なるテナントについて、考慮することをお勧めします。
 

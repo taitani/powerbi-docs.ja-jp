@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: fd1df09e9ef431bf04c566996867c355350fdb2e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 56247275d39c3feb978a8ec38841c7f69de8787a
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279751"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226183"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>チュートリアル:Power BI カスタム ビジュアルへの書式設定オプションの追加
 
@@ -146,7 +146,10 @@ ms.locfileid: "54279751"
 
     ```typescript
     this.visualSettings = VisualSettings.parse<VisualSettings>(dataView);
-    this.visualSettings.circle.circleThickness = Math.max(0, this.visualSettings.circle.circleThickness)this.visualSettings.circle.circleThickness = Math.min(10, this.visualSettings.circle.circleThickness);
+
+    this.visualSettings.circle.circleThickness = Math.max(0, this.visualSettings.circle.circleThickness);
+
+    this.visualSettings.circle.circleThickness = Math.min(10, this.visualSettings.circle.circleThickness);
     ```
     このコードは書式設定オプションを取得します。 ここでは **circleThickness** プロパティに渡される値が調整されます。負の値は 0 に変換され、10 より大きい値は 10 に変換されます。
 
