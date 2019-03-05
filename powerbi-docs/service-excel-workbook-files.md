@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8568013438f6be84b2d4a48efdeffd99db352ed8
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285624"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892369"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel ブック ファイルからデータを取得する
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -78,7 +78,7 @@ Excel 2016 では、[発行] を選択して [エクスポート] すること�
 
 Power BI ではブックを編集できません。 しかし、変更を加える必要がある場合は、[編集] をクリックして、Excel Online でブックを編集するかまたは自分のコンピューターの Excel で開くかを選択できます。 ブックに加えたすべての変更は、OneDrive 上のブックに保存されます。
 
-この方法を選択した場合、データセットは Power BI で作成されません。 ブックは、Power BI ワークスペース ナビゲーション ウィンドウの [レポート] の下に表示されます。 接続されたブックには特殊な Excel アイコンが付いています。
+この方法を選択した場合、Power BI では接続されたブック用に対応するデータセットが作成されます。 必要に応じて、このデータセットを使用して Power BI レポートを作成できます。 ブックは、Power BI ワークスペース ナビゲーション ウィンドウの [レポート] の下にも表示されます。 接続されたブックには特殊な Excel アイコンが付いています。
 
 このオプションは、データがワークシートにのみ存在する場合や、ダッシュボードにピン留めしたい範囲、ピボットテーブル、グラフがある場合に選択します。
 

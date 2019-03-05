@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277666"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892484"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 必ず最新のデータを取得することは、多くの場合、正しい意思決定をする上で重要です。 お客様は既に、Power BI の [データの取得] を使ってデータに接続してアップロードしたり、レポートとダッシュボードを作成したりしたことがあるでしょう。 ここで、データが本当に最新のもので、最も意味のあるものかを確認することができます。
@@ -216,7 +216,7 @@ DirectQuery では、Power BI とクラウド内のデータベース間のラ�
 スケジュールされた更新を構成する方法については、「[スケジュールされた更新の構成](refresh-scheduled-refresh.md)」をご覧ください。
 
 ## <a name="common-data-refresh-scenarios"></a>一般的なデータ更新のシナリオ
-場合によっては、使用例を見ることが Power BI におけるデータの更新に関して学ぶもっとも良い方法です。 より一般的なデータ更新のシナリオのいくつかを次に示します。
+場合によっては、使用例を見ることが Power BI におけるデータの更新に関して学ぶ最も良い方法です。 より一般的なデータ更新のシナリオのいくつかを次に示します。
 
 ### <a name="excel-workbook-with-tables-of-data"></a>データのテーブルを含む Excel ブック
 複数のデータのテーブルを含む Excel ブックがありますが、その中で Excel のデータ モデルに読み込まれているものはありません。 [データの取得] を使用して、ブックのファイルをローカル ドライブから Power BI に読み込み、ダッシュボードを作成します。 しかし、ここでローカル ドライブにあるブックのテーブルのいくつかに変更が加えられました。そのため、Power BI のダッシュボードを新しいデータに更新する必要があります。

@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224021"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892254"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop の分析情報を利用し、ビジュアル内で観察される増減について説明する (プレビュー)
 
 ビジュアルでは、値の大幅な増加や急激な減少が確認されることが頻繁にあり、そのような変化の原因は何かと疑問に思います。 **Power BI Desktop** の**分析情報**を利用すれば、数回のクリックで原因がわかります。
 
-たとえば、*売上高*を*年*別と*国*別で表示している次のビジュアルについて考えてください。 2014 年は売上が大きく下がっており、*第 1 四半期*と*第 2 四半期*の間で売上が急に落ちています。 このような場合、発生した変化について説明する目的でデータをいろいろ調べることができます。 
+たとえば、*売上高*を*年*別と*四半期*別で表示している次のビジュアルについて考えてください。 2014 年は売上が大きく下がっており、*第 1 四半期*と*第 2 四半期*の間で売上が急に落ちています。 このような場合、発生した変化について説明する目的でデータをいろいろ調べることができます。 
 
 ![増減のあるビジュアル](media/desktop-insights/insights_01a.png)
 

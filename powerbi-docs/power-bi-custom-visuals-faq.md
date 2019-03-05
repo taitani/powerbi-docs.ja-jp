@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408140"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892323"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI カスタム ビジュアルに関してよく寄せられる質問
 
@@ -57,8 +57,44 @@ ms.locfileid: "56408140"
 
 ### <a name="what-are-certified-custom-visuals"></a>認定済みカスタム ビジュアルとは何ですか?
 
-認定済みカスタム ビジュアルとは、[マーケットプレース](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)内のビジュアルで、[特定の](power-bi-custom-visuals-certified.md)コードの要件と Power BI チームによるテストを満たしたもののことです。  実行されたテストは、ビジュアルが外部のサービスやリソースにアクセスしないことを確認するように作られています。 ただし、Microsoft はサードパーティ製のカスタム ビジュアルの作成者ではありません。 サードパーティ製のビジュアルの機能については、作成者に直接お問い合わせいただくことをお客様にお勧めしています。
+認定済みカスタム ビジュアルとは、[マーケットプレース](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)内のビジュアルで、[特定の](power-bi-custom-visuals-certified.md)コードの要件と Power BI チームによるテストを満たしたもののことです。  実行されたテストは、ビジュアルが外部のサービスやリソースにアクセスしないことを確認するように作られています。 ただし、Microsoft はサードパーティ製のカスタム ビジュアルの作成者ではありません。サードパーティ製のビジュアルの機能については、作成者に直接お問い合わせいただくことをお客様にお勧めしています。
 
+### <a name="what-tests-are-done-during-the-certification-process"></a>認定プロセス中はどのようなテストが行われますか? 
+
+認定プロセスのテストには、次のようなものがあります (ただし、これらに限定されません)。コード レビュー、静的コード分析、データ漏えい、データ ファジー化、侵入テスト、アクセス XSS テスト、悪意のあるデータ挿入、入力の検証、機能テスト。
+ 
+### <a name="do-you-certify-visuals-every-submission"></a>送信ごとにビジュアルを認定する必要がありますか? 
+
+はい。 認定済みビジュアルの新しいバージョンが Marketplace に送信されるたびに、ビジュアルのバージョン更新プログラムは、同じ証明書チェックを受けます。
+
+開発者向けのメモ: 認定済みのビジュアルのバージョン更新プログラムを送信する場合、[最初の認定要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification)のように電子メールを個別に送信する必要はありません。 バージョン更新プログラムの認定は自動的に行われます。違反が存在しそれが拒否の原因となる場合、修正するには何が必要かを説明するメールが送信されます。 
+
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>認定済みビジュアルの新しい更新プログラムに対して行われる認定を停止することはできますか? 
+
+いいえ、それはできません。 認定済みビジュアルの新しい更新プログラムに対する認定を省略することはできません。 更新プログラムは拒否されます。
+ 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>認定プロセスを受ける場合、自分のコードをパブリック リポジトリで共有する必要がありますか? 
+
+いいえ、ご自分のコードをパブリックに共有する必要はありません。 ただし、ビジュアル コードを確認するための読み取りアクセス許可を Microsoft に提供していただく必要があります。 たとえば、 GitHub のプライベート リポジトリ。
+ 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>ビジュアルを認定するには、それを [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) に[発行](https://docs.microsoft.com/power-bi/developer/office-store)する必要がありますか? 
+
+はい。 最初にビジュアルを Marketplace に発行することは、認定のための必須の要件です。
+カスタム ビジュアルを認定するには、それが Microsoft のサーバー内に置かれている必要があります。 プライベート ビジュアルを認定することはできません。
+ 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>ビジュアルの認定にはどれくらいの時間がかかりますか? 
+
+更新されたバージョンについては、最長で 2 週間がかかる場合があります。 新しい送信 (初回の認定) については、最長で 3 週間かかる場合があります。 
+
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>認定プロセスでは、データ漏えいが発生しないことが保証されていますか? 
+
+実行されたテストは、ビジュアルが外部のサービスやリソースにアクセスしないことを確認するように作られています。 ただし、Microsoft はサードパーティ製のカスタム ビジュアルの作成者ではありません。サードパーティ製のビジュアルの機能については、作成者に直接お問い合わせいただくことをお客様にお勧めしています。
+ 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>認定されていないカスタム ビジュアルは、安全に使用しますか? 
+
+認定されていないカスタム ビジュアルが安全ではないとは限りません。
+一部のビジュアルは 1 つまたは複数の[認定要件](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)を満たしていないために認定されていません。 たとえば、地図ビジュアルのような外部サービスや商用ライブラリを利用するビジュアルに接続する場合です。
+ 
 ## <a name="visuals-with-additional-purchases"></a>ビジュアルの追加購入
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>ビジュアルの追加購入とは何ですか?
@@ -100,7 +136,6 @@ IAP カスタム ビジュアルを作成している、あるいは既に用意
 ガイドラインにはベスト プラクティスに関する注記もあります。  
 > [!Note]
 > すべての無料ビジュアルでは、以前に提供されていたものと同じ無料の機能をそのまま使用する必要があります。 古い無料機能の上に、オプションの高度な有料機能が追加されることがあります。 高度な機能を備えた IAP ビジュアルは新しいビジュアルとして送信し、古い無料のビジュアルを更新しないようにすることをお勧めします。
-
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>IAP カスタム ビジュアルを認定してもらうことはできますか。
 
