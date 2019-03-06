@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 03/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892346"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226091"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI でのセルフサービスのデータ準備 (プレビュー)
 
@@ -75,9 +75,7 @@ Azure Data Lake Storage Gen2 とデータフローの統合の詳細について
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Power BI Premium でデータフロー機能
 
-データフロー機能とワークロードが Power BI Premium サブスクリプションで動作するためには、その Premium 容量に対してデータフロー ワークロードを有効にする必要があります。 Power BI Premium について詳しくは、「[Microsoft Power BI Premium とは何ですか?](service-premium.md)」をご覧ください。 
-
-次の表では、Power BI Pro アカウントと Power BI Premium でのデータフローの機能とその容量の比較を示します。
+データフロー機能とワークロードが Power BI Premium サブスクリプションで動作するためには、その Premium 容量に対してデータフロー ワークロードを有効にする必要があります。 次の表では、Power BI Pro アカウントと Power BI Premium でのデータフローの機能とその容量の比較を示します。
 
 
 |データフローの機能 | Power BI Pro |   Power BI Premium |
@@ -95,7 +93,7 @@ Azure Data Lake Storage Gen2 とデータフローの統合の詳細について
 |データフローでリンクされたエンティティ| |        +|
 |Common Data Model の標準化されたスキーマ/組み込みのサポート|  +|  +|
 
-Premium 容量でデータフロー ワークロードを有効にする方法について詳しくは、Power BI Premium 向けの[ワークロードの構成](service-admin-premium-manage.md#configure-workloads)に関する記事をご覧ください。 現在、データフロー ワークロードは Muti-Geo 容量では使用できません。
+Premium 容量でデータフロー ワークロードを有効にする方法について詳しくは、「[Premium 容量でワークロードを構成する](service-admin-premium-workloads.md)」をご覧ください。 現在、データフロー ワークロードは Muti-Geo 容量では使用できません。
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI でのビッグ データ用のセルフサービス データ準備の概要
 この記事で既に説明したように、**データフロー**によりビジネス データの制御が向上して分析情報の取得が速くなる複数のシナリオと例があります。 Common Data Model によって定義されている標準データ モデル (スキーマ) を使用すると、データフローで貴重なビジネス データをインポートし、これまでは数か月以上もかかっていた BI 分析情報のモデリングと作成のためのデータの準備を、非常に短い期間で行うことができます。 
