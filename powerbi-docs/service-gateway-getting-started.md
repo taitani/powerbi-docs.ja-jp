@@ -1,5 +1,5 @@
 ---
-title: Power BI ゲートウェイとは
+title: オンプレミス データ ゲートウェイとは
 description: Power BI のデータ ゲートウェイに関する基本を説明します。
 author: mgblythe
 manager: kfile
@@ -10,16 +10,16 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: f1ae47dcb7c9281db018952d619691607d331003
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324486"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461651"
 ---
-# <a name="what-are-power-bi-gateways"></a>Power BI ゲートウェイとは
+# <a name="what-are-on-premises-data-gateways"></a>オンプレミス データ ゲートウェイとは
 
-Power BI ゲートウェイは、オンプレミス ネットワーク内にインストールするソフトウェアです。それはネットワーク内のデータへのアクセスを容易にします。 それは門番のような存在であり、接続要求を待ち受け、ユーザーの要求が一定の条件を満たしたときにのみ、要求に応えます。 これにより、オンプレミス ネットワーク上の組織のデータベースと他のデータ ソースを維持したままで、オンプレミス データを Power BI のレポートとダッシュボードで安全に使用できます。
+Power BI ゲートウェイは、オンプレミス ネットワーク内にインストールするソフトウェアです。ゲートウェイがあると、そのネットワーク内のデータに簡単にアクセスできるようになります。 それは門番のような存在であり、接続要求を待ち受け、ユーザーの要求が一定の条件を満たしたときにのみ、要求に応えます。 これにより、オンプレミス ネットワーク上の組織のデータベースと他のデータ ソースを維持したままで、オンプレミス データを Power BI のレポートとダッシュボードで安全に使用できます。
 
 ゲートウェイは、単一のデータ ソースにも複数のデータ ソースにも使用できます。 次の図は、ゲートウェイの基本的な動作を示しています。ここでは、3 台のプレミス コンピューターに対するクラウドからの要求を処理しています。 この記事の中で詳しく説明します。
 
