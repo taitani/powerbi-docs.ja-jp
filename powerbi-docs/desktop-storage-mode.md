@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop でストレージ モード (プレビュー) を使用する
+title: Power BI Desktop のストレージ モードを使用する
 description: ストレージ モードを使用して、Power BI Desktop でレポートのデータをメモリ内にキャッシュするかどうかを制御します
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279184"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555866"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop のストレージ モード (プレビュー)
+# <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop のストレージ モード
 
 Microsoft Power BI Desktop では、テーブルの*ストレージ モード*を指定することができます。 *ストレージ モード*では、Power BI Desktop でレポートのテーブル データをメモリ内にキャッシュするかどうかを制御することができます。 
 
@@ -37,11 +37,11 @@ Microsoft Power BI Desktop では、テーブルの*ストレージ モード*�
 
 Power BI Desktop のストレージ モード設定は、次の 3 つの関連機能の 1 つです。
 
-* **複合モデル**:DirectQuery 接続やインポートなど、2 つ以上のデータ接続を任意の組み合わせでレポートに含めることができます。 詳細については、「[Composite models in Power BI Desktop (preview)](desktop-composite-models.md)」 (Power BI Desktop の複合モデル (プレビュー)) を参照してください。
+* **複合モデル**:DirectQuery 接続やインポートなど、2 つ以上のデータ接続を任意の組み合わせでレポートに含めることができます。 詳細については、「[Power BI Desktop で複合モデルを使用する](desktop-composite-models.md)」を参照してください。
 
-* **多対多のリレーションシップ**:*複合モデル*では、テーブル間で*多対多のリレーションシップ*を確立することができます。 *多対多のリレーションシップ*では、テーブル内の一意の値の要件が除外されます。 また、リレーションシップを確立するためだけに新しいテーブルを導入するなどの以前の回避策も除外されます。 詳細については、「[Power BI Desktop での多対多のリレーションシップ (プレビュー)](desktop-many-to-many-relationships.md)」をご覧ください。
+* **多対多のリレーションシップ**:*複合モデル*では、テーブル間で*多対多のリレーションシップ*を確立することができます。 *多対多のリレーションシップ*では、テーブル内の一意の値の要件が除外されます。 また、リレーションシップを確立するためだけに新しいテーブルを導入するなどの以前の回避策も除外されます。 詳細については、「[Power BI Desktop での多対多カーディナリティのリレーションシップ](desktop-many-to-many-relationships.md)」を参照してください。
 
-* **ストレージ モード**:どのビジュアルでバックエンド データ ソースへのクエリを必要とするかを指定できるようになりました。 クエリを必要としないビジュアルは、それらが DirectQuery に基づいている場合でもインポートされます。 この機能はパフォーマンスの向上とバック エンドの負荷の軽減に役立ちます。 以前は、スライサーなどのシンプルなビジュアルでも、バックエンド ソースに送信されるクエリが開始されました。 ストレージ モードについては、この記事で詳しく説明します。
+* **ストレージ モード**:どのビジュアルでバックエンド データ ソースへのクエリが必要かを指定できるようになりました。 クエリを必要としないビジュアルは、それらが DirectQuery に基づいている場合でもインポートされます。 この機能はパフォーマンスの向上とバック エンドの負荷の軽減に役立ちます。 以前は、スライサーなどのシンプルなビジュアルでも、バックエンド ソースに送信されるクエリが開始されました。 ストレージ モードについては、この記事で詳しく説明します。
 
 ## <a name="use-the-storage-mode-property"></a>ストレージ モード プロパティを使用する
 
@@ -127,13 +127,13 @@ Power BI Desktop のストレージ モード設定は、次の 3 つの関連�
 ![ストレージ モード診断のスクリプト](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> キャッシュされたテーブルとキャッシュされていないテーブルを組み合わせた場合、この動作は、[Power BI Desktop の多対多のリレーションシップ (プレビュー)](desktop-many-to-many-relationships.md) とは異なります。
+> キャッシュされたテーブルとキャッシュされていないテーブルを組み合わせた場合、この動作は、[Power BI Desktop での多対多カーディナリティのリレーションシップ](desktop-many-to-many-relationships.md)とは異なります。
 
 ## <a name="caches-should-be-kept-in-sync"></a>キャッシュの同期状態を保つ
 
 前のセクションで示したクエリは、**デュアル** テーブルがキャッシュにヒットする場合と、しない場合があることを示しています。 そのため、キャッシュが古い場合、異なる値が返される可能性があります。 たとえば、キャッシュされた値と一致するように DirectQuery の結果をフィルター処理するなど、クエリを実行しても、データの問題は非表示になりません。 お客様がデータ フローを把握し、それに応じて設計する必要があります。 必要に応じて、ソースのそのようなケースを処理する手法が確立されています。
 
-*デュアル* ストレージ モードはパフォーマンスの最適化です。 ビジネス要件を満たすことができる条件を損なわない方法でのみ使用する必要があります。 他の動作については、「[Many-to-many relationships in Power BI Desktop (preview)](desktop-many-to-many-relationships.md)」 (Power BI Desktop の多対多のリレーションシップ (プレビュー)) という記事で説明されている手法を使用することを検討してください。
+*デュアル* ストレージ モードはパフォーマンスの最適化です。 ビジネス要件を満たすことができる条件を損なわない方法でのみ使用する必要があります。 他の動作については、「[Power BI Desktop での多対多カーディナリティのリレーションシップ](desktop-many-to-many-relationships.md)」の記事で説明されている手法を使用することを検討してください。
 
 ## <a name="data-view"></a>データ ビュー
 データセット内の少なくとも 1 つのテーブルの**ストレージ モード**が **[インポート]** または **[デュアル]** に設定されている場合、[データ ビュー] タブが表示されます。
@@ -162,7 +162,7 @@ DirectQuery を使用する際の既存の制限事項は、複合モデルを�
 ## <a name="next-steps"></a>次の手順
 
 複合モデルと DirectQuery について詳しくは、次の記事をご覧ください。
-* [Power BI Desktop の複合モデル (プレビュー)](desktop-composite-models.md)
-* [Power BI Desktop での多対多のリレーションシップ (プレビュー)](desktop-many-to-many-relationships.md)
+* [Power BI Desktop の複合モデル](desktop-composite-models.md)
+* [Power BI Desktop での多対多カーディナリティのリレーションシップ](desktop-many-to-many-relationships.md)
 * [Power BI で DirectQuery を使用する](desktop-directquery-about.md)
 * [Power BI の DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
