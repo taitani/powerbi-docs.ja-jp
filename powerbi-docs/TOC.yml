@@ -850,6 +850,8 @@ items:
         href: whitepaper-powerbi-security.md
       - name: Power BI Premium のデプロイ
         href: whitepaper-powerbi-premium-deployment.md
+      - name: Azure Active Directory B2B を使用して外部に Power BI を配布する
+        href: whitepaper-azure-b2b-power-bi.md
 - name: 開発者向け Power BI
   items:
   - name: Power BI の開発者向け機能
@@ -1254,7 +1256,7 @@ items:
         href: service-premium-large-datasets.md
       - name: 増分更新
         href: service-premium-incremental-refresh.md
-      - name: 複数の地域のサポート (プレビュー)
+      - name: Multi-Geo のサポート
         href: service-admin-premium-multi-geo.md
       - name: Power BI Premium のよく寄せられる質問
         href: service-premium-faq.md
@@ -1313,9 +1315,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: b6d9e25d9b4eb357038c5daa56df1b4d3f4d9e78
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 745db3e8002feaa9728a746167e585c62a4420a4
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014325"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580268"
