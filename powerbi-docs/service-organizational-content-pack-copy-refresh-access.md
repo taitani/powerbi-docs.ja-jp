@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296117"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196438"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>組織のコンテンツ パック: コピー、更新、およびアクセスの取得
 
@@ -36,6 +36,12 @@ ms.locfileid: "54296117"
 2. **[保存]** を選択します。  
 
 これで、変更可能なコピーができました。 他のユーザーが変更を確認することはありません。
+
+> [!NOTE]
+> 以前は、コンテンツ パックのインストールまたはコピーの作成を行うたびに、新しいデータセットがワークスペース コンテンツの一覧に表示されていました。 最近の更新により、次の新しい参照データセット アイコンを使用して、 1 つの項目だけを表示するように操作が簡略化されました。
+>
+> ![リンク付きデータベース アイコン](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
+> 
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>大変です。  コンテンツ パックにアクセスできなくなりました。
 これは、いくつかの理由で発生します。

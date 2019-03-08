@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 8fe48becd106a91c0a57d145eab4b546985e2ba6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324946"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226206"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Report Server での行レベルのセキュリティ (RLS)
 
@@ -48,7 +48,7 @@ Power BI Report Server にご自分のレポートを保存したら、サーバ
 1. Power BI Desktop で、Power BI Report Server にレポートを保存します。 Power BI Report Server 向けに最適化された Power BI Desktop のバージョンを使用する必要があります。
 2. Power BI Report Service で、レポートの横に表示されている省略記号 (**…**) を選択します。 
 
-3.  **[管理]** > **[行レベルのセキュリティ]** の順に選択します。 
+3. **[管理]** > **[行レベルのセキュリティ]** を選択します。 
 
      ![行レベルのセキュリティを管理する](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 

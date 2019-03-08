@@ -8,18 +8,18 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286684"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014463"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI マップの視覚エフェクトに関するヒントとテクニック
-Power BI は Bing マップと統合されており、既定のマップ座標 (ジオコーディングと呼ばれるプロセス) が提供されているため、マップを作成できます。 正しい位置を特定するアルゴリズムも使用されますが、それが最適な推測の場合もあります。 Power BI の試行でマップの視覚化が自動的に作成されない場合は、Bing マップの機能を利用してください。 
+Power BI は Bing マップと統合されており、既定のマップ座標 (ジオコーディングと呼ばれるプロセス) が提供されているため、マップを作成できます。 正しい位置を特定するアルゴリズムも使用されますが、それが最適な推測の場合もあります。 Power BI を使用してもマップの視覚化が自動的に作成されない場合は、Bing マップの機能を利用してください。 
 
 ユーザーまたは管理者は、Bing がジオコーディングに使う URL へのアクセスを許可するように、ファイアウォールを更新することが必要な場合があります。  以下の URL です。
 * https://dev.virtualearth.net/REST/V1/Locations
@@ -31,8 +31,8 @@ Power BI は Bing マップと統合されており、既定のマップ座標 (
 ## <a name="what-is-sent-to-bing-maps"></a>Bing マップへの送信内容
 Power BI サービスと Power BI Desktop は、マップの視覚化を作成する必要がある地理データを Bing に送信します。 **[場所]**、**[緯度]**、**[経度]** バケットのデータ、**レポート レベル**、**ページ レベル**、**ビジュアル レベル** フィルター バケットの地理フィールドなどがあります。 厳密な送信内容はマップの種類によって異なります。 詳細については、「[Microsoft のプライバシーに関する声明](https://go.microsoft.com/fwlink/?LinkID=248686)」を参照してください。
 
-* マップ (バブル マップ) の場合、緯度と経度が指定される場合、何のデータも Bing に送信されません。 指定されない場合、場所バケット (とフィルター バケット) のデータが Bing に送信されます。     
-* 塗り分け地図を作成するには、緯度と経度が指定されている場合でも、場所バケットにフィールドが必要です。 場所バケット、緯度バケット、経度バケットにどのようなデータがある場合でも、Bing に送信されます。
+* マップ (バブル マップ) で、緯度と経度が指定される場合、何のデータも Bing に送信されません。 指定されない場合、**[場所]** バケット (と フィルター バケット) のデータが Bing に送信されます。     
+* 塗り分け地図を作成するには、緯度と経度が指定されている場合でも、**[場所]** バケットにフィールドが必要です。 **[場所]** バケット、**[緯度]** バケット、**[経度]** バケットにどのようなデータがある場合でも、Bing に送信されます。
   
     下の例では、**[Vendor]\(ベンダー\)** フィールドがジオコーディングに使用されています。そのため、すべてのベンダー データが Bing に送信されます。 **[サイズ]** バケットと **[色の彩度]** バケットのデータは Bing に送信されません。
   

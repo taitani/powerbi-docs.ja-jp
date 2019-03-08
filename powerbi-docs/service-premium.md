@@ -8,19 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/15/2019
+ms.date: 02/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: a048f589b19acd1a7c38a5b81cf781d1e76b7b5b
-ms.sourcegitcommit: 187d20180d9bae5a2ec53748cede9e7301e0343e
+ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "56725342"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226137"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium とは何ですか?
 
-Microsoft Power BI Premium には、組織が Power BI サービスを実行するための専用のリソースが用意されています。 より信頼できるパフォーマンスが提供され、より大きなデータ ボリュームを利用できます。 また、Premium ではコンテンツを広範囲に配布でき、コンテンツ コンシューマーに対してユーザーごとの Pro ライセンスを購入する必要はありません。  
+> [!NOTE]
+> この記事は、新機能の説明、詳細の追記、読みやすさの向上を目的として、現在更新が行われています。 最新情報については、[Power BI Premium 容量の展開と管理](whitepaper-powerbi-premium-deployment.md)をご覧ください。
+
+Power BI Premium には、組織で Power BI サービスを実行するための専用のリソースが用意されています。 より信頼できるパフォーマンスが提供され、より大きなデータ ボリュームを利用できます。 また、Premium ではコンテンツを広範囲に配布でき、コンテンツ コンシューマーに対してユーザーごとの Pro ライセンスを購入する必要はありません。  
 
 ## <a name="premium-capacity-and-shared-capacity"></a>Premium 容量と共有された容量
 
@@ -61,7 +64,7 @@ Power BI Premium は、さまざまな v コア容量を含むノード構成で
 
 * P ノードは、埋め込み展開またはサービス展開で使用できます。
 
-* EM ノードは、埋め込み展開でのみ使用できます。 EM ノードは、power BI Pro ライセンスを持っていないユーザーにアプリを共有するなど、プレミアム機能にアクセスできません。
+* EM ノードは、埋め込み展開でのみ使用できます。 EM ノードは、Power BI Pro ライセンスを持っていないユーザーにアプリを共有するなどの、プレミアム機能にはアクセスできません。
 
 | 容量ノード | 合計 v コア数<br/>*(バックエンド + フロントエンド)*  | バックエンド V コア数 <sup>[1](#fn1)</sup> | フロントエンド V コア数 <sup>[2](#fn2)</sup> | DirectQuery/ライブ接続の制限 | 最大同時更新 |  使用できるかどうか
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -79,9 +82,7 @@ Power BI Premium は、さまざまな v コア容量を含むノード構成で
 
 ## <a name="workloads-in-premium-capacity"></a>Premium の容量内のワークロード
 
-Power BI におけるワークロードを、ユーザーに公開可能な多数のサービスのうちの 1 つとして考えてみましょう。 既定では、**Power BI Premium** と **Power BI Embedded** の容量でサポートされるのは、クラウド内で実行中の Power BI クエリに関連付けられているワークロードのみです。
-
-現在では、2 つの追加ワークロード(**ページ分割されたレポート**および**データフロー**) に対応したプレビュー版サポートが用意されています。 これらのワークロードを Power BI 管理ポータルで、または Power BI REST API を使用して有効にします。 また、各ワークロードで使用できる最大メモリを設定するので、異なるワークロードが相互に及ぼす影響を制御できます。 詳細については、「[ワークロードを構成する](service-admin-premium-manage.md#configure-workloads)」を参照してください。
+既定では、**Power BI Premium** と **Power BI Embedded** の容量でサポートされるのは、クラウド内で実行中の Power BI クエリに関連付けられているワークロードのみです。 また、Premium は、**AI**、**データフロー**、**ページ分割されたレポート**に対する追加のワークロードをサポートします。 これらのワークロードを Power BI 管理ポータルで、または Power BI REST API を使用して有効にします。 また、各ワークロードで使用できる最大メモリを設定するので、異なるワークロードが相互に及ぼす影響を制御できます。 詳細については、[ワークロードを構成する](service-admin-premium-workloads.md)をご覧ください。
 
 ### <a name="default-memory-settings"></a>既定のメモリ設定
 
@@ -114,10 +115,10 @@ Power BI Premium には、組織内で Power BI Report Server をオンプレミ
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI Premium のよく寄せられる質問](service-premium-faq.md)
-[Power BI Pro の購入方法](service-admin-premium-purchase.md)
-[Power BI Premium の管理](service-admin-premium-manage.md)
-[Microsoft Power BI Premium のホワイトペーパー](https://aka.ms/pbipremiumwhitepaper)
-[Power BI のエンタープライズ展開の計画に関するホワイト ペーパー](https://aka.ms/pbienterprisedeploy)
+[Power BI Premium 容量の展開と管理](whitepaper-powerbi-premium-deployment.md)   
+[Power BI Premium の購入方法](service-admin-premium-purchase.md)   
+[Power BI Premium のよく寄せられる質問](service-premium-faq.md)   
+
+
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

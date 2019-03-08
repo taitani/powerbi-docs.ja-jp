@@ -1,5 +1,5 @@
 ---
-title: Azure Consumption Insights データへの接続 (ベータ版)
+title: Power BI Desktop から Azure のコストと使用状況に接続する
 description: Power BI Desktop を使用して、Azure に簡単に接続し、使用状況を把握できます
 author: davidiseminger
 manager: kfile
@@ -11,21 +11,27 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1302ede9c28cc42b3605e55705f07620f2974990
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216058"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327989"
 ---
-# <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop での Azure Consumption Insights への接続 (Beda)
-**Azure Consumption Insights** コネクタを使用すれば、**Power BI Desktop** で Azure に接続して、組織における Azure サービスの使用状況に関する詳細なデータと情報を得ることができます。 また、メジャー、カスタム列、およびビジュアルを作成して、組織での Azure の使用状況についてレポートを作成し、共有することができます。 このリリースの **Azure Consumption Insights** コネクタはベータ版であり、変更される可能性があります。
+# <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop で Azure のコストと使用状況のデータを分析する
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01.png)
+Power BI Desktop で Azure に接続し、組織の Azure サービスの使用状況に関する詳細なデータを取得することができます。 これを使用して、カスタム レポートとカスタム メジャーを作成し、Azure 使用状況の把握と分析をさらに適切に行うことができます。
 
-この記事では、**Azure Consumption Insights** コネクタを使用して接続し、必要なデータを取得する方法と、Azure Enterprise Connector の使用からの移行方法について説明します。また、**ACI** (Azure Consumption Insights) API で使用可能な*使用状況の詳細列* のマッピングについても説明します。
+Power BI は現在、Enterprise Agreement および Customer Agreement の請求先アカウントへの接続をサポートしています。
 
-## <a name="connect-to-azure-consumption-insights"></a>Azure Consumption Insights への接続
+Enterprise Agreement ユーザーは、Azure Consumption Insights コネクタに接続する必要があります。 Customer Agreement アカウント ユーザーは、Azure Cost Management コネクタに接続する必要があります。
+
+## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights に接続する
+
+Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請求先アカウントに接続できます。
+
+このセクションでは、接続して必要なデータを取得する方法と、Azure Enterprise Connector の使用からの移行方法について説明します。また、**ACI** (Azure Consumption Insights) API で使用可能な "*使用状況の詳細列*" のマッピングについても説明します。
+
 **Azure Consumption Insights** コネクタを使用して正常に接続するには、Azure Portal 内の Enterprise 機能にアクセスする必要があります。
 
 **Azure Consumption Insights** コネクタを使用して接続するには、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得]** を選択します。 左側のカテゴリから **[オンライン サービス]** を選択すると、**[Microsoft Azure Consumption Insights (Beta)]** が表示されます。 **[接続]** を選択します。
@@ -70,7 +76,7 @@ ms.locfileid: "56216058"
 > 
 > 
 
-**[読み込み]** を選択すると、**Power BI Desktop** にデータが読み込まれます。  コネクタは、テーブルの既定の期間に応じてデータを読み込みます。  期間をカスタマイズする必要がある場合は、[カスタム クエリを設定することができます](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights)。
+**[読み込み]** を選択すると、**Power BI Desktop** にデータが読み込まれます。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -201,6 +207,71 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 | 年 | |年 |いいえ |
 | SubscriptionId |subscriptionId |SubscriptionId |はい |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |いいえ |
+
+## <a name="connect-with-azure-cost-management"></a>Azure Cost Management に接続する
+
+このセクションでは、Customer Agreement 請求先アカウントに接続する方法を説明します。
+
+**Azure Cost Management** コネクタを使用して接続するには、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得]** を選択します。  左側のカテゴリから **[Azure]** を選ぶと、**[Azure Cost Management (Beta)]** が表示されます。 **[接続]** を選択します。
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
+
+表示されるダイアログ ボックスで、*課金プロファイル ID* を入力します。
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
+
+課金プロファイル ID は [Azure portal](https://portal.azure.com) から取得できます。  **[コストの管理と課金]** に移動して、請求先アカウントを選択してから、サイドバーの **[Biling profiles]\(課金プロファイル\)** を選択します。  課金プロファイルを選んでから、サイドバーの **[プロパティ]** を選択します。  課金プロファイル ID をコピーします。
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
+
+Azure のメール アドレスとパスワードでログインするように求められます。  認証すると、**[ナビゲーター]** ウィンドウが開き、使用可能な12 個のテーブルが表示されます。
+
+* **Billing events**:新しい請求書やクレジットでの購入などのイベント ログが提供されます。
+* **Budgets**:既存の予算目標に対する実際のコストや使用状況を表示するための予算の詳細が提供されます。 
+* **Charges**:Azure の使用状況、マーケットプレイスの料金、および別請求の料金についての月レベルの概要が提供されます。
+* **Credit lots**:指定された課金プロファイルの Azure クレジット ロット購入の詳細が提供されます。
+* **Credit summary**:指定された課金プロファイルのクレジットの概要が提供されます。
+* **Marketplace**:使用状況に基づく Azure Marketplace の料金が提供されます。
+* **PriceSheets**:指定された課金プロファイルに対する、メーター別の適用可能レートが提供されます。
+* **RI charges**:過去 24 か月の間の予約インスタンスに関連付けられている料金が提供されます。
+* **RI recommendations (single)**:過去 7 日、30 日、または 60 日の間の 1 つのサブスクリプション上での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
+* **RI recommendations (shared)**:過去 7 日、30 日、または 60 日の間のすべてのサブスクリプション上での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
+* **RI usage**:過去 1 か月の間の既存の予約インスタンスの消費に関する詳細が提供されます。
+* **Usage details**:指定した課金プロファイル ID の消費量と見積もり料金の内訳が提供されます。
+
+テーブルの横にあるチェック ボックスをオンにすれば、プレビューを表示できます。  1 つ以上のテーブルを選択するには、名前の横のチェック ボックスをオンにして **[読み込み]** を選択します。
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-03.png)
+
+**[読み込み]** を選択すると、**Power BI Desktop** にデータが読み込まれます。
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+
+選択したデータが読み込まれると、選択したテーブルとフィールドが **[フィールド]** ウィンドウに表示されます。
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
+
+## <a name="writing-custom-queries"></a>カスタム クエリの作成
+
+月数をカスタマイズしたり、API バージョンを変更したり、返されたデータに対してさらに高度なロジックを実行したりする場合は、カスタム M クエリを作成できます。
+
+**Power BI Desktop** の **[ホーム]** リボンに移動し、**[データの取得]** のドロップダウンを選択してから **[空のクエリ]** を選択します。  また、**クエリ エディター**の左側の **[クエリ]** ウィンドウで右クリックし、表示されるメニューから **[新しいクエリ]、[Blank Menu]\(空のメニュー\)** の順に選択することもできます。
+
+**数式バー**に、次の式を入力します。`billingProfileId` は実際の ID に置き換え、"charges" は任意の有効なテーブル名 (上記の一覧) に置き換えます。
+
+```
+let
+    Source = AzureCostManagement.Tables(billingProfileId, [ numberOfMonths = 3 ]),
+    charges = Source{[Key="charges"]}[Data]
+in
+    charges
+```
+
+`numberOfMonths` を 1 から 36 までの任意の値に変更するだけでなく、次の指定もできます。
+
+* `apiVersion`: クエリが呼び出す API のバージョンをカスタマイズします。
+* `lookbackWindow`: RI recommendations (single または shared) に対して、推奨事項を生成する期間を変更します (有効なオプション:7 日、30 日、または 60 日)。
+
 
 ## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。

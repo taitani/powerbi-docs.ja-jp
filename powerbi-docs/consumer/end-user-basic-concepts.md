@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 994645f2ca52c992b8d61590bc02d9f9f63891ce
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: db9f6218d0657946f04b7589a15be99270cf7030
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662262"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196461"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI サービス ***コンシューマー***の基本的な概念
 
@@ -88,6 +88,10 @@ _______________________________________________________
 * その 1 つのデータセットからの視覚エフェクトを、多くのさまざまなダッシュボードで表示できます
   
   ![データセット M:1 のリレーションシップ](media/end-user-basic-concepts/drawing2.png)
+
+さらに、他のワークスペースのデータセットを使用して、自分のワークスペースにコンテンツ (レポート、ダッシュ ボード) を作成できます。 こうしたデータセットを表示するには、次の参照データセット アイコンを使用します。 
+
+![リンク付きデータベース アイコン](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 次の文書パーツ「視覚化」に進みます。
 __________________________________________________________

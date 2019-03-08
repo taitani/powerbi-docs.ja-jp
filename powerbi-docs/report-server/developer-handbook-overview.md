@@ -2,34 +2,38 @@
 title: 開発者向けハンドブックの概要、Power BI レポート サーバー
 description: Power BI レポート サーバーの開発者向けハンドブックへようこそ。Power BI レポート サーバーは、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: e981da28a70490d14bca2fa026f6428020d10ae7
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794721"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327897"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>開発者向けハンドブックの概要、Power BI レポート サーバー
+
 Power BI レポート サーバーの開発者向けハンドブックへようこそ。Power BI レポート サーバーは、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。
 
-![](media/developer-handbook-overview/admin-handbook.png)
+![管理者向けハンドブック](media/developer-handbook-overview/admin-handbook.png)
 
 このハンドブックでは、開発者として Power BI Report Server を使用するためのオプションについて主に説明します。
 
 ## <a name="embedding"></a>埋め込み
+
 クエリ文字列パラメーター `?rs:Embed=true` を URL に追加することで、Power BI レポート サーバー内の任意のレポートを iFrame 内に埋め込むことができます。 この手法は、Power BI レポートと、その他のレポートの種類でも機能します。
 
 ### <a name="report-viewer-control"></a>レポート ビューアー コントロール
+
 ページ分割されたレポートには、レポート ビューアー コントロールが利用できます。 これにより、.NET Windows 内または Web アプリケーション内にコントロールを配置できます。 詳細については、「[Get started with the Report Viewer Control](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)」 (レポート ビューアー コントロールを使ってみる) を参照してください。
 
 ## <a name="apis"></a>API
+
 Power BI レポート サーバーと対話する複数の API オプションがあります。 この手法には次のものが含まれます。
 
 * [REST API](rest-api.md)
@@ -40,10 +44,9 @@ Power BI レポート サーバーと対話する複数の API オプション�
 
 > [!NOTE]
 > 現在、PowerShell ユーティリティでは、Power BI Desktop ファイル (.pbix) はサポートされていません。
-> 
-> 
 
 ## <a name="custom-extensions"></a>カスタム拡張機能
+
 拡張ライブラリは、Power BI レポート サーバーに含まれるクラス、インターフェイス、および値型のセットです。 このライブラリは、システム機能へのアクセスを提供し、Microsoft .NET Framework アプリケーションを使用して Power BI レポート サーバー コンポーネントを拡張するための基盤となるように設計されています。
 
 構築可能な拡張機能には複数の種類があります。
@@ -56,6 +59,7 @@ Power BI レポート サーバーと対話する複数の API オプション�
 拡張ライブラリの詳細については、[こちら](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)を参照してください。
 
 ## <a name="next-steps"></a>次の手順
+
 [レポート ビューアー コントロールを使ってみる](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
 [Web サービスと .NET Framework を使用してアプリケーションを構築する](https://docs.microsoft.com/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
 [URL アクセス](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)  
@@ -63,4 +67,3 @@ Power BI レポート サーバーと対話する複数の API オプション�
 [WMI プロバイダー](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-
