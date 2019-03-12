@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
-ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
+ms.openlocfilehash: f22cac734d98e98cd17a915c09d6705e2cad121a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57196438"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580061"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>組織のコンテンツ パック: コピー、更新、およびアクセスの取得
 
@@ -25,13 +25,13 @@ ms.locfileid: "57196438"
 
 > [!NOTE]
 > 新しいワークスペース エクスペリエンス プレビューでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
-> 
+>
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>組織のコンテンツ パックのコピーを作成する
 他のユーザーは見ることができない、コンテンツ パックの自分専用のコピーを作成します。
 
 1. コンテンツ パック ダッシュボードの横にある省略記号 ([...]) を選択し、[コピーの作成] を選択します。
-   
+
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. **[保存]** を選択します。  
 
@@ -41,7 +41,7 @@ ms.locfileid: "57196438"
 > 以前は、コンテンツ パックのインストールまたはコピーの作成を行うたびに、新しいデータセットがワークスペース コンテンツの一覧に表示されていました。 最近の更新により、次の新しい参照データセット アイコンを使用して、 1 つの項目だけを表示するように操作が簡略化されました。
 >
 > ![リンク付きデータベース アイコン](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
-> 
+>
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>大変です。  コンテンツ パックにアクセスできなくなりました。
 これは、いくつかの理由で発生します。
@@ -51,7 +51,7 @@ ms.locfileid: "57196438"
 * **セキュリティ設定の変更**:ダッシュボードとレポートがオンプレミスの SSAS のデータ ソースに接続している場合に、セキュリティの設定を変更すると、そのサーバーへのアクセス許可が取り消される可能性があります。
 
 ## <a name="how-are-organizational-content-packs-refreshed"></a>組織のコンテンツ パックの更新方法
-コンテンツ パックの作成時には、更新設定がデータセットと一緒に継承されます。  コンテンツ パックのコピーを作成しても、新しいバージョンでは、元のデータセットへのリンクおよびその更新スケジュールが保持されます。 
+コンテンツ パックの作成時には、更新設定がデータセットと一緒に継承されます。  コンテンツ パックのコピーを作成しても、新しいバージョンでは、元のデータセットへのリンクおよびその更新スケジュールが保持されます。
 
 「[組織のコンテンツ パックを管理、更新、削除する](service-organizational-content-pack-manage-update-delete.md)」を参照してください。
 
@@ -59,4 +59,3 @@ ms.locfileid: "57196438"
 * [組織のコンテンツ パックの概要](service-organizational-content-pack-introduction.md)
 * [Power BI でのグループの作成](service-create-distribute-apps.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

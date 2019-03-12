@@ -1,20 +1,20 @@
 ---
 title: Power BI カスタム ビジュアルへの書式設定オプションの追加
 description: Power BI カスタム ビジュアルの書式オプションの開発方法に関するチュートリアル
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 56247275d39c3feb978a8ec38841c7f69de8787a
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
+ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226183"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "57695152"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>チュートリアル:Power BI カスタム ビジュアルへの書式設定オプションの追加
 
