@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a4f10253619393ffd9807b1e33730a4dd37a47ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277390"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580245"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>同僚や他のユーザーと自分の Power BI ダッシュボードやレポートを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の異なる方法でダッシュボードでの共同作業を行ったり、ダッシュボードやレポートを配布](service-how-to-collaborate-distribute-dashboards-reports.md)したりできます。
@@ -98,13 +98,15 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
 
 サインインした後は、通常の Power BI ポータルではなく、左側にナビゲーション ウィンドウのない専用のブラウザー ウィンドウに、共有されたダッシュボードまたはレポートが表示されます。 後でこのダッシュボードまたはレポートにアクセスできるようにするには、このリンクをブックマークする必要があります。
 
-共有相手は、このダッシュボードまたはレポートのコンテンツを編集できません。 共有相手はグラフを操作して、レポートのフィルターやスライサーを変更できますが、その変更を保存することはできません。
+共有相手は、このダッシュボードまたはレポートのコンテンツを編集できません。 共有相手はグラフを操作して、レポートのフィルターやスライサーを変更できますが、その変更を保存することはできません。 
 
 共有されたダッシュボードまたはレポートを表示できるのは、直接の共有相手だけです。 たとえば、Vicki@contoso.com にメールを送信した場合、ダッシュボードを見ることができるのは Vicki だけです。 他のユーザーは、たとえリンクを受け取っても、ダッシュボードを表示できません。また、Vicki は、同じ電子メール アドレスを使ってダッシュボードにアクセスする必要があります。 他の電子メール アドレスでサインアップした場合は、ダッシュボードにアクセスできません。
 
 オンプレミスの Analysis Services の表形式モデルでロール レベルまたは行レベルのセキュリティが実装されている場合、組織外のユーザーはデータを何も表示できません。
 
 Power BI モバイル アプリから組織外のユーザーにリンクを送信した場合、ユーザーがリンクをクリックすると、ダッシュボードは Power BI モバイル アプリではなくブラウザーで開きます。
+
+[[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]](service-admin-portal.md#export-and-sharing-settings) を使用してゲスト ユーザーが有効になっている場合、既定の "使用のみ" のエクスペリエンスは適用されません。 [詳細情報](service-admin-azure-ad-b2b.md)
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 ダッシュボードとレポートの共有について留意すべき事項:

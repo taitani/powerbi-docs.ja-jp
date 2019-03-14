@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555951"
+---
 Power BI では、まったく異なるデータ ソースから取得したテーブルなど、複数のテーブル間にリレーションシップを作成することができます。 任意のデータ モデルにおけるこのようなリレーションシップは、Power BI Desktop の **[リレーションシップ]** ビューで確認できます。
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_1.png)
@@ -7,7 +15,7 @@ DAX には、リレーションシップが確立されたテーブルと対話�
 
 DAX 関数を使用して、列の値を返したり、リレーションシップを保っているすべての行を返したりすることができます。
 
-たとえば、**TABLE** 関数は、リレーションシップに従って列の値を返します。**RELATEDTABLE** 関数は、リレーションシップに従い、関連する行のみを含むようにフィルター処理されたテーブル全体を返します。
+たとえば、**RELATED** 関数は、リレーションシップに従って列の値を返します。**RELATEDTABLE** は、リレーションシップに従い、関連する行のみを含むようにフィルター処理されたテーブル全体を返します。
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_2.png)
 

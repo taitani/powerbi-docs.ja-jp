@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/09/2019
+ms.date: 03/07/2019
 ms.author: maggies
-ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5af870bfd3cb6f9c925dd3d6268d0a1cb54df09b
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295817"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580015"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
@@ -28,8 +28,8 @@ ms.locfileid: "54295817"
 | [Power BI Premium による埋め込み分析のための容量を分析する](https://aka.ms/pbiewhitepaper) |この白書は、アプリ開発者/ISV がそのビジネスに最適な容量を決定するための指針を提供します。 | 2017 年 10 月 |
 | [Power BI のエンタープライズ展開の計画](https://go.microsoft.com/fwlink/?linkid=2057861) |これは、組織で効果的かつ安全に Power BI を展開するための考慮事項をまとめた技術白書です。 | 2018 年 7 月 |
 | [Power BI Report Server のキャパシティ プランニング ガイダンス](report-server/capacity-planning.md) |このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 | 2018 年 3 月 |
-| [セキュリティ](service-admin-power-bi-security.md) |Power BI でのセキュリティについて詳細に説明します。 | 2018 年 7 月 |
-| [Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](https://aka.ms/powerbi-b2b-whitepaper)|このホワイト ペーパーでは、Azure Active Directory Business-to-business (AAD B2B) の統合を使用して組織外のユーザーにコンテンツを配布する方法について説明します。| 2018 年 3 月 |
+| [セキュリティ](service-admin-power-bi-security.md) |Power BI でのセキュリティについて詳細に説明します。 | 2019 年 3 月 |
+| [Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](whitepaper-azure-b2b-power-bi.md)|このホワイト ペーパーでは、Azure Active Directory Business-to-business (AAD B2B) の統合を使用して組織外のユーザーにコンテンツを配布する方法について説明します。| 2018 年 3 月 |
 | [Power BI を使用した高度な分析](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |予測分析、カスタム視覚化、R の統合、データ分析式などの、Power BI の高度な分析機能について説明します。 | 2017 年 2 月 |
 | [レポートとビジュアルのデザインに関するベスト プラクティス](visuals/power-bi-visualization-best-practices.md) |Power BI でレポートをデザインするためのベスト プラクティスを示します。 | 2018 年 6 月 |
 | [双方向フィルタリング](desktop-bidirectional-filtering.md) |Power BI Desktop での双方向のクロス フィルタリングについて説明します (同じ動作の SQL Server Analysis Services 2016 についても説明されています)。 | 2018 年 7 月 |

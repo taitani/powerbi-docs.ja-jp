@@ -1,30 +1,34 @@
 ---
-title: 追加購入が必要になる場合がある - Power BI ビジュアルのガイドライン
+title: Power BI ビジュアルのガイドライン
 description: AppSource にカスタム ビジュアルを発行して、それを他のユーザーが見つけたり、購入して使用できるようにする方法について説明します。
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.openlocfilehash: 92d4320026164e523297cbe48ee87ce33d9ab2f7
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.date: 03/10/2019
+ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826585"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757302"
 ---
-# <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Power BI ビジュアルの追加購入のガイドライン
+# <a name="guidelines-for-power-bi-visuals"></a>Power BI ビジュアルのガイドライン
 
-最近まで、Marketplace (AppSource) では、無料の Power BI ビジュアルのみが受け付けられていました。 このポリシーが変更され、"追加購入が必要になる場合があります" の価格タグが付いているビジュアルも AppSource に送信できるようになりました。 
+## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Power BI ビジュアルの追加購入のガイドライン
+
+最近まで、Marketplace (AppSource) では、無料の Power BI ビジュアルのみが受け付けられていました。 このポリシーが変更され (2018 年 12 月)、"追加購入が必要になる場合があります" の価格タグが付いているビジュアルも AppSource に送信できるようになりました。 
 
 "追加購入が必要になる場合がある" ビジュアルは、Office ストアのアプリ内購入 (IAP) アドインと似ています。 開発者はこれらのビジュアルを、AppSource チームの承認後、認定の要件に準拠していることを確認してから、認定のために送信することも可能です。 要件の詳細については、「[認定済みカスタム ビジュアル](../power-bi-custom-visuals-certified.md)」をご覧ください。
 
 > [!NOTE]
-> * ビジュアルが認定されるには、外部サービスやリソースにはアクセスしないようにする必要があります。
-> * すべての無料ビジュアルでは、以前に提供していたものと同じ無料の機能を保持する必要があります。 既存の無料機能に加えて、オプションの高度な有料機能を追加できます。 高度な機能を備えた IAP ビジュアルは新しいビジュアルとして送信し、既存の無料のものを更新しないようにすることをお勧めします。
+> ビジュアルが認定されるには、外部サービスやリソースにはアクセスしないようにする必要があります。
+
+>[!IMPORTANT]  
+> ビジュアルを無料から "追加購入が必要になる場合があります" に更新する場合、ユーザーは、更新前に同じレベルの無料の機能を受け取る必要があります。 既存の無料機能に加えて、オプションの高度な有料機能を追加できます。 高度な機能を備えた IAP ビジュアルは新しいビジュアルとして送信し、既存の無料のものを更新しないようにすることをお勧めします。
 
 
 ## <a name="what-changed-in-the-submission-process"></a>送信プロセスの変更点
@@ -33,19 +37,19 @@ ms.locfileid: "56826585"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP 機能のある Power BI ビジュアルとは
 
-IAP ビジュアルは無料の機能を提供する無料のビジュアルです。 これは、操作するために追加料金が適用される場合がある、いくつかの高度な機能も持っています。 開発者は、ビジュアルの説明で、操作のために追加購入が必要となる機能についてユーザーに通知する必要があります。 現在、Microsoft は、アプリおよびアドインの購入をサポートするためのネイティブ API を提供していません。
+IAP ビジュアルは**無料の機能**を提供する**無料の**ビジュアルです。 これは、操作するために追加料金が適用される場合がある、いくつかの高度な機能も持っています。 開発者は、ビジュアルの説明で、操作のために追加購入が必要となる機能についてユーザーに通知する必要があります。 現在、Microsoft は、アプリおよびアドインの購入をサポートするためのネイティブ API を提供していません。
 
 開発者は、これらの購入に対し、任意のサードパーティ製の支払いシステムを使うことができます。 詳細については、[ストアのポリシー](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)に関する記事をご覧ください。
 
 > [!NOTE]
-> 無料機能では透かしを使用できません。 有効なライセンスなしで高度な有料機能を使った場合、開発者にポップアップ ウィンドウまたは透かしが表示されます。  
+> 無料の機能または無料のビジュアルでは、透かしを使用できません。 透かしは、有効なライセンスなしに使用される有料の機能でのみ使用できます。 有効なライセンスなしに高度な有料機能が使用される場合は、すべてのライセンス関連情報を含むポップアップ ウィンドウを表示することをお勧めします。  
 
 ## <a name="logo-guidelines"></a>ロゴのガイドライン
 
 このセクションでは、ロゴをビジュアルに追加するための仕様について説明します。
 
-> [!NOTE]
-> ロゴは編集モードでのみ許可されています。 ロゴはビュー モードでは表示できません。
+> [!IMPORTANT]
+> ロゴは**編集モードでのみ**許可されます。 ロゴはビュー モードでは表示**できません**。
 
 ![定義](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
 

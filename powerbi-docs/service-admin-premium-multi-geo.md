@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium の Multi-Geo のサポート (プレビュー)
+title: Power BI Premium の Multi-Geo のサポート
 description: Power BI テナントのホーム リージョン以外のリージョンにあるデータセンターにコンテンツを展開する方法について説明します。
 author: minewiskan
 ms.author: owend
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bdbcb949ffe29efc4170391774da0863568e97e8
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794677"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57571981"
 ---
-# <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium の Multi-Geo のサポート (プレビュー)
+# <a name="multi-geo-support-for-power-bi-premium"></a>Power BI Premium の Multi-Geo のサポート
 
 Multi-Geo は、多国籍企業のお客様が、リージョン、業界固有、または組織のデータの配置場所に関する要件に対応するために役立つ Power BI Premium の機能です。 Power BI Premium をご利用の場合、Power BI テナントのホーム リージョン以外のリージョンにあるデータセンターにコンテンツを展開できます。 geo (地域) には、複数のリージョンが含まれる可能性があります。 たとえば、米国は geo であり、米国中西部と米国中南部は米国のリージョンです。 次のいずれかのリージョンにコンテンツを展開することができます。
 
@@ -33,7 +33,7 @@ Multi-Geo は、多国籍企業のお客様が、リージョン、業界固有�
 
 Multi-Geo は、Power BI Germany、21Vianet が運営する Power BI China、または米国政府向け Power BI では使用できません。
 
-Multi-Geo は、Power BI Embedded でも使用できるようになりました。 詳細については、「[Power BI Embedded の Multi-Geo のサポート (プレビュー)](developer/embedded-multi-geo.md)」をご覧ください。
+Multi-Geo は、Power BI Embedded でも使用できるようになりました。 詳細については、「[Power BI Embedded の Multi-Geo のサポート](developer/embedded-multi-geo.md)」をご覧ください。
 
 ## <a name="using-multi-geo"></a>Multi-Geo を使用する
 

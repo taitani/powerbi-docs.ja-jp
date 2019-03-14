@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555925"
+---
 **DAX** と Excel の数式言語の間には大きな違いがあります。それは、DAX の場合、式の間での受け渡しの対象が単一の値に制約されるのでなく、*テーブル全体*を受け渡しできるということです。 強力な機能として、DAX では、式内でテーブルをフィルター処理し、フィルター処理された値セットを使用できることが挙げられます。
 
 ![](media/7-6-dax-tables-and-filtering/dax-tables-filtering_1.png)

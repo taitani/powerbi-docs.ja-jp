@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 03/11/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5b9bec67fef672d219b11bf3b3750959e72410b6
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 0baab138ee98d2ec96bc9f47e6e727525a57ed3e
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226068"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757248"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium 容量でワークロードを構成する
 
@@ -23,7 +23,7 @@ ms.locfileid: "57226068"
 
 ## <a name="configure-workloads"></a>ワークロードを構成する
 
-[データフロー](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)と[ページ分割されたレポート](paginated-reports-save-to-power-bi-service.md)に対する追加のワークロードの有効化と構成を行うことができます。 これらのワークロードの既定のメモリの値は、SKU で使用可能な容量ノードに基づきます。 最大メモリの設定は、累積ではありません。 指定された最大値までのメモリは、データフローには動的に割り当てられますが、ページ分割されたレポートには静的に割り当てられます。 
+AI、[データフロー](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)、および[ページ分割されたレポート](paginated-reports-save-to-power-bi-service.md)に対する追加のワークロードの有効化と構成を行うことができます。 これらのワークロードの既定のメモリの値は、SKU で使用可能な容量ノードに基づきます。 最大メモリの設定は、累積ではありません。 指定された最大値までのメモリは、AI とデータフローには動的に割り当てられますが、ページ分割されたレポートには静的に割り当てられます。 
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>Power BI 管理ポータルでワークロードを構成するには
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014647"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757348"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -192,6 +192,13 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 ![レポートを印刷する](media/service-admin-portal/powerbi-admin-print-report.png)
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する
+Azure B2B ゲスト ユーザーは、組織内のコンテンツの編集および管理できます。 [詳細情報](service-admin-azure-ad-b2b.md)
+
+次の図は、[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する] オプションを示しています。
+
+![外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
 ## <a name="content-pack-and-app-settings"></a>コンテンツ パックとアプリの設定
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>コンテンツ パックとアプリを組織全体に発行する
@@ -243,10 +250,45 @@ AppSource からのインストールを要求することなく、ユーザー�
 > [!NOTE]
 > この設定は組織全体に適用するか、特定のグループに限定することができます。
 
+
+Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポリシー**を使用して、組織内に配置されているコンピューター間でカスタム ビジュアルの使用を無効にすることができます。
+
+<table>
+<tr><th>属性</th><th>値</th>
+</tr>
+<td>キー</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableCustomVisuals</td>
+</tr>
+</table>
+
+値が 1 (10 進数) の場合は、Power BI でカスタム ビジュアルの使用が有効になります (既定)。
+
+値が 0 (10 進数) の場合は、Power BI でカスタム ビジュアルの使用が無効になります。
+
 ### <a name="allow-only-certified-visuals"></a>認定済みビジュアルのみを許可する
 
 カスタム ビジュアルを追加し、使用する許可が与えられた組織のユーザー ([カスタム視覚化の追加と使用] 設定に示されています) は、[認定済みのカスタム ビジュアル](https://go.microsoft.com/fwlink/?linkid=2002010)のみを使用できます (認定のないビジュアルはブロックされ、使用すると、エラー メッセージが表示されます)。 
 
+
+Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポリシー**を使用して、組織内に配置されているコンピューター間で未認定のカスタム ビジュアルの使用を無効にすることができます。
+
+<table>
+<tr><th>属性</th><th>値</th>
+</tr>
+<td>キー</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableUncertifiedVisuals</td>
+</tr>
+</table>
+
+値が 1 (10 進数) の場合は、Power BI で未認定のカスタム ビジュアルの使用が有効になります (既定)。
+
+値が 0 (10 進数) の場合は、Power BI で未認定のカスタム ビジュアルの使用が無効になります (このオプションでは、[認定済みのカスタム ビジュアル](https://go.microsoft.com/fwlink/?linkid=2002010)の使用のみが有効になります)。
 
 ## <a name="r-visuals-settings"></a>R ビジュアルの設定
 
