@@ -398,6 +398,10 @@ items:
       href: service-get-started.md
     - name: GitHub サンプルへの接続
       href: service-tutorial-connect-to-github.md
+    - name: Power BI での Cognitive Services の使用
+      href: service-tutorial-use-cognitive-services.md
+    - name: Machine Learning と Power BI の統合
+      href: service-tutorial-invoke-machine-learning-model.md
   - name: 概念
     items:
     - name: Power BI サービスの新機能
@@ -644,8 +648,12 @@ items:
         href: service-dataflows-connect-azure-data-lake-storage-gen2.md
       - name: ワークスペース データ フローの設定の構成 (プレビュー)
         href: service-dataflows-configure-workspace-storage-settings.md
-      - name: データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)
+      - name: データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
         href: service-dataflows-add-cdm-folder.md
+      - name: Power BI で Machine Learning を統合する
+        href: service-machine-learning-integration.md
+      - name: Power BI で Cognitive Services を使用する
+        href: service-cognitive-services.md
     - name: Power BI のページ分割されたレポート
       items:
       - name: ページ分割されたレポートとは (プレビュー)
@@ -722,7 +730,7 @@ items:
         href: service-delete.md
       - name: サービスへの接続
         items:
-        - name: サービスへの接続
+        - name: Acumatica
           href: service-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
@@ -1317,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
+ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757440"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57964918"
