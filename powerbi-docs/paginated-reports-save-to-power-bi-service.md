@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: d1d1f3c34483737e49129176c833be8384ade999
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324717"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174547"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>ページ分割されたレポートを Power BI サービスに発行する (プレビュー)
 
 この記事では、ページ分割されたレポートをローカル コンピューターからアップロードすることによって Power BI サービスに発行することについて学びます。 ワークスペースが Premium 容量である限り、ページ分割されたレポートをマイ ワークスペースまたは他のワークスペースにアップロードできます。 ワークスペース名の横にあるダイヤモンド形のアイコン ![Power BI Premium 容量のダイヤモンド形のアイコン](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) を探します。 
 
-レポートのデータ ソースがオンプレミスにある場合は、レポートをアップロードした後で、[ゲートウェイを作成する](#create-a-gateway-to-an-on-premises-data-source)必要があります。
+レポートのデータ ソースがオンプレミスにある場合は、レポートをアップロードした後で、[ゲートウェイを作成する](#create-a-gateway)必要があります。
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>Premium 容量にワークスペースを追加する
 

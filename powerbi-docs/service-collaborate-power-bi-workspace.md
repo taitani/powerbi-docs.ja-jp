@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288522"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174570"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI アプリ ワークスペースでの共同作業
 Power BI アプリ ワークスペースは、同僚とダッシュ ボード、レポート、およびデータセットで共同作業して*アプリ*を作成するのに最適な場所です。 コラボレーションは Power BI のワークスペースだけで終わるわけではありません。 Office 365 では、OneDrive for Business の共有ファイル、Exchange での会話、共有の予定表、タスクなど、その他のグループ サービスも提供されています。 詳細については、[Office 365 のグループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)を参照してください。
@@ -49,7 +49,7 @@ Office 365 で共同作業するには、まず Power BI のアプリ ワーク�
 2. このメニューから、いくつかの方法でグループと共同作業できます。 
    
    * [Office 365 のグループのメッセージ交換](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365)。
-   * アプリのグループ ワークスペースの予定表での[イベント スケジュール作成](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-group-workspace-calendar)。
+   * アプリのグループ ワークスペースの予定表での[イベント スケジュール作成](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-apps-group-workspace-calendar)。
    
    Office 365 で初めてアプリのグループ ワークスペースを参照する際は、時間がかかる場合があります。 15 ～ 30 分待ってからブラウザーを更新してください。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a593a918c59452c922f6061189ad6c2885478aad
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281185"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174869"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI でサポートされる言語と国または地域
 
@@ -120,7 +120,7 @@ Power BI Desktop を入手するには2 つがあります。ダウンロード�
 
 * [Windows ストアから Power BI Desktop をインストールする](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store)と、すべての言語がインストールされて、Windows の既定の言語に対応する言語が表示されます。
 * [Power BI Desktop をダウンロードする](#choose-a-language-when-you-download-power-bi-desktop)ときは、ダウンロード時に言語を選択します。 
-* 特定のレポートの[データをインポートするときに使うロケールを選択する](#choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop)こともできます。 
+* 特定のレポートの[データをインポートするときに使うロケールを選択する](#choose-the-locale-for-importing-data-into-power-bi-desktop)こともできます。
 
 ### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>Windows ストアからインストールされた Power BI Desktop の言語を選択する
 1. Windows ストアから [Power BI Desktop をインストール](http://aka.ms/pbidesktopstore)します。

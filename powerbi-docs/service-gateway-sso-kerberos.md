@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2183596a66526ced7cfa4a298420972b63a87ca
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226252"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174984"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する
 
@@ -60,7 +60,7 @@ Kerberos の制約付き委任が正しく機能するためには、"*サービ
 
 ![サービス アカウントのスクリーン ショット](media/service-gateway-sso-kerberos/service-account.png)
 
-Azure Active Directory (Azure AD) インスタンスが既に (Azure AD DirSync/Connect を使って) ローカルの Active Directory インスタンスと同期されている場合を除き、Kerberos の制約付き委任を有効にするには、ゲートウェイをドメイン アカウントとして実行する必要があります。 ドメイン アカウントに切り替えるには、この記事で後述する「[ゲートウェイをドメイン アカウントに切り替える](#switching-the-gateway-to-a-domain-account)」をご覧ください。
+Azure Active Directory (Azure AD) インスタンスが既に (Azure AD DirSync/Connect を使って) ローカルの Active Directory インスタンスと同期されている場合を除き、Kerberos の制約付き委任を有効にするには、ゲートウェイをドメイン アカウントとして実行する必要があります。 ドメイン アカウントに切り替えるには、この記事で後述する「[ゲートウェイをドメイン アカウントに切り替える](#switch-the-gateway-to-a-domain-account)」をご覧ください。
 
 > [!NOTE]
 > Azure AD Connect が構成済みで、かつユーザー アカウントが同期済みの場合、実行時にゲートウェイ サービスでローカル Azure AD 参照を実行する必要はありません。 ゲートウェイ サービスに対してローカル サービス SID を使用できます (ドメイン アカウントは必要ありません)。 この記事で説明する Kerberos の制約付き委任の構成手順は、その構成と同じです。 それらは、ドメイン アカウントではなく、Azure AD でゲートウェイのコンピューター オブジェクトに単に適用されます。
@@ -188,7 +188,7 @@ SAP HANA を使用している場合は、次のパフォーマンスが若干�
 
 ## <a name="configure-sap-bw-for-sso"></a>SAP BW に対して SSO を構成する
 
-Kerberos がゲートウェイと連携するしくみを理解できたので、SAP Business Warehouse (SAP BW) に対して SSO を構成できます。 次の手順は、この記事で前述したように、[Kerberos の制約付き委任の準備](#preparing-for-kerberos-constrained-delegation)が既にできていることを前提としています。
+Kerberos がゲートウェイと連携するしくみを理解できたので、SAP Business Warehouse (SAP BW) に対して SSO を構成できます。 次の手順は、この記事で前述したように、[Kerberos の制約付き委任の準備](#prepare-for-kerberos-constrained-delegation)が既にできていることを前提としています。
 
 このガイドは、可能な限り包括的になるように書かれています。 一部の手順を既に完了している場合は、それをスキップできます。 たとえば、SAP BW サーバーのサービス ユーザーを既に作成して SPN をマップしてある場合や、`gsskrb5` ライブラリを既にインストールしてある場合です。
 
@@ -356,7 +356,7 @@ Azure AD Connect を構成していない場合は、Azure AD ユーザーにマ
 
 ### <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service"></a>Power BI サービスに新しい SAP BW アプリケーション サーバー データ ソースを追加する
 
-この記事で前述した[レポートの実行](#running-a-power-bi-report)に関する手順に従って、ゲートウェイに SAP BW データ ソースを追加します。
+この記事で前述した[レポートの実行](#run-a-power-bi-report)に関する手順に従って、ゲートウェイに SAP BW データ ソースを追加します。
 
 1. データ ソース構成ウィンドウで、Power BI Desktop から SAP BW サーバーにサインインするときと同様に、アプリケーション サーバーの **[ホスト名]**、**[システム番号]**、および **[クライアント ID]** を入力します。 **[認証方法]** で、**[Windows]** を選択します。
 
