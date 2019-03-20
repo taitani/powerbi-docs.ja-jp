@@ -7,13 +7,7 @@ ms.service: powerbi
 ms.author: maggies
 author: maggiesMSFT
 ms.topic: hub-page
-ms:date: 10/26/2018
-ms.openlocfilehash: a2e75c612680d5ecec0ac5fc301250f7d2fa9480
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794576"
+'ms:date': 10/26/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -37,7 +31,7 @@ ms.locfileid: "55794576"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>レポート利用者向けの Power BI</h3>
+                                                    <h3>利用者向けの Power BI</h3>
                                                     <p>Power BI を初めて使いますか? Power BI を構成するさまざまな製品やサービスと、それらを使って何ができるかを説明します。</p>
                                                 </div>
                                             </div>
