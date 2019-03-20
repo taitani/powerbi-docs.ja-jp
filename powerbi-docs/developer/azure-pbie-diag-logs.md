@@ -177,7 +177,7 @@ Log Analytics で診断データを表示するには、次のように、左側
 
 **[タイプ]** で **[AzureDiagnostics]** を選択した後、**[適用]** を選択します。 AzureDiagnostics にはエンジンのイベントが含まれます。 Log Analytics クエリがその場で作成されることに注意してください。
 
-![Azure 診断](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
+![Azure Diagnostics](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 
 **EventClass\_s** またはイベント名のいずれかを選択すると、Log Analytics はクエリの作成を続行します。 後で再利用するためにクエリを保存しておきます。
 
