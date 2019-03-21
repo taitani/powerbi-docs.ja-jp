@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277804"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220956"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Power BI Premium での計算されたエンティティの使用 (プレビュー)
 
@@ -79,7 +79,9 @@ Power BI Premium 容量からワークスペースを削除した場合、関連
 
 組織の Azure Data Lake Storage Gen2 アカウント内で作成されたデータフローで作業をしているとき、リンクされたエンティティと計算されたエンティティは、そのエンティティが同じストレージ アカウントに存在するときにのみ機能します。 詳しくは、「[データ フロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)」をご覧ください。
 
-さらに、CDM フォルダーから作成されたデータフローには、リンクされたエンティティは使用できません。 「[データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)](service-dataflows-add-cdm-folder.md)」をご覧ください。
+Common Data Model (CDM) フォルダーから作成されたデータフローには、リンクされたエンティティは使用できません。 詳細については、「[データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)](service-dataflows-add-cdm-folder.md)」をご覧ください。
+
+オンプレミスとクラウド データで結ばれているデータに対して計算を行う場合は、ベスト プラクティスとして、このような計算を実行する新しいエンティティを作成します。 両方のソースからデータを照会しているエンティティ、Lake での変換を行うなどの計算を、既存のエンティティを使用して、より優れたエクスペリエンスで提供します。
 
 ## <a name="next-steps"></a>次の手順
 
