@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430995"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964711"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -22,13 +22,19 @@ ms.locfileid: "55430995"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
+**コンシューマー向け製品の製造元と小売業者が Win-Win の関係を実現する**
+<br>作成者: Liz McCreesh
+<br>[今すぐ登録](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>おすすめのウェビナー
 
 最初に、次の人気のオンデマンド ウェビナーをご覧ください。
+
+**Power BI、および最近の企業向け BI の将来**
+<br>作成者: Arun Ulag および Amir Netz
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
 
 **Power BI の概要**
 <br>作成者: Miguel Martinez
@@ -46,13 +52,9 @@ ms.locfileid: "55430995"
 <br>作成者: Cory Hrncirik と Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI:適切に行われる分析**
-<br>講師: Gohul Shanmugalingam
-<br>[登録して今すぐ見る](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Power BI データを視覚化:中心となるグラフの種類とその利用方法**
-<br>作成者: Miranda Li
-<br>[登録して今すぐ見る](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+**Power BI JavaScript API を使用して、お使いのアプリケーションの機能を強化する**
+<br>作成者: Nimrod Shalit
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
 **Power BI、Excel、Office 365:企業データを最適化する**
 <br>作成者: Olaf Hubel と Miguel Martinez
@@ -62,10 +64,6 @@ ms.locfileid: "55430995"
 <br>作成者: Miranda Li
 <br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Microsoft Flow および PowerApps が及ぼす総合的な経済効果**
-<br>作成者: Jonathan Lipsitz と Enrique Plaza Garcia
-<br>[登録して今すぐ見る](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
-
 >[コミュニティの専門家による Power BI オンデマンド ウェビナーを参照する](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="on-demand-webinars"></a>オンデマンド ウェビナー
@@ -74,9 +72,25 @@ ms.locfileid: "55430995"
 
 ### <a name="getting-started"></a>作業の開始
 
+**Power BI、PowerApps、および Microsoft Flow を使用して、日常のビジネス プロセスを自動化する**
+<br>作成者: Wim Coorevits および Enrique Plaza Garcia
+<br>[登録して今すぐ見る](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
+
+**Power BI:適切に行われる分析**
+<br>講師: Gohul Shanmugalingam
+<br>[登録して今すぐ見る](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Power BI データを視覚化:中心となるグラフの種類とその利用方法**
+<br>作成者: Miranda Li
+<br>[登録して今すぐ見る](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
 **ビジュアル的にアピールする Power BI レポートをデザインする方法**
 <br>作成者: Charles Sterling
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Microsoft Flow および PowerApps が及ぼす総合的な経済効果**
+<br>作成者: Jonathan Lipsitz と Enrique Plaza Garcia
+<br>[登録して今すぐ見る](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 **組み合わせて、もっと便利に:Excel ユーザーが Power BI を使用することで得られる 5 つのメリット**
 <br>作成者: Carlos Otero/Miguel Martinez
@@ -100,6 +114,10 @@ ms.locfileid: "55430995"
 
 ### <a name="partners"></a>パートナー ###
 
+**Power BI を使用して、顧客データから小売業を成功に導く**
+<br>作成者: Angad Soni (日立ソリューションズ)
+<br>[登録して今すぐ見る](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+
 **患者のアウトカムと収益性の両方を向上させる実績のある医療ソリューション**
 <br>作成者: Stephen Cracknell/Stuart Macanliss (US Medical IT)
 <br>[登録して今すぐ見る](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
@@ -111,6 +129,10 @@ ms.locfileid: "55430995"
 **セールスおよびサービスのインテリジェンスを適用する**
 <br>作成者: Ed Bobrin (Avanade)
 <br>[登録して今すぐ見る](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+
+**成功を収めるトレンド キュレーターの 5 つの習慣 - Rohit Bhargava**
+<br>作成者: Rohit Bhargava (Non-Obvious)
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **製造業:業界が経験しているデジタル変革 - 分析の活用によるリーダーシップの維持と収益の最大化**
 <br>作成者: Jon Thompson (Blue Margin)/Jim Pastor (Elgin Fastener Group)
