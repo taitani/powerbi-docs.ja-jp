@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58051588"
+---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Power BI Desktop 内でロールとルールを定義する
 Power BI Desktop 内でロールとルールを定義できます。 Power BI に発行するとき、ロールの定義も発行されます。
 
@@ -21,7 +29,7 @@ Power BI Desktop 内でロールとルールを定義できます。 Power BI �
 7. DAX 式を入力します。 この式は true か false を返すはずです。 たとえば、[Entity ID] = “Value” のようになります。
    
    > [!NOTE]
-   > この式の中では *username()* を使用できます。 Power BI Desktop 内では *username()* の形式は *DOMAIN\username* になることにご注意ください。 Power BI サービスと Power BI Report Server 内では、それはユーザーのユーザー プリンシパル名 (UPN) の形式になります。 また、必ずユーザー プリンシパル名 (*username@contoso.com*) の形式でユーザーを返す *userprincipalname()* を使用することもできます。
+   > この式の中では *username()* を使用できます。 Power BI Desktop 内では *username()* の形式は *DOMAIN\username* になることにご注意ください。 Power BI サービスと Power BI Report Server 内では、それはユーザーのユーザー プリンシパル名 (UPN) の形式になります。 また、必ずユーザー プリンシパル名 (*username\@contoso.com*) の形式でユーザーを返す *userprincipalname()* を使用することもできます。
    > 
    > 
    

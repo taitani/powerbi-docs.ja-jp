@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223837"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174823"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -290,7 +290,7 @@ Power BI Desktop から、あるいは powerbi.com 内でファイルを開き�
 
 このエラーは、Web サーバー アプリケーションに対して指定されているリダイレクト URL が、サンプルの URL と異なるためです。 サンプル アプリケーションを登録する場合は、リダイレクト URL として `http://localhost:13526/` を使います。
 
-登録済みのアプリケーションを編集する場合は、[AAD 登録済みアプリケーション](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)の編集方法を確認し、アプリケーションが Web API へのアクセスを提供できるようにします。
+登録済みのアプリケーションを編集する場合は、[Azure AD 登録済みアプリケーションの更新](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)方法を確認し、アプリケーションが Web API へのアクセスを提供できるようにします。
 
 Power BI ユーザー プロファイルまたはデータを編集する場合は、[Power BI データ](https://docs.microsoft.com/power-bi/service-basic-concepts)の編集方法をご覧ください。
 

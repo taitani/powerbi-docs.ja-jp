@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: da5394c0d1e63619229542b914ae7fd4deed7447
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223745"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174892"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -137,7 +137,7 @@ Power BI では、組織のアカウントでサインアップすることが�
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded ソリューションでは、PBI Embedded 専用容量はどのような役割を果たしますか?
 
-[ソリューションを運用に昇格させる](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)には、Power BI コンテンツが必要です (アプリケーションで使用しており、Power BI Embedded (A SKU) 容量に割り当てるアプリ ワークスペース)。
+[ソリューションを運用に昇格させる](embed-sample-for-customers.md#move-to-production)には、Power BI コンテンツが必要です (アプリケーションで使用しており、Power BI Embedded (A SKU) 容量に割り当てるアプリ ワークスペース)。
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>どの Azure リージョンで PBI Embedded を利用できますか?
 
@@ -167,7 +167,7 @@ AAD トークンを取得するには、[Azure Active Directory 認証ライブ�
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>私はアプリケーションのユーザー認証に AAD を既に使用しています。 "ユーザーがデータを所有する" シナリオでは、Power BI に認証するとき、この ID をどのように利用できますか?
 
-これは標準的な OAuth 代理フローです (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)。Power BI サービスに対するアクセス許可を (必要な範囲で) 要求するようにアプリケーションを構成する必要があります。アプリのユーザー トークンが与えられたら、ユーザー アクセス トークンを利用して ADAL API AcquireTokenAsync を呼び出し、リソース ID として Power BI リソース URL を指定します。下のコード抜粋をご覧ください。この方法が示されています。
+これは標準的な OAuth 代理フローです (<https://docs.microsoft.com/azure/active-directory/develop/web-api>)。 Power BI サービスに対するアクセス許可を (必要な範囲で) 要求するようにアプリケーションを構成する必要があります。 アプリのユーザー トークンが与えられたら、単にユーザー アクセス トークンを利用して ADAL API AcquireTokenAsync を呼び出し、リソース ID として Power BI リソース URL を指定します。 下のコード スニペットをご覧ください。この方法が示されています。
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -344,7 +344,7 @@ Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-cu
 
 ### <a name="how-can-i-edit-my-registered-application"></a>登録済みアプリケーションを編集する方法
 
-AAD 登録済みアプリケーションの編集方法は、[こちら](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)をご覧ください。
+AAD 登録済みアプリケーションの編集方法については、「[クイック スタート:Azure Active Directory のアプリケーションを更新する](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)」をご覧ください。
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Power BI ユーザー プロファイルまたはデータを編集する方法
 

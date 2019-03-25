@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d17a5875569f29da41d62ca61efcbdae3b9242e9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757325"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980360"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI カスタム ビジュアルに関してよく寄せられる質問
 
@@ -23,7 +23,7 @@ ms.locfileid: "57757325"
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>管理者が組織のカスタム ビジュアルを管理する方法を教えてください。
 
-管理ポータルの [Organizational custom visuals]\(組織のカスタム ビジュアル\) タブから、管理者は[企業内のすべての組織のカスタム ビジュアルを管理](https://docs.microsoft.com/power-bi/service-admin-portal#organization-visuals)および確認できます (追加、無効化、有効化、削除)。
+管理ポータルの [Organizational custom visuals]\(組織のカスタム ビジュアル\) タブから、管理者は[企業内のすべての組織のカスタム ビジュアル](service-admin-portal.md#organizational-visuals)を確認したり、管理 (追加、無効化、有効化、削除) したりできます。
 電子メールや共有フォルダーを使用してこれらのビジュアルを共有する必要はもうありません。 組織のリポジトリに展開すれば、組織のユーザーはこれらを簡単に見つけて、Power BI Desktop またはサービスから直接自分のレポートに組織のカスタム ビジュアルをインポートできます。 組織のカスタム ビジュアルは、*[自分の所属組織]* タブの下にある (デスクトップおよびサービスの) 組み込みのストアから見つけることができます。管理者が組織のカスタム ビジュアルの新しいバージョンをアップロードすると、組織内の全員が同じ更新されたバージョンを取得できます。 レポート作成者が、ビジュアルの新しいバージョンを取得するためにレポート内のビジュアルを削除する必要はありません。これらのビジュアルを使用しているレポートは、すべて自動的に更新されるためです。 更新のメカニズムは、マーケットプレース ビジュアルと似ています。
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>管理者がパブリック マーケットプレースから組織のストアにカスタム ビジュアルをアップロードする場合、ベンダーがパブリック マーケットプレースのビジュアルを更新したらそれは自動的に更新されますか?

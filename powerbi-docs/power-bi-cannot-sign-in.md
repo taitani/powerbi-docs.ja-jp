@@ -10,18 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: a29d251c629437184ff31de275a17c1d152abff3
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 1605293474a7cbfefb448d74127639153e29325c
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757779"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964619"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI のサインインに関する問題のトラブルシューティング
 
-この記事では、サインインの問題を解決するために従うことのできる経路を詳細に示す、[サポート コンテンツ](https://powerbi.microsoft.com/support/)の生成方法について説明します。
+この記事では、Power BI のサインインに関する問題が発生したときに[サポート](https://powerbi.microsoft.com/support/)を利用する方法について説明します。
 
-最初に実行すべきアクションとしては、サポートを**内部のサポート チームに依頼します**。 ただし、お客様が組織の**テナント管理者**であり、Power BI にサインインできない場合は、以下の手順に進みます。
+最初に行う必要があるのは、サポートを**組織内のサポート チームに依頼することです**。
+
+ただし、お客様が組織の**テナント管理者**であるにもかかわらず、Power BI にサインインできない場合は、以下の手順に進みます。
 
 ## <a name="engage-the-support-team"></a>サポート チームに依頼する
 
@@ -30,11 +32,13 @@ ms.locfileid: "57757779"
 Power BI のサポート ページで操作できない場合は、[Office 365 (O365) のサポート ページ](https://support.office.com/home/contact)でチケットを作成してみます。
 
 Power BI のサポート ページと O365 のどちらでもチケットを作成できない場合は、サポートに電話でお問い合わせください。
+
 * 米国 (US) およびその他の南北アメリカのお客様: + 1-800-936-5800
 * ヨーロッパ、中東、アジア (EMEA) のお客様: +44-844-800-2400
 * インドのお客様: + 1-800-419-5666
 
-Microsoft サポートにヘルプを依頼するもう 1 つの選択肢としては、[Microsoft Premier サポート](https://support.microsoft.com/premier)を購入します。 お客様の組織が Microsoft Premier サポートを購入しているにもかかわらず、O365 と Power BI のどちらのチャネルからもケースを作成できない場合は、Premier サポートに電話でお問い合わせください。
+Microsoft サポートにヘルプを依頼するもう 1 つの選択肢としては、[Microsoft Premier サポート](https://support.microsoft.com/premier)を購入します。 お客様の組織が Microsoft Premier サポートを購入しているにもかかわらず、Power BI と O365 のどちらのチャネルからもケースを作成できない場合は、Premier サポートに電話でお問い合わせください。
+
 * 米国 (US) およびその他の南北アメリカのお客様: +1-800-936-3100
 * ヨーロッパ、中東、アジア (EMEA) のお客様: +44-844-800-8338
 * インドのお客様: +1-800-425-5666

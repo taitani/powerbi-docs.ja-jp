@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430306"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174938"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポートの利用状況の指標を監視する
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430306"
 
 利用状況の指標レポートは、**[最近]**、**[ワークスペース]**、**[お気に入り]**、その他のコンテンツ一覧には表示されません。 アプリに追加できません。 利用状況指標レポートからダッシュボードにタイルを固定すると、そのダッシュボードはアプリやコンテンツ パックに追加できません。
 
-レポート データを掘り下げて調べたり、データセットに対して独自のレポートを構築したりするには、**[名前を付けて保存]** を利用します (「[利用状況の指標レポートをフル機能の Power BI レポートとして保存する](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))」を参照してください)。
+レポート データを掘り下げて調べたり、データセットに対して独自のレポートを構築したりするには、**[名前を付けて保存]** を利用します (「[利用状況の指標レポートをフル機能の Power BI レポートとして保存する](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize)」を参照してください)。
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>ダッシュボードまたはレポートの利用状況の指標レポートを開く
 

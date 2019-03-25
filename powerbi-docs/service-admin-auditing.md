@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 24701392b6cfa3400ed96be8a496791d250204d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291167"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980406"
 ---
 # <a name="using-auditing-within-your-organization"></a>組織内での監査の使用
 
@@ -56,7 +56,7 @@ Power BI 監査ログは、[Office 365 セキュリティ/コンプアライア�
 
 ## <a name="search-only-power-bi-activities"></a>Power BI のアクティビティのみを検索する
 
-次の手順に従って、検索結果を Power BI のアクティビティのみに制限します。 アクティビティの一覧については、この記事の後半にある「[Power BI の監査対象アクティビティの一覧](#list-of-activities-audited-by-power-bi)」をご覧ください。
+次の手順に従って、検索結果を Power BI のアクティビティのみに制限します。 アクティビティの一覧については、この記事の後半にある「[Power BI の監査対象アクティビティ](#activities-audited-by-power-bi)」の一覧をご覧ください。
 
 1. **[監査ログの検索]** ページで、**[検索]** の下にある **[アクティビティ]** のドロップ ダウンを選択します。
 

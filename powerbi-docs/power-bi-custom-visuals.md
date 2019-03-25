@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d467839582abb3c66c8bf5a57d1f3c5f7b83d354
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
+ms.openlocfilehash: ed61d865756748ccd4e60f54de4a4b1b9adcef8d
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695038"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980337"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI でのカスタム ビジュアル
 
@@ -159,7 +159,7 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 
 6. '.pbiviz' ファイルを保存し、Power BI を開きます。
 
-7. レポートに '.pbiviz' ファイルをインポートします (上の「[カスタム ビジュアルをファイルからインポートする](#import-a-custom-visuals-from-a-file)」セクション参照)。
+7. ".pbiviz" ファイルをレポートにインポートします (上記の「[カスタム ビジュアルをファイルからインポートする](#import-a-custom-visual-from-a-file)」セクションを参照してください)。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430284"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980429"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -84,7 +84,7 @@ ms.locfileid: "55430284"
 
 既存の Office 365 テナントにユーザーが参加できないようにするために、管理者として実行できる手順があります。 アクセスをブロックした場合、ユーザーのサインアップは失敗し、ユーザーは組織の管理者に連絡するように指示されます。ライセンスの自動配布 (学生、教職員、およびスタッフ向けの Office 365 for Education など) を既に無効にしている場合は、このプロセスを繰り返す必要はありません。
 
-新しいユーザーがマネージド テナントに参加できないようにするには、次の PowerShell スクリプトを使用します。 [PowerShell の詳細を表示する](#basic-powershell-information)
+新しいユーザーがマネージド テナントに参加できないようにするには、次の PowerShell スクリプトを使用します。 ([PowerShell の詳細を確認する][1]。)
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>既存の Office 365 テナントへの参加をユーザーに許可するにはどうすればよいですか。
 
-新しいユーザーがマネージド テナントに参加できるようにするには、次の PowerShell スクリプトを使用します。 [PowerShell の詳細を表示する](#basic-powershell-information)
+新しいユーザーがマネージド テナントに参加できるようにするには、次の PowerShell スクリプトを使用します。 ([PowerShell の詳細を確認する][1]。)
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>テナントをブロックしたかどうかを確認するにはどうすればよいですか。
 
-設定を確認するには、次の PowerShell スクリプトを使用します。 *AllowEmailVerifiedUsers* が false になっている必要があります。 [PowerShell の詳細を表示する](#basic-powershell-information)
+設定を確認するには、次の PowerShell スクリプトを使用します。 *AllowEmailVerifiedUsers* が false になっている必要があります。 ([PowerShell の詳細を確認する][1]。)
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 これを制御する Azure AD の設定は、**AllowAdHocSubscriptions** です。 ほとんどのテナントでは、この設定は有効を意味する true に設定されます。 パートナーを通じて Power BI を入手した場合、無効を意味する false がこれに設定されている可能性があります。
 
-アドホック サブスクリプションを無効にするには、次の PowerShell スクリプトを使用します。 [PowerShell の詳細を表示する](#basic-powershell-information)
+アドホック サブスクリプションを無効にするには、次の PowerShell スクリプトを使用します。 ([PowerShell の詳細を確認する][1]。)
 
 1. Office 365 の資格情報を使用して Azure Active Directory にサインインします。 次の PowerShell のスクリプトの 1 行目では、ユーザーに資格証明が要求されます。 2 行目で、Azure Active Directory に接続します。
 
@@ -270,3 +270,5 @@ Power BI は Office 365 上に構築されており、Azure Active Directory な
 [Office 365 グループ管理](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

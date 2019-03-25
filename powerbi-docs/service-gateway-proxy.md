@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7264ef7b1057f64d6eb51ccc77cbec2a74be6d0e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2122ce9bd6eb850a51a06188ca1c10faf78f4bb1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283991"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964665"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイのプロキシ設定を構成する
 職場ではプロキシを介してインターネットにアクセスしている場合がありますが、 これは、オンプレミス データ ゲートウェイがサービスに接続できない原因となることがあります。
@@ -46,24 +46,41 @@ ms.locfileid: "54283991"
 ## <a name="configuring-proxy-settings"></a>プロキシ設定の構成
 既定のプロキシ構成は、以下のようになります。
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true" />
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true" />
+</system.net>
+```
+
 
 既定の構成は、Windows 認証で機能します。 プロキシで別の認証方法を使用している場合は、設定を変更する必要があります。 認証方法が不明な場合は、ネットワーク管理者にお問い合わせください。 基本的なプロキシ認証はお勧めしません。基本的なプロキシ認証を使用しようとすると、適切に構成されていないゲートウェイでプロキシ認証エラーが発生する場合があります。 解決するには、強力なプロキシ認証メカニズムを使用します。
 
 既定の資格情報を使用することに加え、<proxy> 要素を追加して、プロキシ サーバー設定を詳細に定義することができます。 たとえば、bypassonlocal パラメーターを false に設定することで、ローカル リソースの場合でも、オンプレミス データ ゲートウェイで常にプロキシが使用されるように指定できます。 これは、プロキシ ログ ファイルでオンプレミス データ ゲートウェイからのすべての https 要求を追跡する場合のトラブルシューティングに役立ちます。 次のサンプル構成では、すべての要求を IP アドレス 192.168.1.10 の特定のプロキシ経由で行う必要があることを指定します。
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true">
-            <proxy  
-                autoDetect="false"  
-                proxyaddress="http://192.168.1.10:3128"  
-                bypassonlocal="false"  
-                usesystemdefault="true"
-            />  
-        </defaultProxy>
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true">
+        <proxy  
+            autoDetect="false"  
+            proxyaddress="http://192.168.1.10:3128"  
+            bypassonlocal="false"  
+            usesystemdefault="true"
+        />  
+    </defaultProxy>
+</system.net>
+```
+
+また、ゲートウェイとクラウド データ ソースをプロキシ経由で接続するには、ファイル*C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe* を更新します。 このファイル内の `<configurations>` セクションを展開し、以下の内容を含めてから、`proxyaddress` 属性をお使いのプロキシ情報で更新します。 以下の例では、IP アドレスが 192.168.1.10 の特定のプロキシ経由で、すべてのクラウド要求がルーティングされます。
+
+```
+<configuration>
+<system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+    <proxy proxyaddress=""http://192.168.1.10:3128" bypassonlocal="true" />
+    </defaultProxy>
+</system.net>
+</configuration>
+```
 
 .NET 構成ファイルのプロキシ要素の構成について詳しくは、「[defaultProxy 要素 (ネットワーク設定)](https://msdn.microsoft.com/library/kd3cf2ex.aspx)」をご覧ください。
 

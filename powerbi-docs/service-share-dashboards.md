@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580245"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964757"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>同僚や他のユーザーと自分の Power BI ダッシュボードやレポートを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の異なる方法でダッシュボードでの共同作業を行ったり、ダッシュボードやレポートを配布](service-how-to-collaborate-distribute-dashboards-reports.md)したりできます。
@@ -38,12 +38,18 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
 
 1. ダッシュボードかレポートの一覧、または開いているダッシュボードかレポート内で、**[共有]** ![共有アイコン](media/service-share-dashboards/power-bi-share-icon.png)を選択します。
 
-1. 上部のボックスに、個々のユーザーの完全なメール アドレス、配布グループ、またはセキュリティ グループを入力します。 動的配布リストと共有することはできません。 
+2. 上部のボックスに、個々のユーザーの完全なメール アドレス、配布グループ、またはセキュリティ グループを入力します。 動的配布リストと共有することはできません。 
    
    アドレスが組織外のユーザーとも共有できますが、警告が表示されます。
    
    ![外部共有に関する警告](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
+   >[!NOTE]
+   >入力ボックスでは、最大 100 のユーザーまたはグループがサポートされます。 多数のユーザーと共有する必要がある場合は、共有を繰り返し行うか、またはユーザー グループを作成し、そのユーザー グループと共有するようにします。
+   > 
+   > 
+
+
 3. 必要な場合はメッセージを追加します。 これはオプションです。
 4. 同僚が他のユーザーとコンテンツを共有できるようにするには、**[受信者がダッシュボード (レポート) を共有できるようにする]** をオンにします。
    
@@ -119,6 +125,7 @@ Power BI モバイル アプリから組織外のユーザーにリンクを送�
 * 自分と同じ電子メール ドメインに属している同僚と、ドメインが異なっていても同じテナントに登録されている同僚は、ダッシュボードを他のユーザーと共有できます。 たとえば、ドメイン contoso.com と contoso2.com が同じテナント内に登録されているとします。 自分の電子メール アドレスが konrads@contoso.com の場合、ravali@contoso.com と gustav@contoso2.com は、共有のアクセス許可が付与されていれば、共有が可能です。
 * 同僚が既に特定のダッシュボードまたはレポートへのアクセスが可能な場合、自分がそのダッシュボードまたはレポートにいるときの URL をそのままコピーして、直接のリンクを送信できます。 例: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 同様に、同僚が特定のダッシュボードに既にアクセスできる場合は、[基になるレポートへの直接リンクを送信する](service-share-reports.md)ことができます。 
+* 1 回の共有アクションで最大 100 のユーザーまたはグループと共有できます。 ただし、項目へのアクセス権は、500 を超えるユーザーに付与できます。 これを行う場合は、ユーザーを個々に指定して共有を繰り返すか、またはすべてのユーザーを含むユーザー グループを作成し、そのユーザー グループと共有するようにします。
 
 ## <a name="troubleshoot-sharing"></a>共有のトラブルシューティング
 

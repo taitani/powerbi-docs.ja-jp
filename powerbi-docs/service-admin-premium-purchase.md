@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014141"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964849"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Pro の購入方法
 
@@ -95,13 +95,15 @@ Office 365 管理センターから、サブスクリプションのキャンセ
 
 1. 情報に目を通し、続行する場合は、**[サブスクリプションのキャンセル]** を選択します。
 
+### <a name="when-canceling-or-your-license-expires"></a>キャンセルした場合、またはライセンスが期限切れになった場合
+
+Premium サブスクリプションをキャンセルした場合、または容量のライセンスが期限切れになった場合でも、その日から 30 日間は、Premium 容量に引き続きアクセスできます。 30 日が経過すると、Premium 容量やその中のワークスペースにアクセスできなくなります。
+
 ## <a name="next-steps"></a>次の手順
 
-[Power BI の料金ぺージ](https://powerbi.microsoft.com/pricing/)
-[Power BI Premium 計算ツール](https://powerbi.microsoft.com/calculator/)
-[Microsoft Power BI Premium とは何ですか?](service-premium.md)
-[Power BI Premium のよく寄せられる質問](service-premium-faq.md)
-[Microsoft Power BI Premium のホワイトペーパー](https://aka.ms/pbipremiumwhitepaper)
+[Power BI の料金ページ](https://powerbi.microsoft.com/pricing/)   
+[Power BI Premium 計算ツール](https://powerbi.microsoft.com/calculator/)   
+[Power BI Premium のよくあるご質問](service-premium-faq.md)   
 [Power BI のエンタープライズ展開の計画に関するホワイト ペーパー](https://aka.ms/pbienterprisedeploy)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
