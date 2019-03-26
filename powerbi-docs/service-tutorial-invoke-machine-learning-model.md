@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 54515259d0e258284cd5a2e86432a5ef6be89a9e
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
+ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965964"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430325"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し (プレビュー)
 
@@ -92,7 +92,7 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
 
-!データ ソースに接続する](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![データ ソースに接続する](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 Power Query エディターに、CSV ファイル内のデータのプレビューが表示されます。 コマンドのリボンから **[テーブルの変換]** を選択し、**[先頭の行を見出しとして使用]** を選択します。  これにより、_[昇格されたヘッダー数]_ クエリのステップが、右側の **[適用したステップ]** ウィンドウに追加されます。 右側のウィンドウを使用して、クエリ名を "_自動車価格_" などのわかりやすい名前に変更することもできます。
 
@@ -137,7 +137,7 @@ Text/CSV ソースのテーブル内の列は、すべてテキスト列とし�
 
 リボン内で **[AI インサイト]** ボタンを選択した後、左側のナビゲーション メニューから "_Azure Machine Learning Models_" フォルダーを選択します。
 
-"**Azure Machine Learning Models**" フォルダーを選択します。 自分がアクセス権を持っている Azure ML モデルが、プレフィックス *AzureML* の付いた Power Query 関数として一覧表示されます。  _AutomobilePricePrediction_ モデルに対応する関数をクリックすると、モデルの Web サービスのパラメーターが関数のパラメーターとして一覧表示されます。
+自分がアクセス権を持っている Azure ML モデルが、プレフィックス *AzureML* の付いた Power Query 関数として一覧表示されます。  _AutomobilePricePrediction_ モデルに対応する関数をクリックすると、モデルの Web サービスのパラメーターが関数のパラメーターとして一覧表示されます。
 
 Azure ML モデルを呼び出すには、選択したエンティティのいずれかの列を、ドロップダウン リストからの入力として指定します。 入力ダイアログの左側にある列アイコンを切り替えることにより、入力として使用する定数値を指定することもできます。 列名が関数のパラメーター名のいずれかと一致すると、その列が自動的に入力として提案されます。  列名が一致しない場合は、ドロップダウン リストから選択できます。
 

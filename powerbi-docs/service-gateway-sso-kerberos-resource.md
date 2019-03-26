@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226114"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383362"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへのシングル サインオン (SSO) にリソースに基づく Kerberos を使用する
 
@@ -23,7 +23,7 @@ ms.locfileid: "57226114"
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>リソースに基づく Kerberos の制約付き委任のための準備
 
-Kerberos の制約付き委任が正しく機能するためには、"_サービス プリンシパル名_" (SPN) やサービス アカウントでの委任の設定など、いくつかのことを構成する必要があります。
+Kerberos の制約付き委任が正しく機能するためには、"_サービス プリンシパル名_" (SPN) やサービス アカウントでの委任の設定など、いくつかのことを構成する必要があります。 
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>前提条件 1:オペレーティング システムの要件
 
@@ -105,8 +105,8 @@ Azure AD DirSync/Connect が構成済みで、ユーザー アカウントが同
 1. **PBIEgwTestBack-end** ドメインのドメイン コントローラーでコマンド プロンプトを開いて次のコマンドを実行し、バックエンド サービス アカウントの msDS-AllowedToActOnBehalfOfOtherIdentity 属性を更新します。
 
     ```powershell
-    $c=get-adgroupResourceDelGroup
-    set-aduser **SQLService** -principalsAllowedToDelegateToAccount$c
+    $c = Get-ADGroup ResourceDelGroup
+    Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
 1. **[Active Directory ユーザーとコンピューター]** のバックエンド サービス アカウントに対するプロパティの [属性エディター] タブで、更新が反映されたことを確認できます。

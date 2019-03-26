@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 03/10/2019
-ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58175473"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430302"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI ビジュアルのガイドライン
 
@@ -29,7 +29,6 @@ ms.locfileid: "58175473"
 
 >[!IMPORTANT]  
 > ビジュアルを無料から "追加購入が必要になる場合があります" に更新する場合、ユーザーは、更新前に同じレベルの無料の機能を受け取る必要があります。 既存の無料機能に加えて、オプションの高度な有料機能を追加できます。 高度な機能を備えた IAP ビジュアルは新しいビジュアルとして送信し、既存の無料のものを更新しないようにすることをお勧めします。
-
 
 ## <a name="what-changed-in-the-submission-process"></a>送信プロセスの変更点
 
@@ -51,17 +50,17 @@ IAP ビジュアルは**無料の機能**を提供する**無料の**ビジュ�
 > [!IMPORTANT]
 > ロゴは**編集モードでのみ**許可されます。 ロゴはビュー モードでは表示**できません**。
 
-![定義](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
+![定義](media/guidelines-powerbi-visuals/definitions.png)
 
-![留意すべき点](media/office-store-in-app-purchase-visual-guidelines/things-to-keep-in-mind.png)
+![留意すべき点](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
 
-![回避事項](media/office-store-in-app-purchase-visual-guidelines/things-to-avoid.png)
+![回避事項](media/guidelines-powerbi-visuals/things-to-avoid.png)
 
-![サイズと形式](media/office-store-in-app-purchase-visual-guidelines/size-and-format.png)
+![サイズと形式](media/guidelines-powerbi-visuals/size-and-format.png)
 
-![余白とサイズ](media/office-store-in-app-purchase-visual-guidelines/margins-and-sizes.png)
+![余白とサイズ](media/guidelines-powerbi-visuals/margins-and-sizes.png)
 
-![編集モード](media/office-store-in-app-purchase-visual-guidelines/logos-in-edit-mode.png)
+![編集モード](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>ベスト プラクティス
 
