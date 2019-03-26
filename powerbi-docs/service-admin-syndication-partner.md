@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f1244535259de2a5b5726d295a64229a0f92f02b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296460"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382940"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI を Office 365 パートナー サブスクリプションに追加できない
 
@@ -33,9 +33,9 @@ Power BI Pro または Power BI Premium へのサブスクリプションを購�
 
 ## <a name="purchase-from-microsoft-or-another-channel"></a>Microsoft または別のチャネルから購入する
 
-パートナーとの関係によっては、Microsoft または別のパートナーから Power BI を直接購入できる場合があります。 Office 365 管理ポータルで、Power BI サブスクリプションを追加できるかどうかを確認できます (全体管理者または課金管理者のロールのメンバーシップが必要)。
+パートナーとの関係によっては、Microsoft または別のパートナーから Power BI を直接購入できる場合があります。 Microsoft 365 管理センターで、Power BI サブスクリプションを追加できるかどうかを確認できます (グローバル管理者または課金管理者ロールのメンバーシップが必要)。
 
-1. [Office 365 管理ポータル](https://admin.microsoft.com/AdminPortal/Home#/homepage)に移動します。
+1. [Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/Home#/homepage)に移動します。
 
 1. 左側のメニューで **[課金]** を開きます。
 
