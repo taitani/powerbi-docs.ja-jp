@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e4cd85e0e5b4f10ead772875434bce3bd0973505
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287567"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382810"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI サービス管理者ロールについて
 
@@ -25,23 +25,23 @@ ms.locfileid: "54287567"
 
 Office 365 の完全な管理アクセス権を付与することなく、Power BI 管理ポータルにアクセスできるようにする必要があるユーザーには、Power BI サービス監理者ロールを割り当てることができます。
 
-Office 365 ユーザー管理管理者が、Office 365 管理センターまたは PowerShell スクリプトを使用して、ユーザーを Power BI サービス管理者ロールに割り当てます。 割り当てられたユーザーは、[Power BI 管理ポータル](service-admin-portal.md)にアクセスできます。 そこで、テナント全体の利用状況の指標にアクセスでき、Power BI 機能のテナント全体の利用状況を制御できます。
+Office 365 ユーザー管理管理者が、Microsoft 365 管理センターまたは PowerShell スクリプトを使用して、ユーザーを Power BI サービス管理者ロールに割り当てます。 割り当てられたユーザーは、[Power BI 管理ポータル](service-admin-portal.md)にアクセスできます。 そこで、テナント全体の利用状況の指標にアクセスでき、Power BI 機能のテナント全体の利用状況を制御できます。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 
 Power BI サービス管理者ロールでは、次の機能を使用できません。
 
-* Office 365 管理センター内のユーザーとライセンスを変更する機能
+* Microsoft 365 管理センター内のユーザーとライセンスを変更する機能
 
 * 監査ログへのアクセス 詳しくは、「[組織内での監査の使用](service-admin-auditing.md)」をご覧ください。
 
 ## <a name="assign-users-to-the-admin-role-in-office-365"></a>Office 365 で管理者ロールにユーザーを割り当てる
 
-Office 365 管理センターでユーザーを Power BI 管理者ロールに割り当てるには、以下の手順のようにします。
+Microsoft 365 管理センターでユーザーを Power BI 管理者ロールに割り当てるには、以下の手順を行います。
 
-1. Office 365 管理センターで、**[ユーザー]** > **[アクティブなユーザー]** の順に選択します。
+1. Microsoft 365 管理センターで、**[ユーザー]** > **[アクティブなユーザー]** の順に選択します。
 
-    ![Office 365 管理センター](media/service-admin-role/powerbi-admin-users.png)
+    ![Microsoft 365 管理センター](media/service-admin-role/powerbi-admin-users.png)
 
 1. 役割を割り当てるユーザーを選択します。
 
@@ -57,7 +57,7 @@ Office 365 管理センターでユーザーを Power BI 管理者ロールに�
 
 そのユーザー名の役割に対する **[Power BI service administrator]** \(Power BI サービス管理者) がリストされます。
 
-![ロール](media/service-admin-role/powerbi-admin-role-set.png)
+![表示](media/service-admin-role/powerbi-admin-role-set.png)
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>PowerShell で管理者ロールにユーザーを割り当てる
 

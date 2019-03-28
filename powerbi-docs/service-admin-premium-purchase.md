@@ -10,19 +10,19 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 25e36334390ad88d7856124c67e275db5c7fcd1c
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964849"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383010"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Pro の購入方法
 
 > [!NOTE]
 > この記事は現在、新機能について追記したり、詳細を提供したり、読みやすくしたりするために更新中です。 
 
-この記事では、組織に Power BI Premium の容量 (P1-P3) を購入する方法について説明します。 Power BI Premium 容量は Office 365 管理センターで購入します。また、ご自分の容量は Power BI 管理ポータルで管理します。 現在の価格と計画については、[Power BI の料金ページ](https://powerbi.microsoft.com/pricing/)および「[Power BI Premium 計算ツール](https://powerbi.microsoft.com/calculator/)」を参照してください。
+この記事では、組織に Power BI Premium の容量 (P1-P3) を購入する方法について説明します。 Power BI Premium 容量は Microsoft 365 管理センターで購入します。また、ご自分の容量は Power BI 管理ポータルで管理します。 現在の価格と計画については、[Power BI の料金ページ](https://powerbi.microsoft.com/pricing/)および「[Power BI Premium 計算ツール](https://powerbi.microsoft.com/calculator/)」を参照してください。
 
 組織が Power BI Premium を使用する場合でも、コンテンツの作成者には Power BI Pro のライセンスが引き続き必要です。 組織で Power BI Pro ライセンスを少なくとも 1 つ購入してください。
 
@@ -42,7 +42,7 @@ Premium 容量を購入するには、以下の手順に従います。
 
     ![Office 365 アプリ ピッカー](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    または、Office 365 管理センターを参照することができます。 管理センターにアクセスするには、 https://portal.office.com に移動して **[管理者]** を選択します。
+    または、Microsoft 365 管理センターを参照することができます。 管理センターにアクセスするには、 https://portal.office.com に移動して **[管理者]** を選択します。
 
 1. **[請求]** > **[サービスを購入する]** を選択します。
 
@@ -62,7 +62,7 @@ Premium 容量を購入するには、以下の手順に従います。
 
 これで容量を購入できたので、ニーズの高まりに合わせてさらに容量を追加できます。 組織内で Premium 容量 SKU の任意の組み合わせ (P1 から P3) を使用できます。 異なる SKU は異なるリソース機能を提供します。
 
-1. Office 365 管理センターで、**[課金]** > **[サービスを購入する]** を選択します。
+1. Microsoft 365 管理センターで、**[課金]** > **[サービスを購入する]** の順に選択します。
 
 1. **[その他のプラン]** で、追加購入する Power BI Premium の項目を探します。
 
@@ -81,9 +81,9 @@ Premium 容量を購入するには、以下の手順に従います。
 
 ## <a name="cancel-your-subscription"></a>サブスクリプションをキャンセルする
 
-Office 365 管理センターから、サブスクリプションのキャンセルを行うことができます。 Premium サブスクリプションをキャンセルするには、次の操作を行います。
+Microsoft 365 管理センターから、ご自分のサブスクリプションをキャンセルすることができます。 Premium サブスクリプションをキャンセルするには、次の操作を行います。
 
-1. Office 365 管理センターを参照します。
+1. Microsoft 365 管理センターを参照します。
 
 1. **[請求]** > **[サブスクリプション]** の順に選択します。
 

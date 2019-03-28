@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325016"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383418"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>オンプレミス データ ゲートウェイの詳細
 組織のユーザーはオンプレミス データ (アクセス認証を取得済みの) にアクセスできますが、オンプレミス データ ソースに接続するには、事前にオンプレミス データ ゲートウェイをインストールし、設定しておく必要があります。 このゲートウェイにより、クラウドのユーザーとオンプレミス データ ソースの間のバックグラウンドの通信が迅速かつ安全な方法で確立されます。
@@ -77,7 +77,7 @@ Analysis Services ライブ接続を使用する場合、ローカル Active Dir
 
 1. Azure Active Directory にアカウントを手動で追加できます。
    
-   Azure ポータルで、あるいは Office 365 Admin ポータル内でアカウントを作成できます。アカウント名はローカル Active Directory アカウントの UPN と一致します。
+   アカウントは Azure portal 上で、または Microsoft 365 管理センター内で作成できます。アカウント名はローカル Active Directory アカウントの UPN と一致します。
 2. [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) ツールを使用し、ローカル アカウントと Azure Active Directory テナントを同期させることができます。
    
    Azure AD Connect ツールでは、パスワード ハッシュ同期、パススルー認証、フェデレーションなど、ディレクトリ同期と認証設定のオプションが提供されます。 テナント管理者またはローカル ドメイン管理者ではない場合、IT 管理者に問い合わせ、これを構成してもらう必要があります。

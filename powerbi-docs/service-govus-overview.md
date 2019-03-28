@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580038"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430256"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -39,7 +39,7 @@ ms.locfileid: "57580038"
 * すべてのデータは、Azure SQL と Power BI 用 Blob Storage の両方で暗号化されます
 * [コンテンツ パック](service-connect-to-services.md)でのサービスへの接続
 
-## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>行政機関向けおよびパブリックの Azure Cloud Services 間の接続 
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>行政機関向け Azure Cloud Services とグローバルな Azure Cloud Services 間の接続 
 
 Azure は複数のクラウドに分散されます。 既定では、テナントにはクラウド固有のインスタンスに対するファイアウォール規則を開くことが許可されていますが、クラウド間ネットワーキングの場合は異なり、サービス間で通信するために特定のファイアウォール規則を開く必要があります。 Power BI のお客様で、アクセスする必要があるパブリック クラウドに既存の SQL インスタンスをお持ちのお客様の場合、次のデータセンターについては Azure Government Cloud IP 空間に対する特定のファイアウォール規則を SQL で開く必要があります。
 
@@ -93,7 +93,7 @@ Azure は複数のクラウドに分散されます。 既定では、テナン�
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**質問:** アカウントが複数のソブリン クラウドでプロビジョニングされています。 **Power BI Desktop** を利用するとき、接続するクラウドをどのように選択しますか。
+**質問:** アカウントが複数の国内クラウドでプロビジョニングされています。 **Power BI Desktop** を利用するとき、接続するクラウドをどのように選択しますか。
 
 **回答:****Power BI Desktop** の 2018 年 7 月リリースより、**Power BI Desktop** にサインインするとき、使用するクラウドを選択できます。
 

@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d00e6f2a972e6e41d4d9badc51e30a13a6dc98cc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430126"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383316"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 管理とは
 
@@ -71,7 +71,7 @@ Power BI 管理に関連するいくつかのツールがあります。それ�
 | **ツール** | **一般的なタスク** |
 | --- | --- |
 | Power BI 管理ポータル |<ul><li>Premium 容量を取得して操作する</li><li>サービスの品質を確保する</li><li>ビジネス データの分類を管理する</li><li>コンテンツの発行と共有ポリシーの適用を支援する</li><li>ワークスペースを管理する<br><li>カスタム ビジュアルを発行する</li><li>Power BI を他のアプリケーションに埋め込むために使用されるコードを検証する</li><li>データ アクセスとその他の問題をトラブルシューティングする</li></ul>|
-| Office 365 管理センター |<ul><li>ユーザーのサインアップを管理する</li><li>Pro のライセンスを購入して割り当てる</li><li>ユーザーによる Power BI へのアクセスをブロックする</li></ul>|
+| Microsoft 365 管理センター |<ul><li>ユーザーのサインアップを管理する</li><li>Pro のライセンスを購入して割り当てる</li><li>ユーザーによる Power BI へのアクセスをブロックする</li></ul>|
 | Office 365 セキュリティ/コンプアライアンス センター |<ul><li>イベントの監査をレビューして管理する</li></ul>|
 | Azure Portal の Azure Active Directory (AAD) |<ul><li>AAD 経由の Power BI リソースへの条件付きアクセスを構成する</li><li>Power BI Embedded 容量をプロビジョニングする</li></ul>|
 | PowerShell コマンドレット |<ul><li>スクリプトによってワークスペースと Power BI のその他の側面を管理する</li></ul>|

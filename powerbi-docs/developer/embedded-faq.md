@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: abc45f3c32ee5db81f71295268db85bfce23aafd
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174892"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430440"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -274,9 +274,9 @@ Power BI Embedded では、埋め込みコンテンツの管理と検証に Powe
 
 Power BI Embedded は Azure の一部であるため、[Azure 登録時に受け取った $200 のクレジット](https://azure.microsoft.com/free/)を使ってサービスを利用することが可能です。
 
-### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Power BI Embedded はソブリン クラウド (米国政府、ドイツ、中国) に利用できますか?
+### <a name="is-power-bi-embedded-available-for-national-clouds-us-government-germany-china"></a>Power BI Embedded は国内クラウド (米国政府、ドイツ、中国) に利用できますか?
 
-Power BI Embedded は、一部の[ソブリン クラウド](embed-sample-for-customers-sovereign-clouds.md)で利用できます。 中国クラウドではまだ利用**できません**。
+Power BI Embedded は[国内クラウド](embed-sample-for-customers-national-clouds.md)にも利用できます。
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>非営利団体や教育機関は Power BI Embedded を利用できますか?
 

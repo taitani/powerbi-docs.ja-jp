@@ -2,27 +2,29 @@
 title: Power BI のセキュリティ
 description: Power BI のセキュリティ。 Power BI を Azure Active Directory や他の Azure サービスと関連付ける方法。 このトピックには、さらに詳しい情報が記載されたホワイト ペーパーへのリンクも含まれます。
 author: davidiseminger
+ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/11/2019
-ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: e067ac55d606372c05da1e0ebff76e4d05f35e9c
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: b70d23d7f4f5dfab9273319ad890a21c9b74ead2
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757509"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430371"
 ---
 # <a name="power-bi-security"></a>Power BI のセキュリティ
+
 Power BI のセキュリティについて詳しくは、[Power BI のセキュリティに関するホワイト ペーパーをご覧ください](whitepaper-powerbi-security.md)。
 
 Power BI サービスは、**Azure** 上に構築されています。これは、Microsoft のクラウド コンピューティングのインフラストラクチャとプラットフォームです。 Power BI サービスのアーキテクチャは、Web フロントエンド (**WFE**) クラスターと**バックエンド** クラスターという 2 つのクラスターに基づいています。 WFE クラスターでは、Power BI サービスへの最初の接続と認証を管理し、認証が完了した後、以降のユーザーとの対話はすべてバックエンドで処理されます。 Power BI では、Azure Active Directory (AAD) を使用してユーザー ID を格納および管理し、データとメタデータの格納については、それぞれ Azure BLOB と Azure SQL Database を使用して管理します。
 
 ## <a name="power-bi-architecture"></a>Power BI のアーキテクチャ
+
 Power BI のそれぞれのデプロイは、Web フロントエンド (**WFE**) クラスターと **バックエンド** クラスターという 2 つのクラスターで構成されています。
 
 **WFE** クラスターは、Power BI への最初の接続と認証のプロセスを管理します。AAD を使用してクライアントを認証し、Power BI サービスへのそれ以降のクライアント接続に対してトークンを提供します。 また、Power BI は、認証プロセスと静的コンテンツやファイルのダウンロードのために最も近いデータセンターにユーザー トラフィックを送信するために **Azure Traffic Manager** (ATM) も使用します。この送信先は、接続しようとしているクライアントの DNS レコードに基づいて決定されます。 Power BI は、**Azure Content Delivery Network** (CDN) を使用して、必要な静的コンテンツとファイルを地理的なロケールに基づいてユーザーに効率的に配布します。
@@ -35,22 +37,23 @@ Power BI のそれぞれのデプロイは、Web フロントエンド (**WFE**)
 
 > [!IMPORTANT]
 > **Azure API Management** (APIM) ロールと**ゲートウェイ** (GW) ロールのみが、パブリック インターネットを使用してアクセスされることに注意してください。 これらのロールは、認証、承認、DDoS に対する保護、スロットル、負荷分散、ルーティングなどの機能を提供します。
-> 
-> 
 
 ## <a name="data-storage-security"></a>データ ストレージのセキュリティ
+
 Power BI では、データの格納と管理に 2 つの主要なリポジトリが使用されます。ユーザーからアップロードされるデータは通常、**Azure BLOB** ストレージに送信され、システムそのものに関するすべてのメタデータとアーティファクトは **Azure SQL Database** に格納されます。
 
 上記の**バックエンド** クラスターの図で、点線は、ユーザーからアクセス可能なコンポーネント (点線の左側) と、システムからのみアクセスできるロールという 2 つのコンポーネントの境界線を明確に示しています。 認証されたユーザーが Power BI サービスに接続したとき、クライアントからの接続とすべての要求は**ゲートウェイ ロール**に受け入れられ、そのロールで管理されます (最終的には **Azure API Management** で処理されます)。次に、このロールがユーザーに代わって Power BI サービスの残りの部分と対話します。 たとえば、クライアントがダッシュボードを表示しようとすると、**ゲートウェイ ロール**がその要求を受け入れ、それとは別に**プレゼンテーション ロール**に要求を送り、ブラウザーでダッシュボードを表示するために必要なデータを取得します。
 
 ## <a name="user-authentication"></a>ユーザーの認証
-Power BI では、Power BI サービスにログインするユーザーを Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) を使用して認証します。その後、認証が必要なリソースにユーザーがアクセスしようとするたびに、Power BI ログイン資格情報が使用されます。 ユーザーは、Power BI アカウントを確立するために使用されたメール アドレスを使って、Power BI サービスにログインします。Power BI ではそのログイン メールを*有効なユーザー名*として使用します。このユーザー名は、ユーザーがデータに接続しようとするたびにリソースに渡されます。 その後、*有効なユーザー名*は*ユーザー プリンシパル名* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) にマップされ、認証の適用対象となる、関連付けられた Windows ドメイン アカウントに解決されます。
+
+Power BI では、Power BI サービスにサインインするユーザーを Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) を使用して認証します。その後、認証が必要なリソースにユーザーがアクセスしようとするたびに、Power BI ログイン資格情報が使用されます。 ユーザーは、Power BI アカウントを確立するために使用されたメール アドレスを使って、Power BI サービスにサインインします。Power BI ではそのログイン メールを*有効なユーザー名*として使用します。このユーザー名は、ユーザーがデータに接続しようとするたびにリソースに渡されます。 その後、*有効なユーザー名*は*ユーザー プリンシパル名* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) にマップされ、認証の適用対象となる、関連付けられた Windows ドメイン アカウントに解決されます。
 
 Power BI のログインに職場の電子メール (<em>david@contoso.com</em> など) を使用する組織では、"*有効なユーザー名*" から UPN へのマッピングは簡単です。 Power BI のログインに職場の電子メール (<em>david@contoso.onmicrosoft.com</em> など) を使用しない組織では、AAD とオンプレミスの資格情報との間のマッピングが適切に機能するために、[ディレクトリ同期](https://technet.microsoft.com/library/jj573653.aspx)が必要になります。
 
 また、Power BI のプラットフォーム セキュリティには、マルチテナント環境のセキュリティ、ネットワーク セキュリティ、その他の AAD ベースのセキュリティ対策を追加する機能も含まれています。
 
 ## <a name="data-and-service-security"></a>データとサービスのセキュリティ
+
 詳細については、[Microsoft セキュリティ センター](https://www.microsoft.com/trustcenter)を参照してください。
 
 この記事で前述したとおり、ユーザーの Power BI ログインは、資格情報の UPN にマッピングするためにオンプレミスの Active Directory サーバーで使用されます。 ただし、**重要な点として**、ユーザーは共有するデータに関して責任があることに注意してください。ユーザーが自分の資格情報を使用してデータ ソースに接続した場合に、そのデータに基づいてレポート (またはダッシュボードやデータセット) を共有すると、そのレポートを共有するユーザーは元のデータ ソースに対して認証されることがないため、レポートへのアクセスが許可されます。
@@ -66,4 +69,3 @@ Power BI のログインに職場の電子メール (<em>david@contoso.com</em> 
 **Power BI Desktop** では、これらの記事で説明されているレジストリ キー設定が優先され、また、存在する場合はこれらのレジストリ キー設定に基づいて許可される TLS のバージョンを使用して作成された接続のみが優先されます。
 
 これらのレジストリ キーの設定については詳しくは、[TLS レジストリ設定](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)に関する記事を参照してください。
-

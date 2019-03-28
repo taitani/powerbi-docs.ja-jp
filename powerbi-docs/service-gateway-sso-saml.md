@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555660"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306506"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへのシングル サインオン (SSO) に Security Assertion Markup Language (SAML) を使用します。
 
@@ -27,23 +27,43 @@ ms.locfileid: "57555660"
 
 [Kerberos](service-gateway-sso-kerberos.md) では、追加のデータ ソースをサポートしています。
 
+HANA の場合は、SAML SSO 接続を確立する前に暗号化を有効にすることを**強く**お勧めします (つまり、暗号化された接続を受け入れるように HANA サーバーを構成し、さらに HANA サーバーと通信するときに暗号化を使用するようにゲートウェイを構成する必要があります)。 HANA ODBC ドライバーは既定では SAML アサーションを暗号化することが**できません**。暗号化を有効にしないまま、署名された SAML アサーションがゲートウェイから HANA サーバーに "プレーンテキスト" で送信されると、そのアサーションは第三者による傍受および再利用に対して脆弱になります。
+
 ## <a name="configuring-the-gateway-and-data-source"></a>ゲートウェイとデータ ソースを構成する
 
-SAML を使用するには、最初に SAML ID プロバイダーの証明書を生成し、それから Power BI ユーザーを ID にマッピングします。
+SAML を使用するには、HANA サーバー (これに対して SSO を有効にする) とゲートウェイ (このシナリオでは SAML ID プロバイダー (IdP) として機能する) との間に信頼関係を確立する必要があります。 この関係を確立するにはさまざまな方法があります。たとえば、ゲートウェイ IdP の x509 証明書を HANA サーバーの信頼ストアにインポートするという方法や、HANA サーバーによって信頼されたルート証明機関 (CA) の署名が入ったゲートウェイの X509 証明書を用意するという方法が挙げられます。 このガイドでは後者の方法について説明しますが、もう一方が都合が良い場合はそちらを使用してかまいません。
 
-1. 証明書を生成します。 *共通名*に入力するときは、SAP HANA サーバーの FQDN を使用してください。 証明書の有効期限は 365 日で切れます。
+また、このガイドでは HANA サーバーの暗号化サービス プロバイダーとして OpenSSL を使用しますが、OpenSSL ではなく SAP 暗号化ライブラリ (CommonCryptoLib または sapcrypto とも呼ばれる) を使用して、信頼関係を確立するためのセットアップ手順を行うこともできます。 詳細については、公式の SAP ドキュメントを参照してください。
 
-    ```
-    openssl req -newkey rsa:2048 -nodes -keyout samltest.key -x509 -days 365 -out samltest.crt
-    ```
+次の手順では、HANA サーバーによって信頼されたルート CA を使用してゲートウェイ IdP の X509 証明書に署名することで、HANA サーバーとゲートウェイ IdP 間の信頼関係を確立する方法について説明します。
+
+1. ルート CA の X509 証明書と秘密キーを作成します。 たとえば、ルート CA の X509 証明書と秘密キーを .pem の形式で作成するには: 
+
+```
+openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
+```
+
+作成したばかりの、ルート CA によって署名された証明書が HANA サーバーによって信頼されるように、HANA サーバーの信頼ストアに証明書 (CA_Cert.pem など) を追加します。 ご利用の HANA サーバーの信頼ストアの場所は、**ssltruststore** 構成設定を調べれば見つかります。 OpenSSL の構成方法につい説明した SAP ドキュメントに従っている場合、再利用できるルート CA は既にご使用の HANA サーバーによって信頼されている可能性があります。 詳細については、「[How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571)」 (SAP HANA Studio と SAP HANA Server 間に Open SSL を構成する方法) を参照してください。 SAML SSO を有効にする HANA サーバーが複数ある場合は、このルート CA がそれらのサーバーの各々によって信頼されていることを確認します。
+
+1. ゲートウェイ IdP の X509 証明書を作成します。 たとえば、1 年間有効な証明書署名要求 (IdP_Req.pem) と秘密キー (IdP_Key.pem) を作成するには、次のコマンドを実行します。
+
+```
+ openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+```
+
+
+ご利用の HANA サーバーで信頼されるルート CA を使用して証明書署名要求に署名します。 たとえば、CA_Cert.pem と CA_Key.pem (ルート CA の証明書とキー) を使用して IdP_Req.pem に署名するには、次のコマンドを実行します。
+
+  ```
+openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
+```
+結果として生成される IdP 証明書は 1 年間有効になります (日付けオプションを参照)。 ここで、ご自分の IdP の証明書を HANA Studio にインポートして、新しい SAML ID プロバイダーを作成します。
 
 1. SAP HANA Studio で、SAP HANA サーバーを右クリックし、**[Security]\(セキュリティ\)** > **[Open Security Console]\(セキュリティ コンソールを開く\)** > **[SAML Identity Provider]\(SAML ID プロバイダー\)** > **[OpenSSL Cryptographic Library]\(OpenSSL 暗号化ライブラリ\)** の順に移動します。
 
-    OpenSSL ではなく SAP 暗号化ライブラリ (CommonCryptoLib または sapcrypto とも呼ばれる) を使用して、これらのセットアップ手順を行うこともできます。 詳細については、公式の SAP ドキュメントを参照してください。
-
-1. **[Import]\(インポート\)** を選択し、samltest.crt を参照してそれをインポートします。
-
     ![ID プロバイダー](media/service-gateway-sso-saml/identity-providers.png)
+
+1. **[Import]\(インポート\)** を選択し、IdP_Cert.pem に移動し、これをインポートします。
 
 1. SAP HANA Studio で **[Security]\(セキュリティ\)** フォルダーを選択します。
 
@@ -61,10 +81,10 @@ SAML を使用するには、最初に SAML ID プロバイダーの証明書を
 
 これで証明書と ID を構成できたので、証明書を pfx 形式に変換し、証明書を使用するようにゲートウェイ コンピューターを構成します。
 
-1. 次のコマンドを実行し、証明書を pfx 形式に変換します。
+1. 次のコマンドを実行し、証明書を pfx 形式に変換します。 このコマンドでは pfx ファイルのパスワードとして "root" が設定されることに注意してください。
 
     ```
-    openssl pkcs12 -inkey samltest.key -in samltest.crt -export -out samltest.pfx
+    openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
     ```
 
 1. ゲートウェイ コンピューターに pfx ファイルをコピーします。

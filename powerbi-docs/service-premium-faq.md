@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fbb303a85895c08d0dc04630a12076a279e2586f
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794941"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383339"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium のよく寄せられる質問
 
@@ -66,7 +66,7 @@ Power BI Premium は、仮想コア数に基づいて購入します。 価格�
 Power BI Premium は、年間契約で毎月請求されます。
 
 **Power BI Premium の購入方法を教えてください。**  
-Power BI Premium は、Office 365 管理センターから入手できます。 詳細については、「[How to purchase Power BI Premium](service-admin-premium-purchase.md)」(Power BI Premium の購入方法) を参照してください。 また、詳細については Microsoft の担当者に相談にお問い合わせください。
+Power BI Premium は、Microsoft 365 管理センターから入手できます。 詳細については、「[How to purchase Power BI Premium](service-admin-premium-purchase.md)」(Power BI Premium の購入方法) を参照してください。 また、詳細については Microsoft の担当者に相談にお問い合わせください。
 
 **購入する必要がある Power BI Premium の容量を知るにはどうすればよいですか?**  
 この[コスト計算ツール](https://powerbi.microsoft.com/calculator/)を使用して、必要な Power BI Premium の容量を見積もることができます。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430223"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383240"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織での Power BI のライセンス
 
@@ -35,7 +35,7 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
 組織の個人ユーザーは、Power BI Pro の試用版にサインアップできます。 詳細については、「[個人として Power BI にサインアップする](service-self-service-signup-for-power-bi.md)」を参照してください。
 
-この製品内 Power BI Pro 試用版を利用するユーザーは、Office 365 の管理ポータルでは Power BI Pro 試用版のユーザーとして表示されません (Power BI 試用版ユーザーとして表示されます)。 ただし、Power BI の記憶域の管理ページでは Power BI Pro 試用版ユーザーとして表示されます。
+この製品内 Power BI Pro 試用版を利用するユーザーは、Microsoft 365 管理センターでは Power BI Pro 試用版のユーザーとして表示されません (Power BI 試用版ユーザーとして表示されます)。 ただし、Power BI の記憶域の管理ページでは Power BI Pro 試用版ユーザーとして表示されます。
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Power BI Pro の組織向け試用版
 
@@ -47,7 +47,7 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
 * 組織用の試用版は、テナントあたり 1 つしか使用できません。 これは、Power BI Pro の試用版を誰かがすでにテナントに適用している場合、もう一度適用することはできないことを意味します。 これについてサポートが必要な場合は、[Office 365 の課金サポート](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671)にお問い合わせください。
 
-1. [Office 365 管理センター](https://portal.office.com/adminportal/home#/homepage)に移動します。
+1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)に移動します。
 
 1. 左側のナビゲーション ウィンドウで、**[課金]**、**[サブスクリプション]** の順に選択します。
 
@@ -71,7 +71,7 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
 組織内のユーザーは、2 種類の方法で Power BI の無料ライセンスにアクセスできます。
 
-* Office 365 管理ポータル内から、ユーザーに Power BI ライセンスを割り当てることができます。
+* Microsoft 365 管理センター内から、ユーザーに Power BI ライセンスを割り当てることができます。
 
 * ユーザーが [Power BI Pro の試用版にサインアップ](service-self-service-signup-for-power-bi.md)し、試用版の期限が切れた場合、無料ライセンスが割り当てられます。
 
@@ -81,7 +81,7 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
 このライセンス ブロックは、だれかが最初に Power BI に個人としてサインアップした後で利用できます。 このライセンス ブロックは、その処理時に組織に関連付けられ、サインアップするユーザーにライセンスが割り当てられます。
 
-1. Office 365 管理センターの **[課金]** > **[ライセンス]** で **[無制限]** を確認します。
+1. Microsoft 365 管理センターの **[課金]** > **[ライセンス]** で **[無制限]** を確認します。
 
     ![無制限の無料ライセンス ブロック](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -93,7 +93,7 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
 無制限の Power BI Free ライセンスのブロックが利用できず、個人としてサインアップも行わない場合、次の手順に従います。
 
-1. [Office 365 管理センター](https://portal.office.com/admin/default.aspx)に移動します。
+1. [Microsoft 365 管理センター](https://portal.office.com/admin/default.aspx)に移動します。
 
 1. 左側のナビゲーション ウィンドウで、**[課金]** > **[サブスクリプション]** を選択します。
 

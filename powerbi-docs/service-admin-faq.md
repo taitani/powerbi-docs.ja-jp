@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 54bdc0cb3490cf2149f2fda51939c201cd51518f
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980429"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383441"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -60,7 +60,7 @@ ms.locfileid: "57980429"
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>ユーザーは Power BI にどのような方法でサインアップできますか。
 
-管理者は、[Power BI Web サイト](https://powerbi.microsoft.com)または Office 365 管理センターの[サービス購入](https://admin.microsoft.com/AdminPortal/Home#/catalog)ページから、Power BI にサインアップすることができます。 管理者が Power BI にサインアップした場合は、アクセスする必要があるユーザーにユーザー ライセンスを割り当てることができます。
+管理者は、[Power BI Web サイト](https://powerbi.microsoft.com)または Microsoft 365 管理センターの[サービス購入](https://admin.microsoft.com/AdminPortal/Home#/catalog)ページから、Power BI にサインアップすることができます。 管理者が Power BI にサインアップした場合は、アクセスする必要があるユーザーにユーザー ライセンスを割り当てることができます。
 
 さらに、組織内の個々のユーザーは、[Power BI Web サイト](https://powerbi.microsoft.com)から Power BI にサインアップすることができます。 組織内のユーザーが Power BI にサインアップすると、そのユーザーに Power BI ライセンスが自動的に割り当てられます。 詳しくは、「[個人として Power BI にサインアップする](service-self-service-signup-for-power-bi.md)」および「[組織での Power BI のライセンス](service-admin-licensing-organization.md)」をご覧ください。
 
@@ -169,7 +169,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-do-we-manage-power-bi"></a>Power BI を管理するにはどうすればよいですか。
 
-Power BI には、使用状況の統計を表示できる管理ポータル、ユーザーとグループを管理するための Office 365 管理センターへのリンク、テナント全体の設定を制御するための機能が用意されています。
+Power BI には、使用状況の統計を表示できる管理ポータル、ユーザーとグループを管理するための Microsoft 365 管理センターへのリンク、テナント全体の設定を制御するための機能が用意されています。
 
 Power BI 管理ポータルにアクセスするには、アカウントが Office 365 または Azure Active Directory 内で**全体管理者**とマークされているか、Power BI サービス管理者ロールを割り当てられている必要があります。 詳しくは、「[Power BI 管理者の役割について](service-admin-role.md)」および「[Power BI 管理ポータル](service-admin-portal.md)」をご覧ください。
 
@@ -196,7 +196,7 @@ Power BI 管理ポータルにアクセスするには、アカウントが Offi
 
 Power BI にサインアップする必要がなくなったユーザーが Power BI にアクセスできないようにする場合は、そのユーザーの Power BI ライセンスを削除できます。
 
-1. [Office 365 管理センター](https://admin.microsoft.com/AdminPortal/Home#/homepage)に移動します。
+1. [Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/Home#/homepage)に移動します。
 
 1. 左側のナビゲーション バーで、**[ユーザー]** > **[アクティブ ユーザー]** の順に選択します。
 
@@ -214,7 +214,7 @@ Power BI にサインアップする必要がなくなったユーザーが Powe
 
 このプログラムの一部であるテナントに参加したユーザーには、管理ダッシュボードの [アクティブ ユーザー] ウィンドウでフィルター処理することができる一意のライセンスが割り当てられます。 この新しいビューを作成するには、次の手順のようにします。
 
-1. [Office 365 管理センター](https://admin.microsoft.com/AdminPortal/Home#/homepage)に移動します。
+1. [Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/Home#/homepage)に移動します。
 
 1. 左側のナビゲーション バーで、**[ユーザー]** > **[アクティブ ユーザー]** の順に選択します。
 
@@ -232,7 +232,7 @@ Power BI にサインアップする必要がなくなったユーザーが Powe
 
 パスワードのリセット要求が増える可能性があります。 このプロセスの詳細については、「[Office 365 でユーザーのパスワードを再設定する](/office365/admin/add-users/reset-passwords)」を参照してください。
 
-テナントからのユーザーの削除は、Office 365 管理センターの標準的なプロセスを使用して実行できます。 ただし、ユーザーが組織のアクティブなメール アドレスを引き続き使用する場合、すべてのユーザーがブロックされない限り、そのユーザーはテナントに再び参加できます。
+テナントからのユーザーの削除は、Microsoft 365 管理センターの標準的なプロセスを使用して実行できます。 ただし、ユーザーが組織のアクティブなメール アドレスを引き続き使用する場合、すべてのユーザーがブロックされない限り、そのユーザーはテナントに再び参加できます。
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Power BI テナントの場所
 

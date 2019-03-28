@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216863"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383717"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -346,7 +346,7 @@ ms.locfileid: "56216863"
 
 ***管理ポータル***
 
-* O365 管理センターへのリンクによる簡単なユーザー管理
+* Microsoft 365 管理センターへのリンクによる簡単なユーザー管理
 * Web への公開を無効にする機能
 * ユーザーがコンテンツ パックを組織全体に公開することを防ぐ機能
 * 外部ユーザーとのコンテンツの共有を無効にする機能
@@ -508,7 +508,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * Power BI ドキュメントの新しいサイトがローカライズされました
 * レポートの読み込み時間が改善されました
 * 組織のコンテンツ パックが更新されました (レポートのみの変更)
-* Office 365 管理ポータルの Power BI の正常性状態
+* Microsoft 365 管理センターでの Power BI の正常性状態
 * テーブル、マトリックス、カードの KPI と画像
 
 詳細については、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)をご覧ください

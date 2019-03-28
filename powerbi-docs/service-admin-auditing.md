@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980406"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383487"
 ---
 # <a name="using-auditing-within-your-organization"></a>組織内での監査の使用
 
@@ -34,7 +34,7 @@ Office 365 セキュリティ/コンプアライアンス センターで監査�
 
     管理者以外のアカウントに監査ログへのアクセス許可を与えるには、これらのロール グループのいずれかのメンバーとしてそのユーザーを追加する必要があります。 または、Exchange 管理センターでカスタム ロール グループを作成し、Audit Logs (監査ログ) または View-Only Audit Logs (表示専用監査ログ) ロールをこのグループに割り当ててから、管理者以外のアカウントをこの新しいロール グループに追加することができます。 詳細については、「[Manage role groups in Exchange Online (Exchange Online でロール グループを管理する)](/Exchange/permissions-exo/role-groups)」をご覧ください。
 
-    Office 365 管理センターから Exchange 管理センターにアクセスできない場合は、 https://outlook.office365.com/ecp に移動し、ご自分の資格情報を使ってサインインします。
+    Microsoft 365 管理センターから Exchange 管理センターにアクセスできない場合は、 https://outlook.office365.com/ecp に移動し、ご自分の資格情報を使ってサインインします。
 
 * 監査ログへのアクセス権はあっても、グローバル管理者または Power BI サービスの管理者ではない場合は、Power BI 管理ポータルにアクセスできません。 この場合、[Office 365 セキュリティ/コンプライアンス センター](https://sip.protection.office.com/#/unifiedauditlog)への直接リンクを使う必要があります。
 
@@ -50,9 +50,9 @@ Power BI 監査ログは、[Office 365 セキュリティ/コンプアライア�
 
 1. **[監査ログ]** を選びます。
 
-1. **[O365 管理センターに移動]** を選択します。
+1. **[Microsoft 365 管理センターに移動]** を選択します。
 
-   ![O365 管理センターに移動](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Microsoft 365 管理センターに移動](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Power BI のアクティビティのみを検索する
 
@@ -214,7 +214,7 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI データソースを引継ぎました                   | TakeOverDatasource                          |                                          |
 | Power BI データセットを引き継ぎました                        | TakeOverDataset                             |                                          |
 | 未発行の Power BI アプリ                          | UnpublishApp                                |                                          |
-| 容量リソース管理設定の更新      | UpdateCapacityResourceGovernanceSettings    | 現在 Office 365 管理ポータルにない |
+| 容量リソース管理設定の更新      | UpdateCapacityResourceGovernanceSettings    | 現在 Microsoft 365 管理センターに存在していません |
 | 容量管理者を更新しました                            | UpdateCapacityAdmins                        |                                          |
 | 容量表示名を更新しました                     | UpdateCapacityDisplayName                   |                                          |
 | 組織の Power BI 設定を更新しました          | UpdatedAdminFeatureSwitch                   |                                          |

@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: b24bde73c4f0e5f30c8baad7910fe9d9d924c3dc
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: a27a6f9ce1eac861415a8231eb50ec898900202e
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226160"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430348"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
@@ -166,7 +166,7 @@ Power BI 環境で多要素認証を使ったサインインが必要な場合�
 
 * この問題は Internet Explorer 10 を使用する場合に発生する可能性があります。 [Power BI](consumer/end-user-browsers.md) および [Office 365](https://products.office.com/office-system-requirements#Browsers-section) でサポートされているブラウザーをご確認ください。
 
-* Power BI Web パーツは、[ソブリン クラウド](https://powerbi.microsoft.com/clouds/)では利用できません。
+* Power BI Web パーツは、[国内クラウド](https://powerbi.microsoft.com/clouds/)では利用できません。
 
 * 従来の SharePoint はこの Web パーツではサポートされていません。
 

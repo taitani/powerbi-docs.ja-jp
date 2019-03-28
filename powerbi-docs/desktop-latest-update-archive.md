@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 536e433540d371838b027e06f857609024e213f3
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964987"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430486"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -119,7 +119,7 @@ ms.locfileid: "57964987"
 
 ## <a name="december-2018-update-2655313501"></a>2018 年 12 月の更新 (2.65.5313.501)
 
-12 月の更新は、あなたの頭の中で「金平糖の踊り」が鳴り出すような内容でした。あるいは少なくとも、データ ドリブンにより作られた「金平糖の踊り」のようなビジュアルには説得力がありました。 
+12 月の更新は、あなたの頭の中で "金平糖の踊り" が鳴り出すような内容でした。あるいは少なくとも、データ ドリブンにより作られた "金平糖の踊り" のようなビジュアルには説得力がありました。 
 
 [最新バージョンの Power BI Desktop をダウンロード](https://powerbi.microsoft.com/desktop)できるようになりました。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 バージョン番号が異なる場合でも、月次バージョン番号は **Power BI Desktop** のインストール方法に関係なく同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
 
@@ -558,7 +558,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 
 ### <a name="other"></a>その他
 
-* ソブリン クラウド セレクター [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* 国内クラウド セレクター [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
@@ -2225,7 +2225,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 -   サイズ変更可能なナビゲーター ダイアログ
 
--   ナビゲーターの項目の複数選択機能 (CTRL キーを押しながらクリック、SHIFT キーを押しながらクリックなど)
+-   ナビゲーターの項目の複数選択機能 (Ctrl キーを押しながらクリック、Shift キーを押しながらクリックなど)
 
 **クエリ エディターの改良:**
 
@@ -2250,7 +2250,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 この更新プログラムでは、次の機能が追加されました。
 
--   **新しいデータ コネクタ**: appFigures、Quickbooks Online、Zendesk、Github、Twilio、および SweetIQ。
+-   **新しいデータ コネクタ**: appFigures、Quickbooks Online、Zendesk、GitHub、Twilio、SweetIQ。
 
 -   **新しい変換**: テキスト列からの最初または最後の文字範囲の抽出、[クエリのマージ] ダイアログ ボックスで結合の種類を指定するオプション、[区切り文字で列を分割] ダイアログ ボックスで引用符のスタイルをカスタマイズする機能。
 

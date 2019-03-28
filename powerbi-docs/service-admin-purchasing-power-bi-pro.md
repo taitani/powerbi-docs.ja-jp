@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 76288ca77f184b27b5839377190a1708c69567af
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430696"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383088"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro のライセンスを購入して割り当てる
 
@@ -33,7 +33,7 @@ Azure でライセンスの割り当てを行うユーザーは、Power BI が A
 
 Power BI Pro ライセンスを購入するには、次の手順に従います。
 
-1. [Office 365 管理センター](https://portal.office.com/adminportal/home#/homepage)を開きます。
+1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)を開きます。
 
 2. 左側のナビゲーション ウィンドウで、**[課金]** > **[サブスクリプション]** を選択します。
 
@@ -71,7 +71,7 @@ Power BI Pro ライセンスを購入するには、次の手順に従います�
 
 次の手順に従って、個々のユーザー アカウントに Power BI Pro ライセンスを割り当てます。
 
-1. [Office 365 管理センター](https://portal.office.com/adminportal/home#/homepage)を開きます。
+1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)を開きます。
 
 2. 左側のナビゲーション ウィンドウで、**[ユーザー]** を展開し、**[アクティブ ユーザー]** を選択します。
 

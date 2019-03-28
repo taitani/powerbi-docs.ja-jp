@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249116"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306299"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop レポートのアクセシビリティ
 Power BI には、障碍のある方がより簡単に Power BI レポートを使用し、レポートと対話できる機能があります。 これらは、レポートでキーボードやスクリーンリーダーを使用したり、ページ上のさまざまなオブジェクトにフォーカスをタブ移動したり、マーカーを使用して気の利いた視覚化を実行するための機能です。
@@ -137,6 +137,13 @@ Microsoft はアクセシビリティを改善する取り組みを続けてい�
 | :------------------- | :------------------- |
 | 視覚化メニューにフォーカスを移動します | Alt + Shift + F10 |
 | データの表示 | Alt + Shift + F11  |
+| 視覚エフェクトを入力します | Ctrl + 右方向キー |
+| レイヤーを入力します | データの |
+| レイヤーまたは視覚エフェクトを終了します | Esc |
+| データ ポイントを選択または選択解除します | Enter または Space |
+| 複数選択 | Ctrl + Enter または Ctrl + Space |
+| 右クリック | <ul><li>Windows のキーボード:Windows コンテキスト キー + F10。  Windows コンテキスト キーは左側の Alt キーと左側の矢印キーの間にあります</li><li>その他のキーボード:Shift + F10</li></ul> |
+| 選択を解除します | Ctrl + Shift + C |
 
 ### <a name="pane-navigation"></a>ウィンドウのナビゲーション
 | 操作の内容           | 押すキー                |
