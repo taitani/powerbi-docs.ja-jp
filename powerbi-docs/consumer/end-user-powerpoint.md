@@ -11,18 +11,19 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014302"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473800"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Power BI から PowerPoint にレポートをエクスポートする
 Power BI では、レポートを **Microsoft PowerPoint** に発行して、Power BI レポートに基づくスライド デッキを簡単に作成できます。 **PowerPoint にエクスポート**すると、次のようになります。
 
 * Power BI レポートの各ページは、PowerPoint では個別のスライドになります
-* Power BI レポートの各ページは、単一の高解像度のイメージとして PowerPoint にエクスポートされます <!-- * The filters and slicers settings that you added to the report are preserved. -->
+* Power BI レポートの各ページは、単一の高解像度のイメージとして PowerPoint にエクスポートされます
+<!-- * The filters and slicers settings that you added to the report are preserved. -->
 * PowerPoint に、Power BI レポートへのリンクが作成されます 
 
 **Power BI レポート**は、**PowerPoint** に短時間でエクスポートできます。 次のセクションで説明する手順に従うだけです。
@@ -91,6 +92,7 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 * 前述のように、各レポート ページは、PowerPoint ファイルに単一のイメージとしてエクスポートされます。
 * Power BI サービスでは、Power BI の言語設定を PowerPoint のエクスポート用の言語として使用します。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](media/end-user-powerpoint/power-bi-settings-icon.png) **、[設定]、[全般]、[言語]** の順に選択します。
 * エクスポートした PowerPoint ファイルの、表紙スライドの **[Downloaded at]\(ダウンロードした時刻\)** は、お使いのコンピューターのタイム ゾーンにおけるエクスポート時の時刻に設定されます。
+* 現在、エクスポートに [現在の値] を選択した場合、URL フィルターは適用されません。
 
 ## <a name="next-steps"></a>次の手順
 [レポートの印刷](end-user-print.md)

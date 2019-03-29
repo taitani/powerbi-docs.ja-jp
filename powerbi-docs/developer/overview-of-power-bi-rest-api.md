@@ -9,45 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: d8cad602b178dd55184e00e2a318c374433b1a46
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 764718ab86e040509790dd4debbbef25b6079a14
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762331"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473777"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Power BI API の開発者向け機能
 
-Power BI には、対話型で、さまざまなデータ ソースからリアルタイムで作成、更新できるダッシュボードが表示されます。 REST 呼び出しをサポートするプログラミング言語を使って、リアルタイムで Power BI ダッシュボードと統合するアプリを作成できます。 アプリに、Power BI のタイルとレポートを統合することもできます。
+Power BI REST API を使用すると、Power BI レポートを埋め込んだアプリを作成できます。 Power BI タイルとダッシュボードをアプリに統合することもできます。
 
-開発者は、対話型のレポートやダッシュ ボードで使用できる独自のデータ表示を作成することもできます。
+Power BI REST API を使用すると、レポート、データセット、ワークスペースなどの Power BI オブジェクトで管理タスクを実行できます。
 
 Power BI API を使って行うことのできる例は以下のとおりです。
 
 | **操作の内容** | **参照先** |
 | --- | --- |
-| Power BI ユーザーと Power BI 以外のユーザーのためにダッシュボード、レポート、タイルを埋め込む (アプリ所有データ) |[Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embedding-content.md) |
-| 既存のビジネス ワークフローを拡張して、主要なデータを Power BI ダッシュボードにプッシュします。 |[ダッシュボードにデータをプッシュする](walkthrough-push-data.md) |
-| Power BI に対して認証を行う |[Power BI に対して認証を行う](get-azuread-access-token.md) |
-| カスタム ビジュアルを作成します。 |[Power BI カスタム ビジュアルの開発](custom-visual-develop-tutorial.md) |
+| Power BI ユーザーと Power BI 以外のユーザーのためにレポート、ダッシュボード、タイルを埋め込む |[Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embedding-content.md) |
+| Power BI オブジェクトで管理タスクを実行する |[Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/) |
 
 > [!NOTE]
 > Power BI API では引き続き、アプリ ワークスペースをグループと呼びます。 したがって、グループと記述されている場合はすべて、アプリ ワークスペースを使用していることを意味します。
-
-## <a name="power-bi-developer-samples"></a>Power BI の開発者向けサンプル
-
-Power BI 開発者向けのサンプルには、ダッシュ ボード、レポート、タイルの埋め込み項目が含まれます。
-
-[Power BI の開発者向けサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples)
-
-* **App Owns Data** 内のサンプルは Power BI 以外のユーザーでの埋め込み用です。
-* **User Owns Data** 内のサンプルは Power BI ユーザーでの埋め込み用です。
-
-## <a name="github-repositories"></a>GitHub リポジトリ
-
-* [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
-* [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
-* [カスタム ビジュアル](https://github.com/Microsoft/PowerBI-visuals)
 
 ## <a name="developer-tools"></a>開発者向けツール
 
@@ -61,18 +44,12 @@ Power BI 開発者向けのサンプルには、ダッシュ ボード、レポ�
 
 * [組織向けの埋め込み](embedding.md#embedding-for-your-organization)を使って、Power BI サービスを拡張することができます。 [組織向けの埋め込み](https://aka.ms/embedsetup/UserOwnsData)ソリューションを実行します。
 
-JavaScript API の使用に関する完全なサンプルについては、[Playground ツール](https://microsoft.github.io/PowerBI-JavaScript/demo)を使用できます。 このツールを使うと、さまざまな種類の Power BI Embedded のサンプルを簡単に再生できます。 JavaScript API について詳しくは、[PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) のページもご覧ください。
+JavaScript API を使用する完全なサンプルの場合、[Playground ツール](https://microsoft.github.io/PowerBI-JavaScript/demo)を使用できます。 このツールを使うと、さまざまな種類の Power BI Embedded のサンプルを簡単に再生できます。 JavaScript API について詳しくは、[PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) に関するページもご覧ください。
 
-## <a name="push-data-into-power-bi"></a>Power BI にデータをプッシュする
+## <a name="github-repositories"></a>GitHub リポジトリ
 
-Power BI API を使って、データセットにデータをプッシュできます。 この機能により、データセット内のテーブルに行を追加できます。 ダッシュボードのタイルやレポートのビジュアルに新しいデータを反映できます。
-
-![サンプル データ をプッシュする](media/what-can-you-do/powerbi-push-data.png)
-
-## <a name="next-steps"></a>次の手順
-
-[データセットにデータをプッシュする](walkthrough-push-data.md)  
-[Power BI カスタム ビジュアルの開発](custom-visual-develop-tutorial.md)  
-[Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI の開発者向けサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples)
+* [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
+* [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
