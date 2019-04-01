@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383717"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489593"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -32,12 +32,21 @@ ms.locfileid: "58383717"
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 
-## <a name="february-2019"></a>2019 年 2 月
-* [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)でのワークロードとアクティブなデータセットのサイズのメトリック。
-* PDF へのエクスポートと、オンデマンドでの電子メール サブスクリプション (service-report-subscribe.md)。
-* 管理ポータルでの一括操作。
+## <a name="march-2019"></a>2019 年 3 月
+* Power BI Premium の Multi-Geo の一般提供。
+* Azure B2B に対する Power BI コンテンツの編集と管理のサポート。
 
 ## <a name="previous-months-2019"></a>前の月 (2019)
+### <a name="february-2019"></a>2019 年 2 月
+* [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)でのワークロードとアクティブなデータセットのサイズのメトリック。
+* Power BI レポートの PDF へのエクスポート。
+* [オンデマンドの電子メールのサブスクリプション](service-report-subscribe.md)。
+* 管理ポータルでの一括操作。
+* PPT および PDF 用のフィルター処理済みエクスポート。
+* 管理ポータルでの[ヘルプとサポートの設定](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/)。
+* [データフロー](service-dataflows-overview.md)向けデータ系列エクスペリエンス。
+* 管理ポータルでの認定済みカスタム ビジュアル設定。
+
 ### <a name="january-2019"></a>2019 年 1 月
 * 内部ポータルまたは Web サイトでの[セキュリティ保護された Power BI レポートの埋め込み](service-embed-secure.md)。
 * 新しいコネクタでの[データフロー](service-dataflows-overview.md) エディターへの更新と、ネイティブ SQL クエリおよび Power Query Online 変換のサポート。
