@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/31/2018
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 26cf9b10d2a7bfffca151fe36cd45626487b6eef
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 8186cebfce23ab5cb73862541213260a80182230
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383648"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872480"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>サインインした Power BI ユーザーを見つける
 
@@ -68,5 +68,5 @@ ms.locfileid: "58383648"
 
 [組織内での監査の使用](service-admin-auditing.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください。](https://community.powerbi.com/)
 
