@@ -628,21 +628,21 @@ items:
         href: publisher-for-excel.md
     - name: セルフサービスのデータ作成
       items:
-      - name: データフローを使用したセルフサービスのデータ作成 (プレビュー)
+      - name: データフローを使用したセルフサービスのデータ準備
         href: service-dataflows-overview.md
-      - name: データフローを作成して使用する (プレビュー)
+      - name: データフローの作成と使用
         href: service-dataflows-create-use.md
-      - name: Power BI Premium での計算されたエンティティ (プレビュー)
+      - name: Power BI Premium での計算されたエンティティ
         href: service-dataflows-computed-entities-premium.md
-      - name: データフローを使用してのデータ ソースへの接続 (プレビュー)
+      - name: データフローを使用してのデータ ソースへの接続
         href: service-dataflows-data-sources.md
-      - name: オンプレミス データ ソースでのデータフローの使用 (プレビュー)
+      - name: オンプレミス データ ソースでのデータフローの使用
         href: service-dataflows-on-premises-gateways.md
-      - name: データフロー間でエンティティをリンクする (プレビュー)
+      - name: データフロー間でエンティティをリンクする
         href: service-dataflows-linked-entities.md
-      - name: データフローでの増分更新の使用 (プレビュー)
+      - name: データフローでの増分更新の使用
         href: service-dataflows-incremental-refresh.md
-      - name: データフロー用の開発者向けリソース (プレビュー)
+      - name: データフロー用の開発者向けリソース
         href: service-dataflows-developer-resources.md
       - name: Power BI Desktop でデータフローに接続する
         href: desktop-connect-dataflows.md
@@ -654,9 +654,9 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
         href: service-dataflows-add-cdm-folder.md
-      - name: Power BI で Machine Learning を統合する
+      - name: Power BI (プレビュー) で Machine Learning を統合する
         href: service-machine-learning-integration.md
-      - name: Power BI での Cognitive Services の使用
+      - name: Power BI での Cognitive Services の使用 (プレビュー)
         href: service-cognitive-services.md
       - name: Power BI での自動化 された機械学習 (プレビュー)
         href: service-machine-learning-automated.md
@@ -880,6 +880,18 @@ items:
         href: developer/embedding.md
       - name: Azure での Power BI Embedded とは
         href: developer/azure-pbie-what-is-power-bi-embedded.md
+    - name: クイックスタート
+      items:
+      - name: Azure で容量を管理する
+        items:
+        - name: Azure で容量を作成する
+          href: developer/azure-pbie-create-capacity.md
+        - name: Azure で Multi-Geo を使用して容量を作成する
+          href: developer/embedded-multi-geo.md
+        - name: Azure で容量をスケールする
+          href: developer/azure-pbie-scale-capacity.md
+        - name: Azure で容量を一時停止し、開始する
+          href: developer/azure-pbie-pause-start.md
     - name: チュートリアル
       items:
       - name: 顧客向けにコンテンツを埋め込む
@@ -1034,6 +1046,16 @@ items:
       items:
       - name: データセットにデータをプッシュする
         href: developer/walkthrough-push-data.md
+      - name: アプリを Azure AD に登録する
+        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
+      - name: 認証アクセス トークンを取得する
+        href: developer/walkthrough-push-data-get-token.md
+      - name: データセットの作成
+        href: developer/walkthrough-push-data-create-dataset.md
+      - name: 行を追加するためにデータセットを取得する
+        href: developer/walkthrough-push-data-get-datasets.md
+      - name: テーブルに行を追加する
+        href: developer/walkthrough-push-data-add-rows.md
     - name: 概念
       items:
       - name: リアルタイム データの自動保持ポリシー
@@ -1048,16 +1070,6 @@ items:
           href: developer/api-data-model-versioning.md
     - name: 方法
       items:
-      - name: アプリを Azure AD に登録する
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
-      - name: 認証アクセス トークンを取得する
-        href: developer/walkthrough-push-data-get-token.md
-      - name: データセットの作成
-        href: developer/walkthrough-push-data-create-dataset.md
-      - name: 行を追加するためにデータセットを取得する
-        href: developer/walkthrough-push-data-get-datasets.md
-      - name: テーブルに行を追加する
-        href: developer/walkthrough-push-data-add-rows.md
       - name: 資格情報を構成する
         href: developer/configure-credentials.md
       - name: 資格情報を暗号化する
@@ -1331,9 +1343,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1de602579c97a56c7db5b0b92a8b6bc9f1134ec6
-ms.sourcegitcommit: 6070b5726629dde6dee262f77e9957496405d501
+ms.openlocfilehash: acffbdf5b7a4951baae0dc6a4afc624371da560b
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58639370"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872595"
