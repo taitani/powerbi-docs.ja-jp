@@ -8,14 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
+helpviewer_keywords:
+- embedded analytics
+- embedding
+- Power BI embedding
+- app owns data
+- user owns data
+- Power BI APIs
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0a4b43bd02697472a0bbdf16171ba655fc014dbc
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762446"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872710"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI を使用した埋め込み分析
 
@@ -82,7 +89,7 @@ Power BI Pro アカウントは、アプリケーションのマスター アカ
 Power BI コンテンツをアプリケーションに埋め込んだり、顧客向けに Power BI コンテンツを埋め込んだりすることができます。
 
 > [!div class="nextstepaction"]
-> [組織向けの埋め込み](embed-sample-for-your-organization.md)
+> [組織向けに埋め込む](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
 > [Power BI Embedded とは何ですか?](azure-pbie-what-is-power-bi-embedded.md)
@@ -90,4 +97,4 @@ Power BI コンテンツをアプリケーションに埋め込んだり、顧�
 > [!div class="nextstepaction"]
 >[顧客向けに埋め込む](embed-sample-for-customers.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください。](http://community.powerbi.com/)

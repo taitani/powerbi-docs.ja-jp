@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826723"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872733"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,16 @@ ms.locfileid: "56826723"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="march-2019"></a>2019 年 3 月
+
+### <a name="supporting-external-guest-users-in-power-bi-apps-ios-android"></a>Power BI アプリでの外部ゲスト ユーザーのサポート (iOS、Android)
+
+アプリ (B2B とも呼ばれる) から直接、他の組織から共有している Power BI コンテンツにアクセスできます。 Power BI モバイル アプリ B2B の詳細については、[こちら](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-now-support-azure-ad-b2b-guest-users/)をご覧ください。
+
+### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>スライド ショーでの Windows プレゼンテーション モードの強化 (Windows)
+
+[スライド ショー](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)では、オフィスにあるパブリック表示を使用して、レポート ページ間で自動的にローテーションする Power BI レポートを全画面で実行することができます。  
 
 ## <a name="january---february-2019"></a>2019 年 1 月 - 2 月
  

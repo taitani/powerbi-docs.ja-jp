@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 20faef99f710ebbc3eacebe15b5101726b895688
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da6ec79a821e7aa9659843d0461ca6ac0b11706d
+ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279281"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "58914169"
 ---
 # <a name="analyze-in-excel"></a>Excel で分析
 Excel を使用して Power BI にあるデータセットを表示したり、データセットと対話したりする必要が生じる場合があります。 **[Excel で分析]** を使用すれば、Power BI に存在するデータセットに応じて、表示や対話だけでなく、Excel 内で PivotTable、グラフ、スライサーの機能を活用できます。
@@ -27,7 +27,8 @@ Excel を使用して Power BI にあるデータセットを表示したり、�
 * **[Excel で分析]** は、Microsoft Excel 2010 SP1 以降でサポートされています。
 * Excel のピボット テーブルは、数値フィールドのドラッグ アンド ドロップでの集計をサポートしていません。 Power BI でのデータセットには、*メジャーを事前定義する必要があります*。
 * 一部の組織では、グループ ポリシーの規則により、必要な **[Excel で分析]** 更新プログラムを Excel にインストールできないことがあります。 更新プログラムをインストールできない場合は、管理者に問い合わせてください。
-* **[Excel で分析]** には、Pro ライセンスが必要です。 ライセンスの種類の機能の違いについては、「[Power BI features by license type](service-features-license-type.md)」 (Power BI のライセンスの種類別機能) を参照してください。 
+* **[Excel で分析]** では、Power BI Premium にデータセットがあるか、またはユーザーが Power BI Pro ライセンスを持っている必要があります。 ライセンスの種類の機能の違いについては、「[Power BI features by license type](service-features-license-type.md)」 (Power BI のライセンスの種類別機能) を参照してください。 
+* ユーザーは、基になるデータセットに対する読み取り権限を持っている場合、[Excel で分析] を使用してデータセットに接続できます。  ユーザーがこの権限を持つには、データセットを含むワークスペースのメンバーである、データセットを使用するレポートまたはダッシュボードを共有している、データセットを含むアプリへのアクセス許可を持っているなど、いくつかの方法があります。
 
 ## <a name="how-does-it-work"></a>しくみ
 **Power BI** のデータセットまたはレポートに関連付けられた省略記号のメニュー (...) から **[Excel で分析]** を選択すると、Power BI によって .ODC ファイルが作成され、ブラウザーからお使いのコンピューターにダウンロードされます。
@@ -100,4 +101,4 @@ Excel が開かれ、空のピボットテーブルがある場合、Power BI �
 ユーザーはデータセットを更新する必要がある一方で、Excel Online では外部接続の更新がサポートされていないため、ユーザー自身のコンピューター上のデスクトップ版 Excel を使用してブックを開くことをお勧めします。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
-”Excel で分析” の使用中に、予期しない結果が出る場合や、機能が期待どおりに動作しない場合があります。 [このページで、[Excel で分析] の使用中に発生する一般的な問題の解決方法を説明します。](desktop-troubleshooting-analyze-in-excel.md)
+”Excel で分析” の使用中に、予期しない結果が出る場合や、機能が期待どおりに動作しない場合があります。 [このページでは、[Excel で分析] の使用中に発生する一般的な問題の解決方法を説明します。](desktop-troubleshooting-analyze-in-excel.md)
