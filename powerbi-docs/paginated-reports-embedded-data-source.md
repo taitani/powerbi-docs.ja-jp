@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 7f919234f7635c76ce50d0bfffa393498f141da8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 340b4d26b8beed4dfda5f7af4dc949088f3857ae
+ms.sourcegitcommit: d2805894fd372c35e11d519f724de2be98407fda
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324394"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59070024"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI サービスでページ分割されたレポート用の埋め込みデータ ソースを作成する (プレビュー)
 
@@ -22,7 +22,8 @@ ms.locfileid: "56324394"
 
 - Azure SQL Database と Data Warehouse
 - SQL Server
-- SQL Server Analysis Services 
+- SQL Server Analysis Services
+- Azure Analysis Services
 
 ページ分割されたレポートは、ゲートウェイを使用してオンプレミスのデータ ソースに接続します。 ゲートウェイの設定は、Power BI サービスにレポートを発行した後で行います。 詳しくは、「[Power BI ゲートウェイとは](service-gateway-getting-started.md)」をご覧ください。 
 
@@ -61,4 +62,4 @@ ms.locfileid: "56324394"
 ## <a name="next-steps"></a>次の手順
 
 - [Power BI サービスのページ分割されたレポート用の埋め込みデータセットを作成する](paginated-reports-create-embedded-dataset.md)
-- [Power BI Premium のページ分割されたレポートとは(プレビュー)](paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium のページ分割されたレポートとは (プレビュー)](paginated-reports-report-builder-power-bi.md)
