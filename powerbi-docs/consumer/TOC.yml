@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: 一般的なタスク
       items:
+      - name: Excel にデータをエクスポートする
+        href: end-user-export.md
       - name: コンテンツの所有者と最終更新日時を検索する
         href: end-user-fresh.md
       - name: フォーカスと全画面モードを使用してコンテンツを拡大するさまざまな方法
@@ -81,7 +83,7 @@ items:
         href: end-user-search-sort.md
       - name: ダッシュ ボード タイルの自動分析情報の表示
         href: end-user-insights.md
-    - name: データの取得
+    - name: データを取得
       items:
       - name: Power BI のアプリ
         href: end-user-apps.md
@@ -137,6 +139,8 @@ items:
         href: mobile/mobile-tiles-in-the-mobile-apps.md
       - name: モバイル アプリでのお気に入り
         href: mobile/mobile-apps-favorites.md
+      - name: モバイル アプリでレポート対話機能を構成する (電話のみ)
+        href: mobile/mobile-app-single-tap.md
       - name: Power BI モバイル アプリでデータ アラートを設定する
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: Power BI モバイル アプリで通知を受け取る
@@ -175,6 +179,8 @@ items:
         href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: 電話用に最適化されたレポートを表示する
         href: mobile/mobile-apps-view-phone-report.md
+      - name: 外部組織からコンテンツにアクセスする
+        href: mobile/mobile-apps-b2b.md
       - name: 電話からの Power BI QR コードのスキャン
         href: mobile/mobile-apps-qr-code.md
       - name: 注釈とモバイル アプリでの共有
@@ -195,9 +201,9 @@ items:
     items:
     - name: モバイル アプリでサポートされる言語
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
+ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248978"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59430284"
