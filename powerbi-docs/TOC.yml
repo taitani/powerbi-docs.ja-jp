@@ -240,6 +240,8 @@ items:
         href: desktop-what-if.md
       - name: ドリルスルーの使用
         href: desktop-drillthrough.md
+      - name: クロス レポートのドリルスルーの使用
+        href: desktop-cross-report-drill-through.md
       - name: 相対日付のスライサーおよびフィルターを使用する
         href: visuals/desktop-slicer-filter-date-range.md
       - name: グループ化とビン分割を使用
@@ -278,6 +280,8 @@ items:
         href: power-bi-hyperlinks-in-tables.md
       - name: テーブルの条件付き書式設定
         href: desktop-conditional-table-formatting.md
+      - name: 条件付きの式に基づくタイトルの書式設定
+        href: desktop-conditional-format-visual-titles.md
       - name: Power BI Desktop での列による並べ替え
         href: desktop-sort-by-column.md
       - name: モバイル アプリ向けに最適化されたレポートを作成する
@@ -1331,9 +1335,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI のセキュリティ
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
-ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
+ms.openlocfilehash: 5943c0bb07142be76241c2d4ed415920c99bc382
+ms.sourcegitcommit: 42892c281c7b1682a02efb3613fc1a75530c4830
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "59053440"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59479290"
