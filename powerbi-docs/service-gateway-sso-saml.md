@@ -10,18 +10,18 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306506"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533703"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへのシングル サインオン (SSO) に Security Assertion Markup Language (SAML) を使用します。
 
 [Security Assertion Markup Language (SAML)](https://www.onelogin.com/pages/saml) を使用し、シームレスなシングル サインオン接続を有効にします。 SSO を有効にすると、Power BI レポートおよびダッシュボードはオンプレミスのソースからデータを簡単に更新できるようになります。
 
-## <a name="supported-data-sources"></a>サポートされているデータ ソース
+## <a name="supported-data-sources"></a>サポートされるデータ ソース
 
 現在、SAP HANA に SAML をご利用いただけます。 SAML を利用した SAP HANA のシングル サインオンを設定し、構成する方法については、SAP HANA ドキュメントのトピック「[SAML SSO for BI Platform to HANA](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA)」(BI プラットフォームの HANA に対する SAML SSO) を参照してください。
 
@@ -75,7 +75,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
     ![SAML を構成する](media/service-gateway-sso-saml/configure-saml.png)
 
-1. 手順 2 で作成した ID プロバイダーを選択します。 **[External Identity]\(外部 ID\)** に Power BI ユーザーの UPN を入力し、**[Add]\(追加\)** を選択します。
+1. 手順 2 で作成した ID プロバイダーを選択します。 **外部 Id**Power BI ユーザーの UPN (通常、電子メール アドレス、ユーザーが Power BI にログイン) を入力し、選択、**追加**します。 ADUserNameReplacementProperty 構成オプションを使用するゲートウェイを構成した場合は、元の Power BI ユーザーの UPN を置き換える値を入力する必要がありますに注意してください。 など、ADUserNameReplacementProperty SAMAccountName を設定した場合は、ユーザーの SAMAccountName を入力する必要があります。
 
     ![ID プロバイダーを選択する](media/service-gateway-sso-saml/select-identity-provider.png)
 
@@ -179,7 +179,7 @@ SSO を構成したら、Power BI ポータルで次のエラーが表示され�
 
 **オンプレミス データ ゲートウェイ**と **DirectQuery** の詳細については、次のリソースをご覧ください。
 
-* [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)
+* [On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)
 * [Power BI の DirectQuery](desktop-directquery-about.md)
 * [DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
 * [DirectQuery と SAP BW](desktop-directquery-sap-bw.md)
