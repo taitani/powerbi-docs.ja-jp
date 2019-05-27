@@ -1,27 +1,25 @@
 ---
 title: 管理の概要、Power BI Report Server
 description: この記事では、Power BI Report Server の管理の概要について説明します。Power BI Report Server は、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
-ms.author: maghan
-ms.openlocfilehash: 745db7ea9c1a702389f2afae4408024ddb54b734
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 05/22/2019
+ms.author: maggies
+ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288085"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187351"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>管理の概要、Power BI Report Server
 この記事では、Power BI Report Server の管理の概要について説明します。Power BI Report Server は、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。 この記事では、Power BI Report Server の計画、展開、管理の概念について説明します。また、詳細情報へのリンクが用意されています。
 
 ![](media/admin-handbook-overview/admin-handbook.png)
-
-
 
 ## <a name="installing-and-migration"></a>インストールと移行
 Power BI Report Server の使用を開始するには、インストールする必要があります。 このタスクの処理方法を説明する記事があります。
