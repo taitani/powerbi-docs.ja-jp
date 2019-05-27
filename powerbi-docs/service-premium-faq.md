@@ -1,8 +1,8 @@
 ---
 title: Power BI Premium のよく寄せられる質問
 description: Power BI Premium プランについてよく寄せられる質問とその回答の一覧です。
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
+ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383339"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65565378"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium のよく寄せられる質問
 
-この記事では、Power BI Premium についてよく寄せられる質問を取り上げます。 概要については、「[Microsoft Power BI Premium とは何ですか?](service-premium.md)」を参照してください。
+この記事では、Power BI Premium についてよく寄せられる質問を取り上げます。 概要については、「[Microsoft Power BI Premium とは何ですか?](service-premium-what-is.md)」を参照してください。
 
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。
@@ -84,7 +84,7 @@ Power BI Premium では、 組織がクラウド内にプロビジョニング�
 
 **次の手順**
 
-[Microsoft Power BI Premium とは何ですか?](service-premium.md)
+[Microsoft Power BI Premium とは何ですか?](service-premium-what-is.md)
 [Power BI Premium リリース ノート](service-premium-release-notes.md)
 [Microsoft Power BI Premium のホワイトペーパー](https://aka.ms/pbipremiumwhitepaper)
 [Power BI のエンタープライズ展開の計画に関するホワイト ペーパー](https://aka.ms/pbienterprisedeploy)

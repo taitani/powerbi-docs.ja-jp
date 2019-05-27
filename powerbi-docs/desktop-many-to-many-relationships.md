@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
+ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225962"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65941440"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Power BI Desktop での多対多カーディナリティのリレーションシップ
 
@@ -25,7 +25,7 @@ Power BI Desktop の "*多対多カーディナリティのリレーションシ
 
 Power BI Desktop の "*多対多カーディナリティのリレーションシップ*" 機能は、関連する 3 つの機能の 1 つです。
 
-* **複合モデル**:DirectQuery 接続やインポートなど、2 つ以上のデータ接続を任意の組み合わせでレポートに含めることができます。 詳細については、「[Composite models in Power BI Desktop (preview)](desktop-composite-models.md)」 (Power BI Desktop の複合モデル (プレビュー)) を参照してください。
+* **複合モデル**:DirectQuery 接続やインポートなど、2 つ以上のデータ接続を任意の組み合わせでレポートに含めることができます。 詳細については、「[Power BI Desktop で複合モデルを使用する](desktop-composite-models.md)」を参照してください。
 
 * **多対多カーディナリティのリレーションシップ**:"*複合モデル*" では、テーブル間に "*多対多カーディナリティのリレーションシップ*" を確立することができます。 このアプローチでは、テーブル内の一意の値の要件が除外されます。 また、リレーションシップを作成するためだけに新しいテーブルを導入するなどの以前の回避策も除外されます。 この機能については、この記事で詳しく説明します。
 
@@ -157,7 +157,7 @@ DirectQuery を使用する際の既存の制限は、"*多対多カーディナ
 ## <a name="next-steps"></a>次の手順
 
 複合モデルと DirectQuery について詳しくは、次の記事をご覧ください。
-* [Power BI Desktop の複合モデル (プレビュー)](desktop-composite-models.md)
+* [Power BI Desktop の複合モデル](desktop-composite-models.md)
 * [Power BI Desktop のストレージ モード (プレビュー)](desktop-storage-mode.md)
 * [Power BI Desktop で DirectQuery を使用する](desktop-directquery-about.md)
 * [Power BI Desktop の DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)

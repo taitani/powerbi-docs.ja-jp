@@ -1,7 +1,7 @@
 ---
 title: レポート ビルダーでページ分割されたレポートにデータを直接入力する (プレビュー)
 description: この記事では、レポート ビルダーでページ分割されたレポートにデータを直接入力する方法について説明します。
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424466"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>レポート ビルダーでページ分割されたレポートにデータを直接入力する (プレビュー) - Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "56324992"
 ## <a name="prerequisites"></a>前提条件
 
 - ページ分割されたレポートにデータを直接入力するには、[Microsoft ダウンロード センターからレポート ビルダー](https://www.microsoft.com/download/details.aspx?id=53613)の新しいバージョンをインストールします。 
-- ページ分割されたレポートを Power BI サービスに保存するには、[Power BI Pro アカウント](service-self-service-signup-for-power-bi.md)と [Power BI Premium 容量](service-premium.md)のワークスペースへの書き込み許可が必要です。
+- ページ分割されたレポートを Power BI サービスに保存するには、[Power BI Pro アカウント](service-self-service-signup-for-power-bi.md)と [Power BI Premium 容量](service-premium-what-is.md)のワークスペースへの書き込み許可が必要です。
 - ページ分割されたレポートをレポート サーバーに保存するには、[RsReportServer.config ファイルを編集する](#upload-the-paginated-report-to-a-report-server)アクセス許可が必要です。
 
 ## <a name="get-started"></a>作業の開始

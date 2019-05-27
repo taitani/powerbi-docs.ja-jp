@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287590"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513886"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>チュートリアル:Power BI Desktop での独自のメジャーの作成
 Power BI Desktop でメジャーを使用すると、強力なデータ分析ソリューションを作成できます。 メジャーは、ユーザーがレポートで操作するデータに対して計算を実行するために役立ちます。 このチュートリアルでは、メジャーの基本について説明し、独自のメジャーを Power BI Desktop で作成する手順を紹介します。
