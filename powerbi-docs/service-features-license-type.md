@@ -11,12 +11,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 15a2e292aee04ed915611204e62a19d2836aa827
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "65554435"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Power BI サービスのライセンスの種類別機能
 
@@ -42,7 +42,7 @@ ms.locfileid: "54274860"
 
 ## <a name="next-steps"></a>次の手順
 
-Power BI Premium に関心がある場合は、[Power BI Premium とは](service-premium.md)に関するページを参照してください。
+Power BI Premium に関心がある場合は、[Power BI Premium とは](service-premium-what-is.md)に関するページを参照してください。
 
 サインアップして Power BI で作業を開始するには、「[個人として Power BI にサインアップする](service-self-service-signup-for-power-bi.md)」を参照してください。
 

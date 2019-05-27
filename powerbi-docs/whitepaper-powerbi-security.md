@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 8a86d17252bea3dbdb6ad30de35667cfbd844c8b
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: e75810d18b39619d249c3acd9a9140b3d19d5f35
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430394"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051558"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI のセキュリティに関するホワイトペーパー
 
@@ -46,7 +46,7 @@ Power BI のそれぞれのデプロイは、Web フロントエンド (**WFE**)
 
 ![WFE とバックエンド](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI では、アカウントの認証と管理に Azure Active Directory (**AAD**) が使用されています。 また、Power BI では、認証プロセスと静的コンテンツやファイルのダウンロードのために最も近いデータセンターにユーザー トラフィックを送信するために、**Azure Traffic Manager (ATM)** も使用されます。この送信先は、接続しようとしているクライアントの DNS レコードに基づいて決定されます。 Power BI では、**Azure Content Delivery Network (CDN)** を使用して、必要な静的コンテンツとファイルが、地理的なロケールに基づいてユーザーに効率的に配布されます。
+Power BI では、アカウントの認証と管理に Azure Active Directory (**AAD**) が使用されています。 また、Power BI では、認証プロセスと静的コンテンツやファイルのダウンロードのために最も近いデータセンターにユーザー トラフィックを送信するために、**Azure Traffic Manager (ATM)** も使用されます。この送信先は、接続しようとしているクライアントの DNS レコードに基づいて決定されます。 Power BI は地理的に最も近い WFE を使用して、必要な静的コンテンツとカスタム ビジュアルを使用して配信されるを除き、ユーザーにファイルを効率的に配布する、 **Azure Content Delivery Network (CDN)** します。
 
 ### <a name="the-wfe-cluster"></a>WFE クラスター
 
@@ -231,7 +231,7 @@ CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定
 
     b. ETL – Azure Blob ストレージで暗号化されます。しかし、Power BI サービスの Azure Blob ストレージに現在あるすべてのデータに [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) (サーバー側の暗号化とも呼ばれる) が使用されます。 Multi-Geo でも SSE が使用されます。
 
-    c. プッシュ データ v1 – Azure Blob ストレージで暗号化されて格納されます。しかし、Power BI サービスの Azure Blob ストレージに現在あるすべてのデータに [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) が使用されます (サーバー側の暗号化とも呼ばれる)。 Multi-Geo でも SSE が使用されます。
+    c. プッシュ データ v1 – Azure Blob ストレージで暗号化されて格納されます。しかし、Power BI サービスの Azure Blob ストレージに現在あるすべてのデータに [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) が使用されます (サーバー側の暗号化とも呼ばれる)。 Multi-Geo でも SSE が使用されます。 プッシュ data v1 では、2016 以降サポートされなくなった。 
 
     d. プッシュ データ v2 – Azure SQL で暗号化されて格納されます。
 
@@ -248,22 +248,24 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 1. メタデータ (レポートの定義)
 
    a. レポートは、Excel for Office 365 レポートまたは Power BI レポートのいずれかとすることができます。 レポートの種類に基づいて、メタデータには次が適用されます。
+        
+    &ensp; &ensp; します。 Excel レポートのメタデータは、SQL Azure で暗号化されて格納されます。 メタデータは、Office 365 にも保存されます。
 
-       a. Excel Report metadata is stored encrypted in SQL Azure. Metadata is also stored in Office 365.
-
-       b. Power BI reports are stored encrypted in Azure SQL database.
+    &ensp; &ensp; b とします。 Power BI レポートは、Azure SQL データベースで暗号化されて格納されます。
 
 2. 静的データ
 
    静的データには、背景イメージやカスタム ビジュアルなどの成果物が含まれます。
 
-    a. Excel for Office 365 で作成されたレポートの場合は、何も格納されません。
+    &ensp; &ensp; します。 Excel for Office 365 で作成されたレポートの場合は、何も格納されません。
 
-    b. Power BI レポートの場合、静的データは Azure Blob ストレージで暗号化されて格納されます。
+    &ensp; &ensp; b とします。 Power BI レポートの場合、静的データは Azure Blob ストレージで暗号化されて格納されます。
 
-3. キャッシュ a  Excel for Office 365 で作成されたレポートの場合は、何もキャッシュされません。
+3. キャッシュ
 
-    b. Power BI レポートの場合、表示されるビジュアルのデータは Azure SQL Database で暗号化されてキャッシュされます。
+    &ensp; &ensp; します。 Excel for Office 365 で作成されたレポートの場合は、何もキャッシュされません。
+
+    &ensp; &ensp; b とします。 Power BI レポートの場合、表示されるビジュアルのデータは Azure SQL Database で暗号化されてキャッシュされます。
  
 
 4. Power BI に発行される元の Power BI Desktop (.pbix) または Excel (.xlsx) ファイル
@@ -280,7 +282,7 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>非揮発性デバイスに一時的に格納されたデータ
 
-非揮発性デバイスに一時的に格納されたデータについて以下に説明します。
+非揮発性デバイスは、定数の電力が引き続き発生するメモリのあるデバイスです。 非揮発性デバイスに一時的に格納されたデータについて以下に説明します。 
 
 #### <a name="datasets"></a>データセット
 
@@ -293,6 +295,9 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
     a. オンプレミスの Analysis Services - 何も格納されません
 
     b. DirectQuery - これはモデルがサービス内で直接作成されるかどうかによって異なります。直接作成される場合、それは、(暗号化された情報と共に) 同じ場所にクリア テキストで格納された暗号化キーを使用する暗号化形式で、接続文字列内に格納されます。モデルが Power BI Desktop からインポートされる場合、資格情報は非揮発性デバイス上に格納されません。
+
+    > [!NOTE]
+    > サービス側のモデルの作成機能は、2017 以降に廃止されました。
 
     c. プッシュされたデータ - なし (適用できません)
 
@@ -311,7 +316,7 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
 ## <a name="user-authentication-to-data-sources"></a>データ ソースのユーザー認証
 
-各データ ソースに対して、ユーザーは自分のログインに基づいて接続を確立し、データにその資格情報を使用してアクセスします。 次にユーザーは基になるデータに基づいてクエリ、ダッシュボード、およびレポートを作成することができます。
+各データ ソースとは、ユーザーは、自分のログインに基づく接続を確立し、それらの資格情報を使用してデータにアクセスします。 次にユーザーは基になるデータに基づいてクエリ、ダッシュボード、およびレポートを作成することができます。
 
 ユーザーがクエリ、ダッシュ ボード、レポート、または視覚エフェクトを共有する場合、そのデータと該当する視覚エフェクトへのアクセスは、基になるデータ ソースによってロール レベルのセキュリティ (RLS) がサポートされているかどうかによって異なります。
 
@@ -452,6 +457,12 @@ Power BI Mobile が使用可能な 3 つのプラットフォームすべてで�
 
 * はい。 Bing 地図と ESRI ビジュアルは、これらのサービスを使用するビジュアルに関して、Power BI サービスの外部にデータを送信します。 Power BI 外部テナント トラフィックに関する詳細な情報については、「[**Power BI と ExpressRoute**](service-admin-power-bi-expressroute.md)」を参照してください。
 
+**テンプレート アプリの場合は Microsoft またはを実行セキュリティ項目をギャラリーに発行する前に、テンプレートのアプリのプライバシー評価でしょうか。**
+* いいえ。 アプリの発行元は、お客様の責任およびテンプレート アプリの発行元を信頼するかどうか確認するときにコンテンツを担当します。 
+
+**お客様のネットワーク外の情報を送信できるアプリをテンプレートではありますか。**
+* はい。 発行元のプライバシー ポリシーを確認し、テナントにテンプレート アプリをインストールするかどうかを判断するお客様の責任になります。 さらに、パブリッシャーは、アプリの動作と機能を通知する役割を担います。
+
 **データ主権について教えてください。データが国境を超えないよう、特定の地域内にあるデータ センター内のテナントをプロビジョニングすることはできますか?**
 
 * 特定の地域の一部のお客様には、データ ストレージと処理が他のすべてのデータセンターから分離されている国内クラウドにテナントを作成できるオプションが用意されています。 国内クラウドには若干異なる種類のセキュリティが適用されています。別のデータ トラスティが、国内クラウド Power BI サービスを Microsoft の代理で運営するためです。
@@ -481,7 +492,7 @@ Power BI に関する詳細については、次のリソースを参照して�
 - [Power BI Gateway](service-gateway-manage.md)
 - [Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)
-- [オンプレミス データ ゲートウェイ](service-gateway-manage.md)
+- [On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-manage.md)
 - [Power BI と ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 国内クラウド](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)

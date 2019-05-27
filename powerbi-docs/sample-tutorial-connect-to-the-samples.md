@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275550"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625073"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI サービス内のサンプルに接続する
 
@@ -78,7 +78,7 @@ ms.locfileid: "54275550"
     ![一致するビジュアルが強調表示されているレポート ページ](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > タイルが [Power BI Q&A](consumer/end-user-q-and-a.md) を使って作成されている場合は、代わりに Q&A ページが開きます。 タイルを [Excel からピン留め](service-dashboard-pin-tile-from-excel.md)した場合は、Power BI 内で Excel Online が開きます。
+   > タイルが [Power BI Q&A](power-bi-tutorial-q-and-a.md) を使って作成されている場合は、代わりに Q&A ページが開きます。 タイルを [Excel からピン留め](service-dashboard-pin-tile-from-excel.md)した場合は、Power BI 内で Excel Online が開きます。
    > 
    > 
 1. **[データセット]** タブに戻ると、データセットを調べるためのいくつかのオプションがあります。  それを開いてすべての行と列を表示することはできません (Power BI Desktop または Excel ではできます)。  同僚とコンテンツ パックを共有する作成者は、通常、分析情報の結果だけを共有し、同僚がデータに直接アクセスできるようにはしません。 ただし、これは同僚がデータセットを調べることができないという意味ではありません。  
@@ -129,11 +129,9 @@ ms.locfileid: "54275550"
 
 
 ## <a name="next-steps"></a>次の手順
-[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
 
-[Power BI サービスのサンプル](sample-datasets.md)
-
-[Power BI のデータ ソース](service-get-data.md)
+- [Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+- [Power BI サービスのサンプル](sample-datasets.md)
+- [Power BI のデータ ソース](service-get-data.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-
