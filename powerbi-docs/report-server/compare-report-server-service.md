@@ -2,20 +2,20 @@
 title: Power BI Report Server と Power BI サービスの比較
 description: この記事では、Power BI Report Server と Power BI サービスの機能を比較します。
 keywords: ''
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 02/06/2019
-ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.date: 05/22/2019
+ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327920"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187688"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
@@ -38,7 +38,7 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | アプリを使用した一群のレポートの配布 | いいえ | はい | [Power BI でダッシュボードとレポートを含むアプリを作成して発行する](../service-create-distribute-apps.md) |
 | コンテンツ パック | いいえ | はい | [組織のコンテンツ パック:概要](../service-organizational-content-pack-introduction.md) |
 | Salesforce などのサービスへの接続 | はい | はい | Power BI サービスのコンテンツ パックで[使用するサービスに接続する](../service-connect-to-services.md)。 Power BI Report Server で、認定されたコネクタを使用してサービスに接続します。 詳細については、「[Power BI Report Server での Power BI レポート データ ソース](data-sources.md)」を参照。 |
-| Q&A | いいえ | はい | [Power BI サービスと Power BI Desktop の Q&A](../consumer/end-user-q-and-a.md) 
+| Q&A | いいえ | はい | [Power BI サービスと Power BI Desktop の Q&A](../power-bi-tutorial-q-and-a.md) 
 | クイック分析情報 | いいえ | はい | [Power BI を使用してデータ インサイトを自動的に生成する](../consumer/end-user-insights.md) |
 | Excel で分析 | いいえ | はい | [Excel で分析](../service-analyze-in-excel.md) 
 | ページ分割されたレポート | はい | はい | [Premium 容量の Power BI サービスでページ分割されたレポートが利用可能](../paginated-reports-report-builder-power-bi.md) (プレビュー) |

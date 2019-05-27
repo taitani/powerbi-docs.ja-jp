@@ -12,23 +12,24 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2018
+ms.date: 05/13/2019
 ms.author: mihart
-ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280123"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608272"
 ---
-<!-- once the sample aps are live, change this so consumers can follow along -->
+<!-- once the sample apps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>クイック スタート: ***コンシューマー***向けの Power BI の機能について学習する
 このクイック スタートでは、Power BI と対話してデータ駆動型のビジネスの分析情報を発見する方法について説明します。 この記事の意図は、詳細な情報を提供することではなく、Power BI の**コンシューマー**が使用できるアクションの多くを簡単に説明することです。
 
 Power BI にサインアップしていない場合は、[無料の試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
 
 ## <a name="prerequisites"></a>前提条件
-- Power BI サービス (app.powerbi.com) <!-- app from AppSource -->
+- Power BI サービス (app.powerbi.com)
+<!-- app from AppSource -->
 
 ## <a name="reading-view"></a>読み取りビュー
 Power BI サービスでは、レポートの*コンシューマー*は読み取りビューを使用できます。 仕事仲間が自分とレポートを共有する場合、読み取りビューを使用してレポートを探索し、レポートと対話します。 
@@ -185,7 +186,7 @@ Power BI のビジュアルは、基礎データセットからのデータを�
 1. Power BI サービスで、レポートを開き、ビジュアルを選択します。  
 2. ビジュアルの背後にあるデータを表示するには、省略記号 (...) を選択し、**[データの表示]** を選択します。
    
-   ![[データの表示] の選択](./media/end-user-show-data/power-bi-show-data2.png)
+   ![[データの表示] の選択](./media/end-user-show-data/power-bi-explore-show-data.png)
 
 ここまでで、**コンシューマー**が Power BI サービスを使ってできることのほんの一部について、簡単にその概要を説明してきました。  
 
