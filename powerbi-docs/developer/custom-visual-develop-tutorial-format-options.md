@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
 ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695152"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61380146"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>チュートリアル:Power BI カスタム ビジュアルへの書式設定オプションの追加
 
@@ -48,7 +48,7 @@ ms.locfileid: "57695152"
 5. **Power BI** で、書式設定オプションをもう一度確認します。
 
     > [!Note]
-    > 書式設定オプションが変化していない場合は、**[Reload Custom Visual]\(カスタム ビジュアルの再読み込み\)** を選択します。
+    > 書式設定オプションが変化していない場合は、 **[Reload Custom Visual]\(カスタム ビジュアルの再読み込み\)** を選択します。
 
     ![書式設定オプションを表示する](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
@@ -179,9 +179,9 @@ ms.locfileid: "57695152"
     pbiviz start
     ```
 
-15. **Power BI** のビジュアルの上に表示されるツールバーで、**[自動再読み込みの切り替え]** を選択します。
+15. **Power BI** のビジュアルの上に表示されるツールバーで、 **[自動再読み込みの切り替え]** を選択します。
 
-16. **ビジュアルの書式**オプションで、**[Circle]** を展開します。
+16. **ビジュアルの書式**オプションで、 **[Circle]** を展開します。
 
     ![Circle の書式](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
@@ -211,7 +211,7 @@ ms.locfileid: "57695152"
 
 6. **pbiviz.json** ファイルを保存します。
 
-7. **assets** オブジェクトのドキュメントでアイコンへのパスが定義されていることに注意してください。 このアイコンは、**_[視覚化]_** ウィンドウに表示されるイメージです。 これは "*20 × 20 ピクセル*" の **PNG** ファイルにする必要があります。
+7. **assets** オブジェクトのドキュメントでアイコンへのパスが定義されていることに注意してください。 このアイコンは、 ** _[視覚化]_ ** ウィンドウに表示されるイメージです。 これは "*20 × 20 ピクセル*" の **PNG** ファイルにする必要があります。
 
 8. エクスプローラーで icon.png ファイルをコピーして貼り付け、assets フォルダーにある既定のファイルを置き換えます。
 
@@ -239,19 +239,19 @@ Power BI Desktop レポートを開き、カスタム ビジュアル Circle Car
 
 1. **Power BI Desktop** を開き、任意の "*サンプルのデータセット*" を使用して新しいレポートを作成します。
 
-2. **_[視覚化]_** ウィンドウで**省略記号**を選択し、ファイルから **[インポート]** を選択します。
+2. ** _[視覚化]_ ** ウィンドウで**省略記号**を選択し、ファイルから **[インポート]** を選択します。
 
     ![デスクトップにカスタム ビジュアルを追加する](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
-3. **インポート ウィンドウ**で、**[インポート]** を選択します。
+3. **インポート ウィンドウ**で、 **[インポート]** を選択します。
 
 4. 開いたウィンドウで、プロジェクトのディレクトリの **dist** フォルダーに移動します。
 
-5. **circleCard.pbiviz** ファイルを選択して、**[開く]** を選択します。
+5. **circleCard.pbiviz** ファイルを選択して、 **[開く]** を選択します。
 
-6. ビジュアルが正常にインポートされたら、**[OK]** を選択します。
+6. ビジュアルが正常にインポートされたら、 **[OK]** を選択します。
 
-7. ビジュアルが **_[視覚化]_** ウィンドウに追加されたことを確認します。
+7. ビジュアルが ** _[視覚化]_ ** ウィンドウに追加されたことを確認します。
 
     ![PBI Desktop 視覚化ウィンドウのビュー](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
