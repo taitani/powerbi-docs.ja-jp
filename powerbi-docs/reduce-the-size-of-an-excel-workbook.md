@@ -11,11 +11,11 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282266"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60972614"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Power BI で表示する Excel ブックのサイズを減らす
 1 GB 未満のすべての Excel ブックを Power BI にアップロードできます。 Excel ブックは 2 つの部分で構成されていることがあります。つまり、データ モデルと、レポートの残りの部分 (コアなワークシート コンテンツ) です。 レポートが次のサイズの制限を満たしている場合は、**OneDrive for Business** に保存して、Power BI からこれに接続し、Excel Online で表示できます。
@@ -48,10 +48,10 @@ ms.locfileid: "54282266"
 
 データを Excel にインポートするときには、次の手順に従います。
 
-* **Power Query で**:**[ワークシートへの読み込み]** ボックスをオフにします。
+* **Power Query で**: **[ワークシートへの読み込み]** ボックスをオフにします。
   
   データはデータ モデルにのみインポートされ、Excel ワークシートにデータは入りません。
-* **[Excel データ] タブから**、以前にインポート ウィザードで **[テーブル]** をオンにした場合:**[既存の接続]** に移動し、接続をクリックして、**[接続の作成のみ]** をクリックします。 元のテーブルまたは最初のインポート中に作成されたテーブルを削除します。
+* **[Excel データ] タブから**、以前にインポート ウィザードで **[テーブル]** をオンにした場合: **[既存の接続]** に移動し、接続をクリックして、 **[接続の作成のみ]** をクリックします。 元のテーブルまたは最初のインポート中に作成されたテーブルを削除します。
 * **[Excel データ] タブから**、 **[Import Data]** (データのインポート) ボックスの **[Table]** (テーブル) をチェックしないでください。
 
 ## <a name="workbook-size-optimizer"></a>ブック サイズ オプティマイザー

@@ -1,8 +1,8 @@
 ---
 title: Azure Portal での Power BI Embedded 容量の作成 | Microsoft Docs
 description: この記事では、Microsoft Azure で Power BI Embedded の容量を作成する方法について説明します。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
-ms.openlocfilehash: 1d829dc31bc6e2419d4f2c187b40d6945f963f69
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: 7a469de22d0432da595f404e72414fb0a686dbc8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762561"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61385227"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal での Power BI Embedded 容量の作成
 
@@ -29,7 +29,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 このクイック スタートを完了するには、以下が必要です。
 
-* **Azure サブスクリプション:**[Azure 無料試用版](https://azure.microsoft.com/free/)にアクセスし、アカウントを作成してください。
+* **Azure サブスクリプション:** [Azure 無料試用版](https://azure.microsoft.com/free/)にアクセスし、アカウントを作成してください。
 * **Azure Active Directory:** お使いのサブスクリプションは Azure Active Directory (AAD) テナントに関連付けられている必要があります。 また、***そのテナントのアカウントで Azure にサインインする必要があります***。 Microsoft アカウントはサポートされていません。 詳細については、「[認証とユーザーのアクセス許可](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)」を参照してください。
 * **Power BI テナント:** ご利用の AAD テナントの少なくとも 1 つのアカウントを Power BI に登録しておく必要があります。
 * **リソース グループ:** 既にあるリソース グループを使用するか、[新しく作成](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)します。
@@ -42,7 +42,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 3. Power BI Embedded 内で **[作成]** を選択します。
 
-4. 必須情報を入力し、**[作成]** を選択します。
+4. 必須情報を入力し、 **[作成]** を選択します。
 
     ![新しい容量を作成するために入力するフィールド](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
@@ -55,7 +55,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
     |**場所**|お使いのテナントの Power BI がホストされている場所。 既定の場所はホーム領域ですが、[Multi-Geo オプション](embedded-multi-geo.md)を使用して場所を変更できます。
     |**価格レベル**|自分のニーズに合った SKU (仮想コア数とメモリ サイズ) を選択してください。  詳細については、「[Power BI Embedded の価格](https://azure.microsoft.com/pricing/details/power-bi-embedded/)」を参照してください。|
 
-**[すべてのサービス]**、**[Power BI Embedded]** の順に移動し、容量を使用する準備ができているか確認できます。 あるいは、通知セクションまたはブレード内から **[ダッシュボードにピン留めする]** を選択し、ダッシュボードに移動して新しい容量を確認できます。
+**[すべてのサービス]** 、 **[Power BI Embedded]** の順に移動し、容量を使用する準備ができているか確認できます。 あるいは、通知セクションまたはブレード内から **[ダッシュボードにピン留めする]** を選択し、ダッシュボードに移動して新しい容量を確認できます。
 
 ![Power BI Embedded 容量を含む Azure Portal ダッシュボード](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 

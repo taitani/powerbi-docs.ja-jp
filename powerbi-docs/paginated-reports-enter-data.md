@@ -10,10 +10,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
-ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "61424466"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>レポート ビルダーでページ分割されたレポートにデータを直接入力する (プレビュー) - Power BI
@@ -28,9 +28,9 @@ ms.locfileid: "61424466"
 
 ## <a name="get-started"></a>作業の開始
 
-レポート ビルダーをダウンロードし、インストールしたら、埋め込みのデータ ソースやデータセットをレポートに追加するときと同じワークフローを実行します。 次の手順で、**[データ ソース]** の下に次の新しいオプションが表示されます:**[データの入力]**。  このデータ ソースはレポートで 1 回だけ設定します。 その後、その 1 つのデータ ソースを使用し、入力したデータから複数のテーブルを個々のデータセットとして作成できます。
+レポート ビルダーをダウンロードし、インストールしたら、埋め込みのデータ ソースやデータセットをレポートに追加するときと同じワークフローを実行します。 次の手順で、 **[データ ソース]** の下に次の新しいオプションが表示されます: **[データの入力]** 。  このデータ ソースはレポートで 1 回だけ設定します。 その後、その 1 つのデータ ソースを使用し、入力したデータから複数のテーブルを個々のデータセットとして作成できます。
 
-1. **[レポート データ]** ペインで、**[新規作成]**、**[データセット]** を選択します。
+1. **[レポート データ]** ペインで、 **[新規作成]** 、 **[データセット]** を選択します。
 
     ![レポート ビルダーの新しいデータセット](media/paginated-reports-enter-data/paginated-new-dataset.png)
 
@@ -41,11 +41,11 @@ ms.locfileid: "61424466"
     ![新しい埋め込みデータ ソース](media/paginated-reports-enter-data/paginated-new-data-source.png)
 
 1. **[データ ソースのプロパティ]** ダイアログ ボックスで **[レポートに埋め込まれた接続を使用する]** を選択します。
-2. **[接続の種類の選択]** ボックスで **[データの入力]**、**[OK]** の順に選択します。
+2. **[接続の種類の選択]** ボックスで **[データの入力]** 、 **[OK]** の順に選択します。
 
     ![データ ソースの [データの入力]](media/paginated-reports-enter-data/paginated-data-source-properties-enter-data.png)
 
-1. **[データセットのプロパティ]** ダイアログ ボックスに戻り、**[クエリ デザイナー]** を選択します。
+1. **[データセットのプロパティ]** ダイアログ ボックスに戻り、 **[クエリ デザイナー]** を選択します。
 2. **[クエリ デザイナー]** ウィンドウで右クリックし、テーブルにデータを貼り付けます。
 
     ![クエリ デザイナーでデータを入力する](media/paginated-reports-enter-data/paginated-enter-data.png)
@@ -60,13 +60,13 @@ ms.locfileid: "61424466"
 
     ![データ型を変更する](media/paginated-reports-enter-data/paginated-data-type.png)
 
-1. テーブルの作成が完了したら、**[OK]** を選択します。  
+1. テーブルの作成が完了したら、 **[OK]** を選択します。  
 
     生成されたクエリは、XML データ ソースの場合と同じになります。 実際には、データ プロバイダーとして XML を使用しています。  このシナリオも有効にするために転用しています。
 
     ![XML データ構造](media/paginated-reports-enter-data/paginated-xml-data.png)
 
-12. **[データセットのプロパティ]** ダイアログ ボックスで、**[OK]** を選択します。
+12. **[データセットのプロパティ]** ダイアログ ボックスで、 **[OK]** を選択します。
 
 13. **[レポート データ]** ウィンドウにデータ ソースやデータセットが表示されます。
 

@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710411"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>手順 5:Power BI テーブルに行を追加する
@@ -311,7 +311,7 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
     }
 ```
 
-ただし、上のコードでは **_//Get the first id_** と指定しています。正しい操作は、データセットを名前で検索することです。
+ただし、上のコードでは ** _//Get the first id_** と指定しています。正しい操作は、データセットを名前で検索することです。
 
 ## <a name="next-steps"></a>次の手順
 [Power BI ダッシュボードにデータをプッシュする](walkthrough-push-data.md)  

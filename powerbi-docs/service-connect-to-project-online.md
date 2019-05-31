@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: dd6698cab5b9fed407e6e8f45ceb160209a38fae
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007570"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61146858"
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>Power BI で Project Online に接続する
 Microsoft Project Online は、プロジェクト ポートフォリオ管理 (PPM) および日常の作業用の柔軟なオンライン ソリューションです。 Project Online を使用すると、プロジェクト ポートフォリオの投資を開始して優先順位を設定し、意図したとおりのビジネス価値を提供できます。 Power BI 用 Project Online コンテンツ パックでは、Project Online から分析情報をロック解除し、プロジェクト、ポートフォリオ、リソースの管理に役立てることができます。
@@ -35,7 +35,7 @@ Power BI 用 [Project Online コンテンツ パック](https://app.powerbi.com/
 4. **[Project Web App の URL]** テキスト ボックスに接続する Project Web App (PWA) の URL を入力し、 **[次へ]** をクリックします。 カスタム ドメインを使用している場合は例と異なる場合があることに注意してください。 **[PWA Site Language]\(PWA サイトの言語\)** テキスト ボックスに、PWA サイト言語に対応する番号を入力します。 英語には '1' を、フランス語には '2' を、ドイツ語には '3' を、ブラジルのポルトガル語には '4' を、ポルトガルのポルトガル語には '5' を、スペイン語には '6' を入力します。 
    
     ![](media/service-connect-to-project-online/params.png)
-5. [認証方法] として **[oAuth2]** を選択し、**[サイン イン]** をクリックします。 プロンプトが表示されたら、Project Online の資格情報を入力し、認証プロセスに従います。
+5. [認証方法] として **[oAuth2]** を選択し、 **[サイン イン]** をクリックします。 プロンプトが表示されたら、Project Online の資格情報を入力し、認証プロセスに従います。
    
     ![](media/service-connect-to-project-online/creds.png)
     

@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008122"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174354"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Power BI で Microsoft Dynamics AX コンテンツ パックに接続する
 Microsoft Dynamics AX には、異なるビジネス ユーザーを対象とした 3 つの Power BI コンテンツ パックがあります。 CFO 専用に設計された財務実績コンテンツ パックは、組織の財務業績に関する洞察を提供します。 リテール チャネル実績コンテンツ パックは、販売実績に注目するチャネル マネージャーを対象にしており、小売および取引データから直接描画することで、傾向を予測して洞察を導き出します。 コスト管理は、COO と CFO 向けに設計されており、経営実績の詳細を提供します。
@@ -29,13 +29,13 @@ Power BI 用 Microsoft Dynamics AX の[リテール チャネル実績コンテ�
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/services.png)
-3. Dynamics AX コンテンツ パックのいずれかを選択して、**[取得]** を選択します。
+3. Dynamics AX コンテンツ パックのいずれかを選択して、 **[取得]** を選択します。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/mdax.png)
 4. Dynamics AX 7 環境の URL を指定します。 [これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/params.png)
-5. **[認証方法]** として **[oAuth2]** を選択し、**[サイン イン]** をクリックします。 メッセージが表示されたら、Dynamics AX の資格情報を入力します。
+5. **[認証方法]** として **[oAuth2]** を選択し、 **[サイン イン]** をクリックします。 メッセージが表示されたら、Dynamics AX の資格情報を入力します。
    
     ![](media/service-connect-to-microsoft-dynamics-ax/creds.png)
    

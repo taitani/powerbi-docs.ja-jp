@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: e7db66dfb79cd0348967369d92e7b13c698d8f71
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007851"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61180786"
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Power BI で ClickDimensions に接続する
 Power BI 用 ClickDimensions コンテンツ パックを使用すると、ClickDimensions マーケティング データを Power BI で利用して、管理チームが営業およびマーケティングの成果を把握することができます。 メールによる対話、Web アクセス、およびフォームの送信を Power BI のダッシュボードとレポートで視覚化し、分析できます。
@@ -32,10 +32,10 @@ Power BI 用 [ClickDimensions コンテンツ パック](https://app.powerbi.com
 3. **[ClickDimensions]** \> **[取得]** の順に選択します。
    
    ![](media/service-connect-to-clickdimensions/clickdimensions.png)
-4. データ センターの場所 (US、EU、または AU) を入力し、**[次へ]** を選択します。
+4. データ センターの場所 (US、EU、または AU) を入力し、 **[次へ]** を選択します。
    
    ![](media/service-connect-to-clickdimensions/params.png)
-5. **[認証方法]** として **[基本]** を選択し、**[サイン イン]** をクリックします。 要求されたら、ClickDimensions 資格情報を入力します。 [これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
+5. **[認証方法]** として **[基本]** を選択し、 **[サイン イン]** をクリックします。 要求されたら、ClickDimensions 資格情報を入力します。 [これらのパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。
    
     ![](media/service-connect-to-clickdimensions/creds.png)
 6. 承諾後、インポート処理が自動的に開始されます。 完了すると、ナビゲーション ウィンドウに、新しいダッシュ ボード、レポート、モデルが表示されます。 インポートされたデータを表示するダッシュボードを選択します。

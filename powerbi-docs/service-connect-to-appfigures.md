@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 2a19cc832f7e03acfd224c6ab2409016ce8da770
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008749"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61179809"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Power BI で appFigures に接続する
 Power BI と appFigures コンテンツ パックを使用すると、アプリに関する重要な統計情報を簡単に追跡できます。 Power BI は、アプリの販売数、ダウンロード数、および広告統計情報を含むデータを取得し、そのデータに基づいて既定のダッシュボードと関連レポートを作成します。
@@ -32,7 +32,7 @@ Power BI と appFigures コンテンツ パックを使用すると、アプリ�
 3. **[appFigures]** \> **[取得]** の順に選択します。
    
    ![](media/service-connect-to-appfigures/appfigures.png)
-4. **認証方式**として **[oAuth2]** を選択し、**[サインイン]** をクリックします。 プロンプトが表示されたら、appFigures 資格情報を入力し、appFigures 認証プロセスに従います。
+4. **認証方式**として **[oAuth2]** を選択し、 **[サインイン]** をクリックします。 プロンプトが表示されたら、appFigures 資格情報を入力し、appFigures 認証プロセスに従います。
    
    初めて接続するときには、アカウントへの読み取り専用アクセスを許可するように求めるメッセージが Power BI から表示されます。 **[許可]** を選択して、インポート プロセスを開始します。 ご使用のアカウントのデータの量によっては、数分かかることもあります。
    

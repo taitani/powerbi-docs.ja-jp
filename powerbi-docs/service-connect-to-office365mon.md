@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: cce886edbed00075efaa43bae9c8a712929e8b9a
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007984"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61170226"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI で Office365Mon に接続する
 Office 365 の障害および正常性のパフォーマンス データの分析は、Power BI や Office365Mon コンテンツ パックを使用すると簡単に行えます。 Power BI は、障害および正常性 プローブを含むデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
@@ -35,7 +35,7 @@ Power BI 用 [Office365Mon コンテンツ パック](https://app.powerbi.com/gr
 3. **[Office365Mon]** \> **[接続]** を選択します。
    
    ![](media/service-connect-to-office365mon/o365mon.png)
-4. [認証方法] として **[oAuth2]** を選択し、**[サイン イン]** をクリックします。
+4. [認証方法] として **[oAuth2]** を選択し、 **[サイン イン]** をクリックします。
    
    プロンプトが表示されたら、Office365Mon の管理者資格情報を入力し、認証プロセスに従います。
    
