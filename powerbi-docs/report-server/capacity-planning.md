@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296664"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60976741"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server のキャパシティ プランニング ガイダンス
 Power BI Report Server はセルフ サービスの BI およびエンタープライズ レポート ソリューションであり、ユーザーはファイアウォールの内側のオンプレミスに展開できます。 Power BI Desktop の対話型レポート機能と、SQL Server Reporting Services のオンプレミスのサーバー プラットフォームが組み合わされています。 企業では分析とレポートが大量に使用され、さらに増え続けており、エンタープライズ ユーザー ベースへの拡張に必要なハードウェア インフラストラクチャやソフトウェア ライセンスの予算が問題になる場合があります。 このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 レポート、クエリ、使用のパターンは組織によって大きく異なりますが、ここで示す結果と、実際に使われたテストおよび実行方法の詳細な説明は、Power BI Report Server の展開の早期計画プロセスで参考になります。
@@ -42,7 +42,7 @@ Power BI Report Server の展開は、次の仮想マシンで構成されてい
 
 * Active Directory ドメイン コントローラー: これは、SQL Server データベース エンジン、SQL Server Analysis Services、および Power BI Report Server が安全にすべての要求を認証するために必要でした。
 * SQL Server データベース エンジンと SQL Server Analysis Services: ここには、レポートが表示されるときに使われるすべてのデータベースが格納されました。
-* Power BI レポート
+* Power BI Report Server
 * Power BI Report Server データベース。 Report Server データベースは、SQL Server データベース エンジンとメモリ、CPU、ネットワーク、およびディスク リソースを競合することがないように、Power BI Report Server とは別のマシンでホストされていました。
 
 ![](media/capacity-planning/report-server-topology.png)

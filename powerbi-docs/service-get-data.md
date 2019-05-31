@@ -11,18 +11,18 @@ ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899298"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61235398"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI サービスのデータ ソース
 データは Power BI の中核です。 データを探索したり、グラフとダッシュボードを作成したり、Q&A で質問したりする場合、表示されるすべての視覚エフェクトと回答は、データセットの基になるデータから取得されます。 しかし、そのデータセットはどこから得られるでしょうか。 データ ソースからです。
 
 この記事では、Power BI サービスから接続できるさまざまな種類のデータ ソースを見ていきます。 データを取得できるデータ ソースの種類は他にも多数あることに注意してください。 ただし、そのようなソースでは最初に Power BI Desktop および Excel の高度なデータ クエリやモデリング機能の使用が必要となる場合があります。 これについては、後で詳しく説明します。 まずは、Power BI サービス サイトから直接接続できるさまざまな種類のデータ ソースについて説明します。
 
-**[マイワークスペース]** > **[データの取得]** をクリックして、Power BI のこれらのデータ ソースのいずれかからデータを取得できます。
+**[マイワークスペース]**  >  **[データの取得]** をクリックして、Power BI のこれらのデータ ソースのいずれかからデータを取得できます。
 
 ![](media/service-get-data/pbi_getdata_startscreen.png)
 

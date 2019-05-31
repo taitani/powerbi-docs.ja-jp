@@ -11,11 +11,11 @@ ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: cd5026a1bb3bca4781be1e3f61b4a71364190f8a
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215897"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61135860"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスや Power BI Desktop のレポートに含まれる視覚エフェクトの移動やサイズ変更を行う
 視覚エフェクトの移動やサイズ変更を行うことができるのは、レポートの作成者と所有者のみです。 Power BI サービス (app.powerbi.com) の場合は、レポートを[編集ビュー](../consumer/end-user-reading-view.md)で開きます。

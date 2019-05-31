@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: aa1c75a30d82a818ec82730c1939d1427b751dfc
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239403"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Power BI Desktop で Adobe Analytics に接続する 
@@ -23,11 +23,11 @@ ms.locfileid: "65239403"
 ![Adobe Analytics からデータを取得する](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
 
 ## <a name="connect-to-adobe-analytics-data"></a>Adobe Analytics データに接続する
-**Adobe Analytics** データに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリで **[オンライン サービス]** を選択すると、**[Adobe Analytics コネクタ]** が表示されます。
+**Adobe Analytics** データに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリで **[オンライン サービス]** を選択すると、 **[Adobe Analytics コネクタ]** が表示されます。
 
 ![Adobe Analytics からデータを取得する](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
 
-表示される **[Adobe Analytics]** ウィンドウで、**[サインイン]** ボタンをクリックし、Adobe Analytics アカウントへのサインイン資格情報を指定します。 次の図のように、Adobe のサインイン ウィンドウが表示されます。
+表示される **[Adobe Analytics]** ウィンドウで、 **[サインイン]** ボタンをクリックし、Adobe Analytics アカウントへのサインイン資格情報を指定します。 次の図のように、Adobe のサインイン ウィンドウが表示されます。
 
 ![Adobe Analytics にサインインする](media/desktop-connect-adobe-analytics/connect-adobe-analytics_03.png)
 

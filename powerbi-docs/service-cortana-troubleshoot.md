@@ -8,26 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249047"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375231"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI 用 Cortana のトラブルシューティング
-この記事はシリーズの一部です。 次の 3 つの記事をまだ読んでいない場合は、読むことをお勧めします。
+この記事はシリーズの一部です。 
 
-**記事 1**:[Cortana と Power BI が連動し、Power BI のダッシュボードとレポートを検索するしくみを理解する](service-cortana-intro.md)
+> [!IMPORTANT]
+> Power BI で Cortana の統合は非推奨です。 6 月 11 日以降、任意のダッシュ ボードとレポートの Cortana は動作しなくします。
 
-**記事 2**:[レポートの検索: Cortana、Power BI、Windows の統合を有効にする](service-cortana-enable.md)
-
-**記事 3**:[レポートの検索: 特別な *Cortana 回答カード*を作成する](service-cortana-answer-cards.md)
-
-Cortana と Power BI の統合にまだ問題がある場合は、ここでその解決方法を説明します。 以下の手順に従って問題を診断し、解決してください。
+Cortana が Power BI と統合させる際に問題が生じる場合は、適切な場所にしてきました。 以下の手順に従って問題を診断し、解決してください。
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Cortana が Power BI のレポートまたはダッシュボードから回答を発見できない理由
 1. Power BI アカウントがありますか。  ない場合は、[無料試用版にサインアップ](https://powerbi.microsoft.com/get-started/)します。
@@ -47,7 +44,7 @@ Cortana と Power BI の統合にまだ問題がある場合は、ここでそ�
 7. Cortana は英語用に構成されていますか。  現在の Cortana と Power BI の統合は、英語でのみサポートされています。 Cortana を開き、歯車アイコンを選んで [設定] を表示します。 **[Cortana 言語]** まで下にスクロールし、英語オプションのいずれかに設定されていることを確認します。
 
    ![Cortana 言語の設定](media/service-cortana-troubleshoot/power-bi-cortana-language.png)
-8. 100 を超えるレポートを Cortana で有効にしていますか。  Cortana は、合計 100 までしか検索しません。  レポートを確実に含めるには、**[マイ ワークスペース]** に移動またはコピーします。Cortana はここを最初に検索します。
+8. 100 を超えるレポートを Cortana で有効にしていますか。  Cortana は、合計 100 までしか検索しません。  レポートを確実に含めるには、 **[マイ ワークスペース]** に移動またはコピーします。Cortana はここを最初に検索します。
 9. 少し時間が必要なだけかもしれません。 初めてクエリを入力するときは、モデルが*コールド状態*になっている可能性があります。 データがメモリに読み込まれるまで数秒待ってから、もう一度やってみてください。
 10. ダッシュボードの場合、Cortana にアクセス可能になるまで最大 24 時間かかります。    
 11. レポートの場合、新しいデータセットまたはカスタム回答カードを Power BI に追加し、Cortana を有効にした場合、Cortana で結果が表示されるようになるまで最大で 30 分かかることがあります。 Windows 10 にログインしてログアウトした場合や、それ以外の方法で Windows 10 で Cortana プロセスを再起動した場合は、新しいレポート コンテンツがすぐに表示されます。  
@@ -55,7 +52,7 @@ Cortana と Power BI の統合にまだ問題がある場合は、ここでそ�
 
 ## <a name="reports-only-why-doesnt-cortana-find-answers-from-my-power-bi-reports"></a>レポートのみ: Cortana が Power BI のレポートから回答を発見できない理由
 1. レポートで回答を探している場合、Cortana **回答カード**を含むレポートがありますか? 回答カードは、Cortana が Power BI レポートで回答を見つけられる唯一の方法です。  回答カードの作成方法については、[Power BI サービスと Power BI Desktop での Cortana 回答カードの作成](service-cortana-answer-cards.md)に関するページをご覧ください。
-2. Windows バージョン 1511 以降を実行していますか。  Windows の設定を開き、**[システム] > [バージョン情報]** を選んで確認してください。 上記のバージョンでない場合は、Windows のバージョンを更新します。
+2. Windows バージョン 1511 以降を実行していますか。  Windows の設定を開き、 **[システム] > [バージョン情報]** を選んで確認してください。 上記のバージョンでない場合は、Windows のバージョンを更新します。
 3. Windows と Power BI アカウントは接続されていますか。 これはややこしい場合があります。 「[Power BI 用に Cortana を有効にする](service-cortana-enable.md#add-your-power-bi-credentials-to-windows)」の説明に従ってください。
 4. 基礎となるデータセットを Cortana に対して有効にしていますか? Cortana が有効になっているデータセットが他のユーザーによって既に共有されているかもしれません。 そうでない場合は、[自分で Cortana 用にデータセットを有効にする方法を学習](service-cortana-enable.md)してください。 すぐに簡単にできます。
 
@@ -75,21 +72,21 @@ Cortana と Power BI の統合にまだ問題がある場合は、ここでそ�
    app.powerbi.com/cortana/test
 
    ![Cortana ツールを開く](media/service-cortana-troubleshoot/power-bi-cortana-tool2.png)
-3. レポートの問題を解決するには、**[Utterance]** (発話) フィールドに、Cortana 回答カードの名前を、***Power BI タブに表示されるとおり正確に***入力します。
+3. レポートの問題を解決するには、 **[Utterance]** (発話) フィールドに、Cortana 回答カードの名前を、***Power BI タブに表示されるとおり正確に***入力します。
 
    ![回答カード](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
    <br>
 
    ![Power BI の [回答カード] タブ](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
-4. 初めて **[Utterance]** (発話) フィールドに何か入力したとき、何も起こらないことがあります。 その場合はシステムが準備中と考え、トラブルシューティング ツールが起動するまで待ってください。 **[Utterance]** (発話) フィールドの内容を切り取って貼り付けるか、再入力してください、 この例では、回答カードの名前は "**Cortana stores**" です。 **Cortana stores** をツールに貼り付けるか入力すると、**[Interpretations]** (解釈) フィールドに 1 つの結果が表示されます。 クリックすると、Cortana ウィンドウに回答カードが表示されます。この場合、**Cortana stores** です。
+4. 初めて **[Utterance]** (発話) フィールドに何か入力したとき、何も起こらないことがあります。 その場合はシステムが準備中と考え、トラブルシューティング ツールが起動するまで待ってください。 **[Utterance]** (発話) フィールドの内容を切り取って貼り付けるか、再入力してください、 この例では、回答カードの名前は "**Cortana stores**" です。 **Cortana stores** をツールに貼り付けるか入力すると、 **[Interpretations]** (解釈) フィールドに 1 つの結果が表示されます。 クリックすると、Cortana ウィンドウに回答カードが表示されます。この場合、**Cortana stores** です。
 
    ![発話フィールドの Cortana ストア](media/service-cortana-troubleshoot/power-bi-utterance.png)
 
    結果が得られたので、Cortana が Power BI で有効になって**いる**ことがわかります。 これにより、問題は Windows 側、Cortana 言語の設定、または Cortana に対して 100 を超えるデータセットの有効化に絞り込まれます。
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>ダッシュボードから回答を取得できませんか。
-共有しているダッシュボードをお探しですか?  Power BI を開き、**[共有アイテム]** に進み、ダッシュボードの名前を見つけます。  **[Utterance]\(発話\)** フィールドにその名前を入力します。
+共有しているダッシュボードをお探しですか?  Power BI を開き、 **[共有アイテム]** に進み、ダッシュボードの名前を見つけます。  **[Utterance]\(発話\)** フィールドにその名前を入力します。
 
 ![Power BI で共有アイテムを開く](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

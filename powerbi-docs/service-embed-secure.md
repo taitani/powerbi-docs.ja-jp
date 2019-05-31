@@ -1,27 +1,27 @@
 ---
 title: セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
-description: Power BI の安全な埋め込み機能を使うと、ユーザーが簡単かつ安全に内部 Web ポータルにレポートを埋め込むことができるようになります。
-author: markingmyname
-ms.author: maghan
+description: Power BI では、機能することにより、ユーザーを簡単に埋め込むし、安全に内部の web ポータルでレポートを埋め込みます。
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: b816b504d3eed3aa91eb25c0bb3c6189d3075d1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bf9d7bcdf6ddaf7d0063843a5314233989b2dadd
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285831"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222234"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 
-Power BI の新しい安全な **[埋め込み]** レポート用オプションを使うと、ユーザーは、SharePoint 2019 などの内部 Web ポータル (**クラウドベース**でも**オンプレミスでホストされている**場合でも) に、簡単かつ安全にレポートを埋め込むことができるようになります。 この方法で埋め込まれたレポートでは、行レベルのセキュリティ (RLS) を使ってすべての項目のアクセス許可とデータのセキュリティが守られます。 この機能は、URL または iFrame の埋め込みを受け入れている任意のポータルに対して、ノーコードの埋め込みを可能にするために設計されています。
+新しい**埋め込み**埋め込むことができます簡単かつ安全にレポートの内部の web ポータルで、Power BI 用のオプションを報告します。 これらのポータルは、**クラウド ベース**または**オンプレミスでホストされる**、SharePoint 2019 など。 埋め込みレポートすべての項目のアクセス許可とデータ セキュリティが考慮[行レベル セキュリティ (RLS)](service-admin-rls.md)します。 URL または iFrame を受け取る任意のポータルへのコードなしの埋め込みを提供します。 
 
-**[埋め込み]** オプションでは [URL フィルター](service-url-filters.md)と URL 設定もサポートされています。 **[埋め込み]** オプションを使うと、HTML と JavaScript の基本的な知識を必要とするローコードの方法を使ってポータルと統合できます。
+**埋め込み**オプション サポート[URL フィルター](service-url-filters.md)と URL の設定。 基本的な HTML と JavaScript の知識のみを要求ローコード アプローチを使用するポータルと統合することができます。
 
 ## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI レポートをポータルに **[埋め込む]** 方法
 
@@ -29,66 +29,66 @@ Power BI の新しい安全な **[埋め込み]** レポート用オプション
 
     ![安全な [埋め込む] オプションのドロップダウン オプション](media/service-embed-secure/secure-embed-drop-down-menu.png)
 
-2. [埋め込む] オプションを選択すると、レポートを安全に埋め込むために使うリンクと iFrame が表示されたダイアログが開きます。
+2. 選択、**埋め込み**オプションを安全にレポートを埋め込む際 iFrame とリンクを提供するダイアログを開きます。
 
     ![[埋め込む] オプションのダイアログ ボックス](media/service-embed-secure/secure-embed-code-dialog.png)
 
-3. URL をご自分の Web ポータルに埋め込んだ後、または URL を直接開いた場合、ユーザーはレポートへのアクセス権を付与される前に認証されます。 以下では、ユーザーはブラウザー セッションで Power BI にサインインしていません。 **[サインイン]** を押すと、新しいブラウザー ウィンドウまたはタブを開くことが必要となる場合があります。 サインインするよう求められない場合は、ポップアップ ブロックを確認してください。
+3. ユーザーが直接、レポートの URL を開くまたは web ポータルに埋め込まれているいずれかであるかどうか、レポートへのアクセスには、認証が必要です。 ユーザーがいないにサインインした Power BI がブラウザー セッションで場合、次の画面が表示されます。 選択したときに**サインイン**、新しいブラウザー ウィンドウまたはタブを開くことでした。 サインインするように求め取得しない場合は、ポップアップ ブロックの確認があります。
 
     ![サインインしてこのレポートを表示する](media/service-embed-secure/secure-embed-sign-in.png)
 
-4. ユーザーがサインインするとレポートが開かれ、データが表示されます。ユーザーはページ間を移動したり、フィルターを設定したりできます。 レポートが表示されるのは、Power BI でレポートを閲覧するアクセス許可を持つユーザーに対してのみです。 行レベルのセキュリティ (RLS) 規則もすべて適用されます。 最後に、ユーザーに正しいライセンスが与えられている必要があります – Power BI Pro ライセンスが必要であるか、またはレポートが Power BI Premium 容量内にあるワークスペースに置かれている必要があります。 ユーザーは新しいブラウザー ウィンドウを開くたびにサインインする必要がありますが、一度サインインした後は他のレポートは自動的に読み込まれます。
+4. ユーザーがサインインした後、レポートが開き、データを表示し、ページ ナビゲーションとフィルターの設定を許可すること。 ビューのアクセス許可を持つユーザーのみには、Power BI でレポートを表示できます。 すべて[行レベル セキュリティ (RLS)](service-admin-rls.md)もルールが適用されます。 最後に、ユーザーに正しいライセンスが与えられている必要があります – Power BI Pro ライセンスが必要であるか、またはレポートが Power BI Premium 容量内にあるワークスペースに置かれている必要があります。 ユーザーは、新しいブラウザー ウィンドウを開くたびにサインインする必要があります。 ただし、一度サインインすると、その他のレポートは自動的に読み込みます。
 
     ![レポートを埋め込む](media/service-embed-secure/secure-embed-report.png)
 
-5. iFrame のオプションを使う場合は、表示される HTML を編集して望ましい高さと幅を指定し、ポータルの Web ページに収まるようにすることをお勧めします。
+5. IFrame を使用する場合は、編集する必要があります、**高さ**と**幅**がポータルの web ページに収まるようにします。
 
     ![高さと幅を設定する](media/service-embed-secure/secure-embed-size.png)
 
-## <a name="granting-access-to-reports"></a>レポートへのアクセスを許可する
+## <a name="granting-report-access"></a>レポートへのアクセスを許可
 
-[埋め込む] オプションによって、ユーザーによるレポートの表示が自動的に許可されるわけではありません。 レポートを表示するアクセス許可は、Power BI サービスで設定します。
+**埋め込み**オプションはレポートを表示するユーザーに自動的にできません。 アクセス許可の表示は、Power BI サービスで設定されます。
 
-Power BI サービス内でレポートへのアクセスを許可するには、埋め込まれたレポートへのアクセスを要求しているユーザーとレポートを共有します。 Office 365 グループを使っている場合は、Power BI サービス内でアプリ ワークスペースのメンバーとしてユーザーをリストします。 詳しくは、[アプリ ワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)方法に関する記事をご覧ください。
+Power BI サービスでは、アクセスを必要とするユーザーと埋め込みレポートを共有できます。 Office 365 グループを使用している場合は、アプリ ワークスペースのメンバーとしてユーザーを一覧表示できます。 詳細については、次を参照してください。 方法[Power BI および Office 365 でアプリ ワークスペースの管理](service-manage-app-workspace-in-power-bi-and-office-365.md)します。
 
 ## <a name="licensing"></a>ライセンス
 
-ユーザーが埋め込まれたレポートを閲覧するには、Power BI Pro ライセンスを所有しているか、またはコンテンツが [Power BI Premium 容量 (EM または P SKU)](service-admin-premium-purchase.md) 内のワークスペースに置かれている必要があります。
+埋め込みのレポートを表示するか、Power BI Pro ライセンス ユーザーする必要があります。 または、コンテンツをされているワークスペースである必要があります、 [Power BI Premium 容量 (EM または P SKU)](service-admin-premium-purchase.md)します。
 
 ## <a name="customize-your-embed-experience-using-url-settings"></a>URL 設定を使って埋め込みエクスペリエンスをカスタマイズする
 
-埋め込み URL では、ユーザー エクスペリエンスのカスタマイズに役立ついくつかの入力設定がサポートされています。 提供された iFrame を使う場合は、iFrame の src 設定にある URL を更新します。
+埋め込み URL の入力設定を使用して、ユーザー エクスペリエンスをカスタマイズすることができます。 URL を更新する指定の iFrame で**src**設定します。
 
 | プロパティ  | 説明  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | クエリ文字列パラメーター **pageName** を使って、レポートのどのページが開くのか設定できます。 **pageName** の値は、以下に示すように、Power BI サービスでレポートを表示したときのレポートの URL の末尾と一致します。 |  |  |  |
-| URL フィルター  | Power BI の UI から受け取った埋め込み URL 内の [URL フィルター](service-url-filters.md)を使って、埋め込みのコンテンツをフィルター処理できます。 この方法では、基本的な HTML および JavaScript エクスペリエンスのみとのローコードの統合を構築できます。  |  |  |  |
+| pageName  | 使用することができます、 **pageName**クエリ文字列パラメーターを設定するレポート ページを開きます。 この値を調べる、レポートの URL の最後に、Power BI サービスでレポートを表示すると次に示すよう。 |  |  |  |
+| URL フィルター  | 使用することができます[URL フィルター](service-url-filters.md)埋め込みコンテンツをフィルター処理する Power BI の UI から受信した埋め込み URL にします。 この方法では、基本的な HTML および JavaScript エクスペリエンスのみとのローコードの統合を構築できます。  |  |  |  |
 
-## <a name="set-which-page-opens-when-the-report-is-embedded"></a>レポートが埋め込まれるときにどのページが開くか設定する
+## <a name="set-which-page-opens-for-an-embedded-report"></a>セットの埋め込みレポートのページが表示されます。 
 
-*pageName* 設定に与えられる値は、Power BI サービスでレポートを表示したときのレポートの URL の末尾と一致します。
+検索することができます、 **pageName** Power BI サービスでレポートを表示するときに、レポートの URL の末尾にある値。
 
-1. Web ブラウザーで Power BI サービスからレポートを開き、アドレス バーから URL をコピーします。
+1. Web ブラウザーで Power BI サービスからレポートを開き、アドレス バーの URL をコピーします。
 
     ![レポート セクション](media/service-embed-secure/secure-embed-report-section.png)
 
-2. *pageName* 設定を URL に追加します。
+2. **pageName** 設定を URL に追加します。
 
     ![pageName を追加する](media/service-embed-secure/secure-embed-append-page-name.png)
 
-## <a name="filter-report-content-using-url-filters"></a>URL フィルターを使ってレポートの内容をフィルター処理する
+## <a name="filter-report-content-using-url-filters"></a>URL フィルターを使ってレポートの内容をフィルター処理する 
 
-いくつかの高度な機能として、[URL フィルター](service-url-filters.md)を使ってレポートを使ったさらなるエクスペリエンスを構築できます。 たとえば、以下の URL では、レポートをフィルター処理してエネルギー業界のデータを表示します。
+使用することができます[URL フィルター](service-url-filters.md)別のレポート ビューを提供します。 たとえば、以下の URL では、レポートをフィルター処理してエネルギー業界のデータを表示します。
 
 **pageName** と [URL フィルター](service-url-filters.md)を組み合わせて使うと強力です。 基本的な HTML と JavaScript を使ってエクスペリエンスを構築できます。
 
-たとえば、HTML ページにボタンを追加する方法を次に示します。
+たとえば、HTML ページに追加することができます ボタンを示します。
 
 ```html
 <button class="textLarge" onclick='show("ReportSection", "Energy");' style="display: inline-block;">Show Energy</button>
 ```
 
-ボタンを押すと、エネルギー業界用のフィルターを含む更新された URL を使って iFrame を更新する関数が呼び出されます。
+選択した場合、ボタンは、iFrame をエネルギー業界フィルターを含む、更新された URL で更新する関数を呼び出します。
 
 ```javascript
 function show(pageName, filterValue)
@@ -124,20 +124,20 @@ report.src = newUrl;
 
 * セキュリティで保護された埋め込みは Power BI サービスに公開されたレポートに対して機能します。
 
-* ユーザーは、新しいブラウザー ウィンドウを開くたびにサインインしてレポートを表示する必要があります。
+* ユーザーは、新しいブラウザー ウィンドウを開くときに、レポートを表示するサインインする必要があります。
 
-* 一部のブラウザーでは、サインイン後にページを更新する必要があります (特に InPrivate または Incognito モードを使っている場合)。
+* 一部のブラウザーでは、InPrivate または Incognito のモードを使用する場合は特に、サインイン後、ページを更新する必要があります。
 
-* シングル サインオン エクスペリエンスを実現するには、SharePoint Online のオプションで [埋め込む] を使うか、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)の方法を使ってカスタム統合を構築します。 詳細については、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)に関するページをご覧ください。
+* シングル サインオン エクスペリエンスを実現する、SharePoint Online のオプションで埋め込みを使用してを使用してカスタム統合のビルドに、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)メソッドの埋め込み。 
 
-* **[埋め込む]** オプションを使って提供される自動認証機能は、Power BI JavaScript API では動作しません。 Power BI JavaScript API の場合は、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)の方法を使って埋め込みを行います。 詳細については、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)に関するページをご覧ください。
+* **[埋め込む]** オプションを使って提供される自動認証機能は、Power BI JavaScript API では動作しません。 Power BI JavaScript API を使用して、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)メソッドの埋め込み。 
 
 ## <a name="next-steps"></a>次の手順
 
-* [作業を共有する方法](service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Power BI で作業を共有する方法](service-how-to-collaborate-distribute-dashboards-reports.md)
 
-* [URL フィルター](service-url-filters.md)
+* [URL にクエリ文字列パラメーターを使用してレポートをフィルター処理します。](service-url-filters.md)
 
-* [SharePoint Online レポート Web パーツ](service-embed-report-spo.md)
+* [SharePoint Online にレポート web パーツを埋め込む](service-embed-report-spo.md)
 
-* [Web に公開](service-publish-to-web.md)
+* [Power BI から Web に公開します。](service-publish-to-web.md)

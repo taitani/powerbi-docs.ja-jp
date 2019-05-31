@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287350"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61233862"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の調達の分析のサンプル:ツアーを開始する
 
@@ -40,10 +40,10 @@ ms.locfileid: "54287350"
 2. 左下隅にある **[データの取得]** を選びます。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
+3. 表示される [データの取得] ページで、 **[サンプル]** アイコンを選びます。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. **[調達の分析のサンプル]** を選択し、**[接続]** を選択します。  
+4. **[調達の分析のサンプル]** を選択し、 **[接続]** を選択します。  
   
    ![データの取得](media/sample-procurement/procurement1a.png)
    
@@ -58,23 +58,23 @@ ms.locfileid: "54287350"
  * [調達の分析のサンプル](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529784)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529784)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、 **[Power Pivot] > [管理]** を選択します。
 
 
 ## <a name="spending-trends"></a>支出傾向
 まず、カテゴリと場所ごとの支出の傾向を見てみましょう。  
 
 1. ワークスペースから **[ダッシュボード]** タブを開き、調達の分析ダッシュボードを選択します。
-2. ダッシュボード タイル **[Total Invoice by Country/Region]**(国または地域別の合計請求) を選びます。 「調達の分析のサンプル」レポートの「支出概要」ページが開きます。
+2. ダッシュボード タイル **[Total Invoice by Country/Region]** (国または地域別の合計請求) を選びます。 「調達の分析のサンプル」レポートの「支出概要」ページが開きます。
 
     ![](media/sample-procurement/procurement2.png)
 
 以下の点にご注意ください。
 
-* **[Total Invoice by Month and Category]\(月およびカテゴリ別の合計請求\)** 折れ線グラフ:**[Direct]\(直接\)** カテゴリにはほぼ安定した支出、**[Logistics]\(物流\)** には 12 月のピーク時の支出、**[Other]\(その他\)** には 2 月のスパイクが含まれます。
-* **[Total Invoice by Country/Region]\(国または地域ごとの合計請求\)** マップ:支出のほとんどは米国内です。
-* **[Total Invoice by Sub Category]\(サブ カテゴリ別の合計請求\)** 縦棒グラフ:**[Hardware]\(ハードウェア\)** および **[Indirect Goods & Services]\(間接的な商品およびサービス\)** は最も大きな支出カテゴリです。
-* [Total Invoice by Tier]\(層別の合計請求\) 横棒グラフ:私たちのビジネスのほとんどは、第 1 層 (上位 10 社) のベンダーと行われています。 これはベンダーとの関係の管理向上に役立ちます。
+* **[Total Invoice by Month and Category]\(月およびカテゴリ別の合計請求\)** 折れ線グラフ: **[Direct]\(直接\)** カテゴリにはほぼ安定した支出、 **[Logistics]\(物流\)** には 12 月のピーク時の支出、 **[Other]\(その他\)** には 2 月のスパイクが含まれます。
+* **[Total Invoice by Country/Region]\(国または地域ごとの合計請求\)** マップ:支出のほとんどは、米国内です。
+* **[Total Invoice by Sub Category]\(サブ カテゴリ別の合計請求\)** 縦棒グラフ: **[Hardware]\(ハードウェア\)** および **[Indirect Goods & Services]\(間接的な商品およびサービス\)** は最も大きな支出カテゴリです。
+* [Total Invoice by Tier]\(層別の合計請求\) 横棒グラフ:ビジネスのほとんどは、第 1 層 (上位 10) のベンダーと行われます。 これはベンダーとの関係の管理向上に役立ちます。
 
 ## <a name="spending-in-mexico"></a>メキシコでの支出
 メキシコでの支出分野を見てみましょう。
@@ -100,7 +100,7 @@ ms.locfileid: "54287350"
 ## <a name="evaluate-different-cities"></a>異なる複数の市区町村の評価
 強調表示を使用して、異なる複数の市区町村を評価することができます。
 
-1. ダッシュボード タイル **[Total Invoice, Discount % By Month]**(月別の合計請求、割引率) を選びます。 レポートが開き、「割引分析」ページが表示されます。
+1. ダッシュボード タイル **[Total Invoice, Discount % By Month]** (月別の合計請求、割引率) を選びます。 レポートが開き、「割引分析」ページが表示されます。
 2. **[Total Invoice by City]** (市区町村ごとの合計請求) ツリーマップで異なる複数の市区町村を選んで比較します。 マイアミのほとんどすべての請求は、第 1 層のベンダーからです。
 
    ![](media/sample-procurement/pbi_procsample_miamitreemap2.png)

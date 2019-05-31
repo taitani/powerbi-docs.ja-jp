@@ -1,8 +1,8 @@
 ---
 title: Power BI Premium の Multi-Geo のサポート
 description: Power BI テナントのホーム リージョン以外のリージョンにあるデータセンターにコンテンツを展開する方法について説明します。
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57571981"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564940"
 ---
-# <a name="multi-geo-support-for-power-bi-premium"></a>Power BI Premium の Multi-Geo のサポート
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium のサポートを複数の地理的リージョンを構成します。
 
 Multi-Geo は、多国籍企業のお客様が、リージョン、業界固有、または組織のデータの配置場所に関する要件に対応するために役立つ Power BI Premium の機能です。 Power BI Premium をご利用の場合、Power BI テナントのホーム リージョン以外のリージョンにあるデータセンターにコンテンツを展開できます。 geo (地域) には、複数のリージョンが含まれる可能性があります。 たとえば、米国は geo であり、米国中西部と米国中南部は米国のリージョンです。 次のいずれかのリージョンにコンテンツを展開することができます。
 
@@ -35,7 +35,7 @@ Multi-Geo は、Power BI Germany、21Vianet が運営する Power BI China、ま
 
 Multi-Geo は、Power BI Embedded でも使用できるようになりました。 詳細については、「[Power BI Embedded の Multi-Geo のサポート](developer/embedded-multi-geo.md)」をご覧ください。
 
-## <a name="using-multi-geo"></a>Multi-Geo を使用する
+## <a name="enable-and-configure"></a>有効化し、構成
 
 新しい容量の場合、Multi-Geo を有効にするには、ドロップダウンから既定のリージョン以外のリージョンを選択します。  利用可能な容量ごとに、**米国中西部**など、現在配置されているリージョンが表示されます。
 
@@ -68,7 +68,7 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 - アクセス許可
 - データセットの資格情報
 
-## <a name="view-capacity-regions"></a>容量のリージョンを表示する
+## <a name="view-capacity-regions"></a>容量のリージョンを表示します。
 
 管理ポータルでは、Power BI テナントのすべての容量とその現在のリージョンを確認できます。
 
@@ -98,7 +98,7 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 
 ## <a name="next-steps"></a>次の手順
 
-- [Power BI Premium:説明](service-premium.md)
+- [Power BI Premium とは何ですか?](service-premium-what-is.md)
 - [Power BI Embedded の容量に対する Multi-Geo](developer/embedded-multi-geo.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292984"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61239615"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI のサプライヤー クオリティ分析のサンプル:ツアーを開始する
 
@@ -41,10 +41,10 @@ ms.locfileid: "54292984"
 2. 左下隅にある **[データの取得]** を選びます。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
+3. 表示される [データの取得] ページで、 **[サンプル]** アイコンを選びます。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. **[サプライヤー クオリティ分析サンプル]** を選び、**[接続]** を選びます。  
+4. **[サプライヤー クオリティ分析サンプル]** を選び、 **[接続]** を選びます。  
   
    ![サプライヤー クオリティ分析サンプル](media/sample-supplier-quality/supplier16.png)
    
@@ -59,7 +59,7 @@ ms.locfileid: "54292984"
  * [サプライヤー クオリティ分析サンプル PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529779)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529779)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、 **[Power Pivot] > [管理]** を選択します。
 
 
 ## <a name="downtime-caused-by-defective-materials"></a>欠陥のある素材によって発生するダウンタイム
@@ -103,7 +103,7 @@ ms.locfileid: "54292984"
 
     ![](media/sample-supplier-quality/supplier7.png)  
 
-    バブル チャートから、**\[Logistics]** \(物流) が最もトラブルの多いカテゴリであることがわかります。欠陥合計数量、合計欠陥数レポート、ダウンタイム合計 (分) のすべてで最大の値を示しています。 このカテゴリをさらに詳しく見てみましょう。  
+    バブル チャートから、 **\[Logistics]** \(物流) が最もトラブルの多いカテゴリであることがわかります。欠陥合計数量、合計欠陥数レポート、ダウンタイム合計 (分) のすべてで最大の値を示しています。 このカテゴリをさらに詳しく見てみましょう。  
 3. バブル チャートで \[Logistics] \(物流) バブルを選び、\[Springfield, IL] \(スプリングフィールド、IL) と \[Naperville, IL] \(ネーパービル、IL) のプラントを確認します。 Naperville は受領拒否の件数が多く、Springfield (影響の件数が多い) と比べて影響の件数も少ないことから、欠陥品の管理に大変優れていることが伺えます。  
 
    ![](media/sample-supplier-quality/supplier8.png)  

@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "61272253"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移行ツール
@@ -41,11 +41,11 @@ ms.locfileid: "61272253"
 
 新しい移行プランを作成して開始します。 新しい移行プランを作成するには、次の手順を実行します。
 
-1. **[ファイル]** > **[New Migration Plan]\(新しい移行プラン\)** を選択します。
+1. **[ファイル]**  >  **[New Migration Plan]\(新しい移行プラン\)** を選択します。
 
     ![ツール プラン](media/migrate-tool/migrate-tool-plan.png)
 
-2. **[Select Power BI Embedded Resource Group (Power BI Embedded リソース グループの選択)]** ダイアログで [環境 ドロップダウンを選択し、製品を選択します。
+2. **Select Power BI Embedded Resource Group (Power BI Embedded リソース グループの選択)** ダイアログで 環境 ドロップダウンを選択し、製品を選択します。
 
 3. サインインするように求められます。 Azure サブスクリプションのログイン アカウントを使用します。
 
@@ -55,7 +55,7 @@ ms.locfileid: "61272253"
 4. Power BI Embedded ワークスペース コレクションを保存する Azure サブスクリプションを選択します。
 
     ![リソース グループ](media/migrate-tool/migrate-tool-select-resource-group.png)
-5. サブスクリプション リストの下にあるワークスペース コレクションを含む **[リソース グループ]** を選択し、**[選択]** を選択します。
+5. サブスクリプション リストの下にあるワークスペース コレクションを含む **[リソース グループ]** を選択し、 **[選択]** を選択します。
 
     ![リソース グループの選択](media/migrate-tool/migrate-tool-select-resource-group2.png)
 
@@ -76,11 +76,11 @@ ms.locfileid: "61272253"
 
 移行プランを保存するには、次の手順を実行します。
 
-1. **[ファイル]** > **[Save Migration Plan]/(移行プランの保存/)** を選択します。
+1. **[ファイル]**  >  **[Save Migration Plan]/(移行プランの保存/)** を選択します。
 
     ![プランの保存](media/migrate-tool/migrate-tool-save-plan.png)
 
-2. ファイルに名前を付けるか、自動生成されたファイル名を使用して、**[保存]** を選択します。
+2. ファイルに名前を付けるか、自動生成されたファイル名を使用して、 **[保存]** を選択します。
 
 ### <a name="open-an-existing-migration-plan"></a>既存の移行プランを開く
 
@@ -88,11 +88,11 @@ ms.locfileid: "61272253"
 
 既存の移行プランを開くには、次の手順を実行します。
 
-1. **[ファイル]** > **[Open Existing Migration Plan]/(既存の移行プランを開く/)** を選択します。
+1. **[ファイル]**  >  **[Open Existing Migration Plan]/(既存の移行プランを開く/)** を選択します。
 
     ![プランを開く](media/migrate-tool/migrate-tool-open-plan.png)
 
-2. 移行ファイルを選択し、**[開く]** を選択します。
+2. 移行ファイルを選択し、 **[開く]** を選択します。
 
 ## <a name="step-1-analyze--plan-migration"></a>手順 1:移行の分析と計画
 
@@ -125,7 +125,7 @@ PaaS トポロジ内の項目を選択して、レポート セクションに�
 
 #### <a name="download-plan"></a>ダウンロード プラン
 
-パスは自動的に作成されます。 このパスは必要に応じて変更できます。 パスを変更する場合は、**[Update paths]\(パスの更新\)** を選択する必要があります。
+パスは自動的に作成されます。 このパスは必要に応じて変更できます。 パスを変更する場合は、 **[Update paths]\(パスの更新\)** を選択する必要があります。
 
 > [!NOTE]
 > この項目を設定しても、実際にダウンロードは実行されません。 レポートのダウンロード先の構造を指定するだけです。
@@ -139,7 +139,7 @@ Power BI サービス内で作成されるアプリ ワークスペースに使�
 > [!NOTE]
 > この項目を設定しても、実際に Power BI サービス内にグループは作成されません。 グループの名前付けの構造を定義するだけです。
 
-プレフィックスを変更する場合、**[Generate Upload Plan]/(アップロード プランの生成/)** を選択する必要があります。
+プレフィックスを変更する場合、 **[Generate Upload Plan]/(アップロード プランの生成/)** を選択する必要があります。
 
 必要に応じて、グループを右クリックし、[Upload Plan]/(アップロード プラン/) 内のグループ名を変更することもできます。
 
@@ -156,22 +156,22 @@ Power BI サービス内で作成されるアプリ ワークスペースに使�
 
 2 つのオプションがあります。
 
-* 特定のレポートを選択し、**[Download Selected]/(選択項目のダウンロード/)** を選択します
+* 特定のレポートを選択し、 **[Download Selected]/(選択項目のダウンロード/)** を選択します
 * **[Download All]/(すべてダウンロード/)** を選択します。
 
 ![ダウンロード オプション](media/migrate-tool/migrate-tool-download-options.png)
 
-正常にダウンロードされると、*[完了]* という状態が表示され、PBIX ファイルが存在することが反映されます。
+正常にダウンロードされると、 *[完了]* という状態が表示され、PBIX ファイルが存在することが反映されます。
 
-ダウンロードが完了したら、**[Create Groups]/(グループの作成/)** タブを選択します。
+ダウンロードが完了したら、 **[Create Groups]/(グループの作成/)** タブを選択します。
 
 ## <a name="step-3-create-groups"></a>手順 3:グループの作成
 
-使用できるレポートをダウンロードしたら、**[Create Groups]/(グループの作成/)** タブを選択します。このタブでは、作成した移行プランに基づいて、Power BI サービス内にアプリ ワークスペースが作成されます。 **[Analyze & Plan Migration]/(移行の分析と計画/)** 内の **[アップロード]** タブで指定した名前のアプリ ワークスペースが作成されます。
+使用できるレポートをダウンロードしたら、 **[Create Groups]/(グループの作成/)** タブを選択します。このタブでは、作成した移行プランに基づいて、Power BI サービス内にアプリ ワークスペースが作成されます。 **[Analyze & Plan Migration]/(移行の分析と計画/)** 内の **[アップロード]** タブで指定した名前のアプリ ワークスペースが作成されます。
 
 ![グループの作成](media/migrate-tool/migrate-tool-create-groups.png)
 
-アプリ ワークスペースを作成するには、**[Create Selected Groups]/(選択されているグループの作成/)** または **[Create All Missing Groups]/(見つからないすべてのグループの作成/)** を選択します。
+アプリ ワークスペースを作成するには、 **[Create Selected Groups]/(選択されているグループの作成/)** または **[Create All Missing Groups]/(見つからないすべてのグループの作成/)** を選択します。
 
 いずれかのオプションを選択すると、サインインするように求められます。 *"アプリ ワークスペースを作成する Power BI サービスの資格情報を使用します。"*
 
@@ -183,7 +183,7 @@ Power BI にサインインしてワークスペースが存在することを�
 
 ![アプリ ワークスペース](media/migrate-tool/migrate-tool-app-workspace.png)
 
-ワークスペースの作成後は、**[アップロード]** タブに移動できます。
+ワークスペースの作成後は、 **[アップロード]** タブに移動できます。
 
 ## <a name="step-4-upload"></a>手順 4:アップロード
 
@@ -193,7 +193,7 @@ Power BI にサインインしてワークスペースが存在することを�
 
 選択したレポートをアップロードするか、すべてのレポートをアップロードすることができます。 また、アップロードの状態をリセットして項目を再アップロードすることもできます。
 
-また、同じ名前のレポートが存在する場合の処理方法を選択することもできます。 **[中止]**、**[無視]**、**[上書き]** から選択できます。
+また、同じ名前のレポートが存在する場合の処理方法を選択することもできます。 **[中止]** 、 **[無視]** 、 **[上書き]** から選択できます。
 
 ![同じ名前のレポートのアップロード](media/migrate-tool/migrate-tool-upload-report-same-name.png)
 

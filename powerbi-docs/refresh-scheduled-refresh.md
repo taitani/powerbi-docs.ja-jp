@@ -1,21 +1,21 @@
 ---
 title: スケジュールされた更新の構成
 description: ここでは、ゲートウェイを選択して、スケジュールされた更新を構成する手順を説明します。
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7eb09f92be6c49756513b095afbdb9f451753d30
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9df65c4f6872f2141d0047bb8779f490cec9d6c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289420"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61413883"
 ---
 # <a name="configuring-scheduled-refresh"></a>スケジュールされた更新の構成
 
@@ -38,7 +38,7 @@ ms.locfileid: "54289420"
 ## <a name="gateway-connection"></a>ゲートウェイの接続
 パーソナル ゲートウェイまたはエンタープライズ ゲートウェイのどちらをオンラインにして使用できるようにしているかによって、ここに表示されるオプションが変わります。
 
-使用できるゲートウェイがない場合は、**[ゲートウェイ設定]** が無効になっています。 パーソナル ゲートウェイをインストールする方法を示すメッセージも表示されます。
+使用できるゲートウェイがない場合は、 **[ゲートウェイ設定]** が無効になっています。 パーソナル ゲートウェイをインストールする方法を示すメッセージも表示されます。
 
 ![](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
@@ -69,14 +69,14 @@ ms.locfileid: "54289420"
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> データ更新のためにオンプレミスの SharePoint に接続するとき、Power BI は "*匿名*"、"*基本*"、および "*Windows (NTLM/Kerberos)*" の認証メカニズムのみをサポートします。 オンプレミスの SharePoint データ ソースのデータ更新では、Power BI は "*ADFS*" または "*フォーム ベース認証*" のメカニズムをサポートしません。
+> データ更新のためにオンプレミスの SharePoint に接続するとき、Power BI は "*匿名*"、"*基本*"、および "*Windows (NTLM/Kerberos)* " の認証メカニズムのみをサポートします。 オンプレミスの SharePoint データ ソースのデータ更新では、Power BI は "*ADFS*" または "*フォーム ベース認証*" のメカニズムをサポートしません。
 > 
 > 
 
 ## <a name="schedule-refresh"></a>更新のスケジュール設定
 スケジュールされた更新のセクションでは、データセットを更新する頻度と時間帯を定義します。 一部のデータ ソースには、構成の対象となるゲートウェイは不要です。 その他のデータ ソースには、ゲートウェイが必要となります。
 
-設定を構成するには、**[データを常に最新の状態に保つ]** スライダーを **[はい]** に設定する必要があります。
+設定を構成するには、 **[データを常に最新の状態に保つ]** スライダーを **[はい]** に設定する必要があります。
 
 > [!NOTE]
 > Power BI サービスでは、スケジュールされた更新時間の **15 分**以内にデータの更新を開始することを目標にしています。
@@ -124,7 +124,7 @@ ms.locfileid: "54289420"
 ## <a name="next-steps"></a>次の手順
 [Power BI でのデータの更新](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
+[On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)  
 [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

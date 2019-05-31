@@ -15,10 +15,10 @@ ms.workload: powerbi
 ms.date: 05/13/2019
 ms.author: mihart
 ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
-ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608272"
 ---
 <!-- once the sample apps are live, change this so consumers can follow along -->
@@ -44,7 +44,7 @@ Power BI サービスのその他のレポート モードは[編集ビュー](.
 ### <a name="view-an-app"></a>アプリを表示する
 Power BI では、"*アプリ*" によって関連するダッシュボードやレポートが 1 つの場所にまとめられます。
 
-1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png) > **[アプリの取得]** の順に選択します。 
+1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png) >  **[アプリの取得]** の順に選択します。 
    
      ![[アプリの取得] アイコン](./media/end-user-reading-view/power-bi-get-app.png)
 2. [AppSource] の **[My organization]\(自分の組織\)** で、結果を絞り込むための検索を行って、探しているアプリを見つけます。
@@ -71,7 +71,7 @@ Power BI では、"*アプリ*" によって関連するダッシュボードや
 
 3. 黄色のスライダーを使うと、サブスクリプションのオン/オフを切り替えることができます。  必要に応じて、電子メール メッセージの詳細を追加します。 
 
-    下のスクリーンショットでは、レポートをサブスクライブすると、実際にはレポート *ページ*をサブスクライブしていることがわかります。  レポートの複数のページをサブスクライブするには、**[Add another subscription]\(別のサブスクリプションを追加\)** を選択し、別のページを選択します。 
+    下のスクリーンショットでは、レポートをサブスクライブすると、実際にはレポート *ページ*をサブスクライブしていることがわかります。  レポートの複数のページをサブスクライブするには、 **[Add another subscription]\(別のサブスクリプションを追加\)** を選択し、別のページを選択します。 
       
    ![サブスクライブ ウィンドウ](./media/end-user-subscribe/power-bi-emails.png)
    
@@ -163,7 +163,7 @@ Power BI では、"*アプリ*" によって関連するダッシュボードや
 ###  <a name="open-the-selection-pane"></a>**[選択]** ウィンドウを開く
 レポート ページの視覚エフェクトの間を簡単に移動できます。 
 
-1. [選択] ウィンドウを開くには、**[表示] > [選択ウィンドウ]** の順に選択します。 **[選択ウィンドウ]** をオンにします。
+1. [選択] ウィンドウを開くには、 **[表示] > [選択ウィンドウ]** の順に選択します。 **[選択ウィンドウ]** をオンにします。
 
     ![レポートの [選択] ウィンドウをオンにする](media/end-user-reading-view/power-bi-selection-pane2.png)
 
@@ -172,7 +172,7 @@ Power BI では、"*アプリ*" によって関連するダッシュボードや
     ![レポートの [選択] ウィンドウ](media/end-user-reading-view/power-bi-selection-pane-new.png)
 
 ### <a name="zoom-in-on-individual-visuals"></a>個々のビジュアルにズームイン
-ビジュアルをポイントし、**[フォーカス モード]** アイコン ![](media/end-user-reading-view/pbi_popouticon.jpg) を選択します。 下の画像のように、フォーカス モードで視覚エフェクトを表示すると、レポート キャンバス全体を埋めるよう拡大されます。
+ビジュアルをポイントし、 **[フォーカス モード]** アイコン ![](media/end-user-reading-view/pbi_popouticon.jpg) を選択します。 下の画像のように、フォーカス モードで視覚エフェクトを表示すると、レポート キャンバス全体を埋めるよう拡大されます。
 
 ![フォーカス モード](media/end-user-reading-view/powerbi-focus-mode.png)
 
@@ -184,7 +184,7 @@ Power BI では、"*アプリ*" によって関連するダッシュボードや
 Power BI のビジュアルは、基礎データセットからのデータを使用して作成されます。 目に見えない部分を確認する場合は、ビジュアルの作成に使用されているデータを Power BI によって*表示*することができます。 **[データの表示]** を選択すると、ビジュアルの下 (または横に) データが表示されます。
 
 1. Power BI サービスで、レポートを開き、ビジュアルを選択します。  
-2. ビジュアルの背後にあるデータを表示するには、省略記号 (...) を選択し、**[データの表示]** を選択します。
+2. ビジュアルの背後にあるデータを表示するには、省略記号 (...) を選択し、 **[データの表示]** を選択します。
    
    ![[データの表示] の選択](./media/end-user-show-data/power-bi-explore-show-data.png)
 

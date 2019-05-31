@@ -1,21 +1,21 @@
 ---
 title: Power BI でのデータの更新
 description: Power BI でのデータの更新
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/21/2019
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.openlocfilehash: 149f6963cc59c70342bee824579f6ae4c97a16d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892484"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60974365"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 必ず最新のデータを取得することは、多くの場合、正しい意思決定をする上で重要です。 お客様は既に、Power BI の [データの取得] を使ってデータに接続してアップロードしたり、レポートとダッシュボードを作成したりしたことがあるでしょう。 ここで、データが本当に最新のもので、最も意味のあるものかを確認することができます。
@@ -39,7 +39,7 @@ ms.locfileid: "56892484"
 
 データセットには、データ ソース、データ ソースの資格情報に関する情報が含まれ、ほとんどの場合、データ ソースからコピーされたデータのサブセットが含まれます。 レポートとダッシュボードで視覚エフェクトを作成する場合は、データセット内にデータを表示します。Azure SQL Database のようなライブ接続の場合、データセットではデータ ソースから表示されるデータが定義されます。 Analysis Services へのライブ接続の場合、データセットの定義は、Analysis Services から直接取得されます。
 
-> "*データを更新するときには、データ ソースから Power BI に格納されているデータセット内のデータが更新されます。この更新は完全更新であり、増分更新ではありません。*"
+> "*データを更新するときには、データ ソースから Power BI に格納されているデータセット内のデータが更新されます。この更新は完全更新であり、増分更新ではありません。* "
 > 
 > 
 
@@ -47,7 +47,7 @@ ms.locfileid: "56892484"
 
 先に進む前に理解しておくことが非常に重要な点はほかにもあります。
 
-> "*データセットの更新頻度や、ライブ データの表示頻度に関係なく、最初に最新の状態にする必要があるものはデータ ソースにあるデータです。*"
+> "*データセットの更新頻度や、ライブ データの表示頻度に関係なく、最初に最新の状態にする必要があるものはデータ ソースにあるデータです。* "
 > 
 > 
 
@@ -65,7 +65,7 @@ Power BI 内で発生する更新には、主に 4 種類あります。 パッ�
 これは、元のデータ ソースのデータによって、Power BI サービス内でデータセットを更新する機能です。 スケジュールされた更新と今すぐ更新のどちらかの方法で実行できます。 この機能を使うには、オンプレミスのデータ ソース用にゲートウェイが必要です。
 
 ### <a name="tile-refresh"></a>タイルの更新
-タイルの更新では、データの変更後、ダッシュボードでタイルのビジュアルのキャッシュを更新します。 これは、約 15 分ごとに実行されます。 ダッシュボードの右上で**省略記号 (...)** を選択し、**[ダッシュボード タイルの更新]** を選択して、強制的にタイルを更新することもできます。
+タイルの更新では、データの変更後、ダッシュボードでタイルのビジュアルのキャッシュを更新します。 これは、約 15 分ごとに実行されます。 ダッシュボードの右上で**省略記号 (...)** を選択し、 **[ダッシュボード タイルの更新]** を選択して、強制的にタイルを更新することもできます。
 
 ![](media/refresh-data/dashboard-tile-refresh.png)
 
@@ -186,7 +186,7 @@ DirectQuery では、Power BI とクラウド内のデータベース間のラ�
 
 視覚化にユーザー操作がない場合、データは約 1 時間ごとに自動的に更新されます。 その更新頻度は *[スケジュールされたキャッシュの更新]* オプションを使用して変更できます。その後、更新頻度を設定します。
 
-頻度を設定するには、Power BI サービスの右上隅にある**歯車**アイコンを選択し、**[設定]** を選択します。
+頻度を設定するには、Power BI サービスの右上隅にある**歯車**アイコンを選択し、 **[設定]** を選択します。
 
 ![](media/refresh-data/refresh-data_2.png)
 
@@ -273,7 +273,7 @@ Power BI で [データの取得] を使用して、Salesforce などのオン�
 [更新の問題をトラブルシューティングするためのツール](service-gateway-onprem-tshoot.md)  
 [更新に関するトラブルシューティング シナリオ](refresh-troubleshooting-refresh-scenarios.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
+[On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
 ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287924"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61344118"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでオンプレミスのレポート サーバーのレポートと KPI を表示する
 
@@ -49,8 +49,8 @@ Reporting Services の Web ポータルへのアクセス権がない場合で�
 ## <a name="connect-to-an-on-premises-report-server"></a>オンプレミス レポート サーバーに接続する
 Power BI モバイル アプリでオンプレミスの Power BI レポート、Reporting Services モバイル レポート、KPI を表示することができます。 
 
-1. モバイル デバイスで Power BI アプリを開きます。 
-2. Power BI にまだサインインしていない場合は、**[レポート サーバー]** をタップします。
+1. モバイル デバイスで Power BI アプリを開きます。
+2. Power BI にまだサインインしていない場合は、 **[レポート サーバー]** をタップします。
    
    ![レポート サーバーにサインインする](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
@@ -76,7 +76,7 @@ Power BI モバイル アプリでオンプレミスの Power BI レポート、
    接続文字列の前に **http** または **https** を含めてください。
    
     ![[サーバーに接続] ダイアログ ボックス](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
-5. (省略可能) 必要に応じて、**[詳細オプション]** でサーバーのわかりやすい名前を指定できます。
+5. (省略可能) 必要に応じて、 **[詳細オプション]** でサーバーのわかりやすい名前を指定できます。
 6. 左側のナビゲーション バーにサーバー (この例では、"power bi report server") が表示されます。
    
    ![左側のナビゲーション ウィンドウ](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
@@ -93,7 +93,7 @@ iOS モバイル アプリで Power BI を表示している場合、IT 管理�
 
     ![入力されているレポート サーバーの詳細](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-remote-configure-connect-server.png)
 
-3. 認証用のパスワードを入力し、**[サインイン]** をタップします。 
+3. 認証用のパスワードを入力し、 **[サインイン]** をタップします。 
 
     ![入力されているレポート サーバーの詳細](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
 

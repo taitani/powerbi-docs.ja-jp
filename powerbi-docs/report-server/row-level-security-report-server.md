@@ -1,20 +1,20 @@
 ---
 title: Power BI Report Server での行レベルのセキュリティ (RLS)
 description: Power BI Report Server で行レベルのセキュリティ (RLS) を使用する方法について説明します。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: b4a5d11697cff2cae8d137916636907967a7c276
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489570"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769805"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Report Server での行レベルのセキュリティ (RLS)
 
@@ -28,7 +28,7 @@ Power BI Desktop を使用して Power BI にインポートされるレポー�
 
 既定では、リレーションシップが一方向または双方向のいずれに設定されているかに関係なく、行レベルのセキュリティのフィルタリングでは一方向のフィルターが使用されます。 行レベルのセキュリティに対する双方向のクロス フィルターは、手動で有効にすることができます。
 
-- リレーションシップを選択し、**[両方向にセキュリティ フィルターを適用する]** チェック ボックスをオンにします。 
+- リレーションシップを選択し、 **[両方向にセキュリティ フィルターを適用する]** チェック ボックスをオンにします。 
 
     ![セキュリティ フィルターを適用する](media/row-level-security-report-server/rls-apply-security-filter.png)
 
@@ -46,15 +46,15 @@ Power BI Report Server にご自分のレポートを保存したら、サーバ
  レポートにそれが必要とするロールが割り当てられていない場合は、Power BI Desktop でそのレポートを開き、ロールを追加または変更してから、Power BI Report Server に再び保存する必要があります。 
 
 1. Power BI Desktop で、Power BI Report Server にレポートを保存します。 Power BI Report Server 向けに最適化された Power BI Desktop のバージョンを使用する必要があります。
-2. Power BI Report Service で、レポートの横に表示されている省略記号 (**…**) を選択します。 
+2. Power BI Report Service で、レポートの横に表示されている省略記号 ( **…** ) を選択します。 
 
-3. **[管理]** > **[行レベルのセキュリティ]** を選択します。 
+3. **[管理]**  >  **[行レベルのセキュリティ]** を選択します。 
 
      ![行レベルのセキュリティを管理する](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 
     **[行レベルのセキュリティ]** ページ上で、Power BI Desktop で作成したロールにメンバーを追加します。
 
-5. メンバーを追加するには、**[メンバーの追加]** を選択します。
+5. メンバーを追加するには、 **[メンバーの追加]** を選択します。
 
 1. テキスト ボックスにユーザー名の形式 (DOMAIN\user) でユーザーまたはグループを入力し、それらに割り当てるロールを選択します。 このメンバーは、組織内に属している必要があります。   
 
@@ -64,7 +64,7 @@ Power BI Report Server にご自分のレポートを保存したら、サーバ
 
 1. **[OK]** をクリックして適用します。   
 
-8. メンバーを削除するには、その名前の横にあるチェック ボックスをオンにし、**[削除]** を選択します。  一度に複数のメンバーを削除できます。 
+8. メンバーを削除するには、その名前の横にあるチェック ボックスをオンにし、 **[削除]** を選択します。  一度に複数のメンバーを削除できます。 
 
     ![メンバーを削除する](media/row-level-security-report-server/power-bi-report-server-delete-members.png)
 

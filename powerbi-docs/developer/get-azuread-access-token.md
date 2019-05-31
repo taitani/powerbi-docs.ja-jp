@@ -1,26 +1,26 @@
 ---
 title: ユーザーを認証し、アプリケーション用の Azure AD アクセス トークンを取得する
 description: 埋め込みの Power BI コンテンツと共に使用するため、Azure Active Directory にアプリケーションを登録する方法を説明します。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 7b2249964f2fff26bc68fea19fd0010d8990110b
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762538"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710322"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI アプリケーション用の Azure AD アクセス トークンを取得する
 
 Power BI アプリケーションでユーザーを認証し、REST API で使うアクセス トークンを取得する方法について説明します。
 
-Power BI REST API を呼び出す前に、Azure Active Directory (Azure AD) の**認証アクセス トークン** (アクセス トークン) を取得する必要があります。 **アクセス トークン**は、アプリが **Power BI** のダッシュボード、タイル、レポートにアクセスするのを許可するために使われます。 Azure Active Directory の**アクセス トークン** フローの詳細については、「[Azure AD 認証コード付与フロー](https://msdn.microsoft.com/library/azure/dn645542.aspx)」を参照してください。
+Power BI REST API を呼び出す前に、Azure Active Directory (Azure AD) の**認証アクセス トークン** (アクセス トークン) を取得する必要があります。 **アクセス トークン**は、アプリが **Power BI** のダッシュボード、タイル、レポートにアクセスするのを許可するために使われます。 Azure Active Directory の**アクセス トークン** フローの詳細については、「[Azure AD 認証コード付与フロー](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)」を参照してください。
 
 コンテンツの埋め込み方法により、アクセス トークンの取得方法が異なります。 この記事では、2 つの異なるアプローチを使います。
 
@@ -56,7 +56,7 @@ var @params = new NameValueCollection
 
 クエリ文字列を構築した後、**Azure AD** にリダイレクトして**認証コード**を取得します。  **認証コード** クエリ文字列を構築し、**Azure AD** にリダイレクトするための完全な C# メソッドを以下に示します。 認証コードを取得した後、**認証コード**を使って**アクセス トークン**を取得します。
 
-redirect.aspx.cs 内で、[AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) が呼び出され、トークンが生成されます。
+redirect.aspx.cs 内で、[AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) が呼び出され、トークンが生成されます。
 
 #### <a name="get-authorization-code"></a>認証コードを取得する
 
@@ -89,7 +89,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
     //Redirect authority
     //Authority Uri is an Azure resource that takes a client id to get an Access token
-    // AADAuthorityUri = https://login.microsoftonline.net/common/
+    // AADAuthorityUri = https://login.microsoftonline.com/common/
     string authorityUri = Properties.Settings.Default.AADAuthorityUri;
     var authUri = String.Format("{0}?{1}", authorityUri, queryString);
     Response.Redirect(authUri);
@@ -196,6 +196,10 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
+
+## <a name="troubleshoot"></a>トラブルシューティング
+
+* ダウンロード[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)が発生した場合、"'AuthenticationContext' に 'AcquireToken' のないアクセス可能な 'AcquireToken' 型の最初の引数を受け付ける定義が含まれていません 'AuthenticationContext' が見つかりませんでした (が存在することを使用して、ディレクティブまたはアセンブリ参照。)"エラー。
 
 ## <a name="next-steps"></a>次の手順
 

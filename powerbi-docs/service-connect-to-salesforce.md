@@ -11,11 +11,11 @@ ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430811"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61172029"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI で Salesforce に接続する
 Power BI を使用すると、簡単に Salesforce.com アカウントに接続できます。 この接続を作成すると、データが取得され、そのデータに基づいて自動的にダッシュボードおよび関連するレポートが提供されます。
@@ -29,7 +29,7 @@ Power BI 用の [Salesforce コンテンツ パック](https://app.powerbi.com/g
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-salesforce/pbi_getservices.png) 
-3. **[Salesforce]** をクリックし、**[取得]** を選択します。  
+3. **[Salesforce]** をクリックし、 **[取得]** を選択します。  
    
    ![](media/service-connect-to-salesforce/salesforce.png)
 4. **[サインイン]** を選択してログイン フローを開始します。

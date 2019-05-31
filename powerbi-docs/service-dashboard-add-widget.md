@@ -12,11 +12,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215714"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61144128"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>画像、テキスト、ビデオ、その他をダッシュボードに追加する
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -28,14 +28,14 @@ ms.locfileid: "56215714"
 1. 上部のメニュー バーから **[タイルの追加]** を選択します。 領域の制限によって、プラス ![プラス記号](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png) 記号のみが表示される場合があります。
    
     ![タイルの追加アイコン](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
-2. 次の中から追加するタイルを選択します:**[イメージ]**、**[テキスト ボックス]**、**[ビデオ]**、**[Web コンテンツ]**、**[カスタム ストリーミング データ]**。
+2. 次の中から追加するタイルを選択します: **[イメージ]** 、 **[テキスト ボックス]** 、 **[ビデオ]** 、 **[Web コンテンツ]** 、 **[カスタム ストリーミング データ]** 。
    
     ![タイルの追加ウィンドウ](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>イメージの追加
 ダッシュボードまたはその他のイメージに会社のロゴが必要だとしましょう。 イメージ ファイルをオンラインの場所に保存して、それにリンクする必要があります。 イメージ ファイルにアクセスするために特別な資格情報が必要ないことを確認します。 たとえば、OneDrive や SharePoint は認証が必要なので、そこに保存したイメージはこの方法でダッシュボードに追加できません。  
 
-1. **[イメージ]** > **[次へ]** を選択します。
+1. **[イメージ]**  >  **[次へ]** を選択します。
 2. イメージ情報を **[画像タイルの追加]** ウィンドウに追加します。
    
     ![画像タイルの追加ウィンドウ](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
@@ -56,7 +56,7 @@ ms.locfileid: "56215714"
    
    * テキスト ボックスの上のタイトルを表示するには、 **[タイトルとサブタイトルの表示]** を選び、タイトルやサブタイトルを入力します。
    * テキスト ボックスの内容を入力し、書式を設定します。  
-   * 必要に応じて、タイトルのカスタム リンクを設定します。 カスタム リンクは、外部のサイトでも、ワークスペース内のダッシュボードやレポートでもかまいません。 ただし、この例では、テキスト ボックス自体にハイパーリンクを追加しました。そのため、**[カスタム リンクの設定]** はオフのままにします。
+   * 必要に応じて、タイトルのカスタム リンクを設定します。 カスタム リンクは、外部のサイトでも、ワークスペース内のダッシュボードやレポートでもかまいません。 ただし、この例では、テキスト ボックス自体にハイパーリンクを追加しました。そのため、 **[カスタム リンクの設定]** はオフのままにします。
 
      ![[テキストボックス タイルの追加] ウィンドウ](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
@@ -119,7 +119,7 @@ HTML コンテンツを貼り付けるか、入力します。  Power BI によ�
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
-* このコードでは、ツイートを埋め込み、**AFK** ポッドキャスト、**@GuyInACube の Twitter ページ**、**フォロー**、**#analytics**、**返信**、**リツイート**、**いいね**についてダッシュボードに別個のリンクを保持しています。  タイルそのものを選択すると、Twitter のポッドキャストに移動します。
+* このコードでは、ツイートを埋め込み、**AFK** ポッドキャスト、 **@GuyInACube の Twitter ページ**、**フォロー**、 **#analytics**、**返信**、**リツイート**、**いいね**についてダッシュボードに別個のリンクを保持しています。  タイルそのものを選択すると、Twitter のポッドキャストに移動します。
   
   ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">

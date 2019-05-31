@@ -1,20 +1,20 @@
 ---
 title: Power BI の埋め込み分析でマルチテナントを管理する
 description: 埋め込み分析でマルチテナント アプリケーションを設計します。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014256"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374690"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI の埋め込み分析でマルチテナントを管理する
 
@@ -53,7 +53,7 @@ Power BI Embedded では、テナント間の分離を維持するための基�
 
 **AAD アプリケーション ユーザー (サービス プリンシパル)** - Power BI 内の SaaS アプリケーションを表す ID であり、SaaS アプリケーションで Power BI API を呼び出すときに使用されます。 AAD Web アプリケーションである必要があります。 Power BI での認証のために、"*マスター*" ユーザーの代わりに使用できます。
 
-**容量** - Power BI サービス実行専用のリソースのセット。 [Power BI Premium 容量](../service-premium.md)は Power BI を社内で使用する企業を対象としたものですが、[Power BI Embedded 容量](azure-pbie-create-capacity.md)はサード パーティ向けの SaaS アプリケーションを開発するアプリケーション開発者を対象としています。
+**容量** - Power BI サービス実行専用のリソースのセット。 [Power BI Premium 容量](../service-premium-what-is.md)は Power BI を社内で使用する企業を対象としたものですが、[Power BI Embedded 容量](azure-pbie-create-capacity.md)はサード パーティ向けの SaaS アプリケーションを開発するアプリケーション開発者を対象としています。
 
 **[Power BI Pro ライセンス](../service-admin-purchasing-power-bi-pro.md)** - ユーザー ベースのライセンスであり、アプリ ワークスペースへのコンテンツの発行、Premium 容量なしでのアプリの利用、ダッシュボードの共有、ダッシュボードおよびレポートのサブスクライブを行う権限が付与されます。
 
@@ -142,9 +142,9 @@ SaaS アプリケーションのストレージで、すべてのテナントに
 
 ### <a name="scalability"></a>スケーラビリティ
 
-このモデルの利点の 1 つは、テナントごとの複数のデータセットにデータを分離することで、[単一データセットのサイズ制限](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (現在、容量 10 GB) が適用されないことです。 容量がオーバーロードになったら、[未使用のデータセットを削除](../service-premium-understand-how-it-works.md)して、アクティブなデータセットのためにメモリを解放できます。 1 つの大規模なデータセットでは、このようなことはできません。 複数のデータセットを使用すると、必要に応じて、複数の Power BI 容量にテナントを分離することもできます。
+このモデルの利点の 1 つは、テナントごとの複数のデータセットにデータを分離することで、[単一データセットのサイズ制限](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (現在、容量 10 GB) が適用されないことです。 容量をオーバー ロードするときに、データセットのアクティブなメモリを解放するデータセットが使用されていない、削除できます。 1 つの大規模なデータセットでは、このようなことはできません。 複数のデータセットを使用すると、必要に応じて、複数の Power BI 容量にテナントを分離することもできます。
 
-このような利点はありますが、将来的に SaaS アプリケーションが達する可能性のあるスケールを考慮する必要があります。 たとえば、管理できる成果物の数に関する制限に到達する可能性があります。 詳細については、この記事で後述されているデプロイに関する[制限](#summary-comparison-of-the-different-approaches)をご覧ください。 使用されている容量 SKU により、データセットが収まる必要のあるメモリのサイズ、[同時に実行できる更新の数](../service-premium-understand-how-it-works.md)、データ更新の最大頻度についての制限が適用されます。 数百または数千のデータセットを管理するときは、テストすることをお勧めします。 また、平均とピーク時の使用量、および他のテナントとは管理が異なる大きいデータセットを持つ特定のテナントや使用パターンが異なるテナントについて、考慮することをお勧めします。
+このような利点はありますが、将来的に SaaS アプリケーションが達する可能性のあるスケールを考慮する必要があります。 たとえば、管理できる成果物の数に関する制限に到達する可能性があります。 詳細については、この記事で後述されているデプロイに関する[制限](#summary-comparison-of-the-different-approaches)をご覧ください。 SKU が使用される容量には、同じ時間と最大データ更新の頻度で実行できる数の更新に収まるようにデータセットが必要なメモリのサイズに制限が導入されています。 数百または数千のデータセットを管理するときは、テストすることをお勧めします。 また、平均とピーク時の使用量、および他のテナントとは管理が異なる大きいデータセットを持つ特定のテナントや使用パターンが異なるテナントについて、考慮することをお勧めします。
 
 ### <a name="automation--operational-complexity"></a>自動化と運用の複雑さ
 
@@ -194,7 +194,7 @@ Power BI Embedded を使用するアプリケーション開発者は、[運用�
 
 ### <a name="scalability"></a>スケーラビリティ
 
-行レベルのセキュリティに基づく分離では、データがデータセットのサイズ制限 (現在は 10 GB) に収まる必要があります。 [増分更新](../service-premium-incremental-refresh.md)の導入と、予定されている Power BI データセット向け XMLA エンドポイントのリリースにより、データセットのサイズの制限は大幅に増える予定です。 ただし、その場合でも、データは、データ更新を実行するのに十分なメモリを残して、容量のメモリに収まる必要があります。 大規模なデプロイでは、現在の容量の制限をメモリが超過することでユーザーに対する問題が発生しないように、大きい容量を使用する必要があります。 スケールを処理する別の方法としては、Power BI の容量にすべてのデータをキャッシュするのではなく、**[集計](../desktop-aggregations.md)** を使用したり、DirectQuery やライブ接続を使用してデータ ソースに直接接続したりすることができます。
+行レベルのセキュリティに基づく分離では、データがデータセットのサイズ制限 (現在は 10 GB) に収まる必要があります。 [増分更新](../service-premium-incremental-refresh.md)の導入と、予定されている Power BI データセット向け XMLA エンドポイントのリリースにより、データセットのサイズの制限は大幅に増える予定です。 ただし、その場合でも、データは、データ更新を実行するのに十分なメモリを残して、容量のメモリに収まる必要があります。 大規模なデプロイでは、現在の容量の制限をメモリが超過することでユーザーに対する問題が発生しないように、大きい容量を使用する必要があります。 スケールを処理する別の方法としては、Power BI の容量にすべてのデータをキャッシュするのではなく、 **[集計](../desktop-aggregations.md)** を使用したり、DirectQuery やライブ接続を使用してデータ ソースに直接接続したりすることができます。
 
 ### <a name="automation--operational-complexity"></a>自動化と運用の複雑さ
 
@@ -245,17 +245,17 @@ Power BI には、RLS のロールやルールを変更または作成するた�
 
 **Power BI の容量に関する考慮事項と制限事項:**
 
-* 各容量では、[購入した SKU](../service-premium.md) に従って、割り当てられているメモリと仮想コアのみを使用できます。
-* 各 SKU に対して推奨されるデータセットのサイズについては、[Premium の大規模なデータセット](../service-premium-large-datasets.md)に関する記事をご覧ください。
+* 各容量では、[購入した SKU](../service-premium-what-is.md) に従って、割り当てられているメモリと仮想コアのみを使用できます。
+* 各 SKU に対して推奨されるデータセットのサイズについては、[Premium の大規模なデータセット](../service-premium-what-is.md#large-datasets)に関する記事をご覧ください。
 * 専用容量でのデータセットの最大サイズは、10 GB です。
 * "*インポート モード*" のデータセットで 1 日にスケジュールできる更新の数は、48 です。
 * "*インポート モード*" のデータセットでスケジュールされた更新の間隔は、30 分です。
-* 容量に対して同時に実行できる更新の数については、[リソースの管理と最適化](../service-premium-understand-how-it-works.md)に関する記事をご覧ください。
+* 容量に対して同時に実行できる更新の数については、[リソースの管理と最適化](../service-premium-what-is.md#capacity-nodes)に関する記事をご覧ください。
 * 容量のスケーリングの平均時間は、1 ～ 2 分です。 その間、容量は使用できません。 [ダウンタイムを回避する](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script)ため、スケールアウト アプローチを使用することをお勧めします。
 
 ## <a name="next-steps"></a>次の手順
 
 * [Power BI を使用した埋め込み分析](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../service-premium.md)
+* [Power BI Premium](../service-premium-what-is.md)
 * [行レベルのセキュリティ](embedded-row-level-security.md)

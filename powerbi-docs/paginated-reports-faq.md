@@ -1,20 +1,20 @@
 ---
 title: Power BI のページ分割されたレポート:よくあるご質問 (プレビュー)
 description: この記事では、ページ分割されたレポートについてよく寄せられる質問に答えます。 これらのレポートは、印刷や PDF 生成用に最適化されている、高度に書式設定されたピクセル単位で完璧な出力です。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: cedf72585d7aa4f2ece39739dc0bdba33ca66e21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324740"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987787"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI のページ分割されたレポート:よくあるご質問 (プレビュー)
 
@@ -63,7 +63,7 @@ Power BI レポートとページ分割されたレポートを区別するた�
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>ページ分割されたレポートを作成して発行するには、Pro ライセンスが必要ですか。
 
-はい。 Pro ライセンスがないと、ワークスペースにレポートをアップロードできません。 Pro ライセンスがなくてもレポート ビルダーをダウンロードして試すことはできますが、作成したページ分割されたレポートを公開することはできません。 
+はい。 Pro ライセンスがないと、ワークスペースにレポートをアップロードできません。 ダウンロードして、Pro ライセンスがなくて、Power BI のレポート ビルダーを使用することをお勧めしますが、しなくても作成する改ページ調整されたレポートを発行することはできません。 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>ワークスペースにページ分割されたレポートがある状態で、ページ分割されたレポート ワークロードをオフにするとどうなりますか。
 
@@ -85,13 +85,13 @@ Power BI レポートとページ分割されたレポートを区別するた�
 
 Power BI レポートは、探索と対話性に最適化されています。  異なる営業担当者が、同じレポートのデータを特定の地域/業界/顧客でスライスして業績の変化を見る売上レポートは、Power BI レポートで提供するのが最善です。
 
-### <a name="the-documentation-says-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>ドキュメントでは、レポート ビルダーが推奨される作成ツールになっています。 Power BI 用の SQL Server Data Tools でページ分割されたれたレポートを作成できますか。
+### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>Power BI のレポート ビルダー優先 authoring tool は、ドキュメントによるとします。 Power BI 用の SQL Server Data Tools でページ分割されたれたレポートを作成できますか。
 
 はい。ただし、Power BI サービスでは一度に 1 つの項目しかアップロードできないので、作成者が SQL Server Data Tools (SSDT) で使用する多くのシナリオは、まだサポートされていません。 [サポートされていない機能の完全な一覧](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)は、この FAQ で後ほど示します。  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>どのバージョンのレポート ビルダーがサポートされていますか。
 
-レポートを作成して Power BI サービスに発行するには、最新バージョンの SQL Server 2016 レポート ビルダーを使用してください。 [レポート ビルダーは、Microsoft ダウンロード センターから](https://www.microsoft.com/download/details.aspx?id=53613)インストールします。
+最近、Power BI サービスでの改ページ調整されたレポートの主要な編集ツールとして Power BI のレポート ビルダーをリリースしました。 インストール[Power BI のレポート ビルダー、Microsoft ダウンロード センターから](https://go.microsoft.com/fwlink/?linkid=2086513)します。
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>SQL Server Reporting Services に保存してある既存のレポートを Power BI に移動するにはどうすればよいですか。
 
@@ -99,7 +99,7 @@ Power BI レポートは、探索と対話性に最適化されています。  
 
 ### <a name="can-i-open-reports-and-publish-directly-to-the-service"></a>レポートを開いて、サービスに直接発行できますか。
 
-現時点では、いいえです。 Power BI Desktop で可能なように、レポート ビルダーでレポートを開いてサービスに直接公開する機能を、いつかは追加する予定です。
+現時点では、いいえです。 レポートを開くおよび公開するために、サービスに直接、GA 前に、Power BI レポート ビルダーから Power BI Desktop とサポートを追加いたします。
 
 ### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>SSRS でのページ分割されたレポートの機能のうち、Power BI でまだサポートされていないものは何ですか。
 
@@ -118,17 +118,27 @@ Power BI レポートは、探索と対話性に最適化されています。  
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>ページ分割されたレポートに対して現在サポートされているデータ ソースは何ですか。
 
-Azure SQL Database、SQL Server、オンプレミス ゲートウェイを使用する SQL Server Analysis Services (SSAS) の表形式モデル (DAX) と多次元式モデル (MDX) の両方がサポートされています。
+次のデータ ソースでサポートされています 
+
+- Power BI Premium のデータセット
+- (シングル サインオン (SSO)) を使用して azure Analysis Services
+- Azure SQL Database
+- SQL サーバー *
+- (DAX) SQL Server Analysis Services (SSAS) 表形式および多次元のモデルから (MDX) * 
+- Oracle * 
+- Teradata * 
+
+* オンプレミスのゲートウェイが必要です。
 
 ゲートウェイを介した SSAS へのアクセスが機能するには、資格情報が格納されているユーザーに管理者特権のアクセス許可が必要です。
 
 ### <a name="what-authentication-methods-do-you-support"></a>どのような認証方法がサポートされていますか。
 
-現在は、ポータルまたはゲートウェイでデータ ソースと共にユーザー名とパスワードを格納する必要があります。  行レベルのセキュリティなどの他の認証方法のサポートは、今後プレビューになります。
+Azure Analysis Services と Power BI Premium の両方のデータ ソースの SSO サポートされています。  その他のすべてのデータ ソースでは、現在、ポータルまたはゲートウェイでユーザー名とデータ ソースとのパスワードを格納する必要があります。  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>ページ分割されたレポートのデータ ソースとして、Power BI データセットを使用できますか。
 
-まだできませんが、まもなくサポートされる予定です。
+はい、サポートされる Power BI Premium のデータセット、改ページ調整されたレポートのデータ ソースとして。
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>ゲートウェイを介してストアド プロシージャを使用できますか。
 
@@ -140,7 +150,7 @@ Microsoft Excel、Microsoft Word、Microsoft PowerPoint、PDF、.CSV、XML、MHT
 
 ### <a name="can-i-print-paginated-reports"></a>ページ分割されたレポートを印刷できますか。
 
-はい。ページ分割されたレポートは印刷できます。印刷プレビュー機能が新しくなり、改善されています。 
+[はい]、印刷は、新規および改良された印刷プレビュー エクスペリエンスをなど、改ページ調整されたレポートに使用できます。 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>メール サブスクリプションはページ分割されたレポートに対して使用できますか。
 
@@ -168,15 +178,11 @@ Microsoft の計画では、多くのシナリオで機能を均衡させる予�
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Power BI アプリを使って、ページ分割されたレポートの内容を共有できますか。
 
-現在のところ、ポータルでの共有アクションを使用するか、ツール バーを使用する方法で、個々のページ分割されたレポートを他のユーザーと共有できます。 アプリでの共有はまだサポートされていませんが、間もなくサポートされる予定です。 
+はい、v1 と v2 の両方のワークスペースからのアプリと共に配置される改ページ調整されたレポートがサポートされています。 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>ダッシュボードへのレポート タイルのピン留めのような Power BI での他のレポート固有機能は、ページ分割されたレポートで動作しますか。
 
 可能な限り、サービスと同じ主要シナリオをレポートでもサポートする予定です。  作成ツールは異なっても、利用者の観点からはポータルのリストの他のレポートと同じであることが理想的です。 作成された方法を気にすることなく、必要なことを実現できます。  この機能パリティのよい例は、計画されているコメントのサポートです。 機能自体の動作は各レポートの種類で若干異なる場合がありますが、どちらでもコメントを使用することができます。
-
-### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>Power BI サービスでページ分割されたレポート用に新しい作成ツールを作成する予定はありますか。  レポート ビルダーで必要なすべてのことを今すぐ行うことはできません。
-
-Power BI のページ分割されたレポートについては、最良のツールを与えるべく、現在もさまざまな選択肢を検討しています。 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>SSRS の顧客が Power BI に既存のレポートと資産を移動できる移行ツールは計画されていますか。
 
@@ -196,5 +202,5 @@ Power BI にコンテンツを移動するとき、自動化を取り入れる�
 
 ## <a name="next-steps"></a>次の手順
 
-- [Microsoft ダウンロード センターからレポート ビルダーをインストールする](https://www.microsoft.com/download/details.aspx?id=53613)
+- [Microsoft ダウンロード センターからの Power BI のレポート ビルダーをインストールします。](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [チュートリアル:ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)

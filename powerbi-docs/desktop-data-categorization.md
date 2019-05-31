@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 5b6bbf7a203d8e87d129b6336be4f4531ae34107
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454481"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop でのデータ分類
@@ -33,7 +33,7 @@ Power BI Desktop は GeoCode 列に含まれるコードを、国の省略形と
 **データ カテゴリを指定するには**
 
 1. レポート ビューまたはデータ ビューの **[フィールド]** リストの一覧で、異なる分類でソートしたいフィールドを選択します。
-2. リボンの **[モデリング]** タブで、**[データ カテゴリ]** ドロップダウン リストをクリックします。  このリストには、列に対して選択可能なデータ カテゴリが表示されます。  列の現在のデータ型には使えない項目は選べなくなっています。  たとえば、列がバイナリ データ型である場合、Power BI Desktop で地理的なデータ カテゴリを選べなくなります。 
+2. リボンの **[モデリング]** タブで、 **[データ カテゴリ]** ドロップダウン リストをクリックします。  このリストには、列に対して選択可能なデータ カテゴリが表示されます。  列の現在のデータ型には使えない項目は選べなくなっています。  たとえば、列がバイナリ データ型である場合、Power BI Desktop で地理的なデータ カテゴリを選べなくなります。 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

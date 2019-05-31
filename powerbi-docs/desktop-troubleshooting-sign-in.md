@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: f81517bf4d7857b5c86b4fd8d801e989abb0399b
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514466"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop のサインインに関するトラブルシューティング
@@ -65,7 +65,7 @@ ms.locfileid: "65514466"
 
 **Power BI Desktop** でトレースを収集するには、次の手順のようにします。
 
-1. **[ファイル] > [オプションと設定] > [オプション]** に移動し、左側のウィンドウのオプションで **[診断]** を選択することにより、**Power BI Desktop** でトレースを有効にします。 表示されるウィンドウで、**[トレースを有効にする]** チェック ボックスをオンにします (次の図を参照)。 **Power BI Desktop** の再起動が必要な場合があります。
+1. **[ファイル] > [オプションと設定] > [オプション]** に移動し、左側のウィンドウのオプションで **[診断]** を選択することにより、**Power BI Desktop** でトレースを有効にします。 表示されるウィンドウで、 **[トレースを有効にする]** チェック ボックスをオンにします (次の図を参照)。 **Power BI Desktop** の再起動が必要な場合があります。
    
    ![Power BI Desktop でトレースを有効にする](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in_02.png)
 

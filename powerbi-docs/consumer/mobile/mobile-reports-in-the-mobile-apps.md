@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 04/21/2019
 ms.author: mshenhav
-ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bee60dd6f3254b049f2445e6e985c625933caf5b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281576"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65565545"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -32,89 +32,78 @@ Power BI レポートは、データの対話型表示で、データから得�
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>モバイル アプリで Power BI レポートを開く
 Power BI レポートは、入手した場所に応じてモバイル アプリのそれぞれの場所に保存されます。 具体的には、アプリ、自分と共有、ワークスペース (マイ ワークスペースを含む)、またはレポート サーバーに保存されます。 関連するダッシュボードからレポートにアクセスしたり、一覧が表示されたりすることがあります。
 
-* ダッシュボードで、タイルの右上にある省略記号 (...) をタップして **[レポートを開く]** をタップします。
+リストと、メニュー、するアイコンが表示されます、レポート名の横にあるこのアイテムがレポートを理解するのに役立ちます。 
+
+![個人用ワークスペースでのレポート](./media/mobile-reports-in-the-mobile-apps/reports-my-workspace.png) 
+
+Power BI モバイル アプリでのレポートの 2 つのアイコンがあります。
+
+* ![[レポート] アイコン](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) レポートをアプリで横方向に表示され、ブラウザーに表示されるとおり、同じ検索を示します。
+
+* ![電話レポート アイコン](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 持つ少なくとも 1 つの電話に最適化されたレポート ページは、縦向きで表示されるレポートを示します。 
+
+注:ランドス ケープで電話を保持しているレポート ページに携帯電話レイアウトがある場合でも常に、ランドス ケープのレイアウトが表示されます。 
+
+ダッシュ ボードからレポートを取得、タイルの右上隅で省略記号 (...) をタップします。 >**レポートを開く**します。
   
   ![レポートを開く](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
   タイルによっては、レポートでは開けないオプションもあります。 たとえば、Q&A ボックスに質問して作成するタイルをタップしてもレポートは開きません。 
   
-  スマートフォンでは、[スマートフォンでの表示に最適化](mobile-reports-in-the-mobile-apps.md#view-reports-optimized-for-phones)されていない限り、横向きモードでレポートが開きます。
-  
-  ![横向きモードで開いている電話レポート](./media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
+## <a name="interacting-with-reports"></a>レポートと対話します。
+アプリで開かれているレポートを作成したら、作業を開始できます。 レポートとそのデータで実行できる多くの点があります。 レポート フッター、レポートをタップと長いことができますも操作して、データのレポートに表示されるデータ タップを実行できるアクションが表示されます。
 
-## <a name="view-reports-optimized-for-phones"></a>スマートフォン用に最適化されたレポートを表示する
-Power BI レポート作成者は、スマートフォン用に最適化されたレポート レイアウトを作成することができます。 スマート フォン用に最適化されたレポート ページには機能が追加されました。たとえば、ドリルダウンしてビジュアルでの並べ替えを行ったり、[レポート ページに追加されたレポート作成者のフィルター処理](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)を行ったりできます。 スマートフォンで開かれるレポートは、Web 上のレポートでフィルター処理に使われているのと同じ値でフィルター処理され、ページにアクティブなフィルターがあることを示すメッセージが表示されます。 スマートフォンでフィルターを変更できます。
+### <a name="using-tap-and-long-tap"></a>使用してをタップし、時間の長いタップ
+タップ equals、マウスをクリックします。 ようにクロス データ ポイントに基づくレポートを強調表示する場合は、そのデータ ポイントをタップします。
+スライサーの値をタップするは、その値を選択し、その値で、レポートの残りの部分をスライスします。 リンクをタップして、ボタンやブックマークはアクティブに作成者によって定義されているアクションに基づきます。
 
-レポートの一覧では、最適化されているレポートに特別なアイコンが付きます。 ![電話レポート アイコン](./media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+ビジュアルでタップすると、枠線が表示されることがわかるはずです。 上罫線の右上隅にある省略記号 (...) があります。タップしてそのビジュアルで実行できるアクションを含むメニューが表示されます。
 
-![電話レポートを開く](./media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
+![レポートのビジュアルとメニュー](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
-そのレポートをスマートフォンで表示すると、縦向き表示で開きます。
+### <a name="tooltip-and-drill-actions"></a>ツールヒントとドリル アクション
 
-![縦向き表示のレポート](./media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
+タップすると時間の長い (タップ アンド ホールド) データ ポイントでは、このデータ ポイントを表す値を表示するツールヒントが表示されます。 
 
- レポートには、スマートフォン用に最適化されたページと最適化されていないページが混在している可能性があります。 その場合、レポートのページをめくると、ページごとに表示が縦向きから横向きに切り替わります。
+![レポート ヒント](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
 
-詳しくは、「[電話用に最適化されたレポートを表示して使用する](mobile-apps-view-phone-report.md)」をご覧ください。
+レポート作成者は、データとレポートのページ間のリレーションシップで階層を定義できます。 階層は、ドリル、ドリル ダウンし、ビジュアルと値から別のレポート ページにドリルスルーします。 そのため、時間の長いだけでなく、ツール ヒントの値をタップすると、関連のドリル オプションは、フッターに表示されます。 
 
-## <a name="use-slicers-to-filter-a-report"></a>スライサーを使ったレポートのフィルター処理
-Power BI Desktop または Power BI サービスでレポートをデザインする際に、[レポート ページにスライサーを追加](../../visuals/power-bi-visualization-slicers.md)することもできます。 自分と同僚とでスライサーを使って、ブラウザーおよびモバイル アプリでページをフィルター処理できます。 スマートフォンでレポートを表示する際は、横向きモードでもスマートフォンの縦向きモードに最適化されたページでもスライサーを使って表示および操作できます。 ブラウザーのスライサーまたはフィルターで値を選ぶと、モバイル アプリでページを表示するときもその値が選ばれます。 ページにアクティブなフィルターがあることを示すメッセージが表示されます。  
+![レポートのドリルダウン アクション](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-* レポート ページのスライサーで値を選択すると、ページ上の他のビジュアルがフィルターされます。
-  
-  ![レポートのスライサー](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-slicer.png)
-  
-  この図では、スライサーによって縦棒グラフがフィルターされ、7 月の値のみが表示されています。
-
-## <a name="cross-filter-and-highlight-a-report"></a>レポートのクロス フィルター処理と強調表示
-ビジュアルの値を選択しても、他のビジュアルはフィルターされません。 他のビジュアルに含まれる関連する値が強調表示されます。
-
-* ビジュアルの値をタップします。
-  
-  ![ページのクロス フィルター処理](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-highlight.png)
-  
-  1 つのビジュアル内の [大] 列をタップすると、他のビジュアルで関連する値が強調表示されます。 
-
-## <a name="sort-a-visual-on-an-ipad-or-a-tablet"></a>iPad またはタブレットでビジュアルを並べ替える
-* グラフをタップし、省略記号 (**...**) をタップして、フィールド名をタップします。
-  
-   ![ビジュアルの並べ替え](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
-* 並べ替え順序を逆にするには、省略記号 (**...**) をもう一度タップし、同じフィールド名をタップします。
-
-## <a name="drill-down-and-up-in-a-visual"></a>ビジュアルのドリルダウンとドリルアップ
-レポート作成者がドリルダウン機能をビジュアルに追加した場合、ビジュアルをドリルダウンして、含まれる値を表示することができます。 [ビジュアルへのドリルダウンの追加](../end-user-drill.md)は、Power BI Desktop または Power BI サービスで行います。 
-
-* ビジュアルで特定のバーまたはポイントを長押しして、そのツールヒントを表示します。 ドリルダウンできる場合は、ツールヒントの下にタップできる矢印があります。 
-  
-  ![ビジュアルをドリルダウンする](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
-
-* ドリルアップするには、ツールヒントにある上矢印をタップします。
-  
-  ![ドリル アップ](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
-
-* ビジュアル内のすべてのデータ ポイントでドリルダウンすることもできます。 フォーカス モードで開き、[エクスプローラー] アイコンをタップして、次のレベルをすべて表示するように選ぶか、展開して現在のレベルと次のレベルを表示します。
-
-   ![Power BI のすべてのドリルダウン](./media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
-
-## <a name="drill-through-from-one-page-to-another"></a>1 つのページから別のページへのドリルスルー
-
-*ドリルスルー*では、ビジュアルの特定の部分をタップすると、タップした値にフィルター処理され、レポートの別のページに移動します。 レポートの作成者は、別のページに移動できる、1 つまたは複数のドリルスルー オプションを定義できます。 その場合は、どれをドリルスルーするかを選ぶことができます。 次の例では、ゲージの値をタップすると、**ビジネス領域別の支出**と**ビジネス領域別の計画**のどちらにドリルスルーするかを選ぶことができます。
-
-![Power BI モバイルのドリルスルー レポート](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
-
-ドリルスルーすると、[戻る] ボタンで前のレポート ページに戻ることができます。
+*ドリルスルー*では、ビジュアルの特定の部分をタップすると、タップした値にフィルター処理され、レポートの別のページに移動します。  レポートの作成者は、別のページに移動できる、1 つまたは複数のドリルスルー オプションを定義できます。 その場合は、どれをドリルスルーするかを選ぶことができます。 [戻る] ボタンに戻ることが、前のレポート ページです。
 
 [Power BI Desktop でドリルスルーを追加する](../../desktop-drillthrough.md)方法をご確認ください。
+   
+   > [!IMPORTANT]
+   > Power BI モバイル アプリでは、セル値のみを使用し、列と行のヘッダーではなくマトリックスとテーブルのビジュアルでドリルダウンが有効にします。
+   
+   
+   
+### <a name="using-the-actions-in-the-report-footer"></a>レポートのフッター内のアクションを使用します。
+レポート フッターは、現在のレポート ページとレポート全体の操作を行うことができますです。 フッターは、最も役に立つアクションにすばやくアクセスして、すべてのアクションは、省略記号 (...) からのアクセスであることができます。
 
-## <a name="show-data-and-copy-values"></a>データを表示して値をコピーする
+![レポートのフッター](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
-視覚化の右上隅にあるメニュー オプションの省略記号 (**...**) を選択してから **[データを表示します]** を選択すると、視覚化の基礎となるデータを表示できます。
+フッターから実行できる操作は次のとおりです。
+1) レポート フィルターをリセットし、その元の状態に強調表示の選択内容を通過します。
+2) 表示または、このレポートにコメントを追加するメッセージ交換のウィンドウを開きます。
+3) 表示およびレポートに現在適用されているフィルターを変更するには、フィルター ウィンドウを開きます。
+4) このレポートのすべてのページの一覧を表示します。 ページ名をタップは読み込むし、そのページを表示します。
+中央に、画面の左端からスワイプすると、レポート ページ間の移動を実行できます。
+5) すべてのレポート アクションを表示します。
 
-![Power BI モバイルに表示されているメニュー オプション](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+#### <a name="all-report-actions"></a>すべてのレポート アクション
+をタップします.レポート フッターにオプションで、レポートに対して実行できるすべてのアクションが表示されます。 
 
-表示されたテーブル内のセルをロング タップすると、選択およびコピーのためのネイティブのメニューが表示され、テーブル (またはテーブル全体) からデータをコピーすることを選択できます。
+![すべてのアクションをレポートします。](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
 
-![Power BI モバイルのドリルスルー レポート](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
+一部の操作は、特定のレポート機能に依存しているため、無効可能性があります。
+例:
+1) **現在の場所でフィルター**レポート内のデータが地理的なデータを添えて作成者によってカテゴリ化される場合に有効です。 [レポートで地理的なデータを識別する方法について説明します](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)します。
+2) **レポートをバーコードでフィルター処理するためのスキャン**データセット、レポートには、バーコードとしてタグ付けされた場合にのみ有効です。 [Power BI Desktop でバーコードをタグ方法](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)します。 
+3) **招待**このレポートを他のユーザーと共有するアクセス許可がある場合にのみ有効です。 レポートの所有者である場合にのみ、または所有者が共有アクセス許可が付与された場合は、アクセス許可があります。
+4) **注釈付けおよび共有**無効にする場合がある場合があります、[保護ポリシーを Intune](https://docs.microsoft.com/intune/app-protection-policies) Power BI モバイル アプリから共有を禁止する組織内。 
 
 ## <a name="next-steps"></a>次の手順
 * [電話用に最適化された Power BI レポートの表示と対話](mobile-apps-view-phone-report.md)

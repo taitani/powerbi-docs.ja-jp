@@ -11,11 +11,11 @@ ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 12ee21427f06f0bce373adffa7ef336de144a3a4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290569"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234491"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI サービスの編集ビューでレポートと対話する
 レポートは、Power BI サービスと Power BI Desktop で作成および編集することができます。 Power BI サービスでは、レポートは**編集ビュー**で作成および編集できます。 Power BI Desktop では、レポートは[**レポート ビュー**](desktop-report-view.md)で作成および編集できます。 この記事では、Power BI サービスの編集ビューについて説明します。 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2a0ec80120e30d8d652eb2bd28461b9f88f7610a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263782"
+---
 Power BI には、話し言葉や問いを使ってデータについての質問ができる、強力な言語認識エンジンが付属しています。 Power BI でレポートや視覚エフェクトを構築する際に、簡単な質問をするだけでチャートやグラフを作成することができます。
 
 データの質問をするには、Power BI のダッシュボードを開き、画面上部の入力ボックスに、表示するデータについての質問を入力します。 この機能は*質問と回答*と呼ばれることも、単に **Q & A** と呼ばれることもあります (こちらのほうが一般的です)。

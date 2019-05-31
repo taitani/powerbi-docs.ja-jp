@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: b304a917e2b3e09e93f7f01b3b31d75023777bb2
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454316"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Power BI Desktop レポートでグリッド線と "グリッドにスナップ" を使用する
@@ -26,7 +26,7 @@ ms.locfileid: "65454316"
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_0.png)
 
 ## <a name="enabling-gridlines-and-snap-to-grid"></a>グリッド線と "グリッドにスナップ" を有効にする
-グリッド線と "グリッドにスナップ" を有効にするには、リボンの **[表示]** を選択し、**[グリッド線の表示]** と **[描画オブジェクトをグリッドにスナップ]** のチェック ボックスをオンにします。 どちらか一方または両方のオプションを選択できます。つまり、別々に動作します。
+グリッド線と "グリッドにスナップ" を有効にするには、リボンの **[表示]** を選択し、 **[グリッド線の表示]** と **[描画オブジェクトをグリッドにスナップ]** のチェック ボックスをオンにします。 どちらか一方または両方のオプションを選択できます。つまり、別々に動作します。
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_1.png)
 
@@ -68,7 +68,7 @@ Power BI では、ビジュアル内にもグリッド線があります。デ�
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_5.png)
 
-次の図に示すように、**[配置]** ボタンは、レポート キャンバスの端 (または中央) に選択したビジュアルを配置します。
+次の図に示すように、 **[配置]** ボタンは、レポート キャンバスの端 (または中央) に選択したビジュアルを配置します。
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_6.png)
 
@@ -76,7 +76,7 @@ Power BI では、ビジュアル内にもグリッド線があります。デ�
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_7.png)
 
-レポート キャンバスの全体に、ビジュアルを縦または横に整列することもできます。 それには、**[書式]** リボンの **[整列]** ボタンを使います。
+レポート キャンバスの全体に、ビジュアルを縦または横に整列することもできます。 それには、 **[書式]** リボンの **[整列]** ボタンを使います。
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_8.png)
 

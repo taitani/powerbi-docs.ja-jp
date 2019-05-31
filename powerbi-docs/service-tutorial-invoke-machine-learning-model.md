@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430325"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404396"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し (プレビュー)
 
@@ -48,7 +48,7 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 
 ![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-モデルの発行に使用した Azure サブスクリプションを選択し、**[Access 制御 (IAM)]** を選択します。 次に、**[ロールの割り当ての追加]** を選択してから、**[閲覧者]** ロールを選択し、Power BI ユーザーを選択します。 完了したら、**[保存]** を選択します。 次の図は、この手順で選択する項目を示しています。
+モデルの発行に使用した Azure サブスクリプションを選択し、 **[Access 制御 (IAM)]** を選択します。 次に、 **[ロールの割り当ての追加]** を選択してから、 **[閲覧者]** ロールを選択し、Power BI ユーザーを選択します。 完了したら、 **[保存]** を選択します。 次の図は、この手順で選択する項目を示しています。
 
 ![Azure portal のアクセス制御](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -68,7 +68,7 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 
 データフローにエンティティを作成するには、Power BI サービスにサインインし、AI プレビューが有効になっている専用容量内のワークスペースに移動します。
 
-ワークスペースがまだない場合は、左側のメニューで **[ワークスペース]** を選択してから、下部のパネルで **[アプリのワークスペースの作成]** をクリックすると作成できます。  これにより、ワークスペースの詳細を入力するパネルが開きます。 ワークスペース名を入力したら、**[保存]** を選択します。
+ワークスペースがまだない場合は、左側のメニューで **[ワークスペース]** を選択してから、下部のパネルで **[アプリのワークスペースの作成]** をクリックすると作成できます。  これにより、ワークスペースの詳細を入力するパネルが開きます。 ワークスペース名を入力したら、 **[保存]** を選択します。
 
 ![ワークスペースの作成](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_03.png)
 
@@ -76,7 +76,7 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 
 ![スキップ](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_04.png)
 
-**[データフロー (プレビュー)]** タブを選択した後、ワークスペースの右上にある **[作成]** ボタンを選択し、**[データフロー]** を選択します。
+**[データフロー (プレビュー)]** タブを選択した後、ワークスペースの右上にある **[作成]** ボタンを選択し、 **[データフロー]** を選択します。
 
 ![データフロー (プレビュー)](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_05.png)
 
@@ -88,17 +88,17 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 
 ![データ ソースの選択](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_07.png)
 
-次の画面で、データ ソースに接続するように求められます。 Azure ML モデルの作成に使用したデータへのリンクを貼り付けます。 "_自動車価格_" データを使用した場合は、次のリンクを **[File path or URL]\(ファイル パスまたは URL\)** ボックスに貼り付けて、**[次へ]** を選択します。
+次の画面で、データ ソースに接続するように求められます。 Azure ML モデルの作成に使用したデータへのリンクを貼り付けます。 "_自動車価格_" データを使用した場合は、次のリンクを **[File path or URL]\(ファイル パスまたは URL\)** ボックスに貼り付けて、 **[次へ]** を選択します。
 
-`https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
+`https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
 ![データ ソースに接続する](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
-Power Query エディターに、CSV ファイル内のデータのプレビューが表示されます。 コマンドのリボンから **[テーブルの変換]** を選択し、**[先頭の行を見出しとして使用]** を選択します。  これにより、_[昇格されたヘッダー数]_ クエリのステップが、右側の **[適用したステップ]** ウィンドウに追加されます。 右側のウィンドウを使用して、クエリ名を "_自動車価格_" などのわかりやすい名前に変更することもできます。
+Power Query エディターに、CSV ファイル内のデータのプレビューが表示されます。 コマンドのリボンから **[テーブルの変換]** を選択し、 **[先頭の行を見出しとして使用]** を選択します。  これにより、 _[昇格されたヘッダー数]_ クエリのステップが、右側の **[適用したステップ]** ウィンドウに追加されます。 右側のウィンドウを使用して、クエリ名を "_自動車価格_" などのわかりやすい名前に変更することもできます。
 
 ![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
-この例のソース データセットには、'?' に設定された不明な値があります。  これをクリーンアップし、後からエラーが発生しないようにするには、'?' を扱いやすい '0' に置き換えます。  これを行うには、*[normalized-losses]*、*[bore]*、*[stroke]*、*[compression-ratio]*、*[horsepower]*、*[peak-rpm]*、および *[price]* の各列をヘッダーで名前をクリックして選択した後、[列の変換] をクリックし、[値の置換] を選択します。  '?' を ' 0' に置換します。
+この例のソース データセットには、'?' に設定された不明な値があります。  これをクリーンアップし、後からエラーが発生しないようにするには、'?' を扱いやすい '0' に置き換えます。  これを行うには、 *[normalized-losses]* 、 *[bore]* 、 *[stroke]* 、 *[compression-ratio]* 、 *[horsepower]* 、 *[peak-rpm]* 、および *[price]* の各列をヘッダーで名前をクリックして選択した後、[列の変換] をクリックし、[値の置換] を選択します。  '?' を ' 0' に置換します。
 
 ![値の置換](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_10.png)
 
@@ -109,7 +109,7 @@ Text/CSV ソースのテーブル内の列は、すべてテキスト列とし�
 
 ![列の変更](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_11.png)
 
-**[完了]** を選択して Power Query エディターを閉じます。 これで、追加した "_自動車価格_" データとエンティティの一覧が表示されます。 右上隅で **[保存]** を選択し、データフローの名前を指定したら、**[保存]** を選択します。
+**[完了]** を選択して Power Query エディターを閉じます。 これで、追加した "_自動車価格_" データとエンティティの一覧が表示されます。 右上隅で **[保存]** を選択し、データフローの名前を指定したら、 **[保存]** を選択します。
 
 ![データフローの保存](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_12.png)
 

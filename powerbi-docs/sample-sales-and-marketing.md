@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289235"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234320"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI の売上およびマーケティングのサンプル:ツアーを開始する
 
@@ -38,10 +38,10 @@ VanArsdel 社には多くの競合他社が存在しますが、その業界に�
 2. 左下隅にある **[データの取得]** を選びます。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
+3. 表示される [データの取得] ページで、 **[サンプル]** アイコンを選びます。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. **[売上およびマーケティングのサンプル]** を選択し、**[接続]** を選択します。  
+4. **[売上およびマーケティングのサンプル]** を選択し、 **[接続]** を選択します。  
   
    ![売上およびマーケティングのサンプル](media/sample-sales-and-marketing/sales9.png)
    
@@ -56,7 +56,7 @@ VanArsdel 社には多くの競合他社が存在しますが、その業界に�
  * [売上およびマーケティングのサンプル](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529785)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529785)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、 **[Power Pivot] > [管理]** を選択します。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>ダッシュボードからわかること
 ダッシュボードのツアーを開始し、CMO がピン留めしたタイルを確認してみましょう。 市場シェア、売上、センチメントに関する情報が表示されます。 さらに、それらのデータは地域、時刻、競合会社別に分類されています。
@@ -99,8 +99,8 @@ VanArsdel 社には多くの競合他社が存在しますが、その業界に�
 
    a.  右側の [フィルター] ウィンドウを展開します。  
    b.  視覚化をクリックして選びます。  
-   c.  [ビジュアル レベル フィルター] で **[セグメント]** のフィルター処理が行われて、**\[Convenience]** \(利便性) と **\[Moderation]** \(モデレーション) のみが表示されています。  
-   d.  フィルターを変更するには、[セグメント] を選んでそのセクションを展開し、**[Productivity]\(生産性\)** をオンにしてそのセグメントを追加します。  
+   c.  [ビジュアル レベル フィルター] で **[セグメント]** のフィルター処理が行われて、 **\[Convenience]** \(利便性) と **\[Moderation]** \(モデレーション) のみが表示されています。  
+   d.  フィルターを変更するには、[セグメント] を選んでそのセクションを展開し、 **[Productivity]\(生産性\)** をオンにしてそのセグメントを追加します。  
 3. [Total Units by Month and isVanArsdel]\(VanArsdel 社の月次個数合計\) で、凡例の黒い [はい] を選び、VanArsdel でページにクロス フィルターを適用します。 \[Productivity] \(生産性) セグメントでは競合他社が優位であることがわかります。
 4. 黒い [はい] をもう一度選ぶと、フィルターが解除されます。
 5. 折れ線グラフを確認してみましょう。 毎月の市場シェアと 12 か月連続の市場シェアが表示されます。 12 か月連続のデータは、毎月の変動を平滑化したもので、長期的な傾向を示します。 横棒グラフの [Convenience]\(利便性\) と [Moderation]\(モデレーション\) を選んで、セグメントごとに市場シェアの変動の様子を確認します。 \[Moderation] \(モデレーション) セグメントは \[Convenience] \(利便性) セグメントよりも、市場シェアの変動が大きくなっています。

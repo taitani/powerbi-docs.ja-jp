@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174570"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181675"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI アプリ ワークスペースでの共同作業
 Power BI アプリ ワークスペースは、同僚とダッシュ ボード、レポート、およびデータセットで共同作業して*アプリ*を作成するのに最適な場所です。 コラボレーションは Power BI のワークスペースだけで終わるわけではありません。 Office 365 では、OneDrive for Business の共有ファイル、Exchange での会話、共有の予定表、タスクなど、その他のグループ サービスも提供されています。 詳細については、[Office 365 のグループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)を参照してください。
@@ -28,7 +28,7 @@ Power BI アプリ ワークスペースは、同僚とダッシュ ボード、
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>アプリ ワークスペースで Power BI Desktop ファイルに対して共同作業を行う
 Power BI Desktop ファイルを作成した後で、そのファイルを Power BI アプリ ワークスペースに発行すると、ワークスペース内の全員がそのファイルで共同作業を行えるようになります。
 
-1. Power BI Desktop で、**[ホーム]** リボンの **[発行]** を選択し、**[宛先を選択してください]** ボックスで目的のアプリ ワークスペースを選択します。
+1. Power BI Desktop で、 **[ホーム]** リボンの **[発行]** を選択し、 **[宛先を選択してください]** ボックスで目的のアプリ ワークスペースを選択します。
    
     ![[発行] アイコン](media/service-collaborate-power-bi-workspace/power-bi-group-publish-pbix.png)
 2. Power BI サービスで、[ワークスペース] の横にある矢印を選択し、目的のアプリ ワークスペースを選択します。
@@ -43,7 +43,7 @@ Power BI Desktop ファイルを作成した後で、そのファイルを Power
 ## <a name="collaborate-in-office-365"></a>Office 365 で共同作業する
 Office 365 で共同作業するには、まず Power BI のアプリ ワークスペースから作業を開始します。
 
-1. Power BI サービスで、[ワークスペース] の横にある矢印を選択し、目的のワークスペース名の隣にある省略記号 (**…**) を選択します。 
+1. Power BI サービスで、[ワークスペース] の横にある矢印を選択し、目的のワークスペース名の隣にある省略記号 ( **…** ) を選択します。 
    
    ![[ワークスペース] メニュー](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. このメニューから、いくつかの方法でグループと共同作業できます。 
@@ -64,7 +64,7 @@ Office 365 で共同作業するには、まず Power BI のアプリ ワーク�
 2. [Office 365 の Outlook でのグループのメッセージ交換](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22)についてご覧ください。
 
 ## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>アプリのグループ ワークスペースの予定表でのイベント スケジュール作成
-1. アプリ ワークスペース名の横にある省略記号 (**[...]**) \> **[予定表]** を選択します。 
+1. アプリ ワークスペース名の横にある省略記号 ( **[...]** ) \> **[予定表]** を選択します。 
    
    ![[予定表] タブ](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

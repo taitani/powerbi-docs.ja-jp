@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 0a71a0e0fe7af3c074c94ab26083839ff114f815
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216104"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61232797"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の IT 支出分析のサンプル:ツアーを開始する
 
@@ -36,10 +36,10 @@ IT 支出分析[コンテンツ パック](service-organizational-content-pack-i
 2. 左下隅にある **[データの取得]** を選びます。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
+3. 表示される [データの取得] ページで、 **[サンプル]** アイコンを選びます。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. **[IT 支出分析のサンプル]** を選び、**[接続]** を選びます。  
+4. **[IT 支出分析のサンプル]** を選び、 **[接続]** を選びます。  
   
    ![データの取得](media/sample-it-spend/it-connect.png)
    
@@ -54,7 +54,7 @@ IT 支出分析[コンテンツ パック](service-organizational-content-pack-i
  * [IT 支払い分析のサンプル](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529783)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529783)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、 **[Power Pivot] > [管理]** を選択します。
 
 
 ## <a name="the-it-spend-analysis-sample-dashboard"></a>IT 支出分析のサンプル ダッシュボード

@@ -12,11 +12,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ab0cbc7b4c882f08d20fdd00516fafcce96cb773
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282220"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61145005"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>ダッシュボードのタイルを編集または削除する
 
@@ -40,7 +40,7 @@ ms.locfileid: "54282220"
 
   
 ## <a name="prerequisites"></a>前提条件
-作業を進めるために、Power BI サービス (Power BI Desktop ではない) を開き、[IT 支出分析のサンプルをダウンロードします](sample-it-spend.md)。 "成功" メッセージが表示されたら、**[ダッシュボードに移動]** を選択します。
+作業を進めるために、Power BI サービス (Power BI Desktop ではない) を開き、[IT 支出分析のサンプルをダウンロードします](sample-it-spend.md)。 "成功" メッセージが表示されたら、 **[ダッシュボードに移動]** を選択します。
 
 - - -
 <a name="create"></a>
@@ -56,7 +56,7 @@ ms.locfileid: "54282220"
 
     ![プラス アイコン](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
-4. [フィールド] ウィンドウから、**[ファクト]、[Amount** and **Business Area]\(金額およびビジネス エリア\)、[Business Area]\(ビジネス エリア\)** の順に選択します。
+4. [フィールド] ウィンドウから、 **[ファクト]、[Amount** and **Business Area]\(金額およびビジネス エリア\)、[Business Area]\(ビジネス エリア\)** の順に選択します。
  
 5. [視覚化] ウィンドウから [ドーナツ グラフ] アイコンを選択して、視覚化をドーナツ グラフ アイコンに変換します。
 
@@ -66,7 +66,7 @@ ms.locfileid: "54282220"
 
    ![タイルのポイント](media/service-dashboard-edit-tile/power-bi-pin.png)
 
-6. "成功" メッセージが表示されたら、**[ダッシュボードに移動]** を選択します。 変更内容を保存するように求められます。 **[保存]** を選択します。
+6. "成功" メッセージが表示されたら、 **[ダッシュボードに移動]** を選択します。 変更内容を保存するように求められます。 **[保存]** を選択します。
 
 - - -
 <a name="move"></a>
@@ -102,7 +102,7 @@ ms.locfileid: "54282220"
 <a name="rename"></a>
 
 ### <a name="rename-the-tile"></a>タイル名の変更
-[タイルの詳細] ウィンドウの上部で、**[タイトル]** を **[支出金額]** に変更します。
+[タイルの詳細] ウィンドウの上部で、 **[タイトル]** を **[支出金額]** に変更します。
 
 ![タイルの詳細ウィンドウ](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
@@ -112,7 +112,7 @@ ms.locfileid: "54282220"
 ### <a name="change-the-default-hyperlink"></a>既定のハイパーリンクの変更
 既定では、タイルを選ぶと、通常はタイルが作成されたレポート、または Q&A (タイルが Q&A で作成された場合) に移動します。 Web ページ、別のダッシュボードまたはレポート (同じワークスペース内)、SSRS レポート、またはその他のオンライン コンテンツにリンクするには、カスタム リンクを追加します。
 
-1. [機能] 見出しの下で、**[カスタム リンクの設定]** を選択します。
+1. [機能] 見出しの下で、 **[カスタム リンクの設定]** を選択します。
 
 2. **[現在のワークスペースのダッシュボードまたはレポートへのリンク]** を選択し、ドロップダウンから選択します。  この例では、人事のサンプル ダッシュボードを選択しました。 このサンプルがワークスペース内にまだ存在していない場合は、追加してから、この手順に戻ることも、別のダッシュボードを選択することもできます。 
 
@@ -127,16 +127,16 @@ ms.locfileid: "54282220"
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>別のダッシュボードにタイルをピン留め
-1. 省略記号のドロップダウン メニューから、**[タイルの固定]** ![ピン留めアイコン](media/service-dashboard-edit-tile/pinnooutline.png) を選択します。
+1. 省略記号のドロップダウン メニューから、 **[タイルの固定]** ![ピン留めアイコン](media/service-dashboard-edit-tile/pinnooutline.png) を選択します。
 2. このタイルの複製を既存のダッシュボードにピン留めするか、または新しいダッシュボードにピン留めするかを決定します。 
    
    ![ダッシュボードにピン留めダイアログ](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
-3. **[Pin]**(ピン留め) を選択します。
+3. **[Pin]** (ピン留め) を選択します。
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>タイルの削除
-1. ダッシュボードからタイルを完全に削除するには、省略記号のドロップダウン メニューから、**[タイルの削除]** ![削除アイコン](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) を選択します。 
+1. ダッシュボードからタイルを完全に削除するには、省略記号のドロップダウン メニューから、 **[タイルの削除]** ![削除アイコン](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) を選択します。 
 
 2. タイルを削除しても、基になっている視覚化は削除されません。 基になっているレポートを開くには、"金額" タイルを選択します。 レポートの最後のページを開き、元の視覚化がレポートから削除されていないことを確認します。 
 

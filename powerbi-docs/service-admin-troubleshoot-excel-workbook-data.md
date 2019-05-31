@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 849c377a140cd0dd31f55760987336fc3711bc79
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285862"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65101441"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>エラー:Excel ブックにデータが見つかりませんでした。
 
->[!NOTE]
+>[!NOTE]  
 >この記事は、Excel 2007 以降に適用されます。
 
 Power BI に Excel ブックをインポートするとき、次のエラーが生じることがあります。
 
-*エラー:Excel ブックにデータが見つかりませんでした。データが適切にフォーマットされていない可能性があります。Excel でブックを編集し、再度インポートする必要があります。*
+*エラー:テーブルとしてフォーマットされたデータが見つかりませんでした。Power BI サービスには、Excel からインポートするには、データをテーブルとして書式設定する必要があります。テーブルに入力し、ctrl キーを押しながら T キーを押してすべてのデータを選択します。*
 
-![ブックにデータが見つからない](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![ブックにデータが見つからない](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 
 ## <a name="quick-solution"></a>クイック ソリューション
 1. Excel でブックを編集します。
@@ -47,28 +47,28 @@ Excel ブックをインポートするとき、Power BI はそれらのテー�
     >[!NOTE]
     >この図は Excel 2013 のものです。 他のバージョンを使用している場合、表示は少し異なりますが、手順は同じです。
     
-    ![ブックを開く](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![ブックを開く](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-1.png)
 2. データを含むセルの範囲を選択します。 最初の行には、列のヘッダー (列名) が含まれている必要があります。
    
-    ![セルの範囲の選択](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
-3. **[挿入]** タブのリボンで、**[テーブル]** をクリックします  (または、ショートカットの **Ctrl + T** キーを押します)。
+    ![セルの範囲の選択](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-2.png)
+3. **[挿入]** タブのリボンで、 **[テーブル]** をクリックします (または、ショートカットの **Ctrl + T** キーを押します)。
    
-    ![テーブルの挿入](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
-4. 次のダイアログ ボックスが表示されます。 **[先頭行をテーブルの見出しとして使用する]** にチェックマークが付いていることを確認して、**[OK]** を選択します。
+    ![テーブルの挿入](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-3.png)
+4. 次のダイアログ ボックスが表示されます。 **[先頭行をテーブルの見出しとして使用する]** にチェックマークが付いていることを確認して、 **[OK]** を選択します。
    
-    ![テーブルの作成](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![テーブルの作成](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-create-table.png)
 5. これで、データはテーブルとして書式設定されました。
    
-    ![テーブルとして書式設定されたデータ](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![テーブルとして書式設定されたデータ](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. ブックを保存します。
 7. Power BI に戻ります。 左側のナビゲーション ウィンドウの下部にある [データの取得] を選択します。
    
-    ![データの取得](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![データを取得](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. **[ファイル]** ボックスで、 **[取得]** を選択します。
    
-    ![ファイルの取得](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![ファイルの取得](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-files.png)
 9. Excel ブックを再度インポートします。 今回は、インポートでテーブルが見つかり、成功するはずです。
    
     インポートがまだ失敗する場合は、ヘルプ メニューの **[コミュニティ]** をクリックして通知してください。
    
-    ![[コミュニティ] リンク](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![[コミュニティ] リンク](media/service-admin-troubleshoot-excel-workbook-data/power-bi-question-menu-community.png)

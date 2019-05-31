@@ -1,37 +1,36 @@
 ---
 title: Power BI で使用するサービスに接続する
-description: Salesforce、Microsoft Dynamics CRM、Google Analytics など、ビジネスに使用するさまざまなサービスに接続します。
+description: 多くの Salesforce、Microsoft Dynamics CRM、および Google Analytics など、ビジネスの実行に使用するサービスに接続します。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
-ms.date: 01/11/2019
+ms.date: 04/19/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8006e3ff2849e98aed8b25e667d430af9407ede2
-ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
-ms.translationtype: HT
+ms.openlocfilehash: 53abb5f82b75773817c72b53dd3e522cb4ccc63e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "54238970"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578749"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI で使用するサービスに接続する
-Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用するさまざまなサービスに接続できます。 Power BI は最初に資格情報でサービスに接続し、それからダッシュボードと一連の Power BI レポートで Power BI アプリを作成します。Power BI レポートにはデータが自動的に表示され、ビジネスに関する洞察が視覚的に提示されます。
+Power bi では、Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用するサービスの多くに接続できます。 Power BI は、サービスに接続するための資格情報を使用して開始します。 Power BI が作成されます*ワークスペース*ダッシュ ボードと一連の Power BI レポートを自動的にデータを表示し、ビジネスに関する情報を視覚化します。
 
-
-Power BI にログインし、[接続できるすべてのサービス](https://app.powerbi.com/getdata/services)を表示します。 
+すべてを表示する Power BI にサインイン、[サービスに接続できる](https://app.powerbi.com/getdata/services)します。 
 
 ![AppSource アプリ](media/service-connect-to-services/overview.png)
 
-アプリをインストールすると、Power BI サービス ([https://powerbi.com](https://powerbi.com)) と Power BI モバイル アプリでダッシュボードとレポートを表示できます。 
+ダッシュ ボードとレポートを表示、アプリと Power BI サービス ワークスペースで、アプリをインストールした後 ([https://app.powerbi.com](https://app.powerbi.com))。 Power BI モバイル アプリにも表示できます。 ワークスペースで、組織のニーズに合わせてレポートとダッシュ ボードを変更およびとして同僚に配布する*アプリ*します。 
 
 ![Power BI モバイル アプリの Google アナリティクス アプリ](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
 ## <a name="get-started"></a>作業の開始
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-## <a name="view-the-dashboard-and-reports"></a>ダッシュ ボードとレポートを表示する
+## <a name="edit-the-dashboard-and-reports"></a>ダッシュ ボードとレポートを編集します。
 インポートが完了すると、新しいアプリが [アプリ] ページに表示されます。
 
 1. 左側のナビゲーション ウィンドウで **[アプリ]** を選択し、該当アプリを選択します。
@@ -41,33 +40,34 @@ Power BI にログインし、[接続できるすべてのサービス](https://
    
     ![Google アナリティクス ダッシュボード](media/service-connect-to-services/googleanalytics2.png)
    
-    レポートのデータを絞り込んだり、強調表示したりできますが、変更は保存できません。
+    ダッシュ ボードと、組織のニーズに合わせてレポートを変更します。 [アプリを同僚に配布します。](service-create-distribute-apps.md)
 
 ## <a name="whats-included"></a>含まれるもの
-サービスに接続すると、ダッシュボード、レポート、データセットを含む、新しく作成されたアプリが表示されます。 サービスからのデータは特定のシナリオに重点を置いたものであり、そのサービスのすべての情報が入っているとは限りません。 データは、1 日に 1 回自動的に更新されます。 データセットを選択し、このスケジュールを変更できます。
+サービスに接続したら、新しく作成されたアプリとワークスペースにダッシュ ボード、レポート、およびデータセットを参照してください。 サービスからのデータは特定のシナリオに重点を置いたものであり、そのサービスのすべての情報が入っているとは限りません。 データは、1 日に 1 回自動的に更新されます。 データセットを選択し、このスケジュールを変更できます。
 
-また、[Power BI Desktop](desktop-get-the-desktop.md) を使用して Google Analytics などのサービスに接続し、カスタマイズして独自のダッシュボードとレポートを作成することもできます。  
+できます[Power BI Desktop で多くのサービスに接続する](desktop-data-sources.md)、Google Analytics など、独自のカスタマイズされたダッシュ ボードとレポートを作成します。  
 
-特定のサービスに接続する方法については、個々のヘルプ ページをご覧ください。
+特定のサービスに接続する方法の詳細については、個々 のヘルプ ページを参照してください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 **タイルが空になっている**  
-Power BI が初めてサービスに接続するとき、ダッシュボードに空のタイル セットが表示されることがあります。 2 時間後、空のダッシュボードが依然として表示される場合、接続に失敗した可能性があります。 問題の修正の関する情報を含むエラー メッセージが表示されなかった場合、サポート チケットをご利用ください。
+Power BI が初めてサービスに接続するとき、ダッシュボードに空のタイル セットが表示されることがあります。 2 時間後、空のダッシュボードが依然として表示される場合、接続に失敗した可能性があります。 問題の修正の関する情報と共にエラー メッセージが表示されていない場合、は、サポート チケットを提出します。
 
-* 右上隅にある疑問符アイコン (**?**) を選択し、**[ヘルプを取得]** を選択します。
+* 右上隅にある疑問符アイコン ( **?** ) を選択し、 **[ヘルプを取得]** を選択します。
   
     ![[ヘルプを取得] アイコン](media/service-connect-to-services/power-bi-service-get-help.png)
 
 **情報が不足している**  
-ダッシュボードとレポートには、特定のシナリオに重点を置いたサービスのコンテンツが含まれ、そのサービスのすべての情報が入っているわけではありません。 コンテンツ パックに特定のメトリックが見つからない場合は、[[Power BI サポート]](https://support.powerbi.com/forums/265200-power-bi) ページからご意見をお寄せください。
+ダッシュ ボードとレポートには、特定のシナリオに重点を置いたサービスのコンテンツが含まれます。 アプリで特定のメトリックを探しているし、表示されない場合は場合のアイデアを追加、 [Power BI サポート](https://support.powerbi.com/forums/265200-power-bi)ページ。
 
 ## <a name="suggesting-services"></a>サービスを提案する
 Power BI アプリにしてほしいサービスがある場合は、 [[Power BI サポート]](https://support.powerbi.com/forums/265200-power-bi) ページでお知らせください。
 
-アプリの作成を希望するサービスがある場合は、 まず、[対象のサービスを送信](https://azure.microsoft.com/marketplace/programs/certified/apply/)し、[Power BI コンテンツ パックの公開] を選択します。
+自分で配布するテンプレート アプリを作成する場合、「[Create a template app in Power BI](service-template-apps-create.md)」 (Power BI でテンプレート アプリを作成する) を参照してください。 Power BI パートナーでは、ほとんどまたはまったくない次のようにコーディングでの Power BI アプリを構築でき、Power BI のお客様に配置することができます。 
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI のアプリについて](service-install-use-apps.md)
-* [Power BI でデータを取得する](service-get-data.md)
+* [アプリを同僚に配布します。](service-create-distribute-apps.md)
+* [Power BI で新しいワークスペースを作成します。](service-create-the-new-workspaces.md)
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 

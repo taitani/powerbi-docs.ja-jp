@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cda7b38aa89e368028f966c3cd00c00ee2cb4e84
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271369"
+---
 Excel ワークブックを OneDrive に保存する場合、Power BI と Excel をシームレスに統合できます。
 
 ![](media/5-4-connect-onedrive-for-business/5-4_1.png)

@@ -1,20 +1,20 @@
 ---
 title: Power BI Report Server のレポートにコメントを追加する
 description: Power BI Report Server または SQL Server Reporting Services レポート サーバー上の Power BI レポートまたはページ分割されたレポートにコメントを追加する方法について説明します。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.openlocfilehash: 7e2dcc24cde68275899b25ff457b7731583c1bc5
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 87b0c3b1c50c38d69009e28513188362b52549dc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324233"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769642"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>レポート サーバーのレポートにコメントを追加する - Power BI Report Server
 
@@ -28,7 +28,7 @@ ms.locfileid: "56324233"
     ![コメントの選択](media/add-comments/report-server-web-portal-comments-button.png)
 
     既存のコメントがあれば、[コメント] ウィンドウに表示されます。
-3. コメントを入力し、**[コメントを投稿]** を選択します。
+3. コメントを入力し、 **[コメントを投稿]** を選択します。
 
     ![コメントを投稿](media/add-comments/report-server-web-portal-comments-pane.png)
 

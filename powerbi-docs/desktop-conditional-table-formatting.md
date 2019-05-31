@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b45c6708f2f4c1ec0f8df2a330dcbb683210926
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292051"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222258"
 ---
 # <a name="conditional-formatting-in-tables"></a>テーブルでの条件付き書式設定 
 テーブルで条件付き書式を使用するときに、グラデーションを使用するなど、セルの値または他の値やフィールドに基づいてカスタマイズされたセルの色を指定できます。 セルの値と共にデータ バーも表示できます。 
 
-条件付き書式にアクセスするには、Power BI Desktop の **[視覚化]** ウィンドウの **[フィールド]** ウェルで、書式設定する **[値]** ウェルの値の横にある下向きの矢印を選択します (または、フィールドを右クリックします)。 条件付き書式を管理できるのは、**[フィールド]** ウェルの **[値]** 領域のフィールドだけです。
+条件付き書式にアクセスするには、Power BI Desktop の **[視覚化]** ウィンドウの **[フィールド]** ウェルで、書式設定する **[値]** ウェルの値の横にある下向きの矢印を選択します (または、フィールドを右クリックします)。 条件付き書式を管理できるのは、 **[フィールド]** ウェルの **[値]** 領域のフィールドだけです。
 
 ![[条件付き書式設定] メニュー](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
@@ -29,27 +29,27 @@ ms.locfileid: "54292051"
 > [!NOTE]
 > テーブルに適用すると、条件付きで書式設定されたセルに適用されているすべてのカスタム テーブル スタイルが、条件付き書式でオーバーライドされます。
 
-視覚化から条件付き書式を削除するには、再度フィールドを右クリックし、**[条件付き書式の削除]** を選択し、削除する書式の種類を選択します。
+視覚化から条件付き書式を削除するには、再度フィールドを右クリックし、 **[条件付き書式の削除]** を選択し、削除する書式の種類を選択します。
 
 ![[条件付き書式の削除] メニュー](media/desktop-conditional-table-formatting/table-formatting-1-remove.png)
 
 ## <a name="background-color-scales"></a>バックグラウンドのカラー スケール
 
-**[条件付き書式]** を選択し、**[バックグラウンドのカラー スケール]** を選択すると、次のダイアログが表示されます。
+**[条件付き書式]** を選択し、 **[バックグラウンドのカラー スケール]** を選択すると、次のダイアログが表示されます。
 
 ![[バックグラウンドのカラー スケール] ダイアログ](media/desktop-conditional-table-formatting/table-formatting-1-default-dialog.png)
 
-フィールドに **[色の基準]** を設定することで、データ モデルから色の基準とするフィールドを選択できます。 さらに、**[集計]** 値を利用し、選択したフィールドの集計の種類を指定できます。 色が付けられるフィールドは **[色の適用対象]** フィールドに指定されるので、追跡することができます。書式設定の基礎として数値を選択する限り、テキスト フィールドや日付フィールドに条件付き書式設定を適用できます。
+フィールドに **[色の基準]** を設定することで、データ モデルから色の基準とするフィールドを選択できます。 さらに、 **[集計]** 値を利用し、選択したフィールドの集計の種類を指定できます。 色が付けられるフィールドは **[色の適用対象]** フィールドに指定されるので、追跡することができます。書式設定の基礎として数値を選択する限り、テキスト フィールドや日付フィールドに条件付き書式設定を適用できます。
 
 ![[色の基準] フィールド](media/desktop-conditional-table-formatting/table-formatting-1-apply-color-to.png)
 
-所定の値範囲に個別の色値を使用するには、**[ルールに基づく色]** を選択します。 色スペクトルを使用するには、**[ルールに基づく色]** のチェックを外します。 
+所定の値範囲に個別の色値を使用するには、 **[ルールに基づく色]** を選択します。 色スペクトルを使用するには、 **[ルールに基づく色]** のチェックを外します。 
 
 ![[バックグラウンドのカラー スケール] ダイアログ](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-dialog.png)
 
 ### <a name="color-by-rules"></a>ルールに基づく色
 
-**[ルールに基づく色]** を選択するとき、1 つまたは複数の色範囲を入力し、そのそれぞれに決まった色を指定できます。  値範囲はそれぞれ、*[値が次の場合]* 条件で始まり、*[かつ]* 条件、色と続きます。
+**[ルールに基づく色]** を選択するとき、1 つまたは複数の色範囲を入力し、そのそれぞれに決まった色を指定できます。  値範囲はそれぞれ、 *[値が次の場合]* 条件で始まり、 *[かつ]* 条件、色と続きます。
 
 ![[ルールに基づく色] 値範囲](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "54292051"
 
 ## <a name="font-color-scales"></a>フォントのカラー スケール
 
-**[条件付き書式]** を選択し、**[フォントのカラー スケール]** を選択すると、次のダイアログが表示されます。 このダイアログは **[バックグラウンドのカラー スケール]** ダイアログに似ていますが、セルの背景色ではなくフォントの色を変更します。
+**[条件付き書式]** を選択し、 **[フォントのカラー スケール]** を選択すると、次のダイアログが表示されます。 このダイアログは **[バックグラウンドのカラー スケール]** ダイアログに似ていますが、セルの背景色ではなくフォントの色を変更します。
 
 ![[フォントのカラー スケール] ダイアログ](media/desktop-conditional-table-formatting/table-formatting-2-diverging.png)
 
@@ -84,11 +84,11 @@ ms.locfileid: "54292051"
 
 ## <a name="data-bars"></a>データ バー
 
-**[条件付き書式]** を選択し、**[データ バー]** を選択すると、次のダイアログが表示されます。 
+**[条件付き書式]** を選択し、 **[データ バー]** を選択すると、次のダイアログが表示されます。 
 
 ![[データ バー] ダイアログ](media/desktop-conditional-table-formatting/table-formatting-3-default.png)
 
-既定では、**[バーのみを表示]** オプションは選択されていません。テーブル セルには、バーと実際の値の両方が表示されます。
+既定では、 **[バーのみを表示]** オプションは選択されていません。テーブル セルには、バーと実際の値の両方が表示されます。
 
 ![データ バーと値を含むサンプル テーブル](media/desktop-conditional-table-formatting/table-formatting-3-default-table.png)
 
@@ -108,7 +108,7 @@ ms.locfileid: "54292051"
 
 ![メニューから背景色を選択する](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
 
-表示されたダイアログで、次の図のように、**[書式設定基準]** のドロップダウンの領域で **[フィールド値]** を選択します。
+表示されたダイアログで、次の図のように、 **[書式設定基準]** のドロップダウンの領域で **[フィールド値]** を選択します。
 
 ![フィールド値に基づく書式設定](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
 
@@ -129,6 +129,12 @@ ms.locfileid: "54292051"
 ![色に基づく KPI 値を使用したマトリックス ビジュアル](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
 
 想像力と DAX を少し使うだけで、より多くのバリエーションを作成できます。
+
+CSS 色仕様に記載した値のいずれかを使用する[ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/)にビジュアルの色します。
+* 3、6 か月または 8 桁の 16 進コードを #3E4AFF など。 コードの先頭に # 記号を含めることを確認します。 "3E4AFF"は許容されません。 
+* RGB または RGBA 値 RGBA (234、234、234, 0.5) 例。
+* HSL または HSLA 値などの HSLA (123, 75%、75%, 0.5)
+* 色の緑、スカイ ブルー、PeachPuff 例: 名前します。 
 
 ## <a name="next-steps"></a>次の手順
 詳しくは、次の資料を参照してください。  

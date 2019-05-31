@@ -1,20 +1,20 @@
 ---
 title: Power BI Report Server での Power BI のスケジュールされた更新
 description: Power BI レポートは、さまざまなデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394755"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051017"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server での Power BI のスケジュールされた更新
 Power BI レポートのスケジュールされた更新は、レポートのデータを最新の状態に保つことができます。
@@ -34,6 +34,7 @@ Power BI レポートのスケジュールされた更新を使うときは、�
 * データ モデルは、Analysis Services インスタンス内に読み込まれます。
 * 一部のデータ ソースでは、データ ソースに接続してデータを変換するために、Power Query マッシュアップ エンジンが使われます。 他のデータ ソースは、Power BI Report Server のデータ モデルをホストする Analysis Services サービスから直接接続できます。
 * 新しいデータは、Analysis Services 内のデータ モデルに読み込まれます。
+* スケール アウト構成では、データ モデルをノード間でレプリケートできます。
 * Analysis Services がデータを処理し、必要な計算をすべて実行します。
 
 Power BI Report Server は、すべてのスケジュールされた操作のイベント キューを保持します。 定期的にキューをポーリングして、新しいイベントを確認します。 既定では、キューは 10 秒ごとにスキャンされます。 RSReportServer.config ファイルの構成設定 **PollingInterval**、**IsNotificationService**、**IsEventService** を変更することで、間隔を変えることができます。 **IsDataModelRefreshService** を使うと、レポート サーバーがスケジュールされたイベントを処理するかどうかも設定できます。
@@ -51,7 +52,7 @@ Power BI レポートによっては、スケジュールされた更新計画�
 
 上記の一覧だけでなく、*インポート* モードのデータ ソースに関する特定のシナリオでも、更新計画を作成できません。
 
-* *ファイル* または *フォルダー* データ ソースが使われていて、ファイルのパスがローカル パス (例: C:\Users\user\Documents) である場合、更新計画を作成することはできません。 パスは、ネットワーク共有のようにレポート サーバーが接続できるパスである必要があります。 たとえば、*\\myshare\Documents* などです。
+* *ファイル* または *フォルダー* データ ソースが使われていて、ファイルのパスがローカル パス (例: C:\Users\user\Documents) である場合、更新計画を作成することはできません。 パスは、ネットワーク共有のようにレポート サーバーが接続できるパスである必要があります。 たとえば、 *\\myshare\Documents* などです。
 * OAuth (Facebook、Google Analytics、Salesforce など) を使うことによってのみ接続できるデータ ソースの場合、キャッシュ更新計画を作成することはできません。 現時点では、ページ分割されたレポート、モバイル レポート、または Power BI レポートのいずれでも、RS はすべてのデータ ソースについて OAuth 認証をサポートしません。
 
 ### <a name="memory-limits"></a>メモリの制限

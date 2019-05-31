@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: a12f2821108c5becaf054680e4395295f0979f0b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008490"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171599"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Power BI で UserVoice に接続する
 UserVoice データの追跡と探索は、Power BI と UserVoice コンテンツ パックを使えば簡単に行えます。 Power BI は、チケット、提案と満足度の評価などのデータを取得してから、そのデータに基づいて、すぐに使えるダッシュボードとレポートを作成します。
@@ -32,7 +32,7 @@ Power BI 用 [UserVoice コンテンツ パック](https://app.powerbi.com/getda
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-uservoice/pbi_getservices.png) 
-3. **[UserVoice]**、**[接続]** の順に選びます。
+3. **[UserVoice]** 、 **[接続]** の順に選びます。
    
    ![](media/service-connect-to-uservoice/uservoice.png)
 4. ダイアログ ボックスが表示されたら、UserVoice の URL を入力します。 URL は、次のパターンに厳密に従う必要があります: `https://fabrikam.uservoice.com` 。ここで、"fabrikam" を製品名またはサービス名に置き換えます。
@@ -47,7 +47,7 @@ Power BI 用 [UserVoice コンテンツ パック](https://app.powerbi.com/getda
    >UserVoice アカウントの管理者資格情報が必要です。
    
    ![](media/service-connect-to-uservoice/capture3.png)
-6. Power BI は、UserVoice データを取得して、すぐに使用できるダッシュボードとレポートを作成します。 Power BI は、次のデータを取得します。すべての提案、開いているすべてのチケット、過去 30 日間に作成されたすべてのチケット (閉じているチケットを含む)、およびユーザー満足度評価の内容。 
+6. Power BI は、UserVoice データを取得して、すぐに使用できるダッシュボードとレポートを作成します。 Power BI は、次のデータを取得します。すべての提案、開いているすべてのチケット、過去 30 日間に作成されたすべてのチケット (閉じているチケットを含む)、およびユーザー満足度評価の内容。
    
    ![](media/service-connect-to-uservoice/capture4.png)
 

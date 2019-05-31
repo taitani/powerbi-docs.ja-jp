@@ -12,11 +12,11 @@ ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b3f1c3780b60efc2ade444960a92234afecc71e
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086588"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61253030"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Esri が提供する Power BI サービスおよび Power BI Desktop の ArcGIS マップ
 このチュートリアルは、ArcGIS マップを作成するユーザーの観点から書かれています。 作成者が同僚と ArcGIS マップを共有すると、その同僚はマップを表示および操作できますが、変更を保存することはできません。 ArcGIS マップの表示方法について詳しくは、「[Power BI での ArcGIS マップとの対話](power-bi-visualizations-arcgis.md)」をご覧ください。
@@ -75,7 +75,7 @@ Watch では、何種類かの ArcGIS マップ ビジュアルを作成でき�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EKVvOZmxg9s" frameborder="0" allowfullscreen></iframe>
 
-1. **[フィールド]** ウィンドウで、データ フィールドを **[場所]** または **[緯度]** や **[経度]** バケットにドラッグします。 この例では、**[ストア] > [市区町村]** を使用しています。
+1. **[フィールド]** ウィンドウで、データ フィールドを **[場所]** または **[緯度]** や **[経度]** バケットにドラッグします。 この例では、 **[ストア] > [市区町村]** を使用しています。
    
    > [!NOTE]
    > 選択したフィールドがマップの図形またはポイントとして最適に表示されているかどうかは、Power BI の ArcGIS マップによって自動的に検出されることに注意してください。 設定の既定値は調整することができます (下記参照)。
@@ -84,14 +84,14 @@ Watch では、何種類かの ArcGIS マップ ビジュアルを作成でき�
    
     ![](media/power-bi-visualization-arcgis/power-bi-fields-pane3new.png)
 2. [視覚化] ウィンドウ ![](media/power-bi-visualization-arcgis/power-bi-arcgis-template.png) からテンプレートを選択し、視覚エフェクトを ArcGIS マップに変換します。
-3. **[フィールド]** ウィンドウで、メジャーを **[サイズ]** バケットにドラッグして、データの表示方法を調整します。 この例では、**[セールス] > [Last Year Sales]** (昨年の売上高) を使用しています。
+3. **[フィールド]** ウィンドウで、メジャーを **[サイズ]** バケットにドラッグして、データの表示方法を調整します。 この例では、 **[セールス] > [Last Year Sales]** (昨年の売上高) を使用しています。
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-point-map-size2new.png)
 
 ## <a name="settings-and-formatting-for-arcgis-maps"></a>ArcGIS マップの設定と書式設定
 **Power BI の ArcGIS マップ**書式設定機能にアクセスするには、次の手順を実行します。
 
-1. 視覚エフェクトの右上隅の省略記号を選択し、**[編集]** を選択して、追加機能にアクセスします。
+1. 視覚エフェクトの右上隅の省略記号を選択し、 **[編集]** を選択して、追加機能にアクセスします。
    
    ![](media/power-bi-visualization-arcgis/power-bi-edit2.png)
    
@@ -193,7 +193,7 @@ Power BI の ArgGIS マップは、マップでのデータの最適な表示方
 #### <a name="reference-layer---demographics"></a>参照レイヤー - 人口統計
 Power BI の ArcGIS マップでは、Power BI からのデータのコンテキスト化に役立つ人口統計レイヤーを選択できます。
 
-1. **[参照レイヤー]** タブを選択し、**[人口統計]** を選択します。
+1. **[参照レイヤー]** タブを選択し、 **[人口統計]** を選択します。
 2. リストされるレイヤーにはそれぞれチェック ボックスがあります。 チェックマークを追加して、マップにそのレイヤーを追加します。  この例では、平均世帯年収を追加しました。<br/>
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-reference-layer-demographic.png)
@@ -204,7 +204,7 @@ Power BI の ArcGIS マップでは、Power BI からのデータのコンテキ
 #### <a name="reference-layer---arcgis"></a>参照レイヤー - ArcGIS
 ArcGIS Online で、組織はパブリック Web マップを発行することができます。 さらに、Esri は Living Atlas を通じて選別された Web マップ セットを提供します。 [ArcGIS] タブでは、すべてのパブリック Web マップまたは Living Atlas マップを検索し、参照レイヤーとしてマップに追加することができます。
 
-1. **[参照レイヤー]** タブを選択し、**[ArcGIS]** を選択します。
+1. **[参照レイヤー]** タブを選択し、 **[ArcGIS]** を選択します。
 2. 検索語句を入力し、マップ レイヤーを選択します。 この例では、米国の下院選挙区を選択しました。
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)

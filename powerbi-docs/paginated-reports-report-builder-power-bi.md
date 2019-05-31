@@ -1,20 +1,20 @@
 ---
 title: Power BI Premium のページ分割されたレポートとは (プレビュー)
 description: ページ分割されたレポート (SQL Server Reporting Services での標準レポート形式) を、Power BI サービスで使用できるようになりました。 これらのレポートは印刷または共有できます。 レポートのレイアウトを正確に制御できます。 たとえばテーブルが複数のページにまたがる場合でも、テーブルのすべてのデータが表示されます。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 12/05/2018
-ms.openlocfilehash: 1b8653b4493e0a6de904ecb0f5bb8ec5bb6f7904
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/20/2019
+ms.openlocfilehash: 8da24bb8f7d3b8d507dbb6792556004083b673fe
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014187"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991066"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Power BI Premium のページ分割されたレポートとは (プレビュー)
 
@@ -26,17 +26,21 @@ ms.locfileid: "57014187"
 
 レポート ビルダーでレポートをプレビューした後、Power BI サービス (http://app.powerbi.com) に発行することができます。 サービスにレポートを発行するには、Power BI Pro ライセンスが必要です。 ワークスペースが Power BI Premium 容量に存在する限り、マイ ワークスペースまたはアプリ ワークスペースにページ分割されたレポートを発行して共有できます。 また、Power BI 管理者は、Power BI 管理ポータルでページ分割されたレポートを有効にする必要があります。 
 
-## <a name="create-reports-in-report-builder"></a>レポート ビルダーでレポートを作成する
+## <a name="create-reports-in-power-bi-report-builder"></a>Power BI のレポート ビルダーでレポートを作成します。
 
-ページ分割されたレポートには、専用のデザイン ツールであるレポート ビルダーがあります。 Power BI Report Server または SQL Server Reporting Services (SSRS) 用にページ分割されたレポートを作成するときと同じツールと同じバージョンです。 実際、SSRS 2016 や 2017 または Power BI Report Server オンプレミス用に作成したページ分割されたレポートは、Power BI サービスと互換性があります。 Power BI サービスは下位互換性が維持されているので、レポートを上位バージョンに移行でき、以前のバージョンのページ分割されたレポートをアップグレードすることができます。 起動時は一部のレポート機能が利用できません。 詳細については、この記事の「[制限事項と考慮事項](#limitations-and-considerations)」を参照してください。
+改ページ調整されたレポートでは、独自のデザイン ツール、Power BI のレポート ビルダーがあります。 Power BI Report Server または SQL Server Reporting Services (SSRS) の改ページ調整されたレポートを作成する以前を使用したツールと同じ基盤を共有する新しいツールです。 実際、SSRS 2016 や 2017 または Power BI Report Server オンプレミス用に作成したページ分割されたレポートは、Power BI サービスと互換性があります。 Power BI サービスは下位互換性が維持されているので、レポートを上位バージョンに移行でき、以前のバージョンのページ分割されたレポートをアップグレードすることができます。 起動時は一部のレポート機能が利用できません。 詳細については、この記事の「[制限事項と考慮事項](#limitations-and-considerations)」を参照してください。
      
 ## <a name="report-from-a-variety-of-data-sources"></a>さまざまなデータ ソースからのレポート
 
-1 つのページ分割されたレポートで、さまざまな異なるデータ ソースを使用できます。 Power BI レポートとは異なり、基になるデータ モデルはありません。 Power BI サービスでのページ分割されたレポートの初期リリースでは、レポート自体にデータ ソースとデータセットを埋め込みます。 現在のところ、共有データ ソースと共有データセットは使用できません。 ローカル コンピューター上のレポート ビルダーでレポートを作成します。 レポートでオンプレミスのデータに接続する場合は、レポートを Power BI サービスにアップロードした後、ゲートウェイを作成し、データ接続をリダイレクトする必要があります。 最初のリリースで接続できるデータ ソースは次のとおりです。
+1 つのページ分割されたレポートで、さまざまな異なるデータ ソースを使用できます。 Power BI レポートとは異なり、基になるデータ モデルはありません。 Power BI サービスでのページ分割されたレポートの初期リリースでは、レポート自体にデータ ソースとデータセットを埋め込みます。 現在のところ、共有データ ソースと共有データセットは使用できません。 ローカル コンピューター上のレポート ビルダーでレポートを作成します。 レポートでオンプレミスのデータに接続する場合は、レポートを Power BI サービスにアップロードした後、ゲートウェイを作成し、データ接続をリダイレクトする必要があります。 この時点に接続できるデータ ソースを次に示します。
 
 - Azure SQL Database と Data Warehouse
+- (SSO) を使用して azure Analysis Services
 - ゲートウェイ経由の SQL Server
 - ゲートウェイ経由の SQL Server Analysis Services
+- Power BI Premium のデータセット
+- Oracle
+- Teradata
  
 他のデータ ソースについては、プレビュー期間中に対応されます。
 
@@ -62,7 +66,13 @@ ms.locfileid: "57014187"
 
 ## <a name="view-your-paginated-report"></a>ページ分割されたレポートを表示する
 ページ分割されたレポートは、ブラウザーの Power BI サービスまたは Power BI モバイル アプリで表示します。 Power BI サービスから、HTML、MHTML、PDF、XML、CSV、TIFF、Word、Excel など、さまざまな形式にレポートをエクスポートできます。 他のユーザーと共有することもできます。  
-  
+
+## <a name="create-a-subscription-to-your-report"></a>レポートへのサブスクリプションを作成します。
+
+Power BI サービスでの改ページ調整されたレポートの自分や他のユーザーの電子メール サブスクリプションを設定することができますようになりました。 一般に、プロセスは、レポートと Power BI サービスでダッシュ ボードにサブスクライブすることと同じです。 メールの受信するどのくらいの頻度を選択するサブスクリプションを設定: 毎日、毎週、または 1 時間ごと。 サブスクリプションには、レポート全体の出力の PDF 添付ファイルが含まれています。
+
+詳細については、この記事を参照してください。[自分や他のユーザーを Power BI サービスでの改ページ調整されたレポートにサブスクライブ](paginated-reports-subscriptions.md)します。 
+
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 
 最初のリリースでは、次のような他のいくつかの機能がサポートされていません。
@@ -70,15 +80,12 @@ ms.locfileid: "57014187"
 - レポート ページまたはビジュアルの Power BI ダッシュボードへのピン留め。 Power BI Report Server または Reporting Services のレポート サーバー上のオンプレミスのページ分割されたレポートから視覚エフェクトを Power BI ダッシュボードにピン留めすることは引き続き可能です。 詳しくは、[Reporting Services のアイテムの Power BI ダッシュボードへのピン留め](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)に関するページをご覧ください。
 - ドキュメント マップや表示/非表示ボタンなどの対話機能。
 - サブレポートとドリルスルー レポート。
-- サブスクリプション。
 - 共有データ ソースと共有データセット。
-- Power BI データセット。
 - Power BI レポートからのビジュアル。
-- アプリでのページ分割されたレポート。 アプリ ワークスペースからページ分割されたレポートを共有することはできますが、そのワークスペースからアプリを発行するときにレポートを含めることはできません。
  
 ## <a name="next-steps"></a>次の手順
 
-- [Microsoft ダウンロード センターからレポート ビルダーをインストールする](http://go.microsoft.com/fwlink/?LinkID=734968)
+- [Microsoft ダウンロード センターからの Power BI のレポート ビルダーをインストールします。](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [チュートリアル:ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)
 - [ページ分割されたレポートに直接データを入力する](paginated-reports-enter-data.md)
 

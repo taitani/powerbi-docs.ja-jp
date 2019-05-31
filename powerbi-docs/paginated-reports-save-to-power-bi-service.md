@@ -1,20 +1,20 @@
 ---
 title: ページ分割されたレポートを Power BI サービスに発行する (プレビュー)
 description: このチュートリアルでは、ページ分割されたレポートをローカル コンピューターからアップロードすることによって Power BI サービスに発行することを学びます。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174547"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61424010"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>ページ分割されたレポートを Power BI サービスに発行する (プレビュー)
 
@@ -26,11 +26,11 @@ ms.locfileid: "58174547"
 
 ワークスペースの名前の横にダイヤモンド形のアイコン ![Power BI Premium 容量のダイヤモンド形のアイコン](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) がない場合は、Premium 容量にワークスペースを追加する必要があります。 
 
-1. **[ワークスペース]** を選択し、ワークスペース名の横にある省略記号 **[...]** を選択して、**[ワークスペースの編集]** を選択します。
+1. **[ワークスペース]** を選択し、ワークスペース名の横にある省略記号 **[...]** を選択して、 **[ワークスペースの編集]** を選択します。
 
     ![[ワークスペースの編集] を選択する](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. **[ワークスペースの編集]** ダイアログ ボックスで、**[詳細設定]** を展開し、**[専用の容量]** を **[オン]** にスライドします。
+1. **[ワークスペースの編集]** ダイアログ ボックスで、 **[詳細設定]** を展開し、 **[専用の容量]** を **[オン]** にスライドします。
 
     ![[専用の容量] を選択する](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
@@ -51,15 +51,15 @@ ms.locfileid: "58174547"
 
     ![Power BI のファイルの取得](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-files-get.png)
 
-1. **[ローカル ファイル]** を選択し、ページ分割されたレポートを参照して、**[開く]** を選択します。
+1. **[ローカル ファイル]** を選択し、ページ分割されたレポートを参照して、 **[開く]** を選択します。
 
     ![[ローカル ファイル] を選択する](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-local-file.png)
 
-1. **[続行]** > **[資格情報の編集]** の順に選択します。
+1. **[続行]**  >  **[資格情報の編集]** の順に選択します。
 
     ![[資格情報の編集] を選択する](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-edit-credentials.png)
 
-1. 資格情報を構成し、**[サインイン]** を選択します。
+1. 資格情報を構成し、 **[サインイン]** を選択します。
 
     ![資格情報を編集](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 

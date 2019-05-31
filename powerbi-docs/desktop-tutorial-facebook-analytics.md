@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513686"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>チュートリアル:Power BI Desktop を使用した Facebook の分析
@@ -23,11 +23,11 @@ ms.locfileid: "65513686"
 
 ## <a name="connect-to-a-facebook-page"></a>Facebook ページに接続する
 
-このチュートリアルでは、[Microsoft Power BI の Facebook ページ](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*) のデータを使用します。 このページのデータに接続し、インポートするには、個人の Facebook アカウント以外に特別な資格情報は必要ありません。
+このチュートリアルでは、[Microsoft Power BI の Facebook ページ](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ) のデータを使用します。 このページのデータに接続し、インポートするには、個人の Facebook アカウント以外に特別な資格情報は必要ありません。
 
-1. Power BI Desktop を開き、**[作業の開始]** ダイアログまたは **[ホーム]** リボン タブで **[データの取得]** を選択し、**[データの取得]** を選択し、**[すべて表示]** を選択します。
+1. Power BI Desktop を開き、 **[作業の開始]** ダイアログまたは **[ホーム]** リボン タブで **[データの取得]** を選択し、 **[データの取得]** を選択し、 **[すべて表示]** を選択します。
    
-2. **[データの取得]** ダイアログで、**[Online Services]** グループから **[Facebook]** を選択し、**[接続]** を選択します。
+2. **[データの取得]** ダイアログで、 **[Online Services]** グループから **[Facebook]** を選択し、 **[接続]** を選択します。
    
    ![データを取得](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
@@ -37,7 +37,7 @@ ms.locfileid: "65513686"
    
 3. **[続行]** を選択します。 **[Facebook]** ダイアログ ボックスが表示されます。
    
-4. ページ名 (**microsoftbi**) を **[ユーザー名]** テキスト ボックスに入力するか貼り付け、**[接続]** ドロップダウンから **[投稿]** を選択し、**[OK]** を選択します。
+4. ページ名 (**microsoftbi**) を **[ユーザー名]** テキスト ボックスに入力するか貼り付け、 **[接続]** ドロップダウンから **[投稿]** を選択し、 **[OK]** を選択します。
    
    ![接続](media/desktop-tutorial-facebook-analytics/2.png)
    
@@ -51,13 +51,13 @@ ms.locfileid: "65513686"
    
 ## <a name="shape-and-transform-the-imported-data"></a>インポートしたデータの整形と変換
 
-たとえば、最もコメントが多い投稿を時系列で確認したいとします。**[投稿]** データのプレビューでは、**created_time** データが読みづらく、わかりづらく、コメント データもまったくありません。 データを最大限に活用するために、データの整形と整理を実行する必要があります。 Power BI Desktop にインポートする前または後に、Power BI Desktop の **Power Query エディター**を使用してデータを編集できます。 
+たとえば、最もコメントが多い投稿を時系列で確認したいとします。 **[投稿]** データのプレビューでは、**created_time** データが読みづらく、わかりづらく、コメント データもまったくありません。 データを最大限に活用するために、データの整形と整理を実行する必要があります。 Power BI Desktop にインポートする前または後に、Power BI Desktop の **Power Query エディター**を使用してデータを編集できます。 
 
 ### <a name="split-the-datetime-column"></a>日付と時刻の列を分割する
 
 まず、**created_time** 列の日付と時刻の値を分かりやすくするために分割します。 
 
-1. Facebook データのプレビューで、**[編集]** を選択します。 
+1. Facebook データのプレビューで、 **[編集]** を選択します。 
    
    ![データのプレビューの編集](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
@@ -69,7 +69,7 @@ ms.locfileid: "65513686"
    
    ![区切り記号による列の分割](media/desktop-tutorial-facebook-analytics/delimiter1.png)
    
-3. **[区切り記号による列の分割]** ダイアログで、ドロップダウンから **[カスタム]** を選択し、入力フィールドに「**T**」(created_time 値の時刻部分の先頭文字) と入力し、**[OK]** を選択します。 
+3. **[区切り記号による列の分割]** ダイアログで、ドロップダウンから **[カスタム]** を選択し、入力フィールドに「**T**」(created_time 値の時刻部分の先頭文字) と入力し、 **[OK]** を選択します。 
    
    ![[区切り記号による列の分割] ダイアログ](media/desktop-tutorial-facebook-analytics/delimiter2.png)
    
@@ -83,14 +83,14 @@ ms.locfileid: "65513686"
 
 日付と時刻のデータの準備が完了したら、入れ子になった列を展開してコメント データを公開します。 
 
-1. **object_link** 列を選択し、![展開アイコン](media/desktop-tutorial-facebook-analytics/14.png) アイコンを選択して **[展開/集計]** ダイアログを開きます。 **接続**を選択し、**[OK]** を選択します。 
+1. **object_link** 列を選択し、![展開アイコン](media/desktop-tutorial-facebook-analytics/14.png) アイコンを選択して **[展開/集計]** ダイアログを開きます。 **接続**を選択し、 **[OK]** を選択します。 
    
    ![object_link を展開する](media/desktop-tutorial-facebook-analytics/expand1.png)
    
    列ヘッダーが **object_link.connections** に変わります。
-2. **object_link.connections** 列の上部にある ![展開アイコン](media/desktop-tutorial-facebook-analytics/14.png) アイコンを選択し、**コメント**を選択し、**[OK]** を選択します。 列ヘッダーが **object_link.connections.comments** に変わります。
+2. **object_link.connections** 列の上部にある ![展開アイコン](media/desktop-tutorial-facebook-analytics/14.png) アイコンを選択し、**コメント**を選択し、 **[OK]** を選択します。 列ヘッダーが **object_link.connections.comments** に変わります。
    
-3. **object_link.connections.comments**列の上部にある ![展開アイコン](media/desktop-tutorial-facebook-analytics/14.png) アイコンを選択し、今回はダイアログ ボックスの [展開] ではなく **[集計]** を選択します。 **# Count of id** を選択し、**[OK]** を選択します。 
+3. **object_link.connections.comments**列の上部にある ![展開アイコン](media/desktop-tutorial-facebook-analytics/14.png) アイコンを選択し、今回はダイアログ ボックスの [展開] ではなく **[集計]** を選択します。 **# Count of id** を選択し、 **[OK]** を選択します。 
    
    ![コメントの集計](media/desktop-tutorial-facebook-analytics/expand2.png)
    
@@ -98,7 +98,7 @@ ms.locfileid: "65513686"
    
 4. **Count of object_link.connections.comments.id** 列の名前を **Number of comments** に変更します。
    
-5. **Number of comments** ヘッダーの横にある下矢印を選択し、**[降順で並べ替え]** を選択して、コメント数が多い投稿から少ない投稿の順に表示します。 
+5. **Number of comments** ヘッダーの横にある下矢印を選択し、 **[降順で並べ替え]** を選択して、コメント数が多い投稿から少ない投稿の順に表示します。 
    
    ![メッセージごとのコメント](media/desktop-tutorial-facebook-analytics/data-fixed.png)
    
@@ -115,7 +115,7 @@ ms.locfileid: "65513686"
 
 ### <a name="import-the-transformed-data"></a>変換されたデータをインポートする
 
-データの確認を完了したら、リボンの [ホーム] タブで **[閉じて適用]** > **[閉じて適用]** の順に選択し、Power BI Desktop にインポートします。 
+データの確認を完了したら、リボンの [ホーム] タブで **[閉じて適用]**  >  **[閉じて適用]** の順に選択し、Power BI Desktop にインポートします。 
    
    ![閉じて適用](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
    
@@ -129,7 +129,7 @@ ms.locfileid: "65513686"
    
 ## <a name="use-the-data-in-report-visualizations"></a>レポートの視覚化でデータを使用する 
 
-Facebook ページからデータをインポートしたら、視覚化を使用してデータに関する考察を迅速かつ簡単に得ることができます。 視覚化の作成は簡単です。フィールドを選択するか、**[フィールド]** リストからレポート キャンバスにドラッグするだけです。
+Facebook ページからデータをインポートしたら、視覚化を使用してデータに関する考察を迅速かつ簡単に得ることができます。 視覚化の作成は簡単です。フィールドを選択するか、 **[フィールド]** リストからレポート キャンバスにドラッグするだけです。
 
 ### <a name="create-a-bar-chart"></a>横棒グラフを作成する
 
@@ -147,7 +147,7 @@ Facebook ページからデータをインポートしたら、視覚化を使�
    
    ![コメント数で並べ替える](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
-5. ほとんどのコメントは、**空白**のメッセージに関連付けられています (これらの投稿はストーリー、リンク、ビデオ、またはその他の非テキスト コンテンツだった可能性があります)。 空白行をフィルターで除外するには、[視覚化] ウィンドウの下部にある **[フィルター]** で**メッセージ (すべて)** を選択し、**[すべて選択]** を選択し、**[空白]** を選択して選択を解除します。 [フィルター] のエントリは **[message is not (Blank)]\(メッセージは (空白) ではありません\)** に変わり、グラフの視覚化の空白行が表示されなくなります。 
+5. ほとんどのコメントは、**空白**のメッセージに関連付けられています (これらの投稿はストーリー、リンク、ビデオ、またはその他の非テキスト コンテンツだった可能性があります)。 空白行をフィルターで除外するには、[視覚化] ウィンドウの下部にある **[フィルター]** で**メッセージ (すべて)** を選択し、 **[すべて選択]** を選択し、 **[空白]** を選択して選択を解除します。 [フィルター] のエントリは **[message is not (Blank)]\(メッセージは (空白) ではありません\)** に変わり、グラフの視覚化の空白行が表示されなくなります。 
    
    ![空白をフィルターで除外する](media/desktop-tutorial-facebook-analytics/barchart3.png)
    
@@ -159,7 +159,7 @@ Facebook ページからデータをインポートしたら、視覚化を使�
    
 2. グラフを選択した状態で、[視覚化] ウィンドウで**書式設定アイコン** (ペイント ローラー) を選択します。
    
-3. **Y 軸**の横にある下矢印を選択し、**[最大サイズ]** の横にあるスライダーを右端 (50%) までドラッグします。 
+3. **Y 軸**の横にある下矢印を選択し、 **[最大サイズ]** の横にあるスライダーを右端 (50%) までドラッグします。 
 4. さらにテキストに合わせて **[テキスト サイズ]** を **10** に減らします。
    
    ![書式設定の変更](media/desktop-tutorial-facebook-analytics/barchart4.png)
@@ -170,7 +170,7 @@ Facebook ページからデータをインポートしたら、視覚化を使�
    
 グラフの X 軸 (コメント数) には正確な値が表示されず、グラフの下部が表示されていません。 代わりにデータ ラベルを使用することにします。 
 
-1. 書式設定アイコンを選択し、**[X 軸]** の横にあるスライダーを選択して **[オフ]** に切り替えます。 
+1. 書式設定アイコンを選択し、 **[X 軸]** の横にあるスライダーを選択して **[オフ]** に切り替えます。 
    
 2. **[データ ラベル]** の横にあるスライダーを選択して **[オン]** に切り替えます。 これで、各投稿の正確なコメント数がグラフに表示されます。
    
@@ -180,14 +180,14 @@ Facebook ページからデータをインポートしたら、視覚化を使�
 
 改善されましたが、すべてのデータ ラベルに小数点以下の **.0** が付いています。**Number of posts** は必ず整数なので、これは邪魔で誤解を招きます。 **Number of posts** 列のデータ型を整数に変更する必要があります。
 
-1. データ型を編集するには、[フィールド] リストで **[Query1]** を右クリックするか、マウス カーソルを移動して、**[その他のオプション]** の省略記号 (...) を選択してから **[クエリの編集]** を選択します。 リボンの [ホーム] タブの **[外部データ]** 領域から **[クエリの編集]** を選択し、ドロップダウンから **[クエリの編集]** を選択することもできます。 Power BI Desktop の **Power Query エディター**が別のウィンドウに開きます。
+1. データ型を編集するには、[フィールド] リストで **[Query1]** を右クリックするか、マウス カーソルを移動して、 **[その他のオプション]** の省略記号 (...) を選択してから **[クエリの編集]** を選択します。 リボンの [ホーム] タブの **[外部データ]** 領域から **[クエリの編集]** を選択し、ドロップダウンから **[クエリの編集]** を選択することもできます。 Power BI Desktop の **Power Query エディター**が別のウィンドウに開きます。
    
    ![[フィールド] リストからクエリを編集する](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![リボンの [フィールドの編集]](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    
 2. Power Query エディターで **Number of comments** 列を選択し、次のいずれかの方法でデータ型を **[整数]** に変更します。 
    - **Number of comments** 列ヘッダーの横にある **1.2** アイコンを選択し、ドロップダウンから **[整数]** を選択します
    - 列ヘッダーを右クリックして **[型の変更] > [整数]** の順に選択します
-   - **[データの種類:10 進数]** を [ホーム] タブの **[変換]** グループまたは **[変換]** タブの **[任意の列]** グループで選択し、**[整数]** を選択します。
+   - **[データの種類:10 進数]** を [ホーム] タブの **[変換]** グループまたは **[変換]** タブの **[任意の列]** グループで選択し、 **[整数]** を選択します。
    
    列ヘッダーのアイコンは整数のデータ型であることを示す **123** に変わります。
    
@@ -220,7 +220,7 @@ Facebook ページからデータをインポートしたら、視覚化を使�
 1. グラフを選択した状態で、**書式設定**アイコンを選択し、ドロップダウン矢印を選択して **[タイトル]** を展開します。
 2. **[タイトル テキスト]** を「**Comments per post**」に変更します。 
 3. **[フォントの色]** の横にあるドロップダウン矢印を選択し、視覚化の緑色のバーと一致する緑色を選択します。
-4. **[テキスト サイズ]** を「**10**」に増やし、**[フォント ファミリ]** を **[Segoe (Bold)]** に変更します。
+4. **[テキスト サイズ]** を「**10**」に増やし、 **[フォント ファミリ]** を **[Segoe (Bold)]** に変更します。
 
 ![グラフ タイトルの書式を設定する](media/desktop-tutorial-facebook-analytics/formatting1.png)
 

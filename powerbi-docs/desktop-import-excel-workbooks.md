@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 1b6b74682f1c74ab78f27be857dbec42efa29347
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454186"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Power BI Desktop に Excel ブックをインポートする
@@ -55,7 +55,7 @@ Power BI Desktop は、Excel で一般的に *オブジェクト*と呼ばれる
 | --- | --- |
 | Power Query のクエリ |Excel からの Power Query のすべてのクエリは、Power BI Desktop のクエリに変換されます。 Excel ブックで定義されたクエリ グループがあれば、Power BI Desktop で同じ組織が複製されます。 Excel で [接続の作成のみ] が設定されていない限り、すべてのクエリが読み込まれます。 読み込み動作は、Power BI Desktop の **クエリ エディター** の **[ホーム]** タブにある **[プロパティ]** ダイアログからカスタマイズできます。 |
 | Power Pivot の外部データ接続 |Power Pivot の外部データ接続はすべて、Power BI Desktop ではクエリに変換されます。 |
-| リンク テーブルまたは現在のブックのテーブル |データ モデルにリンクされているか、クエリにリンクされているワークシートのテーブルが Excel にある場合 (*[ソース テーブル]* または M の *Excel.CurrentWorkbook()* 関数を使用)、次のオプションが提示されます。 <ol><li>Power BI Desktop ファイルにテーブルをインポートします。 このテーブルは、データの 1 回限りのスナップショットで、その後は Power BI Desktop でテーブルのデータを編集することはできません。 このオプションを使用して作成されたテーブルは、100 万文字 (合計。すべての列のヘッダーとセルを組み合わせたもの) のサイズ制限があります。</li><li>元のブックへの接続を保持します。 別の方法として、元の Excel ブックへの接続を保持することができます。Power BI Desktop の Excel ブックに対して作成された他のクエリと同様に、Power BI Desktop はこのテーブルの最新のコンテンツを更新のたびに取得します。</li></ul> |
+| リンク テーブルまたは現在のブックのテーブル |データ モデルにリンクされているか、クエリにリンクされているワークシートのテーブルが Excel にある場合 ( *[ソース テーブル]* または M の *Excel.CurrentWorkbook()* 関数を使用)、次のオプションが提示されます。 <ol><li>Power BI Desktop ファイルにテーブルをインポートします。 このテーブルは、データの 1 回限りのスナップショットで、その後は Power BI Desktop でテーブルのデータを編集することはできません。 このオプションを使用して作成されたテーブルは、100 万文字 (合計。すべての列のヘッダーとセルを組み合わせたもの) のサイズ制限があります。</li><li>元のブックへの接続を保持します。 別の方法として、元の Excel ブックへの接続を保持することができます。Power BI Desktop の Excel ブックに対して作成された他のクエリと同様に、Power BI Desktop はこのテーブルの最新のコンテンツを更新のたびに取得します。</li></ul> |
 | データ モデルの計算列、メジャー、KPI、データのカテゴリとリレーションシップ |これらのデータ モデル オブジェクトは、Power BI Desktop の同等のオブジェクトに変換されます。 **イメージ**など、Power BI Desktop で利用できない特定のデータのカテゴリがあることにご注意ください。 このような場合は、対象の列のデータ カテゴリの情報がリセットされます。 |
 | Power View ワークシート |Excel の Power View ワークシートごとに新しいレポート ページが作成されます。 これらのレポート ページの名前と順序は、元の Excel ブックと一致します。 |
 

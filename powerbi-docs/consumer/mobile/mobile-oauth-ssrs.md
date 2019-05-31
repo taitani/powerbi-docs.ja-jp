@@ -1,20 +1,20 @@
 ---
 title: OAuth を使用し、Power BI Report Server と SSRS に接続する
 description: SQL Server Reporting Services 2016 以降に接続する目的で、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: 6e0b1c5d4a067925e4898cf23968cc14fd3f8fd6
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383625"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770377"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth を使用し、Power BI Report Server と SSRS に接続する
 
@@ -25,7 +25,7 @@ Power BI Report Server と SQL Server Reporting Services 2016 以降に接続す
 OAuth を使用して Power BI Report Server と Reporting Services に接続し、モバイル レポートまたは KPI を表示できます。 Windows Server 2016 では、この種の認証を許可するように、Web アプリケーション プロキシ (WAP) の役割が機能強化されています。
 
    > [!NOTE]
-   > 認証のために WAP を使用して Power BI Report Server でホストされている Power BI レポートを表示することは、現時点ではサポートされていません。
+   > Power BI Report Server でホストされている Power BI レポートの表示は、iOS アプリでのみ現在サポートされて WAP を使用して認証します。 この時点で、android アプリが正式にサポートされていません。
 
 ## <a name="requirements"></a>要件
 
@@ -85,7 +85,7 @@ AD FS 管理画面内で、Power BI モバイル アプリの情報を含む Rep
 
 次の手順でアプリケーション グループを作成できます。
 
-1. AD FS 管理アプリで、**[アプリケーション グループ]** を右クリックし、**[アプリケーション グループの追加...]** を選びます。
+1. AD FS 管理アプリで、 **[アプリケーション グループ]** を右クリックし、 **[アプリケーション グループの追加...]** を選びます。
 
    ![ADFS のアプリケーションの追加](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
@@ -118,7 +118,7 @@ AD FS 管理画面内で、Power BI モバイル アプリの情報を含む Rep
    > [!NOTE]
    > この URL は、大文字と小文字が区別されます。
 
-   *https://<url to report server>/reports*
+   *https://< レポート サーバーの url >]、[レポート*
 
    ![ADFS のアプリケーション グループ ウィザード 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. **[次へ]** を選びます。
@@ -155,7 +155,7 @@ Active Directory 内の WAP サーバー コンピューター アカウント�
 
 2. WAP サーバーのコンピューター アカウントを検索します。 既定では、コンピューター コンテナー内にあります。
 
-3. WAP サーバーを右クリックし、**[プロパティ]** に移動します。
+3. WAP サーバーを右クリックし、 **[プロパティ]** に移動します。
 
 4. **[委任]** タブを選びます。
 
@@ -165,7 +165,7 @@ Active Directory 内の WAP サーバー コンピューター アカウント�
 
    これにより、この WAP サーバー コンピューター アカウントに制約付き委任が設定されます。 次に、このコンピューターが委任を許可されるサービスを指定する必要があります。
 
-6. サービス ボックスで、**[追加...]** を 選びます。
+6. サービス ボックスで、 **[追加...]** を 選びます。
 
    ![制約付きの WAP 02](media/mobile-oauth-ssrs/wap-contrained-delegation2.png)
 
@@ -173,7 +173,7 @@ Active Directory 内の WAP サーバー コンピューター アカウント�
 
 8. Reporting Services に使っているサービス アカウントを入力します。 これは、Reporting Services の構成で SPN を追加したアカウントです。
 
-9. Reporting Services の SPN を選び、**[OK]** を選びます。
+9. Reporting Services の SPN を選び、 **[OK]** を選びます。
 
    > [!NOTE]
    > NetBIOS の SPN だけが表示される場合があります。 NetBIOS と FQDN の両方の SPN が存在する場合は、実際に両方が選択されます。
@@ -191,7 +191,7 @@ Active Directory 内の WAP サーバー コンピューター アカウント�
 レポート アクセス管理コンソールでアプリケーションを発行できますが、ここでは PowerShell でアプリケーションを作成します。 アプリケーションを追加するコマンドは次のとおりです。
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | パラメーター | コメント |

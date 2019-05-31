@@ -1,20 +1,20 @@
 ---
 title: アプリを登録して Power BI コンテンツを埋め込む
 description: 埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory 内にアプリケーションを登録する方法を説明します。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 2fb633c8f23d5d9d70dc6a01c2467debb169da54
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762377"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269695"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Azure AD アプリケーションを登録して Power BI とともに使用する
 
@@ -41,7 +41,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 
 4. **[アプリケーションの種類]** を指定します。
 
-    アプリケーションの種類として、**[ネイティブ]** と **[Server-side web applications]\(サーバー側 Web アプリケーション\)** を選択する理由の違いは次のとおりです。
+    アプリケーションの種類として、 **[ネイティブ]** と **[Server-side web applications]\(サーバー側 Web アプリケーション\)** を選択する理由の違いは次のとおりです。
 
     ネイティブ:
     * 認証にマスター ユーザー アカウント (Power BI へのサインインに使用される Power BI Pro ライセンス) を使用して、[顧客用に設計した](embed-sample-for-customers.md)アプリケーションを作成する予定です。
@@ -53,7 +53,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 
     ![アプリの種類:](media/register-app/register-app-new-design-app-type.png)
 
-5. アプリケーションの種類として **[Server-side web application]\(サーバー側 Web アプリケーション\)** を選択した場合は、次に **[ホーム ページ URL]** と **[リダイレクト URL]** に値を入力します。 **[リダイレクト URL]** は任意の有効な URL で機能します。また、作成したアプリケーションと対応している必要があります。 **[ネイティブ]** を選択した場合は、手順 6 に進みます。
+5. アプリケーションの種類として **[Server-side web application]\(サーバー側 Web アプリケーション\)** を選択した場合は、次に **[ホーム ページ URL]** と **[リダイレクト URL]** に値を入力します。 **リダイレクト URL**は任意の有効な URL で機能し、作成したアプリケーションに対応する必要があります。 **[ネイティブ]** を選択した場合は、手順 6 に進みます。
 
 6. アプリケーションに必要な Power BI API を選択します。 Power BI のアクセス許可について詳しくは、「[Power BI のアクセス許可](power-bi-permissions.md)」をご覧ください。 次に **[登録]** を選択します。
 
@@ -62,7 +62,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
     > [!Important]
     > サービス プリンシパルを Power BI で使用できるようにすると、Azure Active Directory のアクセス許可は無効になります。 アクセス許可は、Power BI 管理ポータルを介して管理されます。
 
-7. アプリケーションの種類に **[ネイティブ]** を選択した場合は、**[アプリケーション ID]** が提供されます。 アプリケーションの種類に **[Server-side Web app]\(サーバー側 Web アプリ\)** を選択した場合は、**[アプリケーション ID]** と **[アプリケーション シークレット]** を受け取ります。
+7. 選択した場合**ネイティブ**、アプリケーションの種類のしている、指定した、**アプリケーション ID**します。 アプリケーションの種類に **[Server-side Web app]\(サーバー側 Web アプリ\)** を選択した場合は、 **[アプリケーション ID]** と **[アプリケーション シークレット]** を受け取ります。
 
     > [!Note]
     > **[アプリケーション ID]** は必要に応じて後で Azure portal から取得できます。 **[クライアント シークレット]** をなくした場合は、Azure portal で新しく作成する必要があります。
@@ -83,16 +83,11 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 
 3. ページの右上隅でご自分のアカウントを選択することで、ご自分の Azure AD テナントを選択します。
 
-4. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[Azure Active Directory]**、**[アプリの登録]**、**[新しいアプリケーションの登録]** の順に選択します。
-
-    ![新しいアプリの登録](media/register-app/azuread-new-app-registration.png)
+4. 左側のナビゲーション ウィンドウに移動**すべてのサービス**を選択します**アプリの登録**選び**新規登録**します。
 
 5. 画面の指示に従って、新しいアプリケーションを作成します。
 
-   * Web アプリケーションの場合は、アプリのベース URL となるサインオン URL を指定します。これは、ユーザーがサインインできる場所です (例: `http://localhost:13526`)。
-   * ネイティブ アプリケーションの場合は、Azure AD がトークンの応答を返すために使用する**リダイレクト URI** を指定します。 アプリケーション固有の値を入力します (例: `http://myapplication/Redirect`)。
-
-Azure Active Directory でアプリケーションを登録する方法の詳細については、「[Azure Active Directory とアプリケーションの統合](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)」を参照してください。
+   Azure Active Directory でアプリケーションを登録する方法の詳細については、次を参照してください[Azure Active Directory でアプリを登録。](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)
 
 ## <a name="how-to-get-the-application-id"></a>アプリケーション ID を取得する方法
 
@@ -112,30 +107,21 @@ Azure Active Directory でアプリケーションを登録する方法の詳細
 
 1. Azure portal 内で [[アプリの登録]](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) を参照して、埋め込みに使うアプリを選びます。
 
-    ![Azure AD に登録済みのアプリ](media/register-app/powerbi-embedded-azuread-registered-apps.png)
-2. **[API アクセス]** の **[必要なアクセス許可]** を選択します。
+2. 選択**API のアクセス許可** **管理**します。
 
-    ![Azure AD アプリに必須のアクセス許可](media/register-app/powerbi-embedded-azuread-app-required-permissions.png)
-
-3. **[必要なアクセス許可]** 内で、**[Power BI サービス (Power BI)]** を選択します。
+3. 内で**API のアクセス許可**、**アクセス許可を追加**を選択し、 **Power BI サービス**します。
 
     ![アプリのアクセス許可 03](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
 
-   > [!NOTE]
-   > Azure AD ポータルで直接アプリを作成した場合は、**[Power BI サービス (Power BI)]** が存在しない可能性があります。 存在しない場合は、**[+ 追加]** を選択してから **[1 API を選択します]** を選択します。 API リストで **[Power BI サービス]** を選択して、**[選択]** を選択します。  **[+ 追加]** に **[Power BI サービス (Power BI)]** がない場合は、少なくとも 1 人のユーザーで Power BI にサインアップします。
+4. 必要な特定のアクセス許可を選択します。**委任されたアクセス許可**します。 1 つずつ選択して選択内容を保存します。 完了したら、 **[保存]** を選択します。
 
-4. **[デリゲートされたアクセス許可]** のすべてのアクセス許可を選択します。 1 つずつ選択して選択内容を保存します。 完了したら、**[保存]** を選択します。
+5. 選択**Grant 同意**します。
 
-    ![アプリのアクセス許可 04](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
-5. **[必要なアクセス許可]** 内で、**[アクセス許可の付与]** を選択します。
-
-    Azure AD により同意を求めるプロンプトが表示されないようにするには、*マスター アカウント*に **[アクセス許可の付与]** アクションが必要です。 この操作を実行するアカウントがグローバル管理者である場合は、組織のすべてのユーザーにこのアプリケーションに対するアクセス許可を与えることになります。 このアクションを実行するアカウントが*マスター アカウント*であり、グローバル管理者ではない場合は、*マスター アカウント*にのみこのアプリケーションに対するアクセス許可を与えます。
-
-    ![[必要なアクセス許可] ダイアログの [アクセス許可の付与]](media/register-app/powerbi-embedded-azuread-app-grant-permissions.png)
+    **Grant 同意**アクションに必要な*マスター アカウント*で Azure AD の同意を要求されないようにします。 この操作を実行するアカウントがグローバル管理者である場合は、組織のすべてのユーザーにこのアプリケーションに対するアクセス許可を与えることになります。 このアクションを実行するアカウントが*マスター アカウント*であり、グローバル管理者ではない場合は、*マスター アカウント*にのみこのアプリケーションに対するアクセス許可を与えます。
 
 ### <a name="applying-permissions-programmatically"></a>プログラムでのアクセス許可の適用
 
-1. テナント内で既存のサービス プリンシパル (ユーザー) を取得する必要があります。 その方法については、「[Get servicePrincipal](https://developer.microsoft.com/graph/docs/api-reference/beta/api/serviceprincipal_get)」 (servicePrincipal を取得する) を参照してください。
+1. テナント内で既存のサービス プリンシパル (ユーザー) を取得する必要があります。 その方法については、次を参照してください。 [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta)します。
 
     *Get servicePrincipal* API は {ID} なしで呼び出すことができます。その場合、テナント内のサービス プリンシパルがすべて取得されます。
 
@@ -190,8 +176,8 @@ Azure Active Directory でアプリケーションを登録する方法の詳細
 
    **consentType** の値には、**AllPrincipals** または **Principal** を指定できます。
 
-   * **AllPrincipals** は、テナント管理者がテナント内のすべてのユーザーの代理でアクセス許可を付与するためにのみ使用できます。
-   * **Principal** は、特定のユーザーの代理でアクセス許可を付与する場合に使用します。 この場合、要求の本文に *principalId={User_ObjectId}* というプロパティを追加する必要があります。
+   * **AllPrincipals**テナントのすべてのユーザーのアクセス許可を付与するテナント管理者によってのみ使用されます。
+   * **プリンシパル**特定のユーザーのアクセス許可を付与するために使用します。 この場合、要求の本文に *principalId={User_ObjectId}* というプロパティを追加する必要があります。
 
    マスター アカウントで、Azure AD から同意を求めるプロンプトが表示されないようにするには (非対話形式のサインインを実行している場合は不可能)、"*アクセス許可の付与*" を行う必要があります。
 

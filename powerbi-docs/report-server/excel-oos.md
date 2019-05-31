@@ -1,20 +1,20 @@
 ---
 title: Office Online Server (OOS) を使用して Excel ブックをホストする - Power BI Report Server
 description: Web ポータルで Power BI レポートを表示することに加え、Power BI Report Server は Office Online Server (OOS) を使用して Excel ブックをホストすることができます。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: bb87bc95e9d0bbde4d9239d172d341cbebb716cc
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5585750fcd5e6237f3cb00591cf5841f91393b84
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216840"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769594"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) を利用し、Excel ブックをホストするようにレポート サーバーを構成する
 
@@ -56,12 +56,12 @@ Office Online Server を実行するサーバーで以下の手順を実行し�
 
 1. [ボリューム ライセンス サービス センター (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) から Office Online Server をダウンロードします。 ダウンロードは、VLSC ポータルの Office 製品の下にあります。 開発目的の場合、MSDN サブスクライバー ダウンロードから OOS をダウンロードできます。
 2. Setup.exe を実行します。
-3. **[マイクロソフト ソフトウェア ライセンス条項をお読みください]** ページで、**[「マイクロソフト ソフトウェア ライセンス条項」に同意します]** を選択し、**[続行]** を選択します。
-4. **[ファイルの場所を選択してください]** ページで、Office Online Server ファイルをインストールするフォルダーを選択し (例: C:\Program Files\Microsoft Office Web Apps\*)、**[今すぐインストール]** を選択します。 指定したフォルダーが存在しない場合、自動的に作成されます。
+3. **[マイクロソフト ソフトウェア ライセンス条項をお読みください]** ページで、 **[「マイクロソフト ソフトウェア ライセンス条項」に同意します]** を選択し、 **[続行]** を選択します。
+4. **[ファイルの場所を選択してください]** ページで、Office Online Server ファイルをインストールするフォルダーを選択し (例: C:\Program Files\Microsoft Office Web Apps\*)、 **[今すぐインストール]** を選択します。 指定したフォルダーが存在しない場合、自動的に作成されます。
 
     Office Online Server はシステム ドライブにインストールすることが推奨されます。
 
-5. Office Online Server のインストールが完了したら、**[閉じる]** を選択します。
+5. Office Online Server のインストールが完了したら、 **[閉じる]** を選択します。
 
 ### <a name="install-language-packs-for-office-web-apps-server-optional"></a>Office Web Apps Server の言語パックをインストールする (任意)
 
@@ -71,8 +71,8 @@ Office Online Server 言語パックを利用すれば、Web ベースの Office
 
 1. [Microsoft ダウンロード センター](http://go.microsoft.com/fwlink/p/?LinkId=798136)から Office Online Server 言語パックをダウンロードします。
 2. **wacserverlanguagepack.exe** を実行します。
-3. Office Online Server 言語パック ウィザードの **[マイクロソフト ソフトウェア ライセンス条項をお読みください]** ページで、**[「マイクロソフト ソフトウェア ライセンス条項」に同意します]** を選択し、**[続行]** を選択します。
-4. Office Online Server のインストールが完了したら、**[閉じる]** を選択します。
+3. Office Online Server 言語パック ウィザードの **[マイクロソフト ソフトウェア ライセンス条項をお読みください]** ページで、 **[「マイクロソフト ソフトウェア ライセンス条項」に同意します]** を選択し、 **[続行]** を選択します。
+4. Office Online Server のインストールが完了したら、 **[閉じる]** を選択します。
 
 ## <a name="deploy-office-online-server"></a>Office Online Server を展開する
 
@@ -105,7 +105,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Office Online Server ファームが作成されたことを確認する
 
-ファームが作成されると、ファームに関する詳細が Windows PowerShell プロンプトに表示されます。 Office Online Server がインストールされ、正しく構成されていることを確認するには、次の例のように、Web ブラウザーを利用し、Office Online Server 検出 URL にアクセスします。 検出 URL は、Office Online Server ファームを構成したときに指定した *InternalUrl* パラメーターです。たとえば、*/hosting/discovery* などが後ろに続きます。
+ファームが作成されると、ファームに関する詳細が Windows PowerShell プロンプトに表示されます。 Office Online Server がインストールされ、正しく構成されていることを確認するには、次の例のように、Web ブラウザーを利用し、Office Online Server 検出 URL にアクセスします。 検出 URL は、Office Online Server ファームを構成したときに指定した *InternalUrl* パラメーターです。たとえば、 */hosting/discovery* などが後ろに続きます。
 
 ```
 <InternalUrl>/hosting/discovery
@@ -170,13 +170,13 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 **[サイト設定]** の **[全般]** ページで、OOS 検出 URL を入力します。 OOS 検出 URL は OOS サーバーの展開時に使用された *InternalUrl* であり、後ろに */hosting/discovery* が続きます。 たとえば、HTTP の場合、`http://servername/hosting/discovery` のようになります。 HTTPS の場合は、`https://server.contoso.com/hosting/discovery` のようになります。
 
-**[サイト設定]** に移動するには、右上にある**歯車アイコン**を選択し、**[サイト設定]** を選択します。
+**[サイト設定]** に移動するには、右上にある**歯車アイコン**を選択し、 **[サイト設定]** を選択します。
 
 **システム管理者**ロールを持つユーザーだけに Office Online Server 検出 URL 設定が表示されます。
 
 ![Power BI Report Server のサイト設定](media/excel-oos/reportserver-site-settings.png)
 
-検出 URL を入力したら、**[適用]** を選択します。Web ポータル内で Excel ブックを選択すると、Web 内でブックが表示されるはずです。
+検出 URL を入力したら、 **[適用]** を選択します。Web ポータル内で Excel ブックを選択すると、Web 内でブックが表示されるはずです。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
 ms.openlocfilehash: 378e81207cb9b0f09e094ddbdced99defedde1ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280035"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60973272"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリで通知を受け取る
 適用対象:
@@ -48,17 +48,17 @@ ms.locfileid: "54280035"
     最新の通知から先に表示され、未読のメッセージは強調表示されます。 通知は、削除するか、100 件の上限に達するまで 90 日間保持されます。
    
    ![iOS の通知リスト](./media/mobile-apps-notification-center/power-bi-iphone-notifications-list.png)
-4. 通知を破棄するには、長押しして、**[無視]** を選択します。
+4. 通知を破棄するには、長押しして、 **[無視]** を選択します。
 
 ## <a name="change-or-turn-off-notifications-on-your-mobile-device"></a>モバイル デバイスで通知を変更または無効にする
 Power BI からの通知を表示する方法は変更できます。
 
-1. iOS のデバイスで **[設定]** > **[通知]** の順に選択します。 
+1. iOS のデバイスで **[設定]**  >  **[通知]** の順に選択します。 
    
-    Android フォンの場合、**[通知の設定]** を選択します。
+    Android フォンの場合、 **[通知の設定]** を選択します。
    
-    Windows デバイスの場合、**[設定]** の **[システム]** > **[通知+アクション]** を選択します。
-2. アプリの一覧で、**[Power BI]** を選択します。 
+    Windows デバイスの場合、 **[設定]** の **[システム]**  >  **[通知+アクション]** を選択します。
+2. アプリの一覧で、 **[Power BI]** を選択します。 
 3. ここでは、通知を完全にオフにするか、必要な通知を選択することができます。
    
     **iPhone の場合**

@@ -1,18 +1,18 @@
 ---
 title: Power BI に Power BI ワークスペース コレクション コンテンツを移行する方法
 description: Power BI ワークスペース コレクションから Power BI Embedded に移行し、アプリでの埋め込みで先進機能を利用する方法について説明します。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 23907633ec92a172a9cdd392ad62b43d367260b3
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223607"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61270457"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法
 
@@ -131,7 +131,7 @@ Power BI ワークスペース コレクションから Power BI Embedded にコ
 3. PBIX を保存します。
 4. SaaS ワークスペースへの .pbix のインポートの呼び出しを行います。
 5. POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections を呼び出して接続文字列を更新します
-6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources を呼び出して GW ID とデータソース ID を取得します
+6. 呼び出して GW および datasource の識別子を取得する-取得 https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} を呼び出してユーザーの資格情報を更新します
 
 #### <a name="old-dataset--reports"></a>古いデータセットとレポート
@@ -200,7 +200,7 @@ Azure 内でいくつかのクリーンアップを行う必要があります�
 [Power BI ワークスペース コレクション移行ツール](migrate-tool.md)  
 [Power BI ワークスペース コレクションからコンテンツを移行するためのコード スニペット](migrate-code-snippets.md)  
 [Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embedding-content.md)  
-[Power BI Premium とは](../service-premium.md)  
+[Power BI Premium とは](../service-premium-what-is.md)  
 [JavaScript API Git リポジトリ](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git リポジトリ](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

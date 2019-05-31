@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1166808dc827448f94bb84cc37bf4000df178c1d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008674"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138056"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Power BI で Webtrends に接続する
 Power BI 用 Webtrends コンテンツ パックには、[合計ページ] ビューやトラフィック ソースごとのアクセス数などのすぐに使用できるさまざまなメトリックスが含まれています。 Power BI 内の Webtrends データの視覚化は、Webtrends アカウントに接続することで開始します。 提供されるダッシュボードとレポートをそのまま使用することもできますし、最も関心のある情報を強調表示するためにカスタマイズすることができます。  データは、1 日 1 回自動的に更新されることになります。

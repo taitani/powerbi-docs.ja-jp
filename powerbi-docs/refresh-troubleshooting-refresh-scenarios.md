@@ -1,21 +1,21 @@
 ---
 title: 更新に関するトラブルシューティング シナリオ
 description: 更新に関するトラブルシューティング シナリオ
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ce353ec70b933319faaabb0040c0df1a31103a27
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285118"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770532"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>更新に関するトラブルシューティング シナリオ
 ここでは、Power BI サービス内のデータを更新するときに直面する可能性のあるさまざまなシナリオに関する情報を提供します。
@@ -57,6 +57,9 @@ Microsoft は、データの読み込みプロセスでトークンが更新さ�
 
 ## <a name="scheduled-refresh-timeout"></a>スケジュールされた更新のタイムアウト
 インポートされたデータセットに対してスケジュールされた更新の 2 時間後のタイムアウト。 **Premium** ワークスペースのデータセットの場合、このタイムアウトは 5 時間に延長されます。 この制限がある場合は、データセットのサイズまたは複雑さを軽減することを検討するか、データセットをより細かく分けることを検討できます。
+
+## <a name="scheduled-refresh-failures"></a>スケジュールされた更新に失敗
+スケジュールされた更新では、行の 4 回失敗すると、Power BI には、更新が無効にします。 基になる問題に対処し、スケジュールされた更新を再度有効にします。
 
 ## <a name="access-to-the-resource-is-forbidden"></a>リソースへのアクセスが禁止されています  
 このエラーは、キャッシュされた資格情報の有効期限が切れていることが原因で発生する可能性があります。 Power BI にサインインし、 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。 

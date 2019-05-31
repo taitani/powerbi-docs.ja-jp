@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
-ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54838464"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61226122"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI での組織のコンテンツ パックの概要
 > [!NOTE]
@@ -40,7 +40,7 @@ ms.locfileid: "54838464"
 ## <a name="what-is-appsource"></a>*AppSource* とは
 組織のコンテンツ パックを発行すると、そのコンテンツ パックは AppSource に追加されます。  これは一元的なリポジトリで、メンバーは自分に対して発行されたダッシュボード、レポート、データセットを簡単に参照して、見つけることができます。  
 
-* AppSource を表示するには、**[データの取得]** > **[自分の所属組織]** > **[取得]** の順に選びます。
+* AppSource を表示するには、 **[データの取得]**  >  **[自分の所属組織]**  >  **[取得]** の順に選びます。
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>組織のコンテンツ パックのライフ サイクル
 Power BI Pro のすべてのユーザーは、組織のコンテンツ パックを作成、発行、アクセスできます。 コンテンツ パックの作成者だけが、ブックやデータセットを変更したり、スケジュールを更新したり、削除したりすることができます。

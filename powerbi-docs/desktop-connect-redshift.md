@@ -11,17 +11,17 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b92935bb9f4b9ad3738151cb2f671af96283f625
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513620"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Power BI Desktop で Amazon Redshift に接続する
 **Power BI Desktop** では、**Amazon Redshift** データベースに接続し、Power BI Desktop の他のデータ ソースの場合と同様に基になっているデータを使用できます。
 
 ## <a name="connect-to-an-amazon-redshift-database"></a>Amazon Redshift データベースに接続する
-**Amazon Redshift** データベースに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリから **[データベース]** を選択します。**[Amazon Redshift]** が表示されます。
+**Amazon Redshift** データベースに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリから **[データベース]** を選択します。 **[Amazon Redshift]** が表示されます。
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
@@ -33,7 +33,7 @@ ms.locfileid: "65513620"
 
 ![](media/desktop-connect-redshift/connect_redshift_5.png)
 
-接続が正常に行われたら、**[ナビゲーター]** ウィンドウが開き、サーバー上で使用可能なデータが表示されます。その中から 1 つまたは複数の要素を選択し、**Power BI Desktop** にインポートして使用することができます。
+接続が正常に行われたら、 **[ナビゲーター]** ウィンドウが開き、サーバー上で使用可能なデータが表示されます。その中から 1 つまたは複数の要素を選択し、**Power BI Desktop** にインポートして使用することができます。
 
 ![](media/desktop-connect-redshift/connect_redshift_6.png)
 

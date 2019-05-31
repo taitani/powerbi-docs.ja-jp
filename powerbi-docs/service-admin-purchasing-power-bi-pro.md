@@ -11,11 +11,11 @@ ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383088"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188558"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro のライセンスを購入して割り当てる
 
@@ -35,7 +35,7 @@ Power BI Pro ライセンスを購入するには、次の手順に従います�
 
 1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)を開きます。
 
-2. 左側のナビゲーション ウィンドウで、**[課金]** > **[サブスクリプション]** を選択します。
+2. 左側のナビゲーション ウィンドウで、 **[課金]**  >  **[サブスクリプション]** を選択します。
 
     ![ナビゲーション ウィンドウ](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
 
@@ -45,27 +45,27 @@ Power BI Pro ライセンスを購入するには、次の手順に従います�
 
 4. 次のようにして、目的のサブスクリプション オファーを見つけます。
 
-    **[Enterprise Suite]** で、**[Office 365 Enterprise E5]** を選択します。
+    **[Enterprise Suite]** で、 **[Office 365 Enterprise E5]** を選択します。
 
     ![Office E5 サブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-03.png)
 
-    **[その他のプラン]** で、**[Power BI Pro]** を選択します。
+    **[その他のプラン]** で、 **[Power BI Pro]** を選択します。
 
     ![Power BI Pro のサブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. 目的のサブスクリプションの省略記号 (**. . .**) をポイントし、**[今すぐ購入]** を選択します。
+5. 目的のサブスクリプションの省略記号 ( **. . .** ) をポイントし、 **[今すぐ購入]** を選択します。
 
     ![今すぐ購入する](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
 6. ご自分の状況に応じて、**毎月支払う**か、**1 年分支払う**かを選択します。
 
-7. **[ユーザーはいくつ必要ですか?]** に必要なライセンスの数を入力してから、**[今すぐ支払う]** を選択してトランザクションを完了します。
+7. **[ユーザーはいくつ必要ですか?]** に必要なライセンスの数を入力してから、 **[今すぐ支払う]** を選択してトランザクションを完了します。
 
 8. **[サブスクリプション]** ページに取得したサブスクリプションがリストされていることを確認します。
 
    ![影響を受けるサブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-06.png)
 
-9. 最初の購入後に、さらにライセンスを追加するには、**[サブスクリプション]** ページで **[Power BI Pro]** を選択した後、**[ライセンスの追加/削除]** を選択します。
+9. 最初の購入後に、さらにライセンスを追加するには、 **[サブスクリプション]** ページで **[Power BI Pro]** を選択した後、 **[ライセンスの追加/削除]** を選択します。
 
 ## <a name="assign-licenses-in-office-365"></a>Office 365 でのライセンスの割り当て
 
@@ -73,15 +73,15 @@ Power BI Pro ライセンスを購入するには、次の手順に従います�
 
 1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)を開きます。
 
-2. 左側のナビゲーション ウィンドウで、**[ユーザー]** を展開し、**[アクティブ ユーザー]** を選択します。
+2. 左側のナビゲーション ウィンドウで、 **[ユーザー]** を展開し、 **[アクティブ ユーザー]** を選択します。
 
     ![アクティブ ユーザー](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
 
-3. ユーザーを選択し、**[製品ライセンス]** で **[編集]** を選択します。
+3. ユーザーを選択し、 **[製品ライセンス]** で **[編集]** を選択します。
 
     ![製品ライセンスの編集](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-06.png)
 
-4. **[Power BI Pro]** で、設定を **[オン]** に切り替え、**[保存]** を選択します。
+4. **[Power BI Pro]** で、設定を **[オン]** に切り替え、 **[保存]** を選択します。
 
     ![製品ライセンスをオンにする](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-07.png)
 
@@ -95,15 +95,15 @@ Power BI Pro ライセンスを購入するには、次の手順に従います�
 
 1. [Azure Portal](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0) を開きます。
 
-2. 左側のナビゲーション バーで、**[Azure Active Directory]** を選択します。
+2. 左側のナビゲーション バーで、 **[Azure Active Directory]** を選択します。
 
     ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
 
-3. **[Azure Active Directory]** で、**[ライセンス]** を選択します。
+3. **[Azure Active Directory]** で、 **[ライセンス]** を選択します。
 
     ![ライセンス](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-02.png)
 
-4. **[ライセンス]** で、**[すべての製品]** を選択します。次に **[Power BI Pro]** を選択して、ライセンス ユーザーの一覧を表示します。
+4. **[ライセンス]** で、 **[すべての製品]** を選択します。次に **[Power BI Pro]** を選択して、ライセンス ユーザーの一覧を表示します。
 
     ![ライセンス - すべての製品](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
 

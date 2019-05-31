@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 867e528c43126ae9073c0113905d59a835c46a96
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397612"
+---
 豊富なチャート以外にも、Power BI Desktop は、複数の表形式の視覚エフェクトをサポートしています。 実際には、カテゴリ別フィールドまたはテキスト フィールドをつかんでレポート キャンバスにドラッグすると、既定で結果のテーブルを取得できます。 テーブルを上下にスクロールすると、既定でアルファベット順に並べ替えられていることが分かります。
 
 ![](media/3-6-create-tables-matrixes/3-6_1.png)

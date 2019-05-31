@@ -2,20 +2,20 @@
 title: Power BI Embedded 容量のスケーリング | Microsoft Docs
 description: この記事では、Microsoft Azure で Power BI Embedded の容量をスケーリングする方法について説明します。
 services: power-bi-embedded
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 01/31/2019
-ms.openlocfilehash: 862e2dceb261e9f89480f50320bd0e1ce6a27931
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: b9a632fa39d320d14d1282cee5e59022a8ab0303
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762285"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61388511"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal で Power BI Embedded 容量をスケーリングする
 
@@ -30,7 +30,7 @@ Power BI Embedded 容量を作成していることが前提となります。 �
 
 1. [Azure Portal ](https://portal.azure.com/)にサインインします。
 
-2. **[すべてのサービス]** > **[Power BI Embedded]** の順に選択すると、容量が表示されます。
+2. **[すべてのサービス]**  >  **[Power BI Embedded]** の順に選択すると、容量が表示されます。
 
     ![Azure Portal 内のすべてのサービス](media/azure-pbie-scale-capacity/azure-portal-more-services.png)
 

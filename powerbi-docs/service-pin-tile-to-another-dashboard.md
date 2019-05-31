@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215632"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61225907"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>ダッシュボードから別のダッシュボードにタイルをピン留め
 新しい[ダッシュボード タイル](consumer/end-user-tiles.md)を追加する 1 つの方法は、別のダッシュボードからコピーすることです。 これらの各タイルは、Q&A とレポートのどちらであれ、クリックすると作成元に戻るリンクです。 
@@ -26,7 +26,7 @@ ms.locfileid: "56215632"
 ## <a name="pin-a-tile-to-another-dashboard"></a>別のダッシュボードにタイルをピン留めする
 1. [データの取得](service-get-data.md)。 この例では、[IT Spend Analysis サンプル](sample-it-spend.md)を使います。
 2. [ダッシュボード](consumer/end-user-dashboards.md)を開きます。
-3. ピン留めするタイルをポイントし、[...] を選んで、**[タイルの固定]** を選びます。  
+3. ピン留めするタイルをポイントし、[...] を選んで、 **[タイルの固定]** を選びます。  
    
    ![省略記号メニュー](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. タイルを既存のダッシュボードまたは新しいダッシュボードにピン留めします。 
@@ -35,7 +35,7 @@ ms.locfileid: "56215632"
    * **新しいダッシュボード**: 新しいダッシュボードの名前を入力します。
    
    ![ダッシュボードにピン留めダイアログ](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
-5. **[Pin]**(ピン留め) を選択します。
+5. **[Pin]** (ピン留め) を選択します。
    右上隅の近くに成功メッセージが表示されたら、選んだダッシュボードに視覚化がタイルとして追加されたことがわかります。
    
    ![ダッシュボードにピン留めウィンドウ](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)

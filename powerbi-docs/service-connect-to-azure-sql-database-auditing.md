@@ -11,11 +11,11 @@ ms.date: 11/09/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 0d212510fd2856fd509077f35e0f10bb7c5dd4c5
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008744"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181449"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Power BI 用 SQL Database Auditing コンテンツ パック
 
@@ -57,7 +57,7 @@ Power BI 用 [SQL Database Auditing コンテンツ パック](https://app.power
    - 対象の監査ログ終了日を入力します。 終了日時に関する制限を設けることなく監査ログを読み込む場合には、「\*」と入力します。
    
    ![](media/service-connect-to-azure-sql-database-auditing/dbauditing_param.png)
-5. [認証方法] で **[キー]** を選択し、**[アカウント キー]** を入力してから \> **[サインイン]** をクリックします。
+5. [認証方法] で **[キー]** を選択し、 **[アカウント キー]** を入力してから \> **[サインイン]** をクリックします。
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
 6. Power BI にデータがインポートされると、新しいダッシュボード、レポート、データセットが左側のナビゲーション ウィンドウに表示されます。 新しい項目には黄色のアスタリスク \* でマークが付けられます。

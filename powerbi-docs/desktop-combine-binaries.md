@@ -11,16 +11,16 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f43bb105f7e17ce453e96c6eff875349efd45cb2
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239619"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Power BI Desktop でファイル (バイナリ) を結合する
 **Power BI Desktop** にデータをインポートする強力な方法の 1 つは、スキーマが一致している複数のファイルを単一の論理テーブルに組み合わせることです。 この記事で説明するように、**Power BI Desktop** の 2016 年 11 月以降のリリースでは、この便利で人気のある方法がいっそう強化され、拡張されています。
 
-同じフォルダーのファイルを結合するプロセスを始めるには、**[データの取得] > [ファイル] > [フォルダー]** の順に選択します。
+同じフォルダーのファイルを結合するプロセスを始めるには、 **[データの取得] > [ファイル] > [フォルダー]** の順に選択します。
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
@@ -33,7 +33,7 @@ ms.locfileid: "65239619"
 **バイナリの結合**の操作をよりわかりやすくしてほしいというユーザーの要望を受けて変換機能が強化され、名称が**ファイルの結合**に変更されました。
 
 ## <a name="current-combine-files-behavior"></a>現在のファイルの結合動作
-**Power BI Desktop** の**ファイル (バイナリ) の結合**の処理が、これまでより効率的になりました。 **ファイルの結合**を開始するには、**[クエリ エディター]** の **[ホーム]** リボン タブから、または列自体から選択します。
+**Power BI Desktop** の**ファイル (バイナリ) の結合**の処理が、これまでより効率的になりました。 **ファイルの結合**を開始するには、 **[クエリ エディター]** の **[ホーム]** リボン タブから、または列自体から選択します。
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 

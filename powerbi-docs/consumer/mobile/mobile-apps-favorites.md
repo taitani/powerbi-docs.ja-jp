@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278679"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61339565"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでお気に入りを作成し、表示する
 適用対象:
@@ -35,7 +35,7 @@ Power BI モバイル アプリでお気に入りを作成すると、Power BI �
 Power BI レポート サーバーまたは Reporting Services Web ポータルで KPI とレポートをお気に入りに設定し、Power BI のお気に入りのダッシュボードと共に、デバイスの便利なフォルダーで表示できます。
 
 ## <a name="view-your-power-bi-favorites"></a>Power BI のお気に入りを表示する
-* ナビゲーション メニュー ![ のナビゲーション メニュー アイコン ](./media/mobile-apps-favorites/power-bi-iphone-global-nav-button.png) をタップし、**[お気に入り]** をタップします。
+* ナビゲーション メニュー ![ のナビゲーション メニュー アイコン ](./media/mobile-apps-favorites/power-bi-iphone-global-nav-button.png) をタップし、 **[お気に入り]** をタップします。
   
   ![ナビゲーションのお気に入り](./media/mobile-apps-favorites/power-bi-ipad-faves-pbi-report-server.png)
   
@@ -44,7 +44,7 @@ Power BI レポート サーバーまたは Reporting Services Web ポータル�
   ![[お気に入り] ページ](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>アプリをお気に入りに追加する
-1. モバイル アプリでアプリの一覧で、アプリの横にある省略記号 (...) をタップし、**[お気に入り]** をタップします。
+1. モバイル アプリでアプリの一覧で、アプリの横にある省略記号 (...) をタップし、 **[お気に入り]** をタップします。
    
     ![アプリのお気に入りメニュー](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +65,7 @@ Power BI レポート サーバーまたは Reporting Services Web ポータル�
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Android モバイル アプリでダッシュボードまたはレポートをお気に入りにする
 ダッシュボードまたはレポートの一覧から、あるいはダッシュボードまたはレポート自体から、ダッシュボードまたはレポートをお気に入りにすることができます。
 
-* モバイル アプリのダッシュボードまたはレポートの一覧で、名前の横にある垂直線の省略記号 (...) をタップし、**[お気に入り]** をタップします。 名前の横に黄色い星 ![お気に入りアイコン](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png) が表示されます。
+* モバイル アプリのダッシュボードまたはレポートの一覧で、名前の横にある垂直線の省略記号 (...) をタップし、 **[お気に入り]** をタップします。 名前の横に黄色い星 ![お気に入りアイコン](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png) が表示されます。
   
     ![Android のお気に入りメニュー](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * ダッシュボードまたはレポートで、リボンにある白抜きの星をタップします。 ![お気に入りではないときのアイコン](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 星が濃い灰色に変わります。 ![お気に入りになったときのアイコン](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).

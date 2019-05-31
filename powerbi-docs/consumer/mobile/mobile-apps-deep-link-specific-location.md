@@ -7,101 +7,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278402"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906526"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの特定の場所へのリンクを作成する
-URI (Uniform Resource Identifier) を作成して使用することで、すべてのモバイル プラットフォーム (iOS、Android デバイス、Windows 10) で Power BI モバイル アプリ内の特定の場所にリンクすることができます (*ディープ リンク*)。
+リンクを使用して、Power BI での特定の項目に直接アクセスすることができます。レポート、ダッシュ ボードとタイル。
 
-URI のリンクは、ダッシュボード、タイル、およびレポートを直接指し示すことができます。
+Power BI モバイルでのリンクを使用するための主に 2 つのシナリオがあります。 
 
-ディープ リンクのリンク先により、URI の形式が決まります。 異なる場所へのディープ リンクを作成するには、次の手順のようにします。 
-
-## <a name="open-the-power-bi-mobile-app"></a>Power BI モバイル アプリを開く
-任意のデバイスの Power BI モバイル アプリを開くには、次の URI を使います。
-
-    mspbi://app/
+* Power BI を開く **、アプリ外で**と特定のコンテンツ (レポート/ダッシュ ボードとアプリ) にします。 その他のアプリから Power BI Mobile を開きたい場合は通常、統合シナリオになります。 
+* **移動**Power BI 内で。 これは、通常、Power BI でカスタム ナビゲーションを作成するときにします。
 
 
-## <a name="open-to-a-specific-dashboard"></a>特定のダッシュボードを開く
-Power BI モバイル アプリの特定のダッシュボードを開くには、次の URI を使います。
+## <a name="use-links-from-outside-of-power-bi"></a>Power BI の外部からのリンクを使用して、
+Power BI アプリの外部からのリンクを使用する場合は、アプリによって開かれることかどうかを確認して、アプリをインストールするユーザーを提供し、デバイス上にインストールされていない場合。 サポートするために特別なリンク形式を作成しました。 このリンク形式はことを確認、デバイスが、リンクを開く、アプリを使用して、アプリがデバイスにインストールされていない場合は、手をストアに移動するユーザーが提供されます。
 
-    mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
+次のように、リンクを開始する必要があります。  
+```html
+https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
+```
 
-ダッシュボードの 36 文字のオブジェクト ID を検索するには、Power BI サービス (https://powerbi.com) で特定のダッシュボードに移動します。 たとえば、次の URL の強調表示された部分を見てください。
+> [!IMPORTANT]
+> 場合は、コンテンツは、政府、中国などの特殊なデータ センターでホストされます。リンクのような先頭には、右側の Power BI アドレス`app.powerbigov.us`または`app.powerbi.cn`します。   
+>
 
-`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
-ダッシュボードがマイ ワークスペース以外のグループにある場合は、ダッシュボード ID の前または後に `&GroupObjectId=<36-character-group-id>` を追加します。 次はその例です。 
+**クエリ PARAMS**は。
+* **アクション**(必須) = OpenApp/OpenDashboard/OpenTile/OpenReport
+* **appId** = レポートまたはアプリの一部であるダッシュ ボードを開きたい場合 
+* **groupObjectId** = レポートまたはワークスペース (ただし、マイ ワークスペースではなく) の一部であるダッシュ ボードを開きたい場合
+* **dashboardObjectId** (操作が OpenDashboard または OpenTile) 場合は、ダッシュ ボード オブジェクトの ID を =
+* **reportObjectId** (action は、OpenReport) 場合は、レポート オブジェクトの ID を =
+* **tileObjectId** (アクションが OpenTile の場合) は、タイルのオブジェクト ID を =
+* **reportPage** = (action は、OpenReport) 場合は、特定のレポート セクションを開きたい場合
+* **ctid** = 項目の組織 ID (B2B のシナリオに関連します。 これを省略できます、項目がユーザーの組織に属している場合)。
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+**例:**
 
-2 つの間のアンパサンド (&) に注意してください。
+* アプリを開くリンク 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
+  ```
 
-## <a name="open-to-a-specific-tile-in-focus"></a>特定のタイルにフォーカスを設定して開く
-Power BI モバイル アプリの特定のタイルにフォーカスを設定して開くには、次の URI を使います。
+* アプリの一部であるダッシュ ボードを開く 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
+  ```
 
-    mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
+* ワークスペースの一部であるレポートを開く
+  ```html
+  https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
+  ```
 
-ダッシュボードとタイルの 36 文字のオブジェクト ID を検索するには、Power BI サービス (https://powerbi.com) で特定のダッシュボードに移動し、フォーカス モードでタイルを開きます。 たとえば、次の URL の強調表示された部分を見てください。
+### <a name="how-to-get-the-right-link-format"></a>適切なリンク形式を取得する方法
 
-`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
+#### <a name="links-of-apps-and-items-in-app"></a>アプリとアプリ内の項目のリンク
 
-このタイルの URI は次のようになります。
+**アプリのレポートとダッシュ ボードはアプリの一部である**リンクを取得する最も簡単な方法は、アプリ ワークスペースに移動し、「アプリを更新」を選択します。 開き、「アプリの発行」エクスペリエンスとアクセス タブでは紹介を**リンク**セクション。 展開セクションとするアプリの一覧が表示され、そのすべてのコンテンツにリンクすることは、直接アクセスするために使用できます。
 
-    mspbi://app/OpenTile?DashboardObjectId=3784f99f-b460-4d5e-b86c-b6d8f7ec54b7&TileObjectId=565f9740-5131-4648-87f2-f79c4cf9c5f5
+![Power BI アプリへのリンクを発行します。 ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-2 つの間のアンパサンド (&) に注意してください。
+#### <a name="links-of-items-not-in-app"></a>アプリではなく項目のリンク 
 
-ダッシュボードがマイ ワークスペース以外のグループにある場合は、`&GroupObjectId=<36-character-group-id>` を追加します。
+レポートおよびダッシュ ボードをアプリの一部ではない、アイテムの URL から Id を抽出する必要があります。
 
-## <a name="open-to-a-specific-report"></a>特定のレポートを開く
-Power BI モバイル アプリの特定のレポートを開くには、次の URI を使います。
+たとえば、36 文字を検索する**ダッシュ ボード**オブジェクト ID、Power BI サービスで特定のダッシュ ボードに移動します 
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
+```html
+https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
+```
 
-レポートの 36 文字のオブジェクト ID を検索するには、Power BI サービス (https://powerbi.com) で特定のレポートに移動します。 たとえば、次の URL の強調表示された部分を見てください。
+36 文字を検索する**レポート**オブジェクト ID、Power BI サービスでは、特定のレポートに移動します。
+これは、「マイ ワークスペース」からのレポートの例
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
+```
+上記の URL にも含まれる特定のレポート ページ **"ReportSection3"** します。
 
-レポートがマイ ワークスペース以外のグループにある場合は、レポート ID の前または後に `&GroupObjectId=<36-character-group-id>` を追加します。 次はその例です。 
+これは、ワークスペース (マイ ワークスペースではなく) からレポートの例
 
-mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+```html
+https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
+```
 
-2 つの間のアンパサンド (&) に注意してください。
+## <a name="use-links-inside-power-bi"></a>Power BI 内のリンクを使用して、
 
-## <a name="open-to-a-specific-report-page"></a>特定のレポート ページを開く
-Power BI モバイル アプリの特定のレポート ページを開くには、次の URI を使います。
+Power BI 内のリンクは、Power BI サービス同様に、モバイル アプリで作業しています。
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
+Power BI の別のアイテムを指すレポートへのリンクを追加する場合は、ブラウザーのアドレス バーからだけそのアイテムの URL をコピーできます。 詳細をご覧ください[レポート内のテキスト ボックスにハイパーリンクを追加する方法](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)します。
 
-レポート ページを呼び出すには、"ReportSection" に続けて番号を指定します。 ここでも、Power BI サービス (https://powerbi.com) でレポートを開き、特定のレポート ページに移動します。 
+## <a name="use-report-url-with-filter"></a>フィルターを使用してレポート URL を使用します。
+同じ Power BI サービス、Power BI モバイル アプリもサポートしてフィルターのクエリ パラメーターを含むレポートの URL。 Power BI モバイル アプリでレポートを開くし、特定の状態をフィルター処理できます。 この URL の売上レポートを開くなどと Territory でフィルター処理
 
-たとえば、次の URL の強調表示された部分を見てください。
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
+```
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
-
-## <a name="open-in-full-screen-mode"></a>全画面表示モードで開く
-太字のパラメーターを追加して、全画面表示モードで特定のレポートを開きます。
-
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>**&openFullScreen=true**
-
-例: 
-
-mspbi://app/OpenReport?ReportObjectId = 500217de-50f0-4af1-b345-b81027224033 & openFullScreen = true
-
-## <a name="add-context-optional"></a>コンテキストを追加する (省略可能)
-文字列にコンテキストを追加することもできます。 Microsoft へお問い合わせになる場合は、Microsoft はそのコンテキストを使用して、お客様のアプリへのデータをフィルター処理することができます。 リンクに `&context=<app-name>` を追加する
-
-たとえば、次の URL の強調表示された部分を見てください。 
-
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
+詳細を読む[レポートをフィルター処理するクエリ パラメーターを作成する方法](https://docs.microsoft.com/power-bi/service-url-filters)します。
 
 ## <a name="next-steps"></a>次の手順
 Power BI モバイル アプリで使用したいその他の機能にぜひ投票してください。お客様からのフィードバックは、将来実装する機能を決めるのに役立ちます。 

@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 9c98257ac352893d074ea91c27e8b1cf3d83e4a3
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007639"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168802"
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>Power BI で Projectplace by Planview に接続する
 Projectplace by Planview コンテンツ パックを使用すると、Power BI で直接、共同作業プロジェクト データをまったく新しい方法で視覚化できます。 Projectplace のサインイン資格情報を使用して、プロジェクトの重要な統計情報を対話形式で表示し、最も活動的で生産性の高いチーム メンバーを確認し、Projectplace アカウント内のプロジェクトで問題が生じているカードとアクティビティを明らかにできます。 また、既定のダッシュボードやレポートを拡張して最も重要な情報を入手することもできます。
@@ -32,7 +32,7 @@ Projectplace by Planview コンテンツ パックを使用すると、Power BI 
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
     ![](media/service-connect-to-projectplace/services.png)
-3. Power BI ページで **[Projectplace by Planview]** を選択し、**[取得]** を選択します。  
+3. Power BI ページで **[Projectplace by Planview]** を選択し、 **[取得]** を選択します。  
    
     ![](media/service-connect-to-projectplace/projectplace.png)
 4. 次の図のように、[OData フィード URL] テキスト ボックスに使用する Projectplace OData フィードの URL を入力します。
@@ -55,7 +55,7 @@ Projectplace by Planview コンテンツ パックを使用すると、Power BI 
 * データセットは毎日更新するようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
 ## <a name="system-requirements"></a>システム要件
-Power BI に Projectplace データをインポートするには、Projectplace ユーザーである必要があります。 この手順では、Power BI アカウントを使用して Microsoft Power BI のホーム ページに既にサインインしているものとします。 Power BI アカウントがない場合は、[powerbi.com](https://powerbi.microsoft.com/get-started/) にアクセスし、**[Power BI - クラウド コラボレーションと共有]** の下の **[無料で試す]** を選択します。 その後、**[データを取得]** をクリックします。
+Power BI に Projectplace データをインポートするには、Projectplace ユーザーである必要があります。 この手順では、Power BI アカウントを使用して Microsoft Power BI のホーム ページに既にサインインしているものとします。 Power BI アカウントがない場合は、[powerbi.com](https://powerbi.microsoft.com/get-started/) にアクセスし、 **[Power BI - クラウド コラボレーションと共有]** の下の **[無料で試す]** を選択します。 その後、 **[データを取得]** をクリックします。
 
 ## <a name="next-steps"></a>次の手順
 [Power BI とは?](power-bi-overview.md)

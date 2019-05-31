@@ -3,19 +3,19 @@ title: Xero コンテンツ パックの資格情報を更新する方法
 description: Xero Power BI コンテンツ パックを使用している場合は、最近の Power BI サービス インシデントによって、コンテンツ パックの毎日の更新で問題が発生する可能性があります。
 author: SarinaJoan
 manager: kfile
-ms.reviewer: maggiesMSFT
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0e49f4b1260e293f0b6e496b06fbe5645c813c8b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1d773f8c7509fa4bbf872ae62f03bbb4da815d84
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278136"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61221017"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>更新が失敗した場合に Xero コンテンツ パックの資格情報を更新する方法
 Xero Power BI コンテンツ パックを使用している場合は、最近の Power BI サービス インシデントによって、コンテンツ パックの毎日の更新で問題が発生する可能性があります。
@@ -26,22 +26,22 @@ Xero Power BI コンテンツ パックを使用している場合は、最近�
 
 このように更新が失敗したことが示されている場合は、以下の手順に従ってコンテンツ パックの資格情報を更新してください。
 
-1. Xero データセットの横にある省略記号 (...) をクリックし、**[更新のスケジュール設定]** をクリックします。 Xero コンテンツ パックの設定ページが開きます。
+1. Xero データセットの横にある省略記号 (...) をクリックし、 **[更新のスケジュール設定]** をクリックします。 Xero コンテンツ パックの設定ページが開きます。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
-2. **[Settings for Xero]** (Xero の設定) ページで、**[データ ソースの資格情報]** > **[資格情報を編集]** を選びます。
+2. **[Settings for Xero]** (Xero の設定) ページで、 **[データ ソースの資格情報]**  >  **[資格情報を編集]** を選びます。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-settings-page.png)
-3. 組織の名前を入力し、**[次へ]** を選びます。
+3. 組織の名前を入力し、 **[次へ]** を選びます。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-configure.png)
 4. Xero アカウントでサインインします。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
-5. これで資格情報が更新されました。次に、更新スケジュールが毎日実行されるように設定されていることを確認しましょう。 Xero データセットの横にある省略記号 (...) をクリックし、**[更新のスケジュール設定]** をもう一度クリックして確認できます。
+5. これで資格情報が更新されました。次に、更新スケジュールが毎日実行されるように設定されていることを確認しましょう。 Xero データセットの横にある省略記号 (...) をクリックし、 **[更新のスケジュール設定]** をもう一度クリックして確認できます。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
-6. 直ちにデータセットを更新することもできます。 Xero データセットの横にある省略記号 (...) をクリックし、**[今すぐ更新]** をクリックします。
+6. 直ちにデータセットを更新することもできます。 Xero データセットの横にある省略記号 (...) をクリックし、 **[今すぐ更新]** をクリックします。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 

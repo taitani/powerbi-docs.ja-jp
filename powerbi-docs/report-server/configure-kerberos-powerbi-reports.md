@@ -1,20 +1,20 @@
 ---
 title: Power BI レポートを使用するために Kerberos を構成する
 description: 分散環境用の Power BI レポートで使用されるデータ ソースに対して Kerberos 認証を使うようにレポート サーバーを構成する方法を説明します。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 5342f509fdd0705b2752aab3315a4968d610b681
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 63bf5653ddf17097a44113324011951734f6d13c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223768"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770709"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI レポートを使用するために Kerberos を構成する
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -187,19 +187,19 @@ SetSPN ツールを使って SPN を追加できます。 この例では、コ�
 
 プロトコル遷移のある制約付き委任を構成します。 制約付き委任では、委任先のサービスを明示的に指定する必要があります。 Analysis Services サービス SPN と SQL Browser SPN の両方を、Power BI レポート サーバーが委任できるリストに追加します。
 
-1. レポート サーバー サービス アカウントを右クリックし、**[プロパティ]** を選択します。
+1. レポート サーバー サービス アカウントを右クリックし、 **[プロパティ]** を選択します。
 2. **[委任]** タブを選びます。
 3. **[指定されたサービスへの委任でのみこのコンピューターを信頼する]** をオンにします。
 4. **[任意の認証プロトコルを使う]** をオンにします。
 5. **[このアカウントが委任された資格情報を提示できるサービス]** で **[追加]** を選択します。
-6. 新しいダイアログで、**[ユーザーまたはコンピューター]** を選択します。
-7. Analysis Services サービスのサービス アカウントを入力し、**[OK]** を選択します。
+6. 新しいダイアログで、 **[ユーザーまたはコンピューター]** を選択します。
+7. Analysis Services サービスのサービス アカウントを入力し、 **[OK]** を選択します。
 8. 作成した SPN を選択します。 `MSOLAPSvc.3` で始まるものです。 FQDN と NetBIOS 両方の SPN を追加した場合は、両方とも選択します。 1 つだけしか表示されない場合があります。
 9. **[OK]** を選択します。  リストに SPN が表示されます。
-10. 必要に応じて、**[展開済み]** を選択してリストの FQDN SPN と NetBIOS SPN を両方表示できます。
+10. 必要に応じて、 **[展開済み]** を選択してリストの FQDN SPN と NetBIOS SPN を両方表示できます。
 11. **[追加]** を再び選択します。 今度は SQL Browser の SPN を追加します。
-12. 新しいダイアログで、**[ユーザーまたはコンピューター]** を選択します。
-13. SQL Browser サービスが存在するコンピューターのコンピューター名を入力し、**[OK]** を選択します。
+12. 新しいダイアログで、 **[ユーザーまたはコンピューター]** を選択します。
+13. SQL Browser サービスが存在するコンピューターのコンピューター名を入力し、 **[OK]** を選択します。
 14. 作成した SPN を選択します。 `MSOLAPDisco.3` で始まるものです。 FQDN と NetBIOS 両方の SPN を追加した場合は、両方とも選択します。 1 つだけしか表示されない場合があります。
 15. **[OK]** を選択します。 **[展開済み]** をオンにした場合、ダイアログの表示は次のようになります。
     

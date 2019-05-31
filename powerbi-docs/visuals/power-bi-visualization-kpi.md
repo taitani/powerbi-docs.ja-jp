@@ -12,11 +12,11 @@ ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430742"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61067542"
 ---
 # <a name="kpi-visuals"></a>KPI ビジュアル
 主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 KPI の詳細については、[Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050) を参照してください。
@@ -47,7 +47,7 @@ Will が単一のメトリック ビジュアル、ゲージ、カード、KPI �
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 1. レポート ビューでレポートを開き、黄色のタブを選択して新しいページを追加します。    
-2. [フィールド] ウィンドウで、**[Sales]\(売上\)、[Total Units This Year]\(今年の合計単位\)** の順に選択します。  これがインジケーターになります。
+2. [フィールド] ウィンドウで、 **[Sales]\(売上\)、[Total Units This Year]\(今年の合計単位\)** の順に選択します。  これがインジケーターになります。
 3. **[時間] > [FiscalMonth]** を追加します。  これはトレンドを表します。
 4. 重要:**FiscalMonth** 単位でグラフを並べ替えます。 ビジュアルを KPI に変換すると、並べ替えオプションはなくなります。
 

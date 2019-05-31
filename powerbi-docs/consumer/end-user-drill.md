@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216587"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61053496"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI での視覚エフェクトのドリル モード
 
@@ -47,7 +47,7 @@ ms.locfileid: "56216587"
    
    !["Territory" を選択する](media/end-user-drill/power-bi-hierarcy-list.png)
 
-2. さまざまなドリル アイコンの動作をまとめて理解しようとするとわかりにくいことがあるので、2 つの小さい担当地域だけが表示されるようにツリー マップをフィルター処理します:**KY** と **TN** です。 ツリー マップを選び、**[ビジュアル レベル フィルター]** で **Territory** を展開して、**KY** と **TN** を選びます。
+2. さまざまなドリル アイコンの動作をまとめて理解しようとするとわかりにくいことがあるので、2 つの小さい担当地域だけが表示されるようにツリー マップをフィルター処理します:**KY** と **TN** です。 ツリー マップを選び、 **[ビジュアル レベル フィルター]** で **Territory** を展開して、**KY** と **TN** を選びます。
 
     ![KY と TN のフィルター](./media/end-user-drill/power-bi-filter.png)    
 
@@ -145,7 +145,7 @@ ms.locfileid: "56216587"
 
 既定では、ドリルによってレポートの他のビジュアルがフィルター処理されることはありません。 ただし、Power BI Desktop と Power BI サービスでこの機能を有効にすることができます。 
 
-1. Desktop では、**[書式]** タブを選び、**[他の視覚化に詳細なフィルターを適用する]** チェック ボックスをオンにします。
+1. Desktop では、 **[書式]** タブを選び、 **[他の視覚化に詳細なフィルターを適用する]** チェック ボックスをオンにします。
 
     ![Power BI Desktop での設定](./media/end-user-drill/power-bi-drill-filters-desktop.png)
 
@@ -178,7 +178,7 @@ Power BI では、1 つまたはすべてのサブセットを展開できます
 ### <a name="hierarchical-data-and-time-data"></a>階層データと時刻データ
 この例では、[小売りの分析のサンプル](../sample-datasets.md)に従って、**Month** (軸) ごとの **TotalSales** (値) を表示する積み上げ縦棒グラフ視覚エフェクトを作成します。  
 
-軸データ フィールドは **Month** ですが、**[軸]** ウェルには **Year** カテゴリも作成します。 これは、Power BI は読み取るすべての値に対する完全な DateTime 構造を提供するためです。 階層の最上部では、年のデータが表示されます。
+軸データ フィールドは **Month** ですが、 **[軸]** ウェルには **Year** カテゴリも作成します。 これは、Power BI は読み取るすべての値に対する完全な DateTime 構造を提供するためです。 階層の最上部では、年のデータが表示されます。
 
 ![年ごとにグループ化されたデータを示す 1 つの棒](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
 
@@ -188,7 +188,7 @@ Power BI では、1 つまたはすべてのサブセットを展開できます
 
 視覚エフェクトとは別に、各レポートにレンダリングされるデータに反映された階層も確認できます。 次の表は、1 つの月またはすべての月からドリルダウンしたレポートでの **[データの表示]** の結果です。 
 
-データは四半期レポートと年レポートで同じですが、**[値]** に指定されている詳細レベルにドリルダウンすると、1 つのレポートがより具体的になって "すべての月" レポートのデータが増えることがわかります。
+データは四半期レポートと年レポートで同じですが、 **[値]** に指定されている詳細レベルにドリルダウンすると、1 つのレポートがより具体的になって "すべての月" レポートのデータが増えることがわかります。
 
 
 |展開モード|年|Quarter|月|日|

@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: cbca162348092d9d03bef03199c63113ec487165
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274538"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61226323"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>組織のコンテンツ パックを管理、更新、削除する
 > [!NOTE]
@@ -42,7 +42,7 @@ ms.locfileid: "54274538"
 1. メッセージ内の **[コンテンツ パックの表示]** を選びます。
    
    ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
-2. または、右上隅にある歯車アイコン ![](media/service-organizational-content-pack-manage-update-delete/cog.png) を選び、**[コンテンツ パックの表示]** を選びます。
+2. または、右上隅にある歯車アイコン ![](media/service-organizational-content-pack-manage-update-delete/cog.png) を選び、 **[コンテンツ パックの表示]** を選びます。
    
    ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
@@ -56,7 +56,7 @@ ms.locfileid: "54274538"
 ## <a name="update-the-audience-expand-or-restrict-access"></a>対象ユーザーの更新: アクセスの拡張または制限
 コンテンツ パックの作成者が行うことのできる別の変更は、コンテンツ パックへのアクセスの拡張と制限です。  コンテンツ パックを大勢の対象ユーザーに対して発行し、より小さいグループにアクセスを制限することができます。  
 
-1. 歯車アイコン ![](media/service-organizational-content-pack-manage-update-delete/cog.png) を選び、**[コンテンツ パックの表示]** を選びます。
+1. 歯車アイコン ![](media/service-organizational-content-pack-manage-update-delete/cog.png) を選び、 **[コンテンツ パックの表示]** を選びます。
 2. **[編集]** をクリックします。 
 3. **[コンテンツ パックの更新]** ウィンドウで任意の必要な変更を加え、 **[更新]** をクリックします。 たとえば、 **[特定のグループ]** フィールドで元の配布グループを削除し、より少ないメンバーを持つ別の配布グループに置き換えます。
    
@@ -78,7 +78,7 @@ ms.locfileid: "54274538"
 > 
 > 
 
-1. AppSource からコンテンツ パックを削除するには、コンテンツ パックを作成したアプリ ワークスペースに移動し、歯車アイコン ![](media/service-organizational-content-pack-manage-update-delete/cog.png) を選んでから、**[コンテンツ パックの表示]** を選びます。
+1. AppSource からコンテンツ パックを削除するには、コンテンツ パックを作成したアプリ ワークスペースに移動し、歯車アイコン ![](media/service-organizational-content-pack-manage-update-delete/cog.png) を選んでから、 **[コンテンツ パックの表示]** を選びます。
 2. **[削除] \> [削除]** の順に選びます。 
    
    * コンテンツ パックをカスタマイズしていないグループ メンバーの場合、そのコンテンツ パックに関連付けられているダッシュボードとレポートは自動的に削除されます。 それらは利用できなくなり、コンテンツ パックは [ナビゲーション] ウィンドウに表示されません。

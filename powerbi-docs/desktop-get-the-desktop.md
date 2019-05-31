@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 5e5d143c21ad726e7cdb8a4bc99903238916bb64
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454533"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
@@ -28,7 +28,7 @@ ms.locfileid: "65454533"
 どちらの方法でも最新バージョンの **Power BI Desktop** がコンピューターにインストールされますが、注目すべきいくつかの違いがあります。これについては以下のセクションで説明します。
 
 ## <a name="download-power-bi-desktop"></a>Power BI Desktop をダウンロードする
-**Power BI Desktop** の最新バージョンをダウンロードするには、Power BI サービスの右上隅からダウンロード アイコンを選択し、**[Power BI Desktop]** を選択します。
+**Power BI Desktop** の最新バージョンをダウンロードするには、Power BI サービスの右上隅からダウンロード アイコンを選択し、 **[Power BI Desktop]** を選択します。
 
 ![](media/desktop-get-the-desktop/getpbid_downloads.png)
 
@@ -80,7 +80,7 @@ Microsoft ストアからの **Power BI Desktop** のインストールには、
 > 
 
 ## <a name="using-power-bi-desktop"></a>Power BI Desktop の使用
-**Power BI Desktop** を実行すると、*[ようこそ]* 画面が表示されます。
+**Power BI Desktop** を実行すると、 *[ようこそ]* 画面が表示されます。
 
 ![](media/desktop-get-the-desktop/getpbid_05.png)
 
@@ -125,7 +125,7 @@ Power BI Desktop での経験が常に素晴らしいものであることを望
 特定の画面解像度が構成されている場合など、ある種の状況では、Power BI Desktop で大きな黒い領域を含むコンテンツが表示されることがあります。 これは、一般に、項目の表示方法に影響する最近のオペレーティング システムの更新によるものであり、Power BI Desktop によるコンテンツの表示方法の直接的な結果ではありません。 それでも、大きな黒い領域が表示されるのは目障りなので、次の手順によりこの問題に対処できます。
 
 1. [スタート] ボタンをクリックし、表示される検索バーに "*blurry*" と入力します。
-2. 表示されるダイアログで、次のオプションを選択します:*[Let Windows fix apps that are blurry]\(Windows に不明瞭なアプリを修正させる\)*。
+2. 表示されるダイアログで、次のオプションを選択します: *[Let Windows fix apps that are blurry]\(Windows に不明瞭なアプリを修正させる\)* 。
 3. Power BI Desktop を再起動します。
 
 この問題は、今後の Windows 更新プログラムのリリースで解決される可能性があります。 

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
 ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281783"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137534"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS デバイスでの Power BI モバイル アプリの概要
 iPhone、iPad、iPod Touch に Microsoft Power BI for iOS アプリをインストールすれば、Power BI、Power BI Report Server、Reporting Services のビジネス インテリジェンスをモバイル利用できます。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
@@ -36,13 +36,13 @@ iOS の Power BI モバイル アプリで、オンプレミスまたはクラ�
 Power BI for iOS アプリは、iOS 10 以降を搭載した iPhone 5 以降で実行できます。 iOS 10 以降を搭載した iPad または iPod Touch でも実行できます。 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI サービスにサインアップする
-まだサインアップしていない場合は、[powerbi.com](https://powerbi.microsoft.com/get-started/) にアクセスし、**[Power BI - クラウド コラボレーションと共有]** の下の **[無料で試す]** を選択します。
+まだサインアップしていない場合は、[powerbi.com](https://powerbi.microsoft.com/get-started/) にアクセスし、 **[Power BI - クラウド コラボレーションと共有]** の下の **[無料で試す]** を選択します。
 
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI アプリの概要
 1. iOS デバイスで Power BI アプリを開きます。
 2. Power BI ダッシュボードを表示するには、 **[Power BI]** をタップします。  
-   Reporting Services のモバイル レポートと KPI を表示するには、**[SQL Server Reporting Services]** をタップします。
+   Reporting Services のモバイル レポートと KPI を表示するには、 **[SQL Server Reporting Services]** をタップします。
    
    ![Power BI モバイル アプリにログインする](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
@@ -55,7 +55,7 @@ Power BI for iOS アプリは、iOS 10 以降を搭載した iPhone 5 以降で�
 Power BI ダッシュボードのサンプルを表示し、使ってみることができますが、実行できない操作もいくつかあります。 ダッシュボードの背面でレポートを開く操作、サンプルを他のユーザーと共有する操作、またはサンプルをお気に入りに追加する操作はできません。
 
 1. 左上隅にあるグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) をタップします。
-2. 右上の![歯車アイコン](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)をタップし、**[Power BI サンプル]** をタップします。
+2. 右上の![歯車アイコン](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)をタップし、 **[Power BI サンプル]** をタップします。
 3. ロールを選択して、そのロールのサンプル ダッシュボードを探索します。  
    
    ![Power BI モバイル サンプル](./media/mobile-iphone-app-get-started/power-bi-iphone-powerbi-samples.png)
@@ -67,7 +67,7 @@ Power BI ダッシュボードのサンプルを表示し、使ってみるこ�
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services のモバイル レポートのサンプル
 1. 左上隅にあるグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) をタップします。
-2. 右上の![歯車アイコン](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)をタップし、**[Reporting Services サンプル]** をタップします。
+2. 右上の![歯車アイコン](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)をタップし、 **[Reporting Services サンプル]** をタップします。
 3. Retail Reports または Sales Reports フォルダーを開き、その KPI やモバイル レポートを調べます。
    
    ![Power BI モバイル アプリの Reporting Services のサンプル](./media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)

@@ -12,11 +12,11 @@ ms.date: 01/02/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
 ms.openlocfilehash: d57cd2db38e099fffc73c813f0298cfea5a34aad
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296158"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61194094"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI での行レベルのセキュリティ (RLS)
 
@@ -26,7 +26,7 @@ Power BI Desktop で Power BI にインポートされたデータ モデルの 
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
-既定では、リレーションシップが一方向と双方向のいずれに設定されているかに関係なく、行レベルのセキュリティ フィルターで一方向のフィルターが使用されます。 行レベルのセキュリティで双方向のクロス フィルターを手動で有効にすることができます。その場合は、リレーションシップを選択して、**[両方向にセキュリティ フィルターを適用する]** チェック ボックスをオンにします。 [動的な行レベルのセキュリティ](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)を実装する場合は、このボックスをオンにする必要があります。そこで、ユーザー名またはログイン ID に基づいて行レベルのセキュリティを指定します。
+既定では、リレーションシップが一方向と双方向のいずれに設定されているかに関係なく、行レベルのセキュリティ フィルターで一方向のフィルターが使用されます。 行レベルのセキュリティで双方向のクロス フィルターを手動で有効にすることができます。その場合は、リレーションシップを選択して、 **[両方向にセキュリティ フィルターを適用する]** チェック ボックスをオンにします。 [動的な行レベルのセキュリティ](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)を実装する場合は、このボックスをオンにする必要があります。そこで、ユーザー名またはログイン ID に基づいて行レベルのセキュリティを指定します。
 
 詳細については、「[Power BI Desktop での DirectQuery を使用する双方向のクロス フィルタリング](desktop-bidirectional-filtering.md)」と「[表形式の BI セマンティック モデルの保護](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)」の技術記事を参照してください。
 
@@ -85,7 +85,7 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 
 特定のユーザーとしてデータを表示できます。または、役割の組み合わせを選択してそれらの動作を検証できます。 
 
-通常の表示に戻るには、**[行レベルのセキュリティに戻る]** を選択します。
+通常の表示に戻るには、 **[行レベルのセキュリティに戻る]** を選択します。
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 

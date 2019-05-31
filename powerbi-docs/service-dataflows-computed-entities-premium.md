@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220956"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138217"
 ---
-# <a name="using-computed-entities-on-power-bi-premium-preview"></a>Power BI Premium での計算されたエンティティの使用 (プレビュー)
+# <a name="using-computed-entities-on-power-bi-premium"></a>Power BI Premium での計算されたエンティティの使用
 
 Power BI Premium サブスクリプションで**データフロー**を使用するときに、**ストレージ内計算**を実行できます。 これにより、既存のデータフローで計算を実行して、レポートの作成と分析に集中できる結果を返すことができます。 
 
@@ -32,17 +32,13 @@ Power BI Premium サブスクリプションで**データフロー**を使用�
 
 以下のセクションでは、データフローのデータで計算されたエンティティを作成する方法について説明します。
 
-> [!NOTE]
-> データフローの機能はプレビュー中であり、一般公開前に変更および更新される可能性があります。
-
-
 ## <a name="how-to-create-computed-entities"></a>計算されたエンティティを作成する方法 
 
 エンティティの一覧でデータフローを作成した後は、それらのエンティティに対して計算を実行することができます。
 
 Power BI サービスのデータフロー作成ツールで **[エンティティの編集]** を選択した後、計算されたエンティティの基礎として使用し、それに対して計算を実行するエンティティを右クリックします。 コンテキスト メニューで **[参照]** を選択します。
 
-計算されたエンティティの対象になるエンティティについては、次の図のように、**[読み込みを有効にする]** をオンにする必要があります。 このコンテキスト メニューを表示するにはエンティティを右クリックします。
+計算されたエンティティの対象になるエンティティについては、次の図のように、 **[読み込みを有効にする]** をオンにする必要があります。 このコンテキスト メニューを表示するにはエンティティを右クリックします。
 
 ![右クリック コンテキスト メニューで [読み込みを有効にする] をオンにする](media/service-dataflows-computed-entities-premium/computed-entities-premium_01.png)
 
@@ -89,8 +85,8 @@ Common Data Model (CDM) フォルダーから作成されたデータフロー�
 
 * [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
-* [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
+* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
 * [ワークスペース データ フローの設定の構成 (プレビュー)](service-dataflows-configure-workspace-storage-settings.md)
 * [データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)](service-dataflows-add-cdm-folder.md)
 * [データ フロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)

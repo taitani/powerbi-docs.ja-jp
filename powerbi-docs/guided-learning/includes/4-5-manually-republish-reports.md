@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 68645069b22163ca7ae2a64310e43f1a801434f5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256247"
+---
 Power BI Desktop から Power BI サービスに発行済みのレポートやデータセットを更新できます。 これを行うには、リボンの **[ホーム]** タブから **[発行]** を選びます。
 
 ![](media/4-5-manually-republish-reports/4-5_0.png)

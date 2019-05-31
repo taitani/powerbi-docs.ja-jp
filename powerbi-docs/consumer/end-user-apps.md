@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/21/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f5572d5b5a8a8d9d652eabce95edc16ea9a2d0c6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 1b5891ce24c43b0a7416cd82cec3e9a10c1989bf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662137"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608351"
 ---
 # <a name="apps-in-power-bi"></a>Power BI のアプリ
 ## <a name="what-is-a-power-bi-app"></a>Power BI とは?
 *アプリ*とは、関連するダッシュ ボードとレポートがすべて 1 か所にまとめられた Power BI のコンテンツの種類です。 アプリでは、1 つ以上のダッシュ ボードと 1 つ以上のレポートをすべてまとめることができます。 アプリは、あなたのような*コンシューマー*に、アプリを配布するおよび共有する Power BI *デザイナー*によって作成されます。 
 
-ご使用のアプリは、**[アプリ]** コンテンツ リストにまとめられます。
+ご使用のアプリは、 **[アプリ]** コンテンツ リストにまとめられます。
 
 ![Power BI のアプリ](./media/end-user-apps/power-bi-apps-nav.png)
 
@@ -30,10 +30,10 @@ ms.locfileid: "56662137"
 > アプリの機能を使うには、Power BI Pro ライセンスが必要です。 <!-- add link to how to figure out your license -->
 
 ## <a name="app-designers-and-app-consumers"></a>アプリの***デザイナー***とアプリの***コンシューマー***
-自分の役割に応じて、あなたは自分で使用したり、同僚と共有したりするアプリの作成者 (デザイナー) である場合があります。 または、他のユーザーが作成したアプリを受け取りダウンロードするコンシューマーである場合があります。 この記事は、アプリの*コンシューマー*を対象としています。
+自分の役割に応じてアプリを作成することがあります (*デザイナー*) や、独自の使用を同僚と共有します。 または、アプリのダウンロードを受け取り、人があります (*コンシューマー*) 他のユーザーが作成されます。 この記事は、アプリの*コンシューマー*を対象としています。
 
 ## <a name="advantages-of-apps"></a>アプリの利点
-アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) とご利用のモバイル デバイスに簡単に検索してインストールできます。 アプリのインストール後は、さまざまなダッシュボードの名前を覚えておく必要がありません。ブラウザー内やモバイル デバイス上では 1 つのアプリにまとめて表示されるためです。
+アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) とモバイル デバイスで簡単に検索してインストールすることができます。 アプリのインストール後は、さまざまなダッシュボードの名前を覚えておく必要がありません。ブラウザー内やモバイル デバイス上では 1 つのアプリにまとめて表示されるためです。
 
 アプリの作者が更新プログラムを公開するたびに、自動的に変更が反映されます。 作成者はデータの更新頻度も制御するため、最新の状態が維持されているかを気にする必要はありません。 
 

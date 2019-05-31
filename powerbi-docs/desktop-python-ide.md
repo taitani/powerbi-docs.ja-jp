@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 3e7169e1aa54db93488f0c55e701188667f70305
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289264"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61285934"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>Power BI で外部 Python IDE を使用する
 **Power BI Desktop** では、外部の Python IDE (統合開発環境) を使用して Python スクリプトを作成および調整した後、Power BI でそのスクリプトを使用できます。
@@ -35,15 +35,15 @@ ms.locfileid: "54289264"
 * さまざまな Python IDE をインストールし、次のいずれかを実行して、**Power BI Desktop** で **Python IDE** を起動させることもできます。
   
   * **.PY** ファイルを、**Power BI Desktop** で起動させる外部 IDE に関連付けることができます。
-  * **[オプション]** ダイアログの **[Python スクリプトのオプション]** セクションから *[その他]* を選択して、**Power BI Desktop** で起動する必要がある .exe を指定できます。 **[オプション]** ダイアログを表示するには、**[ファイル]、[オプションと設定]、[オプション]** の順に移動します。
+  * **[オプション]** ダイアログの **[Python スクリプトのオプション]** セクションから *[その他]* を選択して、**Power BI Desktop** で起動する必要がある .exe を指定できます。 **[オプション]** ダイアログを表示するには、 **[ファイル]、[オプションと設定]、[オプション]** の順に移動します。
     
     ![](media/desktop-python-ide/python-ide-2.png)
 
-複数の Python IDE がインストールされている場合は、**[オプション]** ダイアログの *[Detected Python IDEs]\(検出された Python IDE\)* ドロップダウンから選択して、起動する Python IDE を指定できます。
+複数の Python IDE がインストールされている場合は、 **[オプション]** ダイアログの *[Detected Python IDEs]\(検出された Python IDE\)* ドロップダウンから選択して、起動する Python IDE を指定できます。
 
-既定で、**Power BI Desktop** は、**Visual Studio Code** がローカル コンピューターにインストールされている場合、外部 Python IDE としてそれを起動します。**Visual Studio Code** がインストールされておらず、**Visual Studio** がある場合は、代わりにそれが起動されます。 どちらの Python IDE もインストールされていない場合は、**.PY** ファイルに関連付けられたアプリケーションが起動します。
+既定で、**Power BI Desktop** は、**Visual Studio Code** がローカル コンピューターにインストールされている場合、外部 Python IDE としてそれを起動します。**Visual Studio Code** がインストールされておらず、**Visual Studio** がある場合は、代わりにそれが起動されます。 どちらの Python IDE もインストールされていない場合は、 **.PY** ファイルに関連付けられたアプリケーションが起動します。
 
-**.PY** ファイルの関連付けが存在しない場合、**[オプション]** ダイアログの *[Browse to your preferred Python IDE]\(優先する Python IDE を参照します\)* セクションで、カスタム IDE へのパスを指定できます。 **Power BI Desktop** の **[Launch Python IDE]\(Python IDE を起動\)** 矢印アイコンの横にある **[設定]** 歯車アイコンを選択して、別の Python IDE を起動することもできます。
+**.PY** ファイルの関連付けが存在しない場合、 **[オプション]** ダイアログの *[Browse to your preferred Python IDE]\(優先する Python IDE を参照します\)* セクションで、カスタム IDE へのパスを指定できます。 **Power BI Desktop** の **[Launch Python IDE]\(Python IDE を起動\)** 矢印アイコンの横にある **[設定]** 歯車アイコンを選択して、別の Python IDE を起動することもできます。
 
 ## <a name="launch-a-python-ide-from-power-bi-desktop"></a>Power BI Desktop から Python IDE を起動する
 **Power BI Desktop** から Python IDE を起動するには、次の手順を実行します。
@@ -52,7 +52,7 @@ ms.locfileid: "54289264"
 2. **[フィールド]** ウィンドウで使用するフィールドをいくつか選択します。 スクリプトのビジュアルをまだ有効にしていない場合は、有効にするように促されます。
    
    ![](media/desktop-python-ide/python-ide-3.png)
-3. スクリプトのビジュアルを有効にすると、**[視覚化]** ウィンドウで Python のビジュアルを選択できます。選択すると、スクリプトの結果を表示できる空白の Python のビジュアルが作成されます。 **[Python スクリプト エディター]** ウィンドウも表示されます。
+3. スクリプトのビジュアルを有効にすると、 **[視覚化]** ウィンドウで Python のビジュアルを選択できます。選択すると、スクリプトの結果を表示できる空白の Python のビジュアルが作成されます。 **[Python スクリプト エディター]** ウィンドウも表示されます。
    
    ![](media/desktop-python-ide/python-ide-4.png)
 4. Python スクリプトで使用するフィールドを選択できるようになります。 フィールドを選択すると、選択したフィールドに基づいて **[Python スクリプト エディター]** フィールドにスクリプト コードが自動的に作成されます。 **[Python スクリプト エディター]** ウィンドウで Python スクリプトを直接作成する (または貼り付ける) ことも、ウィンドウを空白のままにすることもできます。
@@ -60,7 +60,7 @@ ms.locfileid: "54289264"
    ![](media/desktop-python-ide/python-ide-5.png)
    
    > [!NOTE]
-   > Python ビジュアルの既定の集計タイプは、*[集計しない]* です。
+   > Python ビジュアルの既定の集計タイプは、 *[集計しない]* です。
    > 
    > 
 5. **Power BI Desktop** から Python IDE を直接起動できるようになります。 **[Python スクリプト エディター]** のタイトル バーの右側にある **[Launch Python IDE]\(Python IDE を起動\)** ボタンを選択します (次の図を参照)。

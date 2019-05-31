@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: def3655d446f48d4dd0746e5544d8da618e09fcc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295938"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513480"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Power BI Desktop で変数を視覚化する What-if パラメーターを作成して使用する
 2018 年 8 月リリースの **Power BI Desktop** 以降では、レポート用の **What-if** 変数を作成し、スライサーで変数を操作して、レポート内の異なるキー値を視覚化および定量化できます。
@@ -31,11 +31,11 @@ ms.locfileid: "54295938"
 ![](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> 10 進数の場合、".50" だけではなく "0.50" のように先頭のゼロが必要です。 このようにしないと、値が妥当と見なされず、**[OK]** ボタンを選択できません。
+> 10 進数の場合、".50" だけではなく "0.50" のように先頭のゼロが必要です。 このようにしないと、値が妥当と見なされず、 **[OK]** ボタンを選択できません。
 > 
 > 
 
-使いやすいように、**[このページにスライサーを追加する]** チェック ボックスをオンにすると現在のレポート ページの **What-if** パラメーターにスライサーが自動的に追加されます。
+使いやすいように、 **[このページにスライサーを追加する]** チェック ボックスをオンにすると現在のレポート ページの **What-if** パラメーターにスライサーが自動的に追加されます。
 
 ![](media/desktop-what-if/what-if_03.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "54295938"
 
 ![](media/desktop-what-if/what-if_05.png)
 
-新しいメジャーは、割引率を適用した合計売上金額を表示するだけの簡単なものです。 もちろん、複雑な興味深いメジャーを作成して、レポートの使用者が **What-if** パラメーターの変数を視覚化できるようにすることができます。 たとえば、販売員が販売目標や割合を達成したときの報酬を表示したり、より大きい割引への売上増加の影響を表示したりするレポートを作成できます。
+新しいメジャーは、割引率を適用した合計売上金額を表示するだけの簡単なものです。 もちろん、複雑な興味深いメジャーを作成して、レポートの使用者が **What-if** パラメーターの変数を視覚化できるようにすることができます。 たとえば、販売員が、補正の効果を確認または特定の販売目標またはのパーセンテージを満たす場合増加より深いを売上割引を表示できるレポートを作成できます。
 
 数式バーにメジャーの式を入力し、**Sales after Discount** という名前にして、結果を表示します。
 

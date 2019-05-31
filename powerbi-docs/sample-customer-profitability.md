@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 9fb22a50d68e414e8d75fc004629eaa2633b066c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216495"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61242668"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI のお客様の収益性のサンプル:ツアーを開始する
 
@@ -35,10 +35,10 @@ ms.locfileid: "56216495"
 2. 左下隅にある **[データの取得]** を選びます。
 
     ![データの取得](media/sample-datasets/power-bi-get-data.png)
-3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
+3. 表示される [データの取得] ページで、 **[サンプル]** アイコンを選びます。
 
    ![サンプル アイコン](media/sample-datasets/power-bi-samples-icon.png)
-4. **[お客様の収益性のサンプル]** を選び、**[接続]** を選びます。  
+4. **[お客様の収益性のサンプル]** を選び、 **[接続]** を選びます。  
 
    ![データの取得](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 サンプルを使って Power BI を試してみます。  
@@ -52,12 +52,12 @@ ms.locfileid: "56216495"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータソースについて詳しく調べたい場合は、[(Excel ブック)](http://go.microsoft.com/fwlink/?LinkId=529781) として使用することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+このサンプルのデータソースについて詳しく調べたい場合は、[(Excel ブック)](http://go.microsoft.com/fwlink/?LinkId=529781) として使用することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、 **[Power Pivot] > [管理]** を選択します。
 
 
 ## <a name="what-is-our-dashboard-telling-us"></a>ダッシュボードからわかること
 
-お客様の収益性のサンプルのダッシュボードは、**[マイ ワークスペース]** の下にあります。
+お客様の収益性のサンプルのダッシュボードは、 **[マイ ワークスペース]** の下にあります。
 
 ![お客様の収益性のサンプルのダッシュボード](media/sample-customer-profitability/power-bi-dash.png)
 
@@ -97,7 +97,7 @@ ms.locfileid: "56216495"
 1. Excel からピン留めされたこれらのタイルのいずれかを選択します。 Excel Online が Power BI サービス内で開かれます。
 2. ブックにはタブ 3 つ分のデータがあることに注意してください。 [収益] を開きます。
 3. Carlos がまだ目標に達していない理由を見てみましょう。  
-    a. [エグゼクティブ] のスライダーから、**[Carlos Grilo]** を選択します。   
+    a. [エグゼクティブ] のスライダーから、 **[Carlos Grilo]** を選択します。   
     b. 最初のピボットテーブルからは、Carlos がもっとも高い収益を上げている [製品] である [Primus] が、昨年と比べて 152% の減益となっていることがわかります。 また、前年比のグラフでは、ほとんどの月で予算以下になっています。  
 
     ![ピボット テーブル](media/sample-customer-profitability/power-bi-pivotchart.png)
@@ -133,7 +133,7 @@ ms.locfileid: "56216495"
 次は Valery です。 スライサーで Valery の名前を選んで、Valery のデータのみを表示するようにレポート ページをフィルター処理します。  
 ![Executive を Vaery Ushalov でスライスする](media/sample-customer-profitability/customer3.png)
 
-* **[RevenueTY Status]**(RevenueTY の状態) の赤の KPI にご注意ください。 これは明らかにさらなる調査が必要です。
+* **[RevenueTY Status]** (RevenueTY の状態) の赤の KPI にご注意ください。 これは明らかにさらなる調査が必要です。
 * Valery の収益差異は懸念点を示しています。Valery は収益マージンを満たしていません。
 * Valery の顧客はわずか 9 社で、2 製品のみを扱い、取引先はほぼ北部の顧客のみに限られています。 この特殊性は、Valery の変動幅が大きいことの説明になる可能性があります。
 * ツリーマップ内の **[North]** (北部) の四角形を選ぶと、北部での Valery の粗利益が彼女の全体的な利益と一貫性があることがわかります。
@@ -163,7 +163,7 @@ ms.locfileid: "56216495"
 
 1. **[レポートの編集]** を選択して、レポートを編集ビューで開きます。 編集ビューは、レポートを "所有" している場合にのみ使用できます。これは**作成者**モードと呼ばれることもあります。 もしこのレポートが所有しているものではなく、共有されているものである場合は、編集ビューで開くことはできません。
 
-2.  上部のメニューバーから、**[質問する]** を選択して Q&A 質問ボックスを開きます。
+2.  上部のメニューバーから、 **[質問する]** を選択して Q&A 質問ボックスを開きます。
 
     ![データについて質問する](media/sample-customer-profitability/power-bi-ask-question.png)
 
@@ -184,7 +184,7 @@ ms.locfileid: "56216495"
 
    ![Distribution のフィルター](media/sample-customer-profitability/customer7.png)
 4. 「月および役員名別の粗利益」面グラフから、この業種の顧客を担当しているのは Valery と Tina だけで、Valery がこの業種を担当していたのは 6 月から 11 月までの間だけであることがわかります。   
-5. 「月および役員名別の粗利益」面グラフの凡例で、**[Tina]**、**[Valery]** の順に選びます。 「製品別の合計売上」の Tina の部分は、Valery と比較して非常に小さい点にご注意ください。
+5. 「月および役員名別の粗利益」面グラフの凡例で、 **[Tina]** 、 **[Valery]** の順に選びます。 「製品別の合計売上」の Tina の部分は、Valery と比較して非常に小さい点にご注意ください。
 6. 実売上を確認するには、Q&A を使用して、**役員のシナリオ別の流通業の合計売上**を尋ねます。  
 
      ![質問ボックスに質問を入力して横棒グラフを表示する](media/sample-customer-profitability/power-bi-qna2.png)

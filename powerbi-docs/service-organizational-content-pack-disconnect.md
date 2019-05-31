@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: d4c9e6a925a783d810bc4d097ec18806c3d33d99
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291558"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61226579"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI の組織のコンテンツ パックへの接続を削除する
 
@@ -27,7 +27,7 @@ ms.locfileid: "54291558"
 
 コンテンツ パックを削除するには、そのデータセットを削除します。  
 
-* 左側のナビゲーション ウィンドウで、データセットの右側にある省略記号を選び、**[削除] \> [はい]** を選びます。  
+* 左側のナビゲーション ウィンドウで、データセットの右側にある省略記号を選び、 **[削除] \> [はい]** を選びます。  
   
   ![コンテンツ パックを削除する](media/service-organizational-content-pack-disconnect/power-bi-remove-organizational-content-pack-dataset.png)
 

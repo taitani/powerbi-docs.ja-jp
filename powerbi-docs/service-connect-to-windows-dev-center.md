@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 81498dff9c70deaf8135faf244db96509b1cf18d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008835"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163972"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Power BI で Windows デベロッパー センターに接続する
 Power BI コンテンツ パックを使用すると、Power BI で Windows デベロッパー センター アプリの分析データを調べて監視できます。 データは、1 日 1 回自動的に更新されることになります。
@@ -66,7 +66,7 @@ Power BI 用 [Windows デベロッパー センター コンテンツ パック]
 ## <a name="finding-parameters"></a>パラメーターの見つけ方
 アプリのアプリケーション ID を見つけるには、[アプリ管理] にある [アプリ ID] ページに移動します。
 
-アプリケーション ID は、Windows 10 ストアの URL の末尾にあります (https://www.microsoft.com/store/apps/ **{アプリケーション ID}**)
+アプリケーション ID は、Windows 10 ストアの URL の末尾にあります (https://www.microsoft.com/store/apps/ **{アプリケーション ID}** )
 
 ## <a name="next-steps"></a>次の手順
 [Power BI の概要](service-get-started.md)

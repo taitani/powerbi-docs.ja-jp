@@ -8,26 +8,26 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ed61d865756748ccd4e60f54de4a4b1b9adcef8d
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.openlocfilehash: 3fd2f3e47c9b6dd2144ed5a66d45e65a00c5b92e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980337"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051257"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI でのカスタム ビジュアル
 
-Power BI レポートを作成または編集するときには、さまざまな種類のビジュアルを使用できます。 このようなビジュアルは **[視覚化]** ウィンドウに表示されます。 [Power BI Desktop](https://powerbi.microsoft.com/desktop/) をダウンロードしたり、[Power BI サービス](https://app.powerbi.com)を開いたりすると、このビジュアルのセットが "事前にパッケージ化" されます。
+を作成または Power BI レポートを編集する場合は、さまざまな種類のビジュアルを使用できます。 これらのビジュアルのアイコンが表示されます、**視覚化**ウィンドウ。 ダウンロードするときに、これらのビジュアルが事前にパッケージされた[Power BI Desktop](https://powerbi.microsoft.com/desktop/)を開いたり、 [Power BI サービス](https://app.powerbi.com)します。
 
 ![視覚化](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
-ただし、このビジュアルのセットに制限されるわけではなく、省略記号を選択すると、別のレポート ビジュアルのソース (*カスタム ビジュアル*) が表示されます。
+ただし、このビジュアルのセットに制限がないです。 下部にある省略記号 (...) を選択すると、別のレポートのビジュアルのソースが利用可能 -*カスタム ビジュアル*します。
 
-カスタム ビジュアルは開発者がカスタム ビジュアル SDK を利用して作成します。ビジネス ユーザーにとって、そのビジネスに最適な形式でデータが表示されるようにするのがその目的です。 作成後、レポート作成者はカスタム ビジュアル ファイルを自分のレポートにインポートし、他の Power BI ビジュアルと同様に利用できます。 カスタム ビジュアルは Power BI で最も重要視されており、フィルター処理、強調表示、編集、共有などの操作が可能になっています。
+開発者は、カスタム ビジュアル SDK を使用するカスタム ビジュアルを作成します。 これらのビジュアルでは、ビジネス ユーザーが、データは、ビジネスに合った最適な方法で表示を有効にします。 レポート作成者は各自のレポートにカスタム ビジュアル ファイルをインポートし、その他の Power BI ビジュアルのように使用します。 カスタム ビジュアルは Power BI での第一級され、強調表示されている、編集、共有、およびこれをフィルターできます。
 
-カスタム ビジュアルの展開チャネルには 3 つの形式があります。
+カスタム ビジュアルは 3 つの方法でデプロイできます。
 
 * カスタム ビジュアル ファイル
 * 組織のビジュアル
@@ -35,33 +35,33 @@ Power BI レポートを作成または編集するときには、さまざま�
 
 ## <a name="custom-visual-files"></a>カスタム ビジュアル ファイル
 
-カスタム ビジュアルはパッケージであり、特定の目的を果たすデータをレンダリングするためのコードが含まれています。 カスタム ビジュアルは誰でも作成し、単一の `.pbiviz` ファイルとしてパッケージ化できます。このファイルは Power BI レポートにインポートできます。
+カスタム ビジュアルは、それらに提供されるデータをレンダリングするコードを含むパッケージです。 カスタム ビジュアルを作成し、1 つとしてパッケージ化するすべてのユーザー`.pbiviz`ファイル、Power BI レポートにインポートできます。
 
 > [!WARNING]
-> カスタム ビジュアルには、セキュリティやプライバシー上のリスクを伴うコードが含まれている可能性があります。レポートにインポートする前に、カスタム ビジュアルの作成者とソースが信頼できることを確認してください。
+> カスタム ビジュアルには、セキュリティやプライバシーのリスクでコードが含まれます。 レポートにインポートする前に、作成者とカスタム ビジュアルのソースを信頼することを確認します。
 
 ## <a name="organizational-visuals"></a>組織のビジュアル
 
-Power BI 管理者はカスタム ビジュアルを組織に展開できるので、管理者が組織内での使用を認めたカスタム ビジュアルをレポート作成者が簡単に見つけて、使用することができます。 管理者は組織内で展開するカスタム ビジュアルを選択できるようになります。また、ビジュアルの管理 (バージョン更新、無効化/有効化など) が簡単になります。 レポート作成者にとっては、組織に特有のビジュアルを簡単に見つけることができます。また、ビジュアルの更新がシームレスにサポートされます。
+Power BI 管理者は、承認し、カスタム ビジュアルをレポート作成者できます簡単に検出、更新、および使用する組織に展開します。 管理者が簡単に管理できます (たとえば、更新プログラムのバージョン、有効/無効に) これらのビジュアル。
 
-組織のカスタム ビジュアルについては、[詳細](power-bi-custom-visuals-organization.md)ページをご覧ください。
+ [詳細については、組織のビジュアル](power-bi-custom-visuals-organization.md)します。
 
 ## <a name="marketplace-visuals"></a>Marketplace ビジュアル
 
-コミュニティのメンバーと Microsoft はカスタム ビジュアルを公共の利益のために提供しており、[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) マーケットプレースに公開しています。 このようなビジュアルはダウンロードして、Power BI レポートに追加することができます。 このようなカスタム ビジュアルはすべて、Microsoft が機能と品質をテストし、承認しています。
+コミュニティ メンバーと Microsoft が公共の利益のカスタム ビジュアルを提供し、公開、 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) marketplace。 これらをダウンロードするビジュアルを Power BI レポートに追加します。 Microsoft がテストされ、これらのカスタム ビジュアルの機能と品質を承認します。
 
-[AppSource](developer/office-store.md) とは つまり、Microsoft のソフトウェアのアプリ、アドイン、拡張機能を検索できる場所です。 [AppSource](https://appsource.microsoft.com/) は、Office 365、Azure、Dynamics 365、Cortana、Power BI などの製品の何百万人もの Office 365 ユーザーを、これまでより効率よく、より洞察的で美しい仕事をするのに役立つソリューションに結び付けます。
+[AppSource](developer/office-store.md) とは これには、Microsoft のソフトウェア アプリ、アドイン、および拡張機能を見つけることができます。 [AppSource](https://appsource.microsoft.com/)何百万もの製品と同様に Office 365、Azure、Dynamics 365、Cortana、および Power BI をするのに役立つソリューションに効率的に、結び付けます、作業の美しく伝えますより前にユーザーを接続します。
 
 ### <a name="certified-visuals"></a>認定済みビジュアル
 
-Power BI 認定済みビジュアルは品質に関する厳格な追加テストに合格したマーケットプレース ビジュアルであり、[電子メール サブスクリプション](https://docs.microsoft.com/power-bi/service-report-subscribe)や [PowerPoint へのエクスポート](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint)などの追加のシナリオに対応しています。
+Power BI の認定のビジュアルがマーケットプ レース ビジュアルでは追加の厳格な品質テストに合格し、などその他のシナリオではサポートされて[電子メール サブスクリプション](https://docs.microsoft.com/power-bi/service-report-subscribe)、および[をPowerPointにエクスポート](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
 認定済みカスタム ビジュアルの一覧の表示またはカスタム ビジュアルの申請については、「[Certified custom visuals](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)」 (認定済みカスタム ビジュアル) をご覧ください。
 
-独自の視覚エフェクトを作成して AppSource に追加することに興味がある Web 開発者の方は、 「[Power BI カスタム ビジュアルの開発](developer/custom-visual-develop-tutorial.md)」を参照し、[AppSource にカスタム ビジュアルを公開する](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)方法を学習してください。
+独自の視覚エフェクトを作成して AppSource に追加することに興味がある Web 開発者の方は、 参照してください[Power BI カスタム ビジュアルの開発](developer/custom-visual-develop-tutorial.md)学び方法[カスタム ビジュアルを AppSource に発行する](https://docs.microsoft.com/power-bi/developer/office-store)します。
 
 ### <a name="import-a-custom-visual-from-a-file"></a>カスタム ビジュアルをファイルからインポートする
 
-1. [視覚化] ウィンドウの下部にある省略記号を選択します。
+1. 下部にある省略記号を選んで、**視覚化**ウィンドウ。
 
     ![visualizations2](media/power-bi-custom-visuals/power-bi-visualizations2.png)
 
@@ -69,17 +69,17 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 
     ![ファイルからインポート](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
 
-3. [ファイルを開く] メニューで、インポートする `.pbiviz` ファイルを選び、[開く] を選択します。 カスタム ビジュアルのアイコンが [視覚化] ウィンドウの下部に追加され、レポートで使用できるようになりました。
+3. ファイルを開く メニューから選択、`.pbiviz`ファイルをインポートしを選択する**オープン**します。 カスタム ビジュアルのアイコンの下に追加、**視覚化**ウィンドウは、レポートで使用できるようになりました。
 
     ![cv imported](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
 ### <a name="import-organizational-visuals"></a>組織のビジュアルをインポートする
 
-1. [視覚化] ウィンドウの下部にある省略記号を選択します。
+1. 下部にある省略記号を選んで、**視覚化**ウィンドウ。
 
     ![visual org 1](media/power-bi-custom-visuals/power-bi-visual-org-01.png)
 
-2. ドロップダウンで [Marketplace からインポートする] を選択します。
+2. ドロップダウンで **[Marketplace からインポートする]** を選択します。
 
     ![visual org 2](media/power-bi-custom-visuals/power-bi-visual-org-02.png)
 
@@ -91,17 +91,17 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 
     ![visual org 4](media/power-bi-custom-visuals/power-bi-visual-org-04.png)
 
-5. **[追加]** を選択して、カスタム ビジュアルをインポートします。 カスタム ビジュアルのアイコンが [視覚化] ウィンドウの下部に追加され、レポートで使用できるようになりました。
+5. 選択**追加**カスタム ビジュアルをインポートします。 そのアイコンの下に追加、**視覚化**ウィンドウは、レポートで使用できるようになりました。
 
     ![visual org 5](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
 
 ## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Microsoft AppSource からカスタム ビジュアルをダウンロードまたはインポートする
 
-カスタム ビジュアルをダウンロードおよびインポートする場合、Power BI と AppSource Web サイトの 2 つのオプションを使用できます。
+ダウンロードおよびカスタム ビジュアルをインポートするための 2 つのオプションがあります: から Power BI 内でとの間、 [AppSource web サイト](https://appsource.microsoft.com/)します。
 
 ### <a name="import-custom-visuals-from-within-power-bi"></a>Power BI からカスタム ビジュアルをインポートする
 
-1. [視覚化] ウィンドウの下部にある省略記号を選択します。
+1. 下部にある省略記号を選んで、**視覚化**ウィンドウ。
 
     ![visualizations 2](media/power-bi-custom-visuals/power-bi-visualizations2.png)
 
@@ -125,25 +125,25 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 
     ![レビュー](media/power-bi-custom-visuals/power-bi-reviews.png)
 
-7. [追加] を選択して、カスタム ビジュアルをインポートします。 カスタム ビジュアルのアイコンが [視覚化] ウィンドウの下部に追加され、レポートで使用できるようになりました。
+7. 選択**追加**カスタム ビジュアルをインポートします。 そのアイコンの下に追加、**視覚化**ウィンドウは、レポートで使用できるようになりました。
 
     ![インポートされたビジュアル](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
 ### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Microsoft AppSource からカスタム ビジュアルをダウンロードおよびインポートする
 
-1. [Microsoft AppSource](https://appsource.microsoft.com) から、**[アプリ]** のタブを選択します。
+1. [Microsoft AppSource](https://appsource.microsoft.com) から、 **[アプリ]** のタブを選択します。
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. [アプリの結果ページ](https://appsource.microsoft.com/marketplace/apps)に移動すると、*[Power BI apps]* を含めた各カテゴリの上位アプリを確認できます。 今はカスタム ビジュアルを検索しているので、左側のナビゲーション リストから **[Power BI visuals]** を選択して結果を絞り込みます。
+2. [アプリの結果ページ](https://appsource.microsoft.com/marketplace/apps)に移動すると、 *[Power BI apps]* を含めた各カテゴリの上位アプリを確認できます。 カスタム ビジュアルを選択しましょう探している**Power BI ビジュアル**結果を絞り込むために、左側のナビゲーション一覧から。
 
     ![AppSource のビジュアル](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
-3. AppSource に、各カスタム ビジュアルのタイルが表示されます。  各タイルにはカスタム ビジュアルのスナップショットが含まれ、簡単な説明と、ダウンロードのリンクがあります。 詳細を表示するには、タイルを選択します。
+3. AppSource に、各カスタム ビジュアルのタイルが表示されます。  各タイルには簡単な説明とダウンロード リンクにカスタム ビジュアルのスナップショット。 詳細を表示するには、タイルを選択します。
 
     ![ビジュアルのカスタム選択](media/power-bi-custom-visuals/powerbi-custom-select-visual.png)
 
-4. 詳細ページでは、スクリーンショット、ビデオ、詳細な説明、その他を見ることができます。 **[今すぐ入手する]** を選択し、利用規約に同意して、カスタム ビジュアルをダウンロードします。
+4. 詳細ページでは、スクリーンショット、ビデオ、詳細な説明、その他を見ることができます。 選択**今すぐ入手**カスタム ビジュアルをダウンロードして使用条件に同意します。
 
     ![AppSource の取得](media/power-bi-custom-visuals/power-bi-appsource-get.png)
 
@@ -151,25 +151,25 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 
     ![ダウンロード](media/power-bi-custom-visuals/powerbi-custom-download.png)
 
-    ダウンロードのページには、Power BI Desktop と Power BI サービスにカスタム ビジュアルをインポートする方法についての説明もあります。
+    ダウンロード ページには、Power BI Desktop と Power BI サービスにカスタム ビジュアルをインポートする方法についても含まれています。
 
     カスタム ビジュアルが含まれ、その機能を見ることができる、サンプル レポートをダウンロードすることもできます。
 
     ![サンプルを試す](media/power-bi-custom-visuals/powerbi-custom-try-sample.png)
 
-6. '.pbiviz' ファイルを保存し、Power BI を開きます。
+6. 保存、`.pbiviz`ファイルを Power BI を開きます。
 
-7. ".pbiviz" ファイルをレポートにインポートします (上記の「[カスタム ビジュアルをファイルからインポートする](#import-a-custom-visual-from-a-file)」セクションを参照してください)。
+7. インポート、`.pbiviz`ファイルをレポートします。 (上記の「[カスタム ビジュアルをファイルからインポートする](#import-a-custom-visual-from-a-file)」セクションを参照してください)。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
 * カスタム ビジュアルをインポートすると、特定のレポートに追加されます。 ビジュアルを別のレポートで使用する場合は、そのレポートにもインポートする必要があります。 カスタム ビジュアルを含むレポートを **[名前を付けて保存]** オプションで保存すると、カスタム ビジュアルのコピーが新しいレポートと共に保存されます。
 
-* **[視覚化]** ウィンドウが表示されない場合、レポートを編集するアクセス許可がないことを意味します。  カスタム ビジュアルは編集できるレポートにのみ追加でき、共有されているレポートには追加できません。
+* 表示されない場合、**視覚化**ウィンドウで、レポートの編集アクセス許可がないことを意味します。  カスタム ビジュアルは編集できるレポートにのみ追加でき、共有されているレポートには追加できません。
 
 ## <a name="troubleshoot"></a>トラブルシューティング
 
-トラブルシューティングについては、[Power BI カスタム ビジュアルのトラブルシューティング](power-bi-custom-visuals-troubleshoot.md)に関する記事を参照してください。
+トラブルシューティングについては、次を参照してください。 [、Power BI カスタム ビジュアルをトラブルシューティング](power-bi-custom-visuals-troubleshoot.md)します。
 
 ## <a name="faq"></a>よく寄せられる質問
 
@@ -177,6 +177,6 @@ Power BI 認定済みビジュアルは品質に関する厳格な追加テス�
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI での視覚化](visuals/power-bi-report-visualizations.md)
+* [Power BI レポートでの視覚化](visuals/power-bi-report-visualizations.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

@@ -12,21 +12,21 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6069368810fd89d8f8102b24fe220351e6e7e0ec
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 4a4cbc152784d7536a5aa179769cf753645c932b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661701"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048782"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>自分と共有されているダッシュボードとレポートを表示する
 ## <a name="shared-with-me"></a>共有アイテム
 
-同僚が **[共有]** ボタンを使用して自分とコンテンツを共有した場合、**[自分と共有]** コンテナーに表示されます。 このダッシュボードまたはレポートは、**[自分と共有]** からのみ使用でき、**[アプリ]** からは使用できません。
+同僚が **[共有]** ボタンを使用して自分とコンテンツを共有した場合、 **[自分と共有]** コンテナーに表示されます。 このダッシュボードまたはレポートは、 **[自分と共有]** からのみ使用でき、 **[アプリ]** からは使用できません。
 
 ![[共有] アイコン](./media/end-user-shared-with-me/power-bi-share-dash.png)
 
-Amanda による**自分と共有**コンテンツの一覧の説明と、一覧を移動およびフィルター処理する方法のデモンストレーションをご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。 共有されたダッシュボードを表示するには、Power BI Pro ライセンスが必要です。 詳しくは、[Power BI Premium](../service-premium.md) に関するページをご覧ください。
+Amanda による**自分と共有**コンテンツの一覧の説明と、一覧を移動およびフィルター処理する方法のデモンストレーションをご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。 共有されたダッシュボードを表示するには、Power BI Pro ライセンスが必要です。 詳しくは、[Power BI Premium](../service-premium-what-is.md) に関するページをご覧ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
@@ -47,6 +47,6 @@ Amanda による**自分と共有**コンテンツの一覧の説明と、一覧
 * 表示するダッシュボードの名前を選択し、確認します。 共有ダッシュボードを一度開くと、Q&A を使用して基になるデータに関する質問をしたり、開くタイルを選択して読み取りビューでレポートを対話的に処理することができます。
 
 ## <a name="filter-shared-dashboards-by-owner"></a>所有者で共有ダッシュボードをフィルター処理する
-**[自分と共有]** 画面内のコンテンツは、コンテンツ所有者でさらにフィルター処理できます。 たとえば、**[Amanda]** を選択した場合、Amanda が自分と共有するダッシュボードのみを表示できます。
+**[自分と共有]** 画面内のコンテンツは、コンテンツ所有者でさらにフィルター処理できます。 たとえば、 **[Amanda]** を選択した場合、Amanda が自分と共有するダッシュボードのみを表示できます。
 
 ![所有者によってフィルター処理されたダッシュボード](./media/end-user-shared-with-me/power-bi-owner-new.png)

@@ -12,16 +12,16 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 5eb5cb9bab8b98c19b8c234f5fc7c20af5a2f2b6
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513937"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Power BI Desktop から Web ページに接続する
 Web ページに接続し、そのデータを Power BI Desktop にインポートして、表示やデータ モデルで使用できます。
 
-Power BI Desktop で、**[ホーム]** リボンから **[データの取得]、[Web]** の順に選択します。
+Power BI Desktop で、 **[ホーム]** リボンから **[データの取得]、[Web]** の順に選択します。
 
 ![](media/desktop-connect-to-web/connect-to-web_1.png)
 
@@ -29,11 +29,11 @@ Power BI Desktop で、**[ホーム]** リボンから **[データの取得]、
 
 ![](media/desktop-connect-to-web/connect-to-web_2.png)
 
-URL を入力するか貼り付けて、**[OK]** をクリックします。 Power BI Desktop はそのページに接続し、ページで利用可能なデータを **[ナビゲーター]** ウィンドウに表示します。 ページ全体のテーブルなど、利用可能なデータ要素の 1 つを選択すると、**[ナビゲーター]** ウィンドウの右側にデータのプレビューが表示されます。
+URL を入力するか貼り付けて、 **[OK]** をクリックします。 Power BI Desktop はそのページに接続し、ページで利用可能なデータを **[ナビゲーター]** ウィンドウに表示します。 ページ全体のテーブルなど、利用可能なデータ要素の 1 つを選択すると、 **[ナビゲーター]** ウィンドウの右側にデータのプレビューが表示されます。
 
 ![](media/desktop-connect-to-web/connect-to-web_3.png)
 
-Power BI Desktop にデータをインポートする前に、**[編集]** ボタンを選択して **[クエリ エディター]** を起動し、その Web ページのデータを調整および変換できます。 または、**[読み込み]** ボタンを選択して、左側のウィンドウで選択したすべてのデータ要素をインポートできます。
+Power BI Desktop にデータをインポートする前に、 **[編集]** ボタンを選択して **[クエリ エディター]** を起動し、その Web ページのデータを調整および変換できます。 または、 **[読み込み]** ボタンを選択して、左側のウィンドウで選択したすべてのデータ要素をインポートできます。
 
 **[読み込み]** を選択すると、選択した項目がインポートされて、Power BI Desktop の [レポート] ビューの右側の **[フィールド]** ウィンドウで使用できるようになります。
 

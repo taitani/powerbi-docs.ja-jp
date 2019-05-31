@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: 98c76fd5903a44c8cc1ef5b175f235f1ec4382e9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289373"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61340845"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 の Power BI モバイル アプリで Reporting Services (SSRS) のモバイル レポートと KPI を表示する
 Windows 10 用 Power BI モバイル アプリを使って、タッチ対応のモバイルから、SQL Server 2016 Reporting Services のオンプレミスの重要なビジネス情報に簡単にアクセスできます。 
@@ -36,7 +36,7 @@ Reporting Services の Web ポータルへのアクセス権がない場合で�
 
 1. Windows 10 デバイスで Power BI アプリを開きます。
 2. 左上隅にあるグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) をタップします。
-3. **[設定]** アイコン ![[設定] アイコン](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) をタップし、**[サーバーに接続]** を右クリックするかタップして長押しした後、**[サンプルを表示]** をタップします。
+3. **[設定]** アイコン ![[設定] アイコン](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) をタップし、 **[サーバーに接続]** を右クリックするかタップして長押しした後、 **[サンプルを表示]** をタップします。
    
    ![SSRS のサンプルを表示](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
 4. Retail Reports または Sales Reports フォルダーを開き、その KPI やモバイル レポートを調べます。
@@ -57,7 +57,7 @@ Reporting Services の Web ポータルへのアクセス権がない場合で�
    > 
    > 
    
-    必要に応じて、**[詳細オプション]** をタップしてサーバーの名前を指定します。
+    必要に応じて、 **[詳細オプション]** をタップしてサーバーの名前を指定します。
 4. チェック マークをタップして接続します。 
    
    左側のナビゲーション バーに、サーバーが表示されます。

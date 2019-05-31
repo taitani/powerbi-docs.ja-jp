@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 48cdff67e613093c3ac473b0a505a6f0d57f4f2d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008099"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171616"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Power BI で SparkPost に接続する
 SparkPost 用 Power BI コンテンツ パックを使用すると、SparkPost アカウントから貴重なデータセットを 1 つの優れた洞察力のダッシュボードに抽出できます。 SparkPost コンテンツ パックを使用することで、ドメイン、キャンペーン、ISP によるエンゲージメントなどの電子メールの全体的な統計情報を視覚化できます。
@@ -29,7 +29,7 @@ Power BI 用 [SparkPost コンテンツ パック](https://app.powerbi.com/getda
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-sparkpost/services.png)
-3. **SparkPost** コンテンツ パックを選び、**[取得]** をクリックします。 
+3. **SparkPost** コンテンツ パックを選び、 **[取得]** をクリックします。 
    
    ![](media/service-connect-to-sparkpost/sparkpost.png)
 4. メッセージが表示されたら、SparkPost API キーを入力し、[サインイン] を選択します。 [このパラメーターの見つけ方](#FindingParams)について詳しくは、後述します。

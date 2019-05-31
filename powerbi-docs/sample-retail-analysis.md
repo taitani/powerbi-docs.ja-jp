@@ -11,11 +11,11 @@ ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291466"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61239635"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の小売りの分析のサンプル:ツアーを開始する
 
@@ -34,10 +34,10 @@ ms.locfileid: "54291466"
 2. 左下隅にある **[データの取得]** を選びます。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
+3. 表示される [データの取得] ページで、 **[サンプル]** アイコンを選びます。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. **[小売の分析のサンプル]** を選び、**[接続]** を選びます。  
+4. **[小売の分析のサンプル]** を選び、 **[接続]** を選びます。  
   
    ![小売りの分析のサンプル](media/sample-retail-analysis/retail16.png)
    
@@ -52,7 +52,7 @@ ms.locfileid: "54291466"
  * [小売の分析のサンプル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529778)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529778)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、 **[Power Pivot] > [管理]** を選択します。
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>ダッシュボードを起動し、レポートを開く
 1. ダッシュボードで、\[Total Stores] \(総店舗数) タイルを選択します。
@@ -60,7 +60,7 @@ ms.locfileid: "54291466"
    ![](media/sample-retail-analysis/retail-analysis-7.png)  
 
    そうすると、レポート内の \[Store Sales Overview] \(店舗売上の概要) ページに移動します。 合計で 104 店舗あり、そのうち 10 店は新しい店舗であることが表示されます。 2 つの店舗チェーン、Fashions Direct と Lindseys があります。 Fashions Direct 店舗は、平均的により大規模です。
-2. 円グラフで、**[Fashions Direct]** を選択します。
+2. 円グラフで、 **[Fashions Direct]** を選択します。
 
    ![](media/sample-retail-analysis/retail3.png)  
 
@@ -107,12 +107,12 @@ ms.locfileid: "54291466"
    ![](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
 
    絞り込んで、どこに問題があるかを特定できるかどうかを見てみましょう。
-2. バブル チャートを選択し、 **[020-Mens]**(020-男性用) を選択します。
+2. バブル チャートを選択し、 **[020-Mens]** (020-男性用) を選択します。
 
    ![](media/sample-retail-analysis/retail11.png)  
 
    ビジネス全体と比べて、男性用のカテゴリの 4 月には深刻な影響がないことに注目してください。ただし、1 月と 7 月は問題のある月でした。
-3. 次は **[010-Womens]**(010-女性用) バブルを選択します。
+3. 次は **[010-Womens]** (010-女性用) バブルを選択します。
 
    ![](media/sample-retail-analysis/retail12.png)
 

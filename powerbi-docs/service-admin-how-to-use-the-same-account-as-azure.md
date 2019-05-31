@@ -11,11 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: d9b171052bd095afc918a312ecbadba89a2471cd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283577"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187169"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Power BI と Azure で同じアカウントを使用する
 Power BI と Azure を両方とも使っているユーザーであれば、両方のサービスに同じログインを使用して、パスワードを 2 回入力する手間を省きたいと思われることでしょう。
@@ -29,7 +29,7 @@ Azure と Power BI の両方に同じログインを使用したい場合は、�
 Azure の共同管理者として、組織アカウントを追加できます。  次にその方法を示します。
 
 1. [Azure の管理ポータル](http://manage.windowsazure.com/)にサインインします。 複数の Azure ディレクトリでユーザーになっている場合は、 **[サブスクリプション]** をクリックし、フィルター処理を行って編集するディレクトリとサブスクリプションのみを表示します。
-2. ナビゲーション ウィンドウで、 **[設定]**、 **[管理者]**、 **[追加]** の順にクリックします。
+2. ナビゲーション ウィンドウで、 **[設定]** 、 **[管理者]** 、 **[追加]** の順にクリックします。
 3. 組織アカウントに関連付けられているメール アドレスを入力します。
 4. 組織アカウントでアクセスしたいサブスクリプションを選択して、チェック マークをクリックします。
 

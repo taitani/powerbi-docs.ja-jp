@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 8172934357c24516a40a670c68e008521bd4d82d
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580107"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61051419"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI サービス ***コンシューマー***の基本的な概念
 
@@ -104,7 +104,7 @@ Power BI で発生する視覚エフェクトの一部には、ウォーター�
 
    ![8 個のサンプルのビジュアル](media/end-user-basic-concepts/power-bi-visuals.png)
 
-視覚エフェクトはコミュニティからも利用でき、これらは*カスタム ビジュアル*と呼ばれます。 理解できないビジュアルでレポートを受信した場合、カスタム ビジュアルである可能性が高いです。 カスタム ビジュアルの解釈でサポートが必要な場合は、<!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->レポートまたはダッシュボードの*デザイナー*の名前を参照して、そのデザイナーにお問い合わせください。
+視覚エフェクトはコミュニティからも利用でき、これらは*カスタム ビジュアル*と呼ばれます。 理解できないビジュアルでレポートを受信した場合、カスタム ビジュアルである可能性が高いです。 ヘルプは、カスタム ビジュアルを解釈する必要がある場合 <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->レポートまたはダッシュ ボードの名前を検索*デザイナー*し、自分のことにお問い合わせください。
 
 レポート内の **1** つの視覚エフェクトを...
 
@@ -135,7 +135,7 @@ ________________________________________________
 
 コンシューマーの立場から、ダッシュボードを編集することはできません。 ただし、コメントの追加、関連するデータの表示、お気に入りとしての設定、受信登録などを行うことができます。
 
-ダッシュボードにはどのような目的がありますか?   その一部を次に示します。
+ダッシュボードにはどのような目的がありますか?  その一部を次に示します。
 
 * 意思決定に必要なすべての情報をひとめで確認できるようにするため
 * 業務に関する最も重要な情報を監視するため

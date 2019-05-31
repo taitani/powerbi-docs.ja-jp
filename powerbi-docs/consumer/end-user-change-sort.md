@@ -12,10 +12,10 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 67246168b5387f49e7bda22e470f5a908a4bff9b
-ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608246"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI レポートでのグラフの並べ替え方法の変更
@@ -25,8 +25,8 @@ Power BI レポートのほとんどの視覚エフェクトは、グラフ内�
 
 カテゴリ (店舗名) から値 (平方フィートごとの売上) に、並べ替えの基準を簡単に変更できます。
 
-1. 省略記号 ([...]) を選び、**[並べ替え] > [Sales Per Sq Ft]\(平方フィートごとの売上\)** を選びます。
-2. 必要に応じて、もう一度省略記号を選び、**[降順で並べ替え]** を選びます。
+1. 省略記号 ([...]) を選び、 **[並べ替え] > [Sales Per Sq Ft]\(平方フィートごとの売上\)** を選びます。
+2. 必要に応じて、もう一度省略記号を選び、 **[降順で並べ替え]** を選びます。
 
    ![[並べ替え]、[昇順で並べ替え]、[降順で並べ替え] の順に選択しているビデオ](media/end-user-change-sort/sort.gif)
 
@@ -38,7 +38,7 @@ Power BI レポートでは、フィルター、スライサー、並べ替え�
 
 ![永続的な並べ替え](media/end-user-change-sort/power-bi-reset-to-default.png)
 
-ただし、**[既定値にリセット]** ボタンが淡色表示になっている場合、変更を保存する (永続化する) 機能をレポートのデザイナーが無効にしています。
+ただし、 **[既定値にリセット]** ボタンが淡色表示になっている場合、変更を保存する (永続化する) 機能をレポートのデザイナーが無効にしています。
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>その他の条件を使用した並べ替え

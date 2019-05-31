@@ -1,20 +1,20 @@
 ---
 title: Power BI の開発者向け機能
 description: Power BI には、開発者向けのさまざまなオプションがあります。 たとえば、埋め込み、カスタム ビジュアル、ストリーミング データセットなどです。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 63ee9ed96ed699d116b8d81b0cd612f76994a68d
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: d2e3ba69cde609638e54eaa1206714f0fb420d18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872687"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61262719"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Power BI の開発者向け機能
 
@@ -60,7 +60,7 @@ Power BI API でできることをいくつか確認する場合は、「[Power 
 
 [Power BI で埋め込み](embedding.md)  
 
-[Power BI カスタム ビジュアルを開発する](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
+[Power BI カスタム ビジュアルの開発](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 
 [Power BI API の開発者向け機能](overview-of-power-bi-rest-api.md)
 

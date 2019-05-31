@@ -9,20 +9,20 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 05/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83ef4aa17de5edb18bc6b9cff1b50c29596704f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d470a262bd8a5e6590746fb07889b1230f5cfc25
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292869"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375661"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI レポートでの視覚エフェクト
 
 視覚エフェクト (ビジュアルとも呼ばれる) は、データ内で検出された洞察を表示します。 Power BI レポートは、ビジュアルが 1 つ使用された単一のページのこともあれば、ビジュアルが多数含まれる複数ページから成ることもあります。 Power BI サービスでは、ビジュアルを[レポートからダッシュボードにピン留め](../service-dashboard-pin-tile-from-report.md)することができます。
 
-レポート*作成者*とレポート *コンシューマー*を区別することが重要です。レポートの作成または変更を担当している場合は、レポート作成者になります。  作成者には、レポートとその基になるデータセットに対して編集のためのアクセス許可が付与されています。 これは、Power BI Desktop では、データ ビューでデータセットを開き、レポート ビューでビジュアルを作成できることを意味し、 Power BI サービスでは、レポート エディターの[編集ビュー](../consumer/end-user-reading-view.md)でデータセットまたはレポートを開くことができることを意味します。 自分がレポートまたはダッシュボードの[共有相手](../consumer/end-user-shared-with-me.md)である場合は、レポート **コンシューマー**となります。 レポートとそのビジュアルを表示および操作することはできますが、変更内容を保存することはできません。
+レポートを区別することが重要*デザイナー*とレポート*コンシューマー*構築または変更、レポートを担当しているかどうかは、デザイナーは。  デザイナーでは、レポートとその基になるデータセットの編集アクセス許可を持っています。 これは、Power BI Desktop では、データ ビューでデータセットを開き、レポート ビューでビジュアルを作成できることを意味し、 Power BI サービスで、つまり、レポート エディターで、データセットまたはレポートを開くことができます[編集ビュー](../consumer/end-user-reading-view.md)します。 自分がレポートまたはダッシュボードの[共有相手](../consumer/end-user-shared-with-me.md)である場合は、レポート **コンシューマー**となります。 レポートとそのビジュアルを表示して操作することができますが、主要な変更を保存することはできません。
 
 さまざまな種類のビジュアルが Power BI の [視覚化] ウィンドウから直接使用できます。
 
@@ -50,6 +50,11 @@ ms.locfileid: "54292869"
 ## <a name="pin-the-visualization"></a>視覚化のピン留め
 
 Power BI サービスでは、希望する視覚エフェクトができたら、タイルとしてその[視覚エフェクトをダッシュボードにピン留め](../service-dashboard-pin-tile-from-report.md)します。 ピン留めした後、レポートで使用されている視覚エフェクトを変更しても、ダッシュボードのタイルは変更されません。つまり、レポート内の視覚エフェクトが折れ線グラフである場合、それをドーナツ グラフに変更しても、視覚エフェクトは折れ線グラフのままです。
+
+## <a name="limitations-and-considerations"></a>制限事項と考慮事項
+- データ ソースと、フィールド (メジャーまたは列) の数に応じてビジュアルを緩やかに変化読み込む可能性があります。  読みやすさとパフォーマンス上の理由 10 ~ 20 合計フィールドにビジュアルを制限することをお勧めします。 
+
+- ビジュアルの上限は、100 のフィールド (メジャーまたは列) です。 ビジュアルに読み込みに失敗した場合は、フィールドの数を減らします。   
 
 ## <a name="next-steps"></a>次の手順
 

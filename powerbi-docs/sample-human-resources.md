@@ -11,11 +11,11 @@ ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 4b36c02abe0ca0bbd2d117559855a69edff370db
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216656"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234106"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI の人事のサンプル:ツアーを開始する
 
@@ -40,10 +40,10 @@ ms.locfileid: "56216656"
 2. 左下隅にある **[データの取得]** を選びます。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 表示される [データの取得] ページで、**[サンプル]** アイコンを選びます。
+3. 表示される [データの取得] ページで、 **[サンプル]** アイコンを選びます。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. **[人事のサンプル]** を選択し、**[接続]** を選択します。  
+4. **[人事のサンプル]** を選択し、 **[接続]** を選択します。  
    
    ![データの取得](media/sample-human-resources/pbi_hr_sample_connect.png)
 5. Power BI がコンテンツ パックをインポートし、新しいダッシュボード、レポート、データセットを現在のワークスペースに追加します。 新しいコンテンツは黄色のアスタリスクで示されます。 
@@ -57,13 +57,13 @@ ms.locfileid: "56216656"
  * [人事のサンプル PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
-[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529780)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、**[Power Pivot] > [管理]** を選択します。
+[このサンプルのデータセット (Excel ブック) だけをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529780)することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、 **[Power Pivot] > [管理]** を選択します。
 
 ## <a name="new-hires"></a>新規採用者
 まず、新規採用者を調べてみましょう。
 
-1. ワークスペースで、**[ダッシュボード]** タブを選択し、人事のダッシュボードを開きます。
-2. ダッシュボードで、**[月別の** **新規採用者数、昨年同時期の新規採用、在職者の前年比 % 変化]** タイルを選びます。  
+1. ワークスペースで、 **[ダッシュボード]** タブを選択し、人事のダッシュボードを開きます。
+2. ダッシュボードで、 **[月別の** **新規採用者数、昨年同時期の新規採用、在職者の前年比 % 変化]** タイルを選びます。  
    ![](media/sample-human-resources/hr2.png)  
 
    [人事のサンプル] レポートで、 **[新規採用者]** ページが開きます。  
@@ -89,7 +89,7 @@ ms.locfileid: "56216656"
 ダッシュボードで、 **[年齢別の在職者数]** タイルを選びます。  
 ![](media/sample-human-resources/pbi_hr_sample_activepie.png)
 
-[人事のサンプル] レポートで、**[Active Employees vs.Separations]** (在職者対離職者) ページが開きます。  
+[人事のサンプル] レポートで、 **[Active Employees vs.Separations]** (在職者対離職者) ページが開きます。  
 ![](media/sample-human-resources/hr5.png)
 
 **目的の項目**:
@@ -106,7 +106,7 @@ ms.locfileid: "56216656"
 1. **[年齢別の在職者数]** 円グラフを選びます。
 2. **[フィールド]** で **[従業員]** の横にある矢印を選んで従業員テーブルを展開します。 **[在籍者数]** の横にあるチェック ボックスをオフにして、そのフィールドを削除します。
 3. 従業員テーブル内で、 **[離職者数]** の横にあるチェック ボックスをチェックして、フィールドの **[値]** ボックスに追加します。
-4. レポート キャンバスに戻り、**[離職理由別の離職者数]** 横棒グラフの **[自主]** バーを選びます。 そうすると、レポートの他のビジュアルで自主的に離職した従業員が強調表示されます。
+4. レポート キャンバスに戻り、 **[離職理由別の離職者数]** 横棒グラフの **[自主]** バーを選びます。 そうすると、レポートの他のビジュアルで自主的に離職した従業員が強調表示されます。
 5. [年齢グループ別の離職者数] 円グラフの 50+ スライスをクリックします。
 
    右下隅にある折れ線グラフの理由別の離職をご覧ください。 このグラフはフィルター処理され、自主的な離職が表示されます。  

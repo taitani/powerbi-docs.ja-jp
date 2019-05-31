@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513324"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>コンマ区切り値 (.csv) ファイルからデータを取得する
@@ -40,10 +40,10 @@ ms.locfileid: "65513324"
 >[!IMPORTANT]
 >Power BI にインポートできるファイルの最大サイズは 1 GB です。
 
-1. Power BI の [ナビゲーター] ウィンドウで、**[データの取得]** をクリックします。
+1. Power BI の [ナビゲーター] ウィンドウで、 **[データの取得]** をクリックします。
    
    ![](media/service-comma-separated-value-files/csv_get_data_button.png)
-2. **[ファイル]**、**[取得]** の順にクリックします。
+2. **[ファイル]** 、 **[取得]** の順にクリックします。
    
    ![](media/service-comma-separated-value-files/csv_files_get.png)
 3. 目的のファイルを見つけます。

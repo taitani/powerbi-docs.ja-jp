@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220979"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187712"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -22,9 +22,7 @@ ms.locfileid: "58220979"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-**コンシューマー向け製品の製造元と小売業者が Win-Win の関係を実現する**
-<br>作成者: Liz McCreesh
-<br>[今すぐ登録](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
+まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -80,6 +78,10 @@ ms.locfileid: "58220979"
 <br>作成者: Wim Coorevits および Enrique Plaza Garcia
 <br>[登録して今すぐ見る](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
+**Power BI Embedded を管理するためのベスト プラクティスでは、Analytics をマルチ テナント展開**
+<br>作成者: Nimrod Shalit
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+
 **Power BI:適切に行われる分析**
 <br>講師: Gohul Shanmugalingam
 <br>[登録して今すぐ見る](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
@@ -117,6 +119,10 @@ ms.locfileid: "58220979"
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>パートナー ###
+
+**コンシューマー向け製品の製造元と小売業者が Win-Win の関係を実現する**
+<br>Thorogood から Liz McCreesh によって
+<br>[登録して今すぐ見る](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **Power BI を使用して、顧客データから小売業を成功に導く**
 <br>作成者: Angad Soni (日立ソリューションズ)

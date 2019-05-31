@@ -1,20 +1,20 @@
 ---
 title: レポート サーバー インストールの移行
 description: 既存の SQL Server Reporting Services インスタンスを Power BI Report Server のインスタンスに移行する方法について説明します。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
-ms.openlocfilehash: 6c2ea78d4be7cd830c9f9e79da6575366b8de9a3
-ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
-ms.translationtype: HT
+ms.openlocfilehash: 01c87d425b1ada76e322af411188a4a2717562d0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "54420765"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770172"
 ---
 # <a name="migrate-a-report-server-installation"></a>レポート サーバー インストールの移行
 

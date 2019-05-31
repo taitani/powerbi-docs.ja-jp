@@ -11,11 +11,11 @@ ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: c42d96fea37a6309908dd357425c3d0504e18397
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288246"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61410192"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>パート 2、Power BI レポートへの視覚化の追加
 [パート 1](power-bi-report-add-visualizations-ii.md) では、フィールド名の横にあるチェックボックスを選んで、基本的な視覚化を作成しました。  パート 2 では、ドラッグ アンド ドロップを使用し、 **[フィールド]** ウィンドウと **[視覚化]** をウィンドウを最大限活用して、視覚化を作成および変更する方法について説明します。
@@ -35,13 +35,13 @@ ms.locfileid: "54288246"
 2. キャンバスの下部にある黄色のプラス アイコンを選び、新しいページを追加します。
 
 ### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>この年と前年の売上比較を示す視覚化を追加します。
-1. **[セールス]** テーブルで **[This Year Sales]** (今年の売上) > **[値]**、**[Last Year Sales]** (前年の売上) を選びます。 Power BI によって縦棒グラフが作成されます。  興味深い内容であるため、詳しく分析していきましょう。 月別の売上はどのような状況でしょうか?  
+1. **[セールス]** テーブルで **[This Year Sales]** (今年の売上) >  **[値]** 、 **[Last Year Sales]** (前年の売上) を選びます。 Power BI によって縦棒グラフが作成されます。  興味深い内容であるため、詳しく分析していきましょう。 月別の売上はどのような状況でしょうか?  
    
    ![](media/power-bi-report-add-visualizations-ii/power-bi-barchart.png)
-2. 時間テーブルから、**[FiscalMonth]** を **[軸]** 領域までドラッグします。  
+2. 時間テーブルから、 **[FiscalMonth]** を **[軸]** 領域までドラッグします。  
    ![](media/power-bi-report-add-visualizations-ii/power-bi-month.png)
 3. [視覚化を面グラフに変更](power-bi-report-change-visualization-type.md)します。  選択できる視覚化には多くの種類があります。どの種類を使ったらよいか調べるには、[それぞれの種類についての説明、ベスト プラクティスのヒント、チュートリアル](power-bi-visualization-types-for-reports-and-q-and-a.md)をご覧ください。 [視覚化] ウィンドウで面グラフ アイコン ![](media/power-bi-report-add-visualizations-ii/power-bi-areachart.png) を選びます。
-4. 視覚エフェクトを並べ替えるには、省略記号を選び、**[Sort by FiscalMonth]\(月別に並べ替え\)** を選びます。
+4. 視覚エフェクトを並べ替えるには、省略記号を選び、 **[Sort by FiscalMonth]\(月別に並べ替え\)** を選びます。
 5. [視覚化のサイズを変更](power-bi-visualization-move-and-resize.md)するため、視覚化を選び、輪郭の円の 1 つをグラブしてドラッグします。 幅を広げればスクロール バーが不要になり、小さくすれば別の視覚化を追加する領域を確保できます。
    
    ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)

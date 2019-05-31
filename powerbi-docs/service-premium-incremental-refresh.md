@@ -3,19 +3,19 @@ title: Power BI Premium での増分更新
 description: Power BI Premium サービスで非常に大きいデータセットを有効にする方法を説明します。
 author: christianwade
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 05/10/2019
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: caa350274b7af62078098d9ef7730046f6e14627
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225985"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65536143"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium での増分更新
 
@@ -31,7 +31,7 @@ ms.locfileid: "56225985"
 
 増分更新ポリシーは、Power BI Desktop で定義し、発行されると Power BI サービスに適用されます。
 
-最初に、**[プレビュー機能]** で増分更新を有効にします。
+最初に、 **[プレビュー機能]** で増分更新を有効にします。
 
 ![オプション - プレビュー機能](media/service-premium-incremental-refresh/preview-features.png)
 
@@ -160,3 +160,7 @@ let
 in
     #"Filtered Rows"
 ```
+
+## <a name="limitations"></a>制限事項
+
+現在のところ、[複合モデル](desktop-composite-models.md)、sql、Oracle、増分更新がサポートされているし、Teradata データ ソースのみです。

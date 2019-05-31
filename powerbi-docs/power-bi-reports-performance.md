@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 LocalizationGroup: Reports
 ms.openlocfilehash: f603a733c6c604a89b0b9608904acdf13b66b713
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287786"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61417639"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI のパフォーマンスのベスト プラクティス
 
@@ -125,10 +125,10 @@ DirectQuery とライブ接続では、このクエリ キャッシュはデー�
 3. **SQL Server Profiler を Power BI Desktop に接続する**
 
    - **[スタート]** メニューから SQL Server Profiler を起動する
-   - **[ファイル]** > **[新しいトレース]**
+   - **[ファイル]**  >  **[新しいトレース]**
    - サーバーの種類:Analysis Services
    - サーバー名: localhost:[上記で見つかったポート番号]
-   - 次の画面で、**[実行]** を選択
+   - 次の画面で、 **[実行]** を選択
    - これで SQL Profiler がライブになり、Power BI Desktop が送信するクエリをアクティブにプロファイリングします。 
    - クエリが実行されると、クエリのそれぞれの期間および CPU 時間を表示できます。この情報を使用して、ボトルネックとなっているクエリを判断できます。  
 
@@ -146,7 +146,7 @@ SQL Profiler を使用すると、パフォーマンスのボトルネックと�
 
 ## <a name="network-latency"></a>ネットワーク待機時間
 
-ネットワーク待機時間は、要求が Power BI サービスに到達するまでに要する時間と、応答の配信に要する時間が増えることで、レポートのパフォーマンスに影響を及ぼす可能性があります。 Power BI のテナントには、特定のリージョンが割り当てられています。 自分のテナントの "ホーム" 領域を表示するには、powerbi.com に移動して、右上にある [?] を選択し、**[Power BI について]** を選択します。 テナントのユーザーが Power BI サービスにアクセスすると、要求は常にこのリージョンにルーティングされます。 要求が Power BI サービスに到達すると、サービスが追加の要求を (基になるデータ ソースやゲートウェイなどに) 送信することがあり、これもネットワーク待機時間に影響します。
+ネットワーク待機時間は、要求が Power BI サービスに到達するまでに要する時間と、応答の配信に要する時間が増えることで、レポートのパフォーマンスに影響を及ぼす可能性があります。 Power BI のテナントには、特定のリージョンが割り当てられています。 自分のテナントの "ホーム" 領域を表示するには、powerbi.com に移動して、右上にある [?] を選択し、 **[Power BI について]** を選択します。 テナントのユーザーが Power BI サービスにアクセスすると、要求は常にこのリージョンにルーティングされます。 要求が Power BI サービスに到達すると、サービスが追加の要求を (基になるデータ ソースやゲートウェイなどに) 送信することがあり、これもネットワーク待機時間に影響します。
 
 [Azure Speed Test](http://azurespeedtest.azurewebsites.net/) などのツールは、クライアントと Azure リージョン間のネットワーク待機時間の表示を提供できます。 一般に、ネットワーク待機時間の影響を最小限に抑えるには、データ ソース、ゲートウェイ、および Power BI クラスターをできるだけ近くに配置するようにします。 ネットワーク待機時間が問題の場合は、ゲートウェイとデータ ソースを仮想マシンに配置することで、Power BI クラスターにより近い位置に配置することができます。
 

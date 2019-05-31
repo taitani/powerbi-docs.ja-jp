@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec221939d6eb96567469a3221f914509a6789839
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280081"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514100"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>例を指定して Web ページからデータを取得する
 
@@ -29,7 +29,7 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 ## <a name="using-get-data-from-web-by-example"></a>[Get Data from Web by example]\(例を指定して Web からデータを取得する\) の使用
 
-**[Get Data from Web by example]\(例を指定して Web からデータを取得する\)** を使用するには、**[ホーム]** リボン メニューから **[データを取得]** を選択します。 表示されるウィンドウで、左ウィンドウのカテゴリから **[その他]** を選択し、**[Web]** を選択します。
+**[Get Data from Web by example]\(例を指定して Web からデータを取得する\)** を使用するには、 **[ホーム]** リボン メニューから **[データを取得]** を選択します。 表示されるウィンドウで、左ウィンドウのカテゴリから **[その他]** を選択し、 **[Web]** を選択します。
 
 ![[データを取得] から [Web] を選択する](media/desktop-connect-to-web-by-example/web-by-example_03.png)
 
@@ -41,7 +41,7 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 ![Web ダイアログ](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
-**[OK]** を選択すると、**[ナビゲーター]** ダイアログが表示され、Web ページから自動検出されたテーブルが表示されます。 下図の例では、テーブルは見つかりませんでしたが、ページの下部に、**[Extract table using examples]\(例を使用してテーブルを抽出する\)** というボタンが表示されます。このボタンをクリックして例を指定できます。
+**[OK]** を選択すると、 **[ナビゲーター]** ダイアログが表示され、Web ページから自動検出されたテーブルが表示されます。 下図の例では、テーブルは見つかりませんでしたが、ページの下部に、 **[Extract table using examples]\(例を使用してテーブルを抽出する\)** というボタンが表示されます。このボタンをクリックして例を指定できます。
 
 
 ![[ナビゲーター] ウィンドウ](media/desktop-connect-to-web-by-example/web-by-example_05.png)
@@ -54,7 +54,7 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 > 注:値の候補に含まれるのは、長さが 128 文字以下の値のみです。
 
-Web ページから抽出されたデータに満足したら、**[OK]** を選択して **[クエリ エディター]** に移動します。クエリ エディターではさらに変換を適用したり、データを整形したりすることができます (このデータを他のデータ ソースと組み合わせるなど)。
+Web ページから抽出されたデータに満足したら、 **[OK]** を選択して **[クエリ エディター]** に移動します。クエリ エディターではさらに変換を適用したり、データを整形したりすることができます (このデータを他のデータ ソースと組み合わせるなど)。
 
 ![例を指定したデータ](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
@@ -64,7 +64,7 @@ Web ページから抽出されたデータに満足したら、**[OK]** を選�
 ## <a name="next-steps"></a>次の手順
 **Power BI Desktop** を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
-* [例から列を追加する](desktop-add-column-from-example.md)
+* [例による列を追加します。](desktop-add-column-from-example.md)
 * [Web ページに接続する](desktop-connect-to-web.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)

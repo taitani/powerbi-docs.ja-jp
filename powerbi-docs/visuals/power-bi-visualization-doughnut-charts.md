@@ -11,11 +11,11 @@ ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 4c69113d245d47a4d2702f16f6cea21a6cbd3b0b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295819"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136075"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI のドーナツ グラフ
 ドーナツ グラフは、全体に対する部分の関係が示される点で円グラフと似ています。 唯一の違いは、中央が空白で、ラベルまたはアイコン用の領域を確保できることです。
@@ -25,7 +25,7 @@ ms.locfileid: "54295819"
 
 1. 空のレポート ページで開始します。 Power BI サービスを使っている場合は、[編集ビュー](../service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
 
-2. [フィールド] ウィンドウで、**[Sales]** \> **[Last Year Sales]** を選びます。  
+2. [フィールド] ウィンドウで、 **[Sales]** \> **[Last Year Sales]** を選びます。  
    
 3. [視覚化] ウィンドウで、ドーナツ グラフのアイコン ![ドーナツ グラフ アイコン](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) を選んで、横棒グラフをドーナツ グラフに変換します。 **[Last Year Sales]** が **[値]** 領域にない場合は、そこにドラッグします。
      

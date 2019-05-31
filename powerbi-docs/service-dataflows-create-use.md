@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426633"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61143944"
 ---
-# <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Power BI でのデータフローの作成と使用 (プレビュー)
+# <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI でのデータフローの作成と使用
 
 **Power BI** で使用できる高度なデータ準備では、データフローと呼ばれるデータのコレクションを作成することができ、それを使用して、さまざまなソースからのビジネス データに接続し、データをクリーンアップし、変換して、Power BI のストレージに読み込むことができます。
 
@@ -34,9 +34,6 @@ ms.locfileid: "56426633"
 3. Power BI Desktop を使用して、データフローからデータセットを構築します 
 
 以下のセクションでは、これらの各手順について説明し、各手順を完了するために提供されているツールに慣れます。 開始しましょう。
-
-> [!NOTE]
-> データフローの機能はプレビュー中であり、一般公開前に変更および更新される可能性があります。
 
 ## <a name="creating-a-dataflow"></a>データフローの作成
 データフローを作成するには、ブラウザーで Power BI サービスを起動し、次の画面のように、左側のナビゲーション ウィンドウから**アプリ ワークスペース**を選択します (データフローは、Power BI サービスの*マイ ワークスペース*では使用できません)。 新しいデータフローを作成するワークスペースを新しく作成することもできます。 
@@ -83,7 +80,7 @@ ms.locfileid: "56426633"
 
 この方法の詳細および Common Data Model については、「[Common Data Model とは](https://docs.microsoft.com/powerapps/common-data-model/overview)」をご覧ください。
 
-データフローで Common Data Model を利用するには、**[クエリを編集]** ダイアログで **[標準にマップする]** 変換をクリックします。 **[エンティティのマップ]** 画面が表示されたら、マップする標準エンティティを選択できます。
+データフローで Common Data Model を利用するには、 **[クエリを編集]** ダイアログで **[標準にマップする]** 変換をクリックします。 **[エンティティのマップ]** 画面が表示されたら、マップする標準エンティティを選択できます。
 
 ![標準エンティティにマップする](media/service-dataflows-create-use/dataflows-create-use_08.png)
 
@@ -118,7 +115,7 @@ Power BI のデータフローでは、Power BI のデータ更新プロセス�
 
 ![Power BI サービスでデータフローを管理する](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
-上の図の *Dynamics Dataflow* というエントリは、前のセクションで作成したデータフローです。 更新のスケジュールを設定するには、次の図のように、**[アクション]** セクションで **[更新のスケジュール設定]** アイコンを選択します。 
+上の図の *Dynamics Dataflow* というエントリは、前のセクションで作成したデータフローです。 更新のスケジュールを設定するには、次の図のように、 **[アクション]** セクションで **[更新のスケジュール設定]** アイコンを選択します。 
 
 ![[アクション] セクションの [更新のスケジュール設定] ボタン](media/service-dataflows-create-use/dataflows-create-use_13.png)
 
@@ -165,9 +162,9 @@ Power BI のデータフローでは、Power BI のデータ更新プロセス�
 この記事では、独自の**データフロー**を作成する方法、および **Power BI Desktop** でデータセットとレポートを作成してそれを利用する方法を説明しました。 データフローを使用する場合の詳細およびシナリオについては、以下の記事が役に立ちます。
 
 * [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
-* [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
-* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
-* [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
+* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。

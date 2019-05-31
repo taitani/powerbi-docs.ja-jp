@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0befceba2651ad4f8f414d3669c5830c07ece06d
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514207"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Power BI Desktop で Impala データベースに接続する
@@ -38,10 +38,10 @@ Power BI Desktop では、**Impala** データベースに接続し、Power BI D
     ![Impala コネクタ](media/desktop-connect-impala/connect_impala_4.png)
 
     > [!NOTE]
-    > 特定の **Impala** サーバーのユーザー名とパスワードを入力すると、Power BI Desktop は以降もその同じ資格情報を使用して接続を試みます。 これらの資格情報を変更するには、**[ファイル]、[オプションと設定]、[データ ソース設定]** の順に移動します。
+    > 特定の **Impala** サーバーのユーザー名とパスワードを入力すると、Power BI Desktop は以降もその同じ資格情報を使用して接続を試みます。 これらの資格情報を変更するには、 **[ファイル]、[オプションと設定]、[データ ソース設定]** の順に移動します。
 
 
-5. 接続した後、**[ナビゲーター]** ウィンドウが表示され、サーバーで利用可能なデータが表示されます。 このデータから要素を選択してインポートし、**Power BI Desktop** で使用します。
+5. 接続した後、 **[ナビゲーター]** ウィンドウが表示され、サーバーで利用可能なデータが表示されます。 このデータから要素を選択してインポートし、**Power BI Desktop** で使用します。
 
     ![[ナビゲーター] ウィンドウ](media/desktop-connect-impala/connect_impala_5.png)
 

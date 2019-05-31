@@ -11,11 +11,11 @@ ms.date: 03/14/2018
 ms.author: willthom
 LocalizationGroup: Learn more
 ms.openlocfilehash: 9051ec4ea5bb9f60637e389bd77defb5590604c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281277"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61289724"
 ---
 # <a name="power-bi-desktop-privacy"></a>Power BI Desktop のプライバシー
 
@@ -23,7 +23,7 @@ Microsoft は、お客様のニーズを満たすパフォーマンス、性能�
  
 **Power BI Desktop** ユーザーから収集する情報には、オペレーティング システム、Power BI Desktop の情報、Internet Explorer のバージョンに関するデータを含めることができます。 
  
-このデータが収集されないようにするには、以下の画像のように、**[ファイル]、[オプションと設定]、[オプション]** の順に移動し、**[利用状況データ]** タブで、**[利用状況データを送信する]** チェック ボックスをオフにします。
+このデータが収集されないようにするには、以下の画像のように、 **[ファイル]、[オプションと設定]、[オプション]** の順に移動し、 **[利用状況データ]** タブで、 **[利用状況データを送信する]** チェック ボックスをオフにします。
 
 ![[利用状況データを送信する] の [オプション] 設定](media/desktop-privacy/privacy_01.png)
 

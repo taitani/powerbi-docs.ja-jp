@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008812"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61190933"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI で Microsoft Dynamics CRM に接続する
 Power BI 用 Microsoft Dynamics CRM Online を利用すれば、簡単にデータにアクセスし、分析できます。 Power BI は、OData フィードを使用して記述モデルを作成します。その際、必要なすべてのエンティティやメジャー (取引先企業、活動、営業案件、製品、潜在顧客、ユーザーなど) を含めます。 アプリをインストールすると、Power BI サービス ([https://powerbi.com](https://powerbi.com)) と Power BI モバイル アプリでダッシュボードとレポートを表示できます。 
@@ -26,7 +26,7 @@ Dynamics CRM Online [営業マネージャー](https://msit.powerbi.com/groups/m
 
 ## <a name="how-to-connect"></a>接続する方法
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-3. **[Microsoft Dynamics CRM Sales Manager]** (Microsoft Dynamics CRM 営業マネージャー) または **[Microsoft Dynamics CRM Service Manager]** (Microsoft Dynamics CRM サービス マネージャー) を選択し、**[接続]** をクリックします。
+3. **[Microsoft Dynamics CRM Sales Manager]** (Microsoft Dynamics CRM 営業マネージャー) または **[Microsoft Dynamics CRM Service Manager]** (Microsoft Dynamics CRM サービス マネージャー) を選択し、 **[接続]** をクリックします。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
 4. アカウントと関連付けられているサービスの URL を指定します。  これは、`https://company.crm.dynamics.com` のような形式になります。詳細については、[下の説明](#FindingParams)を参照してください。

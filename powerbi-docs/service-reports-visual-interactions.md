@@ -13,14 +13,14 @@ ms.date: 02/11/2019
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 6f739992ed282ada92b1049df09a8b5d4b3938a9
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426587"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61405996"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Power BI レポート内でのビジュアルの相互作用を変更する
-レポートの編集アクセス許可が与えられている場合、**[ビジュアル対話]** を使い、レポート ページの視覚エフェクトの相互作用を変更できます。 
+レポートの編集アクセス許可が与えられている場合、 **[ビジュアル対話]** を使い、レポート ページの視覚エフェクトの相互作用を変更できます。 
 
 既定では、レポート ページ上の 1 つの視覚化を使って、そのページ上の他の視覚化に処理とクロス強調表示を適用できます。
 たとえば、マップの視覚化で州を選択した時に、その州の縦棒グラフを強調表示し、その 1 つの州に当てはまるデータのみを表示するように折れ線グラフをフィルター処理できます。
@@ -29,7 +29,7 @@ ms.locfileid: "56426587"
 この記事では、Power BI サービスの[編集ビュー](service-interact-with-a-report-in-editing-view.md)と Power BI Desktop で**ビジュアル対話**を使用する方法について説明します。 他のユーザーとレポートを共有している場合、ビジュアル対話設定は変更できません。
 
 > [!NOTE]
-> *クロスフィルター処理* と *クロス強調表示* という用語は、ここで説明する動作を、**[フィルター]** ウィンドウを使って視覚化のフィルター処理と強調表示を行う場合の動作と区別するために使っています。  
+> *クロスフィルター処理* と *クロス強調表示* という用語は、ここで説明する動作を、 **[フィルター]** ウィンドウを使って視覚化のフィルター処理と強調表示を行う場合の動作と区別するために使っています。  
 > 
 > 
 
@@ -41,20 +41,20 @@ ms.locfileid: "56426587"
 
        ![[ビジュアル対話] ドロップダウン](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
-    - デスクトップで、**[書式]、[相互作用]** の順に選びます。
+    - デスクトップで、 **[書式]、[相互作用]** の順に選びます。
 
         ![[書式]、[相互作用] の順に選択](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 
-3. 視覚エフェクトの相互作用コントロールをオンにするには、**[相互作用を編集]** を選びます。 Power BI で、レポート ページのその他すべての視覚エフェクトにクロス フィルター アイコンとクロス強調表示アイコンが追加されます。
+3. 視覚エフェクトの相互作用コントロールをオンにするには、 **[相互作用を編集]** を選びます。 Power BI で、レポート ページのその他すべての視覚エフェクトにクロス フィルター アイコンとクロス強調表示アイコンが追加されます。
    
     ![ビジュアル対話が有効になっているレポート](media/service-reports-visual-interactions/power-bi-icons-on.png)
 3. 選択した視覚化が他の視覚化に与える影響を決めます。  また、必要に応じて、レポート ページの他のすべての視覚エフェクトに対して繰り返します。
    
-   * 視覚エフェクトにクロスフィルターを適用する場合は、**[フィルター]** アイコン ![フィルター アイコン](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png) を選びます。
-   * 視覚エフェクトにクロス強調表示を適用する場合は、**[強調表示]** アイコン ![強調表示アイコン](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png) を選びます。
-   * 影響を受けないようにする場合は、**[影響なし]** アイコン ![影響なしアイコン](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png) を選びます。
+   * 視覚エフェクトにクロスフィルターを適用する場合は、 **[フィルター]** アイコン ![フィルター アイコン](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png) を選びます。
+   * 視覚エフェクトにクロス強調表示を適用する場合は、 **[強調表示]** アイコン ![強調表示アイコン](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png) を選びます。
+   * 影響を受けないようにする場合は、 **[影響なし]** アイコン ![影響なしアイコン](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png) を選びます。
 
-4. 詳細表示コントロールをオンにするには、**[他の視覚化に詳細なフィルターを適用する]** を選びます。  視覚化でドリルダウン (およびドリルアップ) すると、レポート ページの他の視覚エフェクトで現在の詳細表示選択が反映されます。 
+4. 詳細表示コントロールをオンにするには、 **[他の視覚化に詳細なフィルターを適用する]** を選びます。  視覚化でドリルダウン (およびドリルアップ) すると、レポート ページの他の視覚エフェクトで現在の詳細表示選択が反映されます。 
 
    ![詳細表示コントロールをオンにするビデオ](media/service-reports-visual-interactions/drill2.gif)
 

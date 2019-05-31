@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279230"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140611"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリにおけるダッシュボードとレポートの表示
 適用対象:
@@ -64,9 +64,9 @@ ms.locfileid: "54279230"
    
    * [タイルをタップ](mobile-tiles-in-the-mobile-apps.md)してフォーカス モードで開き、操作します。
    * 星 ![お気に入りの星](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) をタップして[お気に入りに追加](mobile-apps-favorites.md)します。
-   * 自分のダッシュボードを見てもらえるよう、**[招待]** ![[招待] アイコン](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) をタップして[仕事仲間を招待](mobile-share-dashboard-from-the-mobile-apps.md)します。
+   * 自分のダッシュボードを見てもらえるよう、 **[招待]** ![[招待] アイコン](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) をタップして[仕事仲間を招待](mobile-share-dashboard-from-the-mobile-apps.md)します。
    * [ダッシュ ボードを Apple Watch と同期させる](mobile-apple-watch.md)
-4. ダッシュボードの一覧に戻るには、ダッシュボードのタイトルの横にある矢印をタップし、**[マイ ワークスペース]** をタップします。
+4. ダッシュボードの一覧に戻るには、ダッシュボードのタイトルの横にある矢印をタップし、 **[マイ ワークスペース]** をタップします。
    
    ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
@@ -87,7 +87,7 @@ ms.locfileid: "54279230"
    
    * 黄色の星 ![お気に入りの星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
    * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../service-data-classification.md)に関するページを参照してください。
-3. ワークスペースからダッシュ ボードを共有することができます。 ダッシュ ボード タイルの右下隅にある省略記号 (**...**) をタップし、**[他の人を招待]** をタップします。
+3. ワークスペースからダッシュ ボードを共有することができます。 ダッシュ ボード タイルの右下隅にある省略記号 ( **...** ) をタップし、 **[他の人を招待]** をタップします。
    
    ![[招待] アイコン](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. ダッシュ ボードをタップして開き、そのダッシュ ボード内のタイルを表示することもできます。 ダッシュボードで、次の操作を実行できます。
@@ -96,7 +96,7 @@ ms.locfileid: "54279230"
    * タイルの背後にある[レポートを開く](mobile-reports-in-the-mobile-apps.md)。
    * [ダッシュボードを表示できるように他のユーザーを招待](mobile-share-dashboard-from-the-mobile-apps.md)します。
    * タイルの[スナップショットに注釈を付け、共有する](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
-5. [マイ ワークスペース] に戻るには、左上隅のダッシュボードの名前をタップし、**[マイ ワークスペース]** をタップします。
+5. [マイ ワークスペース] に戻るには、左上隅のダッシュボードの名前をタップし、 **[マイ ワークスペース]** をタップします。
    
    ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
 
@@ -122,7 +122,7 @@ ms.locfileid: "54279230"
    
    ![省略記号メニュー](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. [ダッシュボードのタイル](mobile-tiles-in-the-mobile-apps.md)をすべて参照するには、上下にスワイプします。 
-3. ダッシュボードのホーム ページに戻って、ダッシュボードの名前をタップして階層リンクの軌跡を開き、**[マイ ワークスペース]** をタップします。   
+3. ダッシュボードのホーム ページに戻って、ダッシュボードの名前をタップして階層リンクの軌跡を開き、 **[マイ ワークスペース]** をタップします。   
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Android タブレットでダッシュボードを表示する
 1. Android タブレットで Power BI アプリを開き、サインインします。
@@ -140,7 +140,7 @@ ms.locfileid: "54279230"
 4. [ダッシュボードのタイル](mobile-tiles-in-the-mobile-apps.md)をすべて参照するには、上下にスワイプします。 
    
    "ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域をズームン/ズームアウトしたり、表示する領域を移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
-5. ダッシュボードのホーム ページに戻って、ダッシュボードの名前をタップして階層リンクの軌跡を開き、**[マイ ワークスペース]** をタップします。
+5. ダッシュボードのホーム ページに戻って、ダッシュボードの名前をタップして階層リンクの軌跡を開き、 **[マイ ワークスペース]** をタップします。
    
     ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
@@ -174,7 +174,7 @@ ms.locfileid: "54279230"
    * **[招待]** アイコン ![[招待] アイコン](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png) をタップして、仕事仲間と[ダッシュボードを共有](mobile-share-dashboard-from-the-mobile-apps.md)します。
    * 星 ![お気に入りの星](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) をタップして、[ダッシュボードをお気に入りとして設定](mobile-apps-favorites.md)します。
    * **[スタート画面にピン留め]** アイコンをタップし、[Windows のスタート画面にダッシュボードをピン留めします](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)。 
-4. ダッシュボードのホーム ページに戻って、ダッシュボードの名前をタップして階層リンクの軌跡を開き、**[マイ ワークスペース]** をタップします。
+4. ダッシュボードのホーム ページに戻って、ダッシュボードの名前をタップして階層リンクの軌跡を開き、 **[マイ ワークスペース]** をタップします。
    
     ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
 

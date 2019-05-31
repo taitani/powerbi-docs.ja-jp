@@ -11,21 +11,21 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: e47dd26c6a8433777f0c4d3ef15cce41225cf03a
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514666"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Power BI Desktop で Google BigQuery データベースに接続する
 Power BI Desktop では、Google **BigQuery** データベースに接続し、Power BI Desktop の他のデータ ソースの場合と同様に基になっているデータを使用できます。
 
 ## <a name="connect-to-google-bigquery"></a>Google BigQuery への接続
-Google **BigQuery** データベースに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データを取得]** を選択します。 左側のカテゴリから **[データベース]** を選ぶと、**[Google BigQuery]** が表示されます。
+Google **BigQuery** データベースに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データを取得]** を選択します。 左側のカテゴリから **[データベース]** を選ぶと、 **[Google BigQuery]** が表示されます。
 
 ![Google BigQuery の [データを取得] ダイアログ](media/desktop-connect-bigquery/connect_bigquery_01.png)
 
-表示される **Google BigQuery** ウィンドウで、Google BigQuery アカウントにサインインして、**[接続]** を選択します。
+表示される **Google BigQuery** ウィンドウで、Google BigQuery アカウントにサインインして、 **[接続]** を選択します。
 
 ![Google BigQuery へのサインイン](media/desktop-connect-bigquery/connect_bigquery_02.png)
 
@@ -33,7 +33,7 @@ Google **BigQuery** データベースに接続するには、Power BI Desktop �
 
 ![Google へのサインイン](media/desktop-connect-bigquery/connect_bigquery_02b.png)
 
-接続が正常に行われたら、**[ナビゲーター]** ウィンドウが開き、サーバー上で使用可能なデータが表示されます。その中から 1 つまたは複数の要素を選択し、**Power BI Desktop** にインポートして使用することができます。
+接続が正常に行われたら、 **[ナビゲーター]** ウィンドウが開き、サーバー上で使用可能なデータが表示されます。その中から 1 つまたは複数の要素を選択し、**Power BI Desktop** にインポートして使用することができます。
 
 ![Google BigQuery からのデータ](media/desktop-connect-bigquery/connect_bigquery_03.png)
 

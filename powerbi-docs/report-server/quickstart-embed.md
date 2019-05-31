@@ -1,20 +1,20 @@
 ---
 title: iFrame を使用してレポートを埋め込む
 description: SharePoint Server の iFrame に Power BI Report Server レポートを埋め込む
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 4730bef0e7f1fc47a4a59a0129640760714fe2e0
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: ca26770c652c12573bf28e24b218b214bf1196fa
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223331"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769871"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>クイック スタート:SharePoint Server の iFrame を使用して Power BI Report Server レポートを埋め込む
 
@@ -62,7 +62,7 @@ URL を用意したら、レポートをホストする iFrame を SharePoint �
 
     ![[サイト コンテンツ] ページのアプリ](media/quickstart-embed/quickstart_embed_06.png)
 
-3. 右上の歯車アイコンを選択し、**[ページの編集]** を選択します。
+3. 右上の歯車アイコンを選択し、 **[ページの編集]** を選択します。
 
     ![[ページの編集] オプション](media/quickstart-embed/quickstart_embed_07.png)
 
@@ -70,7 +70,7 @@ URL を用意したら、レポートをホストする iFrame を SharePoint �
 
     ![Web パーツの追加](media/quickstart-embed/quickstart_embed_08.png)
 
-5. **[カテゴリ]** で **[メディアとコンテンツ]** を選択し、**[パーツ]** で **[コンテンツ エディター]** を選択して **[追加]** を選択します。
+5. **[カテゴリ]** で **[メディアとコンテンツ]** を選択し、 **[パーツ]** で **[コンテンツ エディター]** を選択して **[追加]** を選択します。
 
     ![[コンテンツ エディター] Web パーツを選択し](media/quickstart-embed/quickstart_embed_09.png)、![[追加] を選択する](media/quickstart-embed/quickstart_embed_091.png)
 
@@ -78,7 +78,7 @@ URL を用意したら、レポートをホストする iFrame を SharePoint �
 
     ![新しいコンテンツの追加](media/quickstart-embed/quickstart_embed_10.png)
 
-7. リボンの **[テキストの書式設定]** タブを選択し、**[ソースの編集]** を選択します。
+7. リボンの **[テキストの書式設定]** タブを選択し、 **[ソースの編集]** を選択します。
 
      ![ソースの編集](media/quickstart-embed/quickstart_embed_11.png)
 
@@ -91,7 +91,7 @@ URL を用意したら、レポートをホストする iFrame を SharePoint �
      <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
-9. リボンの **[テキストの書式設定]** タブを選択し、**[編集の終了]** を選択します。
+9. リボンの **[テキストの書式設定]** タブを選択し、 **[編集の終了]** を選択します。
 
     ![編集の終了](media/quickstart-embed/quickstart_embed_13.png)
 

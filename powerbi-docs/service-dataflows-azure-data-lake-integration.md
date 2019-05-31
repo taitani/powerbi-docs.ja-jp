@@ -7,24 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215604"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150484"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>データフローと Azure Data Lake の統合 (プレビュー)
 
 既定では、Power BI で使用されるデータは、Power BI で利用可能な内部ストレージに保存されます。 データフローと Azure Data Lake Storage Gen2 (ADLS Gen2) を統合すると、組織の Azure Data Lake Storage Gen2 アカウントにデータフローを保存できます。 
 
 ![Azure Storage 内のデータフロー](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_01.jpg)
-
-> [!NOTE]
-> データフローの機能はプレビュー中であり、一般公開前に変更および更新される可能性があります。
 
 ## <a name="how-cdm-folders-relate-to-dataflows"></a>CDM フォルダーとデータフローの関係
 
@@ -87,9 +84,9 @@ Power BI の外部のユーザーやサービスは、代替形式の許可を�
 データフロー全般については、次の記事をご覧ください。
 
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
-* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
-* [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
+* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
 
 Azure Storage の詳細については、次の記事をご覧ください。
 * [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

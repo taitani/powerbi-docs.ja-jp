@@ -12,11 +12,11 @@ ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c0c1ea450a4b386644fd1c83e9831e993c2b8e5a
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965996"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403870"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>チュートリアル:Power BI での Cognitive Services の使用
 
@@ -49,17 +49,17 @@ Cognitive Services の変換は、[データフロー用のセルフ サービ�
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
 
-データ フロー ダイアログには、新しいデータ フローを作成するためのオプションが表示されます。**[新しいエンティティを追加]** を選択します。 次に、データ ソースのメニューから **[テキスト/CSV]** を選択します。
+データ フロー ダイアログには、新しいデータ フローを作成するためのオプションが表示されます。 **[新しいエンティティを追加]** を選択します。 次に、データ ソースのメニューから **[テキスト/CSV]** を選択します。
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
 
-URL フィールドに [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) を貼り付けて、**[次へ]** をクリックします。
+URL フィールドに [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) を貼り付けて、 **[次へ]** をクリックします。
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-上部のリボン内で **[テーブルの変換]** を選択してから、**[先頭の行を見出しとして使用]** を選択します。 これでデータがテキスト分析に使用できるようになり、顧客のコメント列でセンチメント スコアリングとキー フレーズ抽出が使用可能になります。
+上部のリボン内で **[テーブルの変換]** を選択してから、 **[先頭の行を見出しとして使用]** を選択します。 これでデータがテキスト分析に使用できるようになり、顧客のコメント列でセンチメント スコアリングとキー フレーズ抽出が使用可能になります。
 
-Power Query エディターで、**[AI Insights]** を選択します。
+Power Query エディターで、 **[AI Insights]** を選択します。
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
 
@@ -73,7 +73,7 @@ Power Query エディターで、**[AI Insights]** を選択します。
 
 ここで **[Invoke]\(呼び出し\)** を選択すると、関数が実行されます。 各行のセンチメント スコアを含む新しい列がテーブルに追加されます。 **[AI insights]** に戻ると、レビュー テキストのキー フレーズを同じ方法で抽出できます。
 
-変換が完了したら、クエリ名を "Customer comments" (顧客のコメント) に変更して、**[完了]** を選択します。
+変換が完了したら、クエリ名を "Customer comments" (顧客のコメント) に変更して、 **[完了]** を選択します。
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
 
@@ -87,7 +87,7 @@ Power Query エディターで、**[AI Insights]** を選択します。
 
 Power BI Desktop を開きます。 [ホーム] リボンで **[データの取得]** を選択します。
 
-[Power BI] セクションの **[Power BI dataflows (Beta)]\(Power BI データフロー (ベータ版)\)** に移動して、**[接続]** を選択します。
+[Power BI] セクションの **[Power BI dataflows (Beta)]\(Power BI データフロー (ベータ版)\)** に移動して、 **[接続]** を選択します。
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
@@ -95,7 +95,7 @@ Power BI Desktop を開きます。 [ホーム] リボンで **[データの取�
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
 
-先ほど作成したデータ フローを選択します。 [Customer comments]\(顧客のコメント\) テーブルに移動して、**[読み込み]** をクリックします。
+先ほど作成したデータ フローを選択します。 [Customer comments]\(顧客のコメント\) テーブルに移動して、 **[読み込み]** をクリックします。
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
 
@@ -111,7 +111,7 @@ Premium 容量を持つ Power BI ワークスペースに移動します。 画�
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
 
-データ ソースの選択を求められたら、**[空のクエリ]** を選択します。
+データ ソースの選択を求められたら、 **[空のクエリ]** を選択します。
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
 
@@ -129,7 +129,7 @@ in
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
 
-資格情報の入力を求められたら、*[匿名]* を選択します。
+資格情報の入力を求められたら、 *[匿名]* を選択します。
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
 
@@ -147,7 +147,7 @@ Web ページごとに資格情報の入力を求められます。
 
 ![データフローの作成](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-Tag Images 関数を選択し、列フィールドに「_[バイナリ]_」、カルチャ情報フィールドに「_en_」と入力します。 
+Tag Images 関数を選択し、列フィールドに「 _[バイナリ]_ 」、カルチャ情報フィールドに「_en_」と入力します。 
 
 > [!NOTE]
 > 現在のところ、ドロップダウンを使用して列を選択することはできません。これは、プライベート プレビュー期間中にできるだけ早く解決される予定です。
@@ -169,7 +169,7 @@ Tag Images 関数を選択し、列フィールドに「_[バイナリ]_」、�
 
 ## <a name="clean-up-resources"></a>リソースをクリーンアップする
 
-不要になったクエリは、Power Query エディターでクエリ名を右クリックし、**[削除]** を選択して削除します。
+不要になったクエリは、Power Query エディターでクエリ名を右クリックし、 **[削除]** を選択して削除します。
 
 ## <a name="next-steps"></a>次の手順
 

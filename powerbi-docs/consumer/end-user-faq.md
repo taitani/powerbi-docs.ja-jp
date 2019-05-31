@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef29c6b73a9a430fda35c2274dd278d11bd29dcc
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: f32a5704d611153e5b4a0f3a485f2a4a25f93e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661953"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059951"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
@@ -31,8 +31,9 @@ Power BI Pro は、Power BI サービスのすべてのコンテンツと機能�
 Premium では、専用の容量を提供し、より一貫したパフォーマンスを実現して、Power BI での大規模なデータ ボリュームをサポートします。 個々のユーザーに対して、Premium は Pro ユーザーによるコンテンツを広範囲にわたって配布し、受信者がユーザーごとのライセンスを持っていなくてもコンテンツを表示することができます。
 
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro ライセンスの有効期限が切れるとどうなりますか?
-Power BI Pro ライセンスの有効期限が切れてから、30 日の猶予期間があります。
-Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳しくは、「[一般法人向け Office 365 のサブスクリプションが終了したとき、データとアクセスはどうなりますか?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)」をご覧ください。
+Power BI Pro ライセンスの有効期限切れ後には猶予期間があります。 ライセンスがボリューム ライセンス契約の一部である場合、猶予期間は 90 日です。 ライセンスを直接購入した場合、猶予期間は 30 日です。
+
+Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳細については、次を参照してください。[ビジネス サブスクリプションの場合は、Office 365 の終了時に、データとアクセスに起こるでしょうか。](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)します。
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI Premium について質問がある場合はどうすればよいですか?
 Power BI Premium に関連する質問については、「[Power BI Premium FAQ](../service-premium-faq.md)」 (Power BI Premium のよく寄せられる質問) をご覧ください。
@@ -90,11 +91,6 @@ Power BI モバイル アプリはそれぞれ該当するストアから無料�
 Power BI Pro のライセンスを直接購入する場合も、担当者とチャットする場合も、[www.powerbi.com](http://www.powerbi.com) にアクセスしてください。
 
 [Microsoft パートナー](https://partner.microsoft.com/)を探して、Power BI の実装を任せることもできます。
-
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro ライセンスの有効期限が切れるとどうなりますか?
-Power BI Pro ライセンスの有効期限切れ後には猶予期間があります。 ライセンスがボリューム ライセンス契約の一部である場合、猶予期間は 90 日です。 ライセンスを直接購入した場合、猶予期間は 30 日です。
-
-Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳しくは、「[一般法人向け Office 365 のサブスクリプションが終了したとき、データとアクセスはどうなりますか?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)」をご覧ください。
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI は、国、地域、および業界固有のコンプライアンス要件を満たしていますか。
 Power BI のコンプライアンスの詳細については、[Microsoft セキュリティ センター](http://go.microsoft.com/fwlink/?LinkId=785324)を参照してください。

@@ -11,11 +11,11 @@ ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 85872b43e984a1cf9c08500bb03f6ed50baef31e
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008513"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61178925"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI で Azure 監査ログに接続する
 Azure 監査ログのコンテンツ パックを利用して、監査ログに格納されている情報を分析したり、視覚化したりすることができます。 Power BI は、データを取得し、そのまま使えるダッシュボードをビルドし、取得したデータに基づくレポートを作成します。
@@ -29,13 +29,13 @@ Azure 監査ログのコンテンツ パックを利用して、監査ログに�
 2. **[サービス]** ボックスで、 **[取得]** を選択します。  
    
     ![](media/service-connect-to-azure-audit-logs/services.png) 
-3. **[Azure 監査ログ]** > **[取得]** の順に選択します。  
+3. **[Azure 監査ログ]**  >  **[取得]** の順に選択します。  
    
    ![](media/service-connect-to-azure-audit-logs/azureauditlogs.png)
 4. プロンプトが表示されたら、**Azure サブスクリプション Id** を入力します。[サブスクリプション ID](#FindingParams) を確認する方法について詳しくは、以下をご覧ください。   
    
     ![](media/service-connect-to-azure-audit-logs/parameters.png)
-5. **[認証方法]** として **[oAuth2]** を選択し、\>**[サイン イン]** をクリックします。
+5. **[認証方法]** として **[oAuth2]** を選択し、\> **[サイン イン]** をクリックします。
    
     ![](media/service-connect-to-azure-audit-logs/creds.png)
 6. アカウントの資格情報を入力して、サインイン プロセスを終了します。

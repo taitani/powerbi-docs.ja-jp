@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58382810"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099634"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI サービス管理者ロールについて
 
@@ -39,7 +39,7 @@ Power BI サービス管理者ロールでは、次の機能を使用できま�
 
 Microsoft 365 管理センターでユーザーを Power BI 管理者ロールに割り当てるには、以下の手順を行います。
 
-1. Microsoft 365 管理センターで、**[ユーザー]** > **[アクティブなユーザー]** の順に選択します。
+1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)、**ユーザー** > **アクティブ ユーザー**します。
 
     ![Microsoft 365 管理センター](media/service-admin-role/powerbi-admin-users.png)
 
@@ -49,11 +49,11 @@ Microsoft 365 管理センターでユーザーを Power BI 管理者ロール�
 
     ![ロールを編集する](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. **[カスタム管理者]** > **[Power BI サービス管理者]** の順に選択します。
+1. **[カスタム管理者]**  >  **[Power BI サービス管理者]** の順に選択します。
 
     ![Power BI サービス管理者](media/service-admin-role/powerbi-admin-role.png)
 
-1. **[保存]** を選択し、**[閉じる]** を選択します。
+1. **[保存]** を選択し、 **[閉じる]** を選択します。
 
 そのユーザー名の役割に対する **[Power BI service administrator]** \(Power BI サービス管理者) がリストされます。
 
@@ -63,7 +63,12 @@ Microsoft 365 管理センターでユーザーを Power BI 管理者ロール�
 
 PowerShell を使用してロールにユーザーを割り当てることもできます。 ユーザーは、Azure Active Directory (Azure AD) で管理されます。 Azure AD PowerShell モジュールがまだない場合は、[最新バージョンをダウンロードしてインストール](https://www.powershellgallery.com/packages/AzureAD/)します。
 
-1. 最初に、**Power BI サービス管理者**ロールに対する **ObjectId** を取得します。 [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) を実行することで、**ObjectId** を取得できます。
+1. 最初に、Azure AD に接続します。
+   ```
+   PS C:\Windows\system32> Connect-AzureAD
+   ```
+
+1. 次に、取得、 **ObjectId**の**Power BI サービス管理者**ロール。 [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) を実行することで、**ObjectId** を取得できます。
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -85,7 +90,7 @@ PowerShell を使用してロールにユーザーを割り当てることもで
 1. 次に、ユーザーの **ObjectId** を取得します。 [Get-AzureADUser](/powershell/module/azuread/get-azureaduser) を実行して見つけることができます。
 
     ```
-    PS C:\Windows\system32> Get-AzureADUser -SearchString 'tim@contoso.com'
+    PS C:\Windows\system32> Get-AzureADUser -ObjectId 'tim@contoso.com'
 
     ObjectId                             DisplayName UserPrincipalName      UserType
     --------                             ----------- -----------------      --------

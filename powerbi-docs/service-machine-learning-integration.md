@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 9a7afafaa14ed890e10e77507aafb637755cd87f
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.openlocfilehash: 6c09392566805f2857c50784f16c0e3f9d4b5697
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965980"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61232510"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Azure Machine Learning の Power BI への統合 (プレビュー)
 
@@ -51,7 +51,7 @@ Azure ML service 上でホストされているモデルへのアクセス権を
 
     ![サブスクリプションを選択する](media/service-machine-learning-integration/machine-learning-integration_02.png)
 
-4. **[アクセス制御 (IAM)]** を選択してから、**[追加]** ボタンを選択します。
+4. **[アクセス制御 (IAM)]** を選択してから、 **[追加]** ボタンを選択します。
 
     ![アクセス制御 AIM](media/service-machine-learning-integration/machine-learning-integration_03.png)
 
@@ -106,9 +106,9 @@ Azure ML モデルを呼び出すには、選択したエンティティのい�
 
 データフローの詳細については、以下の記事をご覧ください。
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
-* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
-* [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
+* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
 
 

@@ -1,21 +1,21 @@
 ---
 title: Power BI Desktop ファイルから作成されたデータセットを更新する
 description: ローカル ドライブの Power BI Desktop ファイルから作成されたデータセットを更新する
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e97b6bc651b17fb7eaff43b205a9219896314695
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f1b84881503eda78eff0d5c99d552ceb83c19237
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285026"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61415733"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>ローカル ドライブの Power BI Desktop ファイルから作成されたデータセットを更新する
 ## <a name="whats-supported"></a>サポートされている機能
@@ -37,7 +37,7 @@ Power BI では、[データの取得]/[クエリ エディター] を使って�
 
 ![](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
-ローカル ドライブから Power BI Desktop ファイルをインポートすると、データとモデルに関するその他の情報が Power BI のデータセットに読み込まれます。 Power BI サービス (Power BI Desktop ではない) では、データセットは Power BI サービスのレポートの基準となるため、Power BI でデータセットを更新する必要があります。 データ ソースは外部であるため、**[今すぐ更新]** を使用してデータセットを手動で更新するか、または **[更新のスケジュール設定]** を使用して更新スケジュールを設定することができます。
+ローカル ドライブから Power BI Desktop ファイルをインポートすると、データとモデルに関するその他の情報が Power BI のデータセットに読み込まれます。 Power BI サービス (Power BI Desktop ではない) では、データセットは Power BI サービスのレポートの基準となるため、Power BI でデータセットを更新する必要があります。 データ ソースは外部であるため、 **[今すぐ更新]** を使用してデータセットを手動で更新するか、または **[更新のスケジュール設定]** を使用して更新スケジュールを設定することができます。
 
 データセットを更新すると、Power BI はローカル ドライブのファイルに接続して更新されたデータのクエリを実行しません。 Power BI はデータセットの情報を使用してデータ ソースに直接接続し、更新されたデータのクエリを実行してから、データセットに読み込みます。
 

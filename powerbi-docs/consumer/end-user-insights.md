@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661562"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049235"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI を使用してダッシュボード タイルに関するデータの分析情報を表示する
 ダッシュボード上の各視覚化タイルはデータ実行の入り口です。 タイルを選択すると、レポートが開き、レポートの背後ではデータセットをフィルター処理し、並べ替えて掘り下げることができます。 また、インサイトを実行すると、Power BI でデータの探索が自動的に実行されます。
@@ -30,7 +30,7 @@ ms.locfileid: "56661562"
 ダッシュボード タイルでインサイトを実行すると、Power BI ではその 1 つのダッシュボード タイルを作成するために使用されたデータのみが検索されます。 
 
 1. [ダッシュボードを開きます](end-user-dashboards.md)。
-2. タイルの上にマウスを置きます。 省略記号 [...] を選択し、**[詳細情報の表示]** を選択します。 
+2. タイルの上にマウスを置きます。 省略記号 [...] を選択し、 **[詳細情報の表示]** を選択します。 
 
     ![省略記号メニュー モード](./media/end-user-insights/power-bi-hover.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "56661562"
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 - **[分析情報の表示]** は、DirectQuery では機能しません。Power BI にアップロードされたデータに限り機能します。
-- **[分析情報の表示]** を使用できない種類のダッシュボード タイルもあります。 たとえば、カスタム ビジュアルでは使用できません。<!--[custom visuals](end-user-custom-visuals.md)-->
+- **[分析情報の表示]** を使用できない種類のダッシュボード タイルもあります。 たとえば、カスタム ビジュアルをご利用いただけません。<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>次の手順

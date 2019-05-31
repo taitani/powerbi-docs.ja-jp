@@ -2,20 +2,20 @@
 title: Azure Portal での Power BI Embedded 容量の一時停止と開始 | Microsoft Docs
 description: この記事では、Microsoft Azure で Power BI Embedded の容量を一時停止する方法と開始する方法について説明します。
 services: power-bi-embedded
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
-ms.openlocfilehash: 9f939c0eae4f7ea1f24eec473549dc00191f1b67
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
-ms.translationtype: HT
+ms.openlocfilehash: 8a02654f264fb83f501679e4e205e08017f083f6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360507"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61387475"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal での Power BI Embedded 容量の一時停止と開始
 
@@ -32,7 +32,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 1. [Azure Portal ](https://portal.azure.com/)にサインインします。
 
-2. **[すべてのサービス]** > **[Power BI Embedded]** の順に選択すると、容量が表示されます。
+2. **[すべてのサービス]**  >  **[Power BI Embedded]** の順に選択すると、容量が表示されます。
 
     ![Azure Portal 内のすべてのサービス](media/azure-pbie-pause-start/azure-portal-more-services.png)
 
@@ -54,7 +54,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 1. [Azure Portal ](https://portal.azure.com/)にサインインします。
 
-2. **[すべてのサービス]** > **[Power BI Embedded]** の順に選択すると、容量が表示されます。
+2. **[すべてのサービス]**  >  **[Power BI Embedded]** の順に選択すると、容量が表示されます。
 
     ![Azure Portal 内のすべてのサービス](media/azure-pbie-pause-start/azure-portal-more-services.png)
 

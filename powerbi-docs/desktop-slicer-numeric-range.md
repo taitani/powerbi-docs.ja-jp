@@ -11,11 +11,11 @@ ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 68467894850248d6acb841dc2ed651f595f19b95
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287050"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61363688"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop で数値範囲スライサーを使用する
 **数値範囲スライサー**を使用して、データ モデルの数値列にあらゆるフィルターを適用することができます。 フィルターの種類は、数値の**範囲**、数値**以下**、数値**以上**から選択できます。 これは単純なようですが、データをフィルターするには非常に強力な方法です。
@@ -23,7 +23,7 @@ ms.locfileid: "54287050"
 ![数値範囲スライサーがあるビジュアル](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
 ## <a name="using-the-numeric-range-slicer"></a>数値範囲スライサーの使用
-他のスライサーと同じように数値範囲スライサーを使用できます。 レポートの**スライサー** ビジュアルを作成し、**[フィールド]** 値の数値を選択するだけです。 次の図では、*LineTotal* フィールドが選択されています。
+他のスライサーと同じように数値範囲スライサーを使用できます。 レポートの**スライサー** ビジュアルを作成し、 **[フィールド]** 値の数値を選択するだけです。 次の図では、*LineTotal* フィールドが選択されています。
 
 ![数値範囲スライサーの作成](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-1-create.png)
 
@@ -57,7 +57,7 @@ ms.locfileid: "54287050"
 
 ## <a name="display-formatting-with-the-date-range-slicer"></a>日付範囲スライサーによる表示書式設定
 
-スライサーを使用して日付範囲を表示または設定すると、日付の形式は常に、ユーザーのブラウザーやオペレーティング システム ロケールに基づき、**[短い日付]** 形式を利用して表示されます。 基になるデータやモデルのデータ型設定に関係なく、これが表示形式になります。 
+スライサーを使用して日付範囲を表示または設定すると、日付の形式は常に、ユーザーのブラウザーやオペレーティング システム ロケールに基づき、 **[短い日付]** 形式を利用して表示されます。 基になるデータやモデルのデータ型設定に関係なく、これが表示形式になります。 
 
 たとえば、基礎になるデータ型の日付形式が "長い日付" の場合 ("*dddd, MMMM d, yyyy*" など)、他のビジュアルや状況では日付が "*Wednesday, March 14, 2001*" のように書式設定されますが、日付範囲スライサーでは、"*03/14/2001*" のようにスライサーに表示されます。
 

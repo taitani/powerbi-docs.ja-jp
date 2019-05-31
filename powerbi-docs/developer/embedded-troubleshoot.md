@@ -1,20 +1,20 @@
 ---
 title: 埋め込みアプリケーションのトラブルシューティング
 description: この記事では、Power BI からコンテンツを埋め込むときに発生する一般的な問題について説明します。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174823"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770474"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -109,7 +109,7 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 または AADSTS50053 で認証が失敗しました
 
-**_(AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました)_**
+** _(AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました)_ **
 
 Power BI Embedded を使用、および Azure AD Direct Authentication を利用している場合、次のようなログインに関するメッセージを受信する場合があります: ***error:unauthorized_client,error_description:AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました***。これは、2018 年 6 月 14 日から直接認証が使われていないことが原因です。
 
@@ -161,7 +161,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 許可には管理者権限が必要です
 
-**_症状:_**<br>
+**_症状:_ **<br>
 同意を与えるとき、管理者以外のユーザーがアプリケーションに初めてサインインすると、次のいずれかのエラーが返されます。
 
 * ConsentTest は、管理者のみが付与することができる組織内のリソースへのアクセス許可を必要とします。 アプリケーションを使用するには、まず管理者に依頼してこのアプリにアクセス許可を付与してください。
@@ -171,10 +171,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 管理者ユーザーは正常にサインインし、同意を許可することができます。
 
-**_根本原因:_**<br>
+**_根本原因:_ **<br>
 ユーザーの同意がテナントに対して無効です。
 
-**_いくつかの修正方法が可能です:_** 
+**_いくつかの修正方法が可能です:_ **
 
 *テナント全体に対するユーザーの同意を有効にする (すべてのユーザー、すべてのアプリケーション)*
 
@@ -184,6 +184,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
     ![同意テストの修正](media/embedded-troubleshoot/consent-test-02.png)
 
 テナント全体または特定のユーザーのいずれかを対象として、管理者がアプリケーションへの*アクセス許可を付与*します。
+
+### <a name="cs1061-error"></a>CS1061 エラー
+
+ダウンロード[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)が発生した場合、"'AuthenticationContext' に 'AcquireToken' のないアクセス可能な 'AcquireToken' 型の最初の引数を受け付ける定義が含まれていません 'AuthenticationContext' が見つかりませんでした (が存在することを使用して、ディレクティブまたはアセンブリ参照。)"エラー。
 
 ## <a name="data-sources"></a>データ ソース
 

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
 ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430903"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338924"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch の Power BI モバイル アプリでデータを探索する
 Power BI Apple Watch アプリを使用すると、ウォッチ上で Power BI ダッシュボードから KPI とカード タイルを表示できます。 KPI とカード タイルは、小さな画面でハートビートを測定するのに最適です。 iPhone から、または Watch 自体から、ダッシュボードを更新できます。
@@ -39,7 +39,7 @@ Power BI Apple Watch アプリは、2 つの部分で構成されます。
 ## <a name="refresh-a-dashboard-from-your-apple-watch"></a>Apple Watch からダッシュ ボードを更新する
 同期されたダッシュ ボードを Watch から直接更新できます。
 
-* Watch アプリのダッシュボード ビューで、画面を強めに押し、**[更新]** を選びます。
+* Watch アプリのダッシュボード ビューで、画面を強めに押し、 **[更新]** を選びます。
 
 Watch アプリによって、ダッシュボードが Power BI サービスからのデータと同期されます。
 
@@ -52,7 +52,7 @@ Watch アプリによって、ダッシュボードが Power BI サービスか�
 Apple Watch 上のダッシュ ボードを iPhone から更新することもできます。
 
 1. iPhone の Power BI で、Apple Watch と同期するダッシュボードを開きます。 
-2. 省略記号 (...)、**[Watch との同期]** の順に選択します。
+2. 省略記号 (...)、 **[Watch との同期]** の順に選択します。
 
 Power BI では、ダッシュボードがウォッチと同期していることを示すインジケーターが表示されます。
 

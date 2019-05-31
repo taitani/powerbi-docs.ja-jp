@@ -11,11 +11,11 @@ ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276125"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61393246"
 ---
 # <a name="basic-area-chart"></a>基本的な面グラフ
 基本的な面グラフ (層グラフとも呼ばれます) は、折れ線グラフに基づいています。 軸と折れ線の間の領域は、量を示すために色で塗りつぶされます。 
@@ -31,10 +31,10 @@ ms.locfileid: "54276125"
 * 個々の系列が物理的に数えられる集合を表す場合
 
 ### <a name="prerequisites"></a>前提条件
- - ダッシュボード
+ - Power BI サービス
  - 小売りの分析のサンプル
 
-先に進むには、Power BI にサインインして、**[データの取得] \> [サンプル] \> [小売りの分析のサンプル]** を選んでから、**[ダッシュボードに移動]** を選びます。 
+先に進むには、Power BI にサインインして、 **[データの取得] \> [サンプル] \> [小売りの分析のサンプル]** を選んでから、 **[ダッシュボードに移動]** を選びます。 
 
 ## <a name="create-a-basic-area-chart"></a>基本的な面グラフの作成
  
@@ -44,7 +44,7 @@ ms.locfileid: "54276125"
 3. レポートの下部にある黄色の正符号 [+] アイコンを選んで、新しいページを追加します。
 4. 今年の売上と去年の売上を月ごとに表示する面グラフを作成します。
    
-   a. [フィールド] ウィンドウで、**[Sales] \> [Last Year Sales]** を選び、**[This Year Sales] > [Value]** を選びます。
+   a. [フィールド] ウィンドウで、 **[Sales] \> [Last Year Sales]** を選び、 **[This Year Sales] > [Value]** を選びます。
 
    ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "54276125"
    c.  **\[Time] \(時間) \> \[Month] \(月)** を選び、[Month] を **[軸]** に追加します。   
    ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
-   d.  月別にグラフを表示するには、(ビジュアルの右上隅にある) 省略記号を選択し、**[Sort by month]** (月別に並べ替え) を選択します。 並べ替え順序を変更するには、省略記号をもう一度選び、**[昇順で並べ替え]** または **[降順で並べ替え]** を選択します。
+   d.  月別にグラフを表示するには、(ビジュアルの右上隅にある) 省略記号を選択し、 **[Sort by month]** (月別に並べ替え) を選択します。 並べ替え順序を変更するには、省略記号をもう一度選び、 **[昇順で並べ替え]** または **[降順で並べ替え]** を選択します。
 
 ## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
 [フィルター] ウィンドウの使用方法については、「[Power BI でのレポートへのフィルターの追加](../power-bi-report-add-filter.md)」をご覧ください。

@@ -11,11 +11,11 @@ ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276102"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140961"
 ---
 # <a name="dashboard-data-classification"></a>ダッシュボードのデータの分類
 すべてのダッシュボードは異なっており、接続先のデータ ソースによっては、共有を設定した人や共有する同僚がデータの機密性に応じてさまざまな予防措置を講じる必要があります。 社外の人と共有したり印刷したりしてはならないダッシュボードもあれば、自由に共有できるダッシュボードもあります。 ダッシュボードのデータの分類を使用すると、ダッシュボードを見るユーザーの、使用する必要があるセキュリティ レベルについての認識を高めることができます。 会社の IT 部門によって定義された分類でダッシュボードにタグを付けると、コンテンツを見るすべてのユーザーにデータの機密性を同じレベルで理解させることができます。
@@ -47,23 +47,23 @@ ms.locfileid: "54276102"
 
 分類の種類を変更するには、次のようにします。
 
-1. ダッシュボード名の横にある**省略記号**を選択し、**[設定]** を選択して、ダッシュボードの設定に移動します。
+1. ダッシュボード名の横にある**省略記号**を選択し、 **[設定]** を選択して、ダッシュボードの設定に移動します。
    
     ![](media/service-data-classification/dashboard_settings.png)
 2. ダッシュボードの設定では、ダッシュボードの現在の分類を確認でき、ドロップダウンを使用して分類の種類を変更できます。
    
     ![](media/service-data-classification/classification_setting_dropdown.png)
-3. 終了したら、**[適用]** を選択します。
+3. 終了したら、 **[適用]** を選択します。
 
 変更を適用した後は、ダッシュボードを共有するすべてのユーザーに対して、次にダッシュボードの再読み込みを行った時点で、更新した内容が表示されます。
 
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>管理者としてのデータ分類タグの使用
 データの分類は、組織のグローバル管理者によって設定されます。 データの分類を有効にするには、次のようにします。
 
-1. [設定] の歯車を選択し、**[管理ポータル]** を選択します。
+1. [設定] の歯車を選択し、 **[管理ポータル]** を選択します。
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. **[テナント設定]** タブで、**[ダッシュボードとレポート用のデータ分類]** を *[オン]* に切り替えます。
+2. **[テナント設定]** タブで、 **[ダッシュボードとレポート用のデータ分類]** を *[オン]* に切り替えます。
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 
@@ -75,7 +75,7 @@ ms.locfileid: "54276102"
 
 最後に決定する必要があるのは、既定値にする分類の種類です。  
 
-フォームに分類の種類の情報を入力した後、**[適用]** を選択して変更を保存します。
+フォームに分類の種類の情報を入力した後、 **[適用]** を選択して変更を保存します。
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 

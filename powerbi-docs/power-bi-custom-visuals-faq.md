@@ -11,11 +11,11 @@ ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
 ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980360"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977204"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI カスタム ビジュアルに関してよく寄せられる質問
 
@@ -24,7 +24,7 @@ ms.locfileid: "57980360"
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>管理者が組織のカスタム ビジュアルを管理する方法を教えてください。
 
 管理ポータルの [Organizational custom visuals]\(組織のカスタム ビジュアル\) タブから、管理者は[企業内のすべての組織のカスタム ビジュアル](service-admin-portal.md#organizational-visuals)を確認したり、管理 (追加、無効化、有効化、削除) したりできます。
-電子メールや共有フォルダーを使用してこれらのビジュアルを共有する必要はもうありません。 組織のリポジトリに展開すれば、組織のユーザーはこれらを簡単に見つけて、Power BI Desktop またはサービスから直接自分のレポートに組織のカスタム ビジュアルをインポートできます。 組織のカスタム ビジュアルは、*[自分の所属組織]* タブの下にある (デスクトップおよびサービスの) 組み込みのストアから見つけることができます。管理者が組織のカスタム ビジュアルの新しいバージョンをアップロードすると、組織内の全員が同じ更新されたバージョンを取得できます。 レポート作成者が、ビジュアルの新しいバージョンを取得するためにレポート内のビジュアルを削除する必要はありません。これらのビジュアルを使用しているレポートは、すべて自動的に更新されるためです。 更新のメカニズムは、マーケットプレース ビジュアルと似ています。
+電子メールや共有フォルダーを使用してこれらのビジュアルを共有する必要はもうありません。 組織のリポジトリに展開すれば、組織のユーザーはこれらを簡単に見つけて、Power BI Desktop またはサービスから直接自分のレポートに組織のカスタム ビジュアルをインポートできます。 組織のカスタム ビジュアルは、 *[自分の所属組織]* タブの下にある (デスクトップおよびサービスの) 組み込みのストアから見つけることができます。管理者が組織のカスタム ビジュアルの新しいバージョンをアップロードすると、組織内の全員が同じ更新されたバージョンを取得できます。 レポート作成者が、ビジュアルの新しいバージョンを取得するためにレポート内のビジュアルを削除する必要はありません。これらのビジュアルを使用しているレポートは、すべて自動的に更新されるためです。 更新のメカニズムは、マーケットプレース ビジュアルと似ています。
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>管理者がパブリック マーケットプレースから組織のストアにカスタム ビジュアルをアップロードする場合、ベンダーがパブリック マーケットプレースのビジュアルを更新したらそれは自動的に更新されますか?
 
@@ -59,38 +59,38 @@ ms.locfileid: "57980360"
 
 認定済みカスタム ビジュアルとは、[マーケットプレース](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)内のビジュアルで、[特定の](power-bi-custom-visuals-certified.md)コードの要件と Power BI チームによるテストを満たしたもののことです。  実行されたテストは、ビジュアルが外部のサービスやリソースにアクセスしないことを確認するように作られています。 ただし、Microsoft はサードパーティ製のカスタム ビジュアルの作成者ではありません。サードパーティ製のビジュアルの機能については、作成者に直接お問い合わせいただくことをお客様にお勧めしています。
 
-### <a name="what-tests-are-done-during-the-certification-process"></a>認定プロセス中はどのようなテストが行われますか? 
+### <a name="what-tests-are-done-during-the-certification-process"></a>認定プロセス中はどのようなテストが行われますか?
 
 認定プロセスのテストには、次のようなものがあります (ただし、これらに限定されません)。コード レビュー、静的コード分析、データ漏えい、データ ファジー化、侵入テスト、アクセス XSS テスト、悪意のあるデータ挿入、入力の検証、機能テスト。
  
-### <a name="do-you-certify-visuals-every-submission"></a>送信ごとにビジュアルを認定する必要がありますか? 
+### <a name="do-you-certify-visuals-every-submission"></a>送信ごとにビジュアルを認定する必要がありますか?
 
 はい。 認定済みビジュアルの新しいバージョンが Marketplace に送信されるたびに、ビジュアルのバージョン更新プログラムは、同じ証明書チェックを受けます。
 
 開発者向けのメモ: 認定済みのビジュアルのバージョン更新プログラムを送信する場合、[最初の認定要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification)のように電子メールを個別に送信する必要はありません。 バージョン更新プログラムの認定は自動的に行われます。違反が存在しそれが拒否の原因となる場合、修正するには何が必要かを説明するメールが送信されます。 
 
-### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>認定済みビジュアルの新しい更新プログラムに対して行われる認定を停止することはできますか? 
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>認定済みビジュアルの新しい更新プログラムに対して行われる認定を停止することはできますか?
 
 いいえ、それはできません。 認定済みビジュアルの新しい更新プログラムに対する認定を省略することはできません。 更新プログラムは拒否されます。
  
-### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>認定プロセスを受ける場合、自分のコードをパブリック リポジトリで共有する必要がありますか? 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>認定プロセスを受ける場合、自分のコードをパブリック リポジトリで共有する必要がありますか?
 
 いいえ、ご自分のコードをパブリックに共有する必要はありません。 ただし、ビジュアル コードを確認するための読み取りアクセス許可を Microsoft に提供していただく必要があります。 たとえば、 GitHub のプライベート リポジトリ。
  
-### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>ビジュアルを認定するには、それを [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) に[発行](https://docs.microsoft.com/power-bi/developer/office-store)する必要がありますか? 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>ビジュアルを認定するには、それを [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) に[発行](https://docs.microsoft.com/power-bi/developer/office-store)する必要がありますか?
 
 はい。 最初にビジュアルを Marketplace に発行することは、認定のための必須の要件です。
 カスタム ビジュアルを認定するには、それが Microsoft のサーバー内に置かれている必要があります。 プライベート ビジュアルを認定することはできません。
  
-### <a name="how-long-does-it-take-to-certify-my-visual"></a>ビジュアルの認定にはどれくらいの時間がかかりますか? 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>ビジュアルの認定にはどれくらいの時間がかかりますか?
 
 更新されたバージョンについては、最長で 2 週間がかかる場合があります。 新しい送信 (初回の認定) については、最長で 3 週間かかる場合があります。 
 
-### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>認定プロセスでは、データ漏えいが発生しないことが保証されていますか? 
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>認定プロセスでは、データ漏えいが発生しないことが保証されていますか?
 
 実行されたテストは、ビジュアルが外部のサービスやリソースにアクセスしないことを確認するように作られています。 ただし、Microsoft はサードパーティ製のカスタム ビジュアルの作成者ではありません。サードパーティ製のビジュアルの機能については、作成者に直接お問い合わせいただくことをお客様にお勧めしています。
  
-### <a name="are-uncertified-custom-visuals-safe-to-use"></a>認定されていないカスタム ビジュアルは、安全に使用しますか? 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>認定されていないカスタム ビジュアルは、安全に使用しますか?
 
 認定されていないカスタム ビジュアルが安全ではないとは限りません。
 一部のビジュアルは 1 つまたは複数の[認定要件](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)を満たしていないために認定されていません。 たとえば、地図ビジュアルのような外部サービスや商用ライブラリを利用するビジュアルに接続する場合です。
@@ -149,7 +149,7 @@ IAP カスタム ビジュアルを作成している、あるいは既に用意
 
 ### <a name="how-to-get-support"></a>サポートを受ける方法は?
 
-ご質問、ご意見、問題がございましたら、カスタム ビジュアルのサポート チームまでお気軽にお問い合わせください。アドレスは  *pbicvsupport@microsoft.com*  です。  
+ご質問、ご意見、問題がございましたら、カスタム ビジュアルのサポート チームまでお気軽にお問い合わせください。アドレスは  *pbicvsupport@microsoft.com*   です。  
 
 ## <a name="next-steps"></a>次の手順
 

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513127"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel ブック ファイルからデータを取得する
@@ -51,7 +51,7 @@ Power BI のために Excel ブックを準備する方法を学習するには�
 <iframe width="500" height="281" src="https://www.youtube.com/embed/l2wy4XgQIu0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="where-your-workbook-file-is-saved-makes-a-difference"></a>ブック ファイルの保存場所による違い
-**ローカル** - コンピューターのローカル ドライブまたは組織内の別の場所にブック ファイルを保存した場合、ファイルを Power BI に読み込むことができます。 実際はファイルがローカル ドライブに残ったままになるため、本当にファイル全体が Power BI にインポートされるわけではありません。 実際には、Power BI に新しいデータセットが作成され、ブックから取得したデータと (もしあれば) データ モデルがそのデータセットに読み込まれるという処理が発生しています。 ブックに Power View シートが含まれている場合、これらのシートは Power BI サイトの [レポート] の下に表示されます。 また、Excel 2016 には **[発行]** 機能があります (**[ファイル]** メニューの下)。 **[発行]** を使用することは、Power BI で **[データの取得]、[ファイル]、[ローカル ファイル]** を順にクリックするのと事実上同じことです。しかし、ブックに定期的に変更を加えるのであれば、多くの場合 [発行] を使った方が Power BI のデータセットを簡単に更新できます。
+**ローカル** - コンピューターのローカル ドライブまたは組織内の別の場所にブック ファイルを保存した場合、ファイルを Power BI に読み込むことができます。 実際はファイルがローカル ドライブに残ったままになるため、本当にファイル全体が Power BI にインポートされるわけではありません。 実際には、Power BI に新しいデータセットが作成され、ブックから取得したデータと (もしあれば) データ モデルがそのデータセットに読み込まれるという処理が発生しています。 ブックに Power View シートが含まれている場合、これらのシートは Power BI サイトの [レポート] の下に表示されます。 また、Excel 2016 には **[発行]** 機能があります ( **[ファイル]** メニューの下)。 **[発行]** を使用することは、Power BI で **[データの取得]、[ファイル]、[ローカル ファイル]** を順にクリックするのと事実上同じことです。しかし、ブックに定期的に変更を加えるのであれば、多くの場合 [発行] を使った方が Power BI のデータセットを簡単に更新できます。
 
 **OneDrive - ビジネス用** – OneDrive for Business を利用していて、Power BI にサインインするときと同じアカウントを使ってサインインした場合、Excel 内の作業内容と Power BI のデータセット、レポート、およびダッシュボードとを最も効果的に同期できます。Power BI と OneDrive はどちらもクラウドにあるため、Power BI は約 1 時間ごとに OneDrive 上のブック ファイルに*接続*します。 なんらかの変更が見つかった場合には、データセット、レポート、およびダッシュボードが Power BI で自動的に更新されます。 ローカル ドライブにブックを保存した場合と同様に、[発行] を使って Power BI のデータセットとレポートを直ちに更新することもできます。[発行] を実行しなかった場合には、Power BI で (通常 1 時間以内に) 自動的に同期が行われます。
 
@@ -85,16 +85,16 @@ Power BI ではブックを編集できません。 しかし、変更を加え�
 Excel 2016 では、[発行] を選択して [アップロード] することもできます。 これはほぼ同じ機能です。 詳しくは、「[Excel 2016 から Power BI へ発行する](service-publish-from-excel.md)」をご覧ください。
 
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>Power BI から Excel ブックへのインポートまたは接続
-1. Power BI のナビゲーション ウィンドウで、**[データの取得]** をクリックします。
+1. Power BI のナビゲーション ウィンドウで、 **[データの取得]** をクリックします。
    
    ![](media/service-excel-workbook-files/excel_get_data_button.png)
-2. [ファイル]、**[取得]** の順にクリックします。
+2. [ファイル]、 **[取得]** の順にクリックします。
    
    ![](media/service-excel-workbook-files/excel_files_get.png)
 3. 目的のファイルを見つけます。
    
    ![](media/service-excel-workbook-files/excel_find_your_file.png)
-4. 目的のブック ファイルが OneDrive 上または SharePoint - チーム サイト上にある場合、**[インポート]** または **[接続]** を選択します。
+4. 目的のブック ファイルが OneDrive 上または SharePoint - チーム サイト上にある場合、 **[インポート]** または **[接続]** を選択します。
 
 ## <a name="local-excel-workbooks"></a>ローカルな Excel ブック
 ローカルな Excel ファイルを使用し、それを Power BI にアップロードすることもできます。 前のメニューから **[ローカル ファイル]** を選択した後、Excel ブックが保存されている場所に移動します。
@@ -119,7 +119,7 @@ Excel 2016 で **Power BI へ発行する機能**を使うことは、ファイ�
 ## <a name="troubleshooting"></a>トラブルシューティング
 ブック ファイルが大きすぎると考えられる場合は、 「[Power BI で表示する Excel ブックのサイズを減らす](reduce-the-size-of-an-excel-workbook.md)」をご覧ください。
 
-現時点では、[インポート] を選択すると、Power BI は名前付きのテーブルまたはデータ モデルの一部となっているデータのみをインポートします。 その結果、ブックに名前のないテーブル、Power View シート、または Excel データ モデルがあると、次のようなエラーが表示されることがあります:**"Excel ブックにデータが見つかりませんでした"**。 [この記事](service-admin-troubleshoot-excel-workbook-data.md)では、ブックを修正し、再インポートする方法について説明します。
+現時点では、[インポート] を選択すると、Power BI は名前付きのテーブルまたはデータ モデルの一部となっているデータのみをインポートします。 その結果、ブックに名前のないテーブル、Power View シート、または Excel データ モデルがあると、次のようなエラーが表示されることがあります: **"Excel ブックにデータが見つかりませんでした"** 。 [この記事](service-admin-troubleshoot-excel-workbook-data.md)では、ブックを修正し、再インポートする方法について説明します。
 
 ## <a name="next-steps"></a>次の手順
 **データの探索** - ファイルのデータとレポートを Power BI に取得したら、次は探索です。 新しいデータセットを右クリックして [探索] をクリックします。 手順 4. で OneDrive 上のブック ファイルへの接続を選択した場合、ブックは [レポート] に表示されます。 それをクリックすると、Excel Online を使用した場合と同じように Power BI で開かれます。

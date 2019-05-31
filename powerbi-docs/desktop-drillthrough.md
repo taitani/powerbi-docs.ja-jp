@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dffcf8fb3daa7559abd4d3b999ea3a73392d0eb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283118"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375166"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop でドリルスルーを使用する
 **Power BI Desktop** の**ドリルスルー**を利用すると、サプライヤー、顧客、メーカーなど、特定のエンティティに焦点を置くページをレポートに作成できます。 ユーザーは、他のレポート ページでデータ ポイントを右クリックできます。 その後、フォーカスされたページまでドリルスルーし、そのコンテキストに合わせてフィルター処理された詳細を取得できます。
@@ -40,7 +40,7 @@ ms.locfileid: "54283118"
 
 1. **[ホーム]** タブで **[イメージ]** を選択します。 その後、画像を探してドリルスルー ページ上に配置します。
 
-2. ドリルスルー ページで、新しい画像を選択します。 **[形式のイメージ]** セクションで、**[リンク]** スライダーを **[オン]** に設定し、**[種類]** を **[戻る]** に設定します。 これで、その画像が [戻る] ボタンとして機能します。
+2. ドリルスルー ページで、新しい画像を選択します。 **[形式のイメージ]** セクションで、 **[リンク]** スライダーを **[オン]** に設定し、 **[種類]** を **[戻る]** に設定します。 これで、その画像が [戻る] ボタンとして機能します。
 
     ![戻るに画像を使用する](media/desktop-drillthrough/drillthrough_05.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "54283118"
 
 2018 年 5 月バージョンの **Power BI Desktop** 以降では、適用されているすべてのフィルターをドリルスルー ウィンドウに渡すことができます。 たとえば、製品の特定のカテゴリのみを選択し、ビジュアルをそのカテゴリでフィルター処理した状態で、ドリルスルーを選択できます。 すべてのフィルターを適用してドリルスルーを表示できます。
 
-適用されたすべてのフィルターを維持するには、**[視覚化]** ウィンドウの **[ドリルスルー]** セクションで、**[すべてのフィルターを保持する]** トグルを **[オン]** に設定します。 
+適用されたすべてのフィルターを維持するには、 **[視覚化]** ウィンドウの **[ドリルスルー]** セクションで、 **[すべてのフィルターを保持する]** トグルを **[オン]** に設定します。 
 
 ![すべてのフィルターを保持する](media/desktop-drillthrough/drillthrough_06.png)
 
@@ -81,5 +81,6 @@ ms.locfileid: "54283118"
 
 次の記事にも興味をもたれるかもしれません。
 
-* [Power BI Desktop でスライサーを使用する](visuals/desktop-slicers.md)
+* [Power BI Desktop でクロス レポートのドリルスルーを使用します。](desktop-cross-report-drill-through.md)
+* [Power BI Desktop でスライサーを使用する](visuals/power-bi-visualization-slicers.md)
 

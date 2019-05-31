@@ -1,20 +1,20 @@
 ---
 title: Power BI で使用する Azure Active Directory テナントを作成する
 description: Power BI REST API を使用して、カスタム アプリケーションで使用するために新しい Azure Active Directory (Azure AD) テナントを作成する方法を説明します。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
-ms.translationtype: HT
+ms.openlocfilehash: ae3d15cce7c0beb8122542e3768a0ec10ca0a1ae
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473846"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61381695"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI で使用する Azure Active Directory テナントを作成する
 
@@ -71,12 +71,12 @@ Azure AD テナントを作成すると、アプリケーションを定義し�
 2. **[管理]** で **[ユーザーとグループ]** を選択します。
 
     ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
-3. **[すべてのユーザー]**、**[+ 新しいユーザー]** の順に選択します。
-4. このユーザーのユーザー名と名前を入力します。 このユーザーがテナントのグローバル管理者になります。 **[ディレクトリ ロール]** を [*グローバル管理者*] に変更することもできます。 また、一時パスワードを表示することもできます。 完了したら、**[作成]** を選択します。
+3. **[すべてのユーザー]** 、 **[+ 新しいユーザー]** の順に選択します。
+4. このユーザーのユーザー名と名前を入力します。 このユーザーがテナントのグローバル管理者になります。 **[ディレクトリ ロール]** を [*グローバル管理者*] に変更することもできます。 また、一時パスワードを表示することもできます。 完了したら、 **[作成]** を選択します。
 
     ![](media/create-an-azure-active-directory-tenant/global-admin.png)
 
-5. テナント内の通常のユーザーに対してもう一度同じ操作を行うことができます。 これは、マスター埋め込みアカウントに使用することもできます。 今回は、**[ディレクトリ ロール]** は [*ユーザー*] のままにします。 忘れずにパスワードをメモしておきます。 **[作成]** を選択します。
+5. テナント内の通常のユーザーに対してもう一度同じ操作を行うことができます。 これは、マスター埋め込みアカウントに使用することもできます。 今回は、 **[ディレクトリ ロール]** は [*ユーザー*] のままにします。 忘れずにパスワードをメモしておきます。 **[作成]** を選択します。
 
     ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
 6. 手順 5 で作成したユーザー アカウントで Power BI にサインアップします。 これには、[powerbi.com](https://powerbi.microsoft.com/get-started/) に移動し、[*Power BI - クラウド コラボレーションおよび共有*] の下で **[無料試用版]** を選択します。

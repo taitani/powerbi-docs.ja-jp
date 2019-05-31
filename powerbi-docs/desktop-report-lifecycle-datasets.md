@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 02beb69148c347847f346c170651ef31ddd1e786
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275573"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60988017"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop から Power BI サービスのデータセットに接続する
 Power BI サービスの共有データセットへのライブ接続を確立し、同じデータセットから多数の異なるレポートを作成できます。 つまり、Power BI Desktop で完全なデータ モデルを作成し、それを Power BI サービスに発行した後、その同じ共通のデータ モデルから複数の異なるレポート (異なる .pbix ファイル) を作成できます。 この機能は、**Power BI サービス ライブ接続**と呼ばれます。
@@ -77,9 +77,8 @@ Anna が自分のレポート (および、その基になるデータセット)
 次に、レポート (とデータセット) が発行されたワークスペースにアクセスできる他のチームメートが、データセットに接続して独自のレポートを作成する方法を説明します。
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>発行されたデータセットへの Power BI サービス ライブ接続を確立する
-発行されたレポートへの接続を確立し、発行されたデータセットを基にして独自のレポートを作るには、**Power BI Desktop** の **[ホーム]** リボンで **[データの取得]** を選び、**[Power BI サービス]** を選びます。 **[データの取得] > [オンライン サービス] > [Power BI サービス]** から選ぶこともできます。
+パブリッシュされたレポートへの接続を確立し、発行されたデータセットに基づいて、独自のレポートを作成する選択**データの取得**から、**ホーム**リボンで**Power BI Desktop**、選択**Power BI**選択し、左側のウィンドウから**Power BI データセット**します。
 
-![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
 Power BI にサインインしていない場合は、サインインするように促されます。 ログインすると、自分がメンバーであるワークスペースを示すウィンドウが表示され、**Power BI サービス ライブ接続**の確立先データセットを含むワークスペースを選ぶことができます。
 

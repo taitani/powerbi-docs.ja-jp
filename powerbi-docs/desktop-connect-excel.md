@@ -12,16 +12,16 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fb282ed4b2851bfbdf520d18b29d03af88e6eb03
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513658"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Power BI Desktop で Excel に接続する
 Power BI Desktop から Excel ブックには簡単に接続できます。この記事ではその手順を説明します。
 
-Power BI Desktop の **[ホーム]** リボンで、**[データの取得]、[Excel]** の順に選択します。
+Power BI Desktop の **[ホーム]** リボンで、 **[データの取得]、[Excel]** の順に選択します。
 
 ![](media/desktop-connect-excel/connect_to_excel_1.png)
 
@@ -32,7 +32,7 @@ Power BI Desktop の **[ホーム]** リボンで、**[データの取得]、[Ex
 
 ![](media/desktop-connect-excel/connect_to_excel_3.png)
 
-[読み込み] ボタンを選択してデータをインポートできます。または、Power BI Desktop に取り込む前に **[クエリ エディター]** を使ってデータを編集したい場合は、**[編集]** ボタンを選択します。
+[読み込み] ボタンを選択してデータをインポートできます。または、Power BI Desktop に取り込む前に **[クエリ エディター]** を使ってデータを編集したい場合は、 **[編集]** ボタンを選択します。
 
 データを読み込むと、Power BI Desktop の **[読み込み]** ウィンドウにデータの読み込みに関連するアクティビティが表示されます。  
 

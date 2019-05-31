@@ -1,5 +1,5 @@
 ---
-title: Power BI データフロー用の開発者向けリソース (プレビュー)
+title: Power BI のデータフローに関する開発者向けリソース
 description: 開発と Power BI データフローに関するリソースを探します
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 20bd8cd06e2a183d284752dc378a8aa1440c3aef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274699"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136765"
 ---
-# <a name="developer-resources-for-power-bi-dataflows-preview"></a>Power BI データフロー用の開発者向けリソース (プレビュー)
+# <a name="developer-resources-for-power-bi-dataflows"></a>Power BI のデータフローに関する開発者向けリソース
 
 Power BI サービス内でエンティティを作成するか接続し、それを Power BI Desktop に接続することにより、コードなしでデータフローを使用するいろいろな方法があります。 多くの組織では、独自のソリューションを柔軟に開発することが望まれます。 この記事では、Power BI REST API とその他の開発者向けリソースに関する情報を提供します。
 
@@ -38,8 +38,8 @@ Power BI データフローに関する作業については、次の開発者�
 
 * [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
-* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
+* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
 
 CDM による開発とチュートリアル リソースについて詳しくは、次をご覧ください。
 * [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)

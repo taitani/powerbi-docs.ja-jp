@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 57a285b075b17b2229ec4267a476cdd4b86ea7ad
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513608"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
@@ -32,7 +32,7 @@ ms.locfileid: "65513608"
 * レポートに基づいて新しいダッシュ ボードを作成し、最後に、
 * 同僚とダッシュボードを共有する
 
-このチュートリアルの手順に従うには、**AdventureworksDW2012** データベース (**[リポジトリ](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** からダウンロードできます) が必要です。
+このチュートリアルの手順に従うには、**AdventureworksDW2012** データベース ( **[リポジトリ](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** からダウンロードできます) が必要です。
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>タスク 1:ユーザーのセキュリティ テーブルを作成し、データのリレーションシップを定義する
 **SQL Server Analysis Services (SSAS) 表形式**モデルを使用して行レベルの動的なセキュリティを定義する方法を説明する記事は多数あります。 サンプルについては、記事「[行フィルターを使用した動的なセキュリティの実装](https://msdn.microsoft.com/library/hh479759.aspx)」を参照してください。 以下の手順では、このチュートリアルの最初のタスクについて説明します。
@@ -40,7 +40,7 @@ ms.locfileid: "65513608"
 1. サンプルでは、**AdventureworksDW2012** リレーショナル データベースを使用します。 そのデータベースで、次の図のように、**DimUserSecurity** テーブルを作成します。 このサンプルでは、SQL Server Management Studio (SSMS) を使用してテーブルを作成します。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
-2. テーブルが作成され、保存されたら、次の図のように、**DimUserSecurity** テーブルの **SalesTerritoryID** 列と **DimSalesTerritory** テーブルの **SalesTerritoryKey** 列の間にリレーションシップを作成する必要があります。 この作業は **SSMS** から行うことができます。その場合、**DimUserSecurity** テーブルを右クリックして、**[デザイン]** を選択します。 メニューから、**[テーブル デザイナー]、[リレーションシップ]** の順に選択します。
+2. テーブルが作成され、保存されたら、次の図のように、**DimUserSecurity** テーブルの **SalesTerritoryID** 列と **DimSalesTerritory** テーブルの **SalesTerritoryKey** 列の間にリレーションシップを作成する必要があります。 この作業は **SSMS** から行うことができます。その場合、**DimUserSecurity** テーブルを右クリックして、 **[デザイン]** を選択します。 メニューから、 **[テーブル デザイナー]、[リレーションシップ]** の順に選択します。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
 3. テーブルを保存し、もう一度 **DimUserSecurity** テーブルを右クリックしてから **[上位 200 行の編集]** を選択して、テーブルにユーザー情報の行をいくつか追加します。 これらのユーザーを追加すると、**DimUserSecurity** テーブルの行は次の図のようになります。
@@ -60,11 +60,11 @@ ms.locfileid: "65513608"
 2. 次に示すように、モデルに必要なすべてのテーブルをインポートします。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
-3. 必要なテーブルをインポートしたら、**読み取り**権限を持つ **SalesTerritoryUsers** という役割を定義する必要があります。 これを行うには、SQL Server Data Tools で **[モデル]** メニューをクリックしてから **[ロール]** をクリックします。 **[ロール マネージャー]** ダイアログ ボックスで、**[新規]** をクリックします。
+3. 必要なテーブルをインポートしたら、**読み取り**権限を持つ **SalesTerritoryUsers** という役割を定義する必要があります。 これを行うには、SQL Server Data Tools で **[モデル]** メニューをクリックしてから **[ロール]** をクリックします。 **[ロール マネージャー]** ダイアログ ボックスで、 **[新規]** をクリックします。
 4. **[ロール マネージャー]** の **[メンバー]** タブで、**タスク 1 の手順 3.** で **DimUserSecurity** テーブルに定義したユーザーを追加します。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager.png)
-5. 次に、**[行フィルター]** タブの下に示されている **DimSalesTerritory** と **DimUserSecurity** の両方のテーブルに適切な関数を追加します。
+5. 次に、 **[行フィルター]** タブの下に示されている **DimSalesTerritory** と **DimUserSecurity** の両方のテーブルに適切な関数を追加します。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
 6. この手順では、**LOOKUPVALUE** 関数を使用して、Windows ユーザー名が **USERNAME** 関数によって返されるユーザー名と同じである列の値を返すようにします。 これで、**LOOKUPVALUE** によって返される値が同じテーブルまたは関連テーブルの値と一致した場合に、クエリを制限できます。 **[DAX フィルター]** 列に、次の数式を入力します。
@@ -76,7 +76,7 @@ ms.locfileid: "65513608"
     > 行レベルのセキュリティを使用している場合、DAX 関数の [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) はサポートされないことに注意してください。
 
    次に、**LOOKUPVALUE** によって返される Sales セットの SalesTerritoryKey を使用して、**DimSalesTerritory** に示される行が制限されます。 行の **SalesTerritoryKey** が **LOOKUPVALUE** 関数によって返される ID セット内にある行のみが表示されます。
-8. **DimUserSecurity** テーブルについては、**[DAX フィルター]** 列に、次の数式を入力します。
+8. **DimUserSecurity** テーブルについては、 **[DAX フィルター]** 列に、次の数式を入力します。
    
        =FALSE()
 
@@ -85,29 +85,29 @@ ms.locfileid: "65513608"
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>タスク 3:オンプレミス データ ゲートウェイ内のデータ ソースを追加する
 1. 表形式モデルをデプロイし、使用できるようになったら、Power BI ポータルでオンプレミスの Analysis Services 表形式サーバーへのデータ ソース接続を追加する必要があります。
-2. **Power BI サービス** がオンプレミスの分析サービスにアクセスできるようにするには、使用している環境で**[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)** をインストールして構成する必要があります。
+2. **Power BI サービス** がオンプレミスの分析サービスにアクセスできるようにするには、使用している環境で **[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)** をインストールして構成する必要があります。
 3. ゲートウェイを正しく構成したら、**Analysis Services** 表形式インスタンス用のデータ ソース接続を作成する必要があります。 この記事は、[Power BI ポータルでデータ ソースを追加する](service-gateway-enterprise-manage-ssas.md)場合に役立ちます。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 4. 前の手順が完了していれば、ゲートウェイは構成されており、オンプレミスの **Analysis Services** データ ソースと対話できるようになっています。
 
 ## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>タスク 4:Power BI Desktop を使用して Analysis Services 表形式モデルに基づくレポートを作成する
-1. **Power BI Desktop** を起動して、**[データの取得]、[データベース]** の順に選択します。
-2. データ ソースのリストから、**[SQL Server Analysis Services データベース]** を選択して、**[接続]** を選択します。
+1. **Power BI Desktop** を起動して、 **[データの取得]、[データベース]** の順に選択します。
+2. データ ソースのリストから、 **[SQL Server Analysis Services データベース]** を選択して、 **[接続]** を選択します。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
-3. **Analysis Services** 表形式インスタンスの詳細を入力して、**[ライブ接続]** を選択します。 **[OK]** を選択します。 **Power BI** では、動的セキュリティは**ライブ接続**でのみ機能します。
+3. **Analysis Services** 表形式インスタンスの詳細を入力して、 **[ライブ接続]** を選択します。 **[OK]** を選択します。 **Power BI** では、動的セキュリティは**ライブ接続**でのみ機能します。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
-4. **Analysis Services** インスタンスにデプロイされたモデルが表示されます。 該当するモデルを選択して、**[OK]** を選択します。
+4. **Analysis Services** インスタンスにデプロイされたモデルが表示されます。 該当するモデルを選択して、 **[OK]** を選択します。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
-5. これで、**Power BI Desktop** では、**[フィールド]** ウィンドウのキャンバスの右側に使用可能なフィールドがすべて表示されます。
+5. これで、**Power BI Desktop** では、 **[フィールド]** ウィンドウのキャンバスの右側に使用可能なフィールドがすべて表示されます。
 6. 右側の **[フィールド]** ウィンドウで、**FactInternetSales** テーブルからは **SalesAmount** メジャーを、**SalesTerritory** テーブルからは **SalesTerritoryRegion** ディメンションを選択します。
 7. このレポートをシンプルなものにしておくために、この時点では列を追加しません。 データをよりわかりやすくするために、視覚エフェクトを**ドーナツ グラフ**表示に切り替えます。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
-8. レポートの準備ができたら、Power BI ポータルに直接発行できます。 **Power BI Desktop** の **[ホーム]** リボンで、**[発行]** を選択します。
+8. レポートの準備ができたら、Power BI ポータルに直接発行できます。 **Power BI Desktop** の **[ホーム]** リボンで、 **[発行]** を選択します。
 
 ## <a name="task-5-creating-and-sharing-a-dashboard"></a>タスク 5:ダッシュボードを作成して共有する
 1. レポートを作成し、**Power BI Desktop** で **[発行]** をクリックしたため、レポートは **Power BI** サービスに発行されます。 これで、サービスで、前の手順で作成した例を使用してモデル セキュリティ シナリオを示すことができます。
@@ -129,7 +129,7 @@ ms.locfileid: "65513608"
 
 ## <a name="task-6-understanding-what-happens-behind-the-scenes"></a>タスク 6:バックグラウンドでの動作を理解する
 1. このタスクは SQL Profiler に慣れていることを前提とします。オンプレミスの SSAS 表形式インスタンスで SQL Server プロファイラー トレースをキャプチャする必要があるためです。
-2. ユーザー (ここでは Jon Doe) が Power BI サービスのダッシュ ボードにアクセスすると、すぐにセッションが初期化されます。 **salesterritoryusers** 役割は、**<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>** などの有効なユーザー名ですぐに有効になることがわかります。
+2. ユーザー (ここでは Jon Doe) が Power BI サービスのダッシュ ボードにアクセスすると、すぐにセッションが初期化されます。 **salesterritoryusers** 役割は、 **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>** などの有効なユーザー名ですぐに有効になることがわかります。
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
 3. 有効なユーザー名要求に基づいて、Analysis Services は、ローカルの Active Directory のクエリの実行後に実際の moonneo\jondoe 資格情報に要求を変換します。 **Analysis Services** が Active Directory から実際の資格情報を取得すると、データに対するユーザーのアクセス許可に基づき、**Analysis Services** はそのユーザーがアクセス許可を持つデータのみを返します。

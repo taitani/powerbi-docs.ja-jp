@@ -12,11 +12,11 @@ ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Getting started
 ms.openlocfilehash: d828748cf4b625ee555bbc98b91b3ec0c6d85365
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661452"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049886"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI サービスにサインインする
 
@@ -67,7 +67,7 @@ Power BI を閉じるには、作業しているブラウザー タブを閉じ�
 
 ![[x] を選択してタブを閉じる](media/end-user-sign-in/power-bi-close.png) 
 
-コンピューターを共有している場合は、Power BI を閉じるたびにサインアウトすることをお勧めします。  サインアウトするには、右上隅にあるプロファイルの画像を選択して、**[サインアウト]** を選択します。それ以外の場合は、完了したら単にブラウザーのタブを閉じます。
+コンピューターを共有している場合は、Power BI を閉じるたびにサインアウトすることをお勧めします。  サインアウトするには、右上隅にあるプロファイルの画像を選択して、 **[サインアウト]** を選択します。それ以外の場合は、完了したら単にブラウザーのタブを閉じます。
 
 ![プロファイルの選択](media/end-user-sign-in/power-bi-sign-out.png) 
 

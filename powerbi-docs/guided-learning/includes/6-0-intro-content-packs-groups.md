@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f81300becc8a79b8a169aebe2ce3c56991c03262
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256258"
+---
 Power BI の**ガイド付き学習**コースの「**発行と共有**」セクションへようこそ。
 
 Excel と Power BI がシームレスに共同して動作する方法や、レポートとダッシュボードで作成するビジュアルについてすべて説明しましたので、同僚や友人と共有することができます。 Power BI では、**発行と共有**は簡単に実行できます。

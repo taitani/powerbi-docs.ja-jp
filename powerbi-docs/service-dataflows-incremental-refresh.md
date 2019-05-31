@@ -1,23 +1,23 @@
 ---
 title: Power BI データフローでの増分更新の使用
 description: データフローの増分更新を構成する方法を学びます
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
-ms.author: davidi
+ms.date: 04/02/2019
+ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 224fc07fccc2b12b0a28c016f427a4d5f4613290
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293712"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136662"
 ---
-# <a name="using-incremental-refresh-with-power-bi-dataflows-preview"></a>Power BI データフローでの増分更新の使用 (プレビュー)
+# <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Power BI データフローでの増分更新の使用
 
 データフローを使用すると、Power BI に大量のデータを取り込んで、説得力のあるレポートと分析を作成できます。 ただし、場合によっては、更新のたびにソース データの完全なコピーを更新するのが実際的ではないことがあります。 そのような場合に適している別の方法は**増分更新**であり、データフローに対して次のような利点があります。
 
@@ -27,23 +27,23 @@ ms.locfileid: "54293712"
 
 ![データフローの増分更新](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_03.png)
 
-Power BI のデータフローに対して増分更新を使用するには、データフローが存在するワークスペースが [Premium 容量](service-premium.md)内で実行されている必要があり、データフローに取り込まれるデータ ソースに増分更新でフィルター処理できる *datetime* フィールドが含まれる必要があります。 
+Power BI のデータフローに対して増分更新を使用するには、データフローが存在するワークスペースが [Premium 容量](service-premium-what-is.md)内で実行されている必要があり、データフローに取り込まれるデータ ソースに増分更新でフィルター処理できる *datetime* フィールドが含まれる必要があります。 
 
 ## <a name="configuring-incremental-refresh-for-dataflows"></a>データフローの増分更新の構成
 
 データ フローには多数のエンティティが含まれることがあります。 増分更新はエンティティ レベルで設定されるので、1 つのデータ フローで、完全に更新されるエンティティと増分更新されるエンティティの両方を保持することができます。
 
-増分更新されるエンティティを設定するには、最初に他のエンティティと同じようにエンティティを構成します。 データフローの設定について詳しくは、「[Power BI でのセルフサービスのデータ準備 (プレビュー)](service-dataflows-overview.md)」をご覧ください。
+増分更新されるエンティティを設定するには、最初に他のエンティティと同じようにエンティティを構成します。 データ フローの設定の詳細については、次を参照してください。[セルフ サービスのデータ準備の Power BI で](service-dataflows-overview.md)します。
 
 データフローを作成して保存した後、次の図のように、エンティティ ビューで **[増分更新]** アイコンを選択します。
 
 ![データフローの増分更新アイコン](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_01.png)
 
-アイコンをクリックすると、**[増分更新の設定]** ウィンドウが表示されます。 増分更新を **[オン]** 位置に切り替えるときに、増分更新を構成することができます。
+アイコンをクリックすると、 **[増分更新の設定]** ウィンドウが表示されます。 増分更新を **[オン]** 位置に切り替えるときに、増分更新を構成することができます。
 
 ![データフローの増分更新](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_03.png)
 
-次の一覧では、**[増分更新の設定]** ウィンドウでの設定を説明します。 
+次の一覧では、 **[増分更新の設定]** ウィンドウでの設定を説明します。 
 
 1. **増分更新のオン/オフ切り替え** – このスライダーで、エンティティに対する増分更新ポリシーのオン/オフを切り替えます
 2. **フィルター フィールドのドロップダウン** – エンティティで増分のフィルター処理を行う必要があるクエリ フィールドを選択します。 このフィールドには、*datetime* フィールドのみが含まれます。 エンティティに *datetime* フィールドが含まれていない場合は、増分更新を使用できません。
@@ -156,8 +156,8 @@ Power BI のデータフローに対して増分更新を使用するには、�
 
 * [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
-* [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
+* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
 
 Power Query とスケジュールされた更新について詳しくは、次の記事をご覧ください。
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)

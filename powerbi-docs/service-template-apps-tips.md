@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: 282638c7c1c8a60ee93292602766d63fd0fe436e
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 83049a16ecd42b41375da57a5a99a374596a9846
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249854"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514862"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi-preview"></a>Power BI でのテンプレート アプリの作成に関するヒント (プレビュー)
 
@@ -23,7 +23,8 @@ Power BI で[テンプレート アプリを作成する](service-template-apps-
 * **クエリ**では、データを[接続](desktop-connect-to-data.md)して[変換](desktop-query-overview.md)し、[パラメーター](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)を定義します。 
 * **データ モデル**では、[リレーションシップ](desktop-create-and-manage-relationships.md)、[メジャー](desktop-measures.md)、および Q&A の機能強化を作成します。  
 * **[レポート ページ](desktop-report-view.md)** には、データに対する分析情報を提供するためのビジュアルとフィルターが含まれます。  
-* **[ダッシュボード](consumer/end-user-dashboards.md)** と[タイル](service-dashboard-create.md)では、含まれている分析情報の概要が提供されます。  
+* **[ダッシュボード](consumer/end-user-dashboards.md)** と[タイル](service-dashboard-create.md)では、含まれている分析情報の概要が提供されます。
+* サンプル データは、インストール後すぐにアプリを探索可能にします。
 
 既存の Power BI 機能など、各部分について精通しているかもしれません。 テンプレート アプリを構築するとき、各部分について考慮すべき追加事項があります。 詳細については、以下の各セクションを参照してください。
 
@@ -38,7 +39,7 @@ Power BI で[テンプレート アプリを作成する](service-template-apps-
 Power BI Desktop の難しい設定のいらないデータ コネクタを利用し、API に接続できます。 Web データ コネクタ ([データの取得]、[Web]) を利用して Rest API に接続するか、OData コネクタ ([データの取得]、[OData]) を利用して OData フィードに接続できます。 これらのコネクタは、API が基本認証に対応している場合にのみ、何も設定しなくても動作します。
 
 > [!NOTE]
-> API で OAuth 2.0 や Web API キーなどの他の種類の認証が使用されている場合は、Power BI Desktop が API に正常に接続されて認証されるように、独自のデータ コネクタを作成する必要があります。 テンプレート アプリ用に独自のデータ コネクタを作成する方法については、[データ コネクタのドキュメント](https://aka.ms/DataConnectors)を参照してください。 
+> API で OAuth 2.0 や Web API キーなどの他の種類の認証が使用されている場合は、Power BI Desktop が API に正常に接続されて認証されるように、独自のデータ コネクタを作成する必要があります。 PBI サービス テンプレートのアプリのインストーラーによってアクセスできるように、カスタム コネクタを追加する必要があります。 <br> テンプレート アプリ用に独自のデータ コネクタを作成する方法については、[データ コネクタのドキュメント](https://aka.ms/DataConnectors)を参照してください。 
 >
 >
 
@@ -70,8 +71,6 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 
 > [!NOTE]
 > 基本的なモデリング (型指定と列名) の多くは、[クエリ](#queries)で作業する必要があります。
->
-
 
 ### <a name="qa"></a>Q&A
 モデリングはまた、Q&A が顧客に対してどれほど結果を提供できるかに影響します。 確実に、通常使用される列にシノニムを追加し、列が[クエリ](#queries)で適切に命名されているようにします。
@@ -79,8 +78,9 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 ### <a name="additional-data-model-tips"></a>追加のデータ モデルのヒント
 
 以下のことを行ったことを確認します。
+
 * すべての値列に書式設定を適用した。 クエリで型を適用する。  
-* すべてのメジャーに書式設定を適用した。 
+* すべてのメジャーに書式設定を適用した。
 * 既定の概要作成を設定した。 特に該当する場合には、"概要作成しない" (たとえば一意の値の場合など)。  
 * 該当する場合、データ カテゴリを設定した。  
 * 必要に応じて、リレーションシップを設定した。  
@@ -88,10 +88,6 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 ## <a name="reports"></a>レポート
 レポートのページでは、テンプレート アプリに含まれるデータへの追加の分析情報を提供します。 レポートのページを使用して、テンプレート アプリが処理しようとしている主要なビジネス上の質問に回答します。 Power BI Desktop を使用して、レポートを作成します。
 
-> [!NOTE]
-> テンプレート アプリに含めることができるレポートは 1 つだけなので、シナリオの特定のセクションを呼び出すためには異なるページを使用します。
->
->
 
 ### <a name="additional-report-tips"></a>追加のレポートに関するヒント
 
@@ -110,10 +106,6 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 
 テンプレート アプリのためのダッシュボードを作成するには、[データを取得] から [ファイル] を介して PBIX をアップロードするだけ、または Power BI Desktop から直接発行するだけです。
 
-> [!NOTE]
-> 現在は、テンプレート アプリごとに 1 つのレポートとデータセットが必要です。 テンプレート アプリで使用されるダッシュボードに複数のレポートまたはデータセットからのコンテンツをピン留めしないでください。
->
->
 
 ### <a name="additional-dashboard-tips"></a>追加のダッシュボードのヒント
 
@@ -123,18 +115,38 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 * すべてのダッシュボード タイルには適切なタイトルおよびサブタイトルが必要である。  
 * 垂直または水平方向など、さまざまなシナリオに対応するダッシュボードのグループ化を検討する。  
 
+## <a name="sample-data"></a>サンプル データ
+テンプレート アプリ、アプリの作成段階では、一部としてラップしますキャッシュ データ、アプリの一部としてワークスペースに。
+
+* データを接続する前に、機能と、アプリの目的を理解するためにインストーラーを使用できます。
+* アプリのデータセットの接続が行われるアプリの機能をさらに表示するインストーラーを駆動するエクスペリエンスを作成します。
+
+アプリを作成する前に品質のサンプル データを含めることをお勧めします。 アプリのレポートとダッシュ ボードがデータを設定することを確認します。
+
+## <a name="publishing-on-appsource"></a>AppSource に発行
+テンプレート アプリでは、AppSource に発行することができます、AppSource にアプリを送信する前にこれらのガイドラインに従ってください。
+
+* インストーラーをアプリが実行できる内容を理解するのに役立つサンプル データを魅力的にテンプレートのアプリを作成するかどうかを確認 (空のレポートとダッシュ ボードは承認されません)。
+テンプレート アプリでは、サンプル アプリのデータのみをサポートで、静的なアプリのチェック ボックスを確認することを確認します。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* 資格情報とデータに接続するために必要なパラメーターを含むを実行する検証チームの命令があります。
+* アプリケーションは、Power BI では、CPP プランでアプリのアイコンを含める必要があります。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* ランディング ページを構成します。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* ドキュメントを実行することを確認[Power BI アプリ プラン](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)します。
+* 場合に、アプリの一部をダッシュ ボードには、空でないことを確認します。
+* 送信する前に、アプリのリンクを使用してアプリのインストールをデータセットを接続して、アプリのエクスペリエンスが計画どおりにかどうかを確認します。
+* テンプレート アプリ ワークスペースに bpix をアップロードする前に、不要な接続をアンロードしてください。
+* 次の Power BI[デザインに関するベスト プラクティス レポートとビジュアルの](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)ユーザーおよび配布用の承認を得る最大への影響を実現するためにします。
+
 ## <a name="known-limitations"></a>既知の制限事項
 
-| おすすめ | 既知の制限事項 |
+| 特性 | 既知の制限事項 |
 |---------|---------|
 |コンテンツ:データセット   | 厳密に 1 つのデータセットが存在する必要があります。 Power BI Desktop で作成されたデータセット (.pbix ファイル) だけが許可されます。 <br>非サポート:他のテンプレート アプリからのデータセット、クロス ワークスペース データセット、改ページ調整されたレポート (.rdl ファイル)、Excel ブック |
-|コンテンツ:レポート     | 最大でも 1 つのレポート    |
-| コンテンツ:ダッシュボード | 最大でも 1 つの空ではないダッシュボード <br>非サポート:リアルタイム タイル (つまり、PushDataset や pubnub はサポートされません) |
-| コンテンツ:データフロー | 非サポート:データフロー |
-| ファイルからのコンテンツ | PBIX ファイルのみが許可されます。 <br>非サポート: .rdl ファイル (改ページ調整されたレポート)、Excel ブック   |
-| データ ソース | クラウドのスケジュールされたデータ更新がサポートされているデータ ソースは許可されます。 <br>非サポート: <br>DirectQuery <br>ライブ接続 (Azure AS なし) <br>オンプレミスのデータ ソースが (パーソナル ゲートウェイとエンタープライズ ゲートウェイはサポートされていません) <br>リアルタイム (pushdataset はサポートされていません) <br>複合モデル |
+|コンテンツ:ダッシュボード | リアルタイム タイルが使用できない (つまり、プッシュまたはストリーミング データセットのなしのサポートなど) |
+|コンテンツ:データフロー | 非サポート:データフロー |
+|ファイルからのコンテンツ | PBIX ファイルのみが許可されます。 <br>非サポート: .rdl ファイル (改ページ調整されたレポート)、Excel ブック   |
+| データ ソース | クラウドのスケジュールされたデータ更新がサポートされているデータ ソースは許可されます。 <br>非サポート: <li> DirectQuery</li><li>ライブ接続 (Azure AS なし)</li> <li>オンプレミス データ ソースが (パーソナル ゲートウェイとエンタープライズ ゲートウェイはサポートされていません)</li> <li>リアルタイム (プッシュ データセットのサポートはありません)</li> <li>複合モデル</li></ul> |
 | データセット: クロスワークスペース | クロスワークスペースのデータセットは許可されません  |
-| コンテンツ:ダッシュボード | リアルタイム タイルは許可されません (つまり、PushDataset や pubnub はサポートされません) |
 | クエリ パラメーター | 非サポート:"Any" 型のパラメーターまたはデータセットの "Binary" 型のブロック更新操作 |
 | カスタム ビジュアル | パブリックに使用可能なカスタム ビジュアルのみがサポートされます。 [組織のカスタム ビジュアル](power-bi-custom-visuals-organization.md)はサポートされません |
 

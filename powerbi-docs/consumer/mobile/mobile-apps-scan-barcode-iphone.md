@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
 ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291351"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137330"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>iPhone で Power BI モバイル アプリからバーコードをスキャンする
 現実世界でバーコードをスキャンし、Power BI モバイル アプリでフィルターされた BI 情報に直接アクセスできます。
@@ -45,8 +45,8 @@ iPhone の Power BI アプリのスキャナーで製品バーコードをスキ
 いずれの方法でも、アイコンをタップすると浮動スキャナーがある小さなメニューが開きます。
 
 * スキャナーを新しい項目に移動すると、レポートのフィルターは別のバーコード値に変わります。 
-* フィルターされていないレポートに戻るには、**[Clear barcode filter]** (バーコード フィルターのクリア) を選択します。
-* レポート フィルターを、現在のセッション内でスキャンしたバーコードのいずれかに変更するには、**[Filter by recent barcodes]** (最近のバーコードでフィルター) を選択します。
+* フィルターされていないレポートに戻るには、 **[Clear barcode filter]** (バーコード フィルターのクリア) を選択します。
+* レポート フィルターを、現在のセッション内でスキャンしたバーコードのいずれかに変更するには、 **[Filter by recent barcodes]** (最近のバーコードでフィルター) を選択します。
 
 ## <a name="issues-with-scanning-a-barcode"></a>バーコードのスキャンに関する問題
 ここでは、製品でバーコードをスキャンするときに表示される可能性があるメッセージについて説明します。
@@ -58,7 +58,7 @@ iPhone の Power BI アプリのスキャナーで製品バーコードをスキ
 スキャンしたバーコード値はモデル内に存在しますが、レポートのすべてまたは一部のビジュアルに、この値が含まれていないため、フィルターから空の状態が返されます。 他のレポート ページを見るか、Power BI デスクトップでレポートを編集してこの値を含めます。 
 
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>"バーコードでフィルターをかけられるレポートはお持ちでないようです。"
-これは、バーコード対応のレポートがないことを示します。 バーコード スキャナーは、**[バーコード]** とマークされた列があるレポートのみをフィルターできます。  
+これは、バーコード対応のレポートがないことを示します。 バーコード スキャナーは、 **[バーコード]** とマークされた列があるレポートのみをフィルターできます。  
 
 自分またはレポート所有者が Power BI Desktop で列に **[バーコード]** とタグを付けていることを確認します。 詳細については、[Power BI Desktop でバーコード フィールドにタグを付ける方法](../../desktop-mobile-barcodes.md)に関するページを参照してください。
 

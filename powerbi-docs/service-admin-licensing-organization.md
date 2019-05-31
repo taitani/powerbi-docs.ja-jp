@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383240"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099842"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織での Power BI のライセンス
 
@@ -27,9 +27,15 @@ ms.locfileid: "58383240"
 
 管理者は、Power BI Pro のライセンスを購入して割り当て、組織で Power BI Pro の試用版にサインアップできます。 Power BI Pro の試用版には、個人としてサインアップすることも可能です。
 
-### <a name="purchasing-power-bi-pro"></a>Power BI Pro を購入する
+### <a name="purchase-power-bi-pro"></a>Power BI Pro を購入する
 
 Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft 認定パートナーから購入することができます。 ライセンスを購入したら、それを個々のユーザーに割り当てます。 詳細については、「[Power BI Pro のライセンスを購入して割り当てる](service-admin-purchasing-power-bi-pro.md)」を参照してください。
+
+### <a name="power-bi-pro-license-expiration"></a>Power BI Pro ライセンスの有効期限
+
+Power BI Pro ライセンスの有効期限切れ後には猶予期間があります。 ライセンスがボリューム ライセンス契約の一部である場合、猶予期間は 90 日です。 ライセンスを直接購入した場合、猶予期間は 30 日です。
+
+Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳細については、次を参照してください。[ビジネス サブスクリプションの場合は、Office 365 の終了時に、データとアクセスに起こるでしょうか。](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)します。
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>Power BI Pro の個人向け試用版
 
@@ -49,7 +55,7 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
 1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)に移動します。
 
-1. 左側のナビゲーション ウィンドウで、**[課金]**、**[サブスクリプション]** の順に選択します。
+1. 左側のナビゲーション ウィンドウで、 **[課金]** 、 **[サブスクリプション]** の順に選択します。
 
    ![課金およびサブスクリプション](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
@@ -57,7 +63,7 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
    ![サブスクリプションの追加](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
 
-1. **[その他のプラン]** で、Power BI Pro の省略記号 (**. . .**) にマウスを合わせ、**[無料試用を開始]** を選択します。
+1. **[その他のプラン]** で、Power BI Pro の省略記号 ( **. . .** ) にマウスを合わせ、 **[無料試用を開始]** を選択します。
 
    ![無料試用版の開始](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-07.png) 
 
@@ -81,7 +87,7 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
 このライセンス ブロックは、だれかが最初に Power BI に個人としてサインアップした後で利用できます。 このライセンス ブロックは、その処理時に組織に関連付けられ、サインアップするユーザーにライセンスが割り当てられます。
 
-1. Microsoft 365 管理センターの **[課金]** > **[ライセンス]** で **[無制限]** を確認します。
+1. Microsoft 365 管理センターの **[課金]**  >  **[ライセンス]** で **[無制限]** を確認します。
 
     ![無制限の無料ライセンス ブロック](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -95,15 +101,15 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
 1. [Microsoft 365 管理センター](https://portal.office.com/admin/default.aspx)に移動します。
 
-1. 左側のナビゲーション ウィンドウで、**[課金]** > **[サブスクリプション]** を選択します。
+1. 左側のナビゲーション ウィンドウで、 **[課金]**  >  **[サブスクリプション]** を選択します。
 
 1. 右側にある **[サブスクリプションの追加 +]** を選択します。
 
-1. **[その他のプラン]** で、[Power BI Free] の欄にある省略記号 (**. . .**) にマウスを合わせ、**[今すぐ購入]** を選択します。
+1. **[その他のプラン]** で、[Power BI Free] の欄にある省略記号 ( **. . .** ) にマウスを合わせ、 **[今すぐ購入]** を選択します。
 
     ![今すぐ購入 - Power BI Free](media/service-admin-licensing-organization/buy-powerbi-free.png)
 
-1. 追加するライセンスの数を入力し、**[今すぐチェックアウト]** または **[カートに追加]** を選択します。
+1. 追加するライセンスの数を入力し、 **[今すぐチェックアウト]** または **[カートに追加]** を選択します。
 
 1. チェックアウト フローに必要な情報を入力します。
 
@@ -111,7 +117,7 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
 
 1. これで、[Office 365 でライセンスを割り当てる](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)ことができます。
 
-1. 後でライセンスの追加を決定した場合、**[サブスクリプションの追加]** に戻り、[Power BI (無料)] の欄で **[ライセンス数の変更]** を選択できます。
+1. 後でライセンスの追加を決定した場合、 **[サブスクリプションの追加]** に戻り、[Power BI (無料)] の欄で **[ライセンス数の変更]** を選択できます。
 
     ![ライセンス数の変更](media/service-admin-licensing-organization/change-license-quantity.png)
 
@@ -128,12 +134,12 @@ Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft �
      connect-msolservice -credential $msolcred
     ```
 
-   ![Azure Active Directory でのサインイン](media/service-admin-licensing-organization/aad-signin.png)
+   ![Azure Active Directory でのサインイン](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. サインインの後、次のコマンドを発行してテナントの現在の構成内容を確認することができます。
+1. サインインの後、次のコマンドを発行してテナントの現在の構成内容を確認することができます。 ('Fl' 以下が文字数 1 ではなく ' l' を使用することに注意してください)。
 
     ```powershell
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
+     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 
     ```
 1. 次のコマンドを使用して、**AllowAdHocSubscriptions** を有効 ($True) または無効 ($false) にします。
 

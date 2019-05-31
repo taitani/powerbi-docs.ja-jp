@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514556"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>”Excel で分析” に関するトラブルシューティング
@@ -43,11 +43,11 @@ ms.locfileid: "65514556"
 
 Excel ライブラリは、ビット レベルが Windows のバージョンと一致している必要があります。 64 ビットの Windows がインストールされている場合は、64 ビットの OLE DB プロバイダーをインストールする必要があります。
 
-最新版の Excel ライブラリをダウンロードするには、Power BI にアクセスし、Power BI サービスの右上隅で**下向きの矢印**を選択し、**[Excel 更新プログラムで分析]** を選択します。
+最新版の Excel ライブラリをダウンロードするには、Power BI にアクセスし、Power BI サービスの右上隅で**下向きの矢印**を選択し、 **[Excel 更新プログラムで分析]** を選択します。
 
 ![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
-表示されるダイアログで、**[ダウンロード (プレビュー)]** を選択します。
+表示されるダイアログで、 **[ダウンロード (プレビュー)]** を選択します。
 
 ![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 

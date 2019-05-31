@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 3bf974176c7638aa2f1093535e8027ad511deabb
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454220"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Power BI で KPI をインポートして表示する
@@ -26,7 +26,7 @@ KPI をインポートして表示するには、次の手順を実行します�
 
 1. **[ファイル] -> [インポート] -> [Excel ブック コンテンツ]** 使って、Power BI に Excel ブックをインポートします。 [ブックのインポート方法については、こちら](desktop-import-excel-workbooks.md)も参照してください。 
 
-1. Power BI にインポートした後、KPI は **[フィールド]** ウィンドウに ![信号機](media/desktop-import-and-display-kpis/traffic.png) アイコンでマークされて表示されます。 レポートで KPI を使うには、内容を展開して、**[値]**、**[目標]**、**[状態]** フィールドを公開する必要があります。
+1. Power BI にインポートした後、KPI は **[フィールド]** ウィンドウに ![信号機](media/desktop-import-and-display-kpis/traffic.png) アイコンでマークされて表示されます。 レポートで KPI を使うには、内容を展開して、 **[値]** 、 **[目標]** 、 **[状態]** フィールドを公開する必要があります。
 
     ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
 

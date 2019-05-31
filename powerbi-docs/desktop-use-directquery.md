@@ -11,11 +11,11 @@ ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555677"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61348878"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 **Power BI Desktop** を利用すれば、データ ソースに接続するとき、常にデータのコピーを **Power BI Desktop** にインポートできます。 データ ソースによっては、代替手法を利用できます。**DirectQuery** でデータ ソースに直接接続する方法です。
@@ -55,7 +55,7 @@ ms.locfileid: "57555677"
 * 既定では、メジャーで許可される DAX 式に制約があります。詳しくは、次の段落 (この箇条書きリストの後) をご覧ください。
 * **DirectQuery** を使用した場合の返されるデータには 100 万行の制限があります。 この制限は **DirectQuery** を使用して返されるデータセットの作成に使用される集計や計算には影響せず、返される行のみに影響します。 たとえば、データ ソースに対して実行すクエリで 1,000 万行を集計し、その集計の結果のデータが 100 万行未満であれば、**DirectQuery** を使用して、Power BI に正確に返すことができます。 **DirectQuery** から 100 万行を超える行が返された場合、Power BI はエラーを返します。
 
-基になるデータ ソースに送信されるクエリが許容範囲のパフォーマンスを発揮できるよう、既定ではメジャーに制限が課されています。 詳しい知識のあるユーザーなら、**[ファイル] > [オプションと設定] > [オプション]**、次に **[DirectQuery]** の順に選んでから、オプション *[DirectQuery モードで無制限のメジャーを許可する]* を選べば、この制限を回避できます。 このオプションを選ぶと、メジャーに使用できる DAX 式ならどれでも使用できるようになります。 しかし、ユーザーが注意すべき点として、データのインポート時のパフォーマンスが非常に良好な式の中には、DirectQuery モードでバックエンド ソースにクエリを実行する際に非常に低速になるものがあります。
+基になるデータ ソースに送信されるクエリが許容範囲のパフォーマンスを発揮できるよう、既定ではメジャーに制限が課されています。 詳しい知識のあるユーザーなら、 **[ファイル] > [オプションと設定] > [オプション]** 、次に **[DirectQuery]** の順に選んでから、オプション *[DirectQuery モードで無制限のメジャーを許可する]* を選べば、この制限を回避できます。 このオプションを選ぶと、メジャーに使用できる DAX 式ならどれでも使用できるようになります。 しかし、ユーザーが注意すべき点として、データのインポート時のパフォーマンスが非常に良好な式の中には、DirectQuery モードでバックエンド ソースにクエリを実行する際に非常に低速になるものがあります。
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery を使用する場合の重要な考慮事項
 **DirectQuery** の使用時には次の 3 点を考慮してください。

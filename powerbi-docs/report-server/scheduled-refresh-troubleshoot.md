@@ -1,20 +1,20 @@
 ---
 title: Power BI Report Server でスケジュールされた更新をトラブルシューティングする
 description: この記事では、Power BI Report Server でスケジュールされた更新に関する問題のトラブルシューティングに利用できるリソースについて説明します。
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: e829d0cf174cc81148287ce1b25449246300606c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: f4638250cb2ae245dc9ce222e43c7a87de6e395d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216702"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61200298"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server でスケジュールされた更新をトラブルシューティングする
 この記事では、Power BI Report Server でスケジュールされた更新に関する問題のトラブルシューティングに利用できるリソースについて説明します。
@@ -185,8 +185,8 @@ SQL Server Profiler トレースは、[SQL Server Management Studio (SSMS) の�
 
 1. 管理者として **SQL Server Profiler** を開始します。
 2. **[新しいトレース]** ボタンを選びます。
-3. **[サーバーへの接続]** ダイアログで、**[Analysis Services]** を選び、サーバー名に「**localhost:5132**」と入力します。
-4. **[トレースのプロパティ]** ダイアログで、キャプチャするイベントを選び、**[実行]** を選びます。
+3. **[サーバーへの接続]** ダイアログで、 **[Analysis Services]** を選び、サーバー名に「**localhost:5132**」と入力します。
+4. **[トレースのプロパティ]** ダイアログで、キャプチャするイベントを選び、 **[実行]** を選びます。
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>メモリ内のページのロック Windows 特権
 Power BI レポートをレンダリングできない場合は、Power BI Report Server を実行しているサービス アカウントに**メモリ内のページのロック**特権を割り当てると、解決する場合があります。 **メモリ内のページのロック**の構成方法については、「[Windows privileges assigned to the Analysis Services service account](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)」(Analysis Services サービス アカウントに割り当てられる Windows 特権) をご覧ください。

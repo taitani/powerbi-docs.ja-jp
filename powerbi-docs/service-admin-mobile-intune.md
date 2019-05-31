@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710937"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune でモバイル アプリを構成する
@@ -50,11 +50,11 @@ iOS 用のアプリ URL は、iTunes から取得する必要があります。
 
     ![iTunes アプリの URL](media/service-admin-mobile-intune/itunes-url.png)
 
-次に表示例を示します。*https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8*
+次に表示例を示します。 *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8*
 
 ### <a name="get-android-url"></a>Android の URL を取得する
 
-Google Play への URL は、[Power BI モバイル ページ](https://powerbi.microsoft.com/mobile/)から取得できます。 **[ダウンロード元 Google Play]** を選択すると、アプリのページに移動します。 ブラウザーのアドレス バーから URL をコピーすることができます。 次に表示例を示します。*https://play.google.com/store/apps/details?id=com.microsoft.powerbim*
+Google Play への URL は、[Power BI モバイル ページ](https://powerbi.microsoft.com/mobile/)から取得できます。 **[ダウンロード元 Google Play]** を選択すると、アプリのページに移動します。 ブラウザーのアドレス バーから URL をコピーすることができます。 次に表示例を示します。 *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*
 
 ## <a name="step-2-create-a-mobile-application-management-policy"></a>手順 2:モバイル アプリケーション管理ポリシーを作成する
 
@@ -62,7 +62,7 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
 アプリケーションを先に作成しても、ポリシーを先に作成しても構いません。 この 2 つを追加する順序は任意です。 展開の手順の際に両方が存在していれば十分です。
 
-1. Intune ポータルで、**[ポリシー]** > **[構成ポリシー]** を選択します。
+1. Intune ポータルで、 **[ポリシー]**  >  **[構成ポリシー]** を選択します。
 
     ![Intune ポータル](media/service-admin-mobile-intune/intune-policy.png)
 
@@ -86,17 +86,17 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
 1. ドロップダウンから、 **[アプリ ストアの管理されている iOS アプリ]** を選びます。
 
-1. [手順 1](#step-1-get-the-url-for-the-application) で取得したアプリの URL を入力し、**[次へ]** を選択します。
+1. [手順 1](#step-1-get-the-url-for-the-application) で取得したアプリの URL を入力し、 **[次へ]** を選択します。
 
     ![ソフトウェア セットアップ: iOS](media/service-admin-mobile-intune/intune-add-software-ios1.png)
 
-1. **[発行元]**、 **[名前]** 、 **[説明]** を入力します。 必要に応じて **[アイコン]** を提供することもできます。 **[カテゴリ]** は、"ポータル サイト アプリ" にします。 完了したら、 **[次へ]** を選びます。
+1. **[発行元]** 、 **[名前]** 、 **[説明]** を入力します。 必要に応じて **[アイコン]** を提供することもできます。 **[カテゴリ]** は、"ポータル サイト アプリ" にします。 完了したら、 **[次へ]** を選びます。
 
 1. アプリの発行の種類を、 **[任意]** (既定値)、 **[iPad]** 、または **[iPhone]** の中から選びます。 既定では **[任意]** が表示され、どちらの種類のデバイスでも機能するようになります。 Power BI アプリの URL は、iPhone と iPad のどちらでも同じです。 **[次へ]** を選びます。
 
 1. **[アップロード]** を選びます。
 
-1. 一覧にアプリが表示されない場合は、ページを更新します。**[概要]** に移動してから、**[アプリ]** に戻ります。
+1. 一覧にアプリが表示されない場合は、ページを更新します。 **[概要]** に移動してから、 **[アプリ]** に戻ります。
 
     ![[アプリ] タブ](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -104,15 +104,15 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
 1. ドロップダウンから **[外部リンク]** を選びます。
 
-1. [手順 1](#step-1-get-the-url-for-the-application) で取得したアプリの URL を入力し、**[次へ]** を選択します。
+1. [手順 1](#step-1-get-the-url-for-the-application) で取得したアプリの URL を入力し、 **[次へ]** を選択します。
 
     ![ソフトウェア セットアップ:Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
-1. **[発行元]**、 **[名前]** 、 **[説明]** を入力します。 必要に応じて **[アイコン]** を提供することもできます。 **[カテゴリ]** は、"ポータル サイト アプリ" にします。 完了したら、 **[次へ]** を選びます。
+1. **[発行元]** 、 **[名前]** 、 **[説明]** を入力します。 必要に応じて **[アイコン]** を提供することもできます。 **[カテゴリ]** は、"ポータル サイト アプリ" にします。 完了したら、 **[次へ]** を選びます。
 
 1. **[アップロード]** を選びます。
 
-1. 一覧にアプリが表示されない場合は、ページを更新します。**[概要]** に移動してから、**[アプリ]** に戻ります。
+1. 一覧にアプリが表示されない場合は、ページを更新します。 **[概要]** に移動してから、 **[アプリ]** に戻ります。
 
     ![[アプリ] タブ](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
@@ -181,7 +181,7 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
     ![アプリのインストール](media/service-admin-mobile-intune/intune-companyportal5.png)
 
-1. アプリをインストールした後は、**[会社によって管理されています]** と表示されます。 ポリシーで暗証番号 (PIN) を設定した場合は、次のように表示されます。
+1. アプリをインストールした後は、 **[会社によって管理されています]** と表示されます。 ポリシーで暗証番号 (PIN) を設定した場合は、次のように表示されます。
 
     ![PIN を入力する](media/service-admin-mobile-intune/intune-powerbi-pin.png)
 

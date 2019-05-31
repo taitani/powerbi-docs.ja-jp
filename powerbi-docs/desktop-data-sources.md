@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2019
+ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225916"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853456"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -24,7 +24,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 ![Power BI Desktop でデータを取得する](media/desktop-data-sources/data-sources_01.png)
 
-**[その他]** を **[最も一般的]** メニューから選択すると、**[データの取得]** ウィンドウが表示されます。 **[データの取得]** ウィンドウを表示する場合 ( **[最も一般的]** メニューをバイパスします)、 **[データの取得]** **アイコン ボタン** を直接選択することもできます。
+**[その他]** を **[最も一般的]** メニューから選択すると、 **[データの取得]** ウィンドウが表示されます。 **[データの取得]** ウィンドウを表示する場合 ( **[最も一般的]** メニューをバイパスします)、 **[データの取得]** **アイコン ボタン** を直接選択することもできます。
 
 ![[データの取得] ボタン](media/desktop-data-sources/data-sources_02.png)
 
@@ -51,7 +51,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * XML
 * JSON
 * フォルダー
-* PDF (ベータ)
+* PDF
 * SharePoint フォルダー
 
 次の図は、 **[ファイル]** の **[データの取得]** ウィンドウを示しています。
@@ -79,17 +79,19 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Google BigQuery
 * Vertica
 * Snowflake
-* Essbase (ベータ)
-* Dremio
-* Exasol
-* MarkLogic (ベータ)
+* Essbase
 * AtScale キューブ (ベータ)
 * BI コネクタ
+* Dremio
+* Exasol
+* Indexima (ベータ)
+* InterSystems IRIS (ベータ)
 * Jethro (ベータ)
 * Kyligence Enterprise (ベータ)
+* MarkLogic (ベータ)
 
 > [!NOTE]
-> 一部のデータベース コネクタの場合、有効にするためには、**[ファイル]、[オプションと設定]、[オプション]** の順に選択し、**[プレビュー機能]** を選択し、コネクタを有効にする必要があります。 前途コネクタの一部が表示されず、その中に使用したいコネクタも含まれている場合は、**[プレビュー機能]** を確認してください。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されていることにもご注意ください。運用環境では利用しないでください。
+> 一部のデータベース コネクタの場合、有効にするためには、 **[ファイル]、[オプションと設定]、[オプション]** の順に選択し、 **[プレビュー機能]** を選択し、コネクタを有効にする必要があります。 前途コネクタの一部が表示されず、その中に使用したいコネクタも含まれている場合は、 **[プレビュー機能]** を確認してください。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されていることにもご注意ください。運用環境では利用しないでください。
 
 次の図は、 **[データベース]** の **[データの取得]** ウィンドウを示しています。
 
@@ -98,9 +100,9 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 **[Power BI]** カテゴリには、次のデータ接続があります。
 
 * Power BI データ セット
-* Power BI データフロー (ベータ)
+* Power BI データフロー
 
-次の図は、**[Power BI]** の **[データの取得]** ウィンドウを示しています。
+次の図は、 **[Power BI]** の **[データの取得]** ウィンドウを示しています。
 
 ![[データの取得] > [Power BI]](media/desktop-data-sources/data-sources_05.png)
 
@@ -112,11 +114,12 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB (ベータ版)
-* Azure Data Lake Storage
+* Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 対話型クエリ
-* Azure Data Explorer (ベータ)
+* Azure のデータ エクスプ ローラー (Kusto)
+* Azure Cost Management (ベータ)
 
 次の図は、 **[Azure]** の **[データの取得]** ウィンドウを示しています。
 
@@ -157,11 +160,12 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (ベータ)
-* TeamDesk (Beta)
 * Emigo Data Source (ベータ)
+* IndustrialAppStore (ベータ)
 * Microsoft Graph Security (ベータ)
+* TeamDesk (Beta)
 
-次の図は、**[オンライン サービス]** の **[データの取得]** ウィンドウを示しています。
+次の図は、 **[オンライン サービス]** の **[データの取得]** ウィンドウを示しています。
 
 ![[データの取得] > [オンライン サービス]](media/desktop-data-sources/data-sources_07.png)
 
@@ -178,12 +182,16 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Python スクリプト
 * ODBC
 * OLE DB
-* Workforce Dimensions (ベータ)
+* BI360 の予算と財務レポート (ベータ)
 * Denado
-* Paxata (ベータ)
-* SurveyMonkey (ベータ)
+* Information Grid (ベータ)
+* Paxata 
 * QubolePresto (ベータ)
 * Quick Base (ベータ)
+* Roamler (ベータ)
+* SurveyMonkey (ベータ)
+* Tenforce (ベータ)
+* Workforce Dimensions (ベータ)
 * 空のクエリ
 
 次の図は、 **[その他]** の **[データの取得]** ウィンドウを示しています。

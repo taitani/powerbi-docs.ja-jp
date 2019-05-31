@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65565280"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Pro の購入方法
@@ -38,23 +38,23 @@ Premium サブスクリプションの有効期限が切れてから 30 日間�
 
 Premium 容量を購入するには、以下の手順に従います。
 
-1. Power BI サービス内で、[Office 365 アプリ ピッカー]、**[管理者]** の順に選択します。
+1. Power BI サービス内で、[Office 365 アプリ ピッカー]、 **[管理者]** の順に選択します。
 
     ![Office 365 アプリ ピッカー](media/service-admin-premium-purchase/o365-app-picker.png)
 
     または、Microsoft 365 管理センターを参照することができます。 管理センターにアクセスするには、 https://portal.office.com に移動して **[管理者]** を選択します。
 
-1. **[請求]** > **[サービスを購入する]** を選択します。
+1. **[請求]**  >  **[サービスを購入する]** を選択します。
 
 1. **[その他のプラン]** で、Power BI Premium のオファーを探します。 これは P1 ～ P3、EM3、および P1 (月極め) として一覧表示されます。
 
-1. 省略記号 (**. . .**) にポインターを合わせ、**[今すぐ購入する]** を選択します。
+1. 省略記号 ( **. . .** ) にポインターを合わせ、 **[今すぐ購入する]** を選択します。
 
     ![今すぐ購入する](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. 以下の手順に従って、購入を完了します。
 
-購入を完了すると、**[サービスを購入する]** ページに購入したアクティブな項目が表示されます。
+購入を完了すると、 **[サービスを購入する]** ページに購入したアクティブな項目が表示されます。
 
 ![Power BI Premium を購入した場合](media/service-admin-premium-purchase/premium-purchased.png)
 
@@ -62,11 +62,11 @@ Premium 容量を購入するには、以下の手順に従います。
 
 これで容量を購入できたので、ニーズの高まりに合わせてさらに容量を追加できます。 組織内で Premium 容量 SKU の任意の組み合わせ (P1 から P3) を使用できます。 異なる SKU は異なるリソース機能を提供します。
 
-1. Microsoft 365 管理センターで、**[課金]** > **[サービスを購入する]** の順に選択します。
+1. Microsoft 365 管理センターで、 **[課金]**  >  **[サービスを購入する]** の順に選択します。
 
 1. **[その他のプラン]** で、追加購入する Power BI Premium の項目を探します。
 
-1. **省略記号 (...)** にポインターを合わせ、**[ライセンス数の変更]** を選択します。
+1. **省略記号 (...)** にポインターを合わせ、 **[ライセンス数の変更]** を選択します。
 
     ![ライセンス数の変更](media/service-admin-premium-purchase/premium-purchase-more.png)
 
@@ -85,15 +85,15 @@ Microsoft 365 管理センターから、ご自分のサブスクリプション
 
 1. Microsoft 365 管理センターを参照します。
 
-1. **[請求]** > **[サブスクリプション]** の順に選択します。
+1. **[請求]**  >  **[サブスクリプション]** の順に選択します。
 
 1. 一覧から Power BI Premium サブスクリプションを選択します。
 
-1. **[More actions]\(その他の操作\)** > **[サブスクリプションのキャンセル]** の順に選択します。
+1. **[More actions]\(その他の操作\)**  >  **[サブスクリプションのキャンセル]** の順に選択します。
 
 1. **[サブスクリプションのキャンセル]** ページに [中途解約料](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3) を支払う必要があるかどうかが表示されます。 このページでは、サブスクリプションのデータが削除されるタイミングを確認することもできます。
 
-1. 情報に目を通し、続行する場合は、**[サブスクリプションのキャンセル]** を選択します。
+1. 情報に目を通し、続行する場合は、 **[サブスクリプションのキャンセル]** を選択します。
 
 ### <a name="when-canceling-or-your-license-expires"></a>キャンセルした場合、またはライセンスが期限切れになった場合
 

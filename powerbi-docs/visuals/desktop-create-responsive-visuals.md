@@ -11,11 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4372f37cf6afc8fe51d6650ddd888bd41d3ea678
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280127"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394940"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Power BI のビジュアルのサイズを最適化する
 既定では、新しく作成したレポートのビジュアルは "*レスポンシブ*" になります。ビジュアルは画面のサイズに関係なく、最大量のデータとインサイトを表示できるように動的に変化します。 古いレポートのビジュアルも、動的にサイズが変わるように設定できます。
@@ -27,11 +27,11 @@ ms.locfileid: "54280127"
 X 軸と Y 軸のあるすべてのビジュアルおよびスライサーは、レスポンシブにサイズを変更できます。
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>Power BI Desktop で応答性をオンにする
-1. Power BI Desktop の古いレポートの **[表示]** タブで、**[デスクトップ レイアウト]** になっていることを確認します。
+1. Power BI Desktop の古いレポートの **[表示]** タブで、 **[デスクトップ レイアウト]** になっていることを確認します。
    
     ![[デスクトップ レイアウト] アイコン](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
-2. ビジュアルを選択し、**[視覚エフェクト]** ウィンドウで **[書式]** セクションを選択します。
-3. **[全般]** を展開し、**[レスポンシブ]** を **[オン]** にスライドさせます。
+2. ビジュアルを選択し、 **[視覚エフェクト]** ウィンドウで **[書式]** セクションを選択します。
+3. **[全般]** を展開し、 **[レスポンシブ]** を **[オン]** にスライドさせます。
    
     ![レスポンシブがオン](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
@@ -40,9 +40,9 @@ X 軸と Y 軸のあるすべてのビジュアルおよびスライサーは、
 ## <a name="turn-on-responsiveness-in-the-power-bi-service"></a>Power BI サービスの応答性をオンにする
 Power BI サービスの古いレポートのビジュアルを応答性にすることができます。 レポートを編集できるようにする必要があります。
 
-1. Power BI サービス ([https://powerbi.com](https://powerbi.com)) のレポートで、**[レポートの編集]** を選択します。
-2. ビジュアルを選択し、**[視覚エフェクト]** ウィンドウで **[書式]** セクションを選択します。
-3. **[全般]** を展開し、**[レスポンシブ]** を **[オン]** にスライドさせます。
+1. Power BI サービス ([https://powerbi.com](https://powerbi.com)) のレポートで、 **[レポートの編集]** を選択します。
+2. ビジュアルを選択し、 **[視覚エフェクト]** ウィンドウで **[書式]** セクションを選択します。
+3. **[全般]** を展開し、 **[レスポンシブ]** を **[オン]** にスライドさせます。
    
     ![レスポンシブがオン](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    

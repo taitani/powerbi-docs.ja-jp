@@ -1,26 +1,26 @@
 ---
 title: データセットにデータをプッシュする
 description: Power BI データセットにデータをプッシュする
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 642a8e7dd118838b5ea12c8758841ee44a8e6595
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762262"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222151"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
 
-Power BI API を使うと、Power BI データセットにデータをプッシュできます。 たとえば、既存のビジネス ワークフローを拡張して、主要なデータをデータセットにプッシュできます。 ここでは、Product テーブルを含む Sales Marketing データセットをデータセットにプッシュします。
+Power BI API を使用するデータを Power BI のデータセットをプッシュします。 この記事で紹介する既存のデータセットに Product テーブルを含む Sales Marketing データセットをプッシュする方法。
 
-データセットへのデータのプッシュを始めるには、Azure Active Directory (Azure AD) と [Power BI アカウント](create-an-azure-active-directory-tenant.md)が必要です。
+始める前に、Azure Active Directory (Azure AD) 必要があります、 [Power BI アカウント](create-an-azure-active-directory-tenant.md)します。
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>データセットにデータをプッシュする手順
 
@@ -34,7 +34,7 @@ Power BI API を使うと、Power BI データセットにデータをプッシ�
 
 ## <a name="power-bi-api-operations-to-push-data"></a>データをプッシュする Power BI API の操作
 
-Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリがデータセットに行を追加すると、ダッシュボード上のタイルは自動的に最新データに更新されます。 データをプッシュするには、[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作と [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を一緒に行います。 データセットを検索するには、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作を行います。 これらの操作のどれについても、グループ ID を渡すとグループを操作できます。 [グループの取得](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作を行うと、グループ ID の一覧を取得できます。
+Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリは、データセットに行を追加するときに、新しいデータで自動的に更新プログラム ダッシュ ボードのタイルします。 データをプッシュするを使用して、 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)と[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)操作。 データセットを検索するには使用、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作。 これらの操作のいずれかのグループを使用するグループの ID を渡すことができます。 グループ ID の一覧を取得する、[グループの取得](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作。
 
 データセットにデータをプッシュするための操作を次に示します。
 
@@ -59,7 +59,7 @@ Power BI でデータセットを作成するには、Power BI サービスに J
         ]
     }
 
-したがって、Sales Marketing データセットの例では、以下のような JSON 文字列を渡すことになります。 この例では **SalesMarketing** がデータセットの名前、 **Product** がテーブルの名前です。 テーブルを定義した後は、テーブル スキーマを定義します。 **SalesMarketing** データセットの場合、テーブル スキーマには次の列が含まれています:ProductID、Manufacturer、Category、Segment、Product、IsCompete。
+この Sales Marketing データセットの例では、次に示すように、JSON 文字列を渡します。 この例で**SalesMarketing**データセットの名前と**製品**テーブル名です。 テーブルを定義した後は、テーブル スキーマを定義します。 **SalesMarketing** データセットの場合、テーブル スキーマには次の列が含まれています:ProductID、Manufacturer、Category、Segment、Product、IsCompete。
 
 **データセット オブジェクト JSON の例**
 
@@ -105,10 +105,10 @@ Power BI のテーブル スキーマでは、次のデータ型を使うこと�
 | **データ型** | **制限事項** |
 | --- | --- |
 | Int64 |Int64.MaxValue と Int64.MinValue が許可されまていせん。 |
-| Double |Double.MaxValue と Double.MinValue 値が許可されていません。 NaN はサポートされていません。一部の関数では正の無限大と負の無限大がサポートされていません (例: Min、Max)。 |
+| Double |Double.MaxValue と Double.MinValue 値が許可されていません。 NaN はサポートされていません。 + 無限大と負の無限大 (たとえば、Min、Max) の一部の関数でサポートされていません。 |
 | ブール値 |なし |
-| DateTime |データの読み込み中に、日時分数の値を 1/300 秒 (3.33ms) の整数倍に量子化します。 |
-| 文字列 |現在、最大 128 文字が許可されています。 |
+| DateTime |データの読み込み中には、値 1/300 秒 (3.33 ミリ秒) の整数倍日時分数の量子化します。 |
+| 文字列 |現在、最大 128 文字でもできます。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI へのデータのプッシュに関する詳細
 

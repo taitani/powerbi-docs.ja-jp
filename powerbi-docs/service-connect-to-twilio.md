@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4537f2845d89361cf06bc93a6a9c435275d9464d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008145"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171485"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Power BI で Twilio に接続する
 Power BI 用 Microsoft Twilio コンテンツ パックを使用すると、データを Power BI に引き入れて、事前に用意された [Twilio ダッシュボード](https://powerbi.microsoft.com/integrations/twilio)とレポートを作成し、データから洞察を示すことができます。 また、Power BI が作成したデータセットに関して、カスタムのレポートやダッシュボードを作成することもできます。 データは 1 日に 1 回更新されるので、常に最新のデータを見ることができます。

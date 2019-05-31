@@ -12,11 +12,11 @@ ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 9c265a5d8ad1a08396e0bb4fb553a87a134472fd
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306460"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61317976"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop の Microsoft Graph Security API に接続する
 
@@ -47,7 +47,7 @@ Microsoft Graph Security コネクタにサインインするためのユーザ�
 
 コネクタを使用するには、以下の手順に従ってください。
 
-1. Power BI Desktop の **[ホーム]** リボンから **[データを取得]** > **[詳細]** の順に選択します。
+1. Power BI Desktop の **[ホーム]** リボンから **[データを取得]**  >  **[詳細]** の順に選択します。
 2. ウィンドウの左側のカテゴリ リストから **[オンライン サービス]** を選択します。
 3. **[Microsoft Graph Security (ベータ)]** を選択します。
 
@@ -69,11 +69,11 @@ Microsoft Graph Security コネクタにサインインするためのユーザ�
 
     ![[現在、サインインしています] ダイアログ ボックス](media/desktop-connect-graph-security/SignedIn.PNG)
     
-8. 接続すると、アラートやセキュリティ スコアなど、手順 4 で選択したバージョンの [Microsoft Graph Security API](https://aka.ms/graphsecuritydocs) で使用できるエンティティが **[ナビゲーター]** ウィンドウに表示されます。 Power BI Desktop にインポートして使用するエンティティを 1 つまたは複数選択します。 次に、**[読み込む]** を選択して、手順 9 の後に表示される結果ビューを取得します。
+8. 接続すると、アラートやセキュリティ スコアなど、手順 4 で選択したバージョンの [Microsoft Graph Security API](https://aka.ms/graphsecuritydocs) で使用できるエンティティが **[ナビゲーター]** ウィンドウに表示されます。 Power BI Desktop にインポートして使用するエンティティを 1 つまたは複数選択します。 次に、 **[読み込む]** を選択して、手順 9 の後に表示される結果ビューを取得します。
 
     ![[ナビゲーター] ダイアログ ボックス](media/desktop-connect-graph-security/NavTable.PNG)
     
-9. Microsoft Graph Security API で高度なクエリを使用する場合は、**[Specify custom Microsoft Graph Security URL to filter results]\(カスタム Microsoft Graph Security URL を指定して結果を絞り込む\)** を選択します。 この機能を使用して、必須のアクセス許可を持つ Microsoft Graph Security API に対して [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) クエリを発行します。
+9. Microsoft Graph Security API で高度なクエリを使用する場合は、 **[Specify custom Microsoft Graph Security URL to filter results]\(カスタム Microsoft Graph Security URL を指定して結果を絞り込む\)** を選択します。 この機能を使用して、必須のアクセス許可を持つ Microsoft Graph Security API に対して [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) クエリを発行します。
 
    次の例では、`https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'`*serviceUri* が使用されています。 クエリを作成してフィルター処理、並べ替え、または最近の結果の取得を行う方法を確認するには、[OData システム クエリ オプション](https://docs.microsoft.com/graph/query-parameters)に関するページを参照してください。
 

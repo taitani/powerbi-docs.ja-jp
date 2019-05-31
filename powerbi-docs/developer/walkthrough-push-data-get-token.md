@@ -1,20 +1,20 @@
 ---
 title: 認証アクセス トークンを取得する
 description: データをプッシュするチュートリアル - 認証アクセス トークンを取得する
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216564"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710350"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>手順 2:認証アクセス トークンを取得する
 
@@ -27,13 +27,11 @@ ms.locfileid: "56216564"
 ## <a name="get-an-authentication-access-token"></a>認証アクセス トークンを取得する
 
 > **注**:作業を開始する前に、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の前の手順を完了してください。
-> 
-> 
 
-1. Visual Studio 2015 で、 **コンソール アプリケーション** プロジェクトを作成します。
-2. [Azure AD Authentication Library for .NET NuGet パッケージ](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)をインストールします。 .NET アプリで認証セキュリティ トークンを取得するには、このパッケージを使います。 パッケージをインストールする方法を次に示します。
+1. Visual Studio (2015 以降) で作成、**コンソール アプリケーション**プロジェクト。
+2. [Azure AD Authentication Library for .NET NuGet パッケージ](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)をインストールします。 .NET アプリで認証セキュリティ トークンを取得するには、このパッケージを使います。 パッケージをインストールする方法を次に示します。
 
-     a. Visual Studio 2015 で、**[ツール]** > **[NuGet パッケージ マネージャー]** > **[パッケージ マネージャー コンソール]** を選びます。
+     a. Visual Studio (2015 以降) で次のように選択します。**ツール** > **NuGet パッケージ マネージャー** > **パッケージ マネージャー コンソール**します。
 
      b. **[パッケージ マネージャー コンソール]** で、「Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612」と入力します。
 3. Program {...} クラスに、以下のコードを追加します。
@@ -152,7 +150,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

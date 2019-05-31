@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: b0a59e6a3d930bc8a0fa69507cae8e958c6175da
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288573"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61063183"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Power BI モバイル アプリから Windows 10 のスタート画面にダッシュボードをピン留めする
 Windows 10 用の Power BI モバイル アプリから Power BI のダッシュボードを Windows のスタート画面にピン留めすることができます。 これが*ライブ タイル*になります。 スタート画面でタイルをタップすると、Windows 10 用の Power BI モバイル アプリでダッシュボードが開きます。

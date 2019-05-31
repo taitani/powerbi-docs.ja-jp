@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426610"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389888"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI サービスで R ビジュアルを作成する
 Power BI サービスでは、R スクリプトで作成したビジュアルの表示と操作がサポートされています。 R スクリプトで作成したビジュアルは一般的に *R ビジュアル*と呼ばれ、R の豊富な分析と視覚化の機能を使用した高度なデータ整形と予測などの分析に使用できます。
@@ -64,7 +64,7 @@ R スクリプトでエラーが発生した場合、R ビジュアルはプロ�
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>ライセンス
-R ビジュアルのレポートでの表示、更新、フィルター、クロス フィルターには、[Power BI Pro](../service-self-service-signup-for-power-bi.md) のライセンスが必要です。 Power BI Pro のライセンスの詳細および無料ライセンスとの違いについては、「[Power BI Pro コンテンツとは](../service-premium.md)」を参照してください。
+R ビジュアルのレポートでの表示、更新、フィルター、クロス フィルターには、[Power BI Pro](../service-self-service-signup-for-power-bi.md) のライセンスが必要です。 Power BI Pro のライセンスの詳細および無料ライセンスとの違いについては、「[Power BI Pro コンテンツとは](../service-premium-what-is.md)」を参照してください。
 
 Power BI 無料版のユーザーは、Premium ワークスペースで共有されたタイルのみを使用できます。 詳細については、「[Power BI Pro を購入する](../service-admin-purchasing-power-bi-pro.md)」を参照してください。
 

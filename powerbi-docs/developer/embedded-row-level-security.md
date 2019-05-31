@@ -1,20 +1,20 @@
 ---
 title: Power BI の埋め込みコンテンツで行レベルのセキュリティを使用する
 description: ここでは、アプリケーション内に Power BI コンテンツを埋め込むために必要な手順について説明します。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.date: 03/27/2019
+ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57328012"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61354149"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded での行レベルのセキュリティ
 
@@ -64,10 +64,10 @@ RLS は Power BI Desktop で作成します。 データセットとレポート
 2. **Manager** という名前の新しいロールを作成します。
 
     ![新しいロールを作成する](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. **District** テーブルに、「**[District Manager] = USERNAME()**」という DAX 式を入力します。
+3. **District** テーブルに、「 **[District Manager] = USERNAME()** 」という DAX 式を入力します。
 
     ![RLS ルールの DAX ステートメント](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. ルールが動作していることを確認するには、**[モデリング]** タブで **[ロールとして表示]** を選び、作成した **Manager** ロールと **[その他のユーザー]** の両方を選びます。 ユーザーとして「**AndrewMa**」と入力します。
+4. ルールが動作していることを確認するには、 **[モデリング]** タブで **[ロールとして表示]** を選び、作成した **Manager** ロールと **[その他のユーザー]** の両方を選びます。 ユーザーとして「**AndrewMa**」と入力します。
 
     ![[ロールとして表示] ダイアログ](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
@@ -98,7 +98,7 @@ var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
 ```
 
-これを次のように変更します。
+to
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -214,6 +214,8 @@ Power BI Embedded アプリケーションで CustomData() 機能の設定を開
     ![PBI レポートのサンプル](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
 7. Power BI API を使って、アプリケーション内で CustomData 機能を使います。  カスタム データ機能を使ってトークンを生成するときは、ユーザー名が必要です。 ユーザー名は、マスター ユーザーの UPN と同じである必要があります。 マスター ユーザーは、作成したロールのメンバーである必要があります。 ロールが指定されていない場合、マスター ユーザーがそのメンバーになっているすべてのロールが RLS の評価に使用されます。
+
+    使用する場合、[サービス プリンシパル](embed-service-principal.md)、マスターのアカウントを使用する代わりに、上記の手順を実行する必要もあります。 埋め込みトークンを生成する、使用して、[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)ユーザー名とします。
 
     > [!Note]
     > 運用環境にアプリケーションをデプロイする準備ができたら、マスター ユーザーのアカウント フィールドまたはオプションは、エンド ユーザーに対して非表示である必要があります。

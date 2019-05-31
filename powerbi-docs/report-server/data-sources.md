@@ -1,20 +1,20 @@
 ---
 title: Power BI Report Server での Power BI レポート データ ソース
 description: Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
-ms.author: maghan
-ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 6e3bed0cf8dda765722c0076086f59a91f1f380d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291764"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770792"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。
@@ -60,7 +60,7 @@ Power BI レポートは、複数のデータ ソースに接続できます。 
 | OLE DB |はい |はい |いいえ |
 | Oracle データベース |はい |はい |はい |
 | PostgreSQL データベース |はい |はい |いいえ |
-| ダッシュボード |いいえ |いいえ |いいえ |
+| Power BI サービス |いいえ |いいえ |いいえ |
 | R スクリプト |はい |いいえ |いいえ |
 | Salesforce オブジェクト |はい |いいえ |いいえ |
 | Salesforce レポート |はい |いいえ |いいえ |
@@ -146,7 +146,7 @@ Power BI Report Server では、モデル更新のための認証方法として
 | OLE DB |はい |いいえ |はい |はい |
 | Oracle データベース |いいえ |いいえ |はい |はい |
 | PostgreSQL データベース |いいえ |いいえ |はい |いいえ |
-| ダッシュボード |いいえ |いいえ |いいえ |いいえ |
+| Power BI サービス |いいえ |いいえ |いいえ |いいえ |
 | R スクリプト |いいえ |いいえ |いいえ |いいえ |
 | Salesforce オブジェクト |いいえ |いいえ |いいえ |いいえ |
 | Salesforce レポート |いいえ |いいえ |いいえ |いいえ |

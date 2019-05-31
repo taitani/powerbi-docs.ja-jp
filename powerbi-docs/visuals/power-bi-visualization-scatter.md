@@ -12,11 +12,11 @@ ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 26dd55f1084d62f9506b02c5852f0396adba305a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290316"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61070650"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI での散布図、バブル チャート、およびドット プロット グラフ
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
@@ -60,9 +60,9 @@ ms.locfileid: "54290316"
 1. 編集ビューでレポートを開き、黄色のプラス アイコンを選んで空のレポート ページを作成します。
  
 2. [フィールド] ウィンドウで、次のフィールドを選びます。
-   - **[Sales]** > **[Sales Per Sq Ft]**
-   - **[Sales]** > **[Total Sales Variance %]**
-   - **[District]** > **[District]**
+   - **[Sales]**  >  **[Sales Per Sq Ft]**
+   - **[Sales]**  >  **[Total Sales Variance %]**
+   - **[District]**  >  **[District]**
 
      ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 
@@ -80,7 +80,7 @@ ms.locfileid: "54290316"
 
 ## <a name="create-a-bubble-chart"></a>バブル チャートを作成する
 
-1. **[フィールド]** ウィンドウから、**[Sales]** > **[This Year Sales]** > **[値]** を **[サイズ]** 領域にドラッグします。 データ ポイントは、売り上げ高の値に比例してボリュームに展開します。
+1. **[フィールド]** ウィンドウから、 **[Sales]**  >  **[This Year Sales]**  >  **[値]** を **[サイズ]** 領域にドラッグします。 データ ポイントは、売り上げ高の値に比例してボリュームに展開します。
    
    ![ポイントがバブルになる](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
@@ -88,13 +88,13 @@ ms.locfileid: "54290316"
    
     ![ツールヒントが表示される](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. バブル チャートに表示するデータ ポイントの数を設定するには、**[視覚エフェクト]** ウィンドウの **[書式設定]** セクションで、**[全般]** カードを展開し、**[データ ボリューム]** を調整します。 10,000 までの任意の値に最大データ量を設定できます。 数字が大きくなったら、最初にテストをして、良いパフォーマンスが得られることを確認することをお勧めします。 
+3. バブル チャートに表示するデータ ポイントの数を設定するには、 **[視覚エフェクト]** ウィンドウの **[書式設定]** セクションで、 **[全般]** カードを展開し、 **[データ ボリューム]** を調整します。 10,000 までの任意の値に最大データ量を設定できます。 数字が大きくなったら、最初にテストをして、良いパフォーマンスが得られることを確認することをお勧めします。 
 
     ![データ ボリューム](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    データ ポイントが多いほど読み込み時間が長くなるので、スケールの上限に制限のあるレポートを発行する場合は、Web とモバイルでレポートをテストし、ユーザーが望むパフォーマンスが得られることを確認する必要があります。 
 
-4. [視覚化の色、ラベル、タイトル、背景などの書式を設定する](service-getting-started-with-color-formatting-and-axis-properties.md)ことができます。 [アクセシビリティを向上させる](../desktop-accessibility.md)には、行ごとにマーカー図形を追加することを検討します。 各線に別のマーカーの図形を使用すると、レポートの使用者は個々の線 (または領域) を区別するのが容易になります。 マーカーの形状を選ぶには、**[図形]** カードを展開し、マーカーの形状を選びます。
+4. [視覚化の色、ラベル、タイトル、背景などの書式を設定する](service-getting-started-with-color-formatting-and-axis-properties.md)ことができます。 [アクセシビリティを向上させる](../desktop-accessibility.md)には、行ごとにマーカー図形を追加することを検討します。 各線に別のマーカーの図形を使用すると、レポートの使用者は個々の線 (または領域) を区別するのが容易になります。 マーカーの形状を選ぶには、 **[図形]** カードを展開し、マーカーの形状を選びます。
 
       ![マーカーの図形](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
@@ -105,7 +105,7 @@ ms.locfileid: "54290316"
 ## <a name="create-a-dot-plot"></a>ドット プロットを作成する
 ドット プロットを作成するには、X 軸の数値フィールドをカテゴリ フィールドに置き換えます。
 
-**[X 軸]** ウィンドウで、**[平方フィート単位の売上]** を削除し、**[地区]、[DM]** の順に選択して置き換えます。
+**[X 軸]** ウィンドウで、 **[平方フィート単位の売上]** を削除し、 **[地区]、[DM]** の順に選択して置き換えます。
    
 ![新しいドット プロット](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74be4112071aba3f629d6b44d322cf2caa522f18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397735"
+---
 Power BI の**ガイド付き学習**コースの「**視覚化**」セクションへようこそ。 Power BI が提供する数多くの視覚エフェクトについての楽しく興味深い、有意義なツアーを始めましょう。 しかもこれがすべてではありません。視覚エフェクトは常に増え続けているのです。
 
 ![](media/3-1-intro-visualizations/3-1_1.png)

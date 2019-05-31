@@ -12,11 +12,11 @@ ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
 ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430765"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61147037"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow と Power BI
 
@@ -43,7 +43,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
 3. **[テンプレートから作成]** を選択します。
    
     ![自分のフロー メニュー バー](media/service-flow-integration/power-bi-template.png)
-4. [検索] ボックスを使用して Power BI テンプレートを検索し、**[Power BI データ アラートがトリガーされたときに対象ユーザーにメールを送信する] > [続行]** の順に選択します。
+4. [検索] ボックスを使用して Power BI テンプレートを検索し、 **[Power BI データ アラートがトリガーされたときに対象ユーザーにメールを送信する] > [続行]** の順に選択します。
    
     ![検索結果](media/service-flow-integration/power-bi-flow-alert.png)
 
@@ -56,7 +56,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
 1. トリガーのドロップダウンから Power BI データ アラートを選択します。 **[アイルランドが新しいメダルを獲得]** を選びます。 アラートの作成方法については、「[Data alerts in Power BI](service-set-data-alerts.md)」(Power BI のデータ アラート) を参照してください。
    
    ![アラート ドロップダウン](media/service-flow-integration/power-bi-trigger-flow.png)
-2. 1 つまたは複数の有効なメール アドレスを入力し、**[編集]** (下図参照) または **[動的なコンテンツの追加]** を選択します。 
+2. 1 つまたは複数の有効なメール アドレスを入力し、 **[編集]** (下図参照) または **[動的なコンテンツの追加]** を選択します。 
    
    ![電子メール送信画面](media/service-flow-integration/power-bi-flow-email.png)
 
@@ -64,14 +64,14 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
 
    ![電子メール送信画面](media/service-flow-integration/power-bi-flow-email-default.png)
 
-1.  たとえば、Power BI で**さらにメダルを獲得**というタイトルのアラートを作成した場合、**[アラートのタイトル]** を選択すると、そのテキストをメールの件名フィールドに追加できます。
+1.  たとえば、Power BI で**さらにメダルを獲得**というタイトルのアラートを作成した場合、 **[アラートのタイトル]** を選択すると、そのテキストをメールの件名フィールドに追加できます。
 
     ![メール テキストの作成](media/service-flow-integration/power-bi-flow-message.png)
 
     また、既定のメールの本文をそのまま使うことも、独自に作成することもできます。 上記の例には、メッセージにいくつかの変更が含まれています。
 
-1. 終わったら、**[フローの作成]** または **[フローの保存]** を選びます。  フローが作成され、評価されます。  Flow でエラーが検出されると、通知されます。
-2. エラーが検出された場合、**[フローの編集]** を選択して修正するか、**[完了]** を選択して新しいフローを実行します。
+1. 終わったら、 **[フローの作成]** または **[フローの保存]** を選びます。  フローが作成され、評価されます。  Flow でエラーが検出されると、通知されます。
+2. エラーが検出された場合、 **[フローの編集]** を選択して修正するか、 **[完了]** を選択して新しいフローを実行します。
    
    ![成功メッセージ](media/service-flow-integration/power-bi-flow-running.png)
 5. データ アラートがトリガーされると、指定したアドレスにメールが送信されます。  
@@ -82,25 +82,25 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
 このタスクでは、Power BI データ アラート (通知) でトリガーされる単純なフローをゼロから作成します。
 
 1. Microsoft Flow にサインインします。
-2. **[マイ フロー]** > **[一から作成]** の順に選びます。
+2. **[マイ フロー]**  >  **[一から作成]** の順に選びます。
    
    ![フロー上部メニュー バー](media/service-flow-integration/power-bi-my-flows.png)
-3. [検索] ボックスを使用して Power BI トリガーを検索し、**[Power BI - When a data driven alert is triggered]\(Power BI - データ ドリブン アラートがトリガーされた場合\)** を選択します。
+3. [検索] ボックスを使用して Power BI トリガーを検索し、 **[Power BI - When a data driven alert is triggered]\(Power BI - データ ドリブン アラートがトリガーされた場合\)** を選択します。
 
 ### <a name="build-your-flow"></a>フローを構築する
 1. ドロップダウンからアラート名を選択します。  アラートの作成方法については、「[Data alerts in Power BI](service-set-data-alerts.md)」(Power BI のデータ アラート) を参照してください。
    
     ![アラートの名前の選択](media/service-flow-integration/power-bi-totalstores2.png)
-2. **[新しいステップ]** > **[アクションの追加]** を選択します。
+2. **[新しいステップ]**  >  **[アクションの追加]** を選択します。
    
    ![新しいステップの追加](media/service-flow-integration/power-bi-new-step.png)
-3. 「**Outlook**」を検索し、**[Create event]** (イベントの作成) を選択します。
+3. 「**Outlook**」を検索し、 **[Create event]** (イベントの作成) を選択します。
    
    ![フローの構築](media/service-flow-integration/power-bi-create-event.png)
 4. イベント フィールドに入力します。 Flow でフィールドを選択すると、含めることができる動的なコンテンツが表示されます。
    
    ![フローの作成の続行](media/service-flow-integration/power-bi-flow-event.png)
-5. 完了したら、**[フローの作成]** を選択します。  フローが保存され、評価されます。 エラーがない場合、**[完了]** を選択してこのフローを実行します。  新しいフローが **[自分のフロー]** ページに追加されます。
+5. 完了したら、 **[フローの作成]** を選択します。  フローが保存され、評価されます。 エラーがない場合、 **[完了]** を選択してこのフローを実行します。  新しいフローが **[自分のフロー]** ページに追加されます。
    
    ![フローの完了](media/service-flow-integration/power-bi-flow-running.png)
 6. Power BI データ アラートでフローがトリガーされると、次のような Outlook イベント通知を受け取ります。

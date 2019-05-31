@@ -11,10 +11,10 @@ ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
-ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65941440"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Power BI Desktop での多対多カーディナリティのリレーションシップ
@@ -119,7 +119,7 @@ Power BI Desktop では、いずれのテーブルにもリレーションシッ
 
 ![[リレーションシップの編集] ウィンドウ](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-その結果、**[リレーションシップ]** ビューには、2 つのテーブル間に直接かつ多対多のリレーションシップが表示されるようになります。 **フィールド** リストにおけるテーブルの外観、およびビジュアルが作成されるときの後続の動作は、回避策を適用した場合と似ています。 回避策では、個別の *State* (州) データを表示する追加のテーブルは表示されません。 たとえば、前のセクションで説明したように、*State* (州)、*Population* (人口)、*Sales* (売上) のデータを表すビジュアルは、次のように表示されます。
+その結果、 **[リレーションシップ]** ビューには、2 つのテーブル間に直接かつ多対多のリレーションシップが表示されるようになります。 **フィールド** リストにおけるテーブルの外観、およびビジュアルが作成されるときの後続の動作は、回避策を適用した場合と似ています。 回避策では、個別の *State* (州) データを表示する追加のテーブルは表示されません。 たとえば、前のセクションで説明したように、*State* (州)、*Population* (人口)、*Sales* (売上) のデータを表すビジュアルは、次のように表示されます。
 
 ![テーブルのビジュアル](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 

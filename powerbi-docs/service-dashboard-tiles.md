@@ -12,11 +12,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215989"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139939"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードのタイルの概要
 
@@ -43,7 +43,7 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 * [別のダッシュボード](service-pin-tile-to-another-dashboard.md)
 * [OneDrive for Business 上の Excel ブック](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher for Excel](publisher-for-excel.md)
-* [クイック分析情報](service-insights.md)
+* [Quick Insights (クイック分析情報)](service-insights.md)
 * [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 また、[[タイルの追加]](service-dashboard-add-widget.md) を使って、画像、テキスト ボックス、ビデオ、ストリーミング データ、Web コンテンツ用のスタンドアロン タイルをダッシュボードに直接作成できます。
@@ -82,7 +82,7 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 タイルを選択したときに次に生じる動作は、タイルの作成方法によって異なります。 また、[カスタム リンク](service-dashboard-edit-tile.md)がある場合、タイルを選択するとそのリンクに移動できます。 それ以外の場合、タイルを選択すると、そのタイルを作成するために使われたレポート、Excel Online ブック、オンプレミスの Reporting Services レポート、Q&A の質問に移動できます。
 
 > [!NOTE]
-> 例外は、**[タイルを追加]** を使ってダッシュボードに直接作成したビデオ タイルの場合です。 (この方法で作成された) ビデオ タイルを選択すると、ダッシュボード上で直接ビデオが再生されます。   
+> 例外は、 **[タイルを追加]** を使ってダッシュボードに直接作成したビデオ タイルの場合です。 (この方法で作成された) ビデオ タイルを選択すると、ダッシュボード上で直接ビデオが再生されます。   
 > 
 > 
 

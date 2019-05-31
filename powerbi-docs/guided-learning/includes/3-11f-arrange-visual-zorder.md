@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2019376373268ff57802525ba5b7ee6b7a8ff32e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397792"
+---
 レポートの要素がたくさんある場合、Power BI では、それらを相互に重ねる方法を管理できます。 項目を階層化したり別の項目の上に配置する方法は、しばしば Z オーダーと呼ばれます。
 
 レポート内の要素の Z オーダーを管理するには、要素を選択し、リボンの **[ホーム]** タブにある **[配置]** ボタンを使用して重ね順を変更します。

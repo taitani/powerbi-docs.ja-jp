@@ -12,11 +12,11 @@ ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 3835bedc1b4ab2df87abf4704ef338ff7f4abc5d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215046"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61393114"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI のウォーターフォール図
 ウォーターフォール図では、値が加算または減算された際の累計 (現在の合計) が示されます。 一連の加算と減算の変化によって、初期値 (たとえば、純利益) が、どのように影響を受けるかを理解するために役立ちます。
@@ -35,27 +35,27 @@ ms.locfileid: "56215046"
 * 毎月の収入と支出、および口座の現在の残高を視覚化する場合 
 
 ## <a name="create-a-waterfall-chart"></a>ウォーターフォール図の作成
-ここでは、月別の売上差異 (予想売上高と実際の売上高の差異) を示すウォーターフォール図を作成します。 先に進むには、Power BI にサインインして、**[データの取得] \> [サンプル] \> [小売りの分析のサンプル]** を選びます。 
+ここでは、月別の売上差異 (予想売上高と実際の売上高の差異) を示すウォーターフォール図を作成します。 先に進むには、Power BI にサインインして、 **[データの取得] \> [サンプル] \> [小売りの分析のサンプル]** を選びます。 
 
 1. **[データセット]** タブを選択し、新しい [小売りの分析のサンプル] データセットまでスクロールします。  **レポートの作成**アイコンを選択し、レポート編集ビューでデータセットを開きます。 
    
     ![強調表示されている [データセット] タブ](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. **[フィールド]** ウィンドウで、**[セールス] \> [Total Sales Variance]** (総売上差異) を選択します。 
+2. **[フィールド]** ウィンドウで、 **[セールス] \> [Total Sales Variance]** (総売上差異) を選択します。 
 3. グラフを **ウォーターフォール**に変換します。 **[Total Sales Variance]** (総売上差異) が **[Y 軸]** 領域内にない場合、そこにドラッグします。
    
     ![視覚エフェクトのテンプレート](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. **[時刻]** \> **[FiscalMonth]** を選択して、[Total Sales Variance] を **[カテゴリ]** に追加します。 
    
     ![ウォーターフォール](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
-5. 時系列でウォーターフォール図を並べ替えます。 図の右上にある省略記号 [...] を選択し、**[FiscalMonth]** を選択します。
+5. 時系列でウォーターフォール図を並べ替えます。 図の右上にある省略記号 [...] を選択し、 **[FiscalMonth]** を選択します。
    
     ![[並べ替え] > [FiscalMonth] を選択する](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
     ![新しい昇順並べ替えの結果](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
-6. さらに調べると、月別の変化の要因がわかります。 **[Store]** > **[Territory]** を **[詳細]** バケットにドラッグします。
+6. さらに調べると、月別の変化の要因がわかります。 **[Store]**  >  **[Territory]** を **[詳細]** バケットにドラッグします。
    
     ![[詳細] バケットでのストアの表示](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
-7. Power BI の既定では、月別の増減に寄与した上位 5 個の要素が追加されます。 ただし、ここでは上位 2 個の要素にのみ興味があります。  [書式設定] ウィンドウで **[詳細]** を選択し、**[最大値]** を 2 に設定します。
+7. Power BI の既定では、月別の増減に寄与した上位 5 個の要素が追加されます。 ただし、ここでは上位 2 個の要素にのみ興味があります。  [書式設定] ウィンドウで **[詳細]** を選択し、 **[最大値]** を 2 に設定します。
    
     ![[書式設定] > [詳細]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    

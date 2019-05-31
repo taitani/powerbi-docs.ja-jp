@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514534"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>チュートリアル:Power BI Desktop での計算列の作成
@@ -36,7 +36,7 @@ ms.locfileid: "65514534"
 
  ![[フィールド] の一覧の列](media/desktop-tutorial-create-calculated-columns/create1.png)
 
-1.  **[その他のオプション]** (...) を選択するか、[フィールド] の一覧の **ProductSubcategory** テーブルを右クリックした後、**[新しい列]** を選択します。 これにより、ProductSubcategory テーブル内に新しい列が作成されます。
+1.  **[その他のオプション]** (...) を選択するか、[フィールド] の一覧の **ProductSubcategory** テーブルを右クリックした後、 **[新しい列]** を選択します。 これにより、ProductSubcategory テーブル内に新しい列が作成されます。
     
     ![新しい列](media/desktop-tutorial-create-calculated-columns/create2.png)
     
@@ -44,7 +44,7 @@ ms.locfileid: "65514534"
     
     ![数式バー](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-2.  既定では、新しい計算列の名前は、単に Column になります。 名前を変更しない場合、追加される新しい列には、Column 2、Column 3 ... のように名前が付けられます。 列を識別しやすくします。**Column** という名前は既に数式バーに強調表示されているため、「**ProductFullCategory**」と入力して名前を変更し、続けて等号(**=**) を入力します。
+2.  既定では、新しい計算列の名前は、単に Column になります。 名前を変更しない場合、追加される新しい列には、Column 2、Column 3 ... のように名前が付けられます。 列を識別しやすくします。**Column** という名前は既に数式バーに強調表示されているため、「**ProductFullCategory**」と入力して名前を変更し、続けて等号( **=** ) を入力します。
     
 3.  新しい列の値は ProductCategory 名から始まるようにします。 この列は異なる (しかし関連する) テーブルにあるため、[RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 関数を使用して取得できます。
     
@@ -61,14 +61,14 @@ ms.locfileid: "65514534"
     > [!TIP]
     > 最も多く発生する構文エラーは、右丸かっこの入力漏れか入力位置の間違いですが、Power BI Desktop が右丸かっこを追加してくれる場合があります。
     
-4. 新しい値ではダッシュとスペースを使用して ProductCategories と ProductSubcategories を区切るため、最初の式の右丸かっこの後ろに、スペース、アンパサンド (**&**)、二重引用符 (**"**)、スペース、ダッシュ (**-**)、スペース、二重引用符、アンパサンドを続けて入力します。 数式は、次のようになるはずです。
+4. 新しい値ではダッシュとスペースを使用して ProductCategories と ProductSubcategories を区切るため、最初の式の右丸かっこの後ろに、スペース、アンパサンド ( **&** )、二重引用符 ( **"** )、スペース、ダッシュ ( **-** )、スペース、二重引用符、アンパサンドを続けて入力します。 数式は、次のようになるはずです。
     
     `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
     > 入力領域が狭い場合は、数式バーの右側にある下向きのシェブロンをクリックすると、数式エディターが広がります。 エディターで、**Alt + Enter** キー を押して下の行に移動し、**Tab** キーを押して文字列を移動します。
     
-5.  左角かっこ (**[**) を入力し、**[ProductSubcategory]** 列を選択して、数式を完了します。 
+5.  左角かっこ ( **[** ) を入力し、 **[ProductSubcategory]** 列を選択して、数式を完了します。 
     
     ![ProductSubcategory を選択](media/desktop-tutorial-create-calculated-columns/create6.png)
     
@@ -106,19 +106,19 @@ Contoso Sales のサンプルには、アクティブな店舗と非アクティ
     
     ![IF を選択](media/desktop-tutorial-create-calculated-columns/if1.png)
     
-3.  IF の最初の引数は、店舗の Status が "On" かどうかを調べる論理テストです。 左角かっこ (**[**) を入力します。これにより、Stores テーブルの列が表示されます。**Status** を選択します。
+3.  IF の最初の引数は、店舗の Status が "On" かどうかを調べる論理テストです。 左角かっこ ( **[** ) を入力します。これにより、Stores テーブルの列が表示されます。**Status** を選択します。
     
     ![Statusを選択](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-4.  **Status** の直後に、**="On"** を入力した後コンマ (**,**) を入力して引数を終了します。 ツールヒントに、結果が TRUE の場合に返される値を追加する必要があることが指示されます。
+4.  **Status** の直後に、 **="On"** を入力した後コンマ ( **,** ) を入力して引数を終了します。 ツールヒントに、結果が TRUE の場合に返される値を追加する必要があることが指示されます。
     
     ![TRUE の値を追加](media/desktop-tutorial-create-calculated-columns/if3.png)
     
-5.  店舗の Status が "On" であれば、店舗の名前を表示するように設定します。 左角かっこ (**[**) を入力し、**StoreName** 列を選択した後、コンマを入力します。 ツールヒントに、結果が FALSE の場合に返される値を追加する必要があることが指示されます。 
+5.  店舗の Status が "On" であれば、店舗の名前を表示するように設定します。 左角かっこ ( **[** ) を入力し、**StoreName** 列を選択した後、コンマを入力します。 ツールヒントに、結果が FALSE の場合に返される値を追加する必要があることが指示されます。 
     
     ![FALSE の値を追加](media/desktop-tutorial-create-calculated-columns/if4.png)
     
-6.  値を *Inactive* にするため、**"Inactive"** と入力し、**Enter** キーを押すか、数式バーのチェックマークを選択して、数式を完成させます。 数式が検証され、新しい列の名前が **Stores**テーブルの [フィールド] の一覧に表示されます。
+6.  値を *Inactive* にするため、 **"Inactive"** と入力し、**Enter** キーを押すか、数式バーのチェックマークを選択して、数式を完成させます。 数式が検証され、新しい列の名前が **Stores**テーブルの [フィールド] の一覧に表示されます。
     
     ![Active StoreName 列](media/desktop-tutorial-create-calculated-columns/if5.png)
     

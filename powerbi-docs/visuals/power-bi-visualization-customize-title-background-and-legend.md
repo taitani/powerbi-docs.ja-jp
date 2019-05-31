@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289603"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051227"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>視覚化のタイトル、凡例、および背景をカスタマイズする
 このチュートリアルでは、視覚化をカスタマイズする、さまざまな方法について説明します。   視覚化をカスタマイズするオプションはとても多いので、そのすべてを学習する最善の方法は、[書式設定] ウィンドウ (ペイントローラー アイコンを選択) を調べることです。  その手始めとして、この記事では視覚化のタイトル、凡例、背景をカスタマイズする方法を説明します。  
 
 すべての視覚エフェクトをカスタマイズできるわけではありません。[完全なリストを参照](#list)してください。  
 
-Amanda が自分のレポートの視覚エフェクトをカスタマイズする様子をご覧ください (ビデオで 4 分 50 秒まで早送りします)。 その後、ビデオで説明されている手順に従って、ご自分のデータでやってみてください。
+ビデオの視覚エフェクトをカスタマイズする方法の例についての 4:50 早送りします。 その後、ビデオで説明されている手順に従って、ご自分のデータでやってみてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -49,7 +49,7 @@ Amanda が自分のレポートの視覚エフェクトをカスタマイズす�
 4. テキスト フィールドに「 **Store count by month opened** 」(開店した月別の店舗数) と入力して、 **タイトルのテキスト** を変更します。  
 5. **[フォント色]** をオレンジに、 **[背景色]** を黄色に変えます。
 
-   * ドロップダウンを選択し、 **[テーマの色]**、 **[最近使用した色]**、または **[ユーザー設定の色]** から色を選択します。
+   * ドロップダウンを選択し、 **[テーマの色]** 、 **[最近使用した色]** 、または **[ユーザー設定の色]** から色を選択します。
    * ドロップダウンを選択して、色ウィンドウを閉じます。  
      ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
 
@@ -70,7 +70,7 @@ Amanda が自分のレポートの視覚エフェクトをカスタマイズす�
 1. スライダーの [オン] または [オフ] を選択して、背景のオンとオフを切り替えます。 ここでは、 **[オン]** を選択したままにします。
 2. 背景色を 74% のグレーに変更します。
 
-   * ドロップダウンを選択し、**[テーマの色]**、**[最近使用した色]**、または **[ユーザー設定の色]** からグレーを選択します。
+   * ドロップダウンを選択し、 **[テーマの色]** 、 **[最近使用した色]** 、または **[ユーザー設定の色]** からグレーを選択します。
    * 透明度を 74% に変更します。   
      ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
 
@@ -84,7 +84,7 @@ Amanda が自分のレポートの視覚エフェクトをカスタマイズす�
       ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 4. スライダーの [オン] または [オフ] を選択して、凡例のオンとオフを切り替えます。 ここでは、 **[オン]** を選択したままにします。
 5. 凡例を視覚エフェクトの左側に移動します。    
-6. **[タイトル]** を **[オン]** に切り替えて凡例にタイトルを追加し、 **[凡例名]** テキスト フィールドに **"Manager"**(マネージャー) と入力します。
+6. **[タイトル]** を **[オン]** に切り替えて凡例にタイトルを追加し、 **[凡例名]** テキスト フィールドに **"Manager"** (マネージャー) と入力します。
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
 
    これまでに実行した凡例のカスタマイズをすべて元に戻すには、 **[凡例]** のカスタマイズ ウィンドウの下部にある **[既定値に戻す]** を選択します。

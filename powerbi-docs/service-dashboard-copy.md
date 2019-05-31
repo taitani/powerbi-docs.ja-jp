@@ -12,11 +12,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 59ffa05d34b86ba2a4673e3d9db39e15f030fb17
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293099"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136729"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Power BI サービスでダッシュボードのコピーを作成する
 ![ダッシュボード](media/service-dashboard-copy/power-bi-dashboard.png)
@@ -28,10 +28,10 @@ ms.locfileid: "54293099"
 ダッシュボードをコピーするには、ダッシュボードの "*作成者*" である必要があります。 アプリとして他のユーザーから共有を受けているダッシュボードは複製できません。
 
 1. ダッシュボードを開きます。
-2. 右上隅の省略記号 [...] を選び、**[ダッシュボードの複製]** を選びます。
+2. 右上隅の省略記号 [...] を選び、 **[ダッシュボードの複製]** を選びます。
    
    ![省略記号メニュー](media/service-dashboard-copy/power-bi-dulicate.png)
-3. ダッシュボードの名前を指定し、**[複製]** を選びます。 
+3. ダッシュボードの名前を指定し、 **[複製]** を選びます。 
    
    ![[ダッシュボードの複製] ダイアログ](media/service-dashboard-copy/power-bi-name.png)
 4. 新しいダッシュボードがオリジナルと同じワークスペースに保存されます。 
@@ -41,9 +41,9 @@ ms.locfileid: "54293099"
 5.    新しいダッシュボードを開き、必要に応じて編集します。 たとえば次の動作として以下のようなことができます。    
     a. [タイルの移動、名前変更、サイズ変更、または削除](service-dashboard-edit-tile.md)を行います。  
     b. タイルの省略記号 [...] を選んで **[詳細の編集]** を選ぶことにより、タイルの詳細とハイパーリンクを編集します。  
-    c. [ダッシュボードのメニュー バーから新しいタイルを追加します](service-dashboard-add-widget.md) (**[タイルの追加]**)。  
+    c. [ダッシュボードのメニュー バーから新しいタイルを追加します](service-dashboard-add-widget.md) ( **[タイルの追加]** )。  
     d. [Q&A](service-dashboard-pin-tile-from-q-and-a.md) または[レポート](service-dashboard-pin-tile-from-report.md)から新しいタイルをピン留めします。  
-    e. ダッシュボードの [設定] ウィンドウから、ダッシュボードの名前の変更、Q&A のオンまたはオフ、タイル フローの設定を行います   (ダッシュボードの省略記号 [...] ドロップダウンを選んで、**[設定]** を選びます)。  
+    e. ダッシュボードの [設定] ウィンドウから、ダッシュボードの名前の変更、Q&A のオンまたはオフ、タイル フローの設定を行います  (ダッシュボードの省略記号 [...] ドロップダウンを選んで、 **[設定]** を選びます)。  
     f. ダッシュボードを同僚と直接、または Power BI アプリの一部として共有します。 
 
 

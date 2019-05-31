@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスでの Q&A の概要
+title: コンシューマーの Power BI の Q & A
 description: Power BI Q&A 自然言語クエリに関するドキュメントの概要トピックです。
 author: mihart
 manager: kvivek
@@ -8,19 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/01/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: e6f95eedbd84ad5f512bbc1a1255cee7130a60d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 35ff71d5956c1c48c304324c121f79addf04cb56
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661978"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65625130"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **コンシューマー**のための Q&A
 ## <a name="what-is-qa"></a>Q&A とは
-自然言語を使用して質問するのが、データから回答を得る最も速い方法である場合があります。 たとえば、「昨年の総売り上げはいくらですか」という質問です。  
+自然言語を使用して質問するのが、データから回答を得る最も速い方法である場合があります。 たとえば、「昨年の総売り上げはいくらですか」という質問です。
+
 Q&A を使用すると、直感的な自然言語の機能を使ってデータを調査し、チャートやグラフの形式で質問に対する回答を受け取ることができます。 Q&A は、検索エンジンとは異なります。Q&A は Power BI 内のデータに関する結果だけを提供します。
 
 **Power BI Q & A** は英語で寄せられた自然言語クエリの回答のみをサポートします。 Power BI 管理者によって有効にできるスペイン語で使用できるプレビューがあります。
@@ -35,7 +36,7 @@ Q&A を使用すると、直感的な自然言語の機能を使ってデータ�
 エクスペリエンスはまったくの対話型で、しかも高速です。 メモリ内の記憶域を使用するため、ほぼ瞬時に応答します。
 
 ## <a name="where-can-i-use-qa"></a>Q&A はどこで使用できますか。
-Power BI サービスのダッシュボード、Power BI モバイルのダッシュボードの下部、Power BI Embedded の視覚エフェクトの上に Q&A があります。 デザイナーから編集アクセス許可を与えられていない場合、利用者は Q&A を使ってデータを探すことはできますが、Q&A で作成された視覚エフェクトを保存することはできません。
+揃って Q & A ダッシュ ボードとレポートを Power BI サービスで、Power BI のダッシュ ボードの下部にあるモバイル。 デザイナーから編集アクセス許可を与えられていない場合、利用者は Q&A を使ってデータを探すことはできますが、Q&A で作成された視覚エフェクトを保存することはできません。
 
 ![質問ボックス](media/end-user-q-and-a/powerbi-qna.png)
 
@@ -68,7 +69,7 @@ Q&A は、表示されているデータに基づいて最適な視覚化を選�
 **回答 1**:質問ボックスが表示されない場合、最初に設定を確認してください。 それを行うには、Power BI ツール バーの右上隅にある歯車アイコンを選択します。   
 ![歯車アイコン](media/end-user-q-and-a/power-bi-settings.png)
 
-次に、**[設定]** > **[ダッシュボード]** の順に選択します。 **[このダッシュボードに Q&A 検索ボックスを表示する]** の隣にチェックマークがあることを確認します。
+次に、 **[設定]**  >  **[ダッシュボード]** の順に選択します。 **[このダッシュボードに Q&A 検索ボックスを表示する]** の隣にチェックマークがあることを確認します。    
 ![ダッシュボードの Q&A 設定](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 

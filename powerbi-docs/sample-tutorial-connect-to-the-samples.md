@@ -12,10 +12,10 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
-ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65625073"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI サービス内のサンプルに接続する
@@ -41,14 +41,14 @@ ms.locfileid: "65625073"
 5. **[サンプル]** を選択します。  
    
    ![[サンプル] ボタン](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
-6. *[小売の分析のサンプル]* を選び、**[接続]** を選びます。   
+6. *[小売の分析のサンプル]* を選び、 **[接続]** を選びます。   
    
    ![黄色の [接続] ボタン](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
 
 ## <a name="what-exactly-was-imported"></a>実際にインポートされたもの
-サンプル コンテンツ パックの場合、**[接続]** を選ぶと、Power BI はそのコンテンツ パックのコピーを実際に取り込んで、クラウドに格納します。 コンテンツ パックにはデータセット、レポート、ダッシュボードが含まれるので、**[接続]** をクリックするとそれらが取得されます。 
+サンプル コンテンツ パックの場合、 **[接続]** を選ぶと、Power BI はそのコンテンツ パックのコピーを実際に取り込んで、クラウドに格納します。 コンテンツ パックにはデータセット、レポート、ダッシュボードが含まれるので、 **[接続]** をクリックするとそれらが取得されます。 
 
-1. Power BI は新しいダッシュボードを作成し、**[ダッシュボード]** タブの一覧に表示します。黄色のアスタリスクは、レポートが新しいことを示します。
+1. Power BI は新しいダッシュボードを作成し、 **[ダッシュボード]** タブの一覧に表示します。黄色のアスタリスクは、レポートが新しいことを示します。
    
    ![成功メッセージ](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
 2. **[レポート]** タブを開きます。"*小売りの分析のサンプル*" という名前の新しいレポートが表示されます。
@@ -88,7 +88,7 @@ ms.locfileid: "65625073"
    * データセットを調べる 1 つの方法は、独自の視覚化とレポートを一から作成することです。  [グラフ] アイコンを選び、 ![[レポート] アイコン](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) レポート編集モードでデータセットを開きます。
      
        ![新しいレポート](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * データセットを調べるもう 1 つの方法は、[クイック分析情報](consumer/end-user-insights.md)を実行することです。 省略記号 [...] を選び、**[詳細情報の取得]** を選びます。 詳細情報の準備ができたら、**[詳細情報を表示]** を選びます。
+   * データセットを調べるもう 1 つの方法は、[クイック分析情報](consumer/end-user-insights.md)を実行することです。 省略記号 [...] を選び、 **[詳細情報の取得]** を選びます。 詳細情報の準備ができたら、 **[詳細情報を表示]** を選びます。
      
        ![分析情報のレポート](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 

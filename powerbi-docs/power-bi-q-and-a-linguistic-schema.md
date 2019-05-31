@@ -11,11 +11,11 @@ ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289925"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61420703"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop で Q&A の言語スキーマを編集し、言い回しを追加する 
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 データが回答になる場合にはさらに効果的です。Power BI の Q&A ではこれが可能です。 Power BI の Q&A に質問すると、Q&A は質問にできるだけ正しく回答します。 
@@ -50,7 +50,7 @@ ms.locfileid: "54289925"
 1. [Visual Studio Code](https://code.visualstudio.com/) をインストールします。    
 
 2. 前に保存した次のファイルのサンプル言語スキーマを選択します:[YAML ファイル](https://go.microsoft.com/fwlink/?linkid=871858) (SummerOlympics.lsdl.yaml)。    
-4. **Visual Studio Code** を選び、**[常にこのアプリを使って .yaml ファイルを開く]** を選びます。
+4. **Visual Studio Code** を選び、 **[常にこのアプリを使って .yaml ファイルを開く]** を選びます。
 
     ![このファイルを開く方法](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
 
@@ -62,7 +62,7 @@ ms.locfileid: "54289925"
 
 
 ## <a name="working-with-linguistic-schemas"></a>言語スキーマの操作
-言語スキーマは、Power BI Desktop の[リレーションシップ ビュー](desktop-relationship-view.md)で編集、インポート、エクスポートすることができます。 言語スキーマを編集する方法の 1 つは、[**[シノニム]** ウィンドウにシノニムを追加する](desktop-qna-in-reports.md)ことです。 YAML ファイルを開く必要はありません。
+言語スキーマは、Power BI Desktop の[リレーションシップ ビュー](desktop-relationship-view.md)で編集、インポート、エクスポートすることができます。 言語スキーマを編集する方法の 1 つは、[ **[シノニム]** ウィンドウにシノニムを追加する](desktop-qna-in-reports.md)ことです。 YAML ファイルを開く必要はありません。
 
 ![[シノニム] ウィンドウ](media/power-bi-q-and-a-linguistic-schema/power-bi-synonyms-pane.png)
 
@@ -89,10 +89,10 @@ Power BI Desktop から言語スキーマを初めてエクスポートすると
 Power BI Desktop に言語スキーマ ファイルをインポートすると、**State:Generated** としてマークされているものはすべて無視されるので (また、後で再生成されます)、生成されたコンテンツを変更する場合は、対応する **State:Generated** タグの削除も行ってください。 同様に、生成されたコンテンツを削除する場合は、**State:Generated** タグを **State:Deleted** に変更して、言語スキーマ ファイルをインポートするときに再生成されないようにする必要があります。
 
 1. Power BI Desktop の "*リレーションシップ ビュー*" でデータセットを開きます。 
-2. **[モデリング]** タブを選び、**[言語スキーマのエクスポート]** を選びます。
+2. **[モデリング]** タブを選び、 **[言語スキーマのエクスポート]** を選びます。
 3. Visual Code (または別のエディター) を選びます。
 4. 編集を行い、YAML ファイルを保存します。
-5. Power BI Desktop から、**[リレーションシップ ビュー]、[モデリング] タブ、[言語スキーマ]、[言語スキーマのインポート]** の順に選びます。
+5. Power BI Desktop から、 **[リレーションシップ ビュー]、[モデリング] タブ、[言語スキーマ]、[言語スキーマのインポート]** の順に選びます。
 6. 編集済みの YAML ファイルを保存した場所に移動して、それを選びます。 成功メッセージが表示されると、言語スキーマの YAML ファイルが正常にインポートされたことがわかります。
 
     ![成功メッセージ](media/power-bi-q-and-a-linguistic-schema/power-bi-success.png)

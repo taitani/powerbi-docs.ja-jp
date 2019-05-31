@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: da6ec79a821e7aa9659843d0461ca6ac0b11706d
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
-ms.translationtype: HT
+ms.openlocfilehash: 7ccbfee788bbada580c02544a4af4b1b25c1a169
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914169"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514217"
 ---
 # <a name="analyze-in-excel"></a>Excel で分析
 Excel を使用して Power BI にあるデータセットを表示したり、データセットと対話したりする必要が生じる場合があります。 **[Excel で分析]** を使用すれば、Power BI に存在するデータセットに応じて、表示や対話だけでなく、Excel 内で PivotTable、グラフ、スライサーの機能を活用できます。
@@ -28,7 +28,7 @@ Excel を使用して Power BI にあるデータセットを表示したり、�
 * Excel のピボット テーブルは、数値フィールドのドラッグ アンド ドロップでの集計をサポートしていません。 Power BI でのデータセットには、*メジャーを事前定義する必要があります*。
 * 一部の組織では、グループ ポリシーの規則により、必要な **[Excel で分析]** 更新プログラムを Excel にインストールできないことがあります。 更新プログラムをインストールできない場合は、管理者に問い合わせてください。
 * **[Excel で分析]** では、Power BI Premium にデータセットがあるか、またはユーザーが Power BI Pro ライセンスを持っている必要があります。 ライセンスの種類の機能の違いについては、「[Power BI features by license type](service-features-license-type.md)」 (Power BI のライセンスの種類別機能) を参照してください。 
-* ユーザーは、基になるデータセットに対する読み取り権限を持っている場合、[Excel で分析] を使用してデータセットに接続できます。  ユーザーがこの権限を持つには、データセットを含むワークスペースのメンバーである、データセットを使用するレポートまたはダッシュボードを共有している、データセットを含むアプリへのアクセス許可を持っているなど、いくつかの方法があります。
+* ユーザーは、読み取り、基になるデータセットに権限を持つ場合、Excel で分析をデータセットに接続できます。  ユーザーがこの権限を持つには、データセットを含むワークスペースのメンバーである、データセットを使用するレポートまたはダッシュボードを共有している、データセットを含むアプリへのアクセス許可を持っているなど、いくつかの方法があります。
 
 ## <a name="how-does-it-work"></a>しくみ
 **Power BI** のデータセットまたはレポートに関連付けられた省略記号のメニュー (...) から **[Excel で分析]** を選択すると、Power BI によって .ODC ファイルが作成され、ブラウザーからお使いのコンピューターにダウンロードされます。
@@ -76,7 +76,7 @@ Power BI データを Excel で分析するには、.odc ファイルのファ�
 ![](media/service-analyze-in-excel/pbi_anlz_excel_enable.png)
 
 > [!NOTE]
-> Power BI テナントの管理者は、*Power BI 管理ポータル*を使って、Analysis Services (AS) データベースに格納されているオンプレミスのデータセットでの **[Excel で分析]** の使用を無効にできます。 このようにすると、**[Excel で分析]** は AS データベースに対しては無効になりますが、他のデータセットについては引き続き使用できます。
+> Power BI テナントの管理者は、*Power BI 管理ポータル*を使って、Analysis Services (AS) データベースに格納されているオンプレミスのデータセットでの **[Excel で分析]** の使用を無効にできます。 このようにすると、 **[Excel で分析]** は AS データベースに対しては無効になりますが、他のデータセットについては引き続き使用できます。
 > 
 > 
 
@@ -101,4 +101,4 @@ Excel が開かれ、空のピボットテーブルがある場合、Power BI �
 ユーザーはデータセットを更新する必要がある一方で、Excel Online では外部接続の更新がサポートされていないため、ユーザー自身のコンピューター上のデスクトップ版 Excel を使用してブックを開くことをお勧めします。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
-”Excel で分析” の使用中に、予期しない結果が出る場合や、機能が期待どおりに動作しない場合があります。 [このページでは、[Excel で分析] の使用中に発生する一般的な問題の解決方法を説明します。](desktop-troubleshooting-analyze-in-excel.md)
+”Excel で分析” の使用中に、予期しない結果が出る場合や、機能が期待どおりに動作しない場合があります。 [このページで、[Excel で分析] の使用中に発生する一般的な問題の解決方法を説明します。](desktop-troubleshooting-analyze-in-excel.md)

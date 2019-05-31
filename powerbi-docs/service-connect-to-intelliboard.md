@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6f3a335bea711f1785f498caf7fbc828abb01c18
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007892"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61172470"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Power BI で IntelliBoard に接続する
 IntelliBoard を使用すると、レポート サービスを介して Moodle 学習管理システムのデータに簡単にアクセスできます。 Power BI 用 IntelliBoard コンテンツ パックは、コース、登録ユーザー、全体的な成績、および LMS アクティビティに関するメトリックを含む、追加の分析を提供します。
@@ -29,10 +29,10 @@ Power BI 用 [IntelliBoard コンテンツ パック](https://app.powerbi.com/ge
 2. **[サービス]** ボックスで、 **[取得]** を選択します。  
    
     ![](media/service-connect-to-intelliboard/services.png)
-3. **[IntelliBoard]**、**[取得]** の順に選択します。  
+3. **[IntelliBoard]** 、 **[取得]** の順に選択します。  
    
     ![](media/service-connect-to-intelliboard/intelliboard.png)
-4. **[OAuth 2]** を選択し、**[サインイン]** をクリックします。 要求されたら、IntelliBoard 資格情報を入力します。
+4. **[OAuth 2]** を選択し、 **[サインイン]** をクリックします。 要求されたら、IntelliBoard 資格情報を入力します。
    
     ![](media/service-connect-to-intelliboard/creds.png)
    

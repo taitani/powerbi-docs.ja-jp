@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e3d62b182f9b142f912a608bee693b7356b1a68d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256261"
+---
 このレッスンでは、まず*グループ*を作成します。 **グループ**は、特定のダッシュボード、レポート、データへのアクセス権を持つユーザーのセットを定義します。
 
 Power BI のグループは Office 365 のグループに基づくため、グループの電子メール、予定表、ドキュメントの管理に Office 365 グループを使用している場合は Power BI から同じ機能やその他の機能が提示されていることが分かります。 Power BI でグループを作成する場合、実質的に Office 365 グループを作成しています。
@@ -8,7 +16,7 @@ Power BI のグループは Office 365 のグループに基づくため、グ�
 
 ![Power BI での共有と共同作業](./media/6-1-create-groups/pbi_learn06_01myworkspace.png)
 
-個人用ワークスペースを展開した場合、**[グループの作成]** を選択できます。
+個人用ワークスペースを展開した場合、 **[グループの作成]** を選択できます。
 
 ![Power BI での共有と共同作業](./media/6-1-create-groups/pbi_learn06_01expandmywkspace.png)
 

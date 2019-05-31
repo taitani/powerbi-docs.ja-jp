@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3548f02e91c6ebc5a2ea985777cdaceda9661185
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256286"
+---
 移動中にデータの追跡をする場合は、Power BI モバイル アプリをお使いください。iOS、Android、Windows の各デバイス用を用意しております。
 
 Power BI アプリを使用する場合は、Power BI サービス アカウントの情報を使用してアカウントにサインインします。 Windows モバイル デバイス (この場合はタブレット) では、サインインは次のように行います。

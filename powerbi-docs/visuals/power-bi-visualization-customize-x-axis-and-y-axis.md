@@ -12,11 +12,11 @@ ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223308"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61068587"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X 軸と Y 軸のプロパティのカスタマイズ
 このチュートリアルでは、視覚化に含まれる X 軸と Y 軸をカスタマイズする、さまざまな方法について説明します。 ただし、軸のない視覚化や、カスタマイズできない視覚化もあります。たとえば、円グラフに軸はありません。 カスタマイズのオプションは視覚化によって異なるため、数が多すぎて 1 つの記事では扱いきれません。 そこで、よく使われる軸のカスタマイズをいくつか見ていくほか、Power BI レポート キャンバスで使用する視覚的な書式設定タブについて説明します。  
@@ -41,23 +41,23 @@ Power BI サービスにサインインし、**小売りの分析のサンプル
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-create-chart.png)
 
 ## <a name="customize-the-x-axis"></a>X 軸をカスタマイズする
-1. \[Visualizations and Filters] \(視覚化とフィルター) ウィンドウで、**[書式]** (ペイントローラ アイコン ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller.png)) を選択して、カスタマイズのオプションを表示します。
+1. \[Visualizations and Filters] \(視覚化とフィルター) ウィンドウで、 **[書式]** (ペイントローラ アイコン ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller.png)) を選択して、カスタマイズのオプションを表示します。
 2. X 軸のオプションを展開します。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-axis.png)
 3. スライダーで \[オン] \(または [オフ]) を選択して、X 軸のオンとオフを切り替えます。 ここでは、 **[オン]** を選択したままにします。  X 軸をオフにする理由の 1 つは、データのための領域を増やすことです。
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
-4. テキストの色、サイズ、フォントを設定します。 この例では、**[色]** を黒、**[テキスト サイズ]** を 14、**[フォント]** を Arial Black に設定しています。  
+4. テキストの色、サイズ、フォントを設定します。 この例では、 **[色]** を黒、 **[テキスト サイズ]** を 14、 **[フォント]** を Arial Black に設定しています。  
 5. X 軸のタイトルを **[オン]** にして、X 軸の名前 (この例では、**FiscalMonth**) を表示します。  
-6. タイトルのテキストの色、サイズ、フォントを設定します。  この例では、**[タイトルの色]** をオレンジに設定し、**[軸のタイトル]** を "**Fiscal Month**" に変更し、**[タイトル テキストのサイズ]** を 21 に設定しています。
-7. FiscalMonth で並べ替えるには、グラフの右上隅にある省略記号 [...] を選び、**[並べ替え: FiscalMonth]** を選びます。
+6. タイトルのテキストの色、サイズ、フォントを設定します。  この例では、 **[タイトルの色]** をオレンジに設定し、 **[軸のタイトル]** を "**Fiscal Month**" に変更し、 **[タイトル テキストのサイズ]** を 21 に設定しています。
+7. FiscalMonth で並べ替えるには、グラフの右上隅にある省略記号 [...] を選び、 **[並べ替え: FiscalMonth]** を選びます。
 
     これらのカスタマイズをすべて完了すると、棒グラフは次のように表示されるはずです。
 
      ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-customize-axis.png)
 
-これまでに実行した X 軸のカスタマイズをすべて元に戻すには、**[X 軸]** カスタマイズ ウィンドウの下部にある **[既定値に戻す]** を選びます。
+これまでに実行した X 軸のカスタマイズをすべて元に戻すには、 **[X 軸]** カスタマイズ ウィンドウの下部にある **[既定値に戻す]** を選びます。
 
 ## <a name="customize-the-y-axis"></a>Y 軸をカスタマイズする
 1. Y 軸のオプションを展開します。
@@ -68,10 +68,10 @@ Power BI サービスにサインインし、**小売りの分析のサンプル
    
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
 3. Y 軸の **[位置]** を右側に移動します。
-4. テキストの色、サイズ、フォントを設定します。 この例では、**[色]** を黒、**[テキスト サイズ]** を 14、**[フォント]** を Arial Black に設定しています。  
-5. **[表示単位]** は百万のままにし、**[小数点以下桁数の値]** をゼロにします。
-6. この視覚化の場合、Y 軸にタイトルを表示してもビジュアルがわかりやすくなることはないので、**[タイトル]** はオフのままにします。  
-7. グリッド線が目立つように、**[色]** を濃いグレーに変更し、**[Stroke]\(ストローク\)** を 2 に増やします。
+4. テキストの色、サイズ、フォントを設定します。 この例では、 **[色]** を黒、 **[テキスト サイズ]** を 14、 **[フォント]** を Arial Black に設定しています。  
+5. **[表示単位]** は百万のままにし、 **[小数点以下桁数の値]** をゼロにします。
+6. この視覚化の場合、Y 軸にタイトルを表示してもビジュアルがわかりやすくなることはないので、 **[タイトル]** はオフのままにします。  
+7. グリッド線が目立つように、 **[色]** を濃いグレーに変更し、 **[Stroke]\(ストローク\)** を 2 に増やします。
 
     これらのカスタマイズをすべて完了すると、棒グラフは次のように表示されるはずです。
 
@@ -82,7 +82,7 @@ Power BI サービスにサインインし、**小売りの分析のサンプル
 
 ### <a name="create-a-chart-with-two-y-axes"></a>2 つの Y 軸を持つグラフを作成する
 1. **[Time] > [FiscalMonth]** で **[Sales] > [Gross Margin last year %]** を追跡する新しい折れ線グラフを作成します。
-2. ビジュアルを月別に並べ替えるには、省略記号 (...) をクリックして、**[Sort by Month]** (月別に並べ替え) を選択します。
+2. ビジュアルを月別に並べ替えるには、省略記号 (...) をクリックして、 **[Sort by Month]** (月別に並べ替え) を選択します。
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
@@ -98,7 +98,7 @@ Power BI サービスにサインインし、**小売りの分析のサンプル
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
-6. **[Gross Margin% Last Year]** (前年の粗利 (%)) を **[各棒の値]** から **[線の値]** にドラッグします。 上で作成した積み上げ縦棒グラフに***加えて***、折れ線グラフが表示されるようになりました   (上で学んだことを使って、必要に応じて、軸のフォントの色とサイズを設定してください)。
+6. **[Gross Margin% Last Year]** (前年の粗利 (%)) を **[各棒の値]** から **[線の値]** にドラッグします。 上で作成した積み上げ縦棒グラフに***加えて***、折れ線グラフが表示されるようになりました  (上で学んだことを使って、必要に応じて、軸のフォントの色とサイズを設定してください)。
    
    Power BI によって 2 つの軸が作成されるため、各データ セットを異なる縮尺でプロットできます。つまり、左側の測定単位はドルで、右側の測定単位は割合です。
 
@@ -131,7 +131,7 @@ Power BI サービスにサインインし、**小売りの分析のサンプル
 詳しくは、[色の書式設定、ラベル付け、軸のプロパティに関するヒントとテクニック](service-tips-and-tricks-for-color-formatting.md)に関するページをご覧ください。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-X 軸が日付型としてレポートの所有者別に分類されている場合、**[種類]** オプションが表示され、連続またはカテゴリ別から選択できます。
+X 軸が日付型としてレポートの所有者別に分類されている場合、 **[種類]** オプションが表示され、連続またはカテゴリ別から選択できます。
 
 ## <a name="next-steps"></a>次の手順
 [Power BI レポートでの視覚化](power-bi-report-visualizations.md)についての詳細を参照する

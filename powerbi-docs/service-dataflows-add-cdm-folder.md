@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3c5b33b4b056a5d2dfeeffd4c72ea878cf7d79c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280288"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61161003"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
 
@@ -31,9 +31,6 @@ Power BI では、組織の Azure Data Lake Store Gen2 にデータフローと�
 
 以降のセクションでは、CDM フォルダーからデータフローを作成する方法について説明します。
 
-> [!NOTE]
-> データフローの機能はプレビュー中であり、一般公開前に変更および更新される可能性があります。
-
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>CDM フォルダーからのデータフローの作成
 
 CDM フォルダーからデータフローの作成を開始するには、**Power BI サービス**を起動して、左側のナビゲーション ウィンドウから**アプリのワークスペース**を選択します。 また、新しいワークスペースを作成して、そこに新しいデータフローを作成することも可能です。
@@ -48,7 +45,7 @@ CDM フォルダーからデータフローの作成を開始するには、**Po
 
 ![CDM フォルダーからのデータフロー](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_01.jpg)
 
-情報を指定したら、**[Create and attach]\(作成とアタッチ\)** を選択してデータフローを作成します。
+情報を指定したら、 **[Create and attach]\(作成とアタッチ\)** を選択してデータフローを作成します。
 
 CDM フォルダーからのデータフローは、Power BI に表示されるときに、"*外部*" アイコンでマーク付けされます。 次のセクションでは、標準のデータフローと、CDM フォルダーから作成されたデータフローの間の違いについて説明します。
 
@@ -99,9 +96,9 @@ Power BI Desktop:
 データフロー全般については、次の記事をご覧ください。
 
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
-* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
-* [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
+* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
 
 Azure Storage の詳細については、次の記事をご覧ください。
 * [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

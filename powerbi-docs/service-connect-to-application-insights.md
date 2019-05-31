@@ -11,11 +11,11 @@ ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 3f0a23c2bdb97c6fbc75981c40cb92c529550b1b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008237"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61177146"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Power BI で Application Insights に接続する
 Power BI を使用して、[Application Insights](/azure/application-insights/app-insights-overview/) テレメトリから強力なカスタム ダッシュボードを作成できます。 新しい方法でアプリのテレメトリを視覚化します。 複数のアプリまたはコンポーネント サービスからのメトリックを単一のダッシュボードに統合します。 この Application Insights 用 Power BI コンテンツ パックの最初のリリースには、アクティブなユーザー、ページ ビュー、セッション、ブラウザーと OS のバージョン、マップ内でのユーザーの地理的分布など、一般的な使用関連メトリックのためのウィジェットが含まれています。
@@ -32,10 +32,10 @@ Power BI を使用して、[Application Insights](/azure/application-insights/ap
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
     ![[サービスの取得] ボタン](media/service-connect-to-application-insights/pbi_getservices.png)
-3. **[Application Insights]** > **[取得]** の順に選択します。
+3. **[Application Insights]**  >  **[取得]** の順に選択します。
    
     ![Application Insights コンテンツ パック](media/service-connect-to-application-insights/appinsights.png)
-4. **[Application Insights リソース名]**、 **[リソース グループ]**、 **[サブスクリプション ID]** など、接続するアプリケーションの詳細を入力します。 詳細については、後の「[Application Insights のパラメーター](#FindingAppInsightsParams)」を参照してください。
+4. **[Application Insights リソース名]** 、 **[リソース グループ]** 、 **[サブスクリプション ID]** など、接続するアプリケーションの詳細を入力します。 詳細については、後の「[Application Insights のパラメーター](#FindingAppInsightsParams)」を参照してください。
    
     ![Application Insights 接続ダイアログ ボックス](media/service-connect-to-application-insights/pbi_contpkappinsitconnectndialog.png)    
 5. **[サイン イン]** を選択し、画面の指示に従って接続します。

@@ -1,32 +1,102 @@
 ---
 title: Power BI レポート サーバーの新機能
 description: Power BI レポート サーバーの新機能について説明します。 これは主要な機能領域を網羅しており、新しいアイテムがリリースされるたびに更新されます。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/22/2019
-ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662459"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187325"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
-Power BI レポート サーバーの新機能について説明します。 この記事は主要な機能領域を網羅しており、新しいアイテムがリリースされるたびに更新されます。
-
-Power BI Report Server および Power BI Report Server 向けに最適化された Power BI Desktop の最新バージョンをダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」を参照してください。
+新しい Power BI Report Server および Power BI Report Server 用に最適化された Power BI Desktop の新機能について説明します。 この記事は主要な機能領域を網羅しており、新しいアイテムがリリースされるたびに更新されます。
 
 関連するPower BI の最新情報については、以下を参照してください。
 
 * [Power BI サービスの新機能](../service-whats-new.md)
 * [Power BI Desktop の新機能](../desktop-latest-update.md)
 * [Power BI 用モバイル アプリの新機能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>5 月 2019:Power BI Report Server 向け power BI Desktop
+
+参照してください、 [Power BI Report Server が 2019年](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/)詳細については、すべての新機能に関するブログの投稿。
+
+リリースの主な特徴を次に示します。
+
+### <a name="performance-analyzer"></a>パフォーマンス アナライザー 
+
+レポートは、予想よりも遅く、実行する場合は、Power BI Desktop で Performance Analyzer をお試しください。 を起動すると、レポートで行うすべてのアクションに関する情報を含むログ ファイルを作成します。 詳細をご覧ください、 [Performance Analyzer](../desktop-performance-analyzer.md)します。
+
+### <a name="new-modeling-view"></a>新しいビューをモデリング
+
+Power BI Desktop で新しいモデリング ビューでは、表示し、多数のテーブルを含む複雑なデータセットを使用します。 ハイライトは、複数のダイアグラムのレイアウトを含めるし、一括列、メジャー、およびテーブルの編集します。 詳細をご覧ください[ビューをモデリング](../desktop-modeling-view.md)します。
+
+### <a name="accessible-visual-interaction"></a>アクセス可能なビジュアルの相互作用
+
+キーボード ナビゲーションを使用して組み込みのビジュアルのさまざまなデータ ポイントを今すぐアクセスできます。 詳細をご覧ください[Power BI レポートでのユーザー補助](../desktop-accessibility.md)します。
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>条件付き書式のタイトルと web URL アクション
+
+Power BI レポートは対話型です。 レポートのタイトルを動的にレポートの現在の状態を反映するようになることをお合理的です。 同じ式バインディングの書式を使用する、ボタン、図形、およびイメージの Url を動的にします。 詳細をご覧ください[タイトルの式に基づく](../desktop-conditional-format-visual-titles.md)します。
+
+### <a name="cross-highlight-by-axis-labels"></a>軸ラベルでクロス強調表示
+
+ビジュアル内のデータ ポイントを選択するように、ビジュアル、ページの他の要素をクロス強調表示をで軸のカテゴリのラベルを選択します。 詳細をご覧ください[クロス強調表示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)します。
+
+### <a name="all-the-new-features"></a>すべての新機能
+
+すべての新機能の一覧を次に示します。
+
+### <a name="reporting"></a>レポート
+
+- 折れ線グラフ内の 1 つのポイントでクロス強調表示 
+- タイトルの折り返し 
+- 既定のビジュアルの相互作用をクロス フィルター処理松に更新します。
+- ビジュアルの罫線の角が丸い 
+- 1 つ選択スライサー  
+- Bing マップのヒート マップのサポート  
+- 軸ラベルでクロス強調表示  
+- 既定のツールヒントが書式設定  
+- 静的な web のボタン、図形、イメージの URL をサポートします。  
+- ページの配置オプション   
+- 選択 ウィンドウの改良  
+- アクセス可能なビジュアルの相互作用  
+- 条件付きビジュアルのタイトルの書式設定  
+- 条件付きのボタン、図形、およびイメージの web URL アクションの書式設定
+- パフォーマンス アナライザー ウィンドウ
+- テーブルとマトリックスのキーボード ナビゲーション
+- 行のデータ ラベル位置コントロール
+- KPI ビジュアル インジケーター テキスト コントロールのサイズ
+
+### <a name="analytics"></a>分析
+
+- 今すぐ階層として日付を表示することが一般提供開始  
+
+### <a name="modeling"></a>モデリング
+
+- 新しいビューの一般提供をモデリング
+- 新しい DAX 関数
+- ALLSELECTED DAX 関数を更新します。
+- 新しいレポートの自動日付テーブルを無効にします。
+
+## <a name="may-2019-power-bi-report-server"></a>5 月 2019:Power BI Report Server
+
+### <a name="support-for-trusted-visuals"></a>信頼されたビジュアルのサポート
+
+Power BI レポート サーバーに信頼されているビジュアルのサポートが追加されました。 現在 Mapbox と PowerOn ビジュアルをサポートします。 ESRI、Visio、および PowerApps はサポートされていません今回のリリースです。)
+
+### <a name="improved-security-features"></a>強化されたセキュリティ機能
+
+**RestrictedResourceMimeTypeForUpload**管理者の使用を禁止されている mime の種類、たとえばテキスト/html のコンマ区切りの一覧を指定できます。
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -36,7 +106,7 @@ Power BI レポートでは、次の機能がサポートされています。
 
 [**マトリックス行ヘッダーでの展開と折りたたみ**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) 個々の行ヘッダーの展開/折りたたみ機能を追加しました。これは最も要望の多かったビジュアル機能の 1 つです。
 
-[**.pbix ファイル間でのコピーと貼り付け**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) .pbix ファイル間で、ビジュアルをコピーして (ビジュアルのコンテキスト メニューまたは標準的な Ctrl + C キーボード ショートカットを使用)、それを別のレポートに貼り付ける (Ctrl + V キーを使用) ことができます。
+[ **.pbix ファイル間でのコピーと貼り付け**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) .pbix ファイル間で、ビジュアルをコピーして (ビジュアルのコンテキスト メニューまたは標準的な Ctrl + C キーボード ショートカットを使用)、それを別のレポートに貼り付ける (Ctrl + V キーを使用) ことができます。
 
 [**スマート配置ガイド**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) レポートのページ上でオブジェクトを移動するときにスマート配置ガイドが表示され (PowerPoint で表示されるように)、ページ上で行うあらゆる配置が楽に行えます。 ご利用のページ上で何かをドラッグまたはサイズ変更する場合は常にスマート ガイドが表示されます。 オブジェクトを別のオブジェクトの近くに移動する場合、移動するオブジェクトは他方のオブジェクトと揃えられた位置に配置されます。
 
@@ -328,7 +398,7 @@ Excel と Power BI には、業界で他に類を見ないツール ポートフ
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>新しいテーブルとマトリックス ビジュアルのサポート
 
-Power BI Report Server は、Power BI の新しいテーブル ビジュアルとマトリックス ビジュアルをサポートするようになりました。 これらのビジュアルでレポートを作成するには、2017 年 10 月リリース向けに更新された Power BI Desktop リリースが必要です。 Power BI Desktop (2017 年 6 月) リリースと並列インストールすることはできません。 Power BI Desktop の最新バージョンについては、[Power BI Report Server のダウンロード ページ](https://powerbi.microsoft.com/report-server/)で、**[ダウンロードの詳細オプション]** を選んでください。
+Power BI Report Server は、Power BI の新しいテーブル ビジュアルとマトリックス ビジュアルをサポートするようになりました。 これらのビジュアルでレポートを作成するには、2017 年 10 月リリース向けに更新された Power BI Desktop リリースが必要です。 Power BI Desktop (2017 年 6 月) リリースと並列インストールすることはできません。 Power BI Desktop の最新バージョンについては、[Power BI Report Server のダウンロード ページ](https://powerbi.microsoft.com/report-server/)で、 **[ダウンロードの詳細オプション]** を選んでください。
 
 ## <a name="june-2017"></a>2017 年 6 月
 

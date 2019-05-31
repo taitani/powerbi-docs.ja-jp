@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c8a96918049f2f1898ab80a9368a8d2f0a8fe53a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286139"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454475"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop のデータ ビュー
 **データ ビュー**は、**Power BI Desktop** モデル内のデータを検査、調査、理解するのに役立ちます。 これは、**クエリ エディター**内のテーブル、列、データの表示方法とは異なります。 データ ビューには、モデルに読み込まれた *後* のデータが表示されます。
@@ -28,7 +28,7 @@ ms.locfileid: "54286139"
 
 1. **[データ ビュー] アイコン** – このアイコンを選択すると、データ ビューに入ります。
 
-2. **[データ グリッド]** – 選んだテーブルとその中のすべての列と行を表示します。 **レポート ビュー**に表示されない列はグレー表示されます。列を右クリックしてオプションを表示できます。
+2. **[データ グリッド]** – 選んだテーブルとその中のすべての列と行を表示します。 **レポート ビュー**に表示されない列はグレー表示されます。列のオプションを右クリックすることができます。
 
 3. **[モデリング] リボン** – ここでは、リレーションシップの管理、計算の作成、列のデータ型、書式設定、データ カテゴリの変更を行うことができます。
 

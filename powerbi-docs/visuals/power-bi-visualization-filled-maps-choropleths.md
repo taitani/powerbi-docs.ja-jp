@@ -12,11 +12,11 @@ ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: ef03a562351b8f4487e4822ef28b89009ee5cbb4
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223492"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61145425"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI の塗り分け地図 (コロプレス)
 塗り分け地図では、網掛け、着色またはパターンを使用して、値の違いを割合に応じて、地理的または地域的に表示します。  こうした相対的な違いは、薄い色の網掛け (頻度が低い/量が少ない) から、濃い色の網掛け (頻度が高い/量が多い) を使用して、すぐにわかるように表示されます。    
@@ -56,7 +56,7 @@ Bing に送信されているデータの詳細、およびジオコーディン
 
 ### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>データを取得し、レポートに新しい空白ページを追加する
 1. 独自の塗り分け地図を作成するには、Power BI にサインインして **[データの取得] \> [サンプル] \> [売上およびマーケティング] \> [接続]** の順に選択し、[売上およびマーケティングのサンプルをダウンロード](../sample-datasets.md)します。
-2. 成功メッセージが表示されたら、それを閉じて **[レポート]** タブを選択します。次に、**[売上およびマーケティングのサンプル]** を選択してレポートを開きます。
+2. 成功メッセージが表示されたら、それを閉じて **[レポート]** タブを選択します。次に、 **[売上およびマーケティングのサンプル]** を選択してレポートを開きます。
 
    ![レポートのコンテンツ リスト](media/power-bi-visualization-filled-maps-choropleths/power-bi-content-reports2.png)
 3. Power BI でレポートが開きます。 **[レポートの編集]** を選び、[編集ビュー](../service-interact-with-a-report-in-editing-view.md)でレポートを開きます。
@@ -69,7 +69,7 @@ Bing に送信されているデータの詳細、およびジオコーディン
 1. フィールド ウィンドウで **[Geo (地理)]** \> **[State]** フィールドを選択します。    
 
    ![[State] の横にある黄色のチェック マーク](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
-5. [グラフを変換](power-bi-report-change-visualization-type.md)して、塗り分け地図にします。 **[State]** も、**[場所]** に含まれるようになったことに注目してください。 Bing 地図は、マップの作成に **[場所]** のフィールドも使用します。  場所には、正しい各種の場所 (国、都道府県、市区町村、郵便番号など) を指定できます。Bing 地図には、世界中の場所に対応する塗り分け地図の輪郭が用意されています。 正しいエントリが [場所] に指定されていないと、Power BI では塗り分け地図を作成できなくなります。  
+5. [グラフを変換](power-bi-report-change-visualization-type.md)して、塗り分け地図にします。 **[State]** も、 **[場所]** に含まれるようになったことに注目してください。 Bing 地図は、マップの作成に **[場所]** のフィールドも使用します。  場所には、正しい各種の場所 (国、都道府県、市区町村、郵便番号など) を指定できます。Bing 地図には、世界中の場所に対応する塗り分け地図の輪郭が用意されています。 正しいエントリが [場所] に指定されていないと、Power BI では塗り分け地図を作成できなくなります。  
 
    ![塗り分け地図のアイコンが強調表示されたテンプレート](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. 地図にフィルターを適用して、米国本土のみが表示されるようにします。
@@ -79,7 +79,7 @@ Bing に送信されているデータの詳細、およびジオコーディン
    b.  **[State]** にポインターを合わせて、展開シェブロンをクリックします。  
    ![[State (All)] を示すビジュアル レベル フィルター](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
-   c.  **[すべて]** の横にチェックマークを付けて、**[AK]** の横のチェックマークを外します。
+   c.  **[すべて]** の横にチェックマークを付けて、 **[AK]** の横のチェックマークを外します。
 
    ![[All] と [AK] が選択されていない [State] のドロップダウン](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. **[SalesFact]** \> **[センチメント]** を選択して、これも **[色の彩度]** に追加します。 **[色の彩度]** のフィールドも、マップの網掛けの制御に関わります。  
@@ -103,11 +103,11 @@ Power BI では、塗り分け地図の外観に対する数多くのコント�
 
 塗り分け地図で 1 つの場所を強調表示にすると、レポート ページにある他の視覚エフェクトがクロスフィルター処理されます。逆の場合も同様です。
 
-1. 先に進むには、まず、**[ファイル] > [保存]** の順に選択して、このレポートを保存します。 
+1. 先に進むには、まず、 **[ファイル] > [保存]** の順に選択して、このレポートを保存します。 
 
 2. Ctrl + C キーを使用して、塗り分け地図をコピーします。
 
-3. レポート キャンバスの下部にある、**[センチメント]** タブを選択して、センチメント レポート ページを開きます。
+3. レポート キャンバスの下部にある、 **[センチメント]** タブを選択して、センチメント レポート ページを開きます。
 
     ![選択された [センチメント] タブ](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 

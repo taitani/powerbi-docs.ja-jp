@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop で PDF ファイルに接続する (プレビュー)
+title: Power BI Desktop で PDF ファイルへの接続します。
 description: Power BI Desktop で PDF ファイルからデータに簡単に接続して使用します
 author: davidiseminger
 manager: kfile
@@ -7,46 +7,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ff61c4d2cc8ec3570e7eee45b7e43ec81f8f7161
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 0c63a62edfce62a5cee13bef3c68014027313e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275113"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513978"
 ---
-# <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Power BI Desktop で PDF ファイルに接続する (プレビュー)
+# <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Power BI Desktop で PDF ファイルへの接続します。
 Power BI Desktop では、Power BI Desktop の他のデータ ソースと同様に、**PDF ファイル**に接続してこのファイルに含まれるデータを使用できます。
 
 ![PDF ファイルのデータへの接続](media/desktop-connect-pdf/connect-pdf_04.png)
 
 次のセクションでは、**PDF ファイル**に接続し、データを選択して、そのデータを **Power BI Desktop** に取り込む方法について説明します。
 
-## <a name="enable-the-pdf-connector"></a>PDF のコネクタを有効にする
-PDF コネクタは **Power BI Desktop** のプレビュー段階にあり、有効にする必要があります。 PDF コネクタを有効にするには、**[ファイル]、[オプションと設定]、[オプション]、[プレビュー機能]** の順に選択し、**[Get data from PDF files]/(PDF ファイルからデータを取得/)** のチェック ボックスをオンにします。 
-
-![[オプション] の [プレビュー機能] で PDF コネクタを有効にする](media/desktop-connect-pdf/connect-pdf_01.png)
-
-選択を行った後、**Power BI Desktop** を再起動する必要があります。
-
-**PDF (ベータ)** コネクタを初めて使用すると、PDF コネクタはまだ開発中であり、今後変更される可能性があるという警告が表示されます。 コネクタを使用するには、**[続行]** を選択します。
-
 常に、**Power BI Desktop** の最新リリースにアップグレードすることをお勧めします。これは、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」内のリンクから取得できます。 
 
 ## <a name="connect-to-a-pdf-file"></a>PDF ファイルへの接続
-**PDF** ファイルに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリから **[ファイル]** を選択します。**[PDF (ベータ)]** が表示されます。
+**PDF** ファイルに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリから **[ファイル]** を選択します。 **[PDF (ベータ)]** が表示されます。
 
 ![[データの取得] で PDF を選択する](media/desktop-connect-pdf/connect-pdf_01.png)
 
-使用する PDF ファイルの場所を指定するよう求められます。 フィルの場所を指定し、PDF フィルが読み込まれたら、**[ナビゲーター]** ウィンドウが開き、ファイルから使用可能なデータが表示されます。その中から 1 つまたは複数の要素を選択し、**Power BI Desktop** にインポートして使用することができます。
+使用する PDF ファイルの場所を指定するよう求められます。 フィルの場所を指定し、PDF フィルが読み込まれたら、 **[ナビゲーター]** ウィンドウが開き、ファイルから使用可能なデータが表示されます。その中から 1 つまたは複数の要素を選択し、**Power BI Desktop** にインポートして使用することができます。
 
 ![PDF ファイルのデータへの接続](media/desktop-connect-pdf/connect-pdf_04.png)
 
-PDF ファイル内の検出された要素の横にあるチェック ボックスをオンにすると、これらの要素が右側のウィンドウに表示されます。 インポートする準備ができたら、**[読み込み]** ボタンを選択して、そのデータを **Power BI Desktop** に取り込みます。
+PDF ファイル内の検出された要素の横にあるチェック ボックスをオンにすると、これらの要素が右側のウィンドウに表示されます。 インポートする準備ができたら、 **[読み込み]** ボタンを選択して、そのデータを **Power BI Desktop** に取り込みます。
 
-2018 年 11 月リリース以降の **Power BI Desktop** では、PDF 接続用の省略可能なパラメーターとして、**[開始ページ]** と **[最終ページ]** を選択できます。 また、以下の形式を使用して、M 式言語内でこれらのパラメーターを指定することもできます。
+2018 年 11 月リリース以降の **Power BI Desktop** では、PDF 接続用の省略可能なパラメーターとして、 **[開始ページ]** と **[最終ページ]** を選択できます。 また、以下の形式を使用して、M 式言語内でこれらのパラメーターを指定することもできます。
 
 `Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 

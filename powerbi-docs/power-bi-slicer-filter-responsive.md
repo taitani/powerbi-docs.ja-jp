@@ -11,11 +11,11 @@ ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: fed4119946cb762fb4d9aee3b5300be225a6e379
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288108"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61419830"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成
 
@@ -34,8 +34,8 @@ ms.locfileid: "54288108"
 
 ## <a name="convert-to-a-horizontal-slicer"></a>水平スライサーに変換する
 
-1. スライサーを選択し、**[視覚化]** ウィンドウで **[書式]** タブを選択します。
-2. **[全般]** セクションを展開し、**[方向]** で **[横]** を選択します。
+1. スライサーを選択し、 **[視覚化]** ウィンドウで **[書式]** タブを選択します。
+2. **[全般]** セクションを展開し、 **[方向]** で **[横]** を選択します。
 
     ![スライサーを水平に設定する](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
 
@@ -47,7 +47,7 @@ ms.locfileid: "54288108"
 
 この手順は簡単です。 
 
-1. **[書式]** タブの **[全般]** セクションの **[方向]** の下で、**[レスポンシブ]** を **[オン]** にスライドします。  
+1. **[書式]** タブの **[全般]** セクションの **[方向]** の下で、 **[レスポンシブ]** を **[オン]** にスライドします。  
 
     ![スライサーがレスポンシブになりました](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 

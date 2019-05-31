@@ -11,11 +11,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8db6f106ecc2285cb66ff980bc72fa666456f81a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274791"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61226028"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Power BI サービスのパラメーター設定を編集する
 レポートの作成者は Power BI Desktop でレポートにクエリ パラメーターを追加します。 パラメーターを使用すると、1 つまたは複数のパラメーターの*値*に基づいてレポートの各部分を作成できます。 たとえば、レポート作成者は、1 つの国または地域に対してデータを制限するパラメーターや日付、時刻、テキストなどのフィールドに使用できる形式を定義するパラメーターを作成できます。
@@ -26,13 +26,13 @@ ms.locfileid: "54274791"
 
 レポートの作成者は Desktop でパラメーターを定義します。 [そのレポートを Power BI サービスに発行する](desktop-upload-desktop-files.md)と、パラメーターの設定と選択も共に移動します。 一部のパラメーターは Power BI サービスで確認し、編集できます。利用できるデータを制限するパラメーターは編集できませんが、使用できる値を定義して表現するパラメーターは編集できます。
 
-1. Power BI サービスで、![歯車アイコン](media/service-parameters/power-bi-cog.png) を選択して、**[設定]** を開きます。
+1. Power BI サービスで、![歯車アイコン](media/service-parameters/power-bi-cog.png) を選択して、 **[設定]** を開きます。
 
 2. **[データセット]** のタブを選択して、リスト内のデータセットを強調表示します。 
     
     ![[データセット] タブが選択されている [設定] ウィンドウ](media/service-parameters/power-bi-select-dataset2.png)
 
-3. **[パラメーター]** を展開します。  選択したデータセットにパラメーターがない場合、クエリ パラメーターに関する詳細へのリンクを含むメッセージが表示されます。 ただし、データセットにパラメーターが存在する場合は、**[パラメーター]** 見出しを展開すると、そのパラメーターが表示されます。 
+3. **[パラメーター]** を展開します。  選択したデータセットにパラメーターがない場合、クエリ パラメーターに関する詳細へのリンクを含むメッセージが表示されます。 ただし、データセットにパラメーターが存在する場合は、 **[パラメーター]** 見出しを展開すると、そのパラメーターが表示されます。 
 
     ![[パラメーター] が展開されている [設定] ウィンドウ](media/service-parameters/power-bi-settings.png)
 

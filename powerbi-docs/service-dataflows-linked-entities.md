@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220910"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136499"
 ---
-# <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Power BI のデータフロー間でエンティティをリンクする (データフロー)
+# <a name="link-entities-between-dataflows-in-power-bi"></a>Power BI のデータフロー間でエンティティをリンクする
 
 Power BI のデータフローでは、単一のデータ ストレージ ソースを組織用に使用できます。ビジネス アナリストはそれを使用してデータを準備および管理し、組織内のさまざまな分析アプリ間で再利用できます。 
 
@@ -29,7 +29,7 @@ Power BI のデータフローでは、単一のデータ ストレージ ソー
 
 ## <a name="linked-entity-availability"></a>リンクされたエンティティを使用できるかどうか
 
-リンクされたエンティティでは、[Power BI Premium](service-premium.md) サブスクリプションを更新する必要があります。 リンクされたエンティティは、Power BI Premium 容量でホストされているワークスペース上のデータフローで使用できます。 ソース データフローに関する制限はありません。
+リンクされたエンティティでは、[Power BI Premium](service-premium-what-is.md) サブスクリプションを更新する必要があります。 リンクされたエンティティは、Power BI Premium 容量でホストされているワークスペース上のデータフローで使用できます。 ソース データフローに関する制限はありません。
 
 リンクされたエンティティは、新しい Power BI ワークスペースでのみ正しく動作します。 [新しい Power BI ワークスペース](service-create-the-new-workspaces.md)についての詳細をご覧ください。 すべてのリンクされたデータフローは、正しく動作する新しいワークスペースに存在する必要があります。
 
@@ -88,11 +88,11 @@ Power BI サービスの **[エンティティの追加]** メニュー項目か
 
 データフローを作成または使用するときは、次の記事も役に立ちます。 
 
-* [Power BI でのセルフサービスのデータ準備 (プレビュー)](service-dataflows-overview.md)
+* [Power BI でのセルフ サービスのデータの準備](service-dataflows-overview.md)
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
-* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
-* [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
+* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
 
 Power Query とスケジュールされた更新について詳しくは、次の記事をご覧ください。
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)

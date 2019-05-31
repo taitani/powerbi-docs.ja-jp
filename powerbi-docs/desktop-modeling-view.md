@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop でモデルリング ビューを使用する (プレビュー)
+title: Power BI Desktop でモデルのビューを使用します。
 description: Power BI Desktop でモデリング ビューを使用して、複雑なデータセットをビジュアル形式で表示させます
 author: davidiseminger
 manager: kfile
@@ -7,30 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216311"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941342"
 ---
-# <a name="modeling-view-in-power-bi-desktop-preview"></a>Power BI Desktop でのモデルリング ビュー (プレビュー)
+# <a name="modeling-view-in-power-bi-desktop"></a>Power BI Desktop でのビューのモデリング
 
-**Power BI Desktop** の**モデルリング ビュー**を使用すると、多くのテーブルを含む複雑なデータセットを表示して操作することができます。 モデリング ビューを使用すると、次の操作を実行できます。
+**Power BI Desktop** の**モデルリング ビュー**を使用すると、多くのテーブルを含む複雑なデータセットを表示して操作することができます。
 
-
-## <a name="enabling-the-modeling-view-preview-feature"></a>モデリング ビューのプレビュー機能の有効化
-
-モデリング ビュー機能はプレビュー段階であり、**Power BI Desktop** で有効にする必要があります。 モデリング ビューを有効にするには、**[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能]** の順に選択してから、次の図のように **[モデリング ビュー]** チェック ボックスをオンにします。
-
-![Power BI Desktop でモデリング ビューのプレビュー機能を有効にする](media/desktop-modeling-view/modeling-view_01.png)
-
-プレビュー機能を有効にするためには、**Power BI Desktop** を再起動する必要があるというメッセージが表示されます。 
-
-![プレビュー機能を有効にするために Power BI Desktop を再起動する](media/desktop-modeling-view/modeling-view_01b.png)
 
 ## <a name="using-modeling-view"></a>モデルリング ビューの使用
 
@@ -44,7 +34,7 @@ ms.locfileid: "56216311"
 
 ![タブ セクションの + 記号をクリックして新しいダイアグラムを作成する](media/desktop-modeling-view/modeling-view_03.png)
 
-その後、**[フィールド]** 一覧からダイアグラムの画面上にテーブルをドラッグします。 テーブルを右クリックし、表示されるメニューから **[関連テーブルを追加する]** を選択します。
+その後、 **[フィールド]** 一覧からダイアグラムの画面上にテーブルをドラッグします。 テーブルを右クリックし、表示されるメニューから **[関連テーブルを追加する]** を選択します。
 
 ![テーブルを右クリックして [関連テーブルを追加する] を選択する](media/desktop-modeling-view/modeling-view_04.png)
 
@@ -54,9 +44,9 @@ ms.locfileid: "56216311"
 
 ## <a name="setting-common-properties"></a>共通プロパティの設定
 
-**CTRL** キーを押したまま複数のテーブルをクリックすることで、モデリング ビューで一度に複数のオブジェクトを選択することができます。 複数のテーブルを選択すると、それらがモデルリング ビュー内で強調表示されます。 複数のテーブルが強調表示されている場合、**[プロパティ]** ウィンドウで適用した変更は選択したテーブルすべてに対して適用されます。
+**CTRL** キーを押したまま複数のテーブルをクリックすることで、モデリング ビューで一度に複数のオブジェクトを選択することができます。 複数のテーブルを選択すると、それらがモデルリング ビュー内で強調表示されます。 複数のテーブルが強調表示されている場合、 **[プロパティ]** ウィンドウで適用した変更は選択したテーブルすべてに対して適用されます。
 
-たとえば、ダイアグラム ビューにある複数のテーブルの[ストレージ モード](desktop-storage-mode.md)を変更するには、**CTRL** キーを押しながらテーブルを選択した後、**[プロパティ]** ウィンドウでストレージ モードの設定を変更します。
+たとえば、ダイアグラム ビューにある複数のテーブルの[ストレージ モード](desktop-storage-mode.md)を変更するには、**CTRL** キーを押しながらテーブルを選択した後、 **[プロパティ]** ウィンドウでストレージ モードの設定を変更します。
 
 ![CTRL キーを押しながら複数のテーブルを選択した後、選択したテーブル全体の共通プロパティを設定する](media/desktop-modeling-view/modeling-view_06.png)
 
@@ -66,9 +56,9 @@ ms.locfileid: "56216311"
 以下の記事では、データ モデルと DirectQuery について詳しく説明しています。
 
 * [Power BI Desktop での集計 (プレビュー)](desktop-aggregations.md)
-* [Power BI Desktop の複合モデル (プレビュー)](desktop-composite-models.md)
+* [Power BI Desktop の複合モデル](desktop-composite-models.md)
 * [Power BI Desktop のストレージ モード (プレビュー)](desktop-storage-mode.md)
-* [Power BI Desktop (プレビュー) での多対多のリレーションシップ](desktop-many-to-many-relationships.md)
+* [Power BI Desktop での多対多カーディナリティのリレーションシップ](desktop-many-to-many-relationships.md)
 
 
 DirectQuery に関する記事:

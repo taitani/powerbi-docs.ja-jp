@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fcfbf4fb7be34739364fba176b28ea42934d5562
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216035"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61283964"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop で Python スクリプトを実行する
 **Power BI Desktop** で Python スクリプトを直接実行し、生成されたデータセットを Power BI Desktop データ モデルにインポートできます。
@@ -48,7 +48,7 @@ Power BI Desktop で Python スクリプトを準備し、実行するとき、�
 * 現在、入れ子になったテーブル (テーブルのテーブル) はサポートされていません 
 
 ### <a name="run-your-python-script-and-import-data"></a>Python スクリプトを実行し、データをインポートする
-1. Power BI Desktop では、Python スクリプトのデータ コネクタは **[データの取得]** にあります。 Python スクリプトを実行するには、**[データの取得]&gt;[詳細]** の順に選び、次の図に示すように **[その他]&gt;[Python スクリプト]** の順に選びます。
+1. Power BI Desktop では、Python スクリプトのデータ コネクタは **[データの取得]** にあります。 Python スクリプトを実行するには、 **[データの取得]&gt;[詳細]** の順に選び、次の図に示すように **[その他]&gt;[Python スクリプト]** の順に選びます。
    
    ![](media/desktop-python-scripts/python-scripts-1.png)
 2. Python がローカル コンピューターにインストールされている場合、最近インストールしたバージョンが Python エンジンとして選択されます。 スクリプトをスクリプト ウィンドウにコピーし、 **[OK]** を選択します。
@@ -58,7 +58,7 @@ Power BI Desktop で Python スクリプトを準備し、実行するとき、�
    
    ![](media/desktop-python-scripts/python-scripts-3.png)
    
-   Python インストール設定は、[オプション] ダイアログの [Python スクリプト] セクションの中央に配置されています。 Python インストール設定を指定するには、**[ファイル] > [オプションと設定]** を選択してから、**[オプション] > [Python スクリプト]** を選択します。 Python の複数のインストールを使用できる場合、ドロップダウン メニューが表示され、使用するインストールを選択できます。 **[その他]** を選択して、カスタム パスを指定することもできます。
+   Python インストール設定は、[オプション] ダイアログの [Python スクリプト] セクションの中央に配置されています。 Python インストール設定を指定するには、 **[ファイル] > [オプションと設定]** を選択してから、 **[オプション] > [Python スクリプト]** を選択します。 Python の複数のインストールを使用できる場合、ドロップダウン メニューが表示され、使用するインストールを選択できます。 **[その他]** を選択して、カスタム パスを指定することもできます。
    
    ![](media/desktop-python-scripts/python-scripts-4.png)
 4. **[OK]** を選択し、Python スクリプトを実行します。 スクリプトが正常に実行されたら、生成されたデータ フレームを選択し、Power BI モデルに追加できます。

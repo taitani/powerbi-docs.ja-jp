@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/10/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
-ms.translationtype: HT
+ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826562"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61305457"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI の DirectQuery でサポートされるデータ ソース
 
@@ -24,26 +24,29 @@ ms.locfileid: "56826562"
 次のデータ ソースは、Power BI で DirectQuery をサポートしています。
 
 * Amazon Redshift
-* Azure HDInsight Spark (Beta)
+* AtScale (ベータ)
+* Azure HDInsight Spark
 * Azure SQL Database
 * Azure SQL Data Warehouse
-* Google BigQuery (ベータ版)
+* Google BigQuery
+* HDInsight 対話型クエリ
 * IBM DB2 データベース
-* IBM Netezza (ベータ版)
+* IBM Netezza
 * Impala (バージョン 2.x)
 * Oracle データベース (バージョン 12 以降)
+* Oracle Essbase
 * SAP Business Warehouse Application サーバー
-* SAP Business Warehouse メッセージ サーバー (ベータ版)
+* SAP Business Warehouse メッセージ サーバー
 * SAP HANA
 * Snowflake
-* Spark (ベータ) (バージョン 0.9 以降)
+* Spark (バージョン 0.9 以降)
 * SQL Server
 * Teradata データベース
-* Vertica (ベータ)
+* Vertica
 
 名前の後に **(ベータ)** または **(プレビュー)** と書かれているデータ ソースは、変更される可能性があり、運用環境での使用はサポートされていません。 **Power BI サービス**にレポートを発行した後はサポートされない可能性もあるので、発行されたレポートを開いたり、データセットを探したりした場合にエラーが発生することがあります。
 
-**(ベータ)** と **(プレビュー)** のデータ ソースの唯一の違いは、使用可能になる前に、**(プレビュー)** のソースはプレビュー機能として有効にする必要があるという点です。 **(プレビュー)** データ コネクタを有効にするには、**Power BI Desktop** で **[ファイル]、[オプションと設定]、** の順に進み、**[プレビュー機能]** を選択します。
+**(ベータ)** と **(プレビュー)** のデータ ソースの唯一の違いは、使用可能になる前に、 **(プレビュー)** のソースはプレビュー機能として有効にする必要があるという点です。 **(プレビュー)** データ コネクタを有効にするには、**Power BI Desktop** で **[ファイル]、[オプションと設定]、** の順に進み、 **[プレビュー機能]** を選択します。
 
 > [!NOTE]
 > SQL Server への DirectQuery クエリでは、アクセスを確立するために、現在の Windows 認証資格情報またはデータベース資格情報を使って認証を行うが必要があります。 代替資格情報はサポートされていません。

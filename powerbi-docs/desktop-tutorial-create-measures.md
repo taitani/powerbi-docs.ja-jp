@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513886"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>チュートリアル:Power BI Desktop での独自のメジャーの作成
@@ -33,7 +33,7 @@ Power BI Desktop でメジャーを使用すると、強力なデータ分析ソ
 
 [フィールド] ウェルにシグマ アイコン ![シグマ アイコン](media/desktop-tutorial-create-measures/meastut_sigma.png) が表示されるフィールドは数値であり、その値は集計できます。 Power BI Desktop では 200 万行の SalesAmount 値があるテーブルを表示するのではなく、数値データ型を検出し、メジャーを自動的に作成して計算し、データを集計しました。 合計は数値データ型の既定の集計ですが、平均やカウントなど、異なる集計を簡単に適用できます。 メジャーはすべて何らかの種類の集計を実行するので、集計について理解することは、メジャーについて理解することの土台になります。 
 
-[視覚化] ウィンドウの **[値]** 領域でグラフの集計から平均に変更するには、**SalesAmount** の横にある下矢印をクリックし、**[平均]** を選択します。 視覚化グラフは、SalesAmount フィールド内のすべての売上値の平均に変わります。
+[視覚化] ウィンドウの **[値]** 領域でグラフの集計から平均に変更するには、**SalesAmount** の横にある下矢印をクリックし、 **[平均]** を選択します。 視覚化グラフは、SalesAmount フィールド内のすべての売上値の平均に変わります。
 
 ![SalesAmount の平均グラフ](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
 
@@ -60,7 +60,7 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
 
 総売上金額から割引と返品を差し引いて純売上高を分析したいとします。 視覚化にどのようなコンテキストが存在する場合でも、SalesAmount の合計から DiscountAmount と ReturnAmount の合計を差し引くメジャーが必要です。 [フィールド] リストに純売上高のフィールドはありませんが、純売上高を計算する独自のメジャーを作成するための構成要素はあります。 
 
-1.  [フィールド] ウェルの **Sales** テーブルを右クリックするか、テーブルにマウス カーソルを移動し、**[その他のオプション]** の省略記号 ([...])、**[新しいメジャー]** の順に選択します。 これで新しいメジャーが Sales テーブル内に保存され、見つけやすくなります。
+1.  [フィールド] ウェルの **Sales** テーブルを右クリックするか、テーブルにマウス カーソルを移動し、 **[その他のオプション]** の省略記号 ([...])、 **[新しいメジャー]** の順に選択します。 これで新しいメジャーが Sales テーブル内に保存され、見つけやすくなります。
     
     ![新しいメジャー](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     
@@ -69,7 +69,7 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
     ![リボンの [新しいメジャー]](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
     
     >[!TIP]
-    >メジャーをリボンから作成すると、どのテーブルでもメジャーを作成できますが、使用する予定の場所にメジャーを作成すると見つけやすくなります。 この場合、まず Sales テーブルを選択してアクティブにし、**[新しいメジャー]** を選択します。 
+    >メジャーをリボンから作成すると、どのテーブルでもメジャーを作成できますが、使用する予定の場所にメジャーを作成すると見つけやすくなります。 この場合、まず Sales テーブルを選択してアクティブにし、 **[新しいメジャー]** を選択します。 
     
     レポート キャンバスの上部に数式バーが表示されます。数式バーでは、メジャーの名前を変更し、DAX 式を入力できます。
     
@@ -97,7 +97,7 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
     
     
 5.  他の 2 つの列を減算するには:
-    1. 最初の式の終わりかっこの後に、スペース、マイナス演算子 (**-**)、もう 1 つスペースの順に入力します。 
+    1. 最初の式の終わりかっこの後に、スペース、マイナス演算子 ( **-** )、もう 1 つスペースの順に入力します。 
     2. もう 1 つの SUM 関数を入力し、**Sales[DiscountAmount]** 列が引数として選択できるようになるまで「DiscountAmount」と入力します。 閉じかっこを追加します。 
     3. スペース、もう 1 つのマイナス演算子、スペース、**Sales[ReturnAmount]** を引数とするもう 1 つの SUM 関数、閉じかっこの順に入力します。
     
@@ -134,7 +134,7 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
 
 スライサーを追加して、純売上高と売上高を、カレンダー年でさらにフィルター処理することができます。
     
-1.  グラフの横に空白の領域をクリックしてから、**[視覚化]** で **[テーブル]** 視覚化を選択します。 これで、空白のテーブルの視覚化がレポート キャンバスに作成されます。
+1.  グラフの横に空白の領域をクリックしてから、 **[視覚化]** で **[テーブル]** 視覚化を選択します。 これで、空白のテーブルの視覚化がレポート キャンバスに作成されます。
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktable.png)
     
@@ -142,7 +142,7 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
     
     ![年の集計](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
     
-3.  [視覚化] ウィンドウの **[値]** で、**Year** の横にある下矢印を選択し、**[集計しない]** を選択します。 テーブルに個々の年が表示されるようになります。
+3.  [視覚化] ウィンドウの **[値]** で、**Year** の横にある下矢印を選択し、 **[集計しない]** を選択します。 テーブルに個々の年が表示されるようになります。
     
     ![集計しない](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
     
@@ -164,11 +164,11 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
     
     ![Net Sales を使用する数式](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
-    また、始め角かっこ (**[**) を入力するだけで、メジャーを参照することもできます。 候補リストには、数式に追加できるメジャーのみが表示されます。
+    また、始め角かっこ ( **[** ) を入力するだけで、メジャーを参照することもできます。 候補リストには、数式に追加できるメジャーのみが表示されます。
     
     ![角かっこでメジャーのみが表示されます](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  スペース、除算演算子 (**/**)、もう 1 つのスペース、SUM 関数の順に入力し、「**Quantity**」と入力します。 候補リストに、名前に「Quantity」が含まれるすべての列が表示されます。 **Sales[SalesQuantity]** を選択し、閉じかっこを入力し、Enter キーを押すか、チェックマークを選択して数式を検証します。 数式は、次のようになるはずです。
+3.  スペース、除算演算子 ( **/** )、もう 1 つのスペース、SUM 関数の順に入力し、「**Quantity**」と入力します。 候補リストに、名前に「Quantity」が含まれるすべての列が表示されます。 **Sales[SalesQuantity]** を選択し、閉じかっこを入力し、Enter キーを押すか、チェックマークを選択して数式を検証します。 数式は、次のようになるはずです。
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     

@@ -11,11 +11,11 @@ ms.date: 01/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482685"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174772"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Power BI で comScore Digital Analytix に接続する
 Power BI コンテンツ パックを使用して、Power BI 内の comScore Digital Analytix データを表示および探索します。 データは、1 日 1 回自動的に更新されることになります。

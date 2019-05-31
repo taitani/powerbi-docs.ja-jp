@@ -10,12 +10,12 @@ ms.date: 03/20/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 5af159c43a5b6e02f66c4c24cde3aaf378797c51
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: 192066c34e99ecd4088d2253063bed7f2defd4e6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306437"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978848"
 ---
 # <a name="power-bi-for-report-designers"></a>レポート デザイナー向け Power BI
 
@@ -57,7 +57,7 @@ Power BI では、データ接続、クエリ設計、レポート作成およ�
                                           <h3>Power BI のライセンス</h3> 
                                           <p></p>
                                                 <a href="service-admin-licensing-organization.md">組織での Power BI のライセンス</a><br/> 
-                                                <a href="service-premium.md">Power BI Premium:説明</a> 
+                                                <a href="service-premium-what-is.md">Power BI Premium:説明</a> 
                                     </div> 
                               </div> 
                         </div> 

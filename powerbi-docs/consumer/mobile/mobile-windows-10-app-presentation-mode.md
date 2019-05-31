@@ -9,17 +9,17 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: e96095cd63a9f2bd01b17f16392319167ef3354c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274837"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338259"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub と Windows 10 デバイスで、プレゼンテーション モードでレポートとダッシュボードを表示する
 Windows 10 デバイスと Surface Hub で、プレゼンテーション モードを使用し、レポートとダッシュボードを全画面表示できます。 
 
-![全画面表示モードでのレポート](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
+![全画面表示モードでのレポート](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 プレゼンテーション モードは、会議やカンファレンス、またはオフィスの専用プロジェクターで Power BI を表示する場合やく、小さい画面上の領域を最大化する場合に役立ちます。 
 
@@ -36,19 +36,20 @@ Windows 10 向け Power BI モバイル アプリのプレゼンテーション 
 Power BI モバイル アプリで **[全画面表示]** アイコンをタップすると、全画面表示モードに切り替わります。
 ![[全画面表示] アイコン](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) アプリの chrome が消え、画面の一番下か左右にツール バーが表示されます (表示場所はお使いの画面のサイズによって変わります)。
 
-![全画面表示モードのレポート。横にツール バーが表示されています](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
+![全画面表示モードのレポート。横にツール バーが表示されています](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 このツール バーから次の操作を実行できます。
 
 1. [戻る] アイコンをタップすると、 ![[戻る] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 前のページに戻ります。 アイコンを長押しすると、階層リンク ウィンドウが表示されます。このウィンドウから、レポートまたはダッシュボードが含まれるフォルダーに移動できます。
 2. [インク] アイコンをタップすると、 ![[インク] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) Surface ペンでレポート ページに線を引いたり、注釈を付けたりするときの色を選択できます。 
 3. [ページ] アイコンを使用すると、 ![[改ページ] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 現在表示しているレポート ページが別のページに代わります。
-4. [検索] アイコン ![[検索] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) をタップし、Power BI で他の成果物を検索します。
-5. プレゼンテーション モードを終了するには、ツールバーにある内向きの 2 つの矢印の付いたアイコン ![全画面表示モードを終了](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) をタップします。
+4. 再生アイコン  ![再生 アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 操作バーを非表示にし、アプリをレポート ページ間で回転 auto、スライド ショーを開始します。 
+5. [検索] アイコン ![[検索] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) をタップし、Power BI で他の成果物を検索します。
+6. プレゼンテーション モードを終了するには、ツールバーにある内向きの 2 つの矢印の付いたアイコン ![全画面表示モードを終了](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) をタップします。
 
 ツール バーを切り離し、画面上の任意の場所までドラッグし、そこに置くことができます。 これは大きな画面の場合に便利です。レポートの特定の領域に集中的に取り組むとき、その隣にツールを配置します。 ツール バーを指で触れ、レポート キャンバスまでスワイプします。
 
-![プレゼンテーション モードのレポートと切り離されたツール バー](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+![プレゼンテーション モードのレポートと切り離されたツール バー](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar-2.png)
 
 
 ## <a name="next-steps"></a>次の手順

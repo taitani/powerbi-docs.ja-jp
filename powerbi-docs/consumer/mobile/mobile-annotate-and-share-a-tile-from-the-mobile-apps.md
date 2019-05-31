@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: b3f0232fdf377ba75a31f5057f1e094bf9fac39d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273595"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61342993"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI モバイル アプリでタイル、レポート、ビジュアルに注釈を付けて共有する
 適用対象:
@@ -29,7 +29,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、�
 
 *注釈付きのレポート*
 
-タイル、レポート、または視覚エフェクトのスナップショットを含むメールには、Power BI サービス ([https://powerbi.com](https://powerbi.com)) の実際のオブジェクトへのリンクも含まれています。 送信者と受信者が Power BI Pro ライセンスを持っている、またはコンテンツが [Premium 容量](../../service-premium.md)に格納されていて、タイル、レポート、および視覚エフェクトをその受信者と既に共有している場合、受信者はリンクをクリックして、それらのアイテムに直接移動できます。 
+タイル、レポート、または視覚エフェクトのスナップショットを含むメールには、Power BI サービス ([https://powerbi.com](https://powerbi.com)) の実際のオブジェクトへのリンクも含まれています。 送信者と受信者が Power BI Pro ライセンスを持っている、またはコンテンツが [Premium 容量](../../service-premium-what-is.md)に格納されていて、タイル、レポート、および視覚エフェクトをその受信者と既に共有している場合、受信者はリンクをクリックして、それらのアイテムに直接移動できます。 
 
 [Windows 10 デバイス用 Power BI モバイル アプリからもタイルを共有](mobile-windows-10-phone-app-get-started.md)できますが、タイルに注釈を付けることはできません。
 
@@ -62,7 +62,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、�
    *Android デバイスの注釈バー*
    
    * 異なる色と太さの線を描画するには、波線アイコンをタップし、幅と色を選択して描画します。  
-   * コメントを入力するには、**[AA]** をタップし、テキストのサイズと色を選択して入力します。  
+   * コメントを入力するには、 **[AA]** をタップし、テキストのサイズと色を選択して入力します。  
    * タイルにスタンプ (絵文字のようなもの) を貼り付けるには、スマイリー フェイスをタップし、色を選択して、好きな場所をタップします。   
 2. 注釈の追加が完了したら、右上隅にある **[共有]** をタップします。
 3. メール アプリを開いて、受信者の名前を入力し、必要に応じてメッセージを変更します。  

@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5162edf7035918289d0f45ec71a0e908fc444cbf
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008191"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181836"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Power BI で Alpine Metrics Sales Predictions に接続する
 Alpine Metrics は、さまざまな規模の販売組織が利用できる、最新の予測販売プロセス最適化をクラウドやオンデマンドで提供します。 Power BI 用 Alpine Metrics Sales Predictions コンテンツ パックには、売上予測や潜在的リスクなどのメトリックが含まれています。これらのメトリックを使用して、ビジネスの将来に関する深い洞察を得ることができます。 
@@ -29,10 +29,10 @@ Power BI 用 [Alpine Metrics Sales Predictions コンテンツ パック](https:
 2. **[サービス]** ボックスで、 **[取得]** を選択します。  
    
     ![](media/service-connect-to-alpine-metrics/services.png)
-3. **[AlpineMetrics Sales Predictions]** を選択した後、**[取得]** を選択します。  
+3. **[AlpineMetrics Sales Predictions]** を選択した後、 **[取得]** を選択します。  
    
     ![](media/service-connect-to-alpine-metrics/alpine.png)
-4. **[OAuth 2]** を選択し、**[サインイン]** をクリックします。 要求されたら、AlpineMetrics 資格情報を入力します。
+4. **[OAuth 2]** を選択し、 **[サインイン]** をクリックします。 要求されたら、AlpineMetrics 資格情報を入力します。
    
     ![](media/service-connect-to-alpine-metrics/creds.png)
    

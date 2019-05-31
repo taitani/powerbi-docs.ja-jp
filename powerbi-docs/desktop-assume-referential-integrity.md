@@ -11,14 +11,14 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 1e4e13ddf098d68d48fcbe968c325e9a9458b3df
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239880"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop で参照整合性設定を想定する
-**DirectQuery** を利用し、データ ソースに接続するとき、**[参照整合性を想定]** 選択を使用し、より効率的なクエリをデータ ソースに対して実行します。 この機能には基礎となるデータに関していくつかの要件があり、**DirectQuery** の利用時にのみ利用できます。
+**DirectQuery** を利用し、データ ソースに接続するとき、 **[参照整合性を想定]** 選択を使用し、より効率的なクエリをデータ ソースに対して実行します。 この機能には基礎となるデータに関していくつかの要件があり、**DirectQuery** の利用時にのみ利用できます。
 
 **[参照整合性を想定]** を設定すると、データ ソースに対するクエリで **OUTER JOIN** ステートメントではなく **INNER JOIN** ステートメントを使用できるようになり、クエリの効率性が上がります。
 
@@ -30,18 +30,18 @@ ms.locfileid: "65239880"
 * リレーションシップの **[From]** (参照元) 列のデータを *Null* または *空* にしない
 * **[From]** (参照元) 列のデータにはそれぞれ **[To]** (参照先) 列に対応する値があります。
 
-このコンテキストでは、**[From]** (参照元) 列は *[一対多]* 関係の *[多]* になります。あるいは、*[一対多]* 関係の最初の表の列になります。
+このコンテキストでは、 **[From]** (参照元) 列は *[一対多]* 関係の *[多]* になります。あるいは、 *[一対多]* 関係の最初の表の列になります。
 
 ## <a name="example-of-using-assume-referential-integrity"></a>[参照整合性を想定] の使用例
 次の例は、データ接続で **[参照整合性を想定]** を使用した場合の動作を示しています。 この例では、**Orders**、**Products**、**Depots** テーブルを含むデータ ソースに接続しています。
 
-1. 次の画像では、**Orders** テーブルと **Products** テーブルを確認できます。**Orders[ProductID]** と **Products[ProductID]** の間に参照整合性が存在することを確認してください。 **Orders** テーブルの **[ProductID]** 列が *Null* になることはありません。すべての値は **Products** テーブルにも表示されます。 そのため、**[参照整合性を想定]** は、より効率的なクエリを得るために設定してください (この設定を使用してビジュアルに表示される値が変わることはありません)。
+1. 次の画像では、**Orders** テーブルと **Products** テーブルを確認できます。**Orders[ProductID]** と **Products[ProductID]** の間に参照整合性が存在することを確認してください。 **Orders** テーブルの **[ProductID]** 列が *Null* になることはありません。すべての値は **Products** テーブルにも表示されます。 そのため、 **[参照整合性を想定]** は、より効率的なクエリを得るために設定してください (この設定を使用してビジュアルに表示される値が変わることはありません)。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. 次の画像では、**Orders[DepotID]** と **Depots[DepotID]** の間に参照整合性がないことに注意してください。一部の *Orders* に関して、**DepotID** が *Null* になっているためです。 そのため、**[参照整合性を想定]** を *設定しない* でください。
+2. 次の画像では、**Orders[DepotID]** と **Depots[DepotID]** の間に参照整合性がないことに注意してください。一部の *Orders* に関して、**DepotID** が *Null* になっているためです。 そのため、 **[参照整合性を想定]** を *設定しない* でください。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. 最後になりますが、次のテーブルの **Orders[CustomerID]** と **Customers[CustID]** の間には参照整合性がありません。**CustomerID** には、*Customers* テーブルにはない値がいくつか含まれています (この例では *CustX*)。 そのため、**[参照整合性を想定]** を *設定しない* でください。
+3. 最後になりますが、次のテーブルの **Orders[CustomerID]** と **Customers[CustID]** の間には参照整合性がありません。**CustomerID** には、*Customers* テーブルにはない値がいくつか含まれています (この例では *CustX*)。 そのため、 **[参照整合性を想定]** を *設定しない* でください。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 

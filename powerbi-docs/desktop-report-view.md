@@ -11,25 +11,25 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514601"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop のレポート ビュー
 Power BI を操作したことがあるユーザーは、レポートを作成して動的なパースペクティブとデータへの洞察を得ることがいかに簡単であるかをご存知でしょう。 Power BI では、Power BI Desktop にさらに多くの高度な機能を備えています。 Power BI Desktop を使用すると、高度なクエリの作成、複数のソースからのデータのマッシュアップ、テーブル間のリレーションシップの作成などを行えます。
 
-Power BI Desktop には、**[レポート] ビュー**が含まれています。ここでは、視覚化を含む任意の数のレポート ページを作成することができます。 [レポート] ビューには、Power BI サービスのレポートの [編集] ビューとほとんど同じデザイン機能が用意されています。 視覚化の移動、コピーと貼り付け、マージなどを行うことができます。
+Power BI Desktop には、 **[レポート] ビュー**が含まれています。ここでは、視覚化を含む任意の数のレポート ページを作成することができます。 [レポート] ビューには、Power BI サービスのレポートの [編集] ビューとほとんど同じデザイン機能が用意されています。 視覚化の移動、コピーと貼り付け、マージなどを行うことができます。
 
 これらの相違点は、Power BI Desktop を使用すると、データのクエリとモデルを操作して、レポートでの最適な分析を支えるデータが確実に得られるようになることです。 その後、Power BI Desktop のファイルは、ローカルのドライブまたはクラウドに関係なく、お好みの場所に保存することができます。
 
 ## <a name="lets-take-a-look"></a>では、見てみましょう。
-最初にデータを Power BI Desktop に読み込むとき、**[レポート] ビュー**が空白のキャンバスであることがわかります。
+最初にデータを Power BI Desktop に読み込むとき、 **[レポート] ビュー**が空白のキャンバスであることがわかります。
 
 ![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-左側のナビゲーション バーのアイコンを選択して、**[レポート] ビュー**、**[データ] ビュー**、**[リレーションシップ] ビュー**の間で切り替えることができます。
+左側のナビゲーション バーのアイコンを選択して、 **[レポート] ビュー**、 **[データ] ビュー**、 **[リレーションシップ] ビュー**の間で切り替えることができます。
 
 ![レポート ビュー アイコン](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
@@ -48,7 +48,7 @@ Power BI Desktop には、**[レポート] ビュー**が含まれています�
 
 ![新しいページ アイコン](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 
-ページを削除するには、[レポート] ビューの下部にあるページのタブで、**[X]** をクリックします。
+ページを削除するには、[レポート] ビューの下部にあるページのタブで、 **[X]** をクリックします。
 
 ![レポートにページを追加する](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
 

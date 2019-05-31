@@ -1,30 +1,32 @@
 ---
 title: Power BI レポート サーバーのインストール
 description: Power BI レポート サーバーのインストール方法について説明します。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/07/2018
-ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014440"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187730"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
 Power BI レポート サーバーのインストール方法について説明します。
 
- **ダウンロード** ![ダウンロード](media/install-report-server/download.png "ダウンロード")
+## <a name="download-power-bi-report-server"></a>Power BI Report Server のダウンロード
 
-Power BI Report Server をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」に移動して、**[無料試用版をダウンロードする]** を選択します。 
+[Power BI Report Server のダウンロード](https://www.microsoft.com/download/details.aspx?id=56722)Microsoft ダウンロード センターから。
 
-## <a name="before-you-begin"></a>始める前に
+無料試用版もあります。 [オンプレミス Power BI Report Server によるレポート](https://powerbi.microsoft.com/report-server/)] ページで、[**無料試用版をダウンロード**します。
+
+## <a name="before-you-install"></a>インストールする前に
 
 Power BI Report Server をインストールする前に、「[Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件](system-requirements.md)」を確認することをお勧めします。
 
@@ -32,6 +34,13 @@ Power BI Report Server をインストールする前に、「[Power BI レポ�
  > Power BI Report Server は、読み取り専用ドメイン コントローラー (RODC) がある環境にインストールできます。ただし、Power BI Report Server が正常に機能するためには、読み取り/書き込みドメイン コントローラーにアクセスできることが必要です。 Power BI Report Server が RODC にしかアクセスできない場合は、サービスを管理しようとしたときにエラーが発生する可能性があります。
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Report Server のプロダクト キー
+
+2 つの異なるソースから Power BI Report Server のプロダクト キーを取得できます。
+
+- Power BI Premium
+- SQL Server Enterprise Software Assurance (SA)
+
+詳細についてお読みください。
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -58,7 +67,7 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 2. **[Install Power BI Report Server]** \(Power BI レポート サーバーのインストール\) を選択します。
 
     ![Power BI レポート サーバーのインストール](media/install-report-server/pbireportserver-install.png)
-3. インストールするエディションを選択し、**[次へ]** を選択します。
+3. インストールするエディションを選択し、 **[次へ]** を選択します。
 
     ![エディションを選択する](media/install-report-server/pbireportserver-choose-edition.png)
 
@@ -66,8 +75,8 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 
     ![エディション 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    それ以外の場合、Power BI サービスまたはボリューム ライセンス サービス センターから取得した、サーバーのプロダクト キーを入力できます。 プロダクト キーを取得する方法の詳細については、「[始める前に](#before-you-begin)」セクションを参照してください。
-4. ライセンス条件を読んで同意し、**[次へ]** を選択します。
+    それ以外の場合、Power BI サービスまたはボリューム ライセンス サービス センターから入手したプロダクト キーを入力します。 プロダクト キーを取得する方法の詳細については、次を参照してください。、[インストールする前に](#before-you-install)前のセクション。
+4. 読み取りとライセンス条項および条件に同意し、選択**次**します。
 
     ![ライセンス条項](media/install-report-server/pbireportserver-eula.png)
 5. レポート サーバー データベースを格納するためのデータベース エンジンを使用できる必要があります。 **[次へ]** を選択し、レポート サーバーのみをインストールします。
@@ -79,11 +88,11 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 
     既定のパスは、C:\Program Files\Microsoft Power BI Report Server です。
 
-7. 正常にセットアップした後で、**[Configure Report Server]** \(レポート サーバーの構成\) を選択し、Reporting Services 構成マネージャーを起動します。
+7. 正常にセットアップした後で、 **[Configure Report Server]** \(レポート サーバーの構成\) を選択し、Reporting Services 構成マネージャーを起動します。
 
     ![レポート サーバーを構成する](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuring-your-report-server"></a>レポート サーバーを構成する
+## <a name="configure-your-report-server"></a>レポート サーバーを構成します。
 
 セットアップで **[レポート サーバーの構成]** を選択すると、Reporting Services Configuration Manager が表示されます。 詳細については、「[Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)」(Reporting Services 構成マネージャー) を参照してください。
 

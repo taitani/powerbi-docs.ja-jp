@@ -1,6 +1,14 @@
+---
+ms.openlocfilehash: e3f21c41bb0cf97db8b988a80d9792e1ba0b0b4f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397752"
+---
 スライサーは、最も強力なタイプの視覚エフェクトの 1 つで、特にビジー レポートでよく使用されます。 **Power BI Desktop** で**スライサー**は、レポートを見るだれもが特定の値 (年や地理的場所など) でデータをセグメント化できるようにする、キャンバス上の視覚フィルターです。
 
-レポートにスライサーを追加するには、**[Visualizations (視覚化)]** ウィンドウから **[スライサー]** を選択します。
+レポートにスライサーを追加するには、 **[Visualizations (視覚化)]** ウィンドウから **[スライサー]** を選択します。
 
 ![](media/3-4-create-slicers/3-4_1.png)
 

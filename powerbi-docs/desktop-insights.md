@@ -12,11 +12,11 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892254"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61297334"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop の分析情報を利用し、ビジュアル内で観察される増減について説明する (プレビュー)
 
@@ -26,7 +26,7 @@ ms.locfileid: "56892254"
 
 ![増減のあるビジュアル](media/desktop-insights/insights_01a.png)
 
-**Power BI Desktop** にグラフの増減を説明し、グラフの分布要因を確認し、データについてすばやく洞察に満ちた自動分析を行うように指示することができます。 その場合、ユーザーはただデータ ポイントを右クリックし、**[分析]、[減少について説明してください]** (前の棒が低い場合は [増加について説明してください]) の順に選択するか、**[分析] を選択し、分布が異なる部分を [検索]** します。これにより、使いやすいウィンドウで洞察が得られます。
+**Power BI Desktop** にグラフの増減を説明し、グラフの分布要因を確認し、データについてすばやく洞察に満ちた自動分析を行うように指示することができます。 その場合、ユーザーはただデータ ポイントを右クリックし、 **[分析]、[減少について説明してください]** (前の棒が低い場合は [増加について説明してください]) の順に選択するか、 **[分析] を選択し、分布が異なる部分を [検索]** します。これにより、使いやすいウィンドウで洞察が得られます。
 
 ![ビジュアルに示された分析情報](media/desktop-insights/insights_01.png)
 
@@ -37,7 +37,7 @@ ms.locfileid: "56892254"
 
 
 ## <a name="using-insights"></a>インサイトの使用
-グラフ上で確認される増減を説明する目的で分析情報を使用するには、棒グラフまたは折れ線グラフでデータ ポイントを右クリックし、**[分析] > [増加について説明してください]** (または *[減少について説明してください]*。すべての分析情報は前のデータ ポイントからの変化に基づくため) の順に選択します。
+グラフ上で確認される増減を説明する目的で分析情報を使用するには、棒グラフまたは折れ線グラフでデータ ポイントを右クリックし、 **[分析] > [増加について説明してください]** (または *[減少について説明してください]* 。すべての分析情報は前のデータ ポイントからの変化に基づくため) の順に選択します。
 
 ![分析情報メニューの表示](media/desktop-insights/insights_02.png)
 

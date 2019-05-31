@@ -1,19 +1,19 @@
 ---
 title: Azure の Power BI Embedded サービスの診断ログ | Microsoft Docs
 description: Azure の Power BI Embedded サービスの診断ログの設定について説明します。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249139"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61385385"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure の Power BI Embedded の診断ログ
 
@@ -30,7 +30,7 @@ ms.locfileid: "56249139"
 
 ### <a name="azure-portal"></a>Azure Portal
 
-1. [Azure Portal](https://portal.azure.com) の Power BI Embedded リソースで、左側のナビゲーションの **[診断ログ]** を選択し、**[診断をオンにする	]** を選択します。
+1. [Azure Portal](https://portal.azure.com) の Power BI Embedded リソースで、左側のナビゲーションの **[診断ログ]** を選択し、 **[診断をオンにする	]** を選択します。
 
     ![Azure Portal で Power BI Embedded の診断ログをオンにする](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 
@@ -167,15 +167,15 @@ PowerShell を使用してメトリックと診断ログを有効にするには
 
 メトリックとサーバーのイベントは、並列して分析するために Log Analytics の xEvents と統合されます。 Log Analytics を構成して、アーキテクチャ間で診断ログ データの全体像を提供する他の Azure サービスからイベントを受信するようにすることもできます。
 
-Log Analytics で診断データを表示するには、次のように、左側のメニューまたは管理領域から、**[ログ]** ページを開きます。
+Log Analytics で診断データを表示するには、次のように、左側のメニューまたは管理領域から、 **[ログ]** ページを開きます。
 
 ![Log Analytics ページ](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics.png)
 
-これでデータの収集が有効になったので、**[ログ]** で、**[収集されたすべてのデータ]** を選択します。
+これでデータの収集が有効になったので、 **[ログ]** で、 **[収集されたすべてのデータ]** を選択します。
 
 ![収集されたすべてのデータ](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-all-collected-data.png)
 
-**[タイプ]** で **[AzureDiagnostics]** を選択した後、**[適用]** を選択します。 AzureDiagnostics にはエンジンのイベントが含まれます。 Log Analytics クエリがその場で作成されることに注意してください。
+**[タイプ]** で **[AzureDiagnostics]** を選択した後、 **[適用]** を選択します。 AzureDiagnostics にはエンジンのイベントが含まれます。 Log Analytics クエリがその場で作成されることに注意してください。
 
 ![Azure Diagnostics](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 

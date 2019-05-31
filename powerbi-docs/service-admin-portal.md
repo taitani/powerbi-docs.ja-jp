@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 05/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2b5e65ff8e9f603dad0e0537ba52e7da799bf177
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 6c9d59bbc2c6bf81242166bef4cd7584f52fb633
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383556"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941591"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -34,7 +34,7 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 
     ![管理ポータルの設定](media/service-admin-portal/powerbi-admin-settings.png)
 
-ポータルには 7 つのタブがあります。 この記事の残りの部分では、これらの各タブについて説明します。
+ポータルでは、9 つのタブがあります。 この記事の残りの部分では、これらの各タブについて説明します。
 
 ![管理ポータルのナビゲーション](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,7 +44,9 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 * [テナント設定](#tenant-settings)
 * [容量の設定](#capacity-settings)
 * [埋め込みコード](#embed-codes)
-* [組織のビジュアル](#organizational-visuals)
+* [組織のビジュアル](#organization-visuals)
+* [データ フロー storage (プレビュー)](#dataflowStorage)
+* [ワークスペース](#workspaces)
 
 ## <a name="usage-metrics"></a>利用状況の指標
 
@@ -91,7 +93,7 @@ Microsoft 365 管理センターで Power BI のユーザー、グループ、�
 
 Office 365 セキュリティ/コンプアライアンス センターで Power BI 監査ログを管理します。 **[監査ログ]** タブには、テナントのセキュリティ/コンプアライアンス センターへのリンクが含まれています。 [詳細情報](service-admin-auditing.md)
 
-監査ログを使用するには、設定 [**[内部アクティビティの監査とコンプライアンスのための監査ログの作成]**](#create-audit-logs-for-internal-activity-auditing-and-compliance) を有効にします。
+監査ログを使用するには、設定 [ **[内部アクティビティの監査とコンプライアンスのための監査ログの作成]** ](#create-audit-logs-for-internal-activity-auditing-and-compliance) を有効にします。
 
 ## <a name="tenant-settings"></a>テナント設定
 
@@ -126,15 +128,27 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 次のいくつかのセクションでは、さまざまな種類のテナント設定の概要を示します。
 
+## <a name="help-and-support-settings"></a>ヘルプし、サポートの設定
+
+### <a name="publish-get-help-information"></a>「ヘルプ」の情報を公開します。
+
+組織内のユーザーは、内部のヘルプに移動し、Power BI の [ヘルプ] メニューからリソースをサポートできます。 具体的には、これらのパラメーターは、学習、コミュニティ、および Get ヘルプのメニュー項目の動作を変更します。
+
+ユーザーのライセンス要求のカスタム ソリューションを誘導する URL を指定することもできます。 このパラメーターは、Power BI Pro ライセンスがなくても、ユーザーは、Power BI Pro ダイアログ ボックスに、更新プログラムや個人の記憶域の管理 ページを検索できるアカウントのアップグレード ボタンのターゲット URL をカスタマイズします。
+
 ## <a name="workspace-settings"></a>ワークスペースの設定
 
-### <a name="create-workspaces-preview"></a>ワークスペース (プレビュー) を作成する
+### <a name="create-workspaces"></a>ワークスペースを作成します。
 
-組織内のユーザーはアプリ ワークスペースを作成し、ダッシュボード、レポート、およびその他のコンテンツで共同作業を行うことができます。 [詳細情報](service-create-the-new-workspaces.md)
+管理者を使用して、**ワークスペースを作成する**を組織で作成できるユーザーをアプリ ワークスペースでダッシュ ボード、レポート、およびその他の共同作業をコンテンツを示すために設定します。 詳細については[アプリ ワークスペース](service-create-the-new-workspaces.md)します。
+
+管理ポータルでは、テナントのワークスペースに関する設定の別のセクションが。 ここでは、並べ替えとワークスペースの一覧をフィルター処理および各ワークスペースの詳細を表示することができます。 参照してください[ワークスペース](#workspaces)詳細についてはします。
+
+管理ポータルで制御することもユーザーが組織にアプリを配布する権限を持っています。 参照してください[コンテンツ パックとアプリを組織全体に発行](#publish-content-packs-and-apps-to-the-entire-organization)詳細については、この記事では。
 
 ## <a name="export-and-sharing-settings"></a>エクスポートと共有の設定
 
-### <a name="share-content-to-external-users"></a>外部ユーザーとコンテンツを共有する
+### <a name="share-content-with-external-users"></a>外部ユーザーとコンテンツを共有する
 
 組織内のユーザーは組織外のユーザーとダッシュボードを共有できます。 [詳細情報](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
 
@@ -142,7 +156,7 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 外部ユーザーと共有すると、次の図のようなメッセージが表示されます。
 
-![外部ユーザーと共有する](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![外部ユーザーと共有する](media/service-admin-portal/powerbi-admin-sharing-external.png)  
 
 ### <a name="publish-to-web"></a>Web に公開
 
@@ -154,10 +168,10 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 **[Web に公開]** の設定に基づき、UI にさまざまなオプションが表示されます。
 
-|おすすめ |組織全体に対して有効にする |組織全体に対して無効にする |特定のセキュリティ グループ   |
+|特性 |組織全体に対して有効にする |組織全体に対して無効にする |特定のセキュリティ グループ   |
 |---------|---------|---------|---------|
-|**[ファイル]** メニューの下の **[Web に公開]**。|すべてのユーザーに対して有効|すべてのユーザーに対して非表示|承認されたユーザーまたはグループに対してのみ表示されます。|
-|**[設定]** の下の **[埋め込みコードの管理]**|すべてのユーザーに対して有効|すべてのユーザーに対して有効|すべてのユーザーに対して有効<br><br>* **[削除]** オプションは、承認されたユーザーまたはグループの場合にのみ使用可能です。<br>* **[コードを取得]** は、すべてのユーザーに対して有効になります。|
+|**[ファイル]** メニューの下の **[Web に公開]** 。|すべてのユーザーに対して有効|すべてのユーザーに対して非表示|承認されたユーザーまたはグループに対してのみ表示されます。|
+|**[設定]** の下の **[埋め込みコードの管理]**|すべてのユーザーに対して有効|すべてのユーザーに対して有効|すべてのユーザーに対して有効<br><br>*  **[削除]** オプションは、承認されたユーザーまたはグループの場合にのみ使用可能です。<br>*  **[コードを取得]** は、すべてのユーザーに対して有効になります。|
 |管理ポータル内の **[埋め込みコード]**|状態には次のいずれかが反映されます。<br>* アクティブ<br>* サポートされていません<br>* ブロック|状態は **[無効]** と表示|状態には次のいずれかが反映されます。<br>* アクティブ<br>* サポートされていません<br>* ブロック<br><br>ユーザーがテナント設定に基づいて承認されていない場合、状態は **[侵害]** となります。|
 |既存の公開済みレポート|すべて有効|すべて無効|すべてのユーザーに対して、レポートの表示が続行されます。|
 
@@ -170,7 +184,7 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 ![タイルからデータをエクスポートする](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> また、**[データのエクスポート]** を無効にして、ユーザーが **[Excel で分析]** 機能と、Power BI サービスのライブ接続を使用できないように設定することもできます。
+> また、 **[データのエクスポート]** を無効にして、ユーザーが **[Excel で分析]** 機能と、Power BI サービスのライブ接続を使用できないように設定することもできます。
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>PowerPoint プレゼンテーションまたは PDF ドキュメントとしてレポートをエクスポート
 
@@ -203,19 +217,19 @@ Azure B2B ゲスト ユーザーは、組織内のコンテンツの編集およ
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>コンテンツ パックとアプリを組織全体に発行する
 
-組織内のユーザーは、特定のグループだけではなく、組織全体にコンテンツ パックとアプリを発行できます。 [詳細情報](service-organizational-content-pack-manage-update-delete.md)
+管理者は、この設定を使用して、決定するユーザーが特定のグループのみではなく、組織全体にコンテンツ パックとアプリを発行できます。 詳細については[アプリの発行](service-create-distribute-apps.md)します。
 
 コンテンツ パックを作成するときの **[組織全体]** オプションを次の図に示します。
 
 ![コンテンツ パックを組織に発行する](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-apps"></a>テンプレート アプリの作成
+### <a name="create-template-apps-and-organizational-content-packs"></a>テンプレート アプリと組織のコンテンツ パックを作成します。
 
-組織内のユーザーは、Power BI Desktop 内に構築されたデータセットを使用する、テンプレート アプリを作成できます。 テンプレート アプリの詳細は[こちら](template-content-pack-authoring.md)をご覧ください。
+組織内のユーザーには、テンプレート アプリおよび Power BI Desktop での 1 つのデータ ソース上に構築されたデータセットを使用する組織のコンテンツ パックを作成できます。 詳細については[テンプレート アプリ](template-content-pack-authoring.md)します。
 
 ### <a name="push-apps-to-end-users"></a>アプリをエンド ユーザーにプッシュする
 
-AppSource からのインストールを要求することなく、ユーザーはエンド ユーザーとアプリを直接共有できます。 [詳細情報](service-create-distribute-apps.md)
+レポートの作成者はからインストールすることがなくエンドユーザーと直接アプリを共有することができます[AppSource](https://appsource.microsoft.com)します。 詳細については[エンドユーザーのアプリを自動的にインストールする](service-create-distribute-apps.md#automatically-install-apps-for-end-users)します。
 
 ## <a name="integration-settings"></a>統合の設定
 
@@ -231,7 +245,7 @@ AppSource からのインストールを要求することなく、ユーザー�
 組織内のユーザーは、Excel を使用して、オンプレミスの Power BI データセットの表示および操作を行うことができます。 [詳細情報](service-analyze-in-excel.md)
 
 > [!NOTE]
-> また、**[データのエクスポート]** を無効にして、ユーザーが **[Excel で分析]** 機能を使用することを防ぐこともできます。
+> また、 **[データのエクスポート]** を無効にして、ユーザーが **[Excel で分析]** 機能を使用することを防ぐこともできます。
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI を使用する
 
@@ -318,7 +332,7 @@ Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポ�
 
 コンテンツ作成者用の使用状況メトリックには、コンテンツにアクセスしているユーザーの表示名とメール アドレスが示されます。 [詳細情報](service-usage-metrics.md)
 
-ユーザーごとのデータは利用状況メトリックに対して既定で有効になり、コンテンツ作成者のアカウント情報はメトリック レポートに含まれます。 一部またはすべてのユーザーに対してこの情報を含めない場合は、指定したセキュリティ グループまたは組織全体に対してこの機能を無効にします。 アカウント情報は、*[名前なし]* としてレポートに表示されます。
+ユーザーごとのデータは利用状況メトリックに対して既定で有効になり、コンテンツ作成者のアカウント情報はメトリック レポートに含まれます。 一部またはすべてのユーザーに対してこの情報を含めない場合は、指定したセキュリティ グループまたは組織全体に対してこの機能を無効にします。 アカウント情報は、 *[名前なし]* としてレポートに表示されます。
 
 ## <a name="dashboard-settings"></a>ダッシュボードの設定
 
@@ -335,11 +349,18 @@ Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポ�
 
 組織内のユーザーが、Power BI のダッシュボードとレポートを、サービスとしてのソフトウェア (SaaS) アプリケーションに埋め込むことができます。 この設定を無効にすると、ユーザーが REST API を使用して、Power BI コンテンツをアプリケーションに埋め込むことができなくなります。 [詳細情報](developer/embedding.md)
 
-## <a name="dataflow-settings-preview"></a>データフローの設定 (プレビュー)
+### <a name="allow-service-principals-to-use-power-bi-apis"></a>Power BI API の使用をサービス プリンシパルに許可
 
-### <a name="create-and-use-dataflows-preview"></a>データフローを作成して使用する (プレビュー)
+Azure Active Directory (Azure AD) で登録されている web アプリはサインイン ユーザーなし Power BI Api へのアクセスに、割り当てられているサービス プリンシパルを使用します。 サービス プリンシパル認証を使用するアプリをそのサービス プリンシパルに許可するのには、許可されているセキュリティ グループに含める必要があります。 [詳細情報](developer/embed-service-principal.md)
 
-組織内のユーザーはデータフローを作成して使用できます。 データフローの概要については、「[Power BI でのセルフサービスのデータ準備 (プレビュー)](service-dataflows-overview.md)」をご覧ください。 Premium 容量でのデータフローを有効にするには、「[ワークロードを構成する](service-admin-premium-workloads.md)」を参照してください。
+> [!NOTE]
+> サービス プリンシパルは、対象セキュリティ グループの Power BI テナントのすべての設定のアクセス許可を継承します。 アクセス許可を制限するには、サービス プリンシパル専用のセキュリティ グループを作成し、関連する有効な Power BI 設定の [特定のセキュリティ グループを除く] リストに追加します。
+
+## <a name="dataflow-settings"></a>データフローの設定
+
+### <a name="create-and-use-dataflows"></a>データフローの作成と使用
+
+組織内のユーザーはデータフローを作成して使用できます。 データフローの概要については、次を参照してください。[セルフ サービスのデータ準備の Power BI で](service-dataflows-overview.md)します。 Premium 容量でのデータフローを有効にするには、「[ワークロードを構成する](service-admin-premium-workloads.md)」を参照してください。
 
 > [!NOTE]
 > この設定は、組織全体に適用され、特定のグループに限定することはできません。
@@ -350,11 +371,18 @@ Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポ�
 
 ![Power BI 管理ポータルのテンプレート アプリ設定](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
 
-最初の設定である **[テンプレート アプリの作成]** では、テンプレート アプリを作成できる組織の人が制御されます。 テンプレート アプリの作成者は AppSource かその他の配布方法を利用し、組織の外部にいるクライアントにアプリを配布できます。
+### <a name="create-template-apps-preview"></a>テンプレート アプリの作成 (プレビュー)
+
+組織内のユーザーには、アプリのテンプレートを作成できます。 テンプレート アプリ作成者しに配布できますでの組織外のクライアントに[AppSource](https://appsource.microsoft.com)または他の配布方法です。
 
 ![Power BI 管理ポータル、テンプレート アプリの作成設定](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
-2 つ目の設定である **[テンプレート アプリのインストール]** では、AppSource または別のソースからテンプレート アプリをダウンロードし、インストールできる組織の人を制御します。
+### <a name="install-template-apps-preview"></a>テンプレート アプリ (プレビュー) をインストールします。
+
+組織内のユーザーがダウンロードしてからテンプレート アプリをインストールする[AppSource](https://appsource.microsoft.com)または別のソース。
+
+> [!NOTE]
+> この設定は、どのユーザーが自分の Power BI アカウントにテンプレートのアプリをインストールするかを判断します。
 
 ## <a name="capacity-settings"></a>容量の設定
 
@@ -366,7 +394,7 @@ Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポ�
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-**[Power BI Embedded]** タブを使用すると、顧客用に購入した Power BI Embedded (A SKU) の容量を表示できます。 Azure からは A SKU の購入のみ可能であるため、**Azure Portal** から [Azure の埋め込み容量を管理](developer/azure-pbie-create-capacity.md)します。
+**[Power BI Embedded]** タブを使用すると、顧客用に購入した Power BI Embedded (A SKU) の容量を表示できます。 Azure から A Sku を購入することのみできますのでする[Azure での埋め込みの容量を管理する](developer/azure-pbie-create-capacity.md)から **、Azure portal**します。
 
 Power BI Embedded (A SKU) の設定を管理する方法について詳しくは、「[Azure の Power BI Embedded とは何か](developer/azure-pbie-what-is-power-bi-embedded.md)」をご覧ください。
 
@@ -376,7 +404,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 ![Power BI 管理ポータル内の埋め込みコード](media/service-admin-portal/embed-codes.png)
 
-## <a name="organizational-visuals"></a>組織のビジュアル
+## <a name="organizational-visuals">組織のビジュアル</a>
 
 **[組織のビジュアル]** タブでは、組織内にカスタム ビジュアルを展開して管理できます。 組織のビジュアルを使用すると、組織に独自のビジュアルを簡単に展開でき、レポート作成者はそれを検出して、Power BI Desktop からレポートにインポートできます。 [詳細情報](power-bi-custom-visuals-organization.md)
 
@@ -391,7 +419,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 一覧に新しいカスタム ビジュアルを追加するには、次の手順のようにします。 
 
-1. 右側のウィンドウで、**[カスタム ビジュアルの追加]** を選択します。
+1. 右側のウィンドウで、 **[カスタム ビジュアルの追加]** を選択します。
 
     ![カスタム ビジュアル フォーム](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
@@ -405,7 +433,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
     * **アイコン**:Power BI Desktop UI に表示されるアイコン ファイルです。
 
-    * **[説明]**: ユーザーにとってわかりやすくなるようにビジュアルに簡単な説明を与えます
+    * **[説明]** : ユーザーにとってわかりやすくなるようにビジュアルに簡単な説明を与えます
 
 1. **[追加]** を選択して、アップロード要求を開始します。 成功すると、一覧に新しい項目が表示されます。 失敗すると、エラー メッセージが表示されます。
 
@@ -436,19 +464,21 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 詳細については、[組織のカスタム ビジュアルに関してよく寄せられる質問](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)のページにアクセスしてください。
 
-## <a name="dataflow-storage-preview"></a>データフロー ストレージ (プレビュー)
+## <a name="dataflowStorage">データ フロー storage (プレビュー)</a>
 
 既定では、Power BI で使用されるデータは、Power BI で利用可能な内部ストレージに保存されます。 データフローと Azure Data Lake Storage Gen2 (ADLS Gen2) を統合すると、組織の Azure Data Lake Storage Gen2 アカウントにデータフローを保存できます。 詳細については、「[データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)」を参照してください。
 
-## <a name="workspaces-preview"></a>ワークスペース (プレビュー)
+## <a name="workspaces"></a>ワークスペース
 
-管理者は自分のテナントに存在するワークスペースを表示できます。 ワークスペースの一覧を並べ替えたり、フィルターを適用したり、ワークスペースごとの詳細を表示したりできます。 テーブルの列は、ワークスペースの [Power BI 管理者 Rest API](/rest/api/power-bi/admin) によって返されるプロパティに対応することに注目してください。 個人ワークスペースの種類は **PersonalGroup** です。旧式のワークスペースの種類は **Group** です。最新のワークスペースの種類は **Workspace** です。 詳細については、「[Power BI で新しいワークスペース (プレビュー) を作成する](service-create-the-new-workspaces.md)」を参照してください。
+管理者は自分のテナントに存在するワークスペースを表示できます。 ワークスペースの一覧を並べ替えたり、フィルターを適用したり、ワークスペースごとの詳細を表示したりできます。 テーブルの列によって返されるプロパティに対応、 [Power BI 管理 Rest API](/rest/api/power-bi/admin)のワークスペース。 個人用ワークスペースには、型**PersonalGroup**、型の従来のワークスペースは、**グループ**、され、新しいワークスペース エクスペリエンス ワークスペースの型**ワークスペース**します。 詳細については、次を参照してください。 [Power BI で新しいワークスペースを作成](service-create-the-new-workspaces.md)です。
 
 ![ワークスペース リスト](media/service-admin-portal/workspaces-list.png)
 
+
 ## <a name="next-steps"></a>次の手順
 
-[組織内の Power BI を管理する](service-admin-administering-power-bi-in-your-organization.md)  [Power BI 管理者の役割について](service-admin-role.md)  
+[組織内の Power BI を管理する](service-admin-administering-power-bi-in-your-organization.md)  
+[Power BI 管理者の役割について](service-admin-role.md)  
 [組織内の Power BI を監査する](service-admin-auditing.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

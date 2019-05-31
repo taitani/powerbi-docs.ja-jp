@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2019
+ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
-ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
-ms.translationtype: HT
+ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "55648699"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051283"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -43,11 +43,11 @@ URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
 
 ### <a name="reports-in-apps"></a>アプリ内のレポート
 
-アプリ内のレポートに URL フィルターを追加する場合は、書式設定が少し異なります。 アプリ内のレポートへのリンクには、URL に追加されるクエリ パラメーター (ctid) が含まれます。 クエリ パラメーターは、アンパサンド (&) で区切る必要があります。 そのため、"?filter=" の代わりに "&filter=" を (ctid パラメーターの後ろで) 使ってクエリをアペンドする必要があります。 
+アプリ内のレポートに URL フィルターを追加する場合は、書式設定が少し異なります。 アプリ内のレポートへのリンクには、URL に追加されるクエリ パラメーター (ctid) が含まれます。 クエリ パラメーターを区切りますアンパサンド (&)。 保持"でしょうか。 フィルター ="と ctid パラメーターを URL の末尾に移動する前にアンパサンド (&)。 
 
 次の例のようにします。
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*&'ctid=*ctid*
 
 ### <a name="field-types"></a>フィールドの型
 
@@ -83,7 +83,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*
 
 レポートはノースカロライナでフィルター処理されます。レポート ページのすべての視覚化には、ノースカロライナのデータだけが表示されます。
 
-![](media/service-url-filters/power-bi-report4.png)
+![レポートはノースカロライナでフィルター処理](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>複数のフィールドでフィルター処理する
 
@@ -133,19 +133,19 @@ Power BI の URL フィルターには、次の形式で数値を含めること
 
 ### <a name="date-data-types"></a>日付データ型
 
-Power BI では、**Date** および **DateTimeOffset** データ型で OData V3 と V4 の両方がサポートされます。  日付は EDM 形式 (2019-02-12T00:00:00) を使用して表されます。このため、日付を YYYY-MM-DD のように指定すると、これは Power BI によって YYYY-MM-DDT00:00:00 と解釈されます。
+Power BI では、**Date** および **DateTimeOffset** データ型で OData V3 と V4 の両方がサポートされます。  日付は、EDM の形式を使用して表されます (2019-02-12T00:00:00) ' YYYY MM DD' として日付を指定するときに Power BI として解釈するため、' YYYY、MM-DDT00:00:00'。
 
-この区別が重要なのはなぜでしょうか?  たとえば、**Table/Date gt 2018-08-03** というクエリ文字列パラメーターを作成するとします。  結果には 2018 年 8 月 3 日が含まれるのでしょうか。または、2018 年 8 月 4 日 で始まるのでしょうか。 Power BI ではクエリが **Table/Date gt 2018-08-03T00:00:00** に変換されるため、ゼロ以外の時刻部分を含む日付が結果に含まれます。これは、日付が **2018-08-03T00:00:00** より大きいためです。
+この区別が重要なのはなぜでしょうか? たとえば、クエリ文字列パラメーターを作成する**テーブル/日付 gt ' 2018-08-03'** します。  結果には 2018 年 8 月 3 日が含まれるのでしょうか。または、2018 年 8 月 4 日 で始まるのでしょうか。 Power BI にクエリを変換するため**テーブル/日付 gt '2018-08-03T00:00:00'** の結果には、それらの日付よりも大きくなるため、0 以外の時刻部分がある任意の日付が含まれます **' 2018-08-03T00:00:00'** .
 
 ## <a name="special-characters-in-url-filters"></a>URL フィルター内の特殊文字
 
-特殊文字とスペースにはいくつか追加の書式設定が必要です。 クエリにスペース、ダッシュ、またはその他の非 ASCII 文字を含める場合は、それらの特殊文字の前に、アンダースコアと X (**_x**) で始まる "*エスケープ コード*" を付け、その後に 4 桁の **Unicode** を続け、さらにもう 1 つのアンダースコアを付加します。 Unicode が 4 文字未満の場合は、それをゼロで埋める必要があります。 次に例をいくつか示します。
+特殊文字とスペースにはいくつか追加の書式設定が必要です。 クエリにスペース、ダッシュ、またはその他の非 ASCII 文字を含める場合は、それらの特殊文字の前に、アンダースコアと X ( **_x**) で始まる "*エスケープ コード*" を付け、その後に 4 桁の **Unicode** を続け、さらにもう 1 つのアンダースコアを付加します。 Unicode が 4 文字未満の場合は、それをゼロで埋める必要があります。 次に例をいくつか示します。
 
 |識別子  |Unicode  | Power BI 用のコーディング  |
 |---------|---------|---------|
 |**テーブル名**     | スペースは 0x20        |  Table_x0020_Name       |
 |**列**@**数値**     |   @ は 0x40     |  Column_x0040_Number       |
-|**[列]**     |  [ is 0x0058 ] は 0x0050       |  _x0058_Column_x0050       |
+|**[列]**     |  [ is 0x0058 ] は 0x0050       |  _x0058_Column_x0050_       |
 |**列+プラス**     | + は 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![ 特殊文字をレンダリングするテーブルのビジュアル](media/service-url-filters/power-bi-special-characters1.png)
@@ -177,7 +177,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 * *in* 演算子を使用する場合は、*in* の右側の値をかっこで囲んだコンマ区切りのリストにする必要があります。    
 * Power BI Report Server で、レポートの URL に含ませることによって[レポート パラメーターを渡す](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)ことができます。 レポート処理エンジンに直接渡されるため、これらの URL パラメーターにはプレフィックスが付いていません。
-* クエリ文字列のフィルター処理は、[Web に公開](service-publish-to-web.md)では機能しません。
+* クエリ文字列のフィルター処理を使用しない[web に公開](service-publish-to-web.md)または[PDF へのエクスポート](consumer/end-user-pdf.md)します。
 * 「[SharePoint Online にレポート Web パーツを埋め込む](service-embed-report-spo.md)」では、URL のフィルター処理はサポートされていません。
 * JavaScript の制限により、long データ型は (2^53-1) となります。
 * レポート URL フィルターには、10 個の式 (AND によって連結された 10 個のフィルター) の制限があります。

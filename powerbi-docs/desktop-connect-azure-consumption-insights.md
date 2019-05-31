@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327989"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61325653"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop で Azure のコストと使用状況のデータを分析する
 
@@ -24,7 +24,9 @@ Power BI Desktop で Azure に接続し、組織の Azure サービスの使用�
 
 Power BI は現在、Enterprise Agreement および Customer Agreement の請求先アカウントへの接続をサポートしています。
 
-Enterprise Agreement ユーザーは、Azure Consumption Insights コネクタに接続する必要があります。 Customer Agreement アカウント ユーザーは、Azure Cost Management コネクタに接続する必要があります。
+* **Enterprise Agreement**でユーザーが接続する必要があります、 **Azure Consumption Insights コネクタ**します。
+
+* **顧客契約**でユーザーが接続する必要があります、 **Azure Cost Management のコネクタ**します。
 
 ## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights に接続する
 
@@ -34,7 +36,7 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 
 **Azure Consumption Insights** コネクタを使用して正常に接続するには、Azure Portal 内の Enterprise 機能にアクセスする必要があります。
 
-**Azure Consumption Insights** コネクタを使用して接続するには、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得]** を選択します。 左側のカテゴリから **[オンライン サービス]** を選択すると、**[Microsoft Azure Consumption Insights (Beta)]** が表示されます。 **[接続]** を選択します。
+**Azure Consumption Insights** コネクタを使用して接続するには、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得]** を選択します。 左側のカテゴリから **[オンライン サービス]** を選択すると、 **[Microsoft Azure Consumption Insights (Beta)]** が表示されます。 **[接続]** を選択します。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -56,7 +58,7 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-"*アクセス キー*" を指定して **[接続]** を選択すると、**[ナビゲーター]** ウィンドウが開き、使用可能な 9 つのテーブルが表示されます。 
+"*アクセス キー*" を指定して **[接続]** を選択すると、 **[ナビゲーター]** ウィンドウが開き、使用可能な 9 つのテーブルが表示されます。 
 * **Budgets**:既存の予算目標に対する実際のコストや使用状況を表示するための予算の詳細が提供されます。 
 * **MarketPlace**:使用状況に基づく Azure Marketplace の料金が提供されます。
 * **PriceSheets**:登録のメーターごとに適用できる割合が提供されます。
@@ -89,7 +91,7 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 
 **Azure Consumption Insights** コネクタを使用して正常にデータを読み込んだら、**クエリ エディター**を使用して独自のカスタム メジャーと列を作成することができます。また、**Power BI サービス**で共有できるビジュアル、レポート、およびダッシュボードを作成できます。
 
-Azure には、空のクエリを使用して取得できる、サンプルのカスタム クエリ コレクションも含まれています。 これを使用するには、**Power BI Desktop** の **[ホーム]** リボンで、**[データの取得]** のドロップダウンの矢印を選択してから **[空のクエリ]** を選択します。 また、**クエリ エディター**の左側の **[クエリ]** ウィンドウで右クリックし、表示されるメニューから **[新しいクエリ]、[空のクエリ]** の順に選択することもできます。
+Azure には、空のクエリを使用して取得できる、サンプルのカスタム クエリ コレクションも含まれています。 これを使用するには、**Power BI Desktop** の **[ホーム]** リボンで、 **[データの取得]** のドロップダウンの矢印を選択してから **[空のクエリ]** を選択します。 また、**クエリ エディター**の左側の **[クエリ]** ウィンドウで右クリックし、表示されるメニューから **[新しいクエリ]、[空のクエリ]** の順に選択することもできます。
 
 **数式バー**に次のように入力します。
 
@@ -119,7 +121,7 @@ Azure には、空のクエリを使用して取得できる、サンプルの�
 最初の手順では、**Azure Consumption Insights** コネクタを使用して接続します (詳細については、この記事の前半で説明しました)。 この手順では、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得]、[空のクエリ]** の順に選択します。
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>手順 2:詳細エディターを使用してクエリを作成する
-**クエリ エディター**で、**[ホーム]** リボンの **[クエリ]** セクションから **[詳細エディター]** を選択します。 表示された **[詳細エディター]** ウィンドウで、次のクエリを入力します。
+**クエリ エディター**で、 **[ホーム]** リボンの **[クエリ]** セクションから **[詳細エディター]** を選択します。 表示された **[詳細エディター]** ウィンドウで、次のクエリを入力します。
 
     let    
         enrollmentNumber = "100",
@@ -138,16 +140,16 @@ Azure には、空のクエリを使用して取得できる、サンプルの�
 次に、新しい詳細テーブルに、作成したカスタム列またはメジャーを移動する必要があります。 この手順を以下に示します。
 
 1. メモ帳 (または他のテキスト エディター) を開きます。
-2. 移動するメジャーを選択し、*[数値]* フィールドからテキストをコピーして、メモ帳に配置します。
+2. 移動するメジャーを選択し、 *[数値]* フィールドからテキストをコピーして、メモ帳に配置します。
    
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. *Query1* を元の詳細テーブルの名前に変更します。
-4. テーブルを右クリックし、**[新しいメジャー]** を選択して、テーブルに新しいメジャーとカスタム列を作成します。次に格納されているメジャーと列を切り取って貼り付けます (すべてのメジャーと列に対して繰り返します)。
+4. テーブルを右クリックし、 **[新しいメジャー]** を選択して、テーブルに新しいメジャーとカスタム列を作成します。次に格納されているメジャーと列を切り取って貼り付けます (すべてのメジャーと列に対して繰り返します)。
 
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>手順 4:リレーションシップを持つテーブルを再リンクする
 多くのダッシュボードには、日付テーブルやカスタム プロジェクトで使用されるテーブルなど、検索またはフィルタリングに使用されるテーブルが追加されています。 これらのリレーションシップを再確立することで、未解決のほとんどの問題が解決されます。 その方法を次に示します。
 
-- **Power BI Desktop** の **[モデリング]** タブで、**[リレーションシップの管理]** を選択し、モデル内のリレーションシップを管理できるウィンドウを表示します。 必要に応じて、テーブルを再リンクします。
+- **Power BI Desktop** の **[モデリング]** タブで、 **[リレーションシップの管理]** を選択し、モデル内のリレーションシップを管理できるウィンドウを表示します。 必要に応じて、テーブルを再リンクします。
    
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
@@ -212,7 +214,12 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 
 このセクションでは、Customer Agreement 請求先アカウントに接続する方法を説明します。
 
-**Azure Cost Management** コネクタを使用して接続するには、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得]** を選択します。  左側のカテゴリから **[Azure]** を選ぶと、**[Azure Cost Management (Beta)]** が表示されます。 **[接続]** を選択します。
+> [!NOTE]
+> Azure Cost Management のコネクタは現在のお客様をサポート、**顧客契約**します。  **Enterprise Agreement**お客様が Microsoft Azure Consumption Insights コネクタを使用する必要があります。
+> 
+> 
+
+**Azure Cost Management** コネクタを使用して接続するには、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得]** を選択します。  左側のカテゴリから **[Azure]** を選ぶと、 **[Azure Cost Management (Beta)]** が表示されます。 **[接続]** を選択します。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
 
@@ -224,7 +231,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
 
-Azure のメール アドレスとパスワードでログインするように求められます。  認証すると、**[ナビゲーター]** ウィンドウが開き、使用可能な12 個のテーブルが表示されます。
+Azure のメール アドレスとパスワードでログインするように求められます。  認証すると、 **[ナビゲーター]** ウィンドウが開き、使用可能な12 個のテーブルが表示されます。
 
 * **Billing events**:新しい請求書やクレジットでの購入などのイベント ログが提供されます。
 * **Budgets**:既存の予算目標に対する実際のコストや使用状況を表示するための予算の詳細が提供されます。 
@@ -234,8 +241,8 @@ Azure のメール アドレスとパスワードでログインするように�
 * **Marketplace**:使用状況に基づく Azure Marketplace の料金が提供されます。
 * **PriceSheets**:指定された課金プロファイルに対する、メーター別の適用可能レートが提供されます。
 * **RI charges**:過去 24 か月の間の予約インスタンスに関連付けられている料金が提供されます。
-* **RI recommendations (single)**:過去 7 日、30 日、または 60 日の間の 1 つのサブスクリプション上での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
-* **RI recommendations (shared)**:過去 7 日、30 日、または 60 日の間のすべてのサブスクリプション上での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
+* **RI recommendations (single)** :過去 7 日、30 日、または 60 日の間の 1 つのサブスクリプション上での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
+* **RI recommendations (shared)** :過去 7 日、30 日、または 60 日の間のすべてのサブスクリプション上での使用状況の傾向に基づく、予約インスタンス購入の推奨事項が提供されます。
 * **RI usage**:過去 1 か月の間の既存の予約インスタンスの消費に関する詳細が提供されます。
 * **Usage details**:指定した課金プロファイル ID の消費量と見積もり料金の内訳が提供されます。
 
@@ -255,7 +262,7 @@ Azure のメール アドレスとパスワードでログインするように�
 
 月数をカスタマイズしたり、API バージョンを変更したり、返されたデータに対してさらに高度なロジックを実行したりする場合は、カスタム M クエリを作成できます。
 
-**Power BI Desktop** の **[ホーム]** リボンに移動し、**[データの取得]** のドロップダウンを選択してから **[空のクエリ]** を選択します。  また、**クエリ エディター**の左側の **[クエリ]** ウィンドウで右クリックし、表示されるメニューから **[新しいクエリ]、[Blank Menu]\(空のメニュー\)** の順に選択することもできます。
+**Power BI Desktop** の **[ホーム]** リボンに移動し、 **[データの取得]** のドロップダウンを選択してから **[空のクエリ]** を選択します。  また、**クエリ エディター**の左側の **[クエリ]** ウィンドウで右クリックし、表示されるメニューから **[新しいクエリ]、[Blank Menu]\(空のメニュー\)** の順に選択することもできます。
 
 **数式バー**に、次の式を入力します。`billingProfileId` は実際の ID に置き換え、"charges" は任意の有効なテーブル名 (上記の一覧) に置き換えます。
 

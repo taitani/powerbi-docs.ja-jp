@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: f2921ac581416d519e224f10de53a24db442b969
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57966003"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61182012"
 ---
 # <a name="cognitive-services-in-power-bi-preview"></a>Power BI での Cognitive Services (プレビュー)
 
@@ -43,7 +43,7 @@ Power Query エディターの上部のリボン内で **[AI Insights]** ボタ�
 
 ![関数の選択](media/service-cognitive-services/cognitive-services_04.png)
 
-**Cultureinfo** は、テキストの言語を指定する省略可能な入力です。 このフィールドには、ISO コードを指定します。 Cultureinfo の入力としては、列、または静的フィールドを使用します。 この例では、列全体で言語が英語 (en) として指定されています。 このフィールドを空白のままにすると、Power BI は、言語を自動的に検出してから、関数を適用します。 次に、**[呼び出し]** を選択します。
+**Cultureinfo** は、テキストの言語を指定する省略可能な入力です。 このフィールドには、ISO コードを指定します。 Cultureinfo の入力としては、列、または静的フィールドを使用します。 この例では、列全体で言語が英語 (en) として指定されています。 このフィールドを空白のままにすると、Power BI は、言語を自動的に検出してから、関数を適用します。 次に、 **[呼び出し]** を選択します。
 
 ![[呼び出し] の選択](media/service-cognitive-services/cognitive-services_05.png)
 
@@ -102,7 +102,7 @@ Text Analytics では、機械学習分類アルゴリズムを使用して、0 
 
 データフローの詳細については、以下の記事をご覧ください。
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
-* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
-* [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
+* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)

@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a593a918c59452c922f6061189ad6c2885478aad
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 02fbe26fc4d0c8be0439ca656151ef7712d201b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174869"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61399107"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI でサポートされる言語と国または地域
 
-この記事では、Power BI サービス、Power BI Desktop、および Power BI ドキュメントでサポートされている言語と国/地域の一覧を示します。
+この記事では、サポートされる言語と国/地域の Power BI サービス、Power BI Desktop と Power BI のドキュメントを示します。
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Power BI が利用可能な国と地域
 Power BI が利用可能な国と地域の一覧については、[ご利用いただける国と地域の一覧](https://products.office.com/business/international-availability)をご覧ください。 
@@ -73,19 +73,19 @@ Power BI が利用可能な国と地域の一覧については、[ご利用い�
 * ベトナム語 - Tiếng Việt
 
 ### <a name="whats-translated"></a>翻訳対象
-メニュー、ボタン、メッセージ、エクスペリエンスの他の要素がユーザーの言語に翻訳され、移動や Power BI との対話が容易になります。
+Power BI では、メニューのボタン、メッセージ、および使用する言語にエクスペリエンスの他の要素を変換します。
 
 現時点では、一部の機能は英語でのみ使用可能です。
 
-* Microsoft Dynamics CRM、Google 分析、Salesforce などのサービスに接続するときに Power BI が作成するダッシュボードおよびレポート。 (独自のダッシュボードとレポートは、ユーザーが自分の言語で作成できます。)
+* ダッシュ ボードとレポートを Power BI は、Microsoft Dynamics CRM、Google アナリティクス、Salesforce などのサービスに接続するときに作成します。 独自の言語で独自のダッシュ ボードとレポートを引き続き作成できます。
 * Q&A を使用したデータ探索。
 
 追加の機能も他の言語に順次翻訳されています。時折ご確認ください。 
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>Power BI サービスでの言語の選択
-1. Power BI サービスで、**[設定]** アイコン ![[設定] アイコン](media/supported-languages-countries-regions/pbi_settings_icon.png) > **[設定]** の順に選びます。
+1. Power BI サービスで、 **[設定]** アイコン ![[設定] アイコン](media/supported-languages-countries-regions/pbi_settings_icon.png) >  **[設定]** の順に選びます。
 2. **[全般]** タブ > **[言語]** で、。
-3. 言語を選択し、**[適用]** をクリックします。
+3. 言語を選択し、 **[適用]** をクリックします。
 
 ### <a name="choose-your-language-in-the-browser"></a>ブラウザーでの言語の選択
 Power BI では、コンピューターの言語設定を基に言語を検出します。 これらの設定へのアクセス、および変更方法は、オペレーティング システムやブラウザーによって異なる場合があります。 次に、Internet Explorer および Google Chrome から設定にアクセスする方法を示します。
@@ -109,7 +109,7 @@ Power BI では、コンピューターの言語設定を基に言語を検出�
    ![Chrome の言語一覧](media/supported-languages-countries-regions/pbi_langs_enus.png)
    
    新しい言語が一覧の末尾に表示されます。 
-6. 新しい言語を一覧の最上部にドラッグし、**[Google Chrome をこの言語で表示]** をクリックします。
+6. 新しい言語を一覧の最上部にドラッグし、 **[Google Chrome をこの言語で表示]** をクリックします。
    
    ![Display Google Chrome in this language](media/supported-languages-countries-regions/pbi_langs_eses.png)
    
@@ -128,7 +128,7 @@ Power BI Desktop を入手するには2 つがあります。ダウンロード�
 3. **[時刻と言語]** を選択します。
    
      ![[Windows の設定] ダイアログ ボックス](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
-4. **[地域と言語]** を選択し、言語を選択して、**[既定値として設定]** を選択します。
+4. **[地域と言語]** を選択し、言語を選択して、 **[既定値として設定]** を選択します。
    
      ![Windows の言語の設定ダイアログ ボックス](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
    
@@ -142,9 +142,9 @@ Power BI Desktop で言語を選択すると、レポートでの数値と日付
 Power BI Desktop の言語を変更するには、ダウンロード ページに戻り、別の言語でダウンロードします。
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Power BI Desktop にデータをインポートするためのロケールを選択する
-Power BI Desktop をダウンロードした場合でも Windows ストアからインストールした場合でも、特定のレポートのロケールとして、Power BI Desktop のバージョンのロケールとは異なるものを選ぶことができます。 このようにすると、データ ソースからインポートされるときのデータの解釈方法が変わります (たとえば、"3/4/2017" が 4 月 3 日と解釈されるか、3 月 4 日のどちらとして解釈されるか)。 
+Power BI Desktop をダウンロードした場合でも Windows ストアからインストールした場合でも、特定のレポートのロケールとして、Power BI Desktop のバージョンのロケールとは異なるものを選ぶことができます。 ロケールの変更をデータからインポートされるときに方向のデータが解釈されますソース、たとえば「3/4/2017」を 3 年 4 月または年 3 月 4日として解釈するかどうか。 
 
-1. Power BI Desktop で、**[ファイル]** > **[オプションと設定]** > **[オプション]** の順に移動します。
+1. Power BI Desktop で、 **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]** の順に移動します。
 2. **[現在のファイル]** の下にある **[地域の設定]** を選択します。
 3. **[インポート用のロケール]** ボックスで、別のロケールを選びます。 
    
@@ -165,7 +165,7 @@ Power BI Desktop アプリケーション用の言語を設定するだけでな
 
 モデルの言語を設定する方法を次に示します。
 
-1. Power BI Desktop で、**[ファイル]** > **[オプションと設定]** > **[オプション]** の順に移動します。
+1. Power BI Desktop で、 **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]** の順に移動します。
 2. **[グローバル]** で **[地域の設定]** を選びます。
 3. **[モデルの言語]** ボックスで、別の言語を選びます。 
 

@@ -1,20 +1,20 @@
 ---
 title: ページ分割されたレポートを Power BI サービスで表示する (プレビュー)
 description: このチュートリアルでは、ページ分割されたレポートを Power BI サービスで表示する方法について説明します。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 99ed2510703aaa442be2ce2ee4b4c7ed7f31e681
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 8a87cb292da1a1fb3f4fc3e14d569ad8c97c60b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324693"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769677"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>ページ分割されたレポートを Power BI サービスで表示する (プレビュー)
 
@@ -38,7 +38,7 @@ ms.locfileid: "56324693"
 
     ![Power BI サービスにおけるページ分割されたレポート](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-in-service.png)
 
-2. レポートにパラメーターが指定されている場合は、次の図に示すように、最初に開いたときにレポートが表示されない可能性があります。 パラメーターを選択し、**[レポートの表示]** を選択します。 
+2. レポートにパラメーターが指定されている場合は、次の図に示すように、最初に開いたときにレポートが表示されない可能性があります。 パラメーターを選択し、 **[レポートの表示]** を選択します。 
 
      ![レポートを表示するためのパラメーターの選択](media/paginated-reports-view-power-bi-service/power-bi-paginated-select-parameters.png)
 

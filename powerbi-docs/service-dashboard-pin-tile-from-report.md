@@ -12,11 +12,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a9d3856f643eed0ccb5383f2dda55ea57a32908a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284934"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136293"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードにタイルをピン留め
 ## <a name="pinning-tiles-from-a-report"></a>レポートからタイルをピン留め
@@ -45,7 +45,7 @@ Amanda が Power BI レポートからビジュアルとイメージを固定す
    * 既存のダッシュボード: ドロップダウンから、ダッシュボードの名前を選びます。 共有してもらったダッシュボードはドロップダウンに表示されません。
    * 新しいダッシュボード: 新しいダッシュボードの名前を入力します。
 3. 場合によっては、ピン留めする項目には既に *テーマ* が適用されている場合があります。  たとえば、Excel ブックからピン留めされたビジュアルの場合です。 その場合、タイルに適用するテーマを選びます。
-4. **[Pin]**(ピン留め) を選択します。
+4. **[Pin]** (ピン留め) を選択します。
    
    右上隅の近くに成功メッセージが表示されたら、視覚エフェクトがダッシュボードにタイルとして追加されたことがわかります。
    

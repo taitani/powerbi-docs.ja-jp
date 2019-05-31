@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa41e1e2869ad4d2f77224e3bec99dc00c59c536
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291443"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61337337"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 用の Power BI モバイル アプリの概要
 Windows 10 用 Power BI モバイル アプリを導入すると、タブレットやスマート フォンのタッチ対応画面で Power BI を使用でき、最新のビジネス情報に簡単にアクセスできるようになります。 どこにいても、[Windows のスタート画面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)から会社のダッシュボードを表示して操作できます。
@@ -44,7 +44,7 @@ Windows 10 用 Power BI モバイル アプリを導入すると、タブレッ�
    ![Power BI アプリ アイコン](./media/mobile-windows-10-phone-app-get-started/pbi_win10ph_appiconsm.png)
 2. Power BI ダッシュボードとレポートを表示するには、 **[Power BI]** をタップします。 Web 上の Power BI アカウントと同じ資格情報でサインインしてください。 
    
-   Reporting Services のモバイル レポートと KPI を表示するには、**[SQL Server 2016 Reporting Services]** をタップします。 SQL Server Reporting Services の資格情報を使用してサインインします。
+   Reporting Services のモバイル レポートと KPI を表示するには、 **[SQL Server 2016 Reporting Services]** をタップします。 SQL Server Reporting Services の資格情報を使用してサインインします。
    
    ![接続ダイアログ ボックス](./media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-connect.png)
 3. **[探索を開始]**  をタップして、自分のダッシュボードを表示します。
@@ -56,7 +56,7 @@ Windows 10 用 Power BI モバイル アプリを導入すると、タブレッ�
 Power BI ダッシュボードのサンプルを表示し、使ってみることができますが、実行できない操作もいくつかあります。 ダッシュボードの背面でレポートを開く操作、サンプルを他のユーザーと共有する操作、またはサンプルをお気に入りに追加する操作はできません。
 
 1. 左上隅にあるグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) をタップします。
-2. **[設定]** アイコン ![[設定] アイコン](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) をタップし、名前をタップし、**[サンプルを表示]** をタップします。
+2. **[設定]** アイコン ![[設定] アイコン](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) をタップし、名前をタップし、 **[サンプルを表示]** をタップします。
    
    ![サンプルを表示する](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-view-samples.png)
 3. ロールを選択して、そのロールのサンプル ダッシュボードを探索します。  
@@ -65,7 +65,7 @@ Power BI ダッシュボードのサンプルを表示し、使ってみるこ�
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services のモバイル レポートのサンプル
 1. 左上隅にあるグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) をタップします。
-2. **[設定]** アイコン ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) をタップし、**[サーバーに接続]** を右クリックするかタップして保持した後、**[サンプルを表示]** をタップします。
+2. **[設定]** アイコン ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) をタップし、 **[サーバーに接続]** を右クリックするかタップして保持した後、 **[サンプルを表示]** をタップします。
    
    ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. Retail Reports または Sales Reports フォルダーを開き、その KPI やモバイル レポートを調べます。

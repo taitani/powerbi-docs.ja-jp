@@ -11,11 +11,11 @@ ms.date: 01/22/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: a4bdf9cdf56f9e7297973e1d1ce27ceb7c6447a7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56663048"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048102"
 ---
 <!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>利用者向けの Power BI
@@ -34,5 +34,5 @@ Power BI が初めての場合、「[Power BI とは?](../power-bi-overview.md)�
 [Power BI "*コンシューマー*" の用語と概念](end-user-basic-concepts.md)
 
 <!-- [Get started guide for *consumers*] -->
-[Power BI サービスを使い始める](../service-get-started.md)
+[Power BI サービスの使用を開始します。](../service-get-started.md)
 

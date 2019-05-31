@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661471"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61054922"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI サービスの **[最近]** のコンテンツ
 最近のコンテンツとは、Power BI サービスで最近表示した最大 20 個の項目です。  これには、すべてのワークスペースのダッシュボード、レポート、アプリ、およびブックが含まれます。
@@ -33,11 +33,11 @@ Amanda による Power BI サービスの **[最近]** コンテンツの一覧�
 
 ![最近のコンテンツ ポップアップ](./media/end-user-recent/power-bi-recent-flyout-new.png)
 
-最近アクセスしたアイテムが 5 つを超える場合、**[See all (すべて表示)]** を選択して [最近] 画面 (下記参照) を開きます。 左ナビゲーションから **[最近]** または [最近] ![[最近] アイコン](./media/end-user-recent/power-bi-recent-icon.png) アイコンを選ぶことでもきます。
+最近アクセスしたアイテムが 5 つを超える場合、 **[See all (すべて表示)]** を選択して [最近] 画面 (下記参照) を開きます。 左ナビゲーションから **[最近]** または [最近] ![[最近] アイコン](./media/end-user-recent/power-bi-recent-icon.png) アイコンを選ぶことでもきます。
 
 ![最近のコンテンツをすべて表示する](./media/end-user-recent/power-bi-recent-list.png)
 
-ここからは、[**[ダッシュボード]**](end-user-dashboards.md)、[**[レポート]**](end-user-reports.md)、**[ブック]** タブ、およびアプリ <!--[**Apps**](end-user-apps.md)--> 画面と同様にそれぞれコンテンツを扱うことができます。
+ここからと対話できますコンテンツのように、個人[**ダッシュ ボード**](end-user-dashboards.md)、 [**レポート**](end-user-reports.md)、および**ブック**タブ、およびアプリ <!--[**Apps**](end-user-apps.md)--> 画面。
 
 ## <a name="next-steps"></a>次の手順
 <!--[Power BI service Apps](end-user-apps.md)-->

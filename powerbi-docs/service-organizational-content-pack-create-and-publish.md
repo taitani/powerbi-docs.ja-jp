@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 3a434c418e8a385db921dd910f354bda04ad8edd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289327"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61228503"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Power BI の組織のコンテンツ パックを作成して発行する (チュートリアル)
 
@@ -31,10 +31,10 @@ ms.locfileid: "54289327"
 
 あなたは Contoso のリリース マネージャーで、新製品の発売の準備をしています。  レポートでダッシュボードを作成しており、それを発売を管理している他の従業員と共有したいと思います。 同僚が使用できるようにソリューションとしてダッシュボードとレポートをパッケージする手段が必要です。 
 
-どうしたらよいでしょうか? [Power BI サービス](https://powerbi.com)で、**[データの取得] > [サンプル] > [営業案件の分析のサンプル]** > **[接続]** に移動し、自分用のコピーを取得します。 
+どうしたらよいでしょうか? [Power BI サービス](https://powerbi.com)で、 **[データの取得] > [サンプル] > [営業案件の分析のサンプル]**  >  **[接続]** に移動し、自分用のコピーを取得します。 
 
 1. 左側のナビゲーション ウィンドウで、 **[営業案件の分析のサンプル]** ダッシュボードを選びます。
-2. 上部のナビゲーション バーで、歯車アイコン ![](media/service-organizational-content-pack-create-and-publish/cog.png) > **[コンテンツ パックの作成]** の順に選択します。    
+2. 上部のナビゲーション バーで、歯車アイコン ![](media/service-organizational-content-pack-create-and-publish/cog.png) >  **[コンテンツ パックの作成]** の順に選択します。    
    ![](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 3. **[コンテンツ パックの作成]** ウィンドウで、次の情報を入力します。  
    
@@ -77,7 +77,7 @@ ms.locfileid: "54289327"
 4. **[発行]** を選択し、グループの組織コンテンツ パック ライブラリにコンテンツ パックを追加します。  
    
    正常に発行されると、成功メッセージが表示されます。 
-5. グループのメンバーが、**[データの取得] > [組織]** の順に選択し、検索ボックスに「営業案件」と入力します。
+5. グループのメンバーが、 **[データの取得] > [組織]** の順に選択し、検索ボックスに「営業案件」と入力します。
    
    ![](media/service-organizational-content-pack-create-and-publish/cp_searchbox.png) 
 6. 作成したコンテンツ パックがメンバーに表示されます。  

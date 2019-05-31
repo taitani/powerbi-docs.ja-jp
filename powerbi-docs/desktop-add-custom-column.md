@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e2412fe72d62549277001b64121ecf9db2ea5502
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239546"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop でカスタム列を追加する
@@ -29,7 +29,7 @@ ms.locfileid: "65239546"
 
 ![](media/desktop-add-custom-column/add-column-from-example_02.png)
 
-**クエリ エディター**を起動してデータを読み込んだ後は、リボンで **[列の追加]** タブを選び、**[カスタム列]** を選ぶことによって、カスタム列を追加できます。
+**クエリ エディター**を起動してデータを読み込んだ後は、リボンで **[列の追加]** タブを選び、 **[カスタム列]** を選ぶことによって、カスタム列を追加できます。
 
 ![](media/desktop-add-custom-column/add-custom-column_02.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "65239546"
 ![](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>カスタムの列の式を作成する
-右側の **[使用できる列]** の一覧でフィールドを選び、**[<< 挿入]** を選んでカスタム列の式に追加します。 単に一覧の列をダブルクリックして追加することもできます。
+右側の **[使用できる列]** の一覧でフィールドを選び、 **[<< 挿入]** を選んでカスタム列の式に追加します。 単に一覧の列をダブルクリックして追加することもできます。
 
 式を入力して列を作成すると、ウィンドウの下部に、構文エラーがあるかどうかが (入力と同時に) リアルタイムで表示されます。 問題がなければ、緑色のチェックマークが表示されます。
 
@@ -51,14 +51,14 @@ ms.locfileid: "65239546"
 
 ![](media/desktop-add-custom-column/add-custom-column_05.png)
 
-**[OK]** を選ぶと、カスタム列がモデルに追加されて、**[追加されたカスタム]** がクエリの **[適用したステップ]** に追加されます。
+**[OK]** を選ぶと、カスタム列がモデルに追加されて、 **[追加されたカスタム]** がクエリの **[適用したステップ]** に追加されます。
 
 ![](media/desktop-add-custom-column/add-custom-column_06.png)
 
-**[適用したステップ]** ウィンドウで **[追加されたカスタム]** ステップをダブルクリックすると、**[カスタム列の追加]** ウィンドウが再び開きます。そのウィンドウでは作成したカスタム列が既に読み込まれており、必要に応じて変更できます。
+**[適用したステップ]** ウィンドウで **[追加されたカスタム]** ステップをダブルクリックすると、 **[カスタム列の追加]** ウィンドウが再び開きます。そのウィンドウでは作成したカスタム列が既に読み込まれており、必要に応じて変更できます。
 
 ## <a name="using-the-advanced-editor-for-custom-columns"></a>カスタム列用の詳細エディターの使用
-**詳細エディター**を使って、カスタム列を作成 (およびクエリのステップを変更) することもできます。 **クエリ エディター**で **[表示]** タブを選び、**[詳細エディター]** を選んで**詳細エディター**を表示します。
+**詳細エディター**を使って、カスタム列を作成 (およびクエリのステップを変更) することもできます。 **クエリ エディター**で **[表示]** タブを選び、 **[詳細エディター]** を選んで**詳細エディター**を表示します。
 
 ![](media/desktop-add-custom-column/add-custom-column_07.png)
 

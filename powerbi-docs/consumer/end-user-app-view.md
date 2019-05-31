@@ -11,11 +11,11 @@ ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: a0cf919d184946b23cb9ebc4ddfc24e0652c64d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661848"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61064119"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 これで[アプリの基礎を理解](end-user-apps.md)できたので、次はアプリを開いて操作する方法を学習しましょう。 
@@ -43,7 +43,7 @@ ms.locfileid: "56661848"
 ## <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource からアプリを取得する
 アプリを Microsoft AppSource から検索してインストールすることもできます。 アクセスできる (つまり、アプリの作成者があなたまたはすべてのユーザーにアクセス許可を与えた) アプリのみが表示されます。
 
-1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png) > **[アプリの取得]** の順に選択します。 
+1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png) >  **[アプリの取得]** の順に選択します。 
    
      ![[アプリの取得] アイコン](./media/end-user-app-view/power-bi-get-apps.png)
 2. [AppSource] の **[My organization (自分の組織)]** で、結果を絞り込むための検索を行って、探しているアプリを見つけることができます。

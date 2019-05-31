@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 605ef74cc97843cc475a677f5fa2ebdbdaec909a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263818"
+---
 ダッシュボードを作成する際、コンテンツの内容によってはキャンバスに入りきらないことがあります。 ダッシュボード領域の表示状態を管理するため、ダッシュボードのコンテンツをすべて表示するのに役立つ方法がいくつかあります。
 
 1 つの画面でダッシュボード全体を表示する最も簡単な方法は、ダッシュボードの右上隅にある **[全画面表示モード]** ボタンを選ぶことです。

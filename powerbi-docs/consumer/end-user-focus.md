@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: abc9671338e916671f243093bad455ed0cb4ef7e
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662045"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61062098"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>コンテンツを詳細に表示する: フォーカス モードと全画面表示モード
 
@@ -71,7 +71,7 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
   全画面表示モードでダッシュボードまたはレポート ページを印刷するには、このボタンを使用します。
 
   * ![[画面に合わせる] アイコン](media/end-user-focus/power-bi-fit-to-width.png)    
-    スクロールバーを利用せずにダッシュボードを最大サイズで表示するには、**[画面に合わせる]** ボタンを使用します。  
+    スクロールバーを利用せずにダッシュボードを最大サイズで表示するには、 **[画面に合わせる]** ボタンを使用します。  
 
     ![画面に合わせる](media/end-user-focus/power-bi-fit-screen.png)
 
@@ -82,7 +82,7 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
 
   * ![レポートのナビゲーション アイコン](media/end-user-focus/power-bi-report-nav2.png)       
     全画面表示レポートでは、矢印を利用してレポートのページ間を移動します。    
-  * 全画面表示モードを終了するには、**[全画面表示を閉じる]** アイコンを選択します。
+  * 全画面表示モードを終了するには、 **[全画面表示を閉じる]** アイコンを選択します。
 
       ![[全画面表示を閉じる] アイコン](media/end-user-focus/exit-fullscreen-new.png)
 
@@ -92,7 +92,7 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
 ### <a name="focus-mode-in-dashboards"></a>ダッシュボードでのフォーカス モード
 1. Power BI サービスでダッシュボードを開きます。
 
-2. ダッシュボードのタイルまたはレポートの視覚エフェクトをポイントし、省略記号 [...] を選択して、**[フォーカス モードで開く]** を選択します。
+2. ダッシュボードのタイルまたはレポートの視覚エフェクトをポイントし、省略記号 [...] を選択して、 **[フォーカス モードで開く]** を選択します。
 
     ![タイルの省略記号メニュー](media/end-user-focus/power-bi-dashboard-focus-mode.png).
 
@@ -106,7 +106,7 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
 
 4. [フィルターを変更](end-user-report-filter.md)し、データで興味深い発見を探すことにより、詳しく探索します。  
 
-5. フォーカス モードを閉じ、ダッシュボードに戻るには、**[フォーカス モードの終了]** (ビジュアルの左上隅) を選択します。
+5. フォーカス モードを閉じ、ダッシュボードに戻るには、 **[フォーカス モードの終了]** (ビジュアルの左上隅) を選択します。
 
     ![フォーカス モードの終了](media/end-user-focus/power-bi-tile-exit-focus.png)    
 
@@ -122,11 +122,11 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
 2. 視覚化が開き、キャンバス全体に拡張されます。
 
    ![フォーカス モードのビジュアル](media/end-user-focus/power-bi-display-focus-newer2.png)
-3. 必要に応じて、[フィルター] ウィンドウを展開し、このビジュアルに適用されているフィルターを操作します。 データを詳しく調べて、新しい分析情報や質問への回答を探します。 "*コンシューマー*" は、新しいフィルターの追加、視覚エフェクトで使用されているフィールドの変更、新しい視覚エフェクトの作成を行うことはできません。  ただし、既存のフィルターに対する変更は、Power BI を終了するときに保存されます。 Power BI に変更を保存したくない場合は、**[既定値にリセット]** を選択します。 ![[既定値にリセット] ボタン](media/end-user-focus/power-bi-resets.png)  
+3. 必要に応じて、[フィルター] ウィンドウを展開し、このビジュアルに適用されているフィルターを操作します。 データを詳しく調べて、新しい分析情報や質問への回答を探します。 "*コンシューマー*" は、新しいフィルターの追加、視覚エフェクトで使用されているフィールドの変更、新しい視覚エフェクトの作成を行うことはできません。  ただし、既存のフィルターに対する変更は、Power BI を終了するときに保存されます。 Power BI に変更を保存したくない場合は、 **[既定値にリセット]** を選択します。 ![[既定値にリセット] ボタン](media/end-user-focus/power-bi-resets.png)  
 
    ![[フィルター] 画面のフォーカス モード](media/end-user-focus/power-bi-display-focus-filters3.png)
 
-5. フォーカス モードを閉じ、レポートに戻るには、**[レポートに戻る]** (ビジュアルの左上隅) を選択します。
+5. フォーカス モードを閉じ、レポートに戻るには、 **[レポートに戻る]** (ビジュアルの左上隅) を選択します。
 
     ![フォーカス モードの終了](media/end-user-focus/power-bi-exit-focus-report.png)  
 

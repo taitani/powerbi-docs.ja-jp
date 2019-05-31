@@ -11,11 +11,11 @@ ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662022"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059859"
 ---
 # <a name="your-content-is-up-to-date"></a>コンテンツが最新の状態に維持される
 *コンシューマー*は、*デザイナー*が作成し、コンシューマーと共有したコンテンツを使用します。 そのコンテンツが最新の状態になっているか気になることがあるでしょう。あるいは、コンテンツの最終更新日が知りたくなることもあります。 最新のコンテンツを使用していることがわかれば、自信を持って作業できます。  
@@ -56,7 +56,7 @@ ms.locfileid: "56662022"
 ### <a name="dashboard-tiles"></a>データのプッシュ時の
 ダッシュボード タイルの場合、タイルをフォーカス モードで表示すると、最終更新日のタイムスタンプが表示されます。
 
-1. ダッシュボード タイルで省略記号 (...) を選択し、**[フォーカス モードで開く]** を選択します。
+1. ダッシュボード タイルで省略記号 (...) を選択し、 **[フォーカス モードで開く]** を選択します。
 
     ![省略記号を選択すると表示されるメニュー](media/end-user-fresh/power-bi-focus.png)
 

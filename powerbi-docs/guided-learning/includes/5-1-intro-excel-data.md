@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271380"
+---
 Power BI の**ガイド付き学習**コースの「**Power BI と Excel**」セクションへようこそ。
 
 皆さんはおそらく **Excel** の使用経験があると思います。 Excel を使用してレポートを作成、表示したり、円グラフや他のビジュアルを作成したこともあるでしょう。 また、**Power Pivot** や **Power Query** を使用して、さらに高度なソリューションを構築したことがあるかもしれません。 これらの経験があれば、Power BI やワークブックの操作にも問題ないでしょう。

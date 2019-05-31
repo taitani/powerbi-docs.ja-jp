@@ -5,11 +5,11 @@ ms.topic: include
 ms.date: 02/15/2019
 ms.author: mblythe
 ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56333995"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61194118"
 ---
 ## <a name="limitations"></a>制限事項
 
@@ -33,4 +33,4 @@ Power BI Desktop から既に発行されているレポートを発行しよう
 
 1. Anna は、エラーを受け取ります。
 
-**回避策:** この問題が解決されるまで、Power BI サービスから Power BI Desktop ファイルを再発行します。 これを行うには、**[データの取得]** > **[ファイル]** を選択します。
+**回避策:** この問題が解決されるまで、Power BI サービスから Power BI Desktop ファイルを再発行します。 これを行うには、 **[データの取得]**  >  **[ファイル]** を選択します。

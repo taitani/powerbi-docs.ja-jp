@@ -1,5 +1,13 @@
+---
+ms.openlocfilehash: b05b5b0b5212f39b9b47cb63e2fc8522fff2f8e3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61194070"
+---
 ## <a name="faq"></a>よく寄せられる質問
-**質問:** 以前に、Power BI サービスでデータセットのロールおよびルールを作成している場合はどうなりますか。 何もしなくても動作しますか。  
+**質問:** 場合、Power BI サービスで以前データセットのロールとルールを作成しました必要があるか。 何もしなくても動作しますか。  
 **回答:** いいえ。 ビジュアルは正しく表示されません。 Power BI Desktop 内でロールおよびルールを再作成し、Power BI サービスに発行する必要があります。
 
 **質問:** Analysis Services データ ソースにこれらのロールを作成できますか。  

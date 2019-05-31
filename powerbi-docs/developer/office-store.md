@@ -8,13 +8,13 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 2db993a9521b25db28973a5a987edfde4271c5cd
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.date: 3/27/2019
+ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695198"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269816"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>カスタム ビジュアルを AppSource に発行する
 
@@ -30,7 +30,7 @@ AppSource にカスタム ビジュアルを発行して、他のユーザーが
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>カスタム ビジュアルを送信する準備
 
-カスタム ビジュアルのコーディングと[テスト](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)が完了し、pbiviz ファイルにパッケージ化した後は、次のものも送信できる状態にする必要があります。
+完了したら読み取り、 [Power BI ビジュアルのガイドライン](guidelines-powerbi-visuals.md)、コーディングと[カスタム ビジュアルをテスト](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)パッケージ化した後、pbiviz ファイルにも必要次の準備完了の提出します。
 
 | 項目 | 必須 | 説明 |
 | --- | --- | --- |
@@ -51,7 +51,7 @@ AppSource にカスタム ビジュアルを発行して、他のユーザーが
 > [!IMPORTANT]
 > .pbiviz パッケージを作成する前に、pbiviz.json ファイルの "description"、"supportUrl"、"author"、"name"、"email" の各フィールドを入力する必要があります。
 
-メールには、**.pbiviz ファイル**と**サンプル レポートの .pbix ファイル**を添付します。 Power BI チームは、アップロードの説明とアプリ パッケージ XML ファイルを返信します。 Office デベロッパー センターを通じてビジュアルを送信するには、この XML アプリ パッケージが必要です。
+メールには、 **.pbiviz ファイル**と**サンプル レポートの .pbix ファイル**を添付します。 Power BI チームは、アップロードの説明とアプリ パッケージ XML ファイルを返信します。 Office デベロッパー センターを通じてビジュアルを送信するには、この XML アプリ パッケージが必要です。
 
 > [!NOTE]
 > 品質を高め、既存のレポートが壊れていないことを確認するため、既存のビジュアルの更新が運用環境に提供されるには、ストアでの承認後さらに 2 週間かかります。
@@ -74,7 +74,7 @@ Power BI チームからアプリ パッケージ XML を受け取った後は�
 
     ![アプリの追加](media/office-store/powerbi-custom-visual-add-an-app.png)
 
-2. **[Power BI カスタム ビジュアル]** を選び、**[次へ]** を選びます。
+2. **[Power BI カスタム ビジュアル]** を選び、 **[次へ]** を選びます。
 
 3. **[アプリ パッケージ]** の下の **[+]** を選び、[ファイルを開く] ダイアログ ボックスで、Power BI チームから提供されたアプリ パッケージ XML ファイルを選びます。
 
@@ -106,7 +106,7 @@ Power BI チームからアプリ パッケージ XML を受け取った後は�
 
        EULA ファイルをアップロードする必要があります。 独自の EULA を使うことも、Power BI カスタム ビジュアル向けの Office ストアで用意されている既定の EULA を使うこともできます。 既定の EULA を使うには、販売者ダッシュボードの "使用許諾契約書" ファイル アップロード ダイアログ ボックスに[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) の URL を貼り付けます。
 
-8. **[次へ]** を選び、**[詳細]** ページに進みます。
+8. **[次へ]** を選び、 **[詳細]** ページに進みます。
 
 9. **[言語]** を選び、一覧から言語を選びます。
 
@@ -120,13 +120,13 @@ Power BI チームからアプリ パッケージ XML を受け取った後は�
 
 11. 少なくとも 1 つのスクリーンショットをアップロードします。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 大きさはちょうど 1366 (幅) x 768 (高さ) ピクセルにする必要があります。 ファイルのサイズは 1024 KB 以下でなければなりません。 *使いやすくするには、各スクリーンショットの重要な機能の価値提案がはっきりわかる吹き出しを追加します。*
 
-12. 言語をさらに追加したい場合は、**[言語の追加]** を選び、手順 10 と 11 を繰り返します。 言語を追加すると、ユーザーは自分の言語でカスタム ビジュアルの詳細を読むことができます。 一覧に表示されない言語は、既定で最初に選んだ言語に設定されます。
+12. 言語をさらに追加したい場合は、 **[言語の追加]** を選び、手順 10 と 11 を繰り返します。 言語を追加すると、ユーザーは自分の言語でカスタム ビジュアルの詳細を読むことができます。 一覧に表示されない言語は、既定で最初に選んだ言語に設定されます。
 
-13. 言語の追加が済んだら、**[次へ]** を選んで、**[アクセス禁止]** ページに進みます。
+13. 言語の追加が済んだら、 **[次へ]** を選んで、 **[アクセス禁止]** ページに進みます。
 
 14. 特定の国または地域の顧客がアプリを使用または購入できないようにする場合は、チェック ボックスをオンにして一覧から選びます。
 
-15. **[次へ]** を選び、**[価格]** ページに進みます。
+15. **[次へ]** を選び、 **[価格]** ページに進みます。
 
 16. 現在は、"*無料*" のビジュアルのみがサポートされており、ビジュアルの内部での追加購入 (アプリ内購入) は許可されていません。 **[このアプリは無料です]** を選びます。
 

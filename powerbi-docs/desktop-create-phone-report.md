@@ -1,5 +1,5 @@
 ---
-title: モバイル アプリ向けに最適化されたレポートを作成する
+title: モバイル アプリ - Power BI のレポートを最適化します。
 description: 縦バージョンのレポートをスマートフォンとタブレット専用に作成して、Power BI モバイル アプリ用にレポート ページを最適化する方法について説明します。
 author: maggiesMSFT
 manager: kfile
@@ -7,30 +7,34 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174593"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61310787"
 ---
-# <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Power BI モバイル アプリ向けに最適化されたレポートを作成する
-スマートフォンまたはタブレット上のモバイル アプリでのレポートの表示に関するエクスペリエンスを向上させることができます。 スマートフォンとタブレット専用に、レポートの縦レイアウトを作成します。 Power BI Desktop および Power BI サービスで、縦レイアウトのビジュアルを再配置およびサイズ変更することで、最適なエクスペリエンスにレポートを適応させます。 これらのすべてを含める必要はありません。 さらに、電話上で適切にサイズ変更されて表示される[*レスポンシブ* ビジュアル](#optimize-a-visual-for-any-size)と[レスポンシブ スライサー](#enhance-slicers-to-work-well-in-phone-reports)を作成することもできます。 また、レポートにフィルターを追加した場合、これらのフィルターは最適化されたレポートに自動的に表示されます。 レポートの読者は、それを使ってレポートをフィルター処理することができます。
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを最適化します。
+縦のレイアウトを作成して、モバイル アプリでレポートを表示するためのエクスペリエンスを向上できます。 Power BI Desktop と Power BI サービスでは、再配置し、最適なエクスペリエンスを縦向きモードのレポートのビジュアルのサイズを変更します。  
+
+代わりに、モバイル デバイスでレポートを表示する方法についての情報を探しですか。 このクイック スタートをお試しください[ダッシュ ボードと Power BI モバイル アプリでレポートを探索](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)します。
 
 ![電話に対して最適化されたレポート](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
+
+作成することができますと[*応答性の高い*ビジュアル](#optimize-a-visual-for-any-size)と[レスポンシブ スライサー](#enhance-slicers-to-work-well-in-phone-reports)任意の場所でもサイズを変更します。 レポートにフィルターを追加する場合、自動的に表示最適化されたレポート。
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>縦バージョンのレポート ページをレイアウトする
 
 レポートを作成したら、スマートフォンとタブレット用にそれを最適化できます。
 
-1. Power BI Desktop のレポート ビューにある **[表示]** タブで、**[電話レイアウト]** を選択します。  
+1. Power BI Desktop のレポート ビューにある **[表示]** タブで、 **[電話レイアウト]** を選択します。  
    
     ![[電話レイアウト] アイコン](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
-    Power BI サービスで、**[レポートの編集]** > **[モバイル レイアウト]** を選択します。
+    Power BI サービスで、 **[レポートの編集]**  >  **[モバイル レイアウト]** を選択します。
 
     スマートフォンのような形の空白のキャンバスが表示されます。 元のレポート ページのすべてのビジュアルが、右側の [視覚化] ウィンドウに表示されます。
 
@@ -40,7 +44,7 @@ ms.locfileid: "58174593"
    
     ![ビジュアルのドラッグ アンド ドロップ](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
-    マスター レポート ページの一部またはすべてのビジュアルを電話レポート ページに追加できます。 各ビジュアルは 1 回だけ追加することができます。
+    マスター レポート ページの一部またはすべてのビジュアルを電話レポート ページに追加できます。 各ビジュアルは 1 回だけ追加することができます。 すべてのビジュアルを含める必要はありません。
 
 4. ダッシュボードやモバイル ダッシュボード上のタイルの場合と同様に、グリッド上のビジュアルのサイズを変更できます。
    

@@ -12,11 +12,11 @@ ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
 ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280725"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61191064"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI ワークスペースでデータ ストレージを管理する
 
@@ -64,10 +64,10 @@ Power BI アカウントで使用しているデータ記憶域を確認して�
 データセットが、自分や他のユーザーが作成したレポートやダッシュボードの基になっている可能性があることにご注意ください。 そのデータセットを削除してしまうと、これらのレポートやダッシュボードは機能しなくなります。
 
 ## <a name="manage-your-app-workspace"></a>アプリ ワークスペースの管理
-1. **[ワークスペース]**\> の横にある矢印をクリックし、アプリ ワークスペースの名前を選択します。
+1. **[ワークスペース]** \> の横にある矢印をクリックし、アプリ ワークスペースの名前を選択します。
    
     ![アプリ ワークスペースを選択する](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)\>**[グループ ストレージの管理]** の順にクリックします。
+2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)\> **[グループ ストレージの管理]** の順にクリックします。
    
     上部のバーに、グループの記憶域の上限のうちの使用量が表示されます。
    
@@ -96,7 +96,7 @@ Power BI にインポートされるデータセットごとに 1 GB の制限�
 
 ![記憶域の上限に達しました](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
-この上限は、**[パーソナル ストレージの管理]** 内でも表示されます。
+この上限は、 **[パーソナル ストレージの管理]** 内でも表示されます。
 
  ![パーソナル ストレージの管理、記憶域の上限に達しました](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 

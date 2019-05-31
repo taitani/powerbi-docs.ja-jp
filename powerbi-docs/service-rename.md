@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 905ef263084cf531e6b38fb4640286e4d78697ce
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275628"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273769"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI サービスのほとんどすべてのものの名前を変更する
 この記事では、Power BI サービスのダッシュボード、レポート、レポートのページ、ブック、データセット、アプリ、ワークスペースの名前を変更する方法について説明します。
@@ -34,7 +34,7 @@ ms.locfileid: "54275628"
 | **[自分と共有]** のコンテンツ |いいえ |いいえ |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>ダッシュボード、レポート、ブックの名前を変更する
-1. ワークスペースで **[ダッシュボード]**、**[レポート]**、または **[ブック]** タブを選びます。名前を変更するアイテムをポイントし、歯車アイコン ![歯車アイコン](media/service-rename/powerbi-cog-icon.png) を選びます。 歯車アイコンが表示されない場合は、名前を変更するアクセス許可がありません。
+1. ワークスペースで **[ダッシュボード]** 、 **[レポート]** 、または **[ブック]** タブを選びます。名前を変更するアイテムをポイントし、歯車アイコン ![歯車アイコン](media/service-rename/powerbi-cog-icon.png) を選びます。 歯車アイコンが表示されない場合は、名前を変更するアクセス許可がありません。
    
    ![Power BI サービス ワークスペース](media/service-rename/power-bi-workspace-dashboards.png)
 2. [設定] ページで、新しい名前を入力して **[保存]** を選びます。
@@ -45,7 +45,7 @@ ms.locfileid: "54275628"
 1. ワークスペースで **[データセット]** タブを選びます。
    
    ![ワークスペースの [データセット] タブ](media/service-rename/power-bi-ellipses.png)
-2. 名前を変更するアイテムをポイントし、省略記号 [...] を選んで、**[名前の変更]** を選びます。  
+2. 名前を変更するアイテムをポイントし、省略記号 [...] を選んで、 **[名前の変更]** を選びます。  
    
       ![[名前の変更] の選択](media/service-rename/power-bi-rename-datasets.png)
    
@@ -61,10 +61,10 @@ ms.locfileid: "54275628"
 管理者アクセス許可を持つユーザーはアプリ ワークスペースの名前を変更できます。
 
 1. 名前を変更するワークスペースに移動します。
-2. 右上隅の省略記号 [...] を選び、**[ワークスペースの編集]** を選びます。 このオプションが表示されない場合は、このワークスペースの名前を変更するアクセス許可がありません。 
+2. 右上隅の省略記号 [...] を選び、 **[ワークスペースの編集]** を選びます。 このオプションが表示されない場合は、このワークスペースの名前を変更するアクセス許可がありません。 
    
     ![[ワークスペースの編集] の選択](media/service-rename/power-bi-edit-workspace.png)
-3. 新しいワークスペース名を入力し、**[保存]** を選びます。
+3. 新しいワークスペース名を入力し、 **[保存]** を選びます。
    
    ![[ワークスペースの編集] ウィンドウ](media/service-rename/power-bi-workspace-rename.png)
 

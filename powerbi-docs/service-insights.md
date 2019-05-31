@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9e1c4a3942c75f41dc105e424685d32badbf3866
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276424"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61238459"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI を使用してデータ インサイトを自動的に生成する
 新しいデータセットがあるが、どこから始めたらよいかわからない場合。  ダッシュボードをすばやく構築する必要がある場合。  不足している情報を探したい場合。
@@ -38,7 +38,7 @@ Amanda がクイック インサイトをデータセットに対して実行し
 
 次はあなたの番です。 [サプライヤー クオリティ分析サンプル](sample-supplier-quality.md)を使用してインサイトを試してみます。
 
-1. **[データセット]** タブから省略記号 [...] を選び、**[詳細情報の取得]** を選びます。
+1. **[データセット]** タブから省略記号 [...] を選び、 **[詳細情報の取得]** を選びます。
    
     ![データセット タブ](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +62,7 @@ Amanda がクイック インサイトをデータセットに対して実行し
   ![ピン留めアイコン](media/service-insights/pbi_hover.png)
 
 1. ダッシュボードに視覚化を追加するには、カードの上にポインターを移動してピン アイコンを選択します。
-2. カードをポイントし、省略記号 (...) を選択し、**[詳細情報の表示]** を選択します。 詳細情報が全画面表示で開きます。
+2. カードをポイントし、省略記号 (...) を選択し、 **[詳細情報の表示]** を選択します。 詳細情報が全画面表示で開きます。
    
     ![詳細情報の全画面表示](media/service-insights/power-bi-insight-focus.png)
 3. フォーカス モードでは次のことができます。
@@ -83,7 +83,7 @@ Amanda がクイック インサイトをデータセットに対して実行し
 データセット全体から情報を検索する代わりに、単一のダッシュボード タイルの作成に使用するデータに検索対象を絞り込みます。 これも**範囲指定インサイト**と呼ばれることがよくあります。
 
 1. ダッシュボードを開きます。
-2. タイルの上にマウスを置きます。 省略記号 [...] を選び、**[詳細情報の表示]** を選びます。 タイルが[フォーカス モード](service-focus-mode.md)で開き、インサイト カードが右側に表示されます。    
+2. タイルの上にマウスを置きます。 省略記号 [...] を選び、 **[詳細情報の表示]** を選びます。 タイルが[フォーカス モード](service-focus-mode.md)で開き、インサイト カードが右側に表示されます。    
    
     ![フォーカス モード](media/service-insights/pbi-insights-tile.png)    
 4. 興味をそそる情報がありましたか? 詳細に確認するには、その分析情報カードを選択します。 選択した分析情報が左側に表示され、右側には、その単一の分析情報に含まれるデータのみに基づく新しい分析情報カードが表示されます。    

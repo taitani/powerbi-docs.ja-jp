@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239595"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop での集計 (プレビュー)
@@ -39,7 +39,7 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 
 ## <a name="enabling-the-aggregations-preview-feature"></a>集計のプレビュー機能を有効にする
 
-**集計**機能はプレビュー段階であり、**Power BI Desktop** で有効にする必要があります。 **集計**を有効にするには、**[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能]** の順に選択し、**[複合モデル]** と **[集計の管理]** のチェックボックスをオンにします。 
+**集計**機能はプレビュー段階であり、**Power BI Desktop** で有効にする必要があります。 **集計**を有効にするには、 **[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能]** の順に選択し、 **[複合モデル]** と **[集計の管理]** のチェックボックスをオンにします。 
 
 ![プレビュー機能を有効にする](media/desktop-aggregations/aggregations_01.jpg)
 
@@ -107,7 +107,7 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 **Sales Agg** テーブルは非表示です。 集計テーブルは、データセットのコンシューマーからは常に非表示にする必要があります。 コンシューマーとクエリは、集計テーブルではなく、詳細テーブルを参照するため、集計テーブルの存在を知る必要はありません。
 
 ### <a name="manage-aggregations-dialog"></a>[集計の管理] ダイアログ
-次に、集計を定義します。 **Sales Agg** テーブルを右クリックして、**[集計の管理]** コンテキスト メニューを選択します。
+次に、集計を定義します。 **Sales Agg** テーブルを右クリックして、 **[集計の管理]** コンテキスト メニューを選択します。
 
 ![[集計の管理] メニューの選択](media/desktop-aggregations/aggregations_06.jpg)
 
@@ -203,7 +203,7 @@ Hadoop ベースのビッグ データ モデルには、ディメンション �
 
 ![Driver Activity Agg テーブル](media/desktop-aggregations/aggregations_10.jpg)
 
-次に、**[集計の管理]** ダイアログで、集計マッピングを定義します。 このダイアログには、**Driver Activity Agg** テーブル内の各列の 1 行が表示され、ここで集計動作を指定できます。
+次に、 **[集計の管理]** ダイアログで、集計マッピングを定義します。 このダイアログには、**Driver Activity Agg** テーブル内の各列の 1 行が表示され、ここで集計動作を指定できます。
 
 ![Driver Activity Agg テーブルの [集計の管理] ダイアログ](media/desktop-aggregations/aggregations_11.jpg)
 
@@ -241,7 +241,7 @@ Hadoop ベースのビッグ データ モデルには、ディメンション �
 
 **Driver Activity Agg2** の **[集計の管理]** ダイアログの *[優先順位]* フィールドには、**Driver Activity Agg** よりも高い 10 が示されています。これは、集計を使用するクエリで最初に考慮されることを意味します。 **Driver Activity Agg2** で対応できる粒度ではないサブクエリでは、代わりに **Driver Activity Agg** が考慮されます。 いずれの集計テーブルでも対応できない詳細クエリは、**Driver Activity** に向けられます。
 
-チェーン集計が許可されていないため (この記事で前述した「[検証](#validations)」を参照)、**[詳細テーブル]** 列には、**Driver Activity Agg** ではなく **Driver Activity** テーブルが指定されています。
+チェーン集計が許可されていないため (この記事で前述した「[検証](#validations)」を参照)、 **[詳細テーブル]** 列には、**Driver Activity Agg** ではなく **Driver Activity** テーブルが指定されています。
 
 ![[集計の管理] ダイアログ](media/desktop-aggregations/aggregations_14.jpg)
 

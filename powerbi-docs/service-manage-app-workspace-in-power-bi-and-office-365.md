@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dda23e6b41613e76d5507d272e792f9f9130f982
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d900d8622f086ef28f39ee050e9e9f1639dfd53d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282243"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231578"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI と Office 365 でアプリ ワークスペースを管理する
 Office 365 または [Power BI でのアプリ ワークスペース](service-create-distribute-apps.md)の作成者または管理者として、Power BI でワークスペースの一部の側面を管理します。 その他の側面は、Office 365 で管理します。 
@@ -36,15 +36,15 @@ Office 365 または [Power BI でのアプリ ワークスペース](service-cr
 * グループの電子メール アドレスを参照します。
 * グループを削除します。
 
-アプリ ワークスペースの管理者またはメンバーになるには、[Power BI Pro](service-features-license-type.md) ライセンスが必要です。 アプリ ワークスペースが Power BI Premium 容量にない場合は、アプリ ユーザーにも Power BI Pro ライセンスが必要です。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
+アプリ ワークスペースの管理者またはメンバーになるには、[Power BI Pro](service-features-license-type.md) ライセンスが必要です。 アプリ ワークスペースが Power BI Premium 容量にない場合は、アプリ ユーザーにも Power BI Pro ライセンスが必要です。 詳しくは、[Power BI Premium](service-premium-what-is.md) に関するページをご覧ください。
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Power BI でアプリ ワークスペースを編集する
-1. Power BI サービスで、**[ワークスペース]** の横にある矢印を選択し、目的のワークスペース名の横にある省略記号 (**…**) を選択して、**[ワークスペースの編集]** を選択します。 
+1. Power BI サービスで、 **[ワークスペース]** の横にある矢印を選択し、目的のワークスペース名の横にある省略記号 ( **…** ) を選択して、 **[ワークスペースの編集]** を選択します。 
    
    ![Power BI でのワークスペースの編集](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    > [!NOTE]
-   > アプリ ワークスペース管理者の場合は、**[Edit workspace (ワークスペースの編集)]** のみが表示されます。
+   > アプリ ワークスペース管理者の場合は、 **[Edit workspace (ワークスペースの編集)]** のみが表示されます。
    > 
    > 
 2. ここでは、メンバーの名前を変更したり、メンバーを追加または削除したり、アプリ ワークスペースを削除したりできます。 
@@ -53,14 +53,14 @@ Office 365 または [Power BI でのアプリ ワークスペース](service-cr
 3. **[保存]** または **[キャンセル]** を選びます。
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Office 365 で Power BI アプリ ワークスペースのプロパティを編集する
-1. Power BI サービスで、**[ワークスペース]** の横にある矢印を選択し、目的のワークスペース名の横にある省略記号 (**…**) を選択して、**[メンバー]** を選択します。 
+1. Power BI サービスで、 **[ワークスペース]** の横にある矢印を選択し、目的のワークスペース名の横にある省略記号 ( **…** ) を選択して、 **[メンバー]** を選択します。 
    
    ![Power BI でのワークスペースの編集](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    サインインすると、アプリ ワークスペースの Outlook for Office 365 グループ ビューが開きます。
    
    会社のアカウントにサインインする必要があります。
-2. メンバーの名前の横にある省略記号 (**[...]**) をタップして、メンバーを管理者にしたり、メンバーをアプリ ワークスペースから削除したりできます。 
+2. メンバーの名前の横にある省略記号 ( **[...]** ) をタップして、メンバーを管理者にしたり、メンバーをアプリ ワークスペースから削除したりできます。 
    
    ![Office 365 でのグループの編集](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 

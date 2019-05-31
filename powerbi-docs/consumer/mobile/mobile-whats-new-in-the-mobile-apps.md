@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872733"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991056"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,17 @@ ms.locfileid: "58872733"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="april-2019"></a>4 月 2019
+
+### <a name="key-influencers-visual"></a>主要な影響元 visual 
+主要な影響元ビジュアルは、モバイル アプリで公開されています。 このビジュアルでは、わずか 2 回のタップで、データに対する主な推進要因の分析を実行できます。
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>レポートのコンテンツ (Android および iOS) にコメントを追加します。
+現在のレポート ページとビジュアルに関するフィードバックを共有する場とコメントを使用できます。 詳細については、レポートを Power BI サービスとモバイルでのコメント[このブログで](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)します。 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>全画面表示モード (Android および iOS) で最大にします。
+レポートのヘッダーとフッターを削除して、レポートを表示するための最大領域を提供して、データに集中するタイミングを制御できる新しいボタンが追加されました。
 
 ## <a name="march-2019"></a>2019 年 3 月
 
@@ -31,7 +42,20 @@ ms.locfileid: "58872733"
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>スライド ショーでの Windows プレゼンテーション モードの強化 (Windows)
 
-[スライド ショー](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)では、オフィスにあるパブリック表示を使用して、レポート ページ間で自動的にローテーションする Power BI レポートを全画面で実行することができます。  
+[スライド ショー](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)レポートのページ間が自動的に全画面で Power BI レポートを回転実行、オフィスにあるパブリックの表示を使用することができます。  
+
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>ADFS と WAP の構成 (iOS のみ) で PBI RS レポートのサポート
+
+Power BI レポート (PBIX) が ADFS 構成上の PBI RS でホストされているは、Power BI iOS アプリから今すぐアクセスできます。
+
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>1 回のタップのやり取り、レポートのビジュアルを有効にします。
+
+1 つだけのビジュアルでタップ、ボタン、またはそのデータの対話をすぐにスライサーが必要であるためにレポートの相互作用を変更しました。 ユーザーが不要になったビジュアルを選択し、タップして、操作をもう一度タップする必要があります、両方とも 1 回のタップはしないでください。
+
+![シングル タップ操作](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+
+> [!NOTE]
+> 既存のユーザーは、アプリ設定では、この動作を有効にする必要があります。 詳細については、次を参照してください。、 [1 回のタップ レポート対話機能を構成する方法](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)記事。
 
 ## <a name="january---february-2019"></a>2019 年 1 月 - 2 月
  
@@ -208,11 +232,11 @@ iPad アプリの Power BI レポートに更新ボタンが追加されまし�
 
 #### <a name="report-favorites"></a>レポートのお気に入り
 
-レポートにお気に入りのタグを付け、**[お気に入り]** ページに表示します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
+レポートにお気に入りのタグを付け、 **[お気に入り]** ページに表示します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 
 #### <a name="view-shared-reports"></a>共有レポートを表示する
 
-誰かとレポートを共有すると、ダッシュボードの他に、**[共有アイテム]** ページにレポートが一覧表示されます。
+誰かとレポートを共有すると、ダッシュボードの他に、 **[共有アイテム]** ページにレポートが一覧表示されます。
 
 #### <a name="improved-hyperlink-support"></a>ハイパーリンク サポートの改善
 

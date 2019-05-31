@@ -10,11 +10,11 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: b8887ba39d3c6d3123d3308eddba2994fbfe6485
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286963"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61296037"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>モバイル アプリ向けの Power BI Desktop で地理的フィルターを設定する
 Power BI Desktop で列の[地理的データを分類](desktop-data-categorization.md)し、Power BI Desktop がレポートの表示での値の処理方法を認識できるようにすることができます。 追加された特典として、お客様や仕事仲間が Power BI モバイル アプリでそのレポートを表示すると、Power BI では現在地に一致する地理的フィルターが自動的に適用されます。 
@@ -31,7 +31,7 @@ Power BI Desktop で列の[地理的データを分類](desktop-data-categorizat
 2. 地理的データを含む列を選択します ([市区町村] 列など)。
    
     ![[市区町村] 列](media/desktop-mobile-geofiltering/power-bi-desktop-geo-column.png)
-3. **[モデリング]** タブで **[データ カテゴリ]** を選択し、適切なカテゴリ (この例では **[市区町村]**) を選択します。
+3. **[モデリング]** タブで **[データ カテゴリ]** を選択し、適切なカテゴリ (この例では **[市区町村]** ) を選択します。
    
     ![[データ カテゴリ] ボックス](media/desktop-mobile-geofiltering/power-bi-desktop-geo-category.png)
 4. モデルの他のフィールドの地理的データ カテゴリの設定を続けます。 

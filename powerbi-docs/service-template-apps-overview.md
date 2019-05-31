@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 445f5f087bd9589b18f798e8db40a63b0ddceafe
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249992"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578529"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>Power BI テンプレート アプリとは (プレビュー)
 
@@ -24,10 +24,10 @@ ms.locfileid: "56249992"
 
 作成したテンプレート アプリに、顧客は自分のアカウントで接続してインスタンス化できます。 ドメインの専門家として、ビジネス ユーザーが簡単に利用できる方法でデータのロックを解除できます。  
 
-パートナー構築テンプレート アプリを Cloud パートナー ポータルに送信します。 アプリは、Power BI App ギャラリー (app.powerbi.com/getdata/services) および Microsoft AppSource (appsource.microsoft.com) でパブリックに利用可能になります。 ここではパブリック テンプレート アプリのエクスペリエンスの例を示します。  
+クラウド パートナー ポータルをテンプレートのアプリを送信するとします。 アプリは、Power BI App ギャラリー (app.powerbi.com/getdata/services) および Microsoft AppSource (appsource.microsoft.com) でパブリックに利用可能になります。 パブリック テンプレート アプリの作成エクスペリエンスの概要を次に示します。  
 
-## <a name="overview"></a>概要
-テンプレート アプリを開発して送信する一般的なプロセスには複数のステージが含まれ、その一部には同時に複数のアクティビティが含まれることがあります。
+## <a name="process"></a>プロセス
+一般的なプロセス開発し、テンプレートのアプリを送信するにはには、いくつかの段階が含まれます。 いくつかの段階では、同時に複数のアクティビティを含めることができます。
 
 
 | ステージ | Power BI Desktop |  |Power BI サービス  |  |Cloud パートナー ポータル  |

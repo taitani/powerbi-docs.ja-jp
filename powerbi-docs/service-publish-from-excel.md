@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: bb9ff3ae6b08111156616a84ee795131c708f42c
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514791"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Excel 2016 から Power BI へ発行する
@@ -29,7 +29,7 @@ Excel 2016 では、Excel ブックのデータに基づいて対話性の高い
 * Power BI に発行するには、先進認証が有効 (既定値) になっている必要があります。 無効になっている場合、[ファイル] メニューの [発行] オプションは使用できません。
 
 ## <a name="to-publish-your-excel-workbook"></a>Excel ブックを公開するには
-Excel で、**[ファイル]** > **[発行]** の順に選択します。
+Excel で、 **[ファイル]**  >  **[発行]** の順に選択します。
 
 ### <a name="local-file-publishing"></a>ローカル ファイルの発行
 2017 年 2 月の更新以降、Excel 2016 で Excel のローカル ファイルを発行できるようになりました。 OneDrive for Business や SharePoint Online に保存する必要はありません。
@@ -61,7 +61,7 @@ OneDrive にブックが保存されている状態で **[発行]** を選択す
 #### <a name="upload-your-workbook-to-power-bi"></a>Upload your workbook to Power BI (ブックを Power BI にアップロードする)
 このオプションを選択すると、ブックは、Excel Online を使用しているときと同じように Power BI に表示されます。 ただし、Excel Online とは異なり、ワークシートの要素をダッシュボードにピン留めするのに役立ついくつかの優れた機能を利用できます。
 
-Power BI で開いているブックを編集することはできません。ただし、変更を加える必要がある場合は、**[編集]** を選択して、Excel Online でブックを編集するか、自分のコンピューターの Excel で開くかを選択できます。 ブックに加えたすべての変更は、OneDrive 上のブックに保存されます。
+Power BI で開いているブックを編集することはできません。ただし、変更を加える必要がある場合は、 **[編集]** を選択して、Excel Online でブックを編集するか、自分のコンピューターの Excel で開くかを選択できます。 ブックに加えたすべての変更は、OneDrive 上のブックに保存されます。
 
 ブックをアップロードするとき、Power BI にデータセットは作成されません。 ブックは、ワークスペース ナビゲーション ウィンドウの [レポート] に表示されます。 Power BI にアップロードされたブックは、アップロード済みの Excel ブックであることを示す特殊な Excel アイコンで表示されます。
 

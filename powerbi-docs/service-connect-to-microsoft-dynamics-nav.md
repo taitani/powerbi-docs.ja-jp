@@ -11,11 +11,11 @@ ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6d8471833dac99aa3c54b40f5839e65edfaa03de
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008973"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61164639"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Power BI で Microsoft Dynamics NAV に接続する
 Power BI を使用すると、Microsoft Dynamics NAV データから洞察を得ることができます。 Power BI は、売上と財務の両方のデータを取得し、そのデータに基づいてダッシュボードとレポートを含むアプリを作成します。 Power BI を使うには、データの取得元のテーブル (この例では、売上と財務のデータ) に対するアクセス許可が必要です。 要件の詳細については、このあと説明します。 アプリをインストールすると、Power BI サービス ([https://powerbi.com](https://powerbi.com)) と Power BI モバイル アプリでダッシュボードとレポートを表示できます。 
@@ -25,7 +25,7 @@ Power BI を使用すると、Microsoft Dynamics NAV データから洞察を得
 ## <a name="how-to-connect"></a>接続する方法
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-3. **[Microsoft Dynamics NAV]** を選択し、**[取得]** を選択します。  
+3. **[Microsoft Dynamics NAV]** を選択し、 **[取得]** を選択します。  
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. メッセージが表示されたら、Microsoft Dynamics NAV の OData URL を入力します。 URL は、次のパターンに一致する必要があります。
    

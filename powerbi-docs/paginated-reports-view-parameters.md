@@ -1,20 +1,20 @@
 ---
 title: Power BI サービスでページ分割されたレポートのパラメーターを表示する (プレビュー)
 description: この記事では、Power BI サービスでページ分割されたレポートのパラメーターを操作する方法を学びます。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 268070c7eaf3675e034f5d609adc45045e0b3aab
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: ea186b5fa3bbbe7968c386604066f91b90ec5821
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324417"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61422231"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI サービスでページ分割されたレポートのパラメーターを表示する (プレビュー)
 
@@ -32,7 +32,7 @@ ms.locfileid: "56324417"
   
 3.  **Location パラメーター**: Location パラメーターは、1 つ、複数、または全部の値を選択できるように設定されています。 
   
-4.  **[レポートの表示]**: パラメーターの値を入力または変更した後、**[レポートの表示]** をクリックしてレポートを実行します。 
+4.  **[レポートの表示]** : パラメーターの値を入力または変更した後、 **[レポートの表示]** をクリックしてレポートを実行します。 
 
 5. **既定値**: すべてのパラメーターに既定値がある場合、レポートは最初に表示した時点で自動的に実行されます。 このレポートでは一部のパラメーターに既定値がないため、値を選択するまでレポートは表示されません。  
 

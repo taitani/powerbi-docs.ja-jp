@@ -1,21 +1,21 @@
 ---
 title: ご自身の組織向けのアプリケーションに Power BI コンテンツを埋め込むための埋め込み分析
 description: Power BI API を使って、アプリケーションにご自身の組織向けの分析情報用のレポート、ダッシュボード、タイルを統合する (埋め込む) 方法について説明します。 埋め込み分析ソフトウェア、埋め込み分析ツール、または埋め込みビジネス インテリジェンス ツールを使って、ご自身のアプリケーションに Power BI を統合する方法について説明します。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 03/12/2019
-ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757463"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61355524"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -114,19 +114,19 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
 
 1. [Azure Portal ](https://portal.azure.com)にサインインします。
 
-2. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選択します。
-
-    ![アプリの登録の検索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+2. 左側のナビゲーション ウィンドウで、 **[すべてのサービス]** 、 **[アプリの登録]** の順に選択します。
 
 3. **applicationId** を必要とするアプリケーションを選択します。
 
-    ![アプリの選択](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+    ![アプリの選択](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
 4. **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **applicationId** として使用します。
 
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
 ### <a name="application-secret"></a>アプリケーション シークレット
+
+この属性は、AuthenticationType が[サービス プリンシパル](embed-service-principal.md)の場合にのみ必要です。
 
 **ApplicationSecret** は、**Azure** の **[アプリの登録]** セクションの **[キー]** セクションから設定します。  この属性は[サービス プリンシパル](embed-service-principal.md)の使用時に動作します。
 
@@ -134,25 +134,19 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
 
 1. [Azure portal](https://portal.azure.com) にサインインします。
 
-2. 左側のナビゲーション ウィンドウで、**[すべてのサービス]**、**[アプリの登録]** の順に選択します。
-
-    ![アプリの登録の検索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+2. 左側のナビゲーション ウィンドウで、 **[すべてのサービス]** 、 **[アプリの登録]** の順に選択します。
 
 3. **ApplicationSecret** を使用する必要があるアプリケーションを選択します。
 
-    ![アプリを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![アプリを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. **[設定]** を選択します。
+4. 選択**証明書やシークレット** **管理**します。
 
-    ![[設定] を選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+5. 選択**新しいクライアント シークレット**します。
 
-5. **[キー]** を選択します。
+6. **[説明]** ボックスに名前を入力し、期間を選択します。 次に、 **[保存]** を選択して、アプリケーションの**値**を取得します。 キーの値を保存した後で **[キー]** ウィンドウを閉じると、値フィールドは非表示としてのみ表示されます。 その時点では、キー値を取得することはできません。 キー値をなくした場合は、Azure portal で新しいものを作成します。
 
-    ![[キー] を選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
-
-6. **[説明]** ボックスに名前を入力し、期間を選択します。 次に、**[保存]** を選択して、アプリケーションの**値**を取得します。 キーの値を保存した後で **[キー]** ウィンドウを閉じると、値フィールドは非表示としてのみ表示されます。 その時点では、キー値を取得することはできません。 キー値をなくした場合は、Azure portal で新しいものを作成します。
-
-    ![キー値](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![キー値](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
 
 ### <a name="workspace-id"></a>ワークスペース ID
 
@@ -200,7 +194,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
     ![アプリケーションの実行](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. 次に、**[Embed Report]** を選びます。 テスト対象に選んだコンテンツ (レポート、ダッシュボード、タイル) に応じて、アプリケーションでそのオプションを選びます。
+2. 次に、 **[Embed Report]** を選びます。 テスト対象に選んだコンテンツ (レポート、ダッシュボード、タイル) に応じて、アプリケーションでそのオプションを選びます。
 
     ![コンテンツを選択する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
@@ -226,7 +220,7 @@ Power BI レポートを取得するには、[レポートの取得](https://doc
 
 [レポートを取得する](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作により、レポートの一覧が返されます。 レポートの一覧から 1 つのレポートを取得できます。
 
-REST API 呼び出しを行うには、*Authorization* ヘッダーを "*ベアラー {アクセス トークン}*" の形式で含める必要があります。
+REST API 呼び出しを行うには、*Authorization* ヘッダーを "*ベアラー {アクセス トークン}* " の形式で含める必要があります。
 
 #### <a name="get-reports-with-the-rest-api"></a>REST API でレポートを取得する
 
@@ -400,7 +394,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
 
-専用の容量を作成することで、アプリ ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 [Power BI Premium](../service-premium.md) を使用して、専用の容量を作成できます。
+専用の容量を作成することで、アプリ ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 [Power BI Premium](../service-premium-what-is.md) を使用して、専用の容量を作成できます。
 
 次の表は、[Microsoft Office 365](../service-admin-premium-purchase.md) で利用可能な Power BI Premium SKU の一覧です。
 
@@ -423,11 +417,11 @@ function updateEmbedReport() {
 
 専用の容量を作成した後、アプリ ワークスペースをその専用の容量に割り当てることができます。 このプロセスを完了するには、次の手順に従います。
 
-1. Power BI サービス内でワークスペースを展開し、コンテンツを埋め込むために使用しているワークスペースの省略記号を選択します。 次に、**[Edit workspaces]\(ワークスペースの編集\)** を選択します。
+1. Power BI サービス内でワークスペースを展開し、コンテンツを埋め込むために使用しているワークスペースの省略記号を選択します。 次に、 **[Edit workspaces]\(ワークスペースの編集\)** を選択します。
 
     ![ワークスペースを編集する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. **[詳細]** を展開し、**[専用の容量]** を有効にします。 作成した専用の容量を選択します。 その後、**[保存]** を選びます。
+2. **[詳細]** を展開し、 **[専用の容量]** を有効にします。 作成した専用の容量を選択します。 その後、 **[保存]** を選びます。
 
     ![専用の容量を割り当てる](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 

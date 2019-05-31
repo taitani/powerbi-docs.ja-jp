@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278702"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977483"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS アプリの Q&A 仮想アナリスト - Power BI
 
@@ -49,13 +49,13 @@ Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリ�
 
 1. Power BI サービス (app.powerbi.com) を開いてサインインします。
 
-2. 左側のナビゲーション ウィンドウで、**[ワークスペース]**、**[マイ ワークスペース]** の順に選択します。
+2. 左側のナビゲーション ウィンドウで、 **[ワークスペース]** 、 **[マイ ワークスペース]** の順に選択します。
 
 3. 左下隅にある **[データの取得]** を選択します。
    
     ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
 
-3. [データの取得] ページで、**[サンプル]** アイコンを選択します。
+3. [データの取得] ページで、 **[サンプル]** アイコンを選択します。
    
    ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
 
@@ -73,25 +73,25 @@ Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリ�
 
 **営業案件の分析のサンプルを取得する**
 
-- 小売りの分析サンプルと同じ手順を実行します。ただし、手順 4 では、**[営業案件の分析のサンプル]** を選択します。
+- 小売りの分析サンプルと同じ手順を実行します。ただし、手順 4 では、 **[営業案件の分析のサンプル]** を選択します。
 
     ![小売りの分析のサンプル](./media/mobile-apps-ios-qna/power-bi-oa.png)
   
 これで、iOS デバイスでサンプルを表示する準備ができました。
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>iPhone または iPad で質問してみる
-1. iPhone または iPad で、![グローバル ナビゲーション ボタン](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **[ワークスペース]** > **[マイ ワークスペース]** をタップします。[小売りの分析のサンプル] ダッシュボードが開きます。
+1. iPhone または iPad で、![グローバル ナビゲーション ボタン](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) >  **[ワークスペース]**  >  **[マイ ワークスペース]** をタップします。[小売りの分析のサンプル] ダッシュボードが開きます。
 
 2. ページの下部 (iPad ではページの上部) にある操作メニューから、Q&A 仮想アナリスト アイコン![Q&A 仮想アナリスト アイコン](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)をタップします。
      Q&amp;A 仮想アナリストにより、作業を開始するいくつかの候補が提供されます。
-3. 「**表示**」と入力し、候補リストから **[sales]\(販売\)** をタップして、**[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+3. 「**表示**」と入力し、候補リストから **[sales]\(販売\)** をタップして、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
     ![Show sales (売り上げを表示する)](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. キーワードから **[by]** (グループ化) をタップし、候補リストから **[item]** (アイテム) をタップして、**[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+4. キーワードから **[by]** (グループ化) をタップし、候補リストから **[item]** (アイテム) をタップして、 **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
     ![項目別の売上](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. キーワードから **[as]** (として) をタップし、縦棒グラフアイコン ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) をタップして、**[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
-6. 表示されたグラフを長押しし、**[展開]** をタップします。
+5. キーワードから **[as]** (として) をタップし、縦棒グラフアイコン ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) をタップして、 **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+6. 表示されたグラフを長押しし、 **[展開]** をタップします。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
@@ -100,13 +100,13 @@ Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリ�
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 左上隅にある矢印をタップして、Q&A 仮想アナリスト チャット ウィンドウに戻ります。
 8. テキストを削除して最初からやり直す場合は、テキスト ボックスの右側にある [X] をタップします。
-9. 新しい質問をしてみます。キーワードから **[top]\(上位\)** をタップし、**[sale by avg $/unit ly]\(平均金額/ユニット別売上\)**  >  **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) の順にタップします。
+9. 新しい質問をしてみます。キーワードから **[top]\(上位\)** をタップし、 **[sale by avg $/unit ly]\(平均金額/ユニット別売上\)**  >  **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) の順にタップします。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. キーワードから **[by]** (グループ化) をタップし、候補リストから **[time]** (時間) をタップして、**[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+10. キーワードから **[by]** (グループ化) をタップし、候補リストから **[time]** (時間) をタップして、 **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
      ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. 「**as**」 (として) と入力し、候補リストから折れ線グラフ アイコン ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) をタップして、**[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+11. 「**as**」 (として) と入力し、候補リストから折れ線グラフ アイコン ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) をタップして、 **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
@@ -118,7 +118,7 @@ Power BI モバイル アプリでは、キー入力の代わりに音声を使�
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. マイク アイコンがアクティブになったら、音声入力を始めます。 たとえば、"時間ごとの平均単価" と言ってから、**[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+1. マイク アイコンがアクティブになったら、音声入力を始めます。 たとえば、"時間ごとの平均単価" と言ってから、 **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 

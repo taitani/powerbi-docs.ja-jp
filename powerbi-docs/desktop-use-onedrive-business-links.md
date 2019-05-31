@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 8597904e2753f198b3f99cdcad6062d756b734a0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513778"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop で OneDrive for Business リンクを使用する
@@ -23,7 +23,7 @@ ms.locfileid: "65513778"
 **OneDrive for Business** からオンライン リンクを取得するには、いくつかの特定の手順が必要です。 次のセクションでは、それらの手順について説明します。グループ間、様々なコンピューター、同僚とファイル リンクを共有できるようになります。
 
 ## <a name="get-a-link-from-excel-starting-in-the-browser"></a>最初にブラウザーから Excel からリンクを取得する
-1. ブラウザーを使用して OneDrive for Business の場所に移動します。 使用するファイルを右クリックし、**[Excel で開く]** を選びます。
+1. ブラウザーを使用して OneDrive for Business の場所に移動します。 使用するファイルを右クリックし、 **[Excel で開く]** を選びます。
    
    > [!NOTE]
    > ブラウザーのインターフェイスは、次の画像のとおりではない場合もあります。 **OneDrive for Business** ブラウザー インターフェイスで、ファイルに対して **[Excel で開く]** を選ぶ方法はたくさんあります。 Excel でファイルを開くためのどのオプションでも使用することができます。
@@ -31,21 +31,21 @@ ms.locfileid: "65513778"
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. **Excel** で、**[ファイル] > [情報]** の順に選び、**[ブックの保護]** ボタンの上のリンクを選びます。 **[リンクをクリップボードにコピーする]** (使用しているバージョンによっては、**[パスをクリップボードにコピー]** の場合があります) を選択します。
+2. **Excel** で、 **[ファイル] > [情報]** の順に選び、 **[ブックの保護]** ボタンの上のリンクを選びます。 **[リンクをクリップボードにコピーする]** (使用しているバージョンによっては、 **[パスをクリップボードにコピー]** の場合があります) を選択します。
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 
 ## <a name="use-the-link-in-power-bi-desktop"></a>Power BI Desktop でリンクを使用する
 直前にクリップボードにコピーしたリンクを Power BI Desktop で使用できます。 次の手順を実行します。
 
-1. Power BI Desktop で、**[データを取得] > [Web]** の順に選びます。
+1. Power BI Desktop で、 **[データを取得] > [Web]** の順に選びます。
    
    ![](media/desktop-use-onedrive-business-links/odb-links_04.png)
 2. リンクを **[Web から]** ダイアログに貼り付けます (まだ [OK] を選ば**ない**でください)。
    
     ![](media/desktop-use-onedrive-business-links/odb-links_05.png)
-3. リンクの末尾の *?web=1* 文字列をご確認ください。**Power BI Desktop** が正しくファイルに到達できるようにするには、**[OK]** を選ぶ**前**に、*Web URL 文字列のその部分を削除*します。
-4. **Power BI Desktop** で資格情報の入力を求められた場合は、**[Windows]** (オンプレミスの SharePoint サイトの場合) または **[組織アカウント]** (Office 365 または OneDrive for Business のサイトの場合) のいずれかを選びます。
+3. リンクの末尾の *?web=1* 文字列をご確認ください。**Power BI Desktop** が正しくファイルに到達できるようにするには、 **[OK]** を選ぶ**前**に、*Web URL 文字列のその部分を削除*します。
+4. **Power BI Desktop** で資格情報の入力を求められた場合は、 **[Windows]** (オンプレミスの SharePoint サイトの場合) または **[組織アカウント]** (Office 365 または OneDrive for Business のサイトの場合) のいずれかを選びます。
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
 

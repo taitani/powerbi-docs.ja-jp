@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6095faca7fd0d7d42fd6b3871c9e45658a32a14f
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007731"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163057"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Power BI で Planview Enterprise に接続する
 Planview Enterprise コンテンツ パックを使用すると、Power BI で直接、リソースと作業管理データをまったく新しい方法で視覚化できます。 Planview Enterprise サインイン資格情報を使用して、ポートフォリオへの投資を対話形式で表示し、予算を上回ったり下回ったりしている部分を認識し、会社の戦略的優先順位とのプロジェクトの整合度合いを把握できます。 また、既定のダッシュボードやレポートを拡張して最も重要な情報を入手することもできます。
@@ -32,7 +32,7 @@ Planview Enterprise コンテンツ パックを使用すると、Power BI で�
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
     ![](media/service-connect-to-planview/services.png)
-3. Power BI ページで **[Planview Enterprise]** を選択し、**[取得]** を選択します。  
+3. Power BI ページで **[Planview Enterprise]** を選択し、 **[取得]** を選択します。  
     ![](media/service-connect-to-planview/planview.png)
 4. [Planview Enterprise URL] テキスト ボックスに、使用する Planview Enterprise サーバーの URL を入力します。 [Planview Enterprise データベース] テキスト ボックスに Planview Enterprise データベースの名前を入力して、[次へ] をクリックします。  
     ![](media/service-connect-to-planview/params.png)
@@ -52,7 +52,7 @@ Planview Enterprise コンテンツ パックを使用すると、Power BI で�
 ## <a name="system-requirements"></a>システム要件
 Planview Enterprise データを Power BI にインポートするには、ロールで Reporting Portal Viewer 機能が有効になっている Planview Enterprise ユーザーである必要があります。 下の追加要件を参照してください。
 
-この手順では、Power BI アカウントを使用して Microsoft Power BI のホーム ページに既にサインインしているものとします。 Power BI アカウントがない場合は、[powerbi.com](https://powerbi.microsoft.com/get-started/) にアクセスし、**[Power BI - クラウド コラボレーションと共有]** の下の **[無料で試す]** を選択します。 その後、**[データを取得]** をクリックします。
+この手順では、Power BI アカウントを使用して Microsoft Power BI のホーム ページに既にサインインしているものとします。 Power BI アカウントがない場合は、[powerbi.com](https://powerbi.microsoft.com/get-started/) にアクセスし、 **[Power BI - クラウド コラボレーションと共有]** の下の **[無料で試す]** を選択します。 その後、 **[データを取得]** をクリックします。
 
 ## <a name="next-steps"></a>次の手順:
 

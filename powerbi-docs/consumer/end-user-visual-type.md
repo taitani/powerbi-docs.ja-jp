@@ -1,75 +1,75 @@
 ---
-title: コンシューマー向け Power BI での視覚化の種類
-description: Power BI サービスでの視覚化の種類
+title: コンシューマー向けの Power BI でビジュアルの種類
+description: Power BI サービスでビジュアルの種類
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: ea86970565717d5dae8db865a65765f2c8245bad
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662390"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710977"
 ---
-# <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
-レポート、ダッシュボード、アプリ、Q&A では視覚化が使用されています。 これらの視覚化の種類には、Power BI でパッケージ化されているものと、"*カスタム ビジュアル*" として作成されているものがあります。 カスタム ビジュアルは、Power BI の外部で作成され、"*レポート デザイナー*" でそれを Power BI のレポート、ダッシュボード、アプリに追加できるようになっています。 
+# <a name="visual-types-in-power-bi"></a>Power BI でビジュアルの種類
+レポート、ダッシュ ボード、アプリ、および Q & A でビジュアルを検索します これらのビジュアルの種類の一部は、Power BI でパッケージ化され、いくつか*カスタム ビジュアル*します。 カスタム ビジュアルは、Power BI の外部で作成され、"*レポート デザイナー*" でそれを Power BI のレポート、ダッシュボード、アプリに追加できるようになっています。 
 
-この記事では、Power BI にパッケージ化されている視覚化の概要を説明します。  これらは、最もよく目にする視覚化です。 
+この記事では、Power BI に同梱されているビジュアルの概要を示します。  これらは、最も頻繁に発生するビジュアルです。 
 
 > [!NOTE]
 > カスタム ビジュアルについては、[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) の **[Power BI visuals]** セクションで探してください。 ビジュアルごとに、説明、作成者の情報、スクリーンショットまたはビデオを確認できます。 
 
-## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI で利用可能な視覚化の一覧
-これらの視覚化はすべて、Power BI のアプリ、ダッシュボード、レポートで表示でき、[Q&A で指定する](#qna)ことができます。 視覚化を操作する方法については、「[Interact with visualizations in reports, dashboards, and apps](end-user-visualizations.md)」 (レポート、ダッシュボード、アプリで視覚化を操作する) を参照してください。
+## <a name="list-of-visuals-available-in-power-bi"></a>Power BI で使用できるビジュアルの一覧
+Power BI アプリ、ダッシュ ボード、レポート、検出されたすべてのこれらのビジュアルと[Q & A で指定された](end-user-q-and-a.md)します。 ビジュアルと対話する方法については、次を参照してください[レポート、ダッシュ ボード、およびアプリでのビジュアルと対話します。](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>面グラフ:基本 (階層) と積み上げ
-![面グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
+![面グラフ](media/end-user-visual-type/basic-area-map-small.png)
 
 基本的な面グラフは、折れ線グラフに基づいており、軸と線の間の範囲が塗りつぶされます。 面グラフは、時間の経過に伴う変化の大きさを強調し、トレンドの合計値に注目させるために使用できます。 たとえば、時間の経過に伴う利益を表すデータを面グラフにプロットして、総利益を強調することができます。
 
 ### <a name="bar-and-column-charts"></a>横棒グラフおよび縦棒グラフ
-![縦棒グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
+![縦棒グラフ](media/end-user-visual-type/pbi-nancy-viz-bar.png)
 
- ![横棒グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
+ ![横棒グラフ](media/end-user-visual-type/pbi-nancy-viz-col.png)
 
 横棒グラフは、異なるカテゴリの特定の値を調べるときの標準的なグラフです。
 
 ### <a name="cards-single-number"></a>カード:単一数値
-![単一数値カード](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
+![単一数値カード](media/end-user-visual-type/pbi-nancy-viz-card.png)
 
 単一数値カードでは、1 つのファクトと 1 つのデータ ポイントが表示されます。 Power BI のダッシュボードまたはレポートで追跡すべき最重要の項目が 1 つの数値だけという場合もあります。たとえば、総売上高、対前年比の市場シェア、営業案件の総数などがこれに該当します。  
 
 ### <a name="cards-multi-row"></a>カード:複数行
-![複数の行カード](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
+![複数の行カード](media/end-user-visual-type/multi-row-card.png)
 
 複数の行カードでは、1 行に 1 つまたは複数のデータ ポイントが表示されます。
 
 
 ### <a name="combo-charts"></a>複合グラフ
-![複合グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
+![複合グラフ](media/end-user-visual-type/combo-small.png)
 
 複合グラフは、縦棒グラフと折れ線グラフを組み合わせたものです。 2 つのグラフを 1 つに組み合わせると、データの比較をよりすばやく行うことができます。 複合グラフでは 1 つまたは 2 つの Y 軸を使用できるので、詳しく見ることができます。 
 
 複合グラフは、次のような場合に最適な選択肢になります。
 - 同じ X 軸を持つ折れ線グラフと縦棒グラフがある場合。
 - 値の範囲が異なる複数のメジャーを比較する場合
-- 2 つのメジャーの間の相関関係を 1 つの視覚化で示す場合
+- 2 つのメジャーに 1 つのビジュアル間の相関関係を説明するために
 - あるメジャーが別のメジャーで定義されているターゲットを満たすかどうかを調べる場合
 - キャンバスのスペースを節約する場合
 
 ### <a name="doughnut-charts"></a>ドーナツ グラフ
-![ドーナツ グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
+![ドーナツ グラフ](media/end-user-visual-type/donut-small.png)
 
 ドーナツ グラフは円グラフと似ています。  どちらのグラフも全体とその一部との関係を表します。 唯一の違いは、中央が空白で、ラベルまたはアイコン用の領域を確保できることです。
 
 ### <a name="funnel-charts"></a>じょうごグラフ
-![じょうごグラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
+![じょうごグラフ](media/end-user-visual-type/pbi-nancy-viz-funnel.png)
 
 じょうごグラフは、段階と 1 つの段階から順番にフローする項目を持つプロセスを視覚化するのに役立ちます。  1 つの例は、潜在顧客で始まり、購入の完了で終わる営業プロセスです。
 
@@ -86,7 +86,7 @@ ms.locfileid: "56662390"
 - クリックスルー広告/マーケティング キャンペーンの進捗と成功を追跡する場合。
 
 ### <a name="gauge-charts"></a>ゲージ グラフ
-![ゲージ グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
+![ゲージ グラフ](media/end-user-visual-type/gauge-m.png)
 
 放射状ゲージ グラフには、1 つの円弧があり、目標/KPI に向けた進行状況を測定した 1 つの値が表示されます。 目標 (ターゲット値) は、線 (指針) で示されます。 その目標への進行状況は、網掛け表示で示されます。 また、進行状況を表す値は、円弧の内側に太字で表示されます。考えられるすべての値は、最小値 (左端の値) から最大値 (右端の値) に向けて、円弧に沿って均等に割り振られます。
 
@@ -99,14 +99,14 @@ ms.locfileid: "56662390"
 - ひとめでわかるように情報を表示する
 
  ### <a name="key-influencers-chart"></a>主要なインフルエンサのグラフ
-![主要なインフルエンサ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
+![主要なインフルエンサ](media/end-user-visual-type/power-bi-influencer.png)
 
 主要なインフルエンサのグラフは、選択した結果または値の主な要因を示しています。
 
 重要なメトリックに影響する要因を理解する場合、主要なインフルエンサが重要な選択肢となります。 たとえば、*顧客が 2 番目に何を注文するかに影響するもの*や、* 先の 6 月に売上が急上昇した原因*などです。 
 
 ### <a name="kpis"></a>KPI
-![KPI](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
+![KPI](media/end-user-visual-type/power-bi-kpi.png)
 
 主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 
 
@@ -115,42 +115,42 @@ KPI は、次のような場合に最適です。
 - 目標までの距離 (どの程度進んで、または遅れているか) を測定する
 
 ### <a name="line-charts"></a>折れ線グラフ
-![折れ線グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
+![折れ線グラフ](media/end-user-visual-type/pbi-nancy-viz-line.png)
 
 折れ線グラフでは、(通常は時間の経過に伴う) 一連の値すべての全体的な形を強調します。
 
 ### <a name="maps-basic-maps"></a>マップ:基本マップ
-![基本マップ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
+![基本マップ](media/end-user-visual-type/pbi-nancy-viz-map.png)
 
 基本マップは、空間的な場所におけるカテゴリと数量の両方の情報を関連付けるのに使用されます。
 
 ### <a name="maps-arcgis-maps"></a>マップ:ArcGIS マップ
-![ArcGIS マップ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
+![ArcGIS マップ](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-ArcGIS マップと Power BI を組み合わせると、マッピングをマップ上のポイントの表現を越える、まったく新しいレベルに引き上げることができます。 基本マップ、場所の種類、テーマ、記号のスタイル、および参照レイヤーで使用可能なオプションを選択して、すばらしい有益なマップの視覚エフェクトを作成します。 空間分析を使用してマップ上で権限のあるデータのレイヤー (国勢調査データなど) を組み合わせることで、より深く理解できる視覚化されたデータを伝達します。
+ArcGIS マップと Power BI を組み合わせると、マッピングをマップ上のポイントの表現を越える、まったく新しいレベルに引き上げることができます。 基本マップ、場所の種類、テーマ、記号のスタイル、および参照レイヤーの使用可能なオプションは、すばらしい有益なマップ ビジュアルを作成します。 権限のあるデータのレイヤー (国勢調査データなど) 空間分析を使用してマップ上の組み合わせを伝達してビジュアルのデータをより深く理解です。
 
 ### <a name="maps-filled-maps-choropleth"></a>マップ:塗り分け地図 (コロプレス)
-![塗り分け地図](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
+![塗り分け地図](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
 
 塗り分け地図では、網掛け、着色またはパターンを使用して、値の違いを割合に応じて、地理的または地域的に表示します。 こうした相対的な違いは、薄い色の網掛け (頻度が低い/量が少ない) から、濃い色の網掛け (頻度が高い/量が多い) を使用して、すぐにわかるように表示されます。
 
 ### <a name="maps-shape-maps"></a>マップ:図形マップ
-![図形マップ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+![図形マップ](media/end-user-visual-type/power-bi-shape-map2.png)
 
 図形マップでは、色を使用してマップの領域が比較されます。 マップ ビジュアルとは異なり、図形マップではマップ上の地理的な場所を正確には表示できません。 代わりに、これの主な用途は、違う色を適用することにより、マップ上の領域を相対的に比較できます。
 
 ### <a name="matrix"></a>マトリックス
-![マトリックス](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![マトリックス](media/end-user-visual-type/matrix.png)
 
 マトリックス ビジュアルは、階段状レイアウトをサポートするテーブル ビジュアル (後の「テーブル」を参照) の一種です。 多くの場合、レポート デザイナーは、ユーザーがマトリックスの 1 つまたは複数の要素 (行、列、セル) を選択してレポート ページ上の他のビジュアルをクロス強調表示できるようにするため、レポートやダッシュボードにマトリックスを組み込みます。  
 
 ### <a name="pie-charts"></a>円グラフ
-![円グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+![円グラフ](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 円グラフでは、全体に対する部分の関係が示されます。 
 
 ### <a name="ribbon-chart"></a>リボン グラフ
-![リボン グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+![リボン グラフ](media/end-user-visual-type/power-bi-ribbon.png)
 
 リボン グラフでは、どのデータ カテゴリが最高ランク (最大値) かが示されます。 リボン グラフでは、ランクの変化を効果的に確認できます。各期間を対象に、最高位の範囲 (値) が常に一番上に表示されます。
 
@@ -159,21 +159,21 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 これらのデータ ポイントは、データに応じて、横軸に沿って値が均等に分布したり、不均等に分布したりします。
 
-![バブル チャート](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
+![バブル チャート](media/end-user-visual-type/pbi-nancy-viz-bubble.png)
 
 バブル チャートでは、データ ポイントがバブルに置き換えられます。バブルのサイズは、データの追加のディメンションを表します。
 
 ドット プロット グラフは、数値またはカテゴリ データを X 軸にプロットできることを除き、バブル チャートおよび散布図に似ています。
 
 ### <a name="scatter-high-density"></a>高密度散布図
-![高密度散布図](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+![高密度散布図](media/end-user-visual-type/density-scatter.png)
 
-定義上、高密度データは、対話機能に応答する視覚エフェクトを妥当な時間で作成するためにサンプリングされます。 高密度サンプリングでは、重複するポイントを排除するアルゴリズムが使用され、データ セット内のすべてのポイントがビジュアルに表示されることが保証されます。 データの代表的なサンプルがプロットされるだけではありません。  
+定義上、高密度データは妥当な時間は対話に応答する視覚エフェクトを作成するサンプリングされます。 高密度サンプリングでは、重複するポイントを排除するアルゴリズムが使用され、データ セット内のすべてのポイントがビジュアルに表示されることが保証されます。 データの代表的なサンプルがプロットされるだけではありません。  
 
 これにより、全体的なデータ セットの重要なポイントの応答性、表記、および明確な保存の最適な組み合わせが保証されます。
 
 ### <a name="slicers"></a>スライサー
-![slicer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![slicer](media/end-user-visual-type/pbi-slicer.png)
 
 スライサーは、ページ上の他のビジュアルのフィルター処理に使用できるスタンドアロンのグラフです。 スライサーは、多くの異なる形式 (カテゴリ、範囲、日付など) で提供され、使用可能な値の 1 つだけ、多数、またはすべてを選択できるように書式設定できます。 
 
@@ -184,13 +184,13 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 - 重要なビジュアルの隣にスライサーを配置することにより、レポートを絞り込む
 
 ### <a name="standalone-images"></a>スタンドアロン画像
-![スタンドアロン画像](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
+![スタンドアロン画像](media/end-user-visual-type/pbi-nancy-viz-image.png)
 
 スタンドアロン画像は、レポートまたはダッシュボードに追加されたグラフィックです。 
 
 
 ### <a name="tables"></a>テーブル
-![テーブル グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
+![テーブル グラフ](media/end-user-visual-type/table-type.png)
 
 テーブルは、関連性のあるデータが論理的な一連の行と列に格納されたグリッドです。 ヘッダーと合計行が含まれる場合もあります。 テーブルは、1 つのカテゴリの多くの値を調べるときの定量的な比較で役に立ちます。 たとえば、次の表にはカテゴリに対する 5 つの異なるメジャーが表示されています。
 
@@ -200,7 +200,7 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 - カテゴリ別に数値データを表示する場合
 
 ### <a name="treemaps"></a>ツリーマップ
-![ツリーマップ グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![ツリーマップ グラフ](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
 ツリーマップは、サイズが値を示す色付きの四角形を使ったグラフです。  メインの四角形内で入れ子になった四角形では階層的になることがあります。 各四角形内の面積は、測定される値に基づいて割り当てられます。 各四角形は大きさの順に左上 (最大) から右下 (最小) に向かって配置されます。
 
@@ -213,7 +213,7 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 - パターン、外れ値、最も重要な要因、および例外を見分ける場合
 
 ### <a name="waterfall-charts"></a>ウォーターフォール グラフ
-![ウォーターフォール グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
+![ウォーターフォール グラフ](media/end-user-visual-type/waterfall-small.png)
 
 ウォーターフォール図では、値が加算または減算された際の累計 (現在の合計) が示されます。 一連の加算と減算の変化によって、初期値 (たとえば、純利益) が、どのように影響を受けるかを理解するために役立ちます。
 
@@ -226,13 +226,14 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 - 会社のある年の年始と年末の社員数をグラフに示す場合
 - 毎月の収入と支出、および口座の現在の残高を視覚化する場合
 
-## <a name="tell-qa-which-visualization-to-use"></a>使用する視覚化を Q&A で指定する
-Power BI Q&A で自然言語クエリを入力するときに、クエリ内で視覚化の種類を指定できます。  例:
+## <a name="qna"></a>Q & a でどの visual を使用するには
+Power BI Q & A で自然言語クエリを入力するときに、クエリでビジュアルの種類を指定できます。  例:
+
 
 ***ツリー マップでの都市ごとの売り上げ***
 
-![Q&A セッション](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![Q&A セッション](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>次の手順
-[レポート、ダッシュボード、アプリで視覚化を操作する](end-user-visualizations.md)    
+[レポート、ダッシュ ボード、およびアプリでのビジュアルと対話します。](end-user-visualizations.md)    
 [sqlbi.com の正しい視覚エフェクト参照](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

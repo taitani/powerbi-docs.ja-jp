@@ -9,44 +9,40 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/28/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f38110e743018f66249c471705b8a25652ef2a3a
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: c6da58ff5902a95c0e032cd4ed30a6ef0cae1e55
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661678"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66374990"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Power BI サービスのお気に入りのダッシュボード、レポート、アプリ
-コンテンツを "*お気に入り*" に登録すると、すべてのワークスペースからアクセスすることができます。  お気に入りは、通常、最も頻繁に利用するコンテンツです。
+コンテンツを設定するときに、*お気に入り*からすばやくアクセスすることができます、**お気に入り**コンテンツ リストから**Power BI ホーム** >  **お気に入りと frequents**します。  お気に入りは、最も頻繁に利用して黄色のアスタリスクが付いている通常コンテンツです。
 
-> [!NOTE]
-> このトピックは Power BI サービスに適用され、Power BI Desktop には適用されません。
-> 
-> 
+   ![お気に入りになったときのアイコン](./media/end-user-favorite/power-bi-favorite-nav.png)
 
-Power BI サービスの[おすすめのダッシュボード](end-user-featured.md)として、1 つのダッシュボードを選ぶこともできます。
+   ![お気に入りになったときのアイコン](./media/end-user-favorite/power-bi-home.png)
+
+として単一のダッシュ ボードを選択することも、[おすすめのダッシュ ボード](end-user-featured.md)Power BI サービスでします。
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>"*お気に入り*" としてダッシュボードまたはレポートを追加する
-Amanda がワークスペースにお気に入りを追加する様子を見てから、ビデオで説明されている手順に従って、ご自分でやってみてください。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
-
 
 1. よく使用するダッシュボードまたはレポートを開きます。 他のユーザーによって共有を設定されたコンテンツを "*お気に入り*" にすることもできます。
-2. Power BI サービスの右上にある **[お気に入り]** または星 ![星アイコン](./media/end-user-favorite/power-bi-favorite-icon.png) アイコンを選びます。
+
+2. Power BI サービスの上部のリボンから選択**お気に入り**または星![星型アイコン](./media/end-user-favorite/power-bi-favorite-icon.png)アイコン。
    
    ![お気に入りになったときのアイコン](./media/end-user-favorite/powerbi-dashboard-favorite.png)
    
-   ワークスペース コンテンツ ビュー タブの **[ダッシュボード]** と **[レポート]** から、ダッシュボードまたはレポートをお気に入りに設定することもできます。
+   好きなことができますダッシュ ボードまたはレポートをどこからでも自分とホーム、最近、アプリ、および共有など、星のアイコンが表示されます。 
    
-   ![黄色の星が表示された [ダッシュボード] タブ](./media/end-user-favorite/power-bi-dashboard-favorite.png)
+   ![黄色の星が表示された [ダッシュボード] タブ](./media/end-user-favorite/power-bi-recent.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>アプリを "*お気に入り*" として追加する
 
-1. 左側のナビゲーション ウィンドウから、**[アプリ]** を選びます。
+1. ナビゲーション ウィンドウで、次のように選択します。**アプリ**します。
 
    ![ダッシュボード](./media/end-user-favorite/power-bi-favorite-apps.png)
 
@@ -55,10 +51,10 @@ Amanda がワークスペースにお気に入りを追加する様子を見て�
    ![アプリをポイント](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>*お気に入り*の操作
-1. お気に入りにアクセスするには、任意のワークスペースで、**[お気に入り]** の右にあるポップアップ矢印を選びます。  ここからお気に入りを選んで開くことができます。 一覧に表示されるお気に入りは (アルファベット順に) 5 つだけです。 6 つ以上ある場合は、**[すべて表示]** を選んで [お気に入り] 画面を開きます (下記の 2 を参照してください)。 
+1. [お気に入り] にアクセスするには、右側にあるポップアップ矢印を選択します。**お気に入り**します。  ここからお気に入りを選んで開くことができます。 一覧に表示されるお気に入りは (アルファベット順に) 5 つだけです。 5 つ以上の場合、選択**すべて**を開く、お気に入りコンテンツの一覧 (以下の #2 を参照してください)。 
    
-   ![お気に入りポップアップ](./media/end-user-favorite/power-bi-favorite-flyout-new.png)
-2. お気に入りとして追加した**すべて**のコンテンツを表示するには、左側のナビゲーション ウィンドウで **[お気に入り]** またはお気に入りアイコン ![星アイコン](./media/end-user-favorite/power-bi-favorites-icon.png) を選びます。  
+   ![お気に入りポップアップ](./media/end-user-favorite/power-bi-favorite-flyout.png)
+2. 表示する**すべて**、ナビゲーション ウィンドウで、お気に入りの選択と追加したコンテンツ**お気に入り**またはお気に入り![星型アイコン](./media/end-user-favorite/power-bi-favorites-icon.png)アイコン。  
    
     ![[お気に入り] ウィンドウ](./media/end-user-favorite/power-bi-favorites-screen.png)
    
@@ -67,18 +63,19 @@ Amanda がワークスペースにお気に入りを追加する様子を見て�
 ## <a name="unfavorite-content"></a>コンテンツをお気に入りから外す
 あまり使用しなくなったレポートは、  お気に入りから外すことができます。 コンテンツをお気に入りから外すと、お気に入りの一覧から削除されますが、Power BI からは削除されません。
 
-1. 左側のナビゲーション ウィンドウで **[お気に入り]** を選択し、**[お気に入り]** 画面を開きます。
+1. 左側のナビゲーション ウィンドウで **[お気に入り]** を選択し、 **[お気に入り]** 画面を開きます。
    
    ![[お気に入り] 画面](./media/end-user-favorite/power-bi-unfavorites-screen.png)
 2. お気に入りから外すコンテンツの横にある黄色の星を選びます。
 
-> **注**:ダッシュボード、レポート、アプリ自体をお気に入りから外すこともできます。 コンテンツを開き、黄色のアイコンの選択を解除します。   
+> [!NOTE]
+> ダッシュボード、レポート、アプリ自体をお気に入りから外すこともできます。 コンテンツを開き、黄色のアイコンの選択を解除します。   
 > 
 > 
+## <a name="limitations-and-considerations"></a>制限事項と考慮事項
+現在のところ、お気に入りのアプリとこの自動的にお気に入りのすべてのレポートとダッシュ ボードにそのアプリはことができます。 個々 のアプリをお気に入りのレポートやダッシュ ボードにことはできません。 
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](../power-bi-overview.md)
-
 [Power BI - 基本的な概念](end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

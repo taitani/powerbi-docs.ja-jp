@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 535a5b0d24abcd76d7c7b9becedad152e17829ed
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007754"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61159345"
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>Power BI で SweetIQ に接続する
 Power BI コンテンツ パックは、SweetIQ アカウントからデータを取得し、すぐに使えるコンテンツのセットを生成して、簡単にデータを探索できるようにします。 SweetIQ コンテンツ パックを使用して、場所、一覧、評価、およびレビューに関するデータを分析します。 データは、毎日更新されるように設定されているため、監視対象のデータが常に最新の状態に保たれています。
@@ -23,10 +23,10 @@ Power BI コンテンツ パックは、SweetIQ アカウントからデータ�
 Power BI 用 [SweetIQ コンテンツ パック](https://app.powerbi.com/groups/me/getdata/services/sweetiq) に接続します。
 
 ## <a name="how-to-connect"></a>接続する方法
-1. 左側のナビゲーション ウィンドウで、**[データを取得]** をクリックします。
+1. 左側のナビゲーション ウィンドウで、 **[データを取得]** をクリックします。
    
     ![](media/service-connect-to-sweetiq/getdata.png)
-2. **[SweetIQ]** を選び、**[取得]** をクリックします。
+2. **[SweetIQ]** を選び、 **[取得]** をクリックします。
    
     ![](media/service-connect-to-sweetiq/sweetiq.png)
 3. SweetIQ のクライアント ID を入力します。 通常、これは英数字の値です。 この値の検索の詳細については、以下を参照してください。

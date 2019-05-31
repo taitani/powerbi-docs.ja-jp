@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d09936f2cce1d7835efdb82929d9e8eed2291163
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223354"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61156315"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Power BI で Xero に接続する
 Xero は、小規模企業向けに設計されている使いやすいオンライン会計ソフトウェアです。 この Power BI コンテンツ パックは、Xero financials に基づいて説得力のある視覚エフェクトを作成します。 既定のダッシュ ボードには、キャッシュの位置、売上とコスト、損益トレンド、借方日数、投資収益率のような多くの小規模ビジネス メトリックが含まれています。
@@ -35,7 +35,7 @@ Power BI 用 [Xero コンテンツ パック](https://app.powerbi.com/getdata/se
 4. Xero アカウントに関連付けられている組織のニックネームを入力します。 何でもかまいません。これは複数の Xero 組織を区別するためのものです。 [後述する](#FindingParams)詳細を参照してください。
    
    ![](media/service-connect-to-xero/params.png)
-5. **[認証方法]** として **[OAuth]** を選択し、Xero へのサインインを求められたら接続する組織を選択します。 ログインが完了したら、**[サインイン]** を選択して読み込みプロセスを開始します。
+5. **[認証方法]** として **[OAuth]** を選択し、Xero へのサインインを求められたら接続する組織を選択します。 ログインが完了したら、 **[サインイン]** を選択して読み込みプロセスを開始します。
    
     ![](media/service-connect-to-xero/creds.png)
    

@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
 ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695129"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61278652"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Power BI で R を利用したカスタム ビジュアルを使用する
 
@@ -35,11 +35,11 @@ R を利用したカスタム ビジュアルを使用するには、各ビジ�
 
 オンラインの **AppSource** サイトからビジュアルを参照して選択する手順を以下に示します。
 
-1. [https://appsource.microsoft.com](https://appsource.microsoft.com/) にある Power BI visuals ライブラリに移動します。 *[製品で絞り込む]* にある *[Power BI apps]* チェックボックスを選択して、**[すべて表示]** リンクを選択します。
+1. [https://appsource.microsoft.com](https://appsource.microsoft.com/) にある Power BI visuals ライブラリに移動します。 *[製品で絞り込む]* にある *[Power BI apps]* チェックボックスを選択して、 **[すべて表示]** リンクを選択します。
 
    ![R ビジュアル 2a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
 
-2. [Power BI visuals](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) ライブラリ ページで、左側のウィンドウのアドインの一覧から、**[Power BI visual]** を選択します。
+2. [Power BI visuals](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) ライブラリ ページで、左側のウィンドウのアドインの一覧から、 **[Power BI visual]** を選択します。
 
    ![R ビジュアル 2b](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2b.png)
 
@@ -55,7 +55,7 @@ R を利用したカスタム ビジュアルを使用するには、各ビジ�
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. ビジュアルがダウンロードされたら (ブラウザーから任意のファイルをダウンロードするのと似ています)、**Power BI Desktop** に移動し、**[視覚化]** ウィンドウの省略記号 ([...]) をクリックして、**[ファイルからインポートする]** を選択します。
+4. ビジュアルがダウンロードされたら (ブラウザーから任意のファイルをダウンロードするのと似ています)、**Power BI Desktop** に移動し、 **[視覚化]** ウィンドウの省略記号 ([...]) をクリックして、 **[ファイルからインポートする]** を選択します。
 
    ![R ビジュアル 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. 次の図に示すように、カスタム ビジュアルのインポートに関する警告が表示されます。
@@ -64,7 +64,7 @@ R を利用したカスタム ビジュアルを使用するには、各ビジ�
 6. ビジュアル ファイルが保存された場所に移動し、そのファイルを選択します。 **Power BI Desktop** のカスタム ビジュアルの拡張子は .pbiviz です。
 
    ![R ビジュアル 6](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
-7. Power BI Desktop に戻ると、**[視覚化]** ウィンドウに新しいビジュアルの種類が表示されます。
+7. Power BI Desktop に戻ると、 **[視覚化]** ウィンドウに新しいビジュアルの種類が表示されます。
 
    ![R ビジュアル 7](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_7.png)
 8. 新しいビジュアルをインストールする (または、R を利用したカスタム ビジュアルを含むレポートを開く) と、**Power BI Desktop** によって、必要な R パッケージがインストールされます。
@@ -81,11 +81,11 @@ R を利用したカスタム ビジュアルを使用するには、各ビジ�
 
 ### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>**Power BI Desktop** 内からカスタム ビジュアルを入手する
 
-1. **Power BI Desktop** 内からカスタム ビジュアルを入手することもできます。 **Power BI Desktop** の **[視覚化]** ウィンドウで省略記号 (...) をクリックして、**[Import from marketplace]\(Marketplace からインポート\)** を選択します。
+1. **Power BI Desktop** 内からカスタム ビジュアルを入手することもできます。 **Power BI Desktop** の **[視覚化]** ウィンドウで省略記号 (...) をクリックして、 **[Import from marketplace]\(Marketplace からインポート\)** を選択します。
 
    ![R ビジュアル 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-2. これを行うと、**[Power BI ビジュアル]** ダイアログが表示され、ここから入手可能なカスタム ビジュアルをスクロールして選択することができます。 名前で検索したり、カテゴリを選択したり、または単に利用可能なビジュアルをスクロールしていくこともできます。 準備ができたら、**[追加]** を選択してカスタム ビジュアルを **Power BI Desktop** に追加します。
+2. これを行うと、 **[Power BI ビジュアル]** ダイアログが表示され、ここから入手可能なカスタム ビジュアルをスクロールして選択することができます。 名前で検索したり、カテゴリを選択したり、または単に利用可能なビジュアルをスクロールしていくこともできます。 準備ができたら、 **[追加]** を選択してカスタム ビジュアルを **Power BI Desktop** に追加します。
 
    ![R ビジュアル 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
@@ -142,9 +142,9 @@ Power BI チームはこれらの問題の軽減に懸命に取り組んでお�
        c:\Program Files\RStudio\bin\rstudio.exe (for RStudio)
 4. 前の手順でうまくいかない場合は、次のことを試してください。
 
-   a. **R Studio** を使い、上の 3.b  (R コンソールからのスクリプト行の実行) に記載されている手順に従います。
+   a. **R Studio** を使い、上の 3.b (R コンソールからのスクリプト行の実行) に記載されている手順に従います。
 
-   b. 前の手順でうまくいかない場合は、**R Studio** で **[ツール] > [グローバル オプション] > [パッケージ]** に移動し、**[Use Internet Explorer library/proxy for HTTP]** (HTTP に Internet Explorer のライブラリ/プロキシを使用する) チェック ボックスをオンにして、上の手順の 3.b を 繰り返します。
+   b. 前の手順でうまくいかない場合は、**R Studio** で **[ツール] > [グローバル オプション] > [パッケージ]** に移動し、 **[Use Internet Explorer library/proxy for HTTP]** (HTTP に Internet Explorer のライブラリ/プロキシを使用する) チェック ボックスをオンにして、上の手順の 3.b を 繰り返します。
 
 ## <a name="next-steps"></a>次の手順
 
