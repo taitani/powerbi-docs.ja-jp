@@ -7,26 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/07/2019
+ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: cd3a1f94aa4c965327ea3e5bcb7271326aa3514d
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249841"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578563"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>組織でテンプレート アプリをインストールし、配布する - Power BI (プレビュー)
 
-新しい Power BI *テンプレート アプリ*を利用すれば、Power BI パートナーはコードをほとんど、あるいはまったく記述せずに Power BI アプリを作成し、Power BI の顧客に配布できます。 この記事は Power BI アナリスト向けに作成されました。 Power BI パートナーが作成したテンプレート アプリをインストールし、カスタマイズし、配布する方法について説明しています。 自分で配布するテンプレート アプリを作成する場合、「[Create a template app in Power BI](service-template-apps-create.md)」 (Power BI でテンプレート アプリを作成する) を参照してください。
+Power BI のアナリストはでしょうか。 場合、そのため、この記事ではインストールする方法について説明します*テンプレート アプリ*Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用するサービスの多くへの接続にします。 ダッシュ ボードと、組織のニーズに合わせてレポートを変更してとして同僚に配布する*アプリ*します。 
 
 ![インストールされた Power BI アプリ](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Power BI パートナーが作成したテンプレート アプリをインストールするとき、組織のニーズに合わせてそれを変更し、アプリとして同僚に配布できます。  
+自分で配布するテンプレート アプリを作成する場合、「[Create a template app in Power BI](service-template-apps-create.md)」 (Power BI でテンプレート アプリを作成する) を参照してください。 Power BI パートナーでは、ほとんどまたはまったくない次のようにコーディングでの Power BI アプリを構築でき、Power BI のお客様に配置することができます。 
 
 ## <a name="prerequisites"></a>前提条件  
 
-テンプレート アプリをインストールし、カスタマイズし、配布するための要件:  
+テンプレート アプリをインストールし、カスタマイズし、配布するための要件: 
 
 - [Power BI Pro ライセンス](service-self-service-signup-for-power-bi.md)
 - [Power BI の基本的概念](service-basic-concepts.md)に関する知識
@@ -45,7 +45,7 @@ Power BI パートナーが作成したテンプレート アプリをインス�
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>Power BI サービスから AppSource を検索する
 
-1. Power BI サービスの左側のナビゲーション ウィンドウで、**[アプリ]**、**[アプリの取得]** の順に選択します。
+1. Power BI サービスの左側のナビゲーション ウィンドウで、 **[アプリ]** 、 **[アプリの取得]** の順に選択します。
 
     ![アプリの取得](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -53,7 +53,7 @@ Power BI パートナーが作成したテンプレート アプリをインス�
 
     ![AppSource で検索する](media/service-template-apps-install-distribute/power-bi-appsource.png)
 
-3. アプリを参照するか、検索し、**[今すぐ入手する]** を選択します。
+3. アプリを参照するか、検索し、 **[今すぐ入手する]** を選択します。
 
 2. ダイアログ ボックスで **[インストール]** を選択します。
 
