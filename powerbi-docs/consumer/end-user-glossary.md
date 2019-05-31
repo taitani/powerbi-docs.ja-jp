@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: resource
-ms.date: 12/06/2018
+ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 91ac7e9990844f6e4f481473d402647a47249ba6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662413"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412908"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -25,7 +25,7 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **account (アカウント)** さまざまな種類の Power BI アカウントがあります。  Power BI Pro アカウントは、月単位の有料サブスクリプションです。  Power BI の無料アカウントでは、Power BI Premium 容量でホストされているコンテンツを表示できます。  
 
-**admin portal (管理ポータル)** Power BI 管理者が所属組織内の Power BI のユーザー、機能、および、設定を管理する場所  (注:Office 365、Azure、および PowerApps では管理センターが使用されます)。
+**admin portal (管理ポータル)** Power BI 管理者が所属組織内の Power BI のユーザー、機能、および、設定を管理する場所 (注:Office 365、Azure、および PowerApps では管理センターが使用されます)。
 
 **aggregates (集約)** 複数行の値を入力または条件としてまとめてグループ化し、より重要な意味や測定の単一の値を形成する場合。
 
@@ -142,6 +142,8 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 ## <a name="h"></a>H
 **high-density visuals (高密度のビジュアル)** Power BI で表示できる数より多くのデータ ポイントがあるビジュアル。 Power BI では、図形や外れ値を表示するためにデータをサンプリングします。
 
+**ホーム**ランディング Power BI サービスのユーザーの有効期間を既定値。 何も変更されません。 ホームまたは単にホームは Power BI を呼び出せます。
+
 ## <a name="i"></a>I
 
 **insights (洞察)** 洞察機械学習アルゴリズムを実行して行われる自動データ分析。
@@ -166,7 +168,7 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **Mobile app (モバイル アプリ)** Power BI を iOS、Android、Windows デバイスで実行することを許可するアプリ。
 
-**modeling (モデリング)**[Power BI Desktop] Power BI で使用する準備を整えるために接続したデータを取得すること。 これには、複数のデータ ソース内のテーブル間のリレーションシップの作成、メジャーの作成、およびメトリックの割り当てが含まれます。
+**modeling (モデリング)** [Power BI Desktop] Power BI で使用する準備を整えるために接続したデータを取得すること。 これには、複数のデータ ソース内のテーブル間のリレーションシップの作成、メジャーの作成、およびメトリックの割り当てが含まれます。
 
 **My workspace (マイ ワークスペース)** コンテンツを作成するための各 Power BI ユーザー向けのワークスペース。 ここで作成したものをアプリにバンドルする必要があり、*デザイナー*権限がある場合は、適切なアプリ ワークスペースにそれをアップロードするか、新しいものを作成します。
 
@@ -288,7 +290,7 @@ Power BI レポートで表示される結果を事前にフィルター処理�
 
 **streaming data (ストリーミング データ)** 「*リアルタイム ストリーミング*」を参照してください。
 
-**subscriptions (サブスクリプション)**、**Subscribe (サブスクライブする)**  
+**subscriptions (サブスクリプション)** 、**Subscribe (サブスクライブする)**  
 レポート ページ、アプリ、およびダッシュボードをサブスクライブし、スナップショットを含むメールを受信できます。 Power BI Pro ライセンスが必要です。
 
 **summarization (概要作成)** [Power BI Desktop] 1 つの列の値に適用される操作。
