@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324865"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469816"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI のオンプレミス ゲートウェイを管理する
 
@@ -34,30 +34,30 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 ### <a name="add-a-data-source"></a>データ ソースの追加
 
-1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-manage/icon-gear.png) > **[ゲートウェイの管理]** の順に選択します。
+1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-manage/icon-gear.png) >  **[ゲートウェイの管理]** の順に選択します。
 
     ![ゲートウェイの管理](media/service-gateway-manage/manage-gateways.png)
 
-2. ゲートウェイを選択し、**[データ ソースの追加]** を選択するか、[ゲートウェイ] > **[データ ソースの追加]** に移動します。
+1. ゲートウェイを選択し、 **[データ ソースの追加]** を選択するか、[ゲートウェイ] > **[データ ソースの追加]** に移動します。
 
     ![データ ソースの追加](media/service-gateway-manage/add-data-source.png)
 
-3. **データ ソースの種類**を選択します。
+1. **データ ソースの種類**を選択します。
 
     ![SQL Server の選択](media/service-gateway-manage/select-sql-server.png)
 
 
-4. データ ソースの情報を入力します。 この例では、**サーバー**、**データベース**、およびその他の情報です。  
+1. データ ソースの情報を入力します。 この例では、**サーバー**、**データベース**、およびその他の情報です。  
 
     ![データ ソース設定](media/service-gateway-manage/data-source-settings.png)
 
-5. SQL Server では、**[認証方法]** で **[Windows]** または **[基本]** (SQL 認証) を選択します。  **[基本]** を選択した場合は、データ ソースの資格情報を入力します。
+1. SQL Server では、 **[認証方法]** で **[Windows]** または **[基本]** (SQL 認証) を選択します。  **[基本]** を選択した場合は、データ ソースの資格情報を入力します。
 
-6. **[詳細設定]** で、必要に応じてデータ ソースの[プライバシー レベル](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)を構成します ([DirectQuery](desktop-directquery-about.md) には適用されません)。
+1. **[詳細設定]** で、必要に応じてデータ ソースの[プライバシー レベル](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)を構成します ([DirectQuery](desktop-directquery-about.md) には適用されません)。
 
     ![詳細設定](media/service-gateway-manage/advanced-settings.png)
 
-7. **[追加]** を選択します。 接続に成功すると、「"*接続成功*"」というメッセージが表示されます。
+1. **[追加]** を選択します。 接続に成功すると、「"*接続成功*"」というメッセージが表示されます。
 
     ![接続成功](media/service-gateway-manage/connection-successful.png)
 
@@ -67,7 +67,7 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 データ ソースを使用しなくなった場合は、それを削除できます。 データ ソースを削除すると、そのデータ ソースに依存するすべてのダッシュボードやレポートが壊れることに注意してください。
 
-データ ソースを削除するには、データ ソースに移動し、**[削除]** を選択します。
+データ ソースを削除するには、データ ソースに移動し、 **[削除]** を選択します。
 
 ![データ ソースの削除](media/service-gateway-manage/remove-data-source.png)
 
@@ -81,7 +81,7 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 ### <a name="add-users-to-a-data-source"></a>データ ソースへのユーザーの追加
 
-1. Power BI サービスの右上隅で、歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-manage/icon-gear.png) > **[ゲートウェイの管理]** を選択します。
+1. Power BI サービスの右上隅で、歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-manage/icon-gear.png) >  **[ゲートウェイの管理]** を選択します。
 
 2. ユーザーを追加するデータ ソースを選択します。
 
@@ -91,7 +91,7 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 4. **[追加]** を選択します。追加されたメンバーがボックスに表示されます。
 
-    ![ユーザーを追加する](media/service-gateway-manage/add-user.png)
+    ![ユーザーを追加します。](media/service-gateway-manage/add-user.png)
 
 これで完了です。 アクセスを与えるデータ ソースごとにユーザーを追加する必要があります。 各データ ソースには、別個のユーザー リストがあります。データ ソースごとにユーザーを追加する必要があります。
 
@@ -133,7 +133,7 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 1. ゲートウェイをダウンロードしてインストールします。
 
-2. Power BI アカウントにサインインした後、ゲートウェイを登録します。 **[Migrate, restore or take over an existing gateway]/(既存のゲートウェイの移行、復元、または引き継ぎ/)** > **[次へ]** を選択します。
+2. Power BI アカウントにサインインした後、ゲートウェイを登録します。 **[Migrate, restore or take over an existing gateway]/(既存のゲートウェイの移行、復元、または引き継ぎ/)**  >  **[次へ]** を選択します。
 
     ![ゲートウェイの登録](media/service-gateway-manage/register-gateway.png)
 
@@ -157,9 +157,9 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 ゲートウェイを使用しなくなった場合は、それを削除できます。 ただし、ゲートウェイを削除すると、追加されたすべてのデータ ソースも削除されることに注意してください。 これにより、それらのデータ ソースに依存しているダッシュボードとレポートが壊れます。
 
-1. Power BI サービスの右上隅で、歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-manage/icon-gear.png) > **[ゲートウェイの管理]** を選択します。
+1. Power BI サービスの右上隅で、歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-manage/icon-gear.png) >  **[ゲートウェイの管理]** を選択します。
 
-2. ゲートウェイを選択し、**[削除]** を選択します。
+2. ゲートウェイを選択し、 **[削除]** を選択します。
    
    ![ゲートウェイの削除](media/service-gateway-manage/remove-gateway.png)
 
