@@ -176,12 +176,20 @@
           items:
             - name: iOS アプリを使ってみる
               href: mobile/mobile-iphone-app-get-started.md
+            - name: Face ID、Touch ID、またはパスコードで保護する
+              href: mobile/mobile-ios-native-secure-access.md
             - name: iOS モバイル アプリでの Q&A 仮想アナリスト
               href: mobile/mobile-apps-ios-qna.md
+            - name: Siri のショートカットを使用しての Power BI モバイル アプリの統合
+              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
+            - name: iOS デバイスの検索の統合
+              href: mobile/mobile-apps-iOS-search-integration.md
             - name: Power BI Apple Watch アプリ
               href: mobile/mobile-apple-watch.md
             - name: iPhone のアプリからバーコードをスキャンする
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: モバイル デバイス管理を使用して構成する
+              href: mobile/mobile-app-configuration.md
         - name: Android デバイス
           items:
             - name: Android アプリの概要
