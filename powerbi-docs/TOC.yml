@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: カスタム列を追加
               href: desktop-add-custom-column.md
-            - name: Power BI でのレスポンシブ ビジュアルの作成
-              href: visuals/desktop-create-responsive-visuals.md
             - name: Power BI Desktop でのインライン階層ラベルの使用
               href: desktop-inline-hierarchy-labels.md
             - name: 数値範囲スライサーを使用
@@ -681,32 +679,14 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
               href: service-dataflows-add-cdm-folder.md
-            - name: Power BI (プレビュー) で Machine Learning を統合する
+            - name: Power BI で Machine Learning を統合する
               href: service-machine-learning-integration.md
-            - name: Power BI での Cognitive Services の使用 (プレビュー)
+            - name: Power BI での Cognitive Services の使用
               href: service-cognitive-services.md
             - name: Power BI での自動化 された機械学習 (プレビュー)
               href: service-machine-learning-automated.md
         - name: Power BI のページ分割されたレポート
           items:
-            - name: ページ分割されたレポートとは (プレビュー)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: ページ分割されたレポートに関する FAQ (プレビュー)
-              href: paginated-reports-faq.md
-            - name: ページ分割されたレポートの作成とアップロード (プレビュー)
-              href: paginated-reports-quickstart-aw.md
-            - name: レポート デザイン ビュー内を移動する (プレビュー)
-              href: paginated-reports-report-design-view.md
-            - name: ページ分割されたレポートに直接データを入力する (プレビュー)
-              href: paginated-reports-enter-data.md
-            - name: 埋め込みデータ ソースを作成する (プレビュー)
-              href: paginated-reports-embedded-data-source.md
-            - name: 埋め込みデータセットを作成する (プレビュー)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: パラメーターを作成する (プレビュー)
-              href: paginated-reports-parameters.md
-            - name: ページ分割されたレポートを発行する (プレビュー)
-              href: paginated-reports-save-to-power-bi-service.md
             - name: ページ分割されたレポートを表示する (プレビュー)
               href: paginated-reports-view-power-bi-service.md
             - name: パラメーターと対話する (プレビュー)
@@ -745,8 +725,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: 更新がサポートされていないデータ ソースのトラブルシューティング
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: テキストとして返される、入れ子になった値のトラブルシューティング
-              href: service-troubleshooting-nested-values.md
             - name: Azure SQL Database のスケジュール設定された更新に関するトラブルシューティング
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 'エラー:Excel ブックにデータが見つかりませんでした'
@@ -927,10 +905,58 @@
           href: service-premium-incremental-refresh.md
         - name: Multi-Geo の構成
           href: service-admin-premium-multi-geo.md
+        - name: 独自の暗号化キーを表示する
+          href: service-encryption-byok.md
         - name: Premium 容量の再起動
           href: service-admin-premium-restart.md
         - name: クライアント アプリケーションとツールをデータセットに接続する
           href: service-premium-connect-tools.md
+- name: Power BI の改ページ調整されたレポート ビルダー
+  items:
+    - name: 概要
+      items:
+        - name: ページ分割されたレポートとは
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Power BI でのレポート ビルダー
+          href: report-builder-power-bi.md
+    - name: チュートリアル
+      items:
+        - name: ページ分割されたレポートの作成と対話のアップロード
+          href: paginated-reports-quickstart-aw.md
+    - name: 概念
+      items:
+        - name: レポート デザイン ビュー内を移動する
+          href: paginated-reports-report-design-view.md
+        - name: レポートの計画
+          href: report-builder-planning-report.md
+        - name: レポート ビルダーのデータ
+          href: report-builder-data.md
+        - name: デザインに関するヒント
+          href: report-builder-design-tips.md
+        - name: テーブル、マトリックス、リスト
+          href: report-builder-tables-matrices-lists.md
+        - name: パラメーター
+          href: report-builder-parameters.md
+        - name: 式
+          href: report-builder-expressions.md
+        - name: 式の例
+          href: report-builder-expression-examples.md
+        - name: レポートのプレビュー
+          href: report-builder-previewing-reports.md
+        - name: ページ分割されたレポートに関する FAQ
+          href: paginated-reports-faq.md
+    - name: 方法
+      items:
+        - name: ページ分割されたレポートに直接データを入力する
+          href: paginated-reports-enter-data.md
+        - name: 埋め込みデータ ソースを作成する
+          href: paginated-reports-embedded-data-source.md
+        - name: 埋め込みデータセットを作成する
+          href: paginated-reports-create-embedded-dataset.md
+        - name: パラメーターを作成する
+          href: paginated-reports-parameters.md
+        - name: ページ分割されたレポートを発行する
+          href: paginated-reports-save-to-power-bi-service.md
 - name: 開発者向け Power BI
   items:
     - name: Power BI の開発者向け機能
