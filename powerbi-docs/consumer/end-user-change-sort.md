@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: Conceptual
+ms.topic: conceptual
 ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 67246168b5387f49e7bda22e470f5a908a4bff9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: aa6193045ba1c399eaae1b48bf813738edba99f1
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608246"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750845"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI レポートでのグラフの並べ替え方法の変更
 Power BI レポートのほとんどの視覚エフェクトは、グラフ内のカテゴリ名のアルファベット順や、各カテゴリの数値順に、並べ替えることができます。 たとえば、このグラフは**店舗名**のカテゴリを基準に並べ替えられています。

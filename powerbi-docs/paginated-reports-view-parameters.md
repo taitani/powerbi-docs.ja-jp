@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスでページ分割されたレポートのパラメーターを表示する (プレビュー)
+title: Power BI サービスでページ分割されたレポートのパラメーターを表示する
 description: この記事では、Power BI サービスでページ分割されたレポートのパラメーターを操作する方法を学びます。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: ea186b5fa3bbbe7968c386604066f91b90ec5821
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 100d8b5d25f7d844ea4f44d63a4d2cb9737f57a9
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61422231"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839500"
 ---
-# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI サービスでページ分割されたレポートのパラメーターを表示する (プレビュー)
+# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポートのパラメーターを表示する
 
 この記事では、Power BI サービスでページ分割されたレポートのパラメーターを操作する方法を学びます。  レポート パラメーターでは、レポート データをフィルター処理する手段が提供されます。 パラメーターでは使用可能な値の一覧が提供され、1 つまたは複数の値を選択できます。 一部のパラメーターには既定値があり、レポートを表示する前に値を選択する必要があります。  
 
