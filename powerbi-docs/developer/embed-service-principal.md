@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375079"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720341"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI でのサービス プリンシパル (プレビュー)
 
@@ -109,7 +109,7 @@ Power BI の成果物とリソースが[新しい Power BI ワークスペース
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. Power BI 管理者は、Power BI 管理ポータルの **[開発者向け設定]** でサービス プリンシパルを有効にする必要があります。 Azure AD で作成したセキュリティ グループを、 **[開発者向け設定]** の **[特定のセキュリティ グループ]** セクションに追加します。
+3. Power BI 管理者は、Power BI 管理ポータルの **[開発者向け設定]** でサービス プリンシパルを有効にする必要があります。 Azure AD で作成したセキュリティ グループを、**[開発者向け設定]** の **[特定のセキュリティ グループ]** セクションに追加します。
 
    > [!Important]
    > サービス プリンシパルには、組織全体に対して有効化されるか、またはグループの一部としてサービス プリンシパルを有するセキュリティ グループに対して有効化される、すべてのテナント設定へのアクセス権があります。 サービス プリンシパルによる特定のテナント設定へのアクセスを制限するには、特定のセキュリティ グループへのアクセスのみを許可するか、またはサービス プリンシパルの専用のセキュリティ グループを作成して除外します。
@@ -120,7 +120,7 @@ Power BI の成果物とリソースが[新しい Power BI ワークスペース
 
 5. 作成した新しいワークスペースに、**管理者**としてサービス プリンシパルを追加します。 このタスクは [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) または Power BI サービスを使用して管理できます。
 
-    ![サービス プリンシパルを管理者としてワークスペースに追加します。](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![ワークスペースにサービス プリンシパルを管理者として追加する](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. ここで、サンプル アプリケーション内または独自のアプリケーション内のどちらにコンテンツを埋め込むかを選択します。
 
@@ -147,7 +147,7 @@ Azure portal からサービス プリンシパル オブジェクト ID を取�
 
 1. Azure portal で新しいアプリの登録を作成します。  
 
-2. 次に、 **[ローカル ディレクトリでのマネージド アプリケーション]** の下で、作成したアプリケーションの名前を選択します。
+2. 次に、**[ローカル ディレクトリでのマネージド アプリケーション]** の下で、作成したアプリケーションの名前を選択します。
 
    ![ローカル ディレクトリでのマネージド アプリケーション](media/embed-service-principal/managed-application-in-local-directory.png)
 
@@ -168,17 +168,17 @@ PowerShell でサービス プリンシパル オブジェクト ID を取得す
 
 * サービス プリンシパルは、[新しいアプリ ワークスペース](../service-create-the-new-workspaces.md)でのみ動作します。
 * サービス プリンシパルを使用する場合は、**マイ ワークスペース**はサポートされません。
-* 運用環境に移行するときは、専用の Premium 容量が必要です。
+* 運用環境に移行するときは、専用の容量が必要です。
 * サービス プリンシパルを使用して Power BI ポータルにサインインすることはできません。
 * Power BI 管理ポータル内の開発者向け設定でサービス プリンシパルを有効にするには、Power BI 管理者権限が必要です。
 * サービス プリンシパルを使用して、オンプレミス データ ゲートウェイをインストールまたは管理することはできません。
 * [組織のアプリケーションへの埋め込み](embed-sample-for-your-organization.md)では、サービス プリンシパルを使用することはできません。
 * [データフロー](../service-dataflows-overview.md)管理はサポートされていません。
-* サービス プリンシパルは、現在の管理者 Api をサポートしていません。
+* サービス プリンシパルでは現在、管理 API は一切サポートされていません。
 
 ## <a name="next-steps"></a>次の手順
 
 * [アプリを登録する](register-app.md)
 * [顧客向けの Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory でのアプリケーション オブジェクトとサービス プリンシパル オブジェクト](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [サービス プリンシパル (プレビュー) を使って、オンプレミス データ ゲートウェイを使用して行レベル セキュリティ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [サービス プリンシパルを使用するオンプレミス データ ゲートウェイを使用した行レベルのセキュリティ (プレビュー)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

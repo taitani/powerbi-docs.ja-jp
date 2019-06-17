@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a9d3856f643eed0ccb5383f2dda55ea57a32908a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a8acb5ab382c541b330d3448da8187238c42a3f5
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136293"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720295"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードにタイルをピン留め
 ## <a name="pinning-tiles-from-a-report"></a>レポートからタイルをピン留め
@@ -66,7 +66,7 @@ Amanda が Power BI レポートからビジュアルとイメージを固定す
 
 [Power BI でのデータの更新](refresh-data.md)
 
-[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

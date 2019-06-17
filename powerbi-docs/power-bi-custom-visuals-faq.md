@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60977204"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497928"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI カスタム ビジュアルに関してよく寄せられる質問
 
@@ -84,7 +84,7 @@ ms.locfileid: "60977204"
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>ビジュアルの認定にはどれくらいの時間がかかりますか?
 
-更新されたバージョンについては、最長で 2 週間がかかる場合があります。 新しい送信 (初回の認定) については、最長で 3 週間かかる場合があります。 
+更新の場合、最大 3 週間かかることがあります。 新しい送信 (初回の認定) については、最長で 4 週間かかる場合があります。 
 
 ### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>認定プロセスでは、データ漏えいが発生しないことが保証されていますか?
 

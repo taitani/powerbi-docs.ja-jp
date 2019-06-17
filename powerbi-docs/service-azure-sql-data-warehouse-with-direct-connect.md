@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770256"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448438"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse と DirectQuery
 
@@ -40,7 +40,7 @@ SQL Data Warehouse コネクタを使用する場合:
 
 SQL Data Warehouse と Power BI の間で移動する最も簡単な方法は、Azure portal の **[Power BI で開く]** ボタンを使用することです。 このボタンを使用すると、Power BI で新しいダッシュボードの作成をシームレスに開始できるようになります。
 
-1. 開始するには、Azure portal の SQL Data Warehouse のインスタンスに移動します。 この時点では、SQL Data Warehouse は Azure プレビュー ポータルにのみ表示されることに注意してください。
+1. 開始するには、Azure portal の SQL Data Warehouse のインスタンスに移動します。 この時点では、SQL Data Warehouse は Azure portal にのみ表示されることに注意してください。
 
 2. **[Power BI で開く]** ボタンをクリックする
 
@@ -56,7 +56,7 @@ SQL Data Warehouse は、Power BI の [データの取得] ページにも表示
 
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。  
 
-    ![取得データ ボタン](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+    ![[データの取得] ボタン](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
 2. **[データベース]** で **[取得]** を選択します。
 
@@ -64,13 +64,13 @@ SQL Data Warehouse は、Power BI の [データの取得] ページにも表示
 
 3. **[SQL Data Warehouse**]、\> **[接続] の順に選択します**。
 
-    ![Azure の SQL DW との直接接続します。](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+    ![Azure SQL DW との直接接続](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
-4. 接続するために必要な情報を入力します。 以下の **[検索パラメーター]** セクションは、このデータが Azure Portal のどこに配置されているかを示します。
+4. 接続するために必要な情報を入力します。 以下の **[検索パラメーター]** セクションは、このデータが Azure portal のどこに配置されているかを示します。
 
     ![サーバー名](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
 
-    ![高度なサーバー名](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
+    ![詳細なサーバー名](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
 
     ![ユーザー名](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
 
@@ -83,16 +83,18 @@ SQL Data Warehouse は、Power BI の [データの取得] ページにも表示
 
 6. すべてのテーブルと列を調べることができます。 列を選択すると、クエリがソースに送り返されて、ビジュアルが動的に作成されます。 フィルターもクエリに変換され、データ ウェアハウスに戻されます。 これらのビジュアルは、新しいレポートに保存したり、ダッシュボードに戻してピン留めしたりできます。
 
-    ![3 を詳細します。](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+    ![探索 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>パラメーターの値の見つけ方
 
-完全修飾サーバー名とデータベース名は、Azure portal に表示されています。 この時点では、SQL Data Warehouse は Azure プレビュー ポータルにのみ表示されることに注意してください。
+完全修飾サーバー名とデータベース名は、Azure portal に表示されています。 この時点では、SQL Data Warehouse は Azure portal にのみ表示されることに注意してください。
 
 ![Azure Portal](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > Power BI テナントが Azure SQL Data Warehouse と同じリージョン内にある場合、送信料は発生しません。 Power BI テナントが置かれている場所を確認するには、[こちらの手順](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located)を使用してください。
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>次の手順
 

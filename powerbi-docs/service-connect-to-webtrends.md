@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1166808dc827448f94bb84cc37bf4000df178c1d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e24e6f86cddcf328497c050f82612d36efa3a4ed
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138056"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720498"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Power BI で Webtrends に接続する
 Power BI 用 Webtrends コンテンツ パックには、[合計ページ] ビューやトラフィック ソースごとのアクセス数などのすぐに使用できるさまざまなメトリックスが含まれています。 Power BI 内の Webtrends データの視覚化は、Webtrends アカウントに接続することで開始します。 提供されるダッシュボードとレポートをそのまま使用することもできますし、最も関心のある情報を強調表示するためにカスタマイズすることができます。  データは、1 日 1 回自動的に更新されることになります。
@@ -103,5 +103,5 @@ Webtrends コンテンツ パックは、次のレポートのデータを取得
 ## <a name="next-steps"></a>次の手順
 [Power BI とは?](power-bi-overview.md)
 
-[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 

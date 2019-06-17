@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 285c22347f049e6b99cb97fa19efc6363d9b57cb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c4ca0332a68686feb22517ff6ac720650ce1c87d
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61163700"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721244"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>インシデント レポート用の Power BI で ServiceNow に接続する
 ServiceNow からは、ビジネスをよりよいものにするため、ビジネス、運用、IT 管理などに関する複数の製品とソリューションが提供されています。 このコンテンツ パックには、未解決のインシデント、最近解決されたインシデント、最近終了したインシデントについての複数のレポートや洞察を得られる情報が含まれています。  
@@ -63,5 +63,5 @@ ServiceNow からは、ビジネスをよりよいものにするため、ビジ
 ## <a name="next-steps"></a>次の手順
 [Power BI とは?](power-bi-overview.md)
 
-[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 

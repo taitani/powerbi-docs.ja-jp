@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
+ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187712"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66453787"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -78,7 +78,7 @@ ms.locfileid: "66187712"
 <br>作成者: Wim Coorevits および Enrique Plaza Garcia
 <br>[登録して今すぐ見る](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
-**Power BI Embedded を管理するためのベスト プラクティスでは、Analytics をマルチ テナント展開**
+**マルチテナント デプロイ用に Power BI 埋め込み分析を管理するためのベスト プラクティス**
 <br>作成者: Nimrod Shalit
 <br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
 
@@ -118,10 +118,11 @@ ms.locfileid: "66187712"
 <br>作成者: Reid Havens
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
-### <a name="partners"></a>パートナー ###
+### <a name="partner-solutions-series"></a>パートナー ソリューション シリーズ ###
+[このシリーズを見る](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
 
 **コンシューマー向け製品の製造元と小売業者が Win-Win の関係を実現する**
-<br>Thorogood から Liz McCreesh によって
+<br>作成者: Liz McCreesh (Thorogood)
 <br>[登録して今すぐ見る](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **Power BI を使用して、顧客データから小売業を成功に導く**

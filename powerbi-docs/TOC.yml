@@ -703,6 +703,8 @@
               href: service-template-apps-tips.md
             - name: テンプレート アプリのインストールと発行
               href: service-template-apps-install-distribute.md
+            - name: Power BI テンプレート アプリの更新、削除、および抽出
+              href: service-template-update-delete-extract.md
         - name: トラブルシューティング
           items:
             - name: Power BI のパスワードを忘れた場合

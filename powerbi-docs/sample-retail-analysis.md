@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 04676ee789b90eb09cbed3bafb623e8e9b89e4e4
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61239635"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720876"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の小売りの分析のサンプル:ツアーを開始する
 
@@ -165,5 +165,5 @@ ms.locfileid: "61239635"
 * [すべてのサンプル ファイルを 1 つにまとめた zip ファイルをダウンロードする](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [この Power BI サンプル Excel ブックのダウンロード](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Power BI のデータの取得](service-get-data.md)    
-* [Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)    
+* [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)    
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

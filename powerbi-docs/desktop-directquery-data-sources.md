@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/10/2019
+ms.date: 05/31/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dae93a2555101a42f072158f8536319783b3f973
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61305457"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809116"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI の DirectQuery でサポートされるデータ ソース
 
@@ -25,9 +25,10 @@ ms.locfileid: "61305457"
 
 * Amazon Redshift
 * AtScale (ベータ)
+* Azure Data Explorer
 * Azure HDInsight Spark
-* Azure SQL Database
-* Azure SQL Data Warehouse
+* [Azure SQL Database](service-azure-sql-database-with-direct-connect.md)
+* [Azure SQL Data Warehouse](service-azure-sql-data-warehouse-with-direct-connect.md)
 * Google BigQuery
 * HDInsight 対話型クエリ
 * IBM DB2 データベース
@@ -57,22 +58,39 @@ ms.locfileid: "61305457"
 
 | Source | ゲートウェイが必要 |
 | --- | --- |
-| SQL Server |はい |
+| Amazon Redshift |いいえ |
+| Azure HDInsight Spark (Beta) |いいえ |
 | Azure SQL Database |いいえ |
 | Azure SQL Data Warehouse |いいえ |
-| SAP HANA |はい |
-| Oracle データベース |はい |
-| Teradata データベース |はい |
-| Amazon Redshift |いいえ |
-| Impala (バージョン 2.x) |はい |
-| Snowflake |はい |
-| Spark (ベータ) バージョン 0.9 以降 |はい |
-| Azure HDInsight Spark (Beta) |いいえ |
+| Google BigQuery |いいえ |
 | IBM Netezza |はい |
+| Impala (バージョン 2.x) |はい |
+| Oracle データベース |はい |
 | SAP Business Warehouse Application サーバー |はい |
 | SAP Business Warehouse メッセージ サーバー |現時点では、**Power BI サービス**でサポート対象外 |
-| Google BigQuery |いいえ |
+| SAP HANA |はい |
+| Snowflake |はい |
+| Spark (ベータ) バージョン 0.9 以降 |はい |
+| SQL Server |はい |
+| Teradata データベース |はい |
 
+## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery ソースのシングル サインオン (SSO)
+
+SSO オプションが有効になっている場合、データ ソースを基に作成されたレポートにユーザーがアクセスすると、Power BI によって基になるデータ ソースへのクエリで、認証済みの Azure AD 資格情報が送信されます。 これにより、Power BI はデータ ソース レベルで構成されているセキュリティ設定を適用できます。
+
+SSO オプションは、このデータ ソースを使うすべてのデータセットで有効になります。 インポートのシナリオに使われる認証方法には影響しません。 次のデータ ソースでは、DirectQuery 経由の接続で SSO をサポートします。
+
+- Azure SQL Database
+- Azure SQL Data Warehouse
+- Impala
+- SAP HANA
+- SAP BW
+- Spark
+- SQL Server
+- Teradata
+
+> [!Note]
+> Azure Multi-Factor Authentication (MFA) はサポートされていません。 DirectQuery で SSO を使用する必要があるユーザーは、MFA から除外する必要があります。
 
 ## <a name="next-steps"></a>次の手順
 DirectQuery の詳細については、次のリソースを参照してください。

@@ -11,52 +11,52 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c8789d47ed1b67f9fd6808865514120457a29dfe
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ec70f4c9d6f3e6f51210a32f7efac7f160f462cb
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051261"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66498025"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
 Power BI の新しい SharePoint Online 用レポート Web パーツでは、対話型の Power BI レポートを SharePoint Online のページに簡単に埋め込むことができます。
 
-新しいを使用する場合**SharePoint Online に埋め込む**オプション、埋め込みのレポートは完全にセキュリティで保護された、セキュリティで保護された内部ポータルを簡単に作成できるようにします。
+新しい **[SharePoint Online に埋め込む]** オプションを使うと、埋め込まれたレポートは完全に安全なので、簡単にセキュリティで保護された内部ポータルを作成できます。
 
 ## <a name="requirements"></a>要件
 
-**SharePoint Online に埋め込む**するのには、レポート、次が必要です。
+**[SharePoint Online に埋め込む]** レポートが機能するためには、次が必要です。
 
-* Power BI Pro ライセンスまたは[Power BI Premium 容量 (EM または P SKU)](service-premium-what-is.md) Power BI ライセンスを持つ。
+* Power BI Pro ライセンス、または Power BI ライセンスがある [Power BI Premium 容量 (EM または P SKU)](service-premium-what-is.md)。
 * SharePoint Online の Power BI Web パーツには、[最新式のページ](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)が必要です。
 
 ## <a name="embed-your-report"></a>レポートを埋め込む
-SharePoint Online にレポートを埋め込むには、レポートの URL を取得し、SharePoint Online の新しい Power BI の web パーツで使用する必要があります。
+SharePoint Online にレポートを埋め込むには、レポートの URL を取得し、SharePoint Online の Power BI Web パーツでその URL を使う必要があります。
 
-### <a name="get-a-report-url"></a>レポートの URL を取得します。
+### <a name="get-a-report-url"></a>レポートの URL を取得する
 
 1. Power BI 内でレポートを表示します。
 
-2. 選択、**ファイル**ドロップダウン メニューで、選択し、 **SharePoint Online に埋め込む**します。
+2. **[ファイル]** ドロップダウン メニューを選び、その後 **[SharePoint Online に埋め込む]** を選びます。
 
     ![[ファイル] メニュー](media/service-embed-report-spo/powerbi-file-menu.png)
 
-3. ダイアログ ボックスから、レポートの URL をコピーします。
+3. ダイアログからレポートの URL をコピーします。
 
     ![リンクを埋め込む](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Power BI レポートを SharePoint Online のページに追加する
 
-1. SharePoint Online でターゲット ページを開き、選択**編集**します。
+1. SharePoint Online で目的のページを開き、 **[編集]** を選びます。
 
     ![SP の編集ページ](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
-    Sharepoint Online で、次のように選択します。 または、 **+ 新規**新しい最新式のサイト ページを作成します。
+    または、SharePoint Online で **[+ 新規]** を選んで、最新式のサイト ページを新しく作成します。
 
     ![SP の新しいページ](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
-2. 選択、 **+** ドロップダウンを選び、 **Power BI**します。
+2. **+** ドロップダウンを選び、その後 **[Power BI]** Web パーツを選びます。
 
     ![SP の新しい Web パーツ](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
@@ -64,7 +64,7 @@ SharePoint Online にレポートを埋め込むには、レポートの URL を
 
     ![SP の新しいレポート](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)  
 
-4. コピーしたレポートの URL を貼り付け、 **Power BI のレポート リンク**ウィンドウ。 レポートは自動的に読み込まれます。
+4. 前にコピーしたレポートの URL を **[Power BI report link]\(Power BI のレポート リンク\)** ペインにコピーします。 レポートは自動的に読み込まれます。
 
     ![SP の新しい Web パーツのプロパティ](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -74,30 +74,30 @@ SharePoint Online にレポートを埋め込むには、レポートの URL を
 
 ## <a name="grant-access-to-reports"></a>レポートへのアクセスを許可する
 
-SharePoint Online にレポートを埋め込むことが自動的にユーザー権限を与えるレポートを表示する - Power BI のアクセス許可の表示を設定する必要があります。
+SharePoint Online にレポートを埋め込んだだけで、レポートを表示するアクセス許可が自動的にユーザーに与えられることはありません。Power BI で表示アクセス許可を設定する必要があります。
 
 > [!IMPORTANT]
 > Power BI サービスでレポートを表示できるユーザーを確認し、一覧に含まれないユーザーにアクセスを許可します。
 
-Power BI でレポートへのアクセスを提供する 2 つの方法はあります。 SharePoint Online チーム サイトを構築する Office 365 グループを使用している場合、最初の方法は、のメンバーとしてユーザーを一覧表示する、 **Power BI サービス内でアプリ ワークスペース**と**SharePoint ページ**します。 詳しくは、[アプリ ワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)方法に関する記事をご覧ください。
+Power BI でレポートへのアクセスを許可するには 2 つの方法があります。 1 番目の方法は、Office 365 グループを使用して SharePoint Online のチーム サイトを構築している場合、**Power BI サービス内のアプリ ワークスペース**および **SharePoint ページ**のメンバーとしてユーザーをリストすることです。 詳しくは、[アプリ ワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)方法に関する記事をご覧ください。
 
-2 番目の方法では、アプリ内でレポートを埋め込むし、ユーザーと直接共有します。  
+2 番目の方法は、アプリ内にレポートを埋め込んでユーザーと直接に共有することです。  
 
-1. 作成者 (Pro ユーザーにする必要があります) では、アプリ ワークスペースにレポートを作成します。 共有する**Power BI 無料ユーザー**、として設定する必要があるアプリ ワークスペースを**Premium ワークスペース**します。
+1. 作成者は (Pro ユーザーである必要があります)、アプリ ワークスペースにレポートを作成します。 "*Power BI 無料ユーザー*" と共有するには、アプリ ワークスペースを "*Premium ワークスペース*" として設定する必要があります。
 
-2. 作成者は、アプリを発行し、それをインストールします。 作成者は、SharePoint Online に埋め込むために使用するレポートの URL にアクセスするアプリをインストールすることを確認する必要があります。
+2. 作成者は、アプリを発行し、インストールします。 作成者は、アプリをインストールして、SharePoint Online に埋め込むために使用されるレポートの URL にアクセスできるようにする必要があります。
 
-3. すべてのエンド ユーザーも、アプリをインストールする必要があります。 使用することも、**アプリを自動的にインストール**で有効にするには、機能、 [Power BI 管理ポータル](service-admin-portal.md)、アプリをエンドユーザーの事前インストールします。
+3. すべてのエンド ユーザーも、アプリをインストールする必要があります。 [Power BI 管理ポータル](service-admin-portal.md)で有効にできる **[アプリを自動的にインストールします]** 機能を使用して、エンド ユーザーにアプリがプレインストールされるようにすることもできます。
 
    ![アプリを自動的にインストールします](media/service-embed-report-spo/install-app-automatically.png)
 
 4. 作成者は、アプリを開いて、レポートに移動します。
 
-5. 作成者は、レポート、アプリがインストールされてから、埋め込みレポートの URL をコピーします。 **アプリ ワークスペースから、元のレポートの URL を使用しないでください。**
+5. 作成者は、アプリによってインストールされたレポートから埋め込みレポート URL をコピーします。 アプリ ワークスペースから元のレポートの URL を使用しないでください。
 
 6. SharePoint Online で新しいチーム サイトを作成します。
 
-7. Power BI web パーツにレポートのコピーの以前の URL を追加します。
+7. 前にコピーしたレポートの URL を、Power BI Web パーツに追加します。
 
 8. SharePoint Online ページや作成した Power BI アプリでデータを使用するすべてのエンド ユーザーおよびグループを追加します。
 
@@ -108,36 +108,36 @@ Power BI でレポートへのアクセスを提供する 2 つの方法はあ�
 
 ## <a name="multi-factor-authentication"></a>多要素認証
 
-Power BI 環境で多要素認証を使ったサインインが必要な場合は、ID 確認のためにセキュリティ デバイスでのサインインを求められることがあります。 これは、多要素認証を使用して SharePoint Online にサインインしていないことが、Power BI 環境には、アカウントを検証するセキュリティ デバイスが必要な場合に発生します。
+Power BI 環境で多要素認証を使ったサインインが必要な場合は、ID 確認のためにセキュリティ デバイスでのサインインを求められることがあります。 これは、ユーザーが多要素認証を使わずに SharePoint Online にサインインしているのに、Power BI 環境でアカウントの検証にセキュリティ デバイスが必要とされる場合に発生します。
 
 > [!NOTE]
-> Azure Active Directory 2.0 が多要素認証をサポートしていません - ユーザー エラー メッセージが表示されます。 ユーザーがセキュリティ デバイスを使って SharePoint Online に再度サインインした場合、レポートを表示できることがあります。
+> Power BI では Azure Active Directory 2.0 での多要素認証はまだサポートされていません。ユーザーにエラー メッセージが表示されます。 ユーザーがセキュリティ デバイスを使って SharePoint Online に再度サインインした場合、レポートを表示できることがあります。
 
 ## <a name="web-part-settings"></a>Web パーツの設定
 
-SharePoint Online の Power BI web パーツの調整できる設定を以下に示します。
+SharePoint Online 用の Power BI Web パーツに対して調整できる設定について以下に示します。
 
 ![SP の Web パーツのプロパティ](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
 
 | プロパティ | 説明 |
 | --- | --- |
 | ページ名 |Web パーツの既定のページを設定します。 ドロップダウンから値を選びます。 ドロップダウンにページが表示されない場合は、レポートが 1 ページであるか、または貼り付けた URL にページ名が含まれています。 特定のページを選ぶには、URL からレポート セクションを削除します。 |
-| 表示 |レポートが SharePoint Online のページ内に収める方法を調整します。 |
+| 表示 |レポートを SharePoint Online のページ内に収める方法を調整します。 |
 | ナビゲーション ウィンドウの表示 |ページ ナビゲーション ウィンドウの表示と非表示を切り替えます。 |
 | Show Filter Pane (フィルター ウィンドウの表示) |フィルター ウィンドウの表示と非表示を切り替えます。 |
 
 ## <a name="reports-that-do-not-load"></a>読み込まれないレポート
 
-Power BI web パーツにレポートが読み込まれない場合は、次のメッセージを参照してください可能性があります。
+レポートが Power BI Web パーツに読み込まれない場合、次のメッセージが表示されることがあります。
 
-![このコンテンツは使用可能なメッセージ](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![[このコンテンツは使用できません] メッセージ](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 このメッセージには 2 つの一般的な理由があります。
 
-1. レポートへのアクセスはありません。
+1. レポートへのアクセス許可がありません。
 2. レポートが削除されました。
 
-この問題を解決するために SharePoint Online のページの所有者にお問い合わせください。
+問題を解決するには、SharePoint Online ページの所有者に連絡してください。
 
 ## <a name="licensing"></a>ライセンス
 
@@ -151,7 +151,7 @@ Power BI web パーツにレポートが読み込まれない場合は、次の�
   
   1. SharePoint からサインアウトし、再度サインインします。 再度サインインする前に、必ずすべてのブラウザー ウィンドウを閉じてください。
 
-  2. ユーザー アカウントには、多要素認証 (MFA) が必要とする場合、SharePoint へのサインイン MFA デバイス (電話アプリ、スマート カードなど) を使用します。
+  2. ユーザー アカウントに多要素認証 (MFA) が必要な場合は、MFA デバイス (電話アプリやスマート カードなど) を使用して SharePoint にサインインしてください。
   
   3. Azure B2B ゲスト ユーザー アカウントはサポートされていません。 ユーザーにはパーツを読み込み中であることを示す Power BI のロゴが表示されますが、レポートは表示されません。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9029d5b6268cacf17fc862a4c0a3d19f440f7de1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6fa16cf59ece7f701fc50f1914138b9ca5362c45
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61164012"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720464"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Power BI で Lithium に接続する
 Lithium は、人々が回答を得たり、エクスペリエンスを共有したりするのを手助けして、世界最高のブランドと顧客との間に信頼関係を築きます。 Lithium コンテンツ パックを Power BI に接続してオンライン コミュニティに関する主要指標を測定すると、販売の促進、サービス コストの削減、ロイヤルティの向上に役立ちます。 
@@ -60,5 +60,5 @@ Lithium コンテンツ パックには、Lithium Community v15.9 以降が必�
 ## <a name="next-steps"></a>次の手順
 [Power BI とは?](power-bi-overview.md)
 
-[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 

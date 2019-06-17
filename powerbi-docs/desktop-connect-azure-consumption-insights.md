@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4c2ef62dc3ea8aac9c4a0d30ba4dba58e2279490
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61325653"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469822"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop で Azure のコストと使用状況のデータを分析する
 
@@ -24,15 +24,15 @@ Power BI Desktop で Azure に接続し、組織の Azure サービスの使用�
 
 Power BI は現在、Enterprise Agreement および Customer Agreement の請求先アカウントへの接続をサポートしています。
 
-* **Enterprise Agreement**でユーザーが接続する必要があります、 **Azure Consumption Insights コネクタ**します。
+* **Enterprise Agreement** ユーザーは、**Azure Consumption Insights コネクタ**に接続する必要があります。
 
-* **顧客契約**でユーザーが接続する必要があります、 **Azure Cost Management のコネクタ**します。
+* **Customer Agreement** ユーザーは、**Azure Cost Management コネクタ**に接続する必要があります。
 
 ## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights に接続する
 
 Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請求先アカウントに接続できます。
 
-このセクションでは、接続して必要なデータを取得する方法と、Azure Enterprise Connector の使用からの移行方法について説明します。また、**ACI** (Azure Consumption Insights) API で使用可能な "*使用状況の詳細列*" のマッピングについても説明します。
+このセクションでは、必要なデータを取得する方法と、Azure Enterprise Connector の使用からの移行方法について説明します。また、**ACI** (Azure Consumption Insights) API で使用可能な "*使用状況の詳細列*" のマッピングについても説明します。
 
 **Azure Consumption Insights** コネクタを使用して正常に接続するには、Azure Portal 内の Enterprise 機能にアクセスする必要があります。
 
@@ -45,9 +45,9 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
 * 登録番号は、次の画像に示されている場所で、[Azure Enterprise Portal](https://ea.azure.com) から取得できます。
-  
+
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
-  
+
   このバージョンのコネクタでサポートされるのは、 https://ea.azure.com からのエンタープライズ登録のみです。 現在、中国での登録はサポートされていません。
 
 次に、接続するための*アクセス キー*を指定します。
@@ -55,11 +55,11 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
 * 登録用のアクセス キーは [Azure Enterprise Portal](https://ea.azure.com) で確認できます。
-  
+
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-"*アクセス キー*" を指定して **[接続]** を選択すると、 **[ナビゲーター]** ウィンドウが開き、使用可能な 9 つのテーブルが表示されます。 
-* **Budgets**:既存の予算目標に対する実際のコストや使用状況を表示するための予算の詳細が提供されます。 
+"*アクセス キー*" を指定して **[接続]** を選択すると、 **[ナビゲーター]** ウィンドウが開き、使用可能な 9 つのテーブルが表示されます。
+* **Budgets**:既存の予算目標に対する実際のコストや使用状況を表示するための予算の詳細が提供されます。
 * **MarketPlace**:使用状況に基づく Azure Marketplace の料金が提供されます。
 * **PriceSheets**:登録のメーターごとに適用できる割合が提供されます。
 * **RICharges**:過去 24 か月の間の予約インスタンスに関連付けられている料金が提供されます。
@@ -75,8 +75,8 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 
 > [!NOTE]
 > *Summary* と *PriceSheet* テーブルを使用できるのは、登録レベルの API キーの場合のみです。 また、これらのテーブル内のデータには、既定で *Usage* と *PriceSheet* の現在の月のデータが含まれます。 *Summary* と *MarketPlace* テーブルは現在の月に制限されません。
-> 
-> 
+>
+>
 
 **[読み込み]** を選択すると、**Power BI Desktop** にデータが読み込まれます。
 
@@ -141,7 +141,7 @@ Azure には、空のクエリを使用して取得できる、サンプルの�
 
 1. メモ帳 (または他のテキスト エディター) を開きます。
 2. 移動するメジャーを選択し、 *[数値]* フィールドからテキストをコピーして、メモ帳に配置します。
-   
+
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. *Query1* を元の詳細テーブルの名前に変更します。
 4. テーブルを右クリックし、 **[新しいメジャー]** を選択して、テーブルに新しいメジャーとカスタム列を作成します。次に格納されているメジャーと列を切り取って貼り付けます (すべてのメジャーと列に対して繰り返します)。
@@ -150,7 +150,7 @@ Azure には、空のクエリを使用して取得できる、サンプルの�
 多くのダッシュボードには、日付テーブルやカスタム プロジェクトで使用されるテーブルなど、検索またはフィルタリングに使用されるテーブルが追加されています。 これらのリレーションシップを再確立することで、未解決のほとんどの問題が解決されます。 その方法を次に示します。
 
 - **Power BI Desktop** の **[モデリング]** タブで、 **[リレーションシップの管理]** を選択し、モデル内のリレーションシップを管理できるウィンドウを表示します。 必要に応じて、テーブルを再リンクします。
-   
+
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>手順 5:ビジュアルを確認し、必要に応じてフィールドの書式設定を調整する
@@ -215,9 +215,9 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 このセクションでは、Customer Agreement 請求先アカウントに接続する方法を説明します。
 
 > [!NOTE]
-> Azure Cost Management のコネクタは現在のお客様をサポート、**顧客契約**します。  **Enterprise Agreement**お客様が Microsoft Azure Consumption Insights コネクタを使用する必要があります。
-> 
-> 
+> Azure Cost Management コネクタでは現在のところ、**Customer Agreement** のお客様をサポートしています。  **Enterprise Agreement** のお客様は、Azure Consumption Insights コネクタをご利用ください。
+>
+>
 
 **Azure Cost Management** コネクタを使用して接続するには、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得]** を選択します。  左側のカテゴリから **[Azure]** を選ぶと、 **[Azure Cost Management (Beta)]** が表示されます。 **[接続]** を選択します。
 
@@ -234,7 +234,7 @@ Azure Portal の詳細の列と名前は、API とコネクタのものと似て
 Azure のメール アドレスとパスワードでログインするように求められます。  認証すると、 **[ナビゲーター]** ウィンドウが開き、使用可能な12 個のテーブルが表示されます。
 
 * **Billing events**:新しい請求書やクレジットでの購入などのイベント ログが提供されます。
-* **Budgets**:既存の予算目標に対する実際のコストや使用状況を表示するための予算の詳細が提供されます。 
+* **Budgets**:既存の予算目標に対する実際のコストや使用状況を表示するための予算の詳細が提供されます。
 * **Charges**:Azure の使用状況、マーケットプレイスの料金、および別請求の料金についての月レベルの概要が提供されます。
 * **Credit lots**:指定された課金プロファイルの Azure クレジット ロット購入の詳細が提供されます。
 * **Credit summary**:指定された課金プロファイルのクレジットの概要が提供されます。
@@ -257,6 +257,8 @@ Azure のメール アドレスとパスワードでログインするように�
 選択したデータが読み込まれると、選択したテーブルとフィールドが **[フィールド]** ウィンドウに表示されます。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
+
+Azure Consumption Insights を使用して Power BI デスクトップでコスト データを確認する方法については、「[How to analyze spending in Power BI with Azure Consumption Insights](https://www.youtube.com/watch?v=QKBMXXrlpEk)」 (Power BI と Azure Consumption Insights で支出を分析する方法) という動画をご覧ください。
 
 ## <a name="writing-custom-queries"></a>カスタム クエリの作成
 
@@ -288,4 +290,3 @@ Power BI Desktop を使用して接続できるデータの種類は他にもあ
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop で Excel ブックに接続する](desktop-connect-excel.md)   
 * [Power BI Desktop にデータを直接入力する](desktop-enter-data-directly-into-desktop.md)   
-

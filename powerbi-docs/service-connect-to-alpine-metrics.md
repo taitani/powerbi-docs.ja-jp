@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5162edf7035918289d0f45ec71a0e908fc444cbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 73a469c1625d24c20deaa01237c10dd6459db65c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61181836"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720514"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Power BI で Alpine Metrics Sales Predictions に接続する
 Alpine Metrics は、さまざまな規模の販売組織が利用できる、最新の予測販売プロセス最適化をクラウドやオンデマンドで提供します。 Power BI 用 Alpine Metrics Sales Predictions コンテンツ パックには、売上予測や潜在的リスクなどのメトリックが含まれています。これらのメトリックを使用して、ビジネスの将来に関する深い洞察を得ることができます。 
@@ -68,5 +68,5 @@ Power BI 用 [Alpine Metrics Sales Predictions コンテンツ パック](https:
 ## <a name="next-steps"></a>次の手順
 [Power BI とは?](power-bi-overview.md)
 
-[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5afb79f52c4717887ba16d9ca43f913ba3446627
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 41b390190f8ce3c071f790edcdf86f0e3bd4a0c2
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61178355"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721310"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Power BI で AT Internet Bridge に接続する
 AT Internet 社が提供する統合デジタル分析プラットフォーム Analytics Suite を使用すると、データからイミディエイト値を抽出できます。 Power BI 用 AT Internet Bridge コンテンツ パックには、ユーザーのサイトに関する、訪問者、ソース、ローカライズ、およびデバイスのデータが格納されます。
@@ -61,5 +61,5 @@ Power BI 用 [AT Internet Bridge コンテンツ パック](https://app.powerbi.
 ## <a name="next-steps"></a>次の手順
 [Power BI とは?](power-bi-overview.md)
 
-[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 

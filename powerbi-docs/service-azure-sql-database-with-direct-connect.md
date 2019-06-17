@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f03f4933566a8c18510ef0ce07b71db61ecfa8fd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770602"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448397"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database と DirectQuery
 
@@ -42,28 +42,15 @@ DirectQuery を使用すると、レポート ビューでデータを調べる�
 
 DirectQuery を使用して Azure SQL Database に接続するには、Power BI Desktop を使用する必要があります。 この方法でさらに柔軟性と機能が向上します。 Power BI Desktop を使用して作成したレポートを、Power BI サービスに発行できます。 Power BI Desktop で DirectQuery を使用して Azure SQL Database に接続する方法の詳細については、「[Power BI Desktop の DirectQuery](desktop-use-directquery.md)」をご覧ください。
 
-## <a name="single-sign-on"></a>シングル サインオン
-
-Azure SQL の DirectQuery データセットをサービスに発行した後は、Azure Active Directory (Azure AD) OAuth2 を使用して、エンドユーザーのシングル サインオン (SSO) を有効にできます。
-
-SSO を有効にするには、データセットの設定に移動し、 **[データ ソース]** タブを開いて、SSO のチェック ボックスをオンにします。
-
-![Azure SQL DQ の構成ダイアログ ボックス](media/service-azure-sql-database-with-direct-connect/sso-dialog.png)
-
-SSO オプションが有効になっている場合、データ ソースを基に作成されたレポートにユーザーがアクセスすると、Power BI は Azure SQL Database へのクエリで、認証済みの Azure AD 資格情報を送信します。 これにより、Power BI はデータ ソース レベルで構成されているセキュリティ設定を適用できます。
-
-SSO オプションは、このデータ ソースを使うすべてのデータセットで有効になります。 インポートのシナリオに使われる認証方法には影響しません。
-
-> [!Note]
-> Azure Multi-Factor Authentication (MFA) はサポートされていません。 Azure SQL DirectQuery で SSO の使用を望むユーザーは、MFA から除外する必要があります。
-
 ## <a name="finding-parameter-values"></a>パラメーターの値の見つけ方
 
-完全修飾サーバー名とデータベース名は、Azure Portal に記されています。
+完全修飾サーバー名とデータベース名は、Azure portal に表示されています。
 
-![新しい更新プログラムを Azure ポート](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
+![新しい Azure ポートの更新](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
-![Azure ポータルの更新](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+![Azure portal の更新](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>次の手順
 

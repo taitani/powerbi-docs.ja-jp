@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4c9e6a925a783d810bc4d097ec18806c3d33d99
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 62bec222a3f948612db63c386e10c0afe9762bb4
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226579"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721430"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI の組織のコンテンツ パックへの接続を削除する
 
@@ -36,6 +36,6 @@ ms.locfileid: "61226579"
 ## <a name="next-steps"></a>次の手順
 * [組織のコンテンツ パックの概要](service-organizational-content-pack-introduction.md) 
 * [Power BI でのアプリの作成および配布](service-create-distribute-apps.md) 
-* [Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)  
+* [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)  
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

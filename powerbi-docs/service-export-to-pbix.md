@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5c42b633b3c8746d2e26656eb5310b1f74cb2500
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 296970466505f01ae9ad11f994fe2008563f4884
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61159839"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720205"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI サービスからデスクトップにレポートをエクスポートする (プレビュー)
 Power BI Desktop では、レポートを保存して **[発行]** を選ぶことにより、レポートを Power BI サービスにエクスポートできます (*ダウンロード* ともいいます)。 反対の方向にもエクスポートでき、Power BI サービスから Desktop にレポートをダウンロードできます。 どちらの方向でも、エクスポートされたファイルの拡張子は *.pbix* です。
@@ -68,7 +68,7 @@ Power BI サービスからの *.pbix* ファイルのダウンロード (エク
 また、**Power BI サービス**の使い方を知るのに役立つ記事を以下に示します。
 
 * [Power BI のレポート](consumer/end-user-reports.md)
-* [Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+* [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
 以下のガイドは、**Power BI Desktop** をインストールした後で、すばやく作業を開始するのに役立ちます。
 

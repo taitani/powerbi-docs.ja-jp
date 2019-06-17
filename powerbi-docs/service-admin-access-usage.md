@@ -1,6 +1,6 @@
 ---
 title: サインインした Power BI ユーザーを見つける
-description: テナント管理者は、して Power BI にサインインしたユーザーを表示する場合は、表示する Azure Active Directory のアクセスおよび使用状況レポートを使用できます。
+description: テナント管理者が Power BI にサインインしたユーザーを確認するには、Azure Active Directory アクセスと使用状況レポートを使用して、ユーザーを表示します。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,27 +10,25 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e513607dd89aee15f10145cf62bd461621cc12c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7149d8601aa7a834f91a8d98f3a7a9deac7bf43b
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906743"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721320"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>サインインした Power BI ユーザーを見つける
 
-テナント管理者の場合に Power BI を使用して署名したユーザーを表示する場合、 [Azure Active Directory のアクセスおよび使用状況レポート](/azure/active-directory/reports-monitoring/concept-sign-ins)可視性を取得します。
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
+テナント管理者が Power BI にサインインしたユーザーを確認するには、[Azure Active Directory アクセスと使用状況レポート](/azure/active-directory/reports-monitoring/concept-sign-ins)を使用して、ユーザーを表示します。
 
 > [!NOTE]
-> **サインイン**レポートが有益な情報を提供しますが、各ユーザーがライセンスの種類を識別しません。 ライセンスを表示するには、Microsoft 365 管理センターを使用します。
+> **サインイン** レポートでは役に立つ情報が提供されますが、各ユーザーが持つライセンスの種類は示されません。 ライセンスを表示するには、Microsoft 365 管理センターを使用します。
 
 ## <a name="requirements"></a>要件
 
 (非管理者を含む) すべてのユーザーが自分のサインインのレポートを表示できますが、すべてのユーザーに関するレポートを表示するには、次の要件を満たす必要があります。
 
-* Azure Active Directory Premium ライセンスが関連付けられて、テナントが必要です。
+* テナントには Azure Active Directory Premium ライセンスが関連付けられている必要があります。
 
 * 次のいずれかのロールである必要があります:全体管理者、セキュリティ管理者、セキュリティ閲覧者。
 
@@ -42,29 +40,29 @@ ms.locfileid: "64906743"
 
 1. **[監視]** で **[サインイン]** を選択します。
    
-    ![強調表示されている Azure Active Directory とサインインのオプションを使用して Azure の UI のスクリーン ショット。](media/service-admin-access-usage/azure-portal-sign-ins.png)
+    ![[Azure Active Directory] オプションと [サインイン] オプションが強調表示されている Azure UI のスクリーンショット。](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
 1. **[Microsoft Power BI]** または **[Power BI Gateway]** のいずれかを選択して、アプリケーションをフィルター処理し、 **[適用]** を選択します。
 
-    **Microsoft Power BI**は、サインイン アクティビティにフィルターが、サービスに関連する**Power BI Gateway**サインイン アクティビティ、オンプレミス データ ゲートウェイを特定するためのフィルター。
+    **Microsoft Power BI** では、サービス関連のサインイン アクティビティでフィルター処理されます。一方、**Power BI Gateway** では、オンプレミス データ ゲートウェイに固有のサインイン アクティビティでフィルター処理されます。
    
-    ![強調表示されているアプリケーションのフィールドでのサインインのフィルターのスクリーン ショット。](media/service-admin-access-usage/sign-in-filter.png)
+    ![[アプリケーション] フィールドが強調表示されているサインイン フィルターのスクリーンショット。](media/service-admin-access-usage/sign-in-filter.png)
 
 ## <a name="export-the-data"></a>データをエクスポートする
 
-できます[サインイン レポートのダウンロード](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report)で 2 つの形式のいずれかの: CSV ファイル、または JSON ファイルです。
+CSV ファイル形式または JSON ファイル形式で[サインイン レポートをダウンロード](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report)できます。
 
-![[ダウンロード] ボタンのスクリーン ショット。](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![[ダウンロード] ボタンのスクリーンショット。](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
-上部にある、**サインイン**レポートで、**ダウンロード**し、次のオプションのいずれかを選択します。
+**サインイン** レポートの先頭で、 **[ダウンロード]** を選択し、次のオプションのいずれかを選択します。
 
-* **CSV**をフィルター処理されているデータを CSV ファイルをダウンロードします。
+* **[CSV]** : 現在フィルター処理されているデータの CSV ファイルをダウンロードします。
 
-* **JSON**現在フィルター処理されたデータの JSON ファイルをダウンロードします。
+* **[JSON]** : 現在フィルター処理されているデータの JSON ファイルをダウンロードします。
 
 ## <a name="data-retention"></a>データのリテンション期間
 
-サインイン関連のデータは、最大 30 日間使用できます。 詳細については、次を参照してください。 [Azure Active Directory レポートの保持ポリシー](/azure/active-directory/reports-monitoring/reference-reports-data-retention)します。
+サインイン関連のデータは、最大 30 日間使用できます。 詳しくは、「[Azure Active Directory レポートの保持ポリシー](/azure/active-directory/reports-monitoring/reference-reports-data-retention)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 

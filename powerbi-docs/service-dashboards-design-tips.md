@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a113cf75ae238b19cdc54b03ffc049bdcdfb8368
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0e523707caa38c808c777eb29bb8dcbdc6af5ebf
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150333"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721213"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>優れた Power BI ダッシュボードのデザインに関するヒント
 ダッシュボードの作成が完了し、タイルもいくつか追加したので、ダッシュボードの外観をよくすることに加えて、機能的なものにする方法についても考えてみましょう。 通常、この改良は、最も重要な情報を目立つようにしたり、簡潔ですっきりとした外観にしたりすることです。
@@ -81,5 +81,5 @@ Microsoft Principal Program Manager と Power BI ダッシュボード エキス
 
 ## <a name="next-steps"></a>次の手順
 [レポートからダッシュボードを作成する](service-dashboard-create.md)  
-[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)  
+[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

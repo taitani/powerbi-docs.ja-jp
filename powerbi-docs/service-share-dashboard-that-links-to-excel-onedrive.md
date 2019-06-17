@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9a99344438108d2f092220dfa1c66895355aeda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61402989"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721433"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive の Excel ファイルにリンクする Power BI ダッシュボードを共有する
 Power BI では、[OneDrive for Business 上にある Excel ブックに接続](service-excel-workbook-files.md)し、そのブックからダッシュボードにタイルをピン留めできます。 そのダッシュボードを共有した場合か、そのダッシュボードを含むコンテンツ パックを作成した場合、次のようになります。
@@ -56,6 +56,6 @@ Power BI のワークスペースからのダッシュボードの共有は個�
 
 ## <a name="next-steps"></a>次の手順
 * [Excel から Power BI ダッシュボードにタイルをピン留めする](service-dashboard-pin-tile-from-excel.md)
-* [Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+* [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

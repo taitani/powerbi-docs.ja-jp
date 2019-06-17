@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9836cd88bef5066f61a8ae44eabe7685196e2bed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624943"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720889"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI で Q&A のライブ接続を有効にする
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>オンプレミス データ ゲートウェイとは何ですか。  ライブ接続とは
-Power BI のデータセットを Power BI にインポートするか、データセットへのライブ接続を作成することができます。 ライブ「オンプレミス」としては、データセットと呼ばれますが接続を使用します。 ライブ接続は[ゲートウェイ](service-gateway-onprem.md)を使用して管理され、データとクエリはライブ クエリを使用して送受信されます。
+## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>オンプレミス データ ゲートウェイとは  ライブ接続とは
+Power BI のデータセットを Power BI にインポートするか、データセットへのライブ接続を作成することができます。 多くの場合、ライブ接続データセットは、"オンプレミス" と呼ばれます。 ライブ接続は[ゲートウェイ](service-gateway-onprem.md)を使用して管理され、データとクエリはライブ クエリを使用して送受信されます。
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>オンプレミス データ ゲートウェイ データセットの Q&A
 ゲートウェイ経由でアクセスするデータセットで Q&A を使用する場合は、まずデータセットを有効にしておく必要があります。
@@ -33,7 +33,7 @@ Power BI Q&A は、データ ソースのテキスト値とスキーマ値を使
 詳細については、次のトピックを参照してください。
 
 * [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)とは
-* [消費者向けの power BI Q & A](consumer/end-user-q-and-a.md)
+* [コンシューマー向けの Power BI Q&A](consumer/end-user-q-and-a.md)
 
 ## <a name="enable-qa"></a>Q&A を有効する
 データ ゲートウェイをセットアップした後、Power BI からデータに接続します。  ダッシュボードを作成します。オンプレミス データを使用するか、オンプレミス データを使用する .pbix ファイルをアップロードします。  共有されているダッシュボード、レポート、およびデータセットに、オンプレミス データが既に存在する場合もあります。
@@ -52,18 +52,18 @@ Power BI Q&A は、データ ソースのテキスト値とスキーマ値を使
 オンプレミス データに対して Q&A を有効にすると、データのサブセットがサービスにキャッシュされます。 これは、Q&A が適切なパフォーマンスで実行されることを保証するために行われます。 24 文字を超える値は、Power BI によりキャッシュ処理から除外されます。 キャッシュは、 **[Turn on Q&A for this dataset (このデータセットで Q&A を有効にする)]** をオフにして Q&A を無効にするか、データセットを削除した後、数時間以内に削除されます。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-この機能では、いくつかの制限があります。
+この機能にはいくつかの制限があります。
 
-* この機能は、最初は SQL Server 2016 Analysis Services の表形式のデータ ソースでのみ使用できます。 この機能は、表形式のデータで動作するように最適化されています。 Q & A エクスペリエンスはまだサポートされていません多次元です。 オンプレミス データ ゲートウェイによってサポートされる他のデータ ソースは、徐々に追加される予定です。
-* SQL Server Analysis Services で定義されている行レベル セキュリティに対する完全サポートは最初に使用できません。 Q & A で質問をするときに、「オートコンプリート」」と入力できる文字列値がユーザーを表示中の質問へのアクセスがありません。 ただし、レポートとグラフのビジュアルではモデルに定義されている RLS が適用されるため、基になる数値データが開示されることはありません。 この動作を制御するためのオプションが、今後の更新でリリースされる予定です。
-* オブジェクト レベル セキュリティ (OLS) はサポートされていません。 Q & A は、オブジェクト レベルのセキュリティを順守していませんし、それらへのアクセスを持たないユーザーには、テーブルまたは列の名前を表示することができます。 また、データ値が適切にセキュリティで保護されるようにするには、RLS を有効にする必要があります。 
-* ライブ接続は、オンプレミス データ ゲートウェイでのみサポートされています。 その結果、これは、personal gateway で使用できません。
+* この機能は、最初は SQL Server 2016 Analysis Services の表形式のデータ ソースでのみ使用できます。 この機能は、表形式のデータで動作するように最適化されています。 Q&A はまだ多次元に対応していません。 オンプレミス データ ゲートウェイによってサポートされる他のデータ ソースは、徐々に追加される予定です。
+* SQL Server Analysis Services で定義される行レベルのセキュリティに対する完全サポートは、初期段階では使用できません。 Q&A で質問するときに、入力中の質問の "オート コンプリート" で、ユーザーがアクセスしたことがない文字列値が表示される可能性があります。 ただし、レポートとグラフのビジュアルではモデルに定義されている RLS が適用されるため、基になる数値データが開示されることはありません。 この動作を制御するためのオプションが、今後の更新でリリースされる予定です。
+* オブジェクト レベルのセキュリティ (OLS) はサポートされていません。 Q&A はオブジェクト レベルのセキュリティを優先しませんが、テーブルまたは列名へのアクセス権がないユーザーにそれらを表示することができます。 また、データ値が適切にセキュリティで保護されるようにするには、RLS を有効にする必要があります。 
+* ライブ接続は、オンプレミス データ ゲートウェイでのみサポートされています。 結果として、これをパーソナル ゲートウェイで使用することはできません。
 
 ## <a name="next-steps"></a>次の手順
 
 - [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
 - [データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-- [Power BI:基本的な概念](consumer/end-user-basic-concepts.md)  
+- [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)  
 - [Power BI Q&A の概要](consumer/end-user-q-and-a.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

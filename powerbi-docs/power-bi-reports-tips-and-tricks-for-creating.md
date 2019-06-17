@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4d686a807d9413c15b19ff382e5ac54fb696b10b
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60973619"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721360"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop と Power BI サービスでのレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop、Power BI サービス、"*および*" Power Pivot のアドインを有効にし、Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションで、レポートを作成する場合に役立つヒントとテクニックをまとめました。
@@ -222,7 +222,7 @@ DAX は、Power BI Desktop で使用される計算式言語です。  それは
 * 『*Advanced Presentations by Design*』(高度なプレゼンテーションのデザイン)、Design Andrew Abela 著   
 
 ## <a name="next-steps"></a>次の手順
-[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)
+[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
 [Power BI のレポート](consumer/end-user-reports.md)
 

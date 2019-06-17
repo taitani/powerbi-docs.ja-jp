@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 85872b43e984a1cf9c08500bb03f6ed50baef31e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 005913bc6af73f9b20db3cff7d12733f721eef3a
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61178925"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720595"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI で Azure 監査ログに接続する
 Azure 監査ログのコンテンツ パックを利用して、監査ログに格納されている情報を分析したり、視覚化したりすることができます。 Power BI は、データを取得し、そのまま使えるダッシュボードをビルドし、取得したデータに基づくレポートを作成します。
@@ -60,8 +60,8 @@ Azure 監査ログのコンテンツ パックには、Azure portal の監査ロ
 ## <a name="finding-parameters"></a>パラメーターの見つけ方
 サブスクリプション ID を確認するには、2 つの簡単な方法があります。
 
-1. [https://portal.azure.com](https://portal.azure.com) -&gt;[参照] -&gt; [サブスクリプション] -&gt; [サブスクリプション ID]
-2. [https://manage.windowsazure.com](https://manage.windowsazure.com) -&gt;[設定] -&gt; [サブスクリプション ID]
+1. [https://portal.azure.com](https://portal.azure.com ) -&gt; [参照] -&gt; [サブスクリプション] -&gt; [サブスクリプション ID]
+2. [https://manage.windowsazure.com](https://manage.windowsazure.com ) -&gt; [設定] -&gt; [サブスクリプション ID]
 
 サブスクリプション Id は数字や文字の長いセットで、上記の手順 \#4 の例のようになります。 
 
@@ -70,5 +70,5 @@ Azure 監査ログのコンテンツ パックには、Azure portal の監査ロ
 
 ## <a name="next-steps"></a>次の手順
 [Power BI とは?](power-bi-overview.md)  
-[Power BI - 基本的な概念](consumer/end-user-basic-concepts.md)  
+[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)  
 
